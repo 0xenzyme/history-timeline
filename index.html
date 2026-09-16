@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>历史人物时间轴</title>
+    <meta name="description" content="用生卒年份把历史人物串起来" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand" id="topic-switch"></div>
+      <nav class="chapters" id="chapters" aria-label="章节"></nav>
+      <div class="search" id="search">
+        <label class="sr-only" for="search-input">搜索人物</label>
+        <input id="search-input" type="search" placeholder="搜索人物" autocomplete="off" />
+        <div id="search-results" class="search-results" hidden></div>
+      </div>
+      <div class="tools">
+        <button type="button" id="zoom-out" class="tool icon timeline-only" aria-label="缩小">−</button>
+        <button type="button" id="zoom-in" class="tool icon timeline-only" aria-label="放大">＋</button>
+        <button type="button" id="toggle-relations" class="tool timeline-only" aria-pressed="false">
+          显示全部关系
+        </button>
+        <button type="button" id="reset-view" class="tool timeline-only">复位</button>
+        <button type="button" id="exit-graph" class="tool graph-only">返回时间轴</button>
+        <div class="export-wrap" id="export-wrap">
+          <button type="button" id="export-toggle" class="tool" aria-expanded="false" aria-haspopup="true">
+            导出图片
+          </button>
+          <div id="export-menu" class="export-menu" hidden>
+            <button type="button" data-export="png">导出 PNG</button>
+            <button type="button" data-export="svg">导出 SVG</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="briefbar">
+      <p id="brief"></p>
+      <span class="hint" id="hint">
+        滚轮缩放 · 拖动平移 · 点击人物高亮一跳关系 · Shift / Alt + 滚轮上下滚动
+      </span>
+    </div>
+
+    <main class="workspace">
+      <section class="stage" id="stage">
+        <svg id="chart" role="img" aria-label="历史人物生卒时间轴"></svg>
+      </section>
+      <aside class="card" id="card" hidden></aside>
+    </main>
+
+    <footer class="legendbar" id="legend"></footer>
+
+    <div class="tooltip" id="tooltip" hidden></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
