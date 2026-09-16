@@ -1,143 +1,243 @@
 {
+  "contractVersion": 1,
   "meta": {
     "id": "rujia",
     "title": "儒学传承",
     "subtitle": "从孔子到董仲舒 · 公元前 560 — 公元前 90",
-    "range": [-560, -90]
+    "range": [
+      -560,
+      -90
+    ]
   },
-
   "lanes": [
-    { "id": "ru", "name": "儒家", "color": "#2f6f9f" },
-    { "id": "fa", "name": "法家", "color": "#8b4e3a" }
+    {
+      "id": "ru",
+      "name": "儒家",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "fa",
+      "name": "法家",
+      "color": "#8b4e3a"
+    }
   ],
-
   "people": [
     {
       "id": "kongzi",
       "name": "孔丘",
       "display": "孔子",
       "lane": "ru",
-      "birth": -551,
       "birthAccuracy": "disputed",
-      "death": -479,
       "deathAccuracy": "exact",
+      "birth": -551,
+      "death": -479,
       "birthNote": "生年取《史记》前 551 年说",
       "title": "儒家创始人",
       "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
-      "tags": ["儒家", "六经", "论语"]
+      "tags": [
+        "儒家",
+        "六经",
+        "论语"
+      ]
     },
     {
       "id": "yan-hui",
       "name": "颜回",
       "display": "颜回",
       "lane": "ru",
-      "birth": -521,
       "birthAccuracy": "approx",
-      "death": -481,
       "deathAccuracy": "approx",
+      "birth": -521,
+      "death": -481,
       "title": "孔门德行第一",
       "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
-      "tags": ["孔门", "复圣"]
+      "tags": [
+        "孔门",
+        "复圣"
+      ]
     },
     {
       "id": "zengzi",
       "name": "曾参",
       "display": "曾子",
       "lane": "ru",
-      "birth": -505,
       "birthAccuracy": "approx",
-      "death": -435,
       "deathAccuracy": "approx",
+      "birth": -505,
+      "death": -435,
       "title": "孔门弟子，以孝著称",
       "bio": "字子舆。相传《孝经》出其门，并下传子思。宋以后列四配，称宗圣。",
-      "tags": ["孔门", "孝经", "宗圣"]
+      "tags": [
+        "孔门",
+        "孝经",
+        "宗圣"
+      ]
     },
     {
       "id": "zisi",
       "name": "孔伋",
       "display": "子思",
       "lane": "ru",
-      "birth": -483,
       "birthAccuracy": "approx",
-      "death": -402,
       "deathAccuracy": "approx",
+      "birth": -483,
+      "death": -402,
       "title": "孔子之孙，《中庸》传人",
       "bio": "字子思。孟子一派尊他为曾子之后、孟子之前的枢纽；《中庸》旧题出其门。",
-      "tags": ["中庸", "述圣"]
+      "tags": [
+        "中庸",
+        "述圣"
+      ]
     },
     {
       "id": "mengzi",
       "name": "孟轲",
       "display": "孟子",
       "lane": "ru",
-      "birth": -372,
       "birthAccuracy": "approx",
-      "death": -289,
       "deathAccuracy": "approx",
+      "birth": -372,
+      "death": -289,
       "title": "战国儒家，倡性善、仁政",
       "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
-      "tags": ["性善", "仁政", "亚圣"]
+      "tags": [
+        "性善",
+        "仁政",
+        "亚圣"
+      ]
     },
     {
       "id": "xunzi",
       "name": "荀况",
       "display": "荀子",
       "lane": "ru",
-      "birth": -313,
       "birthAccuracy": "approx",
-      "death": -238,
       "deathAccuracy": "approx",
+      "birth": -313,
+      "death": -238,
       "title": "战国儒家，倡性恶、礼法",
       "bio": "赵人，三为齐稷下学宫祭酒。主性恶、重礼义师法。韩非、李斯出其门，思想亦为汉儒所取。",
-      "tags": ["性恶", "礼法", "稷下"]
+      "tags": [
+        "性恶",
+        "礼法",
+        "稷下"
+      ]
     },
     {
       "id": "hanfei",
       "name": "韩非",
       "display": "韩非子",
       "lane": "fa",
-      "birth": -280,
       "birthAccuracy": "approx",
-      "death": -233,
       "deathAccuracy": "exact",
+      "birth": -280,
+      "death": -233,
       "title": "法家集大成者",
       "bio": "韩国公子，学于荀子。使秦后为李斯所害。其书合法、术、势，为秦政所本。",
-      "tags": ["法家", "法术势"]
+      "tags": [
+        "法家",
+        "法术势"
+      ]
     },
     {
       "id": "dong-zhongshu",
       "name": "董仲舒",
       "display": "董子",
       "lane": "ru",
-      "birth": -179,
       "birthAccuracy": "approx",
-      "death": -104,
       "deathAccuracy": "approx",
+      "birth": -179,
+      "death": -104,
       "birthNote": "生卒皆为约数",
       "title": "西汉儒学家，「罢黜百家」的倡议者",
       "bio": "以「天人三策」应对武帝，提出「诸不在六艺之科孔子之术者，皆绝其道」，儒学由此成为汉家官学。著《春秋繁露》。",
-      "tags": ["儒学", "天人三策", "春秋繁露"]
+      "tags": [
+        "儒学",
+        "天人三策",
+        "春秋繁露"
+      ]
     }
   ],
-
   "relationTypes": [
-    { "id": "mentor", "name": "师承", "color": "#2f7ed8", "dash": null, "directed": true },
-    { "id": "kin", "name": "亲族", "color": "#4a9c5d", "dash": null, "directed": false },
-    { "id": "peer", "name": "同僚", "color": "#9b7cbf", "dash": "2 3", "directed": false },
-    { "id": "rival", "name": "敌对", "color": "#d0503c", "dash": "6 3", "directed": false }
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#2f7ed8",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#d0503c",
+      "dash": "6 3",
+      "directed": false
+    }
   ],
-
   "relations": [
-    { "source": "kongzi", "target": "yan-hui", "type": "mentor", "note": "孔门德行科" },
-    { "source": "kongzi", "target": "zengzi", "type": "mentor", "note": "孔门弟子" },
-    { "source": "kongzi", "target": "zisi", "type": "kin", "note": "祖孙" },
-    { "source": "zengzi", "target": "zisi", "type": "mentor", "note": "传统道统所记" },
-    { "source": "zisi", "target": "mengzi", "type": "mentor", "note": "孟子之学出子思之门" },
-    { "source": "xunzi", "target": "hanfei", "type": "mentor", "note": "韩非学于荀子" },
-    { "source": "mengzi", "target": "xunzi", "type": "rival", "note": "性善与性恶" },
-    { "source": "xunzi", "target": "dong-zhongshu", "type": "peer", "note": "礼法与天人，皆为汉儒所资" }
+    {
+      "source": "kongzi",
+      "target": "yan-hui",
+      "type": "mentor",
+      "note": "孔门德行科"
+    },
+    {
+      "source": "kongzi",
+      "target": "zengzi",
+      "type": "mentor",
+      "note": "孔门弟子"
+    },
+    {
+      "source": "kongzi",
+      "target": "zisi",
+      "type": "kin",
+      "note": "祖孙"
+    },
+    {
+      "source": "zengzi",
+      "target": "zisi",
+      "type": "mentor",
+      "note": "传统道统所记"
+    },
+    {
+      "source": "zisi",
+      "target": "mengzi",
+      "type": "mentor",
+      "note": "孟子之学出子思之门"
+    },
+    {
+      "source": "xunzi",
+      "target": "hanfei",
+      "type": "mentor",
+      "note": "韩非学于荀子"
+    },
+    {
+      "source": "mengzi",
+      "target": "xunzi",
+      "type": "rival",
+      "note": "性善与性恶"
+    },
+    {
+      "source": "xunzi",
+      "target": "dong-zhongshu",
+      "type": "peer",
+      "note": "礼法与天人，皆为汉儒所资"
+    }
   ],
-
   "events": [
     {
       "id": "zhouyou",
@@ -145,7 +245,10 @@
       "kind": "span",
       "year": -497,
       "endYear": -484,
-      "people": ["kongzi", "yan-hui"],
+      "people": [
+        "kongzi",
+        "yan-hui"
+      ],
       "desc": "去鲁适卫、陈、蔡等地十四年，求行其道而未得，后返鲁整理文献。"
     },
     {
@@ -153,7 +256,9 @@
       "name": "孔子卒",
       "kind": "point",
       "year": -479,
-      "people": ["kongzi"],
+      "people": [
+        "kongzi"
+      ],
       "desc": "鲁哀公十六年，孔子卒于曲阜，年七十三。其后学散游诸侯，儒学始分。"
     },
     {
@@ -161,7 +266,9 @@
       "name": "孟子见梁惠王",
       "kind": "point",
       "year": -320,
-      "people": ["mengzi"],
+      "people": [
+        "mengzi"
+      ],
       "desc": "惠王问何以利吾国，孟子答以仁义。其问答后入《孟子》首篇。"
     },
     {
@@ -169,7 +276,9 @@
       "name": "荀子三为稷下祭酒",
       "kind": "point",
       "year": -264,
-      "people": ["xunzi"],
+      "people": [
+        "xunzi"
+      ],
       "desc": "齐襄王时荀子在稷下学宫最为老师，三为祭酒，儒法思想在此交汇。"
     },
     {
@@ -177,7 +286,10 @@
       "name": "韩非使秦，死于云阳",
       "kind": "point",
       "year": -233,
-      "people": ["hanfei", "xunzi"],
+      "people": [
+        "hanfei",
+        "xunzi"
+      ],
       "desc": "韩王遣非使秦。秦王悦其书，李斯、姚贾害之，非死狱中。"
     },
     {
@@ -185,11 +297,12 @@
       "name": "罢黜百家，独尊儒术",
       "kind": "point",
       "year": -134,
-      "people": ["dong-zhongshu"],
+      "people": [
+        "dong-zhongshu"
+      ],
       "desc": "武帝采董仲舒对策，儒学成为官方正统，孔门之学由此进入制度。"
     }
   ],
-
   "views": [
     {
       "id": "overview",
@@ -206,8 +319,14 @@
       "to": -90,
       "focus": "dong-zhongshu",
       "brief": "荀子把礼法讲成一套可操作的秩序，董仲舒把它接进汉廷。这一章只看儒家如何入汉，法家泳道会收起来。",
-      "people": ["xunzi", "dong-zhongshu"],
-      "events": ["xun-jixia", "bachu"]
+      "people": [
+        "xunzi",
+        "dong-zhongshu"
+      ],
+      "events": [
+        "xun-jixia",
+        "bachu"
+      ]
     }
   ]
 }

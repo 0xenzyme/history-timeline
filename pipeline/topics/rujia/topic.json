@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "id": "rujia",
+    "title": "儒学传承",
+    "subtitle": "从孔子到董仲舒 · 公元前 560 — 公元前 90",
+    "range": [
+      -560,
+      -90
+    ]
+  },
+  "catalog": {
+    "subtitle": "从孔子到董仲舒",
+    "region": "cn",
+    "eras": [
+      "spring-autumn",
+      "warring-states",
+      "western-han"
+    ],
+    "themes": [
+      "thought"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "ru",
+      "name": "儒家",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "fa",
+      "name": "法家",
+      "color": "#8b4e3a"
+    }
+  ],
+  "people": [
+    {
+      "id": "kongzi",
+      "lane": "ru"
+    },
+    {
+      "id": "yan-hui",
+      "lane": "ru"
+    },
+    {
+      "id": "zengzi",
+      "lane": "ru"
+    },
+    {
+      "id": "zisi",
+      "lane": "ru"
+    },
+    {
+      "id": "mengzi",
+      "lane": "ru"
+    },
+    {
+      "id": "xunzi",
+      "lane": "ru"
+    },
+    {
+      "id": "hanfei",
+      "lane": "fa"
+    },
+    {
+      "id": "dong-zhongshu",
+      "lane": "ru",
+      "display": "董子",
+      "title": "西汉儒学家，「罢黜百家」的倡议者",
+      "bio": "以「天人三策」应对武帝，提出「诸不在六艺之科孔子之术者，皆绝其道」，儒学由此成为汉家官学。著《春秋繁露》。",
+      "tags": [
+        "儒学",
+        "天人三策",
+        "春秋繁露"
+      ]
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#2f7ed8",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#d0503c",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "kongzi",
+      "target": "yan-hui",
+      "type": "mentor",
+      "note": "孔门德行科"
+    },
+    {
+      "source": "kongzi",
+      "target": "zengzi",
+      "type": "mentor",
+      "note": "孔门弟子"
+    },
+    {
+      "source": "kongzi",
+      "target": "zisi",
+      "type": "kin",
+      "note": "祖孙"
+    },
+    {
+      "source": "zengzi",
+      "target": "zisi",
+      "type": "mentor",
+      "note": "传统道统所记"
+    },
+    {
+      "source": "zisi",
+      "target": "mengzi",
+      "type": "mentor",
+      "note": "孟子之学出子思之门"
+    },
+    {
+      "source": "xunzi",
+      "target": "hanfei",
+      "type": "mentor",
+      "note": "韩非学于荀子"
+    },
+    {
+      "source": "mengzi",
+      "target": "xunzi",
+      "type": "rival",
+      "note": "性善与性恶"
+    },
+    {
+      "source": "xunzi",
+      "target": "dong-zhongshu",
+      "type": "peer",
+      "note": "礼法与天人，皆为汉儒所资"
+    }
+  ],
+  "events": [
+    {
+      "id": "zhouyou",
+      "name": "孔子周游列国",
+      "kind": "span",
+      "year": -497,
+      "endYear": -484,
+      "people": [
+        "kongzi",
+        "yan-hui"
+      ],
+      "desc": "去鲁适卫、陈、蔡等地十四年，求行其道而未得，后返鲁整理文献。"
+    },
+    {
+      "id": "kongzi-zu",
+      "name": "孔子卒",
+      "kind": "point",
+      "year": -479,
+      "people": [
+        "kongzi"
+      ],
+      "desc": "鲁哀公十六年，孔子卒于曲阜，年七十三。其后学散游诸侯，儒学始分。"
+    },
+    {
+      "id": "meng-liang",
+      "name": "孟子见梁惠王",
+      "kind": "point",
+      "year": -320,
+      "people": [
+        "mengzi"
+      ],
+      "desc": "惠王问何以利吾国，孟子答以仁义。其问答后入《孟子》首篇。"
+    },
+    {
+      "id": "xun-jixia",
+      "name": "荀子三为稷下祭酒",
+      "kind": "point",
+      "year": -264,
+      "people": [
+        "xunzi"
+      ],
+      "desc": "齐襄王时荀子在稷下学宫最为老师，三为祭酒，儒法思想在此交汇。"
+    },
+    {
+      "id": "hanfei-qin",
+      "name": "韩非使秦，死于云阳",
+      "kind": "point",
+      "year": -233,
+      "people": [
+        "hanfei",
+        "xunzi"
+      ],
+      "desc": "韩王遣非使秦。秦王悦其书，李斯、姚贾害之，非死狱中。"
+    },
+    {
+      "id": "bachu",
+      "name": "罢黜百家，独尊儒术",
+      "kind": "point",
+      "year": -134,
+      "people": [
+        "dong-zhongshu"
+      ],
+      "desc": "武帝采董仲舒对策，儒学成为官方正统，孔门之学由此进入制度。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "儒学谱系",
+      "from": -560,
+      "to": -90,
+      "focus": "kongzi",
+      "brief": "从曲阜到长安。孔子、曾子、子思、孟子一条线，荀子另开礼法，韩非出其门而入法家；到董仲舒，儒学才成为汉家制度。"
+    },
+    {
+      "id": "ruhan",
+      "name": "儒术入汉",
+      "from": -330,
+      "to": -90,
+      "focus": "dong-zhongshu",
+      "brief": "荀子把礼法讲成一套可操作的秩序，董仲舒把它接进汉廷。这一章只看儒家如何入汉，法家泳道会收起来。",
+      "people": [
+        "xunzi",
+        "dong-zhongshu"
+      ],
+      "events": [
+        "xun-jixia",
+        "bachu"
+      ]
+    }
+  ]
+}

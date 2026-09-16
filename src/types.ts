@@ -1,3 +1,5 @@
+export const CONTRACT_VERSION = 1;
+
 export type Accuracy = 'exact' | 'approx' | 'disputed' | 'unknown';
 
 export interface Lane {
@@ -64,6 +66,7 @@ export interface View {
 }
 
 export interface Topic {
+  contractVersion: number;
   meta: {
     id: string;
     title: string;
@@ -78,13 +81,31 @@ export interface Topic {
   views: View[];
 }
 
+export interface VocabTerm {
+  id: string;
+  name: string;
+}
+
 export interface CatalogEntry {
   id: string;
   title: string;
   subtitle: string;
   file: string;
+  region: string;
+  eras: string[];
+  themes: string[];
 }
 
 export interface Catalog {
+  contractVersion: number;
+  regions: VocabTerm[];
+  eras: VocabTerm[];
+  themes: VocabTerm[];
   topics: CatalogEntry[];
+}
+
+export interface TopicFilters {
+  region: string | null;
+  era: string | null;
+  theme: string | null;
 }

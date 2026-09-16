@@ -1,16 +1,63 @@
 {
+  "contractVersion": 1,
+  "regions": [
+    {
+      "id": "cn",
+      "name": "中国"
+    }
+  ],
+  "eras": [
+    {
+      "id": "spring-autumn",
+      "name": "春秋"
+    },
+    {
+      "id": "warring-states",
+      "name": "战国"
+    },
+    {
+      "id": "western-han",
+      "name": "西汉"
+    }
+  ],
+  "themes": [
+    {
+      "id": "dynasty",
+      "name": "王朝"
+    },
+    {
+      "id": "thought",
+      "name": "思想"
+    }
+  ],
   "topics": [
     {
       "id": "han",
       "title": "汉代",
       "subtitle": "从布衣天子到昭宣中兴",
-      "file": "han.json"
+      "file": "han.json",
+      "region": "cn",
+      "eras": [
+        "western-han"
+      ],
+      "themes": [
+        "dynasty"
+      ]
     },
     {
       "id": "rujia",
       "title": "儒学传承",
       "subtitle": "从孔子到董仲舒",
-      "file": "rujia.json"
+      "file": "rujia.json",
+      "region": "cn",
+      "eras": [
+        "spring-autumn",
+        "warring-states",
+        "western-han"
+      ],
+      "themes": [
+        "thought"
+      ]
     }
   ]
 }

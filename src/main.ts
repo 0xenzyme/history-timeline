@@ -6,7 +6,7 @@ import { downloadChart, exportBasename } from './export';
 import { formatLifespan, lifespanSpan } from './format';
 import { findCatalogEntry, loadCatalog, loadTopic } from './loader';
 import { parseHash, topicDataUrl, writeHash } from './routing';
-import type { Catalog, Person, Topic, View } from './types';
+import type { Catalog, Person, Topic, TopicFilters, View } from './types';
 import { buildLayout, type Layout } from './timeline/layout';
 import { fitPersonDomain } from './timeline/geometry';
 import { buildAdjacency, type RenderContext } from './timeline/context';
@@ -57,10 +57,20 @@ interface AppState {
   mode: Mode;
 }
 
-const ui = {
+const ui: {
+  topicMenuOpen: boolean;
+  exportMenuOpen: boolean;
+  searchQuery: string;
+  filters: TopicFilters;
+} = {
   topicMenuOpen: false,
   exportMenuOpen: false,
   searchQuery: '',
+  filters: {
+    region: null,
+    era: null,
+    theme: null,
+  },
 };
 
 let catalog: Catalog | null = null;
@@ -161,7 +171,7 @@ function renderSearchUI(): void {
 
 function renderChrome(): void {
   if (!state || !catalog) return;
-  topicSwitchEl.innerHTML = renderTopics(catalog, state.topic, ui.topicMenuOpen);
+  topicSwitchEl.innerHTML = renderTopics(catalog, state.topic, ui.topicMenuOpen, ui.filters);
   chaptersEl.innerHTML = renderChapters(state.topic, state.viewId);
   briefEl.textContent = currentView().brief ?? '';
   hintEl.textContent =
@@ -534,6 +544,25 @@ function wireEvents(): void {
       ui.topicMenuOpen = !ui.topicMenuOpen;
       ui.exportMenuOpen = false;
       renderChrome();
+      return;
+    }
+
+    if (target.closest('[data-clear-filters]')) {
+      ui.filters.region = null;
+      ui.filters.era = null;
+      ui.filters.theme = null;
+      renderChrome();
+      return;
+    }
+
+    const facet = target.closest('[data-facet]');
+    if (facet) {
+      const key = facet.getAttribute('data-facet');
+      const value = facet.getAttribute('data-value') ?? '';
+      if (key === 'region' || key === 'era' || key === 'theme') {
+        ui.filters[key] = value.length === 0 || ui.filters[key] === value ? null : value;
+        renderChrome();
+      }
       return;
     }
 

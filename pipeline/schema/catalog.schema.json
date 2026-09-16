@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history.local/schema/catalog.json",
+  "title": "History timeline catalog contract v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contractVersion", "regions", "eras", "themes", "topics"],
+  "properties": {
+    "contractVersion": { "const": 1 },
+    "regions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/vocabTerm" } },
+    "eras": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/vocabTerm" } },
+    "themes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/vocabTerm" } },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "subtitle", "file", "region", "eras", "themes"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "subtitle": { "type": "string" },
+          "file": { "type": "string", "pattern": "^[A-Za-z0-9_-]+\\.json$" },
+          "region": { "type": "string", "minLength": 1 },
+          "eras": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+          "themes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "vocabTerm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

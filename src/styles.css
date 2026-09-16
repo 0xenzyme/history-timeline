@@ -90,8 +90,11 @@ body {
   z-index: 50;
   display: flex;
   flex-direction: column;
-  min-width: 240px;
-  padding: 6px;
+  min-width: 280px;
+  max-width: min(420px, calc(100vw - 32px));
+  max-height: min(70vh, 560px);
+  overflow: auto;
+  padding: 8px 6px 6px;
   border: 1px solid var(--line);
   border-radius: 10px;
   background: #fffdf9;
@@ -100,6 +103,96 @@ body {
 
 .topic-menu[hidden] {
   display: none;
+}
+
+.topic-facets {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 2px 8px 10px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--hair);
+}
+
+.facet {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.facet-label {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+
+.facet-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.facet-chip {
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink-2);
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.facet-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.facet-chip.is-active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fdfaf5;
+}
+
+.facet-chip.is-active:hover {
+  border-color: var(--ink);
+  color: #fdfaf5;
+}
+
+.topic-filter-count {
+  margin: 0 10px 4px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.topic-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.topic-empty {
+  margin: 0;
+  padding: 12px 10px 4px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.topic-empty-action {
+  margin: 4px 6px 8px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink-2);
+  font-family: inherit;
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.topic-empty-action:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .topic-option {

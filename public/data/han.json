@@ -1,113 +1,156 @@
 {
+  "contractVersion": 1,
   "meta": {
     "id": "han",
     "title": "汉代",
     "subtitle": "从布衣天子到昭宣中兴 · 公元前 260 — 公元前 45",
-    "range": [-260, -45]
+    "range": [
+      -260,
+      -45
+    ]
   },
-
   "lanes": [
-    { "id": "emperor", "name": "帝王", "color": "#c0392b" },
-    { "id": "consort", "name": "后妃 · 外戚", "color": "#c98a3a" },
-    { "id": "scholar", "name": "文臣 · 学者", "color": "#2f6f9f" },
-    { "id": "general", "name": "武将", "color": "#3f7d52" },
-    { "id": "xiongnu", "name": "匈奴", "color": "#6b5b95" }
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "consort",
+      "name": "后妃 · 外戚",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "scholar",
+      "name": "文臣 · 学者",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "武将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "xiongnu",
+      "name": "匈奴",
+      "color": "#6b5b95"
+    }
   ],
-
   "people": [
     {
       "id": "liu-bang",
       "name": "刘邦",
       "display": "汉高祖",
       "lane": "emperor",
-      "birth": -256,
       "birthAccuracy": "disputed",
-      "death": -195,
       "deathAccuracy": "exact",
+      "birth": -256,
+      "death": -195,
       "birthNote": "生年有前 256、前 247 两说",
       "title": "西汉开国皇帝",
       "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
-      "tags": ["开国", "布衣天子"]
+      "tags": [
+        "开国",
+        "布衣天子"
+      ]
     },
     {
       "id": "liu-heng",
       "name": "刘恒",
       "display": "汉文帝",
       "lane": "emperor",
-      "birth": -203,
       "birthAccuracy": "approx",
-      "death": -157,
       "deathAccuracy": "exact",
+      "birth": -203,
+      "death": -157,
       "title": "西汉第五位皇帝",
       "bio": "代王入继大统。轻徭薄赋、废除肉刑，与景帝两朝合称「文景之治」，是汉初休养生息的顶点。",
-      "tags": ["文景之治", "无为而治"]
+      "tags": [
+        "文景之治",
+        "无为而治"
+      ]
     },
     {
       "id": "liu-qi",
       "name": "刘启",
       "display": "汉景帝",
       "lane": "emperor",
-      "birth": -188,
       "birthAccuracy": "exact",
-      "death": -141,
       "deathAccuracy": "exact",
+      "birth": -188,
+      "death": -141,
       "title": "西汉第六位皇帝",
       "bio": "用晁错之策削藩，引发七国之乱；乱平之后中央集权大定，为武帝的扩张留下完整的国力。",
-      "tags": ["削藩", "文景之治"]
+      "tags": [
+        "削藩",
+        "文景之治"
+      ]
     },
     {
       "id": "liu-che",
       "name": "刘彻",
       "display": "汉武帝",
       "lane": "emperor",
-      "birth": -156,
       "birthAccuracy": "disputed",
-      "death": -87,
       "deathAccuracy": "exact",
+      "birth": -156,
+      "death": -87,
       "birthNote": "生年有前 156、前 157 两说",
       "title": "西汉第七位皇帝，在位 54 年",
       "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
-      "tags": ["开疆", "独尊儒术", "在位54年"]
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ]
     },
     {
       "id": "liu-fuling",
       "name": "刘弗陵",
       "display": "汉昭帝",
       "lane": "emperor",
-      "birth": -94,
       "birthAccuracy": "exact",
-      "death": -74,
       "deathAccuracy": "exact",
+      "birth": -94,
+      "death": -74,
       "title": "西汉第八位皇帝",
       "bio": "八岁即位，霍光辅政。轻徭薄赋、与匈奴和亲，扭转武帝末年凋敝，二十一岁早崩。",
-      "tags": ["霍光辅政", "早崩"]
+      "tags": [
+        "霍光辅政",
+        "早崩"
+      ]
     },
     {
       "id": "liu-xun",
       "name": "刘询",
       "display": "汉宣帝",
       "lane": "emperor",
-      "birth": -91,
       "birthAccuracy": "exact",
-      "death": -48,
       "deathAccuracy": "exact",
+      "birth": -91,
+      "death": -48,
       "title": "西汉第十位皇帝",
       "bio": "巫蛊之祸中在襁褓入狱的皇曾孙，由霍光迎立。亲政后整顿吏治、设西域都护，史称「昭宣中兴」。",
-      "tags": ["昭宣中兴", "西域都护"]
+      "tags": [
+        "昭宣中兴",
+        "西域都护"
+      ]
     },
-
     {
       "id": "lv-zhi",
       "name": "吕雉",
       "display": "吕后",
       "lane": "consort",
-      "birth": -241,
       "birthAccuracy": "approx",
-      "death": -180,
       "deathAccuracy": "exact",
+      "birth": -241,
+      "death": -180,
       "title": "汉高祖皇后，中国第一位临朝称制的女性",
       "bio": "刘邦崩后临朝八年，封诸吕为王，残害刘氏诸子。司马迁为之立《吕太后本纪》，承认其实际统治地位。",
-      "tags": ["临朝称制", "诸吕"]
+      "tags": [
+        "临朝称制",
+        "诸吕"
+      ]
     },
     {
       "id": "dou-yifang",
@@ -115,12 +158,15 @@
       "display": "窦太后",
       "lane": "consort",
       "birthAccuracy": "unknown",
-      "death": -135,
       "deathAccuracy": "exact",
+      "death": -135,
       "birthNote": "生年不详",
       "title": "汉文帝皇后，景帝之母，武帝之祖母",
       "bio": "历文、景、武三朝，好黄老之术。武帝初年她仍在世，儒臣赵绾、王臧因此下狱，独尊儒术要等她去世后才真正推行。",
-      "tags": ["黄老", "三朝"]
+      "tags": [
+        "黄老",
+        "三朝"
+      ]
     },
     {
       "id": "dou-ying",
@@ -128,12 +174,15 @@
       "display": "魏其侯",
       "lane": "consort",
       "birthAccuracy": "unknown",
-      "death": -131,
       "deathAccuracy": "exact",
+      "death": -131,
       "birthNote": "生年不详",
       "title": "窦太后堂侄，前太子太傅",
       "bio": "七国之乱时拜大将军守荥阳。因反对晁错削藩而与晁错相争，晚年与田蚡争权，下狱弃市。",
-      "tags": ["外戚", "七国之乱"]
+      "tags": [
+        "外戚",
+        "七国之乱"
+      ]
     },
     {
       "id": "wei-zifu",
@@ -141,96 +190,117 @@
       "display": "孝武卫皇后",
       "lane": "consort",
       "birthAccuracy": "unknown",
-      "death": -91,
       "deathAccuracy": "exact",
+      "death": -91,
       "birthNote": "生年不详",
       "title": "汉武帝第二任皇后",
       "bio": "出身平阳侯府歌女，弟卫青、甥霍去病皆以军功显。巫蛊之祸中太子刘据起兵失败，她以皇后玺绶助子，事败自杀。",
-      "tags": ["外戚", "巫蛊之祸"]
+      "tags": [
+        "外戚",
+        "巫蛊之祸"
+      ]
     },
-
     {
       "id": "jia-yi",
       "name": "贾谊",
       "display": "贾太傅",
       "lane": "scholar",
-      "birth": -200,
       "birthAccuracy": "approx",
-      "death": -168,
       "deathAccuracy": "exact",
-      "order": 1,
+      "birth": -200,
+      "death": -168,
       "title": "西汉政论家、文学家",
       "bio": "二十余岁为博士，上《过秦论》《治安策》，主张削藩、抗匈奴。遭周勃等老臣排挤，谪长沙，三十三岁早卒。",
-      "tags": ["政论", "过秦论"]
+      "tags": [
+        "政论",
+        "过秦论"
+      ],
+      "order": 1
     },
     {
       "id": "chao-cuo",
       "name": "晁错",
       "display": "晁御史",
       "lane": "scholar",
-      "birth": -200,
       "birthAccuracy": "approx",
-      "death": -154,
       "deathAccuracy": "approx",
-      "order": 2,
+      "birth": -200,
+      "death": -154,
       "title": "汉景帝时任御史大夫",
       "bio": "力主削藩，景帝采其策而吴楚七国反，以「诛晁错、清君侧」为名。朝议之下，晁错朝服被斩于东市。",
-      "tags": ["削藩", "七国之乱"]
+      "tags": [
+        "削藩",
+        "七国之乱"
+      ],
+      "order": 2
     },
     {
       "id": "gongsun-hong",
       "name": "公孙弘",
       "display": "公孙丞相",
       "lane": "scholar",
-      "birth": -200,
       "birthAccuracy": "approx",
-      "death": -121,
       "deathAccuracy": "approx",
-      "order": 3,
+      "birth": -200,
+      "death": -121,
       "title": "西汉首位以儒生拜相封侯者",
       "bio": "六十岁始以贤良征为博士，官至丞相封平津侯，开汉代「以儒术取卿相」的先例。",
-      "tags": ["儒学", "布衣丞相"]
+      "tags": [
+        "儒学",
+        "布衣丞相"
+      ],
+      "order": 3
     },
     {
       "id": "dong-zhongshu",
       "name": "董仲舒",
-      "display": "董子",
+      "display": "董仲舒",
       "lane": "scholar",
-      "birth": -179,
       "birthAccuracy": "approx",
-      "death": -104,
       "deathAccuracy": "approx",
+      "birth": -179,
+      "death": -104,
       "birthNote": "生卒皆为约数",
-      "title": "西汉儒学家，「罢黜百家」的倡议者",
-      "bio": "以「天人三策」应对武帝，提出「诸不在六艺之科孔子之术者，皆绝其道」，奠定两千年儒学正统。著《春秋繁露》。",
-      "tags": ["儒学", "天人三策", "春秋繁露"]
+      "title": "西汉儒家学者，倡天人三策",
+      "bio": "广川人。以公羊学应对武帝，提出「诸不在六艺之科孔子之术者，皆绝其道」，奠定两千年儒学正统。著《春秋繁露》。",
+      "tags": [
+        "儒学",
+        "天人三策"
+      ]
     },
     {
       "id": "sang-hongyang",
       "name": "桑弘羊",
       "display": "桑大农",
       "lane": "scholar",
-      "birth": -152,
       "birthAccuracy": "approx",
-      "death": -80,
       "deathAccuracy": "exact",
+      "birth": -152,
+      "death": -80,
       "title": "汉武帝时任大农令、大司农",
       "bio": "洛阳商人子，推行盐铁官营、均输平准、算缗告缗，为武帝的战争机器提供财政。昭帝时在盐铁会议上与儒生辩论，后卷入政争被诛。",
-      "tags": ["盐铁官营", "均输平准"]
+      "tags": [
+        "盐铁官营",
+        "均输平准"
+      ]
     },
     {
       "id": "sima-qian",
       "name": "司马迁",
       "display": "太史公",
       "lane": "scholar",
-      "birth": -145,
       "birthAccuracy": "approx",
-      "death": -86,
       "deathAccuracy": "approx",
+      "birth": -145,
+      "death": -86,
       "birthNote": "生卒皆为约数",
       "title": "西汉史学家，《史记》作者",
       "bio": "曾从董仲舒学《春秋》。前 99 年为降匈奴的李陵辩护，触怒武帝受宫刑，发愤著《史记》，成「史家之绝唱」。",
-      "tags": ["史记", "李陵之祸", "宫刑"]
+      "tags": [
+        "史记",
+        "李陵之祸",
+        "宫刑"
+      ]
     },
     {
       "id": "huo-guang",
@@ -238,39 +308,50 @@
       "display": "霍大将军",
       "lane": "scholar",
       "birthAccuracy": "unknown",
-      "death": -68,
       "deathAccuracy": "exact",
+      "death": -68,
       "birthNote": "生年不详",
       "title": "汉武帝托孤重臣，大司马大将军",
       "bio": "霍去病异母弟。受武帝遗诏辅佐昭帝，前后秉政二十年，行轮台诏后的休养生息之政；废昌邑王、迎立宣帝，权倾一时。死后霍氏以谋反灭族。",
-      "tags": ["辅政", "托孤", "权势"]
+      "tags": [
+        "辅政",
+        "托孤",
+        "权势"
+      ]
     },
-
     {
       "id": "huo-qubing",
       "name": "霍去病",
       "display": "冠军侯",
       "lane": "general",
-      "birth": -140,
       "birthAccuracy": "exact",
-      "death": -117,
       "deathAccuracy": "exact",
+      "birth": -140,
+      "death": -117,
       "title": "西汉骠骑将军",
       "bio": "十七岁出征，十九岁两战河西，二十一岁与卫青分道漠北，封狼居胥。二十四岁病逝，一生二十三年，全部在武帝朝内。「匈奴未灭，无以家为」。",
-      "tags": ["封狼居胥", "河西之战", "享年23"]
+      "tags": [
+        "封狼居胥",
+        "河西之战",
+        "享年23"
+      ]
     },
     {
       "id": "zhao-chongguo",
       "name": "赵充国",
       "display": "赵翁孙",
       "lane": "general",
-      "birth": -137,
       "birthAccuracy": "approx",
-      "death": -52,
       "deathAccuracy": "exact",
+      "birth": -137,
+      "death": -52,
       "title": "西汉后将军，西羌平定者",
       "bio": "历武、昭、宣三朝。前 61 年以七十余岁高龄上「屯田奏」，主张以屯田制羌而非浪战，是古代边防战略的经典。",
-      "tags": ["屯田", "西羌", "三朝"]
+      "tags": [
+        "屯田",
+        "西羌",
+        "三朝"
+      ]
     },
     {
       "id": "li-guang",
@@ -278,12 +359,16 @@
       "display": "飞将军",
       "lane": "general",
       "birthAccuracy": "unknown",
-      "death": -119,
       "deathAccuracy": "exact",
+      "death": -119,
       "birthNote": "生年不详",
       "title": "西汉名将，人称「飞将军」",
       "bio": "历文、景、武三朝，与匈奴七十余战未尝不大捷者言过其实，却始终未能封侯。漠北之战受卫青调度走东路失道，不愿受刀笔吏之辱，引刀自刎。",
-      "tags": ["飞将军", "难封", "漠北之战"]
+      "tags": [
+        "飞将军",
+        "难封",
+        "漠北之战"
+      ]
     },
     {
       "id": "zhang-qian",
@@ -291,12 +376,15 @@
       "display": "博望侯",
       "lane": "general",
       "birthAccuracy": "unknown",
-      "death": -114,
       "deathAccuracy": "exact",
+      "death": -114,
       "birthNote": "生年不详",
       "title": "西汉外交家，丝绸之路开拓者",
       "bio": "前 138 年奉武帝命出使大月氏，中途被匈奴扣留十年，前后十三年方归，凿空西域。前 119 年二次出使乌孙。",
-      "tags": ["凿空西域", "丝绸之路"]
+      "tags": [
+        "凿空西域",
+        "丝绸之路"
+      ]
     },
     {
       "id": "wei-qing",
@@ -304,12 +392,16 @@
       "display": "卫大将军",
       "lane": "general",
       "birthAccuracy": "unknown",
-      "death": -106,
       "deathAccuracy": "exact",
+      "death": -106,
       "birthNote": "生年不详",
       "title": "西汉大司马大将军，长平侯",
       "bio": "卫子夫之弟，骑奴出身。前 127 年收复河南地置朔方郡，前 119 年漠北之战击溃单于主力。为将仁厚，不养士不结党。",
-      "tags": ["河南地", "漠北之战", "外戚"]
+      "tags": [
+        "河南地",
+        "漠北之战",
+        "外戚"
+      ]
     },
     {
       "id": "li-ling",
@@ -317,26 +409,31 @@
       "display": "李都尉",
       "lane": "general",
       "birthAccuracy": "unknown",
-      "death": -74,
       "deathAccuracy": "exact",
+      "death": -74,
       "birthNote": "生年不详",
       "title": "李广之孙，西汉都尉",
       "bio": "前 99 年以五千步兵深入浚稽山，力战匈奴八日，矢尽援绝而降。司马迁因替他辩护而受宫刑，其家族被族灭。",
-      "tags": ["降匈奴", "李陵之祸"]
+      "tags": [
+        "降匈奴",
+        "李陵之祸"
+      ]
     },
-
     {
       "id": "junchen",
       "name": "军臣单于",
       "display": "军臣单于",
       "lane": "xiongnu",
       "birthAccuracy": "unknown",
-      "death": -126,
       "deathAccuracy": "approx",
+      "death": -126,
       "birthNote": "生年不详",
       "title": "匈奴单于，在位约三十四年",
       "bio": "老上单于之子。武帝初年汉匈尚维持和亲，前 133 年马邑之谋后双方全面开战。",
-      "tags": ["汉匈战争", "马邑之谋"]
+      "tags": [
+        "汉匈战争",
+        "马邑之谋"
+      ]
     },
     {
       "id": "yizhixie",
@@ -344,81 +441,345 @@
       "display": "伊稚斜单于",
       "lane": "xiongnu",
       "birthAccuracy": "unknown",
-      "death": -114,
       "deathAccuracy": "approx",
+      "death": -114,
       "birthNote": "生年不详",
       "title": "匈奴单于，军臣单于之弟",
       "bio": "攻败军臣单于太子自立。前 119 年漠北之战中，卫青部直捣单于本部，他仅率数百骑突围远遁。",
-      "tags": ["汉匈战争", "漠北之战"]
+      "tags": [
+        "汉匈战争",
+        "漠北之战"
+      ]
     }
   ],
-
   "relationTypes": [
-    { "id": "ruler-subject", "name": "君臣", "color": "#8a8f98", "dash": null, "directed": true },
-    { "id": "mentor", "name": "师承", "color": "#2f7ed8", "dash": null, "directed": true },
-    { "id": "kin", "name": "亲族", "color": "#4a9c5d", "dash": null, "directed": false },
-    { "id": "peer", "name": "同僚", "color": "#9b7cbf", "dash": "2 3", "directed": false },
-    { "id": "rival", "name": "敌对", "color": "#d0503c", "dash": "6 3", "directed": false }
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#2f7ed8",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#d0503c",
+      "dash": "6 3",
+      "directed": false
+    }
   ],
-
   "relations": [
-    { "source": "liu-bang", "target": "lv-zhi", "type": "kin", "note": "夫妻" },
-    { "source": "liu-bang", "target": "liu-heng", "type": "kin", "note": "父子" },
-    { "source": "liu-heng", "target": "dou-yifang", "type": "kin", "note": "夫妻" },
-    { "source": "liu-heng", "target": "liu-qi", "type": "kin", "note": "父子" },
-    { "source": "liu-qi", "target": "liu-che", "type": "kin", "note": "父子" },
-    { "source": "liu-che", "target": "wei-zifu", "type": "kin", "note": "夫妻" },
-    { "source": "liu-che", "target": "liu-fuling", "type": "kin", "note": "父子" },
-    { "source": "dou-yifang", "target": "liu-che", "type": "kin", "note": "祖母与孙" },
-    { "source": "dou-yifang", "target": "dou-ying", "type": "kin", "note": "姑侄" },
-    { "source": "wei-zifu", "target": "wei-qing", "type": "kin", "note": "姐弟" },
-    { "source": "wei-zifu", "target": "huo-qubing", "type": "kin", "note": "姨甥" },
-    { "source": "wei-qing", "target": "huo-qubing", "type": "kin", "note": "舅甥" },
-    { "source": "huo-guang", "target": "huo-qubing", "type": "kin", "note": "异母兄弟" },
-    { "source": "liu-fuling", "target": "liu-xun", "type": "kin", "note": "叔祖与侄孙" },
-    { "source": "li-guang", "target": "li-ling", "type": "kin", "note": "祖孙" },
-
-    { "source": "liu-heng", "target": "jia-yi", "type": "ruler-subject", "since": -178, "note": "召为博士，后谪长沙" },
-    { "source": "liu-heng", "target": "dou-ying", "type": "ruler-subject", "note": "用为太傅" },
-    { "source": "liu-heng", "target": "chao-cuo", "type": "ruler-subject", "note": "为太子家令，辅导景帝" },
-    { "source": "liu-qi", "target": "chao-cuo", "type": "ruler-subject", "since": -155, "note": "采其削藩策，乱起后斩之于东市" },
-    { "source": "liu-qi", "target": "dou-ying", "type": "ruler-subject", "since": -154, "note": "七国之乱拜大将军" },
-    { "source": "liu-qi", "target": "li-guang", "type": "ruler-subject", "note": "为上郡太守" },
-    { "source": "liu-che", "target": "dong-zhongshu", "type": "ruler-subject", "since": -134, "note": "天人三策" },
-    { "source": "liu-che", "target": "gongsun-hong", "type": "ruler-subject", "since": -130, "note": "对策第一，官至丞相" },
-    { "source": "liu-che", "target": "sang-hongyang", "type": "ruler-subject", "since": -119, "note": "盐铁官营、均输平准" },
-    { "source": "liu-che", "target": "wei-qing", "type": "ruler-subject", "note": "车骑将军至大司马大将军" },
-    { "source": "liu-che", "target": "huo-qubing", "type": "ruler-subject", "note": "骠骑将军，封冠军侯" },
-    { "source": "liu-che", "target": "li-guang", "type": "ruler-subject", "note": "历右北平太守等" },
-    { "source": "liu-che", "target": "zhang-qian", "type": "ruler-subject", "note": "两次奉使西域" },
-    { "source": "liu-che", "target": "sima-qian", "type": "ruler-subject", "note": "太史令，李陵之祸受宫刑" },
-    { "source": "liu-che", "target": "li-ling", "type": "ruler-subject", "note": "拜骑都尉，后降匈奴" },
-    { "source": "liu-che", "target": "huo-guang", "type": "ruler-subject", "since": -87, "note": "遗诏托孤" },
-    { "source": "liu-fuling", "target": "huo-guang", "type": "ruler-subject", "note": "八岁即位，霍光秉政" },
-    { "source": "liu-xun", "target": "huo-guang", "type": "ruler-subject", "since": -74, "note": "霍光迎立，前 68 年亲政" },
-    { "source": "liu-xun", "target": "zhao-chongguo", "type": "ruler-subject", "since": -61, "note": "采其屯田策平西羌" },
-
-    { "source": "dong-zhongshu", "target": "sima-qian", "type": "mentor", "note": "司马迁从董仲舒学《春秋》" },
-
-    { "source": "dong-zhongshu", "target": "gongsun-hong", "type": "peer", "note": "同以儒学进" },
-    { "source": "sima-qian", "target": "li-ling", "type": "peer", "since": -99, "note": "司马迁为其力辩" },
-
-    { "source": "chao-cuo", "target": "dou-ying", "type": "rival", "note": "削藩之争，窦婴持反对" },
-    { "source": "wei-qing", "target": "li-guang", "type": "rival", "since": -119, "note": "漠北之战调度失道之嫌隙" },
-    { "source": "liu-che", "target": "li-ling", "type": "rival", "since": -99, "note": "李陵降匈奴，族其家" },
-    { "source": "huo-guang", "target": "sang-hongyang", "type": "rival", "since": -81, "note": "盐铁会议上的政见之争，前 80 年被诛" },
-    { "source": "lv-zhi", "target": "liu-heng", "type": "rival", "note": "吕后残害刘氏诸子，文帝因在代地得免" },
-    { "source": "liu-che", "target": "junchen", "type": "rival", "since": -133, "note": "马邑之谋，汉匈全面开战" },
-    { "source": "huo-qubing", "target": "yizhixie", "type": "rival", "since": -121, "note": "河西、漠北两战皆破之" }
+    {
+      "source": "liu-bang",
+      "target": "lv-zhi",
+      "type": "kin",
+      "note": "夫妻"
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-heng",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "liu-heng",
+      "target": "dou-yifang",
+      "type": "kin",
+      "note": "夫妻"
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-qi",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-che",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "liu-che",
+      "target": "wei-zifu",
+      "type": "kin",
+      "note": "夫妻"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-fuling",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-che",
+      "type": "kin",
+      "note": "祖母与孙"
+    },
+    {
+      "source": "dou-yifang",
+      "target": "dou-ying",
+      "type": "kin",
+      "note": "姑侄"
+    },
+    {
+      "source": "wei-zifu",
+      "target": "wei-qing",
+      "type": "kin",
+      "note": "姐弟"
+    },
+    {
+      "source": "wei-zifu",
+      "target": "huo-qubing",
+      "type": "kin",
+      "note": "姨甥"
+    },
+    {
+      "source": "wei-qing",
+      "target": "huo-qubing",
+      "type": "kin",
+      "note": "舅甥"
+    },
+    {
+      "source": "huo-guang",
+      "target": "huo-qubing",
+      "type": "kin",
+      "note": "异母兄弟"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "liu-xun",
+      "type": "kin",
+      "note": "叔祖与侄孙"
+    },
+    {
+      "source": "li-guang",
+      "target": "li-ling",
+      "type": "kin",
+      "note": "祖孙"
+    },
+    {
+      "source": "liu-heng",
+      "target": "jia-yi",
+      "type": "ruler-subject",
+      "since": -178,
+      "note": "召为博士，后谪长沙"
+    },
+    {
+      "source": "liu-heng",
+      "target": "dou-ying",
+      "type": "ruler-subject",
+      "note": "用为太傅"
+    },
+    {
+      "source": "liu-heng",
+      "target": "chao-cuo",
+      "type": "ruler-subject",
+      "note": "为太子家令，辅导景帝"
+    },
+    {
+      "source": "liu-qi",
+      "target": "chao-cuo",
+      "type": "ruler-subject",
+      "since": -155,
+      "note": "采其削藩策，乱起后斩之于东市"
+    },
+    {
+      "source": "liu-qi",
+      "target": "dou-ying",
+      "type": "ruler-subject",
+      "since": -154,
+      "note": "七国之乱拜大将军"
+    },
+    {
+      "source": "liu-qi",
+      "target": "li-guang",
+      "type": "ruler-subject",
+      "note": "为上郡太守"
+    },
+    {
+      "source": "liu-che",
+      "target": "dong-zhongshu",
+      "type": "ruler-subject",
+      "since": -134,
+      "note": "天人三策"
+    },
+    {
+      "source": "liu-che",
+      "target": "gongsun-hong",
+      "type": "ruler-subject",
+      "since": -130,
+      "note": "对策第一，官至丞相"
+    },
+    {
+      "source": "liu-che",
+      "target": "sang-hongyang",
+      "type": "ruler-subject",
+      "since": -119,
+      "note": "盐铁官营、均输平准"
+    },
+    {
+      "source": "liu-che",
+      "target": "wei-qing",
+      "type": "ruler-subject",
+      "note": "车骑将军至大司马大将军"
+    },
+    {
+      "source": "liu-che",
+      "target": "huo-qubing",
+      "type": "ruler-subject",
+      "note": "骠骑将军，封冠军侯"
+    },
+    {
+      "source": "liu-che",
+      "target": "li-guang",
+      "type": "ruler-subject",
+      "note": "历右北平太守等"
+    },
+    {
+      "source": "liu-che",
+      "target": "zhang-qian",
+      "type": "ruler-subject",
+      "note": "两次奉使西域"
+    },
+    {
+      "source": "liu-che",
+      "target": "sima-qian",
+      "type": "ruler-subject",
+      "note": "太史令，李陵之祸受宫刑"
+    },
+    {
+      "source": "liu-che",
+      "target": "li-ling",
+      "type": "ruler-subject",
+      "note": "拜骑都尉，后降匈奴"
+    },
+    {
+      "source": "liu-che",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "since": -87,
+      "note": "遗诏托孤"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "note": "八岁即位，霍光秉政"
+    },
+    {
+      "source": "liu-xun",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "since": -74,
+      "note": "霍光迎立，前 68 年亲政"
+    },
+    {
+      "source": "liu-xun",
+      "target": "zhao-chongguo",
+      "type": "ruler-subject",
+      "since": -61,
+      "note": "采其屯田策平西羌"
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "sima-qian",
+      "type": "mentor",
+      "note": "司马迁从董仲舒学《春秋》"
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "gongsun-hong",
+      "type": "peer",
+      "note": "同以儒学进"
+    },
+    {
+      "source": "sima-qian",
+      "target": "li-ling",
+      "type": "peer",
+      "since": -99,
+      "note": "司马迁为其力辩"
+    },
+    {
+      "source": "chao-cuo",
+      "target": "dou-ying",
+      "type": "rival",
+      "note": "削藩之争，窦婴持反对"
+    },
+    {
+      "source": "wei-qing",
+      "target": "li-guang",
+      "type": "rival",
+      "since": -119,
+      "note": "漠北之战调度失道之嫌隙"
+    },
+    {
+      "source": "liu-che",
+      "target": "li-ling",
+      "type": "rival",
+      "since": -99,
+      "note": "李陵降匈奴，族其家"
+    },
+    {
+      "source": "huo-guang",
+      "target": "sang-hongyang",
+      "type": "rival",
+      "since": -81,
+      "note": "盐铁会议上的政见之争，前 80 年被诛"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "liu-heng",
+      "type": "rival",
+      "note": "吕后残害刘氏诸子，文帝因在代地得免"
+    },
+    {
+      "source": "liu-che",
+      "target": "junchen",
+      "type": "rival",
+      "since": -133,
+      "note": "马邑之谋，汉匈全面开战"
+    },
+    {
+      "source": "huo-qubing",
+      "target": "yizhixie",
+      "type": "rival",
+      "since": -121,
+      "note": "河西、漠北两战皆破之"
+    }
   ],
-
   "events": [
     {
       "id": "qian202-chengdi",
       "name": "刘邦称帝，汉朝建立",
       "kind": "point",
       "year": -202,
-      "people": ["liu-bang", "lv-zhi"],
+      "people": [
+        "liu-bang",
+        "lv-zhi"
+      ],
       "desc": "垓下之战后项羽自刎，刘邦即皇帝位于定陶氾水之阳，定都长安。"
     },
     {
@@ -426,7 +787,10 @@
       "name": "白登之围",
       "kind": "point",
       "year": -200,
-      "people": ["liu-bang", "junchen"],
+      "people": [
+        "liu-bang",
+        "junchen"
+      ],
       "desc": "刘邦亲征匈奴被围白登山七日，此后汉匈以和亲维持大致和平六十余年。"
     },
     {
@@ -434,7 +798,10 @@
       "name": "刘邦崩",
       "kind": "point",
       "year": -195,
-      "people": ["liu-bang", "lv-zhi"],
+      "people": [
+        "liu-bang",
+        "lv-zhi"
+      ],
       "desc": "刘邦崩，惠帝即位，吕后实际掌权。"
     },
     {
@@ -442,7 +809,10 @@
       "name": "吕后崩，诸吕之乱平定",
       "kind": "point",
       "year": -180,
-      "people": ["lv-zhi", "liu-heng"],
+      "people": [
+        "lv-zhi",
+        "liu-heng"
+      ],
       "desc": "吕后崩，周勃、陈平等诛灭诸吕，迎代王刘恒入继大统。"
     },
     {
@@ -451,7 +821,13 @@
       "kind": "span",
       "year": -180,
       "endYear": -141,
-      "people": ["liu-heng", "liu-qi", "dou-yifang", "jia-yi", "chao-cuo"],
+      "people": [
+        "liu-heng",
+        "liu-qi",
+        "dou-yifang",
+        "jia-yi",
+        "chao-cuo"
+      ],
       "desc": "轻徭薄赋、与民休息，国力积累为武帝的大规模扩张奠定基础。"
     },
     {
@@ -459,7 +835,10 @@
       "name": "贾谊上《治安策》",
       "kind": "point",
       "year": -173,
-      "people": ["jia-yi", "liu-heng"],
+      "people": [
+        "jia-yi",
+        "liu-heng"
+      ],
       "desc": "力陈诸侯王尾大不掉之患，主张「众建诸侯而少其力」。"
     },
     {
@@ -467,7 +846,11 @@
       "name": "七国之乱，晁错被诛",
       "kind": "point",
       "year": -154,
-      "people": ["chao-cuo", "liu-qi", "dou-ying"],
+      "people": [
+        "chao-cuo",
+        "liu-qi",
+        "dou-ying"
+      ],
       "desc": "吴楚等国以「诛晁错、清君侧」起兵，晁错朝服斩于东市；乱三月而平。"
     },
     {
@@ -475,7 +858,10 @@
       "name": "景帝崩，武帝即位",
       "kind": "point",
       "year": -141,
-      "people": ["liu-qi", "liu-che"],
+      "people": [
+        "liu-qi",
+        "liu-che"
+      ],
       "desc": "十六岁的刘彻即位，次年改元建元，中国帝王年号纪年自此始。"
     },
     {
@@ -483,7 +869,11 @@
       "name": "举贤良对策",
       "kind": "point",
       "year": -140,
-      "people": ["liu-che", "dong-zhongshu", "gongsun-hong"],
+      "people": [
+        "liu-che",
+        "dong-zhongshu",
+        "gongsun-hong"
+      ],
       "desc": "诏举贤良方正直言极谏之士，董仲舒献「天人三策」，公孙弘亦由此进。"
     },
     {
@@ -491,7 +881,10 @@
       "name": "张骞首次出使西域",
       "kind": "point",
       "year": -138,
-      "people": ["zhang-qian", "liu-che"],
+      "people": [
+        "zhang-qian",
+        "liu-che"
+      ],
       "desc": "欲联大月氏夹击匈奴，中途被扣十年，前后十三年方归，凿空西域。"
     },
     {
@@ -499,7 +892,10 @@
       "name": "罢黜百家，独尊儒术",
       "kind": "point",
       "year": -134,
-      "people": ["liu-che", "dong-zhongshu"],
+      "people": [
+        "liu-che",
+        "dong-zhongshu"
+      ],
       "desc": "「诸不在六艺之科孔子之术者，皆绝其道，勿使并进」，儒学自此成为官方正统。"
     },
     {
@@ -508,7 +904,14 @@
       "kind": "span",
       "year": -133,
       "endYear": -89,
-      "people": ["liu-che", "wei-qing", "huo-qubing", "li-guang", "junchen", "yizhixie"],
+      "people": [
+        "liu-che",
+        "wei-qing",
+        "huo-qubing",
+        "li-guang",
+        "junchen",
+        "yizhixie"
+      ],
       "desc": "自马邑之谋起，汉匈由和亲转为长达四十余年的全面战争，以匈奴远遁、漠南无王庭告一段落。"
     },
     {
@@ -516,7 +919,10 @@
       "name": "卫青收复河南地，置朔方郡",
       "kind": "point",
       "year": -127,
-      "people": ["wei-qing", "liu-che"],
+      "people": [
+        "wei-qing",
+        "liu-che"
+      ],
       "desc": "击走白羊、楼烦王，取河套，筑朔方城，长安北面威胁解除。"
     },
     {
@@ -524,7 +930,9 @@
       "name": "霍去病河西之战",
       "kind": "point",
       "year": -121,
-      "people": ["huo-qubing"],
+      "people": [
+        "huo-qubing"
+      ],
       "desc": "春、夏两次出击，匈奴浑邪王率四万众降汉，河西走廊并入汉境。"
     },
     {
@@ -532,7 +940,12 @@
       "name": "漠北之战，李广自刎",
       "kind": "point",
       "year": -119,
-      "people": ["wei-qing", "huo-qubing", "li-guang", "yizhixie"],
+      "people": [
+        "wei-qing",
+        "huo-qubing",
+        "li-guang",
+        "yizhixie"
+      ],
       "desc": "卫青、霍去病各率五万骑分道出击，霍去病封狼居胥；李广走东路失道，不愿受刀笔吏之辱而自刎。"
     },
     {
@@ -540,7 +953,9 @@
       "name": "张骞二次出使乌孙",
       "kind": "point",
       "year": -119,
-      "people": ["zhang-qian"],
+      "people": [
+        "zhang-qian"
+      ],
       "desc": "率三百人使团赴乌孙，副使分赴大宛、康居、大月氏等国，丝路交通由此确立。"
     },
     {
@@ -548,7 +963,10 @@
       "name": "董仲舒卒 · 太初历颁行",
       "kind": "point",
       "year": -104,
-      "people": ["dong-zhongshu", "sima-qian"],
+      "people": [
+        "dong-zhongshu",
+        "sima-qian"
+      ],
       "desc": "董仲舒约卒于此年；同年颁行太初历，以正月为岁首，司马迁参与改历。"
     },
     {
@@ -556,7 +974,11 @@
       "name": "李陵之祸，司马迁受宫刑",
       "kind": "point",
       "year": -99,
-      "people": ["li-ling", "sima-qian", "liu-che"],
+      "people": [
+        "li-ling",
+        "sima-qian",
+        "liu-che"
+      ],
       "desc": "李陵五千步兵力战而降，司马迁直言辩护触怒武帝，受宫刑，发愤著《史记》。"
     },
     {
@@ -564,7 +986,10 @@
       "name": "巫蛊之祸",
       "kind": "point",
       "year": -91,
-      "people": ["liu-che", "wei-zifu"],
+      "people": [
+        "liu-che",
+        "wei-zifu"
+      ],
       "desc": "江充构陷太子刘据，太子起兵兵败自杀，皇后卫子夫自尽，长安死者数万。"
     },
     {
@@ -572,7 +997,11 @@
       "name": "武帝崩，霍光辅政",
       "kind": "point",
       "year": -87,
-      "people": ["liu-che", "liu-fuling", "huo-guang"],
+      "people": [
+        "liu-che",
+        "liu-fuling",
+        "huo-guang"
+      ],
       "desc": "八岁的刘弗陵即位，霍光以大司马大将军领尚书事辅政，推行与民休息。"
     },
     {
@@ -580,7 +1009,10 @@
       "name": "盐铁会议",
       "kind": "point",
       "year": -81,
-      "people": ["sang-hongyang", "huo-guang"],
+      "people": [
+        "sang-hongyang",
+        "huo-guang"
+      ],
       "desc": "郡国贤良文学与桑弘羊当廷辩论盐铁官营之弊，桓宽据其记录成《盐铁论》。"
     },
     {
@@ -588,7 +1020,10 @@
       "name": "桑弘羊被诛",
       "kind": "point",
       "year": -80,
-      "people": ["sang-hongyang", "huo-guang"],
+      "people": [
+        "sang-hongyang",
+        "huo-guang"
+      ],
       "desc": "桑弘羊卷入燕王旦、上官桀政变，被族诛，霍光权势独大。"
     },
     {
@@ -596,7 +1031,11 @@
       "name": "昭帝崩，霍光迎立宣帝",
       "kind": "point",
       "year": -74,
-      "people": ["liu-fuling", "liu-xun", "huo-guang"],
+      "people": [
+        "liu-fuling",
+        "liu-xun",
+        "huo-guang"
+      ],
       "desc": "昭帝二十一岁崩，无嗣；霍光先立昌邑王刘贺，二十七日后废之，改立皇曾孙刘询。"
     },
     {
@@ -604,7 +1043,9 @@
       "name": "霍光卒",
       "kind": "point",
       "year": -68,
-      "people": ["huo-guang"],
+      "people": [
+        "huo-guang"
+      ],
       "desc": "霍光卒，宣帝始亲政；两年后霍氏以谋反灭族。"
     },
     {
@@ -612,11 +1053,12 @@
       "name": "赵充国上屯田奏",
       "kind": "point",
       "year": -61,
-      "people": ["zhao-chongguo"],
+      "people": [
+        "zhao-chongguo"
+      ],
       "desc": "以七十余岁高龄三上屯田奏，主张以屯田制羌，为古代边防战略经典。"
     }
   ],
-
   "views": [
     {
       "id": "overview",
@@ -634,13 +1076,24 @@
       "focus": "liu-bang",
       "brief": "从沛县布衣到未央宫。开国、外戚、和亲、削藩——这一章的关键词是「收拾」：刘邦收拾天下，吕后收拾刘氏，文帝收拾民心，景帝收拾诸侯。",
       "people": [
-        "liu-bang", "lv-zhi", "liu-heng", "dou-yifang",
-        "liu-qi", "jia-yi", "chao-cuo", "dou-ying"
+        "liu-bang",
+        "lv-zhi",
+        "liu-heng",
+        "dou-yifang",
+        "liu-qi",
+        "jia-yi",
+        "chao-cuo",
+        "dou-ying"
       ],
       "events": [
-        "qian202-chengdi", "qian200-baideng", "qian195-gaozu-beng",
-        "qian180-lvhou-beng", "wenjing-zhizhi", "qian173-zhian-ce",
-        "qian154-qiguo", "qian141-jingdi-beng"
+        "qian202-chengdi",
+        "qian200-baideng",
+        "qian195-gaozu-beng",
+        "qian180-lvhou-beng",
+        "wenjing-zhizhi",
+        "qian173-zhian-ce",
+        "qian154-qiguo",
+        "qian141-jingdi-beng"
       ]
     },
     {
@@ -651,15 +1104,35 @@
       "focus": "liu-che",
       "brief": "五十四年的皇帝，撞上二十三年的天才。汉武帝的长条横贯本页，霍去病的短条完全落在其中——十七岁出征、二十四岁病逝，全部发生在武帝在位期间。董仲舒的条文臣线上横跨到武帝晚年。",
       "people": [
-        "liu-che", "dou-yifang", "wei-zifu", "dong-zhongshu", "gongsun-hong",
-        "sang-hongyang", "sima-qian", "wei-qing", "huo-qubing", "li-guang",
-        "zhang-qian", "li-ling", "junchen", "yizhixie"
+        "liu-che",
+        "dou-yifang",
+        "wei-zifu",
+        "dong-zhongshu",
+        "gongsun-hong",
+        "sang-hongyang",
+        "sima-qian",
+        "wei-qing",
+        "huo-qubing",
+        "li-guang",
+        "zhang-qian",
+        "li-ling",
+        "junchen",
+        "yizhixie"
       ],
       "events": [
-        "qian141-jingdi-beng", "qian140-jianyuan", "qian138-zhangqian",
-        "qian134-bachu", "han-xiong-war", "qian127-henan", "qian121-hexi",
-        "qian119-mobei", "qian119-zhangqian2", "qian104-dong-zu",
-        "qian99-liling", "qian91-wugu", "qian87-wudi-beng"
+        "qian141-jingdi-beng",
+        "qian140-jianyuan",
+        "qian138-zhangqian",
+        "qian134-bachu",
+        "han-xiong-war",
+        "qian127-henan",
+        "qian121-hexi",
+        "qian119-mobei",
+        "qian119-zhangqian2",
+        "qian104-dong-zu",
+        "qian99-liling",
+        "qian91-wugu",
+        "qian87-wudi-beng"
       ]
     },
     {
@@ -670,12 +1143,20 @@
       "focus": "huo-guang",
       "brief": "武帝留下的是一个虚耗的天下。霍光秉政二十年行休养之政，废一帝、立一帝；宣帝亲政后整顿吏治、设西域都护，西汉国力回到高点。",
       "people": [
-        "liu-fuling", "liu-xun", "huo-guang", "sang-hongyang",
-        "zhao-chongguo", "li-ling"
+        "liu-fuling",
+        "liu-xun",
+        "huo-guang",
+        "sang-hongyang",
+        "zhao-chongguo",
+        "li-ling"
       ],
       "events": [
-        "qian87-wudi-beng", "qian81-yantie", "qian80-sang-zu",
-        "qian74-zhaodi-beng", "qian68-huoguang-zu", "qian61-tuntian"
+        "qian87-wudi-beng",
+        "qian81-yantie",
+        "qian80-sang-zu",
+        "qian74-zhaodi-beng",
+        "qian68-huoguang-zu",
+        "qian61-tuntian"
       ]
     }
   ]
