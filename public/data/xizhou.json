@@ -1,0 +1,654 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "xizhou",
+    "title": "西周",
+    "subtitle": "共和纪年以降 · 公元前 841 — 公元前 770",
+    "range": [
+      -890,
+      -740
+    ]
+  },
+  "lanes": [
+    {
+      "id": "king",
+      "name": "周王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "minister",
+      "name": "卿士 · 史官",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "kin",
+      "name": "后妃 · 外亲",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "lord",
+      "name": "诸侯",
+      "color": "#3f7d52"
+    }
+  ],
+  "people": [
+    {
+      "id": "ji-hu",
+      "name": "姬胡",
+      "display": "周厉王",
+      "lane": "king",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -828,
+      "title": "西周夷王之子，共和行政前的周王",
+      "bio": "好专利，用荣夷公。国人谤王，召穆公谏而不听，前 841 年出奔于彘。共和十四年死于彘，太子静赖召公得免。",
+      "tags": [
+        "周王",
+        "国人暴动",
+        "专利"
+      ],
+      "order": 1
+    },
+    {
+      "id": "ji-jing",
+      "name": "姬静",
+      "display": "周宣王",
+      "lane": "king",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -782,
+      "title": "西周中兴之王，在位四十六年",
+      "bio": "厉王太子。国人暴动时匿于召公家。共和罢，即位。用仲山甫、尹吉甫，史称宣王中兴；晚年不籍千亩，千亩之战王师败绩。",
+      "tags": [
+        "周王",
+        "宣王中兴"
+      ],
+      "order": 2
+    },
+    {
+      "id": "ji-gongsheng",
+      "name": "姬宫湦",
+      "display": "周幽王",
+      "lane": "king",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -771,
+      "title": "西周末代天子",
+      "bio": "宣王子。嬖褒姒、用虢石父，废申后与太子宜臼。前 771 年申侯联合犬戎破镐京，死于骊山，西周亡。",
+      "tags": [
+        "周王",
+        "镐京陷落"
+      ],
+      "order": 3
+    },
+    {
+      "id": "ji-yijiu",
+      "name": "姬宜臼",
+      "display": "周平王",
+      "lane": "king",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -720,
+      "title": "幽王太子，东迁后的周天子",
+      "bio": "被废的嫡子。申侯和他的条在镐京之年交汇，然后他独自向东延伸——西周专题在洛邑门口停住。",
+      "tags": [
+        "周王",
+        "平王东迁"
+      ],
+      "order": 4
+    },
+    {
+      "id": "shao-hu",
+      "name": "召虎",
+      "display": "召穆公",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -823,
+      "deathNote": "卒年不详。国人暴动时藏太子；宣王前期金文与《诗经》仍见召伯，取宣王五年前后为活动下限，非确凿卒年。",
+      "title": "召公奭之后，共和行政的关键卿士",
+      "bio": "厉王时谏谤，以子代太子静。共和期内与周定公行政。宣王初年仍见其名，是把厉王、宣王两条接上的人。",
+      "tags": [
+        "卿士",
+        "共和"
+      ]
+    },
+    {
+      "id": "zhou-dinggong",
+      "name": "周定公",
+      "display": "周定公",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -828,
+      "deathNote": "卒年不详。仅见共和行政，《史记》与召穆公共相王室；共和十四年后事迹不见，取厉王死年为活动下限。",
+      "title": "周公旦之后，共和二相之一",
+      "bio": "《史记》记周、召二相行政，号曰共和。《竹书纪年》别作共伯和摄政。本图从《史记》，把他和召穆公画成并列的两条。",
+      "tags": [
+        "卿士",
+        "共和"
+      ]
+    },
+    {
+      "id": "rui-liangfu",
+      "name": "芮良夫",
+      "display": "芮良夫",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -841,
+      "deathNote": "卒年不详。谏厉王专利在国人暴动前，其后无记载，取暴动年为可见下限。",
+      "title": "厉王卿士，谏专利",
+      "bio": "厉王近荣夷公、专山泽之利，芮良夫以荣公专利必败为谏。王不听。国人暴动后其人从轴上消失，只留下这一谏。",
+      "tags": [
+        "卿士",
+        "谏诤"
+      ]
+    },
+    {
+      "id": "zhong-shanfu",
+      "name": "仲山甫",
+      "display": "仲山甫",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -782,
+      "deathNote": "卒年不详。宣王之世为樊侯、辅政，《烝民》颂之，取宣王卒年为活动下限。",
+      "title": "宣王卿士，樊侯",
+      "bio": "宣王时补缺、柔远。尹吉甫作《烝民》美之。他的条几乎与宣王中兴重叠，是中兴在卿士泳道上的对应物。",
+      "tags": [
+        "卿士",
+        "宣王中兴"
+      ]
+    },
+    {
+      "id": "yin-jifu",
+      "name": "尹吉甫",
+      "display": "尹吉甫",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -823,
+      "deathNote": "卒年不详。宣王五年前后帅师伐猃狁，《六月》与兮甲盘记其事，取此年为活动下限。",
+      "title": "宣王太师，伐猃狁",
+      "bio": "兮氏，字吉甫。北伐猃狁至于太原，是宣王中兴写在武事上的一条。生卒皆无年表，轴上只看得见这场仗。",
+      "tags": [
+        "卿士",
+        "伐猃狁"
+      ]
+    },
+    {
+      "id": "guo-shifu",
+      "name": "虢石父",
+      "display": "虢石父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。幽王时为卿士，国人皆怨；镐京陷落后不见记载，取前 771 年为活动下限。",
+      "title": "幽王佞臣",
+      "bio": "善谀好利，幽王用之。废嫡立庶的朝局里，他和褒姒同侧。镐京一破，这条短条就停了。",
+      "tags": [
+        "卿士",
+        "佞臣"
+      ]
+    },
+    {
+      "id": "bo-yangfu",
+      "name": "伯阳父",
+      "display": "伯阳父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -780,
+      "deathNote": "卒年不详。幽王二年论三川震，仅见此年。",
+      "title": "周太史",
+      "bio": "幽王二年三川竭、岐山崩，太史伯阳父谓阳伏而不能出、周将亡。地震画成时点，他的条几乎缩成同一个点。",
+      "tags": [
+        "太史",
+        "三川震"
+      ]
+    },
+    {
+      "id": "bao-si",
+      "name": "褒姒",
+      "display": "褒姒",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "生卒无年表。传统记载与幽王同尽于骊山，取镐京陷落年。",
+      "title": "幽王宠妃，伯服之母",
+      "bio": "褒人。幽王三年嬖之，后废申后、逐太子宜臼。烽火戏诸侯出《史记》，后世多疑为传说；可考的是废嫡与镐京之祸。",
+      "tags": [
+        "褒姒",
+        "废嫡"
+      ]
+    },
+    {
+      "id": "shen-hou",
+      "name": "申侯",
+      "display": "申侯",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -770,
+      "deathNote": "卒年不详。前 771 年联合犬戎攻杀幽王，前 770 年拥立平王东迁，取东迁年为最后可考活动，非确凿卒年。",
+      "title": "申后之父，平王外祖",
+      "bio": "西申之君。女为幽后，外孙为宜臼。幽王废申后，他引犬戎入镐，又与诸侯立平王。敌对与亲族叠在同一条姻亲上。",
+      "tags": [
+        "申国",
+        "犬戎"
+      ]
+    },
+    {
+      "id": "ji-you",
+      "name": "姬友",
+      "display": "郑桓公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -771,
+      "title": "郑国始封之君，周司徒",
+      "bio": "宣王母弟，宣王二十二年封郑。幽王时为司徒，见王室将乱，寄孥与贿于虢、郐。犬戎之难与幽王同死，郑武公另开春秋。",
+      "tags": [
+        "郑国",
+        "始封"
+      ]
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#d0503c",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-hu",
+      "target": "ji-jing",
+      "type": "kin",
+      "note": "父子。太子静即后来的宣王"
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-gongsheng",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yijiu",
+      "type": "kin",
+      "note": "父子。后废嫡立伯服"
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-you",
+      "type": "kin",
+      "note": "宣王母弟，封于郑"
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "shen-hou",
+      "type": "kin",
+      "note": "外孙与外祖"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bao-si",
+      "type": "kin",
+      "note": "宠妃，伯服之母"
+    },
+    {
+      "source": "ji-hu",
+      "target": "shao-hu",
+      "type": "ruler-subject",
+      "note": "召穆公谏谤，后藏太子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "zhou-dinggong",
+      "type": "ruler-subject",
+      "note": "周公之后，共和二相之一"
+    },
+    {
+      "source": "ji-hu",
+      "target": "rui-liangfu",
+      "type": "ruler-subject",
+      "note": "谏厉王专利"
+    },
+    {
+      "source": "ji-jing",
+      "target": "zhong-shanfu",
+      "type": "ruler-subject",
+      "note": "樊侯辅政，尹吉甫作《烝民》美之"
+    },
+    {
+      "source": "ji-jing",
+      "target": "yin-jifu",
+      "type": "ruler-subject",
+      "note": "太师，帅师伐猃狁"
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-you",
+      "type": "ruler-subject",
+      "since": -806,
+      "note": "封郑，幽王时为周司徒"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "guo-shifu",
+      "type": "ruler-subject",
+      "note": "用为卿士，国人皆怨"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bo-yangfu",
+      "type": "ruler-subject",
+      "since": -780,
+      "note": "太史论三川震"
+    },
+    {
+      "source": "shao-hu",
+      "target": "zhou-dinggong",
+      "type": "peer",
+      "since": -841,
+      "note": "《史记》周召二相共和行政"
+    },
+    {
+      "source": "zhong-shanfu",
+      "target": "yin-jifu",
+      "type": "peer",
+      "note": "同为宣王中兴的卿士"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shen-hou",
+      "type": "rival",
+      "note": "废申后，申侯后来引犬戎"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yijiu",
+      "type": "rival",
+      "note": "废太子，改立褒姒之子伯服"
+    },
+    {
+      "source": "bao-si",
+      "target": "ji-yijiu",
+      "type": "rival",
+      "note": "伯服之立，直接取代宜臼"
+    }
+  ],
+  "events": [
+    {
+      "id": "guoren-baodong",
+      "name": "国人暴动，厉王奔彘",
+      "kind": "point",
+      "year": -841,
+      "people": [
+        "ji-hu",
+        "shao-hu",
+        "ji-jing"
+      ],
+      "desc": "谤言止于监谤。国人攻王，厉王出奔；太子静匿召公家。中国连续纪年从这一年算起。"
+    },
+    {
+      "id": "gonghe",
+      "name": "共和行政",
+      "kind": "span",
+      "year": -841,
+      "endYear": -828,
+      "people": [
+        "shao-hu",
+        "zhou-dinggong",
+        "ji-jing",
+        "ji-hu"
+      ],
+      "desc": "《史记》谓周、召二相行政，号曰共和；《竹书纪年》谓共伯和摄政。本图人物从《史记》，异说写在这里。"
+    },
+    {
+      "id": "liwang-zhi",
+      "name": "厉王死于彘",
+      "kind": "point",
+      "year": -828,
+      "people": [
+        "ji-hu",
+        "ji-jing"
+      ],
+      "desc": "共和十四年，厉王死于彘。太子静即位，是为宣王，共和罢。"
+    },
+    {
+      "id": "xuanwang-jiwei",
+      "name": "宣王即位",
+      "kind": "point",
+      "year": -827,
+      "people": [
+        "ji-jing",
+        "shao-hu"
+      ],
+      "desc": "召公、周公还政。宣王元年，中兴的长条从这里起。"
+    },
+    {
+      "id": "buji-qianmu",
+      "name": "宣王不籍千亩",
+      "kind": "point",
+      "year": -827,
+      "people": [
+        "ji-jing"
+      ],
+      "desc": "即位后不行籍田之礼。《国语》以此为王室与民争利之兆，和后来的千亩之败首尾相应。"
+    },
+    {
+      "id": "zheng-feng",
+      "name": "郑桓公始封",
+      "kind": "point",
+      "year": -806,
+      "people": [
+        "ji-jing",
+        "ji-you"
+      ],
+      "desc": "宣王二十二年封母弟友于郑。诸侯泳道上终于出现一条可以量长度的国。"
+    },
+    {
+      "id": "fa-xianyun",
+      "name": "尹吉甫伐猃狁",
+      "kind": "point",
+      "year": -823,
+      "people": [
+        "yin-jifu",
+        "ji-jing"
+      ],
+      "desc": "宣王前期北伐。《诗经·六月》与兮甲盘记吉甫至于太原，是中兴写在武事上的时点。"
+    },
+    {
+      "id": "xuanwang-zhongxing",
+      "name": "宣王中兴",
+      "kind": "span",
+      "year": -827,
+      "endYear": -782,
+      "people": [
+        "ji-jing",
+        "zhong-shanfu",
+        "yin-jifu"
+      ],
+      "desc": "料民、伐狧狁、命秦仲。时段带盖住宣王整条在位，千亩之败也落在带的末尾。"
+    },
+    {
+      "id": "qianmu-zhan",
+      "name": "千亩之战，王师败绩",
+      "kind": "point",
+      "year": -789,
+      "people": [
+        "ji-jing"
+      ],
+      "desc": "宣王三十九年战于千亩，败于姜氏之戎。中兴的条还没画完，败象已经落在同一条上。"
+    },
+    {
+      "id": "xuanwang-beng",
+      "name": "宣王崩，幽王即位",
+      "kind": "point",
+      "year": -782,
+      "people": [
+        "ji-jing",
+        "ji-gongsheng"
+      ],
+      "desc": "在位四十六年。下一年幽王改元，西周进入最后十年。"
+    },
+    {
+      "id": "sanchuan-zhen",
+      "name": "三川震，伯阳父论周亡",
+      "kind": "point",
+      "year": -780,
+      "people": [
+        "bo-yangfu",
+        "ji-gongsheng"
+      ],
+      "desc": "幽王二年，西周三川皆震。太史伯阳父谓源塞国必亡。地震是时点，预言对着十年后的镐京。"
+    },
+    {
+      "id": "fei-shenhou",
+      "name": "嬖褒姒，废申后与太子",
+      "kind": "point",
+      "year": -779,
+      "people": [
+        "ji-gongsheng",
+        "bao-si",
+        "shen-hou",
+        "ji-yijiu"
+      ],
+      "desc": "幽王三年嬖褒姒，后废申后、逐宜臼。《史记》所记烽火戏诸侯多被疑为传说，废嫡则是可核对的朝局。"
+    },
+    {
+      "id": "quanrong-po-hao",
+      "name": "犬戎破镐京，幽王死于骊山",
+      "kind": "point",
+      "year": -771,
+      "people": [
+        "ji-gongsheng",
+        "bao-si",
+        "guo-shifu",
+        "shen-hou",
+        "ji-you"
+      ],
+      "desc": "申侯引犬戎入镐。幽王、郑桓公同死。西周的王条、佞臣条、始封诸侯条在这一年一起截断。"
+    },
+    {
+      "id": "pingwang-dongqian",
+      "name": "平王东迁",
+      "kind": "point",
+      "year": -770,
+      "people": [
+        "ji-yijiu",
+        "shen-hou"
+      ],
+      "desc": "诸侯迎立宜臼，迁都洛邑。连续纪年不中断，政治中心从渭河搬到伊洛——春秋专题从这里接上。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "西周晚期全览",
+      "from": -890,
+      "to": -740,
+      "focus": "ji-jing",
+      "brief": "司马迁能逐年记的历史从共和元年开始。厉王的条在前 828 年截住，宣王的条横贯中兴，幽王的条短而止于镐京——三王的长度本身就是西周怎么完的。"
+    },
+    {
+      "id": "gonghe",
+      "name": "国人与共和",
+      "from": -860,
+      "to": -820,
+      "focus": "ji-hu",
+      "brief": "国人暴动那年，太子静还是开口的生年条。召穆公、周定公两条停在共和期内：《史记》的二相行政，和《竹书》的共伯和，抢的是同一段空白。",
+      "people": [
+        "ji-hu",
+        "shao-hu",
+        "zhou-dinggong",
+        "rui-liangfu",
+        "ji-jing"
+      ],
+      "events": [
+        "guoren-baodong",
+        "gonghe",
+        "liwang-zhi",
+        "xuanwang-jiwei"
+      ]
+    },
+    {
+      "id": "xuanwang",
+      "name": "宣王中兴",
+      "from": -840,
+      "to": -780,
+      "focus": "ji-jing",
+      "brief": "宣王的长条里叠着尹吉甫伐猃狁、仲山甫辅政、郑桓公始封。前 789 年千亩之战，王师败绩，中兴的时段带还没画完。",
+      "people": [
+        "ji-jing",
+        "shao-hu",
+        "zhong-shanfu",
+        "yin-jifu",
+        "ji-you",
+        "ji-hu"
+      ],
+      "events": [
+        "xuanwang-jiwei",
+        "buji-qianmu",
+        "zheng-feng",
+        "fa-xianyun",
+        "xuanwang-zhongxing",
+        "qianmu-zhan",
+        "xuanwang-beng"
+      ]
+    },
+    {
+      "id": "youwang",
+      "name": "镐京陷落",
+      "from": -800,
+      "to": -740,
+      "focus": "ji-gongsheng",
+      "brief": "褒姒、虢石父、申侯挤在幽王短短十年里。前 771 年镐京陷落，郑桓公与幽王同年截断；平王的条继续往东伸，接到春秋。",
+      "people": [
+        "ji-gongsheng",
+        "bao-si",
+        "guo-shifu",
+        "shen-hou",
+        "ji-yijiu",
+        "ji-you",
+        "bo-yangfu"
+      ],
+      "events": [
+        "xuanwang-beng",
+        "sanchuan-zhen",
+        "fei-shenhou",
+        "quanrong-po-hao",
+        "pingwang-dongqian"
+      ]
+    }
+  ]
+}

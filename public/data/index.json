@@ -8,6 +8,10 @@
   ],
   "eras": [
     {
+      "id": "western-zhou",
+      "name": "西周"
+    },
+    {
       "id": "spring-autumn",
       "name": "春秋"
     },
@@ -31,6 +35,45 @@
     }
   ],
   "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "subtitle": "共和纪年以降",
+      "file": "xizhou.json",
+      "region": "cn",
+      "eras": [
+        "western-zhou"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "subtitle": "平王东迁到吴越争霸",
+      "file": "chunqiu.json",
+      "region": "cn",
+      "eras": [
+        "spring-autumn"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "subtitle": "变法到秦灭六国",
+      "file": "zhanguo.json",
+      "region": "cn",
+      "eras": [
+        "warring-states"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
     {
       "id": "han",
       "title": "汉代",

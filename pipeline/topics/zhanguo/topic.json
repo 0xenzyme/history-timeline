@@ -1,0 +1,594 @@
+{
+  "meta": {
+    "id": "zhanguo",
+    "title": "战国",
+    "subtitle": "变法到秦灭六国 · 公元前 403 — 公元前 221",
+    "range": [
+      -400,
+      -200
+    ]
+  },
+  "catalog": {
+    "subtitle": "变法到秦灭六国",
+    "region": "cn",
+    "eras": [
+      "warring-states"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "ruler",
+      "name": "君主",
+      "color": "#c0392b"
+    },
+    {
+      "id": "minister",
+      "name": "变法 · 谋臣",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "general",
+      "name": "将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "diplomat",
+      "name": "纵横",
+      "color": "#6b5b95"
+    },
+    {
+      "id": "scholar",
+      "name": "诸子",
+      "color": "#2f6f9f"
+    }
+  ],
+  "people": [
+    {
+      "id": "ying-quliang",
+      "lane": "ruler"
+    },
+    {
+      "id": "tian-yinqi",
+      "lane": "ruler"
+    },
+    {
+      "id": "zhao-yong",
+      "lane": "ruler"
+    },
+    {
+      "id": "ji-zhi",
+      "lane": "ruler"
+    },
+    {
+      "id": "ying-ji",
+      "lane": "ruler"
+    },
+    {
+      "id": "ying-zheng",
+      "lane": "ruler"
+    },
+    {
+      "id": "shang-yang",
+      "lane": "minister"
+    },
+    {
+      "id": "lv-buwei",
+      "lane": "minister"
+    },
+    {
+      "id": "sun-bin",
+      "lane": "general"
+    },
+    {
+      "id": "pang-juan",
+      "lane": "general"
+    },
+    {
+      "id": "bai-qi",
+      "lane": "general"
+    },
+    {
+      "id": "lian-po",
+      "lane": "general"
+    },
+    {
+      "id": "yue-yi",
+      "lane": "general"
+    },
+    {
+      "id": "tian-dan",
+      "lane": "general"
+    },
+    {
+      "id": "wang-jian",
+      "lane": "general"
+    },
+    {
+      "id": "zhang-yi",
+      "lane": "diplomat"
+    },
+    {
+      "id": "su-qin",
+      "lane": "diplomat"
+    },
+    {
+      "id": "lin-xiangru",
+      "lane": "diplomat"
+    },
+    {
+      "id": "mengzi",
+      "lane": "scholar"
+    },
+    {
+      "id": "qu-yuan",
+      "lane": "scholar"
+    },
+    {
+      "id": "xunzi",
+      "lane": "scholar"
+    },
+    {
+      "id": "hanfei",
+      "lane": "scholar"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#2f7ed8",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#d0503c",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-quliang",
+      "target": "shang-yang",
+      "type": "ruler-subject",
+      "since": -356,
+      "note": "卫鞅入秦变法"
+    },
+    {
+      "source": "tian-yinqi",
+      "target": "sun-bin",
+      "type": "ruler-subject",
+      "note": "田忌荐为军师，桂陵、马陵"
+    },
+    {
+      "source": "sun-bin",
+      "target": "pang-juan",
+      "type": "rival",
+      "since": -353,
+      "note": "同学相忌，马陵庞涓死"
+    },
+    {
+      "source": "zhao-yong",
+      "target": "ying-ji",
+      "type": "rival",
+      "note": "胡服之后的秦赵对峙，下启长平"
+    },
+    {
+      "source": "ji-zhi",
+      "target": "yue-yi",
+      "type": "ruler-subject",
+      "note": "上将军，连五国伐齐"
+    },
+    {
+      "source": "ji-zhi",
+      "target": "su-qin",
+      "type": "ruler-subject",
+      "note": "合纵活动系于昭王之世"
+    },
+    {
+      "source": "yue-yi",
+      "target": "tian-dan",
+      "type": "rival",
+      "since": -284,
+      "note": "破齐与即墨复国的两端"
+    },
+    {
+      "source": "ying-ji",
+      "target": "bai-qi",
+      "type": "ruler-subject",
+      "note": "武安君，长平、拔郢"
+    },
+    {
+      "source": "ying-ji",
+      "target": "bai-qi",
+      "type": "rival",
+      "since": -257,
+      "note": "不肯再将围邯郸，赐死"
+    },
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "rival",
+      "note": "争位，后负荆请罪为同僚"
+    },
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "peer",
+      "since": -279,
+      "note": "将相和"
+    },
+    {
+      "source": "lian-po",
+      "target": "bai-qi",
+      "type": "rival",
+      "since": -260,
+      "note": "长平前主赵军，后为赵括所代"
+    },
+    {
+      "source": "zhang-yi",
+      "target": "su-qin",
+      "type": "rival",
+      "note": "连横与合纵。苏秦年代从出土文献后置，两条仍画敌对"
+    },
+    {
+      "source": "zhang-yi",
+      "target": "qu-yuan",
+      "type": "rival",
+      "note": "欺楚绝齐，屈原主联齐"
+    },
+    {
+      "source": "mengzi",
+      "target": "xunzi",
+      "type": "rival",
+      "note": "性善与性恶"
+    },
+    {
+      "source": "xunzi",
+      "target": "hanfei",
+      "type": "mentor",
+      "note": "韩非学于荀子"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "lv-buwei",
+      "type": "ruler-subject",
+      "note": "仲父，亲政前为相"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "lv-buwei",
+      "type": "rival",
+      "since": -237,
+      "note": "免相迁蜀"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wang-jian",
+      "type": "ruler-subject",
+      "note": "六十万灭楚"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "hanfei",
+      "type": "ruler-subject",
+      "since": -233,
+      "note": "悦其书，韩非使秦而死"
+    },
+    {
+      "source": "ying-quliang",
+      "target": "ying-ji",
+      "type": "kin",
+      "note": "孝公之后数世至昭襄。中间惠文、武王从略"
+    },
+    {
+      "source": "ying-ji",
+      "target": "ying-zheng",
+      "type": "kin",
+      "note": "昭襄王之曾孙。庄襄从略，轴上看见的是两代最长的秦王"
+    }
+  ],
+  "events": [
+    {
+      "id": "sanjia",
+      "name": "三家分晋",
+      "kind": "point",
+      "year": -403,
+      "desc": "周威烈王命韩赵魏为诸侯。本专题镜头从这一年打开，人物要再过半个世纪才密起来。"
+    },
+    {
+      "id": "shangyang-bianfa",
+      "name": "商鞅变法",
+      "kind": "span",
+      "year": -356,
+      "endYear": -338,
+      "people": [
+        "ying-quliang",
+        "shang-yang"
+      ],
+      "desc": "两次变法，秦从西陲变成可以东出的国。孝公与商鞅的条在这一段完全重叠。"
+    },
+    {
+      "id": "guiling",
+      "name": "桂陵之战",
+      "kind": "point",
+      "year": -353,
+      "people": [
+        "sun-bin",
+        "pang-juan",
+        "tian-yinqi"
+      ],
+      "desc": "围魏救赵。孙膑的条刚刚出现，庞涓已经与他画成敌对。"
+    },
+    {
+      "id": "maling",
+      "name": "马陵之战，庞涓死",
+      "kind": "point",
+      "year": -341,
+      "people": [
+        "sun-bin",
+        "pang-juan"
+      ],
+      "desc": "减灶诱敌。庞涓的条在这一年截断，孙膑的条也几乎停在此处。"
+    },
+    {
+      "id": "hufu",
+      "name": "胡服骑射",
+      "kind": "point",
+      "year": -307,
+      "people": [
+        "zhao-yong"
+      ],
+      "desc": "武灵王改服习骑。赵条从此可以北进，也把后来的长平对手养成了。"
+    },
+    {
+      "id": "meng-liang",
+      "name": "孟子见梁惠王",
+      "kind": "point",
+      "year": -320,
+      "people": [
+        "mengzi"
+      ],
+      "desc": "问何以利吾国。诸子泳道在变法之后进入轴的中段，和纵横家并行。"
+    },
+    {
+      "id": "wanbi",
+      "name": "完璧归赵",
+      "kind": "point",
+      "year": -283,
+      "people": [
+        "lin-xiangru"
+      ],
+      "desc": "蔺相如奉璧入秦。文臣条在武将条旁边突然抬起来。"
+    },
+    {
+      "id": "leyi-faqi",
+      "name": "乐毅伐齐",
+      "kind": "point",
+      "year": -284,
+      "people": [
+        "ji-zhi",
+        "yue-yi",
+        "su-qin"
+      ],
+      "desc": "燕昭王二十八年，下齐七十余城。昭王条末尾最密的一年。"
+    },
+    {
+      "id": "tiandan",
+      "name": "田单即墨复齐",
+      "kind": "point",
+      "year": -279,
+      "people": [
+        "tian-dan",
+        "yue-yi",
+        "ji-zhi"
+      ],
+      "desc": "昭王新卒，骑劫代将。火牛阵复七十城。破齐与复齐叠在燕王条的终点两侧。"
+    },
+    {
+      "id": "quyuan-si",
+      "name": "屈原投汨罗",
+      "kind": "point",
+      "year": -278,
+      "people": [
+        "qu-yuan"
+      ],
+      "desc": "约顷襄王之世。白起拔郢前后，楚的士人条在汨罗截断。"
+    },
+    {
+      "id": "changping",
+      "name": "长平之战",
+      "kind": "point",
+      "year": -260,
+      "people": [
+        "bai-qi",
+        "lian-po",
+        "ying-ji"
+      ],
+      "desc": "廉颇被代，赵括出。白起坑杀赵卒。山东再没有能与秦对峙的举国之战。"
+    },
+    {
+      "id": "handan",
+      "name": "邯郸之围",
+      "kind": "span",
+      "year": -259,
+      "endYear": -257,
+      "people": [
+        "bai-qi",
+        "ying-ji"
+      ],
+      "desc": "白起不肯再将。魏楚救赵，秦退。武安君赐死就落在这段带的尽头。"
+    },
+    {
+      "id": "baiqi-si",
+      "name": "白起赐死",
+      "kind": "point",
+      "year": -257,
+      "people": [
+        "bai-qi",
+        "ying-ji"
+      ],
+      "desc": "昭王五十年。战国最陡的一条武将条停在邯郸未下之年。"
+    },
+    {
+      "id": "mie-zhou",
+      "name": "秦灭东周",
+      "kind": "point",
+      "year": -256,
+      "people": [
+        "ying-ji"
+      ],
+      "desc": "周赧王卒，秦迁九鼎。共主从轴上消失，只剩灭国。"
+    },
+    {
+      "id": "hanfei-qin",
+      "name": "韩非使秦，死于云阳",
+      "kind": "point",
+      "year": -233,
+      "people": [
+        "hanfei",
+        "ying-zheng",
+        "xunzi"
+      ],
+      "desc": "秦王悦其书。李斯、姚贾害之。法家条在统一前夜截断，书留在秦廷。"
+    },
+    {
+      "id": "mie-liu",
+      "name": "秦灭六国",
+      "kind": "span",
+      "year": -230,
+      "endYear": -221,
+      "people": [
+        "ying-zheng",
+        "wang-jian"
+      ],
+      "desc": "灭韩、赵、魏、楚、燕、齐。王翦的条收在这一段里，嬴政的条还要再往右画到前 210 年。"
+    },
+    {
+      "id": "qin-yi",
+      "name": "秦王政并天下",
+      "kind": "point",
+      "year": -221,
+      "people": [
+        "ying-zheng",
+        "wang-jian"
+      ],
+      "desc": "灭齐。战国结束。帝号、驰道与焚书留给秦专题，本图在统一这一年停住。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "战国全览",
+      "from": -400,
+      "to": -200,
+      "focus": "ying-zheng",
+      "brief": "左边是孝公与商鞅几乎等长的变法，中间是昭襄王压过六国的长条，右边嬴政十年灭国。诸子和纵横穿在君主条的缝里。"
+    },
+    {
+      "id": "bianfa",
+      "name": "变法与齐魏",
+      "from": -390,
+      "to": -320,
+      "focus": "shang-yang",
+      "brief": "商鞅的条几乎全落在孝公在位期内，两人同年截断。齐威王一侧，孙膑与庞涓的短条在桂陵、马陵撞上。",
+      "people": [
+        "ying-quliang",
+        "shang-yang",
+        "tian-yinqi",
+        "sun-bin",
+        "pang-juan",
+        "mengzi"
+      ],
+      "events": [
+        "sanjia",
+        "shangyang-bianfa",
+        "guiling",
+        "maling",
+        "meng-liang"
+      ]
+    },
+    {
+      "id": "hezong",
+      "name": "合纵连横",
+      "from": -340,
+      "to": -270,
+      "focus": "zhang-yi",
+      "brief": "张仪向秦倾斜，苏秦按出土文献放在燕昭王一侧。乐毅破齐与田单复齐对咬；屈原的条对着连横。",
+      "people": [
+        "ying-ji",
+        "zhao-yong",
+        "ji-zhi",
+        "zhang-yi",
+        "su-qin",
+        "mengzi",
+        "qu-yuan",
+        "yue-yi",
+        "tian-dan",
+        "lin-xiangru"
+      ],
+      "events": [
+        "hufu",
+        "meng-liang",
+        "wanbi",
+        "leyi-faqi",
+        "tiandan",
+        "quyuan-si"
+      ]
+    },
+    {
+      "id": "qinfeng",
+      "name": "长平以后",
+      "from": -270,
+      "to": -200,
+      "focus": "ying-zheng",
+      "brief": "白起的条在邯郸未下时截断。吕不韦压着年轻的秦王政，韩非死在统一前夜，王翦把灭国画完。",
+      "people": [
+        "ying-ji",
+        "bai-qi",
+        "lian-po",
+        "lin-xiangru",
+        "lv-buwei",
+        "wang-jian",
+        "hanfei",
+        "xunzi",
+        "ying-zheng"
+      ],
+      "events": [
+        "changping",
+        "handan",
+        "baiqi-si",
+        "mie-zhou",
+        "hanfei-qin",
+        "mie-liu",
+        "qin-yi"
+      ]
+    }
+  ]
+}

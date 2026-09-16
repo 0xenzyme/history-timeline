@@ -1,0 +1,844 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "zhanguo",
+    "title": "战国",
+    "subtitle": "变法到秦灭六国 · 公元前 403 — 公元前 221",
+    "range": [
+      -400,
+      -200
+    ]
+  },
+  "lanes": [
+    {
+      "id": "ruler",
+      "name": "君主",
+      "color": "#c0392b"
+    },
+    {
+      "id": "minister",
+      "name": "变法 · 谋臣",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "general",
+      "name": "将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "diplomat",
+      "name": "纵横",
+      "color": "#6b5b95"
+    },
+    {
+      "id": "scholar",
+      "name": "诸子",
+      "color": "#2f6f9f"
+    }
+  ],
+  "people": [
+    {
+      "id": "ying-quliang",
+      "name": "嬴渠梁",
+      "display": "秦孝公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -338,
+      "title": "秦国国君，用商鞅变法",
+      "bio": "发愤令国中求贤。卫鞅入秦，变法十年，秦富强。他一卒，商鞅车裂——国君条与变法者条在前 338 年一起截断。",
+      "tags": [
+        "秦国",
+        "变法"
+      ]
+    },
+    {
+      "id": "tian-yinqi",
+      "name": "田因齐",
+      "display": "齐威王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -320,
+      "title": "田齐国君，稷下与桂陵、马陵",
+      "bio": "用邹忌、孙膑。桂陵、马陵败魏，齐最强。稷下学宫在他的条里铺开，孟子稍后才走进同一条齐国线。",
+      "tags": [
+        "齐国",
+        "稷下"
+      ]
+    },
+    {
+      "id": "zhao-yong",
+      "name": "赵雍",
+      "display": "赵武灵王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -295,
+      "title": "赵王，胡服骑射",
+      "bio": "胡服骑射，北破林胡、楼烦。传位惠文王，沙丘宫被围饿死。改革发生在条的中段，死亡在自己让出的王位之后。",
+      "tags": [
+        "赵国",
+        "胡服骑射"
+      ]
+    },
+    {
+      "id": "ji-zhi",
+      "name": "姬职",
+      "display": "燕昭王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -279,
+      "title": "燕王，筑黄金台",
+      "bio": "子之之乱后即位。郭隗、乐毅入燕，二十八年破齐七十余城。他一卒，骑劫代将，田单复齐——昭王条的终点就是齐国条的转折。",
+      "tags": [
+        "燕国",
+        "破齐"
+      ]
+    },
+    {
+      "id": "ying-ji",
+      "name": "嬴稷",
+      "display": "秦昭襄王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -251,
+      "title": "秦王，在位五十六年，长平之主",
+      "bio": "用魏冉、范雎、白起。远交近攻，破长平、围邯郸、灭东周。战国后半他的条最长，六国的败象都画在这条下面。",
+      "tags": [
+        "秦国",
+        "长平"
+      ]
+    },
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "lane": "ruler",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -259,
+      "death": -210,
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题只画到前 221 年统一，帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ]
+    },
+    {
+      "id": "shang-yang",
+      "name": "公孙鞅",
+      "display": "商鞅",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -338,
+      "title": "秦孝公相，变法者",
+      "bio": "卫人。入秦说孝公，废井田、明赏罚、强耕战。孝公卒，被车裂。他的条几乎全落在孝公在位期内，短而陡。",
+      "tags": [
+        "秦国",
+        "变法"
+      ]
+    },
+    {
+      "id": "lv-buwei",
+      "name": "吕不韦",
+      "display": "吕不韦",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -235,
+      "title": "秦相，立子楚，著《吕氏春秋》",
+      "bio": "阳翟贾人。助异人质子楚归秦。庄襄王、秦王政时为相，封文信侯。免相迁蜀，饮鸩。嬴政亲政前，这条相条压着王条。",
+      "tags": [
+        "秦国",
+        "仲父"
+      ]
+    },
+    {
+      "id": "sun-bin",
+      "name": "孙膑",
+      "display": "孙膑",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -330,
+      "deathNote": "卒年不详。桂陵、马陵之后事迹不载，取马陵稍后为活动下限。",
+      "title": "齐军师，桂陵、马陵破魏",
+      "bio": "孙武后世。庞涓刖之，田忌荐于威王。围魏救赵、减灶诱敌。他的条短，全压在威王中期两场战役上。",
+      "tags": [
+        "齐国",
+        "兵家"
+      ]
+    },
+    {
+      "id": "pang-juan",
+      "name": "庞涓",
+      "display": "庞涓",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -341,
+      "title": "魏将，马陵之战死",
+      "bio": "与孙膑同学。相魏，忌孙膑而刖之。马陵中伏，自刭。敌对关系在轴上收成同一年的截断。",
+      "tags": [
+        "魏国",
+        "马陵"
+      ]
+    },
+    {
+      "id": "bai-qi",
+      "name": "白起",
+      "display": "白起",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -257,
+      "title": "秦将，武安君，坑杀长平",
+      "bio": "郿人。拔郢、烧夷陵，长平坑赵卒。不肯再将围邯郸，昭王赐死。战国最陡的一条武将条，停在邯郸未下之年。",
+      "tags": [
+        "秦国",
+        "长平"
+      ]
+    },
+    {
+      "id": "lian-po",
+      "name": "廉颇",
+      "display": "廉颇",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -243,
+      "deathNote": "卒年不详。奔魏后入楚，终老寿春，约楚迁都寿春前后。",
+      "title": "赵将，与蔺相如将相和",
+      "bio": "长平前主赵军，后为赵括所代。负荆于蔺相如。晚岁奔魏、楚，赵终不能用。他的条拖过长平，拖不过秦的东进。",
+      "tags": [
+        "赵国",
+        "长平"
+      ]
+    },
+    {
+      "id": "yue-yi",
+      "name": "乐毅",
+      "display": "乐毅",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -270,
+      "deathNote": "卒年不详。昭王死后奔赵，惠文王时仍在，取破齐之后数年为活动下限。",
+      "title": "燕将，破齐七十余城",
+      "bio": "魏人。为燕上将军，连赵楚韩魏伐齐，下七十余城。骑劫代将，他留赵。破齐的时段带画在昭王条的末尾。",
+      "tags": [
+        "燕国",
+        "破齐"
+      ]
+    },
+    {
+      "id": "tian-dan",
+      "name": "田单",
+      "display": "田单",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -260,
+      "deathNote": "卒年不详。即墨复齐后为齐相，后又相赵，取长平前为活动下限。",
+      "title": "齐将，即墨复国",
+      "bio": "临淄人。乐毅破齐，他守即墨，火牛阵复七十城。燕昭王条一断，他的条才抬起来——同一场战争的两端。",
+      "tags": [
+        "齐国",
+        "即墨"
+      ]
+    },
+    {
+      "id": "wang-jian",
+      "name": "王翦",
+      "display": "王翦",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -220,
+      "deathNote": "卒年不详。始皇二十四年灭楚，其后少记载，取统一前后为活动下限。",
+      "title": "秦将，灭赵、灭楚",
+      "bio": "频阳人。与秦王政议兵，六十万灭楚。灭六国的武将条里，白起开了头，他收了尾。",
+      "tags": [
+        "秦国",
+        "灭六国"
+      ]
+    },
+    {
+      "id": "zhang-yi",
+      "name": "张仪",
+      "display": "张仪",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -309,
+      "deathNote": "秦武王元年去秦相魏，不久卒于魏，取前 309 年。",
+      "title": "连横家，秦惠文王相",
+      "bio": "魏人。相秦，破合纵。欺楚绝齐，取汉中。惠文王卒，他失去靠山。连横画成向秦倾斜的线，他是节点。",
+      "tags": [
+        "秦国",
+        "连横"
+      ]
+    },
+    {
+      "id": "su-qin",
+      "name": "苏秦",
+      "display": "苏秦",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": -284,
+      "deathNote": "《史记》将苏秦置于张仪之前，与马王堆《战国纵横家书》不合。今从战国中后期合纵于燕、约前 284 年死于齐一说。",
+      "title": "合纵士，活动于燕昭王前后",
+      "bio": "洛阳人。传统叙事佩六国相印；出土文献更近燕昭王时的反间与合纵。本图把他放在昭王、乐毅一侧，不放在张仪之前。",
+      "tags": [
+        "燕国",
+        "合纵"
+      ]
+    },
+    {
+      "id": "lin-xiangru",
+      "name": "蔺相如",
+      "display": "蔺相如",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -260,
+      "deathNote": "卒年不详。完璧、渑池之后少见于《赵世家》，取长平前为活动下限。",
+      "title": "赵上卿，完璧归赵",
+      "bio": "缪贤舍人。奉璧入秦、渑池奉缶，位在廉颇右。将相和把两条敌对的线改成同僚。长平之前，赵的文臣条几乎只剩他。",
+      "tags": [
+        "赵国",
+        "完璧归赵"
+      ]
+    },
+    {
+      "id": "mengzi",
+      "name": "孟轲",
+      "display": "孟子",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": -372,
+      "death": -289,
+      "title": "战国儒家，倡性善、仁政",
+      "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
+      "tags": [
+        "性善",
+        "仁政",
+        "亚圣"
+      ]
+    },
+    {
+      "id": "qu-yuan",
+      "name": "屈平",
+      "display": "屈原",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": -340,
+      "death": -278,
+      "birthNote": "生卒皆为后人所系，约怀王、顷襄王之世。",
+      "deathNote": "传统系于顷襄王时投汨罗，约前 278 年。",
+      "title": "楚三闾大夫，《离骚》作者",
+      "bio": "楚贵族。联齐抗秦，被谗见疏。怀王入秦不返，他作《离骚》，后投汨罗。士人泳道上，这条文学的条对着张仪的连横。",
+      "tags": [
+        "楚国",
+        "离骚"
+      ]
+    },
+    {
+      "id": "xunzi",
+      "name": "荀况",
+      "display": "荀子",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": -313,
+      "death": -238,
+      "title": "战国儒家，倡性恶、礼法",
+      "bio": "赵人，三为齐稷下学宫祭酒。主性恶、重礼义师法。韩非、李斯出其门，思想亦为汉儒所取。",
+      "tags": [
+        "性恶",
+        "礼法",
+        "稷下"
+      ]
+    },
+    {
+      "id": "hanfei",
+      "name": "韩非",
+      "display": "韩非子",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": -280,
+      "death": -233,
+      "title": "法家集大成者",
+      "bio": "韩国公子，学于荀子。使秦后为李斯所害。其书合法、术、势，为秦政所本。",
+      "tags": [
+        "法家",
+        "法术势"
+      ]
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#2f7ed8",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#d0503c",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-quliang",
+      "target": "shang-yang",
+      "type": "ruler-subject",
+      "since": -356,
+      "note": "卫鞅入秦变法"
+    },
+    {
+      "source": "tian-yinqi",
+      "target": "sun-bin",
+      "type": "ruler-subject",
+      "note": "田忌荐为军师，桂陵、马陵"
+    },
+    {
+      "source": "sun-bin",
+      "target": "pang-juan",
+      "type": "rival",
+      "since": -353,
+      "note": "同学相忌，马陵庞涓死"
+    },
+    {
+      "source": "zhao-yong",
+      "target": "ying-ji",
+      "type": "rival",
+      "note": "胡服之后的秦赵对峙，下启长平"
+    },
+    {
+      "source": "ji-zhi",
+      "target": "yue-yi",
+      "type": "ruler-subject",
+      "note": "上将军，连五国伐齐"
+    },
+    {
+      "source": "ji-zhi",
+      "target": "su-qin",
+      "type": "ruler-subject",
+      "note": "合纵活动系于昭王之世"
+    },
+    {
+      "source": "yue-yi",
+      "target": "tian-dan",
+      "type": "rival",
+      "since": -284,
+      "note": "破齐与即墨复国的两端"
+    },
+    {
+      "source": "ying-ji",
+      "target": "bai-qi",
+      "type": "ruler-subject",
+      "note": "武安君，长平、拔郢"
+    },
+    {
+      "source": "ying-ji",
+      "target": "bai-qi",
+      "type": "rival",
+      "since": -257,
+      "note": "不肯再将围邯郸，赐死"
+    },
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "rival",
+      "note": "争位，后负荆请罪为同僚"
+    },
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "peer",
+      "since": -279,
+      "note": "将相和"
+    },
+    {
+      "source": "lian-po",
+      "target": "bai-qi",
+      "type": "rival",
+      "since": -260,
+      "note": "长平前主赵军，后为赵括所代"
+    },
+    {
+      "source": "zhang-yi",
+      "target": "su-qin",
+      "type": "rival",
+      "note": "连横与合纵。苏秦年代从出土文献后置，两条仍画敌对"
+    },
+    {
+      "source": "zhang-yi",
+      "target": "qu-yuan",
+      "type": "rival",
+      "note": "欺楚绝齐，屈原主联齐"
+    },
+    {
+      "source": "mengzi",
+      "target": "xunzi",
+      "type": "rival",
+      "note": "性善与性恶"
+    },
+    {
+      "source": "xunzi",
+      "target": "hanfei",
+      "type": "mentor",
+      "note": "韩非学于荀子"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "lv-buwei",
+      "type": "ruler-subject",
+      "note": "仲父，亲政前为相"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "lv-buwei",
+      "type": "rival",
+      "since": -237,
+      "note": "免相迁蜀"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wang-jian",
+      "type": "ruler-subject",
+      "note": "六十万灭楚"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "hanfei",
+      "type": "ruler-subject",
+      "since": -233,
+      "note": "悦其书，韩非使秦而死"
+    },
+    {
+      "source": "ying-quliang",
+      "target": "ying-ji",
+      "type": "kin",
+      "note": "孝公之后数世至昭襄。中间惠文、武王从略"
+    },
+    {
+      "source": "ying-ji",
+      "target": "ying-zheng",
+      "type": "kin",
+      "note": "昭襄王之曾孙。庄襄从略，轴上看见的是两代最长的秦王"
+    }
+  ],
+  "events": [
+    {
+      "id": "sanjia",
+      "name": "三家分晋",
+      "kind": "point",
+      "year": -403,
+      "desc": "周威烈王命韩赵魏为诸侯。本专题镜头从这一年打开，人物要再过半个世纪才密起来。"
+    },
+    {
+      "id": "shangyang-bianfa",
+      "name": "商鞅变法",
+      "kind": "span",
+      "year": -356,
+      "endYear": -338,
+      "people": [
+        "ying-quliang",
+        "shang-yang"
+      ],
+      "desc": "两次变法，秦从西陲变成可以东出的国。孝公与商鞅的条在这一段完全重叠。"
+    },
+    {
+      "id": "guiling",
+      "name": "桂陵之战",
+      "kind": "point",
+      "year": -353,
+      "people": [
+        "sun-bin",
+        "pang-juan",
+        "tian-yinqi"
+      ],
+      "desc": "围魏救赵。孙膑的条刚刚出现，庞涓已经与他画成敌对。"
+    },
+    {
+      "id": "maling",
+      "name": "马陵之战，庞涓死",
+      "kind": "point",
+      "year": -341,
+      "people": [
+        "sun-bin",
+        "pang-juan"
+      ],
+      "desc": "减灶诱敌。庞涓的条在这一年截断，孙膑的条也几乎停在此处。"
+    },
+    {
+      "id": "hufu",
+      "name": "胡服骑射",
+      "kind": "point",
+      "year": -307,
+      "people": [
+        "zhao-yong"
+      ],
+      "desc": "武灵王改服习骑。赵条从此可以北进，也把后来的长平对手养成了。"
+    },
+    {
+      "id": "meng-liang",
+      "name": "孟子见梁惠王",
+      "kind": "point",
+      "year": -320,
+      "people": [
+        "mengzi"
+      ],
+      "desc": "问何以利吾国。诸子泳道在变法之后进入轴的中段，和纵横家并行。"
+    },
+    {
+      "id": "wanbi",
+      "name": "完璧归赵",
+      "kind": "point",
+      "year": -283,
+      "people": [
+        "lin-xiangru"
+      ],
+      "desc": "蔺相如奉璧入秦。文臣条在武将条旁边突然抬起来。"
+    },
+    {
+      "id": "leyi-faqi",
+      "name": "乐毅伐齐",
+      "kind": "point",
+      "year": -284,
+      "people": [
+        "ji-zhi",
+        "yue-yi",
+        "su-qin"
+      ],
+      "desc": "燕昭王二十八年，下齐七十余城。昭王条末尾最密的一年。"
+    },
+    {
+      "id": "tiandan",
+      "name": "田单即墨复齐",
+      "kind": "point",
+      "year": -279,
+      "people": [
+        "tian-dan",
+        "yue-yi",
+        "ji-zhi"
+      ],
+      "desc": "昭王新卒，骑劫代将。火牛阵复七十城。破齐与复齐叠在燕王条的终点两侧。"
+    },
+    {
+      "id": "quyuan-si",
+      "name": "屈原投汨罗",
+      "kind": "point",
+      "year": -278,
+      "people": [
+        "qu-yuan"
+      ],
+      "desc": "约顷襄王之世。白起拔郢前后，楚的士人条在汨罗截断。"
+    },
+    {
+      "id": "changping",
+      "name": "长平之战",
+      "kind": "point",
+      "year": -260,
+      "people": [
+        "bai-qi",
+        "lian-po",
+        "ying-ji"
+      ],
+      "desc": "廉颇被代，赵括出。白起坑杀赵卒。山东再没有能与秦对峙的举国之战。"
+    },
+    {
+      "id": "handan",
+      "name": "邯郸之围",
+      "kind": "span",
+      "year": -259,
+      "endYear": -257,
+      "people": [
+        "bai-qi",
+        "ying-ji"
+      ],
+      "desc": "白起不肯再将。魏楚救赵，秦退。武安君赐死就落在这段带的尽头。"
+    },
+    {
+      "id": "baiqi-si",
+      "name": "白起赐死",
+      "kind": "point",
+      "year": -257,
+      "people": [
+        "bai-qi",
+        "ying-ji"
+      ],
+      "desc": "昭王五十年。战国最陡的一条武将条停在邯郸未下之年。"
+    },
+    {
+      "id": "mie-zhou",
+      "name": "秦灭东周",
+      "kind": "point",
+      "year": -256,
+      "people": [
+        "ying-ji"
+      ],
+      "desc": "周赧王卒，秦迁九鼎。共主从轴上消失，只剩灭国。"
+    },
+    {
+      "id": "hanfei-qin",
+      "name": "韩非使秦，死于云阳",
+      "kind": "point",
+      "year": -233,
+      "people": [
+        "hanfei",
+        "ying-zheng",
+        "xunzi"
+      ],
+      "desc": "秦王悦其书。李斯、姚贾害之。法家条在统一前夜截断，书留在秦廷。"
+    },
+    {
+      "id": "mie-liu",
+      "name": "秦灭六国",
+      "kind": "span",
+      "year": -230,
+      "endYear": -221,
+      "people": [
+        "ying-zheng",
+        "wang-jian"
+      ],
+      "desc": "灭韩、赵、魏、楚、燕、齐。王翦的条收在这一段里，嬴政的条还要再往右画到前 210 年。"
+    },
+    {
+      "id": "qin-yi",
+      "name": "秦王政并天下",
+      "kind": "point",
+      "year": -221,
+      "people": [
+        "ying-zheng",
+        "wang-jian"
+      ],
+      "desc": "灭齐。战国结束。帝号、驰道与焚书留给秦专题，本图在统一这一年停住。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "战国全览",
+      "from": -400,
+      "to": -200,
+      "focus": "ying-zheng",
+      "brief": "左边是孝公与商鞅几乎等长的变法，中间是昭襄王压过六国的长条，右边嬴政十年灭国。诸子和纵横穿在君主条的缝里。"
+    },
+    {
+      "id": "bianfa",
+      "name": "变法与齐魏",
+      "from": -390,
+      "to": -320,
+      "focus": "shang-yang",
+      "brief": "商鞅的条几乎全落在孝公在位期内，两人同年截断。齐威王一侧，孙膑与庞涓的短条在桂陵、马陵撞上。",
+      "people": [
+        "ying-quliang",
+        "shang-yang",
+        "tian-yinqi",
+        "sun-bin",
+        "pang-juan",
+        "mengzi"
+      ],
+      "events": [
+        "sanjia",
+        "shangyang-bianfa",
+        "guiling",
+        "maling",
+        "meng-liang"
+      ]
+    },
+    {
+      "id": "hezong",
+      "name": "合纵连横",
+      "from": -340,
+      "to": -270,
+      "focus": "zhang-yi",
+      "brief": "张仪向秦倾斜，苏秦按出土文献放在燕昭王一侧。乐毅破齐与田单复齐对咬；屈原的条对着连横。",
+      "people": [
+        "ying-ji",
+        "zhao-yong",
+        "ji-zhi",
+        "zhang-yi",
+        "su-qin",
+        "mengzi",
+        "qu-yuan",
+        "yue-yi",
+        "tian-dan",
+        "lin-xiangru"
+      ],
+      "events": [
+        "hufu",
+        "meng-liang",
+        "wanbi",
+        "leyi-faqi",
+        "tiandan",
+        "quyuan-si"
+      ]
+    },
+    {
+      "id": "qinfeng",
+      "name": "长平以后",
+      "from": -270,
+      "to": -200,
+      "focus": "ying-zheng",
+      "brief": "白起的条在邯郸未下时截断。吕不韦压着年轻的秦王政，韩非死在统一前夜，王翦把灭国画完。",
+      "people": [
+        "ying-ji",
+        "bai-qi",
+        "lian-po",
+        "lin-xiangru",
+        "lv-buwei",
+        "wang-jian",
+        "hanfei",
+        "xunzi",
+        "ying-zheng"
+      ],
+      "events": [
+        "changping",
+        "handan",
+        "baiqi-si",
+        "mie-zhou",
+        "hanfei-qin",
+        "mie-liu",
+        "qin-yi"
+      ]
+    }
+  ]
+}

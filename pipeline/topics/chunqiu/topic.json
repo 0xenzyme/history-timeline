@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "id": "chunqiu",
+    "title": "春秋",
+    "subtitle": "平王东迁到吴越争霸 · 公元前 770 — 公元前 453",
+    "range": [
+      -800,
+      -450
+    ]
+  },
+  "catalog": {
+    "subtitle": "平王东迁到吴越争霸",
+    "region": "cn",
+    "eras": [
+      "spring-autumn"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "zhou",
+      "name": "周王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "hegemon",
+      "name": "霸主",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "minister",
+      "name": "卿大夫",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "south",
+      "name": "楚吴越",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "shi",
+      "name": "士人",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "ji-yijiu",
+      "lane": "zhou",
+      "title": "东周第一位天子",
+      "bio": "东迁之后，王室只剩共主空名。他的条停在前 720 年，后面的霸主条越来越长，周王泳道从此空下来。"
+    },
+    {
+      "id": "ji-wusheng",
+      "lane": "hegemon"
+    },
+    {
+      "id": "jiang-xiaobai",
+      "lane": "hegemon"
+    },
+    {
+      "id": "ji-guizhu",
+      "lane": "hegemon"
+    },
+    {
+      "id": "ji-chonger",
+      "lane": "hegemon"
+    },
+    {
+      "id": "ying-renhao",
+      "lane": "hegemon"
+    },
+    {
+      "id": "zi-zifu",
+      "lane": "hegemon"
+    },
+    {
+      "id": "mi-lv",
+      "lane": "south"
+    },
+    {
+      "id": "ji-guang",
+      "lane": "south"
+    },
+    {
+      "id": "ji-fucha",
+      "lane": "south"
+    },
+    {
+      "id": "si-goujian",
+      "lane": "south"
+    },
+    {
+      "id": "li-ji",
+      "lane": "minister"
+    },
+    {
+      "id": "guan-zhong",
+      "lane": "minister"
+    },
+    {
+      "id": "bao-shuya",
+      "lane": "minister"
+    },
+    {
+      "id": "hu-yan",
+      "lane": "minister"
+    },
+    {
+      "id": "xian-zhen",
+      "lane": "minister"
+    },
+    {
+      "id": "bai-lixi",
+      "lane": "minister"
+    },
+    {
+      "id": "wu-yuan",
+      "lane": "minister"
+    },
+    {
+      "id": "fan-li",
+      "lane": "minister"
+    },
+    {
+      "id": "wen-zhong",
+      "lane": "minister"
+    },
+    {
+      "id": "kongzi",
+      "lane": "shi",
+      "bio": "鲁人。夹谷之会相定公，周游十四年，晚岁据鲁史作《春秋》。霸主们的条在他之前已经画了两百年，他给这些年份起了一个可以问责的名字。"
+    },
+    {
+      "id": "sun-wu",
+      "lane": "shi"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#d0503c",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "jiang-xiaobai",
+      "target": "guan-zhong",
+      "type": "ruler-subject",
+      "since": -685,
+      "note": "鲍叔所荐，相齐四十年"
+    },
+    {
+      "source": "jiang-xiaobai",
+      "target": "bao-shuya",
+      "type": "ruler-subject",
+      "note": "从亡之臣，力荐管仲"
+    },
+    {
+      "source": "bao-shuya",
+      "target": "guan-zhong",
+      "type": "peer",
+      "note": "管鲍之交，囚中荐相"
+    },
+    {
+      "source": "ji-guizhu",
+      "target": "li-ji",
+      "type": "kin",
+      "note": "宠妃，奚齐之母"
+    },
+    {
+      "source": "ji-guizhu",
+      "target": "ji-chonger",
+      "type": "kin",
+      "note": "父子。骊姬之祸逼重耳出亡"
+    },
+    {
+      "source": "li-ji",
+      "target": "ji-chonger",
+      "type": "rival",
+      "note": "谮群公子，重耳奔狄"
+    },
+    {
+      "source": "ji-chonger",
+      "target": "hu-yan",
+      "type": "ruler-subject",
+      "note": "舅犯从亡十九年，城濮之谋"
+    },
+    {
+      "source": "ji-chonger",
+      "target": "xian-zhen",
+      "type": "ruler-subject",
+      "since": -632,
+      "note": "中军将，城濮主谋"
+    },
+    {
+      "source": "hu-yan",
+      "target": "xian-zhen",
+      "type": "peer",
+      "note": "文公朝的谋主与中军"
+    },
+    {
+      "source": "ying-renhao",
+      "target": "bai-lixi",
+      "type": "ruler-subject",
+      "note": "五羖大夫，谋东进与霸西戎"
+    },
+    {
+      "source": "ying-renhao",
+      "target": "ji-chonger",
+      "type": "peer",
+      "since": -636,
+      "note": "秦纳文公，三置晋君之一"
+    },
+    {
+      "source": "jiang-xiaobai",
+      "target": "zi-zifu",
+      "type": "peer",
+      "note": "襄公欲继齐桓为盟主"
+    },
+    {
+      "source": "ji-chonger",
+      "target": "zi-zifu",
+      "type": "rival",
+      "note": "襄公争盟失败后，文公城濮定霸"
+    },
+    {
+      "source": "ji-guang",
+      "target": "wu-yuan",
+      "type": "ruler-subject",
+      "note": "伍员佐阖闾入郢"
+    },
+    {
+      "source": "ji-guang",
+      "target": "sun-wu",
+      "type": "ruler-subject",
+      "note": "以兵法见吴王，柏举之战"
+    },
+    {
+      "source": "wu-yuan",
+      "target": "sun-wu",
+      "type": "peer",
+      "since": -506,
+      "note": "同事于吴，破楚入郢"
+    },
+    {
+      "source": "ji-fucha",
+      "target": "wu-yuan",
+      "type": "ruler-subject",
+      "note": "子胥屡谏赦越，后赐属镂"
+    },
+    {
+      "source": "ji-fucha",
+      "target": "wu-yuan",
+      "type": "rival",
+      "since": -484,
+      "note": "不听谏而赐死"
+    },
+    {
+      "source": "si-goujian",
+      "target": "fan-li",
+      "type": "ruler-subject",
+      "note": "会稽之计，灭吴后范蠡去越"
+    },
+    {
+      "source": "si-goujian",
+      "target": "wen-zhong",
+      "type": "ruler-subject",
+      "note": "守国之臣，灭吴后赐死"
+    },
+    {
+      "source": "fan-li",
+      "target": "wen-zhong",
+      "type": "peer",
+      "note": "同事于越，一去一留"
+    },
+    {
+      "source": "ji-guang",
+      "target": "si-goujian",
+      "type": "rival",
+      "since": -496,
+      "note": "檇李之战，阖闾伤卒"
+    },
+    {
+      "source": "ji-fucha",
+      "target": "si-goujian",
+      "type": "rival",
+      "since": -494,
+      "note": "夫椒、会稽到灭吴"
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-wusheng",
+      "type": "ruler-subject",
+      "note": "王室东迁后，郑庄公最先坐大"
+    }
+  ],
+  "events": [
+    {
+      "id": "dongqian",
+      "name": "平王东迁",
+      "kind": "point",
+      "year": -770,
+      "people": [
+        "ji-yijiu"
+      ],
+      "desc": "迁都洛邑。春秋的镜头从这里打开：周王条短，诸侯条开始变长。"
+    },
+    {
+      "id": "ke-duan",
+      "name": "郑伯克段于鄢",
+      "kind": "point",
+      "year": -722,
+      "people": [
+        "ji-wusheng"
+      ],
+      "desc": "隐公元年。《春秋》的第一笔写在兄弟之争上，王室已经管不住畿内诸侯。"
+    },
+    {
+      "id": "huan-guan",
+      "name": "齐桓公即位，管仲为相",
+      "kind": "point",
+      "year": -685,
+      "people": [
+        "jiang-xiaobai",
+        "guan-zhong",
+        "bao-shuya"
+      ],
+      "desc": "公子小白先入齐。鲍叔牙请释管仲。此后四十年，齐桓的长条和管仲几乎重叠。"
+    },
+    {
+      "id": "zhaoling",
+      "name": "召陵之盟",
+      "kind": "point",
+      "year": -656,
+      "people": [
+        "jiang-xiaobai",
+        "guan-zhong"
+      ],
+      "desc": "齐率诸侯伐楚，盟于召陵。尊王攘夷第一次画成中原对南方的对峙。"
+    },
+    {
+      "id": "liji-luan",
+      "name": "骊姬之乱，重耳出亡",
+      "kind": "point",
+      "year": -655,
+      "people": [
+        "ji-guizhu",
+        "li-ji",
+        "ji-chonger",
+        "hu-yan"
+      ],
+      "desc": "申生自杀，重耳奔狄。出亡的长条从这一年伸出去，十九年后才接上晋侯的位子。"
+    },
+    {
+      "id": "chonger-wang",
+      "name": "重耳在外十九年",
+      "kind": "span",
+      "year": -655,
+      "endYear": -636,
+      "people": [
+        "ji-chonger",
+        "hu-yan"
+      ],
+      "desc": "过卫、齐、曹、宋、郑、楚，秦纳之。霸主条的前半段是空的流浪，后半段才是城濮。"
+    },
+    {
+      "id": "hongshui",
+      "name": "泓之战",
+      "kind": "point",
+      "year": -638,
+      "people": [
+        "zi-zifu"
+      ],
+      "desc": "宋襄公不击半渡，伤股。想接齐桓霸业的那条短条，在这里折断。"
+    },
+    {
+      "id": "chengpu",
+      "name": "城濮之战，践土之盟",
+      "kind": "point",
+      "year": -632,
+      "people": [
+        "ji-chonger",
+        "hu-yan",
+        "xian-zhen"
+      ],
+      "desc": "晋败楚于城濮，会诸侯于践土。文公在位九年里最密的一笔，退敌与受盟叠在同一年。"
+    },
+    {
+      "id": "xiao-zhan",
+      "name": "殽之战",
+      "kind": "point",
+      "year": -627,
+      "people": [
+        "xian-zhen",
+        "ying-renhao"
+      ],
+      "desc": "文公新卒，秦袭郑，晋击之于殽。先轸胜而不礼，旋死于狄。霸主死后一年，晋秦翻脸。"
+    },
+    {
+      "id": "bizhan",
+      "name": "邲之战，楚庄王败晋",
+      "kind": "point",
+      "year": -597,
+      "people": [
+        "mi-lv"
+      ],
+      "desc": "晋楚战于邲，晋师败绩。问鼎的楚条压过中原霸主条，春秋的重心南移。"
+    },
+    {
+      "id": "kongzi-sheng",
+      "name": "孔子生",
+      "kind": "point",
+      "year": -551,
+      "people": [
+        "kongzi"
+      ],
+      "desc": "生年取《史记》前 551 年说。士人泳道在霸主时代的后半段才出现。"
+    },
+    {
+      "id": "baiju",
+      "name": "柏举之战，吴入郢",
+      "kind": "point",
+      "year": -506,
+      "people": [
+        "ji-guang",
+        "wu-yuan",
+        "sun-wu"
+      ],
+      "desc": "阖闾、伍员、孙武破楚入郢。南线第一次由吴压过楚。"
+    },
+    {
+      "id": "zhouyou",
+      "name": "孔子周游列国",
+      "kind": "span",
+      "year": -497,
+      "endYear": -484,
+      "people": [
+        "kongzi"
+      ],
+      "desc": "去鲁十四年。吴越争霸的同时，士人条在卫、陈、蔡之间平移，求行其道而未得。"
+    },
+    {
+      "id": "kuaiji",
+      "name": "夫椒之战，勾践臣吴",
+      "kind": "point",
+      "year": -494,
+      "people": [
+        "ji-fucha",
+        "si-goujian",
+        "fan-li",
+        "wen-zhong"
+      ],
+      "desc": "夫差报檇李，败越于夫椒。勾践请成，会稽之耻起算。"
+    },
+    {
+      "id": "wuyuan-si",
+      "name": "伍子胥赐死",
+      "kind": "point",
+      "year": -484,
+      "people": [
+        "wu-yuan",
+        "ji-fucha"
+      ],
+      "desc": "夫差许越、北上争霸。子胥谏，赐属镂。吴的谋臣条先于国条截断。"
+    },
+    {
+      "id": "kongzi-zu",
+      "name": "孔子卒",
+      "kind": "point",
+      "year": -479,
+      "people": [
+        "kongzi"
+      ],
+      "desc": "鲁哀公十六年。同一时期吴越尚未终局，《春秋》的笔停了，争霸还在继续。"
+    },
+    {
+      "id": "mie-wu",
+      "name": "勾践灭吴",
+      "kind": "point",
+      "year": -473,
+      "people": [
+        "si-goujian",
+        "ji-fucha",
+        "fan-li",
+        "wen-zhong"
+      ],
+      "desc": "越入吴，夫差自杀。范蠡去、文种留。春秋南线在此收束，战国的齐楚燕要另起一条轴。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "春秋全览",
+      "from": -800,
+      "to": -450,
+      "focus": "jiang-xiaobai",
+      "brief": "周平王的条很快结束。齐桓、晋文两条最长，楚庄接在中段，吴越两条在最右互相咬住。霸主换人，轴上看得见。"
+    },
+    {
+      "id": "dongqian",
+      "name": "东迁与郑庄",
+      "from": -800,
+      "to": -690,
+      "focus": "ji-wusheng",
+      "brief": "平王东迁后，周王泳道只剩他一条。郑庄公克段于鄢——王室管不住的第一笔，写在畿内诸侯自己家里。",
+      "people": [
+        "ji-yijiu",
+        "ji-wusheng"
+      ],
+      "events": [
+        "dongqian",
+        "ke-duan"
+      ]
+    },
+    {
+      "id": "wuba",
+      "name": "齐桓晋文",
+      "from": -700,
+      "to": -610,
+      "focus": "ji-chonger",
+      "brief": "齐桓公与管仲几乎等长。重耳的条前半段是出亡的空白，城濮那一年才突然变密。宋襄公的短条夹在两人之间，对照用。",
+      "people": [
+        "jiang-xiaobai",
+        "guan-zhong",
+        "bao-shuya",
+        "ji-guizhu",
+        "li-ji",
+        "ji-chonger",
+        "hu-yan",
+        "xian-zhen",
+        "ying-renhao",
+        "bai-lixi",
+        "zi-zifu"
+      ],
+      "events": [
+        "huan-guan",
+        "zhaoling",
+        "liji-luan",
+        "chonger-wang",
+        "hongshui",
+        "chengpu",
+        "xiao-zhan"
+      ]
+    },
+    {
+      "id": "wuyue",
+      "name": "楚吴越",
+      "from": -620,
+      "to": -450,
+      "focus": "si-goujian",
+      "brief": "楚庄王的条在左，勾践的条在右，孔子的条从中间穿过。伍子胥连着阖闾与夫差，范蠡在灭吴之后主动断开。",
+      "people": [
+        "mi-lv",
+        "kongzi",
+        "wu-yuan",
+        "sun-wu",
+        "ji-guang",
+        "ji-fucha",
+        "si-goujian",
+        "fan-li",
+        "wen-zhong"
+      ],
+      "events": [
+        "bizhan",
+        "kongzi-sheng",
+        "baiju",
+        "zhouyou",
+        "kuaiji",
+        "wuyuan-si",
+        "kongzi-zu",
+        "mie-wu"
+      ]
+    }
+  ]
+}
