@@ -255,6 +255,1740 @@
         "郑国",
         "始封"
       ]
+    },
+    {
+      "id": "bao-gong",
+      "name": "暴公",
+      "display": "暴公",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。仅见《何人斯》毛序，与刺幽王诸篇同组，取镐京之年为可见下限。",
+      "title": "《何人斯》暴公",
+      "bio": "毛序：暴公为卿士而谮苏公。仅见序文。",
+      "tags": [
+        "诗序"
+      ]
+    },
+    {
+      "id": "bao-xu",
+      "name": "褒姁",
+      "display": "褒姁",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。国语记褒姁有狱、入女于王而生伯服，取镐京之年为可见下限。",
+      "title": "褒国之君，入女于王",
+      "bio": "国语：褒姁有狱，入女于王，王嬖是女至于为后而生伯服。史记只称褒人有罪。",
+      "tags": [
+        "褒"
+      ]
+    },
+    {
+      "id": "bo-shi",
+      "name": "伯士",
+      "display": "伯士",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -776,
+      "deathNote": "卒年不详。仅见竹书幽王六年帅师伐六济之戎，王师败逋。幽王六年当 -776。",
+      "title": "幽王时将，伐六济之戎",
+      "bio": "竹书幽王六年王命伯士帅师伐六济之戎，王师败逋。史记不见。",
+      "tags": [
+        "将"
+      ]
+    },
+    {
+      "id": "bo-yu",
+      "name": "伯御",
+      "display": "伯御",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -796,
+      "deathNote": "国语：宣王三十二年春伐鲁，立孝公。史记：伯御即位十一年，宣王伐鲁杀之。",
+      "title": "鲁伯御，宣王所杀",
+      "bio": "武公长子括之子。攻弑懿公而自立。即位十一年，宣王伐鲁杀之，改立孝公。国语谓诸侯从是而不睦。",
+      "tags": [
+        "鲁"
+      ]
+    },
+    {
+      "id": "cai-lihou",
+      "name": "蔡厉侯",
+      "display": "蔡厉侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -841,
+      "deathNote": "卒年不详。武侯之时厉王奔彘，厉侯已卒，取共和元年为可见下限。",
+      "title": "蔡厉侯",
+      "bio": "宫侯之子。卒，子武侯立。武侯之时厉王奔彘。与周厉王、齐厉公不是同一人。",
+      "tags": [
+        "蔡"
+      ]
+    },
+    {
+      "id": "cai-wuhou",
+      "name": "蔡武侯",
+      "display": "蔡武侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -838,
+      "deathNote": "史记不著武侯在位年数。夷侯十一年周宣王即位，上推夷侯元年当 -837，武侯卒取前一年为下限。",
+      "title": "蔡武侯，当共和",
+      "bio": "厉侯之子。武侯之时厉王奔彘、共和行政。卒，子夷侯立。",
+      "tags": [
+        "蔡"
+      ]
+    },
+    {
+      "id": "cai-xihou",
+      "name": "姬所事",
+      "display": "蔡釐侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -762,
+      "deathNote": "史记：釐侯三十九年犬戎杀幽王，四十八年卒。三十九年当 -771，四十八年当 -762。",
+      "title": "蔡釐侯",
+      "bio": "夷侯之子。三十九年犬戎杀幽王，四十八年卒。",
+      "tags": [
+        "蔡"
+      ]
+    },
+    {
+      "id": "cai-yihou",
+      "name": "蔡夷侯",
+      "display": "蔡夷侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -810,
+      "deathNote": "史记：夷侯十一年周宣王即位，二十八年卒。十一年当 -827，二十八年当 -810。",
+      "title": "蔡夷侯",
+      "bio": "武侯之子。十一年周宣王即位，二十八年卒。",
+      "tags": [
+        "蔡"
+      ]
+    },
+    {
+      "id": "cao-daibo",
+      "name": "姬苏",
+      "display": "曹戴伯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -796,
+      "deathNote": "史记：戴伯元年周宣王已立三岁，三十年卒。元年当 -825，三十年当 -796。",
+      "title": "曹戴伯",
+      "bio": "幽伯之弟。杀幽伯代立。元年周宣王已立三岁。三十年卒。",
+      "tags": [
+        "曹"
+      ]
+    },
+    {
+      "id": "cao-huibo",
+      "name": "姬兕",
+      "display": "曹惠伯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -760,
+      "deathNote": "史记：惠伯二十五年犬戎杀幽王，三十六卒。二十五年当 -771，三十六当 -760。",
+      "title": "曹惠伯",
+      "bio": "戴伯之子。二十五年犬戎杀幽王，三十六年卒。",
+      "tags": [
+        "曹"
+      ]
+    },
+    {
+      "id": "cao-yibo",
+      "name": "姬喜",
+      "display": "曹夷伯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -834,
+      "deathNote": "史记：夷伯二十三年厉王奔彘，三十年卒。二十三年当 -841，三十年当 -834。",
+      "title": "曹夷伯",
+      "bio": "宫伯之子。二十三年厉王奔彘，三十年卒。",
+      "tags": [
+        "曹"
+      ]
+    },
+    {
+      "id": "cao-youbo",
+      "name": "姬彊",
+      "display": "曹幽伯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -826,
+      "deathNote": "史记：幽伯九年弟苏杀之。戴伯元年周宣王已立三岁，九年当 -826。",
+      "title": "曹幽伯",
+      "bio": "夷伯之弟。九年卒，弟戴伯立。",
+      "tags": [
+        "曹"
+      ]
+    },
+    {
+      "id": "chen-pinggong",
+      "name": "妫燮",
+      "display": "陈平公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -755,
+      "deathNote": "史记：平公七年犬戎杀幽王，二十三年卒。七年当 -771，二十三年当 -755。",
+      "title": "陈平公",
+      "bio": "夷公之弟。七年犬戎杀幽王，二十三年卒。",
+      "tags": [
+        "陈"
+      ]
+    },
+    {
+      "id": "chen-shengong",
+      "name": "妫圉戎",
+      "display": "陈慎公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -853,
+      "deathNote": "卒年不详。当周厉王时；子幽公十二年当 -841，幽公元年当 -852，慎公卒取前一年为下限。",
+      "title": "陈慎公，当厉王时",
+      "bio": "孝公之子。当周厉王时。卒，子幽公宁立。",
+      "tags": [
+        "陈"
+      ]
+    },
+    {
+      "id": "chen-wugong",
+      "name": "妫灵",
+      "display": "陈武公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -783,
+      "deathNote": "史记：武公十五年卒。釐公卒当 -797，下推十五年当 -783。",
+      "title": "陈武公",
+      "bio": "釐公之子。十五年卒，子夷公说立。",
+      "tags": [
+        "陈"
+      ]
+    },
+    {
+      "id": "chen-xigong",
+      "name": "妫孝",
+      "display": "陈釐公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -797,
+      "deathNote": "史记：釐公六年周宣王即位，三十六年卒。六年当 -827，三十六年当 -797。",
+      "title": "陈釐公",
+      "bio": "幽公之子。三十六年卒，子武公灵立。",
+      "tags": [
+        "陈"
+      ]
+    },
+    {
+      "id": "chen-yigong",
+      "name": "妫说",
+      "display": "陈夷公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -779,
+      "deathNote": "史记：夷公立之岁周幽王即位，三年卒。幽王元年取前 781 年，三年当 -779。",
+      "title": "陈夷公",
+      "bio": "武公之子。三年卒，弟平公燮立。",
+      "tags": [
+        "陈"
+      ]
+    },
+    {
+      "id": "chen-yougong",
+      "name": "妫宁",
+      "display": "陈幽公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -830,
+      "deathNote": "史记：幽公十二年厉王奔彘，二十三年卒。十二年当 -841，二十三年当 -830。",
+      "title": "陈幽公",
+      "bio": "慎公之子。十二年厉王奔彘，二十三年卒。",
+      "tags": [
+        "陈"
+      ]
+    },
+    {
+      "id": "cheng-bo-xiufu",
+      "name": "程伯休父",
+      "display": "程伯休父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -822,
+      "deathNote": "卒年不详。竹书宣王六年从王伐徐戎，取此年为活动下限。",
+      "title": "宣王司马",
+      "bio": "《常武》命程伯休父左右陈行、率彼淮浦。竹书宣王六年从王伐徐戎。",
+      "tags": [
+        "司马",
+        "伐徐"
+      ]
+    },
+    {
+      "id": "du-bo",
+      "name": "杜伯",
+      "display": "杜伯",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -785,
+      "deathNote": "竹书：宣王四十三年王杀大夫杜伯。国语引《周春秋》谓杀而不辜，后三年射王于鄗，属传说。",
+      "title": "宣王大夫，竹书被杀",
+      "bio": "竹书宣王四十三年杀大夫杜伯，其子隰叔出奔晋。国语引《周春秋》谓杀而不辜，射王事只作传说。",
+      "tags": [
+        "大夫"
+      ]
+    },
+    {
+      "id": "fan-bo",
+      "name": "凡伯",
+      "display": "凡伯",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。毛序一系厉王、两系幽王，取镐京之年为可见下限。",
+      "title": "毛诗序所称刺诗作者",
+      "bio": "《板》序凡伯刺厉王，《瞻卬》《召旻》序凡伯刺幽王。诗本文无其名，只据序立案。",
+      "tags": [
+        "诗序"
+      ]
+    },
+    {
+      "id": "fan-situ",
+      "name": "番",
+      "display": "番司徒",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -773,
+      "deathNote": "卒年不详。仅见《十月之交》与皇父同列，竹书幽王五年皇父作都于向，取此年为可见下限。",
+      "title": "《十月之交》番司徒",
+      "bio": "诗「皇父卿士，番维司徒」。仅见官名，无行事。",
+      "tags": [
+        "十月之交"
+      ]
+    },
+    {
+      "id": "fang-shu",
+      "name": "方叔",
+      "display": "方叔",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -823,
+      "deathNote": "卒年不详。宣王五年竹书记方叔伐荆蛮，《采芑》美之，取此年为活动下限。",
+      "title": "宣王卿士，南征荆蛮",
+      "bio": "《采芑》美宣王南征，方叔涖止、其车三千。竹书宣王五年帅师伐荆蛮。",
+      "tags": [
+        "卿士",
+        "南征"
+      ]
+    },
+    {
+      "id": "feng-wang",
+      "name": "丰王",
+      "display": "丰王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -777,
+      "deathNote": "卒年不详。仅见秦襄公元年娶缪嬴；庄公卒于 -778，襄公元年当 -777。",
+      "title": "娶秦缪嬴",
+      "bio": "襄公元年娶缪嬴。史记不著其国、其事。",
+      "tags": [
+        "秦"
+      ]
+    },
+    {
+      "id": "gong-bo-he",
+      "name": "共伯和",
+      "display": "共伯和",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -828,
+      "deathNote": "卒年不详。竹书：厉王在彘，共伯和摄行天子事；王陟，归其国。取厉王死年为活动下限。",
+      "title": "竹书所记摄政者",
+      "bio": "竹书：厉王在彘，共伯和摄行天子事；王陟，归其国。史记作周召二相行政。本图人物从史记，此人只作异说。",
+      "tags": [
+        "共和",
+        "异说"
+      ]
+    },
+    {
+      "id": "guo-changfu",
+      "name": "虢公长父",
+      "display": "虢公长父",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -839,
+      "deathNote": "卒年不详。仅见竹书厉王三年命伐淮夷不克。",
+      "title": "厉王时虢君，伐淮夷不克",
+      "bio": "竹书厉王三年淮夷侵洛，王命虢公长父伐之，不克。史记周本纪不见其名。",
+      "tags": [
+        "虢",
+        "淮夷"
+      ]
+    },
+    {
+      "id": "guo-han",
+      "name": "虢公翰",
+      "display": "虢公翰",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。仅见竹书镐京之年立王子余臣于携。",
+      "title": "立携王于携",
+      "bio": "竹书镐京之年，虢公翰立王子余臣于携，与申侯所立宜臼并立。史记不载。",
+      "tags": [
+        "虢",
+        "二王并立"
+      ]
+    },
+    {
+      "id": "guo-shu",
+      "name": "虢叔",
+      "display": "东虢虢叔",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。仅见国语史伯论虢叔恃势，时当桓公为司徒，取镐京之年为可见下限。",
+      "title": "幽王时东虢之君",
+      "bio": "国语史伯：虢叔恃势。与惠王时虢公林父不是同一人。",
+      "tags": [
+        "虢"
+      ]
+    },
+    {
+      "id": "guo-wengong",
+      "name": "虢文公",
+      "display": "虢文公",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -813,
+      "deathNote": "卒年不详。宣王即位谏不籍千亩；竹书宣王十五年锡命，其后无记载。",
+      "title": "宣王卿士，谏不籍千亩",
+      "bio": "宣王不行籍田之礼，虢文公谏不可，王弗听。后来的千亩之败，国语把它和这一谏首尾相应。",
+      "tags": [
+        "卿士",
+        "籍田"
+      ]
+    },
+    {
+      "id": "han-hou",
+      "name": "韩侯",
+      "display": "韩侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -824,
+      "deathNote": "卒年不详。竹书宣王四年韩侯来朝，《韩奕》记受命入觐，取此年为活动下限。",
+      "title": "宣王时韩侯",
+      "bio": "《韩奕》韩侯受命入觐，取妻为汾王之甥、蹶父之子。竹书宣王四年韩侯来朝。",
+      "tags": [
+        "韩",
+        "锡命"
+      ]
+    },
+    {
+      "id": "han-ji",
+      "name": "韩姞",
+      "display": "韩姞",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -824,
+      "deathNote": "卒年不详。仅见《韩奕》韩侯所娶，竹书宣王四年韩侯来朝，取此年为可见下限。",
+      "title": "韩侯夫人",
+      "bio": "《韩奕》韩侯取妻，汾王之甥，蹶父之子韩姞。",
+      "tags": [
+        "韩",
+        "后妃"
+      ]
+    },
+    {
+      "id": "huang-fu",
+      "name": "皇父",
+      "display": "皇父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -773,
+      "deathNote": "卒年不详。竹书幽王五年「皇父作都于向」，与《十月之交》相发，取此年为可见下限。",
+      "title": "宣幽卿士",
+      "bio": "《常武》大师皇父从王伐徐；《十月之交》皇父卿士、作都于向。或为一人，或为同氏先后，暂合写。",
+      "tags": [
+        "卿士"
+      ]
+    },
+    {
+      "id": "ji-ao",
+      "name": "姬敖",
+      "display": "鲁武公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -816,
+      "deathNote": "史记：武公九年朝宣王，归而卒。周本纪：宣王十二年鲁武公来朝。",
+      "title": "鲁武公，朝宣王",
+      "bio": "九年与长子括、少子戏朝周。宣王爱戏，立为鲁太子。武公归而卒，戏立，是为懿公。",
+      "tags": [
+        "鲁"
+      ]
+    },
+    {
+      "id": "ji-bi",
+      "name": "姬濞",
+      "display": "鲁真公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -826,
+      "deathNote": "史记不著卒年。今本竹书宣王二年「鲁慎公薨」，慎、真通，取前 826 年为卒年下限。",
+      "title": "鲁真公，当共和",
+      "bio": "献公之子。十四年厉王奔彘、共和行政，二十九年宣王即位。竹书宣王二年鲁慎公薨。",
+      "tags": [
+        "鲁"
+      ]
+    },
+    {
+      "id": "ji-bofu",
+      "name": "姬伯服",
+      "display": "伯服",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -771,
+      "deathNote": "今本竹书：犬戎杀王子伯服。史记只记立为太子，不记其死。",
+      "title": "幽王与褒姒之子",
+      "bio": "褒姒所生。幽王废申后、去太子宜臼，立伯服为太子。竹书谓犬戎杀王子伯服。",
+      "tags": [
+        "王室",
+        "废嫡"
+      ]
+    },
+    {
+      "id": "ji-cheng",
+      "name": "姬称",
+      "display": "鲁孝公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -769,
+      "deathNote": "史记：孝公二十五年犬戎杀幽王，二十七年卒。",
+      "title": "鲁孝公，宣王所立",
+      "bio": "懿公之弟。宣王杀伯御，樊穆仲谓称肃恭明神，立于夷宫。自是后诸侯多畔王命。",
+      "tags": [
+        "鲁"
+      ]
+    },
+    {
+      "id": "ji-chengshi",
+      "name": "姬成师",
+      "display": "曲沃桓叔",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -745,
+      "deathNote": "西周镜头只收到穆侯命名。文侯卒于 -746，昭侯元年封成师于曲沃，取始封年为可见下限。",
+      "title": "曲沃桓叔，穆侯少子",
+      "bio": "穆侯十年伐千亩有功而生。文侯卒后昭侯封于曲沃，号桓叔。西周镜头只收到命名。",
+      "tags": [
+        "晋",
+        "曲沃"
+      ]
+    },
+    {
+      "id": "ji-chou",
+      "name": "姬仇",
+      "display": "晋文侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -746,
+      "deathNote": "史记：文侯三十五年卒。文侯十年当幽王无道、周东徙。",
+      "title": "晋文侯，送平王东迁",
+      "bio": "穆侯太子仇。袭杀殇叔而立。周东徙，文侯迎送平王。竹书：晋文侯杀王子余臣于携。",
+      "tags": [
+        "晋",
+        "东迁"
+      ]
+    },
+    {
+      "id": "ji-ju",
+      "name": "姬具",
+      "display": "鲁献公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -855,
+      "deathNote": "史记：献公三十二年卒，子真公濞立。真公十四年厉王奔彘当 -841，真公元年当 -854，献公卒取前一年。",
+      "title": "鲁献公",
+      "bio": "厉公之弟，名具。三十二年卒，子真公濞立。真公十四年厉王奔彘。",
+      "tags": [
+        "鲁"
+      ]
+    },
+    {
+      "id": "ji-jutuo",
+      "name": "姬掘突",
+      "display": "郑武公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -744,
+      "deathNote": "史记：桓公死于犬戎之难，郑人立其子掘突；武公二十七年卒。",
+      "title": "郑武公，桓公之子",
+      "bio": "犬戎杀幽王并杀桓公，郑人立掘突。西周只收到始立；娶武姜、生寤生已入春秋。",
+      "tags": [
+        "郑"
+      ]
+    },
+    {
+      "id": "ji-kuo",
+      "name": "姬括",
+      "display": "鲁括",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -816,
+      "deathNote": "卒年不详。武公九年与少子戏朝宣王，武公归而卒当 -816，取此年为可见下限。",
+      "title": "鲁武公长子，未得立",
+      "bio": "武公朝周，宣王废长立幼。括未得立。史记谓伯御为括之子；国语韦注以括为伯御，从史记。",
+      "tags": [
+        "鲁"
+      ]
+    },
+    {
+      "id": "ji-xi",
+      "name": "姬戏",
+      "display": "鲁懿公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -807,
+      "deathNote": "史记：懿公九年，伯御攻弑懿公。武公九年卒即立戏。",
+      "title": "鲁懿公，宣王所立",
+      "bio": "武公少子。宣王爱戏，立为鲁太子。九年，兄括之子伯御与鲁人攻弑懿公。",
+      "tags": [
+        "鲁"
+      ]
+    },
+    {
+      "id": "ji-yijiu-jinghou",
+      "name": "姬宜臼",
+      "display": "晋靖侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -840,
+      "deathNote": "史记：靖侯十七年厉王奔彘，十八年卒。共和元年取前 841 年，十八年当 -840。",
+      "title": "晋靖侯",
+      "bio": "名宜臼，与周平王同名不同人。十七年厉王奔彘，十八年卒。",
+      "tags": [
+        "晋"
+      ]
+    },
+    {
+      "id": "ji-yuchen",
+      "name": "姬余臣",
+      "display": "携王",
+      "lane": "king",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -750,
+      "deathNote": "今本竹书：晋文侯二十一年杀王子余臣于携。史记不载。",
+      "title": "携王，虢公翰所立",
+      "bio": "幽王子。竹书：申侯等立宜臼于申，虢公翰立王子余臣于携。晋文侯杀余臣于携。史记不载。",
+      "tags": [
+        "王室",
+        "二王并立"
+      ]
+    },
+    {
+      "id": "jia-bo",
+      "name": "家伯",
+      "display": "家伯",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -773,
+      "deathNote": "卒年不详。仅见《十月之交》「家伯维宰」，取幽王五年为可见下限。",
+      "title": "《十月之交》家伯维宰",
+      "bio": "诗「家伯维宰」。与作《节南山》的家父是否同氏，未定。",
+      "tags": [
+        "十月之交"
+      ]
+    },
+    {
+      "id": "jia-fu",
+      "name": "家父",
+      "display": "家父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -781,
+      "deathNote": "卒年不详。《节南山》毛序家父刺幽王；竹书幽王元年锡太师尹氏命，取此年为可见下限。",
+      "title": "《节南山》作者",
+      "bio": "毛序：家父刺幽王。诗有「家父作诵」。与《十月之交》家伯是否同氏，未定。",
+      "tags": [
+        "诗序"
+      ]
+    },
+    {
+      "id": "jin-jiangshi",
+      "name": "姜氏",
+      "display": "晋穆侯夫人",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -785,
+      "deathNote": "卒年不详。仅见穆侯四年娶齐女为夫人，取穆侯卒年为可见下限。",
+      "title": "晋穆侯夫人",
+      "bio": "穆侯四年娶齐女姜氏为夫人。生太子仇、少子成师。",
+      "tags": [
+        "晋",
+        "后妃"
+      ]
+    },
+    {
+      "id": "jin-muhou",
+      "name": "姬费王",
+      "display": "晋穆侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -785,
+      "deathNote": "史记：穆侯二十七年卒；殇叔三年周宣王崩，故穆侯卒当宣王四十三年前后。竹书宣王四十三年晋穆侯费生薨。",
+      "title": "晋穆侯，名太子仇、少子成师",
+      "bio": "七年伐条生太子仇，十年伐千亩生少子成师。师服已预警适庶名反逆。二十七年卒，弟殇叔自立。",
+      "tags": [
+        "晋"
+      ]
+    },
+    {
+      "id": "jin-shangshu",
+      "name": "晋殇叔",
+      "display": "晋殇叔",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -781,
+      "deathNote": "史记：殇叔四年，太子仇袭杀之。竹书系于幽王元年。",
+      "title": "晋殇叔，自立四年被杀",
+      "bio": "穆侯卒，弟殇叔自立，太子仇出奔。四年，仇袭杀殇叔而立，是为文侯。",
+      "tags": [
+        "晋"
+      ]
+    },
+    {
+      "id": "jin-xianhou",
+      "name": "姬籍",
+      "display": "晋献侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -812,
+      "deathNote": "史记：献侯十一年卒，子穆侯费王立。穆侯二十七年当宣王四十三年前后，上推十一年当 -812。",
+      "title": "晋献侯",
+      "bio": "釐侯之子。十一年卒，子穆侯费王立。",
+      "tags": [
+        "晋"
+      ]
+    },
+    {
+      "id": "jin-xihou",
+      "name": "姬司徒",
+      "display": "晋釐侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -823,
+      "deathNote": "史记：釐侯十四年周宣王初立，十八年卒。宣王元年取前 827 年，十八年当 -823。",
+      "title": "晋釐侯",
+      "bio": "靖侯之子。十四年周宣王初立，十八年卒。",
+      "tags": [
+        "晋"
+      ]
+    },
+    {
+      "id": "ju-shishi",
+      "name": "楀",
+      "display": "楀师氏",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -773,
+      "deathNote": "卒年不详。仅见《十月之交》「楀维师氏」，取幽王五年为可见下限。",
+      "title": "《十月之交》楀师氏",
+      "bio": "诗「楀维师氏」。仅见官名。",
+      "tags": [
+        "十月之交"
+      ]
+    },
+    {
+      "id": "jue-fu",
+      "name": "蹶父",
+      "display": "蹶父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -824,
+      "deathNote": "卒年不详。竹书宣王四年命蹶父如韩，取此年为活动下限。",
+      "title": "宣王卿士，韩侯妻父",
+      "bio": "《韩奕》蹶父孔武，靡国不到。竹书宣王四年命蹶父如韩。与《十月之交》蹶趣马未定为一人。",
+      "tags": [
+        "卿士"
+      ]
+    },
+    {
+      "id": "jue-quma",
+      "name": "蹶",
+      "display": "蹶趣马",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -773,
+      "deathNote": "卒年不详。仅见《十月之交》「蹶维趣马」，取幽王五年为可见下限。",
+      "title": "《十月之交》蹶趣马",
+      "bio": "诗「蹶维趣马」。与《韩奕》蹶父未定为一人。",
+      "tags": [
+        "十月之交"
+      ]
+    },
+    {
+      "id": "kuai-zhong",
+      "name": "郐仲",
+      "display": "郐仲",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。仅见国语史伯论郐仲恃险，取镐京之年为可见下限。",
+      "title": "幽王时郐君",
+      "bio": "国语史伯：郐仲恃险。桓公后来取寄孥之地，即虢、郐。",
+      "tags": [
+        "郐"
+      ]
+    },
+    {
+      "id": "miao-ying",
+      "name": "缪嬴",
+      "display": "缪嬴",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -777,
+      "deathNote": "卒年不详。仅见秦襄公元年以其为丰王妻，取襄公元年为可见下限。",
+      "title": "秦襄公女弟",
+      "bio": "襄公元年以其为丰王妻。仅此一见。",
+      "tags": [
+        "秦"
+      ]
+    },
+    {
+      "id": "mou-qugong",
+      "name": "谋娶公",
+      "display": "杞谋娶公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -841,
+      "deathNote": "卒年不详。史记只记当周厉王时，取厉王奔彘年为可见下限。",
+      "title": "杞谋娶公，当厉王时",
+      "bio": "题公之子。当周厉王时，生武公。史记谓杞小微，其事不足称述。",
+      "tags": [
+        "杞"
+      ]
+    },
+    {
+      "id": "nan-zhong",
+      "name": "南仲",
+      "display": "南仲",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -823,
+      "deathNote": "卒年不详。诗记伐玁狁、城朔方；《常武》「南仲大祖」或为祖考。取宣王五年前后为活动下限。",
+      "title": "宣王时将，城朔方",
+      "bio": "《出车》王命南仲往城于方，玁狁于夷。《常武》「南仲大祖」或指祖考，未必与出车为一人。",
+      "tags": [
+        "将",
+        "伐猃狁"
+      ]
+    },
+    {
+      "id": "qi-chenggong",
+      "name": "姜脱",
+      "display": "齐成公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -795,
+      "deathNote": "史记：成公九年卒。文公元年当宣王十三年前后，九年当 -795。",
+      "title": "齐成公",
+      "bio": "文公之子。九年卒，子庄公购立。",
+      "tags": [
+        "齐"
+      ]
+    },
+    {
+      "id": "qi-degong",
+      "name": "杞德公",
+      "display": "杞德公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -780,
+      "deathNote": "共公卒当 -798，史记德公十八年卒，下推当 -780，当幽王元年前后。",
+      "title": "杞德公",
+      "bio": "共公之子。十八年卒。弟桓公姑容已入春秋。",
+      "tags": [
+        "杞"
+      ]
+    },
+    {
+      "id": "qi-gonggong",
+      "name": "杞共公",
+      "display": "杞共公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -798,
+      "deathNote": "靖公卒当 -806，史记共公八年卒，下推当 -798。",
+      "title": "杞共公",
+      "bio": "靖公之子。八年卒。",
+      "tags": [
+        "杞"
+      ]
+    },
+    {
+      "id": "qi-hugong",
+      "name": "姜静",
+      "display": "齐胡公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -858,
+      "deathNote": "史记：周烹哀公而立其弟静，是为胡公；献公袭杀胡公。献公九年卒当 -850，元年当 -858，胡公死于献公立之年。",
+      "title": "齐胡公，献公所杀",
+      "bio": "哀公之弟，名静。周烹哀公而立之，徙都薄姑。献公袭杀胡公。与周厉王姬胡不是同一人。",
+      "tags": [
+        "齐"
+      ]
+    },
+    {
+      "id": "qi-jinggong",
+      "name": "杞靖公",
+      "display": "杞靖公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -806,
+      "deathNote": "竹书厉王二十四年杞武公薨当 -829；史记靖公二十三年卒，下推当 -806。世家不著其名。",
+      "title": "杞靖公",
+      "bio": "武公之子。二十三年卒。卒年由竹书武公薨年下推。",
+      "tags": [
+        "杞"
+      ]
+    },
+    {
+      "id": "qi-ligong",
+      "name": "姜无忌",
+      "display": "齐厉公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -816,
+      "deathNote": "竹书宣王十二年齐人弑其君厉公无忌，立公子赤。宣王十二年当 -816。",
+      "title": "齐厉公，齐人所弑",
+      "bio": "武公之子。暴虐。胡公子复入齐，齐人杀厉公，胡公子亦战死。齐人立公子赤。",
+      "tags": [
+        "齐"
+      ]
+    },
+    {
+      "id": "qi-wengong",
+      "name": "姜赤",
+      "display": "齐文公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -804,
+      "deathNote": "史记：文公十二年卒。竹书立公子赤于宣王十二年，下推十二年当 -804。",
+      "title": "齐文公",
+      "bio": "厉公之子。竹书宣王十二年齐人立公子赤。十二年卒，子成公脱立。",
+      "tags": [
+        "齐"
+      ]
+    },
+    {
+      "id": "qi-wugong-qi",
+      "name": "杞武公",
+      "display": "杞武公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -829,
+      "deathNote": "今本竹书厉王二十四年杞武公薨。厉王十二年奔彘当 -841，二十四年当 -829。史记记武公立四十七年卒，不与竹书强合。",
+      "title": "杞武公",
+      "bio": "谋娶公之子。今本竹书厉王二十四年杞武公薨。史记记立四十七年卒，不与竹书强合。",
+      "tags": [
+        "杞"
+      ]
+    },
+    {
+      "id": "qi-wugong",
+      "name": "姜寿",
+      "display": "齐武公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -825,
+      "deathNote": "史记：武公二十四年周宣王初立，二十六年卒。宣王元年取前 827 年，二十六年当 -825。",
+      "title": "齐武公",
+      "bio": "献公之子。九年厉王出奔，十年共和，二十四年宣王初立，二十六年卒。",
+      "tags": [
+        "齐"
+      ]
+    },
+    {
+      "id": "qi-xiangong",
+      "name": "姜山",
+      "display": "齐献公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -850,
+      "deathNote": "史记：献公九年卒。竹书厉王三年齐献公山薨。厉王十二年奔彘当共和元年，三年当 -850。",
+      "title": "齐献公，袭杀胡公",
+      "bio": "哀公同母少弟。袭杀胡公而立，徙都临菑。九年卒。",
+      "tags": [
+        "齐"
+      ]
+    },
+    {
+      "id": "qi-zhuanggong",
+      "name": "姜购",
+      "display": "齐庄公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -731,
+      "deathNote": "史记：庄公二十四年犬戎杀幽王，六十四年卒。二十四年当 -771，六十四年当 -731。",
+      "title": "齐庄公，在位六十四年",
+      "bio": "成公之子。二十四年犬戎杀幽王。立六十四年卒，西周镜头只收到这一长条。",
+      "tags": [
+        "齐"
+      ]
+    },
+    {
+      "id": "qin-shifu",
+      "name": "秦世父",
+      "display": "秦世父",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -776,
+      "deathNote": "卒年不详。襄公二年戎围犬丘，世父为戎所虏、岁余复归。襄公元年当 -777，二年当 -776。",
+      "title": "秦庄公长男，让国击戎",
+      "bio": "曰戎杀我大父仲，非杀戎王则不敢入邑，遂让弟襄公为太子。襄公二年为戎所虏，岁余复归。",
+      "tags": [
+        "秦",
+        "西戎"
+      ]
+    },
+    {
+      "id": "qin-xianggong",
+      "name": "秦襄公",
+      "display": "秦襄公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -766,
+      "deathNote": "史记：襄公十二年伐戎而至岐，卒。七年当镐京之年。",
+      "title": "秦始列为诸侯",
+      "bio": "犬戎杀幽王，襄公将兵救周、以兵送平王。平王封为诸侯，赐岐以西，秦始国。",
+      "tags": [
+        "秦",
+        "始封"
+      ]
+    },
+    {
+      "id": "qin-zhong",
+      "name": "秦仲",
+      "display": "秦仲",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -822,
+      "deathNote": "史记：立二十三年，死于戎。竹书系于宣王六年西戎杀秦仲。",
+      "title": "秦仲，死于西戎",
+      "bio": "宣王以秦仲为大夫，诛西戎。西戎杀秦仲。庄公昆弟五人破戎，居西犬丘。",
+      "tags": [
+        "秦",
+        "西戎"
+      ]
+    },
+    {
+      "id": "qin-zhuanggong",
+      "name": "秦庄公",
+      "display": "秦庄公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -778,
+      "deathNote": "史记立四十四年卒。秦仲死于宣王六年，下推四十四年当 -778。",
+      "title": "西垂大夫",
+      "bio": "秦仲长子。宣王召其昆弟伐西戎，破之，为西垂大夫。长男世父让弟襄公为太子。",
+      "tags": [
+        "秦",
+        "西戎"
+      ]
+    },
+    {
+      "id": "reng-shu",
+      "name": "仍叔",
+      "display": "仍叔",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -827,
+      "deathNote": "卒年不详。仅见《云汉》毛序美宣王，取宣王即位年为可见下限。",
+      "title": "毛诗序称《云汉》作者",
+      "bio": "《云汉》序：仍叔美宣王，遇灾而惧、侧身修行。诗本文无「仍叔」二字。",
+      "tags": [
+        "诗序"
+      ]
+    },
+    {
+      "id": "rong-yigong",
+      "name": "荣夷公",
+      "display": "荣夷公",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -841,
+      "deathNote": "卒年不详。厉王用为卿士，国人暴动后不见，取暴动年为可见下限。",
+      "title": "厉王卿士，好专利",
+      "bio": "厉王近之、专山泽之利。芮良夫谏而不听。国人暴动后不见记载。",
+      "tags": [
+        "卿士",
+        "专利"
+      ]
+    },
+    {
+      "id": "shen-bo",
+      "name": "申伯",
+      "display": "申伯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -821,
+      "deathNote": "卒年不详。竹书宣王七年锡申伯命，《崧高》美之，取此年为活动下限。",
+      "title": "宣王所锡申国之君",
+      "bio": "《崧高》尹吉甫美宣王褒赏申伯，于邑于谢。竹书宣王七年锡申伯命。与幽王时攻周的申侯不自动视为同一人。",
+      "tags": [
+        "申国"
+      ]
+    },
+    {
+      "id": "shen-hou-nv",
+      "name": "申后",
+      "display": "申后",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。幽王废后，镐京陷落后不见，取前 771 年为可见下限。",
+      "title": "幽王后，平王之母",
+      "bio": "申侯之女，太子宜臼之母。幽王嬖褒姒，废申后、去太子。废后之后无记载。",
+      "tags": [
+        "后妃",
+        "废嫡"
+      ]
+    },
+    {
+      "id": "shi-bo",
+      "name": "史伯",
+      "display": "史伯",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。郑桓公为司徒时问逃死之地，取桓公死年为可见下限。与伯阳父不是同一人。",
+      "title": "周太史，劝郑桓公寄孥虢郐",
+      "bio": "桓公为司徒，问王室多故逃死何处。史伯劝寄孥与贿于虢、郐。与论三川震的伯阳父不是同一人。",
+      "tags": [
+        "太史"
+      ]
+    },
+    {
+      "id": "shi-fu",
+      "name": "师服",
+      "display": "师服",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -802,
+      "deathNote": "卒年不详。仅见穆侯十年名少子成师。穆侯二十七年卒当 -785，十年约 -802。",
+      "title": "晋大夫，预警成师之名",
+      "bio": "穆侯名太子仇、少子成师。师服谓适庶名反逆，此后晋其能毋乱乎。西周镜头只收到这一谏。",
+      "tags": [
+        "晋",
+        "谏诤"
+      ]
+    },
+    {
+      "id": "shi-yin",
+      "name": "师尹",
+      "display": "师尹",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -781,
+      "deathNote": "卒年不详。《节南山》刺幽王时师尹；竹书幽王元年锡太师尹氏命，取此年为可见活动。",
+      "title": "幽王太师",
+      "bio": "《节南山》赫赫师尹、尹氏大师，秉国之均。竹书幽王元年锡太师尹氏命，或即此人。",
+      "tags": [
+        "太师"
+      ]
+    },
+    {
+      "id": "shu-dai",
+      "name": "叔带",
+      "display": "赵叔带",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。史记：叔带之时周幽王无道，去周如晋，取镐京之年为可见下限。",
+      "title": "赵叔带，去周如晋",
+      "bio": "奄父之子。幽王无道，去周如晋，事晋文侯。赵人由此始章。",
+      "tags": [
+        "赵"
+      ]
+    },
+    {
+      "id": "shu-kan",
+      "name": "叔堪",
+      "display": "楚叔堪",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -822,
+      "deathNote": "卒年不详。熊霜六年卒后亡于濮，取熊霜卒年为可见下限。",
+      "title": "楚叔堪，逃难于濮",
+      "bio": "熊严次子。熊霜卒后亡，避难于濮。国语作叔熊逃难于濮而蛮。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "si-ren-mengzi",
+      "name": "孟子",
+      "display": "寺人孟子",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。仅见《巷伯》，毛序刺幽王，取镐京之年为可见下限。",
+      "title": "《巷伯》寺人孟子",
+      "bio": "《巷伯》「寺人孟子，作为此诗」。毛序刺幽王。仅见此篇。",
+      "tags": [
+        "诗"
+      ]
+    },
+    {
+      "id": "song-aigong",
+      "name": "宋哀公",
+      "display": "宋哀公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -800,
+      "deathNote": "史记：哀公元年卒。惠公三十年当 -801，哀公元年当 -800。",
+      "title": "宋哀公",
+      "bio": "惠公之子。元年卒，子戴公立。",
+      "tags": [
+        "宋"
+      ]
+    },
+    {
+      "id": "song-daigong",
+      "name": "宋戴公",
+      "display": "宋戴公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -766,
+      "deathNote": "史记：戴公二十九年犬戎杀幽王，三十四年卒。二十九年当 -771，三十四年当 -766。",
+      "title": "宋戴公",
+      "bio": "哀公之子。二十九年犬戎杀幽王，三十四年卒。",
+      "tags": [
+        "宋"
+      ]
+    },
+    {
+      "id": "song-huigong",
+      "name": "子覵",
+      "display": "宋惠公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -801,
+      "deathNote": "史记：惠公四年周宣王即位，三十年卒。四年当 -827，三十年当 -801。",
+      "title": "宋惠公",
+      "bio": "釐公之子。四年卒，子哀公立。",
+      "tags": [
+        "宋"
+      ]
+    },
+    {
+      "id": "song-xigong",
+      "name": "子举",
+      "display": "宋釐公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -830,
+      "deathNote": "史记：釐公十七年厉王出奔彘，二十八年卒。十七年当 -841，二十八年当 -830。",
+      "title": "宋釐公",
+      "bio": "厉公之子。十七年厉王奔彘，二十八年卒。",
+      "tags": [
+        "宋"
+      ]
+    },
+    {
+      "id": "su-gong",
+      "name": "苏公",
+      "display": "苏公",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。仅见《何人斯》毛序，与刺幽王诸篇同组，取镐京之年为可见下限。",
+      "title": "《何人斯》苏公",
+      "bio": "毛序：苏公刺暴公也。暴公为卿士而谮苏公。序不系王世。",
+      "tags": [
+        "诗序"
+      ]
+    },
+    {
+      "id": "wei-gongbo",
+      "name": "姬余",
+      "display": "卫共伯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -812,
+      "deathNote": "史记：釐侯卒，共伯余立，即被弟和攻于墓上，入釐侯羡自杀。",
+      "title": "卫共伯余，墓上自杀",
+      "bio": "釐侯太子。弟和袭攻于墓上，入釐侯羡自杀。与竹书摄政的共伯和不是同一人。",
+      "tags": [
+        "卫"
+      ]
+    },
+    {
+      "id": "wei-he",
+      "name": "姬和",
+      "display": "卫武公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -758,
+      "deathNote": "史记：武公五十五年卒。四十二年当犬戎杀幽王。",
+      "title": "卫武公，入相于周",
+      "bio": "袭杀共伯而立。犬戎杀幽王，将兵佐周平戎，平王命为公。《淇奥》毛序美其德。",
+      "tags": [
+        "卫",
+        "平戎"
+      ]
+    },
+    {
+      "id": "wei-qinghou",
+      "name": "卫顷侯",
+      "display": "卫顷侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -854,
+      "deathNote": "史记：顷侯立十二年卒，子釐侯立。釐侯十三年厉王奔彘当 -841，釐侯元年当 -853，顷侯卒取前一年。",
+      "title": "卫顷侯，赂夷王为侯",
+      "bio": "贞伯之子。厚赂周夷王，夷王命卫为侯。十二年卒。",
+      "tags": [
+        "卫"
+      ]
+    },
+    {
+      "id": "wei-xihou",
+      "name": "卫釐侯",
+      "display": "卫釐侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -812,
+      "deathNote": "史记：釐侯十三年厉王奔彘，四十二年卒。共和元年当十三年，四十二年当宣王十六年前后。",
+      "title": "卫釐侯",
+      "bio": "顷侯之子。十三年厉王奔彘，二十八年宣王立，四十二年卒。太子共伯余立，旋被弟和所攻。",
+      "tags": [
+        "卫"
+      ]
+    },
+    {
+      "id": "xi-shu",
+      "name": "隰叔",
+      "display": "隰叔",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -785,
+      "deathNote": "卒年不详。竹书：宣王杀杜伯，其子隰叔出奔晋。取此年为可见活动。",
+      "title": "杜伯之子，出奔晋",
+      "bio": "竹书宣王四十三年王杀大夫杜伯，其子隰叔出奔晋。",
+      "tags": [
+        "杜"
+      ]
+    },
+    {
+      "id": "xian-fu",
+      "name": "显父",
+      "display": "显父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -824,
+      "deathNote": "卒年不详。仅见《韩奕》饯韩侯，竹书宣王四年韩侯来朝，取此年为可见下限。",
+      "title": "《韩奕》饯韩侯",
+      "bio": "《韩奕》显父饯之。或是职名，未必私名。",
+      "tags": [
+        "诗"
+      ]
+    },
+    {
+      "id": "xiong-e",
+      "name": "熊咢",
+      "display": "楚熊咢",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -792,
+      "deathNote": "史记：熊咢九年卒。熊徇二十二年当 -800，下推九年当 -792。",
+      "title": "楚熊咢",
+      "bio": "熊徇之子。九年卒，子熊仪立，是为若敖。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-hong",
+      "name": "熊挚红",
+      "display": "楚鄂王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -847,
+      "deathNote": "卒年不详。挚红卒，其弟弑而代立曰熊延；熊勇元年当 -846，挚红卒取前一年为下限。",
+      "title": "楚鄂王",
+      "bio": "熊渠中子。夷王时立为鄂王。熊渠卒，挚红立；卒，其弟弑而代立曰熊延。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-kang",
+      "name": "熊康",
+      "display": "楚句亶王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -841,
+      "deathNote": "卒年不详。夷王时立为句亶王，厉王时熊渠去王，毋康蚤死，取厉王奔彘年为可见下限。",
+      "title": "楚句亶王，蚤死",
+      "bio": "熊渠长子。夷王时立为句亶王。后为熊毋康，蚤死，未接熊渠之位。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-qu",
+      "name": "熊渠",
+      "display": "楚熊渠",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -841,
+      "deathNote": "卒年不详。夷王时兴兵、厉王时去王，取厉王奔彘年为可见下限。",
+      "title": "楚熊渠，夷王时兴兵",
+      "bio": "当周夷王之时兴兵至于鄂，立三子为王。及厉王暴虐，熊渠畏伐，亦去其王。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-shuang",
+      "name": "熊霜",
+      "display": "楚熊霜",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -822,
+      "deathNote": "史记：熊霜元年周宣王初立，六年卒。宣王元年取前 827 年，六年当 -822。",
+      "title": "楚熊霜",
+      "bio": "熊严长子。六年卒，三弟争立。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-xun",
+      "name": "熊徇",
+      "display": "楚熊徇",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -800,
+      "deathNote": "史记：熊徇十六年郑桓公初封，二十二年卒。桓公封当宣王二十二年，下推六年当 -800。",
+      "title": "楚熊徇",
+      "bio": "熊严少子。熊霜卒，少弟季徇立。二十二年卒。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-yan-yan",
+      "name": "熊延",
+      "display": "楚熊延",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -847,
+      "deathNote": "史记：挚红卒，其弟弑而代立曰熊延，熊延生熊勇。熊勇六年厉王奔彘当 -841，熊勇元年当 -846，延卒取前一年为可见下限。",
+      "title": "楚熊延，弑挚红而立",
+      "bio": "挚红之弟。弑而代立，生熊勇。熊勇六年厉王奔彘。与楚熊严不是同一人。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-yan",
+      "name": "熊严",
+      "display": "楚熊严",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -828,
+      "deathNote": "史记：熊严十年卒。熊勇十年当 -837，下推十年当 -828。",
+      "title": "楚熊严",
+      "bio": "熊勇之弟。十年卒。有子四人：伯霜、仲雪、叔堪、季徇。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-yi",
+      "name": "熊仪",
+      "display": "楚若敖",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -764,
+      "deathNote": "史记：若敖二十年犬戎杀幽王，二十七年卒。二十年当 -771，二十七年当 -764。",
+      "title": "楚若敖",
+      "bio": "熊咢之子。二十年犬戎杀幽王，二十七年卒。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-yong",
+      "name": "熊勇",
+      "display": "楚熊勇",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -837,
+      "deathNote": "史记：熊勇六年周人作乱、厉王奔彘，十年卒。六年当 -841，十年当 -837。",
+      "title": "楚熊勇，当共和",
+      "bio": "熊延之子。六年周人作乱、厉王奔彘，十年卒，弟熊严为后。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xiong-zhici",
+      "name": "熊执疵",
+      "display": "楚越章王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -841,
+      "deathNote": "卒年不详。夷王时立为越章王，厉王时熊渠去王，其后不载，取厉王奔彘年为可见下限。",
+      "title": "楚越章王",
+      "bio": "熊渠少子。夷王时立为越章王。厉王时熊渠去王，其后不载。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "xu-nan",
+      "name": "许男",
+      "display": "许男",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -771,
+      "deathNote": "卒年不详。仅见竹书镐京之年与申侯等立宜臼于申，取前 771 年为可见活动。",
+      "title": "许男，与立平王",
+      "bio": "竹书镐京之年，申侯、鲁侯、许男、郑子立宜臼于申。左传疏引古本或作许文公。",
+      "tags": [
+        "许",
+        "东迁"
+      ]
+    },
+    {
+      "id": "yan-fu",
+      "name": "奄父",
+      "display": "赵奄父",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -789,
+      "deathNote": "卒年不详。宣王时伐戎为御，千亩之战脱宣王，取千亩之年 -789 为可见下限。",
+      "title": "赵奄父，千亩脱宣王",
+      "bio": "造父以下六世。宣王时伐戎为御。千亩之战，奄父脱宣王。生叔带。",
+      "tags": [
+        "赵",
+        "御"
+      ]
+    },
+    {
+      "id": "yan-huihou",
+      "name": "燕惠侯",
+      "display": "燕惠侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -827,
+      "deathNote": "史记：惠侯当厉王奔彘、共和之时；惠侯卒、釐侯立，是岁周宣王初即位。",
+      "title": "燕惠侯，当共和",
+      "bio": "当厉王奔彘、共和之时。卒，釐侯立，是岁周宣王初即位。",
+      "tags": [
+        "燕"
+      ]
+    },
+    {
+      "id": "yan-qinghou",
+      "name": "燕顷侯",
+      "display": "燕顷侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -767,
+      "deathNote": "史记：顷侯二十年犬戎杀幽王，二十四年卒。二十年当 -771，二十四年当 -767。",
+      "title": "燕顷侯",
+      "bio": "釐侯之子。二十年犬戎杀幽王，二十四年卒。",
+      "tags": [
+        "燕"
+      ]
+    },
+    {
+      "id": "yan-xihou",
+      "name": "燕釐侯",
+      "display": "燕釐侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -792,
+      "deathNote": "史记：釐侯立当宣王初即位，三十六年卒。宣王元年取前 827 年，三十六年当 -792。",
+      "title": "燕釐侯",
+      "bio": "惠侯之子。立当宣王初即位，三十六年卒。",
+      "tags": [
+        "燕"
+      ]
+    },
+    {
+      "id": "zhang-zhong",
+      "name": "张仲",
+      "display": "张仲",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -823,
+      "deathNote": "卒年不详。仅见《六月》吉甫燕喜「张仲孝友」，取宣王五年前后为可见下限。",
+      "title": "《六月》所称孝友",
+      "bio": "《六月》吉甫燕喜，「侯谁在矣？张仲孝友」。仅此一见。",
+      "tags": [
+        "诗"
+      ]
+    },
+    {
+      "id": "zhong-xue",
+      "name": "仲雪",
+      "display": "楚仲雪",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -822,
+      "deathNote": "史记：熊霜六年卒，三弟争立，仲雪死。取熊霜卒年为可见下限。",
+      "title": "楚仲雪，争立而死",
+      "bio": "熊严中子。熊霜卒，三弟争立，仲雪死。",
+      "tags": [
+        "楚"
+      ]
+    },
+    {
+      "id": "zhong-yun",
+      "name": "仲允",
+      "display": "仲允",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -773,
+      "deathNote": "卒年不详。仅见《十月之交》「仲允膳夫」，取幽王五年为可见下限。",
+      "title": "《十月之交》仲允膳夫",
+      "bio": "诗「仲允膳夫」。仅见官名。",
+      "tags": [
+        "十月之交"
+      ]
+    },
+    {
+      "id": "zou-zi",
+      "name": "棸子",
+      "display": "棸子",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -773,
+      "deathNote": "卒年不详。仅见《十月之交》「棸子内史」，取幽王五年为可见下限。",
+      "title": "《十月之交》棸子内史",
+      "bio": "诗「棸子内史」。仅见官名。",
+      "tags": [
+        "十月之交"
+      ]
     }
   ],
   "relationTypes": [
@@ -404,6 +2138,1014 @@
       "target": "ji-yijiu",
       "type": "rival",
       "note": "伯服之立，直接取代宜臼"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-bofu",
+      "type": "kin",
+      "note": "父子。褒姒所生，后立为太子"
+    },
+    {
+      "source": "bao-si",
+      "target": "ji-bofu",
+      "type": "kin",
+      "note": "母子"
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-bofu",
+      "type": "rival",
+      "note": "废嫡立庶，伯服取代宜臼"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "note": "夫妻。后废申后"
+    },
+    {
+      "source": "shen-hou",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "note": "父女"
+    },
+    {
+      "source": "shen-hou-nv",
+      "target": "ji-yijiu",
+      "type": "kin",
+      "note": "母子"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yuchen",
+      "type": "kin",
+      "note": "父子。竹书：虢公翰立余臣于携"
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-yuchen",
+      "type": "rival",
+      "note": "镐京之后二王并立"
+    },
+    {
+      "source": "guo-han",
+      "target": "ji-yuchen",
+      "type": "ruler-subject",
+      "note": "虢公翰立王子余臣于携"
+    },
+    {
+      "source": "ji-chou",
+      "target": "ji-yuchen",
+      "type": "rival",
+      "note": "竹书：晋文侯杀王子余臣于携"
+    },
+    {
+      "source": "bao-xu",
+      "target": "bao-si",
+      "type": "kin",
+      "note": "国语：褒姁有狱，入女于王，即褒姒"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bao-xu",
+      "type": "ruler-subject",
+      "note": "褒人有狱，入女于王"
+    },
+    {
+      "source": "ji-hu",
+      "target": "rong-yigong",
+      "type": "ruler-subject",
+      "note": "厉王近荣夷公、专山泽之利"
+    },
+    {
+      "source": "rui-liangfu",
+      "target": "rong-yigong",
+      "type": "rival",
+      "note": "芮良夫谏荣公专利"
+    },
+    {
+      "source": "ji-jing",
+      "target": "guo-wengong",
+      "type": "ruler-subject",
+      "note": "宣王不籍千亩，虢文公谏不可"
+    },
+    {
+      "source": "ji-you",
+      "target": "shi-bo",
+      "type": "ruler-subject",
+      "note": "桓公问逃死，太史伯劝寄孥虢郐"
+    },
+    {
+      "source": "ji-hu",
+      "target": "gong-bo-he",
+      "type": "ruler-subject",
+      "note": "竹书：厉王在彘，共伯和摄行天子事"
+    },
+    {
+      "source": "gong-bo-he",
+      "target": "zhou-dinggong",
+      "type": "peer",
+      "note": "竹书归政；史记二相行政是另一说"
+    },
+    {
+      "source": "ji-jing",
+      "target": "fang-shu",
+      "type": "ruler-subject",
+      "note": "宣王五年方叔伐荆蛮"
+    },
+    {
+      "source": "ji-jing",
+      "target": "nan-zhong",
+      "type": "ruler-subject",
+      "note": "王命南仲城朔方、伐玁狁"
+    },
+    {
+      "source": "ji-jing",
+      "target": "huang-fu",
+      "type": "ruler-subject",
+      "note": "《常武》大师皇父从王伐徐"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "huang-fu",
+      "type": "ruler-subject",
+      "note": "《十月之交》皇父卿士，作都于向"
+    },
+    {
+      "source": "ji-jing",
+      "target": "cheng-bo-xiufu",
+      "type": "ruler-subject",
+      "note": "司马，从王伐徐戎"
+    },
+    {
+      "source": "huang-fu",
+      "target": "cheng-bo-xiufu",
+      "type": "peer",
+      "note": "竹书宣王六年皇父、休父从王伐徐"
+    },
+    {
+      "source": "ji-jing",
+      "target": "shen-bo",
+      "type": "ruler-subject",
+      "note": "宣王七年锡申伯命，《崧高》美之"
+    },
+    {
+      "source": "ji-jing",
+      "target": "han-hou",
+      "type": "ruler-subject",
+      "note": "宣王四年韩侯来朝，受命入觐"
+    },
+    {
+      "source": "ji-jing",
+      "target": "jue-fu",
+      "type": "ruler-subject",
+      "note": "命蹶父如韩"
+    },
+    {
+      "source": "jue-fu",
+      "target": "han-hou",
+      "type": "kin",
+      "note": "韩侯娶蹶父之女"
+    },
+    {
+      "source": "jue-fu",
+      "target": "han-ji",
+      "type": "kin",
+      "note": "父女"
+    },
+    {
+      "source": "han-hou",
+      "target": "han-ji",
+      "type": "kin",
+      "note": "夫妻"
+    },
+    {
+      "source": "ji-jing",
+      "target": "xian-fu",
+      "type": "ruler-subject",
+      "note": "《韩奕》显父饯韩侯"
+    },
+    {
+      "source": "xian-fu",
+      "target": "han-hou",
+      "type": "peer",
+      "note": "饯韩侯于宣王所命之朝"
+    },
+    {
+      "source": "yin-jifu",
+      "target": "zhang-zhong",
+      "type": "peer",
+      "note": "《六月》吉甫燕喜，张仲在焉"
+    },
+    {
+      "source": "ji-jing",
+      "target": "du-bo",
+      "type": "ruler-subject",
+      "note": "竹书宣王四十三年杀大夫杜伯"
+    },
+    {
+      "source": "du-bo",
+      "target": "xi-shu",
+      "type": "kin",
+      "note": "父子。杜伯被杀，隰叔出奔晋"
+    },
+    {
+      "source": "ji-hu",
+      "target": "guo-changfu",
+      "type": "ruler-subject",
+      "note": "厉王三年命虢公长父伐淮夷不克"
+    },
+    {
+      "source": "ji-hu",
+      "target": "fan-bo",
+      "type": "ruler-subject",
+      "note": "《板》序：凡伯刺厉王"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "fan-bo",
+      "type": "ruler-subject",
+      "note": "《瞻卬》《召旻》序：凡伯刺幽王"
+    },
+    {
+      "source": "ji-jing",
+      "target": "reng-shu",
+      "type": "ruler-subject",
+      "note": "《云汉》序：仍叔美宣王"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "jia-fu",
+      "type": "ruler-subject",
+      "note": "《节南山》家父刺幽王"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shi-yin",
+      "type": "ruler-subject",
+      "note": "《节南山》赫赫师尹；竹书锡太师尹氏命"
+    },
+    {
+      "source": "jia-fu",
+      "target": "shi-yin",
+      "type": "rival",
+      "note": "家父作诵刺师尹"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "fan-situ",
+      "type": "ruler-subject",
+      "note": "《十月之交》番维司徒"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "jia-bo",
+      "type": "ruler-subject",
+      "note": "《十月之交》家伯维宰"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "zhong-yun",
+      "type": "ruler-subject",
+      "note": "《十月之交》仲允膳夫"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "zou-zi",
+      "type": "ruler-subject",
+      "note": "《十月之交》棸子内史"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "jue-quma",
+      "type": "ruler-subject",
+      "note": "《十月之交》蹶维趣马"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ju-shishi",
+      "type": "ruler-subject",
+      "note": "《十月之交》楀维师氏"
+    },
+    {
+      "source": "huang-fu",
+      "target": "fan-situ",
+      "type": "peer",
+      "note": "《十月之交》同列卿士"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "si-ren-mengzi",
+      "type": "ruler-subject",
+      "note": "《巷伯》寺人孟子，毛序刺幽王"
+    },
+    {
+      "source": "su-gong",
+      "target": "bao-gong",
+      "type": "rival",
+      "note": "《何人斯》序：暴公谮苏公"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "su-gong",
+      "type": "ruler-subject",
+      "note": "诗在节南山之什，与刺幽王诸篇同组"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bao-gong",
+      "type": "ruler-subject",
+      "note": "毛序称暴公为卿士"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bo-shi",
+      "type": "ruler-subject",
+      "note": "竹书幽王六年命伯士伐六济之戎"
+    },
+    {
+      "source": "ji-jing",
+      "target": "yan-fu",
+      "type": "ruler-subject",
+      "note": "宣王伐戎，奄父为御；千亩之战脱王"
+    },
+    {
+      "source": "yan-fu",
+      "target": "shu-dai",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shu-dai",
+      "type": "ruler-subject",
+      "note": "幽王无道，叔带去周如晋"
+    },
+    {
+      "source": "ji-chou",
+      "target": "shu-dai",
+      "type": "ruler-subject",
+      "note": "叔带事晋文侯"
+    },
+    {
+      "source": "ji-jing",
+      "target": "qin-zhong",
+      "type": "ruler-subject",
+      "note": "宣王以秦仲为大夫，诛西戎"
+    },
+    {
+      "source": "qin-zhong",
+      "target": "qin-zhuanggong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qin-zhuanggong",
+      "target": "qin-shifu",
+      "type": "kin",
+      "note": "父子。世父让弟襄公"
+    },
+    {
+      "source": "qin-zhuanggong",
+      "target": "qin-xianggong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qin-shifu",
+      "target": "qin-xianggong",
+      "type": "kin",
+      "note": "兄弟。世父让国击戎"
+    },
+    {
+      "source": "qin-xianggong",
+      "target": "miao-ying",
+      "type": "kin",
+      "note": "兄妹。襄公元年以女弟为丰王妻"
+    },
+    {
+      "source": "miao-ying",
+      "target": "feng-wang",
+      "type": "kin",
+      "note": "夫妻"
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "qin-xianggong",
+      "type": "ruler-subject",
+      "note": "襄公以兵送平王，始列为诸侯"
+    },
+    {
+      "source": "ji-yijiu-jinghou",
+      "target": "jin-xihou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "jin-xihou",
+      "target": "jin-xianhou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "jin-xianhou",
+      "target": "jin-muhou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "jin-muhou",
+      "target": "jin-jiangshi",
+      "type": "kin",
+      "note": "夫妻。穆侯四年娶齐女"
+    },
+    {
+      "source": "jin-muhou",
+      "target": "ji-chou",
+      "type": "kin",
+      "note": "父子。太子仇"
+    },
+    {
+      "source": "jin-muhou",
+      "target": "ji-chengshi",
+      "type": "kin",
+      "note": "父子。少子成师"
+    },
+    {
+      "source": "jin-jiangshi",
+      "target": "ji-chou",
+      "type": "kin",
+      "note": "母子"
+    },
+    {
+      "source": "jin-jiangshi",
+      "target": "ji-chengshi",
+      "type": "kin",
+      "note": "母子"
+    },
+    {
+      "source": "ji-chou",
+      "target": "ji-chengshi",
+      "type": "kin",
+      "note": "兄弟。后封曲沃，晋乱始此"
+    },
+    {
+      "source": "jin-muhou",
+      "target": "jin-shangshu",
+      "type": "kin",
+      "note": "兄弟。穆侯卒，殇叔自立"
+    },
+    {
+      "source": "jin-shangshu",
+      "target": "ji-chou",
+      "type": "rival",
+      "note": "太子仇袭杀殇叔而立"
+    },
+    {
+      "source": "jin-muhou",
+      "target": "shi-fu",
+      "type": "ruler-subject",
+      "note": "师服谏穆侯名子反逆"
+    },
+    {
+      "source": "ji-hu",
+      "target": "ji-yijiu-jinghou",
+      "type": "ruler-subject",
+      "note": "靖侯十七年厉王奔彘"
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-chou",
+      "type": "ruler-subject",
+      "note": "文侯迎送平王东迁"
+    },
+    {
+      "source": "wei-qinghou",
+      "target": "wei-xihou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "wei-xihou",
+      "target": "wei-gongbo",
+      "type": "kin",
+      "note": "父子。太子共伯余"
+    },
+    {
+      "source": "wei-xihou",
+      "target": "wei-he",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "wei-gongbo",
+      "target": "wei-he",
+      "type": "rival",
+      "note": "和袭攻共伯于墓上，共伯自杀"
+    },
+    {
+      "source": "ji-hu",
+      "target": "wei-xihou",
+      "type": "ruler-subject",
+      "note": "釐侯十三年厉王奔彘"
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "wei-he",
+      "type": "ruler-subject",
+      "note": "武公将兵平戎，平王命为公"
+    },
+    {
+      "source": "ji-ju",
+      "target": "ji-bi",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-bi",
+      "target": "ji-ao",
+      "type": "kin",
+      "note": "世家：真公之后武公朝周"
+    },
+    {
+      "source": "ji-ao",
+      "target": "ji-kuo",
+      "type": "kin",
+      "note": "父子。长子括"
+    },
+    {
+      "source": "ji-ao",
+      "target": "ji-xi",
+      "type": "kin",
+      "note": "父子。少子戏，宣王所立"
+    },
+    {
+      "source": "ji-kuo",
+      "target": "ji-xi",
+      "type": "kin",
+      "note": "兄弟。宣王废长立幼"
+    },
+    {
+      "source": "ji-kuo",
+      "target": "bo-yu",
+      "type": "kin",
+      "note": "父子。史记：伯御为括之子"
+    },
+    {
+      "source": "bo-yu",
+      "target": "ji-xi",
+      "type": "rival",
+      "note": "伯御与鲁人攻弑懿公"
+    },
+    {
+      "source": "ji-ao",
+      "target": "ji-cheng",
+      "type": "kin",
+      "note": "父子。孝公称，懿公之弟"
+    },
+    {
+      "source": "ji-xi",
+      "target": "ji-cheng",
+      "type": "kin",
+      "note": "兄弟"
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-ao",
+      "type": "ruler-subject",
+      "note": "武公朝周，宣王立戏为鲁太子"
+    },
+    {
+      "source": "ji-jing",
+      "target": "bo-yu",
+      "type": "rival",
+      "note": "宣王伐鲁，杀伯御"
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-cheng",
+      "type": "ruler-subject",
+      "note": "杀伯御，立孝公于夷宫"
+    },
+    {
+      "source": "zhong-shanfu",
+      "target": "ji-cheng",
+      "type": "peer",
+      "note": "樊穆仲谓称肃恭明神，宣王乃立孝公"
+    },
+    {
+      "source": "ji-hu",
+      "target": "ji-bi",
+      "type": "ruler-subject",
+      "note": "真公十四年厉王奔彘"
+    },
+    {
+      "source": "xu-nan",
+      "target": "ji-yijiu",
+      "type": "ruler-subject",
+      "note": "竹书：许男与申侯等立宜臼于申"
+    },
+    {
+      "source": "ji-cheng",
+      "target": "ji-yijiu",
+      "type": "ruler-subject",
+      "note": "竹书镐京之年鲁侯与立宜臼"
+    },
+    {
+      "source": "ji-you",
+      "target": "ji-jutuo",
+      "type": "kin",
+      "note": "父子。桓公死，郑人立掘突"
+    },
+    {
+      "source": "ji-you",
+      "target": "guo-shu",
+      "type": "peer",
+      "note": "史伯劝寄孥于虢，虢叔恃势"
+    },
+    {
+      "source": "ji-you",
+      "target": "kuai-zhong",
+      "type": "peer",
+      "note": "史伯劝寄孥于郐，郐仲恃险"
+    },
+    {
+      "source": "shi-bo",
+      "target": "guo-shu",
+      "type": "peer",
+      "note": "史伯论虢叔恃势"
+    },
+    {
+      "source": "shi-bo",
+      "target": "kuai-zhong",
+      "type": "peer",
+      "note": "史伯论郐仲恃险"
+    },
+    {
+      "source": "qi-hugong",
+      "target": "qi-xiangong",
+      "type": "rival",
+      "note": "献公袭杀胡公而立"
+    },
+    {
+      "source": "qi-xiangong",
+      "target": "qi-wugong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qi-wugong",
+      "target": "qi-ligong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qi-ligong",
+      "target": "qi-wengong",
+      "type": "kin",
+      "note": "父子。齐人杀厉公，立公子赤"
+    },
+    {
+      "source": "qi-hugong",
+      "target": "qi-ligong",
+      "type": "rival",
+      "note": "厉公时胡公子复入齐，与攻杀厉公"
+    },
+    {
+      "source": "qi-wengong",
+      "target": "qi-chenggong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qi-chenggong",
+      "target": "qi-zhuanggong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "qi-wugong",
+      "type": "ruler-subject",
+      "note": "武公九年厉王出奔"
+    },
+    {
+      "source": "ji-jing",
+      "target": "qi-ligong",
+      "type": "ruler-subject",
+      "note": "竹书宣王十二年齐人弑厉公"
+    },
+    {
+      "source": "yan-huihou",
+      "target": "yan-xihou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "yan-xihou",
+      "target": "yan-qinghou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "yan-huihou",
+      "type": "ruler-subject",
+      "note": "惠侯当厉王奔彘、共和之时"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "yan-qinghou",
+      "type": "ruler-subject",
+      "note": "顷侯二十年犬戎杀幽王"
+    },
+    {
+      "source": "chen-shengong",
+      "target": "chen-yougong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "chen-yougong",
+      "target": "chen-xigong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "chen-xigong",
+      "target": "chen-wugong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "chen-wugong",
+      "target": "chen-yigong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "chen-wugong",
+      "target": "chen-pinggong",
+      "type": "kin",
+      "note": "父子。夷公卒，弟平公立"
+    },
+    {
+      "source": "chen-yigong",
+      "target": "chen-pinggong",
+      "type": "kin",
+      "note": "兄弟"
+    },
+    {
+      "source": "ji-hu",
+      "target": "chen-shengong",
+      "type": "ruler-subject",
+      "note": "慎公当周厉王时"
+    },
+    {
+      "source": "ji-hu",
+      "target": "chen-yougong",
+      "type": "ruler-subject",
+      "note": "幽公十二年厉王奔彘"
+    },
+    {
+      "source": "mou-qugong",
+      "target": "qi-wugong-qi",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qi-wugong-qi",
+      "target": "qi-jinggong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qi-jinggong",
+      "target": "qi-gonggong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "qi-gonggong",
+      "target": "qi-degong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "mou-qugong",
+      "type": "ruler-subject",
+      "note": "谋娶公当周厉王时"
+    },
+    {
+      "source": "song-xigong",
+      "target": "song-huigong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "song-huigong",
+      "target": "song-aigong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "song-aigong",
+      "target": "song-daigong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "song-xigong",
+      "type": "ruler-subject",
+      "note": "釐公十七年厉王奔彘"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "song-daigong",
+      "type": "ruler-subject",
+      "note": "戴公二十九年犬戎杀幽王"
+    },
+    {
+      "source": "cai-lihou",
+      "target": "cai-wuhou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "cai-wuhou",
+      "target": "cai-yihou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "cai-yihou",
+      "target": "cai-xihou",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "cai-wuhou",
+      "type": "ruler-subject",
+      "note": "武侯之时厉王奔彘"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "cai-xihou",
+      "type": "ruler-subject",
+      "note": "釐侯三十九年犬戎杀幽王"
+    },
+    {
+      "source": "cao-yibo",
+      "target": "cao-youbo",
+      "type": "kin",
+      "note": "兄弟。夷伯卒，弟幽伯立"
+    },
+    {
+      "source": "cao-youbo",
+      "target": "cao-daibo",
+      "type": "kin",
+      "note": "兄弟。戴伯苏杀幽伯代立"
+    },
+    {
+      "source": "cao-youbo",
+      "target": "cao-daibo",
+      "type": "rival",
+      "note": "弟苏杀幽伯代立，是为戴伯"
+    },
+    {
+      "source": "cao-daibo",
+      "target": "cao-huibo",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "cao-yibo",
+      "type": "ruler-subject",
+      "note": "夷伯二十三年厉王奔彘"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "cao-huibo",
+      "type": "ruler-subject",
+      "note": "惠伯二十五年犬戎杀幽王"
+    },
+    {
+      "source": "xiong-qu",
+      "target": "xiong-kang",
+      "type": "kin",
+      "note": "父子。立长子康为句亶王"
+    },
+    {
+      "source": "xiong-qu",
+      "target": "xiong-hong",
+      "type": "kin",
+      "note": "父子。立中子红为鄂王"
+    },
+    {
+      "source": "xiong-qu",
+      "target": "xiong-zhici",
+      "type": "kin",
+      "note": "父子。立少子执疵为越章王"
+    },
+    {
+      "source": "xiong-hong",
+      "target": "xiong-yan-yan",
+      "type": "rival",
+      "note": "挚红卒，其弟弑而代立曰熊延"
+    },
+    {
+      "source": "xiong-qu",
+      "target": "xiong-yan-yan",
+      "type": "kin",
+      "note": "熊延为挚红之弟，同出熊渠"
+    },
+    {
+      "source": "xiong-yan-yan",
+      "target": "xiong-yong",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "xiong-yong",
+      "target": "xiong-yan",
+      "type": "kin",
+      "note": "兄弟。熊勇卒，弟熊严为后"
+    },
+    {
+      "source": "xiong-yan",
+      "target": "xiong-shuang",
+      "type": "kin",
+      "note": "父子。长子伯霜"
+    },
+    {
+      "source": "xiong-yan",
+      "target": "zhong-xue",
+      "type": "kin",
+      "note": "父子。中子仲雪"
+    },
+    {
+      "source": "xiong-yan",
+      "target": "shu-kan",
+      "type": "kin",
+      "note": "父子。次子叔堪"
+    },
+    {
+      "source": "xiong-yan",
+      "target": "xiong-xun",
+      "type": "kin",
+      "note": "父子。少子季徇"
+    },
+    {
+      "source": "xiong-shuang",
+      "target": "zhong-xue",
+      "type": "kin",
+      "note": "兄弟。熊霜卒，三弟争立，仲雪死"
+    },
+    {
+      "source": "xiong-shuang",
+      "target": "shu-kan",
+      "type": "kin",
+      "note": "兄弟。叔堪逃难于濮"
+    },
+    {
+      "source": "xiong-shuang",
+      "target": "xiong-xun",
+      "type": "kin",
+      "note": "兄弟。少弟季徇立"
+    },
+    {
+      "source": "xiong-xun",
+      "target": "xiong-e",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "xiong-e",
+      "target": "xiong-yi",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ji-hu",
+      "target": "xiong-qu",
+      "type": "ruler-subject",
+      "note": "厉王暴虐，熊渠去王"
+    },
+    {
+      "source": "ji-hu",
+      "target": "xiong-yong",
+      "type": "ruler-subject",
+      "note": "熊勇六年厉王奔彘"
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "xiong-yi",
+      "type": "ruler-subject",
+      "note": "若敖二十年犬戎杀幽王"
     }
   ],
   "events": [

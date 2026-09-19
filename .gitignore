@@ -9,3 +9,6 @@ Thumbs.db
 !.env.example
 .vscode/
 .idea/
+
+# 本地史料工作区（维基文库抽取、dump、检索脚本），不进仓库
+raw/
