@@ -189,8 +189,9 @@ function renderNode(
   }
   const cls = `graph-node${isCenter ? ' is-center' : ''}${hot ? ' is-hot' : ''}`;
   const nameY = isCenter ? ly : ly + (Math.sin(angle) > 0.25 ? 4 : -2);
+  const ariaLabel = `${isCenter ? '当前人物' : '切换到'}：${person.display}`;
   return `
-    <g class="${cls}" data-person="${esc(person.id)}">
+    <g class="${cls}" data-person="${esc(person.id)}" tabindex="0" role="button" aria-label="${esc(ariaLabel)}">
       <circle class="graph-disc" cx="${round(x)}" cy="${round(y)}" r="${r}" fill="${esc(color)}" />
       <text class="graph-label" x="${round(lx)}" y="${round(nameY)}" text-anchor="${anchor}">${esc(person.display)}</text>
       ${isCenter ? `<text class="graph-sub" x="${round(x)}" y="${round(nameY + 16)}" text-anchor="middle">${esc(formatLifespan(person))}</text>` : ''}

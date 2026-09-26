@@ -1,0 +1,112 @@
+{
+  "_comment": "南北朝专题逐人分类覆盖表。categories 取自 pipeline/vocab/categories.json，按 rank 从高到低排列；primary 为最被后世所知的身份，覆盖系统按 rank 的自动推导。",
+
+  "tuoba-gui": {
+    "categories": ["monarch", "founding"],
+    "primary": "monarch"
+  },
+  "tuoba-tao": {
+    "categories": ["monarch"],
+    "primary": "monarch"
+  },
+  "yuan-hong": {
+    "categories": ["monarch"],
+    "primary": "monarch"
+  },
+  "feng-taihou": {
+    "categories": ["consort", "regent"],
+    "primary": "consort"
+  },
+  "cui-hao": {
+    "categories": ["official", "strategist", "gentry"],
+    "primary": "official"
+  },
+  "li-daoyuan": {
+    "categories": ["official", "scholar", "science"],
+    "primary": "science"
+  },
+  "erzhu-rong": {
+    "categories": ["regent", "official", "general"],
+    "primary": "regent"
+  },
+  "yuan-xu": {
+    "categories": ["monarch", "falling"],
+    "primary": "monarch"
+  },
+  "gao-huan": {
+    "categories": ["regent", "official", "general"],
+    "primary": "regent"
+  },
+  "yuwen-tai": {
+    "categories": ["regent", "official", "general"],
+    "primary": "regent"
+  },
+  "yuwen-yong": {
+    "categories": ["monarch"],
+    "primary": "monarch"
+  },
+  "hulv-guang": {
+    "categories": ["official", "general"],
+    "primary": "general"
+  },
+  "gao-changgong": {
+    "categories": ["royal-kin", "general"],
+    "primary": "general"
+  },
+  "su-chuo": {
+    "categories": ["official", "scholar"],
+    "primary": "official"
+  },
+  "liu-yu": {
+    "categories": ["monarch", "general", "founding"],
+    "primary": "monarch"
+  },
+  "liu-yilong": {
+    "categories": ["monarch"],
+    "primary": "monarch"
+  },
+  "tan-daoji": {
+    "categories": ["general"],
+    "primary": "general"
+  },
+  "xiao-daocheng": {
+    "categories": ["monarch", "founding"],
+    "primary": "monarch"
+  },
+  "xiao-yan": {
+    "categories": ["monarch", "falling"],
+    "primary": "monarch"
+  },
+  "xiao-tong": {
+    "categories": ["royal-kin", "literature"],
+    "primary": "literature"
+  },
+  "chen-ba-xian": {
+    "categories": ["monarch", "founding"],
+    "primary": "monarch"
+  },
+  "chen-shubao": {
+    "categories": ["monarch", "falling", "poetry"],
+    "primary": "monarch"
+  },
+  "xie-lingyun": {
+    "categories": ["literature", "poetry"],
+    "primary": "poetry"
+  },
+  "shen-yue": {
+    "categories": ["official", "literature", "poetry", "historian"],
+    "primary": "literature"
+  },
+  "liu-xie": {
+    "categories": ["literature", "buddhism"],
+    "primary": "literature"
+  },
+  "tao-hongjing": {
+    "categories": ["hermit", "daoism", "medicine"],
+    "primary": "daoism"
+  },
+  "zu-chongzhi": {
+    "categories": ["science", "astronomy", "craft"],
+    "primary": "astronomy"
+  }
+}

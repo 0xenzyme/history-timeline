@@ -37,7 +37,7 @@ export function renderTopics(
       ? matches
           .map((item) => {
             const selected = item.id === topic.meta.id;
-            return `<button type="button" class="topic-option${selected ? ' is-active' : ''}" role="option" aria-selected="${selected}" data-topic="${esc(item.id)}">
+            return `<button type="button" class="topic-option${selected ? ' is-active' : ''}" aria-pressed="${selected}" data-topic="${esc(item.id)}">
         <strong>${esc(item.title)}</strong>
         <span>${esc(item.subtitle)}</span>
       </button>`;
@@ -60,7 +60,7 @@ export function renderTopics(
       : '';
 
   return `
-    <button type="button" class="topic-toggle" data-topic-menu="1" aria-expanded="${open}" aria-haspopup="listbox" aria-label="选择专题">
+    <button type="button" class="topic-toggle" data-topic-menu="1" aria-expanded="${open}" aria-haspopup="true" aria-label="选择专题">
       <span class="topic-title">${esc(topic.meta.title)}</span>
       <span class="topic-caret" aria-hidden="true">▾</span>
     </button>
@@ -68,7 +68,7 @@ export function renderTopics(
     <div class="topic-menu"${open ? '' : ' hidden'}>
       ${facets}
       ${filteredHint}
-      <div class="topic-list" role="listbox" aria-label="专题">${items}</div>
+      <div class="topic-list" aria-label="专题">${items}</div>
     </div>
   `;
 }

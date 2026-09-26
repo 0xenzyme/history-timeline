@@ -1,0 +1,674 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "sui",
+    "title": "隋",
+    "subtitle": "短暂而深远的一统王朝 · 公元 541 — 公元 619",
+    "range": [
+      541,
+      619
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
+      "id": "minister",
+      "name": "名相 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "craft",
+      "name": "工程 · 制度",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "mowei",
+      "name": "隋末群雄",
+      "color": "#922b3a"
+    }
+  ],
+  "people": [
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 541,
+      "death": 604,
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 569,
+      "death": 618,
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-you",
+      "name": "杨侑",
+      "display": "隋恭帝杨侑",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 605,
+      "death": 619,
+      "title": "代王，禅唐后被杀",
+      "bio": "炀帝之孙。大业十三年被立于长安，次年禅于李渊。武德二年被杀。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-yong",
+      "name": "杨勇",
+      "display": "房陵王杨勇",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 604,
+      "title": "杨坚长子，太子而废，为杨广所杀",
+      "bio": "杨坚长子，开皇元年立为皇太子。性宽厚率意，颇好学，然多内宠，冬至百官朝之而不知节，独孤后与杨素因构之。开皇二十年废为庶人，囚于内史省。仁寿四年文帝崩，广秘不发丧，矫诏赐勇死，追封房陵王。隋之易储，此为其始。",
+      "tags": [
+        "隋",
+        "夺嫡"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-jiong",
+      "name": "高颎",
+      "display": "高颎",
+      "lane": "minister",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 541,
+      "death": 607,
+      "title": "尚书左仆射，开皇之政出于其手",
+      "bio": "渤海蓨人，自云渤海高氏之后。隋文受禅，即拜尚书左仆射，明习吏事，荐苏威、杨素、贺若弼、韩擒虎，平陈之策、输籍之法、府兵之改，皆其谋。独孤后与杨素言其不可信，遂坐免。大业三年以谤讪朝政被诛，年六十七，天下冤之。",
+      "tags": [
+        "隋",
+        "制度"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-su",
+      "name": "杨素",
+      "display": "杨素",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 544,
+      "death": 606,
+      "title": "尚书令，平陈水战，为炀帝所忌",
+      "bio": "弘农华阴人，性疏辩，善属文，与杨坚同族。开皇八年为行军元帅，出三峡，以五牙大舰破陈，江南遂定。数与突厥战，皆大克获。后附晋王广，助之夺宗，既而威权日盛，炀帝外示殊礼而内甚忌之。大业二年疾笃，帝日遣医问，然密问其死期，卒年六十三。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "he-ruo-bi",
+      "name": "贺若弼",
+      "display": "贺若弼",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 544,
+      "death": 607,
+      "title": "上柱国，广陵渡江破陈，以口祸见杀",
+      "bio": "河南洛阳人，父敦以口舌被杀，临刑刺弼舌出血，诫以慎口。开皇八年为行军总管，自广陵济江，破京口，与韩擒虎并进，陈人悉降。自谓功名出群臣之右，每以宰相自许。大业三年与高颎同坐诽谤朝政被诛，年六十四，一如父诫。",
+      "tags": [
+        "隋",
+        "平陈"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "sui"
+      ]
+    },
+    {
+      "id": "han-qinhu",
+      "name": "韩擒虎",
+      "display": "韩擒虎",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 538,
+      "death": 592,
+      "title": "上柱国，夜渡采石，先入建康",
+      "bio": "河南东垣人，本名擒豹，以胆略见称。开皇八年为先锋，率五百人宵济采石，守者皆醉，遂取姑孰，寻入建康，执陈后主于井中。突厥来朝，帝令献俘，使者见其威容不敢仰视。开皇十二年卒于家，年五十五。",
+      "tags": [
+        "隋",
+        "平陈"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "sui"
+      ]
+    },
+    {
+      "id": "yu-wen-kai",
+      "name": "宇文恺",
+      "display": "宇文恺",
+      "lane": "craft",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 555,
+      "death": 612,
+      "title": "将作大匠，大兴城与东都洛阳",
+      "bio": "朔方夏州人，本出鲜卑，宇文忻之弟。好学，多技艺，有巧思。开皇二年营大兴城，规制宏大，为隋唐长安之始；炀帝即位营东都洛阳，凿通济渠，又造大帐、观风行殿、六合城。著《东都图记》《明堂图议》。大业八年卒，年五十八。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "craft"
+      ],
+      "primary": "craft",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-xuan-gan",
+      "name": "杨玄感",
+      "display": "杨玄感",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 613,
+      "title": "杨素之子，起兵黎阳，隋末首义",
+      "bio": "弘农华阴人，杨素长子，好读书，善骑射。大业九年炀帝再征高句丽，玄感督运于黎阳，遂举兵反，众至十余万，围东都。李密献上中下三策而不用其长，久攻不下，为宇文述、来护儿所败。奔葭芦戍，自知不免，令弟积善杀之。隋室自此瓦解。",
+      "tags": [
+        "隋末",
+        "首义"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "sui"
+      ]
+    },
+    {
+      "id": "zhai-rang",
+      "name": "翟让",
+      "display": "翟让",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 617,
+      "title": "瓦岗之首，让位于李密而见杀",
+      "bio": "东郡韦城人，为东都法曹，坐事当斩，亡命入瓦岗，聚众至万余，号瓦岗军。大业十二年李密来投，说以取洛口仓，让推密为主，号魏公。次年密忌让，置酒宴而伏兵杀之，徐世勣亦几不免。瓦岗既内溃，遂不复振。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "sui"
+      ]
+    },
+    {
+      "id": "li-mi",
+      "name": "李密",
+      "display": "李密",
+      "lane": "mowei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 582,
+      "death": 619,
+      "title": "瓦岗之主，据洛口仓，降唐而复叛",
+      "bio": "辽东襄平人，李弼曾孙，少袭蒲山公。大业九年从杨玄感起兵，玄感败，亡命雍丘，后入瓦岗，说翟让取洛口仓，开仓恣民所取，众至数十万，自为魏公。既杀让而部曲离心，为王世充所败，奔唐，复叛，武德二年为盛彦师斩于熊耳山，年三十七。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "sui",
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dou-jian-de",
+      "name": "窦建德",
+      "display": "窦建德",
+      "lane": "mowei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 573,
+      "death": 621,
+      "title": "夏王，河北义军之主，斩于长安",
+      "bio": "贝州漳南人，世为农，为里长，以侠气闻。大业七年聚众入高鸡泊，渐据河北，自称夏王，都乐寿。不杀士人，所得资财悉分将士，境内劝课农桑，商旅野宿。武德四年虎牢一战，为李世民所擒，斩于长安市，年四十九，河北之人久而不忘。",
+      "tags": [
+        "隋末"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-shichong",
+      "name": "王世充",
+      "display": "王世充",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 621,
+      "title": "郑王，据洛阳，降唐而被杀",
+      "bio": "西域胡人，本姓支，父收随母改嫁王氏，因冒其姓。善傅会，通兵法，尤好诡诈。大业末守洛阳，既败李密，遂废越王侗自立，国号郑。武德四年李世民围洛阳，世充降，流于蜀，为仇人所杀于途中。隋末据中原者为三：密、建德、世充。",
+      "tags": [
+        "隋末"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-wen-huaji",
+      "name": "宇文化及",
+      "display": "宇文化及",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 619,
+      "title": "弑炀帝于江都，自立为许帝",
+      "bio": "代武川人，宇文述之子，性凶险，不循法度。大业十四年从驾江都，见天下已叛，遂与司马德戡等率骁果入宫，缢杀炀帝，并杀宗室、外戚。引众西归，与李密战于童山，粮尽北走，至魏县僭号许帝，明年为窦建德所擒，斩于河间，并其二子。",
+      "tags": [
+        "隋末",
+        "弑君"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "yang-yong",
+      "type": "kin",
+      "note": "父子，勇本为太子后废"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-guang",
+      "type": "kin",
+      "note": "父子，广诡得立，弑父即位"
+    },
+    {
+      "source": "yang-jian",
+      "target": "gao-jiong",
+      "type": "ruler-subject",
+      "note": "高颎为隋首席谋臣，定制度、平陈方略"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-su",
+      "type": "ruler-subject",
+      "note": "杨素将兵平陈，后渐骄恣"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-wen-kai",
+      "type": "ruler-subject",
+      "note": "命宇文恺营大兴、东京"
+    },
+    {
+      "source": "yang-guang",
+      "target": "gao-jiong",
+      "type": "rival",
+      "note": "炀帝忌而诛高颎"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-su",
+      "type": "rival",
+      "note": "素有功而见疏忌"
+    },
+    {
+      "source": "he-ruo-bi",
+      "target": "han-qinhu",
+      "type": "peer",
+      "note": "平陈双璧，韩擒虎先入建康"
+    },
+    {
+      "source": "yang-yong",
+      "target": "yang-guang",
+      "type": "rival",
+      "note": "夺嫡，广谮废勇"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-you",
+      "type": "kin",
+      "note": "炀帝之孙，代王。江都被立于长安，次年禅唐"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-huaji",
+      "type": "ruler-subject",
+      "note": "宇文述之子化及领禁军，从幸江都"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yang-guang",
+      "type": "rival",
+      "since": 618,
+      "note": "江都兵变，缢杀炀帝"
+    },
+    {
+      "source": "zhai-rang",
+      "target": "wang-shichong",
+      "type": "rival",
+      "note": "瓦岗兴于翟让，终为王世充所并"
+    },
+    {
+      "source": "zhai-rang",
+      "target": "li-mi",
+      "type": "rival",
+      "note": "让推密为主，旋为密所杀"
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "wang-shichong",
+      "type": "rival",
+      "note": "河北窦建德与东都王世充相持，俱为唐所灭"
+    }
+  ],
+  "events": [
+    {
+      "id": "sui-jian",
+      "name": "杨坚代周称帝",
+      "kind": "point",
+      "year": 581,
+      "people": [
+        "yang-jian",
+        "gao-jiong"
+      ],
+      "desc": "北周静帝禅位于隋王杨坚，国号隋，都大兴。高颎定三省六部之制。"
+    },
+    {
+      "id": "sui-pingchen",
+      "name": "灭陈一统",
+      "kind": "point",
+      "year": 589,
+      "people": [
+        "yang-jian",
+        "yang-su",
+        "he-ruo-bi",
+        "han-qinhu"
+      ],
+      "desc": "贺若弼渡京口、韩擒虎入朱雀门，陈后主就擒。分裂二百七十年复归一统。"
+    },
+    {
+      "id": "sui-keju",
+      "name": "初创科举",
+      "kind": "point",
+      "year": 605,
+      "people": [
+        "yang-guang"
+      ],
+      "desc": "炀帝置进士科，以试取士，门阀世袭渐替，影响千余年选官。"
+    },
+    {
+      "id": "sui-dayun",
+      "name": "开凿大运河",
+      "kind": "span",
+      "year": 605,
+      "endYear": 610,
+      "people": [
+        "yang-guang",
+        "yu-wen-kai"
+      ],
+      "desc": "发河南诸郡男女数百万，通济渠、邗沟、江南河、永济渠连贯南北，功在千秋而役碎民力。"
+    },
+    {
+      "id": "sui-gao",
+      "name": "高颎之诛",
+      "kind": "point",
+      "year": 607,
+      "people": [
+        "gao-jiong",
+        "yang-guang"
+      ],
+      "desc": "高颎论时政得失，炀帝以为讪谤，与贺若弼同被杀，隋之良佐尽矣。"
+    },
+    {
+      "id": "sui-san",
+      "name": "三征高句丽",
+      "kind": "span",
+      "year": 612,
+      "endYear": 614,
+      "people": [
+        "yang-guang"
+      ],
+      "desc": "举国远征，溃于辽东；役兴盗起，天下骚然。"
+    },
+    {
+      "id": "sui-wang",
+      "name": "隋炀帝被弑，隋亡",
+      "kind": "point",
+      "year": 618,
+      "people": [
+        "yang-guang"
+      ],
+      "desc": "江都兵变，宇文化及缢杀炀帝。李渊旋即称帝，唐祚乃启。"
+    },
+    {
+      "id": "sui-mowei",
+      "name": "隋末群雄并起",
+      "kind": "span",
+      "year": 611,
+      "endYear": 624,
+      "people": [
+        "yang-xuan-gan",
+        "zhai-rang",
+        "li-mi",
+        "dou-jian-de",
+        "wang-shichong",
+        "yu-wen-huaji"
+      ],
+      "desc": "杨玄感首乱于黎阳，瓦岗翟让据洛口，河北窦建德、东都王世充、江都宇文化及各拥兵。唐高祖起晋阳，数年间尽收群雄。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "隋全览",
+      "from": 541,
+      "to": 619,
+      "focus": "yang-jian",
+      "brief": "杨坚的条最长，开皇之治；杨广的条压着大运河、三征、江都之变，骤止于 618。高颎、杨素列于其下。"
+    },
+    {
+      "id": "kaiguo",
+      "name": "开皇与平陈",
+      "from": 540,
+      "to": 600,
+      "focus": "yang-jian",
+      "brief": "杨坚代周、高颎建制，589 年贺若弼韩擒虎双入建康，天下复统。",
+      "people": [
+        "yang-jian",
+        "yang-yong",
+        "gao-jiong",
+        "yang-su",
+        "he-ruo-bi",
+        "han-qinhu",
+        "yu-wen-kai"
+      ],
+      "events": [
+        "sui-jian",
+        "sui-pingchen"
+      ]
+    },
+    {
+      "id": "yangdi",
+      "name": "炀帝的功与过",
+      "from": 580,
+      "to": 619,
+      "focus": "yang-guang",
+      "brief": "进士科、大运河是千年之利；三征高句丽、滥用民力是速亡之由。高颎、杨素皆不得其死。",
+      "people": [
+        "yang-guang",
+        "yang-you",
+        "gao-jiong",
+        "yang-su",
+        "yu-wen-kai"
+      ],
+      "events": [
+        "sui-keju",
+        "sui-dayun",
+        "sui-gao",
+        "sui-san",
+        "sui-wang"
+      ]
+    }
+  ]
+}

@@ -1,12 +1,13 @@
 import type { Accuracy, Person } from './types';
+import { spannedYears } from './timeline/years';
 
 export function formatYear(year: number): string {
-  if (year === 0) return '公元元年';
+  if (year === 0) return '—';
   return year < 0 ? `公元前${-year}年` : `公元${year}年`;
 }
 
 export function formatYearShort(year: number): string {
-  if (year === 0) return '元年';
+  if (year === 0) return '—';
   return year < 0 ? `前${-year}` : `${year}`;
 }
 
@@ -30,7 +31,7 @@ export function formatLifespan(person: Person): string {
 
 export function lifespanSpan(person: Person): string | null {
   if (person.birth === undefined || person.death === undefined) return null;
-  const years = person.death - person.birth;
+  const years = spannedYears(person.birth, person.death);
   const fuzzy =
     person.birthAccuracy === 'approx' ||
     person.birthAccuracy === 'disputed' ||

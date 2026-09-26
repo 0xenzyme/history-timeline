@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import type { PipelineData, RegistryPerson, TopicDraft, VocabFile } from './types';
+import type { CategoryFile, PipelineData, RegistryPerson, TopicDraft, VocabFile } from './types';
 
 function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(path, 'utf8')) as T;
@@ -23,6 +23,8 @@ export function loadPipeline(root: string): PipelineData {
   const regions = readJson<VocabFile[]>(join(root, 'vocab/regions.json'));
   const eras = readJson<VocabFile[]>(join(root, 'vocab/eras.json'));
   const themes = readJson<VocabFile[]>(join(root, 'vocab/themes.json'));
+  const categories = readJson<CategoryFile[]>(join(root, 'vocab/categories.json'));
+  const polities = readJson<VocabFile[]>(join(root, 'vocab/polities.json'));
 
   const people = new Map<string, RegistryPerson>();
   for (const file of listJsonFiles(join(root, 'registry/people'))) {
@@ -48,5 +50,5 @@ export function loadPipeline(root: string): PipelineData {
     topics.push(draft);
   }
 
-  return { order, regions, eras, themes, people, topics };
+  return { order, regions, eras, themes, categories, polities, people, topics };
 }

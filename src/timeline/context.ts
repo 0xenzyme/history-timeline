@@ -1,4 +1,3 @@
-import type { ScaleLinear } from 'd3-scale';
 import type { TimelineEvent, Topic, View } from '../types';
 import type { Layout } from './layout';
 
@@ -7,7 +6,8 @@ export interface RenderContext {
   layout: Layout;
   view: View;
   domain: [number, number];
-  x: ScaleLinear<number, number>;
+  /** 历史年份 → 像素。比例尺内部已去掉公元 0 年。 */
+  x: (year: number) => number;
   zonePeople: Set<string>;
   zoneEvents: Set<string>;
   focusId: string | null;

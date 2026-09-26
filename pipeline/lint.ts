@@ -1,13 +1,31 @@
 import type { Topic } from '../src/types';
 import type { LintMessage, PipelineData, RegistryPerson } from './types';
 
+const GENDERS = new Set(['female', 'male', 'unknown']);
+
 function vocabSet(items: { id: string }[]): Set<string> {
   return new Set(items.map((item) => item.id));
 }
 
-function lintPerson(person: RegistryPerson): LintMessage[] {
+function lintPerson(person: RegistryPerson, categoryIds: Set<string>, polityIds: Set<string>): LintMessage[] {
   const messages: LintMessage[] = [];
   const path = `registry/people/${person.id}`;
+  for (const category of person.categories ?? []) {
+    if (!categoryIds.has(category)) {
+      messages.push({ level: 'error', path, message: `category ${category} 不在词表中` });
+    }
+  }
+  if (person.primary && person.categories && !person.categories.includes(person.primary)) {
+    messages.push({ level: 'error', path, message: `primary ${person.primary} 不在 categories 中` });
+  }
+  for (const polity of person.polity ?? []) {
+    if (!polityIds.has(polity)) {
+      messages.push({ level: 'error', path, message: `polity ${polity} 不在词表中` });
+    }
+  }
+  if (person.gender && !GENDERS.has(person.gender)) {
+    messages.push({ level: 'error', path, message: `gender ${person.gender} 非法` });
+  }
   if (!person.sources || person.sources.length === 0) {
     messages.push({ level: 'error', path, message: '缺少出处' });
   }
@@ -52,10 +70,12 @@ export function lintPipeline(data: PipelineData, compiled: Topic[]): LintMessage
   const regionIds = vocabSet(data.regions);
   const eraIds = vocabSet(data.eras);
   const themeIds = vocabSet(data.themes);
+  const categoryIds = vocabSet(data.categories);
+  const polityIds = vocabSet(data.polities);
   const usedPeople = new Set<string>();
 
   for (const person of data.people.values()) {
-    messages.push(...lintPerson(person));
+    messages.push(...lintPerson(person, categoryIds, polityIds));
   }
 
   for (const draft of data.topics) {

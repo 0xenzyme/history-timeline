@@ -7,6 +7,9 @@
     "dev": "vite",
     "content": "tsx pipeline/cli.ts",
     "content:check": "tsx pipeline/cli.ts --check",
+    "taxonomy": "tsx pipeline/infer-taxonomy.ts",
+    "migrate": "tsx pipeline/migrate-categories.ts",
+    "overrides": "tsx pipeline/apply-overrides.ts",
     "build": "tsc --noEmit && tsc --noEmit -p pipeline/tsconfig.json && tsx pipeline/cli.ts --check && vite build",
     "preview": "vite preview"
   },

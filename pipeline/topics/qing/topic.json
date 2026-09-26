@@ -1,0 +1,678 @@
+{
+  "meta": {
+    "id": "qing",
+    "title": "清",
+    "subtitle": "从后金立国到宣统退位 · 公元 1616 — 公元 1912",
+    "range": [
+      1610,
+      1920
+    ]
+  },
+  "catalog": {
+    "subtitle": "从后金立国到宣统退位",
+    "region": "cn",
+    "eras": [
+      "qing"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "chancellor",
+      "name": "名相 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "科技 · 文化",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "end",
+      "name": "权臣 · 末世群雄",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "nurhaci",
+      "lane": "emperor"
+    },
+    {
+      "id": "hong-taiji",
+      "lane": "emperor"
+    },
+    {
+      "id": "fu-lin",
+      "lane": "emperor"
+    },
+    {
+      "id": "kang-xi",
+      "lane": "emperor"
+    },
+    {
+      "id": "yong-zheng",
+      "lane": "emperor"
+    },
+    {
+      "id": "qian-long",
+      "lane": "emperor"
+    },
+    {
+      "id": "dao-guang",
+      "lane": "emperor"
+    },
+    {
+      "id": "xian-feng",
+      "lane": "emperor"
+    },
+    {
+      "id": "guang-xu",
+      "lane": "emperor"
+    },
+    {
+      "id": "xuan-tong",
+      "lane": "emperor"
+    },
+    {
+      "id": "cixi",
+      "lane": "emperor"
+    },
+    {
+      "id": "jia-qing",
+      "lane": "emperor"
+    },
+    {
+      "id": "tong-zhi",
+      "lane": "emperor"
+    },
+    {
+      "id": "duo-er-gun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fan-wencheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-tingyu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "he-shen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lin-zexu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yi-xin",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zeng-guofan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-hongzhang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zuo-zongtang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-zhidong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shi-lang",
+      "lane": "general"
+    },
+    {
+      "id": "nian-gengyao",
+      "lane": "general"
+    },
+    {
+      "id": "guan-tianpei",
+      "lane": "general"
+    },
+    {
+      "id": "deng-shichang",
+      "lane": "general"
+    },
+    {
+      "id": "feng-zicai",
+      "lane": "general"
+    },
+    {
+      "id": "gu-yanwu",
+      "lane": "literati"
+    },
+    {
+      "id": "huang-zongxi",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-fuzhi",
+      "lane": "literati"
+    },
+    {
+      "id": "cao-xueqin",
+      "lane": "literati"
+    },
+    {
+      "id": "kang-youwei",
+      "lane": "literati"
+    },
+    {
+      "id": "liang-qichao",
+      "lane": "literati"
+    },
+    {
+      "id": "tan-sitong",
+      "lane": "literati"
+    },
+    {
+      "id": "ao-bai",
+      "lane": "end"
+    },
+    {
+      "id": "hong-xiuquan",
+      "lane": "end"
+    },
+    {
+      "id": "yuan-shikai",
+      "lane": "end"
+    },
+    {
+      "id": "wu-sangui",
+      "lane": "end"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 党争",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "nurhaci",
+      "target": "hong-taiji",
+      "type": "kin",
+      "note": "父子，后金大汗传位次子"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "fu-lin",
+      "type": "kin",
+      "note": "父子，皇太极第九子嗣位"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "note": "兄弟，多尔衮为太宗之弟"
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "fu-lin",
+      "type": "ruler-subject",
+      "note": "摄政王辅幼主顺治"
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "wu-sangui",
+      "type": "ruler-subject",
+      "note": "纳降封平西王，借兵入关"
+    },
+    {
+      "source": "kang-xi",
+      "target": "ao-bai",
+      "type": "rival",
+      "note": "少年即位，智擒鳌拜亲政"
+    },
+    {
+      "source": "kang-xi",
+      "target": "shi-lang",
+      "type": "ruler-subject",
+      "note": "命施琅统水师收台湾"
+    },
+    {
+      "source": "kang-xi",
+      "target": "wu-sangui",
+      "type": "rival",
+      "note": "三藩之乱，康熙平之"
+    },
+    {
+      "source": "yong-zheng",
+      "target": "nian-gengyao",
+      "type": "ruler-subject",
+      "note": "倚为抚远大将军平青海"
+    },
+    {
+      "source": "yong-zheng",
+      "target": "nian-gengyao",
+      "type": "rival",
+      "note": "功高见忌，赐令自尽"
+    },
+    {
+      "source": "yong-zheng",
+      "target": "zhang-tingyu",
+      "type": "ruler-subject",
+      "note": "信任元辅，配享太庙"
+    },
+    {
+      "source": "qian-long",
+      "target": "he-shen",
+      "type": "ruler-subject",
+      "note": "晚年宠信和珅，权倾朝野"
+    },
+    {
+      "source": "dao-guang",
+      "target": "lin-zexu",
+      "type": "ruler-subject",
+      "note": "任为钦差，赴粤禁烟"
+    },
+    {
+      "source": "cixi",
+      "target": "guang-xu",
+      "type": "kin",
+      "note": "姨侄，慈禧垂帘训政"
+    },
+    {
+      "source": "cixi",
+      "target": "guang-xu",
+      "type": "rival",
+      "note": "甲午后母子猜忌，戊戌囚帝"
+    },
+    {
+      "source": "guang-xu",
+      "target": "kang-youwei",
+      "type": "ruler-subject",
+      "note": "召见维新，推行变法"
+    },
+    {
+      "source": "kang-youwei",
+      "target": "liang-qichao",
+      "type": "mentor",
+      "note": "梁启超师事康有为"
+    },
+    {
+      "source": "kang-youwei",
+      "target": "tan-sitong",
+      "type": "peer",
+      "note": "维新同志，同列新政"
+    },
+    {
+      "source": "cixi",
+      "target": "tan-sitong",
+      "type": "rival",
+      "note": "戊戌政变，杀六君子"
+    },
+    {
+      "source": "zeng-guofan",
+      "target": "hong-xiuquan",
+      "type": "rival",
+      "note": "湘军起兵，剿灭太平天国"
+    },
+    {
+      "source": "zeng-guofan",
+      "target": "li-hongzhang",
+      "type": "mentor",
+      "note": "李鸿章出自曾门，编练淮军"
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "zuo-zongtang",
+      "type": "rival",
+      "note": "塞防海防之争，洋务同途异见"
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "zhang-zhidong",
+      "type": "peer",
+      "note": "同办洋务，南北呼应"
+    },
+    {
+      "source": "yi-xin",
+      "target": "li-hongzhang",
+      "type": "peer",
+      "note": "总理衙门主洋务，倚李主持"
+    },
+    {
+      "source": "gu-yanwu",
+      "target": "huang-zongxi",
+      "type": "peer",
+      "note": "清初三大儒，并称于世"
+    },
+    {
+      "source": "huang-zongxi",
+      "target": "wang-fuzhi",
+      "type": "peer",
+      "note": "三大儒之一，倡经世之学"
+    },
+    {
+      "source": "yuan-shikai",
+      "target": "xuan-tong",
+      "type": "rival",
+      "note": "逼清帝退位，终结帝制"
+    },
+    {
+      "source": "qian-long",
+      "target": "jia-qing",
+      "type": "kin",
+      "note": "父子，乾隆传嘉庆"
+    },
+    {
+      "source": "jia-qing",
+      "target": "dao-guang",
+      "type": "kin",
+      "note": "父子，嘉庆传道光"
+    },
+    {
+      "source": "dao-guang",
+      "target": "xian-feng",
+      "type": "kin",
+      "note": "父子，道光传咸丰"
+    },
+    {
+      "source": "xian-feng",
+      "target": "tong-zhi",
+      "type": "kin",
+      "note": "父子，咸丰传同治"
+    },
+    {
+      "source": "tong-zhi",
+      "target": "guang-xu",
+      "type": "kin",
+      "note": "堂兄弟叔侄，同治无嗣，慈禧立醇亲王之子载湉为光绪"
+    },
+    {
+      "source": "guang-xu",
+      "target": "xuan-tong",
+      "type": "kin",
+      "note": "叔侄，光绪无嗣，摄政王载沣子溥仪继位为宣统"
+    }
+  ],
+  "events": [
+    {
+      "id": "qing-houjin",
+      "name": "后金立国",
+      "kind": "point",
+      "year": 1616,
+      "people": [
+        "nurhaci"
+      ],
+      "desc": "努尔哈赤统一女真诸部，建后金称大汗，创八旗、定满文，奠定清之基业。"
+    },
+    {
+      "id": "qing-gaiguo",
+      "name": "皇太极改国号清",
+      "kind": "point",
+      "year": 1636,
+      "people": [
+        "hong-taiji"
+      ],
+      "desc": "皇太极称帝，改族名满洲、国号大清，锐意南略，屡叩明边。"
+    },
+    {
+      "id": "qing-ruguan",
+      "name": "清军入关 · 定鼎北京",
+      "kind": "point",
+      "year": 1644,
+      "people": [
+        "duo-er-gun",
+        "wu-sangui",
+        "fu-lin"
+      ],
+      "desc": "李自成破京、崇祯自缢；吴三桂乞师，多尔衮率清军入关击败大顺，迎顺治迁都北京。"
+    },
+    {
+      "id": "qing-taiwan",
+      "name": "施琅收台湾",
+      "kind": "point",
+      "year": 1683,
+      "people": [
+        "shi-lang",
+        "kang-xi"
+      ],
+      "desc": "康熙命施琅攻台，郑克塽降，台湾正式纳入版图，设府置县。"
+    },
+    {
+      "id": "qing-sanfan",
+      "name": "平三藩",
+      "kind": "point",
+      "year": 1681,
+      "people": [
+        "kang-xi",
+        "wu-sangui"
+      ],
+      "desc": "吴三桂举兵，三藩乱起；康熙运筹决胜，历时八年平定，集权于中央。"
+    },
+    {
+      "id": "qing-kangyongqian",
+      "name": "康雍乾盛世",
+      "kind": "span",
+      "year": 1681,
+      "endYear": 1795,
+      "people": [
+        "kang-xi",
+        "yong-zheng",
+        "qian-long",
+        "zhang-tingyu",
+        "he-shen"
+      ],
+      "desc": "康熙靖内、雍正肃政集权、乾隆十全武功；编《字典》、拓疆土、兴文字狱，史称盛世。"
+    },
+    {
+      "id": "qing-yapian",
+      "name": "鸦片战争",
+      "kind": "point",
+      "year": 1840,
+      "people": [
+        "dao-guang",
+        "lin-zexu",
+        "guan-tianpei"
+      ],
+      "desc": "林则徐虎门销烟，英舰叩关；关天培虎门殉国，清战败签《南京条约》，国门洞开。"
+    },
+    {
+      "id": "qing-taiping",
+      "name": "太平天国",
+      "kind": "span",
+      "year": 1851,
+      "endYear": 1864,
+      "people": [
+        "hong-xiuquan",
+        "zeng-guofan"
+      ],
+      "desc": "洪秀全起事建号，席卷半壁；曾国藩湘军苦战，克天京而平，清廷元气大伤。"
+    },
+    {
+      "id": "qing-yangwu",
+      "name": "洋务运动",
+      "kind": "span",
+      "year": 1861,
+      "endYear": 1895,
+      "people": [
+        "yi-xin",
+        "zeng-guofan",
+        "li-hongzhang",
+        "zuo-zongtang",
+        "zhang-zhidong"
+      ],
+      "desc": "办工厂、练新军、兴学堂、派遣留洋，师夷长技以求自强，为近代化之始。"
+    },
+    {
+      "id": "qing-jiawu",
+      "name": "甲午战争",
+      "kind": "point",
+      "year": 1894,
+      "people": [
+        "deng-shichang",
+        "guang-xu"
+      ],
+      "desc": "北洋水师与日决战黄海，邓世昌蹈海殉国；战后割台赔款，洋务受挫，举国震动。"
+    },
+    {
+      "id": "qing-wuxu",
+      "name": "戊戌变法",
+      "kind": "point",
+      "year": 1898,
+      "people": [
+        "guang-xu",
+        "kang-youwei",
+        "liang-qichao",
+        "tan-sitong",
+        "cixi"
+      ],
+      "desc": "光绪下诏维新，康有为等辅政行新政；百日而慈禧政变，谭嗣同等六君子死，帝被囚。"
+    },
+    {
+      "id": "qing-xinhai",
+      "name": "辛亥革命 · 清亡",
+      "kind": "point",
+      "year": 1912,
+      "people": [
+        "yuan-shikai",
+        "xuan-tong"
+      ],
+      "desc": "武昌起义，各省响应；袁世凯逼宫，宣统退位，两千年帝制终结，清祚终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "清全览",
+      "from": 1610,
+      "to": 1920,
+      "focus": "nurhaci",
+      "brief": "努尔哈赤起兵于白山黑水，皇太极改号大清；多尔衮借吴三桂入关，定鼎北京。康雍乾三世鼎盛，文治武功并隆；嘉道以降西力东渐，鸦片战火洞开国门。曾左李办洋务、剿太平，难挽倾颓；戊戌维新昙花一现，辛亥一击而清亡。"
+    },
+    {
+      "id": "kai",
+      "name": "开国与入关",
+      "from": 1610,
+      "to": 1690,
+      "focus": "nurhaci",
+      "people": [
+        "nurhaci",
+        "hong-taiji",
+        "fu-lin",
+        "duo-er-gun",
+        "wu-sangui",
+        "kang-xi",
+        "ao-bai",
+        "shi-lang"
+      ],
+      "events": [
+        "qing-houjin",
+        "qing-gaiguo",
+        "qing-ruguan",
+        "qing-taiwan",
+        "qing-sanfan"
+      ],
+      "brief": "从后金立国到康熙平藩：努尔哈赤奠基、皇太极建制、多尔衮入关，吴三桂一役定鼎易主；少年康熙擒鳌拜、收台湾、平三藩，开一代之盛。"
+    },
+    {
+      "id": "sheng",
+      "name": "康雍乾盛世",
+      "from": 1660,
+      "to": 1800,
+      "focus": "kang-xi",
+      "people": [
+        "kang-xi",
+        "yong-zheng",
+        "qian-long",
+        "zhang-tingyu",
+        "he-shen",
+        "nian-gengyao"
+      ],
+      "events": [
+        "qing-kangyongqian"
+      ],
+      "brief": "康熙亲政、雍正肃贪集权、乾隆十全武功；张廷玉配享太庙，和珅揽权埋患。文字狱与编书并行，盛世之下隐忧已生。"
+    },
+    {
+      "id": "bian",
+      "name": "晚清变局",
+      "from": 1830,
+      "to": 1920,
+      "focus": "dao-guang",
+      "people": [
+        "dao-guang",
+        "lin-zexu",
+        "guan-tianpei",
+        "hong-xiuquan",
+        "zeng-guofan",
+        "yi-xin",
+        "li-hongzhang",
+        "zuo-zongtang",
+        "zhang-zhidong",
+        "guang-xu",
+        "cixi",
+        "kang-youwei",
+        "liang-qichao",
+        "tan-sitong",
+        "deng-shichang",
+        "yuan-shikai",
+        "xuan-tong"
+      ],
+      "events": [
+        "qing-yapian",
+        "qing-taiping",
+        "qing-yangwu",
+        "qing-jiawu",
+        "qing-wuxu",
+        "qing-xinhai"
+      ],
+      "brief": "鸦片战火开局，太平天国撼基；曾左李以洋务图强，甲午一败涂地。戊戌维新遇慈禧政变，辛亥枪响、袁世凯逼宫，宣统退位，帝制落幕。"
+    }
+  ]
+}

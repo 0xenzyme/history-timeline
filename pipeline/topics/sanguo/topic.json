@@ -1,0 +1,745 @@
+{
+  "meta": {
+    "id": "sanguo",
+    "title": "三国",
+    "subtitle": "群雄逐鹿到三家归晋 · 公元 161 — 公元 302",
+    "range": [
+      155,
+      302
+    ]
+  },
+  "catalog": {
+    "subtitle": "群雄逐鹿到三家归晋",
+    "region": "cn",
+    "eras": [
+      "three-kingdoms"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "caowei",
+      "name": "曹魏",
+      "color": "#c0392b"
+    },
+    {
+      "id": "shuhan",
+      "name": "蜀汉",
+      "color": "#4a9c5d"
+    },
+    {
+      "id": "sunwu",
+      "name": "孙吴",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "qunxiong",
+      "name": "群雄 · 司马",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "cao-cao",
+      "lane": "caowei"
+    },
+    {
+      "id": "cao-pi",
+      "lane": "caowei"
+    },
+    {
+      "id": "cao-rui",
+      "lane": "caowei"
+    },
+    {
+      "id": "cao-fang",
+      "lane": "caowei"
+    },
+    {
+      "id": "cao-mao",
+      "lane": "caowei"
+    },
+    {
+      "id": "cao-huan",
+      "lane": "caowei"
+    },
+    {
+      "id": "xun-yu",
+      "lane": "caowei"
+    },
+    {
+      "id": "guo-jia",
+      "lane": "caowei"
+    },
+    {
+      "id": "jia-xu",
+      "lane": "caowei"
+    },
+    {
+      "id": "cheng-yu",
+      "lane": "caowei"
+    },
+    {
+      "id": "zhang-liao",
+      "lane": "caowei"
+    },
+    {
+      "id": "deng-ai",
+      "lane": "caowei"
+    },
+    {
+      "id": "zhong-hui",
+      "lane": "caowei"
+    },
+    {
+      "id": "wang-bi",
+      "lane": "caowei"
+    },
+    {
+      "id": "he-yan",
+      "lane": "caowei"
+    },
+    {
+      "id": "sima-yi",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sima-shi",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sima-zhao",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sima-yan",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "liu-bei",
+      "lane": "shuhan"
+    },
+    {
+      "id": "liu-shan",
+      "lane": "shuhan"
+    },
+    {
+      "id": "zhuge-liang",
+      "lane": "shuhan"
+    },
+    {
+      "id": "guan-yu",
+      "lane": "shuhan"
+    },
+    {
+      "id": "zhang-fei",
+      "lane": "shuhan"
+    },
+    {
+      "id": "zhao-yun",
+      "lane": "shuhan"
+    },
+    {
+      "id": "ma-chao",
+      "lane": "shuhan"
+    },
+    {
+      "id": "huang-zhong",
+      "lane": "shuhan"
+    },
+    {
+      "id": "wei-yan",
+      "lane": "shuhan"
+    },
+    {
+      "id": "pang-tong",
+      "lane": "shuhan"
+    },
+    {
+      "id": "fa-zheng",
+      "lane": "shuhan"
+    },
+    {
+      "id": "jiang-wan",
+      "lane": "shuhan"
+    },
+    {
+      "id": "fei-yi",
+      "lane": "shuhan"
+    },
+    {
+      "id": "jiang-wei",
+      "lane": "shuhan"
+    },
+    {
+      "id": "sun-jian",
+      "lane": "sunwu"
+    },
+    {
+      "id": "sun-ce",
+      "lane": "sunwu"
+    },
+    {
+      "id": "sun-quan",
+      "lane": "sunwu"
+    },
+    {
+      "id": "sun-liang",
+      "lane": "sunwu"
+    },
+    {
+      "id": "sun-xiu",
+      "lane": "sunwu"
+    },
+    {
+      "id": "sun-hao",
+      "lane": "sunwu"
+    },
+    {
+      "id": "zhou-yu",
+      "lane": "sunwu"
+    },
+    {
+      "id": "lu-su",
+      "lane": "sunwu"
+    },
+    {
+      "id": "lu-xun",
+      "lane": "sunwu"
+    },
+    {
+      "id": "lu-kang",
+      "lane": "sunwu"
+    },
+    {
+      "id": "lv-meng",
+      "lane": "sunwu"
+    },
+    {
+      "id": "zhang-zhao",
+      "lane": "sunwu"
+    },
+    {
+      "id": "zhuge-jin",
+      "lane": "sunwu"
+    },
+    {
+      "id": "zhuge-ke",
+      "lane": "sunwu"
+    },
+    {
+      "id": "taishi-ci",
+      "lane": "sunwu"
+    },
+    {
+      "id": "yuan-shao",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "yuan-shu",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "lv-bu",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "liu-biao",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "gongsun-zan",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "ji-kang",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "ruan-ji",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "cao-zhi",
+      "lane": "caowei"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "cao-pi",
+      "type": "kin",
+      "note": "父子，丕代汉称帝"
+    },
+    {
+      "source": "cao-cao",
+      "target": "xun-yu",
+      "type": "ruler-subject",
+      "note": "首席谋主，规划挟天子"
+    },
+    {
+      "source": "cao-cao",
+      "target": "guo-jia",
+      "type": "ruler-subject",
+      "note": "奇谋屡中"
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-liao",
+      "type": "ruler-subject",
+      "note": "降将而倚为腹心，合肥破孙权"
+    },
+    {
+      "source": "cao-cao",
+      "target": "yuan-shao",
+      "type": "rival",
+      "since": 200,
+      "note": "官渡之战"
+    },
+    {
+      "source": "cao-cao",
+      "target": "lv-bu",
+      "type": "rival",
+      "note": "下邳擒杀布"
+    },
+    {
+      "source": "cao-cao",
+      "target": "liu-bei",
+      "type": "rival",
+      "note": "煮酒论英雄，终成鼎足"
+    },
+    {
+      "source": "cao-pi",
+      "target": "cao-zhi",
+      "type": "kin",
+      "note": "兄弟，七步之逼"
+    },
+    {
+      "source": "sima-yi",
+      "target": "cao-cao",
+      "type": "ruler-subject",
+      "note": "被辟为文学掾，终受托孤"
+    },
+    {
+      "source": "sima-yi",
+      "target": "sima-shi",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "sima-shi",
+      "target": "sima-zhao",
+      "type": "kin",
+      "note": "兄弟，相继执政"
+    },
+    {
+      "source": "sima-shi",
+      "target": "cao-fang",
+      "type": "rival",
+      "note": "司马师废帝芳，立高贵乡公髦"
+    },
+    {
+      "source": "sima-zhao",
+      "target": "cao-huan",
+      "type": "ruler-subject",
+      "note": "司马昭立常道乡公奂，炎受禅后奂为陈留王"
+    },
+    {
+      "source": "sima-zhao",
+      "target": "deng-ai",
+      "type": "ruler-subject",
+      "since": 263,
+      "note": "命艾伐蜀"
+    },
+    {
+      "source": "sima-zhao",
+      "target": "zhong-hui",
+      "type": "ruler-subject",
+      "since": 263,
+      "note": "会统关中兵伐蜀"
+    },
+    {
+      "source": "liu-bei",
+      "target": "zhuge-liang",
+      "type": "ruler-subject",
+      "since": 207,
+      "note": "三顾茅庐，托孤白帝"
+    },
+    {
+      "source": "liu-bei",
+      "target": "guan-yu",
+      "type": "kin",
+      "note": "义兄弟"
+    },
+    {
+      "source": "liu-bei",
+      "target": "zhang-fei",
+      "type": "kin",
+      "note": "义兄弟"
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "jiang-wei",
+      "type": "mentor",
+      "note": "亮卒后以维为北伐主将"
+    },
+    {
+      "source": "liu-bei",
+      "target": "liu-shan",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "sun-jian",
+      "target": "sun-ce",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "sun-ce",
+      "target": "sun-quan",
+      "type": "kin",
+      "note": "兄弟，策临终授权于弟"
+    },
+    {
+      "source": "zhuge-ke",
+      "target": "sun-liang",
+      "type": "ruler-subject",
+      "note": "权死，恪辅立孙亮"
+    },
+    {
+      "source": "sun-liang",
+      "target": "sun-xiu",
+      "type": "kin",
+      "note": "孙綝废亮，迎立孙权子休"
+    },
+    {
+      "source": "sun-quan",
+      "target": "zhou-yu",
+      "type": "ruler-subject",
+      "note": "外事不决问周瑜"
+    },
+    {
+      "source": "zhou-yu",
+      "target": "lu-su",
+      "type": "peer",
+      "note": "相继为都督"
+    },
+    {
+      "source": "lv-meng",
+      "target": "guan-yu",
+      "type": "rival",
+      "since": 219,
+      "note": "白衣渡江，袭取荆州"
+    },
+    {
+      "source": "lu-xun",
+      "target": "liu-bei",
+      "type": "rival",
+      "since": 222,
+      "note": "夷陵火烧连营"
+    },
+    {
+      "source": "sun-quan",
+      "target": "cao-cao",
+      "type": "rival",
+      "note": "赤壁联军抗曹"
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "cao-cao",
+      "type": "rival",
+      "note": "隆中对以曹为敌"
+    },
+    {
+      "source": "zhuge-jin",
+      "target": "zhuge-liang",
+      "type": "kin",
+      "note": "兄弟，分仕吴蜀"
+    },
+    {
+      "source": "yuan-shao",
+      "target": "yuan-shu",
+      "type": "kin",
+      "note": "兄弟，旋即反目"
+    },
+    {
+      "source": "ji-kang",
+      "target": "ruan-ji",
+      "type": "peer",
+      "note": "竹林之游"
+    },
+    {
+      "source": "ji-kang",
+      "target": "he-yan",
+      "type": "rival",
+      "note": "非汤武薄周孔，与正始玄学相抵"
+    }
+  ],
+  "events": [
+    {
+      "id": "sg-guanxiu",
+      "name": "官渡之战",
+      "kind": "point",
+      "year": 200,
+      "people": [
+        "cao-cao",
+        "yuan-shao"
+      ],
+      "desc": "曹操以少胜多，焚乌巢之粮，袁绍全军溃败，北方归曹。"
+    },
+    {
+      "id": "sg-chibi",
+      "name": "赤壁之战",
+      "kind": "point",
+      "year": 208,
+      "people": [
+        "cao-cao",
+        "sun-quan",
+        "zhou-yu",
+        "liu-bei"
+      ],
+      "desc": "孙刘联军火攻，曹军败于乌林。三分天下之势由此而定。"
+    },
+    {
+      "id": "sg-liubei",
+      "name": "刘备入益州",
+      "kind": "point",
+      "year": 214,
+      "people": [
+        "liu-bei",
+        "pang-tong",
+        "zhuge-liang"
+      ],
+      "desc": "庞统卒于落凤坡，诸葛亮、张飞、赵云溯江入川，备遂有巴蜀。"
+    },
+    {
+      "id": "sg-hanzhong",
+      "name": "汉中之战 · 刘备称汉中王",
+      "kind": "point",
+      "year": 219,
+      "people": [
+        "liu-bei",
+        "cao-cao",
+        "huang-zhong"
+      ],
+      "desc": "黄忠定军山斩夏侯渊；刘备取汉中，旋关羽北伐围樊城。"
+    },
+    {
+      "id": "sg-jingzhou",
+      "name": "荆州易主",
+      "kind": "point",
+      "year": 219,
+      "people": [
+        "lv-meng",
+        "guan-yu",
+        "sun-quan"
+      ],
+      "desc": "吕蒙白衣渡江，傅士仁、糜芳降，关羽败走麦城被擒杀。"
+    },
+    {
+      "id": "sg-yiling",
+      "name": "夷陵之战",
+      "kind": "point",
+      "year": 222,
+      "people": [
+        "liu-bei",
+        "lu-xun"
+      ],
+      "desc": "刘备倾国报吴，陆逊坚守后火烧连营七百里，备败退白帝城。"
+    },
+    {
+      "id": "sg-baidi",
+      "name": "白帝托孤",
+      "kind": "point",
+      "year": 223,
+      "people": [
+        "liu-bei",
+        "zhuge-liang",
+        "liu-shan"
+      ],
+      "desc": "刘备崩，谓亮「君才十倍曹丕，必能安国」。亮受遗诏辅后主。"
+    },
+    {
+      "id": "sg-qibu",
+      "name": "诸葛亮北伐",
+      "kind": "span",
+      "year": 228,
+      "endYear": 234,
+      "people": [
+        "zhuge-liang",
+        "jiang-wei",
+        "wei-yan",
+        "sima-yi"
+      ],
+      "desc": "六出祁山，上方谷、五丈原，与司马懿相持。234 年亮卒于渭滨，北伐无果。"
+    },
+    {
+      "id": "sg-gaoping",
+      "name": "高平陵之变",
+      "kind": "point",
+      "year": 249,
+      "people": [
+        "sima-yi",
+        "cao-rui"
+      ],
+      "desc": "司马懿发动政变，诛曹爽一族，曹魏大权尽归司马氏。"
+    },
+    {
+      "id": "sg-mieshu",
+      "name": "邓艾灭蜀",
+      "kind": "point",
+      "year": 263,
+      "people": [
+        "deng-ai",
+        "zhong-hui",
+        "liu-shan",
+        "jiang-wei"
+      ],
+      "desc": "邓艾偷渡阴平，刘禅出降；钟会据成都谋叛旋死。蜀汉亡。"
+    },
+    {
+      "id": "sg-jian",
+      "name": "司马炎称帝 · 三家归晋",
+      "kind": "point",
+      "year": 266,
+      "people": [
+        "sima-zhao",
+        "sima-yan"
+      ],
+      "desc": "司马炎受魏禅，国号晋。280 年王濬楼船下益州，孙皓降，天下复归一统。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "三国全览",
+      "from": 155,
+      "to": 302,
+      "focus": "cao-cao",
+      "brief": "曹操的条最长，压过所有人；刘备、孙权几乎等长分列两侧。魏蜀吴三色泳道各自成列，司马氏的紫条在曹魏尾段爬上来。"
+    },
+    {
+      "id": "qunxiong",
+      "name": "群雄与官渡",
+      "from": 160,
+      "to": 215,
+      "focus": "cao-cao",
+      "brief": "袁绍、袁术、吕布、刘表、公孙瓒一干群雄的短条在 200 年前后被曹操的条吞掉。赤壁把孙刘两条撑起来。",
+      "people": [
+        "cao-cao",
+        "yuan-shao",
+        "yuan-shu",
+        "lv-bu",
+        "liu-biao",
+        "gongsun-zan",
+        "sun-quan",
+        "zhou-yu",
+        "liu-bei",
+        "xun-yu",
+        "guo-jia",
+        "zhang-liao"
+      ],
+      "events": [
+        "sg-guanxiu",
+        "sg-chibi"
+      ]
+    },
+    {
+      "id": "jingzhou",
+      "name": "荆州与夷陵",
+      "from": 208,
+      "to": 224,
+      "focus": "liu-bei",
+      "brief": "从赤壁到夷陵十六年：刘备取益州、关羽失荆州、刘备败夷陵、白帝托孤。诸葛亮在 207 年三顾后才起条。",
+      "people": [
+        "liu-bei",
+        "zhuge-liang",
+        "guan-yu",
+        "zhang-fei",
+        "pang-tong",
+        "sun-quan",
+        "lv-meng",
+        "lu-xun",
+        "zhou-yu"
+      ],
+      "events": [
+        "sg-chibi",
+        "sg-liubei",
+        "sg-hanzhong",
+        "sg-jingzhou",
+        "sg-yiling",
+        "sg-baidi"
+      ]
+    },
+    {
+      "id": "beifa",
+      "name": "北伐与归晋",
+      "from": 220,
+      "to": 302,
+      "focus": "zhuge-liang",
+      "brief": "诸葛亮六出祁山、姜维接力，魏方是司马懿对阵。高平陵后司马掌权，邓艾钟会灭蜀，司马炎受禅，孙皓降而终。",
+      "people": [
+        "zhuge-liang",
+        "jiang-wei",
+        "wei-yan",
+        "sima-yi",
+        "sima-shi",
+        "sima-zhao",
+        "deng-ai",
+        "zhong-hui",
+        "cao-fang",
+        "cao-mao",
+        "cao-huan",
+        "sun-liang",
+        "sun-xiu",
+        "sun-hao"
+      ],
+      "events": [
+        "sg-qibu",
+        "sg-gaoping",
+        "sg-mieshu",
+        "sg-jian"
+      ]
+    }
+  ]
+}

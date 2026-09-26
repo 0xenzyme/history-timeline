@@ -2,14 +2,14 @@
   "meta": {
     "id": "han",
     "title": "汉代",
-    "subtitle": "从布衣天子到昭宣中兴 · 公元前 260 — 公元前 45",
+    "subtitle": "从布衣天子到新莽代汉 · 公元前 260 — 公元 25",
     "range": [
       -260,
-      -45
+      25
     ]
   },
   "catalog": {
-    "subtitle": "从布衣天子到昭宣中兴",
+    "subtitle": "从布衣天子到新莽代汉",
     "region": "cn",
     "eras": [
       "western-han"
@@ -43,11 +43,20 @@
       "id": "xiongnu",
       "name": "匈奴",
       "color": "#6b5b95"
+    },
+    {
+      "id": "xinmang",
+      "name": "新莽",
+      "color": "#922b3a"
     }
   ],
   "people": [
     {
       "id": "liu-bang",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-ying",
       "lane": "emperor"
     },
     {
@@ -64,6 +73,10 @@
     },
     {
       "id": "liu-fuling",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-he",
       "lane": "emperor"
     },
     {
@@ -155,6 +168,34 @@
     {
       "id": "yizhixie",
       "lane": "xiongnu"
+    },
+    {
+      "id": "liu-shi",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-ao",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-xin",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-kan",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-ying-ruzi",
+      "lane": "emperor"
+    },
+    {
+      "id": "wang-zhengjun",
+      "lane": "consort"
+    },
+    {
+      "id": "wang-mang",
+      "lane": "xinmang"
     }
   ],
   "relationTypes": [
@@ -168,7 +209,7 @@
     {
       "id": "mentor",
       "name": "师承",
-      "color": "#2f7ed8",
+      "color": "#1f7f8f",
       "dash": null,
       "directed": true
     },
@@ -189,7 +230,7 @@
     {
       "id": "rival",
       "name": "敌对",
-      "color": "#d0503c",
+      "color": "#922b3a",
       "dash": "6 3",
       "directed": false
     }
@@ -200,6 +241,18 @@
       "target": "lv-zhi",
       "type": "kin",
       "note": "夫妻"
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-ying",
+      "type": "kin",
+      "note": "高祖崩，太子盈即位"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "liu-ying",
+      "type": "kin",
+      "note": "惠帝在位七年，吕后实际掌权"
     },
     {
       "source": "liu-bang",
@@ -402,6 +455,12 @@
       "note": "霍光迎立，前 68 年亲政"
     },
     {
+      "source": "huo-guang",
+      "target": "liu-he",
+      "type": "ruler-subject",
+      "note": "霍光立昌邑王贺，二十七日而废"
+    },
+    {
       "source": "liu-xun",
       "target": "zhao-chongguo",
       "type": "ruler-subject",
@@ -473,6 +532,48 @@
       "type": "rival",
       "since": -121,
       "note": "河西、漠北两战皆破之"
+    },
+    {
+      "source": "liu-shi",
+      "target": "liu-ao",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "liu-ao",
+      "target": "liu-xin",
+      "type": "kin",
+      "note": "成帝无嗣，立侄刘欣为太子（哀帝）"
+    },
+    {
+      "source": "liu-xin",
+      "target": "liu-kan",
+      "type": "kin",
+      "note": "哀帝崩，九岁的刘衎（平帝）即位"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "liu-shi",
+      "type": "kin",
+      "note": "夫妻，元帝皇后"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "wang-mang",
+      "type": "kin",
+      "note": "姑侄，王莽以外戚执政"
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-kan",
+      "type": "rival",
+      "note": "平帝暴崩，莽立孺子婴而摄政"
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-ying-ruzi",
+      "type": "ruler-subject",
+      "note": "平帝崩，莽立婴为孺子，居摄称制"
     }
   ],
   "events": [
@@ -505,6 +606,7 @@
       "year": -195,
       "people": [
         "liu-bang",
+        "liu-ying",
         "lv-zhi"
       ],
       "desc": "刘邦崩，惠帝即位，吕后实际掌权。"
@@ -762,6 +864,52 @@
         "zhao-chongguo"
       ],
       "desc": "以七十余岁高龄三上屯田奏，主张以屯田制羌，为古代边防战略经典。"
+    },
+    {
+      "id": "han-yuan-di",
+      "name": "元帝柔仁，外戚渐起",
+      "kind": "point",
+      "year": -48,
+      "people": [
+        "liu-shi",
+        "wang-zhengjun"
+      ],
+      "desc": "元帝即位，贡禹、匡衡用事，儒生执政而威权下移；王政君为后，王氏外戚自此盘踞朝堂。"
+    },
+    {
+      "id": "han-cheng-ai",
+      "name": "成哀之世，汉室中衰",
+      "kind": "span",
+      "year": -33,
+      "endYear": -1,
+      "people": [
+        "liu-ao",
+        "liu-xin"
+      ],
+      "desc": "成帝耽于酒色、外戚王氏用事；哀帝宠董贤、欲行限田而旋废。帝系血脉渐绝，王莽羽翼已成。"
+    },
+    {
+      "id": "han-wangmang",
+      "name": "王莽篡汉，建立新朝",
+      "kind": "point",
+      "year": 9,
+      "people": [
+        "wang-mang",
+        "wang-zhengjun",
+        "liu-kan",
+        "liu-ying-ruzi"
+      ],
+      "desc": "平帝暴崩，王莽立两岁的孺子婴，自居摄皇帝；遂废汉自立，国号新，西汉二百一十年至此而绝。"
+    },
+    {
+      "id": "han-xinmang-wang",
+      "name": "新莽覆灭",
+      "kind": "point",
+      "year": 23,
+      "people": [
+        "wang-mang"
+      ],
+      "desc": "王莽改制紊乱天下，绿林、赤眉并起。更始军入长安，莽被杀于渐台，新朝十五年而亡。"
     }
   ],
   "views": [
@@ -769,9 +917,9 @@
       "id": "overview",
       "name": "汉代全览",
       "from": -260,
-      "to": -45,
+      "to": 25,
       "focus": "liu-che",
-      "brief": "二十五位人物、二十四件大事，一条轴上看完西汉前期二百年。任意缩放、点击人物查看关系。"
+      "brief": "左侧是开国与汉匈，右侧是元成哀平与王莽。王莽的条收到更始灭新，光武的条在东汉专题。"
     },
     {
       "id": "hanchu",
@@ -782,6 +930,7 @@
       "brief": "从沛县布衣到未央宫。开国、外戚、和亲、削藩——这一章的关键词是「收拾」：刘邦收拾天下，吕后收拾刘氏，文帝收拾民心，景帝收拾诸侯。",
       "people": [
         "liu-bang",
+        "liu-ying",
         "lv-zhi",
         "liu-heng",
         "dou-yifang",
@@ -849,6 +998,7 @@
       "brief": "武帝留下的是一个虚耗的天下。霍光秉政二十年行休养之政，废一帝、立一帝；宣帝亲政后整顿吏治、设西域都护，西汉国力回到高点。",
       "people": [
         "liu-fuling",
+        "liu-he",
         "liu-xun",
         "huo-guang",
         "sang-hongyang",
@@ -862,6 +1012,29 @@
         "qian74-zhaodi-beng",
         "qian68-huoguang-zu",
         "qian61-tuntian"
+      ]
+    },
+    {
+      "id": "ximo",
+      "name": "西汉末 · 新莽代汉",
+      "from": -50,
+      "to": 25,
+      "focus": "wang-mang",
+      "brief": "昭宣之后，元帝柔仁、成哀荒怠，帝系渐绝而王氏坐大。王政君临朝称制数十年，王莽终于代汉建新，旋在绿林赤眉的烽火中身死国灭。",
+      "people": [
+        "liu-shi",
+        "liu-ao",
+        "liu-xin",
+        "liu-kan",
+        "liu-ying-ruzi",
+        "wang-zhengjun",
+        "wang-mang"
+      ],
+      "events": [
+        "han-yuan-di",
+        "han-cheng-ai",
+        "han-wangmang",
+        "han-xinmang-wang"
       ]
     }
   ]

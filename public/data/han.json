@@ -3,10 +3,10 @@
   "meta": {
     "id": "han",
     "title": "汉代",
-    "subtitle": "从布衣天子到昭宣中兴 · 公元前 260 — 公元前 45",
+    "subtitle": "从布衣天子到新莽代汉 · 公元前 260 — 公元 25",
     "range": [
       -260,
-      -45
+      25
     ]
   },
   "lanes": [
@@ -34,6 +34,11 @@
       "id": "xiongnu",
       "name": "匈奴",
       "color": "#6b5b95"
+    },
+    {
+      "id": "xinmang",
+      "name": "新莽",
+      "color": "#922b3a"
     }
   ],
   "people": [
@@ -50,9 +55,39 @@
       "title": "西汉开国皇帝",
       "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
       "tags": [
-        "开国",
         "布衣天子"
-      ]
+      ],
+      "categories": [
+        "founding"
+      ],
+      "primary": "founding",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ying",
+      "name": "刘盈",
+      "display": "汉惠帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -210,
+      "death": -188,
+      "title": "西汉第二位皇帝",
+      "bio": "高祖太子，前 195 年即位。吕后实际掌权，在位七年。惠帝的条很短，权在吕后那一条上。",
+      "tags": [
+        "汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "liu-heng",
@@ -68,7 +103,16 @@
       "tags": [
         "文景之治",
         "无为而治"
-      ]
+      ],
+      "categories": [
+        "monarch",
+        "huanglao"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "liu-qi",
@@ -84,7 +128,15 @@
       "tags": [
         "削藩",
         "文景之治"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "liu-che",
@@ -102,7 +154,15 @@
         "开疆",
         "独尊儒术",
         "在位54年"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "liu-fuling",
@@ -118,7 +178,39 @@
       "tags": [
         "霍光辅政",
         "早崩"
-      ]
+      ],
+      "categories": [
+        "monarch",
+        "regent"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-he",
+      "name": "刘贺",
+      "display": "昌邑王刘贺",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -92,
+      "death": -59,
+      "title": "在位二十七日而废，后为海昏侯",
+      "bio": "昭帝崩，霍光立他，二十七日而废。帝位只是条上的一个点，人活到前 59 年。后为海昏侯。",
+      "tags": [
+        "汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "liu-xun",
@@ -134,7 +226,15 @@
       "tags": [
         "昭宣中兴",
         "西域都护"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "lv-zhi",
@@ -150,7 +250,16 @@
       "tags": [
         "临朝称制",
         "诸吕"
-      ]
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
     },
     {
       "id": "dou-yifang",
@@ -164,9 +273,16 @@
       "title": "汉文帝皇后，景帝之母，武帝之祖母",
       "bio": "历文、景、武三朝，好黄老之术。武帝初年她仍在世，儒臣赵绾、王臧因此下狱，独尊儒术要等她去世后才真正推行。",
       "tags": [
-        "黄老",
         "三朝"
-      ]
+      ],
+      "categories": [
+        "huanglao"
+      ],
+      "primary": "huanglao",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
     },
     {
       "id": "dou-ying",
@@ -180,9 +296,16 @@
       "title": "窦太后堂侄，前太子太傅",
       "bio": "七国之乱时拜大将军守荥阳。因反对晁错削藩而与晁错相争，晚年与田蚡争权，下狱弃市。",
       "tags": [
-        "外戚",
         "七国之乱"
-      ]
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
     },
     {
       "id": "wei-zifu",
@@ -196,9 +319,16 @@
       "title": "汉武帝第二任皇后",
       "bio": "出身平阳侯府歌女，弟卫青、甥霍去病皆以军功显。巫蛊之祸中太子刘据起兵失败，她以皇后玺绶助子，事败自杀。",
       "tags": [
-        "外戚",
         "巫蛊之祸"
-      ]
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
     },
     {
       "id": "jia-yi",
@@ -214,6 +344,13 @@
       "tags": [
         "政论",
         "过秦论"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
       ],
       "order": 1
     },
@@ -232,6 +369,14 @@
         "削藩",
         "七国之乱"
       ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
       "order": 2
     },
     {
@@ -246,9 +391,16 @@
       "title": "西汉首位以儒生拜相封侯者",
       "bio": "六十岁始以贤良征为博士，官至丞相封平津侯，开汉代「以儒术取卿相」的先例。",
       "tags": [
-        "儒学",
         "布衣丞相"
       ],
+      "categories": [
+        "confucian"
+      ],
+      "primary": "confucian",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
       "order": 3
     },
     {
@@ -266,6 +418,13 @@
       "tags": [
         "儒学",
         "天人三策"
+      ],
+      "categories": [
+        "confucian"
+      ],
+      "primary": "confucian",
+      "polity": [
+        "han"
       ]
     },
     {
@@ -282,7 +441,15 @@
       "tags": [
         "盐铁官营",
         "均输平准"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "sima-qian",
@@ -300,7 +467,16 @@
         "史记",
         "李陵之祸",
         "宫刑"
-      ]
+      ],
+      "categories": [
+        "official",
+        "historian"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "huo-guang",
@@ -317,7 +493,16 @@
         "辅政",
         "托孤",
         "权势"
-      ]
+      ],
+      "categories": [
+        "official",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "huo-qubing",
@@ -334,7 +519,15 @@
         "封狼居胥",
         "河西之战",
         "享年23"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "zhao-chongguo",
@@ -351,7 +544,15 @@
         "屯田",
         "西羌",
         "三朝"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "li-guang",
@@ -368,7 +569,15 @@
         "飞将军",
         "难封",
         "漠北之战"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "zhang-qian",
@@ -384,7 +593,16 @@
       "tags": [
         "凿空西域",
         "丝绸之路"
-      ]
+      ],
+      "categories": [
+        "general",
+        "explorer"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "wei-qing",
@@ -399,9 +617,16 @@
       "bio": "卫子夫之弟，骑奴出身。前 127 年收复河南地置朔方郡，前 119 年漠北之战击溃单于主力。为将仁厚，不养士不结党。",
       "tags": [
         "河南地",
-        "漠北之战",
-        "外戚"
-      ]
+        "漠北之战"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     },
     {
       "id": "li-ling",
@@ -417,6 +642,13 @@
       "tags": [
         "降匈奴",
         "李陵之祸"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
       ]
     },
     {
@@ -433,7 +665,15 @@
       "tags": [
         "汉匈战争",
         "马邑之谋"
-      ]
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "xiongnu"
+      ],
+      "gender": "male"
     },
     {
       "id": "yizhixie",
@@ -449,7 +689,184 @@
       "tags": [
         "汉匈战争",
         "漠北之战"
-      ]
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "xiongnu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-shi",
+      "name": "刘奭",
+      "display": "汉元帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -75,
+      "death": -33,
+      "title": "西汉元帝，柔仁好儒，西汉由盛转衰",
+      "bio": "宣帝太子。即位后多用儒生，委政宦官石显，遂开宦官用事之端。昭宣中兴到他这里收尾，外戚王氏自此起。",
+      "tags": [
+        "西汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ao",
+      "name": "刘骜",
+      "display": "汉成帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -51,
+      "death": -7,
+      "title": "西汉成帝，赵飞燕姊妹与王氏外戚",
+      "bio": "元帝太子。耽于酒色，宠赵飞燕、赵合德，无子。母舅王凤等五人同日封侯，王氏权倾朝野，王莽由此起。死后哀、平短促，西汉只剩二十年。",
+      "tags": [
+        "西汉"
+      ],
+      "categories": [
+        "monarch",
+        "consort-kin"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-xin",
+      "name": "刘欣",
+      "display": "汉哀帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -27,
+      "death": -1,
+      "title": "西汉哀帝，断袖之宠，限田之令不行",
+      "bio": "元帝孙，定陶王入继。宠董贤，欲禅让而止。尝下限田限奴婢之诏，贵戚不便遂寝。在位六年，王莽复起，西汉的条到这里只剩一线。",
+      "tags": [
+        "西汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-kan",
+      "name": "刘衎",
+      "display": "汉平帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -9,
+      "death": 6,
+      "title": "西汉平帝，王莽所立，十四岁而崩",
+      "bio": "元帝孙，中山王之子。九岁即位，政皆出莽。在位五年崩，或云莽鸩之。西汉的条断在他这里，之后是居摄与新朝。",
+      "tags": [
+        "西汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ying-ruzi",
+      "name": "刘婴",
+      "display": "孺子刘婴",
+      "lane": "emperor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 5,
+      "death": 25,
+      "birthNote": "居摄元年（公元 6 年）时年二岁，生年约在公元 5 年。",
+      "title": "王莽所立的孺子",
+      "bio": "平帝崩后被立，莽居摄称制。后被废为安定公。公元 25 年被杀，末端比王莽的条多出两年。",
+      "tags": [
+        "汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han",
+        "xin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-zhengjun",
+      "name": "王政君",
+      "display": "元后王政君",
+      "lane": "consort",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -71,
+      "death": 13,
+      "title": "元帝皇后，王莽姑母，历四世为天下母",
+      "bio": "元帝皇后，成帝母。王氏一门十侯五大司马皆出其族。莽既篡，索传国玺，她掷地而与之。卒于新莽地皇四年，八十四岁，与西汉同寿。",
+      "tags": [
+        "西汉"
+      ],
+      "categories": [
+        "consort",
+        "consort-kin"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "wang-mang",
+      "name": "王莽",
+      "display": "王莽",
+      "lane": "xinmang",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -45,
+      "death": 23,
+      "title": "新朝皇帝，篡汉而改制，败于绿林赤眉",
+      "bio": "元后之侄，以恭俭得名，终移汉祚。建国后行王田、五均六筦、改币制、易官名，令烦而民困。绿林、赤眉并起，地皇四年被商人杜吴杀于渐台，新朝十五年而亡。",
+      "tags": [
+        "新莽",
+        "改制",
+        "篡汉"
+      ],
+      "categories": [
+        "monarch",
+        "regent",
+        "consort-kin"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "xin"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -463,7 +880,7 @@
     {
       "id": "mentor",
       "name": "师承",
-      "color": "#2f7ed8",
+      "color": "#1f7f8f",
       "dash": null,
       "directed": true
     },
@@ -484,7 +901,7 @@
     {
       "id": "rival",
       "name": "敌对",
-      "color": "#d0503c",
+      "color": "#922b3a",
       "dash": "6 3",
       "directed": false
     }
@@ -495,6 +912,18 @@
       "target": "lv-zhi",
       "type": "kin",
       "note": "夫妻"
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-ying",
+      "type": "kin",
+      "note": "高祖崩，太子盈即位"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "liu-ying",
+      "type": "kin",
+      "note": "惠帝在位七年，吕后实际掌权"
     },
     {
       "source": "liu-bang",
@@ -697,6 +1126,12 @@
       "note": "霍光迎立，前 68 年亲政"
     },
     {
+      "source": "huo-guang",
+      "target": "liu-he",
+      "type": "ruler-subject",
+      "note": "霍光立昌邑王贺，二十七日而废"
+    },
+    {
       "source": "liu-xun",
       "target": "zhao-chongguo",
       "type": "ruler-subject",
@@ -768,6 +1203,48 @@
       "type": "rival",
       "since": -121,
       "note": "河西、漠北两战皆破之"
+    },
+    {
+      "source": "liu-shi",
+      "target": "liu-ao",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "liu-ao",
+      "target": "liu-xin",
+      "type": "kin",
+      "note": "成帝无嗣，立侄刘欣为太子（哀帝）"
+    },
+    {
+      "source": "liu-xin",
+      "target": "liu-kan",
+      "type": "kin",
+      "note": "哀帝崩，九岁的刘衎（平帝）即位"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "liu-shi",
+      "type": "kin",
+      "note": "夫妻，元帝皇后"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "wang-mang",
+      "type": "kin",
+      "note": "姑侄，王莽以外戚执政"
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-kan",
+      "type": "rival",
+      "note": "平帝暴崩，莽立孺子婴而摄政"
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-ying-ruzi",
+      "type": "ruler-subject",
+      "note": "平帝崩，莽立婴为孺子，居摄称制"
     }
   ],
   "events": [
@@ -800,6 +1277,7 @@
       "year": -195,
       "people": [
         "liu-bang",
+        "liu-ying",
         "lv-zhi"
       ],
       "desc": "刘邦崩，惠帝即位，吕后实际掌权。"
@@ -1057,6 +1535,52 @@
         "zhao-chongguo"
       ],
       "desc": "以七十余岁高龄三上屯田奏，主张以屯田制羌，为古代边防战略经典。"
+    },
+    {
+      "id": "han-yuan-di",
+      "name": "元帝柔仁，外戚渐起",
+      "kind": "point",
+      "year": -48,
+      "people": [
+        "liu-shi",
+        "wang-zhengjun"
+      ],
+      "desc": "元帝即位，贡禹、匡衡用事，儒生执政而威权下移；王政君为后，王氏外戚自此盘踞朝堂。"
+    },
+    {
+      "id": "han-cheng-ai",
+      "name": "成哀之世，汉室中衰",
+      "kind": "span",
+      "year": -33,
+      "endYear": -1,
+      "people": [
+        "liu-ao",
+        "liu-xin"
+      ],
+      "desc": "成帝耽于酒色、外戚王氏用事；哀帝宠董贤、欲行限田而旋废。帝系血脉渐绝，王莽羽翼已成。"
+    },
+    {
+      "id": "han-wangmang",
+      "name": "王莽篡汉，建立新朝",
+      "kind": "point",
+      "year": 9,
+      "people": [
+        "wang-mang",
+        "wang-zhengjun",
+        "liu-kan",
+        "liu-ying-ruzi"
+      ],
+      "desc": "平帝暴崩，王莽立两岁的孺子婴，自居摄皇帝；遂废汉自立，国号新，西汉二百一十年至此而绝。"
+    },
+    {
+      "id": "han-xinmang-wang",
+      "name": "新莽覆灭",
+      "kind": "point",
+      "year": 23,
+      "people": [
+        "wang-mang"
+      ],
+      "desc": "王莽改制紊乱天下，绿林、赤眉并起。更始军入长安，莽被杀于渐台，新朝十五年而亡。"
     }
   ],
   "views": [
@@ -1064,9 +1588,9 @@
       "id": "overview",
       "name": "汉代全览",
       "from": -260,
-      "to": -45,
+      "to": 25,
       "focus": "liu-che",
-      "brief": "二十五位人物、二十四件大事，一条轴上看完西汉前期二百年。任意缩放、点击人物查看关系。"
+      "brief": "左侧是开国与汉匈，右侧是元成哀平与王莽。王莽的条收到更始灭新，光武的条在东汉专题。"
     },
     {
       "id": "hanchu",
@@ -1077,6 +1601,7 @@
       "brief": "从沛县布衣到未央宫。开国、外戚、和亲、削藩——这一章的关键词是「收拾」：刘邦收拾天下，吕后收拾刘氏，文帝收拾民心，景帝收拾诸侯。",
       "people": [
         "liu-bang",
+        "liu-ying",
         "lv-zhi",
         "liu-heng",
         "dou-yifang",
@@ -1144,6 +1669,7 @@
       "brief": "武帝留下的是一个虚耗的天下。霍光秉政二十年行休养之政，废一帝、立一帝；宣帝亲政后整顿吏治、设西域都护，西汉国力回到高点。",
       "people": [
         "liu-fuling",
+        "liu-he",
         "liu-xun",
         "huo-guang",
         "sang-hongyang",
@@ -1157,6 +1683,29 @@
         "qian74-zhaodi-beng",
         "qian68-huoguang-zu",
         "qian61-tuntian"
+      ]
+    },
+    {
+      "id": "ximo",
+      "name": "西汉末 · 新莽代汉",
+      "from": -50,
+      "to": 25,
+      "focus": "wang-mang",
+      "brief": "昭宣之后，元帝柔仁、成哀荒怠，帝系渐绝而王氏坐大。王政君临朝称制数十年，王莽终于代汉建新，旋在绿林赤眉的烽火中身死国灭。",
+      "people": [
+        "liu-shi",
+        "liu-ao",
+        "liu-xin",
+        "liu-kan",
+        "liu-ying-ruzi",
+        "wang-zhengjun",
+        "wang-mang"
+      ],
+      "events": [
+        "han-yuan-di",
+        "han-cheng-ai",
+        "han-wangmang",
+        "han-xinmang-wang"
       ]
     }
   ]

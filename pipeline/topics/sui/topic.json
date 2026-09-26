@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "id": "sui",
+    "title": "隋",
+    "subtitle": "短暂而深远的一统王朝 · 公元 541 — 公元 619",
+    "range": [
+      541,
+      619
+    ]
+  },
+  "catalog": {
+    "subtitle": "短暂而深远的一统王朝",
+    "region": "cn",
+    "eras": [
+      "sui"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
+      "id": "minister",
+      "name": "名相 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "craft",
+      "name": "工程 · 制度",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "mowei",
+      "name": "隋末群雄",
+      "color": "#922b3a"
+    }
+  ],
+  "people": [
+    {
+      "id": "yang-jian",
+      "lane": "emperor"
+    },
+    {
+      "id": "yang-guang",
+      "lane": "emperor"
+    },
+    {
+      "id": "yang-you",
+      "lane": "emperor"
+    },
+    {
+      "id": "yang-yong",
+      "lane": "kin"
+    },
+    {
+      "id": "gao-jiong",
+      "lane": "minister"
+    },
+    {
+      "id": "yang-su",
+      "lane": "general"
+    },
+    {
+      "id": "he-ruo-bi",
+      "lane": "general"
+    },
+    {
+      "id": "han-qinhu",
+      "lane": "general"
+    },
+    {
+      "id": "yu-wen-kai",
+      "lane": "craft"
+    },
+    {
+      "id": "yang-xuan-gan",
+      "lane": "mowei"
+    },
+    {
+      "id": "zhai-rang",
+      "lane": "mowei"
+    },
+    {
+      "id": "li-mi",
+      "lane": "mowei"
+    },
+    {
+      "id": "dou-jian-de",
+      "lane": "mowei"
+    },
+    {
+      "id": "wang-shichong",
+      "lane": "mowei"
+    },
+    {
+      "id": "yu-wen-huaji",
+      "lane": "mowei"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "yang-yong",
+      "type": "kin",
+      "note": "父子，勇本为太子后废"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-guang",
+      "type": "kin",
+      "note": "父子，广诡得立，弑父即位"
+    },
+    {
+      "source": "yang-jian",
+      "target": "gao-jiong",
+      "type": "ruler-subject",
+      "note": "高颎为隋首席谋臣，定制度、平陈方略"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-su",
+      "type": "ruler-subject",
+      "note": "杨素将兵平陈，后渐骄恣"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-wen-kai",
+      "type": "ruler-subject",
+      "note": "命宇文恺营大兴、东京"
+    },
+    {
+      "source": "yang-guang",
+      "target": "gao-jiong",
+      "type": "rival",
+      "note": "炀帝忌而诛高颎"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-su",
+      "type": "rival",
+      "note": "素有功而见疏忌"
+    },
+    {
+      "source": "he-ruo-bi",
+      "target": "han-qinhu",
+      "type": "peer",
+      "note": "平陈双璧，韩擒虎先入建康"
+    },
+    {
+      "source": "yang-yong",
+      "target": "yang-guang",
+      "type": "rival",
+      "note": "夺嫡，广谮废勇"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-you",
+      "type": "kin",
+      "note": "炀帝之孙，代王。江都被立于长安，次年禅唐"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-huaji",
+      "type": "ruler-subject",
+      "note": "宇文述之子化及领禁军，从幸江都"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yang-guang",
+      "type": "rival",
+      "since": 618,
+      "note": "江都兵变，缢杀炀帝"
+    },
+    {
+      "source": "zhai-rang",
+      "target": "wang-shichong",
+      "type": "rival",
+      "note": "瓦岗兴于翟让，终为王世充所并"
+    },
+    {
+      "source": "zhai-rang",
+      "target": "li-mi",
+      "type": "rival",
+      "note": "让推密为主，旋为密所杀"
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "wang-shichong",
+      "type": "rival",
+      "note": "河北窦建德与东都王世充相持，俱为唐所灭"
+    }
+  ],
+  "events": [
+    {
+      "id": "sui-jian",
+      "name": "杨坚代周称帝",
+      "kind": "point",
+      "year": 581,
+      "people": [
+        "yang-jian",
+        "gao-jiong"
+      ],
+      "desc": "北周静帝禅位于隋王杨坚，国号隋，都大兴。高颎定三省六部之制。"
+    },
+    {
+      "id": "sui-pingchen",
+      "name": "灭陈一统",
+      "kind": "point",
+      "year": 589,
+      "people": [
+        "yang-jian",
+        "yang-su",
+        "he-ruo-bi",
+        "han-qinhu"
+      ],
+      "desc": "贺若弼渡京口、韩擒虎入朱雀门，陈后主就擒。分裂二百七十年复归一统。"
+    },
+    {
+      "id": "sui-keju",
+      "name": "初创科举",
+      "kind": "point",
+      "year": 605,
+      "people": [
+        "yang-guang"
+      ],
+      "desc": "炀帝置进士科，以试取士，门阀世袭渐替，影响千余年选官。"
+    },
+    {
+      "id": "sui-dayun",
+      "name": "开凿大运河",
+      "kind": "span",
+      "year": 605,
+      "endYear": 610,
+      "people": [
+        "yang-guang",
+        "yu-wen-kai"
+      ],
+      "desc": "发河南诸郡男女数百万，通济渠、邗沟、江南河、永济渠连贯南北，功在千秋而役碎民力。"
+    },
+    {
+      "id": "sui-gao",
+      "name": "高颎之诛",
+      "kind": "point",
+      "year": 607,
+      "people": [
+        "gao-jiong",
+        "yang-guang"
+      ],
+      "desc": "高颎论时政得失，炀帝以为讪谤，与贺若弼同被杀，隋之良佐尽矣。"
+    },
+    {
+      "id": "sui-san",
+      "name": "三征高句丽",
+      "kind": "span",
+      "year": 612,
+      "endYear": 614,
+      "people": [
+        "yang-guang"
+      ],
+      "desc": "举国远征，溃于辽东；役兴盗起，天下骚然。"
+    },
+    {
+      "id": "sui-wang",
+      "name": "隋炀帝被弑，隋亡",
+      "kind": "point",
+      "year": 618,
+      "people": [
+        "yang-guang"
+      ],
+      "desc": "江都兵变，宇文化及缢杀炀帝。李渊旋即称帝，唐祚乃启。"
+    },
+    {
+      "id": "sui-mowei",
+      "name": "隋末群雄并起",
+      "kind": "span",
+      "year": 611,
+      "endYear": 624,
+      "people": [
+        "yang-xuan-gan",
+        "zhai-rang",
+        "li-mi",
+        "dou-jian-de",
+        "wang-shichong",
+        "yu-wen-huaji"
+      ],
+      "desc": "杨玄感首乱于黎阳，瓦岗翟让据洛口，河北窦建德、东都王世充、江都宇文化及各拥兵。唐高祖起晋阳，数年间尽收群雄。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "隋全览",
+      "from": 541,
+      "to": 619,
+      "focus": "yang-jian",
+      "brief": "杨坚的条最长，开皇之治；杨广的条压着大运河、三征、江都之变，骤止于 618。高颎、杨素列于其下。"
+    },
+    {
+      "id": "kaiguo",
+      "name": "开皇与平陈",
+      "from": 540,
+      "to": 600,
+      "focus": "yang-jian",
+      "brief": "杨坚代周、高颎建制，589 年贺若弼韩擒虎双入建康，天下复统。",
+      "people": [
+        "yang-jian",
+        "yang-yong",
+        "gao-jiong",
+        "yang-su",
+        "he-ruo-bi",
+        "han-qinhu",
+        "yu-wen-kai"
+      ],
+      "events": [
+        "sui-jian",
+        "sui-pingchen"
+      ]
+    },
+    {
+      "id": "yangdi",
+      "name": "炀帝的功与过",
+      "from": 580,
+      "to": 619,
+      "focus": "yang-guang",
+      "brief": "进士科、大运河是千年之利；三征高句丽、滥用民力是速亡之由。高颎、杨素皆不得其死。",
+      "people": [
+        "yang-guang",
+        "yang-you",
+        "gao-jiong",
+        "yang-su",
+        "yu-wen-kai"
+      ],
+      "events": [
+        "sui-keju",
+        "sui-dayun",
+        "sui-gao",
+        "sui-san",
+        "sui-wang"
+      ]
+    }
+  ]
+}

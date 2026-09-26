@@ -1,5 +1,5 @@
 import { validateCatalog, validateTopic } from './contract';
-import type { Catalog, CatalogEntry, Topic } from './types';
+import type { Catalog, CatalogEntry, SearchRecord, Topic } from './types';
 
 export async function loadCatalog(url: string): Promise<Catalog> {
   const res = await fetch(url);
@@ -31,4 +31,12 @@ export async function loadTopic(url: string, expectedId?: string): Promise<Topic
     throw new Error(`数据校验未通过（${problems.length} 项）：\n${problems.join('\n')}`);
   }
   return topic;
+}
+
+export async function loadSearchIndex(url: string): Promise<SearchRecord[]> {
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`加载人物索引失败：${res.status} ${res.statusText} — ${url}`);
+  }
+  return (await res.json()) as SearchRecord[];
 }

@@ -1,0 +1,1324 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "liangjin",
+    "title": "两晋 · 十六国",
+    "subtitle": "从武灭吴到衣冠南渡 · 公元 265 — 公元 421",
+    "range": [
+      221,
+      421
+    ]
+  },
+  "lanes": [
+    {
+      "id": "xijin",
+      "name": "西晋",
+      "color": "#c0392b"
+    },
+    {
+      "id": "dongjin",
+      "name": "东晋",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "shiliuguo",
+      "name": "十六国",
+      "color": "#922b3a"
+    },
+    {
+      "id": "wen",
+      "name": "文士 · 释道",
+      "color": "#1f7f8f"
+    }
+  ],
+  "people": [
+    {
+      "id": "sima-yan",
+      "name": "司马炎",
+      "display": "晋武帝司马炎",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 236,
+      "death": 290,
+      "title": "晋武帝，受魏禅，灭吴一天下",
+      "bio": "司马昭长子。咸熙二年受魏禅，改元泰始，都洛阳。太康元年灭吴，三国归晋，天下户二百四十五万。罢州郡兵，大封宗室，晚年骄怠，贾后与外戚之祸伏于此。太熙元年崩，年五十五。",
+      "tags": [
+        "三国",
+        "西晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei",
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-zhong",
+      "name": "司马衷",
+      "display": "晋惠帝司马衷",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 259,
+      "death": 307,
+      "title": "晋惠帝，何不食肉糜，八王之乱",
+      "bio": "司马炎第二子，九岁立为太子。即位后政出贾后，诸王争政，赵王伦篡位，齐王冏、成都王颖、河间王颙、东海王越相继兴兵，史称八王之乱。天下饥馑，帝闻百姓无粟，曰「何不食肉糜」。光熙元年食饼中毒而崩，年四十八。",
+      "tags": [
+        "西晋",
+        "八王之乱"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-chi",
+      "name": "司马炽",
+      "display": "晋怀帝司马炽",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 284,
+      "death": 313,
+      "title": "西晋怀帝，永嘉之乱，被虏于平阳",
+      "bio": "司马炎第二十五子，初为豫章王，惠帝末年立。在位而八王之余未靖，刘渊、石勒日逼洛阳。永嘉五年刘曜入京师，帝被执送平阳，汉主聪以为会稽公，使著青衣行酒。七年为聪所鸩，年三十，西晋的京师终于此。",
+      "tags": [
+        "西晋",
+        "永嘉之乱"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-ye",
+      "name": "司马邺",
+      "display": "晋愍帝司马邺",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 300,
+      "death": 318,
+      "title": "西晋末帝，长安出降，青衣行酒而死",
+      "bio": "司马炎之孙，吴王晏之子，怀帝被虏后即位于长安。时关中残破，户不盈百，公私车乘仅四乘。建兴四年刘曜围长安，帝乘羊车、肉袒衔璧出降，迁平阳，聪使之行酒洗爵、执盖执戟，晋臣号哭。次年被害，年十八，西晋亡。",
+      "tags": [
+        "西晋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jia-nanfeng",
+      "name": "贾南风",
+      "display": "贾皇后贾南风",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 257,
+      "death": 300,
+      "title": "惠帝皇后，乱政十年，赐死于金墉",
+      "bio": "贾充之女，妒忌多权诈。元康元年诛杨骏、废太后，专朝政十年，用张华、裴頠而粗安。既而害太子遹，赵王伦遂以为名举兵，永康元年伦遣使赐金屑酒，死于金墉城。八王之乱由她这十年起。",
+      "tags": [
+        "西晋",
+        "八王之乱"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "jin"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "yang-hu",
+      "name": "羊祜",
+      "display": "羊祜",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 221,
+      "death": 278,
+      "title": "征南大将军，与陆抗对境而各保其民",
+      "bio": "泰山南城人，蔡邕外孙。都督荆州十年，开屯田、修学校，与吴将陆抗对境，各保分界，抗遗之酒，祜饮之不疑。上疏请伐吴，未及行而卒，年五十八。南州人闻之罢市巷哭，襄阳百姓为立碑，望其碑者莫不流涕，谓之堕泪碑。",
+      "tags": [
+        "西晋",
+        "灭吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-yu",
+      "name": "杜预",
+      "display": "杜预",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 222,
+      "death": 285,
+      "title": "镇南大将军，灭吴统帅，作《春秋左氏传集解》",
+      "bio": "京兆杜陵人，司马昭妹夫，博学多通，朝野号曰杜武库，言其无所不有。太康元年统军南下，一举灭吴。作《春秋左氏经传集解》，又修水利、造欹器，尝言「立德不可企，立功立言可庶几」。太康五年卒，年六十三。",
+      "tags": [
+        "西晋"
+      ],
+      "categories": [
+        "general",
+        "classics"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-jun",
+      "name": "王濬",
+      "display": "王濬",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 206,
+      "death": 286,
+      "title": "龙骧将军，楼船下益州，先入建业",
+      "bio": "弘农湖人，博涉坟典，恢廓有大志。为益州刺史，作大船连舫，方百二十步，上起楼橹。太康元年自成都顺流而下，破丹阳、西陵，直抵石头，孙皓面缚舆榇降于军门。与王浑争功而不得，太康六年卒，年八十。",
+      "tags": [
+        "西晋",
+        "灭吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-hua",
+      "name": "张华",
+      "display": "张华",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 232,
+      "death": 300,
+      "title": "司空，博物洽闻，死于赵王伦之难",
+      "bio": "范阳方城人，少孤贫，牧羊而好学，学业优博，图纬方伎莫不详览，作《博物志》。力主伐吴，为之度支。贾后时用事，海内晏然。永康元年赵王伦废贾后，华以不屈被害，夷三族，年六十九。西晋最后一位能持局的人。",
+      "tags": [
+        "西晋",
+        "八王之乱"
+      ],
+      "categories": [
+        "official",
+        "literature"
+      ],
+      "primary": "official",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lu-ji",
+      "name": "陆机",
+      "display": "陆机",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 261,
+      "death": 303,
+      "title": "平原内史，《文赋》作者，死于八王之乱",
+      "bio": "吴郡吴人，陆逊之孙，陆抗之子。吴亡与弟云退居旧里，闭门勤学十年，后入洛，张华谓之「伐吴之役，利获二俊」。文章冠世，作《文赋》《辨亡论》，为太康之英。成都王颖以为平原内史、后将军，河桥之败被谮，与弟云俱诛，年四十三。",
+      "tags": [
+        "西晋",
+        "江东士族"
+      ],
+      "categories": [
+        "literature",
+        "poetry",
+        "official"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wu",
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-chong",
+      "name": "石崇",
+      "display": "石崇",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 249,
+      "death": 300,
+      "title": "卫尉，金谷之富，与王恺斗富",
+      "bio": "渤海南皮人，石苞之子。为荆州刺史，劫远使商客以致巨富，置金谷园，与贵戚王恺、羊琇以奢靡相尚，以蜡代薪、以锦为障。与潘岳等谄事贾谧，号二十四友。永康元年贾氏败，为赵王伦所诛，绿珠坠楼，夷三族。",
+      "tags": [
+        "西晋",
+        "奢靡"
+      ],
+      "categories": [
+        "official",
+        "gentry"
+      ],
+      "primary": "official",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-shou",
+      "name": "陈寿",
+      "display": "陈寿",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 233,
+      "death": 297,
+      "title": "《三国志》作者，著作郎",
+      "bio": "巴西安汉人，少好学，师事同郡谯周，仕蜀为观阁令史，以不附黄皓屡被谴黜。蜀亡入晋，撰魏、吴、蜀三书六十五篇，时人称其善叙事，有良史之才。元康七年卒，年六十五。三国之史自此定本。",
+      "tags": [
+        "西晋"
+      ],
+      "categories": [
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "shu",
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-kun",
+      "name": "刘琨",
+      "display": "刘琨",
+      "lane": "xijin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 270,
+      "death": 318,
+      "title": "并州刺史，闻鸡起舞，孤守晋阳",
+      "bio": "中山魏昌人，汉中山靖王之后，与祖逖为友，共被同寝，中夜闻荒鸡鸣而共起舞。永嘉元年为并州刺史，赴晋阳，翦除荆棘，抚循劳徕，前后十年孤悬河北。既败于石勒，奔鲜卑段匹磾，为所疑而缢杀，年四十八。",
+      "tags": [
+        "西晋",
+        "北边"
+      ],
+      "categories": [
+        "general",
+        "poetry"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-rui",
+      "name": "司马睿",
+      "display": "晋元帝司马睿",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 276,
+      "death": 323,
+      "title": "东晋元帝，王与马共天下",
+      "bio": "司马懿曾孙，琅邪王觐之子。永嘉之乱后以安东将军镇建康，用王导之谋，收江东士族之心。建武元年即晋王位，明年称帝，都建康。政出王氏，导内而敦外，时人语曰「王与马，共天下」。永昌元年忧愤成疾而崩，年四十七。",
+      "tags": [
+        "东晋",
+        "衣冠南渡"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-dezong",
+      "name": "司马德宗",
+      "display": "晋安帝",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 382,
+      "death": 419,
+      "title": "东晋安帝，桓玄废而刘裕迎还",
+      "bio": "孝武帝长子，太元二十一年即位，自少口不能言。元兴二年桓玄废帝自立，明年刘裕起兵，玄败，帝复位。义熙十四年被缢于东堂。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-dewen",
+      "name": "司马德文",
+      "display": "晋恭帝",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 386,
+      "death": 421,
+      "title": "东晋恭帝，禅宋之明年被杀",
+      "bio": "安帝同母弟。安帝崩，刘裕立之；元熙二年裕废帝受禅，封零陵王。明年被杀。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-dao",
+      "name": "王导",
+      "display": "王导",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 276,
+      "death": 339,
+      "title": "丞相，江东衣冠之主，愦愦之政",
+      "bio": "琅邪临沂人，王览之孙。与元帝素相亲善，倾心推奉，为之定江东之计，招顾荣、贺循以收吴士。历事元、明、成三帝，为相二十余年，务在清静，每劝帝克己励节。晚年尤简素，自言「人言我愦愦，后人当思此愦愦」。咸康五年卒，年六十四。",
+      "tags": [
+        "东晋",
+        "琅邪王氏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-dun",
+      "name": "王敦",
+      "display": "王敦",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 266,
+      "death": 324,
+      "title": "大将军，两举兵内向，死于军中",
+      "bio": "琅邪临沂人，王导从兄，尚武帝女襄城公主。永昌元年以诛刘隗为名举兵武昌，入石头城，杀戴渊、周顗，还屯武昌。太宁二年再反，明帝亲征，敦以兄含为元帅，兵败愤惋而死，年五十九，戮尸悬首。王氏自此退，庾、桓相继。",
+      "tags": [
+        "东晋",
+        "琅邪王氏"
+      ],
+      "categories": [
+        "regent",
+        "rebel",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-liang",
+      "name": "庾亮",
+      "display": "庾亮",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 289,
+      "death": 340,
+      "title": "征西将军，苏峻之乱由之而发",
+      "bio": "颍川鄢陵人，庾亮妹为明帝皇后。明帝崩，与王导同受遗诏辅政，任法裁物，颇失人心。咸和二年征苏峻为大司农以释其兵，峻遂与祖约举兵，入建康，迁帝于石头。乱平后出镇武昌，谋北伐不果，咸康六年卒于武昌，年五十二。",
+      "tags": [
+        "东晋",
+        "颍川庾氏"
+      ],
+      "categories": [
+        "consort-kin",
+        "official",
+        "general"
+      ],
+      "primary": "official",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tao-kan",
+      "name": "陶侃",
+      "display": "陶侃",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 259,
+      "death": 334,
+      "title": "太尉，平苏峻，运甓习劳",
+      "bio": "鄱阳人，后徙庐江寻阳。少孤贫，为县吏。以军功至荆州刺史、太尉，都督八州诸军事。平张昌、杜弢、苏峻之乱，为东晋第一支柱。在州无事，辄朝运百甓于斋外，暮运于斋内，人问其故，曰「吾方致力中原，过尔优逸，恐不堪事」。咸和九年卒，年七十六。",
+      "tags": [
+        "东晋",
+        "寒门"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zu-ti",
+      "name": "祖逖",
+      "display": "祖逖",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 266,
+      "death": 321,
+      "title": "奋威将军，闻鸡起舞，中流击楫",
+      "bio": "范阳遒人，与刘琨俱为司州主簿，同寝中夜闻鸡鸣而起舞。建兴元年请兵北伐，渡江中流击楫而誓曰「祖逖不能清中原而复济者，有如大江」。募兵铸冶，数年尽复河南，石勒不敢窥兵。大兴四年以朝廷掣肘，忧愤发病卒于雍丘，年五十六。",
+      "tags": [
+        "东晋",
+        "北伐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huan-wen",
+      "name": "桓温",
+      "display": "桓温",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 312,
+      "death": 373,
+      "title": "大司马，灭成汉、三伐北方，欲加九锡",
+      "bio": "谯国龙亢人，宣城太守彝之子，尚南康长公主。永和三年灭成汉，由是威名日盛，前后北伐三度，一度至灞上、枋头，终以粮尽而还。尝抚枕叹曰「既不能流芳后世，不足复遗臭万载邪」。太和六年废帝奕，立简文，谋加九锡未成。宁康元年卒，年六十二。",
+      "tags": [
+        "东晋",
+        "北伐"
+      ],
+      "categories": [
+        "regent",
+        "general",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xie-an",
+      "name": "谢安",
+      "display": "谢安",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 320,
+      "death": 385,
+      "title": "太保，围棋赌墅，淝水之主",
+      "bio": "陈郡阳夏人，少有重名，累辟不起，隐居东山，与王羲之、支遁游，年四十余始出。为宰相，以静镇之，桓温死而晋室安。太元八年苻坚南下，安以谢石、谢玄八万拒之，围棋赌墅以示不惊，既捷而过户限，不觉屐齿之折。太元十年卒，年六十六。",
+      "tags": [
+        "东晋",
+        "淝水",
+        "陈郡谢氏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xie-xuan",
+      "name": "谢玄",
+      "display": "谢玄",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 343,
+      "death": 388,
+      "title": "前将军，北府兵之帅，淝水前锋",
+      "bio": "陈郡阳夏人，谢安之侄。为兖州刺史，募京口劲勇，号北府兵，刘牢之、何谦皆其部。太元八年淝水之战为前锋，以八千破前秦十数万，风声鹤唳、草木皆兵。后乘胜北伐至邺，以叔父安卒、朝廷掣肘而还。太元十三年卒，年四十六。",
+      "tags": [
+        "东晋",
+        "淝水",
+        "北府兵"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huan-xuan",
+      "name": "桓玄",
+      "display": "桓玄",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 369,
+      "death": 404,
+      "title": "桓温之子，篡晋建楚，为刘裕所败",
+      "bio": "谯国龙亢人，桓温少子。以父威据荆州，元兴元年举兵入建康，杀司马道子父子，明年废安帝自立，国号楚。性贪鄙好奇异，好书画珠玉不离手。刘裕与刘毅、何无忌起京口，玄西奔江陵，为益州督护冯迁所斩，年三十六。晋室因之复，而政归刘裕。",
+      "tags": [
+        "东晋",
+        "篡晋"
+      ],
+      "categories": [
+        "monarch",
+        "rebel",
+        "regent"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yu",
+      "name": "刘裕",
+      "display": "宋武帝刘裕",
+      "lane": "dongjin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 363,
+      "death": 422,
+      "title": "北府将出身，灭南燕后秦，代晋建宋",
+      "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+      "tags": [
+        "东晋",
+        "南朝"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin",
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-xizhi",
+      "name": "王羲之",
+      "display": "王羲之",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 303,
+      "death": 361,
+      "title": "右军将军，兰亭集序，书圣",
+      "bio": "琅邪临沂人，王导从子。起家秘书郎，为右军将军、会稽内史。永和九年与谢安、孙绰等四十一人会于会稽山阴之兰亭，修禊赋诗，其序三百二十四字，为天下第一行书。骨鲠称疾去郡，与道士许迈共修服食。升平五年卒，年五十九，赠金紫光禄大夫。",
+      "tags": [
+        "东晋",
+        "兰亭"
+      ],
+      "categories": [
+        "calligraphy",
+        "official"
+      ],
+      "primary": "calligraphy",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gu-kaizhi",
+      "name": "顾恺之",
+      "display": "顾恺之",
+      "lane": "wen",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 409,
+      "title": "散骑常侍，画绝、才绝、痴绝",
+      "bio": "晋陵无锡人，博学有才气，尤善丹青，图写特妙，谢安以为自生人以来未有。每画人或数年不点目睛，曰「传神写照，正在阿堵中」。作《女史箴图》《洛神赋图》《维摩诘像》。义熙初为散骑常侍，卒于官，年六十二。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "painting",
+        "official"
+      ],
+      "primary": "painting",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tao-yuanming",
+      "name": "陶潜",
+      "display": "陶渊明",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 365,
+      "death": 427,
+      "title": "彭泽令，不为五斗米折腰",
+      "bio": "浔阳柴桑人，陶侃曾孙，字元亮，后更名潜。为州祭酒、镇军参军、彭泽令，在官八十余日，郡遣督邮至，吏白应束带见之，潜叹曰「我不能为五斗米折腰向乡里小人」，即日解印去。躬耕自资，作《归去来兮辞》《桃花源记》。元嘉四年卒，年六十三。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "poetry",
+        "literature",
+        "hermit",
+        "official"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ge-hong",
+      "name": "葛洪",
+      "display": "葛洪",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 283,
+      "death": 363,
+      "title": "句漏令，抱朴子，炼丹与医药",
+      "bio": "丹阳句容人，葛玄从孙。少好学，家贫，伐薪以贸纸笔，兼综练医术。以军功封关内侯，闻交趾出丹，求为句漏令，止罗浮山炼丹，著《抱朴子》内外篇、《肘后备急方》，言神仙方药、鬼怪变化、养生延年。卒年八十一。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "daoism",
+        "medicine"
+      ],
+      "primary": "daoism",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hui-yuan",
+      "name": "慧远",
+      "display": "慧远",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 334,
+      "death": 416,
+      "title": "庐山东林寺，白莲社，沙门不拜王者",
+      "bio": "雁门楼烦人，本姓贾，游学许洛，博综六经，尤善老庄。年二十一从道安出家，后止庐山，建东林寺，与刘遗民、周续之等结白莲社，为净土之宗。作《沙门不敬王者论》，桓玄下令沙门礼敬王者，独抗之得免。义熙十二年卒，年八十三。",
+      "tags": [
+        "东晋",
+        "庐山"
+      ],
+      "categories": [
+        "buddhism"
+      ],
+      "primary": "buddhism",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-jian",
+      "name": "苻坚",
+      "display": "前秦苻坚",
+      "lane": "shiliuguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 338,
+      "death": 385,
+      "title": "前秦天王，一统北方而败于淝水",
+      "bio": "略阳临渭氐人，苻雄之子。用王猛治国，劝农桑、修学校，并灭前燕、前凉、代，统一北方。建元十九年发九十万众伐晋，淝水一败而风声鹤唳，鲜卑、羌乘之而起。太安元年为姚苌所缢于新平佛寺，年四十八。北方一统只此一次，也只此十五年。",
+      "tags": [
+        "十六国",
+        "前秦",
+        "淝水"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-meng",
+      "name": "王猛",
+      "display": "王猛",
+      "lane": "shiliuguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 325,
+      "death": 375,
+      "title": "前秦丞相，一岁五迁，临终止伐晋",
+      "bio": "北海剧人，少贫贱，鬻畚为业，博学好兵书。与苻坚一见若旧，一岁五迁，为丞相、中书监、尚书令。治秦二十余年，国富兵强，史称关陇清晏，百姓丰乐。宁康三年卒，年五十一，临终言晋不可伐，鲜卑、羌宜渐除，坚不能用而败。",
+      "tags": [
+        "十六国",
+        "前秦"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-le",
+      "name": "石勒",
+      "display": "石勒",
+      "lane": "shiliuguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 274,
+      "death": 333,
+      "title": "后赵之主，起自奴隶而兼河北",
+      "bio": "上党武乡羯人，少行贩洛阳，为人力耕，后为汲桑之党，遂附刘渊。转战河北，并王浚、刘曜，据襄国称赵王，后称帝。不识字而听人读史，闻郦食其劝立六国后而惊，闻留侯谏乃曰「赖此耳」。咸和八年卒，年六十。",
+      "tags": [
+        "十六国",
+        "后赵",
+        "羯"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-hu",
+      "name": "石虎",
+      "display": "石虎",
+      "lane": "shiliuguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 295,
+      "death": 349,
+      "title": "后赵之主，暴虐甲于十六国",
+      "bio": "上党武乡羯人，石勒从子。性残虐，勒死废其子弘而自立，迁都邺，大发男女十六万营洛阳、长安宫室。猎则列人为围，驱兽使奔，死者相枕。晚年诸子相残，太子宣杀弟韬，虎杀宣而杀其妻子。太宁元年卒，后赵三年而亡。",
+      "tags": [
+        "十六国",
+        "后赵",
+        "暴君"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yuan",
+      "name": "刘渊",
+      "display": "刘渊",
+      "lane": "shiliuguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 310,
+      "title": "汉赵之主，匈奴称汉，开十六国之局",
+      "bio": "新兴匈奴人，冒顿之后，冒姓刘氏。少好学，习《毛诗》《京氏易》《春秋左氏传》，孙吴兵法皆诵之。八王乱起，说成都王颖归匈奴，遂于左国城即汉王位，追尊刘禅，用汉号以争正朔。永嘉四年卒，子和与聪相继，十六国自此始。",
+      "tags": [
+        "十六国",
+        "汉赵",
+        "匈奴"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "murong-chui",
+      "name": "慕容垂",
+      "display": "慕容垂",
+      "lane": "shiliuguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 326,
+      "death": 396,
+      "title": "后燕之主，枋头却桓温，复国而卒于军",
+      "bio": "昌黎棘城鲜卑人，前燕慕容皝第五子。枋头之战大败桓温，威名振于南北。为慕容评所忌，奔秦依苻坚；淝水败后复国，称燕王于中山。建兴十年伐魏，过参合陂见积骸如山，惭愤呕血，卒于上谷，年七十一。后燕随之一蹶不振。",
+      "tags": [
+        "十六国",
+        "后燕",
+        "慕容"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "sima-zhong",
+      "type": "kin",
+      "note": "父子，惠帝愚钝"
+    },
+    {
+      "source": "sima-yan",
+      "target": "yang-hu",
+      "type": "ruler-subject",
+      "note": "羊祜镇襄阳，画灭吴之策"
+    },
+    {
+      "source": "sima-yan",
+      "target": "wang-jun",
+      "type": "ruler-subject",
+      "since": 280,
+      "note": "命王濬楼船下益州"
+    },
+    {
+      "source": "sima-yan",
+      "target": "du-yu",
+      "type": "ruler-subject",
+      "since": 280,
+      "note": "杜预统荆州兵，既醉且痴而平吴"
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-zhong",
+      "type": "kin",
+      "note": "夫妻，贾后专政"
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "zhang-hua",
+      "type": "ruler-subject",
+      "note": "倚张华居中调护数年"
+    },
+    {
+      "source": "sima-zhong",
+      "target": "lu-ji",
+      "type": "ruler-subject",
+      "note": "陆机入洛为成都王参军，败于河桥被谗死"
+    },
+    {
+      "source": "sima-rui",
+      "target": "wang-dao",
+      "type": "ruler-subject",
+      "note": "王与马，共天下"
+    },
+    {
+      "source": "wang-dao",
+      "target": "wang-dun",
+      "type": "kin",
+      "note": "从兄弟，敦乱导稳"
+    },
+    {
+      "source": "zu-ti",
+      "target": "sima-rui",
+      "type": "ruler-subject",
+      "note": "中流击楫，请兵北伐"
+    },
+    {
+      "source": "huan-wen",
+      "target": "sima-rui",
+      "type": "rival",
+      "note": "桓温北伐树威，几行篡事"
+    },
+    {
+      "source": "xie-an",
+      "target": "xie-xuan",
+      "type": "kin",
+      "note": "叔侄，安举玄为将"
+    },
+    {
+      "source": "xie-an",
+      "target": "fu-jian",
+      "type": "rival",
+      "since": 383,
+      "note": "淝水之战，以少破前秦"
+    },
+    {
+      "source": "fu-jian",
+      "target": "wang-meng",
+      "type": "ruler-subject",
+      "note": "王猛辅坚，治前秦近乎小康"
+    },
+    {
+      "source": "fu-jian",
+      "target": "murong-chui",
+      "type": "ruler-subject",
+      "note": "用慕容垂，淝水后垂叛建后燕"
+    },
+    {
+      "source": "shi-le",
+      "target": "shi-hu",
+      "type": "kin",
+      "note": "从父子，虎继勒后虐政"
+    },
+    {
+      "source": "liu-yuan",
+      "target": "liu-yu",
+      "type": "kin",
+      "note": "同出刘氏，一开汉赵一终晋祚"
+    },
+    {
+      "source": "huan-xuan",
+      "target": "huan-wen",
+      "type": "kin",
+      "note": "父子，玄篡晋建楚"
+    },
+    {
+      "source": "liu-yu",
+      "target": "huan-xuan",
+      "type": "rival",
+      "since": 404,
+      "note": "起兵诛玄，复晋室"
+    },
+    {
+      "source": "huan-xuan",
+      "target": "sima-dezong",
+      "type": "rival",
+      "note": "元兴二年玄废安帝自立，次年裕起兵迎帝"
+    },
+    {
+      "source": "liu-yu",
+      "target": "sima-dewen",
+      "type": "rival",
+      "note": "裕废恭帝受禅，明年弑之"
+    },
+    {
+      "source": "tao-yuanming",
+      "target": "tao-kan",
+      "type": "kin",
+      "note": "曾祖孙，渊明不为五斗米折腰"
+    },
+    {
+      "source": "hui-yuan",
+      "target": "tao-yuanming",
+      "type": "peer",
+      "note": "虎溪三笑之雅，一僧一隐"
+    }
+  ],
+  "events": [
+    {
+      "id": "lj-miewu",
+      "name": "西晋灭吴，天下一统",
+      "kind": "point",
+      "year": 280,
+      "people": [
+        "sima-yan",
+        "wang-jun",
+        "du-yu"
+      ],
+      "desc": "王濬楼船下益州，孙皓出降。自汉末分裂至此复归一统，然仅十一年便乱。"
+    },
+    {
+      "id": "lj-bawang",
+      "name": "八王之乱",
+      "kind": "span",
+      "year": 291,
+      "endYear": 306,
+      "people": [
+        "sima-zhong",
+        "jia-nanfeng",
+        "zhang-hua"
+      ],
+      "desc": "贾后专政引发宗室诸王相屠，中枢崩坏，伏永嘉之祸。"
+    },
+    {
+      "id": "lj-yongjia",
+      "name": "永嘉之乱",
+      "kind": "point",
+      "year": 311,
+      "people": [
+        "shi-le",
+        "sima-chi"
+      ],
+      "desc": "匈奴汉国陷洛阳，怀帝被俘；316 年愍帝出降，西晋亡。"
+    },
+    {
+      "id": "lj-dongdu",
+      "name": "衣冠南渡",
+      "kind": "point",
+      "year": 317,
+      "people": [
+        "sima-rui",
+        "wang-dao"
+      ],
+      "desc": "司马睿称晋王于建康，王导主政，北方士族南奔，「王与马共天下」。"
+    },
+    {
+      "id": "lj-jiti",
+      "name": "祖逖北伐",
+      "kind": "point",
+      "year": 313,
+      "people": [
+        "zu-ti"
+      ],
+      "desc": "中流击楫而誓，收复黄河以南，然朝廷不力，逖忧愤而卒。"
+    },
+    {
+      "id": "lj-feishui",
+      "name": "淝水之战",
+      "kind": "point",
+      "year": 383,
+      "people": [
+        "fu-jian",
+        "wang-meng",
+        "xie-an",
+        "xie-xuan"
+      ],
+      "desc": "苻坚率百万之众南下，谢玄北府兵八万破之。风声鹤唳，前秦瓦解。"
+    },
+    {
+      "id": "lj-huanxuan",
+      "name": "桓玄篡晋",
+      "kind": "point",
+      "year": 403,
+      "people": [
+        "huan-xuan",
+        "huan-wen"
+      ],
+      "desc": "桓玄废安帝自立，国号楚。次年刘裕起兵讨玄，晋室复存而实权已移。"
+    },
+    {
+      "id": "lj-liuyu",
+      "name": "刘裕代晋",
+      "kind": "point",
+      "year": 420,
+      "people": [
+        "liu-yu"
+      ],
+      "desc": "刘裕废晋恭帝自立，国号宋，开启南朝。两晋一百五十五年至此而终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "两晋十六国全览",
+      "from": 221,
+      "to": 421,
+      "focus": "sima-yan",
+      "brief": "西晋红条在 280 年一统后骤断于八王；东晋蓝条从 317 拉到 420；十六国酒红条穿插其间，淝水一处最密。"
+    },
+    {
+      "id": "xijin",
+      "name": "西晋一统与崩解",
+      "from": 240,
+      "to": 320,
+      "focus": "sima-yan",
+      "brief": "羊祜画策、王濬下江灭吴；惠帝愚、贾后乱、八王屠、永嘉陷——一条红条从极盛直坠。",
+      "people": [
+        "sima-yan",
+        "yang-hu",
+        "du-yu",
+        "wang-jun",
+        "jia-nanfeng",
+        "sima-zhong",
+        "zhang-hua",
+        "lu-ji",
+        "shi-chong",
+        "sima-chi",
+        "sima-ye"
+      ],
+      "events": [
+        "lj-miewu",
+        "lj-bawang",
+        "lj-yongjia"
+      ]
+    },
+    {
+      "id": "dongjin",
+      "name": "东晋偏安与北伐",
+      "from": 300,
+      "to": 421,
+      "focus": "wang-dao",
+      "brief": "王导稳住江左，祖逖、桓温先后北伐；谢安、谢玄在淝水以少胜多。末尾桓玄一乱，刘裕收尾。",
+      "people": [
+        "sima-rui",
+        "sima-dezong",
+        "sima-dewen",
+        "wang-dao",
+        "wang-dun",
+        "yu-liang",
+        "zu-ti",
+        "huan-wen",
+        "xie-an",
+        "xie-xuan",
+        "huan-xuan",
+        "liu-yu"
+      ],
+      "events": [
+        "lj-dongdu",
+        "lj-jiti",
+        "lj-feishui",
+        "lj-huanxuan",
+        "lj-liuyu"
+      ]
+    },
+    {
+      "id": "shiliuguo",
+      "name": "十六国梗概",
+      "from": 300,
+      "to": 400,
+      "focus": "fu-jian",
+      "brief": "刘渊开汉赵、石勒建后赵、苻坚用王猛几成一统却败于淝水、慕容垂后燕继起——北地列国在东晋的条下翻涌。",
+      "people": [
+        "liu-yuan",
+        "shi-le",
+        "shi-hu",
+        "fu-jian",
+        "wang-meng",
+        "murong-chui"
+      ],
+      "events": [
+        "lj-yongjia",
+        "lj-feishui"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1466 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "qing",
+    "title": "清",
+    "subtitle": "从后金立国到宣统退位 · 公元 1616 — 公元 1912",
+    "range": [
+      1610,
+      1920
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "chancellor",
+      "name": "名相 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "科技 · 文化",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "end",
+      "name": "权臣 · 末世群雄",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "nurhaci",
+      "name": "努尔哈赤",
+      "display": "努尔哈赤",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1559,
+      "death": 1626,
+      "title": "后金大汗",
+      "bio": "建州女真酋长，统一诸部，1616 年建后金称汗，创八旗、定满文，奠定清之基。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hong-taiji",
+      "name": "皇太极",
+      "display": "皇太极",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1592,
+      "death": 1643,
+      "title": "改国号为清",
+      "bio": "努尔哈赤第八子，继位后改族名满洲、国号大清，称帝南略，收服漠南蒙古。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-lin",
+      "name": "顺治",
+      "display": "福临",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1638,
+      "death": 1661,
+      "title": "入关第一帝",
+      "bio": "皇太极第九子，幼龄即位，多尔衮摄政；清军入关后定鼎北京，为入关首帝。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kang-xi",
+      "name": "康熙",
+      "display": "玄烨",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1654,
+      "death": 1722,
+      "title": "康乾盛世之始",
+      "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yong-zheng",
+      "name": "雍正",
+      "display": "胤禛",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1678,
+      "death": 1735,
+      "title": "肃政集权",
+      "bio": "康熙第四子，即位后行摊丁入亩、设军机处、清查亏空，承前启后。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qian-long",
+      "name": "乾隆",
+      "display": "弘历",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1711,
+      "death": 1799,
+      "title": "十全武功",
+      "bio": "雍正第四子，在位六十年，自称十全老人；武功极盛而晚年宠和珅，盛世转衰。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dao-guang",
+      "name": "道光",
+      "display": "旻宁",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1782,
+      "death": 1850,
+      "title": "鸦片战火开国门",
+      "bio": "嘉庆次子，在位节俭而遇三千年未有之变局，鸦片战争战败，签南京条约。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xian-feng",
+      "name": "咸丰",
+      "display": "奕詝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1831,
+      "death": 1861,
+      "title": "内忧外患",
+      "bio": "道光第四子，在位遭太平天国、第二次鸦片战争，英法联军火烧圆明园。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guang-xu",
+      "name": "光绪",
+      "display": "载湉",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1871,
+      "death": 1908,
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xuan-tong",
+      "name": "宣统",
+      "display": "溥仪",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1906,
+      "death": 1967,
+      "title": "末代皇帝",
+      "bio": "醇亲王载沣之子，三岁即位，为清亡国之君；1912 年退位，两千年帝制终。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cixi",
+      "name": "慈禧",
+      "display": "慈禧太后",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1835,
+      "death": 1908,
+      "title": "垂帘听政",
+      "bio": "咸丰懿贵妃，同治生母；同治、光绪两朝垂帘训政，实为晚清最高掌权者。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "jia-qing",
+      "name": "颙琰",
+      "display": "清仁宗颙琰",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1760,
+      "death": 1820,
+      "title": "亲政诛和珅",
+      "bio": "乾隆第十五子，受禅即位，改元嘉庆。亲政即赐和珅死、籍其家，欲挽颓风；白莲、天理教相继起，禁鸦片之初议自此始。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tong-zhi",
+      "name": "载淳",
+      "display": "清穆宗载淳",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1856,
+      "death": 1875,
+      "title": "两宫垂帘，同治中兴",
+      "bio": "咸丰长子，冲龄即位，慈禧、慈安两宫垂帘。用曾左李平太平、捻回，号为中兴；亲政未久而崩，无嗣。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "duo-er-gun",
+      "name": "多尔衮",
+      "display": "多尔衮",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1612,
+      "death": 1650,
+      "title": "摄政王",
+      "bio": "努尔哈赤第十四子，皇太极之弟；顺治幼龄摄政，决策入关定鼎，权倾一时。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "royal-kin",
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-wencheng",
+      "name": "范文程",
+      "display": "范文程",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1597,
+      "death": 1666,
+      "title": "开国谋臣",
+      "bio": "辽东汉人，投努尔哈赤，历事四朝，定典制、谋入关，为清开国第一文臣。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "official",
+        "strategist",
+        "founding"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-tingyu",
+      "name": "张廷玉",
+      "display": "张廷玉",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1672,
+      "death": 1755,
+      "title": "三朝元辅",
+      "bio": "康熙进士，历事康雍乾三朝，掌机要、修典制，配享太庙，汉臣所稀。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "he-shen",
+      "name": "和珅",
+      "display": "和珅",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1750,
+      "death": 1799,
+      "title": "巨贪权相",
+      "bio": "乾隆晚年宠臣，揽权纳贿，富可敌国；嘉庆即位即赐死抄家，家产巨万。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lin-zexu",
+      "name": "林则徐",
+      "display": "林则徐",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1785,
+      "death": 1850,
+      "title": "禁烟大臣",
+      "bio": "湖广总督，1839 年虎门销烟，主持禁烟；后遣戍伊犁，近代开眼看世界之先。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yi-xin",
+      "name": "奕䜣",
+      "display": "奕䜣",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1833,
+      "death": 1898,
+      "title": "总理衙门",
+      "bio": "道光第六子，咸丰之弟；主持总理衙门，倡洋务，为同光新政中枢。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "royal-kin",
+        "minister",
+        "official",
+        "diplomat"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zeng-guofan",
+      "name": "曾国藩",
+      "display": "曾国藩",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1811,
+      "death": 1872,
+      "title": "湘军创立",
+      "bio": "理学名臣，练湘军剿太平天国，兴洋务、办学堂，被誉为中兴第一名臣。",
+      "tags": [
+        "清",
+        "儒臣"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "general",
+        "neo-confucian"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-hongzhang",
+      "name": "李鸿章",
+      "display": "李鸿章",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1823,
+      "death": 1901,
+      "title": "洋务领袖",
+      "bio": "曾国藩门生，编淮军、办洋务、建北洋水师，周旋列强，签诸条约负重谤。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "diplomat",
+        "general"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zuo-zongtang",
+      "name": "左宗棠",
+      "display": "左宗棠",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1812,
+      "death": 1885,
+      "title": "收复新疆",
+      "bio": "湘军宿将，平捻、剿回，力主塞防，率军收复新疆，建行省固西陲。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-zhidong",
+      "name": "张之洞",
+      "display": "张之洞",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1837,
+      "death": 1909,
+      "title": "中体西用",
+      "bio": "洋务后期重臣，办汉阳铁厂、新式学堂，倡“中学为体、西学为用”。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-lang",
+      "name": "施琅",
+      "display": "施琅",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1621,
+      "death": 1696,
+      "title": "水师提督",
+      "bio": "原郑氏部将，降清后任水师提督，1683 年攻取台湾，郑克塽降，台入版图。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "nian-gengyao",
+      "name": "年羹尧",
+      "display": "年羹尧",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1679,
+      "death": 1726,
+      "title": "抚远大将军",
+      "bio": "雍正藩邸旧人，平青海、镇西北，功高震主，旋以骄纵赐令自尽。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "official",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guan-tianpei",
+      "name": "关天培",
+      "display": "关天培",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1781,
+      "death": 1841,
+      "title": "虎门殉国",
+      "bio": "广东水师提督，鸦片战争守虎门，炮台陷落力战而死，为近代殉国之将。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "deng-shichang",
+      "name": "邓世昌",
+      "display": "邓世昌",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1849,
+      "death": 1894,
+      "title": "黄海英烈",
+      "bio": "北洋水师致远舰管带，甲午黄海海战陷阵，舰伤弹尽，蹈海殉国。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-zicai",
+      "name": "冯子材",
+      "display": "冯子材",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1818,
+      "death": 1903,
+      "title": "镇南关大捷",
+      "bio": "老将，1885 年中法战争亲率萃军大破法军于镇南关，扭转战局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gu-yanwu",
+      "name": "顾炎武",
+      "display": "顾炎武",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1613,
+      "death": 1682,
+      "title": "经世致用",
+      "bio": "明清之际大儒，倡“天下兴亡匹夫有责”，重考证、主经世，开清代朴学。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "scholar",
+        "classics"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huang-zongxi",
+      "name": "黄宗羲",
+      "display": "黄宗羲",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1610,
+      "death": 1695,
+      "title": "明夷待访录",
+      "bio": "思想家，著《明夷待访录》批判君权，与顾、王并称清初三大儒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "scholar",
+        "thinker"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-fuzhi",
+      "name": "王夫之",
+      "display": "王夫之",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1619,
+      "death": 1692,
+      "title": "船山遗书",
+      "bio": "思想家，隐居著书，综罗百代，其学至清末方显，为三大儒之一。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "scholar",
+        "thinker"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-xueqin",
+      "name": "曹雪芹",
+      "display": "曹雪芹",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 1724,
+      "death": 1763,
+      "title": "红楼梦",
+      "bio": "满洲正白旗人，家道中落，晚年著《红楼梦》，为中国古典小说之冠。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "literature",
+        "novel"
+      ],
+      "primary": "novel",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kang-youwei",
+      "name": "康有为",
+      "display": "康有为",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1858,
+      "death": 1927,
+      "title": "维新领袖",
+      "bio": "今文经学家，公车上书、倡变法，戊戌年辅光绪行新政，失败后流亡。",
+      "tags": [
+        "清",
+        "维新"
+      ],
+      "categories": [
+        "scholar",
+        "classics"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liang-qichao",
+      "name": "梁启超",
+      "display": "梁启超",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1873,
+      "death": 1929,
+      "title": "变法喉舌",
+      "bio": "康有为弟子，主笔《时务报》，鼓吹维新；后倡新民说，为近代思想巨子。",
+      "tags": [
+        "清",
+        "维新"
+      ],
+      "categories": [
+        "official",
+        "scholar",
+        "thinker"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tan-sitong",
+      "name": "谭嗣同",
+      "display": "谭嗣同",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1865,
+      "death": 1898,
+      "title": "戊戌六君子",
+      "bio": "维新志士，著《仁学》；戊戌政变不肯逃，慷慨就义，为六君子之一。",
+      "tags": [
+        "清",
+        "维新"
+      ],
+      "categories": [
+        "official",
+        "thinker"
+      ],
+      "primary": "thinker",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ao-bai",
+      "name": "鳌拜",
+      "display": "鳌拜",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1610,
+      "death": 1669,
+      "title": "辅政大臣",
+      "bio": "功臣，顺治遗命辅政四大臣之一；康熙初专横，终为少年帝设计擒除。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hong-xiuquan",
+      "name": "洪秀全",
+      "display": "洪秀全",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1814,
+      "death": 1864,
+      "title": "太平天国",
+      "bio": "科举失意而创拜上帝会，1851 年建太平天国，席卷半壁，1864 年天京陷身死。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "rebel",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-shikai",
+      "name": "袁世凯",
+      "display": "袁世凯",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1859,
+      "death": 1916,
+      "title": "北洋领袖",
+      "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "regent",
+        "official",
+        "general",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-sangui",
+      "name": "吴三桂",
+      "display": "吴三桂",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1612,
+      "death": 1678,
+      "title": "引清兵入关 · 平西王",
+      "bio": "辽东将家子，镇山海关。崇祯自缢后降清，乞师入关破李自成；后为平西王镇云南，三藩之乱举兵败亡。",
+      "tags": [
+        "明",
+        "清"
+      ],
+      "categories": [
+        "vassal",
+        "warlord",
+        "rebel",
+        "general",
+        "falling"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 党争",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "nurhaci",
+      "target": "hong-taiji",
+      "type": "kin",
+      "note": "父子，后金大汗传位次子"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "fu-lin",
+      "type": "kin",
+      "note": "父子，皇太极第九子嗣位"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "note": "兄弟，多尔衮为太宗之弟"
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "fu-lin",
+      "type": "ruler-subject",
+      "note": "摄政王辅幼主顺治"
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "wu-sangui",
+      "type": "ruler-subject",
+      "note": "纳降封平西王，借兵入关"
+    },
+    {
+      "source": "kang-xi",
+      "target": "ao-bai",
+      "type": "rival",
+      "note": "少年即位，智擒鳌拜亲政"
+    },
+    {
+      "source": "kang-xi",
+      "target": "shi-lang",
+      "type": "ruler-subject",
+      "note": "命施琅统水师收台湾"
+    },
+    {
+      "source": "kang-xi",
+      "target": "wu-sangui",
+      "type": "rival",
+      "note": "三藩之乱，康熙平之"
+    },
+    {
+      "source": "yong-zheng",
+      "target": "nian-gengyao",
+      "type": "ruler-subject",
+      "note": "倚为抚远大将军平青海"
+    },
+    {
+      "source": "yong-zheng",
+      "target": "nian-gengyao",
+      "type": "rival",
+      "note": "功高见忌，赐令自尽"
+    },
+    {
+      "source": "yong-zheng",
+      "target": "zhang-tingyu",
+      "type": "ruler-subject",
+      "note": "信任元辅，配享太庙"
+    },
+    {
+      "source": "qian-long",
+      "target": "he-shen",
+      "type": "ruler-subject",
+      "note": "晚年宠信和珅，权倾朝野"
+    },
+    {
+      "source": "dao-guang",
+      "target": "lin-zexu",
+      "type": "ruler-subject",
+      "note": "任为钦差，赴粤禁烟"
+    },
+    {
+      "source": "cixi",
+      "target": "guang-xu",
+      "type": "kin",
+      "note": "姨侄，慈禧垂帘训政"
+    },
+    {
+      "source": "cixi",
+      "target": "guang-xu",
+      "type": "rival",
+      "note": "甲午后母子猜忌，戊戌囚帝"
+    },
+    {
+      "source": "guang-xu",
+      "target": "kang-youwei",
+      "type": "ruler-subject",
+      "note": "召见维新，推行变法"
+    },
+    {
+      "source": "kang-youwei",
+      "target": "liang-qichao",
+      "type": "mentor",
+      "note": "梁启超师事康有为"
+    },
+    {
+      "source": "kang-youwei",
+      "target": "tan-sitong",
+      "type": "peer",
+      "note": "维新同志，同列新政"
+    },
+    {
+      "source": "cixi",
+      "target": "tan-sitong",
+      "type": "rival",
+      "note": "戊戌政变，杀六君子"
+    },
+    {
+      "source": "zeng-guofan",
+      "target": "hong-xiuquan",
+      "type": "rival",
+      "note": "湘军起兵，剿灭太平天国"
+    },
+    {
+      "source": "zeng-guofan",
+      "target": "li-hongzhang",
+      "type": "mentor",
+      "note": "李鸿章出自曾门，编练淮军"
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "zuo-zongtang",
+      "type": "rival",
+      "note": "塞防海防之争，洋务同途异见"
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "zhang-zhidong",
+      "type": "peer",
+      "note": "同办洋务，南北呼应"
+    },
+    {
+      "source": "yi-xin",
+      "target": "li-hongzhang",
+      "type": "peer",
+      "note": "总理衙门主洋务，倚李主持"
+    },
+    {
+      "source": "gu-yanwu",
+      "target": "huang-zongxi",
+      "type": "peer",
+      "note": "清初三大儒，并称于世"
+    },
+    {
+      "source": "huang-zongxi",
+      "target": "wang-fuzhi",
+      "type": "peer",
+      "note": "三大儒之一，倡经世之学"
+    },
+    {
+      "source": "yuan-shikai",
+      "target": "xuan-tong",
+      "type": "rival",
+      "note": "逼清帝退位，终结帝制"
+    },
+    {
+      "source": "qian-long",
+      "target": "jia-qing",
+      "type": "kin",
+      "note": "父子，乾隆传嘉庆"
+    },
+    {
+      "source": "jia-qing",
+      "target": "dao-guang",
+      "type": "kin",
+      "note": "父子，嘉庆传道光"
+    },
+    {
+      "source": "dao-guang",
+      "target": "xian-feng",
+      "type": "kin",
+      "note": "父子，道光传咸丰"
+    },
+    {
+      "source": "xian-feng",
+      "target": "tong-zhi",
+      "type": "kin",
+      "note": "父子，咸丰传同治"
+    },
+    {
+      "source": "tong-zhi",
+      "target": "guang-xu",
+      "type": "kin",
+      "note": "堂兄弟叔侄，同治无嗣，慈禧立醇亲王之子载湉为光绪"
+    },
+    {
+      "source": "guang-xu",
+      "target": "xuan-tong",
+      "type": "kin",
+      "note": "叔侄，光绪无嗣，摄政王载沣子溥仪继位为宣统"
+    }
+  ],
+  "events": [
+    {
+      "id": "qing-houjin",
+      "name": "后金立国",
+      "kind": "point",
+      "year": 1616,
+      "people": [
+        "nurhaci"
+      ],
+      "desc": "努尔哈赤统一女真诸部，建后金称大汗，创八旗、定满文，奠定清之基业。"
+    },
+    {
+      "id": "qing-gaiguo",
+      "name": "皇太极改国号清",
+      "kind": "point",
+      "year": 1636,
+      "people": [
+        "hong-taiji"
+      ],
+      "desc": "皇太极称帝，改族名满洲、国号大清，锐意南略，屡叩明边。"
+    },
+    {
+      "id": "qing-ruguan",
+      "name": "清军入关 · 定鼎北京",
+      "kind": "point",
+      "year": 1644,
+      "people": [
+        "duo-er-gun",
+        "wu-sangui",
+        "fu-lin"
+      ],
+      "desc": "李自成破京、崇祯自缢；吴三桂乞师，多尔衮率清军入关击败大顺，迎顺治迁都北京。"
+    },
+    {
+      "id": "qing-taiwan",
+      "name": "施琅收台湾",
+      "kind": "point",
+      "year": 1683,
+      "people": [
+        "shi-lang",
+        "kang-xi"
+      ],
+      "desc": "康熙命施琅攻台，郑克塽降，台湾正式纳入版图，设府置县。"
+    },
+    {
+      "id": "qing-sanfan",
+      "name": "平三藩",
+      "kind": "point",
+      "year": 1681,
+      "people": [
+        "kang-xi",
+        "wu-sangui"
+      ],
+      "desc": "吴三桂举兵，三藩乱起；康熙运筹决胜，历时八年平定，集权于中央。"
+    },
+    {
+      "id": "qing-kangyongqian",
+      "name": "康雍乾盛世",
+      "kind": "span",
+      "year": 1681,
+      "endYear": 1795,
+      "people": [
+        "kang-xi",
+        "yong-zheng",
+        "qian-long",
+        "zhang-tingyu",
+        "he-shen"
+      ],
+      "desc": "康熙靖内、雍正肃政集权、乾隆十全武功；编《字典》、拓疆土、兴文字狱，史称盛世。"
+    },
+    {
+      "id": "qing-yapian",
+      "name": "鸦片战争",
+      "kind": "point",
+      "year": 1840,
+      "people": [
+        "dao-guang",
+        "lin-zexu",
+        "guan-tianpei"
+      ],
+      "desc": "林则徐虎门销烟，英舰叩关；关天培虎门殉国，清战败签《南京条约》，国门洞开。"
+    },
+    {
+      "id": "qing-taiping",
+      "name": "太平天国",
+      "kind": "span",
+      "year": 1851,
+      "endYear": 1864,
+      "people": [
+        "hong-xiuquan",
+        "zeng-guofan"
+      ],
+      "desc": "洪秀全起事建号，席卷半壁；曾国藩湘军苦战，克天京而平，清廷元气大伤。"
+    },
+    {
+      "id": "qing-yangwu",
+      "name": "洋务运动",
+      "kind": "span",
+      "year": 1861,
+      "endYear": 1895,
+      "people": [
+        "yi-xin",
+        "zeng-guofan",
+        "li-hongzhang",
+        "zuo-zongtang",
+        "zhang-zhidong"
+      ],
+      "desc": "办工厂、练新军、兴学堂、派遣留洋，师夷长技以求自强，为近代化之始。"
+    },
+    {
+      "id": "qing-jiawu",
+      "name": "甲午战争",
+      "kind": "point",
+      "year": 1894,
+      "people": [
+        "deng-shichang",
+        "guang-xu"
+      ],
+      "desc": "北洋水师与日决战黄海，邓世昌蹈海殉国；战后割台赔款，洋务受挫，举国震动。"
+    },
+    {
+      "id": "qing-wuxu",
+      "name": "戊戌变法",
+      "kind": "point",
+      "year": 1898,
+      "people": [
+        "guang-xu",
+        "kang-youwei",
+        "liang-qichao",
+        "tan-sitong",
+        "cixi"
+      ],
+      "desc": "光绪下诏维新，康有为等辅政行新政；百日而慈禧政变，谭嗣同等六君子死，帝被囚。"
+    },
+    {
+      "id": "qing-xinhai",
+      "name": "辛亥革命 · 清亡",
+      "kind": "point",
+      "year": 1912,
+      "people": [
+        "yuan-shikai",
+        "xuan-tong"
+      ],
+      "desc": "武昌起义，各省响应；袁世凯逼宫，宣统退位，两千年帝制终结，清祚终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "清全览",
+      "from": 1610,
+      "to": 1920,
+      "focus": "nurhaci",
+      "brief": "努尔哈赤起兵于白山黑水，皇太极改号大清；多尔衮借吴三桂入关，定鼎北京。康雍乾三世鼎盛，文治武功并隆；嘉道以降西力东渐，鸦片战火洞开国门。曾左李办洋务、剿太平，难挽倾颓；戊戌维新昙花一现，辛亥一击而清亡。"
+    },
+    {
+      "id": "kai",
+      "name": "开国与入关",
+      "from": 1610,
+      "to": 1690,
+      "focus": "nurhaci",
+      "people": [
+        "nurhaci",
+        "hong-taiji",
+        "fu-lin",
+        "duo-er-gun",
+        "wu-sangui",
+        "kang-xi",
+        "ao-bai",
+        "shi-lang"
+      ],
+      "events": [
+        "qing-houjin",
+        "qing-gaiguo",
+        "qing-ruguan",
+        "qing-taiwan",
+        "qing-sanfan"
+      ],
+      "brief": "从后金立国到康熙平藩：努尔哈赤奠基、皇太极建制、多尔衮入关，吴三桂一役定鼎易主；少年康熙擒鳌拜、收台湾、平三藩，开一代之盛。"
+    },
+    {
+      "id": "sheng",
+      "name": "康雍乾盛世",
+      "from": 1660,
+      "to": 1800,
+      "focus": "kang-xi",
+      "people": [
+        "kang-xi",
+        "yong-zheng",
+        "qian-long",
+        "zhang-tingyu",
+        "he-shen",
+        "nian-gengyao"
+      ],
+      "events": [
+        "qing-kangyongqian"
+      ],
+      "brief": "康熙亲政、雍正肃贪集权、乾隆十全武功；张廷玉配享太庙，和珅揽权埋患。文字狱与编书并行，盛世之下隐忧已生。"
+    },
+    {
+      "id": "bian",
+      "name": "晚清变局",
+      "from": 1830,
+      "to": 1920,
+      "focus": "dao-guang",
+      "people": [
+        "dao-guang",
+        "lin-zexu",
+        "guan-tianpei",
+        "hong-xiuquan",
+        "zeng-guofan",
+        "yi-xin",
+        "li-hongzhang",
+        "zuo-zongtang",
+        "zhang-zhidong",
+        "guang-xu",
+        "cixi",
+        "kang-youwei",
+        "liang-qichao",
+        "tan-sitong",
+        "deng-shichang",
+        "yuan-shikai",
+        "xuan-tong"
+      ],
+      "events": [
+        "qing-yapian",
+        "qing-taiping",
+        "qing-yangwu",
+        "qing-jiawu",
+        "qing-wuxu",
+        "qing-xinhai"
+      ],
+      "brief": "鸦片战火开局，太平天国撼基；曾左李以洋务图强，甲午一败涂地。戊戌维新遇慈禧政变，辛亥枪响、袁世凯逼宫，宣统退位，帝制落幕。"
+    }
+  ]
+}

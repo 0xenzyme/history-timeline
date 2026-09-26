@@ -1,0 +1,676 @@
+{
+  "meta": {
+    "id": "ming",
+    "title": "明",
+    "subtitle": "从洪武开国到煤山国殇 · 公元 1328 — 公元 1644",
+    "range": [
+      1320,
+      1660
+    ]
+  },
+  "catalog": {
+    "subtitle": "从洪武开国到煤山国殇",
+    "region": "cn",
+    "eras": [
+      "ming"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "chancellor",
+      "name": "名相 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "科技 · 文化",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "end",
+      "name": "权臣 · 末世群雄",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "zhu-yuanzhang",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-di",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-zhanji",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-qizhen",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-houcong",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-yijun",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-youjian",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-yunwen",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-gaochi",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-qiyu",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-jianshen",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-youtang",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-houzhao",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-zaiji",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-changluo",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-youxiao",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-ji",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-shiqi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yu-qian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-shouren",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-juzheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "hai-rui",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yan-song",
+      "lane": "end"
+    },
+    {
+      "id": "wei-zhongxian",
+      "lane": "end"
+    },
+    {
+      "id": "xu-da",
+      "lane": "general"
+    },
+    {
+      "id": "chang-yuchun",
+      "lane": "general"
+    },
+    {
+      "id": "qi-jiguang",
+      "lane": "general"
+    },
+    {
+      "id": "yuan-chonghuan",
+      "lane": "general"
+    },
+    {
+      "id": "zheng-he",
+      "lane": "general"
+    },
+    {
+      "id": "li-shi-zhen",
+      "lane": "literati"
+    },
+    {
+      "id": "xu-guangqi",
+      "lane": "literati"
+    },
+    {
+      "id": "song-yingxing",
+      "lane": "literati"
+    },
+    {
+      "id": "tang-xianzu",
+      "lane": "literati"
+    },
+    {
+      "id": "luo-guanzhong",
+      "lane": "literati"
+    },
+    {
+      "id": "wu-chengen",
+      "lane": "literati"
+    },
+    {
+      "id": "li-zicheng",
+      "lane": "end"
+    },
+    {
+      "id": "zhang-xianzhong",
+      "lane": "end"
+    },
+    {
+      "id": "wu-sangui",
+      "lane": "end"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 党争",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yuanzhang",
+      "target": "liu-ji",
+      "type": "ruler-subject",
+      "note": "谋主，定开国方略"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "xu-da",
+      "type": "ruler-subject",
+      "note": "开国第一将，北伐克大都"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "chang-yuchun",
+      "type": "ruler-subject",
+      "note": "常遇春充先锋，所向披靡"
+    },
+    {
+      "source": "zhu-di",
+      "target": "zheng-he",
+      "type": "ruler-subject",
+      "note": "遣郑和七下西洋"
+    },
+    {
+      "source": "zhu-di",
+      "target": "yang-shiqi",
+      "type": "ruler-subject",
+      "note": "靖难后入阁，开仁宣之治"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "yu-qian",
+      "type": "ruler-subject",
+      "since": 1449,
+      "note": "土木堡后于谦督师守北京"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "yu-qian",
+      "type": "rival",
+      "note": "南宫复辟，以冤罪杀于谦"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "yan-song",
+      "type": "ruler-subject",
+      "note": "宠严嵩，权倾二十年"
+    },
+    {
+      "source": "yan-song",
+      "target": "hai-rui",
+      "type": "rival",
+      "note": "海瑞上疏骂嘉靖，严党侧目"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "wang-shouren",
+      "type": "ruler-subject",
+      "note": "平宁王宸濠，封新建伯"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "qi-jiguang",
+      "type": "ruler-subject",
+      "since": 1555,
+      "note": "调继光镇东南，平倭患"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhang-juzheng",
+      "type": "ruler-subject",
+      "since": 1572,
+      "note": "冲龄即位，居正摄政行新政"
+    },
+    {
+      "source": "tang-xianzu",
+      "target": "luo-guanzhong",
+      "type": "peer",
+      "note": "并峙明小说戏曲之林"
+    },
+    {
+      "source": "li-shi-zhen",
+      "target": "xu-guangqi",
+      "type": "peer",
+      "note": "晚明实学，医农并重"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "wei-zhongxian",
+      "type": "rival",
+      "note": "即位即逮治魏忠贤"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "yuan-chonghuan",
+      "type": "ruler-subject",
+      "since": 1626,
+      "note": "任为督师，旋中反间冤杀"
+    },
+    {
+      "source": "li-zicheng",
+      "target": "zhu-youjian",
+      "type": "rival",
+      "since": 1644,
+      "note": "破北京，崇祯自缢煤山"
+    },
+    {
+      "source": "li-zicheng",
+      "target": "zhang-xianzhong",
+      "type": "peer",
+      "note": "并起陕北，分流南北"
+    },
+    {
+      "source": "wu-sangui",
+      "target": "li-zicheng",
+      "type": "rival",
+      "since": 1644,
+      "note": "降清乞师，山海关破闯"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "zhu-yunwen",
+      "type": "kin",
+      "note": "祖孙，太祖立皇太孙建文继统"
+    },
+    {
+      "source": "zhu-yunwen",
+      "target": "zhu-di",
+      "type": "kin",
+      "note": "叔侄，靖难之役成祖夺位"
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-gaochi",
+      "type": "kin",
+      "note": "父子，成祖传仁宗"
+    },
+    {
+      "source": "zhu-gaochi",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "note": "父子，仁宗传宣宗"
+    },
+    {
+      "source": "zhu-zhanji",
+      "target": "zhu-qizhen",
+      "type": "kin",
+      "note": "父子，宣宗传英宗"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "zhu-qiyu",
+      "type": "kin",
+      "note": "兄弟，英宗北狩，景帝代位"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "zhu-jianshen",
+      "type": "kin",
+      "note": "父子，英宗传宪宗"
+    },
+    {
+      "source": "zhu-jianshen",
+      "target": "zhu-youtang",
+      "type": "kin",
+      "note": "父子，宪宗传孝宗"
+    },
+    {
+      "source": "zhu-youtang",
+      "target": "zhu-houzhao",
+      "type": "kin",
+      "note": "父子，孝宗传武宗"
+    },
+    {
+      "source": "zhu-houzhao",
+      "target": "zhu-houcong",
+      "type": "kin",
+      "note": "堂兄弟，武宗无嗣，世宗入继"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "zhu-zaiji",
+      "type": "kin",
+      "note": "父子，世宗传穆宗"
+    },
+    {
+      "source": "zhu-zaiji",
+      "target": "zhu-yijun",
+      "type": "kin",
+      "note": "父子，穆宗传神宗"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhu-changluo",
+      "type": "kin",
+      "note": "父子，神宗传光宗"
+    },
+    {
+      "source": "zhu-changluo",
+      "target": "zhu-youxiao",
+      "type": "kin",
+      "note": "父子，光宗传熹宗"
+    },
+    {
+      "source": "zhu-youxiao",
+      "target": "zhu-youjian",
+      "type": "kin",
+      "note": "兄弟，熹宗崩，弟思宗继"
+    }
+  ],
+  "events": [
+    {
+      "id": "ming-kai",
+      "name": "朱元璋称帝 · 明朝建立",
+      "kind": "point",
+      "year": 1368,
+      "people": [
+        "zhu-yuanzhang",
+        "liu-ji",
+        "xu-da"
+      ],
+      "desc": "朱元璋即皇帝位，国号大明，定都南京；旋北伐克大都，元亡。封功臣、定卫所，开一代典制。"
+    },
+    {
+      "id": "ming-jingnan",
+      "name": "靖难之役 · 永乐即位",
+      "kind": "point",
+      "year": 1402,
+      "people": [
+        "zhu-di",
+        "zhu-yuanzhang"
+      ],
+      "desc": "燕王朱棣起兵靖难，入南京继统。在位营北京、修大典、通西洋，是为永乐盛世。"
+    },
+    {
+      "id": "ming-qiandu",
+      "name": "迁都北京",
+      "kind": "point",
+      "year": 1421,
+      "people": [
+        "zhu-di"
+      ],
+      "desc": "改北平为京师，营建紫禁城，天子守边，奠定此后五百年都城格局。"
+    },
+    {
+      "id": "ming-xiyang",
+      "name": "郑和下西洋",
+      "kind": "span",
+      "year": 1405,
+      "endYear": 1433,
+      "people": [
+        "zheng-he",
+        "zhu-di"
+      ],
+      "desc": "郑和七下西洋，历三十余国，宝船遮海，通好远邦，为古代航海之极。"
+    },
+    {
+      "id": "ming-tumu",
+      "name": "土木堡之变",
+      "kind": "point",
+      "year": 1449,
+      "people": [
+        "zhu-qizhen",
+        "yu-qian"
+      ],
+      "desc": "英宗亲征瓦剌，土木堡溃败被俘；于谦力排南迁，拥郕王监国，督师破敌于北京。"
+    },
+    {
+      "id": "ming-duomen",
+      "name": "夺门之变 · 于谦冤死",
+      "kind": "point",
+      "year": 1457,
+      "people": [
+        "zhu-qizhen",
+        "yu-qian"
+      ],
+      "desc": "英宗南宫复辟，杀于谦。谦社稷之臣，天下冤之；明之忠佞由此可见。"
+    },
+    {
+      "id": "ming-kangwo",
+      "name": "戚继光平倭",
+      "kind": "span",
+      "year": 1555,
+      "endYear": 1566,
+      "people": [
+        "qi-jiguang",
+        "zhu-houcong"
+      ],
+      "desc": "东南倭患炽，戚继光练义乌兵、创鸳鸯阵，扫平浙闽倭寇，海疆稍安。"
+    },
+    {
+      "id": "ming-zhangju",
+      "name": "张居正改革 · 一条鞭",
+      "kind": "span",
+      "year": 1572,
+      "endYear": 1582,
+      "people": [
+        "zhang-juzheng",
+        "zhu-yijun"
+      ],
+      "desc": "神宗冲龄，居正摄政行考成法、清丈田亩、推一条鞭，国库充盈；身后抄家，法度渐弛。"
+    },
+    {
+      "id": "ming-yan",
+      "name": "严嵩用事 · 海瑞上疏",
+      "kind": "point",
+      "year": 1566,
+      "people": [
+        "yan-song",
+        "hai-rui",
+        "zhu-houcong"
+      ],
+      "desc": "严嵩窃柄、边防日坏；海瑞备棺上《治安疏》直谏嘉靖，朝野震动。"
+    },
+    {
+      "id": "ming-wanli",
+      "name": "万历怠政",
+      "kind": "span",
+      "year": 1582,
+      "endYear": 1620,
+      "people": [
+        "zhu-yijun",
+        "wei-zhongxian"
+      ],
+      "desc": "张居正卒后，神宗深居不朝，党争蜂起、矿税横征，明之衰象尽显。"
+    },
+    {
+      "id": "ming-yuan",
+      "name": "袁崇焕守辽",
+      "kind": "point",
+      "year": 1629,
+      "people": [
+        "yuan-chonghuan",
+        "zhu-youjian"
+      ],
+      "desc": "袁崇焕督师辽东，宁锦屡挫后金；崇祯中反间见疑，逮治凌迟，自毁长城。"
+    },
+    {
+      "id": "ming-wang",
+      "name": "闯王破京 · 明亡",
+      "kind": "point",
+      "year": 1644,
+      "people": [
+        "li-zicheng",
+        "zhang-xianzhong",
+        "wu-sangui",
+        "zhu-youjian"
+      ],
+      "desc": "李自成破北京，崇祯自缢煤山；吴三桂引清兵入关，山海关一战定鼎易主，明祚终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "明全览",
+      "from": 1320,
+      "to": 1660,
+      "focus": "zhu-yuanzhang",
+      "brief": "朱元璋的条起于洪武，压过其下六帝。徐达、常遇春、郑和列于开国；张居正、戚继光撑起中叶；尾段魏忠贤、袁崇焕、李自成、吴三桂把国运拽向煤山。"
+    },
+    {
+      "id": "kai",
+      "name": "开国与永乐",
+      "from": 1350,
+      "to": 1435,
+      "focus": "zhu-yuanzhang",
+      "brief": "朱元璋称帝、北伐克元；朱棣靖难、迁都北京、派郑和下西洋。刘基、徐达、姚广孝一脉，奠定二百年格局。",
+      "people": [
+        "zhu-yuanzhang",
+        "liu-ji",
+        "xu-da",
+        "chang-yuchun",
+        "zhu-di",
+        "yang-shiqi",
+        "zheng-he"
+      ],
+      "events": [
+        "ming-kai",
+        "ming-jingnan",
+        "ming-qiandu",
+        "ming-xiyang"
+      ]
+    },
+    {
+      "id": "zhong",
+      "name": "中叶：倭患与改革",
+      "from": 1500,
+      "to": 1600,
+      "focus": "zhu-houcong",
+      "brief": "嘉靖崇道委严嵩，海瑞骂疏；王守仁平宸濠、倡心学；戚继光平倭、张居正行新政。一代治乱相掺。",
+      "people": [
+        "zhu-houcong",
+        "yan-song",
+        "hai-rui",
+        "wang-shouren",
+        "qi-jiguang",
+        "zhu-yijun",
+        "zhang-juzheng",
+        "li-shi-zhen",
+        "xu-guangqi",
+        "song-yingxing",
+        "tang-xianzu",
+        "luo-guanzhong",
+        "wu-chengen"
+      ],
+      "events": [
+        "ming-kangwo",
+        "ming-zhangju",
+        "ming-yan",
+        "ming-wanli"
+      ]
+    },
+    {
+      "id": "mo",
+      "name": "末世：危局与鼎革",
+      "from": 1580,
+      "to": 1660,
+      "focus": "zhu-youjian",
+      "brief": "万历怠政、天启阉祸；崇祯诛魏忠贤而自毁长城，袁崇焕冤死。李自成破京、吴三桂引清兵，煤山一缢，明亡清兴。",
+      "people": [
+        "zhu-yijun",
+        "wei-zhongxian",
+        "zhu-youjian",
+        "yuan-chonghuan",
+        "li-zicheng",
+        "zhang-xianzhong",
+        "wu-sangui"
+      ],
+      "events": [
+        "ming-wanli",
+        "ming-yuan",
+        "ming-wang"
+      ]
+    }
+  ]
+}

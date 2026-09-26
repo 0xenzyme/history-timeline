@@ -1,0 +1,1031 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "qin",
+    "title": "秦 · 帝国与楚汉",
+    "subtitle": "从一统天下到楚汉相争 · 公元前 221 — 公元前 202",
+    "range": [
+      -250,
+      -195
+    ]
+  },
+  "lanes": [
+    {
+      "id": "qin-ruler",
+      "name": "秦君",
+      "color": "#c0392b"
+    },
+    {
+      "id": "qin-official",
+      "name": "秦朝臣僚",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "chu",
+      "name": "楚军",
+      "color": "#922b3a"
+    },
+    {
+      "id": "han",
+      "name": "汉军",
+      "color": "#4a9c5d"
+    },
+    {
+      "id": "rebel",
+      "name": "秦末民变",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "lane": "qin-ruler",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -259,
+      "death": -210,
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-fusu",
+      "name": "嬴扶苏",
+      "display": "扶苏",
+      "lane": "qin-ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -210,
+      "title": "始皇长子，监军上郡，矫诏赐死",
+      "bio": "谏坑术士而外出监蒙恬军。始皇崩于沙丘，赵高、李斯矫诏，赐死于上郡。他的死把秦的继承线切断，陈胜起兵时还打着他的名号。",
+      "tags": [
+        "秦朝"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-huhai",
+      "name": "嬴胡亥",
+      "display": "秦二世",
+      "lane": "qin-ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -207,
+      "title": "秦二世皇帝，赵高所立，三年而亡",
+      "bio": "始皇少子。沙丘之谋后即位，杀扶苏、蒙恬，诛诸公子与公主，续修阿房、骊山。三年后赵高指鹿为马，望夷之变中被逼自杀。条短，却是秦从统一到崩塌的全部时间。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-ziying",
+      "name": "嬴子婴",
+      "display": "秦王子婴",
+      "lane": "qin-ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -206,
+      "deathNote": "在位仅四十六日，降刘邦；项羽入关后被杀。年份从前 206 年。",
+      "title": "秦末代君主，降刘邦",
+      "bio": "赵高立之。诛赵高，在位四十六日，素车白马出降于轵道。项羽入咸阳后被杀。秦的条到他这里结束，之后是楚汉。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-si",
+      "name": "李斯",
+      "display": "李斯",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -208,
+      "title": "秦丞相，郡县与同文，腰斩咸阳",
+      "bio": "楚上蔡人，荀子之徒。佐始皇并天下、定郡县、同文书，持法家治国。沙丘之谋与赵高合，旋被赵高所构，具五刑腰斩于咸阳。他与赵高的两条在二世那段对咬。",
+      "tags": [
+        "秦朝",
+        "丞相"
+      ],
+      "categories": [
+        "legalism"
+      ],
+      "primary": "legalism",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-gao",
+      "name": "赵高",
+      "display": "赵高",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -207,
+      "title": "秦中车府令、丞相，指鹿为马",
+      "bio": "沙丘矫诏，杀扶苏与蒙氏，构陷李斯，遂为丞相。指鹿为马以测群臣。二世三年被子婴所杀。亡秦这条线从他起，也到他止。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-tian",
+      "name": "蒙恬",
+      "display": "蒙恬",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -210,
+      "deathNote": "沙丘之变后二世遣使赐死于阳周，系于始皇崩年之内，今从前 210 年。",
+      "title": "秦将，北却匈奴，筑长城",
+      "bio": "将三十万众北击胡，取河南地，筑长城、修直道。始皇崩后与扶苏同被矫诏赐死。秦的边防线画在他这条上，条一断，九原再无人守。",
+      "tags": [
+        "秦朝",
+        "长城",
+        "北边"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-yi",
+      "name": "蒙毅",
+      "display": "蒙毅",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -209,
+      "deathNote": "二世即位后杀蒙毅，《蒙恬列传》系于二世初年，今从前 209 年。",
+      "title": "秦上卿，蒙恬之弟",
+      "bio": "位至上卿，出则参乘，入则御前。二世即位后先囚后代，杀之。蒙氏兄弟两条同年截断，是沙丘之谋的另一半账。",
+      "tags": [
+        "秦朝",
+        "宗室旧臣"
+      ],
+      "categories": [
+        "official",
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qin"
+      ]
+    },
+    {
+      "id": "zhang-han",
+      "name": "章邯",
+      "display": "章邯",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -205,
+      "title": "秦将，破陈胜，降项羽，封雍王",
+      "bio": "将骊山徒与人奴产子击陈胜、项梁，一度压住关东。巨鹿兵败降楚，坑卒二十万。封雍王，前 205 年汉军定三秦，废丘城破自杀。秦最后一支能打的兵，断在他这条上。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiang-liang",
+      "name": "项梁",
+      "display": "项梁",
+      "lane": "chu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -208,
+      "title": "楚将，立楚怀王，定陶战死",
+      "bio": "项燕之子、项羽季父。会稽起兵，得范增之谋，立楚怀王孙心以号召楚人。连破秦军而轻敌，前 208 年定陶为章邯所败战死。楚的兵权从此落到项羽手里。",
+      "tags": [
+        "秦末",
+        "楚"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiang-yu",
+      "name": "项籍",
+      "display": "项羽",
+      "lane": "chu",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": -232,
+      "death": -202,
+      "birthNote": "《项羽本纪》：初起时年二十四。起兵在前 209 年，据此推生于前 232 年前后，史无明载。",
+      "title": "西楚霸王，巨鹿破秦，垓下自刎",
+      "bio": "下相人，字羽。巨鹿之战破釜沉舟，坑秦卒二十万，分封十八王而自称西楚霸王。楚汉四年，垓下兵败，自刎乌江。条只三十一年，压过整个秦汉之间。",
+      "tags": [
+        "秦末",
+        "楚汉",
+        "霸王"
+      ],
+      "categories": [
+        "general",
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-zeng",
+      "name": "范增",
+      "display": "范增",
+      "lane": "chu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -204,
+      "title": "项羽谋士，亚父，疽发背死",
+      "bio": "居巢人，年七十说项梁立楚后，遂为项羽谋主。鸿门之宴劝杀刘邦不听。陈平反问之，项羽疑之，愤而归彭城，疽发背死。他一走，楚的一条就只剩下项羽自己。",
+      "tags": [
+        "秦末",
+        "楚汉"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "chu"
+      ]
+    },
+    {
+      "id": "xiong-xin",
+      "name": "熊心",
+      "display": "楚怀王",
+      "lane": "chu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -205,
+      "title": "楚怀王孙，义帝，为项羽所杀",
+      "bio": "楚怀王之孙，牧羊民间，项梁立之以收楚望。曾与诸将约「先入关中者王之」。项羽分封后尊为义帝，迁郴而阴令杀之。他这条被截断，给了刘邦出兵的名义。",
+      "tags": [
+        "秦末",
+        "楚"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-bang",
+      "name": "刘邦",
+      "display": "汉高祖",
+      "lane": "han",
+      "birthAccuracy": "disputed",
+      "deathAccuracy": "exact",
+      "birth": -256,
+      "death": -195,
+      "birthNote": "生年有前 256、前 247 两说",
+      "title": "西汉开国皇帝",
+      "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
+      "tags": [
+        "布衣天子"
+      ],
+      "categories": [
+        "founding"
+      ],
+      "primary": "founding",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-liang",
+      "name": "张良",
+      "display": "张良",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -186,
+      "title": "汉留侯，佐高祖定天下",
+      "bio": "韩人，五世相韩，博浪沙椎秦不中。下邳得黄石公书，归刘邦为谋主。鸿门之解、烧栈道、封韩信、定太子，皆其谋。功成自请留侯而学辟谷。条从秦末起，收在汉初。",
+      "tags": [
+        "楚汉",
+        "汉初"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-xin",
+      "name": "韩信",
+      "display": "韩信",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -196,
+      "title": "齐王、楚王，淮阴侯，死于长乐宫",
+      "bio": "淮阴人，胯下之辱起家。萧何追之，遂拜大将。破魏、代、赵、齐，垓下十面埋伏。先王齐、徙楚，再贬淮阴侯，终为吕后所杀。条只到汉初，死在最功高处。",
+      "tags": [
+        "楚汉",
+        "汉初"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "peng-yue",
+      "name": "彭越",
+      "display": "彭越",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -196,
+      "title": "梁王，游击于楚后，被醢",
+      "bio": "昌邑人，钜野泽中为盗。楚汉相持，常往来梁地绝楚粮道，所谓彭越挠楚。封梁王，后以谋反被捕，贬蜀，吕后令舍人告之，诛而醢其肉赐诸侯。与韩信、英布同年收场。",
+      "tags": [
+        "楚汉",
+        "汉初"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-bu",
+      "name": "英布",
+      "display": "英布",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -196,
+      "title": "九江王、淮南王，黥面之刑出身",
+      "bio": "六人，坐法黥面，故称黥布。随项梁、项羽，常为先锋，封九江王。楚汉间归汉，封淮南王。韩信、彭越死后惧而反，兵败为番阳人所杀。异姓王的收尾画在这几条上。",
+      "tags": [
+        "楚汉",
+        "汉初"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-he",
+      "name": "萧何",
+      "display": "萧何",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -193,
+      "title": "汉相国，守关中，定律令",
+      "bio": "沛人，为高祖主吏。入咸阳独收律令图书，楚汉间镇关中给粮补兵。追韩信、定《九章律》。位最高而自污以免疑，卒于前 193 年。汉的制度线从他这条起。",
+      "tags": [
+        "汉初",
+        "丞相",
+        "制度"
+      ],
+      "categories": [
+        "general",
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-can",
+      "name": "曹参",
+      "display": "曹参",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -190,
+      "title": "汉相国，萧规曹随",
+      "bio": "沛人，与萧何同为秦吏。战功封平阳侯，继萧何为相，举事无所变更，一遵何约束。百姓歌之曰「萧何为法，顜若画一；曹参代之，守而勿失」。",
+      "tags": [
+        "汉初",
+        "丞相"
+      ],
+      "categories": [
+        "huanglao"
+      ],
+      "primary": "huanglao",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-ping",
+      "name": "陈平",
+      "display": "陈平",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -178,
+      "title": "汉丞相，六出奇计，安刘氏",
+      "bio": "阳武人，家贫好读书。归汉后六出奇计：反问范增、夜出女子解荥阳围、蹑足封韩信、伪游云梦。吕后时为右丞相，与周勃诛诸吕立文帝。卒于前 178 年。",
+      "tags": [
+        "汉初",
+        "丞相"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-kuai",
+      "name": "樊哙",
+      "display": "樊哙",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -189,
+      "title": "汉舞阳侯，鸿门闯帐",
+      "bio": "沛人，屠狗为业，吕后妹夫。鸿门之宴带剑拥盾入，项羽赐之卮酒彘肩。从定天下，封舞阳侯。高祖末年几被诛，卒于前 189 年。",
+      "tags": [
+        "汉初",
+        "功臣"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhou-bo",
+      "name": "周勃",
+      "display": "周勃",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -169,
+      "title": "汉太尉，诛诸吕，安刘氏",
+      "bio": "沛人，织薄曲为生，材官引强。从高祖定天下，封绛侯。吕后崩，与陈平谋，夺北军诛诸吕，迎立代王为文帝。厚重少文，然安刘氏者必勃。卒于前 169 年。",
+      "tags": [
+        "汉初",
+        "功臣",
+        "诛吕"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guan-ying",
+      "name": "灌婴",
+      "display": "灌婴",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -176,
+      "title": "汉颍阴侯，骑兵别将，后为丞相",
+      "bio": "睢阳贩缯者。以骑兵属韩信、从高祖，破楚于垓下，追项羽至乌江。诛诸吕时与周勃同功，文帝时为丞相。卒于前 176 年。",
+      "tags": [
+        "汉初",
+        "功臣",
+        "诛吕"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-sheng",
+      "name": "陈胜",
+      "display": "陈胜",
+      "lane": "rebel",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -208,
+      "title": "大泽乡首事，张楚王",
+      "bio": "与人佣耕，前 209 年大雨失期，遂与吴广起于蕲县大泽乡，号张楚。六月而败，为御者庄贾所杀，葬砀。亡秦的第一条，短而陡。",
+      "tags": [
+        "秦末",
+        "首事"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-guang",
+      "name": "吴广",
+      "display": "吴广",
+      "lane": "rebel",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -208,
+      "title": "大泽乡同起，假王，为田臧所杀",
+      "bio": "与陈胜同举事，为假王，监诸将西击荥阳。围城不下，部将田臧矫陈胜令杀之。起事两个月就断，张楚内部分裂从这条开始。",
+      "tags": [
+        "秦末",
+        "首事"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-zheng",
+      "target": "ying-fusu",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-huhai",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "li-si",
+      "type": "ruler-subject",
+      "note": "用为廷尉、丞相，定郡县与焚书之策"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "meng-tian",
+      "type": "ruler-subject",
+      "since": -214,
+      "note": "北筑长城、逐匈奴"
+    },
+    {
+      "source": "meng-tian",
+      "target": "meng-yi",
+      "type": "kin",
+      "note": "兄弟，俱蒙氏"
+    },
+    {
+      "source": "li-si",
+      "target": "zhao-gao",
+      "type": "rival",
+      "note": "沙丘之谋同定密计，后赵高构陷李斯"
+    },
+    {
+      "source": "zhao-gao",
+      "target": "ying-huhai",
+      "type": "ruler-subject",
+      "note": "矫诏立胡亥，自任郎中令"
+    },
+    {
+      "source": "ying-ziying",
+      "target": "zhao-gao",
+      "type": "rival",
+      "since": -207,
+      "note": "子婴计杀赵高"
+    },
+    {
+      "source": "xiang-liang",
+      "target": "xiang-yu",
+      "type": "kin",
+      "note": "叔侄"
+    },
+    {
+      "source": "xiong-xin",
+      "target": "xiang-yu",
+      "type": "peer",
+      "note": "义帝与项氏，后项羽徙杀之"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "fan-zeng",
+      "type": "peer",
+      "note": "尊为亚父，鸿门献计"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhang-liang",
+      "type": "ruler-subject",
+      "note": "首席谋臣，画策入关"
+    },
+    {
+      "source": "liu-bang",
+      "target": "han-xin",
+      "type": "ruler-subject",
+      "since": -206,
+      "note": "拜大将，统兵定诸侯"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiang-yu",
+      "type": "rival",
+      "since": -206,
+      "note": "楚汉相争四年"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "zhang-han",
+      "type": "rival",
+      "since": -207,
+      "note": "巨鹿之战破秦军"
+    },
+    {
+      "source": "han-xin",
+      "target": "xiang-yu",
+      "type": "rival",
+      "since": -202,
+      "note": "垓下合围，四面楚歌"
+    },
+    {
+      "source": "han-xin",
+      "target": "ying-bu",
+      "type": "peer",
+      "note": "同列异姓王，皆叛楚归汉"
+    },
+    {
+      "source": "chen-sheng",
+      "target": "wu-guang",
+      "type": "peer",
+      "note": "大泽乡首义，王侯将相宁有种乎"
+    },
+    {
+      "source": "chen-sheng",
+      "target": "zhang-han",
+      "type": "rival",
+      "since": -208,
+      "note": "章邯破陈县，胜败死"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "note": "萧何主关中、镇后方，汉之丞相第一"
+    },
+    {
+      "source": "xiao-he",
+      "target": "cao-can",
+      "type": "peer",
+      "note": "萧规曹随，相继为相"
+    },
+    {
+      "source": "liu-bang",
+      "target": "chen-ping",
+      "type": "ruler-subject",
+      "note": "六出奇计，定汉业"
+    },
+    {
+      "source": "liu-bang",
+      "target": "fan-kuai",
+      "type": "kin",
+      "note": "沛县故人，鸿门卫士"
+    },
+    {
+      "source": "liu-bang",
+      "target": "guan-ying",
+      "type": "peer",
+      "note": "从起沛，骑兵名将"
+    },
+    {
+      "source": "zhou-bo",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "note": "厚重的周勃，后平定诸吕"
+    }
+  ],
+  "events": [
+    {
+      "id": "qin-chengdi",
+      "name": "秦王政称皇帝",
+      "kind": "point",
+      "year": -221,
+      "people": [
+        "ying-zheng",
+        "li-si"
+      ],
+      "desc": "灭齐，六国尽归一统。嬴政自以为「德兼三皇，功过五帝」，定名号曰皇帝，废谥法、行郡县。"
+    },
+    {
+      "id": "qin-changcheng",
+      "name": "北筑长城 · 开灵渠",
+      "kind": "point",
+      "year": -214,
+      "people": [
+        "ying-zheng",
+        "meng-tian"
+      ],
+      "desc": "蒙恬将三十万众北逐匈奴，连燕赵秦故城为万里长城；南征百越，凿灵渠通粮道。"
+    },
+    {
+      "id": "qin-shaqiu",
+      "name": "沙丘之变",
+      "kind": "point",
+      "year": -210,
+      "people": [
+        "ying-zheng",
+        "ying-fusu",
+        "zhao-gao",
+        "li-si"
+      ],
+      "desc": "始皇崩于巡游途中，赵高、李斯秘不发丧，矫诏赐死扶苏，立胡亥。"
+    },
+    {
+      "id": "qin-daze",
+      "name": "大泽乡起义",
+      "kind": "point",
+      "year": -209,
+      "people": [
+        "chen-sheng",
+        "wu-guang"
+      ],
+      "desc": "陈胜、吴广失期当斩，斩木为兵，揭竿而起，号张楚，天下响应。"
+    },
+    {
+      "id": "qin-julu",
+      "name": "巨鹿之战",
+      "kind": "point",
+      "year": -207,
+      "people": [
+        "xiang-yu",
+        "zhang-han",
+        "xiong-xin"
+      ],
+      "desc": "项羽破釜沉舟，九战绝秦军甬道，俘王离；章邯率余众降，秦主力尽丧。"
+    },
+    {
+      "id": "qin-wang",
+      "name": "秦朝亡",
+      "kind": "point",
+      "year": -207,
+      "people": [
+        "ying-ziying",
+        "zhao-gao"
+      ],
+      "desc": "赵高弑胡亥，立子婴。子婴诛赵高，出降沛公，秦祀遂绝。"
+    },
+    {
+      "id": "qin-xianyang",
+      "name": "项羽入咸阳",
+      "kind": "point",
+      "year": -206,
+      "people": [
+        "xiang-yu",
+        "liu-bang"
+      ],
+      "desc": "沛公先入关，约法三章；项羽后至，屠咸阳、烧宫室、杀子婴，分封十八路诸侯，自号西楚霸王。"
+    },
+    {
+      "id": "qin-chuhan",
+      "name": "楚汉相争",
+      "kind": "span",
+      "year": -206,
+      "endYear": -202,
+      "people": [
+        "liu-bang",
+        "xiang-yu",
+        "han-xin",
+        "zhang-liang"
+      ],
+      "desc": "刘邦据汉中，明修栈道暗度陈仓；韩信北定三秦、东破齐赵。正面持久而侧翼包抄，楚势渐蹙。"
+    },
+    {
+      "id": "qin-gaixia",
+      "name": "垓下之战",
+      "kind": "point",
+      "year": -202,
+      "people": [
+        "xiang-yu",
+        "han-xin",
+        "liu-bang"
+      ],
+      "desc": "韩信十面埋伏，四面楚歌。项羽突围至乌江自刎。同年刘邦即皇帝位，国号汉。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "秦楚全览",
+      "from": -250,
+      "to": -195,
+      "focus": "ying-zheng",
+      "brief": "从始皇并称皇帝到垓下楚歌。秦君一列红条极长，压过楚汉；下方汉军绿条与楚军酒红条在 -206 后咬住，垓下一战收束。"
+    },
+    {
+      "id": "qin-di",
+      "name": "一统与速亡",
+      "from": -225,
+      "to": -205,
+      "focus": "ying-zheng",
+      "brief": "嬴政的条横贯此章，李斯、蒙恬列于其下。沙丘之后扶苏被赐死、胡亥即位，赵高一条把秦廷搅碎。",
+      "people": [
+        "ying-zheng",
+        "ying-fusu",
+        "ying-huhai",
+        "li-si",
+        "zhao-gao",
+        "meng-tian",
+        "meng-yi"
+      ],
+      "events": [
+        "qin-chengdi",
+        "qin-changcheng",
+        "qin-shaqiu",
+        "qin-wang"
+      ]
+    },
+    {
+      "id": "qin-min",
+      "name": "秦末崩塌",
+      "from": -210,
+      "to": -205,
+      "focus": "chen-sheng",
+      "brief": "陈胜吴广点燃民变，章邯以骊山徒成军扑灭；项羽在巨鹿把秦军主力一次性打光。",
+      "people": [
+        "chen-sheng",
+        "wu-guang",
+        "zhang-han",
+        "xiang-liang",
+        "xiong-xin",
+        "xiang-yu"
+      ],
+      "events": [
+        "qin-daze",
+        "qin-julu",
+        "qin-wang"
+      ]
+    },
+    {
+      "id": "qin-chuhan",
+      "name": "楚汉相争",
+      "from": -207,
+      "to": -195,
+      "focus": "liu-bang",
+      "brief": "刘邦入关、项羽分封、四年拉锯。韩信的条从 -206 拜将一路打到垓下；张良画策于内。",
+      "people": [
+        "liu-bang",
+        "zhang-liang",
+        "han-xin",
+        "peng-yue",
+        "ying-bu",
+        "xiang-yu",
+        "fan-zeng"
+      ],
+      "events": [
+        "qin-xianyang",
+        "qin-chuhan",
+        "qin-gaixia"
+      ]
+    }
+  ]
+}

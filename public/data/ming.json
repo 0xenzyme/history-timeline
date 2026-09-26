@@ -1,0 +1,1446 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "ming",
+    "title": "明",
+    "subtitle": "从洪武开国到煤山国殇 · 公元 1328 — 公元 1644",
+    "range": [
+      1320,
+      1660
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "chancellor",
+      "name": "名相 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "科技 · 文化",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "end",
+      "name": "权臣 · 末世群雄",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "zhu-yuanzhang",
+      "name": "朱元璋",
+      "display": "明太祖朱元璋",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1328,
+      "death": 1398,
+      "title": "驱元建明",
+      "bio": "濠州孤穷，入郭子兴红巾军，收淮西渡江取集庆。削平陈友谅、张士诚，1368 年称帝建明，北伐克大都，元亡。",
+      "tags": [
+        "元",
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "warlord",
+        "rebel",
+        "founding",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan",
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-di",
+      "name": "朱棣",
+      "display": "明成祖朱棣",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1360,
+      "death": 1424,
+      "title": "永乐大帝，迁都北京",
+      "bio": "太祖第四子，封燕王。靖难之役入南京，即位后迁都北京、营紫禁城，遣郑和下西洋，修《永乐大典》，国势鼎盛。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-zhanji",
+      "name": "朱瞻基",
+      "display": "明宣宗朱瞻基",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1399,
+      "death": 1435,
+      "title": "仁宣之治",
+      "bio": "成祖孙，即位守成，重用三杨，与父仁宗并称仁宣之治；亦擅绘事，好促织之戏。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "painting"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-qizhen",
+      "name": "朱祁镇",
+      "display": "明英宗朱祁镇",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1427,
+      "death": 1464,
+      "title": "土木堡被俘的皇帝",
+      "bio": "九岁即位，宠王振酿土木堡之变，为瓦剌所俘；归后幽禁南宫，复辟杀于谦。两度在位，命运独奇。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-houcong",
+      "name": "朱厚熜",
+      "display": "明世宗朱厚熜",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1507,
+      "death": 1567,
+      "title": "嘉靖皇帝",
+      "bio": "以兴献王世子入继大统，初革正德弊政，后崇道斋醮、委政严嵩，南倭北虏之患并起。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-yijun",
+      "name": "朱翊钧",
+      "display": "明神宗朱翊钧",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1563,
+      "death": 1620,
+      "title": "万历皇帝",
+      "bio": "十岁即位，初倚张居正厉行新政；亲政后怠荒，二十余年不朝，党争与矿税之弊浸深，明衰自此始。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-youjian",
+      "name": "朱由检",
+      "display": "明思宗朱由检",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1611,
+      "death": 1644,
+      "title": "崇祯皇帝，明亡之君",
+      "bio": "兄熹宗崩嗣位，诛魏忠贤，勤于政事而刚愎多疑，频换阁部、自毁长城。1644 年李自成破京，自缢煤山。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-yunwen",
+      "name": "朱允炆",
+      "display": "明建文帝朱允炆",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "disputed",
+      "birth": 1377,
+      "death": 1402,
+      "deathNote": "靖难四年宫中火起，不知所终。1402 是传统纪年的终点，不是确凿卒年。",
+      "title": "削藩引发靖难",
+      "bio": "太祖孙，懿文太子标之子。洪武三十一年嗣位，力行削藩；燕王棣起兵，靖难四年破南京，宫中火起，建文不知所终。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-gaochi",
+      "name": "朱高炽",
+      "display": "明仁宗朱高炽",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1378,
+      "death": 1425,
+      "title": "洪熙守成",
+      "bio": "成祖长子，体肥多病而仁厚。永乐二十二年即位，平反冤狱、轻徭薄赋，在位仅十月，开辟仁宣之治。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-qiyu",
+      "name": "朱祁钰",
+      "display": "明代宗朱祁钰",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1428,
+      "death": 1457,
+      "title": "景泰代立，迎回英宗",
+      "bio": "宣宗次子，英宗之弟。土木之变后于谦拥立，年号景泰；英宗南宫复辟，废为郕王，寻崩。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-jianshen",
+      "name": "朱见深",
+      "display": "明宪宗朱见深",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1447,
+      "death": 1487,
+      "title": "宠万贵妃，设西厂",
+      "bio": "英宗长子，天顺八年即位。恢复景泰帝号，初政可观；后溺万贵妃、任汪直，设西厂，传奉官滥。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-youtang",
+      "name": "朱祐樘",
+      "display": "明孝宗朱祐樘",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1470,
+      "death": 1505,
+      "title": "弘治中兴",
+      "bio": "宪宗第三子，母纪氏。弘治即位，驱奸佞、勤政事，一夫一妻，史称中兴令主。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-houzhao",
+      "name": "朱厚照",
+      "display": "明武宗朱厚照",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1491,
+      "death": 1521,
+      "title": "豹房荒嬉，应州御虏",
+      "bio": "孝宗独子，正德即位。建豹房、好微行，宠钱宁、江彬；亲征应州败蒙古，南巡落水病崩，无嗣。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-zaiji",
+      "name": "朱载坖",
+      "display": "明穆宗朱载坖",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1537,
+      "death": 1572,
+      "title": "隆庆开关",
+      "bio": "世宗第三子，嘉靖四十五年即位。平反冤狱、弛海禁开互市，俺答封贡，北边稍安。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-changluo",
+      "name": "朱常洛",
+      "display": "明光宗朱常洛",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1582,
+      "death": 1620,
+      "title": "一月天子，红丸疑案",
+      "bio": "神宗长子，国本之争久而后立。泰昌元年即位，不旬日病，服红丸而崩，朝野哗然。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-youxiao",
+      "name": "朱由校",
+      "display": "明熹宗朱由校",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1605,
+      "death": 1627,
+      "title": "天启木工，魏阉乱政",
+      "bio": "光宗长子，泰昌元年嗣位。好木工，委政魏忠贤，阉祸炽烈；无嗣，弟信王由检继。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ji",
+      "name": "刘基",
+      "display": "刘基",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1311,
+      "death": 1375,
+      "title": "刘伯温，开国谋主",
+      "bio": "青田人，佐朱元璋定天下，料事如神，与宋濂、章溢并称浙东四先生；封诚意伯。《郁离子》寓讽谏。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "minister",
+        "strategist",
+        "literature",
+        "founding"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-shiqi",
+      "name": "杨士奇",
+      "display": "杨士奇",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1366,
+      "death": 1444,
+      "title": "三杨之首",
+      "bio": "泰和人，历仕四朝，与杨荣、杨溥并称三杨。仁宣之治，士奇赞襄为多；晚年子稷横暴，清议少之。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-qian",
+      "name": "于谦",
+      "display": "于谦",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1398,
+      "death": 1457,
+      "title": "北京保卫战",
+      "bio": "钱塘人，土木堡变后力排南迁、拥郕王监国，亲自督师破瓦剌于北京。英宗复辟，以「意欲」之罪冤死。",
+      "tags": [
+        "明",
+        "社稷臣"
+      ],
+      "categories": [
+        "official",
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-shouren",
+      "name": "王守仁",
+      "display": "王阳明",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1472,
+      "death": 1529,
+      "title": "心学集大成者",
+      "bio": "余姚人，龙场悟道，倡「致良知」「知行合一」。平宁王宸濠之乱，事功与学术并峙，世称阳明先生。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "minister",
+        "neo-confucian",
+        "general"
+      ],
+      "primary": "neo-confucian",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-juzheng",
+      "name": "张居正",
+      "display": "张居正",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1525,
+      "death": 1582,
+      "title": "万历首辅，一条鞭法",
+      "bio": "江陵人，神宗冲龄即位，任首辅摄政十年。行考成法、清丈田亩、推一条鞭，太仓粟可支十年；身后抄家，法度渐弛。",
+      "tags": [
+        "明",
+        "改革"
+      ],
+      "categories": [
+        "official",
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hai-rui",
+      "name": "海瑞",
+      "display": "海瑞",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1514,
+      "death": 1587,
+      "title": "海青天",
+      "bio": "琼山人，备棺上《治安疏》骂嘉靖，天下称直。历官清苦，摧豪强、平冤狱，卒时仅敝簏数事。",
+      "tags": [
+        "明",
+        "清官"
+      ],
+      "categories": [
+        "official",
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-song",
+      "name": "严嵩",
+      "display": "严嵩",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1480,
+      "death": 1567,
+      "title": "嘉靖权相",
+      "bio": "分宜人，以青词得世宗宠，父子济恶、窃柄二十年，贪贿军务废弛，边防日坏。后被劾罢，籍其家。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "chancellor",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-zhongxian",
+      "name": "魏忠贤",
+      "display": "魏忠贤",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1568,
+      "death": 1627,
+      "title": "天启阉党",
+      "bio": "河间无赖，入宫攀附客氏，得熹宗信，自称九千岁，遍建生祠、罗织东林。崇祯即位，逮治自缢。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "eunuch",
+        "regent",
+        "falling"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-da",
+      "name": "徐达",
+      "display": "徐达",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1332,
+      "death": 1385,
+      "title": "开国第一将",
+      "bio": "凤阳人，朱元璋同乡。统师平陈友谅、张士诚，北伐克大都，功为诸将冠，持重廉谨。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chang-yuchun",
+      "name": "常遇春",
+      "display": "常遇春",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1330,
+      "death": 1369,
+      "title": "开国猛将",
+      "bio": "怀远人，自称能将十万众横行，从太祖征战常充先锋，平吴克大都，暴疾卒于柳河川。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-jiguang",
+      "name": "戚继光",
+      "display": "戚继光",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1528,
+      "death": 1588,
+      "title": "抗倭名将",
+      "bio": "登州卫人，练义乌兵、创鸳鸯阵，平东南倭患；北镇蓟门，著《纪效新书》《练兵实纪》。",
+      "tags": [
+        "明",
+        "抗倭"
+      ],
+      "categories": [
+        "general",
+        "military-theory"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-chonghuan",
+      "name": "袁崇焕",
+      "display": "袁崇焕",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1584,
+      "death": 1630,
+      "title": "关宁督师",
+      "bio": "东莞人，督师辽东，宁远、宁锦屡挫后金。崇祯中反间见疑，逮治凌迟。明之长城自毁。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "general",
+        "falling"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-he",
+      "name": "郑和",
+      "display": "郑和",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1371,
+      "death": 1433,
+      "title": "三宝太监，七下西洋",
+      "bio": "云南回族，世_job宦官。成祖命通使西洋，凡七下，历三十余国，最远抵非洲东岸，舟师之盛前古未有。",
+      "tags": [
+        "明",
+        "航海"
+      ],
+      "categories": [
+        "eunuch",
+        "general",
+        "explorer"
+      ],
+      "primary": "explorer",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-shi-zhen",
+      "name": "李时珍",
+      "display": "李时珍",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1518,
+      "death": 1593,
+      "title": "《本草纲目》",
+      "bio": "蕲州人，世医。历三十载遍尝百草、订讹补阙，成《本草纲目》五十二卷，集药物学之大成。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "medicine",
+        "science"
+      ],
+      "primary": "medicine",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-guangqi",
+      "name": "徐光启",
+      "display": "徐光启",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1562,
+      "death": 1633,
+      "title": "农政与西学先驱",
+      "bio": "上海人，从利玛窦学天算，译《几何原本》。著《农政全书》，倡务实用、重水利荒政，开中西会通之风。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "science",
+        "astronomy",
+        "agronomy"
+      ],
+      "primary": "science",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "song-yingxing",
+      "name": "宋应星",
+      "display": "宋应星",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1587,
+      "death": 1666,
+      "title": "《天工开物》",
+      "bio": "奉新人，任分宜教谕时著《天工开物》，详录农工百业、冶铸舟车之法，为古代工艺百科之冠。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "craft",
+        "science"
+      ],
+      "primary": "craft",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tang-xianzu",
+      "name": "汤显祖",
+      "display": "汤显祖",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1550,
+      "death": 1616,
+      "title": "临川四梦",
+      "bio": "临川人，万历进士。以《牡丹亭》名世，情至之说动人；与沈璟争律，世称临川派。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "literature",
+        "drama"
+      ],
+      "primary": "drama",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "luo-guanzhong",
+      "name": "罗贯中",
+      "display": "罗贯中",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 1330,
+      "death": 1400,
+      "title": "《三国演义》",
+      "bio": "太原（一说钱塘）人，元末明初。荟集三国旧闻成《三国志通俗演义》，为章回小说之祖。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "literature",
+        "novel"
+      ],
+      "primary": "novel",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-chengen",
+      "name": "吴承恩",
+      "display": "吴承恩",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 1500,
+      "death": 1582,
+      "title": "《西游记》",
+      "bio": "山阳人，性诙谐好奇。取玄奘取经旧事，演为《西游记》，神魔谐谑，寓讽于世情。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "literature",
+        "novel"
+      ],
+      "primary": "novel",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-zicheng",
+      "name": "李自成",
+      "display": "李自成",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1606,
+      "death": 1645,
+      "title": "闯王，灭明",
+      "bio": "米脂驿卒，从闯王高迎祥起事，迎祥死后代领其众。均田免赋，众至百万；1644 破北京，旋为吴三桂引清兵败于山海关。",
+      "tags": [
+        "明",
+        "民变"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "ming",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-xianzhong",
+      "name": "张献忠",
+      "display": "张献忠",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1606,
+      "death": 1647,
+      "title": "八大王",
+      "bio": "延安人，与李自成并起陕北，转战豫楚川陕。1644 入蜀称帝，国号大西；性残暴，清军入川被杀。",
+      "tags": [
+        "明",
+        "民变"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "ming",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-sangui",
+      "name": "吴三桂",
+      "display": "吴三桂",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1612,
+      "death": 1678,
+      "title": "引清兵入关 · 平西王",
+      "bio": "辽东将家子，镇山海关。崇祯自缢后降清，乞师入关破李自成；后为平西王镇云南，三藩之乱举兵败亡。",
+      "tags": [
+        "明",
+        "清"
+      ],
+      "categories": [
+        "vassal",
+        "warlord",
+        "rebel",
+        "general",
+        "falling"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 党争",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yuanzhang",
+      "target": "liu-ji",
+      "type": "ruler-subject",
+      "note": "谋主，定开国方略"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "xu-da",
+      "type": "ruler-subject",
+      "note": "开国第一将，北伐克大都"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "chang-yuchun",
+      "type": "ruler-subject",
+      "note": "常遇春充先锋，所向披靡"
+    },
+    {
+      "source": "zhu-di",
+      "target": "zheng-he",
+      "type": "ruler-subject",
+      "note": "遣郑和七下西洋"
+    },
+    {
+      "source": "zhu-di",
+      "target": "yang-shiqi",
+      "type": "ruler-subject",
+      "note": "靖难后入阁，开仁宣之治"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "yu-qian",
+      "type": "ruler-subject",
+      "since": 1449,
+      "note": "土木堡后于谦督师守北京"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "yu-qian",
+      "type": "rival",
+      "note": "南宫复辟，以冤罪杀于谦"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "yan-song",
+      "type": "ruler-subject",
+      "note": "宠严嵩，权倾二十年"
+    },
+    {
+      "source": "yan-song",
+      "target": "hai-rui",
+      "type": "rival",
+      "note": "海瑞上疏骂嘉靖，严党侧目"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "wang-shouren",
+      "type": "ruler-subject",
+      "note": "平宁王宸濠，封新建伯"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "qi-jiguang",
+      "type": "ruler-subject",
+      "since": 1555,
+      "note": "调继光镇东南，平倭患"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhang-juzheng",
+      "type": "ruler-subject",
+      "since": 1572,
+      "note": "冲龄即位，居正摄政行新政"
+    },
+    {
+      "source": "tang-xianzu",
+      "target": "luo-guanzhong",
+      "type": "peer",
+      "note": "并峙明小说戏曲之林"
+    },
+    {
+      "source": "li-shi-zhen",
+      "target": "xu-guangqi",
+      "type": "peer",
+      "note": "晚明实学，医农并重"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "wei-zhongxian",
+      "type": "rival",
+      "note": "即位即逮治魏忠贤"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "yuan-chonghuan",
+      "type": "ruler-subject",
+      "since": 1626,
+      "note": "任为督师，旋中反间冤杀"
+    },
+    {
+      "source": "li-zicheng",
+      "target": "zhu-youjian",
+      "type": "rival",
+      "since": 1644,
+      "note": "破北京，崇祯自缢煤山"
+    },
+    {
+      "source": "li-zicheng",
+      "target": "zhang-xianzhong",
+      "type": "peer",
+      "note": "并起陕北，分流南北"
+    },
+    {
+      "source": "wu-sangui",
+      "target": "li-zicheng",
+      "type": "rival",
+      "since": 1644,
+      "note": "降清乞师，山海关破闯"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "zhu-yunwen",
+      "type": "kin",
+      "note": "祖孙，太祖立皇太孙建文继统"
+    },
+    {
+      "source": "zhu-yunwen",
+      "target": "zhu-di",
+      "type": "kin",
+      "note": "叔侄，靖难之役成祖夺位"
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-gaochi",
+      "type": "kin",
+      "note": "父子，成祖传仁宗"
+    },
+    {
+      "source": "zhu-gaochi",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "note": "父子，仁宗传宣宗"
+    },
+    {
+      "source": "zhu-zhanji",
+      "target": "zhu-qizhen",
+      "type": "kin",
+      "note": "父子，宣宗传英宗"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "zhu-qiyu",
+      "type": "kin",
+      "note": "兄弟，英宗北狩，景帝代位"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "zhu-jianshen",
+      "type": "kin",
+      "note": "父子，英宗传宪宗"
+    },
+    {
+      "source": "zhu-jianshen",
+      "target": "zhu-youtang",
+      "type": "kin",
+      "note": "父子，宪宗传孝宗"
+    },
+    {
+      "source": "zhu-youtang",
+      "target": "zhu-houzhao",
+      "type": "kin",
+      "note": "父子，孝宗传武宗"
+    },
+    {
+      "source": "zhu-houzhao",
+      "target": "zhu-houcong",
+      "type": "kin",
+      "note": "堂兄弟，武宗无嗣，世宗入继"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "zhu-zaiji",
+      "type": "kin",
+      "note": "父子，世宗传穆宗"
+    },
+    {
+      "source": "zhu-zaiji",
+      "target": "zhu-yijun",
+      "type": "kin",
+      "note": "父子，穆宗传神宗"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhu-changluo",
+      "type": "kin",
+      "note": "父子，神宗传光宗"
+    },
+    {
+      "source": "zhu-changluo",
+      "target": "zhu-youxiao",
+      "type": "kin",
+      "note": "父子，光宗传熹宗"
+    },
+    {
+      "source": "zhu-youxiao",
+      "target": "zhu-youjian",
+      "type": "kin",
+      "note": "兄弟，熹宗崩，弟思宗继"
+    }
+  ],
+  "events": [
+    {
+      "id": "ming-kai",
+      "name": "朱元璋称帝 · 明朝建立",
+      "kind": "point",
+      "year": 1368,
+      "people": [
+        "zhu-yuanzhang",
+        "liu-ji",
+        "xu-da"
+      ],
+      "desc": "朱元璋即皇帝位，国号大明，定都南京；旋北伐克大都，元亡。封功臣、定卫所，开一代典制。"
+    },
+    {
+      "id": "ming-jingnan",
+      "name": "靖难之役 · 永乐即位",
+      "kind": "point",
+      "year": 1402,
+      "people": [
+        "zhu-di",
+        "zhu-yuanzhang"
+      ],
+      "desc": "燕王朱棣起兵靖难，入南京继统。在位营北京、修大典、通西洋，是为永乐盛世。"
+    },
+    {
+      "id": "ming-qiandu",
+      "name": "迁都北京",
+      "kind": "point",
+      "year": 1421,
+      "people": [
+        "zhu-di"
+      ],
+      "desc": "改北平为京师，营建紫禁城，天子守边，奠定此后五百年都城格局。"
+    },
+    {
+      "id": "ming-xiyang",
+      "name": "郑和下西洋",
+      "kind": "span",
+      "year": 1405,
+      "endYear": 1433,
+      "people": [
+        "zheng-he",
+        "zhu-di"
+      ],
+      "desc": "郑和七下西洋，历三十余国，宝船遮海，通好远邦，为古代航海之极。"
+    },
+    {
+      "id": "ming-tumu",
+      "name": "土木堡之变",
+      "kind": "point",
+      "year": 1449,
+      "people": [
+        "zhu-qizhen",
+        "yu-qian"
+      ],
+      "desc": "英宗亲征瓦剌，土木堡溃败被俘；于谦力排南迁，拥郕王监国，督师破敌于北京。"
+    },
+    {
+      "id": "ming-duomen",
+      "name": "夺门之变 · 于谦冤死",
+      "kind": "point",
+      "year": 1457,
+      "people": [
+        "zhu-qizhen",
+        "yu-qian"
+      ],
+      "desc": "英宗南宫复辟，杀于谦。谦社稷之臣，天下冤之；明之忠佞由此可见。"
+    },
+    {
+      "id": "ming-kangwo",
+      "name": "戚继光平倭",
+      "kind": "span",
+      "year": 1555,
+      "endYear": 1566,
+      "people": [
+        "qi-jiguang",
+        "zhu-houcong"
+      ],
+      "desc": "东南倭患炽，戚继光练义乌兵、创鸳鸯阵，扫平浙闽倭寇，海疆稍安。"
+    },
+    {
+      "id": "ming-zhangju",
+      "name": "张居正改革 · 一条鞭",
+      "kind": "span",
+      "year": 1572,
+      "endYear": 1582,
+      "people": [
+        "zhang-juzheng",
+        "zhu-yijun"
+      ],
+      "desc": "神宗冲龄，居正摄政行考成法、清丈田亩、推一条鞭，国库充盈；身后抄家，法度渐弛。"
+    },
+    {
+      "id": "ming-yan",
+      "name": "严嵩用事 · 海瑞上疏",
+      "kind": "point",
+      "year": 1566,
+      "people": [
+        "yan-song",
+        "hai-rui",
+        "zhu-houcong"
+      ],
+      "desc": "严嵩窃柄、边防日坏；海瑞备棺上《治安疏》直谏嘉靖，朝野震动。"
+    },
+    {
+      "id": "ming-wanli",
+      "name": "万历怠政",
+      "kind": "span",
+      "year": 1582,
+      "endYear": 1620,
+      "people": [
+        "zhu-yijun",
+        "wei-zhongxian"
+      ],
+      "desc": "张居正卒后，神宗深居不朝，党争蜂起、矿税横征，明之衰象尽显。"
+    },
+    {
+      "id": "ming-yuan",
+      "name": "袁崇焕守辽",
+      "kind": "point",
+      "year": 1629,
+      "people": [
+        "yuan-chonghuan",
+        "zhu-youjian"
+      ],
+      "desc": "袁崇焕督师辽东，宁锦屡挫后金；崇祯中反间见疑，逮治凌迟，自毁长城。"
+    },
+    {
+      "id": "ming-wang",
+      "name": "闯王破京 · 明亡",
+      "kind": "point",
+      "year": 1644,
+      "people": [
+        "li-zicheng",
+        "zhang-xianzhong",
+        "wu-sangui",
+        "zhu-youjian"
+      ],
+      "desc": "李自成破北京，崇祯自缢煤山；吴三桂引清兵入关，山海关一战定鼎易主，明祚终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "明全览",
+      "from": 1320,
+      "to": 1660,
+      "focus": "zhu-yuanzhang",
+      "brief": "朱元璋的条起于洪武，压过其下六帝。徐达、常遇春、郑和列于开国；张居正、戚继光撑起中叶；尾段魏忠贤、袁崇焕、李自成、吴三桂把国运拽向煤山。"
+    },
+    {
+      "id": "kai",
+      "name": "开国与永乐",
+      "from": 1350,
+      "to": 1435,
+      "focus": "zhu-yuanzhang",
+      "brief": "朱元璋称帝、北伐克元；朱棣靖难、迁都北京、派郑和下西洋。刘基、徐达、姚广孝一脉，奠定二百年格局。",
+      "people": [
+        "zhu-yuanzhang",
+        "liu-ji",
+        "xu-da",
+        "chang-yuchun",
+        "zhu-di",
+        "yang-shiqi",
+        "zheng-he"
+      ],
+      "events": [
+        "ming-kai",
+        "ming-jingnan",
+        "ming-qiandu",
+        "ming-xiyang"
+      ]
+    },
+    {
+      "id": "zhong",
+      "name": "中叶：倭患与改革",
+      "from": 1500,
+      "to": 1600,
+      "focus": "zhu-houcong",
+      "brief": "嘉靖崇道委严嵩，海瑞骂疏；王守仁平宸濠、倡心学；戚继光平倭、张居正行新政。一代治乱相掺。",
+      "people": [
+        "zhu-houcong",
+        "yan-song",
+        "hai-rui",
+        "wang-shouren",
+        "qi-jiguang",
+        "zhu-yijun",
+        "zhang-juzheng",
+        "li-shi-zhen",
+        "xu-guangqi",
+        "song-yingxing",
+        "tang-xianzu",
+        "luo-guanzhong",
+        "wu-chengen"
+      ],
+      "events": [
+        "ming-kangwo",
+        "ming-zhangju",
+        "ming-yan",
+        "ming-wanli"
+      ]
+    },
+    {
+      "id": "mo",
+      "name": "末世：危局与鼎革",
+      "from": 1580,
+      "to": 1660,
+      "focus": "zhu-youjian",
+      "brief": "万历怠政、天启阉祸；崇祯诛魏忠贤而自毁长城，袁崇焕冤死。李自成破京、吴三桂引清兵，煤山一缢，明亡清兴。",
+      "people": [
+        "zhu-yijun",
+        "wei-zhongxian",
+        "zhu-youjian",
+        "yuan-chonghuan",
+        "li-zicheng",
+        "zhang-xianzhong",
+        "wu-sangui"
+      ],
+      "events": [
+        "ming-wanli",
+        "ming-yuan",
+        "ming-wang"
+      ]
+    }
+  ]
+}

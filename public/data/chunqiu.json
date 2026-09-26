@@ -48,9 +48,16 @@
       "title": "东周第一位天子",
       "bio": "东迁之后，王室只剩共主空名。他的条停在前 720 年，后面的霸主条越来越长，周王泳道从此空下来。",
       "tags": [
-        "周王",
         "平王东迁"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-wusheng",
@@ -65,7 +72,15 @@
       "tags": [
         "郑国",
         "克段于鄢"
-      ]
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male"
     },
     {
       "id": "jiang-xiaobai",
@@ -78,9 +93,16 @@
       "title": "春秋首霸",
       "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
       "tags": [
-        "齐国",
-        "霸主"
-      ]
+        "齐国"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-guizhu",
@@ -95,7 +117,15 @@
       "tags": [
         "晋国",
         "骊姬之乱"
-      ]
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-chonger",
@@ -111,9 +141,16 @@
       "bio": "献公子。在外十九年，秦纳之。城濮败楚、践土会盟。出亡的长条几乎空着，即位后的九年才把霸业画完。",
       "tags": [
         "晋国",
-        "霸主",
         "城濮"
-      ]
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "ying-renhao",
@@ -128,7 +165,15 @@
       "tags": [
         "秦国",
         "霸西戎"
-      ]
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "zi-zifu",
@@ -143,7 +188,15 @@
       "tags": [
         "宋国",
         "泓之战"
-      ]
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "mi-lv",
@@ -157,9 +210,16 @@
       "bio": "即位三年不出，后一鸣惊人。邲之战败晋，观兵周疆、问鼎之轻。春秋霸业从齐晋转到南楚，他的条是转折点。",
       "tags": [
         "楚国",
-        "霸主",
         "邲之战"
-      ]
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-guang",
@@ -174,7 +234,15 @@
       "tags": [
         "吴国",
         "柏举"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-fucha",
@@ -189,7 +257,15 @@
       "tags": [
         "吴国",
         "黄池"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
     },
     {
       "id": "si-goujian",
@@ -205,7 +281,15 @@
       "tags": [
         "越国",
         "灭吴"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yue"
+      ],
+      "gender": "male"
     },
     {
       "id": "li-ji",
@@ -220,7 +304,12 @@
       "bio": "骊戎之女。谮杀申生，逐群公子。献公卒，里克发难，她的条与献公同年截断。晋文公的出亡从这里起算。",
       "tags": [
         "骊姬之乱"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "gender": "female"
     },
     {
       "id": "guan-zhong",
@@ -235,7 +324,15 @@
       "tags": [
         "齐国",
         "改革"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "bao-shuya",
@@ -251,6 +348,13 @@
       "tags": [
         "齐国",
         "荐贤"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qi"
       ]
     },
     {
@@ -267,7 +371,15 @@
       "tags": [
         "晋国",
         "从亡"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "xian-zhen",
@@ -283,7 +395,15 @@
         "晋国",
         "城濮",
         "殽之战"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "bai-lixi",
@@ -299,7 +419,15 @@
       "tags": [
         "秦国",
         "五羖大夫"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "wu-yuan",
@@ -314,7 +442,15 @@
       "tags": [
         "吴国",
         "破楚"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
     },
     {
       "id": "fan-li",
@@ -330,7 +466,15 @@
       "tags": [
         "越国",
         "去越"
-      ]
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "yue"
+      ],
+      "gender": "male"
     },
     {
       "id": "wen-zhong",
@@ -346,6 +490,13 @@
       "tags": [
         "越国",
         "赐死"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "yue"
       ]
     },
     {
@@ -364,7 +515,12 @@
         "儒家",
         "六经",
         "论语"
-      ]
+      ],
+      "categories": [
+        "scholar-official",
+        "confucian"
+      ],
+      "primary": "scholar-official"
     },
     {
       "id": "sun-wu",
@@ -378,9 +534,16 @@
       "title": "吴将，《孙子兵法》作者",
       "bio": "齐人。以十三篇见吴王阖闾，与伍子胥破楚入郢。生卒皆缺，轴上只在柏举附近留一个约略的点。",
       "tags": [
-        "吴国",
-        "兵家"
-      ]
+        "吴国"
+      ],
+      "categories": [
+        "military-theory"
+      ],
+      "primary": "military-theory",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -408,7 +571,7 @@
     {
       "id": "rival",
       "name": "敌对",
-      "color": "#d0503c",
+      "color": "#922b3a",
       "dash": "6 3",
       "directed": false
     }

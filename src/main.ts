@@ -4,13 +4,14 @@ import { zoom as createZoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
 
 import { downloadChart, exportBasename } from './export';
 import { formatLifespan, lifespanSpan } from './format';
-import { findCatalogEntry, loadCatalog, loadTopic } from './loader';
-import { parseHash, topicDataUrl, writeHash } from './routing';
-import type { Catalog, Person, Topic, TopicFilters, View } from './types';
-import { buildLayout, type Layout } from './timeline/layout';
+import { findCatalogEntry, loadCatalog, loadSearchIndex, loadTopic } from './loader';
+import { parseHash, topicDataUrl, writeHash, type HistoryMode } from './routing';
+import type { Catalog, Person, SearchRecord, Topic, TopicFilters, View } from './types';
+import { buildLayout, AXIS_H, type Layout } from './timeline/layout';
+import { fromAxis, toAxis } from './timeline/years';
 import { fitPersonDomain } from './timeline/geometry';
 import { buildAdjacency, type RenderContext } from './timeline/context';
-import { renderAxisTicks, renderGrid } from './timeline/axis';
+import { renderGrid, renderPinnedAxis } from './timeline/axis';
 import { renderGutter, renderLanes } from './timeline/lanes';
 import { renderBarDefs, renderBars, renderHitAreas } from './timeline/bars';
 import { renderRelations } from './timeline/relations';
@@ -21,16 +22,19 @@ import {
   renderEventLines,
   renderEventRibbon,
 } from './timeline/events';
-import { findView, findViewForPerson, renderChapters } from './ui/chapters';
+import { entryView, findView, findViewForPerson, isIndexView, renderChapters } from './ui/chapters';
 import { renderLegend } from './ui/legend';
 import { renderCard } from './ui/card';
 import { renderTopics } from './ui/topics';
-import { renderSearchResults, searchPeople } from './ui/search';
+import { buildSearchRows, renderSearchResults, searchPeople, type SearchRow } from './ui/search';
 import { renderGraph, personRelationCount } from './ui/graph';
 import { esc } from './timeline/svg';
 
 const svg = document.getElementById('chart') as unknown as SVGSVGElement;
 const stage = document.getElementById('stage') as HTMLElement;
+const axisPinEl = document.getElementById('axis-pin') as HTMLElement;
+const axisPinSvg = document.getElementById('axis-pin-svg') as unknown as SVGSVGElement;
+const routeMissEl = document.getElementById('route-miss') as HTMLElement;
 const cardEl = document.getElementById('card') as HTMLElement;
 const chaptersEl = document.getElementById('chapters') as HTMLElement;
 const legendEl = document.getElementById('legend') as HTMLElement;
@@ -40,10 +44,16 @@ const hintEl = document.getElementById('hint') as HTMLElement;
 const topicSwitchEl = document.getElementById('topic-switch') as HTMLElement;
 const searchInput = document.getElementById('search-input') as HTMLInputElement;
 const searchResultsEl = document.getElementById('search-results') as HTMLElement;
+const statusEl = document.getElementById('status') as HTMLElement;
 const exportToggle = document.getElementById('export-toggle') as HTMLButtonElement;
 const exportMenu = document.getElementById('export-menu') as HTMLElement;
 
 type Mode = 'timeline' | 'graph';
+
+interface RouteMiss {
+  topicToken: string | null;
+  viewToken: string | null;
+}
 
 interface AppState {
   topic: Topic;
@@ -55,17 +65,20 @@ interface AppState {
   showAllRelations: boolean;
   adjacency: Map<string, Set<string>>;
   mode: Mode;
+  routeMiss: RouteMiss | null;
 }
 
 const ui: {
   topicMenuOpen: boolean;
   exportMenuOpen: boolean;
   searchQuery: string;
+  searchActiveIndex: number;
   filters: TopicFilters;
 } = {
   topicMenuOpen: false,
   exportMenuOpen: false,
   searchQuery: '',
+  searchActiveIndex: -1,
   filters: {
     region: null,
     era: null,
@@ -75,6 +88,9 @@ const ui: {
 
 let catalog: Catalog | null = null;
 let state: AppState | null = null;
+let searchIndex: SearchRecord[] | null = null;
+let searchIndexTask: Promise<SearchRecord[]> | null = null;
+let suppressClick = false;
 let zoomBehavior: ZoomBehavior<SVGSVGElement, unknown> | null = null;
 let applyingTransform = false;
 let loadingTopic = false;
@@ -87,6 +103,22 @@ function currentView(): View {
 function personById(id: string | null): Person | null {
   if (!state || id === null) return null;
   return state.topic.people.find((person) => person.id === id) ?? null;
+}
+
+function announce(message: string): void {
+  statusEl.textContent = '';
+  window.requestAnimationFrame(() => {
+    statusEl.textContent = message;
+  });
+}
+
+function focusPersonControl(id: string): void {
+  const control = [...svg.querySelectorAll<SVGElement>('[data-person]')].find(
+    (element) =>
+      element.getAttribute('data-person') === id &&
+      (element.classList.contains('hit') || element.classList.contains('graph-node')),
+  );
+  control?.focus({ preventScroll: true });
 }
 
 function render(): void {
@@ -105,10 +137,10 @@ function renderTimeline(): void {
   if (!state) return;
   const { topic, layout } = state;
   const view = currentView();
-  const x = layout.xTopic.copy().domain(state.domain);
+  const x = yearX(layout, state.domain);
   const zonePeople = new Set(view.people ?? topic.people.map((person) => person.id));
   const zoneEvents = new Set(view.events ?? topic.events.map((event) => event.id));
-  const eventRows = assignEventRows({ topic, x, zoneEvents });
+  const eventRows = assignEventRows({ topic, x, zoneEvents, layout });
 
   const ctx: RenderContext = {
     topic,
@@ -141,15 +173,15 @@ function renderTimeline(): void {
     `<g class="layer-hits" clip-path="url(#plot-clip)">${renderHitAreas(ctx)}</g>`,
     `<g class="layer-bars" clip-path="url(#plot-clip)">${renderBars(ctx)}</g>`,
     `<g class="layer-event-lines" clip-path="url(#plot-clip)">${renderEventLines(ctx)}</g>`,
-    `<g class="layer-axis">${renderAxisTicks(ctx)}</g>`,
     `<g class="layer-event-labels">${renderEventLabels(ctx)}</g>`,
     `<g class="layer-gutter">${renderGutter(ctx)}</g>`,
   ].join('');
+  paintAxisPin(ctx);
 }
 
 function renderGraphView(): void {
   if (!state || state.focusId === null) return;
-  const width = Math.max(480, stage.clientWidth);
+  const width = Math.max(320, stage.clientWidth);
   const height = Math.max(360, stage.clientHeight);
   svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
   svg.setAttribute('width', String(width));
@@ -158,15 +190,42 @@ function renderGraphView(): void {
   svg.innerHTML = renderGraph(state.topic, state.focusId, width, height, state.hoverId);
 }
 
+function currentSearchRows(): SearchRow[] {
+  if (!state) return [];
+  return buildSearchRows(state.topic, ui.searchQuery, searchIndex).rows;
+}
+
 function renderSearchUI(): void {
   if (!state) {
     searchResultsEl.hidden = true;
     searchResultsEl.innerHTML = '';
+    searchResultsEl.setAttribute('aria-label', '人物搜索结果');
+    searchInput.setAttribute('aria-expanded', 'false');
     return;
   }
-  const hits = searchPeople(state.topic, ui.searchQuery);
-  searchResultsEl.innerHTML = renderSearchResults(hits, ui.searchQuery);
-  searchResultsEl.hidden = ui.searchQuery.trim().length === 0;
+  const built = buildSearchRows(state.topic, ui.searchQuery, searchIndex);
+  if (ui.searchActiveIndex >= built.rows.length) ui.searchActiveIndex = built.rows.length - 1;
+  searchResultsEl.innerHTML = renderSearchResults(
+    built.rows,
+    ui.searchQuery,
+    built.notice,
+    built.pending,
+    ui.searchActiveIndex,
+  );
+  const open = ui.searchQuery.trim().length > 0;
+  searchResultsEl.hidden = !open;
+  const countLabel = built.pending
+    ? '正在查找其他专题'
+    : built.rows.length > 0
+      ? `人物搜索结果，共${built.rows.length}项`
+      : built.notice ?? '人物搜索结果，无匹配项';
+  searchResultsEl.setAttribute('aria-label', countLabel);
+  searchInput.setAttribute('aria-expanded', String(open));
+  if (open && built.rows.length > 0 && ui.searchActiveIndex >= 0) {
+    searchInput.setAttribute('aria-activedescendant', `search-hit-${built.rows[ui.searchActiveIndex].key}`);
+  } else {
+    searchInput.removeAttribute('aria-activedescendant');
+  }
 }
 
 function renderChrome(): void {
@@ -174,14 +233,21 @@ function renderChrome(): void {
   topicSwitchEl.innerHTML = renderTopics(catalog, state.topic, ui.topicMenuOpen, ui.filters);
   chaptersEl.innerHTML = renderChapters(state.topic, state.viewId);
   briefEl.textContent = currentView().brief ?? '';
+  const coarse = window.matchMedia('(pointer: coarse)').matches || isNarrow();
   hintEl.textContent =
     state.mode === 'graph'
-      ? '点击人物切换中心 · Esc 返回时间轴'
-      : '滚轮缩放 · 拖动平移 · 点击人物高亮一跳关系 · Shift / Alt + 滚轮上下滚动';
+      ? coarse
+        ? '点击人物切换中心'
+        : '点击人物切换中心 · Esc 返回时间轴'
+      : coarse
+        ? '上下滑动看人名 · 左右拖动平移年份 · 双指缩放'
+        : '滚轮上下翻人名 · 左右拖动平移年份 · Ctrl 或 ⌘ + 滚轮缩放';
+  renderRouteMiss();
 
   const person = personById(state.focusId);
   cardEl.innerHTML = renderCard(state.topic, person);
   cardEl.hidden = person === null;
+  if (person) cardEl.setAttribute('aria-label', `${person.display}人物详情`);
 
   document.getElementById('toggle-relations')?.setAttribute(
     'aria-pressed',
@@ -210,12 +276,19 @@ function updateTooltip(): void {
   tooltipEl.style.transform = `translate(${pointer.x + 16}px, ${pointer.y + 16}px)`;
 }
 
+function yearX(layout: Layout, domain: [number, number]): (year: number) => number {
+  const scale = layout.xTopic.copy().domain([toAxis(domain[0]), toAxis(domain[1])]);
+  return (year: number) => scale(toAxis(year));
+}
+
 function applyDomainToZoom(): void {
   if (!state || !zoomBehavior) return;
   const { layout, domain } = state;
   const scale = layout.xTopic;
-  const k = (layout.plotRight - layout.plotLeft) / Math.max(1e-6, scale(domain[1]) - scale(domain[0]));
-  const tx = layout.plotLeft - k * scale(domain[0]);
+  const start = toAxis(domain[0]);
+  const end = toAxis(domain[1]);
+  const k = (layout.plotRight - layout.plotLeft) / Math.max(1e-6, scale(end) - scale(start));
+  const tx = layout.plotLeft - k * scale(start);
   applyingTransform = true;
   select(svg).call(zoomBehavior.transform, zoomIdentity.translate(tx, 0).scale(k));
   applyingTransform = false;
@@ -245,18 +318,17 @@ function initZoom(): void {
       if (state?.mode === 'graph') return false;
       if (event.type === 'wheel') {
         const wheel = event as WheelEvent;
-        if (wheel.shiftKey || wheel.altKey) return false;
-        return wheel.clientX - svg.getBoundingClientRect().left >= layout.plotLeft;
+        return wheel.ctrlKey || wheel.metaKey;
       }
-      if (event instanceof MouseEvent) return !event.button;
-      return true;
+      if (event.type === 'touchstart') return (event as TouchEvent).touches.length >= 2;
+      return false;
     })
     .on('zoom', (event) => {
       if (applyingTransform || !state || state.mode === 'graph') return;
       const scale = event.transform.rescaleX(state.layout.xTopic);
       state.domain = [
-        scale.invert(state.layout.plotLeft),
-        scale.invert(state.layout.plotRight),
+        fromAxis(scale.invert(state.layout.plotLeft)),
+        fromAxis(scale.invert(state.layout.plotRight)),
       ];
       render();
     });
@@ -267,12 +339,131 @@ function initZoom(): void {
 
 function rebuildLayout(): void {
   if (!state) return;
-  state.layout = buildLayout(state.topic, stage.clientWidth, currentView());
+  state.layout = buildLayout(
+    state.topic,
+    stage.clientWidth,
+    currentView(),
+    stage.clientHeight,
+  );
 }
 
 interface ApplyViewOptions {
   focusId?: string | null;
   fitPerson?: boolean;
+  history?: HistoryMode;
+  keepMiss?: boolean;
+}
+
+function isNarrow(): boolean {
+  return window.matchMedia('(max-width: 640px)').matches;
+}
+
+function initialFocus(view: View, options: ApplyViewOptions): string | null {
+  if (options.focusId !== undefined) return options.focusId;
+  if (isIndexView(view) || isNarrow()) return null;
+  return view.focus ?? null;
+}
+
+function laneAtScroll(): string {
+  if (!state || state.layout.lanes.length === 0) return '';
+  const y = stage.scrollTop + state.layout.plotTop;
+  const box = state.layout.lanes.find((lane) => y >= lane.top && y < lane.bottom);
+  return (box ?? state.layout.lanes[0]).lane.name;
+}
+
+function paintAxisPin(ctx?: RenderContext): void {
+  if (!state || state.mode === 'graph') {
+    axisPinEl.hidden = true;
+    return;
+  }
+  const layout = state.layout;
+  const view = currentView();
+  const x = yearX(layout, state.domain);
+  const zonePeople = new Set(view.people ?? state.topic.people.map((person) => person.id));
+  const zoneEvents = new Set(view.events ?? state.topic.events.map((event) => event.id));
+  const pinCtx: RenderContext = ctx ?? {
+    topic: state.topic,
+    layout,
+    view,
+    domain: state.domain,
+    x,
+    zonePeople,
+    zoneEvents,
+    focusId: state.focusId,
+    hoverId: state.hoverId,
+    showAllRelations: state.showAllRelations,
+    eventRows: new Map(),
+    adjacency: state.adjacency,
+  };
+  axisPinEl.hidden = false;
+  axisPinSvg.setAttribute('viewBox', `0 0 ${layout.width} ${AXIS_H}`);
+  axisPinSvg.setAttribute('width', String(layout.width));
+  axisPinSvg.setAttribute('height', String(AXIS_H));
+  axisPinSvg.innerHTML = renderPinnedAxis(pinCtx, laneAtScroll());
+}
+
+function renderRouteMiss(): void {
+  if (!state || !catalog) return;
+  const miss = state.routeMiss;
+  if (!miss || (!miss.topicToken && !miss.viewToken)) {
+    routeMissEl.hidden = true;
+    routeMissEl.innerHTML = '';
+    return;
+  }
+  routeMissEl.hidden = false;
+  if (miss.topicToken) {
+    const home = catalog.topics[0];
+    routeMissEl.innerHTML = `<p>没有「${esc(miss.topicToken)}」这个专题。</p><button type="button" data-go-topic="${esc(home.id)}">回到${esc(home.title)}</button>`;
+    return;
+  }
+  const buttons = state.topic.views
+    .map(
+      (view) =>
+        `<button type="button" data-chapter="${esc(view.id)}">${esc(view.name)}</button>`,
+    )
+    .join('');
+  routeMissEl.innerHTML = `<p>${esc(state.topic.meta.title)}没有「${esc(miss.viewToken ?? '')}」这一章。</p><div class="route-miss-actions">${buttons}</div>`;
+}
+
+function scrollFocusIntoView(id: string | null): void {
+  if (!id || !state) {
+    stage.scrollTop = 0;
+    return;
+  }
+  const row = state.layout.rows.get(id);
+  if (!row) {
+    stage.scrollTop = 0;
+    return;
+  }
+  stage.scrollTop = Math.max(0, row.y - state.layout.plotTop - 24);
+}
+
+function panByPixels(dx: number): void {
+  if (!state || dx === 0) return;
+  const width = state.layout.plotRight - state.layout.plotLeft;
+  const start0 = toAxis(state.domain[0]);
+  const end0 = toAxis(state.domain[1]);
+  const span = end0 - start0;
+  const shift = (-dx / Math.max(1, width)) * span;
+  const [min, max] = state.topic.meta.range;
+  const minAxis = toAxis(min);
+  const maxAxis = toAxis(max);
+  let start = start0 + shift;
+  let end = end0 + shift;
+  if (start < minAxis) {
+    end += minAxis - start;
+    start = minAxis;
+  }
+  if (end > maxAxis) {
+    start -= end - maxAxis;
+    end = maxAxis;
+  }
+  start = Math.max(minAxis, start);
+  end = Math.min(maxAxis, end);
+  if (end <= start) return;
+  state.domain = [fromAxis(start), fromAxis(end)];
+  applyDomainToZoom();
+  render();
 }
 
 function applyView(viewId: string, options: ApplyViewOptions = {}): void {
@@ -281,7 +472,9 @@ function applyView(viewId: string, options: ApplyViewOptions = {}): void {
   state.mode = 'timeline';
   state.viewId = view.id;
   state.hoverId = null;
-  state.focusId = options.focusId !== undefined ? options.focusId : (view.focus ?? null);
+  state.showAllRelations = false;
+  state.focusId = initialFocus(view, options);
+  if (!options.keepMiss) state.routeMiss = null;
   rebuildLayout();
   if (options.fitPerson && state.focusId) {
     const person = personById(state.focusId);
@@ -289,17 +482,27 @@ function applyView(viewId: string, options: ApplyViewOptions = {}): void {
   } else {
     state.domain = [view.from, view.to];
   }
-  writeHash(state.topic.meta.id, view.id);
+  writeHash(state.topic.meta.id, view.id, options.history ?? 'skip');
   initZoom();
   renderChrome();
   render();
+  if (options.fitPerson) scrollFocusIntoView(state.focusId);
+  else stage.scrollTop = 0;
+  paintAxisPin();
+  announce(`已进入章节：${view.name}`);
 }
 
 function relayout(): void {
   if (!state) return;
   const width = stage.clientWidth;
   if (width <= 0) return;
-  if (state.mode === 'timeline' && width === state.layout.width) return;
+  if (
+    state.mode === 'timeline' &&
+    width === state.layout.width &&
+    stage.clientHeight === state.layout.availHeight
+  ) {
+    return;
+  }
   rebuildLayout();
   if (state.mode === 'timeline') initZoom();
   render();
@@ -314,6 +517,8 @@ function setFocus(id: string | null): void {
   }
   renderChrome();
   render();
+  announce(id ? `已选择人物：${personById(id)?.display ?? id}` : '已取消人物选择');
+  if (id) window.requestAnimationFrame(() => focusPersonControl(id));
 }
 
 function enterGraph(): void {
@@ -332,23 +537,45 @@ function returnToTimeline(): void {
   if (state.focusId) {
     const view = findViewForPerson(state.topic, state.focusId, currentView());
     if (view.id !== state.viewId) {
-      applyView(view.id, { focusId: state.focusId, fitPerson: true });
+      applyView(view.id, { focusId: state.focusId, fitPerson: true, history: 'push' });
       return;
     }
   }
   initZoom();
   renderChrome();
   render();
+  announce('已返回时间轴');
 }
 
 function revealPerson(id: string): void {
   if (!state) return;
   ui.searchQuery = '';
+  ui.searchActiveIndex = -1;
   searchInput.value = '';
   searchInput.blur();
   renderSearchUI();
   const view = findViewForPerson(state.topic, id, currentView());
-  applyView(view.id, { focusId: id, fitPerson: true });
+  applyView(view.id, { focusId: id, fitPerson: true, history: 'push' });
+}
+
+async function openRemotePerson(topicId: string, personId: string): Promise<void> {
+  ui.searchQuery = '';
+  ui.searchActiveIndex = -1;
+  searchInput.value = '';
+  renderSearchUI();
+  if (!state || state.topic.meta.id !== topicId) {
+    await mountTopic(topicId, null, 'skip');
+  }
+  revealPerson(personId);
+}
+
+function ensureSearchIndex(): Promise<SearchRecord[]> {
+  if (searchIndex) return Promise.resolve(searchIndex);
+  searchIndexTask ??= loadSearchIndex('./data/search.json').then((rows) => {
+    searchIndex = rows;
+    return rows;
+  });
+  return searchIndexTask;
 }
 
 function closeMenus(except?: 'topic' | 'export'): void {
@@ -374,11 +601,17 @@ async function switchTopic(topicId: string): Promise<void> {
   ui.topicMenuOpen = false;
   ui.exportMenuOpen = false;
   ui.searchQuery = '';
+  ui.searchActiveIndex = -1;
   searchInput.value = '';
-  await mountTopic(topicId, null);
+  await mountTopic(topicId, null, 'push');
 }
 
-async function mountTopic(topicId: string, viewId: string | null): Promise<void> {
+async function mountTopic(
+  topicId: string,
+  viewId: string | null,
+  history: HistoryMode,
+  unknownTopic: string | null = null,
+): Promise<void> {
   if (!catalog) return;
   loadingTopic = true;
   try {
@@ -389,7 +622,7 @@ async function mountTopic(topicId: string, viewId: string | null): Promise<void>
     const first = topic.views[0];
     state = {
       topic,
-      layout: buildLayout(topic, stage.clientWidth, first),
+      layout: buildLayout(topic, stage.clientWidth, first, stage.clientHeight),
       viewId: first.id,
       domain: [first.from, first.to],
       focusId: null,
@@ -397,8 +630,18 @@ async function mountTopic(topicId: string, viewId: string | null): Promise<void>
       showAllRelations: false,
       adjacency: buildAdjacency(topic),
       mode: 'timeline',
+      routeMiss: null,
     };
-    applyView(viewId ?? first.id);
+    const requested = viewId;
+    const found = requested ? topic.views.some((view) => view.id === requested) : true;
+    const missingView = requested && !found ? requested : null;
+    if (missingView || unknownTopic) {
+      state.routeMiss = { topicToken: unknownTopic, viewToken: missingView };
+    }
+    applyView(found && requested ? requested : entryView(topic).id, {
+      history: missingView || unknownTopic ? 'skip' : history,
+      keepMiss: Boolean(missingView || unknownTopic),
+    });
     renderSearchUI();
   } finally {
     loadingTopic = false;
@@ -408,13 +651,20 @@ async function mountTopic(topicId: string, viewId: string | null): Promise<void>
 async function onHashChange(): Promise<void> {
   if (!catalog || !state || loadingTopic) return;
   const route = parseHash(location.hash, catalog);
-  if (route.topicId !== state.topic.meta.id) {
-    await mountTopic(route.topicId, route.viewId);
+  const history: HistoryMode = route.canonicalize ? 'replace' : 'skip';
+  if (route.unknownTopic || route.topicId !== state.topic.meta.id) {
+    await mountTopic(route.topicId, route.viewId, history, route.unknownTopic);
+    return;
+  }
+  const found = route.viewId ? state.topic.views.some((view) => view.id === route.viewId) : true;
+  if (route.viewId && !found) {
+    state.routeMiss = { topicToken: null, viewToken: route.viewId };
+    applyView(entryView(state.topic).id, { history: 'skip', keepMiss: true });
     return;
   }
   const view = findView(state.topic, route.viewId);
-  if (view.id !== state.viewId || state.mode === 'graph') applyView(view.id);
-  else writeHash(state.topic.meta.id, view.id);
+  if (view.id !== state.viewId || state.mode === 'graph') applyView(view.id, { history });
+  else if (route.canonicalize) writeHash(state.topic.meta.id, view.id, 'replace');
 }
 
 function exportBasenameNow(): string {
@@ -430,7 +680,8 @@ async function handleExport(format: 'png' | 'svg'): Promise<void> {
   ui.exportMenuOpen = false;
   renderChrome();
   try {
-    await downloadChart(svg, exportBasenameNow(), format);
+    const axis = state?.mode === 'timeline' ? axisPinSvg : null;
+    await downloadChart(svg, exportBasenameNow(), format, axis);
   } catch (error) {
     console.error(error);
     window.alert(format === 'png' ? '无法导出 PNG，请改用导出 SVG。' : '导出失败。');
@@ -442,6 +693,25 @@ function isTypingTarget(target: EventTarget | null): boolean {
 }
 
 function wireEvents(): void {
+  svg.addEventListener('focusin', (event) => {
+    if (!state) return;
+    const target = event.target as Element | null;
+    const id = target?.closest('[data-person]')?.getAttribute('data-person') ?? null;
+    if (!id || id === state.hoverId) return;
+    state.hoverId = id;
+    render();
+    window.requestAnimationFrame(() => focusPersonControl(id));
+  });
+
+  svg.addEventListener('keydown', (event) => {
+    if (!state || (event.key !== 'Enter' && event.key !== ' ')) return;
+    const target = event.target as Element | null;
+    const id = target?.closest('[data-person]')?.getAttribute('data-person') ?? null;
+    if (!id) return;
+    event.preventDefault();
+    setFocus(state.focusId === id ? null : id);
+  });
+
   svg.addEventListener('pointerover', (event) => {
     if (!state) return;
     pointer.x = event.clientX;
@@ -467,6 +737,10 @@ function wireEvents(): void {
   });
 
   svg.addEventListener('click', (event) => {
+    if (suppressClick) {
+      suppressClick = false;
+      return;
+    }
     if (!state) return;
     const target = event.target as Element | null;
     const id = target?.closest('[data-person]')?.getAttribute('data-person') ?? null;
@@ -479,7 +753,13 @@ function wireEvents(): void {
 
   searchInput.addEventListener('input', () => {
     ui.searchQuery = searchInput.value;
+    ui.searchActiveIndex = -1;
     renderSearchUI();
+    const query = ui.searchQuery;
+    if (!state || !query.trim() || searchPeople(state.topic, query).length > 0) return;
+    void ensureSearchIndex().then(() => {
+      if (ui.searchQuery === query) renderSearchUI();
+    });
   });
 
   searchInput.addEventListener('focus', () => {
@@ -487,11 +767,43 @@ function wireEvents(): void {
   });
 
   searchInput.addEventListener('keydown', (event) => {
-    if (!state || event.key !== 'Enter') return;
-    const first = searchPeople(state.topic, ui.searchQuery)[0];
-    if (!first) return;
+    if (!state) return;
+    const hits = currentSearchRows();
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+      if (hits.length === 0) return;
+      event.preventDefault();
+      const delta = event.key === 'ArrowDown' ? 1 : -1;
+      ui.searchActiveIndex =
+        (ui.searchActiveIndex + delta + hits.length) % hits.length;
+      renderSearchUI();
+      return;
+    }
+    if (event.key === 'Escape') {
+      ui.searchQuery = '';
+      ui.searchActiveIndex = -1;
+      searchInput.value = '';
+      renderSearchUI();
+      return;
+    }
+    if (event.key !== 'Enter') return;
+    const selected = hits[ui.searchActiveIndex] ?? hits[0];
+    if (!selected) {
+      if (!ui.searchQuery.trim() || !state || searchPeople(state.topic, ui.searchQuery).length > 0) return;
+      event.preventDefault();
+      const query = ui.searchQuery;
+      void ensureSearchIndex().then(() => {
+        if (ui.searchQuery !== query) return;
+        renderSearchUI();
+        const next = currentSearchRows()[0];
+        if (!next) return;
+        if (next.topicId) void openRemotePerson(next.topicId, next.personId);
+        else revealPerson(next.personId);
+      });
+      return;
+    }
     event.preventDefault();
-    revealPerson(first.id);
+    if (selected.topicId) void openRemotePerson(selected.topicId, selected.personId);
+    else revealPerson(selected.personId);
   });
 
   document.addEventListener('keydown', (event) => {
@@ -536,7 +848,18 @@ function wireEvents(): void {
 
     const chapter = target.closest('[data-chapter]')?.getAttribute('data-chapter');
     if (chapter) {
-      applyView(chapter);
+      applyView(chapter, { history: 'push' });
+      return;
+    }
+
+    const goTopic = target.closest('[data-go-topic]')?.getAttribute('data-go-topic');
+    if (goTopic) {
+      if (state.topic.meta.id === goTopic) {
+        state.routeMiss = null;
+        applyView(entryView(state.topic).id, { history: 'push' });
+      } else {
+        void mountTopic(goTopic, null, 'push');
+      }
       return;
     }
 
@@ -578,6 +901,13 @@ function wireEvents(): void {
       return;
     }
 
+    const searchJump = target.closest('[data-search-jump]')?.getAttribute('data-search-jump');
+    if (searchJump) {
+      const slash = searchJump.indexOf('/');
+      if (slash > 0) void openRemotePerson(searchJump.slice(0, slash), searchJump.slice(slash + 1));
+      return;
+    }
+
     const goto = target.closest('[data-goto]')?.getAttribute('data-goto');
     if (goto) {
       if (state.mode === 'graph') setFocus(goto);
@@ -601,7 +931,7 @@ function wireEvents(): void {
     }
 
     if (target.closest('#reset-view')) {
-      applyView(state.viewId);
+      applyView(state.viewId, { history: 'skip' });
       return;
     }
 
@@ -636,20 +966,73 @@ function wireEvents(): void {
   });
 
   new ResizeObserver(() => relayout()).observe(stage);
+  stage.addEventListener('scroll', () => {
+    if (state?.mode === 'timeline') paintAxisPin();
+  }, { passive: true });
   window.addEventListener('hashchange', () => {
     void onHashChange();
   });
+  wireDrag();
+}
+
+function wireDrag(): void {
+  let drag: {
+    pointerId: number;
+    x: number;
+    y: number;
+    mode: 'pending' | 'pan' | 'scroll' | 'ignore';
+  } | null = null;
+
+  svg.addEventListener('pointerdown', (event) => {
+    if (!state || state.mode === 'graph' || event.button !== 0) return;
+    drag = { pointerId: event.pointerId, x: event.clientX, y: event.clientY, mode: 'pending' };
+  });
+
+  svg.addEventListener('touchstart', (event) => {
+    if (event.touches.length >= 2 && drag) drag.mode = 'ignore';
+  }, { passive: true });
+
+  svg.addEventListener('pointermove', (event) => {
+    if (!drag || event.pointerId !== drag.pointerId || !state) return;
+    const dx = event.clientX - drag.x;
+    const dy = event.clientY - drag.y;
+    if (drag.mode === 'pending') {
+      if (Math.hypot(dx, dy) < 5) return;
+      if (event.pointerType === 'touch' && Math.abs(dy) >= Math.abs(dx)) {
+        drag.mode = 'ignore';
+        return;
+      }
+      drag.mode = Math.abs(dx) > Math.abs(dy) ? 'pan' : 'scroll';
+      svg.setPointerCapture(event.pointerId);
+      suppressClick = true;
+    }
+    if (drag.mode === 'pan') panByPixels(dx);
+    else if (drag.mode === 'scroll') stage.scrollTop -= dy;
+    drag.x = event.clientX;
+    drag.y = event.clientY;
+  });
+
+  const endDrag = (event: PointerEvent) => {
+    if (!drag || event.pointerId !== drag.pointerId) return;
+    if (svg.hasPointerCapture(event.pointerId)) svg.releasePointerCapture(event.pointerId);
+    drag = null;
+  };
+  svg.addEventListener('pointerup', endDrag);
+  svg.addEventListener('pointercancel', endDrag);
 }
 
 async function boot(): Promise<void> {
   catalog = await loadCatalog('./data/index.json');
   const route = parseHash(location.hash, catalog);
-  await mountTopic(route.topicId, route.viewId);
+  const bare = !location.hash || location.hash === '#';
+  const history: HistoryMode = route.unknownTopic ? 'skip' : bare || route.canonicalize ? 'replace' : 'skip';
+  await mountTopic(route.topicId, route.viewId, history, route.unknownTopic);
   wireEvents();
 }
 
 boot().catch((error: unknown) => {
   const message = error instanceof Error ? error.message : String(error);
   stage.innerHTML = `<pre class="fatal">${esc(message)}</pre>`;
+  announce(`加载失败：${message}`);
   console.error(error);
 });

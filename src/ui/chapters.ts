@@ -5,14 +5,23 @@ export function renderChapters(topic: Topic, activeId: string): string {
   return topic.views
     .map(
       (view) =>
-        `<button type="button" class="chapter${view.id === activeId ? ' is-active' : ''}" data-chapter="${esc(view.id)}">${esc(view.name)}</button>`,
+        `<button type="button" class="chapter${view.id === activeId ? ' is-active' : ''}" data-chapter="${esc(view.id)}" aria-current="${view.id === activeId ? 'page' : 'false'}">${esc(view.name)}</button>`,
     )
     .join('');
 }
 
+/** 全览是索引。打开专题时落到后面第一则能读完的章节。 */
+export function entryView(topic: Topic): View {
+  return topic.views.find((view) => view.id !== 'overview') ?? topic.views[0];
+}
+
+export function isIndexView(view: View): boolean {
+  return view.id === 'overview';
+}
+
 export function findView(topic: Topic, id: string | null | undefined): View {
-  if (!id) return topic.views[0];
-  return topic.views.find((v) => v.id === id) ?? topic.views[0];
+  if (!id) return entryView(topic);
+  return topic.views.find((v) => v.id === id) ?? entryView(topic);
 }
 
 export function viewHasPerson(view: View, personId: string): boolean {

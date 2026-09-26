@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "id": "qin",
+    "title": "秦 · 帝国与楚汉",
+    "subtitle": "从一统天下到楚汉相争 · 公元前 221 — 公元前 202",
+    "range": [
+      -250,
+      -195
+    ]
+  },
+  "catalog": {
+    "subtitle": "从一统天下到楚汉相争",
+    "region": "cn",
+    "eras": [
+      "qin"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "qin-ruler",
+      "name": "秦君",
+      "color": "#c0392b"
+    },
+    {
+      "id": "qin-official",
+      "name": "秦朝臣僚",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "chu",
+      "name": "楚军",
+      "color": "#922b3a"
+    },
+    {
+      "id": "han",
+      "name": "汉军",
+      "color": "#4a9c5d"
+    },
+    {
+      "id": "rebel",
+      "name": "秦末民变",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "ying-zheng",
+      "lane": "qin-ruler"
+    },
+    {
+      "id": "ying-fusu",
+      "lane": "qin-ruler"
+    },
+    {
+      "id": "ying-huhai",
+      "lane": "qin-ruler"
+    },
+    {
+      "id": "ying-ziying",
+      "lane": "qin-ruler"
+    },
+    {
+      "id": "li-si",
+      "lane": "qin-official"
+    },
+    {
+      "id": "zhao-gao",
+      "lane": "qin-official"
+    },
+    {
+      "id": "meng-tian",
+      "lane": "qin-official"
+    },
+    {
+      "id": "meng-yi",
+      "lane": "qin-official"
+    },
+    {
+      "id": "zhang-han",
+      "lane": "qin-official"
+    },
+    {
+      "id": "xiang-liang",
+      "lane": "chu"
+    },
+    {
+      "id": "xiang-yu",
+      "lane": "chu"
+    },
+    {
+      "id": "fan-zeng",
+      "lane": "chu"
+    },
+    {
+      "id": "xiong-xin",
+      "lane": "chu"
+    },
+    {
+      "id": "liu-bang",
+      "lane": "han"
+    },
+    {
+      "id": "zhang-liang",
+      "lane": "han"
+    },
+    {
+      "id": "han-xin",
+      "lane": "han"
+    },
+    {
+      "id": "peng-yue",
+      "lane": "han"
+    },
+    {
+      "id": "ying-bu",
+      "lane": "han"
+    },
+    {
+      "id": "xiao-he",
+      "lane": "han"
+    },
+    {
+      "id": "cao-can",
+      "lane": "han"
+    },
+    {
+      "id": "chen-ping",
+      "lane": "han"
+    },
+    {
+      "id": "fan-kuai",
+      "lane": "han"
+    },
+    {
+      "id": "zhou-bo",
+      "lane": "han"
+    },
+    {
+      "id": "guan-ying",
+      "lane": "han"
+    },
+    {
+      "id": "chen-sheng",
+      "lane": "rebel"
+    },
+    {
+      "id": "wu-guang",
+      "lane": "rebel"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-zheng",
+      "target": "ying-fusu",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-huhai",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "li-si",
+      "type": "ruler-subject",
+      "note": "用为廷尉、丞相，定郡县与焚书之策"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "meng-tian",
+      "type": "ruler-subject",
+      "since": -214,
+      "note": "北筑长城、逐匈奴"
+    },
+    {
+      "source": "meng-tian",
+      "target": "meng-yi",
+      "type": "kin",
+      "note": "兄弟，俱蒙氏"
+    },
+    {
+      "source": "li-si",
+      "target": "zhao-gao",
+      "type": "rival",
+      "note": "沙丘之谋同定密计，后赵高构陷李斯"
+    },
+    {
+      "source": "zhao-gao",
+      "target": "ying-huhai",
+      "type": "ruler-subject",
+      "note": "矫诏立胡亥，自任郎中令"
+    },
+    {
+      "source": "ying-ziying",
+      "target": "zhao-gao",
+      "type": "rival",
+      "since": -207,
+      "note": "子婴计杀赵高"
+    },
+    {
+      "source": "xiang-liang",
+      "target": "xiang-yu",
+      "type": "kin",
+      "note": "叔侄"
+    },
+    {
+      "source": "xiong-xin",
+      "target": "xiang-yu",
+      "type": "peer",
+      "note": "义帝与项氏，后项羽徙杀之"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "fan-zeng",
+      "type": "peer",
+      "note": "尊为亚父，鸿门献计"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhang-liang",
+      "type": "ruler-subject",
+      "note": "首席谋臣，画策入关"
+    },
+    {
+      "source": "liu-bang",
+      "target": "han-xin",
+      "type": "ruler-subject",
+      "since": -206,
+      "note": "拜大将，统兵定诸侯"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiang-yu",
+      "type": "rival",
+      "since": -206,
+      "note": "楚汉相争四年"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "zhang-han",
+      "type": "rival",
+      "since": -207,
+      "note": "巨鹿之战破秦军"
+    },
+    {
+      "source": "han-xin",
+      "target": "xiang-yu",
+      "type": "rival",
+      "since": -202,
+      "note": "垓下合围，四面楚歌"
+    },
+    {
+      "source": "han-xin",
+      "target": "ying-bu",
+      "type": "peer",
+      "note": "同列异姓王，皆叛楚归汉"
+    },
+    {
+      "source": "chen-sheng",
+      "target": "wu-guang",
+      "type": "peer",
+      "note": "大泽乡首义，王侯将相宁有种乎"
+    },
+    {
+      "source": "chen-sheng",
+      "target": "zhang-han",
+      "type": "rival",
+      "since": -208,
+      "note": "章邯破陈县，胜败死"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "note": "萧何主关中、镇后方，汉之丞相第一"
+    },
+    {
+      "source": "xiao-he",
+      "target": "cao-can",
+      "type": "peer",
+      "note": "萧规曹随，相继为相"
+    },
+    {
+      "source": "liu-bang",
+      "target": "chen-ping",
+      "type": "ruler-subject",
+      "note": "六出奇计，定汉业"
+    },
+    {
+      "source": "liu-bang",
+      "target": "fan-kuai",
+      "type": "kin",
+      "note": "沛县故人，鸿门卫士"
+    },
+    {
+      "source": "liu-bang",
+      "target": "guan-ying",
+      "type": "peer",
+      "note": "从起沛，骑兵名将"
+    },
+    {
+      "source": "zhou-bo",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "note": "厚重的周勃，后平定诸吕"
+    }
+  ],
+  "events": [
+    {
+      "id": "qin-chengdi",
+      "name": "秦王政称皇帝",
+      "kind": "point",
+      "year": -221,
+      "people": [
+        "ying-zheng",
+        "li-si"
+      ],
+      "desc": "灭齐，六国尽归一统。嬴政自以为「德兼三皇，功过五帝」，定名号曰皇帝，废谥法、行郡县。"
+    },
+    {
+      "id": "qin-changcheng",
+      "name": "北筑长城 · 开灵渠",
+      "kind": "point",
+      "year": -214,
+      "people": [
+        "ying-zheng",
+        "meng-tian"
+      ],
+      "desc": "蒙恬将三十万众北逐匈奴，连燕赵秦故城为万里长城；南征百越，凿灵渠通粮道。"
+    },
+    {
+      "id": "qin-shaqiu",
+      "name": "沙丘之变",
+      "kind": "point",
+      "year": -210,
+      "people": [
+        "ying-zheng",
+        "ying-fusu",
+        "zhao-gao",
+        "li-si"
+      ],
+      "desc": "始皇崩于巡游途中，赵高、李斯秘不发丧，矫诏赐死扶苏，立胡亥。"
+    },
+    {
+      "id": "qin-daze",
+      "name": "大泽乡起义",
+      "kind": "point",
+      "year": -209,
+      "people": [
+        "chen-sheng",
+        "wu-guang"
+      ],
+      "desc": "陈胜、吴广失期当斩，斩木为兵，揭竿而起，号张楚，天下响应。"
+    },
+    {
+      "id": "qin-julu",
+      "name": "巨鹿之战",
+      "kind": "point",
+      "year": -207,
+      "people": [
+        "xiang-yu",
+        "zhang-han",
+        "xiong-xin"
+      ],
+      "desc": "项羽破釜沉舟，九战绝秦军甬道，俘王离；章邯率余众降，秦主力尽丧。"
+    },
+    {
+      "id": "qin-wang",
+      "name": "秦朝亡",
+      "kind": "point",
+      "year": -207,
+      "people": [
+        "ying-ziying",
+        "zhao-gao"
+      ],
+      "desc": "赵高弑胡亥，立子婴。子婴诛赵高，出降沛公，秦祀遂绝。"
+    },
+    {
+      "id": "qin-xianyang",
+      "name": "项羽入咸阳",
+      "kind": "point",
+      "year": -206,
+      "people": [
+        "xiang-yu",
+        "liu-bang"
+      ],
+      "desc": "沛公先入关，约法三章；项羽后至，屠咸阳、烧宫室、杀子婴，分封十八路诸侯，自号西楚霸王。"
+    },
+    {
+      "id": "qin-chuhan",
+      "name": "楚汉相争",
+      "kind": "span",
+      "year": -206,
+      "endYear": -202,
+      "people": [
+        "liu-bang",
+        "xiang-yu",
+        "han-xin",
+        "zhang-liang"
+      ],
+      "desc": "刘邦据汉中，明修栈道暗度陈仓；韩信北定三秦、东破齐赵。正面持久而侧翼包抄，楚势渐蹙。"
+    },
+    {
+      "id": "qin-gaixia",
+      "name": "垓下之战",
+      "kind": "point",
+      "year": -202,
+      "people": [
+        "xiang-yu",
+        "han-xin",
+        "liu-bang"
+      ],
+      "desc": "韩信十面埋伏，四面楚歌。项羽突围至乌江自刎。同年刘邦即皇帝位，国号汉。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "秦楚全览",
+      "from": -250,
+      "to": -195,
+      "focus": "ying-zheng",
+      "brief": "从始皇并称皇帝到垓下楚歌。秦君一列红条极长，压过楚汉；下方汉军绿条与楚军酒红条在 -206 后咬住，垓下一战收束。"
+    },
+    {
+      "id": "qin-di",
+      "name": "一统与速亡",
+      "from": -225,
+      "to": -205,
+      "focus": "ying-zheng",
+      "brief": "嬴政的条横贯此章，李斯、蒙恬列于其下。沙丘之后扶苏被赐死、胡亥即位，赵高一条把秦廷搅碎。",
+      "people": [
+        "ying-zheng",
+        "ying-fusu",
+        "ying-huhai",
+        "li-si",
+        "zhao-gao",
+        "meng-tian",
+        "meng-yi"
+      ],
+      "events": [
+        "qin-chengdi",
+        "qin-changcheng",
+        "qin-shaqiu",
+        "qin-wang"
+      ]
+    },
+    {
+      "id": "qin-min",
+      "name": "秦末崩塌",
+      "from": -210,
+      "to": -205,
+      "focus": "chen-sheng",
+      "brief": "陈胜吴广点燃民变，章邯以骊山徒成军扑灭；项羽在巨鹿把秦军主力一次性打光。",
+      "people": [
+        "chen-sheng",
+        "wu-guang",
+        "zhang-han",
+        "xiang-liang",
+        "xiong-xin",
+        "xiang-yu"
+      ],
+      "events": [
+        "qin-daze",
+        "qin-julu",
+        "qin-wang"
+      ]
+    },
+    {
+      "id": "qin-chuhan",
+      "name": "楚汉相争",
+      "from": -207,
+      "to": -195,
+      "focus": "liu-bang",
+      "brief": "刘邦入关、项羽分封、四年拉锯。韩信的条从 -206 拜将一路打到垓下；张良画策于内。",
+      "people": [
+        "liu-bang",
+        "zhang-liang",
+        "han-xin",
+        "peng-yue",
+        "ying-bu",
+        "xiang-yu",
+        "fan-zeng"
+      ],
+      "events": [
+        "qin-xianyang",
+        "qin-chuhan",
+        "qin-gaixia"
+      ]
+    }
+  ]
+}

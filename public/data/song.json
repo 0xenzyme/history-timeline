@@ -1,0 +1,1548 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "song",
+    "title": "宋",
+    "subtitle": "从陈桥兵变到崖山蹈海 · 公元 927 — 公元 1279",
+    "range": [
+      927,
+      1279
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "chancellor",
+      "name": "名相 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将 · 抗金",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "文学 · 理学",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "end",
+      "name": "权相 · 末世",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 927,
+      "death": 976,
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-guangyi",
+      "name": "赵光义",
+      "display": "赵光义",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 939,
+      "death": 997,
+      "title": "宋太宗，完成一统",
+      "bio": "太祖之弟，即位后灭北汉，结束五代十国分裂；两度北伐契丹失利，自此守内虚外。留心文治，扩大科举。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-hen",
+      "name": "赵恒",
+      "display": "赵恒",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 968,
+      "death": 1022,
+      "title": "宋真宗，澶渊之盟",
+      "bio": "太宗第三子，即位后与契丹定澶渊之盟，纳币称兄。晚年崇道教、封禅泰山，造天书，国库为耗。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-zhen",
+      "name": "赵祯",
+      "display": "赵祯",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1010,
+      "death": 1063,
+      "title": "宋仁宗，庆历之治",
+      "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-xu",
+      "name": "赵顼",
+      "display": "赵顼",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1048,
+      "death": 1085,
+      "title": "宋神宗，熙宁变法",
+      "bio": "英宗子，即位旋用王安石变法，图强御夏。新法行之利弊相半，元丰改制官制；晚年新党内部亦生龃龉。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-ji",
+      "name": "赵佶",
+      "display": "赵佶",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1082,
+      "death": 1135,
+      "title": "宋徽宗，书画皇帝",
+      "bio": "神宗子，工书画、创瘦金体，宠蔡京等倡花石纲，朝政日非。宣和末金兵南下，传位钦宗；靖康被掳，卒于五国城。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "calligraphy",
+        "painting",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-gou",
+      "name": "赵构",
+      "display": "赵构",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1107,
+      "death": 1187,
+      "title": "宋高宗，南宋开国",
+      "bio": "徽宗第九子，靖康后于南京应天府即位，南渡定都临安。任秦桧主和，杀岳飞，与金定绍兴和议，偏安江南。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-shen",
+      "name": "赵昚",
+      "display": "赵昚",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1127,
+      "death": 1194,
+      "title": "宋孝宗，隆兴恢复",
+      "bio": "太祖七世孙，高宗养子。即位锐意恢复，起用张浚北伐，败于符离；旋定隆兴和议。为岳飞平反，号称小元祐。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-shu",
+      "name": "赵曙",
+      "display": "宋英宗赵曙",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1032,
+      "death": 1067,
+      "title": "仁宗养子，濮议之争",
+      "bio": "濮安懿王允让第十三子，仁宗无嗣，立为皇子。治平即位，濮议起，追崇本生父，朝论汹汹。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-xu-zhe",
+      "name": "赵煦",
+      "display": "宋哲宗赵煦",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1077,
+      "death": 1100,
+      "title": "元祐更化与绍圣绍述",
+      "bio": "神宗第六子，十岁即位，太皇太后高氏听政，行元祐旧法；亲政后改元绍圣，复新法、逐旧臣。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-huan",
+      "name": "赵桓",
+      "display": "宋钦宗赵桓",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1100,
+      "death": 1156,
+      "title": "靖康之祸，北宋亡",
+      "bio": "徽宗长子，宣和七年受禅。靖康元年金兵两度围汴，父子被俘北去，北宋亡，后卒于五国城。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-dun",
+      "name": "赵惇",
+      "display": "宋光宗赵惇",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1147,
+      "death": 1200,
+      "title": "绍熙内禅",
+      "bio": "孝宗第三子，淳熙即位。不事孝宗、后宫干政，绍熙末群臣迫其内禅于子扩，尊为太上皇。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-kuo",
+      "name": "赵扩",
+      "display": "宋宁宗赵扩",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1168,
+      "death": 1224,
+      "title": "庆元党禁与开禧北伐",
+      "bio": "光宗长子，绍熙内禅即位。庆元党籍禁道学，开禧北伐败于金，嘉定和议称侄。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lizong",
+      "name": "赵昀",
+      "display": "宋理宗赵昀",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1205,
+      "death": 1264,
+      "title": "端平入洛，晚宋之主",
+      "bio": "太祖十世孙，宁宗养子。宝庆即位，端平入洛失利；后期权移贾似道，国势日蹙。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-qi",
+      "name": "赵禥",
+      "display": "宋度宗赵禥",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1240,
+      "death": 1274,
+      "title": "怠政，贾似道专权",
+      "bio": "理宗侄，嗣位。嗜欲怠政，军国事一决贾似道，襄阳被困三年而不知，元兵南下势不可遏。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-xian",
+      "name": "赵㬎",
+      "display": "宋恭帝赵㬎",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1271,
+      "death": 1323,
+      "title": "宋恭帝，临安出降",
+      "bio": "度宗长子，咸淳十年四岁即位。德祐二年临安陷，奉表降元，宋室播迁南海。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song",
+        "yuan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-shi",
+      "name": "赵昰",
+      "display": "宋端宗赵昰",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1269,
+      "death": 1278,
+      "title": "海上行朝",
+      "bio": "度宗长子、恭帝兄，益王。临安陷后于福州即位，辗转闽广海上，祥兴前病死于舟中。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-bing",
+      "name": "赵昺",
+      "display": "宋卫王赵昺",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1272,
+      "death": 1279,
+      "title": "宋末帝，崖山蹈海",
+      "bio": "度宗少子，卫王。端宗崩后继立于厓山，祥兴二年陆秀夫负之投海，宋亡。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-pu",
+      "name": "赵普",
+      "display": "赵普",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 922,
+      "death": 992,
+      "title": "开国首相，半部论语治天下",
+      "bio": "幽州蓟人，佐太祖定天下，谋陈桥、定杯酒释兵权。三入中书，言「以半部《论语》佐太祖定天下」，为宋初典制奠基。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor",
+        "founding"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kou-zhun",
+      "name": "寇准",
+      "display": "寇准",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 961,
+      "death": 1023,
+      "title": "澶渊之盟主盟者",
+      "bio": "华州下邽人，少年登第，刚直敢言。真宗朝拜相，契丹南下时力主亲征，促成澶渊之盟，宋辽息兵百余年。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-zhongyan",
+      "name": "范仲淹",
+      "display": "范仲淹",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 989,
+      "death": 1052,
+      "title": "先忧后乐，庆历新政",
+      "bio": "吴县（祖籍邠州）人，苦学登第。镇守西夏，名重边陲；推行庆历新政，条陈十事。名句「先天下之忧而忧，后天下之乐而乐」。",
+      "tags": [
+        "宋",
+        "北宋",
+        "改革"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "poetry"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ou-yangxiu",
+      "name": "欧阳修",
+      "display": "欧阳修",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1007,
+      "death": 1072,
+      "title": "古文运动领袖，六一居士",
+      "bio": "庐陵人，举进士，奖掖后进，与尹洙、梅尧臣倡古文，排斥险怪时文。主修《新唐书》《新五代史》，为北宋文宗。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "poetry",
+        "historian"
+      ],
+      "primary": "literature",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "bao-zheng",
+      "name": "包拯",
+      "display": "包拯",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 999,
+      "death": 1062,
+      "title": "包孝肃，铁面御史",
+      "bio": "庐州合肥人，进士及第。历知开封府，执法严峻，贵戚宦官为之敛手，时号「包待制」，民间奉为清官典型。",
+      "tags": [
+        "宋",
+        "北宋",
+        "清官"
+      ],
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-anshi",
+      "name": "王安石",
+      "display": "王安石",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1021,
+      "death": 1086,
+      "title": "熙宁变法，荆公新学",
+      "bio": "临川人，翰林学士。神宗朝拜相，行青苗、募役、市易诸法，欲富国强兵，史称熙宁变法。新旧党争由此起，身后争议千年。",
+      "tags": [
+        "宋",
+        "北宋",
+        "改革"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "classics"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-guang",
+      "name": "司马光",
+      "display": "司马光",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1019,
+      "death": 1086,
+      "title": "旧党领袖，《资治通鉴》",
+      "bio": "陕州夏县人，宝元进士。反对新法，退居洛阳十五年，主编《资治通鉴》二百九十四卷。哲宗初拜相，尽废新法。",
+      "tags": [
+        "宋",
+        "北宋",
+        "旧党"
+      ],
+      "categories": [
+        "chancellor",
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-gang",
+      "name": "李纲",
+      "display": "李纲",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1083,
+      "death": 1140,
+      "title": "抗金首相，守汴主战",
+      "bio": "邵武人，靖康初力主固守汴京、抗金迎驾。高宗即位首拜相，旬日而罢；一生主战，数起数黜。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-bin",
+      "name": "曹彬",
+      "display": "曹彬",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 931,
+      "death": 999,
+      "title": "北宋开国第一名将",
+      "bio": "真定灵寿人，性仁厚，太祖倚为心膂。灭后蜀、征太原、统师伐江南，克金陵而秋毫无犯，位兼将相。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yue-fei",
+      "name": "岳飞",
+      "display": "岳飞",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1103,
+      "death": 1142,
+      "title": "武穆，精忠报国",
+      "bio": "相州汤阴人，农家子，从军抗金，组建岳家军，郾城大捷。力主恢复，累官至枢密副使。为秦桧所构，以「莫须有」冤死风波亭。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-shizhong",
+      "name": "韩世忠",
+      "display": "韩世忠",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1089,
+      "death": 1151,
+      "title": "蕲王，黄天荡阻金",
+      "bio": "延安人，行伍起家，扈从高宗南渡。黄天荡以八千邀击兀术十万，几擒之；后与岳飞同遭抑，纵酒终老。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-kuo",
+      "name": "沈括",
+      "display": "沈括",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1031,
+      "death": 1095,
+      "title": "科学家，《梦溪笔谈》",
+      "bio": "杭州钱塘人，博通天文、历算、地理、工艺。使辽划界、论治边；晚年居润州梦溪园，成《梦溪笔谈》，记活字印刷、磁针诸事，为古代科技奇书。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "official",
+        "science",
+        "astronomy",
+        "craft"
+      ],
+      "primary": "science",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cheng-hao",
+      "name": "程颢",
+      "display": "程颢",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1032,
+      "death": 1085,
+      "title": "洛学创始人，明道先生",
+      "bio": "洛阳人，与其弟程颐同受学周敦颐，倡天理之说，开理学先声。风化乡里，学者称明道先生。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "neo-confucian"
+      ],
+      "primary": "neo-confucian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cheng-yi",
+      "name": "程颐",
+      "display": "程颐",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1033,
+      "death": 1107,
+      "title": "伊川先生，洛学大宗",
+      "bio": "程颢之弟，居伊川，讲学终身。主张「涵养须用敬，进学在致知」，其说为朱熹所承。世称程朱理学。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "neo-confucian"
+      ],
+      "primary": "neo-confucian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-xi",
+      "name": "朱熹",
+      "display": "朱熹",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1130,
+      "death": 1200,
+      "title": "晦庵，集理学之大成",
+      "bio": "婺源人，承二程而集理学大成，主「存天理、灭人欲」，编《四书章句集注》立为科举准的。讲学武夷、白鹿洞，泽被后世。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "neo-confucian",
+        "classics"
+      ],
+      "primary": "neo-confucian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "su-shi",
+      "name": "苏轼",
+      "display": "苏轼",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1037,
+      "death": 1101,
+      "title": "东坡居士，北宋文豪",
+      "bio": "眉山人，嘉祐进士，欧阳修叹其所为「他日文章必独步天下」。诗词书画俱绝，因乌台诗案贬黄州；仕途蹭蹬而性情旷达。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "official",
+        "literature",
+        "poetry",
+        "calligraphy",
+        "painting"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-qingzhao",
+      "name": "李清照",
+      "display": "李清照",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1084,
+      "death": 1155,
+      "title": "易安居士，婉约词宗",
+      "bio": "济南章丘人，号易安居士。词擅婉约，前后期迥异；南渡后悲苦流离，诗文具金石之志。与夫赵明诚共撰《金石录》。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "poetry",
+        "literature"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "song"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "lu-you",
+      "name": "陆游",
+      "display": "陆游",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1125,
+      "death": 1210,
+      "title": "放翁，爱国诗人",
+      "bio": "越州山阴人，少逢靖康之难，终身以恢复为念。诗近万首，沉郁悲慨；临殁犹示儿「王师北定中原日」。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "poetry",
+        "literature"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xin-qiji",
+      "name": "辛弃疾",
+      "display": "辛弃疾",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1140,
+      "death": 1207,
+      "title": "稼轩，词中之龙",
+      "bio": "历城人，耿京义军掌书记，率众南归。一生主战，累遭闲置；以词名世，慷慨悲凉，与苏轼并称苏辛。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "poetry",
+        "general"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qin-hui",
+      "name": "秦桧",
+      "display": "秦桧",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1090,
+      "death": 1155,
+      "title": "高宗朝权相，主和误国",
+      "bio": "江宁人，靖康被掳北去，南归后两居相位。主和议、构陷岳飞，专权十余年，天下冤之。",
+      "tags": [
+        "宋",
+        "南宋",
+        "主和"
+      ],
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wen-tianxiang",
+      "name": "文天祥",
+      "display": "文天祥",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1236,
+      "death": 1283,
+      "title": "忠烈，正气歌",
+      "bio": "吉水人，宝祐状元。元兵南下，散家财起兵勤王，兵败被执，拘燕三年，作《正气歌》不屈，从容就义。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗元"
+      ],
+      "categories": [
+        "chancellor",
+        "poetry",
+        "falling"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jia-sidao",
+      "name": "贾似道",
+      "display": "贾似道",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1213,
+      "death": 1275,
+      "title": "南宋末权相，误国",
+      "bio": "台州人，姊为理宗贵妃。鄂州围城诈和，冒功专权; 怠于御元，丁家洲大败，为郑虎臣所杀于贬所。宋之亡，似道实速之。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "chancellor",
+        "regent",
+        "falling"
+      ],
+      "primary": "regent",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 党争",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-guangyi",
+      "type": "kin",
+      "note": "兄弟，烛影斧声，太宗继统"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-pu",
+      "type": "ruler-subject",
+      "note": "谋主，定杯酒释兵权之策"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "cao-bin",
+      "type": "ruler-subject",
+      "note": "统师平江南，开国第一将"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "kou-zhun",
+      "type": "ruler-subject",
+      "since": 1004,
+      "note": "澶渊亲征，准力主之"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fan-zhongyan",
+      "type": "ruler-subject",
+      "since": 1043,
+      "note": "用范仲淹行庆历新政"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "note": "同倡革新，奖掖士风"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "wang-anshi",
+      "type": "ruler-subject",
+      "since": 1069,
+      "note": "熙宁变法，任为宰相"
+    },
+    {
+      "source": "wang-anshi",
+      "target": "sima-guang",
+      "type": "rival",
+      "note": "新旧党争，洛蜀朔三党相攻"
+    },
+    {
+      "source": "sima-guang",
+      "target": "su-shi",
+      "type": "peer",
+      "note": "同属旧党，轼亦不满新法之激"
+    },
+    {
+      "source": "su-shi",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "note": "欧阳公拔识东坡于礼部试"
+    },
+    {
+      "source": "cheng-hao",
+      "target": "cheng-yi",
+      "type": "kin",
+      "note": "兄弟，并创洛学"
+    },
+    {
+      "source": "cheng-yi",
+      "target": "zhu-xi",
+      "type": "mentor",
+      "note": "二程之学，朱子集其大成"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "li-gang",
+      "type": "ruler-subject",
+      "note": "即位首相，旬日而罢"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "yue-fei",
+      "type": "ruler-subject",
+      "note": "重用又疑忌，终成冤狱"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "qin-hui",
+      "type": "ruler-subject",
+      "note": "委以和议，专权十余年"
+    },
+    {
+      "source": "yue-fei",
+      "target": "qin-hui",
+      "type": "rival",
+      "note": "秦桧以莫须有构陷风波亭"
+    },
+    {
+      "source": "yue-fei",
+      "target": "han-shizhong",
+      "type": "peer",
+      "note": "抗金双璧，同遭抑勒"
+    },
+    {
+      "source": "lu-you",
+      "target": "xin-qiji",
+      "type": "peer",
+      "note": "爱国诗人词客，恢复之志相期"
+    },
+    {
+      "source": "zhu-xi",
+      "target": "lu-you",
+      "type": "peer",
+      "note": "同世大儒诗人，鹅湖之会后各有褒贬"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "yue-fei",
+      "type": "ruler-subject",
+      "note": "孝宗即位即为岳飞平反追封"
+    },
+    {
+      "source": "wen-tianxiang",
+      "target": "jia-sidao",
+      "type": "rival",
+      "note": "似道误国速亡，天祥起兵续残局"
+    },
+    {
+      "source": "shen-kuo",
+      "target": "wang-anshi",
+      "type": "peer",
+      "note": "熙宁中提举司天监、参预新法，后贬筠州"
+    },
+    {
+      "source": "li-qingzhao",
+      "target": "su-shi",
+      "type": "peer",
+      "note": "两宋词坛先后并峙，易安「语尽而意不尽」自出机杼"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "zhao-hen",
+      "type": "kin",
+      "note": "父子，太宗传真宗"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "zhao-zhen",
+      "type": "kin",
+      "note": "父子，真宗传仁宗"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "zhao-shu",
+      "type": "kin",
+      "note": "养父子，仁宗无嗣，英宗入继"
+    },
+    {
+      "source": "zhao-shu",
+      "target": "zhao-xu",
+      "type": "kin",
+      "note": "父子，英宗传神宗"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "zhao-xu-zhe",
+      "type": "kin",
+      "note": "父子，神宗传哲宗"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "zhao-ji",
+      "type": "kin",
+      "note": "父子，神宗传徽宗"
+    },
+    {
+      "source": "zhao-ji",
+      "target": "zhao-huan",
+      "type": "kin",
+      "note": "父子，徽宗传钦宗"
+    },
+    {
+      "source": "zhao-ji",
+      "target": "zhao-gou",
+      "type": "kin",
+      "note": "父子，徽宗传高宗"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zhao-shen",
+      "type": "kin",
+      "note": "养父子，高宗传孝宗"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "zhao-dun",
+      "type": "kin",
+      "note": "父子，孝宗传光宗"
+    },
+    {
+      "source": "zhao-dun",
+      "target": "zhao-kuo",
+      "type": "kin",
+      "note": "父子，光宗传宁宗"
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "lizong",
+      "type": "kin",
+      "note": "养父子，宁宗传理宗"
+    },
+    {
+      "source": "lizong",
+      "target": "zhao-qi",
+      "type": "kin",
+      "note": "父子，理宗传度宗"
+    },
+    {
+      "source": "zhao-qi",
+      "target": "zhao-xian",
+      "type": "kin",
+      "note": "父子，度宗传恭帝"
+    },
+    {
+      "source": "zhao-qi",
+      "target": "zhao-shi",
+      "type": "kin",
+      "note": "父子，度宗传端宗"
+    },
+    {
+      "source": "zhao-qi",
+      "target": "zhao-bing",
+      "type": "kin",
+      "note": "父子，度宗传卫王"
+    }
+  ],
+  "events": [
+    {
+      "id": "song-chenqiao",
+      "name": "陈桥兵变 · 宋太祖建国",
+      "kind": "point",
+      "year": 960,
+      "people": [
+        "zhao-kuangyin",
+        "zhao-pu"
+      ],
+      "desc": "殿前都点检赵匡胤北御契丹，至陈桥驿，将士拥立，黄袍加身。旋回师开封，禅周建宋，都开封。"
+    },
+    {
+      "id": "song-beihan",
+      "name": "灭北汉 · 结束分裂",
+      "kind": "point",
+      "year": 979,
+      "people": [
+        "zhao-guangyi",
+        "cao-bin"
+      ],
+      "desc": "太宗亲征灭北汉，五代十国之乱至此悉平，中原复归一统。"
+    },
+    {
+      "id": "song-chanzhou",
+      "name": "澶渊之盟",
+      "kind": "point",
+      "year": 1004,
+      "people": [
+        "zhao-hen",
+        "kou-zhun"
+      ],
+      "desc": "契丹南下，寇准力促真宗渡河亲征，士气大振；遂定盟纳币，宋辽息兵百余年。"
+    },
+    {
+      "id": "song-qingli",
+      "name": "庆历新政",
+      "kind": "point",
+      "year": 1043,
+      "people": [
+        "zhao-zhen",
+        "fan-zhongyan"
+      ],
+      "desc": "范仲淹上十事疏，行裁冗、修武备、推科举改革，旋为守旧者攻讦而罢。"
+    },
+    {
+      "id": "song-xining",
+      "name": "熙宁变法",
+      "kind": "span",
+      "year": 1069,
+      "endYear": 1085,
+      "people": [
+        "zhao-xu",
+        "wang-anshi",
+        "sima-guang"
+      ],
+      "desc": "神宗用王安石行青苗、募役、市易、保甲诸法，富国强兵；新旧党争由此起，元丰后法弊渐显。"
+    },
+    {
+      "id": "song-zizhi",
+      "name": "《资治通鉴》成",
+      "kind": "point",
+      "year": 1084,
+      "people": [
+        "sima-guang"
+      ],
+      "desc": "司马光退居洛阳十五年，主编编年通史二百九十四卷，上起战国下终五代，为帝王资治之鉴。"
+    },
+    {
+      "id": "song-jingkang",
+      "name": "靖康之变",
+      "kind": "point",
+      "year": 1127,
+      "people": [
+        "zhao-ji",
+        "zhao-gou"
+      ],
+      "desc": "金兵破汴京，徽钦二帝被掳北去，北宋亡。康王赵构仓促南渡。"
+    },
+    {
+      "id": "song-nanidu",
+      "name": "南宋建立",
+      "kind": "point",
+      "year": 1127,
+      "people": [
+        "zhao-gou",
+        "li-gang"
+      ],
+      "desc": "赵构即位于南京应天府，后定都临安。李纲主战首拜相，旬日而罢。"
+    },
+    {
+      "id": "song-yuefei",
+      "name": "郾城大捷 · 岳飞冤死",
+      "kind": "point",
+      "year": 1142,
+      "people": [
+        "yue-fei",
+        "qin-hui",
+        "han-shizhong"
+      ],
+      "desc": "岳飞郾城破兀术铁浮图，进军朱仙镇；秦桧主和，矫诏班师，以莫须有冤杀于风波亭。"
+    },
+    {
+      "id": "song-shaoxing",
+      "name": "绍兴和议",
+      "kind": "point",
+      "year": 1141,
+      "people": [
+        "zhao-gou",
+        "qin-hui"
+      ],
+      "desc": "宋金划淮为界，宋称臣纳币。南北对峙格局遂定，恢复之议暂歇。"
+    },
+    {
+      "id": "song-xiaozong",
+      "name": "孝宗恢复 · 为岳平反",
+      "kind": "point",
+      "year": 1162,
+      "people": [
+        "zhao-shen",
+        "yue-fei"
+      ],
+      "desc": "孝宗即位锐意恢复，为岳飞平反追封武穆；隆兴北伐败于符离，复定和议。"
+    },
+    {
+      "id": "song-yashan",
+      "name": "崖山蹈海 · 南宋亡",
+      "kind": "point",
+      "year": 1279,
+      "people": [
+        "wen-tianxiang",
+        "jia-sidao"
+      ],
+      "desc": "元兵破崖山，陆秀夫负幼帝投海，十万军民从死。文天祥被执不屈，作《正气歌》就义，宋祚终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "宋全览",
+      "from": 927,
+      "to": 1279,
+      "focus": "zhao-kuangyin",
+      "brief": "赵匡胤的条起于陈桥，压过五代余烬；北宋帝王一列红条密集，徽宗后骤断。南宋从赵构南渡另起一列，岳飞绿条极短却被秦桧红线钉死，文天祥收束于崖山。"
+    },
+    {
+      "id": "beisong",
+      "name": "北宋：造极之世",
+      "from": 955,
+      "to": 1127,
+      "focus": "zhao-kuangyin",
+      "brief": "从陈桥到靖康。太祖杯酒释兵权、太宗灭北汉；真宗澶渊、仁宗庆历；王安石与司马光在神宗朝对撼，新旧党争贯穿后半段。",
+      "people": [
+        "zhao-kuangyin",
+        "zhao-guangyi",
+        "zhao-pu",
+        "cao-bin",
+        "zhao-hen",
+        "kou-zhun",
+        "zhao-zhen",
+        "fan-zhongyan",
+        "ou-yangxiu",
+        "bao-zheng",
+        "zhao-xu",
+        "wang-anshi",
+        "sima-guang",
+        "su-shi",
+        "shen-kuo",
+        "cheng-hao",
+        "cheng-yi"
+      ],
+      "events": [
+        "song-chenqiao",
+        "song-beihan",
+        "song-chanzhou",
+        "song-qingli",
+        "song-xining",
+        "song-zizhi"
+      ]
+    },
+    {
+      "id": "bianfa",
+      "name": "熙宁变法与党争",
+      "from": 1055,
+      "to": 1100,
+      "focus": "wang-anshi",
+      "brief": "神宗与王安石的条压着整个段落。新法推行又废罢，司马光退居修《通鉴》，苏轼在党争中浮沉。理学在洛学二程处悄然成形。",
+      "people": [
+        "zhao-xu",
+        "wang-anshi",
+        "sima-guang",
+        "su-shi",
+        "ou-yangxiu",
+        "cheng-hao",
+        "cheng-yi",
+        "shen-kuo"
+      ],
+      "events": [
+        "song-xining",
+        "song-zizhi"
+      ]
+    },
+    {
+      "id": "nan song",
+      "name": "南宋：偏安与绝唱",
+      "from": 1100,
+      "to": 1279,
+      "focus": "yue-fei",
+      "brief": "赵构南渡，李纲、岳飞、韩世忠主战而秦桧主和。岳飞冤死风波亭、绍兴划淮；陆游辛弃疾以诗词写恢复之志；终以崖山蹈海、文天祥就义收束。",
+      "people": [
+        "zhao-ji",
+        "zhao-gou",
+        "li-gang",
+        "yue-fei",
+        "han-shizhong",
+        "qin-hui",
+        "zhao-shen",
+        "li-qingzhao",
+        "zhu-xi",
+        "lu-you",
+        "xin-qiji",
+        "wen-tianxiang",
+        "jia-sidao"
+      ],
+      "events": [
+        "song-jingkang",
+        "song-nanidu",
+        "song-yuefei",
+        "song-shaoxing",
+        "song-xiaozong",
+        "song-yashan"
+      ]
+    }
+  ]
+}

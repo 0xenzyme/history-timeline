@@ -1,6 +1,6 @@
 import type { RenderContext } from './context';
 import { activeId } from './context';
-import { nominalRange } from './geometry';
+import { relationAnchorYear } from './geometry';
 import { clamp, esc, round } from './svg';
 
 export function renderRelations(ctx: RenderContext): string {
@@ -9,6 +9,7 @@ export function renderRelations(ctx: RenderContext): string {
   const types = new Map(topic.relationTypes.map((t) => [t.id, t]));
   const hot = activeId(ctx);
   const pairSeen = new Map<string, number>();
+  const markerTypes = new Set<string>();
   const parts: string[] = [];
 
   for (const rel of topic.relations) {
@@ -23,16 +24,16 @@ export function renderRelations(ctx: RenderContext): string {
     const touches = hot !== null && (a.id === hot || b.id === hot);
     if (!ctx.showAllRelations && !touches) continue;
 
-    const [aStart, aEnd] = nominalRange(a, layout.topicFrom, layout.topicTo);
-    const [bStart, bEnd] = nominalRange(b, layout.topicFrom, layout.topicTo);
-    const overlapMid = (Math.max(aStart, bStart) + Math.min(aEnd, bEnd)) / 2;
+    const overlapMid = relationAnchorYear(a, b, rel.since, layout.topicFrom, layout.topicTo);
 
     const pairKey = [a.id, b.id].sort().join('|');
     const index = pairSeen.get(pairKey) ?? 0;
     pairSeen.set(pairKey, index + 1);
     const shift = index === 0 ? 0 : (index % 2 === 1 ? 1 : -1) * Math.ceil(index / 2) * 26;
 
-    const px = x(clamp(overlapMid, layout.topicFrom, layout.topicTo)) + shift;
+    const px =
+      x(clamp(overlapMid, layout.topicFrom, layout.topicTo)) +
+      clamp(shift, layout.plotLeft + 8 - x(overlapMid), layout.plotRight - 8 - x(overlapMid));
     const y1 = rowA.y;
     const y2 = rowB.y;
     const dy = Math.abs(y2 - y1);
@@ -46,18 +47,34 @@ export function renderRelations(ctx: RenderContext): string {
     const type = types.get(rel.type);
     const color = type?.color ?? '#8a8f98';
     const dash = type?.dash ? ` stroke-dasharray="${esc(type.dash)}"` : '';
-    const opacity = hot === null ? 0.45 : touches ? 0.95 : 0.08;
-
-    parts.push(
-      `<path class="relation" data-relation="${esc(a.id)}|${esc(b.id)}" d="${d}" stroke="${esc(color)}"${dash} opacity="${round(opacity)}" />`,
-    );
-
+    const directed = type?.directed === true;
+    if (directed) markerTypes.add(rel.type);
     if (touches) {
+      // 白色 halo 垫底，让高亮线从底图里浮出来
       parts.push(
-        `<circle class="relation-cap" cx="${round(px)}" cy="${round(y1)}" r="2.8" fill="${esc(color)}" />`,
-        `<circle class="relation-cap" cx="${round(px)}" cy="${round(y2)}" r="2.8" fill="${esc(color)}" />`,
+        `<path d="${d}" fill="none" stroke="#fffdf9" stroke-width="5.5" stroke-linecap="round" opacity="0.9" />`,
       );
+      parts.push(
+        `<path class="relation" data-relation="${esc(a.id)}|${esc(b.id)}" d="${d}" stroke="${esc(color)}"${dash}${directed ? ` marker-end="url(#timeline-arrow-${esc(rel.type)})"` : ''} stroke-width="2.2" opacity="1" />`,
+      );
+      parts.push(
+        `<circle class="relation-cap" cx="${round(px)}" cy="${round(y1)}" r="2.4" fill="${esc(color)}" stroke="#fffdf9" stroke-width="1.2" />`,
+        `<circle class="relation-cap" cx="${round(px)}" cy="${round(y2)}" r="2.4" fill="${esc(color)}" stroke="#fffdf9" stroke-width="1.2" />`,
+      );
+      continue;
     }
+
+    if (!ctx.showAllRelations) continue;
+    const marker = directed ? ` marker-end="url(#timeline-arrow-${esc(rel.type)})"` : '';
+    parts.push(
+      `<path class="relation" data-relation="${esc(a.id)}|${esc(b.id)}" d="${d}" stroke="${esc(color)}"${dash}${marker} opacity="0.35" />`,
+    );
   }
-  return parts.join('');
+  const markers = [...markerTypes]
+    .map((typeId) => {
+      const color = types.get(typeId)?.color ?? '#8a8f98';
+      return `<marker id="timeline-arrow-${esc(typeId)}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="${esc(color)}" /></marker>`;
+    })
+    .join('');
+  return `<defs>${markers}</defs>${parts.join('')}`;
 }

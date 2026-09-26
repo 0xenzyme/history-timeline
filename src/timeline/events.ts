@@ -1,50 +1,72 @@
 import type { RenderContext } from './context';
 import { AXIS_H, EVENT_BAND_H } from './layout';
-import { esc, round } from './svg';
+import { clamp, esc, round } from './svg';
 
 const LABEL_CHAR_W = 12.6;
-const LABEL_ROWS = 4;
-const LABEL_GAP = 10;
+const LABEL_ROWS = 3;
+const LABEL_GAP = 12;
+const ROW_STEP = 14;
+/** 事件标记的顶端，标签引导线画到这一高度 */
+const PIN_TOP = AXIS_H + EVENT_BAND_H - 11;
 /** 放不下时不画文字，只画标记 */
 export const NO_LABEL = -1;
 
 function labelWidth(name: string): number {
-  return name.length * LABEL_CHAR_W + 14;
+  return name.length * LABEL_CHAR_W + 6;
 }
 
+/** 标签自下而上排布，row 0 紧贴事件标记 */
 function rowY(row: number): number {
-  return AXIS_H + 14 + row * 15;
+  return PIN_TOP - 4 - row * ROW_STEP;
 }
 
 interface LabelItem {
   id: string;
   name: string;
   span: boolean;
-  x1: number;
-  x2: number;
+  /** 事件在时间轴上的锚点，引导线画在这里 */
+  anchor: number;
+  /** 文字盒子的左边界 */
   start: number;
   width: number;
 }
 
-export function assignEventRows(
-  ctx: Pick<RenderContext, 'topic' | 'x' | 'zoneEvents'>,
-): Map<string, number> {
-  const items: LabelItem[] = ctx.topic.events
-    .filter((event) => ctx.zoneEvents.has(event.id))
-    .map((event) => {
-      const x1 = ctx.x(event.year);
-      const x2 =
-        event.kind === 'span' && event.endYear !== undefined ? ctx.x(event.endYear) : x1;
-      const width = labelWidth(event.name);
-      const start = event.kind === 'span' ? (x1 + x2) / 2 - width / 2 : x1;
-      return { id: event.id, name: event.name, span: event.kind === 'span', x1, x2, start, width };
-    })
-    .sort((a, b) => a.start - b.start);
+type LabelCtx = Pick<RenderContext, 'topic' | 'x' | 'zoneEvents' | 'layout'>;
 
+function labelItems(ctx: LabelCtx): LabelItem[] {
+  const { layout, x } = ctx;
+  const items: LabelItem[] = [];
+
+  for (const event of ctx.topic.events) {
+    if (!ctx.zoneEvents.has(event.id)) continue;
+    const rawX1 = x(event.year);
+    const x1 = clamp(rawX1, layout.plotLeft, layout.plotRight);
+    const x2 =
+      event.kind === 'span' && event.endYear !== undefined
+        ? clamp(x(event.endYear), layout.plotLeft, layout.plotRight)
+        : x1;
+    const width = Math.min(labelWidth(event.name), layout.plotRight - layout.plotLeft);
+
+    if (event.kind === 'span') {
+      const mid = (x1 + x2) / 2;
+      const start = clamp(mid - width / 2, layout.plotLeft, layout.plotRight - width);
+      items.push({ id: event.id, name: event.name, span: true, anchor: mid, start, width });
+      continue;
+    }
+
+    const right = x1 + 5;
+    const start = right + width <= layout.plotRight ? right : Math.max(layout.plotLeft, x1 - 5 - width);
+    items.push({ id: event.id, name: event.name, span: false, anchor: x1, start, width });
+  }
+
+  return items.sort((a, b) => a.start - b.start);
+}
+
+export function assignEventRows(ctx: LabelCtx): Map<string, number> {
   const rowEdges: number[] = [];
   const result = new Map<string, number>();
 
-  for (const item of items) {
+  for (const item of labelItems(ctx)) {
     let placed = NO_LABEL;
     for (let row = 0; row < rowEdges.length; row += 1) {
       if (item.start - rowEdges[row] >= LABEL_GAP) {
@@ -99,28 +121,31 @@ export function renderEventLines(ctx: RenderContext): string {
 }
 
 export function renderEventLabels(ctx: RenderContext): string {
+  const { layout } = ctx;
+  const items = labelItems(ctx);
   const parts: string[] = [];
-  for (const event of ctx.topic.events) {
-    if (!ctx.zoneEvents.has(event.id)) continue;
-    const row = ctx.eventRows.get(event.id) ?? NO_LABEL;
-    if (row === NO_LABEL) continue;
-    const x1 = ctx.x(event.year);
-    const y = rowY(row);
-    const width = labelWidth(event.name);
-    let anchorX = x1;
-    let textAnchor = 'start';
-    if (event.kind === 'span' && event.endYear !== undefined) {
-      const x2 = ctx.x(event.endYear);
-      anchorX = (x1 + x2) / 2;
-      textAnchor = 'middle';
+  let hidden = 0;
+
+  for (const item of items) {
+    const row = ctx.eventRows.get(item.id) ?? NO_LABEL;
+    if (row === NO_LABEL) {
+      hidden += 1;
+      continue;
     }
-    const boxX = textAnchor === 'middle' ? anchorX - width / 2 : anchorX;
+    const y = rowY(row);
     parts.push(
-      `<rect class="event-label-bg" x="${round(boxX)}" y="${round(y - 11)}" width="${round(width)}" height="15" rx="3" />`,
+      `<line class="event-leader" x1="${round(item.anchor)}" y1="${round(y + 3)}" x2="${round(item.anchor)}" y2="${PIN_TOP}" />`,
     );
     parts.push(
-      `<text class="event-label" x="${round(textAnchor === 'middle' ? anchorX : anchorX + 2)}" y="${round(y)}" text-anchor="${textAnchor}">${esc(event.name)}</text>`,
+      `<text class="event-label" x="${round(item.start)}" y="${round(y)}">${esc(item.name)}</text>`,
     );
   }
+
+  if (hidden > 0 && layout.plotRight - (items.length > 0 ? items[items.length - 1].start : 0) > 40) {
+    parts.push(
+      `<text class="event-more" x="${round(layout.plotRight)}" y="${round(rowY(0))}" text-anchor="end">+${hidden}</text>`,
+    );
+  }
+
   return parts.join('');
 }

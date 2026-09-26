@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "id": "nanbei",
+    "title": "南北朝",
+    "subtitle": "从北魏立国到隋文一统 · 公元 371 — 公元 589",
+    "range": [
+      371,
+      589
+    ]
+  },
+  "catalog": {
+    "subtitle": "从北魏立国到隋文一统",
+    "region": "cn",
+    "eras": [
+      "northern-southern"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "bei",
+      "name": "北朝",
+      "color": "#c0392b"
+    },
+    {
+      "id": "nan",
+      "name": "南朝",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "wen",
+      "name": "文士 · 科学 · 释道",
+      "color": "#1f7f8f"
+    }
+  ],
+  "people": [
+    {
+      "id": "tuoba-gui",
+      "lane": "bei"
+    },
+    {
+      "id": "tuoba-tao",
+      "lane": "bei"
+    },
+    {
+      "id": "yuan-hong",
+      "lane": "bei"
+    },
+    {
+      "id": "feng-taihou",
+      "lane": "bei"
+    },
+    {
+      "id": "cui-hao",
+      "lane": "bei"
+    },
+    {
+      "id": "li-daoyuan",
+      "lane": "bei"
+    },
+    {
+      "id": "erzhu-rong",
+      "lane": "bei"
+    },
+    {
+      "id": "yuan-xu",
+      "lane": "bei"
+    },
+    {
+      "id": "gao-huan",
+      "lane": "bei"
+    },
+    {
+      "id": "yuwen-tai",
+      "lane": "bei"
+    },
+    {
+      "id": "yuwen-yong",
+      "lane": "bei"
+    },
+    {
+      "id": "hulv-guang",
+      "lane": "bei"
+    },
+    {
+      "id": "gao-changgong",
+      "lane": "bei"
+    },
+    {
+      "id": "su-chuo",
+      "lane": "bei"
+    },
+    {
+      "id": "liu-yu",
+      "lane": "nan"
+    },
+    {
+      "id": "liu-yilong",
+      "lane": "nan"
+    },
+    {
+      "id": "tan-daoji",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-daocheng",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-yan",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-tong",
+      "lane": "nan"
+    },
+    {
+      "id": "chen-ba-xian",
+      "lane": "nan"
+    },
+    {
+      "id": "chen-shubao",
+      "lane": "nan"
+    },
+    {
+      "id": "xie-lingyun",
+      "lane": "wen"
+    },
+    {
+      "id": "shen-yue",
+      "lane": "wen"
+    },
+    {
+      "id": "liu-xie",
+      "lane": "wen"
+    },
+    {
+      "id": "tao-hongjing",
+      "lane": "wen"
+    },
+    {
+      "id": "zu-chongzhi",
+      "lane": "wen"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "tuoba-gui",
+      "target": "tuoba-tao",
+      "type": "kin",
+      "note": "祖孙，皆北魏创业之君"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "feng-taihou",
+      "type": "kin",
+      "note": "冯太后临朝，孝文受其教而行汉化"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "cui-hao",
+      "type": "ruler-subject",
+      "note": "崔浩修国史，后以「国史之狱」被诛"
+    },
+    {
+      "source": "erzhu-rong",
+      "target": "yuan-xu",
+      "type": "rival",
+      "note": "河阴之变，沉太后幼主于河"
+    },
+    {
+      "source": "gao-huan",
+      "target": "yuwen-tai",
+      "type": "rival",
+      "note": "高欢东魏、宇文泰西魏，东西对峙"
+    },
+    {
+      "source": "yuwen-tai",
+      "target": "yuwen-yong",
+      "type": "kin",
+      "note": "父子，泰奠北周之基，庸灭齐"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "hulv-guang",
+      "type": "rival",
+      "note": "用反间杀斛律光，周始无惧"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "gao-changgong",
+      "type": "rival",
+      "note": "赐死兰陵王"
+    },
+    {
+      "source": "liu-yu",
+      "target": "liu-yilong",
+      "type": "kin",
+      "note": "祖孙，宋武开基、文皇元嘉"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "tan-daoji",
+      "type": "ruler-subject",
+      "note": "道济为宋名将，枉死而宋边备弱"
+    },
+    {
+      "source": "xiao-daocheng",
+      "target": "xiao-yan",
+      "type": "kin",
+      "note": "同出兰陵萧氏，一建齐一建梁"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "xiao-tong",
+      "type": "kin",
+      "note": "父子，昭明太子编《文选》"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "tao-hongjing",
+      "type": "peer",
+      "note": "山中宰相，朝廷大事辄就谘"
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-shubao",
+      "type": "kin",
+      "note": "祖孙，霸先开陈、后主亡国"
+    },
+    {
+      "source": "shen-yue",
+      "target": "xiao-yan",
+      "type": "ruler-subject",
+      "note": "沈约助梁武禅齐，修《宋书》"
+    },
+    {
+      "source": "liu-xie",
+      "target": "shen-yue",
+      "type": "peer",
+      "note": "《文心雕龙》与《文选》并峙"
+    },
+    {
+      "source": "zu-chongzhi",
+      "target": "liu-yilong",
+      "type": "ruler-subject",
+      "note": "宋时测算圆周率、制大明历"
+    }
+  ],
+  "events": [
+    {
+      "id": "nb-tuoba",
+      "name": "北魏立国",
+      "kind": "point",
+      "year": 386,
+      "people": [
+        "tuoba-gui"
+      ],
+      "desc": "拓跋珪即代王位，改国号魏，迁都平城，开启北朝。"
+    },
+    {
+      "id": "nb-tongyi",
+      "name": "太武统一北方",
+      "kind": "point",
+      "year": 439,
+      "people": [
+        "tuoba-tao"
+      ],
+      "desc": "魏太武帝灭北凉，结束十六国分裂，与南朝宋形成南北对峙。"
+    },
+    {
+      "id": "nb-hanhu",
+      "name": "孝文汉化 · 迁都洛阳",
+      "kind": "point",
+      "year": 493,
+      "people": [
+        "yuan-hong",
+        "feng-taihou"
+      ],
+      "desc": "孝文帝依冯太后遗规，迁都洛阳、禁胡服胡语、改姓元，加速胡汉融合。"
+    },
+    {
+      "id": "nb-heyin",
+      "name": "河阴之变",
+      "kind": "point",
+      "year": 528,
+      "people": [
+        "erzhu-rong",
+        "yuan-xu"
+      ],
+      "desc": "尔朱荣举兵入洛，溺杀灵太后与幼主及朝士二千，北魏元气尽丧。"
+    },
+    {
+      "id": "nb-dongxi",
+      "name": "东西魏分裂",
+      "kind": "point",
+      "year": 534,
+      "people": [
+        "gao-huan",
+        "yuwen-tai"
+      ],
+      "desc": "高欢立孝静帝都邺为东魏，宇文泰立文帝都长安为西魏，北朝一分为二。"
+    },
+    {
+      "id": "nb-yong",
+      "name": "周武帝灭齐",
+      "kind": "point",
+      "year": 577,
+      "people": [
+        "yuwen-yong",
+        "hulv-guang",
+        "gao-changgong"
+      ],
+      "desc": "北周武帝灭北齐，统一北方；次年述佛法、灭佛道，然英年崩，功业付隋。"
+    },
+    {
+      "id": "nb-song",
+      "name": "刘裕建宋",
+      "kind": "point",
+      "year": 420,
+      "people": [
+        "liu-yu"
+      ],
+      "desc": "代晋称帝，南朝始此；元嘉之治为江左小康。"
+    },
+    {
+      "id": "nb-yuanjia",
+      "name": "元嘉北伐",
+      "kind": "point",
+      "year": 450,
+      "people": [
+        "liu-yilong",
+        "tan-daoji"
+      ],
+      "desc": "宋文帝屡北伐无功，魏太武反叩瓜步，江南大扰。道济已先见杀。"
+    },
+    {
+      "id": "nb-xiao",
+      "name": "萧衍建梁",
+      "kind": "point",
+      "year": 502,
+      "people": [
+        "xiao-yan",
+        "shen-yue"
+      ],
+      "desc": "代齐称帝，崇佛兴学；昭明太子编《文选》，南朝文风极盛。"
+    },
+    {
+      "id": "nb-chen",
+      "name": "陈霸先建陈",
+      "kind": "point",
+      "year": 557,
+      "people": [
+        "chen-ba-xian"
+      ],
+      "desc": "平侯景之乱后受梁禅，国号陈，为南朝最后一朝。"
+    },
+    {
+      "id": "nb-chenwang",
+      "name": "后主亡陈",
+      "kind": "point",
+      "year": 589,
+      "people": [
+        "chen-shubao"
+      ],
+      "desc": "隋军渡江，后主与张丽华匿胭脂井被擒，陈亡，南北复归一统。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "南北朝全览",
+      "from": 371,
+      "to": 589,
+      "focus": "tuoba-gui",
+      "brief": "北朝红列自拓跋珪一路到宇文邕灭齐；南朝蓝列从刘裕建宋到陈后主胭脂井。中间文士一簇青条点缀。"
+    },
+    {
+      "id": "bei",
+      "name": "北朝演进",
+      "from": 371,
+      "to": 580,
+      "focus": "yuan-hong",
+      "brief": "太武统一、孝文汉化、河阴之变、东西分裂、周武灭齐——北朝在乱中完成胡汉整合。",
+      "people": [
+        "tuoba-gui",
+        "tuoba-tao",
+        "yuan-hong",
+        "feng-taihou",
+        "cui-hao",
+        "erzhu-rong",
+        "yuan-xu",
+        "gao-huan",
+        "yuwen-tai",
+        "yuwen-yong",
+        "hulv-guang",
+        "gao-changgong",
+        "su-chuo"
+      ],
+      "events": [
+        "nb-tuoba",
+        "nb-tongyi",
+        "nb-hanhu",
+        "nb-heyin",
+        "nb-dongxi",
+        "nb-yong"
+      ]
+    },
+    {
+      "id": "nan",
+      "name": "南朝四代",
+      "from": 400,
+      "to": 589,
+      "focus": "xiao-yan",
+      "brief": "宋武、文皇元嘉，萧齐短暂，梁武四十八年崇佛兴文，陈后主终亡于隋。",
+      "people": [
+        "liu-yu",
+        "liu-yilong",
+        "tan-daoji",
+        "xiao-daocheng",
+        "xiao-yan",
+        "xiao-tong",
+        "chen-ba-xian",
+        "chen-shubao"
+      ],
+      "events": [
+        "nb-song",
+        "nb-yuanjia",
+        "nb-xiao",
+        "nb-chen",
+        "nb-chenwang"
+      ]
+    },
+    {
+      "id": "wen",
+      "name": "文士与格物",
+      "from": 420,
+      "to": 540,
+      "focus": "zu-chongzhi",
+      "brief": "祖冲之算圆周率、制大明历；刘勰《文心雕龙》、沈约《宋书》、萧统《文选》、谢灵运山水诗、陶弘景山中宰相。",
+      "people": [
+        "zu-chongzhi",
+        "liu-xie",
+        "shen-yue",
+        "xiao-tong",
+        "xie-lingyun",
+        "tao-hongjing",
+        "li-daoyuan"
+      ],
+      "events": [
+        "nb-xiao"
+      ]
+    }
+  ]
+}

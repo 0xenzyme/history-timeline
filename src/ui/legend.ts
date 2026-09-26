@@ -18,7 +18,7 @@ export function renderLegend(topic: Topic): string {
   const bars = [
     `<span class="legend-item"><svg class="legend-line" viewBox="0 0 34 10" width="34" height="10"><rect x="1" y="2.5" width="32" height="5" rx="1.5" fill="#5a5a5a" /></svg>确切</span>`,
     `<span class="legend-item"><svg class="legend-line" viewBox="0 0 34 10" width="34" height="10"><defs><linearGradient id="lg-a" x1="0" x2="1"><stop offset="0" stop-color="#5a5a5a" stop-opacity="0.3"/><stop offset="0.5" stop-color="#5a5a5a"/><stop offset="1" stop-color="#5a5a5a" stop-opacity="0.3"/></linearGradient></defs><rect x="1" y="2.5" width="32" height="5" rx="1.5" fill="url(#lg-a)" /></svg>约略</span>`,
-    `<span class="legend-item"><svg class="legend-line" viewBox="0 0 34 10" width="34" height="10"><defs><linearGradient id="lg-b" x1="0" x2="1"><stop offset="0" stop-color="#5a5a5a" stop-opacity="0.06"/><stop offset="1" stop-color="#5a5a5a"/></linearGradient></defs><rect x="1" y="2.5" width="32" height="5" rx="1.5" fill="url(#lg-b)" /><line x1="1" y1="1" x2="1" y2="9" stroke="#5a5a5a" stroke-width="1"/></svg>生卒不详</span>`,
+    `<span class="legend-item"><svg class="legend-line" viewBox="0 0 34 10" width="34" height="10"><polygon points="17,1 22,5 17,9 12,5" fill="#5a5a5a" /><polyline points="8,2 4,5 8,8" fill="none" stroke="#5a5a5a" stroke-width="1.2" /></svg>一端不详</span>`,
   ].join('');
 
   return `

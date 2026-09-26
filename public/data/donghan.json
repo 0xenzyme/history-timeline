@@ -1,0 +1,1414 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "donghan",
+    "title": "东汉",
+    "subtitle": "从光武中兴到党锢黄巾 · 公元前 5 — 公元 234",
+    "range": [
+      -5,
+      234
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "consort",
+      "name": "后妃 · 外戚",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "scholar",
+      "name": "文臣 · 学者 · 士人",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "武将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "end",
+      "name": "末世 · 民变",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "liu-xiu",
+      "name": "刘秀",
+      "display": "汉光武帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -5,
+      "death": 57,
+      "title": "东汉光武帝，布衣起兵，重建汉室",
+      "bio": "南阳蔡阳人，高祖九世孙，起于舂陵。昆阳以数千破莽军数十万，河北收铜马，遂定洛阳。罢兵偃武，退功臣而进文吏，释奴婢、度田。东汉全部镜头从他这条开始。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zhuang",
+      "name": "刘庄",
+      "display": "汉明帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 28,
+      "death": 75,
+      "title": "东汉明帝，严切守法，明章之治",
+      "bio": "光武第四子，阴丽华所出。遵奉建武制度，法令分明，日晏坐朝，幽枉必达。遣使西域求佛法，白马寺由此起。与其子章帝并称明章之治。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-da",
+      "name": "刘炟",
+      "display": "汉章帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 57,
+      "death": 88,
+      "title": "东汉章帝，宽厚长者，白虎观会议",
+      "bio": "明帝第五子。性宽容，禁苛切之政，罢盐铁之禁。建初四年会诸儒于白虎观，论定五经同异，命班固撰《白虎通义》。明章之治止于此，之后外戚与宦官交替。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "classics"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zhao",
+      "name": "刘肇",
+      "display": "汉和帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 79,
+      "death": 105,
+      "title": "东汉和帝，十四岁诛窦宪",
+      "bio": "章帝第四子，梁贵人所生，为窦后所养。十岁即位，窦太后临朝，窦宪专权。永元四年与宦官郑众谋，收宪印绶，迫之自杀，汉始用宦官。元兴元年崩，年二十七。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "consort-kin"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-hu",
+      "name": "刘祜",
+      "display": "汉安帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 94,
+      "death": 125,
+      "title": "东汉安帝，邓太后所立",
+      "bio": "章帝之孙，邓太后所立。太后临朝的那些年，权不在皇帝这一条上。建光以后才亲政，条收到公元 125 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-bao",
+      "name": "刘保",
+      "display": "汉顺帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 115,
+      "death": 144,
+      "title": "东汉顺帝，阎后废而复立",
+      "bio": "安帝子。曾被阎后废为济阴王，安帝崩后复立。条接在安帝之后，收到公元 144 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-bing",
+      "name": "刘炳",
+      "display": "汉冲帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 143,
+      "death": 145,
+      "title": "东汉冲帝，在位一年",
+      "bio": "顺帝子，在位一年。冲帝的条极短，贴在顺帝末端。李固请立长君，就在他崩后。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zuan",
+      "name": "刘缵",
+      "display": "汉质帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 138,
+      "death": 146,
+      "title": "东汉质帝，称跋扈将军后被鸩",
+      "bio": "梁冀所立。称冀「跋扈将军」，遂被鸩。质帝的条止于公元 146 年，梁冀还在外戚线上。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zhi",
+      "name": "刘志",
+      "display": "汉桓帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 132,
+      "death": 167,
+      "title": "东汉桓帝，诛梁冀而用五侯，党锢之始",
+      "bio": "章帝曾孙，蠡吾侯之子，梁冀所立。延熹二年与单超等五宦官诛冀，同日封侯，朝政遂归宦官。延熹九年兴党锢，李膺等二百余人下狱。一条帝条上，外戚与党人两番倾覆。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-hong",
+      "name": "刘宏",
+      "display": "汉灵帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 156,
+      "death": 189,
+      "title": "东汉灵帝，西园卖官，黄巾之岁",
+      "bio": "章帝玄孙，解渎亭侯之子。在位用十常侍，开西园明码卖官，聚钱为私藏。中平元年张角起，遂弛党锢、改刺史为州牧，地方自此拥兵。崩后少帝立，何进召董卓，天下遂分。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-bian",
+      "name": "刘辩",
+      "display": "汉少帝刘辩",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 176,
+      "death": 190,
+      "title": "东汉少帝，董卓废为弘农王",
+      "bio": "灵帝子。董卓废为弘农王，旋被鸩。少帝的条止于公元 190 年，献帝从这里接上。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-xie-xiandi",
+      "name": "刘协",
+      "display": "汉献帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 181,
+      "death": 234,
+      "title": "东汉献帝，禅于曹丕，青龙二年卒",
+      "bio": "董卓所立。延康元年禅于曹丕，帝位先断在公元 220 年。魏青龙二年卒，条收到公元 234 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yin-lihua",
+      "name": "阴丽华",
+      "display": "光烈皇后阴丽华",
+      "lane": "consort",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 5,
+      "death": 64,
+      "title": "光武皇后，郭后废而后立",
+      "bio": "南阳新野人，光武微时闻其美，叹曰「仕宦当作执金吾，娶妻当得阴丽华」。初为贵人，郭圣通既废，乃立为后。恭俭少嗜，明帝即位尊为太后。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "deng-sui",
+      "name": "邓绥",
+      "display": "和熹皇后邓绥",
+      "lane": "consort",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 81,
+      "death": 121,
+      "title": "和帝皇后，临朝十六年，称制终身",
+      "bio": "邓禹之孙女，和帝皇后。和帝崩后立百日之殇帝，旋立安帝，临朝称制十六年。用节俭，平羌乱，诏戒外戚，兄骘以恭谨自守。建光元年崩，安帝始亲政，邓氏随败。",
+      "tags": [
+        "东汉",
+        "临朝"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "dou-xian",
+      "name": "窦宪",
+      "display": "窦宪",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 92,
+      "title": "大将军，燕然勒功，旋即赐死",
+      "bio": "窦融曾孙，和帝舅。以罪请击匈奴赎死，遂与耿秉出塞，登燕然山，刻石纪功而还，匈奴北庭遂空。兄弟并据权要，和帝与郑众谋，收其大将军印绶，迫令自杀。东汉外戚之祸自此例始。",
+      "tags": [
+        "东汉",
+        "北匈奴"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liang-ji",
+      "name": "梁冀",
+      "display": "梁冀",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 159,
+      "title": "跋扈将军，鸩杀质帝，一门皆贵",
+      "bio": "梁商之子，顺帝、桓帝两朝大将军，妹为顺烈皇后。质帝目之曰「跋扈将军」，遂被鸩弑。立桓帝，专擅二十年，诛李固、杜乔。延熹二年桓帝与单超等五宦官谋，围其第，冀与妻自杀，家产三十余万万。",
+      "tags": [
+        "东汉",
+        "跋扈"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "he-jin",
+      "name": "何进",
+      "display": "何进",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 189,
+      "title": "大将军，谋诛宦官而召外兵",
+      "bio": "南阳宛人，屠羊出身，妹为灵帝皇后。灵帝崩，立少帝，与袁绍谋诛宦官，不听曹操之谏而召董卓入京。谋泄，为张让等斩于嘉德殿前。卓未至而京师已乱，东汉由此不可收拾。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "consort-kin",
+        "falling"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "deng-yu",
+      "name": "邓禹",
+      "display": "邓禹",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 2,
+      "death": 58,
+      "title": "云台之首，佐光武定河北",
+      "bio": "南阳新野人，年十三游学长安，与刘秀同舍。杖策北渡，说秀以「延揽英雄，务悦民心」。二十四岁拜大司徒，后知时务而退，明帝时图画云台，居首。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-han",
+      "name": "吴汉",
+      "display": "吴汉",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 44,
+      "title": "云台将，广阿突骑，平蜀而还",
+      "bio": "南阳宛人，以贩马为业，亡命渔阳。说彭宠以突骑归光武，遂为征战之冠。北定幽州，西破公孙述于成都。质性厚重，临战勃勃，光武称其「差强人意」。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-yi",
+      "name": "冯异",
+      "display": "冯异",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 34,
+      "title": "云台将，大树将军，定关中",
+      "bio": "颍川父城人，好读书，通《左氏春秋》。河北从光武，诸将并坐论功，独屏树下，军中号大树将军。主关中三年，怀来百姓，卒于军。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "geng-yan",
+      "name": "耿弇",
+      "display": "耿弇",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 3,
+      "death": 58,
+      "title": "云台将，少好兵事，平齐地",
+      "bio": "扶风茂陵人，上谷太守耿况之子。年二十一请兵北发，遂定河北。临淄之战以少击众破张步，光武比之韩信。一生未尝挫折，云台诸将中战功最著。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-yuan",
+      "name": "马援",
+      "display": "马援",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": -14,
+      "death": 49,
+      "title": "伏波将军，交趾与五溪，死于军中",
+      "bio": "扶风茂陵人，少有大志，「男儿要当死于边野」。北牧陇右，南平交趾，立铜柱。年六十二请征五溪，卒于壶头，死后为梁松所谮，至章帝时始平反。马革裹尸之语出此。",
+      "tags": [
+        "东汉",
+        "南边"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ban-chao",
+      "name": "班超",
+      "display": "班超",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 32,
+      "death": 102,
+      "title": "定远侯，以三十六人通西域",
+      "bio": "班固之弟。投笔叹曰「大丈夫当立功异域」，出使鄯善，夜斩匈奴使者，遂定南道。在西域三十一年，五十余国纳质内属。老病归洛阳，一月而卒。",
+      "tags": [
+        "东汉",
+        "西域"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huangfu-song",
+      "name": "皇甫嵩",
+      "display": "皇甫嵩",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 195,
+      "title": "平黄巾之首，长社火攻",
+      "bio": "安定朝那人，皇甫规兄子。为左中郎将，长社以火攻破黄巾，斩获数万，与朱儁同平三郡。及董卓入京，卓与之有旧，不敢加害。官至太尉、光禄大夫，兴平二年卒。",
+      "tags": [
+        "东汉",
+        "黄巾"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-zhen",
+      "name": "杨震",
+      "display": "杨震",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 124,
+      "title": "太尉，天知地知，饮鸩而卒",
+      "bio": "弘农华阴人，明经博览，号为关西孔子。过昌邑，故所举王密夜怀金十斤相赠，曰「天知，神知，我知，子知」，密愧而出。为太尉，数上疏劾樊丰、王圣等，被谮遣归，饮鸩死于洛阳城西。",
+      "tags": [
+        "东汉",
+        "清官"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "ma-rong",
+      "name": "马融",
+      "display": "马融",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 79,
+      "death": 166,
+      "title": "经学家，绛帐授徒，注遍群经",
+      "bio": "扶风茂陵人，马援兄孙，才高博洽，为世通儒。设绛纱帐，前授生徒，后列女乐，弟子以次相传，郑玄、卢植出其门。注《孝经》《论语》《诗》《易》《三礼》《尚书》，东汉经学由他而下及康成。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "scholar",
+        "classics"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "ban-gu",
+      "name": "班固",
+      "display": "班固",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 32,
+      "death": 92,
+      "title": "《汉书》作者，兰台令史",
+      "bio": "扶风安陵人，班彪之子，班昭之兄。续父志作《汉书》，历二十余年。从窦宪击匈奴，为中护军；宪败，受牵连死于狱中，《汉书》未成部分由妹昭续作。",
+      "tags": [
+        "东汉",
+        "兰台"
+      ],
+      "categories": [
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "ban-zhao",
+      "name": "班昭",
+      "display": "班昭",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 45,
+      "death": 117,
+      "birthNote": "《后汉书》不载生年，据兄班固生年与出嫁年推算约在建武末年，今从公元 45 年前后。",
+      "deathNote": "卒年诸书不一，约在安帝永初、元初之间（公元 110—120 年），今从约 117 年。",
+      "title": "续成《汉书》，作《女诫》",
+      "bio": "班固之妹，曹世叔之妻，世称曹大家。兄固死于狱，《汉书》八表及天文志未竟，和帝诏就东观续成之。邓太后临朝时与闻政事，年七十余卒。",
+      "tags": [
+        "东汉",
+        "女学者"
+      ],
+      "categories": [
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "wang-chong",
+      "name": "王充",
+      "display": "王充",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "approx",
+      "birth": 27,
+      "death": 97,
+      "deathNote": "《后汉书》仅云「年渐七十」「病卒于家」，卒年诸说不一，约在和帝永元（公元 90—105）间，今从约公元 97 年。",
+      "title": "《论衡》作者，疾虚妄",
+      "bio": "会稽上虞人，孤门细族，尝游洛阳书肆，一见辄能诵忆。闭门潜思，著《论衡》八十五篇，释物类同异，正时俗嫌疑，力斥谶纬与鬼神之说。晚年归乡里，年近七十而卒。",
+      "tags": [
+        "东汉",
+        "思想"
+      ],
+      "categories": [
+        "scholar"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-heng",
+      "name": "张衡",
+      "display": "张衡",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 78,
+      "death": 139,
+      "title": "太史令，浑天仪与地动仪",
+      "bio": "南阳西鄂人，通五经、贯六艺，作《二京赋》《思玄赋》。为太史令，作浑天仪、候风地动仪，著《灵宪》《算罔论》。尝上疏请禁图谶。东汉的科学一条，独在他这条上。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "literature",
+        "science"
+      ],
+      "primary": "literature",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "zheng-xuan",
+      "name": "郑玄",
+      "display": "郑玄",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 127,
+      "death": 200,
+      "title": "经学集大成者，遍注群经",
+      "bio": "北海高密人，少为乡啬夫，后入太学，师事第五元先、张恭祖，又西入关事马融。党锢起，隐修经业十四年，注《周易》《尚书》《毛诗》《三礼》《论语》，今古文之学至是而一。卒于元城，年七十四。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "scholar",
+        "classics"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "cai-yong",
+      "name": "蔡邕",
+      "display": "蔡邕",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 132,
+      "death": 192,
+      "title": "辞赋碑诔与熹平石经，死于王允之狱",
+      "bio": "陈留圉人，师事胡广，好辞章、数术、天文，妙操音律。熹平四年与堂谿典等正定六经文字，书丹立石于太学门外，谓之熹平石经。董卓强辟之，卓诛后为王允所收，死于狱。女琰归南匈奴。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "literature",
+        "classics"
+      ],
+      "primary": "literature",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-gu",
+      "name": "李固",
+      "display": "李固",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 94,
+      "death": 147,
+      "title": "太尉，与杜乔同抗梁冀而死",
+      "bio": "汉中南郑人，李郃之子。貌状有奇表，少好学，常步行寻师不远千里。为中郎将、荆州刺史，抚定寇盗。冲帝、质帝之际与梁冀抗，请立长君；质帝被鸩，固伏尸号哭，遂被诬下狱死，年五十四。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "consort-kin",
+        "scholar-official"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "li-ying",
+      "name": "李膺",
+      "display": "李膺",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 110,
+      "death": 169,
+      "title": "党锢领袖，天下模楷李元礼",
+      "bio": "颍川襄城人，性简亢，不交接宾客，见之者以为登龙门。为河南尹、司隶校尉，诛宦官张让之弟，风裁振朝。延熹九年党锢起，下狱免官；建宁二年再起党狱，死于狱中。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "guo-tai",
+      "name": "郭泰",
+      "display": "郭泰",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 128,
+      "death": 169,
+      "title": "太学生之首，人伦之鉴，不仕",
+      "bio": "太原界休人，家世贫贱。就学于屈伯彦，三年业毕，博通坟籍。游洛阳，与李膺相友善，名震京师，然闭门教授，弟子千数，终不应征辟。党锢既起，独免于难，建宁二年卒，四方会葬者千余人。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "chen-fan",
+      "name": "陈蕃",
+      "display": "陈蕃",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 168,
+      "title": "太傅，言事不避，与窦武同死",
+      "bio": "汝南平舆人，少有大志，一室不扫而欲扫除天下。为太尉、太傅，与李膺齐名，号为「不畏强御陈仲举」。建宁元年以上疏诛宦官，与窦武谋泄，率官属突入承明门，被执而死。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "kong-rong",
+      "name": "孔融",
+      "display": "孔融",
+      "lane": "scholar",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 153,
+      "death": 208,
+      "title": "孔子二十世孙，北海相，为曹操所杀",
+      "bio": "鲁国人，四岁让梨。为北海相六年，修城邑、立学校。献帝都许，累迁将作大匠、少府，每朝会访对辄引正定，好士而口无遮拦。数侮慢曹操，建安十三年以「招合徒众」被收，与妻子俱诛。",
+      "tags": [
+        "东汉",
+        "建安"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cai-lun",
+      "name": "蔡伦",
+      "display": "蔡伦",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 121,
+      "title": "宦官，尚方令，造纸",
+      "bio": "桂阳人，永平末入宫。为尚方令，造作秘剑及诸器械，莫不精工。元兴元年奏上以树肤、麻头、敝布、鱼网造纸之术，天下称蔡侯纸。后为长乐太仆，建光元年坐事自杀。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "eunuch",
+        "craft"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hua-tuo",
+      "name": "华佗",
+      "display": "华佗",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 208,
+      "title": "名医，麻沸散与五禽戏",
+      "bio": "沛国谯人，一名旉。游学徐土，兼通数经，晓养性之术。精方药，针灸不过数处；若病结在内，令服麻沸散而刳割。作五禽之戏以除疾。为曹操治头风，以久不朝见被疑，死于许狱。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "medicine",
+        "fangshu"
+      ],
+      "primary": "medicine",
+      "polity": [
+        "han"
+      ]
+    },
+    {
+      "id": "zhang-jiao",
+      "name": "张角",
+      "display": "张角",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 184,
+      "title": "太平道首领，黄巾起事",
+      "bio": "钜鹿人，奉事黄老，畜养弟子，十余年间徒众数十万，置三十六方。中平元年（甲子）同日俱发，天下响应，京师震动。同年病卒，弟宝、梁相继败亡，然州郡自此握兵。",
+      "tags": [
+        "东汉",
+        "黄巾"
+      ],
+      "categories": [
+        "falling"
+      ],
+      "primary": "falling",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dong-zhuo",
+      "name": "董卓",
+      "display": "董卓",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 192,
+      "title": "相国，废立天子，焚洛阳",
+      "bio": "陇西临洮人，以六郡良家子起。何进召之入京，遂废少帝立献帝，鸩何太后，焚烧洛阳，迁都长安，号为尚父。初平三年为王允、吕布所诛，暴尸于市，脐为灯。汉室的实亡画在这一条上。",
+      "tags": [
+        "东汉",
+        "军阀"
+      ],
+      "categories": [
+        "falling"
+      ],
+      "primary": "falling",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-yun",
+      "name": "王允",
+      "display": "王允",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 137,
+      "death": 192,
+      "title": "司徒，连环之计诛董卓",
+      "bio": "太原祁人，少好大节，有名于州郡。因吕布而间董卓，初平三年于未央殿前诛之，遂录尚书事。既而性刚棱疾恶，不肯赦卓部曲，李傕、郭汜反攻长安，允被诛，汉廷再陷。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "scholar-official",
+        "falling"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xiu",
+      "target": "yin-lihua",
+      "type": "kin",
+      "note": "夫妻，阴后贤德"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "deng-yu",
+      "type": "ruler-subject",
+      "note": "云台首功，帷幄谋臣"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "wu-han",
+      "type": "ruler-subject",
+      "note": "云台将，战功居首"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "feng-yi",
+      "type": "ruler-subject",
+      "note": "云台将，征赤眉"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "geng-yan",
+      "type": "ruler-subject",
+      "note": "云台将，定齐地"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "ma-yuan",
+      "type": "ruler-subject",
+      "since": 35,
+      "note": "马革裹尸，平交趾"
+    },
+    {
+      "source": "liu-zhao",
+      "target": "deng-sui",
+      "type": "kin",
+      "note": "母子，邓后临朝"
+    },
+    {
+      "source": "deng-sui",
+      "target": "liu-hu",
+      "type": "kin",
+      "note": "和帝崩，邓太后立章帝孙祜"
+    },
+    {
+      "source": "liu-hu",
+      "target": "liu-bao",
+      "type": "kin",
+      "note": "安帝子，阎后曾废而复立"
+    },
+    {
+      "source": "liu-bao",
+      "target": "liu-bing",
+      "type": "kin",
+      "note": "顺帝子，在位一年而崩"
+    },
+    {
+      "source": "liang-ji",
+      "target": "liu-zuan",
+      "type": "rival",
+      "note": "质帝目冀为跋扈将军，遂被鸩"
+    },
+    {
+      "source": "liu-zhao",
+      "target": "dou-xian",
+      "type": "kin",
+      "note": "外戚，窦宪擅权"
+    },
+    {
+      "source": "dou-xian",
+      "target": "ban-gu",
+      "type": "ruler-subject",
+      "note": "窦宪佐命，班固为中护军从征"
+    },
+    {
+      "source": "ban-gu",
+      "target": "ban-chao",
+      "type": "kin",
+      "note": "兄弟，一修史一安边"
+    },
+    {
+      "source": "ban-gu",
+      "target": "ban-zhao",
+      "type": "kin",
+      "note": "兄妹，昭续成《汉书》"
+    },
+    {
+      "source": "ma-rong",
+      "target": "zheng-xuan",
+      "type": "mentor",
+      "note": "郑玄从其门人受业"
+    },
+    {
+      "source": "li-ying",
+      "target": "guo-tai",
+      "type": "peer",
+      "note": "党锢名士，太学标榜"
+    },
+    {
+      "source": "li-ying",
+      "target": "chen-fan",
+      "type": "peer",
+      "note": "党人领袖，同遭禁锢"
+    },
+    {
+      "source": "chen-fan",
+      "target": "liu-zhi",
+      "type": "rival",
+      "note": "党锢之祸，蕃等下狱死"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "he-jin",
+      "type": "rival",
+      "note": "何进召卓入京，旋为卓所并"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "liu-bian",
+      "type": "rival",
+      "note": "董卓废少帝辩为弘农王，旋鸩杀"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "liu-xie-xiandi",
+      "type": "ruler-subject",
+      "note": "废辩而立陈留王协"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "wang-yun",
+      "type": "rival",
+      "note": "王允密构吕布诛卓"
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-jiao",
+      "type": "rival",
+      "since": 184,
+      "note": "为左中郎将，破黄巾于长社"
+    },
+    {
+      "source": "liu-hong",
+      "target": "zhang-jiao",
+      "type": "rival",
+      "note": "灵帝时黄巾大起，八州响应"
+    }
+  ],
+  "events": [
+    {
+      "id": "dh-chengdi",
+      "name": "光武称帝，东汉建立",
+      "kind": "point",
+      "year": 25,
+      "people": [
+        "liu-xiu",
+        "deng-yu"
+      ],
+      "desc": "刘秀鄗南称帝，旋定洛阳。先后平赤眉、灭公孙述，天下复归一统，史称光武中兴。"
+    },
+    {
+      "id": "dh-mingdi",
+      "name": "明帝即位 · 佛教东传",
+      "kind": "point",
+      "year": 58,
+      "people": [
+        "liu-zhuang"
+      ],
+      "desc": "永平求法，白马驮经，立白马寺，为佛教入华之始。"
+    },
+    {
+      "id": "dh-banchao",
+      "name": "班超投笔从戎",
+      "kind": "point",
+      "year": 73,
+      "people": [
+        "ban-chao"
+      ],
+      "desc": "率三十六人使西域，纵横三十余年，复通五十余国，官至西域都护。"
+    },
+    {
+      "id": "dh-yanran",
+      "name": "窦宪燕然勒功",
+      "kind": "point",
+      "year": 89,
+      "people": [
+        "dou-xian",
+        "ban-gu"
+      ],
+      "desc": "大破北匈奴于稽落山，登燕然山刻石纪功，匈奴西遁。"
+    },
+    {
+      "id": "dh-cailun",
+      "name": "蔡伦改进造纸",
+      "kind": "point",
+      "year": 105,
+      "people": [
+        "cai-lun"
+      ],
+      "desc": "用树皮、麻头、敝布、渔网为纸，奏上封事，纸张渐代简帛。"
+    },
+    {
+      "id": "dh-zhangheng",
+      "name": "张衡造地动仪",
+      "kind": "point",
+      "year": 132,
+      "people": [
+        "zhang-heng"
+      ],
+      "desc": "作候风地动仪，遥测地震方位；又著《灵宪》论天体。"
+    },
+    {
+      "id": "dh-danggu",
+      "name": "党锢之祸",
+      "kind": "span",
+      "year": 166,
+      "endYear": 184,
+      "people": [
+        "li-ying",
+        "chen-fan",
+        "guo-tai",
+        "liu-zhi"
+      ],
+      "desc": "宦官诬陷士人结党诽谤朝廷，李膺、陈蕃等下狱处死，前后禁锢名士数百人，清流一蹶不振。"
+    },
+    {
+      "id": "dh-huangjin",
+      "name": "黄巾之乱",
+      "kind": "point",
+      "year": 184,
+      "people": [
+        "zhang-jiao",
+        "huangfu-song",
+        "liu-hong"
+      ],
+      "desc": "张角以太平道倡「苍天已死，黄天当立」，八州并起。皇甫嵩、朱儁镇压，乱虽平而州郡兵权渐重。"
+    },
+    {
+      "id": "dh-dongzhuo",
+      "name": "董卓乱政",
+      "kind": "point",
+      "year": 189,
+      "people": [
+        "he-jin",
+        "dong-zhuo",
+        "liu-bian",
+        "liu-xie-xiandi",
+        "wang-yun"
+      ],
+      "desc": "何进召外兵诛宦，反为所杀；董卓入京废立，焚洛阳迁都长安。三年后王允、吕布诛卓，关东已不可收拾。"
+    },
+    {
+      "id": "dh-kongrong",
+      "name": "孔融等名士见戮",
+      "kind": "point",
+      "year": 208,
+      "people": [
+        "kong-rong",
+        "hua-tuo"
+      ],
+      "desc": "曹操杀孔融，华佗亦以触忤见杀。东汉名士气脉至此而尽，天下进入群雄割据。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "东汉全览",
+      "from": -5,
+      "to": 234,
+      "focus": "liu-xiu",
+      "brief": "光武的条起于 -5，横贯开国到明章；下方党锢名士一簇短条被黄巾、董卓截断。整页从云台将的绿条看到末世的紫条。"
+    },
+    {
+      "id": "kaiguo",
+      "name": "光武中兴",
+      "from": -5,
+      "to": 60,
+      "focus": "liu-xiu",
+      "brief": "刘秀的条最长，阴丽华、邓禹、吴汉、耿弇、冯异列于其侧。马援的条从 35 年拜将后才起。",
+      "people": [
+        "liu-xiu",
+        "yin-lihua",
+        "deng-yu",
+        "wu-han",
+        "feng-yi",
+        "geng-yan",
+        "ma-yuan",
+        "liu-zhuang"
+      ],
+      "events": [
+        "dh-chengdi",
+        "dh-mingdi"
+      ]
+    },
+    {
+      "id": "xue-shu",
+      "name": "经学与文史",
+      "from": 20,
+      "to": 130,
+      "focus": "ban-gu",
+      "brief": "班氏兄妹同修《汉书》，张衡造仪、蔡伦造纸、郑玄注经——东汉的学术高峰在这一段密集出现。",
+      "people": [
+        "ban-gu",
+        "ban-chao",
+        "ban-zhao",
+        "zhang-heng",
+        "cai-lun",
+        "ma-rong",
+        "zheng-xuan",
+        "wang-chong"
+      ],
+      "events": [
+        "dh-banchao",
+        "dh-cailun",
+        "dh-zhangheng"
+      ]
+    },
+    {
+      "id": "moshi",
+      "name": "党锢与崩坏",
+      "from": 140,
+      "to": 234,
+      "focus": "li-ying",
+      "brief": "外戚与宦官轮番把持，李膺、陈蕃标榜清流却被禁锢；黄巾点燃大火，董卓进来把洛阳烧掉。",
+      "people": [
+        "liang-ji",
+        "liu-bao",
+        "liu-bing",
+        "liu-zuan",
+        "li-ying",
+        "guo-tai",
+        "chen-fan",
+        "liu-zhi",
+        "liu-hong",
+        "liu-bian",
+        "liu-xie-xiandi",
+        "zhang-jiao",
+        "huangfu-song",
+        "dong-zhuo",
+        "wang-yun",
+        "kong-rong"
+      ],
+      "events": [
+        "dh-danggu",
+        "dh-huangjin",
+        "dh-dongzhuo",
+        "dh-kongrong"
+      ]
+    }
+  ]
+}

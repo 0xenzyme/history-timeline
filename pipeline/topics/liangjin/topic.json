@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "id": "liangjin",
+    "title": "两晋 · 十六国",
+    "subtitle": "从武灭吴到衣冠南渡 · 公元 265 — 公元 421",
+    "range": [
+      221,
+      421
+    ]
+  },
+  "catalog": {
+    "subtitle": "从武灭吴到衣冠南渡",
+    "region": "cn",
+    "eras": [
+      "jin",
+      "sixteen-kingdoms"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "xijin",
+      "name": "西晋",
+      "color": "#c0392b"
+    },
+    {
+      "id": "dongjin",
+      "name": "东晋",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "shiliuguo",
+      "name": "十六国",
+      "color": "#922b3a"
+    },
+    {
+      "id": "wen",
+      "name": "文士 · 释道",
+      "color": "#1f7f8f"
+    }
+  ],
+  "people": [
+    {
+      "id": "sima-yan",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-zhong",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-chi",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-ye",
+      "lane": "xijin"
+    },
+    {
+      "id": "jia-nanfeng",
+      "lane": "xijin"
+    },
+    {
+      "id": "yang-hu",
+      "lane": "xijin"
+    },
+    {
+      "id": "du-yu",
+      "lane": "xijin"
+    },
+    {
+      "id": "wang-jun",
+      "lane": "xijin"
+    },
+    {
+      "id": "zhang-hua",
+      "lane": "xijin"
+    },
+    {
+      "id": "lu-ji",
+      "lane": "xijin"
+    },
+    {
+      "id": "shi-chong",
+      "lane": "xijin"
+    },
+    {
+      "id": "chen-shou",
+      "lane": "xijin"
+    },
+    {
+      "id": "liu-kun",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-rui",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-dezong",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-dewen",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-dao",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-dun",
+      "lane": "dongjin"
+    },
+    {
+      "id": "yu-liang",
+      "lane": "dongjin"
+    },
+    {
+      "id": "tao-kan",
+      "lane": "dongjin"
+    },
+    {
+      "id": "zu-ti",
+      "lane": "dongjin"
+    },
+    {
+      "id": "huan-wen",
+      "lane": "dongjin"
+    },
+    {
+      "id": "xie-an",
+      "lane": "dongjin"
+    },
+    {
+      "id": "xie-xuan",
+      "lane": "dongjin"
+    },
+    {
+      "id": "huan-xuan",
+      "lane": "dongjin"
+    },
+    {
+      "id": "liu-yu",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-xizhi",
+      "lane": "wen"
+    },
+    {
+      "id": "gu-kaizhi",
+      "lane": "wen"
+    },
+    {
+      "id": "tao-yuanming",
+      "lane": "wen"
+    },
+    {
+      "id": "ge-hong",
+      "lane": "wen"
+    },
+    {
+      "id": "hui-yuan",
+      "lane": "wen"
+    },
+    {
+      "id": "fu-jian",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "wang-meng",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "shi-le",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "shi-hu",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "liu-yuan",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "murong-chui",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "sima-zhong",
+      "type": "kin",
+      "note": "父子，惠帝愚钝"
+    },
+    {
+      "source": "sima-yan",
+      "target": "yang-hu",
+      "type": "ruler-subject",
+      "note": "羊祜镇襄阳，画灭吴之策"
+    },
+    {
+      "source": "sima-yan",
+      "target": "wang-jun",
+      "type": "ruler-subject",
+      "since": 280,
+      "note": "命王濬楼船下益州"
+    },
+    {
+      "source": "sima-yan",
+      "target": "du-yu",
+      "type": "ruler-subject",
+      "since": 280,
+      "note": "杜预统荆州兵，既醉且痴而平吴"
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-zhong",
+      "type": "kin",
+      "note": "夫妻，贾后专政"
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "zhang-hua",
+      "type": "ruler-subject",
+      "note": "倚张华居中调护数年"
+    },
+    {
+      "source": "sima-zhong",
+      "target": "lu-ji",
+      "type": "ruler-subject",
+      "note": "陆机入洛为成都王参军，败于河桥被谗死"
+    },
+    {
+      "source": "sima-rui",
+      "target": "wang-dao",
+      "type": "ruler-subject",
+      "note": "王与马，共天下"
+    },
+    {
+      "source": "wang-dao",
+      "target": "wang-dun",
+      "type": "kin",
+      "note": "从兄弟，敦乱导稳"
+    },
+    {
+      "source": "zu-ti",
+      "target": "sima-rui",
+      "type": "ruler-subject",
+      "note": "中流击楫，请兵北伐"
+    },
+    {
+      "source": "huan-wen",
+      "target": "sima-rui",
+      "type": "rival",
+      "note": "桓温北伐树威，几行篡事"
+    },
+    {
+      "source": "xie-an",
+      "target": "xie-xuan",
+      "type": "kin",
+      "note": "叔侄，安举玄为将"
+    },
+    {
+      "source": "xie-an",
+      "target": "fu-jian",
+      "type": "rival",
+      "since": 383,
+      "note": "淝水之战，以少破前秦"
+    },
+    {
+      "source": "fu-jian",
+      "target": "wang-meng",
+      "type": "ruler-subject",
+      "note": "王猛辅坚，治前秦近乎小康"
+    },
+    {
+      "source": "fu-jian",
+      "target": "murong-chui",
+      "type": "ruler-subject",
+      "note": "用慕容垂，淝水后垂叛建后燕"
+    },
+    {
+      "source": "shi-le",
+      "target": "shi-hu",
+      "type": "kin",
+      "note": "从父子，虎继勒后虐政"
+    },
+    {
+      "source": "liu-yuan",
+      "target": "liu-yu",
+      "type": "kin",
+      "note": "同出刘氏，一开汉赵一终晋祚"
+    },
+    {
+      "source": "huan-xuan",
+      "target": "huan-wen",
+      "type": "kin",
+      "note": "父子，玄篡晋建楚"
+    },
+    {
+      "source": "liu-yu",
+      "target": "huan-xuan",
+      "type": "rival",
+      "since": 404,
+      "note": "起兵诛玄，复晋室"
+    },
+    {
+      "source": "huan-xuan",
+      "target": "sima-dezong",
+      "type": "rival",
+      "note": "元兴二年玄废安帝自立，次年裕起兵迎帝"
+    },
+    {
+      "source": "liu-yu",
+      "target": "sima-dewen",
+      "type": "rival",
+      "note": "裕废恭帝受禅，明年弑之"
+    },
+    {
+      "source": "tao-yuanming",
+      "target": "tao-kan",
+      "type": "kin",
+      "note": "曾祖孙，渊明不为五斗米折腰"
+    },
+    {
+      "source": "hui-yuan",
+      "target": "tao-yuanming",
+      "type": "peer",
+      "note": "虎溪三笑之雅，一僧一隐"
+    }
+  ],
+  "events": [
+    {
+      "id": "lj-miewu",
+      "name": "西晋灭吴，天下一统",
+      "kind": "point",
+      "year": 280,
+      "people": [
+        "sima-yan",
+        "wang-jun",
+        "du-yu"
+      ],
+      "desc": "王濬楼船下益州，孙皓出降。自汉末分裂至此复归一统，然仅十一年便乱。"
+    },
+    {
+      "id": "lj-bawang",
+      "name": "八王之乱",
+      "kind": "span",
+      "year": 291,
+      "endYear": 306,
+      "people": [
+        "sima-zhong",
+        "jia-nanfeng",
+        "zhang-hua"
+      ],
+      "desc": "贾后专政引发宗室诸王相屠，中枢崩坏，伏永嘉之祸。"
+    },
+    {
+      "id": "lj-yongjia",
+      "name": "永嘉之乱",
+      "kind": "point",
+      "year": 311,
+      "people": [
+        "shi-le",
+        "sima-chi"
+      ],
+      "desc": "匈奴汉国陷洛阳，怀帝被俘；316 年愍帝出降，西晋亡。"
+    },
+    {
+      "id": "lj-dongdu",
+      "name": "衣冠南渡",
+      "kind": "point",
+      "year": 317,
+      "people": [
+        "sima-rui",
+        "wang-dao"
+      ],
+      "desc": "司马睿称晋王于建康，王导主政，北方士族南奔，「王与马共天下」。"
+    },
+    {
+      "id": "lj-jiti",
+      "name": "祖逖北伐",
+      "kind": "point",
+      "year": 313,
+      "people": [
+        "zu-ti"
+      ],
+      "desc": "中流击楫而誓，收复黄河以南，然朝廷不力，逖忧愤而卒。"
+    },
+    {
+      "id": "lj-feishui",
+      "name": "淝水之战",
+      "kind": "point",
+      "year": 383,
+      "people": [
+        "fu-jian",
+        "wang-meng",
+        "xie-an",
+        "xie-xuan"
+      ],
+      "desc": "苻坚率百万之众南下，谢玄北府兵八万破之。风声鹤唳，前秦瓦解。"
+    },
+    {
+      "id": "lj-huanxuan",
+      "name": "桓玄篡晋",
+      "kind": "point",
+      "year": 403,
+      "people": [
+        "huan-xuan",
+        "huan-wen"
+      ],
+      "desc": "桓玄废安帝自立，国号楚。次年刘裕起兵讨玄，晋室复存而实权已移。"
+    },
+    {
+      "id": "lj-liuyu",
+      "name": "刘裕代晋",
+      "kind": "point",
+      "year": 420,
+      "people": [
+        "liu-yu"
+      ],
+      "desc": "刘裕废晋恭帝自立，国号宋，开启南朝。两晋一百五十五年至此而终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "两晋十六国全览",
+      "from": 221,
+      "to": 421,
+      "focus": "sima-yan",
+      "brief": "西晋红条在 280 年一统后骤断于八王；东晋蓝条从 317 拉到 420；十六国酒红条穿插其间，淝水一处最密。"
+    },
+    {
+      "id": "xijin",
+      "name": "西晋一统与崩解",
+      "from": 240,
+      "to": 320,
+      "focus": "sima-yan",
+      "brief": "羊祜画策、王濬下江灭吴；惠帝愚、贾后乱、八王屠、永嘉陷——一条红条从极盛直坠。",
+      "people": [
+        "sima-yan",
+        "yang-hu",
+        "du-yu",
+        "wang-jun",
+        "jia-nanfeng",
+        "sima-zhong",
+        "zhang-hua",
+        "lu-ji",
+        "shi-chong",
+        "sima-chi",
+        "sima-ye"
+      ],
+      "events": [
+        "lj-miewu",
+        "lj-bawang",
+        "lj-yongjia"
+      ]
+    },
+    {
+      "id": "dongjin",
+      "name": "东晋偏安与北伐",
+      "from": 300,
+      "to": 421,
+      "focus": "wang-dao",
+      "brief": "王导稳住江左，祖逖、桓温先后北伐；谢安、谢玄在淝水以少胜多。末尾桓玄一乱，刘裕收尾。",
+      "people": [
+        "sima-rui",
+        "sima-dezong",
+        "sima-dewen",
+        "wang-dao",
+        "wang-dun",
+        "yu-liang",
+        "zu-ti",
+        "huan-wen",
+        "xie-an",
+        "xie-xuan",
+        "huan-xuan",
+        "liu-yu"
+      ],
+      "events": [
+        "lj-dongdu",
+        "lj-jiti",
+        "lj-feishui",
+        "lj-huanxuan",
+        "lj-liuyu"
+      ]
+    },
+    {
+      "id": "shiliuguo",
+      "name": "十六国梗概",
+      "from": 300,
+      "to": 400,
+      "focus": "fu-jian",
+      "brief": "刘渊开汉赵、石勒建后赵、苻坚用王猛几成一统却败于淝水、慕容垂后燕继起——北地列国在东晋的条下翻涌。",
+      "people": [
+        "liu-yuan",
+        "shi-le",
+        "shi-hu",
+        "fu-jian",
+        "wang-meng",
+        "murong-chui"
+      ],
+      "events": [
+        "lj-yongjia",
+        "lj-feishui"
+      ]
+    }
+  ]
+}

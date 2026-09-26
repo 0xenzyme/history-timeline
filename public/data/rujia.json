@@ -38,7 +38,12 @@
         "儒家",
         "六经",
         "论语"
-      ]
+      ],
+      "categories": [
+        "scholar-official",
+        "confucian"
+      ],
+      "primary": "scholar-official"
     },
     {
       "id": "yan-hui",
@@ -52,9 +57,12 @@
       "title": "孔门德行第一",
       "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
       "tags": [
-        "孔门",
         "复圣"
-      ]
+      ],
+      "categories": [
+        "confucian"
+      ],
+      "primary": "confucian"
     },
     {
       "id": "zengzi",
@@ -68,10 +76,13 @@
       "title": "孔门弟子，以孝著称",
       "bio": "字子舆。相传《孝经》出其门，并下传子思。宋以后列四配，称宗圣。",
       "tags": [
-        "孔门",
         "孝经",
         "宗圣"
-      ]
+      ],
+      "categories": [
+        "confucian"
+      ],
+      "primary": "confucian"
     },
     {
       "id": "zisi",
@@ -87,7 +98,11 @@
       "tags": [
         "中庸",
         "述圣"
-      ]
+      ],
+      "categories": [
+        "confucian"
+      ],
+      "primary": "confucian"
     },
     {
       "id": "mengzi",
@@ -104,7 +119,12 @@
         "性善",
         "仁政",
         "亚圣"
-      ]
+      ],
+      "categories": [
+        "scholar",
+        "confucian"
+      ],
+      "primary": "scholar"
     },
     {
       "id": "xunzi",
@@ -121,7 +141,12 @@
         "性恶",
         "礼法",
         "稷下"
-      ]
+      ],
+      "categories": [
+        "scholar",
+        "confucian"
+      ],
+      "primary": "scholar"
     },
     {
       "id": "hanfei",
@@ -135,9 +160,12 @@
       "title": "法家集大成者",
       "bio": "韩国公子，学于荀子。使秦后为李斯所害。其书合法、术、势，为秦政所本。",
       "tags": [
-        "法家",
         "法术势"
-      ]
+      ],
+      "categories": [
+        "legalism"
+      ],
+      "primary": "legalism"
     },
     {
       "id": "dong-zhongshu",
@@ -155,6 +183,13 @@
         "儒学",
         "天人三策",
         "春秋繁露"
+      ],
+      "categories": [
+        "confucian"
+      ],
+      "primary": "confucian",
+      "polity": [
+        "han"
       ]
     }
   ],
@@ -162,7 +197,7 @@
     {
       "id": "mentor",
       "name": "师承",
-      "color": "#2f7ed8",
+      "color": "#1f7f8f",
       "dash": null,
       "directed": true
     },
@@ -183,7 +218,7 @@
     {
       "id": "rival",
       "name": "敌对",
-      "color": "#d0503c",
+      "color": "#922b3a",
       "dash": "6 3",
       "directed": false
     }

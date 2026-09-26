@@ -1,0 +1,93 @@
+{
+  "_comment": "泳道 → 分类/政权 推断表。key 为 专题:泳道 二元组。categories 取自 vocab/categories.json（多值无序），polity 取自 vocab/polities.json（多值按时间先后）。categories/polity 省略表示该维度无法从泳道推断（多为阵营型或混编型泳道），需人工补。混编泳道只写最主流的一类，其余身份交由 tags 规则或人工标注补充。confidence 为 medium 的条目写入后仍应逐专题复核。",
+
+  "xizhou:king": { "categories": ["monarch"], "polity": ["zhou"], "confidence": "high" },
+  "xizhou:minister": { "categories": ["qingshi"], "polity": ["zhou"], "confidence": "medium" },
+  "xizhou:kin": { "categories": ["consort"], "polity": ["zhou"], "confidence": "medium" },
+  "xizhou:lord": { "categories": ["vassal"], "confidence": "medium" },
+
+  "chunqiu:zhou": { "categories": ["monarch"], "polity": ["zhou"], "confidence": "high" },
+  "chunqiu:hegemon": { "categories": ["hegemon"], "confidence": "medium" },
+  "chunqiu:minister": { "categories": ["official"], "confidence": "medium" },
+  "chunqiu:south": { "categories": ["monarch"], "confidence": "medium" },
+  "chunqiu:shi": { "categories": ["scholar-official"], "confidence": "medium" },
+
+  "zhanguo:ruler": { "categories": ["monarch"], "confidence": "high" },
+  "zhanguo:minister": { "categories": ["minister"], "confidence": "medium" },
+  "zhanguo:general": { "categories": ["general"], "confidence": "high" },
+  "zhanguo:diplomat": { "categories": ["diplomat"], "confidence": "medium" },
+  "zhanguo:scholar": { "categories": ["scholar"], "confidence": "high" },
+
+  "qin:qin-ruler": { "categories": ["monarch"], "polity": ["qin"], "confidence": "high" },
+  "qin:qin-official": { "categories": ["official"], "polity": ["qin"], "confidence": "high" },
+  "qin:chu": { "categories": ["general"], "polity": ["chu"], "confidence": "medium" },
+  "qin:han": { "categories": ["general"], "polity": ["han"], "confidence": "medium" },
+  "qin:rebel": { "categories": ["rebel"], "polity": ["minbian"], "confidence": "high" },
+
+  "han:emperor": { "categories": ["monarch"], "polity": ["han"], "confidence": "high" },
+  "han:consort": { "categories": ["consort"], "polity": ["han"], "confidence": "medium" },
+  "han:scholar": { "categories": ["official"], "polity": ["han"], "confidence": "medium" },
+  "han:general": { "categories": ["general"], "polity": ["han"], "confidence": "high" },
+  "han:xiongnu": { "categories": ["outsider"], "polity": ["xiongnu"], "confidence": "high" },
+  "han:xinmang": { "polity": ["xin"], "confidence": "medium" },
+
+  "donghan:emperor": { "categories": ["monarch"], "polity": ["han"], "confidence": "high" },
+  "donghan:consort": { "categories": ["consort"], "polity": ["han"], "confidence": "medium" },
+  "donghan:scholar": { "categories": ["scholar"], "polity": ["han"], "confidence": "medium" },
+  "donghan:general": { "categories": ["general"], "polity": ["han"], "confidence": "high" },
+  "donghan:end": { "categories": ["rebel"], "polity": ["han"], "confidence": "medium" },
+
+  "sanguo:caowei": { "polity": ["wei"], "confidence": "medium" },
+  "sanguo:shuhan": { "polity": ["shu"], "confidence": "medium" },
+  "sanguo:sunwu": { "polity": ["wu"], "confidence": "medium" },
+  "sanguo:qunxiong": { "confidence": "medium" },
+
+  "liangjin:xijin": { "polity": ["jin"], "confidence": "medium" },
+  "liangjin:dongjin": { "polity": ["jin"], "confidence": "medium" },
+  "liangjin:shiliuguo": { "polity": ["shiliuguo"], "confidence": "medium" },
+  "liangjin:wen": { "categories": ["literature"], "confidence": "medium" },
+
+  "nanbei:bei": { "polity": ["bei"], "confidence": "medium" },
+  "nanbei:nan": { "polity": ["nan"], "confidence": "medium" },
+  "nanbei:wen": { "categories": ["literature"], "confidence": "medium" },
+
+  "sui:emperor": { "categories": ["monarch"], "polity": ["sui"], "confidence": "high" },
+  "sui:minister": { "categories": ["chancellor"], "polity": ["sui"], "confidence": "high" },
+  "sui:general": { "categories": ["general"], "polity": ["sui"], "confidence": "high" },
+  "sui:craft": { "categories": ["craft"], "polity": ["sui"], "confidence": "high" },
+  "sui:mowei": { "categories": ["warlord"], "polity": ["sui"], "confidence": "medium" },
+
+  "tang:emperor": { "categories": ["monarch"], "polity": ["tang"], "confidence": "high" },
+  "tang:consort": { "categories": ["consort"], "polity": ["tang"], "confidence": "medium" },
+  "tang:chancellor": { "categories": ["chancellor"], "polity": ["tang"], "confidence": "high" },
+  "tang:general": { "categories": ["general"], "polity": ["tang"], "confidence": "high" },
+  "tang:literati": { "categories": ["literature"], "polity": ["tang"], "confidence": "medium" },
+  "tang:end": { "polity": ["tang"], "confidence": "medium" },
+
+  "song:emperor": { "categories": ["monarch"], "polity": ["song"], "confidence": "high" },
+  "song:chancellor": { "categories": ["chancellor"], "polity": ["song"], "confidence": "high" },
+  "song:general": { "categories": ["general"], "polity": ["song"], "confidence": "high" },
+  "song:literati": { "categories": ["literature"], "polity": ["song"], "confidence": "medium" },
+  "song:end": { "categories": ["regent"], "polity": ["song"], "confidence": "medium" },
+
+  "yuan:emperor": { "categories": ["monarch"], "polity": ["yuan"], "confidence": "high" },
+  "yuan:chancellor": { "categories": ["chancellor"], "polity": ["yuan"], "confidence": "high" },
+  "yuan:general": { "categories": ["general"], "polity": ["yuan"], "confidence": "high" },
+  "yuan:literati": { "categories": ["craft"], "polity": ["yuan"], "confidence": "medium" },
+  "yuan:end": { "categories": ["warlord"], "polity": ["yuan"], "confidence": "medium" },
+
+  "ming:emperor": { "categories": ["monarch"], "polity": ["ming"], "confidence": "high" },
+  "ming:chancellor": { "categories": ["chancellor"], "polity": ["ming"], "confidence": "high" },
+  "ming:general": { "categories": ["general"], "polity": ["ming"], "confidence": "high" },
+  "ming:literati": { "categories": ["science"], "polity": ["ming"], "confidence": "medium" },
+  "ming:end": { "categories": ["warlord"], "polity": ["ming"], "confidence": "medium" },
+
+  "qing:emperor": { "categories": ["monarch"], "polity": ["qing"], "confidence": "high" },
+  "qing:chancellor": { "categories": ["chancellor"], "polity": ["qing"], "confidence": "high" },
+  "qing:general": { "categories": ["general"], "polity": ["qing"], "confidence": "high" },
+  "qing:literati": { "categories": ["scholar"], "polity": ["qing"], "confidence": "medium" },
+  "qing:end": { "categories": ["warlord"], "polity": ["qing"], "confidence": "medium" },
+
+  "rujia:ru": { "categories": ["confucian"], "confidence": "high" },
+  "rujia:fa": { "categories": ["legalism"], "confidence": "high" }
+}

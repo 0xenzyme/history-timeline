@@ -1,0 +1,1020 @@
+{
+  "meta": {
+    "id": "tang",
+    "title": "唐",
+    "subtitle": "从贞观到天祐的盛世与裂痕 · 公元 566 — 公元 907",
+    "range": [
+      566,
+      907
+    ]
+  },
+  "catalog": {
+    "subtitle": "从贞观到天祐的盛世与裂痕",
+    "region": "cn",
+    "eras": [
+      "tang"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "consort",
+      "name": "后妃 · 外戚",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "chancellor",
+      "name": "名相",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "文学 · 艺术",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "end",
+      "name": "藩镇 · 末世",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "li-yuan",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-shimin",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-zhi",
+      "lane": "emperor"
+    },
+    {
+      "id": "wu-zetian",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-long-ji",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-heng",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-chun",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-kuo",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-chen",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-xian",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-dan",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-yu",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-song",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-heng-mu",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-zhan",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-ang",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-yan",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-cui",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-xuan",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-ye",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-chu",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhangsun-wu-ji",
+      "lane": "consort"
+    },
+    {
+      "id": "yang-yu-huan",
+      "lane": "consort"
+    },
+    {
+      "id": "yang-guo-zhong",
+      "lane": "consort"
+    },
+    {
+      "id": "shangguan-wan-er",
+      "lane": "consort"
+    },
+    {
+      "id": "wei-zheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fang-xuan-ling",
+      "lane": "chancellor"
+    },
+    {
+      "id": "du-ru-hui",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yao-chong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "song-jing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "di-ren-jie",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lu-zhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "pei-du",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-de-yu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-lin-fu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-bi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-jing",
+      "lane": "general"
+    },
+    {
+      "id": "li-jian-cheng",
+      "lane": "general"
+    },
+    {
+      "id": "li-yuan-ji",
+      "lane": "general"
+    },
+    {
+      "id": "qin-qiong",
+      "lane": "general"
+    },
+    {
+      "id": "yu-chi-gong",
+      "lane": "general"
+    },
+    {
+      "id": "xu-shi-ji",
+      "lane": "general"
+    },
+    {
+      "id": "gao-xian-zhi",
+      "lane": "general"
+    },
+    {
+      "id": "ge-shu-han",
+      "lane": "general"
+    },
+    {
+      "id": "guo-zi-yi",
+      "lane": "general"
+    },
+    {
+      "id": "li-guang-bi",
+      "lane": "general"
+    },
+    {
+      "id": "zhang-xun",
+      "lane": "general"
+    },
+    {
+      "id": "an-lu-shan",
+      "lane": "end"
+    },
+    {
+      "id": "shi-si-ming",
+      "lane": "end"
+    },
+    {
+      "id": "huang-chao",
+      "lane": "end"
+    },
+    {
+      "id": "zhu-wen",
+      "lane": "end"
+    },
+    {
+      "id": "li-ke-yong",
+      "lane": "end"
+    },
+    {
+      "id": "li-bai",
+      "lane": "literati"
+    },
+    {
+      "id": "du-fu",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-wei",
+      "lane": "literati"
+    },
+    {
+      "id": "meng-hao-ran",
+      "lane": "literati"
+    },
+    {
+      "id": "bai-ju-yi",
+      "lane": "literati"
+    },
+    {
+      "id": "han-yu",
+      "lane": "literati"
+    },
+    {
+      "id": "liu-zong-yuan",
+      "lane": "literati"
+    },
+    {
+      "id": "liu-yu-xi",
+      "lane": "literati"
+    },
+    {
+      "id": "li-shang-yin",
+      "lane": "literati"
+    },
+    {
+      "id": "du-mu",
+      "lane": "literati"
+    },
+    {
+      "id": "yan-zhen-qing",
+      "lane": "literati"
+    },
+    {
+      "id": "liu-gong-quan",
+      "lane": "literati"
+    },
+    {
+      "id": "niu-seng-ru",
+      "lane": "literati"
+    },
+    {
+      "id": "xuan-zang",
+      "lane": "literati"
+    },
+    {
+      "id": "jian-zhen",
+      "lane": "literati"
+    },
+    {
+      "id": "hui-neng",
+      "lane": "literati"
+    },
+    {
+      "id": "sun-si-miao",
+      "lane": "literati"
+    },
+    {
+      "id": "yi-xing",
+      "lane": "literati"
+    },
+    {
+      "id": "yan-li-ben",
+      "lane": "literati"
+    },
+    {
+      "id": "songzan-ganbu",
+      "lane": "end"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yuan",
+      "target": "li-shimin",
+      "type": "kin",
+      "note": "父子，世民佐命开唐"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-jian-cheng",
+      "type": "kin",
+      "note": "兄弟，玄武门之变"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-yuan-ji",
+      "type": "kin",
+      "note": "兄弟，同殁玄武门"
+    },
+    {
+      "source": "li-shimin",
+      "target": "wei-zheng",
+      "type": "ruler-subject",
+      "note": "任为谏议大夫，前后二百余谏"
+    },
+    {
+      "source": "li-shimin",
+      "target": "fang-xuan-ling",
+      "type": "ruler-subject",
+      "note": "房谋杜断，同为贞观名相"
+    },
+    {
+      "source": "fang-xuan-ling",
+      "target": "du-ru-hui",
+      "type": "peer",
+      "note": "房谋杜断，相须而成"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-jing",
+      "type": "ruler-subject",
+      "note": "李靖灭东突厥、破吐谷浑"
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-chi-gong",
+      "type": "ruler-subject",
+      "note": "玄武门救驾，功第一"
+    },
+    {
+      "source": "zhangsun-wu-ji",
+      "target": "li-shimin",
+      "type": "kin",
+      "note": "舅甥，无忌佐太宗得位"
+    },
+    {
+      "source": "li-zhi",
+      "target": "wu-zetian",
+      "type": "kin",
+      "note": "夫妻，武后柄政"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "di-ren-jie",
+      "type": "ruler-subject",
+      "note": "重用狄仁杰，荐张柬之"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wei-zheng",
+      "type": "peer",
+      "note": "玄宗以魏征为镜，开元求治"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "yao-chong",
+      "type": "ruler-subject",
+      "note": "姚崇十事要说，开元之首"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "song-jing",
+      "type": "ruler-subject",
+      "note": "姚宋相继，刑政清明"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "yang-yu-huan",
+      "type": "kin",
+      "note": "宠杨贵妃，姊妹兄弟皆列侯"
+    },
+    {
+      "source": "yang-guo-zhong",
+      "target": "yang-yu-huan",
+      "type": "kin",
+      "note": "从兄妹，国忠倚妃得宠"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "an-lu-shan",
+      "type": "ruler-subject",
+      "note": "宠任安禄山，授范阳节度"
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "yang-guo-zhong",
+      "type": "rival",
+      "note": "互相倾轧，禄山以诛国忠为名"
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "ge-shu-han",
+      "type": "rival",
+      "since": 756,
+      "note": "灵宝之战，哥舒翰败降"
+    },
+    {
+      "source": "li-heng",
+      "target": "guo-zi-yi",
+      "type": "ruler-subject",
+      "note": "肃宗倚郭子仪收两京"
+    },
+    {
+      "source": "guo-zi-yi",
+      "target": "li-guang-bi",
+      "type": "peer",
+      "note": "中兴二将，克复河北"
+    },
+    {
+      "source": "zhang-xun",
+      "target": "an-lu-shan",
+      "type": "rival",
+      "since": 757,
+      "note": "睢阳死守，屏障江淮"
+    },
+    {
+      "source": "shi-si-ming",
+      "target": "an-lu-shan",
+      "type": "kin",
+      "note": "同起范阳，继为乱"
+    },
+    {
+      "source": "li-chun",
+      "target": "pei-du",
+      "type": "ruler-subject",
+      "note": "裴度督师平淮西，元和中兴"
+    },
+    {
+      "source": "li-kuo",
+      "target": "lu-zhi",
+      "type": "ruler-subject",
+      "note": "陆贽草诏论事，后贬忠州"
+    },
+    {
+      "source": "li-de-yu",
+      "target": "niu-seng-ru",
+      "type": "rival",
+      "note": "牛李党争，相互排抑数十年"
+    },
+    {
+      "source": "huang-chao",
+      "target": "zhu-wen",
+      "type": "peer",
+      "note": "黄巢部将朱温降唐，后篡唐"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "li-chen",
+      "type": "rival",
+      "note": "朱温逼迁昭宗，弑哀帝，唐亡"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "zhu-wen",
+      "type": "rival",
+      "note": "沙陀李克用与朱温世仇，梁晋相争"
+    },
+    {
+      "source": "xuan-zang",
+      "target": "li-shimin",
+      "type": "peer",
+      "note": "玄奘西归，太宗为《大唐三藏圣教序》"
+    },
+    {
+      "source": "jian-zhen",
+      "target": "li-long-ji",
+      "type": "peer",
+      "note": "六次东渡赴日，玄宗时成行"
+    },
+    {
+      "source": "li-bai",
+      "target": "du-fu",
+      "type": "peer",
+      "note": "李杜并称，醉眠秋共被"
+    },
+    {
+      "source": "han-yu",
+      "target": "liu-zong-yuan",
+      "type": "peer",
+      "note": "古文运动，韩柳并举"
+    },
+    {
+      "source": "yi-xing",
+      "target": "li-long-ji",
+      "type": "ruler-subject",
+      "note": "僧一行修《大衍历》，玄宗时测子午线"
+    },
+    {
+      "source": "songzan-ganbu",
+      "target": "li-shimin",
+      "type": "peer",
+      "note": "吐蕃赞普，文成公主和亲"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "li-lin-fu",
+      "type": "ruler-subject",
+      "note": "口蜜腹剑，专相位十九年，壅蔽言路"
+    },
+    {
+      "source": "li-lin-fu",
+      "target": "an-lu-shan",
+      "type": "peer",
+      "note": "林甫为安禄山掩饰，养痈成患"
+    },
+    {
+      "source": "li-heng",
+      "target": "li-bi",
+      "type": "ruler-subject",
+      "note": "肃宗倚李泌谋议，收复两京"
+    },
+    {
+      "source": "wang-wei",
+      "target": "meng-hao-ran",
+      "type": "peer",
+      "note": "王孟并称，开山水田园诗派"
+    },
+    {
+      "source": "bai-ju-yi",
+      "target": "liu-yu-xi",
+      "type": "peer",
+      "note": "刘白唱和，晚年同居洛阳"
+    },
+    {
+      "source": "li-shang-yin",
+      "target": "du-mu",
+      "type": "peer",
+      "note": "小李杜，晚唐律绝双璧"
+    },
+    {
+      "source": "yan-zhen-qing",
+      "target": "liu-gong-quan",
+      "type": "peer",
+      "note": "颜筋柳骨，并称楷书极则"
+    },
+    {
+      "source": "xuan-zang",
+      "target": "jian-zhen",
+      "type": "peer",
+      "note": "一西行取经，一东渡传戒，并为弘法巨擘"
+    },
+    {
+      "source": "li-zhi",
+      "target": "li-xian",
+      "type": "kin",
+      "note": "父子，高宗嫡子，嗣位为中宗"
+    },
+    {
+      "source": "li-xian",
+      "target": "li-dan",
+      "type": "kin",
+      "note": "兄弟，中宗被废，睿宗继立"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "li-xian",
+      "type": "kin",
+      "note": "母子，武后废中宗"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "li-dan",
+      "type": "kin",
+      "note": "母子，武后立睿宗"
+    },
+    {
+      "source": "li-dan",
+      "target": "li-long-ji",
+      "type": "kin",
+      "note": "父子，睿宗传玄宗"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "li-heng",
+      "type": "kin",
+      "note": "父子，玄宗传肃宗"
+    },
+    {
+      "source": "li-heng",
+      "target": "li-yu",
+      "type": "kin",
+      "note": "父子，肃宗传代宗"
+    },
+    {
+      "source": "li-yu",
+      "target": "li-song",
+      "type": "kin",
+      "note": "父子，代宗传顺宗"
+    },
+    {
+      "source": "li-song",
+      "target": "li-chun",
+      "type": "kin",
+      "note": "父子，顺宗传宪宗"
+    },
+    {
+      "source": "li-chun",
+      "target": "li-heng-mu",
+      "type": "kin",
+      "note": "父子，宪宗传穆宗"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "li-zhan",
+      "type": "kin",
+      "note": "父子，穆宗传敬宗"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "li-ang",
+      "type": "kin",
+      "note": "父子，穆宗传文宗"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "li-yan",
+      "type": "kin",
+      "note": "父子，穆宗传武宗"
+    },
+    {
+      "source": "li-chun",
+      "target": "li-chen",
+      "type": "kin",
+      "note": "父子，宪宗传宣宗"
+    },
+    {
+      "source": "li-chen",
+      "target": "li-cui",
+      "type": "kin",
+      "note": "父子，宣宗传懿宗"
+    },
+    {
+      "source": "li-cui",
+      "target": "li-xuan",
+      "type": "kin",
+      "note": "父子，懿宗传僖宗"
+    },
+    {
+      "source": "li-xuan",
+      "target": "li-ye",
+      "type": "kin",
+      "note": "父子，僖宗传昭宗"
+    },
+    {
+      "source": "li-ye",
+      "target": "li-chu",
+      "type": "kin",
+      "note": "父子，昭宗传哀帝"
+    }
+  ],
+  "events": [
+    {
+      "id": "tang-gai",
+      "name": "晋阳起兵 · 李渊称帝",
+      "kind": "point",
+      "year": 618,
+      "people": [
+        "li-yuan",
+        "li-shimin"
+      ],
+      "desc": "李渊起兵入长安，称帝建唐；世民平定群雄，天下渐归。"
+    },
+    {
+      "id": "tang-xuanwu",
+      "name": "玄武门之变",
+      "kind": "point",
+      "year": 626,
+      "people": [
+        "li-shimin",
+        "li-jian-cheng",
+        "li-yuan-ji",
+        "yu-chi-gong"
+      ],
+      "desc": "世民伏兵玄武门，杀太子建成、齐王元吉，遂立为太子，八月即位。"
+    },
+    {
+      "id": "tang-zhenghuan",
+      "name": "贞观之治",
+      "kind": "span",
+      "year": 627,
+      "endYear": 649,
+      "people": [
+        "li-shimin",
+        "wei-zheng",
+        "fang-xuan-ling",
+        "du-ru-hui",
+        "li-jing"
+      ],
+      "desc": "纳谏任贤、轻徭薄赋、武功四达，长安为天下都会，胡汉来朝。"
+    },
+    {
+      "id": "tang-wu",
+      "name": "武后称帝",
+      "kind": "point",
+      "year": 690,
+      "people": [
+        "wu-zetian",
+        "di-ren-jie"
+      ],
+      "desc": "武则天废唐建周，为中国唯一女皇；晚年还政中宗，唐祚复续。"
+    },
+    {
+      "id": "tang-kaiyuan",
+      "name": "开元盛世",
+      "kind": "span",
+      "year": 713,
+      "endYear": 741,
+      "people": [
+        "li-long-ji",
+        "yao-chong",
+        "song-jing"
+      ],
+      "desc": "姚崇、宋璟相继为相，府库充盈、户口滋盛，为唐之极盛。"
+    },
+    {
+      "id": "tang-tianbao",
+      "name": "安史之乱",
+      "kind": "span",
+      "year": 755,
+      "endYear": 763,
+      "people": [
+        "an-lu-shan",
+        "li-long-ji",
+        "yang-yu-huan",
+        "ge-shu-han",
+        "guo-zi-yi",
+        "li-guang-bi",
+        "zhang-xun"
+      ],
+      "desc": "安禄山范阳起兵，哥舒翰败于灵宝，潼关陷、玄宗奔蜀；郭子仪、李光弼收复两京，张巡死守睢阳。乱平而藩镇之祸始。"
+    },
+    {
+      "id": "tang-maiwu",
+      "name": "马嵬之变",
+      "kind": "point",
+      "year": 756,
+      "people": [
+        "li-long-ji",
+        "yang-yu-huan",
+        "yang-guo-zhong"
+      ],
+      "desc": "扈从兵变，杀杨国忠，缢贵妃于马嵬坡；太子亨灵武即位，是为肃宗。"
+    },
+    {
+      "id": "tang-yuanhe",
+      "name": "元和中兴",
+      "kind": "point",
+      "year": 817,
+      "people": [
+        "li-chun",
+        "pei-du"
+      ],
+      "desc": "裴度督师，李愬雪夜入蔡州擒吴元济，削藩暂振，唐室一时回光。"
+    },
+    {
+      "id": "tang-dang",
+      "name": "牛李党争",
+      "kind": "span",
+      "year": 808,
+      "endYear": 846,
+      "people": [
+        "li-de-yu",
+        "niu-seng-ru"
+      ],
+      "desc": "牛僧孺、李德裕两党相互排抑，进退系朝局数十年，国是日非。"
+    },
+    {
+      "id": "tang-huangchao",
+      "name": "黄巢之乱",
+      "kind": "span",
+      "year": 875,
+      "endYear": 884,
+      "people": [
+        "huang-chao"
+      ],
+      "desc": "黄巢转战南北，一度入长安号大齐。虽平而藩镇益强，唐室名存实亡。"
+    },
+    {
+      "id": "tang-wang",
+      "name": "朱温篡唐",
+      "kind": "point",
+      "year": 907,
+      "people": [
+        "zhu-wen",
+        "li-chen"
+      ],
+      "desc": "朱温废哀帝自立，国号梁，史称后梁。唐朝二百八十九年至此而终，五代开始。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "唐全览",
+      "from": 566,
+      "to": 907,
+      "focus": "li-shimin",
+      "brief": "帝王红条里，太宗、玄宗两条最长；安史把盛唐一分为二，后面藩镇、黄巢、朱温三色在尾段搅动。李白杜甫的青条落于开元天宝之间。"
+    },
+    {
+      "id": "kaiyuan",
+      "name": "贞观到开元",
+      "from": 570,
+      "to": 745,
+      "focus": "li-shimin",
+      "brief": "玄武门后太宗纳谏、李靖开边；武周代唐又还政；玄宗用姚宋，开元极盛。魏征、房杜、狄仁杰列于其间。",
+      "people": [
+        "li-yuan",
+        "li-shimin",
+        "li-jian-cheng",
+        "li-yuan-ji",
+        "wei-zheng",
+        "fang-xuan-ling",
+        "du-ru-hui",
+        "li-jing",
+        "yu-chi-gong",
+        "zhangsun-wu-ji",
+        "wu-zetian",
+        "di-ren-jie",
+        "li-long-ji",
+        "yao-chong",
+        "song-jing",
+        "li-jing"
+      ],
+      "events": [
+        "tang-gai",
+        "tang-xuanwu",
+        "tang-zhenghuan",
+        "tang-wu",
+        "tang-kaiyuan"
+      ]
+    },
+    {
+      "id": "tianbao",
+      "name": "天宝危机与安史",
+      "from": 710,
+      "to": 770,
+      "focus": "li-long-ji",
+      "brief": "玄宗宠杨妃、任李林甫杨国忠，安禄山养兵范阳。马嵬一变，盛唐崩落；郭子仪李光弼收拾残局。李白杜甫正活在这一折。",
+      "people": [
+        "li-long-ji",
+        "yang-yu-huan",
+        "yang-guo-zhong",
+        "an-lu-shan",
+        "shi-si-ming",
+        "ge-shu-han",
+        "guo-zi-yi",
+        "li-guang-bi",
+        "zhang-xun",
+        "li-heng",
+        "li-bi",
+        "li-bai",
+        "du-fu",
+        "wang-wei"
+      ],
+      "events": [
+        "tang-kaiyuan",
+        "tang-tianbao",
+        "tang-maiwu"
+      ]
+    },
+    {
+      "id": "zhongwan",
+      "name": "中晚唐的裂痕",
+      "from": 760,
+      "to": 907,
+      "focus": "li-chun",
+      "brief": "元和中兴裴度平藩，牛李党争耗国；黄巢扫荡、朱温篡弑，沙陀李克用与之世仇。唐在藩镇与党争中油尽灯枯。",
+      "people": [
+        "li-chun",
+        "pei-du",
+        "li-kuo",
+        "lu-zhi",
+        "li-bi",
+        "li-de-yu",
+        "niu-seng-ru",
+        "huang-chao",
+        "zhu-wen",
+        "li-ke-yong",
+        "li-chen"
+      ],
+      "events": [
+        "tang-yuanhe",
+        "tang-dang",
+        "tang-huangchao",
+        "tang-wang"
+      ]
+    },
+    {
+      "id": "wen",
+      "name": "诗书与释道",
+      "from": 600,
+      "to": 860,
+      "focus": "li-bai",
+      "brief": "李杜王孟白韩柳刘李，唐诗的青条在此密集；玄奘西行、鉴真东渡、一行测历、颜柳书法、孙思邈医——盛唐气象不只在一君一朝。",
+      "people": [
+        "li-bai",
+        "du-fu",
+        "wang-wei",
+        "meng-hao-ran",
+        "bai-ju-yi",
+        "han-yu",
+        "liu-zong-yuan",
+        "liu-yu-xi",
+        "li-shang-yin",
+        "du-mu",
+        "yan-zhen-qing",
+        "liu-gong-quan",
+        "xuan-zang",
+        "jian-zhen",
+        "hui-neng",
+        "sun-si-miao",
+        "yi-xing",
+        "yan-li-ben"
+      ],
+      "events": [
+        "tang-tianbao",
+        "tang-yuanhe"
+      ]
+    }
+  ]
+}

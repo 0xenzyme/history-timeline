@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "id": "yuan",
+    "title": "元",
+    "subtitle": "从大元一统到红巾易代 · 公元 1215 — 公元 1370",
+    "range": [
+      1200,
+      1370
+    ]
+  },
+  "catalog": {
+    "subtitle": "从大元一统到红巾易代",
+    "region": "cn",
+    "eras": [
+      "yuan"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "chancellor",
+      "name": "名相 · 汉臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "科技 · 文化",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "end",
+      "name": "权臣 · 末世群雄",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "hubilie",
+      "lane": "emperor"
+    },
+    {
+      "id": "cheng-zong",
+      "lane": "emperor"
+    },
+    {
+      "id": "ren-zong",
+      "lane": "emperor"
+    },
+    {
+      "id": "ying-zong",
+      "lane": "emperor"
+    },
+    {
+      "id": "shun-di",
+      "lane": "emperor"
+    },
+    {
+      "id": "cheng-jis-han",
+      "lane": "emperor"
+    },
+    {
+      "id": "haishan",
+      "lane": "emperor"
+    },
+    {
+      "id": "yesun-temur",
+      "lane": "emperor"
+    },
+    {
+      "id": "a-su-ji-ba",
+      "lane": "emperor"
+    },
+    {
+      "id": "tu-tiemuer",
+      "lane": "emperor"
+    },
+    {
+      "id": "he-shila",
+      "lane": "emperor"
+    },
+    {
+      "id": "yi-linzhiban",
+      "lane": "emperor"
+    },
+    {
+      "id": "yelü-chucai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-bingzhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yao-shu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xu-heng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "tuo-tuo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "boyan",
+      "lane": "general"
+    },
+    {
+      "id": "zhang-hongfan",
+      "lane": "general"
+    },
+    {
+      "id": "shi-tianze",
+      "lane": "general"
+    },
+    {
+      "id": "basiba",
+      "lane": "literati"
+    },
+    {
+      "id": "guo-shoujing",
+      "lane": "literati"
+    },
+    {
+      "id": "guan-hanqing",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-shifu",
+      "lane": "literati"
+    },
+    {
+      "id": "zhao-mengfu",
+      "lane": "literati"
+    },
+    {
+      "id": "huang-daopo",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-zhen",
+      "lane": "literati"
+    },
+    {
+      "id": "ahema",
+      "lane": "end"
+    },
+    {
+      "id": "liu-futong",
+      "lane": "end"
+    },
+    {
+      "id": "zhang-shicheng",
+      "lane": "end"
+    },
+    {
+      "id": "chen-youliang",
+      "lane": "end"
+    },
+    {
+      "id": "zhu-yuanzhang",
+      "lane": "end"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 党争",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "hubilie",
+      "target": "yelü-chucai",
+      "type": "ruler-subject",
+      "note": "楚材定中原制度，虽早卒而规制垂后"
+    },
+    {
+      "source": "hubilie",
+      "target": "liu-bingzhong",
+      "type": "ruler-subject",
+      "note": "潜邸谋主，建国号、筑大都皆出其画"
+    },
+    {
+      "source": "liu-bingzhong",
+      "target": "yao-shu",
+      "type": "peer",
+      "note": "同出忽必烈幕府，共倡汉法"
+    },
+    {
+      "source": "yao-shu",
+      "target": "xu-heng",
+      "type": "mentor",
+      "note": "姚枢传程朱之学，许衡承之兴国学"
+    },
+    {
+      "source": "hubilie",
+      "target": "boyan",
+      "type": "ruler-subject",
+      "note": "倚为灭宋统帅，总二十万军下临安"
+    },
+    {
+      "source": "boyan",
+      "target": "zhang-hongfan",
+      "type": "ruler-subject",
+      "note": "弘范为其前部，崖山尽灭南宋"
+    },
+    {
+      "source": "hubilie",
+      "target": "basiba",
+      "type": "ruler-subject",
+      "note": "尊为帝师，命制蒙古新字"
+    },
+    {
+      "source": "hubilie",
+      "target": "ahema",
+      "type": "ruler-subject",
+      "note": "宠任总理财赋，后伏诛"
+    },
+    {
+      "source": "xu-heng",
+      "target": "guo-shoujing",
+      "type": "mentor",
+      "note": "衡荐守敬习历算，遂有大业"
+    },
+    {
+      "source": "shun-di",
+      "target": "tuo-tuo",
+      "type": "ruler-subject",
+      "note": "倚为丞相，更张弊政、修三史"
+    },
+    {
+      "source": "shun-di",
+      "target": "liu-futong",
+      "type": "rival",
+      "since": 1351,
+      "note": "红巾遍起，南北骚然"
+    },
+    {
+      "source": "liu-futong",
+      "target": "zhu-yuanzhang",
+      "type": "peer",
+      "note": "同为红巾系统，朱并其众而独大"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "chen-youliang",
+      "type": "rival",
+      "since": 1360,
+      "note": "鄱阳湖决战，友谅中流矢死"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "zhang-shicheng",
+      "type": "rival",
+      "since": 1365,
+      "note": "平江围城，士诚被执死"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "shun-di",
+      "type": "rival",
+      "since": 1368,
+      "note": "北伐克大都，元室北遁"
+    },
+    {
+      "source": "cheng-jis-han",
+      "target": "hubilie",
+      "type": "kin",
+      "note": "祖孙，成吉思汗之孙忽必烈嗣位建元"
+    },
+    {
+      "source": "hubilie",
+      "target": "cheng-zong",
+      "type": "kin",
+      "note": "父子，世祖传成宗"
+    },
+    {
+      "source": "cheng-zong",
+      "target": "haishan",
+      "type": "kin",
+      "note": "叔侄，成宗崩无嗣，武宗入继"
+    },
+    {
+      "source": "haishan",
+      "target": "ren-zong",
+      "type": "kin",
+      "note": "兄弟，武宗传弟仁宗（武仁授受）"
+    },
+    {
+      "source": "ren-zong",
+      "target": "ying-zong",
+      "type": "kin",
+      "note": "父子，仁宗传子英宗"
+    },
+    {
+      "source": "ying-zong",
+      "target": "yesun-temur",
+      "type": "kin",
+      "note": "宗室继统，英宗遇弑，泰定帝立"
+    },
+    {
+      "source": "yesun-temur",
+      "target": "a-su-ji-ba",
+      "type": "kin",
+      "note": "父子，泰定帝传天顺帝"
+    },
+    {
+      "source": "a-su-ji-ba",
+      "target": "tu-tiemuer",
+      "type": "kin",
+      "note": "宗室夺立，文宗废天顺自立"
+    },
+    {
+      "source": "tu-tiemuer",
+      "target": "he-shila",
+      "type": "kin",
+      "note": "兄弟，文宗让位明宗"
+    },
+    {
+      "source": "he-shila",
+      "target": "yi-linzhiban",
+      "type": "kin",
+      "note": "父子，明宗传宁宗"
+    },
+    {
+      "source": "yi-linzhiban",
+      "target": "shun-di",
+      "type": "kin",
+      "note": "兄弟，宁宗崩，顺帝（明宗长子）立"
+    }
+  ],
+  "events": [
+    {
+      "id": "yuan-dingguo",
+      "name": "忽必烈建元 · 定都大都",
+      "kind": "point",
+      "year": 1271,
+      "people": [
+        "hubilie",
+        "liu-bingzhong"
+      ],
+      "desc": "忽必烈取《易经》「大哉乾元」定国号大元，次年营大都（今北京），立中书省、行汉法。"
+    },
+    {
+      "id": "yuan-miesong",
+      "name": "崖山灭宋 · 混一南北",
+      "kind": "point",
+      "year": 1279,
+      "people": [
+        "boyan",
+        "zhang-hongfan",
+        "hubilie"
+      ],
+      "desc": "伯颜下临安，张弘范会师崖山，陆秀夫负幼帝蹈海，南宋亡。元遂统御天下。"
+    },
+    {
+      "id": "yuan-shouli",
+      "name": "八思巴字颁行",
+      "kind": "point",
+      "year": 1269,
+      "people": [
+        "basiba",
+        "hubilie"
+      ],
+      "desc": "帝师八思巴制蒙古新字（八思巴文）颁行，与汉字并行，领宣政院掌天下释教及吐蕃。"
+    },
+    {
+      "id": "yuan-shoushi",
+      "name": "郭守敬 · 授时历",
+      "kind": "point",
+      "year": 1281,
+      "people": [
+        "guo-shoujing",
+        "xu-heng"
+      ],
+      "desc": "依四海实测修《授时历》，岁实密近今日，废积年日法，行用三百余年，为古代历法之冠。"
+    },
+    {
+      "id": "yuan-keju",
+      "name": "仁宗复科举",
+      "kind": "point",
+      "year": 1313,
+      "people": [
+        "ren-zong",
+        "xu-heng"
+      ],
+      "desc": "皇庆二年重开科举，专以程朱书义取士，儒生柄用，朱学遂为官学。"
+    },
+    {
+      "id": "yuan-nanpo",
+      "name": "南坡之变",
+      "kind": "point",
+      "year": 1323,
+      "people": [
+        "ying-zong"
+      ],
+      "desc": "英宗锐志更化，铁失等发动政变于南坡，弑帝并拜住，新政中辍。"
+    },
+    {
+      "id": "yuan-ahema",
+      "name": "阿合马被诛",
+      "kind": "point",
+      "year": 1282,
+      "people": [
+        "ahema",
+        "hubilie"
+      ],
+      "desc": "阿合马理财聚敛、民怨沸腾，益都千户王著诈杀之于阙下，世祖乃籍其家。"
+    },
+    {
+      "id": "yuan-hongjin",
+      "name": "红巾军起",
+      "kind": "point",
+      "year": 1351,
+      "people": [
+        "liu-futong",
+        "shun-di"
+      ],
+      "desc": "刘福通奉韩山童播白莲教于颍上，事泄后独举红巾，颍汝徐泗望风响应，元室大震。"
+    },
+    {
+      "id": "yuan-tuotuo",
+      "name": "脱脱更化 · 修三史",
+      "kind": "point",
+      "year": 1340,
+      "people": [
+        "tuo-tuo",
+        "shun-di"
+      ],
+      "desc": "脱脱逐伯颜、复科举、修辽金宋三史，一时称治；后统兵剿红巾，谪死而元事不可为。"
+    },
+    {
+      "id": "yuan-wang",
+      "name": "朱元璋称帝 · 元亡",
+      "kind": "point",
+      "year": 1368,
+      "people": [
+        "zhu-yuanzhang",
+        "shun-di",
+        "chen-youliang",
+        "zhang-shicheng"
+      ],
+      "desc": "朱元璋平陈友谅、张士诚，即皇帝位国号明；同年徐达克大都，顺帝北遁，元祚告终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "元全览",
+      "from": 1200,
+      "to": 1370,
+      "focus": "hubilie",
+      "brief": "忽必烈的条最长，压过成宗以下四帝；刘秉忠、伯颜、郭守敬列于其下，撑起立国与文治。尾段红巾与朱元璋的紫条咬住顺帝，大都一失，国祚收束。"
+    },
+    {
+      "id": "liguo",
+      "name": "立国与灭宋",
+      "from": 1250,
+      "to": 1295,
+      "focus": "hubilie",
+      "brief": "刘秉忠定大都、八思巴制新字、伯颜下临安——忽必烈用汉臣而成混一之功。崖山一役，张弘范收束南宋。",
+      "people": [
+        "hubilie",
+        "liu-bingzhong",
+        "yao-shu",
+        "basiba",
+        "boyan",
+        "zhang-hongfan",
+        "shi-tianze",
+        "ahema"
+      ],
+      "events": [
+        "yuan-dingguo",
+        "yuan-shouli",
+        "yuan-miesong",
+        "yuan-ahema"
+      ]
+    },
+    {
+      "id": "wenzhi",
+      "name": "汉法与文治",
+      "from": 1260,
+      "to": 1340,
+      "focus": "xu-heng",
+      "brief": "姚枢、许衡传程朱于朔漠，郭守敬推历、赵孟頫作画，关王写杂剧、黄道婆易织——多元帝国下的文治与创造。仁宗复科举定朱学官格。",
+      "people": [
+        "yelü-chucai",
+        "liu-bingzhong",
+        "yao-shu",
+        "xu-heng",
+        "guo-shoujing",
+        "guan-hanqing",
+        "wang-shifu",
+        "zhao-mengfu",
+        "huang-daopo",
+        "wang-zhen",
+        "ren-zong"
+      ],
+      "events": [
+        "yuan-shoushi",
+        "yuan-keju"
+      ]
+    },
+    {
+      "id": "moshi",
+      "name": "末世与易代",
+      "from": 1320,
+      "to": 1370,
+      "focus": "shun-di",
+      "brief": "英宗南坡遇弑，脱脱更化而终谪死；红巾一起，刘福通、陈友谅、张士诚并起，朱元璋尽并其众，1368 年克大都，元亡。",
+      "people": [
+        "ying-zong",
+        "shun-di",
+        "tuo-tuo",
+        "liu-futong",
+        "chen-youliang",
+        "zhang-shicheng",
+        "zhu-yuanzhang"
+      ],
+      "events": [
+        "yuan-nanpo",
+        "yuan-tuotuo",
+        "yuan-hongjin",
+        "yuan-wang"
+      ]
+    }
+  ]
+}

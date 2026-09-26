@@ -12,8 +12,8 @@
       <nav class="chapters" id="chapters" aria-label="章节"></nav>
       <div class="search" id="search">
         <label class="sr-only" for="search-input">搜索人物</label>
-        <input id="search-input" type="search" placeholder="搜索人物" autocomplete="off" />
-        <div id="search-results" class="search-results" hidden></div>
+        <input id="search-input" type="search" placeholder="搜索本专题人物" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false" />
+        <div id="search-results" class="search-results" role="listbox" aria-label="人物搜索结果" hidden></div>
       </div>
       <div class="tools">
         <button type="button" id="zoom-out" class="tool icon timeline-only" aria-label="缩小">−</button>
@@ -42,16 +42,27 @@
       </span>
     </div>
 
+    <div id="route-miss" class="route-miss" hidden></div>
+
     <main class="workspace">
-      <section class="stage" id="stage">
+      <section class="stage" id="stage" aria-label="时间轴绘图区">
+        <div id="axis-pin" class="axis-pin" hidden>
+          <svg id="axis-pin-svg" aria-hidden="true"></svg>
+        </div>
         <svg id="chart" role="img" aria-label="历史人物生卒时间轴"></svg>
       </section>
-      <aside class="card" id="card" hidden></aside>
+      <aside class="card" id="card" aria-label="人物详情" aria-live="polite" tabindex="-1" hidden></aside>
     </main>
 
-    <footer class="legendbar" id="legend"></footer>
+    <footer class="legendbar">
+      <details class="legend-details">
+        <summary class="legend-summary">图例</summary>
+        <div id="legend" class="legend-body"></div>
+      </details>
+    </footer>
 
     <div class="tooltip" id="tooltip" hidden></div>
+    <div class="sr-only" id="status" aria-live="polite" aria-atomic="true"></div>
 
     <script type="module" src="/src/main.ts"></script>
   </body>

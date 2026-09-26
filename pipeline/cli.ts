@@ -2,7 +2,7 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { compileAll, toPrettyJson } from './compile';
+import { compileAll, compileSearch, toPrettyJson } from './compile';
 import { lintPipeline } from './lint';
 import { loadPipeline } from './load';
 
@@ -29,6 +29,7 @@ function main(): void {
 
   const files: Array<[string, unknown]> = [
     ['index.json', catalog],
+    ['search.json', compileSearch(topics)],
     ...topics.map((topic) => [`${topic.meta.id}.json`, topic] as [string, unknown]),
   ];
 

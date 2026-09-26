@@ -17,11 +17,6 @@ export function renderLanes(ctx: RenderContext): string {
     parts.push(
       `<line class="lane-sep" x1="${round(layout.plotLeft)}" y1="${round(box.top)}" x2="${round(layout.plotRight)}" y2="${round(box.top)}" />`,
     );
-    for (const row of rows) {
-      parts.push(
-        `<line class="row-guide" x1="${round(layout.plotLeft)}" y1="${round(row.y)}" x2="${round(layout.plotRight)}" y2="${round(row.y)}" />`,
-      );
-    }
   }
   parts.push(
     `<line class="lane-sep" x1="${round(layout.plotLeft)}" y1="${round(layout.plotBottom)}" x2="${round(layout.plotRight)}" y2="${round(layout.plotBottom)}" />`,
@@ -48,8 +43,10 @@ export function renderGutter(ctx: RenderContext): string {
     for (const row of box.rows) {
       if (!ctx.zonePeople.has(row.person.id)) continue;
       const hot = ctx.hoverId === row.person.id || ctx.focusId === row.person.id;
+      // 名字是最重要的导航元素，聚焦时其余名字只轻微退后，不降到 bar 的 0.22
+      const opacity = hot ? 1 : Math.max(0.62, opacityOf(ctx, row.person.id));
       parts.push(
-        `<text class="gutter-name${hot ? ' is-hot' : ''}" data-person="${esc(row.person.id)}" x="${layout.plotLeft - 14}" y="${round(row.y + 4)}" text-anchor="end" opacity="${round(opacityOf(ctx, row.person.id))}">${esc(row.person.display)}</text>`,
+        `<text class="gutter-name${hot ? ' is-hot' : ''}" data-person="${esc(row.person.id)}" aria-hidden="true" x="${layout.plotLeft - 14}" y="${round(row.y + 4)}" text-anchor="end" opacity="${round(opacity)}">${esc(row.person.display)}</text>`,
       );
     }
   }

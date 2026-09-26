@@ -38,6 +38,30 @@
   ],
   "people": [
     {
+      "id": "ying-shixi",
+      "name": "嬴师隰",
+      "display": "秦献公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": -362,
+      "deathNote": "《秦本纪》作二十四年卒，《六国年表》作二十三年。今从年表，卒于前 362 年。",
+      "title": "秦君，止从死，徙都栎阳",
+      "bio": "灵公之子，出子被杀后自河西迎立。废人殉，迁都栎阳，东伐复河西。孝公元年那道求贤令里，秦要找回的就是他这一段。生年无载，条只从卒年往回画。",
+      "tags": [
+        "秦国",
+        "变法前夜"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "ying-quliang",
       "name": "嬴渠梁",
       "display": "秦孝公",
@@ -50,7 +74,64 @@
       "tags": [
         "秦国",
         "变法"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-si",
+      "name": "嬴驷",
+      "display": "秦惠文王",
+      "lane": "ruler",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": -356,
+      "death": -311,
+      "birthNote": "《秦本纪》：惠文君三年王冠，正义引《礼记》二十行冠礼。元年为前 337 年，据此推算生于前 356 年前后，史无明载。",
+      "title": "秦王，车裂商鞅，用张仪取河西",
+      "bio": "孝公之子。即位当年车裂商鞅，法存而人亡。用张仪行连横，用司马错灭蜀，丹阳败楚取汉中。条从商鞅之死开始，铺到张仪连横之前。",
+      "tags": [
+        "秦国",
+        "连横"
+      ],
+      "categories": [
+        "monarch",
+        "diplomat"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-dang",
+      "name": "嬴荡",
+      "display": "秦武王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -307,
+      "title": "秦王，四年而绝膑",
+      "bio": "惠文王之子。拔宜阳、通三川，窥周室而与孟说举鼎，绝膑而死。无子，异母弟稷自燕归，是为昭襄王。战国最短的一条秦王条，正好把孝公与昭襄王之间的空档补上。",
+      "tags": [
+        "秦国",
+        "短命"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "tian-yinqi",
@@ -65,7 +146,15 @@
       "tags": [
         "齐国",
         "稷下"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "zhao-yong",
@@ -80,7 +169,39 @@
       "tags": [
         "赵国",
         "胡服骑射"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-huai",
+      "name": "熊槐",
+      "display": "楚怀王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -296,
+      "title": "楚王，绝齐入秦，客死于秦",
+      "bio": "威王之子。张仪许商於六百里，怀王绝齐，丹阳、蓝田两败，失汉中。后入秦被留，卒于秦。屈原的疏与放逐画在他这条的后半，楚的转折也在这一条上。",
+      "tags": [
+        "楚国",
+        "连横"
+      ],
+      "categories": [
+        "monarch",
+        "diplomat"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-zhi",
@@ -95,7 +216,15 @@
       "tags": [
         "燕国",
         "破齐"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
     },
     {
       "id": "ying-ji",
@@ -110,7 +239,84 @@
       "tags": [
         "秦国",
         "长平"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-di",
+      "name": "田地",
+      "display": "齐湣王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -284,
+      "title": "齐王，灭宋后五国伐齐",
+      "bio": "宣王之子。与秦争为东帝，灭宋而诸侯恐惧。燕、秦、韩、魏、赵五国伐齐，乐毅下七十余城，他死于莒。破齐与田单复国两条，都咬在齐国这条的终点上。",
+      "tags": [
+        "齐国",
+        "破齐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-huiwang",
+      "name": "燕惠王",
+      "display": "燕惠王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -272,
+      "title": "燕王，疑乐毅，骑劫代将",
+      "bio": "昭王之子，名不载于《史记》。为太子时与乐毅有隙，即位使骑劫代将，即墨一败，田单复七十城。昭王那条刚断在这里，齐国那条就从这里重新长起来。",
+      "tags": [
+        "燕国",
+        "即墨"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-he",
+      "name": "赵何",
+      "display": "赵惠文王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -266,
+      "title": "赵王，完璧归赵与阏与之战",
+      "bio": "武灵王少子，沙丘之变前已受国。用廉颇、蔺相如、赵奢，阏与挫秦。这是长平之前赵最后一次能与秦正面打。蔺相如的条就贴在他这一段上。",
+      "tags": [
+        "赵国",
+        "长平前"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
     },
     {
       "id": "ying-zheng",
@@ -126,7 +332,65 @@
       "tags": [
         "秦国",
         "统一"
-      ]
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-zhu",
+      "name": "嬴柱",
+      "display": "秦孝文王",
+      "lane": "ruler",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": -302,
+      "death": -250,
+      "birthNote": "《秦本纪》索隐：五十三而立。前 250 年即位，据此推算生于前 302 年前后。",
+      "title": "秦王，除丧即位，三日而卒",
+      "bio": "昭襄王之子，为太子二十年。十月己亥即位，三日辛丑卒。条几乎只剩一个点，却把昭襄王与庄襄王接上——秦在这三年里没有换手。",
+      "tags": [
+        "秦国",
+        "短命"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-zichu",
+      "name": "嬴子楚",
+      "display": "秦庄襄王",
+      "lane": "ruler",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": -281,
+      "death": -247,
+      "birthNote": "《秦本纪》索隐：三十二而立，立三年卒。前 249 年即位，据此推算生于前 281 年前后。",
+      "title": "秦王，灭东周，初置三川郡",
+      "bio": "孝文王之子，吕不韦所立。使蒙骜伐韩魏、定太原，秦界至大梁。条短，但填上昭襄王到政之间最后一段空白，灭东周也画在这一条上。",
+      "tags": [
+        "秦国",
+        "灭周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "shang-yang",
@@ -141,7 +405,15 @@
       "tags": [
         "秦国",
         "变法"
-      ]
+      ],
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "lv-buwei",
@@ -156,7 +428,15 @@
       "tags": [
         "秦国",
         "仲父"
-      ]
+      ],
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "sun-bin",
@@ -170,8 +450,14 @@
       "title": "齐军师，桂陵、马陵破魏",
       "bio": "孙武后世。庞涓刖之，田忌荐于威王。围魏救赵、减灶诱敌。他的条短，全压在威王中期两场战役上。",
       "tags": [
-        "齐国",
-        "兵家"
+        "齐国"
+      ],
+      "categories": [
+        "military-theory"
+      ],
+      "primary": "military-theory",
+      "polity": [
+        "qi"
       ]
     },
     {
@@ -187,7 +473,15 @@
       "tags": [
         "魏国",
         "马陵"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
     },
     {
       "id": "bai-qi",
@@ -202,7 +496,15 @@
       "tags": [
         "秦国",
         "长平"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "lian-po",
@@ -218,7 +520,15 @@
       "tags": [
         "赵国",
         "长平"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
     },
     {
       "id": "yue-yi",
@@ -234,7 +544,15 @@
       "tags": [
         "燕国",
         "破齐"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
     },
     {
       "id": "tian-dan",
@@ -250,7 +568,15 @@
       "tags": [
         "齐国",
         "即墨"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "wang-jian",
@@ -266,7 +592,15 @@
       "tags": [
         "秦国",
         "灭六国"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "zhang-yi",
@@ -282,7 +616,15 @@
       "tags": [
         "秦国",
         "连横"
-      ]
+      ],
+      "categories": [
+        "diplomat"
+      ],
+      "primary": "diplomat",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "su-qin",
@@ -298,7 +640,15 @@
       "tags": [
         "燕国",
         "合纵"
-      ]
+      ],
+      "categories": [
+        "diplomat"
+      ],
+      "primary": "diplomat",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
     },
     {
       "id": "lin-xiangru",
@@ -314,7 +664,15 @@
       "tags": [
         "赵国",
         "完璧归赵"
-      ]
+      ],
+      "categories": [
+        "diplomat"
+      ],
+      "primary": "diplomat",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
     },
     {
       "id": "mengzi",
@@ -331,7 +689,12 @@
         "性善",
         "仁政",
         "亚圣"
-      ]
+      ],
+      "categories": [
+        "scholar",
+        "confucian"
+      ],
+      "primary": "scholar"
     },
     {
       "id": "qu-yuan",
@@ -349,6 +712,13 @@
       "tags": [
         "楚国",
         "离骚"
+      ],
+      "categories": [
+        "scholar"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -366,7 +736,12 @@
         "性恶",
         "礼法",
         "稷下"
-      ]
+      ],
+      "categories": [
+        "scholar",
+        "confucian"
+      ],
+      "primary": "scholar"
     },
     {
       "id": "hanfei",
@@ -380,9 +755,12 @@
       "title": "法家集大成者",
       "bio": "韩国公子，学于荀子。使秦后为李斯所害。其书合法、术、势，为秦政所本。",
       "tags": [
-        "法家",
         "法术势"
-      ]
+      ],
+      "categories": [
+        "legalism"
+      ],
+      "primary": "legalism"
     }
   ],
   "relationTypes": [
@@ -396,7 +774,7 @@
     {
       "id": "mentor",
       "name": "师承",
-      "color": "#2f7ed8",
+      "color": "#1f7f8f",
       "dash": null,
       "directed": true
     },
@@ -417,7 +795,7 @@
     {
       "id": "rival",
       "name": "敌对",
-      "color": "#d0503c",
+      "color": "#922b3a",
       "dash": "6 3",
       "directed": false
     }
@@ -552,16 +930,105 @@
       "note": "悦其书，韩非使秦而死"
     },
     {
+      "source": "ying-shixi",
+      "target": "ying-quliang",
+      "type": "kin",
+      "note": "灵公之子的献公，传位太子渠梁，即孝公"
+    },
+    {
       "source": "ying-quliang",
+      "target": "ying-si",
+      "type": "kin",
+      "note": "孝公卒，太子驷立"
+    },
+    {
+      "source": "ying-si",
+      "target": "ying-dang",
+      "type": "kin",
+      "note": "惠王卒，子荡立"
+    },
+    {
+      "source": "ying-si",
       "target": "ying-ji",
       "type": "kin",
-      "note": "孝公之后数世至昭襄。中间惠文、武王从略"
+      "note": "武王无子，异母弟稷自燕归，是为昭襄王"
     },
     {
       "source": "ying-ji",
+      "target": "ying-zhu",
+      "type": "kin",
+      "note": "昭襄王五十六年卒，子柱立"
+    },
+    {
+      "source": "ying-zhu",
+      "target": "ying-zichu",
+      "type": "kin",
+      "note": "孝文王即位三日而卒，子子楚立"
+    },
+    {
+      "source": "ying-zichu",
       "target": "ying-zheng",
       "type": "kin",
-      "note": "昭襄王之曾孙。庄襄从略，轴上看见的是两代最长的秦王"
+      "note": "庄襄王三年卒，子政立"
+    },
+    {
+      "source": "ying-si",
+      "target": "shang-yang",
+      "type": "rival",
+      "since": -338,
+      "note": "孝公卒，太子立，宗室多怨鞅，车裂以徇"
+    },
+    {
+      "source": "zhang-yi",
+      "target": "xiong-huai",
+      "type": "rival",
+      "since": -313,
+      "note": "许商於六百里，怀王绝齐；丹阳、蓝田两败"
+    },
+    {
+      "source": "qu-yuan",
+      "target": "xiong-huai",
+      "type": "ruler-subject",
+      "note": "怀王左徒，主联齐被疏，放逐江南而投汨罗"
+    },
+    {
+      "source": "zhao-yong",
+      "target": "zhao-he",
+      "type": "kin",
+      "note": "武灵王二十七年传国于少子何，自号主父"
+    },
+    {
+      "source": "lin-xiangru",
+      "target": "zhao-he",
+      "type": "ruler-subject",
+      "since": -283,
+      "note": "完璧归赵、渑池之会，拜上大夫"
+    },
+    {
+      "source": "lian-po",
+      "target": "zhao-he",
+      "type": "ruler-subject",
+      "note": "惠文王之将，负荆请罪时仍与蔺如同列"
+    },
+    {
+      "source": "ji-zhi",
+      "target": "ji-huiwang",
+      "type": "kin",
+      "note": "昭王三十三年卒，子惠王立"
+    },
+    {
+      "source": "yue-yi",
+      "target": "ji-huiwang",
+      "type": "rival",
+      "since": -279,
+      "note": "为太子时已有隙，即位使骑劫代将，乐毅亡走赵"
+    },
+    {
+      "source": "ji-zhi",
+      "target": "tian-di",
+      "type": "rival",
+      "since": -284,
+      "note": "五国伐齐，乐毅下七十余城，湣王死于莒"
     }
   ],
   "events": [
@@ -571,6 +1038,16 @@
       "kind": "point",
       "year": -403,
       "desc": "周威烈王命韩赵魏为诸侯。本专题镜头从这一年打开，人物要再过半个世纪才密起来。"
+    },
+    {
+      "id": "xiangong-li",
+      "name": "献公即位，止从死",
+      "kind": "point",
+      "year": -384,
+      "people": [
+        "ying-shixi"
+      ],
+      "desc": "庶长改迎灵公之子于河西而立。废人殉、城栎阳，秦不再内乱。孝公变法的前奏画在这条之前。"
     },
     {
       "id": "shangyang-bianfa",
@@ -583,6 +1060,17 @@
         "shang-yang"
       ],
       "desc": "两次变法，秦从西陲变成可以东出的国。孝公与商鞅的条在这一段完全重叠。"
+    },
+    {
+      "id": "shangyang-si",
+      "name": "商鞅车裂，秦法存",
+      "kind": "point",
+      "year": -338,
+      "people": [
+        "ying-si",
+        "shang-yang"
+      ],
+      "desc": "孝公卒，太子驷立，宗室多怨鞅，车裂以徇。变法那一段刚收，秦的条就换成惠文王接着往东。"
     },
     {
       "id": "guiling",
@@ -606,6 +1094,18 @@
         "pang-juan"
       ],
       "desc": "减灶诱敌。庞涓的条在这一年截断，孙膑的条也几乎停在此处。"
+    },
+    {
+      "id": "zhangyi-qi-chu",
+      "name": "张仪欺楚，怀王绝齐",
+      "kind": "point",
+      "year": -313,
+      "people": [
+        "zhang-yi",
+        "xiong-huai",
+        "qu-yuan"
+      ],
+      "desc": "许商於六百里。怀王绝齐，次年丹阳、蓝田两败，失汉中。楚的条从这里往下走，屈原的放逐也落在这几年。"
     },
     {
       "id": "hufu",
@@ -633,7 +1133,8 @@
       "kind": "point",
       "year": -283,
       "people": [
-        "lin-xiangru"
+        "lin-xiangru",
+        "zhao-he"
       ],
       "desc": "蔺相如奉璧入秦。文臣条在武将条旁边突然抬起来。"
     },
@@ -645,7 +1146,8 @@
       "people": [
         "ji-zhi",
         "yue-yi",
-        "su-qin"
+        "su-qin",
+        "tian-di"
       ],
       "desc": "燕昭王二十八年，下齐七十余城。昭王条末尾最密的一年。"
     },
@@ -657,9 +1159,10 @@
       "people": [
         "tian-dan",
         "yue-yi",
-        "ji-zhi"
+        "ji-zhi",
+        "ji-huiwang"
       ],
-      "desc": "昭王新卒，骑劫代将。火牛阵复七十城。破齐与复齐叠在燕王条的终点两侧。"
+      "desc": "昭王新卒，惠王使骑劫代将。火牛阵复七十城。破齐与复齐叠在燕王条的终点两侧。"
     },
     {
       "id": "quyuan-si",
@@ -758,8 +1261,8 @@
       "name": "战国全览",
       "from": -400,
       "to": -190,
-      "focus": "ying-zheng",
-      "brief": "左边是孝公与商鞅几乎等长的变法，中间是昭襄王压过六国的长条，右边嬴政十年灭国。诸子和纵横穿在君主条的缝里。"
+      "brief": "秦国这一列现在是连续的：献公止从死、孝公与商鞅几乎等长的变法、惠文王车裂商鞅后接上武王与昭襄王、孝文王三日、庄襄王灭东周，最后收到嬴政。昭襄王仍是最长的一条，压过六国；右边嬴政十年灭国。诸子和纵横穿在君主条的缝里。",
+      "focus": "ying-zheng"
     },
     {
       "id": "bianfa",
@@ -769,7 +1272,9 @@
       "focus": "shang-yang",
       "brief": "商鞅的条几乎全落在孝公在位期内，两人同年截断。齐威王一侧，孙膑与庞涓的短条在桂陵、马陵撞上。",
       "people": [
+        "ying-shixi",
         "ying-quliang",
+        "ying-si",
         "shang-yang",
         "tian-yinqi",
         "sun-bin",
@@ -777,8 +1282,10 @@
         "mengzi"
       ],
       "events": [
+        "xiangong-li",
         "sanjia",
         "shangyang-bianfa",
+        "shangyang-si",
         "guiling",
         "maling",
         "meng-liang"
@@ -794,7 +1301,11 @@
       "people": [
         "ying-ji",
         "zhao-yong",
+        "zhao-he",
         "ji-zhi",
+        "ji-huiwang",
+        "xiong-huai",
+        "tian-di",
         "zhang-yi",
         "su-qin",
         "mengzi",
@@ -804,6 +1315,7 @@
         "lin-xiangru"
       ],
       "events": [
+        "zhangyi-qi-chu",
         "hufu",
         "meng-liang",
         "wanbi",
@@ -828,7 +1340,9 @@
         "wang-jian",
         "hanfei",
         "xunzi",
-        "ying-zheng"
+        "ying-zheng",
+        "ying-zhu",
+        "ying-zichu"
       ],
       "events": [
         "changping",

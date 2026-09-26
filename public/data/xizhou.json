@@ -43,10 +43,17 @@
       "title": "西周夷王之子，共和行政前的周王",
       "bio": "好专利，用荣夷公。国人谤王，召穆公谏而不听，前 841 年出奔于彘。共和十四年死于彘，太子静赖召公得免。",
       "tags": [
-        "周王",
         "国人暴动",
         "专利"
       ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
       "order": 1
     },
     {
@@ -60,9 +67,16 @@
       "title": "西周中兴之王，在位四十六年",
       "bio": "厉王太子。国人暴动时匿于召公家。共和罢，即位。用仲山甫、尹吉甫，史称宣王中兴。即位不行籍田之礼；晚年千亩之战，王师败绩。",
       "tags": [
-        "周王",
         "宣王中兴"
       ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
       "order": 2
     },
     {
@@ -76,9 +90,16 @@
       "title": "西周末代天子",
       "bio": "宣王子。嬖褒姒、用虢石父，废申后与太子宜臼。前 771 年申侯联合犬戎破镐京，死于骊山，西周亡。",
       "tags": [
-        "周王",
         "镐京陷落"
       ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
       "order": 3
     },
     {
@@ -92,9 +113,16 @@
       "title": "幽王太子，东迁后的周天子",
       "bio": "被废的嫡子。申侯和他的条在镐京之年交汇，然后他独自向东延伸——西周专题在洛邑门口停住。",
       "tags": [
-        "周王",
         "平王东迁"
       ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
       "order": 4
     },
     {
@@ -109,9 +137,16 @@
       "title": "召公奭之后，共和行政的关键卿士",
       "bio": "厉王时谏谤，以子代太子静。共和期内与周定公行政。宣王初年仍见其名，是把厉王、宣王两条接上的人。",
       "tags": [
-        "卿士",
         "共和"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "zhou-dinggong",
@@ -125,9 +160,16 @@
       "title": "周公旦之后，共和二相之一",
       "bio": "《史记》记周、召二相行政，号曰共和。《竹书纪年》别作共伯和摄政。本图从《史记》，把他和召穆公画成并列的两条。",
       "tags": [
-        "卿士",
         "共和"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "rui-liangfu",
@@ -141,9 +183,16 @@
       "title": "厉王卿士，谏专利",
       "bio": "厉王近荣夷公、专山泽之利，芮良夫以荣公专利必败为谏。王不听。国人暴动后其人从轴上消失，只留下这一谏。",
       "tags": [
-        "卿士",
         "谏诤"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "zhong-shanfu",
@@ -157,9 +206,16 @@
       "title": "宣王卿士，樊侯",
       "bio": "宣王时补缺、柔远。尹吉甫作《烝民》美之。他的条几乎与宣王中兴重叠，是中兴在卿士泳道上的对应物。",
       "tags": [
-        "卿士",
         "宣王中兴"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "yin-jifu",
@@ -173,9 +229,16 @@
       "title": "宣王太师，伐猃狁",
       "bio": "兮氏，字吉甫。北伐猃狁至于太原，是宣王中兴写在武事上的一条。生卒皆无年表，轴上只看得见这场仗。",
       "tags": [
-        "卿士",
         "伐猃狁"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "guo-shifu",
@@ -189,9 +252,16 @@
       "title": "幽王佞臣",
       "bio": "善谀好利，幽王用之。废嫡立庶的朝局里，他和褒姒同侧。镐京一破，这条短条就停了。",
       "tags": [
-        "卿士",
         "佞臣"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "bo-yangfu",
@@ -207,6 +277,14 @@
       "tags": [
         "太史",
         "三川震"
+      ],
+      "categories": [
+        "qingshi",
+        "historian"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -223,7 +301,15 @@
       "tags": [
         "褒姒",
         "废嫡"
-      ]
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "female"
     },
     {
       "id": "shen-hou",
@@ -239,7 +325,15 @@
       "tags": [
         "申国",
         "犬戎"
-      ]
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-you",
@@ -254,7 +348,15 @@
       "tags": [
         "郑国",
         "始封"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male"
     },
     {
       "id": "bao-gong",
@@ -269,7 +371,15 @@
       "bio": "毛序：暴公为卿士而谮苏公。仅见序文。",
       "tags": [
         "诗序"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "bao-xu",
@@ -284,7 +394,12 @@
       "bio": "国语：褒姁有狱，入女于王，王嬖是女至于为后而生伯服。史记只称褒人有罪。",
       "tags": [
         "褒"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "bo-shi",
@@ -297,9 +412,14 @@
       "deathNote": "卒年不详。仅见竹书幽王六年帅师伐六济之戎，王师败逋。幽王六年当 -776。",
       "title": "幽王时将，伐六济之戎",
       "bio": "竹书幽王六年王命伯士帅师伐六济之戎，王师败逋。史记不见。",
-      "tags": [
-        "将"
-      ]
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "bo-yu",
@@ -314,7 +434,15 @@
       "bio": "武公长子括之子。攻弑懿公而自立。即位十一年，宣王伐鲁杀之，改立孝公。国语谓诸侯从是而不睦。",
       "tags": [
         "鲁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
     },
     {
       "id": "cai-lihou",
@@ -329,7 +457,15 @@
       "bio": "宫侯之子。卒，子武侯立。武侯之时厉王奔彘。与周厉王、齐厉公不是同一人。",
       "tags": [
         "蔡"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cai"
+      ],
+      "gender": "male"
     },
     {
       "id": "cai-wuhou",
@@ -344,7 +480,15 @@
       "bio": "厉侯之子。武侯之时厉王奔彘、共和行政。卒，子夷侯立。",
       "tags": [
         "蔡"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cai"
+      ],
+      "gender": "male"
     },
     {
       "id": "cai-xihou",
@@ -359,7 +503,15 @@
       "bio": "夷侯之子。三十九年犬戎杀幽王，四十八年卒。",
       "tags": [
         "蔡"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cai"
+      ],
+      "gender": "male"
     },
     {
       "id": "cai-yihou",
@@ -374,7 +526,15 @@
       "bio": "武侯之子。十一年周宣王即位，二十八年卒。",
       "tags": [
         "蔡"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cai"
+      ],
+      "gender": "male"
     },
     {
       "id": "cao-daibo",
@@ -389,7 +549,15 @@
       "bio": "幽伯之弟。杀幽伯代立。元年周宣王已立三岁。三十年卒。",
       "tags": [
         "曹"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cao-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "cao-huibo",
@@ -404,6 +572,13 @@
       "bio": "戴伯之子。二十五年犬戎杀幽王，三十六年卒。",
       "tags": [
         "曹"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cao-guo"
       ]
     },
     {
@@ -419,6 +594,13 @@
       "bio": "宫伯之子。二十三年厉王奔彘，三十年卒。",
       "tags": [
         "曹"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cao-guo"
       ]
     },
     {
@@ -434,6 +616,13 @@
       "bio": "夷伯之弟。九年卒，弟戴伯立。",
       "tags": [
         "曹"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "cao-guo"
       ]
     },
     {
@@ -449,7 +638,15 @@
       "bio": "夷公之弟。七年犬戎杀幽王，二十三年卒。",
       "tags": [
         "陈"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chen"
+      ],
+      "gender": "male"
     },
     {
       "id": "chen-shengong",
@@ -464,7 +661,15 @@
       "bio": "孝公之子。当周厉王时。卒，子幽公宁立。",
       "tags": [
         "陈"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chen"
+      ],
+      "gender": "male"
     },
     {
       "id": "chen-wugong",
@@ -479,7 +684,15 @@
       "bio": "釐公之子。十五年卒，子夷公说立。",
       "tags": [
         "陈"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chen"
+      ],
+      "gender": "male"
     },
     {
       "id": "chen-xigong",
@@ -494,7 +707,15 @@
       "bio": "幽公之子。三十六年卒，子武公灵立。",
       "tags": [
         "陈"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chen"
+      ],
+      "gender": "male"
     },
     {
       "id": "chen-yigong",
@@ -509,7 +730,15 @@
       "bio": "武公之子。三年卒，弟平公燮立。",
       "tags": [
         "陈"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chen"
+      ],
+      "gender": "male"
     },
     {
       "id": "chen-yougong",
@@ -524,7 +753,15 @@
       "bio": "慎公之子。十二年厉王奔彘，二十三年卒。",
       "tags": [
         "陈"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chen"
+      ],
+      "gender": "male"
     },
     {
       "id": "cheng-bo-xiufu",
@@ -540,7 +777,15 @@
       "tags": [
         "司马",
         "伐徐"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "du-bo",
@@ -555,7 +800,15 @@
       "bio": "竹书宣王四十三年杀大夫杜伯，其子隰叔出奔晋。国语引《周春秋》谓杀而不辜，射王事只作传说。",
       "tags": [
         "大夫"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "fan-bo",
@@ -570,6 +823,13 @@
       "bio": "《板》序凡伯刺厉王，《瞻卬》《召旻》序凡伯刺幽王。诗本文无其名，只据序立案。",
       "tags": [
         "诗序"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -585,6 +845,13 @@
       "bio": "诗「皇父卿士，番维司徒」。仅见官名，无行事。",
       "tags": [
         "十月之交"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -599,9 +866,16 @@
       "title": "宣王卿士，南征荆蛮",
       "bio": "《采芑》美宣王南征，方叔涖止、其车三千。竹书宣王五年帅师伐荆蛮。",
       "tags": [
-        "卿士",
         "南征"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "feng-wang",
@@ -616,7 +890,15 @@
       "bio": "襄公元年娶缪嬴。史记不著其国、其事。",
       "tags": [
         "秦"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "gong-bo-he",
@@ -632,6 +914,13 @@
       "tags": [
         "共和",
         "异说"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -648,7 +937,12 @@
       "tags": [
         "虢",
         "淮夷"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "guo-han",
@@ -664,7 +958,12 @@
       "tags": [
         "虢",
         "二王并立"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "guo-shu",
@@ -679,7 +978,12 @@
       "bio": "国语史伯：虢叔恃势。与惠王时虢公林父不是同一人。",
       "tags": [
         "虢"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "guo-wengong",
@@ -693,9 +997,16 @@
       "title": "宣王卿士，谏不籍千亩",
       "bio": "宣王不行籍田之礼，虢文公谏不可，王弗听。后来的千亩之败，国语把它和这一谏首尾相应。",
       "tags": [
-        "卿士",
         "籍田"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "han-hou",
@@ -711,7 +1022,15 @@
       "tags": [
         "韩",
         "锡命"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "han-ji",
@@ -725,9 +1044,16 @@
       "title": "韩侯夫人",
       "bio": "《韩奕》韩侯取妻，汾王之甥，蹶父之子韩姞。",
       "tags": [
-        "韩",
-        "后妃"
-      ]
+        "韩"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "female"
     },
     {
       "id": "huang-fu",
@@ -740,9 +1066,14 @@
       "deathNote": "卒年不详。竹书幽王五年「皇父作都于向」，与《十月之交》相发，取此年为可见下限。",
       "title": "宣幽卿士",
       "bio": "《常武》大师皇父从王伐徐；《十月之交》皇父卿士、作都于向。或为一人，或为同氏先后，暂合写。",
-      "tags": [
-        "卿士"
-      ]
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-ao",
@@ -757,7 +1088,15 @@
       "bio": "九年与长子括、少子戏朝周。宣王爱戏，立为鲁太子。武公归而卒，戏立，是为懿公。",
       "tags": [
         "鲁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-bi",
@@ -772,7 +1111,15 @@
       "bio": "献公之子。十四年厉王奔彘、共和行政，二十九年宣王即位。竹书宣王二年鲁慎公薨。",
       "tags": [
         "鲁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-bofu",
@@ -786,9 +1133,16 @@
       "title": "幽王与褒姒之子",
       "bio": "褒姒所生。幽王废申后、去太子宜臼，立伯服为太子。竹书谓犬戎杀王子伯服。",
       "tags": [
-        "王室",
         "废嫡"
-      ]
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-cheng",
@@ -803,7 +1157,15 @@
       "bio": "懿公之弟。宣王杀伯御，樊穆仲谓称肃恭明神，立于夷宫。自是后诸侯多畔王命。",
       "tags": [
         "鲁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-chengshi",
@@ -819,7 +1181,15 @@
       "tags": [
         "晋",
         "曲沃"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-chou",
@@ -835,7 +1205,15 @@
       "tags": [
         "晋",
         "东迁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-ju",
@@ -850,7 +1228,15 @@
       "bio": "厉公之弟，名具。三十二年卒，子真公濞立。真公十四年厉王奔彘。",
       "tags": [
         "鲁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-jutuo",
@@ -865,7 +1251,15 @@
       "bio": "犬戎杀幽王并杀桓公，郑人立掘突。西周只收到始立；娶武姜、生寤生已入春秋。",
       "tags": [
         "郑"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-kuo",
@@ -880,7 +1274,15 @@
       "bio": "武公朝周，宣王废长立幼。括未得立。史记谓伯御为括之子；国语韦注以括为伯御，从史记。",
       "tags": [
         "鲁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-xi",
@@ -895,7 +1297,15 @@
       "bio": "武公少子。宣王爱戏，立为鲁太子。九年，兄括之子伯御与鲁人攻弑懿公。",
       "tags": [
         "鲁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-yijiu-jinghou",
@@ -910,7 +1320,15 @@
       "bio": "名宜臼，与周平王同名不同人。十七年厉王奔彘，十八年卒。",
       "tags": [
         "晋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
     },
     {
       "id": "ji-yuchen",
@@ -924,9 +1342,16 @@
       "title": "携王，虢公翰所立",
       "bio": "幽王子。竹书：申侯等立宜臼于申，虢公翰立王子余臣于携。晋文侯杀余臣于携。史记不载。",
       "tags": [
-        "王室",
         "二王并立"
-      ]
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "jia-bo",
@@ -941,6 +1366,13 @@
       "bio": "诗「家伯维宰」。与作《节南山》的家父是否同氏，未定。",
       "tags": [
         "十月之交"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -956,6 +1388,13 @@
       "bio": "毛序：家父刺幽王。诗有「家父作诵」。与《十月之交》家伯是否同氏，未定。",
       "tags": [
         "诗序"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -970,9 +1409,16 @@
       "title": "晋穆侯夫人",
       "bio": "穆侯四年娶齐女姜氏为夫人。生太子仇、少子成师。",
       "tags": [
-        "晋",
-        "后妃"
-      ]
+        "晋"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "female"
     },
     {
       "id": "jin-muhou",
@@ -987,7 +1433,15 @@
       "bio": "七年伐条生太子仇，十年伐千亩生少子成师。师服已预警适庶名反逆。二十七年卒，弟殇叔自立。",
       "tags": [
         "晋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
     },
     {
       "id": "jin-shangshu",
@@ -1002,6 +1456,13 @@
       "bio": "穆侯卒，弟殇叔自立，太子仇出奔。四年，仇袭杀殇叔而立，是为文侯。",
       "tags": [
         "晋"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin"
       ]
     },
     {
@@ -1017,7 +1478,15 @@
       "bio": "釐侯之子。十一年卒，子穆侯费王立。",
       "tags": [
         "晋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
     },
     {
       "id": "jin-xihou",
@@ -1032,7 +1501,15 @@
       "bio": "靖侯之子。十四年周宣王初立，十八年卒。",
       "tags": [
         "晋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male"
     },
     {
       "id": "ju-shishi",
@@ -1047,6 +1524,13 @@
       "bio": "诗「楀维师氏」。仅见官名。",
       "tags": [
         "十月之交"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1060,9 +1544,14 @@
       "deathNote": "卒年不详。竹书宣王四年命蹶父如韩，取此年为活动下限。",
       "title": "宣王卿士，韩侯妻父",
       "bio": "《韩奕》蹶父孔武，靡国不到。竹书宣王四年命蹶父如韩。与《十月之交》蹶趣马未定为一人。",
-      "tags": [
-        "卿士"
-      ]
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "jue-quma",
@@ -1077,6 +1566,13 @@
       "bio": "诗「蹶维趣马」。与《韩奕》蹶父未定为一人。",
       "tags": [
         "十月之交"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1092,7 +1588,12 @@
       "bio": "国语史伯：郐仲恃险。桓公后来取寄孥之地，即虢、郐。",
       "tags": [
         "郐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "miao-ying",
@@ -1107,7 +1608,15 @@
       "bio": "襄公元年以其为丰王妻。仅此一见。",
       "tags": [
         "秦"
-      ]
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "mou-qugong",
@@ -1122,7 +1631,12 @@
       "bio": "题公之子。当周厉王时，生武公。史记谓杞小微，其事不足称述。",
       "tags": [
         "杞"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "nan-zhong",
@@ -1136,9 +1650,16 @@
       "title": "宣王时将，城朔方",
       "bio": "《出车》王命南仲往城于方，玁狁于夷。《常武》「南仲大祖」或指祖考，未必与出车为一人。",
       "tags": [
-        "将",
         "伐猃狁"
-      ]
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "qi-chenggong",
@@ -1153,7 +1674,15 @@
       "bio": "文公之子。九年卒，子庄公购立。",
       "tags": [
         "齐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "qi-degong",
@@ -1168,7 +1697,12 @@
       "bio": "共公之子。十八年卒。弟桓公姑容已入春秋。",
       "tags": [
         "杞"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "qi-gonggong",
@@ -1183,7 +1717,12 @@
       "bio": "靖公之子。八年卒。",
       "tags": [
         "杞"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "qi-hugong",
@@ -1198,7 +1737,15 @@
       "bio": "哀公之弟，名静。周烹哀公而立之，徙都薄姑。献公袭杀胡公。与周厉王姬胡不是同一人。",
       "tags": [
         "齐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "qi-jinggong",
@@ -1213,7 +1760,12 @@
       "bio": "武公之子。二十三年卒。卒年由竹书武公薨年下推。",
       "tags": [
         "杞"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "qi-ligong",
@@ -1228,7 +1780,15 @@
       "bio": "武公之子。暴虐。胡公子复入齐，齐人杀厉公，胡公子亦战死。齐人立公子赤。",
       "tags": [
         "齐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "qi-wengong",
@@ -1243,7 +1803,15 @@
       "bio": "厉公之子。竹书宣王十二年齐人立公子赤。十二年卒，子成公脱立。",
       "tags": [
         "齐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "qi-wugong-qi",
@@ -1258,7 +1826,12 @@
       "bio": "谋娶公之子。今本竹书厉王二十四年杞武公薨。史记记立四十七年卒，不与竹书强合。",
       "tags": [
         "杞"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "qi-wugong",
@@ -1273,7 +1846,15 @@
       "bio": "献公之子。九年厉王出奔，十年共和，二十四年宣王初立，二十六年卒。",
       "tags": [
         "齐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "qi-xiangong",
@@ -1288,7 +1869,15 @@
       "bio": "哀公同母少弟。袭杀胡公而立，徙都临菑。九年卒。",
       "tags": [
         "齐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "qi-zhuanggong",
@@ -1303,7 +1892,15 @@
       "bio": "成公之子。二十四年犬戎杀幽王。立六十四年卒，西周镜头只收到这一长条。",
       "tags": [
         "齐"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
     },
     {
       "id": "qin-shifu",
@@ -1319,7 +1916,15 @@
       "tags": [
         "秦",
         "西戎"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "qin-xianggong",
@@ -1335,7 +1940,15 @@
       "tags": [
         "秦",
         "始封"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "qin-zhong",
@@ -1351,6 +1964,13 @@
       "tags": [
         "秦",
         "西戎"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
       ]
     },
     {
@@ -1367,7 +1987,15 @@
       "tags": [
         "秦",
         "西戎"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     },
     {
       "id": "reng-shu",
@@ -1382,6 +2010,13 @@
       "bio": "《云汉》序：仍叔美宣王，遇灾而惧、侧身修行。诗本文无「仍叔」二字。",
       "tags": [
         "诗序"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1396,9 +2031,16 @@
       "title": "厉王卿士，好专利",
       "bio": "厉王近之、专山泽之利。芮良夫谏而不听。国人暴动后不见记载。",
       "tags": [
-        "卿士",
         "专利"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "shen-bo",
@@ -1413,7 +2055,12 @@
       "bio": "《崧高》尹吉甫美宣王褒赏申伯，于邑于谢。竹书宣王七年锡申伯命。与幽王时攻周的申侯不自动视为同一人。",
       "tags": [
         "申国"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "shen-hou-nv",
@@ -1427,9 +2074,16 @@
       "title": "幽王后，平王之母",
       "bio": "申侯之女，太子宜臼之母。幽王嬖褒姒，废申后、去太子。废后之后无记载。",
       "tags": [
-        "后妃",
         "废嫡"
-      ]
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "shi-bo",
@@ -1444,7 +2098,16 @@
       "bio": "桓公为司徒，问王室多故逃死何处。史伯劝寄孥与贿于虢、郐。与论三川震的伯阳父不是同一人。",
       "tags": [
         "太史"
-      ]
+      ],
+      "categories": [
+        "qingshi",
+        "historian"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "shi-fu",
@@ -1460,6 +2123,13 @@
       "tags": [
         "晋",
         "谏诤"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1475,7 +2145,15 @@
       "bio": "《节南山》赫赫师尹、尹氏大师，秉国之均。竹书幽王元年锡太师尹氏命，或即此人。",
       "tags": [
         "太师"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "shu-dai",
@@ -1490,6 +2168,13 @@
       "bio": "奄父之子。幽王无道，去周如晋，事晋文侯。赵人由此始章。",
       "tags": [
         "赵"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "zhao"
       ]
     },
     {
@@ -1505,6 +2190,13 @@
       "bio": "熊严次子。熊霜卒后亡，避难于濮。国语作叔熊逃难于濮而蛮。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1518,8 +2210,12 @@
       "deathNote": "卒年不详。仅见《巷伯》，毛序刺幽王，取镐京之年为可见下限。",
       "title": "《巷伯》寺人孟子",
       "bio": "《巷伯》「寺人孟子，作为此诗」。毛序刺幽王。仅见此篇。",
-      "tags": [
-        "诗"
+      "categories": [
+        "poetry"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1535,7 +2231,12 @@
       "bio": "惠公之子。元年卒，子戴公立。",
       "tags": [
         "宋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "song-daigong",
@@ -1550,7 +2251,12 @@
       "bio": "哀公之子。二十九年犬戎杀幽王，三十四年卒。",
       "tags": [
         "宋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "song-huigong",
@@ -1565,7 +2271,12 @@
       "bio": "釐公之子。四年卒，子哀公立。",
       "tags": [
         "宋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "song-xigong",
@@ -1580,7 +2291,12 @@
       "bio": "厉公之子。十七年厉王奔彘，二十八年卒。",
       "tags": [
         "宋"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "su-gong",
@@ -1595,7 +2311,15 @@
       "bio": "毛序：苏公刺暴公也。暴公为卿士而谮苏公。序不系王世。",
       "tags": [
         "诗序"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "wei-gongbo",
@@ -1610,6 +2334,13 @@
       "bio": "釐侯太子。弟和袭攻于墓上，入釐侯羡自杀。与竹书摄政的共伯和不是同一人。",
       "tags": [
         "卫"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "wei-guo"
       ]
     },
     {
@@ -1626,7 +2357,15 @@
       "tags": [
         "卫",
         "平戎"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "wei-qinghou",
@@ -1641,7 +2380,15 @@
       "bio": "贞伯之子。厚赂周夷王，夷王命卫为侯。十二年卒。",
       "tags": [
         "卫"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "wei-xihou",
@@ -1656,7 +2403,15 @@
       "bio": "顷侯之子。十三年厉王奔彘，二十八年宣王立，四十二年卒。太子共伯余立，旋被弟和所攻。",
       "tags": [
         "卫"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male"
     },
     {
       "id": "xi-shu",
@@ -1671,6 +2426,13 @@
       "bio": "竹书宣王四十三年王杀大夫杜伯，其子隰叔出奔晋。",
       "tags": [
         "杜"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1684,9 +2446,14 @@
       "deathNote": "卒年不详。仅见《韩奕》饯韩侯，竹书宣王四年韩侯来朝，取此年为可见下限。",
       "title": "《韩奕》饯韩侯",
       "bio": "《韩奕》显父饯之。或是职名，未必私名。",
-      "tags": [
-        "诗"
-      ]
+      "categories": [
+        "poetry"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "xiong-e",
@@ -1701,6 +2468,13 @@
       "bio": "熊徇之子。九年卒，子熊仪立，是为若敖。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1716,7 +2490,15 @@
       "bio": "熊渠中子。夷王时立为鄂王。熊渠卒，挚红立；卒，其弟弑而代立曰熊延。",
       "tags": [
         "楚"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
     },
     {
       "id": "xiong-kang",
@@ -1731,7 +2513,15 @@
       "bio": "熊渠长子。夷王时立为句亶王。后为熊毋康，蚤死，未接熊渠之位。",
       "tags": [
         "楚"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
     },
     {
       "id": "xiong-qu",
@@ -1746,7 +2536,15 @@
       "bio": "当周夷王之时兴兵至于鄂，立三子为王。及厉王暴虐，熊渠畏伐，亦去其王。",
       "tags": [
         "楚"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
     },
     {
       "id": "xiong-shuang",
@@ -1761,6 +2559,13 @@
       "bio": "熊严长子。六年卒，三弟争立。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1776,6 +2581,13 @@
       "bio": "熊严少子。熊霜卒，少弟季徇立。二十二年卒。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1791,6 +2603,13 @@
       "bio": "挚红之弟。弑而代立，生熊勇。熊勇六年厉王奔彘。与楚熊严不是同一人。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1806,6 +2625,13 @@
       "bio": "熊勇之弟。十年卒。有子四人：伯霜、仲雪、叔堪、季徇。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1821,6 +2647,13 @@
       "bio": "熊咢之子。二十年犬戎杀幽王，二十七年卒。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1836,6 +2669,13 @@
       "bio": "熊延之子。六年周人作乱、厉王奔彘，十年卒，弟熊严为后。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1851,7 +2691,15 @@
       "bio": "熊渠少子。夷王时立为越章王。厉王时熊渠去王，其后不载。",
       "tags": [
         "楚"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
     },
     {
       "id": "xu-nan",
@@ -1867,7 +2715,12 @@
       "tags": [
         "许",
         "东迁"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "gender": "male"
     },
     {
       "id": "yan-fu",
@@ -1883,7 +2736,15 @@
       "tags": [
         "赵",
         "御"
-      ]
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
     },
     {
       "id": "yan-huihou",
@@ -1898,7 +2759,15 @@
       "bio": "当厉王奔彘、共和之时。卒，釐侯立，是岁周宣王初即位。",
       "tags": [
         "燕"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
     },
     {
       "id": "yan-qinghou",
@@ -1913,7 +2782,15 @@
       "bio": "釐侯之子。二十年犬戎杀幽王，二十四年卒。",
       "tags": [
         "燕"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
     },
     {
       "id": "yan-xihou",
@@ -1928,7 +2805,15 @@
       "bio": "惠侯之子。立当宣王初即位，三十六年卒。",
       "tags": [
         "燕"
-      ]
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
     },
     {
       "id": "zhang-zhong",
@@ -1941,8 +2826,12 @@
       "deathNote": "卒年不详。仅见《六月》吉甫燕喜「张仲孝友」，取宣王五年前后为可见下限。",
       "title": "《六月》所称孝友",
       "bio": "《六月》吉甫燕喜，「侯谁在矣？张仲孝友」。仅此一见。",
-      "tags": [
-        "诗"
+      "categories": [
+        "poetry"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1958,6 +2847,13 @@
       "bio": "熊严中子。熊霜卒，三弟争立，仲雪死。",
       "tags": [
         "楚"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ]
     },
     {
@@ -1973,6 +2869,13 @@
       "bio": "诗「仲允膳夫」。仅见官名。",
       "tags": [
         "十月之交"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     },
     {
@@ -1988,6 +2891,13 @@
       "bio": "诗「棸子内史」。仅见官名。",
       "tags": [
         "十月之交"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "primary": "qingshi",
+      "polity": [
+        "zhou"
       ]
     }
   ],
@@ -2016,7 +2926,7 @@
     {
       "id": "rival",
       "name": "敌对",
-      "color": "#d0503c",
+      "color": "#922b3a",
       "dash": "6 3",
       "directed": false
     }
@@ -3320,7 +4230,7 @@
       "from": -890,
       "to": -740,
       "focus": "ji-jing",
-      "brief": "司马迁能逐年记的历史从共和元年开始。厉王的条在前 828 年截住，宣王的条横贯中兴，幽王的条短而止于镐京——三王的长度本身就是西周怎么完的。"
+      "brief": "司马迁能逐年记的历史从共和元年开始。厉王、宣王、幽王只留下卒年，图上是卒年标记，不是可比较的寿命。事件落在共和、中兴和镐京陷落。"
     },
     {
       "id": "gonghe",
@@ -3328,7 +4238,7 @@
       "from": -860,
       "to": -820,
       "focus": "ji-hu",
-      "brief": "国人暴动那年，太子静还是开口的生年条。召穆公、周定公两条停在共和期内：《史记》的二相行政，和《竹书》的共伯和，抢的是同一段空白。",
+      "brief": "国人暴动那年，太子静的生年没有留下。召穆公、周定公的卒年落在共和期内：《史记》的二相行政，和《竹书》的共伯和，抢的是同一段空白。",
       "people": [
         "ji-hu",
         "shao-hu",
@@ -3349,7 +4259,7 @@
       "from": -840,
       "to": -780,
       "focus": "ji-jing",
-      "brief": "宣王的长条里叠着尹吉甫伐猃狁、仲山甫辅政、郑桓公始封。前 789 年千亩之战，王师败绩，中兴的时段带还没画完。",
+      "brief": "宣王只留下卒年。这一窗里是尹吉甫伐猃狁、仲山甫辅政、郑桓公始封。前 789 年千亩之战，王师败绩。",
       "people": [
         "ji-jing",
         "shao-hu",
@@ -3374,7 +4284,7 @@
       "from": -800,
       "to": -740,
       "focus": "ji-gongsheng",
-      "brief": "褒姒、虢石父、申侯挤在幽王短短十年里。前 771 年镐京陷落，郑桓公与幽王同年截断；平王的条继续往东伸，接到春秋。",
+      "brief": "褒姒、虢石父、申侯挤在幽王最后十年的事件上。前 771 年镐京陷落，郑桓公与幽王同年；平王的卒年更晚，东迁接到春秋。",
       "people": [
         "ji-gongsheng",
         "bao-si",

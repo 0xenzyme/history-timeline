@@ -122,6 +122,22 @@ export function validateCatalog(catalog: Catalog): string[] {
   const eraIds = vocabIds(catalog.eras, 'eras', problems);
   const themeIds = vocabIds(catalog.themes, 'themes', problems);
 
+  if (!Array.isArray(catalog.categories) || catalog.categories.length === 0) {
+    problems.push('categories 为空');
+  } else {
+    const seen = new Set<string>();
+    for (const term of catalog.categories) {
+      if (!term?.id) {
+        problems.push('categories 存在缺少 id 的词条');
+        continue;
+      }
+      if (!term.name) problems.push(`categories ${term.id} 缺少 name`);
+      if (typeof term.rank !== 'number') problems.push(`categories ${term.id} 缺少 rank`);
+      if (seen.has(term.id)) problems.push(`categories id 重复：${term.id}`);
+      seen.add(term.id);
+    }
+  }
+
   const ids = new Set<string>();
   const files = new Set<string>();
   for (const item of catalog.topics) {

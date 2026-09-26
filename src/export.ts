@@ -40,8 +40,13 @@ export function exportBasename(parts: string[]): string {
     .join('-');
 }
 
-export async function downloadChart(svg: SVGSVGElement, basename: string, format: 'png' | 'svg'): Promise<void> {
-  const markup = serializeChart(svg);
+export async function downloadChart(
+  svg: SVGSVGElement,
+  basename: string,
+  format: 'png' | 'svg',
+  axis?: SVGSVGElement | null,
+): Promise<void> {
+  const markup = serializeChart(svg, axis);
   if (format === 'svg') {
     triggerDownload(new Blob([markup], { type: 'image/svg+xml;charset=utf-8' }), `${basename}.svg`);
     return;
@@ -70,7 +75,7 @@ export async function downloadChart(svg: SVGSVGElement, basename: string, format
   }
 }
 
-function serializeChart(svg: SVGSVGElement): string {
+function serializeChart(svg: SVGSVGElement, axis?: SVGSVGElement | null): string {
   const clone = svg.cloneNode(true) as SVGSVGElement;
   clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
   const width = svg.getAttribute('width') || String(svg.clientWidth || 1200);
@@ -90,6 +95,12 @@ function serializeChart(svg: SVGSVGElement): string {
   bg.setAttribute('height', '100%');
   bg.setAttribute('fill', PAPER);
   clone.insertBefore(bg, style.nextSibling);
+
+  if (axis && axis.childNodes.length > 0) {
+    for (const node of [...axis.childNodes]) {
+      clone.appendChild(node.cloneNode(true));
+    }
+  }
 
   return `<?xml version="1.0" encoding="UTF-8"?>\n${new XMLSerializer().serializeToString(clone)}`;
 }

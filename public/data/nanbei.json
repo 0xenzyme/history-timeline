@@ -1,0 +1,1061 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "nanbei",
+    "title": "南北朝",
+    "subtitle": "从北魏立国到隋文一统 · 公元 371 — 公元 589",
+    "range": [
+      371,
+      589
+    ]
+  },
+  "lanes": [
+    {
+      "id": "bei",
+      "name": "北朝",
+      "color": "#c0392b"
+    },
+    {
+      "id": "nan",
+      "name": "南朝",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "wen",
+      "name": "文士 · 科学 · 释道",
+      "color": "#1f7f8f"
+    }
+  ],
+  "people": [
+    {
+      "id": "tuoba-gui",
+      "name": "拓跋珪",
+      "display": "道武帝拓跋珪",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 371,
+      "death": 409,
+      "title": "北魏道武帝，复代建魏，定都平城",
+      "bio": "鲜卑拓跋部人，什翼犍之孙，代亡后依独孤部，年十五即代王位，改国号魏。破库莫奚、高车、柔然，与后燕战于参合陂，坑降卒数万。天兴元年定都平城，置百官、定律令、营宫室、劝农耕。晚年好药饵而躁扰，为其子绍所弑，年三十九。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tuoba-tao",
+      "name": "拓跋焘",
+      "display": "太武帝拓跋焘",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 408,
+      "death": 452,
+      "title": "北魏太武帝，统一北方，灭佛",
+      "bio": "鲜卑拓跋部人，明元帝长子。在位连灭夏、北燕、北凉，击柔然、通西域，北方一统。太延中征江南，至瓜步而还，江左震动。太平真君七年诏尽诛沙门、毁诸佛像塔寺，为中国佛教三武之祸之始。正平二年为中常侍宗爱所弑，年四十五。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-hong",
+      "name": "元宏",
+      "display": "孝文帝元宏",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 467,
+      "death": 499,
+      "title": "北魏孝文帝，改汉姓、迁洛阳",
+      "bio": "鲜卑拓跋部人，本姓拓跋，献文帝长子。太和十四年亲政，十七年以南伐为名迁都洛阳，禁胡语胡服，改拓跋为元，定姓族、通婚姻、改制度，鲜卑尽化于汉。又数亲征南齐，不得志而还。太和二十三年崩于谷塘原，年三十三，太子恪立。",
+      "tags": [
+        "北朝",
+        "北魏",
+        "汉化"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-taihou",
+      "name": "冯氏",
+      "display": "文明太后冯氏",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 442,
+      "death": 490,
+      "title": "文明太后，临朝十四年，行均田",
+      "bio": "长乐信都人，北燕冯氏之后，文成帝皇后。献文、孝文两朝临朝听政，前后十四年，诛乙浑、平内难，颁俸禄、行均田、立三长，北魏之制多定于此时。性严明而能得人，尝于宰人进食中得虫，笑而恕之。太和十四年崩，年四十九，谥文明。",
+      "tags": [
+        "北朝",
+        "北魏",
+        "临朝"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "bei"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "cui-hao",
+      "name": "崔浩",
+      "display": "崔浩",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 381,
+      "death": 450,
+      "title": "北魏司徒，谋谟冠一时，国史之狱被诛",
+      "bio": "清河东武城人，崔宏之子，博览经史，历仕三帝，凡军国大计皆先咨而后行。破柔然、灭夏、取北凉，皆与谋。太延五年总史任，直书拓跋旧事，刊石立于衢路，鲜卑诸公见而忿之。太平真君十一年被收，诛于城南，清河崔氏及姻亲尽夷其族，年七十。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "official",
+        "strategist",
+        "gentry"
+      ],
+      "primary": "official",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-daoyuan",
+      "name": "郦道元",
+      "display": "郦道元",
+      "lane": "bei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 527,
+      "title": "《水经注》作者，死于阴盘驿",
+      "bio": "范阳涿鹿人，父范为青州刺史。历任冀州、鲁阳、东荆州刺史，执法清刻，为权豪所惮。好学，历览奇书，以《水经》简略，为之作注四十卷，记水道千二百余，因水以证地，即地以存古，引书四百余种。孝昌三年为关右大使，至阴盘驿亭为萧宝夤所害。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "official",
+        "scholar",
+        "science"
+      ],
+      "primary": "science",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "erzhu-rong",
+      "name": "尔朱荣",
+      "display": "尔朱荣",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 493,
+      "death": 530,
+      "title": "契胡酋帅，河阴之变，为孝庄所杀",
+      "bio": "北秀容契胡人，世为部落酋帅，以讨六镇、破葛荣功至大将军。建义元年胡太后鸩孝明帝，荣举兵入洛，沉太后及幼主于河，杀王公卿士二千余人于河阴，史称河阴之变，北魏之朝士为之一空。永安三年孝庄帝不堪其逼，伏兵明光殿，亲斩荣于御坐前，年三十八。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-xu",
+      "name": "元诩",
+      "display": "孝明帝元诩",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 510,
+      "death": 528,
+      "title": "北魏孝明帝，母后临朝，被鸩而死",
+      "bio": "元恪第二子，母胡充华。五岁即位，太后临朝称制，政事一委之。正光以后六镇、关陇、河北并起，朝纲日坏。武泰元年帝年十九，与太后嫌隙日深，密诏尔朱荣举兵，谋泄，为太后所鸩。荣遂入洛，河阴之变随之，北魏名存实亡。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-huan",
+      "name": "高欢",
+      "display": "高欢",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 496,
+      "death": 547,
+      "title": "东魏权臣，北齐之基，玉壁折戟",
+      "bio": "渤海蓨人，本出怀朔镇兵户。从尔朱荣，后得六镇余众，讨灭尔朱氏，立孝静帝，迁都邺，自居晋阳，东魏政皆出之。天平四年围玉壁，攻城五十余日，士卒死者七万，疾作而退。武定五年卒于晋阳，年五十二，子澄、洋相继，遂建北齐。",
+      "tags": [
+        "北朝",
+        "东魏",
+        "北齐之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuwen-tai",
+      "name": "宇文泰",
+      "display": "宇文泰",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 507,
+      "death": 556,
+      "title": "西魏权臣，府兵之制，北周之基",
+      "bio": "代武川鲜卑人，随父肱徙武川。从贺拔岳入关，岳死，遂统其众，奉孝武帝西迁长安，是为西魏。用苏绰定官制、行均田，创府兵之制，置八柱国十二大将军，关陇集团由此成形。大统十七年北巡至牵屯山而疾，卒于云阳，年五十，子觉篡魏建周。",
+      "tags": [
+        "北朝",
+        "西魏",
+        "北周之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuwen-yong",
+      "name": "宇文邕",
+      "display": "周武帝宇文邕",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 543,
+      "death": 578,
+      "title": "北周武帝，诛宇文护，灭齐灭佛",
+      "bio": "代武川鲜卑人，宇文泰第四子。即位十二年而政在宇文护，建德元年含元殿诛之，始亲政。建德三年诏断佛道二教，悉毁经像，僧道并令还俗，号为三武之祸之一。六年灭北齐，北方再一统。宣政元年亲伐突厥，至云阳宫不豫而崩，年三十六。",
+      "tags": [
+        "北朝",
+        "北周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hulv-guang",
+      "name": "斛律光",
+      "display": "斛律光",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 515,
+      "death": 572,
+      "title": "北齐左丞相，落雕都督，被谮族诛",
+      "bio": "朔州敕勒部人，斛律金之子。少工骑射，射一雕而落，号为落雕都督。为将三十年，与北周战未尝败，邙山、宜阳皆大破之。律令严而士卒争为致死。武平三年为祖珽所谮，召入凉风堂，刘桃枝自后扑杀之，年五十八，一门皆死。后主既杀光，齐遂亡。",
+      "tags": [
+        "北朝",
+        "北齐"
+      ],
+      "categories": [
+        "official",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-changgong",
+      "name": "高长恭",
+      "display": "兰陵王高长恭",
+      "lane": "bei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 573,
+      "title": "兰陵王，邙山破周军，饮鸩而死",
+      "bio": "渤海蓨人，高澄第四子，封兰陵王。貌柔心壮，音容兼美，常著假面对敌。河清三年邙山之战，以五百骑突入周军，至金墉城下，免胄示面，城中乃出兵夹击，周师大败，武士作《兰陵王入阵曲》歌之。后主忌其威声，武平四年遣使赐鸩，曰「我忠以事上，何辜于天」，遂饮药而卒。",
+      "tags": [
+        "北朝",
+        "北齐"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "su-chuo",
+      "name": "苏绰",
+      "display": "苏绰",
+      "lane": "bei",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 498,
+      "death": 546,
+      "title": "西魏度支尚书，六条诏书与朱出墨入",
+      "bio": "武功人，少好学，博览群书，尤善算术。宇文泰问以天地造化之始、历代兴亡之迹，应对如流，遂为大行台左丞。定文案程式、朱出墨入之法及计帐、户籍之制，作六条诏书：先治心、敦教化、尽地利、擢贤良、恤狱讼、均赋役，为西魏立国之纲。大统十二年卒，年四十九。",
+      "tags": [
+        "北朝",
+        "西魏",
+        "制度"
+      ],
+      "categories": [
+        "official",
+        "scholar"
+      ],
+      "primary": "official",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yu",
+      "name": "刘裕",
+      "display": "宋武帝刘裕",
+      "lane": "nan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 363,
+      "death": 422,
+      "title": "北府将出身，灭南燕后秦，代晋建宋",
+      "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+      "tags": [
+        "东晋",
+        "南朝"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin",
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yilong",
+      "name": "刘义隆",
+      "display": "宋文帝刘义隆",
+      "lane": "nan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 407,
+      "death": 453,
+      "title": "宋文帝，元嘉之治，北伐三败",
+      "bio": "刘裕第三子，义熙十四年封彭城公，元嘉元年即位。在位三十年，劝农桑、轻徭薄赋，江左风俗于斯为美，号元嘉之治。然性好猜忌，檀道济、裴方明皆以疑见杀；三次北伐皆败，元嘉二十七年魏军至瓜步，江左震动。三十年欲废太子，为太子劭所弑，年四十七。",
+      "tags": [
+        "南朝",
+        "刘宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tan-daoji",
+      "name": "檀道济",
+      "display": "檀道济",
+      "lane": "nan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 436,
+      "title": "征南大将军，唱筹量沙，死于自坏长城",
+      "bio": "高平金乡人，世居京口。从刘裕征伐，为前锋，所至望风降。元嘉八年北伐，粮尽而夜唱筹量沙，全军而还，魏人不敢追。进位司空，威名甚重，朝廷疑之。元嘉十三年文帝疾笃，召入见而收付廷尉，诛之，临刑愤怒叱曰「乃坏汝万里长城」。",
+      "tags": [
+        "南朝",
+        "刘宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-daocheng",
+      "name": "萧道成",
+      "display": "齐高帝萧道成",
+      "lane": "nan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 427,
+      "death": 482,
+      "title": "代宋建齐，尚节俭而国祚短",
+      "bio": "东海兰陵人，萧何二十四世孙。宋末以军功至南兖州刺史，平桂阳王之乱，遂执朝政，升明三年受宋顺帝禅，国号齐，改元建元。在位四年，务行节俭，曰「使我治天下十年，当使黄金与土同价」。谥高帝，建元四年崩，年五十六。",
+      "tags": [
+        "南朝",
+        "南齐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-yan",
+      "name": "萧衍",
+      "display": "梁武帝萧衍",
+      "lane": "nan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 464,
+      "death": 549,
+      "title": "梁武帝，在位四十八年，饿死台城",
+      "bio": "南兰陵中都里人，萧顺之之子，与萧道成同族。起兵襄阳，中兴二年受齐和帝禅，改国号梁。在位四十八年，礼佛断酒肉，立国学、修五礼，江左文物之盛，南朝第一。晚年佞佛，侯景之乱起，太清三年台城陷，幽于净居殿，所求不供，忧愤寝疾而崩，年八十六。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-tong",
+      "name": "萧统",
+      "display": "昭明太子萧统",
+      "lane": "nan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 501,
+      "death": 531,
+      "title": "昭明太子，编《文选》三十卷",
+      "bio": "萧衍长子，生而聪睿，三岁受《孝经》《论语》，五岁遍读五经。性宽和，好文学，引纳刘孝绰、刘勰等，集古来诗文为《文选》三十卷，为现存最早的诗文总集。中大通三年以蜡鹅厌祷事父子有嫌，寻薨于东宫，年三十一，谥昭明。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "royal-kin",
+        "literature"
+      ],
+      "primary": "literature",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-ba-xian",
+      "name": "陈霸先",
+      "display": "陈武帝陈霸先",
+      "lane": "nan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 503,
+      "death": 559,
+      "title": "代梁建陈，平侯景而定江左",
+      "bio": "吴兴长城下若里人，初为里司、油库吏，以军功起家。侯景之乱，自始兴起兵赴援，与王僧辩共平建康。承圣四年袭杀僧辩，立敬帝，太平二年受禅，国号陈。在位三年崩，年五十七，南朝最后一个开国之君，江左之地日蹙。",
+      "tags": [
+        "南朝",
+        "南陈"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-shubao",
+      "name": "陈叔宝",
+      "display": "陈后主陈叔宝",
+      "lane": "nan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 553,
+      "death": 604,
+      "title": "陈后主，玉树后庭花，为隋所灭",
+      "bio": "陈顼长子，太建十四年即位。不问政事，与张丽华、孔贵嫔及狎客赋诗，作《玉树后庭花》，君臣酣歌自夕达旦。隋师将渡，犹奏伎行乐。祯明三年韩擒虎入朱雀门，与妃嫔匿于井中，被执送长安。仁寿四年卒，年五十二，南朝至此亡。",
+      "tags": [
+        "南朝",
+        "南陈",
+        "亡国"
+      ],
+      "categories": [
+        "monarch",
+        "falling",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xie-lingyun",
+      "name": "谢灵运",
+      "display": "谢灵运",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 385,
+      "death": 433,
+      "title": "康乐公，山水诗之祖，死于广州",
+      "bio": "陈郡阳夏人，谢玄之孙，袭封康乐公。文章之美，江左莫逮，每有一诗至都，贵贱竞写。好为山泽之游，寻山陟岭，必造幽峻，常著木屐，上山去前齿，下山去后齿。为临川内史，为有司所纠，徙广州，元嘉十年弃市，年四十九。",
+      "tags": [
+        "南朝",
+        "刘宋"
+      ],
+      "categories": [
+        "literature",
+        "poetry"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-yue",
+      "name": "沈约",
+      "display": "沈约",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 441,
+      "death": 513,
+      "title": "尚书令，四声八病，撰《宋书》",
+      "bio": "吴兴武康人，家世仕宦，少孤贫而笃志好学，昼夜不释卷。历仕宋齐梁三朝，为梁开国之佐。作四声谱，以平上去入制韵，遂开永明体。撰《宋书》百卷，又著《晋书》《齐纪》。天监十二年卒，年七十三，谥隐。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "official",
+        "literature",
+        "poetry",
+        "historian"
+      ],
+      "primary": "literature",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-xie",
+      "name": "刘勰",
+      "display": "刘勰",
+      "lane": "wen",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 520,
+      "deathNote": "《梁书》云出家后未期而卒，约在梁普通元年前后（公元 520 年），无确切年份。",
+      "title": "《文心雕龙》作者，昭明太子所重",
+      "bio": "东莞莒人，早孤，笃志好学，家贫不婚娶，依沙门僧祐居定林寺十余年，遂通经论。著《文心雕龙》五十篇，论古今文体与为文之用。书成未为人知，负之候沈约于车前，约读而大重之，常陈诸几案。后出家为僧，改名慧地。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "literature",
+        "buddhism"
+      ],
+      "primary": "literature",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tao-hongjing",
+      "name": "陶弘景",
+      "display": "陶弘景",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 456,
+      "death": 536,
+      "title": "山中宰相，本草与炼丹，道教上清派",
+      "bio": "丹阳秣陵人，十岁得葛洪《神仙传》而昼夜研寻，遂有养生之志。齐高帝引为诸王侍读，永明十年脱朝服挂神武门，隐于句容茅山，立馆自号华阳隐居。梁武帝每有大事辄咨询之，时人谓山中宰相。注《本草经集注》，通医药、炼丹、书法。大同二年卒，年八十一。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "hermit",
+        "daoism",
+        "medicine"
+      ],
+      "primary": "daoism",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zu-chongzhi",
+      "name": "祖冲之",
+      "display": "祖冲之",
+      "lane": "wen",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 429,
+      "death": 500,
+      "title": "历算大家，圆周率与《大明历》",
+      "bio": "范阳遒人。作《大明历》，首次引入岁差，定一回归年之日数，与今测相差仅五十余秒。推圆周率在三点一四一五九二六与二七之间，早于西方近千年。又造指南车、千里船、水碓磨、欹器。大明六年上历而朝议未行，至梁天监中乃用。永元二年卒，年七十二。",
+      "tags": [
+        "南朝"
+      ],
+      "categories": [
+        "science",
+        "astronomy",
+        "craft"
+      ],
+      "primary": "astronomy",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "tuoba-gui",
+      "target": "tuoba-tao",
+      "type": "kin",
+      "note": "祖孙，皆北魏创业之君"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "feng-taihou",
+      "type": "kin",
+      "note": "冯太后临朝，孝文受其教而行汉化"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "cui-hao",
+      "type": "ruler-subject",
+      "note": "崔浩修国史，后以「国史之狱」被诛"
+    },
+    {
+      "source": "erzhu-rong",
+      "target": "yuan-xu",
+      "type": "rival",
+      "note": "河阴之变，沉太后幼主于河"
+    },
+    {
+      "source": "gao-huan",
+      "target": "yuwen-tai",
+      "type": "rival",
+      "note": "高欢东魏、宇文泰西魏，东西对峙"
+    },
+    {
+      "source": "yuwen-tai",
+      "target": "yuwen-yong",
+      "type": "kin",
+      "note": "父子，泰奠北周之基，庸灭齐"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "hulv-guang",
+      "type": "rival",
+      "note": "用反间杀斛律光，周始无惧"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "gao-changgong",
+      "type": "rival",
+      "note": "赐死兰陵王"
+    },
+    {
+      "source": "liu-yu",
+      "target": "liu-yilong",
+      "type": "kin",
+      "note": "祖孙，宋武开基、文皇元嘉"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "tan-daoji",
+      "type": "ruler-subject",
+      "note": "道济为宋名将，枉死而宋边备弱"
+    },
+    {
+      "source": "xiao-daocheng",
+      "target": "xiao-yan",
+      "type": "kin",
+      "note": "同出兰陵萧氏，一建齐一建梁"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "xiao-tong",
+      "type": "kin",
+      "note": "父子，昭明太子编《文选》"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "tao-hongjing",
+      "type": "peer",
+      "note": "山中宰相，朝廷大事辄就谘"
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-shubao",
+      "type": "kin",
+      "note": "祖孙，霸先开陈、后主亡国"
+    },
+    {
+      "source": "shen-yue",
+      "target": "xiao-yan",
+      "type": "ruler-subject",
+      "note": "沈约助梁武禅齐，修《宋书》"
+    },
+    {
+      "source": "liu-xie",
+      "target": "shen-yue",
+      "type": "peer",
+      "note": "《文心雕龙》与《文选》并峙"
+    },
+    {
+      "source": "zu-chongzhi",
+      "target": "liu-yilong",
+      "type": "ruler-subject",
+      "note": "宋时测算圆周率、制大明历"
+    }
+  ],
+  "events": [
+    {
+      "id": "nb-tuoba",
+      "name": "北魏立国",
+      "kind": "point",
+      "year": 386,
+      "people": [
+        "tuoba-gui"
+      ],
+      "desc": "拓跋珪即代王位，改国号魏，迁都平城，开启北朝。"
+    },
+    {
+      "id": "nb-tongyi",
+      "name": "太武统一北方",
+      "kind": "point",
+      "year": 439,
+      "people": [
+        "tuoba-tao"
+      ],
+      "desc": "魏太武帝灭北凉，结束十六国分裂，与南朝宋形成南北对峙。"
+    },
+    {
+      "id": "nb-hanhu",
+      "name": "孝文汉化 · 迁都洛阳",
+      "kind": "point",
+      "year": 493,
+      "people": [
+        "yuan-hong",
+        "feng-taihou"
+      ],
+      "desc": "孝文帝依冯太后遗规，迁都洛阳、禁胡服胡语、改姓元，加速胡汉融合。"
+    },
+    {
+      "id": "nb-heyin",
+      "name": "河阴之变",
+      "kind": "point",
+      "year": 528,
+      "people": [
+        "erzhu-rong",
+        "yuan-xu"
+      ],
+      "desc": "尔朱荣举兵入洛，溺杀灵太后与幼主及朝士二千，北魏元气尽丧。"
+    },
+    {
+      "id": "nb-dongxi",
+      "name": "东西魏分裂",
+      "kind": "point",
+      "year": 534,
+      "people": [
+        "gao-huan",
+        "yuwen-tai"
+      ],
+      "desc": "高欢立孝静帝都邺为东魏，宇文泰立文帝都长安为西魏，北朝一分为二。"
+    },
+    {
+      "id": "nb-yong",
+      "name": "周武帝灭齐",
+      "kind": "point",
+      "year": 577,
+      "people": [
+        "yuwen-yong",
+        "hulv-guang",
+        "gao-changgong"
+      ],
+      "desc": "北周武帝灭北齐，统一北方；次年述佛法、灭佛道，然英年崩，功业付隋。"
+    },
+    {
+      "id": "nb-song",
+      "name": "刘裕建宋",
+      "kind": "point",
+      "year": 420,
+      "people": [
+        "liu-yu"
+      ],
+      "desc": "代晋称帝，南朝始此；元嘉之治为江左小康。"
+    },
+    {
+      "id": "nb-yuanjia",
+      "name": "元嘉北伐",
+      "kind": "point",
+      "year": 450,
+      "people": [
+        "liu-yilong",
+        "tan-daoji"
+      ],
+      "desc": "宋文帝屡北伐无功，魏太武反叩瓜步，江南大扰。道济已先见杀。"
+    },
+    {
+      "id": "nb-xiao",
+      "name": "萧衍建梁",
+      "kind": "point",
+      "year": 502,
+      "people": [
+        "xiao-yan",
+        "shen-yue"
+      ],
+      "desc": "代齐称帝，崇佛兴学；昭明太子编《文选》，南朝文风极盛。"
+    },
+    {
+      "id": "nb-chen",
+      "name": "陈霸先建陈",
+      "kind": "point",
+      "year": 557,
+      "people": [
+        "chen-ba-xian"
+      ],
+      "desc": "平侯景之乱后受梁禅，国号陈，为南朝最后一朝。"
+    },
+    {
+      "id": "nb-chenwang",
+      "name": "后主亡陈",
+      "kind": "point",
+      "year": 589,
+      "people": [
+        "chen-shubao"
+      ],
+      "desc": "隋军渡江，后主与张丽华匿胭脂井被擒，陈亡，南北复归一统。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "南北朝全览",
+      "from": 371,
+      "to": 589,
+      "focus": "tuoba-gui",
+      "brief": "北朝红列自拓跋珪一路到宇文邕灭齐；南朝蓝列从刘裕建宋到陈后主胭脂井。中间文士一簇青条点缀。"
+    },
+    {
+      "id": "bei",
+      "name": "北朝演进",
+      "from": 371,
+      "to": 580,
+      "focus": "yuan-hong",
+      "brief": "太武统一、孝文汉化、河阴之变、东西分裂、周武灭齐——北朝在乱中完成胡汉整合。",
+      "people": [
+        "tuoba-gui",
+        "tuoba-tao",
+        "yuan-hong",
+        "feng-taihou",
+        "cui-hao",
+        "erzhu-rong",
+        "yuan-xu",
+        "gao-huan",
+        "yuwen-tai",
+        "yuwen-yong",
+        "hulv-guang",
+        "gao-changgong",
+        "su-chuo"
+      ],
+      "events": [
+        "nb-tuoba",
+        "nb-tongyi",
+        "nb-hanhu",
+        "nb-heyin",
+        "nb-dongxi",
+        "nb-yong"
+      ]
+    },
+    {
+      "id": "nan",
+      "name": "南朝四代",
+      "from": 400,
+      "to": 589,
+      "focus": "xiao-yan",
+      "brief": "宋武、文皇元嘉，萧齐短暂，梁武四十八年崇佛兴文，陈后主终亡于隋。",
+      "people": [
+        "liu-yu",
+        "liu-yilong",
+        "tan-daoji",
+        "xiao-daocheng",
+        "xiao-yan",
+        "xiao-tong",
+        "chen-ba-xian",
+        "chen-shubao"
+      ],
+      "events": [
+        "nb-song",
+        "nb-yuanjia",
+        "nb-xiao",
+        "nb-chen",
+        "nb-chenwang"
+      ]
+    },
+    {
+      "id": "wen",
+      "name": "文士与格物",
+      "from": 420,
+      "to": 540,
+      "focus": "zu-chongzhi",
+      "brief": "祖冲之算圆周率、制大明历；刘勰《文心雕龙》、沈约《宋书》、萧统《文选》、谢灵运山水诗、陶弘景山中宰相。",
+      "people": [
+        "zu-chongzhi",
+        "liu-xie",
+        "shen-yue",
+        "xiao-tong",
+        "xie-lingyun",
+        "tao-hongjing",
+        "li-daoyuan"
+      ],
+      "events": [
+        "nb-xiao"
+      ]
+    }
+  ]
+}

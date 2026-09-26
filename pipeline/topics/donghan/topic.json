@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "id": "donghan",
+    "title": "东汉",
+    "subtitle": "从光武中兴到党锢黄巾 · 公元前 5 — 公元 234",
+    "range": [
+      -5,
+      234
+    ]
+  },
+  "catalog": {
+    "subtitle": "从光武中兴到党锢黄巾",
+    "region": "cn",
+    "eras": [
+      "eastern-han"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "consort",
+      "name": "后妃 · 外戚",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "scholar",
+      "name": "文臣 · 学者 · 士人",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "武将",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "end",
+      "name": "末世 · 民变",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "liu-xiu",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-zhuang",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-da",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-zhao",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-hu",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-bao",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-bing",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-zuan",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-zhi",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-hong",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-bian",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-xie-xiandi",
+      "lane": "emperor"
+    },
+    {
+      "id": "yin-lihua",
+      "lane": "consort"
+    },
+    {
+      "id": "deng-sui",
+      "lane": "consort"
+    },
+    {
+      "id": "dou-xian",
+      "lane": "consort"
+    },
+    {
+      "id": "liang-ji",
+      "lane": "consort"
+    },
+    {
+      "id": "he-jin",
+      "lane": "consort"
+    },
+    {
+      "id": "deng-yu",
+      "lane": "general"
+    },
+    {
+      "id": "wu-han",
+      "lane": "general"
+    },
+    {
+      "id": "feng-yi",
+      "lane": "general"
+    },
+    {
+      "id": "geng-yan",
+      "lane": "general"
+    },
+    {
+      "id": "ma-yuan",
+      "lane": "general"
+    },
+    {
+      "id": "ban-chao",
+      "lane": "general"
+    },
+    {
+      "id": "huangfu-song",
+      "lane": "general"
+    },
+    {
+      "id": "yang-zhen",
+      "lane": "scholar"
+    },
+    {
+      "id": "ma-rong",
+      "lane": "scholar"
+    },
+    {
+      "id": "ban-gu",
+      "lane": "scholar"
+    },
+    {
+      "id": "ban-zhao",
+      "lane": "scholar"
+    },
+    {
+      "id": "wang-chong",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhang-heng",
+      "lane": "scholar"
+    },
+    {
+      "id": "zheng-xuan",
+      "lane": "scholar"
+    },
+    {
+      "id": "cai-yong",
+      "lane": "scholar"
+    },
+    {
+      "id": "li-gu",
+      "lane": "scholar"
+    },
+    {
+      "id": "li-ying",
+      "lane": "scholar"
+    },
+    {
+      "id": "guo-tai",
+      "lane": "scholar"
+    },
+    {
+      "id": "chen-fan",
+      "lane": "scholar"
+    },
+    {
+      "id": "kong-rong",
+      "lane": "scholar"
+    },
+    {
+      "id": "cai-lun",
+      "lane": "scholar"
+    },
+    {
+      "id": "hua-tuo",
+      "lane": "end"
+    },
+    {
+      "id": "zhang-jiao",
+      "lane": "end"
+    },
+    {
+      "id": "dong-zhuo",
+      "lane": "end"
+    },
+    {
+      "id": "wang-yun",
+      "lane": "end"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xiu",
+      "target": "yin-lihua",
+      "type": "kin",
+      "note": "夫妻，阴后贤德"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "deng-yu",
+      "type": "ruler-subject",
+      "note": "云台首功，帷幄谋臣"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "wu-han",
+      "type": "ruler-subject",
+      "note": "云台将，战功居首"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "feng-yi",
+      "type": "ruler-subject",
+      "note": "云台将，征赤眉"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "geng-yan",
+      "type": "ruler-subject",
+      "note": "云台将，定齐地"
+    },
+    {
+      "source": "liu-xiu",
+      "target": "ma-yuan",
+      "type": "ruler-subject",
+      "since": 35,
+      "note": "马革裹尸，平交趾"
+    },
+    {
+      "source": "liu-zhao",
+      "target": "deng-sui",
+      "type": "kin",
+      "note": "母子，邓后临朝"
+    },
+    {
+      "source": "deng-sui",
+      "target": "liu-hu",
+      "type": "kin",
+      "note": "和帝崩，邓太后立章帝孙祜"
+    },
+    {
+      "source": "liu-hu",
+      "target": "liu-bao",
+      "type": "kin",
+      "note": "安帝子，阎后曾废而复立"
+    },
+    {
+      "source": "liu-bao",
+      "target": "liu-bing",
+      "type": "kin",
+      "note": "顺帝子，在位一年而崩"
+    },
+    {
+      "source": "liang-ji",
+      "target": "liu-zuan",
+      "type": "rival",
+      "note": "质帝目冀为跋扈将军，遂被鸩"
+    },
+    {
+      "source": "liu-zhao",
+      "target": "dou-xian",
+      "type": "kin",
+      "note": "外戚，窦宪擅权"
+    },
+    {
+      "source": "dou-xian",
+      "target": "ban-gu",
+      "type": "ruler-subject",
+      "note": "窦宪佐命，班固为中护军从征"
+    },
+    {
+      "source": "ban-gu",
+      "target": "ban-chao",
+      "type": "kin",
+      "note": "兄弟，一修史一安边"
+    },
+    {
+      "source": "ban-gu",
+      "target": "ban-zhao",
+      "type": "kin",
+      "note": "兄妹，昭续成《汉书》"
+    },
+    {
+      "source": "ma-rong",
+      "target": "zheng-xuan",
+      "type": "mentor",
+      "note": "郑玄从其门人受业"
+    },
+    {
+      "source": "li-ying",
+      "target": "guo-tai",
+      "type": "peer",
+      "note": "党锢名士，太学标榜"
+    },
+    {
+      "source": "li-ying",
+      "target": "chen-fan",
+      "type": "peer",
+      "note": "党人领袖，同遭禁锢"
+    },
+    {
+      "source": "chen-fan",
+      "target": "liu-zhi",
+      "type": "rival",
+      "note": "党锢之祸，蕃等下狱死"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "he-jin",
+      "type": "rival",
+      "note": "何进召卓入京，旋为卓所并"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "liu-bian",
+      "type": "rival",
+      "note": "董卓废少帝辩为弘农王，旋鸩杀"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "liu-xie-xiandi",
+      "type": "ruler-subject",
+      "note": "废辩而立陈留王协"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "wang-yun",
+      "type": "rival",
+      "note": "王允密构吕布诛卓"
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-jiao",
+      "type": "rival",
+      "since": 184,
+      "note": "为左中郎将，破黄巾于长社"
+    },
+    {
+      "source": "liu-hong",
+      "target": "zhang-jiao",
+      "type": "rival",
+      "note": "灵帝时黄巾大起，八州响应"
+    }
+  ],
+  "events": [
+    {
+      "id": "dh-chengdi",
+      "name": "光武称帝，东汉建立",
+      "kind": "point",
+      "year": 25,
+      "people": [
+        "liu-xiu",
+        "deng-yu"
+      ],
+      "desc": "刘秀鄗南称帝，旋定洛阳。先后平赤眉、灭公孙述，天下复归一统，史称光武中兴。"
+    },
+    {
+      "id": "dh-mingdi",
+      "name": "明帝即位 · 佛教东传",
+      "kind": "point",
+      "year": 58,
+      "people": [
+        "liu-zhuang"
+      ],
+      "desc": "永平求法，白马驮经，立白马寺，为佛教入华之始。"
+    },
+    {
+      "id": "dh-banchao",
+      "name": "班超投笔从戎",
+      "kind": "point",
+      "year": 73,
+      "people": [
+        "ban-chao"
+      ],
+      "desc": "率三十六人使西域，纵横三十余年，复通五十余国，官至西域都护。"
+    },
+    {
+      "id": "dh-yanran",
+      "name": "窦宪燕然勒功",
+      "kind": "point",
+      "year": 89,
+      "people": [
+        "dou-xian",
+        "ban-gu"
+      ],
+      "desc": "大破北匈奴于稽落山，登燕然山刻石纪功，匈奴西遁。"
+    },
+    {
+      "id": "dh-cailun",
+      "name": "蔡伦改进造纸",
+      "kind": "point",
+      "year": 105,
+      "people": [
+        "cai-lun"
+      ],
+      "desc": "用树皮、麻头、敝布、渔网为纸，奏上封事，纸张渐代简帛。"
+    },
+    {
+      "id": "dh-zhangheng",
+      "name": "张衡造地动仪",
+      "kind": "point",
+      "year": 132,
+      "people": [
+        "zhang-heng"
+      ],
+      "desc": "作候风地动仪，遥测地震方位；又著《灵宪》论天体。"
+    },
+    {
+      "id": "dh-danggu",
+      "name": "党锢之祸",
+      "kind": "span",
+      "year": 166,
+      "endYear": 184,
+      "people": [
+        "li-ying",
+        "chen-fan",
+        "guo-tai",
+        "liu-zhi"
+      ],
+      "desc": "宦官诬陷士人结党诽谤朝廷，李膺、陈蕃等下狱处死，前后禁锢名士数百人，清流一蹶不振。"
+    },
+    {
+      "id": "dh-huangjin",
+      "name": "黄巾之乱",
+      "kind": "point",
+      "year": 184,
+      "people": [
+        "zhang-jiao",
+        "huangfu-song",
+        "liu-hong"
+      ],
+      "desc": "张角以太平道倡「苍天已死，黄天当立」，八州并起。皇甫嵩、朱儁镇压，乱虽平而州郡兵权渐重。"
+    },
+    {
+      "id": "dh-dongzhuo",
+      "name": "董卓乱政",
+      "kind": "point",
+      "year": 189,
+      "people": [
+        "he-jin",
+        "dong-zhuo",
+        "liu-bian",
+        "liu-xie-xiandi",
+        "wang-yun"
+      ],
+      "desc": "何进召外兵诛宦，反为所杀；董卓入京废立，焚洛阳迁都长安。三年后王允、吕布诛卓，关东已不可收拾。"
+    },
+    {
+      "id": "dh-kongrong",
+      "name": "孔融等名士见戮",
+      "kind": "point",
+      "year": 208,
+      "people": [
+        "kong-rong",
+        "hua-tuo"
+      ],
+      "desc": "曹操杀孔融，华佗亦以触忤见杀。东汉名士气脉至此而尽，天下进入群雄割据。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "东汉全览",
+      "from": -5,
+      "to": 234,
+      "focus": "liu-xiu",
+      "brief": "光武的条起于 -5，横贯开国到明章；下方党锢名士一簇短条被黄巾、董卓截断。整页从云台将的绿条看到末世的紫条。"
+    },
+    {
+      "id": "kaiguo",
+      "name": "光武中兴",
+      "from": -5,
+      "to": 60,
+      "focus": "liu-xiu",
+      "brief": "刘秀的条最长，阴丽华、邓禹、吴汉、耿弇、冯异列于其侧。马援的条从 35 年拜将后才起。",
+      "people": [
+        "liu-xiu",
+        "yin-lihua",
+        "deng-yu",
+        "wu-han",
+        "feng-yi",
+        "geng-yan",
+        "ma-yuan",
+        "liu-zhuang"
+      ],
+      "events": [
+        "dh-chengdi",
+        "dh-mingdi"
+      ]
+    },
+    {
+      "id": "xue-shu",
+      "name": "经学与文史",
+      "from": 20,
+      "to": 130,
+      "focus": "ban-gu",
+      "brief": "班氏兄妹同修《汉书》，张衡造仪、蔡伦造纸、郑玄注经——东汉的学术高峰在这一段密集出现。",
+      "people": [
+        "ban-gu",
+        "ban-chao",
+        "ban-zhao",
+        "zhang-heng",
+        "cai-lun",
+        "ma-rong",
+        "zheng-xuan",
+        "wang-chong"
+      ],
+      "events": [
+        "dh-banchao",
+        "dh-cailun",
+        "dh-zhangheng"
+      ]
+    },
+    {
+      "id": "moshi",
+      "name": "党锢与崩坏",
+      "from": 140,
+      "to": 234,
+      "focus": "li-ying",
+      "brief": "外戚与宦官轮番把持，李膺、陈蕃标榜清流却被禁锢；黄巾点燃大火，董卓进来把洛阳烧掉。",
+      "people": [
+        "liang-ji",
+        "liu-bao",
+        "liu-bing",
+        "liu-zuan",
+        "li-ying",
+        "guo-tai",
+        "chen-fan",
+        "liu-zhi",
+        "liu-hong",
+        "liu-bian",
+        "liu-xie-xiandi",
+        "zhang-jiao",
+        "huangfu-song",
+        "dong-zhuo",
+        "wang-yun",
+        "kong-rong"
+      ],
+      "events": [
+        "dh-danggu",
+        "dh-huangjin",
+        "dh-dongzhuo",
+        "dh-kongrong"
+      ]
+    }
+  ]
+}

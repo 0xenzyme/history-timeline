@@ -20,8 +20,56 @@
       "name": "战国"
     },
     {
+      "id": "qin",
+      "name": "秦"
+    },
+    {
       "id": "western-han",
       "name": "西汉"
+    },
+    {
+      "id": "eastern-han",
+      "name": "东汉"
+    },
+    {
+      "id": "three-kingdoms",
+      "name": "三国"
+    },
+    {
+      "id": "jin",
+      "name": "两晋"
+    },
+    {
+      "id": "sixteen-kingdoms",
+      "name": "十六国"
+    },
+    {
+      "id": "northern-southern",
+      "name": "南北朝"
+    },
+    {
+      "id": "sui",
+      "name": "隋"
+    },
+    {
+      "id": "tang",
+      "name": "唐"
+    },
+    {
+      "id": "song",
+      "name": "宋"
+    },
+    {
+      "id": "yuan",
+      "name": "元"
+    },
+    {
+      "id": "ming",
+      "name": "明"
+    },
+    {
+      "id": "qing",
+      "name": "清"
     }
   ],
   "themes": [
@@ -32,6 +80,248 @@
     {
       "id": "thought",
       "name": "思想"
+    }
+  ],
+  "categories": [
+    {
+      "id": "monarch",
+      "name": "帝王",
+      "rank": 100
+    },
+    {
+      "id": "vassal",
+      "name": "诸侯",
+      "rank": 98
+    },
+    {
+      "id": "hegemon",
+      "name": "霸主",
+      "rank": 95
+    },
+    {
+      "id": "consort",
+      "name": "后妃",
+      "rank": 90
+    },
+    {
+      "id": "royal-kin",
+      "name": "宗室",
+      "rank": 85
+    },
+    {
+      "id": "consort-kin",
+      "name": "外戚",
+      "rank": 80
+    },
+    {
+      "id": "warlord",
+      "name": "群雄",
+      "rank": 75
+    },
+    {
+      "id": "rebel",
+      "name": "民变",
+      "rank": 72
+    },
+    {
+      "id": "regent",
+      "name": "权臣",
+      "rank": 70
+    },
+    {
+      "id": "chancellor",
+      "name": "名相",
+      "rank": 68
+    },
+    {
+      "id": "minister",
+      "name": "名臣",
+      "rank": 66
+    },
+    {
+      "id": "official",
+      "name": "文臣",
+      "rank": 64
+    },
+    {
+      "id": "qingshi",
+      "name": "卿士",
+      "rank": 62
+    },
+    {
+      "id": "strategist",
+      "name": "谋士",
+      "rank": 60
+    },
+    {
+      "id": "diplomat",
+      "name": "纵横 · 外交",
+      "rank": 59
+    },
+    {
+      "id": "general",
+      "name": "名将",
+      "rank": 58
+    },
+    {
+      "id": "explorer",
+      "name": "航海 · 探险",
+      "rank": 56
+    },
+    {
+      "id": "eunuch",
+      "name": "宦官",
+      "rank": 50
+    },
+    {
+      "id": "gentry",
+      "name": "士族",
+      "rank": 48
+    },
+    {
+      "id": "scholar-official",
+      "name": "士人",
+      "rank": 46
+    },
+    {
+      "id": "scholar",
+      "name": "学者",
+      "rank": 44
+    },
+    {
+      "id": "hermit",
+      "name": "隐逸",
+      "rank": 42
+    },
+    {
+      "id": "outsider",
+      "name": "外族",
+      "rank": 40
+    },
+    {
+      "id": "founding",
+      "name": "开国",
+      "rank": 38
+    },
+    {
+      "id": "falling",
+      "name": "末世",
+      "rank": 37
+    },
+    {
+      "id": "literature",
+      "name": "文学",
+      "rank": 36
+    },
+    {
+      "id": "poetry",
+      "name": "诗词",
+      "rank": 34
+    },
+    {
+      "id": "historian",
+      "name": "史学",
+      "rank": 32
+    },
+    {
+      "id": "classics",
+      "name": "经学",
+      "rank": 30
+    },
+    {
+      "id": "neo-confucian",
+      "name": "理学",
+      "rank": 28
+    },
+    {
+      "id": "metaphysics",
+      "name": "玄学",
+      "rank": 26
+    },
+    {
+      "id": "thinker",
+      "name": "思想家",
+      "rank": 25
+    },
+    {
+      "id": "confucian",
+      "name": "儒学",
+      "rank": 24
+    },
+    {
+      "id": "legalism",
+      "name": "法家",
+      "rank": 22
+    },
+    {
+      "id": "huanglao",
+      "name": "黄老",
+      "rank": 20
+    },
+    {
+      "id": "buddhism",
+      "name": "佛教",
+      "rank": 18
+    },
+    {
+      "id": "daoism",
+      "name": "道教",
+      "rank": 16
+    },
+    {
+      "id": "calligraphy",
+      "name": "书法",
+      "rank": 14
+    },
+    {
+      "id": "painting",
+      "name": "绘画",
+      "rank": 12
+    },
+    {
+      "id": "science",
+      "name": "科学",
+      "rank": 10
+    },
+    {
+      "id": "astronomy",
+      "name": "历算 · 天文",
+      "rank": 8
+    },
+    {
+      "id": "medicine",
+      "name": "医学",
+      "rank": 6
+    },
+    {
+      "id": "agronomy",
+      "name": "农学",
+      "rank": 5
+    },
+    {
+      "id": "craft",
+      "name": "工艺 · 技术",
+      "rank": 4
+    },
+    {
+      "id": "military-theory",
+      "name": "兵家",
+      "rank": 3
+    },
+    {
+      "id": "drama",
+      "name": "戏曲",
+      "rank": 2
+    },
+    {
+      "id": "novel",
+      "name": "小说",
+      "rank": 2
+    },
+    {
+      "id": "fangshu",
+      "name": "方术",
+      "rank": 2
     }
   ],
   "topics": [
@@ -75,13 +365,157 @@
       ]
     },
     {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "subtitle": "从一统天下到楚汉相争",
+      "file": "qin.json",
+      "region": "cn",
+      "eras": [
+        "qin"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
       "id": "han",
       "title": "汉代",
-      "subtitle": "从布衣天子到昭宣中兴",
+      "subtitle": "从布衣天子到新莽代汉",
       "file": "han.json",
       "region": "cn",
       "eras": [
         "western-han"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "subtitle": "从光武中兴到党锢黄巾",
+      "file": "donghan.json",
+      "region": "cn",
+      "eras": [
+        "eastern-han"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "subtitle": "群雄逐鹿到三家归晋",
+      "file": "sanguo.json",
+      "region": "cn",
+      "eras": [
+        "three-kingdoms"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "subtitle": "从武灭吴到衣冠南渡",
+      "file": "liangjin.json",
+      "region": "cn",
+      "eras": [
+        "jin",
+        "sixteen-kingdoms"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "subtitle": "从北魏立国到隋文一统",
+      "file": "nanbei.json",
+      "region": "cn",
+      "eras": [
+        "northern-southern"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "sui",
+      "title": "隋",
+      "subtitle": "短暂而深远的一统王朝",
+      "file": "sui.json",
+      "region": "cn",
+      "eras": [
+        "sui"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "tang",
+      "title": "唐",
+      "subtitle": "从贞观到天祐的盛世与裂痕",
+      "file": "tang.json",
+      "region": "cn",
+      "eras": [
+        "tang"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "subtitle": "从陈桥兵变到崖山蹈海",
+      "file": "song.json",
+      "region": "cn",
+      "eras": [
+        "song"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "yuan",
+      "title": "元",
+      "subtitle": "从大元一统到红巾易代",
+      "file": "yuan.json",
+      "region": "cn",
+      "eras": [
+        "yuan"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "ming",
+      "title": "明",
+      "subtitle": "从洪武开国到煤山国殇",
+      "file": "ming.json",
+      "region": "cn",
+      "eras": [
+        "ming"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "qing",
+      "title": "清",
+      "subtitle": "从后金立国到宣统退位",
+      "file": "qing.json",
+      "region": "cn",
+      "eras": [
+        "qing"
       ],
       "themes": [
         "dynasty"

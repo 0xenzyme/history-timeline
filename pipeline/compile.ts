@@ -1,8 +1,22 @@
-import { CONTRACT_VERSION, type Catalog, type Person, type Topic } from '../src/types';
+import { CONTRACT_VERSION, type Catalog, type Person, type SearchRecord, type Topic } from '../src/types';
 import { validateCatalog, validateTopic } from '../src/contract';
 import type { PersonOverlay, PipelineData, RegistryPerson } from './types';
 
-function mergePerson(registry: RegistryPerson, overlay: PersonOverlay): Person {
+/** 未显式指定 primary 时，按词表 rank 取最高的分类作为主分类 */
+export function primaryOf(categories: string[], ranks: Map<string, number>): string | undefined {
+  let best: string | undefined;
+  let bestRank = Number.NEGATIVE_INFINITY;
+  for (const id of categories) {
+    const rank = ranks.get(id) ?? 0;
+    if (rank > bestRank) {
+      bestRank = rank;
+      best = id;
+    }
+  }
+  return best;
+}
+
+function mergePerson(registry: RegistryPerson, overlay: PersonOverlay, ranks: Map<string, number>): Person {
   const person: Person = {
     id: registry.id,
     name: registry.name,
@@ -21,6 +35,13 @@ function mergePerson(registry: RegistryPerson, overlay: PersonOverlay): Person {
   if (bio) person.bio = bio;
   const tags = overlay.tags ?? registry.tags;
   if (tags && tags.length > 0) person.tags = tags;
+  if (registry.categories && registry.categories.length > 0) person.categories = registry.categories;
+  if (registry.primary) person.primary = registry.primary;
+  else if (registry.categories && registry.categories.length > 0) {
+    person.primary = primaryOf(registry.categories, ranks);
+  }
+  if (registry.polity && registry.polity.length > 0) person.polity = registry.polity;
+  if (registry.gender) person.gender = registry.gender;
   if (overlay.order !== undefined) person.order = overlay.order;
   return person;
 }
@@ -29,10 +50,11 @@ export function compileTopic(data: PipelineData, topicId: string): Topic {
   const draft = data.topics.find((item) => item.meta.id === topicId);
   if (!draft) throw new Error(`找不到专题 ${topicId}`);
 
+  const ranks = new Map(data.categories.map((item) => [item.id, item.rank]));
   const people = draft.people.map((overlay) => {
     const registry = data.people.get(overlay.id);
     if (!registry) throw new Error(`专题 ${topicId} 引用了未登记人物 ${overlay.id}`);
-    return mergePerson(registry, overlay);
+    return mergePerson(registry, overlay, ranks);
   });
 
   return {
@@ -53,6 +75,7 @@ export function compileCatalog(data: PipelineData): Catalog {
     regions: data.regions,
     eras: data.eras,
     themes: data.themes,
+    categories: data.categories,
     topics: data.topics.map((draft) => ({
       id: draft.meta.id,
       title: draft.meta.title,
@@ -63,6 +86,33 @@ export function compileCatalog(data: PipelineData): Catalog {
       themes: draft.catalog.themes,
     })),
   };
+}
+
+export function compileSearch(topics: Topic[]): SearchRecord[] {
+  const rows: SearchRecord[] = [];
+  for (const topic of topics) {
+    for (const person of topic.people) {
+      const row: SearchRecord = {
+        id: person.id,
+        name: person.name,
+        display: person.display,
+        birthAccuracy: person.birthAccuracy,
+        deathAccuracy: person.deathAccuracy,
+        topicId: topic.meta.id,
+        topicTitle: topic.meta.title,
+      };
+      if (person.title) row.title = person.title;
+      if (person.tags && person.tags.length > 0) row.tags = person.tags;
+      if (person.categories && person.categories.length > 0) row.categories = person.categories;
+      if (person.primary) row.primary = person.primary;
+      if (person.polity && person.polity.length > 0) row.polity = person.polity;
+      if (person.gender) row.gender = person.gender;
+      if (person.birth !== undefined) row.birth = person.birth;
+      if (person.death !== undefined) row.death = person.death;
+      rows.push(row);
+    }
+  }
+  return rows;
 }
 
 export function compileAll(data: PipelineData): { catalog: Catalog; topics: Topic[] } {
