@@ -16,6 +16,11 @@
       "color": "#c0392b"
     },
     {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "consort",
       "name": "后妃 · 外戚",
       "color": "#c98a3a"
@@ -537,6 +542,53 @@
       "gender": "male"
     },
     {
+      "id": "zhangsun-huanghou",
+      "name": "长孙皇后",
+      "display": "长孙皇后",
+      "lane": "consort",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 601,
+      "death": 636,
+      "title": "文德皇后，贞观十年崩，年三十六",
+      "bio": "长孙晟之女，年十三嫔于太宗。玄武门之变时亲慰将士。太宗即位立为皇后，劝勿以外戚为宰执，疾革仍请留用房玄龄。贞观十年六月崩于立政殿，时年三十六。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "wu-hui-fei",
+      "name": "武惠妃",
+      "display": "武惠妃",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 737,
+      "title": "玄宗惠妃，礼秩视皇后",
+      "bio": "武攸止之女。王皇后废后赐号惠妃，宫中礼秩一同皇后。寿王瑁、盛王琦皆其所出。开元二十五年十二月薨，年四十余，追赠贞顺皇后。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female"
+    },
+    {
       "id": "zhangsun-wu-ji",
       "name": "长孙无忌",
       "display": "长孙无忌",
@@ -899,6 +951,1880 @@
       "gender": "male"
     },
     {
+      "id": "li-yi-fu",
+      "name": "李义府",
+      "display": "李义府",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 666,
+      "title": "乾封元年卒于流所",
+      "bio": "高宗朝为相。乾封元年大赦，长流人不许还，忧愤发疾卒，年五十余。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-wen-guan",
+      "name": "张文瓘",
+      "display": "张文瓘",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 605,
+      "death": 677,
+      "title": "仪凤二年卒，年七十三",
+      "bio": "高宗朝同中书门下三品。仪凤二年卒，年七十三。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-jing-xuan",
+      "name": "李敬玄",
+      "display": "李敬玄",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 615,
+      "death": 682,
+      "title": "永淳元年卒，年六十八",
+      "bio": "高宗朝为相，后贬衡州刺史，迁扬州大都督府长史。永淳元年卒，年六十八。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hao-chu-jun",
+      "name": "郝处俊",
+      "display": "郝处俊",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 607,
+      "death": 681,
+      "title": "开耀元年薨，年七十五",
+      "bio": "高宗朝为相，后迁太子少保。开耀元年薨，年七十五。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-zhi-zhou",
+      "name": "高智周",
+      "display": "高智周",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 602,
+      "death": 683,
+      "title": "永淳二年卒，年八十二",
+      "bio": "高宗朝同中书门下三品，后请致仕。永淳二年十月卒于家，年八十二。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lou-shi-de",
+      "name": "娄师德",
+      "display": "娄师德",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 699,
+      "title": "圣历二年卒",
+      "bio": "武周时为相，仍检校河西营田、天兵军大总管。圣历二年九月卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dou-lu-qin-wang",
+      "name": "豆卢钦望",
+      "display": "豆卢钦望",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 709,
+      "title": "景龙三年卒，年八十余",
+      "bio": "中宗朝为相。景龙三年十一月卒，年八十余。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-an-shi",
+      "name": "韦安石",
+      "display": "韦安石",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 651,
+      "death": 714,
+      "title": "开元二年卒于贬所，年六十四",
+      "bio": "中宗、睿宗朝为相。开元二年贬沔州别驾，既至，愤激而卒，年六十四。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tang-xiu-jing",
+      "name": "唐休璟",
+      "display": "唐休璟",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 627,
+      "death": 712,
+      "title": "延和元年薨，年八十六",
+      "bio": "久在边任，后同凤阁鸾台平章事。延和元年七月薨，年八十六。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-you-qiu",
+      "name": "刘幽求",
+      "display": "刘幽求",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 655,
+      "death": 715,
+      "title": "开元三年卒于道，年六十一",
+      "bio": "先天政变后为相，寻罢，贬杭州、桂阳。开元三年赴桂阳，在道愤恚而卒，年六十一。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-zhi-gu",
+      "name": "魏知古",
+      "display": "魏知古",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 647,
+      "death": 715,
+      "title": "开元三年卒，年六十九",
+      "bio": "开元初为黄门监、紫微令，为姚崇所忌，罢为工部尚书。三年卒，时年六十九。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pei-yao-qing",
+      "name": "裴耀卿",
+      "display": "裴耀卿",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 681,
+      "death": 743,
+      "birthNote": "卒时年六十三。卒年取天宝元年转官的次年，生年随卒年约计。",
+      "deathNote": "旧唐书作天宝元年转左仆射，一岁薨。卒年取转官的次年。",
+      "title": "天宝初卒，年六十三",
+      "bio": "开元中同中书门下平章事，充转运使，二十四年罢知政事。天宝元年转左仆射，一岁薨，年六十三。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "niu-xian-ke",
+      "name": "牛仙客",
+      "display": "牛仙客",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 675,
+      "death": 742,
+      "birthNote": "卒年六十八。卒年依天宝元年改官名、其年七月卒约取，生年随卒年约计。",
+      "deathNote": "旧唐书作天宝中改官名拜左相，其年七月卒。左相之号始於天宝元年。",
+      "title": "天宝元年七月卒，年六十八",
+      "bio": "以河西节度入相，谨身唯诺。天宝中改官名，拜左相，其年七月卒，年六十八。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-jian-su",
+      "name": "韦见素",
+      "display": "韦见素",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 687,
+      "death": 762,
+      "title": "宝应元年卒，年七十六",
+      "bio": "天宝末与杨国忠并相，从玄宗幸蜀。宝应元年十二月卒，年七十六。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-yan-shang",
+      "name": "张延赏",
+      "display": "张延赏",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 727,
+      "death": 787,
+      "title": "贞元三年薨，年六十一",
+      "bio": "德宗朝为相，请减官收怨。贞元三年七月薨，年六十一。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-yu-qing",
+      "name": "郑余庆",
+      "display": "郑余庆",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 746,
+      "death": 820,
+      "title": "元和十五年卒，年七十五",
+      "bio": "德宗、宪宗朝再为相。元和十五年十一月卒，时年七十五。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-huang-shang",
+      "name": "杜黄裳",
+      "display": "杜黄裳",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 739,
+      "death": 808,
+      "title": "元和三年卒，年七十",
+      "bio": "宪宗初为相，主征刘辟、以法度收藩镇。元和二年出为河中节度，明年卒，年七十。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-yuan-heng",
+      "name": "武元衡",
+      "display": "武元衡",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 758,
+      "death": 815,
+      "title": "元和十年六月遇刺，年五十八",
+      "bio": "宪宗朝为相，主征淮西。元和十年六月三日入朝，为盗所害，年五十八。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-zong-ru",
+      "name": "赵宗儒",
+      "display": "赵宗儒",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 746,
+      "death": 832,
+      "title": "大和六年卒，年八十七",
+      "bio": "德宗朝一度为相。大和六年以司空致仕，是岁九月卒，年八十七。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-feng-ji",
+      "name": "李逢吉",
+      "display": "李逢吉",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 758,
+      "death": 835,
+      "title": "大和九年卒，年七十八",
+      "bio": "穆宗朝为相，后出为东都留守。大和九年正月卒，时年七十八。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-chu-hou",
+      "name": "韦处厚",
+      "display": "韦处厚",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 773,
+      "death": 828,
+      "title": "大和二年卒，年五十六",
+      "bio": "文宗初为相。大和二年十二月延英奏对，疾作，归第一夕而卒，年五十六。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-si-fu",
+      "name": "杨嗣复",
+      "display": "杨嗣复",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 783,
+      "death": 848,
+      "title": "大中二年卒，年六十六",
+      "bio": "文宗朝为相，武宗时贬潮州。宣宗征拜吏部尚书，大中二年自潮阳还，至岳州一日而卒，时年六十六。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-shu-da",
+      "name": "陈叔达",
+      "display": "陈叔达",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 635,
+      "title": "贞观九年卒",
+      "bio": "高祖朝为纳言。武德中坐事免，贞观九年卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-gong-ren",
+      "name": "杨恭仁",
+      "display": "杨恭仁",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 639,
+      "title": "贞观十三年卒",
+      "bio": "武德初遥领纳言。后以老病乞骸骨，贞观十三年卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-wen-shi-ji",
+      "name": "宇文士及",
+      "display": "宇文士及",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 642,
+      "title": "贞观十六年卒",
+      "bio": "武德八年权检校侍中。贞观十六年卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-gui",
+      "name": "王珪",
+      "display": "王珪",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 571,
+      "death": 639,
+      "title": "贞观十三年卒，年六十九",
+      "bio": "太宗朝侍中。贞观十三年遇疾，寻卒，年六十九。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ji-xiang",
+      "name": "刘洎",
+      "display": "刘洎",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 645,
+      "title": "贞观十九年赐自尽",
+      "bio": "太宗朝黄门侍郎，参知政事。贞观十九年赐自尽。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-liang-tang",
+      "name": "张亮",
+      "display": "张亮",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 646,
+      "title": "贞观二十年斩于市",
+      "bio": "太宗朝刑部尚书，参豫朝政。贞观二十年斩于市。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-zhou",
+      "name": "马周",
+      "display": "马周",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 601,
+      "death": 648,
+      "title": "贞观二十二年卒，年四十八",
+      "bio": "太宗朝中书令。贞观二十二年卒，年四十八。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-xing-cheng",
+      "name": "张行成",
+      "display": "张行成",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 587,
+      "death": 653,
+      "title": "永徽四年卒，年六十七",
+      "bio": "高宗朝尚书左仆射。永徽四年九月卒于尚书省，年六十七。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-sui-liang",
+      "name": "褚遂良",
+      "display": "褚遂良",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 596,
+      "death": 658,
+      "title": "显庆三年卒官，年六十三",
+      "bio": "太宗朝谏立武后，高宗朝为中书令。显庆二年贬爱州，明年卒官，年六十三。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-yuan",
+      "name": "韩瑗",
+      "display": "韩瑗",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 606,
+      "death": 659,
+      "title": "显庆四年卒官，年五十四",
+      "bio": "高宗朝侍中。显庆二年贬振州，四年卒官，年五十四。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pei-yan",
+      "name": "裴炎",
+      "display": "裴炎",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 684,
+      "title": "光宅元年斩于都亭驿",
+      "bio": "高宗遗诏顾命。光宅元年十月斩于都亭驿。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yi-zhi",
+      "name": "刘祎之",
+      "display": "刘祎之",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 631,
+      "death": 687,
+      "title": "垂拱三年赐死，年五十七",
+      "bio": "武后朝同中书门下三品。垂拱三年赐死于家，年五十七。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-jing-quan",
+      "name": "杜景佺",
+      "display": "杜景佺",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 698,
+      "deathNote": "武后朝凤阁侍郎同平章事。出为并州长史，道病卒。",
+      "title": "圣历中道病卒",
+      "bio": "武后朝凤阁侍郎同平章事。出为并州长史，道病卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-zai-si",
+      "name": "杨再思",
+      "display": "杨再思",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 709,
+      "title": "景龙三年薨",
+      "bio": "中宗朝中书令。景龙三年迁尚书右仆射，其年薨。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-yuan-zhong",
+      "name": "魏元忠",
+      "display": "魏元忠",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 707,
+      "title": "神龙中卒于涪陵，年七十余",
+      "bio": "武后、中宗朝为相。流涪陵，神龙三年卒，年七十余。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-zhi-zhong",
+      "name": "萧至忠",
+      "display": "萧至忠",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 713,
+      "title": "先天二年伏诛",
+      "bio": "中宗朝为相。先天二年与太平公主谋逆，捕而伏诛。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-shuo",
+      "name": "张说",
+      "display": "张说",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 667,
+      "death": 730,
+      "title": "开元十八年薨，年六十四",
+      "bio": "玄宗朝中书令。开元十八年十二月薨，年六十四。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-qian-yao",
+      "name": "源乾曜",
+      "display": "源乾曜",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 731,
+      "title": "开元十九年卒",
+      "bio": "玄宗朝侍中。开元十九年冬卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-yuan-hong",
+      "name": "李元纮",
+      "display": "李元纮",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 733,
+      "title": "开元二十一年卒",
+      "bio": "玄宗朝同平章事。开元二十一年起为太子詹事，旬日而卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cui-yuan",
+      "name": "崔圆",
+      "display": "崔圆",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 705,
+      "death": 768,
+      "title": "大历三年薨，年六十四",
+      "bio": "肃宗朝为相，后节度淮南。大历三年六月薨，年六十四。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-lin",
+      "name": "李麟",
+      "display": "李麟",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 694,
+      "death": 759,
+      "title": "乾元二年卒，年六十六",
+      "bio": "肃宗朝同平章事。乾元二年八月卒，年六十六。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "miao-jin-qing",
+      "name": "苗晋卿",
+      "display": "苗晋卿",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 765,
+      "title": "永泰元年薨",
+      "bio": "肃宗、代宗朝为相。永泰元年四月薨。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-kui",
+      "name": "李揆",
+      "display": "李揆",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 711,
+      "death": 784,
+      "title": "兴元元年卒，年七十四",
+      "bio": "肃宗朝同平章事。兴元元年四月卒，年七十四。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pei-zun-qing",
+      "name": "裴遵庆",
+      "display": "裴遵庆",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 775,
+      "title": "大历十年薨，年九十余",
+      "bio": "代宗朝同平章事。大历十年十月薨于位，年九十余。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-zai",
+      "name": "元载",
+      "display": "元载",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 777,
+      "title": "大历十二年赐自尽",
+      "bio": "代宗朝中书侍郎同平章事。大历十二年三月赐自尽。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-hong-jian",
+      "name": "杜鸿渐",
+      "display": "杜鸿渐",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 769,
+      "title": "大历四年卒",
+      "bio": "代宗朝同平章事。大历四年卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chang-gun",
+      "name": "常衮",
+      "display": "常衮",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 729,
+      "death": 783,
+      "title": "建中四年卒，年五十五",
+      "bio": "代宗朝门下侍郎同平章事。建中四年正月卒，年五十五。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-yan",
+      "name": "杨炎",
+      "display": "杨炎",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 727,
+      "death": 781,
+      "title": "建中二年赐死，年五十五",
+      "bio": "德宗朝同平章事，行两税法。建中二年贬崖州，途中赐死，年五十五。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guan-bo",
+      "name": "关播",
+      "display": "关播",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 719,
+      "death": 797,
+      "title": "贞元十三年卒，年七十九",
+      "bio": "德宗朝同平章事。贞元十三年正月卒，年七十九。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dou-can",
+      "name": "窦参",
+      "display": "窦参",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 733,
+      "death": 792,
+      "title": "贞元八年赐死，年六十",
+      "bio": "德宗朝同平章事。贞元八年贬途赐死，年六十。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jia-dan",
+      "name": "贾耽",
+      "display": "贾耽",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 730,
+      "death": 805,
+      "title": "永贞元年卒，年七十六",
+      "bio": "德宗朝同平章事。永贞元年十月卒，年七十六。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cui-sun",
+      "name": "崔损",
+      "display": "崔损",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 803,
+      "title": "贞元十九年卒",
+      "bio": "德宗朝同平章事。贞元十九年卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-kang",
+      "name": "齐抗",
+      "display": "齐抗",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 740,
+      "death": 804,
+      "title": "贞元二十年卒，年六十五",
+      "bio": "德宗朝同平章事。贞元二十年卒，年六十五。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-ying",
+      "name": "高郢",
+      "display": "高郢",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 740,
+      "death": 811,
+      "title": "元和六年卒，年七十二",
+      "bio": "顺宗、宪宗朝为相。元和六年七月卒，年七十二。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "quan-de-yu",
+      "name": "权德舆",
+      "display": "权德舆",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 759,
+      "death": 818,
+      "title": "元和十三年卒，年六十",
+      "bio": "宪宗朝同平章事。元和十三年八月道卒，年六十。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-ji-fu",
+      "name": "李吉甫",
+      "display": "李吉甫",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 758,
+      "death": 814,
+      "title": "元和九年卒，年五十七",
+      "bio": "宪宗朝中书侍郎同平章事。元和九年冬暴病卒，年五十七。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-guan-zhi",
+      "name": "韦贯之",
+      "display": "韦贯之",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 760,
+      "death": 821,
+      "title": "长庆元年卒，年六十二",
+      "bio": "宪宗朝同平章事。长庆元年卒于东都，年六十二。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cui-qun",
+      "name": "崔群",
+      "display": "崔群",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 772,
+      "death": 832,
+      "title": "大和六年卒，年六十一",
+      "bio": "宪宗朝同平章事。大和六年八月卒，年六十一。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-hong",
+      "name": "韩弘",
+      "display": "韩弘",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 823,
+      "title": "长庆三年卒",
+      "bio": "宣武节度使，元和中入朝为相。长庆三年四月卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-tan",
+      "name": "郑覃",
+      "display": "郑覃",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 842,
+      "title": "会昌二年卒",
+      "bio": "文宗朝同平章事。会昌二年守司徒致仕，卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-yi-xing",
+      "name": "陈夷行",
+      "display": "陈夷行",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 843,
+      "title": "会昌三年卒",
+      "bio": "文宗、武宗朝同平章事。会昌三年卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-duo",
+      "name": "王铎",
+      "display": "王铎",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 884,
+      "title": "中和四年遇害",
+      "bio": "僖宗朝同平章事，督师讨黄巢。中和四年遇害。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-tian",
+      "name": "郑畋",
+      "display": "郑畋",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 824,
+      "death": 882,
+      "title": "中和二年薨，年五十九",
+      "bio": "僖宗朝同平章事。中和二年罢相，薨于郡舍，年五十九。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kong-wei",
+      "name": "孔纬",
+      "display": "孔纬",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 895,
+      "title": "乾宁二年卒",
+      "bio": "昭宗朝同平章事。乾宁二年九月卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-chong-wang",
+      "name": "刘崇望",
+      "display": "刘崇望",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 838,
+      "death": 899,
+      "title": "光化二年卒，年六十二",
+      "bio": "昭宗朝同平章事。光化二年卒，年六十二。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-qi",
+      "name": "郑綮",
+      "display": "郑綮",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 899,
+      "title": "光化二年卒",
+      "bio": "昭宗朝同平章事。光化二年卒。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fang-guan",
+      "name": "房琯",
+      "display": "房琯",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 697,
+      "death": 763,
+      "title": "广德元年卒，年六十七",
+      "bio": "肃宗朝同平章事，主兵陈涛斜。广德元年八月四日卒于阆州，年六十七。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-huang-hou",
+      "name": "韦皇后",
+      "display": "韦皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 710,
+      "title": "唐隆元年为乱兵所杀",
+      "bio": "中宗皇后，临朝摄政。景龙四年临淄王起兵，为乱兵所杀。",
+      "tags": [
+        "唐",
+        "后妃"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "tai-ping-gong-zhu",
+      "name": "太平公主",
+      "display": "太平公主",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 713,
+      "title": "先天二年赐死",
+      "bio": "高宗女，预诛韦后，后谋废玄宗。先天二年七月赐死于家。",
+      "tags": [
+        "唐",
+        "外戚"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhang-huang-hou",
+      "name": "张皇后",
+      "display": "张皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 762,
+      "title": "宝应元年幽崩",
+      "bio": "肃宗皇后，与李辅国争权。宝应元年四月谋立越王，事败幽崩。",
+      "tags": [
+        "唐",
+        "后妃"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhao-de-huang-hou",
+      "name": "王皇后",
+      "display": "昭德皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 786,
+      "title": "贞元二年崩",
+      "bio": "德宗皇后。贞元二年十一月册为皇后，是日崩于两仪殿。",
+      "tags": [
+        "唐",
+        "后妃"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "li-su",
+      "name": "李愬",
+      "display": "李愬",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 773,
+      "death": 821,
+      "title": "长庆元年卒，年四十九",
+      "bio": "李晟之子。元和十二年雪夜入蔡州擒吴元济。长庆元年十月卒于洛阳，年四十九。",
+      "tags": [
+        "唐",
+        "名将"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-yuan-ji",
+      "name": "吴元济",
+      "display": "吴元济",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 783,
+      "death": 817,
+      "title": "元和十二年斩于独柳，年三十五",
+      "bio": "淮西吴少阳之子，据蔡州拒命。元和十二年十一月李愬入蔡，俘至京师斩于独柳，年三十五。",
+      "tags": [
+        "唐",
+        "藩镇"
+      ],
+      "categories": [
+        "rebel",
+        "warlord"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-shi-nan",
+      "name": "虞世南",
+      "display": "虞世南",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 558,
+      "death": 638,
+      "title": "贞观十二年卒，年八十一",
+      "bio": "越州余姚人。太宗朝弘文馆学士，书名与欧阳询并称。贞观十二年卒，年八十一。",
+      "tags": [
+        "唐",
+        "书法"
+      ],
+      "categories": [
+        "calligraphy"
+      ],
+      "primary": "calligraphy",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-mi",
+      "name": "李密",
+      "display": "李密",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 582,
+      "death": 619,
+      "title": "瓦岗之主，据洛口仓，降唐而复叛",
+      "bio": "辽东襄平人，李弼曾孙，少袭蒲山公。大业九年从杨玄感起兵，玄感败，亡命雍丘，后入瓦岗，说翟让取洛口仓，开仓恣民所取，众至数十万，自为魏公。既杀让而部曲离心，为王世充所败，奔唐，复叛，武德二年为盛彦师斩于熊耳山，年三十七。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "sui",
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dou-jian-de",
+      "name": "窦建德",
+      "display": "窦建德",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 573,
+      "death": 621,
+      "title": "夏王，河北义军之主，斩于长安",
+      "bio": "贝州漳南人，世为农，为里长，以侠气闻。大业七年聚众入高鸡泊，渐据河北，自称夏王，都乐寿。不杀士人，所得资财悉分将士，境内劝课农桑，商旅野宿。武德四年虎牢一战，为李世民所擒，斩于长安市，年四十九，河北之人久而不忘。",
+      "tags": [
+        "隋末"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-shichong",
+      "name": "王世充",
+      "display": "王世充",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 621,
+      "title": "郑王，据洛阳，降唐而被杀",
+      "bio": "西域胡人，本姓支，父收随母改嫁王氏，因冒其姓。善傅会，通兵法，尤好诡诈。大业末守洛阳，既败李密，遂废越王侗自立，国号郑。武德四年李世民围洛阳，世充降，流于蜀，为仇人所杀于途中。隋末据中原者为三：密、建德、世充。",
+      "tags": [
+        "隋末"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "li-jing",
       "name": "李靖",
       "display": "李靖",
@@ -925,10 +2851,247 @@
       "gender": "male"
     },
     {
+      "id": "hou-jun-ji",
+      "name": "侯君集",
+      "display": "侯君集",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 643,
+      "title": "灭高昌，承乾事发被斩",
+      "bio": "玄武门之谋，君集之策居多。贞观中副李靖破吐谷浑，后为交河道行军大总管，灭高昌。怨望，与太子承乾通谋。贞观十七年事发，斩于市。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "su-ding-fang",
+      "name": "苏定方",
+      "display": "苏定方",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 592,
+      "death": 667,
+      "title": "擒贺鲁，乾封二年卒",
+      "bio": "冀州武邑人。贞观四年从李靖袭颉利，率二百骑为前锋。显庆中于碎叶水破西突厥沙钵罗可汗贺鲁，俘至京师。乾封二年卒，年七十六。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pei-xing-jian",
+      "name": "裴行俭",
+      "display": "裴行俭",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 619,
+      "death": 682,
+      "title": "金牙道大总管，未行而卒",
+      "bio": "绛州闻喜人。高宗朝掌典选。永淳元年十姓车薄反，诏复为金牙道大总管，率十将军讨之。师未行，其年四月病卒，年六十四。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xue-ren-gui",
+      "name": "薛仁贵",
+      "display": "薛仁贵",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 612,
+      "death": 681,
+      "title": "开耀元年再起，其年病卒",
+      "bio": "绛州龙门人。乾封中援泉男生，破高丽于金山，拔扶余，与李勣会于平壤。开耀元年高宗复起之，击突厥元珍于云州，其年病卒，年七十。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-bi-he-li",
+      "name": "契苾何力",
+      "display": "契苾何力",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 677,
+      "title": "铁勒归唐，仪凤二年卒",
+      "bio": "铁勒莫贺可汗之孙，贞观中率部内属。龙朔、乾封间为辽东道行军大总管，与李勣拔平壤。仪凤二年卒，陪葬昭陵。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "general",
+        "outsider"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "a-shi-na-she-er",
+      "name": "阿史那社尔",
+      "display": "阿史那社尔",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 655,
+      "title": "处罗可汗之子，永徽六年卒",
+      "bio": "突厥处罗可汗子，年十一以智勇称，后率部归唐。高宗时为右卫大将军。永徽四年加镇军大将军，六年卒，陪葬昭陵。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "general",
+        "outsider"
+      ],
+      "primary": "general",
+      "polity": [
+        "tujue",
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-zhong-si",
+      "name": "王忠嗣",
+      "display": "王忠嗣",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 705,
+      "death": 749,
+      "title": "陇右节度，天宝八载暴卒",
+      "bio": "父海宾战死。天宝中为陇右节度，被诬，贬汉阳太守。七载量移汉东郡太守，明年暴卒，年四十五。",
+      "tags": [
+        "唐",
+        "天宝"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-sheng",
+      "name": "李晟",
+      "display": "李晟",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 727,
+      "death": 793,
+      "title": "收长安，贞元九年薨",
+      "bio": "陇右临洮人。德宗奔奉天，晟率孤军收复长安。贞元三年册太尉、中书令，奉朝请。九年八月薨，时年六十七。",
+      "tags": [
+        "唐",
+        "泾师之变"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-sui",
+      "name": "马燧",
+      "display": "马燧",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 726,
+      "death": 795,
+      "title": "与李晟同图凌烟阁",
+      "bio": "汝州郏城人。建中间破田悦。贞元五年与李晟同图凌烟阁。十一年八月薨，时年七十。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hun-jian",
+      "name": "浑瑊",
+      "display": "浑瑊",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 736,
+      "death": 799,
+      "title": "平凉劫盟，仅以身免",
+      "bio": "铁勒浑部。德宗朝与李晟、马燧同被吐蕃忌惮。贞元三年平凉会盟，吐蕃劫盟，单骑得免。十五年十二月二日薨于镇，年六十四。",
+      "tags": [
+        "唐",
+        "吐蕃"
+      ],
+      "categories": [
+        "general",
+        "outsider"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "li-jian-cheng",
       "name": "李建成",
       "display": "隐太子李建成",
-      "lane": "general",
+      "lane": "kin",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
       "birth": 589,
@@ -950,10 +3113,58 @@
       "gender": "male"
     },
     {
+      "id": "li-cheng-qian",
+      "name": "李承乾",
+      "display": "李承乾",
+      "lane": "kin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 619,
+      "death": 645,
+      "title": "太宗长子，贞观十七年废",
+      "bio": "生于承乾殿，因以为名。太宗即位时年八岁，立为皇太子。后与魏王泰争储，连侯君集谋反。贞观十七年齐王祐反，事发，废为庶人，徙黔州。十九年卒于徙所。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-tai",
+      "name": "李泰",
+      "display": "李泰",
+      "lane": "kin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 618,
+      "death": 652,
+      "title": "濮王，与承乾争储",
+      "bio": "太宗第四子，善属文。太宗爱重，与太子承乾各树朋党。承乾废后不得立，徙均州。永徽三年薨于郧乡，年三十五。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "li-yuan-ji",
       "name": "李元吉",
       "display": "巢王李元吉",
-      "lane": "general",
+      "lane": "kin",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
       "birth": 603,
@@ -1166,6 +3377,127 @@
       "gender": "male"
     },
     {
+      "id": "jie-li",
+      "name": "颉利可汗",
+      "display": "颉利可汗",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 634,
+      "title": "东突厥可汗，贞观八年卒",
+      "bio": "启民可汗之子。贞观四年李靖夜袭定襄，张宝相生擒颉利送长安。太宗授右卫大将军。八年卒，国人焚于灞水之东，谥曰荒。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tujue"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "a-shi-na-he-lu",
+      "name": "阿史那贺鲁",
+      "display": "阿史那贺鲁",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 659,
+      "title": "沙钵罗可汗，显庆四年卒",
+      "bio": "西突厥叶护。贞观二十二年内属，授瑶池都督。永徽二年西遁，自号沙钵罗可汗。显庆二年苏定方破之于碎叶，俘至京师。四年卒，葬于颉利墓侧。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tujue"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-cheng-si",
+      "name": "田承嗣",
+      "display": "田承嗣",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 704,
+      "death": 778,
+      "title": "魏博节度，大历十三年卒",
+      "bio": "平州人，世事卢龙军，安史降将。代宗朝据魏、博等七州，不奉诏，朝廷数赦仍赐铁券。大历十三年九月卒，时年七十五，以侄田悦知军事。",
+      "tags": [
+        "唐",
+        "藩镇"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-bao-chen",
+      "name": "李宝臣",
+      "display": "李宝臣",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 718,
+      "death": 781,
+      "title": "成德节度，建中二年卒",
+      "bio": "范阳城旁奚人，安史降将，后赐姓李，据成德。建中初与田悦、李正己同反。二年春卒，时年六十四。",
+      "tags": [
+        "唐",
+        "藩镇"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-zheng-ji",
+      "name": "李正己",
+      "display": "李正己",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 781,
+      "title": "淄青节度，建中二年卒",
+      "bio": "高丽人，本名怀玉，生于平卢。建中初与田悦、梁崇义同反。二年卒，子纳秘不发丧，仍统其众。",
+      "tags": [
+        "唐",
+        "藩镇"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "an-lu-shan",
       "name": "安禄山",
       "display": "安禄山",
@@ -1287,6 +3619,30 @@
         "warlord"
       ],
       "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-shi",
+      "name": "高适",
+      "display": "高适",
+      "lane": "literati",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 765,
+      "title": "边塞诗人，永泰元年卒",
+      "bio": "渤海蓨人。肃宗时继崔光远为成都尹、剑南西川节度使。代宗即位后召还，为刑部侍郎，迁散骑常侍。永泰元年正月卒，谥曰忠。",
+      "tags": [
+        "唐",
+        "诗"
+      ],
+      "categories": [
+        "poetry",
+        "general"
+      ],
+      "primary": "poetry",
       "polity": [
         "tang"
       ],
@@ -2183,6 +4539,606 @@
       "target": "li-chu",
       "type": "kin",
       "note": "父子，昭宗传哀帝"
+    },
+    {
+      "source": "li-shimin",
+      "target": "zhangsun-huanghou",
+      "type": "kin",
+      "note": "文德皇后，贞观十年崩于立政殿"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-cheng-qian",
+      "type": "kin",
+      "note": "长子，贞观十七年废为庶人"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-tai",
+      "type": "kin",
+      "note": "第四子，与承乾争储"
+    },
+    {
+      "source": "li-cheng-qian",
+      "target": "li-tai",
+      "type": "rival",
+      "note": "争储，各树朋党"
+    },
+    {
+      "source": "li-shimin",
+      "target": "hou-jun-ji",
+      "type": "ruler-subject",
+      "note": "灭高昌后又与承乾通谋，十七年被斩"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wu-hui-fei",
+      "type": "kin",
+      "note": "开元宠妃，二十五年十二月薨"
+    },
+    {
+      "source": "li-jing",
+      "target": "su-ding-fang",
+      "type": "ruler-subject",
+      "note": "靖用定方为前锋，夜袭颉利"
+    },
+    {
+      "source": "li-jing",
+      "target": "jie-li",
+      "type": "rival",
+      "note": "贞观四年夜袭定襄，生擒颉利"
+    },
+    {
+      "source": "su-ding-fang",
+      "target": "a-shi-na-he-lu",
+      "type": "rival",
+      "note": "显庆二年破贺鲁于碎叶水"
+    },
+    {
+      "source": "li-zhi",
+      "target": "pei-xing-jian",
+      "type": "ruler-subject",
+      "note": "永淳元年再起为金牙道大总管，未行而卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "xue-ren-gui",
+      "type": "ruler-subject",
+      "note": "开耀元年复起，其年病卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "qi-bi-he-li",
+      "type": "ruler-subject",
+      "note": "与李勣拔平壤，仪凤二年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "a-shi-na-she-er",
+      "type": "ruler-subject",
+      "note": "右卫大将军，永徽六年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wang-zhong-si",
+      "type": "ruler-subject",
+      "note": "天宝中贬汉阳，明年暴卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-sheng",
+      "type": "ruler-subject",
+      "note": "奉天之难收长安，贞元九年薨"
+    },
+    {
+      "source": "li-kuo",
+      "target": "ma-sui",
+      "type": "ruler-subject",
+      "note": "与李晟同图凌烟阁，贞元十一年薨"
+    },
+    {
+      "source": "li-kuo",
+      "target": "hun-jian",
+      "type": "ruler-subject",
+      "note": "平凉劫盟单骑得免，贞元十五年薨"
+    },
+    {
+      "source": "li-yu",
+      "target": "tian-cheng-si",
+      "type": "rival",
+      "note": "大历中魏博不奉诏"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-bao-chen",
+      "type": "rival",
+      "note": "建中初成德同反，二年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-zheng-ji",
+      "type": "rival",
+      "note": "建中二年卒，子纳秘不发丧"
+    },
+    {
+      "source": "li-heng",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "note": "以适代崔光远为西川节度，永泰元年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "li-yi-fu",
+      "type": "ruler-subject",
+      "note": "宰相表载655至659年在任，乾封元年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhang-wen-guan",
+      "type": "ruler-subject",
+      "note": "宰相表载667至669年在任，仪凤二年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "li-jing-xuan",
+      "type": "ruler-subject",
+      "note": "宰相表载675至680年在任，永淳元年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "hao-chu-jun",
+      "type": "ruler-subject",
+      "note": "宰相表载675至681年在任，开耀元年薨"
+    },
+    {
+      "source": "li-zhi",
+      "target": "gao-zhi-zhou",
+      "type": "ruler-subject",
+      "note": "宰相表载676至679年在任，永淳二年卒"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "lou-shi-de",
+      "type": "ruler-subject",
+      "note": "宰相表载693至699年在任，圣历二年卒"
+    },
+    {
+      "source": "li-xian",
+      "target": "dou-lu-qin-wang",
+      "type": "ruler-subject",
+      "note": "宰相表载693至700年在任，景龙三年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wei-an-shi",
+      "type": "ruler-subject",
+      "note": "宰相表载700至706年在任，开元二年卒"
+    },
+    {
+      "source": "li-dan",
+      "target": "tang-xiu-jing",
+      "type": "ruler-subject",
+      "note": "宰相表载703至706年在任，延和元年薨"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "liu-you-qiu",
+      "type": "ruler-subject",
+      "note": "宰相表载710至713年在任，开元三年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wei-zhi-gu",
+      "type": "ruler-subject",
+      "note": "宰相表载711至714年在任，开元三年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "pei-yao-qing",
+      "type": "ruler-subject",
+      "note": "宰相表载733至736年在任，天宝初卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "niu-xian-ke",
+      "type": "ruler-subject",
+      "note": "宰相表载736至742年在任，天宝元年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "wei-jian-su",
+      "type": "ruler-subject",
+      "note": "宰相表载754至757年在任，宝应元年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhang-yan-shang",
+      "type": "ruler-subject",
+      "note": "宰相表载785至787年在任，贞元三年薨"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "zheng-yu-qing",
+      "type": "ruler-subject",
+      "note": "宰相表载798至800年在任，元和十五年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "du-huang-shang",
+      "type": "ruler-subject",
+      "note": "宰相表载805至807年在任，元和三年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "wu-yuan-heng",
+      "type": "ruler-subject",
+      "note": "宰相表载813至815年在任，元和十年遇刺"
+    },
+    {
+      "source": "li-ang",
+      "target": "zhao-zong-ru",
+      "type": "ruler-subject",
+      "note": "宰相表载796至798年在任，大和六年卒"
+    },
+    {
+      "source": "li-ang",
+      "target": "li-feng-ji",
+      "type": "ruler-subject",
+      "note": "宰相表载822至826年在任，大和九年卒"
+    },
+    {
+      "source": "li-ang",
+      "target": "wei-chu-hou",
+      "type": "ruler-subject",
+      "note": "宰相表载826至828年在任，大和二年卒"
+    },
+    {
+      "source": "li-chen",
+      "target": "yang-si-fu",
+      "type": "ruler-subject",
+      "note": "宰相表载838至840年在任，大中二年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "chen-shu-da",
+      "type": "ruler-subject",
+      "note": "高祖朝为纳言，贞观九年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "yang-gong-ren",
+      "type": "ruler-subject",
+      "note": "武德初遥领纳言，贞观十三年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-wen-shi-ji",
+      "type": "ruler-subject",
+      "note": "武德末检校侍中，贞观十六年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "wang-gui",
+      "type": "ruler-subject",
+      "note": "太宗朝为侍中，贞观十三年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "liu-ji-xiang",
+      "type": "ruler-subject",
+      "note": "太宗朝参知政事，贞观十九年赐自尽"
+    },
+    {
+      "source": "li-shimin",
+      "target": "zhang-liang-tang",
+      "type": "ruler-subject",
+      "note": "太宗朝参豫朝政，贞观二十年被斩"
+    },
+    {
+      "source": "li-shimin",
+      "target": "ma-zhou",
+      "type": "ruler-subject",
+      "note": "太宗朝为中书令，贞观二十二年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhang-xing-cheng",
+      "type": "ruler-subject",
+      "note": "高宗朝为仆射，永徽四年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "chu-sui-liang",
+      "type": "ruler-subject",
+      "note": "高宗朝为中书令，显庆三年卒于爱州"
+    },
+    {
+      "source": "li-zhi",
+      "target": "han-yuan",
+      "type": "ruler-subject",
+      "note": "高宗朝为侍中，显庆四年卒于贬所"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "pei-yan",
+      "type": "ruler-subject",
+      "note": "高宗顾命宰相，光宅元年被斩"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "liu-yi-zhi",
+      "type": "ruler-subject",
+      "note": "武后朝为相，垂拱三年赐死"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "du-jing-quan",
+      "type": "ruler-subject",
+      "note": "武后朝为相，圣历中道病卒"
+    },
+    {
+      "source": "li-xian",
+      "target": "yang-zai-si",
+      "type": "ruler-subject",
+      "note": "中宗朝为中书令，景龙三年薨"
+    },
+    {
+      "source": "li-xian",
+      "target": "wei-yuan-zhong",
+      "type": "ruler-subject",
+      "note": "中宗朝为相，神龙三年卒于涪陵"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "xiao-zhi-zhong",
+      "type": "ruler-subject",
+      "note": "先天二年与太平公主谋逆，伏诛"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "zhang-shuo",
+      "type": "ruler-subject",
+      "note": "玄宗朝为中书令，开元十八年薨"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "yuan-qian-yao",
+      "type": "ruler-subject",
+      "note": "玄宗朝为侍中，开元十九年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "li-yuan-hong",
+      "type": "ruler-subject",
+      "note": "玄宗朝为相，开元二十一年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "cui-yuan",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，大历三年薨"
+    },
+    {
+      "source": "li-heng",
+      "target": "li-lin",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，乾元二年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "miao-jin-qing",
+      "type": "ruler-subject",
+      "note": "肃代朝为相，永泰元年薨"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-kui",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，兴元元年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "pei-zun-qing",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，大历十年薨于位"
+    },
+    {
+      "source": "li-yu",
+      "target": "yuan-zai",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，大历十二年赐自尽"
+    },
+    {
+      "source": "li-yu",
+      "target": "du-hong-jian",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，大历四年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "chang-gun",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，建中四年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "yang-yan",
+      "type": "ruler-subject",
+      "note": "德宗朝行两税法，建中二年赐死"
+    },
+    {
+      "source": "li-kuo",
+      "target": "guan-bo",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元十三年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "dou-can",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元八年赐死"
+    },
+    {
+      "source": "li-song",
+      "target": "jia-dan",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，永贞元年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "cui-sun",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元十九年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "qi-kang",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元二十年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "gao-ying",
+      "type": "ruler-subject",
+      "note": "宪宗朝致仕，元和六年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "quan-de-yu",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，元和十三年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "li-ji-fu",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，元和九年卒"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "wei-guan-zhi",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，长庆元年卒"
+    },
+    {
+      "source": "li-ang",
+      "target": "cui-qun",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，大和六年卒"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "han-hong",
+      "type": "ruler-subject",
+      "note": "宪宗朝入朝为相，长庆三年卒"
+    },
+    {
+      "source": "li-yan",
+      "target": "zheng-tan",
+      "type": "ruler-subject",
+      "note": "文宗朝为相，会昌二年卒"
+    },
+    {
+      "source": "li-yan",
+      "target": "chen-yi-xing",
+      "type": "ruler-subject",
+      "note": "文宗武宗朝为相，会昌三年卒"
+    },
+    {
+      "source": "li-xuan",
+      "target": "wang-duo",
+      "type": "ruler-subject",
+      "note": "僖宗朝督师讨黄巢，中和四年遇害"
+    },
+    {
+      "source": "li-xuan",
+      "target": "zheng-tian",
+      "type": "ruler-subject",
+      "note": "僖宗朝为相，中和二年薨"
+    },
+    {
+      "source": "li-ye",
+      "target": "kong-wei",
+      "type": "ruler-subject",
+      "note": "昭宗朝为相，乾宁二年卒"
+    },
+    {
+      "source": "li-ye",
+      "target": "liu-chong-wang",
+      "type": "ruler-subject",
+      "note": "昭宗朝为相，光化二年卒"
+    },
+    {
+      "source": "li-ye",
+      "target": "zheng-qi",
+      "type": "ruler-subject",
+      "note": "昭宗朝为相，光化二年卒"
+    },
+    {
+      "source": "li-heng",
+      "target": "fang-guan",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，广德元年卒"
+    },
+    {
+      "source": "li-xian",
+      "target": "wei-huang-hou",
+      "type": "kin",
+      "note": "中宗皇后，景龙四年临淄王起兵时被杀"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "tai-ping-gong-zhu",
+      "type": "rival",
+      "note": "先天二年谋废玄宗，赐死于家"
+    },
+    {
+      "source": "li-heng",
+      "target": "zhang-huang-hou",
+      "type": "kin",
+      "note": "肃宗皇后，宝应元年谋立越王，事败幽崩"
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhao-de-huang-hou",
+      "type": "kin",
+      "note": "德宗皇后，贞元二年册后之日崩"
+    },
+    {
+      "source": "li-chun",
+      "target": "li-su",
+      "type": "ruler-subject",
+      "note": "元和十二年雪夜入蔡州擒吴元济"
+    },
+    {
+      "source": "li-chun",
+      "target": "wu-yuan-ji",
+      "type": "rival",
+      "note": "据蔡州拒命，元和十二年被俘斩于独柳"
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-shi-nan",
+      "type": "ruler-subject",
+      "note": "太宗朝弘文馆学士，贞观十二年卒"
+    },
+    {
+      "source": "li-yuan",
+      "target": "li-mi",
+      "type": "rival",
+      "note": "瓦岗败后降唐复叛，武德二年斩于熊耳山"
+    },
+    {
+      "source": "li-shimin",
+      "target": "dou-jian-de",
+      "type": "rival",
+      "note": "河北夏王，武德四年虎牢之役被俘，斩于长安"
+    },
+    {
+      "source": "li-shimin",
+      "target": "wang-shichong",
+      "type": "rival",
+      "note": "洛阳郑主，武德四年降唐，后为仇人所杀"
     }
   ],
   "events": [

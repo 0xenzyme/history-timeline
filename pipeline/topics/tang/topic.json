@@ -25,6 +25,11 @@
       "color": "#c0392b"
     },
     {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "consort",
       "name": "后妃 · 外戚",
       "color": "#c98a3a"
@@ -136,6 +141,14 @@
       "lane": "emperor"
     },
     {
+      "id": "zhangsun-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "wu-hui-fei",
+      "lane": "consort"
+    },
+    {
       "id": "zhangsun-wu-ji",
       "lane": "consort"
     },
@@ -196,16 +209,380 @@
       "lane": "chancellor"
     },
     {
+      "id": "li-yi-fu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-wen-guan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-jing-xuan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "hao-chu-jun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-zhi-zhou",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lou-shi-de",
+      "lane": "chancellor"
+    },
+    {
+      "id": "dou-lu-qin-wang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-an-shi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "tang-xiu-jing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-you-qiu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-zhi-gu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "pei-yao-qing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "niu-xian-ke",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-jian-su",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-yan-shang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zheng-yu-qing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "du-huang-shang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wu-yuan-heng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhao-zong-ru",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-feng-ji",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-chu-hou",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-si-fu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chen-shu-da",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-gong-ren",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yu-wen-shi-ji",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-gui",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-ji-xiang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-liang-tang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "ma-zhou",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-xing-cheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chu-sui-liang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "han-yuan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "pei-yan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-yi-zhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "du-jing-quan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-zai-si",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-yuan-zhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xiao-zhi-zhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-shuo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yuan-qian-yao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-yuan-hong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cui-yuan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-lin",
+      "lane": "chancellor"
+    },
+    {
+      "id": "miao-jin-qing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-kui",
+      "lane": "chancellor"
+    },
+    {
+      "id": "pei-zun-qing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yuan-zai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "du-hong-jian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chang-gun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-yan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "guan-bo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "dou-can",
+      "lane": "chancellor"
+    },
+    {
+      "id": "jia-dan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cui-sun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "qi-kang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-ying",
+      "lane": "chancellor"
+    },
+    {
+      "id": "quan-de-yu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-ji-fu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-guan-zhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cui-qun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "han-hong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zheng-tan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chen-yi-xing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-duo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zheng-tian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "kong-wei",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-chong-wang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zheng-qi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fang-guan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-huang-hou",
+      "lane": "consort"
+    },
+    {
+      "id": "tai-ping-gong-zhu",
+      "lane": "consort"
+    },
+    {
+      "id": "zhang-huang-hou",
+      "lane": "consort"
+    },
+    {
+      "id": "zhao-de-huang-hou",
+      "lane": "consort"
+    },
+    {
+      "id": "li-su",
+      "lane": "general"
+    },
+    {
+      "id": "wu-yuan-ji",
+      "lane": "end"
+    },
+    {
+      "id": "yu-shi-nan",
+      "lane": "literati"
+    },
+    {
+      "id": "li-mi",
+      "lane": "end"
+    },
+    {
+      "id": "dou-jian-de",
+      "lane": "end"
+    },
+    {
+      "id": "wang-shichong",
+      "lane": "end"
+    },
+    {
       "id": "li-jing",
       "lane": "general"
     },
     {
-      "id": "li-jian-cheng",
+      "id": "hou-jun-ji",
       "lane": "general"
     },
     {
-      "id": "li-yuan-ji",
+      "id": "su-ding-fang",
       "lane": "general"
+    },
+    {
+      "id": "pei-xing-jian",
+      "lane": "general"
+    },
+    {
+      "id": "xue-ren-gui",
+      "lane": "general"
+    },
+    {
+      "id": "qi-bi-he-li",
+      "lane": "general"
+    },
+    {
+      "id": "a-shi-na-she-er",
+      "lane": "general"
+    },
+    {
+      "id": "wang-zhong-si",
+      "lane": "general"
+    },
+    {
+      "id": "li-sheng",
+      "lane": "general"
+    },
+    {
+      "id": "ma-sui",
+      "lane": "general"
+    },
+    {
+      "id": "hun-jian",
+      "lane": "general"
+    },
+    {
+      "id": "li-jian-cheng",
+      "lane": "kin"
+    },
+    {
+      "id": "li-cheng-qian",
+      "lane": "kin"
+    },
+    {
+      "id": "li-tai",
+      "lane": "kin"
+    },
+    {
+      "id": "li-yuan-ji",
+      "lane": "kin"
     },
     {
       "id": "qin-qiong",
@@ -240,6 +617,26 @@
       "lane": "general"
     },
     {
+      "id": "jie-li",
+      "lane": "end"
+    },
+    {
+      "id": "a-shi-na-he-lu",
+      "lane": "end"
+    },
+    {
+      "id": "tian-cheng-si",
+      "lane": "end"
+    },
+    {
+      "id": "li-bao-chen",
+      "lane": "end"
+    },
+    {
+      "id": "li-zheng-ji",
+      "lane": "end"
+    },
+    {
       "id": "an-lu-shan",
       "lane": "end"
     },
@@ -258,6 +655,10 @@
     {
       "id": "li-ke-yong",
       "lane": "end"
+    },
+    {
+      "id": "gao-shi",
+      "lane": "literati"
     },
     {
       "id": "li-bai",
@@ -745,6 +1146,606 @@
       "target": "li-chu",
       "type": "kin",
       "note": "父子，昭宗传哀帝"
+    },
+    {
+      "source": "li-shimin",
+      "target": "zhangsun-huanghou",
+      "type": "kin",
+      "note": "文德皇后，贞观十年崩于立政殿"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-cheng-qian",
+      "type": "kin",
+      "note": "长子，贞观十七年废为庶人"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-tai",
+      "type": "kin",
+      "note": "第四子，与承乾争储"
+    },
+    {
+      "source": "li-cheng-qian",
+      "target": "li-tai",
+      "type": "rival",
+      "note": "争储，各树朋党"
+    },
+    {
+      "source": "li-shimin",
+      "target": "hou-jun-ji",
+      "type": "ruler-subject",
+      "note": "灭高昌后又与承乾通谋，十七年被斩"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wu-hui-fei",
+      "type": "kin",
+      "note": "开元宠妃，二十五年十二月薨"
+    },
+    {
+      "source": "li-jing",
+      "target": "su-ding-fang",
+      "type": "ruler-subject",
+      "note": "靖用定方为前锋，夜袭颉利"
+    },
+    {
+      "source": "li-jing",
+      "target": "jie-li",
+      "type": "rival",
+      "note": "贞观四年夜袭定襄，生擒颉利"
+    },
+    {
+      "source": "su-ding-fang",
+      "target": "a-shi-na-he-lu",
+      "type": "rival",
+      "note": "显庆二年破贺鲁于碎叶水"
+    },
+    {
+      "source": "li-zhi",
+      "target": "pei-xing-jian",
+      "type": "ruler-subject",
+      "note": "永淳元年再起为金牙道大总管，未行而卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "xue-ren-gui",
+      "type": "ruler-subject",
+      "note": "开耀元年复起，其年病卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "qi-bi-he-li",
+      "type": "ruler-subject",
+      "note": "与李勣拔平壤，仪凤二年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "a-shi-na-she-er",
+      "type": "ruler-subject",
+      "note": "右卫大将军，永徽六年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wang-zhong-si",
+      "type": "ruler-subject",
+      "note": "天宝中贬汉阳，明年暴卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-sheng",
+      "type": "ruler-subject",
+      "note": "奉天之难收长安，贞元九年薨"
+    },
+    {
+      "source": "li-kuo",
+      "target": "ma-sui",
+      "type": "ruler-subject",
+      "note": "与李晟同图凌烟阁，贞元十一年薨"
+    },
+    {
+      "source": "li-kuo",
+      "target": "hun-jian",
+      "type": "ruler-subject",
+      "note": "平凉劫盟单骑得免，贞元十五年薨"
+    },
+    {
+      "source": "li-yu",
+      "target": "tian-cheng-si",
+      "type": "rival",
+      "note": "大历中魏博不奉诏"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-bao-chen",
+      "type": "rival",
+      "note": "建中初成德同反，二年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-zheng-ji",
+      "type": "rival",
+      "note": "建中二年卒，子纳秘不发丧"
+    },
+    {
+      "source": "li-heng",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "note": "以适代崔光远为西川节度，永泰元年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "li-yi-fu",
+      "type": "ruler-subject",
+      "note": "宰相表载655至659年在任，乾封元年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhang-wen-guan",
+      "type": "ruler-subject",
+      "note": "宰相表载667至669年在任，仪凤二年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "li-jing-xuan",
+      "type": "ruler-subject",
+      "note": "宰相表载675至680年在任，永淳元年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "hao-chu-jun",
+      "type": "ruler-subject",
+      "note": "宰相表载675至681年在任，开耀元年薨"
+    },
+    {
+      "source": "li-zhi",
+      "target": "gao-zhi-zhou",
+      "type": "ruler-subject",
+      "note": "宰相表载676至679年在任，永淳二年卒"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "lou-shi-de",
+      "type": "ruler-subject",
+      "note": "宰相表载693至699年在任，圣历二年卒"
+    },
+    {
+      "source": "li-xian",
+      "target": "dou-lu-qin-wang",
+      "type": "ruler-subject",
+      "note": "宰相表载693至700年在任，景龙三年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wei-an-shi",
+      "type": "ruler-subject",
+      "note": "宰相表载700至706年在任，开元二年卒"
+    },
+    {
+      "source": "li-dan",
+      "target": "tang-xiu-jing",
+      "type": "ruler-subject",
+      "note": "宰相表载703至706年在任，延和元年薨"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "liu-you-qiu",
+      "type": "ruler-subject",
+      "note": "宰相表载710至713年在任，开元三年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wei-zhi-gu",
+      "type": "ruler-subject",
+      "note": "宰相表载711至714年在任，开元三年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "pei-yao-qing",
+      "type": "ruler-subject",
+      "note": "宰相表载733至736年在任，天宝初卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "niu-xian-ke",
+      "type": "ruler-subject",
+      "note": "宰相表载736至742年在任，天宝元年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "wei-jian-su",
+      "type": "ruler-subject",
+      "note": "宰相表载754至757年在任，宝应元年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhang-yan-shang",
+      "type": "ruler-subject",
+      "note": "宰相表载785至787年在任，贞元三年薨"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "zheng-yu-qing",
+      "type": "ruler-subject",
+      "note": "宰相表载798至800年在任，元和十五年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "du-huang-shang",
+      "type": "ruler-subject",
+      "note": "宰相表载805至807年在任，元和三年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "wu-yuan-heng",
+      "type": "ruler-subject",
+      "note": "宰相表载813至815年在任，元和十年遇刺"
+    },
+    {
+      "source": "li-ang",
+      "target": "zhao-zong-ru",
+      "type": "ruler-subject",
+      "note": "宰相表载796至798年在任，大和六年卒"
+    },
+    {
+      "source": "li-ang",
+      "target": "li-feng-ji",
+      "type": "ruler-subject",
+      "note": "宰相表载822至826年在任，大和九年卒"
+    },
+    {
+      "source": "li-ang",
+      "target": "wei-chu-hou",
+      "type": "ruler-subject",
+      "note": "宰相表载826至828年在任，大和二年卒"
+    },
+    {
+      "source": "li-chen",
+      "target": "yang-si-fu",
+      "type": "ruler-subject",
+      "note": "宰相表载838至840年在任，大中二年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "chen-shu-da",
+      "type": "ruler-subject",
+      "note": "高祖朝为纳言，贞观九年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "yang-gong-ren",
+      "type": "ruler-subject",
+      "note": "武德初遥领纳言，贞观十三年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-wen-shi-ji",
+      "type": "ruler-subject",
+      "note": "武德末检校侍中，贞观十六年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "wang-gui",
+      "type": "ruler-subject",
+      "note": "太宗朝为侍中，贞观十三年卒"
+    },
+    {
+      "source": "li-shimin",
+      "target": "liu-ji-xiang",
+      "type": "ruler-subject",
+      "note": "太宗朝参知政事，贞观十九年赐自尽"
+    },
+    {
+      "source": "li-shimin",
+      "target": "zhang-liang-tang",
+      "type": "ruler-subject",
+      "note": "太宗朝参豫朝政，贞观二十年被斩"
+    },
+    {
+      "source": "li-shimin",
+      "target": "ma-zhou",
+      "type": "ruler-subject",
+      "note": "太宗朝为中书令，贞观二十二年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhang-xing-cheng",
+      "type": "ruler-subject",
+      "note": "高宗朝为仆射，永徽四年卒"
+    },
+    {
+      "source": "li-zhi",
+      "target": "chu-sui-liang",
+      "type": "ruler-subject",
+      "note": "高宗朝为中书令，显庆三年卒于爱州"
+    },
+    {
+      "source": "li-zhi",
+      "target": "han-yuan",
+      "type": "ruler-subject",
+      "note": "高宗朝为侍中，显庆四年卒于贬所"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "pei-yan",
+      "type": "ruler-subject",
+      "note": "高宗顾命宰相，光宅元年被斩"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "liu-yi-zhi",
+      "type": "ruler-subject",
+      "note": "武后朝为相，垂拱三年赐死"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "du-jing-quan",
+      "type": "ruler-subject",
+      "note": "武后朝为相，圣历中道病卒"
+    },
+    {
+      "source": "li-xian",
+      "target": "yang-zai-si",
+      "type": "ruler-subject",
+      "note": "中宗朝为中书令，景龙三年薨"
+    },
+    {
+      "source": "li-xian",
+      "target": "wei-yuan-zhong",
+      "type": "ruler-subject",
+      "note": "中宗朝为相，神龙三年卒于涪陵"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "xiao-zhi-zhong",
+      "type": "ruler-subject",
+      "note": "先天二年与太平公主谋逆，伏诛"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "zhang-shuo",
+      "type": "ruler-subject",
+      "note": "玄宗朝为中书令，开元十八年薨"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "yuan-qian-yao",
+      "type": "ruler-subject",
+      "note": "玄宗朝为侍中，开元十九年卒"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "li-yuan-hong",
+      "type": "ruler-subject",
+      "note": "玄宗朝为相，开元二十一年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "cui-yuan",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，大历三年薨"
+    },
+    {
+      "source": "li-heng",
+      "target": "li-lin",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，乾元二年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "miao-jin-qing",
+      "type": "ruler-subject",
+      "note": "肃代朝为相，永泰元年薨"
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-kui",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，兴元元年卒"
+    },
+    {
+      "source": "li-yu",
+      "target": "pei-zun-qing",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，大历十年薨于位"
+    },
+    {
+      "source": "li-yu",
+      "target": "yuan-zai",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，大历十二年赐自尽"
+    },
+    {
+      "source": "li-yu",
+      "target": "du-hong-jian",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，大历四年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "chang-gun",
+      "type": "ruler-subject",
+      "note": "代宗朝为相，建中四年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "yang-yan",
+      "type": "ruler-subject",
+      "note": "德宗朝行两税法，建中二年赐死"
+    },
+    {
+      "source": "li-kuo",
+      "target": "guan-bo",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元十三年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "dou-can",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元八年赐死"
+    },
+    {
+      "source": "li-song",
+      "target": "jia-dan",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，永贞元年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "cui-sun",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元十九年卒"
+    },
+    {
+      "source": "li-kuo",
+      "target": "qi-kang",
+      "type": "ruler-subject",
+      "note": "德宗朝为相，贞元二十年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "gao-ying",
+      "type": "ruler-subject",
+      "note": "宪宗朝致仕，元和六年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "quan-de-yu",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，元和十三年卒"
+    },
+    {
+      "source": "li-chun",
+      "target": "li-ji-fu",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，元和九年卒"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "wei-guan-zhi",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，长庆元年卒"
+    },
+    {
+      "source": "li-ang",
+      "target": "cui-qun",
+      "type": "ruler-subject",
+      "note": "宪宗朝为相，大和六年卒"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "han-hong",
+      "type": "ruler-subject",
+      "note": "宪宗朝入朝为相，长庆三年卒"
+    },
+    {
+      "source": "li-yan",
+      "target": "zheng-tan",
+      "type": "ruler-subject",
+      "note": "文宗朝为相，会昌二年卒"
+    },
+    {
+      "source": "li-yan",
+      "target": "chen-yi-xing",
+      "type": "ruler-subject",
+      "note": "文宗武宗朝为相，会昌三年卒"
+    },
+    {
+      "source": "li-xuan",
+      "target": "wang-duo",
+      "type": "ruler-subject",
+      "note": "僖宗朝督师讨黄巢，中和四年遇害"
+    },
+    {
+      "source": "li-xuan",
+      "target": "zheng-tian",
+      "type": "ruler-subject",
+      "note": "僖宗朝为相，中和二年薨"
+    },
+    {
+      "source": "li-ye",
+      "target": "kong-wei",
+      "type": "ruler-subject",
+      "note": "昭宗朝为相，乾宁二年卒"
+    },
+    {
+      "source": "li-ye",
+      "target": "liu-chong-wang",
+      "type": "ruler-subject",
+      "note": "昭宗朝为相，光化二年卒"
+    },
+    {
+      "source": "li-ye",
+      "target": "zheng-qi",
+      "type": "ruler-subject",
+      "note": "昭宗朝为相，光化二年卒"
+    },
+    {
+      "source": "li-heng",
+      "target": "fang-guan",
+      "type": "ruler-subject",
+      "note": "肃宗朝为相，广德元年卒"
+    },
+    {
+      "source": "li-xian",
+      "target": "wei-huang-hou",
+      "type": "kin",
+      "note": "中宗皇后，景龙四年临淄王起兵时被杀"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "tai-ping-gong-zhu",
+      "type": "rival",
+      "note": "先天二年谋废玄宗，赐死于家"
+    },
+    {
+      "source": "li-heng",
+      "target": "zhang-huang-hou",
+      "type": "kin",
+      "note": "肃宗皇后，宝应元年谋立越王，事败幽崩"
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhao-de-huang-hou",
+      "type": "kin",
+      "note": "德宗皇后，贞元二年册后之日崩"
+    },
+    {
+      "source": "li-chun",
+      "target": "li-su",
+      "type": "ruler-subject",
+      "note": "元和十二年雪夜入蔡州擒吴元济"
+    },
+    {
+      "source": "li-chun",
+      "target": "wu-yuan-ji",
+      "type": "rival",
+      "note": "据蔡州拒命，元和十二年被俘斩于独柳"
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-shi-nan",
+      "type": "ruler-subject",
+      "note": "太宗朝弘文馆学士，贞观十二年卒"
+    },
+    {
+      "source": "li-yuan",
+      "target": "li-mi",
+      "type": "rival",
+      "note": "瓦岗败后降唐复叛，武德二年斩于熊耳山"
+    },
+    {
+      "source": "li-shimin",
+      "target": "dou-jian-de",
+      "type": "rival",
+      "note": "河北夏王，武德四年虎牢之役被俘，斩于长安"
+    },
+    {
+      "source": "li-shimin",
+      "target": "wang-shichong",
+      "type": "rival",
+      "note": "洛阳郑主，武德四年降唐，后为仇人所杀"
     }
   ],
   "events": [
