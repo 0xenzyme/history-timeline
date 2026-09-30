@@ -3,10 +3,10 @@
   "meta": {
     "id": "ming",
     "title": "明",
-    "subtitle": "从洪武开国到煤山国殇 · 公元 1328 — 公元 1660",
+    "subtitle": "从洪武开国到煤山国殇，延至南明诸臣与三藩之役 · 公元 1328 — 公元 1680",
     "range": [
       1320,
-      1660
+      1680
     ]
   },
   "lanes": [
@@ -2143,10 +2143,12 @@
       "name": "李贽",
       "display": "李贽",
       "lane": "literati",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
       "birth": 1527,
       "death": 1602,
+      "birthNote": "《明史》无传。生年据袁中道《李温陵传》及其自著行迹上推。",
+      "deathNote": "万历三十年以敢倡乱道逮问，自刭狱中；其死之年诸家俱系于一六〇二。",
       "title": "卓吾，童心之说",
       "bio": "号卓吾，泉州晋江人。为姚安知府而去官，著《焚书》《藏书》，以童心为说而斥道学之伪; 1602 年以敢倡乱道逮问，自刭狱中。",
       "tags": [
@@ -2291,10 +2293,12 @@
       "name": "徐霞客",
       "display": "徐霞客",
       "lane": "literati",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
       "birth": 1587,
       "death": 1641,
+      "birthNote": "《明史》无传。陈函辉《霞客徐先生墓志铭》记其卒年五十有六，上推生年在一五八七年前后。",
+      "deathNote": "墓志铭与后人整理的游记跋语均系其卒于崇祯十四年正月（一六四一）。",
       "title": "三十年游记",
       "bio": "名弘祖，字振之，江阴人。弃科举而事游历，三十年足迹遍南北荒远之区，日有所记，成《徐霞客游记》。1641 年卒。",
       "tags": [
@@ -2574,7 +2578,7 @@
       "gender": "male"
     },
     {
-      "id": "nurhaci",
+      "id": "nu-er-ha-chi",
       "name": "努尔哈赤",
       "display": "努尔哈赤",
       "lane": "end",
@@ -3041,6 +3045,178 @@
       "polity": [
         "ming",
         "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zongzhou",
+      "name": "刘宗周",
+      "display": "刘宗周",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1578,
+      "death": 1645,
+      "title": "蕺山之学，绝食而死",
+      "bio": "字起东，号念台，山阴人。万历二十九年进士，官至左都御史，以疏劾魏忠贤削籍归讲学于蕺山，主诚意慎独之旨。1645 年清兵陷杭州，绝食二十三日而卒。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "scholar"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huang-daozhou",
+      "name": "黄道周",
+      "display": "黄道周",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1585,
+      "death": 1646,
+      "title": "石斋先生，婺源就义",
+      "bio": "字幼玄，号石斋，福建漳浦人。天启二年进士，崇祯朝疏论杨嗣昌夺情，廷杖削籍。隆武立，以武英殿大学士自请督师，1646 年婺源兵败被俘，南京不屈而死。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "scholar",
+        "falling"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ni-yuanlu",
+      "name": "倪元璐",
+      "display": "倪元璐",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1593,
+      "death": 1644,
+      "title": "户部尚书，甲申殉国",
+      "bio": "字玉汝，号鸿宝，浙江上虞人。天启二年进士，崇祯末以户部尚书掌度支，帑藏已尽而征调不已。1644 年大顺军破外城，整衣冠北向再拜，自缢而死。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "falling"
+      ],
+      "primary": "official",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-zilong",
+      "name": "陈子龙",
+      "display": "陈子龙",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1608,
+      "death": 1647,
+      "title": "云间诗派之冠，抗清赴水",
+      "bio": "字卧子，号大樽，松江华亭人。崇祯十年进士，与夏允彝结几社，主经世之学，诗为明季之殿。兵败被执，1647 年解送途中乘间投水而死。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "poetry",
+        "official",
+        "falling"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xia-wanchun",
+      "name": "夏完淳",
+      "display": "夏完淳",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1631,
+      "death": 1647,
+      "title": "十七岁就义的少年诗人",
+      "bio": "原名复，字存古，松江华亭人，允彝之子。十四岁从父与师陈子龙起兵，太湖之师败后犹通表鲁王，1647 年事泄被执，狱中作《上母书》，就义于南京，年十七。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "poetry",
+        "falling"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-shiying",
+      "name": "马士英",
+      "display": "马士英",
+      "lane": "end",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 1591,
+      "death": 1646,
+      "birthNote": "《明史》不载生年。通行作一五九一，别本有作一五九六者。",
+      "deathNote": "南京陷后出奔，其死诸书不一，或云 1646 年为清军所执而死，或作次年。此处采常见的 1646 年。",
+      "title": "弘光首辅，专国而亡南都",
+      "bio": "字瑶草，贵州贵阳人。万历四十四年会试，与阮大铖同年。以凤阳总督拥立弘光，遂为内阁首辅，专主国政而斥正人、鬻官爵，江上一无布置。南京陷后出奔，1646 年死。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "regent",
+        "falling"
+      ],
+      "primary": "regent",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ruan-dacheng",
+      "name": "阮大铖",
+      "display": "阮大铖",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1587,
+      "death": 1646,
+      "title": "逆案余孽，燕子笺之笔",
+      "bio": "字集之，号圆海，安徽桐城人。天启间投依阉党，崇祯初坐逆案削籍，居南京以《燕子笺》诸曲自饰。弘光立，马士英引为兵部尚书，1646 年从清兵南下，死于仙霞岭。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "regent",
+        "drama"
+      ],
+      "primary": "regent",
+      "polity": [
+        "ming"
       ],
       "gender": "male"
     }
@@ -3692,13 +3868,13 @@
     },
     {
       "source": "li-chengliang",
-      "target": "nurhaci",
+      "target": "nu-er-ha-chi",
       "type": "rival",
       "note": "其祖父死于古勒之役，衅由此起",
       "since": 1583
     },
     {
-      "source": "nurhaci",
+      "source": "nu-er-ha-chi",
       "target": "hong-taiji",
       "type": "kin",
       "note": "父子，第八子嗣位而改国号为清"
@@ -3711,7 +3887,7 @@
     },
     {
       "source": "liu-ting",
-      "target": "nurhaci",
+      "target": "nu-er-ha-chi",
       "type": "rival",
       "note": "萨尔浒三路败没，綖以孤军战死",
       "since": 1619
@@ -3774,7 +3950,7 @@
     },
     {
       "source": "yuan-chonghuan",
-      "target": "nurhaci",
+      "target": "nu-er-ha-chi",
       "type": "rival",
       "note": "宁远守战，其役之后汗遂崩",
       "since": 1626
@@ -4048,6 +4224,192 @@
       "target": "zhu-guozuo",
       "type": "ruler-subject",
       "note": "天启中为首辅，崇祯五年卒"
+    },
+    {
+      "source": "wei-zhongxian",
+      "target": "liu-zongzhou",
+      "type": "rival",
+      "note": "疏劾魏忠贤而被停俸削籍，归里讲学遂成蕺山之学"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "liu-zongzhou",
+      "type": "ruler-subject",
+      "note": "崇祯初起为顺天府尹，累迁左都御史，又以论救言官见斥"
+    },
+    {
+      "source": "zhu-yousong",
+      "target": "liu-zongzhou",
+      "type": "ruler-subject",
+      "note": "弘光既立，起故官而以疏攻马阮求去"
+    },
+    {
+      "source": "liu-zongzhou",
+      "target": "ma-shiying",
+      "type": "rival",
+      "note": "目马阮为乱政之原，数与力争，既去而南都旋覆"
+    },
+    {
+      "source": "liu-zongzhou",
+      "target": "huang-daozhou",
+      "type": "peer",
+      "note": "同以直谏名于世，晚皆殉国，学者并称其节义"
+    },
+    {
+      "source": "huang-daozhou",
+      "target": "yang-sichang",
+      "type": "rival",
+      "note": "疏论嗣昌夺情，廷杖削籍，直声震于一时"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "ni-yuanlu",
+      "type": "ruler-subject",
+      "note": "崇祯末以户部尚书掌度支，帑藏已尽而征调不已"
+    },
+    {
+      "source": "li-zicheng",
+      "target": "ni-yuanlu",
+      "type": "rival",
+      "note": "大顺军破外城，元璐整衣冠北向再拜而自缢"
+    },
+    {
+      "source": "zhu-yousong",
+      "target": "ma-shiying",
+      "type": "ruler-subject",
+      "note": "以凤督拥立弘光，遂为首辅，专国政而斥诸正人"
+    },
+    {
+      "source": "ma-shiying",
+      "target": "ruan-dacheng",
+      "type": "peer",
+      "note": "同年相引，士英举之再起，兵部一席遂为逆案之归"
+    },
+    {
+      "source": "ruan-dacheng",
+      "target": "wei-zhongxian",
+      "type": "peer",
+      "note": "天启间投依阉党，崇祯初坐逆案削籍，居南京以戏曲自饰"
+    },
+    {
+      "source": "ma-shiying",
+      "target": "shi-kefa",
+      "type": "rival",
+      "note": "阁部相倾，出可法督师江北，江防由是无统一之帅"
+    },
+    {
+      "source": "zhu-yousong",
+      "target": "chen-zilong",
+      "type": "ruler-subject",
+      "note": "起为兵科给事中，屡疏不合其意而辞归"
+    },
+    {
+      "source": "chen-zilong",
+      "target": "ruan-dacheng",
+      "type": "rival",
+      "note": "复社群起发《留都防乱公揭》，逆案余孽之名由此胶固"
+    },
+    {
+      "source": "chen-zilong",
+      "target": "xia-wanchun",
+      "type": "mentor",
+      "note": "完淳十二从之为师，文章气节皆出其门"
+    },
+    {
+      "source": "xia-wanchun",
+      "target": "shi-kefa",
+      "type": "peer",
+      "note": "一同殉于江南，完淳年止十七，传其《狱中上母书》"
+    },
+    {
+      "source": "zhu-di",
+      "target": "xia-yuanji",
+      "type": "ruler-subject",
+      "note": "永乐北征与迁都之费尽出户部调度，历事五朝而无咎"
+    },
+    {
+      "source": "zhu-di",
+      "target": "yang-rong",
+      "type": "ruler-subject",
+      "note": "长于应变，扈从北征而决大议于马上"
+    },
+    {
+      "source": "zhang-taihu",
+      "target": "yang-pu",
+      "type": "ruler-subject",
+      "note": "太后委政三杨，溥入阁最晚而居位最久"
+    },
+    {
+      "source": "chen-yubi",
+      "target": "zhao-zhigao",
+      "type": "peer",
+      "note": "与赵志皋、张位、沈一贯同在内阁，悉心受过而早卒于位"
+    },
+    {
+      "source": "gu-dingchen",
+      "target": "yan-song",
+      "type": "peer",
+      "note": "鼎臣卒后严嵩始专国，嘉靖之局由此一变"
+    },
+    {
+      "source": "zhu-guozuo",
+      "target": "ye-xianggao",
+      "type": "peer",
+      "note": "同为光宗即位后所起之旧臣，向高去而国祚继为首辅"
+    },
+    {
+      "source": "yan-song",
+      "target": "wang-shizhen",
+      "type": "rival",
+      "note": "父忬死于严嵩之手，世贞伏阙讼冤而不能白"
+    },
+    {
+      "source": "chen-youliang",
+      "target": "zhang-shicheng",
+      "type": "peer",
+      "note": "江汉与江浙两处割据，皆先太祖而灭"
+    },
+    {
+      "source": "xie-qian",
+      "target": "li-dongyang",
+      "type": "peer",
+      "note": "同辅孝宗，时称李公谋、刘公断、谢公尤侃侃"
+    },
+    {
+      "source": "zou-yuanbiao",
+      "target": "gu-xiancheng",
+      "type": "peer",
+      "note": "同为东林先声，里居讲学与诸君子相应"
+    },
+    {
+      "source": "fang-congzhe",
+      "target": "li-tingji",
+      "type": "peer",
+      "note": "同在万历末之阁，廷机去后从哲乃以一人独相"
+    },
+    {
+      "source": "wang-xijue",
+      "target": "shen-shixing",
+      "type": "peer",
+      "note": "相继辅政，同以争国本为事而力请建储"
+    },
+    {
+      "source": "he-zongyan",
+      "target": "ye-xianggao",
+      "type": "peer",
+      "note": "光宗即位同被召还，天启初共支撑门户"
+    },
+    {
+      "source": "xue-guoguan",
+      "target": "yang-sichang",
+      "type": "peer",
+      "note": "同为崇祯朝承旨之臣，嗣昌死而国观继之赐缢"
+    },
+    {
+      "source": "zhu-changluo",
+      "target": "zheng-guifei",
+      "type": "rival",
+      "note": "挺击、红丸二案皆以贵妃为疑，一月之祚遂成讼局"
     }
   ],
   "events": [
@@ -4169,7 +4531,13 @@
       "endYear": 1620,
       "people": [
         "zhu-yijun",
-        "wei-zhongxian"
+        "wei-zhongxian",
+        "wang-xijue",
+        "zhao-zhigao",
+        "chen-yubi",
+        "li-tingji",
+        "fang-congzhe",
+        "ye-xianggao"
       ],
       "desc": "张居正卒后，神宗深居不朝，党争蜂起、矿税横征，明之衰象尽显。"
     },
@@ -4264,7 +4632,7 @@
       "year": 1619,
       "people": [
         "liu-ting",
-        "nurhaci",
+        "nu-er-ha-chi",
         "zhu-yijun"
       ],
       "desc": "明四路出师十余万讨后金，努尔哈赤以集中之兵破其分路，刘綎等三路先后败没，辽事遂不可问。"
@@ -4292,6 +4660,94 @@
         "duo-er-gun"
       ],
       "desc": "清兵南下，史可法守扬州，城破死之；弘光帝出奔被执，南明第一个朝廷就此终结。"
+    },
+    {
+      "id": "ming-hongguang",
+      "name": "弘光即位 · 马阮用事",
+      "kind": "span",
+      "year": 1644,
+      "endYear": 1645,
+      "people": [
+        "zhu-yousong",
+        "ma-shiying",
+        "ruan-dacheng",
+        "shi-kefa",
+        "liu-zongzhou"
+      ],
+      "desc": "崇祯既殉，马士英拥福王即位于南京，改元弘光；引阮大铖领兵部，正人相继去位，江上之防一无所设。"
+    },
+    {
+      "id": "ming-xunjie",
+      "name": "甲申以下 · 诸臣殉国",
+      "kind": "span",
+      "year": 1644,
+      "endYear": 1647,
+      "people": [
+        "ni-yuanlu",
+        "liu-zongzhou",
+        "huang-daozhou",
+        "chen-zilong",
+        "xia-wanchun"
+      ],
+      "desc": "甲申之变后殉节者相望：倪元璐死北京，刘宗周绝食于越，黄道周就义于南京，陈子龙与弟子夏完淳先后死江南。"
+    },
+    {
+      "id": "ming-sanyang",
+      "name": "三杨辅政 · 仁宣之治",
+      "kind": "span",
+      "year": 1424,
+      "endYear": 1442,
+      "people": [
+        "zhu-gaochi",
+        "zhu-zhanji",
+        "zhang-taihu",
+        "yang-shiqi",
+        "yang-rong",
+        "yang-pu",
+        "xia-yuanji"
+      ],
+      "desc": "仁宗在位不及一年，宣宗继之；杨士奇、杨荣、杨溥同居阁务，太皇太后张氏委政而戒中官不得预政，号为仁宣之治。"
+    },
+    {
+      "id": "ming-longqing",
+      "name": "隆庆开关 · 俺答封贡",
+      "kind": "span",
+      "year": 1567,
+      "endYear": 1571,
+      "people": [
+        "zhu-zaiji",
+        "gao-gong",
+        "anda-han"
+      ],
+      "desc": "穆宗即位后开福建月港之禁，准民间出海贸易；又与俺答议和，封为顺义王，北边数十年之患稍息。"
+    },
+    {
+      "id": "ming-hongwan",
+      "name": "红丸案 · 一月天子",
+      "kind": "point",
+      "year": 1620,
+      "people": [
+        "zhu-changluo",
+        "zheng-guifei"
+      ],
+      "desc": "光宗即位一月而病，服鸿胪寺丞李可灼所进红丸而崩；郑贵妃前此数进美人，疑谤遂集于一身，与移宫、梃击并称三案。"
+    },
+    {
+      "id": "ming-chongzhen",
+      "name": "崇祯易相 · 阁臣如传舍",
+      "kind": "span",
+      "year": 1628,
+      "endYear": 1644,
+      "people": [
+        "zhu-youjian",
+        "wen-tiren",
+        "zhou-yanru",
+        "xue-guoguan",
+        "zhang-zhifa",
+        "he-fengsheng",
+        "yang-sichang"
+      ],
+      "desc": "崇祯十七年之间易内阁辅臣五十余员，温体仁、周延儒、薛国观、张至发相继；既疑诸臣又急求成效，阁才遂尽。"
     }
   ],
   "views": [
@@ -4299,9 +4755,9 @@
       "id": "overview",
       "name": "明全览",
       "from": 1320,
-      "to": 1660,
+      "to": 1680,
       "focus": "zhu-yuanzhang",
-      "brief": "洪武到崇祯十六帝的红条排成一列，中无断缺；其下宗室与后妃几条短横，紧接着是连续不断的一条宰辅之线。中叶之后将帅的绿条与文人的青条并行而下，末段紫条由阉党、辽东、群雄三段接住，弘光与吴三桂的两条收在 1660 之前。"
+      "brief": "洪武到崇祯十六帝的红条排成一列，中无断缺；其下宗室与后妃几条短横，紧接着是连续不断的一条宰辅之线。中叶之后将帅的绿条与文人的青条并行而下，末段紫条由阉党、辽东、群雄三段接住。1644 之后不再只有弘光与吴三桂：殉国诸臣的短次青、紫两色挤压在 1644—1647 之间，吴三桂的一条一直拖到 1678。"
     },
     {
       "id": "kai",
@@ -4330,7 +4786,13 @@
         "yao-guangxiao",
         "zhu-di",
         "xu-huanghou",
-        "xie-jin"
+        "xie-jin",
+        "chen-youliang",
+        "zhang-shicheng",
+        "zhu-gaochi",
+        "zhu-zhanji",
+        "zhu-gaoxu",
+        "xia-yuanji"
       ],
       "events": [
         "ming-kai",
@@ -4364,13 +4826,19 @@
         "li-dongyang",
         "liu-jin",
         "zhu-houzhao",
-        "yang-tinghe"
+        "yang-tinghe",
+        "zhang-taihu",
+        "yang-shiqi",
+        "yang-rong",
+        "yang-pu",
+        "xie-qian"
       ],
       "events": [
         "ming-tumu",
         "ming-duomen",
         "ming-chenhao",
-        "ming-dali"
+        "ming-dali",
+        "ming-sanyang"
       ]
     },
     {
@@ -4400,13 +4868,50 @@
         "li-chengliang",
         "zheng-guifei",
         "shen-shixing",
-        "xu-guangqi"
+        "xu-guangqi",
+        "zhu-zaiji",
+        "gu-dingchen",
+        "chen-yubi",
+        "zhao-zhigao"
       ],
       "events": [
         "ming-gengxu",
         "ming-kangwo",
         "ming-zhangju",
-        "ming-yan"
+        "ming-yan",
+        "ming-longqing"
+      ]
+    },
+    {
+      "id": "wan",
+      "name": "万历怠政 · 崇祯易相",
+      "from": 1580,
+      "to": 1645,
+      "focus": "zhu-youjian",
+      "brief": "这一窗专看万历以后的朝局：神宗深居不出，缺官不补而阁臣短替不可胜数，独相的王锡爵与方从哲分列两端，中间是一串拼不起直线的短横。光宗只有一月，天启诸臣终于悻悻归里；崇祯十七年易辅臣五十余员，最后诸公与辽帅一同断在 1644。",
+      "people": [
+        "zhu-changluo",
+        "wang-xijue",
+        "li-tingji",
+        "fang-congzhe",
+        "ye-xianggao",
+        "he-zongyan",
+        "zhu-guozuo",
+        "zou-yuanbiao",
+        "wen-tiren",
+        "zhou-yanru",
+        "xue-guoguan",
+        "zhang-zhifa",
+        "he-fengsheng",
+        "qin-liangyu",
+        "zhu-youjian",
+        "wei-zhongxian"
+      ],
+      "events": [
+        "ming-wanli",
+        "ming-hongwan",
+        "ming-chongzhen",
+        "ming-donglin"
       ]
     },
     {
@@ -4436,22 +4941,23 @@
         "li-shi-zhen",
         "xu-guangqi",
         "song-yingxing",
-        "li-madou"
+        "li-madou",
+        "wang-shizhen"
       ]
     },
     {
       "id": "mo",
       "name": "辽事与鼎革",
       "from": 1580,
-      "to": 1660,
+      "to": 1680,
       "focus": "zhu-youjian",
-      "brief": "窗内紫红两条并行：上面是明廷与辽镇的一串节点，下面是后金到清的一条不断变长的条。袁崇焕与皇太极两条在 1630 前后互咬，最后李自成与多尔衮几乎同时抵达 1644 年，煤山之后只剩两条。",
+      "brief": "窗内紫红两条并行：上面是明廷与辽镇的一串节点，下面是后金到清的一条不断变长的条。袁崇焕与皇太极两条在 1630 前后互咬，1644 年煤山之后仍不断线——殉国诸臣短促相接直到 1647，弘光与郑氏之后，吴三桂的一条独自延伸到 1678。",
       "people": [
         "zhu-youxiao",
         "wei-zhongxian",
         "yang-lian",
         "gu-xiancheng",
-        "nurhaci",
+        "nu-er-ha-chi",
         "liu-ting",
         "xiong-tingbi",
         "sun-chengzong",
@@ -4466,14 +4972,23 @@
         "shi-kefa",
         "duo-er-gun",
         "zhu-yousong",
-        "wu-sangui"
+        "wu-sangui",
+        "ni-yuanlu",
+        "liu-zongzhou",
+        "huang-daozhou",
+        "chen-zilong",
+        "xia-wanchun",
+        "ma-shiying",
+        "ruan-dacheng"
       ],
       "events": [
         "ming-saerhu",
         "ming-donglin",
         "ming-yuan",
         "ming-wang",
-        "ming-nanjing"
+        "ming-nanjing",
+        "ming-hongguang",
+        "ming-xunjie"
       ]
     }
   ]

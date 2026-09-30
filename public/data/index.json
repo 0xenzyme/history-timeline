@@ -56,6 +56,10 @@
       "name": "唐"
     },
     {
+      "id": "wudai",
+      "name": "五代十国"
+    },
+    {
       "id": "song",
       "name": "宋"
     },
@@ -464,6 +468,19 @@
       "region": "cn",
       "eras": [
         "tang"
+      ],
+      "themes": [
+        "dynasty"
+      ]
+    },
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "subtitle": "从朱温代唐到纳土归宋",
+      "file": "wudai.json",
+      "region": "cn",
+      "eras": [
+        "wudai"
       ],
       "themes": [
         "dynasty"

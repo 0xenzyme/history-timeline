@@ -12,3 +12,9 @@ Thumbs.db
 
 # 本地史料工作区（维基文库抽取、dump、检索脚本），不进仓库
 raw/
+
+# 本地工具产物
+.harness/
+.qoder/
+.zcodeignore
+.tmp-window-check.mjs

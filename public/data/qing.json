@@ -3,10 +3,10 @@
   "meta": {
     "id": "qing",
     "title": "清",
-    "subtitle": "从后金立国到宣统退位 · 公元 1616 — 公元 1912",
+    "subtitle": "从努尔哈赤起兵到宣统逊位，延至溥仪之卒 · 公元 1583 — 公元 1967",
     "range": [
-      1610,
-      1920
+      1550,
+      1970
     ]
   },
   "lanes": [
@@ -43,7 +43,7 @@
   ],
   "people": [
     {
-      "id": "nurhaci",
+      "id": "nu-er-ha-chi",
       "name": "努尔哈赤",
       "display": "努尔哈赤",
       "lane": "emperor",
@@ -277,7 +277,7 @@
       "gender": "male"
     },
     {
-      "id": "cixi",
+      "id": "ci-xi",
       "name": "慈禧",
       "display": "慈禧太后",
       "lane": "emperor",
@@ -303,7 +303,7 @@
     {
       "id": "jia-qing",
       "name": "颙琰",
-      "display": "清仁宗颙琰",
+      "display": "颙琰",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -326,7 +326,7 @@
     {
       "id": "tong-zhi",
       "name": "载淳",
-      "display": "清穆宗载淳",
+      "display": "载淳",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -367,7 +367,7 @@
       ],
       "primary": "consort",
       "polity": [
-        "houjin"
+        "qing"
       ],
       "gender": "female"
     },
@@ -405,7 +405,7 @@
       "birth": 1613,
       "death": 1687,
       "birthNote": "康熙二十六年崩，年七十五，上推生年。",
-      "deathNote": "康熙二十六年十二月己巳崩。",
+      "deathNote": "《清史稿》作康熙二十六年十二月己巳崩；折公历已入 1688 年 1 月，此处仍依纪年系于 1687。",
       "title": "太皇太后",
       "bio": "博尔济吉特氏，孝端侄女。崇德元年封庄妃，三年生世祖。圣祖即位尊为太皇太后，康熙二十六年十二月崩。",
       "tags": [
@@ -502,6 +502,7 @@
       "birth": 1776,
       "death": 1849,
       "birthNote": "道光二十九年崩，年七十四，上推生年。",
+      "deathNote": "《清史稿》作道光二十九年十二月崩；折公历已入 1850 年 1 月，此处仍依纪年系于 1849。",
       "title": "仁宗皇后，传位宣宗",
       "bio": "钮祜禄氏。孝淑皇后崩后，高宗敕她继位中宫。嘉庆二十五年仁宗崩于热河，她传旨令宣宗嗣位。道光二十九年十二月崩。",
       "tags": [
@@ -1185,6 +1186,8 @@
       "deathAccuracy": "approx",
       "birth": 1724,
       "death": 1763,
+      "birthNote": "生年诸说不一：或作 1715（遗腹子之说），或作 1724。此处采 1724 一说。",
+      "deathNote": "卒年亦有 1763（壬午除夕）与 1764（甲申初春）两说，敦诚《寄怀曹雪芹》「四十年华付杳冥」为推算之据。此处采 1763。",
       "title": "红楼梦",
       "bio": "满洲正白旗人，家道中落，晚年著《红楼梦》，为中国古典小说之冠。",
       "tags": [
@@ -1281,10 +1284,11 @@
       "name": "鳌拜",
       "display": "鳌拜",
       "lane": "end",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "birth": 1610,
       "death": 1669,
+      "birthNote": "《清史稿》不载生年，通行作一六一〇年前后。",
       "title": "辅政大臣",
       "bio": "功臣，顺治遗命辅政四大臣之一；康熙初专横，终为少年帝设计擒除。",
       "tags": [
@@ -1432,6 +1436,278 @@
         "qing"
       ],
       "gender": "male"
+    },
+    {
+      "id": "xiao-ci",
+      "name": "孟古哲哲",
+      "display": "孝慈高皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1575,
+      "death": 1603,
+      "birthNote": "《清史稿》不载生年，据万历十六年来归之年十四上推。",
+      "deathNote": "《清史稿》作岁癸卯崩，年二十九；皇太极即位后追尊为皇后。",
+      "title": "太祖皇后，太宗生母",
+      "bio": "叶赫那拉氏，叶赫贝勒杨吉砮之女。1588 年来归努尔哈赤，1592 年生皇太极。1603 年崩，年二十九，后追尊为孝慈高皇后。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "geng-jing-zhong",
+      "name": "耿精忠",
+      "display": "耿精忠",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1682,
+      "deathNote": "三藩既平，康熙二十一年磔诛于市。",
+      "title": "靖南王，三藩之叛",
+      "bio": "耿仲明之孙，袭靖南王而镇福建。康熙十二年与吴三桂并举兵，据闽而犯浙赣；十五年势穷复降，二十一年三藩既平，磔诛于市。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "vassal",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "a-gui",
+      "name": "阿桂",
+      "display": "阿桂",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1717,
+      "death": 1797,
+      "title": "定伊犁征缅甸之相",
+      "bio": "章佳氏，初隶满洲正蓝旗，以平回部驻伊犁治事有劳改隶正白旗，大学士阿克敦之子。乾隆朝屡统大军，定金川、定伊犁、征缅甸，官至武英殿大学士、军机大臣。嘉庆二年卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "mu-zhang-a",
+      "name": "穆彰阿",
+      "display": "穆彰阿",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1782,
+      "death": 1856,
+      "title": "道光朝主抚之相",
+      "bio": "郭佳氏，满洲镶蓝旗人，嘉庆十年进士。道光朝久任军机大臣，门生故吏遍于朝列；鸦片战争力主抚议，与林则徐之禁烟相抗。文宗即位后黜之，1856 年卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "falling"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "su-shun",
+      "name": "肃顺",
+      "display": "肃顺",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1816,
+      "death": 1861,
+      "deathNote": "辛酉政变后与载垣、端华同被诛，斩于菜市口。",
+      "title": "咸丰顾命，辛酉被诛",
+      "bio": "爱新觉罗氏，郑献亲王济尔哈朗之后裔。咸丰朝官至协办大学士、户部尚书，主重用曾国藩、左宗棠诸汉臣而严于理财；文宗崩，与载垣等同受顾命，为两宫与奕䜣所捕，1861 年斩于菜市口。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "official",
+        "falling"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "seng-ge-lin-qin",
+      "name": "僧格林沁",
+      "display": "僧格林沁",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1811,
+      "death": 1865,
+      "title": "科尔沁亲王，剿捻战殁",
+      "bio": "博尔济吉特氏，科尔沁左翼后旗人，尚庄敬和硕公主之嗣子。咸丰朝统满蒙马队，破太平军北伐之师于天津、连镇；后又督剿捻军，1865 年于曹州高楼寨战殁，清廷所倚之长城自此无人。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hu-lin-yi",
+      "name": "胡林翼",
+      "display": "胡林翼",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1812,
+      "death": 1861,
+      "title": "抚鄂援湘，与曾并称",
+      "bio": "字贶生，号润芝，湖南益阳人，道光十六年进士。官湖北巡抚，整饬吏治、裕湘军饷源，与曾国藩并称曾胡。1861 年安庆既下，以劳卒于武昌。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "general"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ding-ru-chang",
+      "name": "丁汝昌",
+      "display": "丁汝昌",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1836,
+      "death": 1895,
+      "deathNote": "威海卫围急，拒降而服鸦片自尽，事在光绪二十一年正月。",
+      "title": "北洋水师提督，威海仰药",
+      "bio": "字禹廷，安徽庐江人。本淮军将领，改统北洋水师为提督。甲午黄海之役负伤督战；1895 年威海卫围急，诸将请降，拒之而服鸦片死。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-xiu-qing",
+      "name": "杨秀清",
+      "display": "杨秀清",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1823,
+      "death": 1856,
+      "deathNote": "天京事变，韦昌辉夜攻东王府，秀清及其部众皆被杀。",
+      "title": "东王，总理天国军政",
+      "bio": "广西桂平人，耕山烧炭为业，托天父下凡之说起事。金田起事后封东王，节制诸王而总理军政，号令出于东府。1856 年逼封万岁，天京事变中为韦昌辉所杀。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-da-kai",
+      "name": "石达开",
+      "display": "石达开",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1831,
+      "death": 1863,
+      "deathNote": "大渡河紫打地粮尽路绝，自赴清营以全其众，解至成都就义。",
+      "title": "翼王，大渡河就擒",
+      "bio": "广西贵县人，金田首事诸王之一，封翼王，善用兵，号为石敢当。1857 年因天京内变率部出走，转战赣、湘、川、滇数省；1863 年大渡河紫打地粮尽被擒，就义于成都。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-xiu-cheng",
+      "name": "李秀成",
+      "display": "李秀成",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1823,
+      "death": 1864,
+      "deathNote": "天京陷后护幼主出城，被执，作供词数万言而就义。",
+      "title": "忠王，后期之支柱",
+      "bio": "广西藤县人，太平军后期支柱，封忠王，二破江北大营而经营苏福省。1864 年天京陷，护幼主出城被俘，供词数万言，就义于南京。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -1473,7 +1749,7 @@
   ],
   "relations": [
     {
-      "source": "nurhaci",
+      "source": "nu-er-ha-chi",
       "target": "hong-taiji",
       "type": "kin",
       "note": "父子，后金大汗传位次子"
@@ -1551,13 +1827,13 @@
       "note": "任为钦差，赴粤禁烟"
     },
     {
-      "source": "cixi",
+      "source": "ci-xi",
       "target": "guang-xu",
       "type": "kin",
       "note": "姨侄，慈禧垂帘训政"
     },
     {
-      "source": "cixi",
+      "source": "ci-xi",
       "target": "guang-xu",
       "type": "rival",
       "note": "甲午后母子猜忌，戊戌囚帝"
@@ -1581,7 +1857,7 @@
       "note": "维新同志，同列新政"
     },
     {
-      "source": "cixi",
+      "source": "ci-xi",
       "target": "tan-sitong",
       "type": "rival",
       "note": "戊戌政变，杀六君子"
@@ -1756,7 +2032,7 @@
     },
     {
       "source": "ci-an",
-      "target": "cixi",
+      "target": "ci-xi",
       "type": "peer",
       "note": "两宫并尊。同治、光绪两度垂帘"
     },
@@ -1773,7 +2049,7 @@
       "note": "皇后。宣统三年十二月以太后命逊位"
     },
     {
-      "source": "cixi",
+      "source": "ci-xi",
       "target": "long-yu",
       "type": "kin",
       "note": "姑侄。隆裕为孝钦侄女"
@@ -1819,6 +2095,270 @@
       "target": "chen-huacheng",
       "type": "ruler-subject",
       "note": "江南提督。道光二十二年五月守吴淞，中弹死"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "xiao-ci",
+      "type": "kin",
+      "note": "夫妇，1588 年叶赫之女来归，为建州与叶赫之盟"
+    },
+    {
+      "source": "xiao-ci",
+      "target": "hong-taiji",
+      "type": "kin",
+      "note": "母子，1592 年生太宗，后追尊为孝慈高皇后"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "fan-wencheng",
+      "type": "ruler-subject",
+      "note": "开国谋臣，定官制典章而历事四朝"
+    },
+    {
+      "source": "fu-lin",
+      "target": "fan-wencheng",
+      "type": "ruler-subject",
+      "note": "入关之策多出其谋，为清开国第一文臣"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "da-fei",
+      "type": "kin",
+      "note": "太祖崩，次日殉，年三十七"
+    },
+    {
+      "source": "kang-xi",
+      "target": "geng-jing-zhong",
+      "type": "ruler-subject",
+      "note": "袭靖南王而镇闽，康熙十二年反，十五年降"
+    },
+    {
+      "source": "geng-jing-zhong",
+      "target": "shang-kexi",
+      "type": "peer",
+      "note": "同封闽粤二藩，耿反而可喜不与"
+    },
+    {
+      "source": "geng-jing-zhong",
+      "target": "wu-sangui",
+      "type": "peer",
+      "note": "同为三藩，耿、尚之叛皆与吴相首尾"
+    },
+    {
+      "source": "kang-xi",
+      "target": "zheng-chenggong",
+      "type": "ruler-subject",
+      "note": "据台湾而奉明朔，清廷屡招不应"
+    },
+    {
+      "source": "shi-lang",
+      "target": "zheng-chenggong",
+      "type": "peer",
+      "note": "本郑氏旧将，降清后率水师取台湾"
+    },
+    {
+      "source": "xiao-zhuang",
+      "target": "xiao-duan",
+      "type": "kin",
+      "note": "孝端侄女，姑侄同出科尔沁而先后正位中宫"
+    },
+    {
+      "source": "yong-zheng",
+      "target": "e-er-tai",
+      "type": "ruler-subject",
+      "note": "世宗末与张廷玉同受顾命，督云贵而奏改土归流"
+    },
+    {
+      "source": "qian-long",
+      "target": "a-gui",
+      "type": "ruler-subject",
+      "note": "武英殿大学士，定金川、定伊犁、征缅甸皆总其师"
+    },
+    {
+      "source": "a-gui",
+      "target": "he-shen",
+      "type": "peer",
+      "note": "同在军机，阿桂每与和珅龃龉而不能去之"
+    },
+    {
+      "source": "fu-heng",
+      "target": "a-gui",
+      "type": "peer",
+      "note": "同为高宗朝军机，征缅之役傅恒自请经略而病还"
+    },
+    {
+      "source": "liu-tongxun",
+      "target": "zhang-tingyu",
+      "type": "peer",
+      "note": "相继为军机，廷玉配享太庙而统勋以清节称"
+    },
+    {
+      "source": "qian-long",
+      "target": "cao-xueqin",
+      "type": "ruler-subject",
+      "note": "曹氏自康熙朝三世为江宁织造，雍正朝抄家败落；雪芹生于乾隆初"
+    },
+    {
+      "source": "dao-guang",
+      "target": "mu-zhang-a",
+      "type": "ruler-subject",
+      "note": "久任军机，门生故吏遍于朝列"
+    },
+    {
+      "source": "mu-zhang-a",
+      "target": "lin-zexu",
+      "type": "rival",
+      "note": "主抚议而构之，与则徐禁烟之策相抗"
+    },
+    {
+      "source": "dao-guang",
+      "target": "guan-tianpei",
+      "type": "ruler-subject",
+      "note": "广东水师提督，虎门炮台陷而力战死"
+    },
+    {
+      "source": "lin-zexu",
+      "target": "guan-tianpei",
+      "type": "peer",
+      "note": "同在粤东筹防，则徐既去而天培独守虎门"
+    },
+    {
+      "source": "xiao-he-rui",
+      "target": "dao-guang",
+      "type": "kin",
+      "note": "继母，仁宗暴崩热河，她传旨定宣宗嗣位"
+    },
+    {
+      "source": "xiao-quan",
+      "target": "xian-feng",
+      "type": "kin",
+      "note": "母子，文宗生母，道光二十年崩"
+    },
+    {
+      "source": "xian-feng",
+      "target": "su-shun",
+      "type": "ruler-subject",
+      "note": "顾命八大臣之首，赞襄政务而严于理财"
+    },
+    {
+      "source": "ci-xi",
+      "target": "su-shun",
+      "type": "rival",
+      "note": "辛酉政变，两宫与奕䜣捕肃顺，斩于菜市口"
+    },
+    {
+      "source": "su-shun",
+      "target": "yi-xin",
+      "type": "rival",
+      "note": "咸丰末同在热河，政变后一诛一用"
+    },
+    {
+      "source": "xian-feng",
+      "target": "seng-ge-lin-qin",
+      "type": "ruler-subject",
+      "note": "统满蒙马队，破太平军北伐之师于连镇"
+    },
+    {
+      "source": "tong-zhi",
+      "target": "seng-ge-lin-qin",
+      "type": "ruler-subject",
+      "note": "督剿捻军，1865 年战殁于曹州高楼寨"
+    },
+    {
+      "source": "seng-ge-lin-qin",
+      "target": "hong-xiuquan",
+      "type": "rival",
+      "note": "林凤祥、李开芳北伐之师为其所破"
+    },
+    {
+      "source": "xian-feng",
+      "target": "hu-lin-yi",
+      "type": "ruler-subject",
+      "note": "湖北巡抚，整饬吏治而裕湘军饷源"
+    },
+    {
+      "source": "hu-lin-yi",
+      "target": "zeng-guofan",
+      "type": "peer",
+      "note": "与曾国藩并称曾胡，共定湖北而援湘军"
+    },
+    {
+      "source": "hu-lin-yi",
+      "target": "hong-xiuquan",
+      "type": "rival",
+      "note": "与太平军争武昌、九江"
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "yang-xiu-qing",
+      "type": "ruler-subject",
+      "note": "封东王，节制诸王而总理天国军政"
+    },
+    {
+      "source": "yang-xiu-qing",
+      "target": "hong-xiuquan",
+      "type": "rival",
+      "note": "逼封万岁，天京事变中被杀"
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "shi-da-kai",
+      "type": "ruler-subject",
+      "note": "封翼王，金田首事诸王之一，善用兵"
+    },
+    {
+      "source": "shi-da-kai",
+      "target": "yang-xiu-qing",
+      "type": "peer",
+      "note": "同为金田首事诸王，天京事变后率部出走"
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "li-xiu-cheng",
+      "type": "ruler-subject",
+      "note": "封忠王，后期支柱，经营苏福省"
+    },
+    {
+      "source": "li-xiu-cheng",
+      "target": "zeng-guofan",
+      "type": "rival",
+      "note": "天京之役为其所破，城陷护幼主出走被俘"
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "ding-ru-chang",
+      "type": "peer",
+      "note": "统北洋水师而隶鸿章麾下"
+    },
+    {
+      "source": "ding-ru-chang",
+      "target": "deng-shichang",
+      "type": "peer",
+      "note": "一为提督，一为致远管带，同殉于威海之役"
+    },
+    {
+      "source": "guang-xu",
+      "target": "deng-shichang",
+      "type": "ruler-subject",
+      "note": "黄海之役蹈海殉国，光绪朝海军之殇"
+    },
+    {
+      "source": "guang-xu",
+      "target": "feng-zicai",
+      "type": "ruler-subject",
+      "note": "老将提督，1885 年镇南关大捷"
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "feng-zicai",
+      "type": "peer",
+      "note": "一主战于镇南关，一主和于天津，同在中法之局"
+    },
+    {
+      "source": "long-yu",
+      "target": "xuan-tong",
+      "type": "kin",
+      "note": "宣统即位，隆裕以太后听政而颁逊位之诏"
     }
   ],
   "events": [
@@ -1828,7 +2368,7 @@
       "kind": "point",
       "year": 1616,
       "people": [
-        "nurhaci"
+        "nu-er-ha-chi"
       ],
       "desc": "努尔哈赤统一女真诸部，建后金称大汗，创八旗、定满文，奠定清之基业。"
     },
@@ -1838,7 +2378,8 @@
       "kind": "point",
       "year": 1636,
       "people": [
-        "hong-taiji"
+        "hong-taiji",
+        "xiao-duan"
       ],
       "desc": "皇太极称帝，改族名满洲、国号大清，锐意南略，屡叩明边。"
     },
@@ -1874,7 +2415,8 @@
       "people": [
         "kang-xi",
         "wu-sangui",
-        "shang-kexi"
+        "shang-kexi",
+        "geng-jing-zhong"
       ],
       "desc": "吴三桂举兵，三藩乱起；康熙运筹决胜，历时八年平定，集权于中央。"
     },
@@ -1889,7 +2431,11 @@
         "yong-zheng",
         "qian-long",
         "zhang-tingyu",
-        "he-shen"
+        "he-shen",
+        "xiao-sheng",
+        "xiao-xian",
+        "a-gui",
+        "cao-xueqin"
       ],
       "desc": "康熙靖内、雍正肃政集权、乾隆十全武功；编《字典》、拓疆土、兴文字狱，史称盛世。"
     },
@@ -1902,7 +2448,8 @@
         "dao-guang",
         "lin-zexu",
         "guan-tianpei",
-        "chen-huacheng"
+        "chen-huacheng",
+        "mu-zhang-a"
       ],
       "desc": "林则徐虎门销烟，英舰叩关；关天培虎门殉国，清战败签《南京条约》，国门洞开。"
     },
@@ -1914,7 +2461,13 @@
       "endYear": 1864,
       "people": [
         "hong-xiuquan",
-        "zeng-guofan"
+        "zeng-guofan",
+        "xian-feng",
+        "hu-lin-yi",
+        "seng-ge-lin-qin",
+        "yang-xiu-qing",
+        "shi-da-kai",
+        "li-xiu-cheng"
       ],
       "desc": "洪秀全起事建号，席卷半壁；曾国藩湘军苦战，克天京而平，清廷元气大伤。"
     },
@@ -1940,7 +2493,8 @@
       "year": 1894,
       "people": [
         "deng-shichang",
-        "guang-xu"
+        "guang-xu",
+        "ding-ru-chang"
       ],
       "desc": "北洋水师与日决战黄海，邓世昌蹈海殉国；战后割台赔款，洋务受挫，举国震动。"
     },
@@ -1954,7 +2508,7 @@
         "kang-youwei",
         "liang-qichao",
         "tan-sitong",
-        "cixi"
+        "ci-xi"
       ],
       "desc": "光绪下诏维新，康有为等辅政行新政；百日而慈禧政变，谭嗣同等六君子死，帝被囚。"
     },
@@ -1965,44 +2519,213 @@
       "year": 1912,
       "people": [
         "yuan-shikai",
-        "xuan-tong"
+        "xuan-tong",
+        "long-yu"
       ],
       "desc": "武昌起义，各省响应；袁世凯逼宫，宣统退位，两千年帝制终结，清祚终。"
+    },
+    {
+      "id": "qing-jianzhou",
+      "name": "建州起兵 · 后金立国",
+      "kind": "span",
+      "year": 1583,
+      "people": [
+        "nu-er-ha-chi",
+        "xiao-ci",
+        "hong-taiji"
+      ],
+      "desc": "努尔哈赤以遗甲十三副起兵，次第并建州诸部；1588 年叶赫贝勒之女孟古来归，1592 年生皇太极，1616 年建国号金。",
+      "endYear": 1616
+    },
+    {
+      "id": "qing-taizubeng",
+      "name": "太祖崩 · 大妃殉",
+      "kind": "point",
+      "year": 1626,
+      "people": [
+        "nu-er-ha-chi",
+        "da-fei",
+        "hong-taiji"
+      ],
+      "desc": "努尔哈赤攻宁远受伤而崩，大妃乌喇纳喇氏次日殉；诸贝勒推皇太极嗣位。"
+    },
+    {
+      "id": "qing-shunzhi",
+      "name": "世祖入主 · 孝庄辅政",
+      "kind": "span",
+      "year": 1643,
+      "people": [
+        "fu-lin",
+        "xiao-zhuang",
+        "duo-er-gun",
+        "xiao-duan"
+      ],
+      "desc": "太宗猝崩，多尔衮辅立福临；明年入关定鼎北京。孝庄为皇太后，后尊太皇太后，历顺康两朝而无所干政之名。",
+      "endYear": 1661
+    },
+    {
+      "id": "qing-zhengtaiwan",
+      "name": "郑成功取台湾",
+      "kind": "point",
+      "year": 1662,
+      "people": [
+        "zheng-chenggong"
+      ],
+      "desc": "国姓爷自金门渡海，逐荷兰人而据台湾，改赤崁为东都；是年病卒，子经嗣立，奉明朔如故。"
+    },
+    {
+      "id": "qing-yimin",
+      "name": "明遗民之学",
+      "kind": "span",
+      "year": 1644,
+      "people": [
+        "gu-yanwu",
+        "huang-zongxi",
+        "wang-fuzhi"
+      ],
+      "desc": "甲申之后三人皆不仕：顾炎武讲经世之学，黄宗羲著《明夷待访录》，王夫之穷居于船山，清初学术自此三路分出。",
+      "endYear": 1695
+    },
+    {
+      "id": "qing-yongzheng",
+      "name": "雍正肃政 · 密建储位",
+      "kind": "span",
+      "year": 1723,
+      "people": [
+        "yong-zheng",
+        "xiao-gong",
+        "zhang-tingyu",
+        "nian-gengyao"
+      ],
+      "desc": "世宗继位而肃清吏治，设军机处、行密建储之法；张廷玉掌铨政，年羹尧平青海而终以骄诛。",
+      "endYear": 1735
+    },
+    {
+      "id": "qing-jiaqing",
+      "name": "诛和珅 · 白莲之役",
+      "kind": "point",
+      "year": 1799,
+      "people": [
+        "jia-qing",
+        "he-shen"
+      ],
+      "desc": "高宗崩，仁宗亲政即赐和珅死、籍其家；其时白莲教之役已历数年，川楚陕三省骚然。"
+    },
+    {
+      "id": "qing-jiadao",
+      "name": "嘉道之际 · 传位与国本",
+      "kind": "span",
+      "year": 1820,
+      "people": [
+        "jia-qing",
+        "xiao-he-rui",
+        "dao-guang",
+        "xiao-quan",
+        "mu-zhang-a"
+      ],
+      "desc": "仁宗暴崩于热河，孝和睿皇后传旨令宣宗嗣位；道光朝穆彰阿久柄政，主抚之议已成朝论。",
+      "endYear": 1850
+    },
+    {
+      "id": "qing-yingfa",
+      "name": "英法联军 · 圆明园之焚",
+      "kind": "span",
+      "year": 1856,
+      "people": [
+        "xian-feng",
+        "seng-ge-lin-qin",
+        "yi-xin"
+      ],
+      "desc": "英法联军北犯，僧格林沁马队败于八里桥，文宗奔热河；圆明园被焚，恭亲王留守议和。",
+      "endYear": 1860
+    },
+    {
+      "id": "qing-xinyou",
+      "name": "辛酉政变 · 两宫垂帘",
+      "kind": "point",
+      "year": 1861,
+      "people": [
+        "ci-xi",
+        "ci-an",
+        "yi-xin",
+        "su-shun",
+        "tong-zhi"
+      ],
+      "desc": "文宗崩于热河，两宫与恭亲王还京，捕肃顺等顾命八大臣；是年改元同治，垂帘之局自此始。"
+    },
+    {
+      "id": "qing-tongzhibeng",
+      "name": "同治亲政 · 帝后相继崩",
+      "kind": "span",
+      "year": 1873,
+      "people": [
+        "tong-zhi",
+        "xiao-zhe",
+        "ci-xi"
+      ],
+      "desc": "穆宗亲政未二年而崩，无嗣；皇后阿鲁特氏未几亦卒，慈禧择醇王之子载湉入承大统。",
+      "endYear": 1875
+    },
+    {
+      "id": "qing-zhongfa",
+      "name": "中法战争 · 镇南关大捷",
+      "kind": "point",
+      "year": 1885,
+      "people": [
+        "feng-zicai",
+        "li-hongzhang"
+      ],
+      "desc": "法军犯镇南关，老将冯子材率萃军大破之；而朝廷仍遣李鸿章议和，订《中法新约》。"
     }
   ],
   "views": [
     {
       "id": "overview",
       "name": "清全览",
-      "from": 1610,
-      "to": 1920,
-      "focus": "nurhaci",
-      "brief": "努尔哈赤起兵于白山黑水，皇太极改号大清；多尔衮借吴三桂入关，定鼎北京。康雍乾三世鼎盛，文治武功并隆；嘉道以降西力东渐，鸦片战火洞开国门。曾左李办洋务、剿太平，难挽倾颓；戊戌维新昙花一现，辛亥一击而清亡。"
+      "from": 1550,
+      "to": 1970,
+      "focus": "nu-er-ha-chi",
+      "brief": "努尔哈赤起兵于白山黑水，皇太极改号大清；多尔衮借吴三桂入关，定鼎北京。康雍乾三世鼎盛，文治武功并隆；嘉道以降西力东渐，鸦片战火洞开国门。曾左李办洋务、剿太平，难挽倾颓；戊戌维新昙花一现，辛亥一击而清亡。退位之后并不即断：溥仪的一条独延到 1967，康、梁两条收在 1927 与 1929。"
     },
     {
       "id": "kai",
       "name": "开国与入关",
-      "from": 1610,
+      "from": 1550,
       "to": 1690,
-      "focus": "nurhaci",
+      "focus": "nu-er-ha-chi",
       "people": [
-        "nurhaci",
+        "nu-er-ha-chi",
         "hong-taiji",
         "fu-lin",
         "duo-er-gun",
         "wu-sangui",
         "kang-xi",
         "ao-bai",
-        "shi-lang"
+        "shi-lang",
+        "xiao-ci",
+        "da-fei",
+        "fan-wencheng",
+        "xiao-duan",
+        "xiao-zhuang",
+        "zheng-chenggong",
+        "gu-yanwu",
+        "huang-zongxi",
+        "wang-fuzhi",
+        "geng-jing-zhong"
       ],
       "events": [
         "qing-houjin",
         "qing-gaiguo",
         "qing-ruguan",
         "qing-taiwan",
-        "qing-sanfan"
+        "qing-sanfan",
+        "qing-jianzhou",
+        "qing-taizubeng",
+        "qing-shunzhi",
+        "qing-zhengtaiwan",
+        "qing-yimin"
       ],
-      "brief": "从后金立国到康熙平藩：努尔哈赤奠基、皇太极建制、多尔衮入关，吴三桂一役定鼎易主；少年康熙擒鳌拜、收台湾、平三藩，开一代之盛。"
+      "brief": "自 1559 年努尔哈赤之生起笔，一条长横先铺过建州诸部；后金立国、改号大清、多尔衮入关次第落在其上，吴三桂一役定鼎易主。少年康熙擒鳌拜、收台湾、平三藩，开一代之盛。"
     },
     {
       "id": "sheng",
@@ -2016,18 +2739,47 @@
         "qian-long",
         "zhang-tingyu",
         "he-shen",
-        "nian-gengyao"
+        "nian-gengyao",
+        "xiao-gong",
+        "xiao-sheng",
+        "xiao-xian",
+        "e-er-tai",
+        "fu-heng",
+        "liu-tongxun",
+        "a-gui",
+        "cao-xueqin"
       ],
       "events": [
-        "qing-kangyongqian"
+        "qing-kangyongqian",
+        "qing-yongzheng"
       ],
       "brief": "康熙亲政、雍正肃贪集权、乾隆十全武功；张廷玉配享太庙，和珅揽权埋患。文字狱与编书并行，盛世之下隐忧已生。"
+    },
+    {
+      "id": "shuai",
+      "name": "嘉道中衰",
+      "from": 1780,
+      "to": 1850,
+      "focus": "jia-qing",
+      "brief": "这一窗接住盛世的尾巴：嘉庆亲政即诛和珅，白莲一役拖了十年；仁宗暴崩于热河，孝和睿皇后传旨定宣宗嗣位。道光朝穆彰阿久柄政，主抚之论已成朝论，而海上的事已经起头。",
+      "people": [
+        "jia-qing",
+        "he-shen",
+        "xiao-he-rui",
+        "dao-guang",
+        "xiao-quan",
+        "mu-zhang-a"
+      ],
+      "events": [
+        "qing-jiaqing",
+        "qing-jiadao"
+      ]
     },
     {
       "id": "bian",
       "name": "晚清变局",
       "from": 1830,
-      "to": 1920,
+      "to": 1970,
       "focus": "dao-guang",
       "people": [
         "dao-guang",
@@ -2040,13 +2792,25 @@
         "zuo-zongtang",
         "zhang-zhidong",
         "guang-xu",
-        "cixi",
+        "ci-xi",
         "kang-youwei",
         "liang-qichao",
         "tan-sitong",
         "deng-shichang",
         "yuan-shikai",
-        "xuan-tong"
+        "xuan-tong",
+        "ci-an",
+        "xiao-zhe",
+        "long-yu",
+        "su-shun",
+        "seng-ge-lin-qin",
+        "hu-lin-yi",
+        "ding-ru-chang",
+        "feng-zicai",
+        "yang-xiu-qing",
+        "shi-da-kai",
+        "li-xiu-cheng",
+        "xian-feng"
       ],
       "events": [
         "qing-yapian",
@@ -2054,9 +2818,13 @@
         "qing-yangwu",
         "qing-jiawu",
         "qing-wuxu",
-        "qing-xinhai"
+        "qing-xinhai",
+        "qing-yingfa",
+        "qing-xinyou",
+        "qing-tongzhibeng",
+        "qing-zhongfa"
       ],
-      "brief": "鸦片战火开局，太平天国撼基；曾左李以洋务图强，甲午一败涂地。戊戌维新遇慈禧政变，辛亥枪响、袁世凯逼宫，宣统退位，帝制落幕。"
+      "brief": "鸦片战火开局，太平天国撼基；曾左李以洋务图强，甲午一败涂地。戊戌维新遇慈禧政变，辛亥枪响、袁世凯逼宫，宣统退位，帝制落幕。此后只剩三条尾巴：康、梁止于 1927、1929，溥仪一条拖到 1967。"
     }
   ]
 }

@@ -1,0 +1,2368 @@
+{
+  "contractVersion": 1,
+  "meta": {
+    "id": "wudai",
+    "title": "五代十国",
+    "subtitle": "从朱温代唐到纳土归宋 · 公元 907 — 979",
+    "range": [
+      907,
+      979
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "五代帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "shiguo",
+      "name": "十国君主",
+      "color": "#8a5a44"
+    },
+    {
+      "id": "chancellor",
+      "name": "宰辅 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "将帅 · 武力",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "文学 · 艺术",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "khitan",
+      "name": "契丹 · 北疆",
+      "color": "#8f4a55"
+    },
+    {
+      "id": "end",
+      "name": "禅代 · 归宋",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "zhu-wen",
+      "name": "朱温",
+      "display": "朱温",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 852,
+      "death": 912,
+      "title": "后梁太祖，本黄巢将，代唐而建梁",
+      "bio": "宋州砀山午沟里人，父诚为经学教授。少孤贫，佣食萧县，后从黄巢，巢势衰遂降唐，赐名全忠，为宣武节度使，据汴州。天祐元年挟昭宗迁洛，弑之而立哀帝，四年受禅，国号梁，改名晃。既而猜忌日甚，乾化二年为其子友珪所弑于寝殿，年六十一。唐祚二百八十九年，亡于其手。",
+      "tags": [
+        "唐",
+        "五代",
+        "亡唐"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang",
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-yougui",
+      "name": "朱友珪",
+      "display": "朱友珪",
+      "lane": "emperor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 912,
+      "title": "弑父自立，凤历改元而败",
+      "bio": "朱温次子，贱生而温所怜。温谋传位养子博王友文，友珪惧，乾化元年与韩勍等夜直禁中，行弑于寝殿，矫诏杀友文而自立，改元凤历。在位数月，猜防将士。凤历元年，友贞合宣武之兵入汴，友珪自杀。",
+      "tags": [
+        "五代",
+        "后梁"
+      ],
+      "categories": [
+        "monarch",
+        "rebel"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-zhen",
+      "name": "朱瑱",
+      "display": "后梁末帝",
+      "lane": "emperor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 923,
+      "title": "后梁末帝，汴城死社稷",
+      "bio": "朱温第四子，初名友贞，后单名瑱。乾化二年合禁军诛友珪自立，宠信赵岩、张汉杰，疏远宗室，大将疑贰。龙德三年唐师压境，汴州援绝，谓皇甫麟曰\"吾不为唐俘\"，令其杀己，梁亡。",
+      "tags": [
+        "五代",
+        "后梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-ke-yong",
+      "name": "李克用",
+      "display": "李克用",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 856,
+      "death": 908,
+      "title": "河东节度使，沙陀鸦儿军，晋王",
+      "bio": "本姓朱耶，沙陀人，父朱邪赤心赐姓李。一目微眇，时号独眼龙，所将鸦儿军皆衣黑。中和三年率沙陀兵入关中，破黄巢于梁田陂，为收复京师第一功，授河东节度使。与朱温为仇，终身不解。天祐五年卒于太原，年五十三，子存勖后灭梁建唐。",
+      "tags": [
+        "唐",
+        "五代",
+        "沙陀"
+      ],
+      "categories": [
+        "general",
+        "warlord"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang",
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 885,
+      "death": 926,
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-siyuan",
+      "name": "李嗣源",
+      "display": "后唐明宗",
+      "lane": "emperor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 867,
+      "death": 933,
+      "title": "后唐明宗，起于乱军，粗致小康",
+      "bio": "沙陀人，事李克用为骑将，斗绝一隅，战功居最，庄宗以为蕃汉内外马步副总管。同光四年从思乱之兵入洛监国，旋即位。性俭素不识字，每登殿祝曰\"某蕃人，中原不可理，愿天生圣人，为百姓主子\"；诛聚敛之臣，省事息兵，年谷粗登，中土小安。末年秦王争立，忧愤而崩。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-conghou",
+      "name": "李从厚",
+      "display": "唐闵帝",
+      "lane": "emperor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 912,
+      "death": 934,
+      "title": "闵帝少年立位，五月而奔",
+      "bio": "明宗第三子，长兴四年即位，年十八，柄在枢近。应顺元年疑李从珂，移镇不成，凤翔兵起，东奔卫州，为从珂所执，寻遇弑。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-congke",
+      "name": "李从珂",
+      "display": "唐废帝",
+      "lane": "emperor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 937,
+      "title": "后唐废帝，玄武楼自焚",
+      "bio": "镇州所掠孺子，本姓王，明宗爱之以为子，从征伐有勇名。闵帝立，惧不见容，起兵入洛自立。以石敬瑭肘腋之患致兵河东，契丹主德光来援，晋阳兵入洛，从珂携传国宝登玄武楼自焚，后唐亡。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-jingtang",
+      "name": "石敬瑭",
+      "display": "后晋高祖",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 892,
+      "death": 942,
+      "title": "后晋高祖，割燕云称儿皇帝",
+      "bio": "沙陀人，事明宗为子婿，谨愿善骑射，佐唐伐梁，位至河东节度使、中书令。废帝疑之，举兵太原，表称臣于契丹，请割卢龙雁门以北，德光自将来援，天显十一年立晋，迁都汴。六年之中仰事契丹，疽发背而殂。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-chonggui",
+      "name": "石重贵",
+      "display": "晋出帝",
+      "lane": "emperor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 914,
+      "death": 974,
+      "title": "出帝北迁，封负义侯",
+      "bio": "敬瑭兄子，养以为子。天福七年即位，用景延广议，与契丹称孙而不称臣，德光大怒，三度南攻。开运三年杜重威举大军降，德光入汴，晋亡；举族北迁黄龙府，封负义侯，在虏庭二十七年而卒。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zhiyuan",
+      "name": "刘知远",
+      "display": "后汉高祖",
+      "lane": "emperor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 948,
+      "title": "后汉高祖，乘契丹北归取中原",
+      "bio": "本名暠，沙陀部人，与石敬瑭同为明宗腹心，位至河东节度使、北京留守。契丹迁德光北去，中原无主，知远据太原称汉，乘隙入汴，悉收故地。在位一年而崩。",
+      "tags": [
+        "五代",
+        "后汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-chengyou",
+      "name": "刘承祐",
+      "display": "后汉隐帝",
+      "lane": "emperor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 951,
+      "title": "隐帝诛顾命之臣，变起汴北",
+      "bio": "知远之子，乾祐元年即位，年十八。不能制杨邠、史弘肇、王章诸辅政大臣，一夕族诛之，并及其家郭威。威举兵邺都，师次汴北，出战封禅寺，为麾下亲军所杀，后汉亡。",
+      "tags": [
+        "五代",
+        "后汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guo-wei",
+      "name": "郭威",
+      "display": "后周太祖",
+      "lane": "emperor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 904,
+      "death": 954,
+      "title": "后周太祖，黄袍加身之先例",
+      "bio": "邢州尧山人，字文仲。少孤贫，颈有飞雀之刺，人号郭雀儿，应募为卒。事汉高祖，佐命典禁兵。隐帝诛其家属，遂举兵入汴，先立刘贇、显德元年自取代，国号周。即位崇节俭，罢方镇进奉，修刑法。卒于位，陈桥之师其所启也。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chai-rong",
+      "name": "柴荣",
+      "display": "周世宗",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 921,
+      "death": 959,
+      "title": "周世宗，以十年开拓天下",
+      "bio": "邢州龙冈人，姑婿郭威无子，以为后，初名郭荣。显德元年即位，高平亲犯矢石破北汉。自期\"以十年开拓天下，十年养百姓，十年致太平\"：疏汴渠、均田赋、简练禁军；三征南唐取淮南十四州，北征四十日下燕南三关三州。六年病殂，年三十九，宋太祖受其成。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chai-zongxun",
+      "name": "柴宗训",
+      "display": "周恭帝",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 953,
+      "death": 973,
+      "title": "恭帝冲龄禅位，封郑王",
+      "bio": "世宗之子，显德六年即位，年七岁。殿前都点检赵匡胤北征次陈桥驿，军变返旆，禅位。宋待以客礼，封郑王。开宝六年殂，年二十，葬嵩陵。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-xingmi",
+      "name": "杨行密",
+      "display": "吴王杨行密",
+      "lane": "shiguo",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 852,
+      "death": 905,
+      "title": "吴太祖杨行密，起于淮右据淮南",
+      "bio": "庐州合肥人。唐末起兵为本州小将，与徐温同事孙儒；儒败，据广陵，招合散亡。景福中拒朱温庞师古于清口，尽得淮南，累官中书门下平章事，封吴王，天祐二年卒。宽租赋、息民政，吴国之基焉。",
+      "tags": [
+        "十国",
+        "吴"
+      ],
+      "categories": [
+        "warlord",
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-bian",
+      "name": "李昪",
+      "display": "南唐烈祖",
+      "lane": "shiguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 888,
+      "death": 943,
+      "title": "南唐烈祖，复姓承唐，保境安民",
+      "bio": "徐州人，字正伦。唐末丧乱为行密所掠，行密不养，赐温为子，名徐知诰。温卒代秉吴政，封齐王。升元元年受吴禅，复姓李，托言唐室之后，国号唐，都金陵。性俭惠，辇毂之下军政粗修；晚饵金石，躁疾而殂。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-jing-916",
+      "name": "李璟",
+      "display": "南唐元宗",
+      "lane": "shiguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 916,
+      "death": 961,
+      "title": "南唐中主，失淮南，徙洪京",
+      "bio": "初名景通，烈祖长子。升元七年即位，改璟。乘闽楚之乱拓地数千里，旋复尽失；显德中周世宗三征淮南，紫金山一战丧师，尽献江北十四州，去帝号称国主，岁奉金帛巨万。内不能用韩熙载、林仁肇之谋，郁郁徙都洪州，交泰元年殂。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "monarch",
+        "literature"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-yu-937",
+      "name": "李煜",
+      "display": "南唐后主",
+      "lane": "shiguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 937,
+      "death": 978,
+      "title": "词帝李后主，问君能有几多愁",
+      "bio": "元宗之子，字重光，号钟隐。以兄竞立得嗣位。奉宋正朔而不时遣，宋师围金陵三年，城陷被执，至汴封违命侯。书画文辞风流直前，以困厄而词境始大，\"问君能有几多愁\"之叹传千古。太平兴国三年七夕卒。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "monarch",
+        "poetry",
+        "literature"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-jian-918",
+      "name": "王建",
+      "display": "前蜀高祖",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 918,
+      "title": "前蜀高祖，起于无赖而有两川",
+      "bio": "许州舞阳人。唐末无赖，以屠牛盗驴为业，黥面配忠武军；随军入蜀，累功为将。光启中乘乱进据阆州，攻顾彦朗兄弟并东川，乾宁中拜西川节度使，两川有全。唐亡不受梁命，天祐四年称帝，国号蜀，都成都。天汉元年殂，子衍立，同光三年后唐灭前蜀。",
+      "tags": [
+        "十国",
+        "前蜀"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-zhixiang",
+      "name": "孟知祥",
+      "display": "后蜀高祖",
+      "lane": "shiguo",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 874,
+      "death": 934,
+      "title": "后蜀高祖，以留后而帝西川",
+      "bio": "邢州龙冈人，李克用之婿。庄宗灭蜀，以为西川行营招抚使，既入蜀，收用故将，恩威并行，渐成割据。同光之乱不复问中原，明宗不能制，累封蜀王。长兴末即皇帝位，未几而崩。",
+      "tags": [
+        "十国",
+        "后蜀"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-chang",
+      "name": "孟昶",
+      "display": "后蜀后主",
+      "lane": "shiguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 919,
+      "death": 965,
+      "title": "后蜀后主，芙蓉锦城，桃符留句",
+      "bio": "知祥之子，嗣位逾四十年。初政恭俭，有小国之治；后期奢纵，罗城尽种芙蓉，七宝楼船之盛甲于诸国，亲书桃符\"新年纳余庆，嘉节号长春\"，为后世春联之祖。广政二十七年宋师入，不战而降，至汴七日而卒。",
+      "tags": [
+        "十国",
+        "后蜀"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-yin",
+      "name": "马殷",
+      "display": "楚武穆王",
+      "lane": "shiguo",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 852,
+      "death": 930,
+      "title": "楚王马殷，听高郁之策而富一境",
+      "bio": "许州鄢陵人。少为牙兵，从孙儒；儒败，与刘建锋收残卒入湖南，建锋为部下所杀，众推殷权军府。北奉中原、西和荆蜀、东拒杨吴，据潭州累封楚王。用高郁策，听民市茶于西北以易战马，铸铅铁钱行于境内，国用富饶。晚年诸子交争，郁郁而殂。",
+      "tags": [
+        "十国",
+        "楚"
+      ],
+      "categories": [
+        "warlord",
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qian-liu",
+      "name": "钱镠",
+      "display": "吴越武肃王",
+      "lane": "shiguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 852,
+      "death": 932,
+      "title": "吴越武肃王，善事中原",
+      "bio": "杭州临安人，字具美，少贩私盐，拳勇有气。从董昌破刘汉宏，代镇两浙，唐赐越王，梁封吴王、吴越王。筑罗城、立捍海塘，射潮之说传焉；保境息民，累世尊奉中国。临终以\"善事中国\"为遗训，龙启元年卒，年八十一。",
+      "tags": [
+        "十国",
+        "吴越"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "vassal"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qian-hongchu",
+      "name": "钱弘俶",
+      "display": "吴越忠懿王",
+      "lane": "shiguo",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 929,
+      "death": 988,
+      "title": "忠懿王纳土归宋，封邓王",
+      "bio": "文穆王九子。嗣位后事奉中国，避宋讳去\"弘\"单名俶。佐宋下常、润，拒南唐之援。太平兴国三年入朝，上版籍十三州、民五十五万户，纳土归宋，封淮海国王、邓王。端拱元年暴卒，议者疑焉。",
+      "tags": [
+        "十国",
+        "吴越"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yan",
+      "name": "刘龑",
+      "display": "南汉高祖",
+      "lane": "shiguo",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 889,
+      "death": 942,
+      "title": "南汉高祖，僭号岭南",
+      "bio": "封州人。兄隐仕唐为清海留后，隐卒代之，袭封南海王。据有岭南，乾亨元年即皇帝位，初号大越，旋改汉。造\"龑\"字名己，取\"飞龙在天\"之义；每接待邻使，张宫室、具珍宝以夸之。用法深刻，设汤镬铁床之刑。在位二十四年卒。",
+      "tags": [
+        "十国",
+        "南汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-chang",
+      "name": "刘鋹",
+      "display": "南汉后主",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 980,
+      "title": "南汉亡国之君，火舰不效而降",
+      "bio": "中主刘晟之子，宝十三年嗣位。任阉臣龚澄枢、女官梁鸾儿辈，自谓群臣皆顾家不可信，故其臣多宦者。宋潘美克贺州、广州，火舰之策不效，衔榇出降，迁汴，封恩赦侯。太平兴国五年卒。",
+      "tags": [
+        "十国",
+        "南汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ren-gong",
+      "name": "刘仁恭",
+      "display": "刘仁恭",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 913,
+      "title": "卢龙刘仁恭，借晋兵而有幽州",
+      "bio": "深州人，事范阳为牙将。唐末幽州兵乱，奔太原，借晋王兵取卢龙，遂背晋附梁。僭据一方，筑楼玉帐穷极奢丽，岁点民丁，自言\"居此地，食物足给\"；为子守光所囚，晋兵克幽州，执送太原斩之。",
+      "tags": [
+        "十国",
+        "燕"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-shou-guang",
+      "name": "刘守光",
+      "display": "刘守光",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 914,
+      "title": "幽州僭号，桀燕速亡",
+      "bio": "仁恭孽子，先事晋以求归，已而囚父自立，残虐自恣，杀谏者、绝邻好，屡与晋战，幽州被围经年。乾化中自称燕帝，改元应天，史呼\"桀燕\"。城破出走被擒，送太原，与父同伏诛。",
+      "tags": [
+        "十国",
+        "燕"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "rebel"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-ji-xing",
+      "name": "高季兴",
+      "display": "南平武信王",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 928,
+      "title": "高季兴\"高赖子\"，扼十国往来",
+      "bio": "硖石人，本名季昌，避庄宗祖讳改兴。少从朱温，温使主荆南。梁、唐与南方诸国之间，往来称臣、乘间掠其贡使，诸国侧目，号\"高赖子\"。庄宗平蜀因请自效，仍领三州，同光末受南平王封，阖门自守而终。",
+      "tags": [
+        "十国",
+        "南平"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "vassal"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-baozheng",
+      "name": "高保正",
+      "display": "南平王高保正",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 962,
+      "title": "保正摄政，仅守荆南之祀",
+      "bio": "文献王高从诲之子、怀王保融之弟。保融病，以国事属之；及保融卒，侄保勗尚幼，保正摄政逾年，建隆三年疾笃，国事复归保勗。荆南数主相及，仅守三州。",
+      "tags": [
+        "十国",
+        "南平"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-chong",
+      "name": "刘崇",
+      "display": "北汉世祖",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 954,
+      "title": "北汉世祖，据晋阳立汉祀",
+      "bio": "太原人，汉高祖知远之弟。郭威代汉，崇据河东即位于晋阳，避隐帝讳改名旻，国仍号汉，史称北汉。北称臣于契丹，约为父子之国；高平之战大败，太原之众尽丧，忧愤而殂。",
+      "tags": [
+        "十国",
+        "北汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-chengjun",
+      "name": "刘承钧",
+      "display": "北汉睿宗",
+      "lane": "shiguo",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 968,
+      "title": "北汉主承钧，慎守父业",
+      "bio": "刘崇之子。嗣位后去\"承\"字单名钧，事契丹愈恭，拒周宋之师；太原城小而兵不可轻，国困而能守。开宝元年卒，养子继文嗣立，北汉之亡兆见焉。",
+      "tags": [
+        "十国",
+        "北汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-dao",
+      "name": "冯道",
+      "display": "冯道",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 882,
+      "death": 954,
+      "title": "相五朝之长乐老",
+      "bio": "景城人，自号长乐老。少纯俭，历唐晋汉周四朝、相五代君主，出入三十余年，未尝以易姓为耻。契丹入汴，道在行在，德光礼之。主刻九经于国子监，板本经籍自此始。著《长乐老自叙》，欧阳修讥其\"不知廉耻\"。周世宗以佐命宿德加殊礼，显德元年卒。",
+      "tags": [
+        "五代"
+      ],
+      "categories": [
+        "chancellor",
+        "minister"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "he-ning",
+      "name": "和凝",
+      "display": "和凝",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 898,
+      "death": 955,
+      "title": "曲子相公",
+      "bio": "郓州须昌人。年十三登第，历唐晋汉周，掌诰命，后汉拜右仆射同平章事，周初封鲁国公。好为短歌艳曲，汴京传唱，号\"曲子相公\"；在朝多所平恕，以疑狱活人。显德二年卒。",
+      "tags": [
+        "五代"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "poetry"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-xu",
+      "name": "刘昫",
+      "display": "刘昫",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 946,
+      "title": "《唐书》监修",
+      "bio": "涿州人。历梁唐晋三朝，以文辞掌诰命，开运中拜中书侍郎同平章事。天福末监修《唐书》二百卷，世所称《旧唐书》是也；在位循默，无大建明，开运末罢相，忧卒。",
+      "tags": [
+        "五代"
+      ],
+      "categories": [
+        "chancellor",
+        "historian"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-pu-906",
+      "name": "王朴",
+      "display": "王朴（后周）",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 906,
+      "death": 954,
+      "title": "《平边策》定一统之序",
+      "bio": "澶州东屏人。举晋开运进士，仕汉不偶，世宗镇澶渊辟掌书记。及即位擢枢密使，上《平边策》：先取江南，次并南汉南蜀，而燕云传檄可定，一天下之序具焉。东京罗郭、雅乐乐律多出其手。显德元年以病卒，世宗痛惜之。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "chancellor",
+        "strategist"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-pu",
+      "name": "王溥",
+      "display": "王溥",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 922,
+      "death": 982,
+      "title": "周宋之际的枢相，《五代会要》作者",
+      "bio": "后周宰相，入宋留任十二年，监修国史。撰《五代会要》《唐会要》，存五代典章。太平兴国七年卒，年六十一。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai",
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-zhi",
+      "name": "范质",
+      "display": "范质",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 911,
+      "death": 964,
+      "title": "后周旧相，宋初首位首相",
+      "bio": "后周时任相，陈桥禅代后留任，与赵普共定国初制度。为人廉介，临终戒子孙勿请谥立碑。乾德二年卒，年五十四。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai",
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-renpu",
+      "name": "魏仁浦",
+      "display": "魏仁浦",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 911,
+      "death": 969,
+      "title": "由小吏至宰相的周旧臣",
+      "bio": "少为刀笔吏，以材干显于后周，参预枢密。入宋仍相，从征太原，道病卒于梁侯驿，年五十九。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai",
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-wen",
+      "name": "徐温",
+      "display": "徐温",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 927,
+      "title": "吴国之真主，知诰因之以有国",
+      "bio": "海州人，与杨行密同里起兵。行密晚年猜诛旧将，温与张颢矫命诛朱瑾，已而斩颢，独秉吴政，自号都知兵马使，出镇金陵而养子知诰居内用事。立行密诸子为傀儡，年号顺义皆其所建，天成二年卒于升州。",
+      "tags": [
+        "十国",
+        "吴"
+      ],
+      "categories": [
+        "regent",
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "song-qi-qiu",
+      "name": "宋齐丘",
+      "display": "宋齐丘",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 959,
+      "title": "九一先生，江左之党魁",
+      "bio": "豫章人，自号九一先生。佐烈祖有定国之谋，元宗朝再秉政，累拜右仆射同平章事。阴结陈觉、李德明、冯延巳辈更相倾附，号其党为\"五鬼\"，国是遂乱。建州败后赐归青阳，寻复召入相，以寿终。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "strategist",
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-xizai",
+      "name": "韩熙载",
+      "display": "韩熙载",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 902,
+      "death": 970,
+      "title": "夜宴图里的北望人",
+      "bio": "潍州北海人，字叔通。少负才名，北人南奔者推为冠，献策请取中原，元宗不能用。久掌诰命，屡历大任而坐党；后主朝纵酒自晦，帝欲相之，遣顾闳中夜宴图察其放达，卒不予相。开宝三年卒。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "minister",
+        "literature"
+      ],
+      "primary": "minister",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-congbai",
+      "name": "李从善",
+      "display": "李从善",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 978,
+      "title": "江南之弟，入宋不遣",
+      "bio": "元宗之子，后主母弟。开宝中奉使入宋，留不遣，遥领泰平军节度、丹阳郡开国公。金陵城破，兄弟复相见于汴，郁郁而卒。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-cunxiao",
+      "name": "李存孝",
+      "display": "李存孝",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 894,
+      "title": "十三太保第一，车裂于晋阳",
+      "bio": "本姓安，号飞虎儿，代北人，李克用养子，十三太保之最勇者。战无不前，以独当一面自任。与李存信争宠惧诛，举邢、洺叛附于梁，城破就执，叩诉于克用，不答，车裂于晋阳。",
+      "tags": [
+        "五代"
+      ],
+      "categories": [
+        "general",
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang",
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhou-dewei",
+      "name": "周德威",
+      "display": "周德威",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 926,
+      "title": "柏乡却梁，多计持重",
+      "bio": "朔州马邑人，事晋王为骑将，沉勇多计。柏乡之战以逸待劳破梁将王景仁，数谏庄宗缓河北之师。将二十年燕地之谋，胡柳之败几危晋阳。同光四年镇州兵变中为乱军所害。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guo-congqian",
+      "name": "郭从谦",
+      "display": "郭从谦",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 926,
+      "title": "兴教门之变的伶人",
+      "bio": "幼隶伶官，艺名镜新，事庄宗为行城使，所部号从马直。庄宗末，从谦与其党谋乱，兴教门一夕纵火行弑。明宗入立，族诛之。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-du",
+      "name": "王都",
+      "display": "王都",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 924,
+      "title": "据常山再叛，举族自焚",
+      "bio": "王处存养子，本姓刘。处存死，掩有常山，再为节度使。庄宗平梁，欲移镇易定，辞疾不受命，举叛，重赂契丹入寇为援。王师攻围经年，城破，举族聚宝库自焚。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-chongwei",
+      "name": "杜重威",
+      "display": "杜重威",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 950,
+      "title": "中渡之降，倾晋二十万之众",
+      "bio": "石氏之甥婿，故位将相。开运末总大军御契丹，顿军都林，粮尽先遣请和，至中渡，举军而降，引德光入汴，晋亡由成。汉初归命，寻以邠州叛，伏诛。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-tong",
+      "name": "韩通",
+      "display": "韩通",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 960,
+      "title": "陈桥之变中殉周的侍卫副帅",
+      "bio": "后周侍卫马步军副都指挥使。陈桥兵变，通自内奔出欲拒，为王彦升所杀，满门同殉。太祖赠中书令，以葬礼旌其忠。",
+      "tags": [
+        "后周"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-aineng",
+      "name": "樊爱能",
+      "display": "樊爱能",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 954,
+      "title": "高平先遁之诛",
+      "bio": "从周太祖有佐命功，历步军、骑军都指挥使。显德元年北汉刘崇犯潞州，战于高平，爱能、何徽二将先遁，右军遂却。世宗亲犯矢石力战而克，还营按诛，由是军威大振。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "general",
+        "falling"
+      ],
+      "primary": "general",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "he-hui",
+      "name": "何徽",
+      "display": "何徽",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 954,
+      "title": "高平先遁之诛",
+      "bio": "并州人。事后汉至控鹤左厢都指挥使，周初历房州、延州。从高平之役，与樊爱能弃阵先奔，并其部曲之遁者，世宗并按军法斩之。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "general",
+        "falling"
+      ],
+      "primary": "general",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guan-xiu",
+      "name": "贯休",
+      "display": "贯休",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 832,
+      "death": 912,
+      "title": "禅月大师，十六罗汉图",
+      "bio": "婺州兰溪人，俗姓姜，字德隐。七岁出家，苦节峻行，诗格入神。谒钱镠\"满堂花醉三千客，一剑霜寒十四州\"，镠令改\"十四州\"为\"一州\"，不肯。昭宗赐号禅月大师。晚入蜀依王建，已而归于吴越，画金碧山水、罗汉十六帧。《禅月集》行世。",
+      "tags": [
+        "诗僧"
+      ],
+      "categories": [
+        "poetry",
+        "painting",
+        "buddhism"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "tang",
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-yansi",
+      "name": "冯延巳",
+      "display": "冯延巳",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 903,
+      "death": 960,
+      "title": "吹皱一池春水，开北宋一代风气",
+      "bio": "广陵人，字正中。少与元宗游处，及即位累拜右仆射同平章事，出镇洪州、再入相。辩说纵横，竞权于宋齐丘之党。其词深婉开宕，中主戏曰\"吹皱一池春水，干卿何事\"；晏殊、欧阳修辈皆祖其体。建隆初卒。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "literature",
+        "poetry",
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-guangxian",
+      "name": "孙光宪",
+      "display": "孙光宪",
+      "lane": "literati",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 968,
+      "title": "《北梦琐言》，纪唐末五代遗闻",
+      "bio": "陵州贵平人，自号葆光子。家富藏书，世居荆南为记室，劝高从诲去王号、通中国。宋初佐荆南向顺，授黄州判官，卒于江表。撰《北梦琐言》五十卷，纪唐末五代遗闻，资《通鉴》采取者甚众。",
+      "tags": [
+        "十国",
+        "南平"
+      ],
+      "categories": [
+        "literature",
+        "historian"
+      ],
+      "primary": "literature",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yelv-abaoji",
+      "name": "耶律阿保机",
+      "display": "辽太祖",
+      "lane": "khitan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 872,
+      "death": 926,
+      "title": "契丹之君，并八部而建辽基",
+      "bio": "契丹迭剌部酋裔。唐末八部争立，阿保机并兼之，筑城置邑，用韩延徽、康默记辈正君臣、定耦耕，制契丹大字。东灭渤海，西服奚霫；与晋王李克用云州会盟约为兄弟，已而背盟取山北，与梁联好。天显元年建国号契丹，旋殂于扶余城。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "lane": "khitan",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 902,
+      "death": 947,
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 927,
+      "death": 976,
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-guangyi",
+      "name": "赵光义",
+      "display": "赵光义",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 939,
+      "death": 997,
+      "title": "宋太宗，完成一统",
+      "bio": "太祖之弟，即位后灭北汉，结束五代十国分裂；两度北伐契丹失利，自此守内虚外。留心文治，扩大科举。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-pu",
+      "name": "赵普",
+      "display": "赵普",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 922,
+      "death": 992,
+      "title": "开国首相，半部论语治天下",
+      "bio": "幽州蓟人，佐太祖定天下，谋陈桥、定杯酒释兵权。三入中书，言「以半部《论语》佐太祖定天下」，为宋初典制奠基。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor",
+        "founding"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai",
+        "song"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-yun",
+      "name": "李筠",
+      "display": "李筠",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 964,
+      "deathNote": "建隆四年即乾德元年（964）。",
+      "title": "首举反旗的昭义节度使",
+      "bio": "后周潞州节度使，太祖受禅，筠泣周主画像起兵，连北汉攻泽州。建隆四年六月自焚死。",
+      "tags": [
+        "后周",
+        "宋"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-chongjin",
+      "name": "李重进",
+      "display": "李重进",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 965,
+      "deathNote": "建隆二年（961）十月城破自焚；卒系年从《宋史·本纪》。",
+      "title": "起兵扬州的周室懿亲",
+      "bio": "郭威外甥，后周侍卫亲军都指挥使。太祖徙其镇青州，重进举兵扬州，建隆二年十月城破自焚死。",
+      "tags": [
+        "后周",
+        "宋"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 争夺",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ke-yong",
+      "target": "li-cunxu",
+      "type": "kin",
+      "note": "父子，晋王之位与三矢之誓所传"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "li-cunxiao",
+      "type": "kin",
+      "note": "养子，十三太保之勇，终以叛诛"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "yelv-abaoji",
+      "type": "rival",
+      "note": "云州会盟约为兄弟，已而契丹附梁"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "li-ke-yong",
+      "type": "rival",
+      "note": "上源驿之祸，梁晋世仇"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "zhu-yougui",
+      "type": "kin",
+      "note": "父子，寝殿之变所由生"
+    },
+    {
+      "source": "zhu-yougui",
+      "target": "zhu-zhen",
+      "type": "rival",
+      "note": "兄弟相图，宣武兵入而珪死"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "zhu-zhen",
+      "type": "rival",
+      "note": "夹河决战十余年，存勖灭朱"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "zhou-dewei",
+      "type": "ruler-subject",
+      "note": "柏乡却梁，唐之宿将"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "guo-congqian",
+      "type": "rival",
+      "note": "伶人宠将，兴教门弑逆"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "li-cunxu",
+      "type": "rival",
+      "note": "从马直之乱，兄弟兵争而得位"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "li-conghou",
+      "type": "kin",
+      "note": "父子，闵帝立而失驭"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "li-congke",
+      "type": "kin",
+      "note": "养子，反戈相向而覆其家"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "shi-jingtang",
+      "type": "kin",
+      "note": "子婿与腹心，晋阳之变由此起"
+    },
+    {
+      "source": "li-congke",
+      "target": "shi-jingtang",
+      "type": "rival",
+      "note": "太原举兵，引契丹灭唐"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "note": "称儿皇帝，父事契丹"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "shi-chonggui",
+      "type": "kin",
+      "note": "兄子为养子，出帝继晋"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "du-chongwei",
+      "type": "kin",
+      "note": "甥婿相维，将相之位由亲而得"
+    },
+    {
+      "source": "shi-chonggui",
+      "target": "du-chongwei",
+      "type": "ruler-subject",
+      "note": "总大军御边，中渡先降"
+    },
+    {
+      "source": "shi-chonggui",
+      "target": "yelv-deguang",
+      "type": "rival",
+      "note": "称孙不称臣，三度受伐"
+    },
+    {
+      "source": "du-chongwei",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "note": "以大军降，导契丹入汴"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "liu-chengyou",
+      "type": "kin",
+      "note": "父子，隐帝急于除大臣"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "liu-chong",
+      "type": "kin",
+      "note": "兄弟，汉祚一在汴、一在太原"
+    },
+    {
+      "source": "liu-chong",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "note": "北汉称臣于契丹，约为父子之国"
+    },
+    {
+      "source": "liu-chong",
+      "target": "liu-chengjun",
+      "type": "kin",
+      "note": "父子，睿宗慎守父业"
+    },
+    {
+      "source": "liu-chengyou",
+      "target": "guo-wei",
+      "type": "rival",
+      "note": "诛其家属，邺都兵起"
+    },
+    {
+      "source": "guo-wei",
+      "target": "chai-rong",
+      "type": "kin",
+      "note": "姑婿为后，周祚所传"
+    },
+    {
+      "source": "chai-rong",
+      "target": "chai-zongxun",
+      "type": "kin",
+      "note": "父子，恭帝冲龄而禅"
+    },
+    {
+      "source": "chai-rong",
+      "target": "wang-pu-906",
+      "type": "ruler-subject",
+      "note": "枢密首席，平边之策所自出"
+    },
+    {
+      "source": "chai-rong",
+      "target": "fan-aineng",
+      "type": "rival",
+      "note": "高平弃阵而奔，并按军法"
+    },
+    {
+      "source": "chai-rong",
+      "target": "he-hui",
+      "type": "rival",
+      "note": "高平弃阵而奔，并按军法"
+    },
+    {
+      "source": "chai-rong",
+      "target": "liu-chong",
+      "type": "rival",
+      "note": "高平、太原之役，北汉赖辽而存"
+    },
+    {
+      "source": "chai-rong",
+      "target": "li-jing-916",
+      "type": "rival",
+      "note": "三征淮南，尽取江北之地"
+    },
+    {
+      "source": "chai-rong",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "note": "江南词臣，奉表称国主"
+    },
+    {
+      "source": "feng-dao",
+      "target": "liu-xu",
+      "type": "peer",
+      "note": "晋朝宰辅同列"
+    },
+    {
+      "source": "feng-dao",
+      "target": "li-siyuan",
+      "type": "ruler-subject",
+      "note": "事明宗为相，号称长者"
+    },
+    {
+      "source": "fan-zhi",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "note": "受顾命相恭帝，随世宗之子入宋"
+    },
+    {
+      "source": "wang-pu",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "note": "周之宰相，入宋撰《五代会要》"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "chai-zongxun",
+      "type": "rival",
+      "note": "陈桥返旆，恭帝让位"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "han-tong",
+      "type": "rival",
+      "note": "禁军旧恩，变起而死于扈从"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-pu",
+      "type": "ruler-subject",
+      "note": "掌机要，佐命归宋"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-yun",
+      "type": "rival",
+      "note": "宿将不平，据潞州叛宋"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-chongjin",
+      "type": "rival",
+      "note": "周亲扬州举兵，覆亡"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-yu-937",
+      "type": "rival",
+      "note": "称臣之邦，围城三载而陷"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "meng-chang",
+      "type": "rival",
+      "note": "后蜀不战而降，至汴而卒"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "liu-chang",
+      "type": "rival",
+      "note": "南汉火舰不效，衔榇出降"
+    },
+    {
+      "source": "qian-liu",
+      "target": "qian-hongchu",
+      "type": "kin",
+      "note": "祖孙，武肃\"善事中国\"之遗训"
+    },
+    {
+      "source": "qian-hongchu",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "note": "纳土归宋，封爵就第"
+    },
+    {
+      "source": "yang-xingmi",
+      "target": "qian-liu",
+      "type": "rival",
+      "note": "宣润相持，杨吴不得东下"
+    },
+    {
+      "source": "yang-xingmi",
+      "target": "xu-wen",
+      "type": "ruler-subject",
+      "note": "同里起兵，吴之权卒归于温"
+    },
+    {
+      "source": "xu-wen",
+      "target": "li-bian",
+      "type": "kin",
+      "note": "养子秉政，齐王因之受禅"
+    },
+    {
+      "source": "li-bian",
+      "target": "li-jing-916",
+      "type": "kin",
+      "note": "父子，元宗拓而复失"
+    },
+    {
+      "source": "li-jing-916",
+      "target": "li-yu-937",
+      "type": "kin",
+      "note": "父子，中主传后主"
+    },
+    {
+      "source": "li-yu-937",
+      "target": "li-congbai",
+      "type": "kin",
+      "note": "兄弟，从善入宋不返"
+    },
+    {
+      "source": "li-yu-937",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "note": "词臣之知，\"吹皱一池春水\""
+    },
+    {
+      "source": "li-yu-937",
+      "target": "han-xizai",
+      "type": "ruler-subject",
+      "note": "欲相之而遣夜宴图察其放达"
+    },
+    {
+      "source": "han-xizai",
+      "target": "feng-yansi",
+      "type": "peer",
+      "note": "江左词坛两雄"
+    },
+    {
+      "source": "song-qi-qiu",
+      "target": "feng-yansi",
+      "type": "peer",
+      "note": "五鬼之党更相倾附"
+    },
+    {
+      "source": "song-qi-qiu",
+      "target": "li-bian",
+      "type": "ruler-subject",
+      "note": "佐烈祖定国，江左谋主"
+    },
+    {
+      "source": "ma-yin",
+      "target": "gao-ji-xing",
+      "type": "rival",
+      "note": "澧朗之争，马殷不能南制"
+    },
+    {
+      "source": "gao-ji-xing",
+      "target": "li-jing-916",
+      "type": "rival",
+      "note": "岳州一役，荆南尽收楚地"
+    },
+    {
+      "source": "sun-guangxian",
+      "target": "gao-ji-xing",
+      "type": "ruler-subject",
+      "note": "世掌荆南记室，劝其臣中国"
+    },
+    {
+      "source": "meng-zhixiang",
+      "target": "meng-chang",
+      "type": "kin",
+      "note": "父子，后蜀二主"
+    },
+    {
+      "source": "liu-yan",
+      "target": "liu-chang",
+      "type": "kin",
+      "note": "祖孙之统，三世而国除"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "guan-xiu",
+      "type": "ruler-subject",
+      "note": "晚节依蜀，禅月之号所由显"
+    },
+    {
+      "source": "guan-xiu",
+      "target": "qian-liu",
+      "type": "rival",
+      "note": "十四州之句，不肯改从一州"
+    },
+    {
+      "source": "liu-ren-gong",
+      "target": "liu-shou-guang",
+      "type": "kin",
+      "note": "父子，守光囚父而僭燕"
+    },
+    {
+      "source": "liu-shou-guang",
+      "target": "li-cunxu",
+      "type": "rival",
+      "note": "晋兵围幽州，桀燕擒斩"
+    },
+    {
+      "source": "liu-ren-gong",
+      "target": "li-ke-yong",
+      "type": "rival",
+      "note": "借晋兵而有卢龙，已而背之"
+    },
+    {
+      "source": "gao-baozheng",
+      "target": "gao-ji-xing",
+      "type": "kin",
+      "note": "祖孙相继，仅守三州"
+    },
+    {
+      "source": "liu-chengjun",
+      "target": "zhao-guangyi",
+      "type": "rival",
+      "note": "开宝之围，北汉最后的屏障"
+    },
+    {
+      "source": "chai-rong",
+      "target": "wei-renpu",
+      "type": "ruler-subject",
+      "note": "周世宗即位，以魏仁浦为宰相，与王溥同预政事"
+    },
+    {
+      "source": "he-ning",
+      "target": "liu-xu",
+      "type": "peer",
+      "note": "后晋同朝宰相，旧唐书纂修之事并预"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "wang-du",
+      "type": "rival",
+      "note": "王都据定州反，晋王李存勖遣兵围之，契丹援败而城破"
+    }
+  ],
+  "events": [
+    {
+      "id": "wudai-907",
+      "name": "朱温代唐 · 五代始",
+      "kind": "point",
+      "year": 907,
+      "people": [
+        "zhu-wen",
+        "li-ke-yong"
+      ],
+      "desc": "唐哀帝禅位于梁王朱温，唐朝亡，五十余年五代更迭之局自此而始。"
+    },
+    {
+      "id": "wudai-923",
+      "name": "后唐灭梁",
+      "kind": "point",
+      "year": 923,
+      "people": [
+        "li-cunxu",
+        "zhu-zhen"
+      ],
+      "desc": "晋王李存勖即位于魏州，旋袭汴州，梁末帝死之，五代第一朝易主。"
+    },
+    {
+      "id": "wudai-926",
+      "name": "兴教门之变",
+      "kind": "point",
+      "year": 926,
+      "people": [
+        "li-cunxu",
+        "guo-congqian",
+        "zhou-dewei"
+      ],
+      "desc": "从马直军乱，伶人郭从谦纵火弑逆，庄宗殂，明宗由乱军得位。"
+    },
+    {
+      "id": "wudai-936",
+      "name": "石敬瑭借兵割燕云",
+      "kind": "point",
+      "year": 936,
+      "people": [
+        "shi-jingtang",
+        "yelv-deguang",
+        "li-congke"
+      ],
+      "desc": "河东举兵，契丹主自雁门来援，约割卢龙雁门以北；唐废帝自焚，后晋立。"
+    },
+    {
+      "id": "wudai-947",
+      "name": "契丹入汴 · 国号大辽",
+      "kind": "point",
+      "year": 947,
+      "people": [
+        "yelv-deguang",
+        "shi-chonggui",
+        "du-chongwei"
+      ],
+      "desc": "杜重威举军降，德光入汴受晋降，改元大同、国号大辽，北归暴卒于杀胡林。"
+    },
+    {
+      "id": "wudai-951",
+      "name": "后周建国 · 北汉分立",
+      "kind": "point",
+      "year": 951,
+      "people": [
+        "guo-wei",
+        "liu-chong",
+        "liu-chengyou"
+      ],
+      "desc": "隐帝遇弑，郭威入汴称周；河东刘崇据太原称汉，北汉自此与契丹连衡。"
+    },
+    {
+      "id": "wudai-954",
+      "name": "高平之战",
+      "kind": "point",
+      "year": 954,
+      "people": [
+        "chai-rong",
+        "liu-chong",
+        "fan-aineng",
+        "he-hui"
+      ],
+      "desc": "世宗新立，亲犯矢石破北汉；先遁之将按诛，由是整军东向。"
+    },
+    {
+      "id": "wudai-958",
+      "name": "淮南入周",
+      "kind": "point",
+      "year": 958,
+      "people": [
+        "chai-rong",
+        "li-jing-916"
+      ],
+      "desc": "三征南唐，紫金山丧师，元宗尽献江北十四州，去帝号。"
+    },
+    {
+      "id": "wudai-960",
+      "name": "陈桥兵变",
+      "kind": "point",
+      "year": 960,
+      "people": [
+        "zhao-kuangyin",
+        "chai-zongxun",
+        "han-tong",
+        "zhao-pu"
+      ],
+      "desc": "殿前都点检赵匡胤黄袍加身，还汴受周禅；韩通死之，中原自此归一姓。"
+    },
+    {
+      "id": "wudai-965",
+      "name": "宋平后蜀",
+      "kind": "point",
+      "year": 965,
+      "people": [
+        "meng-chang",
+        "zhao-kuangyin"
+      ],
+      "desc": "宋师入剑门，后蜀不战而降。"
+    },
+    {
+      "id": "wudai-971",
+      "name": "宋平南汉",
+      "kind": "point",
+      "year": 971,
+      "people": [
+        "liu-chang",
+        "zhao-kuangyin"
+      ],
+      "desc": "潘美克广州，刘鋹火舰不效出降。"
+    },
+    {
+      "id": "wudai-975",
+      "name": "宋平南唐",
+      "kind": "point",
+      "year": 975,
+      "people": [
+        "li-yu-937",
+        "zhao-kuangyin"
+      ],
+      "desc": "曹彬围金陵，城陷后主出降。"
+    },
+    {
+      "id": "wudai-978",
+      "name": "吴越纳土",
+      "kind": "point",
+      "year": 978,
+      "people": [
+        "qian-hongchu"
+      ],
+      "desc": "钱俶上版籍十三州，吴越国除，东南以一。"
+    },
+    {
+      "id": "wudai-979",
+      "name": "宋平北汉",
+      "kind": "point",
+      "year": 979,
+      "people": [
+        "zhao-guangyi"
+      ],
+      "desc": "宋太宗进围太原，刘继元降，十国之局终，唐末藩镇之分局亦终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "五代十国全览",
+      "from": 885,
+      "to": 979,
+      "focus": "chai-rong",
+      "brief": "朱温代唐起，八姓十四主在汴洛之间走马登场：后梁红条最短，后唐宗室内乱、契丹南牧，后晋以儿皇帝换燕云十六州，后周世宗一枝红条独长，惜以三十九岁而止。南方十国另成一片：吴越奉中国、南唐以词传家、前蜀后蜀据三峡之险；北方契丹紫条压顶。最后陈桥黄袍，中原收而复一。"
+    },
+    {
+      "id": "liang-tang",
+      "name": "后梁 · 后唐（907—936）",
+      "from": 907,
+      "to": 936,
+      "focus": "li-cunxu",
+      "people": [
+        "zhu-wen",
+        "zhu-yougui",
+        "zhu-zhen",
+        "li-ke-yong",
+        "li-cunxu",
+        "li-siyuan",
+        "li-conghou",
+        "li-congke",
+        "li-cunxiao",
+        "zhou-dewei",
+        "guo-congqian",
+        "wang-du",
+        "feng-dao",
+        "yang-xingmi",
+        "xu-wen",
+        "ma-yin",
+        "qian-liu",
+        "guan-xiu",
+        "liu-ren-gong",
+        "liu-shou-guang"
+      ],
+      "events": [
+        "wudai-907",
+        "wudai-923",
+        "wudai-926"
+      ],
+      "brief": "梁晋夹河十八年是主轴：朱温起于黄巢军，据汴洛而国梁；李克用挟沙陀骑兵居太原，存勖三矢雪耻，一战灭梁。而庄宗得之易失之亦速，伶人门变；明宗起于乱军粗致小康，闵、废二帝以内乱亡，唐祚十五年。"
+    },
+    {
+      "id": "jin-han",
+      "name": "后晋 · 后汉（936—950）",
+      "from": 936,
+      "to": 950,
+      "focus": "shi-jingtang",
+      "people": [
+        "shi-jingtang",
+        "shi-chonggui",
+        "du-chongwei",
+        "liu-zhiyuan",
+        "liu-chengyou",
+        "yelv-deguang",
+        "he-ning",
+        "liu-xu"
+      ],
+      "events": [
+        "wudai-936",
+        "wudai-947"
+      ],
+      "brief": "石敬瑭以幽蓟十六州易契丹之援，\"儿皇帝\"之名与燕云之失并垂千古；出帝一朝，中渡军降，契丹入汴而北归暴亡。汉祚仅四年，隐帝一夕族诛大臣，乱自封禅寺始。"
+    },
+    {
+      "id": "zhou",
+      "name": "后周 · 统一前夜（950—960）",
+      "from": 950,
+      "to": 960,
+      "focus": "chai-rong",
+      "people": [
+        "guo-wei",
+        "chai-rong",
+        "chai-zongxun",
+        "wang-pu-906",
+        "fan-aineng",
+        "he-hui",
+        "liu-chong",
+        "liu-chengjun",
+        "feng-dao",
+        "fan-zhi",
+        "wang-pu",
+        "wei-renpu"
+      ],
+      "events": [
+        "wudai-951",
+        "wudai-954",
+        "wudai-958"
+      ],
+      "brief": "太祖起于邺都之师，世宗以三十九之身为十年之谋：高平整军、淮南得地、瓦桥北望。王朴《平边策》先南后北之序，宋人受而用之。"
+    },
+    {
+      "id": "shiguo",
+      "name": "十国 · 江淮湖广",
+      "from": 902,
+      "to": 979,
+      "focus": "li-yu-937",
+      "people": [
+        "yang-xingmi",
+        "li-bian",
+        "li-jing-916",
+        "li-yu-937",
+        "wang-jian-918",
+        "meng-zhixiang",
+        "meng-chang",
+        "ma-yin",
+        "qian-liu",
+        "qian-hongchu",
+        "liu-yan",
+        "liu-chang",
+        "gao-ji-xing",
+        "gao-baozheng",
+        "song-qi-qiu",
+        "han-xizai",
+        "li-congbai",
+        "feng-yansi",
+        "sun-guangxian"
+      ],
+      "brief": "十国各保一方：杨吴—南唐一系最盛，烈祖保境、元宗失淮南、后主以词传世；前蜀后蜀据三峡之险，吴越守\"善事中国\"之家法，荆南\"高赖子\"往来两可，马楚听高郁之策，南汉隔岭自帝。"
+    },
+    {
+      "id": "gui-song",
+      "name": "归宋（960—979）",
+      "from": 960,
+      "to": 979,
+      "focus": "zhao-kuangyin",
+      "people": [
+        "zhao-kuangyin",
+        "zhao-guangyi",
+        "zhao-pu",
+        "han-tong",
+        "li-yun",
+        "li-chongjin",
+        "chai-zongxun",
+        "meng-chang",
+        "liu-chang",
+        "li-yu-937",
+        "qian-hongchu",
+        "liu-chengjun",
+        "wang-pu",
+        "fan-zhi",
+        "wei-renpu"
+      ],
+      "events": [
+        "wudai-960",
+        "wudai-965",
+        "wudai-971",
+        "wudai-975",
+        "wudai-978",
+        "wudai-979"
+      ],
+      "brief": "陈桥受禅，\"兵强马壮者为之\"的五代规则第一次被打破；杯酒之后，后蜀、南汉、南唐、吴越、北汉以次归宋，五十年分裂之局终。"
+    }
+  ]
+}

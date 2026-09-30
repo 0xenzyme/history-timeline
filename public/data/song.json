@@ -366,7 +366,7 @@
       "gender": "male"
     },
     {
-      "id": "lizong",
+      "id": "li-zong",
       "name": "赵昀",
       "display": "宋理宗赵昀",
       "lane": "emperor",
@@ -941,6 +941,7 @@
       ],
       "primary": "chancellor",
       "polity": [
+        "wudai",
         "song"
       ],
       "gender": "male"
@@ -964,6 +965,7 @@
       ],
       "primary": "chancellor",
       "polity": [
+        "wudai",
         "song"
       ],
       "gender": "male"
@@ -1013,6 +1015,7 @@
       ],
       "primary": "chancellor",
       "polity": [
+        "wudai",
         "song"
       ],
       "gender": "male"
@@ -1036,6 +1039,7 @@
       ],
       "primary": "chancellor",
       "polity": [
+        "wudai",
         "song"
       ],
       "gender": "male"
@@ -5150,7 +5154,7 @@
       "gender": "male"
     },
     {
-      "id": "tiemuzhen",
+      "id": "tie-mu-zhen",
       "name": "铁木真",
       "display": "铁木真",
       "lane": "rival",
@@ -5161,15 +5165,17 @@
       "title": "成吉思汗，蒙古帝国的缔造者",
       "bio": "统一漠北诸部，1206年建大蒙古国，号成吉思汗。西征花剌子模，破西夏。伐金数年，覆金半壁。丁亥年七月卒于六盘山，蒙宋「联蒙灭金」之约其后成局。",
       "tags": [
+        "元",
         "蒙古"
       ],
       "categories": [
         "outsider",
-        "monarch"
+        "monarch",
+        "founding"
       ],
       "primary": "monarch",
       "polity": [
-        "mongol"
+        "yuan"
       ],
       "gender": "male"
     },
@@ -5222,7 +5228,7 @@
       "gender": "male"
     },
     {
-      "id": "mengge",
+      "id": "meng-ge",
       "name": "蒙哥",
       "display": "蒙哥",
       "lane": "rival",
@@ -5230,9 +5236,11 @@
       "deathAccuracy": "exact",
       "birth": 1209,
       "death": 1259,
+      "birthNote": "本纪记宪宗己未年崩、年五十二，折生年在一二〇八年前后，此处采常见的一二〇九年系年。",
       "title": "蒙哥汗，殒命钓鱼城的大汗",
       "bio": "拖雷长子，1251年即汗位，遣弟忽必烈征大理、旭烈兀西征。自将伐宋，围合州钓鱼城九阅月，己未年七月殒于城下，蒙古西征自此敛兵。",
       "tags": [
+        "元",
         "蒙古"
       ],
       "categories": [
@@ -5241,7 +5249,7 @@
       ],
       "primary": "monarch",
       "polity": [
-        "mongol"
+        "yuan"
       ],
       "gender": "male"
     },
@@ -5271,7 +5279,7 @@
       "gender": "male"
     },
     {
-      "id": "hubilie",
+      "id": "hu-bi-lie",
       "name": "忽必烈",
       "display": "元世祖忽必烈",
       "lane": "rival",
@@ -5693,12 +5701,12 @@
     },
     {
       "source": "zhao-kuo",
-      "target": "lizong",
+      "target": "li-zong",
       "type": "kin",
       "note": "养父子，宁宗传理宗"
     },
     {
-      "source": "lizong",
+      "source": "li-zong",
       "target": "zhao-qi",
       "type": "kin",
       "note": "父子，理宗传度宗"

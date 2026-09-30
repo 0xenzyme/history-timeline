@@ -34,6 +34,11 @@
       "id": "shi",
       "name": "士人",
       "color": "#6b5b95"
+    },
+    {
+      "id": "lord",
+      "name": "诸侯",
+      "color": "#3f7d52"
     }
   ],
   "people": [
@@ -49,6 +54,342 @@
       "bio": "东迁之后，王室只剩共主空名。他的条停在前 720 年，后面的霸主条越来越长，周王泳道从此空下来。",
       "tags": [
         "平王东迁"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-lin",
+      "name": "姬林",
+      "display": "周桓王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -697,
+      "deathNote": "今本竹书纪年·晋纪「桓王二十三年 三月乙未，王陟」。按平王元年前 770 逐王推得。",
+      "title": "在位二十三年，郑师射伤于繻葛",
+      "bio": "平王之孙。平王五十一年前 720 崩，立其子泄之父蚤死，遂立桓王。即位三年郑庄公来朝，不与礼；遂与郑交恶。前 707 繻葛之战为郑将祝聃射中肩，王师大败。这是周天子第一次在战场上受伤，王室的兵权与威信一同下落。",
+      "tags": [
+        "繻葛之战",
+        "郑庄公"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-tuo",
+      "name": "姬佗",
+      "display": "周庄王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -682,
+      "deathNote": "今本竹书纪年缺庄王卒年，年数取史记·周本纪「十五年，庄王崩」，仍按同一锚点推算。",
+      "title": "杀周公黑肩，弟王子克奔燕",
+      "bio": "桓王崩而立。即位四年，弟王子克有宠，周公黑肩欲杀庄王立克；辛伯告变，庄王杀周公，王子克遂奔燕。此后王室只剩名号，燕与晋的曲沃争政开始分走周室的实权。",
+      "tags": [
+        "王子克奔燕",
+        "周公黑肩"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-hu-qi",
+      "name": "姬胡齐",
+      "display": "周釐王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -677,
+      "deathNote": "今本竹书纪年·晋纪「厘王五年……王陟」。",
+      "title": "在位五年，齐桓霸业起于其初年",
+      "bio": "庄王崩而立，在位五年。三年齐桓公始霸——春秋第一段霸业的起点，正落在这位短命天子在位的第三年。五年崩。",
+      "tags": [
+        "齐桓公始霸"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-liang",
+      "name": "姬閬",
+      "display": "周惠王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -652,
+      "deathNote": "今本竹书纪年·晋纪「惠王二十五年 春正月，狄人伐晋。王陟」。",
+      "title": "为王子頽所逐，赖郑虢复国",
+      "bio": "釐王崩而立。即位二年，宠弟王子頽联合五大夫作乱，惠王奔郑、居櫟，王位被王頽夺去四年；郑厉公与虢公伐杀王頽，惠王得以复位。十年赐齐桓公为伯，「尊王攘夷」的名号由天子亲口授受。二十五年崩。",
+      "tags": [
+        "王子颓之乱",
+        "赐齐桓公为伯"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-zheng",
+      "name": "姬郑",
+      "display": "周襄王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -619,
+      "deathNote": "今本竹书纪年·晋纪「襄王三十三年 王陟」；史记·周本纪作「三十二年，襄王崩」，早一年，此处取竹书。",
+      "title": "借晋文公之力复位，践土受诸侯朝",
+      "bio": "惠王崩而立。惠后与叔带之乱逼得襄王出奔郑、居氾，子带自立为王。前 636 晋文公纳襄王而诛叔带，天子赐珪鬯弓矢为伯。二十年河阳、践土之会，诸侯毕朝而书「天王狩于河阳」——书法的避讳本身就是权威的证明。",
+      "tags": [
+        "晋文公纳王",
+        "践土之会",
+        "叔带之乱"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-ren-chen",
+      "name": "姬壬臣",
+      "display": "周顷王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -613,
+      "deathNote": "今本竹书纪年·晋纪「顷王六年 彗星入北斗。王陟」。",
+      "title": "在位六年，晋灵公之祸起于其世",
+      "bio": "襄王崩而立，在位六年。六年晋灵公为赵穿所杀，赵盾迎公子黑臀于周立之——晋国的君位由周王来定，桓王以来的旧例又行了一次。六年崩。",
+      "tags": [
+        "晋灵公",
+        "赵盾"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-ban",
+      "name": "姬班",
+      "display": "周匡王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -607,
+      "deathNote": "今本竹书纪年·晋纪「匡王六年 王陟。晋灵公为赵穿所杀……」。",
+      "title": "在位六年，晋灵公被立于此年",
+      "bio": "顷王崩而立，在位六年。六年晋灵公为赵穿所杀，赵盾与赵穿迎公子黑臀于周而立为晋侯。六年崩。",
+      "tags": [
+        "晋灵公"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-yu",
+      "name": "姬瑜",
+      "display": "周定王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -586,
+      "deathNote": "今本竹书纪年·晋纪「定王二十一年 王陟」。名瑜出史记·周本纪「匡王六年，崩，弟瑜立，是为定王」；世本作介者为战国贞定王，勿混。",
+      "title": "问九鼎之役，楚庄王北上的极点",
+      "bio": "匡王之弟。即位元年楚庄王伐陆浑之戎，进军洛邑问九鼎之轻重，王孙满以「在德不在鼎」对之；十年楚围郑，郑伯降而复之。楚的锋芒第一次直抵王城，十六年楚庄王亦崩。二十一年崩。",
+      "tags": [
+        "问九鼎",
+        "王孙满",
+        "楚庄王"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-yi",
+      "name": "姬夷",
+      "display": "周简王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -572,
+      "deathNote": "今本竹书纪年·晋纪「简王十四年 王陟」。",
+      "title": "纳晋厉公复位之命出于此年",
+      "bio": "定王崩而立，在位十四年。十三年晋杀其君厉公，迎子周于周而立之为悼公——周王最后一次直接干预晋国的君位更替。此后天子只剩受诸侯朝的名义。十四年崩。",
+      "tags": [
+        "晋厉公",
+        "晋悼公"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-xie-xin",
+      "name": "姬泄心",
+      "display": "周灵王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -545,
+      "deathNote": "今本竹书纪年·晋纪「灵王二十七年 王陟」。",
+      "title": "在位二十七年，弑君自诸侯始",
+      "bio": "简王崩而立，在位二十七年。二十四年齐崔杼弑其君庄公——齐国的权臣弑了国君，天子不能问，也没有兵可以问。二十七年崩。灵王、景王两世共五十余年，王室的号令早已出不了王城。",
+      "tags": [
+        "崔杼弑齐庄公"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-gui",
+      "name": "姬贵",
+      "display": "周景王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -520,
+      "deathNote": "今本竹书纪年·晋纪「景王二十五年 晋顷公平王室乱，立敬王」。",
+      "title": "爱子朝而乱王室，崩于王城",
+      "bio": "灵王崩而立，在位二十五年。十八年太子圣早卒，遂爱庶长子子朝；二十年欲立子朝而会崩，弟王丐之党与争立，国人立长子猛为悼王，子朝攻杀猛，晋人攻子朝而立丐，是为敬王。王室的内乱第一次引晋国兵入王城。二十五年为王室之乱所平。",
+      "tags": [
+        "王子朝之乱",
+        "太子圣"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-meng",
+      "name": "姬猛",
+      "display": "周悼王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -520,
+      "deathNote": "竹书纪年、史记均未记其在位年数（竹书景王二十五年下直接接敬王元年）。年份依左传·昭公二十二年传「十一月乙酉，王子猛卒……虽未即位，周人谥曰悼王……己丑，敬王即位」，与景王崩、敬王即位同在一年；此年与逐王「崩年 + 1 为次王元年」的算法在景王、悼王、敬王之间不合，故作约年。",
+      "title": "未及正式即位即为子朝所杀",
+      "bio": "景王长子。景王崩，子朝与丐争立，国人立猛为王；子朝攻杀之。虽未即位，周人仍谥曰悼王；同母弟匄得晋国之力即位为敬王后，才追谥之。在位不足数月，是周室名号最薄的一页。",
+      "tags": [
+        "王子朝之乱",
+        "未即位"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-gai",
+      "name": "姬匄",
+      "display": "周敬王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -476,
+      "deathNote": "今本竹书纪年·晋纪「敬王四十四年 王陟」。",
+      "title": "在位四十四年，十六年方由晋定公送归王城",
+      "bio": "猛之母弟。前 520 为晋人所立，子朝自立，敬王不得入而居泽；四年晋率诸侯入敬王于周，子朝奔楚，诸侯城周。十六年子朝之徒复作乱，敬王又奔于晋，十七年晋定公遂入敬王于周。此后天子虽仍受制，而周室赖晋国之力撑过了两代。在位四十四年，是东周在位最长的天子，崩时列国已到孔子卒后。",
+      "tags": [
+        "王子朝之乱",
+        "诸侯城周",
+        "东周最长"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-ren",
+      "name": "姬仁",
+      "display": "周元王",
+      "lane": "zhou",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -469,
+      "deathNote": "今本竹书纪年·晋纪「元王七年 齐人、郑人伐卫。王陟」。",
+      "title": "在位七年，三家分晋之后的天子",
+      "bio": "敬王崩而立，在位七年。四年越灭吴，天下的最后一局争霸在王城之外结束，而三家分晋之势已成。八年的在位里，天子的诏令第一次只是形式。七年崩。",
+      "tags": [
+        "三家分晋",
+        "越灭吴"
       ],
       "categories": [
         "monarch"
@@ -524,7 +865,7 @@
       ]
     },
     {
-      "id": "kongzi",
+      "id": "kong-zi",
       "name": "孔丘",
       "display": "孔子",
       "lane": "shi",
@@ -566,6 +907,1159 @@
       "primary": "military-theory",
       "polity": [
         "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-zhaohou",
+      "name": "姬伯",
+      "display": "晋昭侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -739,
+      "deathNote": "今本竹书纪年·晋纪「平王三十二年，晋潘父弑其君昭侯，纳成师，不克。立昭侯之子孝侯」；史记·晋世家「七年，晋大臣潘父弑其君昭侯」作在位七年。此取竹书年次。",
+      "title": "曲沃内乱中被潘父弑杀的第一位晋君",
+      "bio": "文侯之子。曲沃桓叔成师日益坐大，昭侯元年遂封成师于曲沃，翼与曲沃的大小之势由此逆转。七年，大臣潘父弑昭侯而迎成师入晋，晋人发兵拒之，桓叔败归曲沃。",
+      "tags": [
+        "曲沃之争",
+        "潘父之乱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-xiaohou",
+      "name": "姬平",
+      "display": "晋孝侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -724,
+      "deathNote": "今本竹书纪年·晋纪「平王四十七年，晋曲沃庄伯入翼，弑孝侯，晋人逐之，立孝侯子郤，是为鄂侯」。",
+      "title": "曲沃庄伯入翼弑之",
+      "bio": "昭侯之子，晋人共立为君。八年曲沃桓叔卒，子鱓代立，是为曲沃庄伯。十五年曲沃庄伯入翼，弑孝侯；晋人攻庄伯，庄伯复入曲沃，晋人复立孝侯子郤，是为鄂侯。",
+      "tags": [
+        "曲沃之争",
+        "曲沃庄伯"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-ehou",
+      "name": "姬郤",
+      "display": "晋鄂侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -718,
+      "deathNote": "今本竹书纪年·晋纪「桓王二年，晋鄂侯卒，曲沃庄伯复攻晋，立鄂侯子光，是为哀侯」。",
+      "title": "六年而卒，曲沃庄伯闻讣即伐",
+      "bio": "孝侯之子。前718年卒，六年在位。曲沃庄伯闻鄂侯卒，兴兵伐晋，庄伯走保曲沃，晋人共立鄂侯子光，是为哀侯。晋国的君位此后几乎全由曲沃方面决定。",
+      "tags": [
+        "曲沃之争",
+        "鄂侯"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-aihou",
+      "name": "姬光",
+      "display": "晋哀侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -709,
+      "deathNote": "今本竹书纪年·晋纪「桓王十一年，曲沃获晋哀侯。晋人立哀侯子为小子侯」。系被曲沃俘获，非战死。",
+      "title": "为曲沃所俘，废为食邑",
+      "bio": "鄂侯之子。六年，晋侵陘廷，陘廷与曲沃武公谋，伐晋于汾旁，虏哀侯。此后为曲沃置食邑，十二年而废。晋人立哀侯子小子，是为小子侯。",
+      "tags": [
+        "曲沃之争",
+        "被俘"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-xiaozihou",
+      "name": "姬小子",
+      "display": "晋小子侯",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -707,
+      "deathNote": "今本竹书纪年·晋纪「桓王十三年，冬，曲沃伯诱晋小子侯杀之」。试跑文档原作前705，与竹书差二年，此从竹书（以经传为准）。",
+      "title": "在位四年，为曲沃伯诱杀",
+      "bio": "哀侯之子，父被俘后立为君。四年，曲沃伯诱召小子侯而杀之。此晋国翼一系在曲沃压力之下最后一位君主，死后曲沃庄伯尽收其地。",
+      "tags": [
+        "曲沃之争",
+        "被诱杀"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-hou-min",
+      "name": "姬缗",
+      "display": "晋侯缗",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -679,
+      "deathNote": "今本竹书纪年·晋纪「釐王三年，曲沃武公灭晋侯缗，以宝献王，王命武公以一军为晋侯」。作前679；试跑文档原作前678，差一年。竹书只记灭之年，不记在位年数，故作约年。",
+      "title": "翼一系最后一位，为曲沃武公所灭",
+      "bio": "哀侯弟。前706年立，在位三十三年。四年宋执郑祭仲而立突，四年十九年齐桓公始霸。三十三年，曲沃武公伐晋侯缗，灭之，尽以宝器赂献于周釐王；釐王命武公以一军为晋侯，于是尽并晋地而有之。翼一系至此断绝。",
+      "tags": [
+        "曲沃之争",
+        "晋室东迁",
+        "翼一系绝"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "quwo-wugong",
+      "name": "姬称",
+      "display": "曲沃武公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -677,
+      "deathNote": "今本竹书纪年·晋纪「釐王五年，晋武公卒，子诡诸立为献公」。曲沃系自桓叔成师（已入册，前745）以下第三代。",
+      "title": "以一军为晋侯，尽并晋地",
+      "bio": "曲沃庄伯之子。代曲沃庄伯立在翼，灭晋侯缡，尽以其宝器赂献周釐王，釐王命以一军为晋侯。前677年卒，在位三十七年。子诡诸立，是为献公，晋国自此由曲沃系掌握。",
+      "tags": [
+        "曲沃之争",
+        "以一军为晋侯",
+        "尽并晋地"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-huigong",
+      "name": "姬夷吾",
+      "display": "晋惠公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -637,
+      "deathNote": "今本竹书纪年·晋纪「襄王十五年，晋惠公卒，子怀公圉立」。",
+      "title": "骊姬之乱后即位十四年，为秦所立",
+      "bio": "献公之子，骊姬所生。献公卒，骊姬使里克杀奚齐、卓子而立夷吾，惠公既立而诛里克等三郤，晋国内乱。前637年卒，十四年在位。子怀公圉立。",
+      "tags": [
+        "骊姬之乱",
+        "三郤之乱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-huaigong",
+      "name": "姬圉",
+      "display": "晋怀公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -636,
+      "deathNote": "今本竹书纪年·晋纪「襄王十六年，晋杀子圉」。试跑文档原作前637，与其父惠公同年，竹书则记惠公卒（前637）后一年被杀，故改正为前636。",
+      "title": "在位一年，为秦送重耳归国所杀",
+      "bio": "惠公太子。前637年惠公卒而立，即位后诛狐突，杀狐毛、偃之父，晋人怨毒。明年秦穆公送公子重耳归国，遂杀怀公于高梁，迎重耳立，是为文公。惠公一系复绝。",
+      "tags": [
+        "秦纳重耳",
+        "被杀",
+        "高梁之战"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-xianggong",
+      "name": "晋襄公",
+      "display": "晋襄公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -621,
+      "deathNote": "今本竹书纪年·晋纪「襄王三十一年，晋襄公卒」。史记·晋世家未记其卒年。",
+      "title": "文公之子，守成七年",
+      "bio": "文公之子。文公殽之战后归国即位，七年。前621年卒。此后晋国进入栾书、郤缺、孙伯懋主政的时期。",
+      "tags": [
+        "文公之后",
+        "守成之君"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-linggong",
+      "name": "晋灵公",
+      "display": "晋灵公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -607,
+      "deathNote": "今本竹书纪年·晋纪「匡王六年，晋灵公为赵穿所杀，赵盾使穿迎公子黑臀于周，立之」。",
+      "title": "为赵穿所弑，赵盾另立黑臀",
+      "bio": "襄公之子。居君位而不及成年，朝政归赵盾。与赵氏不协，赵穿攻入而弑之；赵盾复迎襄公子黑臀于周而立，是为成公。自此赵氏权重于晋。",
+      "tags": [
+        "赵穿弑君",
+        "赵盾",
+        "公室卑弱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-chenggong",
+      "name": "晋成公",
+      "display": "晋成公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -600,
+      "deathNote": "今本竹书纪年·晋纪「定王七年，晋成公卒于扈」。",
+      "title": "十八年，郑捷敖之难后收郑为邑",
+      "bio": "灵公之子，母周女，周人谓之下姜，故亦称周襄王。栾书、荀罃、士燮、胥臣、先牖为政。前606年郑捷敖之难，荀罃立捷敖，晋侯赐之盟；捷敖不服，晋平公之会遂讨平之。前600年卒于扈。",
+      "tags": [
+        "郑捷敖之难",
+        "扈卒",
+        "赵氏权重"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-jinggong",
+      "name": "晋景公",
+      "display": "晋景公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -581,
+      "deathNote": "今本竹书纪年·晋纪「简王五年，晋景公卒」。",
+      "title": "下宫之难，郤氏族灭",
+      "bio": "成公之子。在位三十年。前587年郤氏三郤为栾盈所杀，晋平公遂诛灭郤氏，族党尽死。景公不君，公室益弱，六卿之势成。",
+      "tags": [
+        "下宫之难",
+        "栾盈之乱",
+        "郤氏族灭"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-ligong",
+      "name": "晋厉公",
+      "display": "晋厉公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -573,
+      "deathNote": "今本竹书纪年·晋纪「简王十三年，晋厉公卒」。",
+      "title": "七年，为栾盈所弑",
+      "bio": "景公之子。三年纳栾盈而容其居郤氏故邑。前573年栾盈、范鞅起兵，厉公杀之，栾盈又反；栾书、中行偃攻厉公，获之于鄢陵，栾书请杀之而止，迎周王而囚之。明年使囚于卫，终身不赦。",
+      "tags": [
+        "栾盈之乱",
+        "下鄢陵",
+        "囚于卫"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-daogong",
+      "name": "晋悼公",
+      "display": "晋悼公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -558,
+      "deathNote": "今本竹书纪年·晋纪「灵王十四年，晋悼公卒」。",
+      "title": "复霸之君，二十六年",
+      "bio": "厉公之子，周乱入晋而得立。即位诛不忠者，罢军、治政、释囚、纡赦，禄于戚、旧亲、故人；用士会、魏绛、栾书、荀罃、叔向。在位二十六年，会诸侯于戚，平公室，尊王攘夷。卒时晋之政始复整。",
+      "tags": [
+        "复霸",
+        "用士会",
+        "尊王攘夷"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-pinggong",
+      "name": "晋平公",
+      "display": "晋平公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -532,
+      "deathNote": "今本竹书纪年·晋纪「景王十三年，十月，晋平公卒」。",
+      "title": "二十四载，齐晋鞀之战",
+      "bio": "悼公之子。即位之初，韩不信、魏不信等兴乱，后渐定。前589年齐晋战于鞀，齐败归汶阳之田。前582年平丘之会，晋人疑齐，宋华元居间会诸侯于新城。前532年卒。",
+      "tags": [
+        "鞀之战",
+        "平丘之会",
+        "韩魏兴乱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-zhaogong-2",
+      "name": "晋昭公",
+      "display": "晋昭公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -526,
+      "deathNote": "今本竹书纪年·晋纪「景王十九年，晋昭公卒」。",
+      "title": "晋楚红会，晋分三军",
+      "bio": "平公之子。前546年宋华元谋晋楚之成，会于宋西門，晋分三军为上下，中行氏为中军将。前526年卒。昭公之世，晋之中行氏始张，六卿之祸由此启。",
+      "tags": [
+        "宋华元",
+        "晋楚红会",
+        "分三军"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-qinggong",
+      "name": "晋顷公",
+      "display": "晋顷公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -512,
+      "deathNote": "今本竹书纪年·晋纪「敬王八年，晋顷公卒」。",
+      "title": "王室之乱，入朝于周",
+      "bio": "昭公之子。前516年周王室乱，晋顷公帥师纳王于王城，子朝之党奔楚。前512年卒。晋以诸侯而预王室废立，自此益无顾忌。",
+      "tags": [
+        "纳王于王城",
+        "子朝之乱",
+        "尊王"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-dinggong",
+      "name": "晋定公",
+      "display": "晋定公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -475,
+      "deathNote": "今本竹书纪年·晋纪止于贞定王，未记定公卒。现以顷公卒（前512，敬王八年）为起点，按史记·晋世家「三十七年，定公卒，子出公凿立」在位三十七年顺推，得前475。作约年。",
+      "title": "四十年而卒，晋室至是益微",
+      "bio": "顷公之子。前497年范氏、中行氏反，赵鞅保晋阳，晋君击之；后赵鞅复位，晋分其地。前489年与吴王夫差会于黄池，争长而赵鞅卒长吴。前475年卒，在位三十七年。晋之政尽归六卿。",
+      "tags": [
+        "黄池会吴",
+        "范中行之乱",
+        "赵鞅保晋阳"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-chugong",
+      "name": "晋出公",
+      "display": "晋出公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -458,
+      "deathNote": "今本竹书纪年未记出公卒。今本竹书纪年疏证系于贞定王十七年「晋出公薨」，然该书系年与此处所推不合，故不取其绝对年。以定公卒前475为起点，按史记·晋世家出公在位十七年（前458-前475）顺推得前458。作约年。",
+      "title": "奔齐道死，六卿分其地",
+      "bio": "定公之子。出公十七年，知伯与赵、韩、魏共分范、中行地为邑；出公怒，将告齐、鲁伐四卿，四卿遂反攻之。出公奔齐，道死。知伯乃立昭公曾孙驷，是为哀公，晋室自此仅存虚名。",
+      "tags": [
+        "奔齐道死",
+        "六卿分地",
+        "晋室名存实亡"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-chunqiu-ligong",
+      "name": "姜禄甫",
+      "display": "齐釐公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -698,
+      "deathNote": "史记·齐太公世家「三十三年，釐公卒，太子诸儿立，是为襄公」记在位三十三年。卒年由其父齐庄公（姜购，前731，竹书纪年·晋纪「平王四十年，齐庄公卒」）在位六十四年后推得。",
+      "title": "襄公之子，齐桓公霸业之始",
+      "bio": "桓公之子，庄公之孙。襄公为公孙无知所弑，弟亏立，雍林人杀无知，召齐人立之。九年鲁隐公初立，即齐桓公霸业的起点。三十三年卒，在位三十三年。齐自此为桓公诸子争位之世。",
+      "tags": [
+        "桓公之子",
+        "襄公之弟",
+        "桓公霸业之始"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-xianggong",
+      "name": "姜诸儿",
+      "display": "齐襄公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -686,
+      "deathNote": "史记未记襄公在位年数。卒年前686，系据其父釐公卒（前698）与子孝公卒（前633）之间的次序及桓公卒前685推定，作约年。左传·桓公十八年（前704）载齐侯使管至父戍葵丘、瓜时往而不代，即襄公末年之事。",
+      "title": "醉杀鲁桓公，为公孙无知所弑",
+      "bio": "釐公太子。父卒立为君，丝绌无知秩服，无知怨。通桓公夫人，醉而使力士彭生抱鲁桓公上车以杀之，桓公下车而死。诸弟惧祸及己，公子纠奔鲁。襄公后为公孙无知所弑，雍林人又袭杀无知。",
+      "tags": [
+        "杀鲁桓公",
+        "公孙无知之乱",
+        "公子纠奔鲁"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-xiaogong",
+      "name": "姜昭",
+      "display": "齐孝公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -633,
+      "deathNote": "史记·齐太公世家「十年，孝公卒，孝公弟潘因卫公子开方杀孝公子而立潘，是为昭公」记在位十年。",
+      "title": "五公子争立之一，在位十年",
+      "bio": "桓公之子，母郑姬。桓公死后无诡立三月被杀，继立者争之，孝公与昭公、懿公、惠公皆桓公之子。宋败齐四公子师而立太子昭，是为孝公。十年卒。",
+      "tags": [
+        "桓公之子",
+        "五公子争立"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-zhaogong",
+      "name": "姜潘",
+      "display": "齐昭公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -613,
+      "deathNote": "史记·齐太公世家「十九年五月，昭公卒，子舍立为齐君」记在位十九五年。其卒年与竹书纪年、春秋经传有前后一二年之差，此从史记，accuracy 记 approx。左传·昭公元年（前515）载齐侯使晏子聘晋，为其晚年。",
+      "title": "在位十九年，弟商人篡之",
+      "bio": "桓公之子，母葛嬴。无诡、孝公后立，昭公继之。十九年五月卒，子舍立为齐君，孤弱，商人以桓公死争立而不得，附爱百姓；及昭公卒，商人即墓上弒齐君舍而自立，是为懿公。",
+      "tags": [
+        "桓公之子",
+        "五公子争立",
+        "懿公篡位"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-yigong",
+      "name": "姜商人",
+      "display": "齐懿公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -609,
+      "deathNote": "史记·齐太公世家「懿公四年」记在位四年。",
+      "title": "墓上弒君自立，在位四年",
+      "bio": "桓公之子，母密姬。昭公卒，子舍立，商人以众十月即墓上弒齐君舍而自立。立而骄，民不附。后与诸大夫游竹中，二人于车上弒懿公。齐自是内乱不止。",
+      "tags": [
+        "墓上弒君",
+        "桓公之子",
+        "崔杼之乱的远因"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-huigong",
+      "name": "姜元",
+      "display": "齐惠公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -599,
+      "deathNote": "史记·齐太公世家「十年，惠公卒，子顷公无野立」记在位十年。",
+      "title": "在位十年，废昭公诸子而立",
+      "bio": "桓公之子，母少卫姬，避齐乱而在卫。齐人废其子而迎公子元于卫立之。二年长狄来，王子城父攻杀之，埋于北门。十年卒。",
+      "tags": [
+        "桓公之子",
+        "王子城父杀长狄"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-qinggong",
+      "name": "姜无野",
+      "display": "齐顷公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -582,
+      "deathNote": "史记·齐太公世家「十七年，顷公卒，子灵公环立」记在位十七年。",
+      "title": "在位十七年，晏子整齐齐政",
+      "bio": "惠公之子。崔杼有宠于惠公，惠公卒，高、国畏其偪，逐之，崔杼奔卫。顷公立，晏婴为相，厚礼诸侯，晋闻齐政。竟顷公卒，百姓附，诸侯不犯。",
+      "tags": [
+        "晏婴为相",
+        "崔杼奔卫",
+        "政归田氏之先声"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-linggong",
+      "name": "姜环",
+      "display": "齐灵公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -554,
+      "deathNote": "史记未记灵公在位年数。卒年由其父顷公卒（前582）与崔杼迎故太子光立庄公（庄公前548）之间推定，作约年。左传·襄公二十八年（前545）载齐侯使子家告于晋，是其末年。",
+      "title": "弑惠公诸子而立，为崔杼所立",
+      "bio": "顷公之子。初立，贵妃有宠，崔杼立之。九年，栾书弑晋厉公，晋伐齐。又八年，高国田氏以庆封为相，害伯子牙，栾公首亦见杀。灵公疾，崔杼迎故太子光而立之，是为庄公。",
+      "tags": [
+        "崔杼立君",
+        "田氏起"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-zhuanggong-hou",
+      "name": "姜光",
+      "display": "齐庄公（后）",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -548,
+      "deathNote": "史记未记此庄公在位年数。卒年前548，据其即位于灵公卒年、左传·襄公二十一年（前541）载崔杼杀庄公相合，作约年。与前731的第一位齐庄公（釐公之父）务必分清。",
+      "title": "崔杼迎立，六年为崔杼所弑",
+      "bio": "桓公之孙，灵公之废太子。灵公疾，崔杼迎故太子光而立之。五月壬辰灵公卒，光即位，执太子牙于句窦之丘，杀之。任崔杼为右相、庆封为左相，宠信之，遂至国乱。",
+      "tags": [
+        "崔杼迎立",
+        "杀太子牙",
+        "与前731庄公别"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-chunqiu-jinggong",
+      "name": "姜杵臼",
+      "display": "齐景公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -490,
+      "deathNote": "史记·齐太公世家「五十八年夏，景公夫人燕姬适子死」记在位五十八年。据其即位于庄公（前548）卒后一年，得前547，五十八年推得前490。",
+      "title": "在位五十八年，史墨断其必亡",
+      "bio": "庄公异母弟。崔杼立之，以崔杼为右相、庆封为左相。庆封以酒醋鱼黍罚为，崔杼与庆封相恶，庆封奔卫。景公问于史墨，曰「其亡乎」，对曰「亡。公室益卑，公及大夫皆富」。田乞亦始大。",
+      "tags": [
+        "崔杼庆封之祸",
+        "史墨论亡",
+        "田乞秉政"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-yanruz",
+      "name": "姜荼",
+      "display": "齐晏孺子",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -490,
+      "deathNote": "史记未记晏孺子在位年数。卒年前490，与景公卒同年，作约年。左传·昭公二十六年（前520）载晏子与晋叔向语「齐政卒归田氏」，田乞正谋夺齐。",
+      "title": "景公少子，立而被田氏所杀",
+      "bio": "景公之子燕姬所出。景公老，厌言嗣事，爱荼母，忌发之口，谓诸大夫曰「为乐耳，国何患无君」，遂命国惠子、高昭子立少子荼为太子，迁群公子于莱。景公卒，茶立，是为晏孺子。",
+      "tags": [
+        "景公少子",
+        "迁群公子于莱",
+        "田氏夺齐"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-daogong",
+      "name": "姜阳生",
+      "display": "齐悼公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -485,
+      "deathNote": "史记·齐太公世家「鲍子弑悼公，赴于吴」记其被田氏所杀，未记年数。卒年前485，作约年。田氏代齐自此不可复挽。",
+      "title": "田乞所立，旋为田氏所杀",
+      "bio": "景公之子。晏孺子立，田乞伪事高、国者而骄其君，欲易立之。鲍牧畏祸从之，晏孺子立为景公子阳生，是为悼公。悼公入宫，使人迁晏孺子于骆，杀之幕下，而逐孺子母芮子。",
+      "tags": [
+        "田氏所立",
+        "为田氏所杀",
+        "田氏代齐之始"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-jiangong",
+      "name": "姜壬",
+      "display": "齐简公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -481,
+      "deathNote": "史记·齐太公世家「简公四年」记在位四年。卒年前481，据其父悼公（前485）与弟平公（前456）之间推定，作约年。田常弑君而立其弟，田氏之篡自此明目。",
+      "title": "田常弑之，在位四年",
+      "bio": "悼公之子。齐人共立悼公子壬，是为简公。简公与父阳生俱在鲁，监止有宠，及即位使之为政。田成子惮之，骤夺其权。甲午，田常弑简公于俆州，立简公弟驩，是为平公。",
+      "tags": [
+        "田常弑君",
+        "监止之宠",
+        "田氏代齐"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-pinggong",
+      "name": "姜驩",
+      "display": "齐平公",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -456,
+      "deathNote": "史记·齐太公世家「平公八年，越灭吴。二十五年卒，子宣公贷立」记在位二十五年。据平公八年即专题所定的越灭吴前473年反推，平公元年前480，二十五年推得前456，与全链吻合。",
+      "title": "在位二十五年，晏子十世相齐之末",
+      "bio": "简公弟。田常乃立简公弟驩，是为平公，平公即位，田常相之，专齐之政，割齐安平以东为田氏封邑。八年，越灭吴。二十五年卒。晏婴历事灵公、庄公、景公、悼公、简公至平公，凡五世。",
+      "tags": [
+        "田常专政",
+        "越灭吴",
+        "晏子五世相齐"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-mi",
+      "name": "熊眴",
+      "display": "楚蚡冒",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -741,
+      "deathNote": "史记·楚世家「蚡冒十七年，卒」。由楚武王前690（经传链）上推，蚡冒卒约前733；但试跑文档记前741。经传链与竹书链在此段分歧，且史记未记蚡冒卒的绝对年，故作约年，暂从试跑文档之前741。",
+      "title": "始称楚王，弟熊通代立",
+      "bio": "若敖之子，霄敖之子。十七年卒，弟熊通弒其子而代立，是为楚武王。楚自此始见于史册。",
+      "tags": [
+        "楚始称王",
+        "若敖之后"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-tong",
+      "name": "熊通",
+      "display": "楚武王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -690,
+      "deathNote": "史记·楚世家「五十一年……武王卒师中而兵罢」。由楚庄王前591（在册 exact）上推文王13年、武王43年，得武王前690，与试跑文档一致。注意史记的「五十一年」是熊通自蚡冒元年起的纪年，非武王在位年数。",
+      "title": "自立为王，与随人盟，楚地始开濮",
+      "bio": "蚡冒弟，弒蚡冒子而代立。三十七年熊通怒曰：「王室不加位，我自尊耳。」乃自立为武王，与随人盟。五十一年周召随侯数以立楚为王，武王伐随，卒于师中。是为楚王见于经传之始。",
+      "tags": [
+        "自立为王",
+        "始开濮地",
+        "与随人盟"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-zi",
+      "name": "熊赀",
+      "display": "楚文王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -677,
+      "deathNote": "史记·楚世家「文王十三年，卒，子熊艰立」。由楚庄王前591上推得前677，与试跑文档一致。",
+      "title": "始都郢，在位十三年",
+      "bio": "武王子熊赀。始都郢。六年伐蔡虏蔡哀侯，陵江汉间小国，小国皆畏之。十一年齐桓公始霸，楚亦始大。十二年灭邓。十三年卒。",
+      "tags": [
+        "始都郢",
+        "陵江汉"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-xia",
+      "name": "熊瑕",
+      "display": "楚堵敖",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -672,
+      "deathNote": "史记·楚世家缺堵敖（州满），其卒年无所征。暂从试跑文档之前672（文王前677之后五年），作约年。",
+      "title": "在位三年，为公子羆所弑",
+      "bio": "文王子。立三年，为公子羆（熊咢之子）所弑。楚世家不载其人，此据左传·庄公十四年「楚人伐郑……楚公子羆弑其君州满」及系年。",
+      "tags": [
+        "为公子羆所弑",
+        "史记缺载"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-shangchen",
+      "name": "熊商臣",
+      "display": "楚穆王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -614,
+      "deathNote": "史记·楚世家「穆王十二年，卒。子庄王侣立」。由楚庄王前591（在册 exact）反推得前614，与试跑文档一致。",
+      "title": "弑成王自立，在位十二年",
+      "bio": "成王子。太子宫与之潘崇，谋弑成王。丁未，成王自绞杀，商臣代立，是为穆王。以其太子宫予潘崇，使为太师掌国事。十二年卒，子庄王侣立。",
+      "tags": [
+        "弑成王自立",
+        "用潘崇"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-shen",
+      "name": "熊审",
+      "display": "楚共王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -560,
+      "deathNote": "史记·楚世家「三十一年，共王卒，子康王招立」记在位三十一年，但与楚庄王前591（在册 exact）至试跑文档之前560仅隔约八年相冲突。鄢陵之战为前575，共王十六年即前575，反推共王元年前590左右，与庄王前591相衔接。故「三十一年」不取，卒年暂从试跑文档之前560，作约年。",
+      "title": "鄢陵之战中楚，为晋厉公所射",
+      "bio": "庄王之子。十六年晋伐郑，共王救郑，战于鄢陵，晋败楚，射中共王目。共王召将军子反，子反醉而不能见，申舟视师而退。共王在位约八年。",
+      "tags": [
+        "鄢陵之战",
+        "申舟自杀"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-zhao",
+      "name": "熊招",
+      "display": "楚康王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -545,
+      "deathNote": "史记·楚世家「康王立十五年卒，子员立，是为郏敖」记在位十五年。由共王前560顺推得前545，与试跑文档一致；因共王卒年本身为约年，此条连带作约年。",
+      "title": "在位十五年，宠四公子致乱",
+      "bio": "共王子。立十五年卒，子员立，是为郏敖。康王宠弟公子围、子比、子皙、弃疾，郏敖以季父公子围为令尹主兵事，卒酿成五公子之乱。",
+      "tags": [
+        "宠四公子",
+        "郏敖之乱之由"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-yuan",
+      "name": "熊员",
+      "display": "楚郏敖",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -541,
+      "deathNote": "史记·楚世家「郏敖三年……四年，围入问王疾」。由康王前545顺推得前541，与试跑文档一致；因康王/共王皆约年，此条连带作约年。",
+      "title": "在位四年，为公子围所杀",
+      "bio": "康王子。三年以季父公子围为令尹主兵事。四年围使郑，道闻王疾而还。十二月己酉，围入问王疾，伏兵杀之，自立，是为灵王。",
+      "tags": [
+        "为公子围所杀",
+        "五公子之乱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-wei",
+      "name": "熊围",
+      "display": "楚灵王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -529,
+      "deathNote": "左传·昭公十三年（前529）载楚围立灵王、灭陈、乾溪之乱。经传链（前529）于此年楚灵王即位、旋死，与试跑文档一致。",
+      "title": "章华台饿死，为申亥之家所杀",
+      "bio": "共王庶子。围立，弑郏敖、王子比等。三年会诸侯于申，作章华台，僇越大夫常寿过，杀蔡大夫观起。会诸侯于申，求周九鼎。十二年春乐乾谿不能去，国人苦役。观从谓比曰：不杀弃疾，虽得国犹受祸。弃疾杀比及灵王，灵王饿死于申亥之家。",
+      "tags": [
+        "章华台",
+        "乾溪之乱",
+        "饿死申亥之家"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-qiji",
+      "name": "熊弃疾",
+      "display": "楚平王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -516,
+      "deathNote": "左传·昭公二十六年传「九月，楚平王卒」。经传链：哀公前468 → 定公15年 → 昭公32年 → 昭公二十六年 = 前516；此链与专题已定柏举之战前506自洽。",
+      "title": "弑三王自立，在位十三年",
+      "bio": "共王庶子，公子围之弟。杀灵王、子比自立。使费无忌如秦为太子建取妇，无忌诬之，太子建出奔。围徐尹、訾敖弑之。楚平王之名，前516。",
+      "tags": [
+        "弑三王自立",
+        "费无忌诬太子建",
+        "经传链定年"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiong-zhen",
+      "name": "熊珍",
+      "display": "楚昭王",
+      "lane": "lord",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -489,
+      "deathNote": "史记·楚世家不载昭王卒年。左传·定公四年（前506）柏举之战，吴破楚；昭王奔随，二十年（前489）卒于军中。",
+      "title": "吴破楚奔随，卒于军中",
+      "bio": "平王子。前505吴师入郢，昭王出奔随。吴王阖闾谓随人曰：周之子孙封于江汉之间者，楚尽灭之。昭王以随有功，灭唐。二十七年吴复伐楚，昭王死于军中。",
+      "tags": [
+        "吴破楚",
+        "奔随",
+        "昭王之死"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
       ],
       "gender": "male"
     }
@@ -878,7 +2372,7 @@
       "kind": "point",
       "year": -551,
       "people": [
-        "kongzi"
+        "kong-zi"
       ],
       "desc": "生年取《史记》前 551 年说。士人泳道在霸主时代的后半段才出现。"
     },
@@ -901,7 +2395,7 @@
       "year": -497,
       "endYear": -484,
       "people": [
-        "kongzi"
+        "kong-zi"
       ],
       "desc": "去鲁十四年。吴越争霸的同时，士人条在卫、陈、蔡之间平移，求行其道而未得。"
     },
@@ -935,7 +2429,7 @@
       "kind": "point",
       "year": -479,
       "people": [
-        "kongzi"
+        "kong-zi"
       ],
       "desc": "鲁哀公十六年。同一时期吴越尚未终局，《春秋》的笔停了，争霸还在继续。"
     },
@@ -1017,7 +2511,7 @@
       "brief": "楚庄王的条在左，勾践的条在右，孔子的条从中间穿过。伍子胥连着阖闾与夫差，范蠡在灭吴之后主动断开。",
       "people": [
         "mi-lv",
-        "kongzi",
+        "kong-zi",
         "wu-yuan",
         "sun-wu",
         "ji-guang",

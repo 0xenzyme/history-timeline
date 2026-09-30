@@ -5,7 +5,7 @@
     "title": "战国",
     "subtitle": "变法到秦灭六国 · 公元前 403 — 公元前 221",
     "range": [
-      -400,
+      -435,
       -190
     ]
   },
@@ -827,7 +827,7 @@
       "gender": "male"
     },
     {
-      "id": "mengzi",
+      "id": "meng-zi",
       "name": "孟轲",
       "display": "孟子",
       "lane": "scholar",
@@ -874,7 +874,7 @@
       ]
     },
     {
-      "id": "xunzi",
+      "id": "xun-zi",
       "name": "荀况",
       "display": "荀子",
       "lane": "scholar",
@@ -896,7 +896,7 @@
       "primary": "scholar"
     },
     {
-      "id": "hanfei",
+      "id": "han-fei",
       "name": "韩非",
       "display": "韩非子",
       "lane": "scholar",
@@ -913,6 +913,1562 @@
         "legalism"
       ],
       "primary": "legalism"
+    },
+    {
+      "id": "ying-zao",
+      "name": "秦躁公",
+      "display": "秦躁公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -429,
+      "deathNote": "卒年据秦本纪在位年系年；自怀公至出子一段君统记载多出入，从通行系年。",
+      "title": "秦公，君统旁入远支",
+      "bio": "献公以前的秦君之一。这一代秦的君位屡经更张、一度转入公族远支，庶长专政，国事轻于三晋。轴上的秦君列现在从躁公起头，接到献公止从死。",
+      "tags": [
+        "秦国",
+        "庶长"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-huai",
+      "name": "秦怀公",
+      "display": "秦怀公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -425,
+      "deathNote": "秦本纪在位年系年，前425年卒。",
+      "title": "秦公，君统错出之世",
+      "bio": "躁公、怀公、灵公交迭而立，君统在本纪里本就自相错出。怀公之后经简公、惠公转到出子——献公之前的这条短乱尾巴，全补在轴上。",
+      "tags": [
+        "秦国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-ling",
+      "name": "秦灵公",
+      "display": "秦灵公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -415,
+      "deathNote": "秦本纪在位年系年，前415年卒。",
+      "title": "秦公，简公惠公之前",
+      "bio": "灵公卒后君位连转，简公、惠公、出子相继而立。魏文侯用吴起守西河，秦人在这一代不敢东出。",
+      "tags": [
+        "秦国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-jian",
+      "name": "秦简公",
+      "display": "秦简公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -400,
+      "deathNote": "本纪无卒句，据其卒后惠公元年及献公即位的系年逆推，约前400年，记approx。",
+      "title": "秦公，初租禾",
+      "bio": "简公令吏初带剑、初租禾，秦走向租赋县制的中间一步落在他这一世。约前400年卒，正当三家受命前后。",
+      "tags": [
+        "秦国",
+        "初租禾"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-hui",
+      "name": "秦惠公",
+      "display": "秦惠公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -387,
+      "deathNote": "秦本纪：惠公卒，出子立；由献公元年（前384）逆系，卒于前387年。",
+      "title": "秦公，出子之父",
+      "bio": "惠公卒后君位转给年幼的出子。两年内庶长改弑出子、迎师隰于魏——轴上献公即位（前384）就从这里起。",
+      "tags": [
+        "秦国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-chuzi",
+      "name": "秦出子",
+      "display": "秦出子",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -385,
+      "deathNote": "秦本纪：出子即位四年，庶长改杀之，迎师隰于魏，是为献公；系前385年。",
+      "title": "秦公，献公所代",
+      "bio": "出子即位四年被杀，秦人迎回献公，君统重新收直。轴上的秦君列从躁公数起，到他为止——商鞅变法的前提正是这段乱局被终结。",
+      "tags": [
+        "秦国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-wenhou",
+      "name": "魏文侯",
+      "display": "魏文侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": -396,
+      "deathNote": "文侯卒年内证矛盾：魏世家在位年与六国年表有出入。年份从通行说前396年，标disputed。",
+      "title": "魏侯，三家受命之首",
+      "bio": "三家之首：礼贤下士，用李悝、翟璜，乐羊伐中山，吴起守西河，前403与韩赵同受周威烈王命为诸侯——轴上的三家分晋系在他受命。魏最先强，变法、合纵两章都能回溯到他的朝廷。",
+      "tags": [
+        "魏国",
+        "礼贤",
+        "变法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-wuhou",
+      "name": "魏武侯",
+      "display": "魏武侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -370,
+      "deathNote": "武侯无卒句，据世家在位年与惠王纪元逆推，约前370年，记approx。",
+      "title": "魏侯，失吴起之世",
+      "bio": "文侯之子。武侯世吴起被疑去魏入楚，公叔为相而西河渐非魏有——文侯的气象在这一代开始漏。约前370年卒，其后惠王迁大梁。",
+      "tags": [
+        "魏国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-huiwang",
+      "name": "梁惠王",
+      "display": "魏惠王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": -319,
+      "deathNote": "卒年从竹书纪年作前319；史记魏世家在位三十六年与之不合。站点纪年（马陵前341、孟子见梁惠王前320）已从竹书，此条与之对齐，标disputed。",
+      "title": "魏王，迁大梁、问利于孟子",
+      "bio": "徙大梁、会诸侯，桂陵马陵两败于齐，徐州相王始称王。前320年孟子至大梁，\"王何必曰利\"是轴上唯一一场君臣对谈。他的条比商鞅长得多，变法席位上他是被教的一方。",
+      "tags": [
+        "魏国",
+        "大梁",
+        "仁义"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-xiangwang",
+      "name": "魏襄王",
+      "display": "魏襄王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -296,
+      "deathNote": "魏世家在位年系年，约前296年卒，记approx。",
+      "title": "魏王，垂棘之盟之主",
+      "bio": "惠王之后。与韩会于襄、五国攻秦他都赶上，魏的河东在这一代人手里一块块剥掉。约前296年卒，次年秦拔魏城渐急。",
+      "tags": [
+        "魏国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-zhaowang",
+      "name": "魏昭王",
+      "display": "魏昭王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -277,
+      "deathNote": "魏世家在位年系年，约前277年卒，记approx。",
+      "title": "魏王，河东日削",
+      "bio": "白起东攻正急的魏王，河东地随岁割让，魏已不能支。他的条与韩釐王、周赧王并齐，轴上六国君主自此集体变短。",
+      "tags": [
+        "魏国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-anxiwang",
+      "name": "魏安釐王",
+      "display": "魏安釐王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -243,
+      "deathNote": "魏世家：安釐王三十四年信陵君卒，王亦卒；由景湣王元年（前242，秦初置东郡）逆系为前243。与落库记录中信陵君条同推。",
+      "title": "魏王，窃符之后的猜忌",
+      "bio": "信陵君窃符救赵后忌之，不能复用；三十四年公子与王相继而卒。次年秦置东郡，魏只剩大梁以东。他的条与信陵君同年截断，是读魏国衰亡的对照。",
+      "tags": [
+        "魏国",
+        "信陵君"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-jinminwang",
+      "name": "魏景湣王",
+      "display": "魏景湣王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -228,
+      "deathNote": "魏世家在位年系年，约前228年卒；其子假即位数年城破水灌、被虏无卒年，不入。",
+      "title": "魏王，大梁将亡之主",
+      "bio": "秦已置东郡、割城二十，魏的条只剩大梁一隅。约前228年卒；魏亡在最后两年，被虏之君例不收。",
+      "tags": [
+        "魏国",
+        "大梁"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-jinghou",
+      "name": "韩景侯",
+      "display": "韩景侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -400,
+      "deathNote": "韩世家传年与六国年表出入，由景侯纪元逆推，约前400年卒，记approx。",
+      "title": "韩侯，三家受命之一",
+      "bio": "前403与魏文侯、赵烈侯同受周威烈王命为诸侯。韩地狭，介在秦魏楚之间，七国最弱的一条——韩的君主列自此补全，才看得见它一年年缩到最后。",
+      "tags": [
+        "韩国",
+        "三家分晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-liehou",
+      "name": "韩列侯",
+      "display": "韩列侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -387,
+      "deathNote": "韩世家在位年系年，前387年卒；聂政刺侠累事在列侯之世（刺客列传）。",
+      "title": "韩侯，侠累遇刺之世",
+      "bio": "相国侠累堂上被聂政刺杀，君相之权纠缠——刺客列传里韩国的底色。前387年卒，与秦惠公、楚悼王同年截断，变法与刺杀同时铺开。",
+      "tags": [
+        "韩国",
+        "聂政"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-wenhou",
+      "name": "韩文侯",
+      "display": "韩文侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -377,
+      "deathNote": "韩世家在位年系年，约前377年卒，记approx。",
+      "title": "韩侯，列侯哀侯之间",
+      "bio": "列侯、哀侯之间的韩君，三晋仍相为与国。约前377年卒，其后哀侯徙阳翟、灭郑。",
+      "tags": [
+        "韩国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-aigong",
+      "name": "韩哀侯",
+      "display": "韩哀侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -371,
+      "deathNote": "韩世家：哀侯之世郑亡，并有韩大夫杀其君之句；由世家与年表系定为前371年卒。",
+      "title": "韩侯，灭郑之君",
+      "bio": "灭郑而徙都之，韩版图最亮的一刻；随即死于大夫之难。前371年卒——盛的顶点与祸的起点挤在同一个条尾。",
+      "tags": [
+        "韩国",
+        "灭郑"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-yigong",
+      "name": "韩懿侯",
+      "display": "韩懿侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -359,
+      "deathNote": "韩世家在位年系年，约前359年卒，记approx。",
+      "title": "韩侯，浊泽之役",
+      "bio": "赵乱、韩赵交恶，浊泽一役几乎分裂赵国——三晋同盟松动在懿侯之世。约前359年卒，次年代号为昭侯，得申不害。",
+      "tags": [
+        "韩国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-zhaohou",
+      "name": "韩昭侯",
+      "display": "韩昭侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -333,
+      "deathNote": "韩世家在位年与年表系定，前333年卒；申不害卒在其任内（老子韩非列传）。",
+      "title": "韩侯，用申不害之主",
+      "bio": "任申不害相韩，国治兵强，终申子之身诸侯不敢侵；敛席藏弊的俭核之政出名。前333年卒——韩的最后一轮振作收在这条上，其后韩不复振。",
+      "tags": [
+        "韩国",
+        "申不害",
+        "变法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-xuanhuiwang",
+      "name": "韩宣惠王",
+      "display": "韩宣惠王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -312,
+      "deathNote": "韩世家在位年系年，前312年卒。",
+      "title": "韩王，与楚同患者",
+      "bio": "韩自此列于王号。丹阳、蓝田之役秦楚相攻，韩夹在其间、两不得全。前312年卒，正是张仪欺楚、怀王受骗的同年——韩的日子从此跟着楚的败仗走。",
+      "tags": [
+        "韩国",
+        "称王"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-xiangwang",
+      "name": "韩襄王",
+      "display": "韩襄王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -296,
+      "deathNote": "韩世家在位年系年，约前296年卒，记approx。",
+      "title": "韩王，雍氏两围之世",
+      "bio": "楚围雍氏、秦兵东视，韩的坚城被轮番攻打。约前296年卒；垂棘、襄陵之盟的余波都在他的条上。",
+      "tags": [
+        "韩国",
+        "雍氏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-xiwang",
+      "name": "韩釐王",
+      "display": "韩釐王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -273,
+      "deathNote": "韩世家在位年系年，约前273年卒，记approx。",
+      "title": "韩王，岁比不支",
+      "bio": "秦取韩城岁有之，救魏、从衡皆不胜，南阳一线渐蹙。约前273年卒，其后桓惠王立，上党之变起于其世。",
+      "tags": [
+        "韩国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-huanhuiwang",
+      "name": "韩桓惠王",
+      "display": "韩桓惠王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -239,
+      "deathNote": "韩世家在位年系年，约前239年卒；其子安王前230举国降秦，被虏之君无卒年不入。",
+      "title": "韩王，上党之变",
+      "bio": "秦断上党道，韩不能守；上党守不肯独降秦，举其地先归于赵——轴上长平之战这条最大的线，起在他的失守上。约前239年卒，九年后韩亡。",
+      "tags": [
+        "韩国",
+        "上党"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-liehou",
+      "name": "赵烈侯",
+      "display": "赵烈侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -400,
+      "deathNote": "赵世家在位年与六国年表系定，前400年卒。",
+      "title": "赵侯，三家受命之一",
+      "bio": "与魏文侯、韩景侯同受命于周威烈王。墨者公仲、牛畜一进退见于世家，赵的初政在守成之间。前400年卒。",
+      "tags": [
+        "赵国",
+        "三家分晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-jinghou",
+      "name": "赵敬侯",
+      "display": "赵敬侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -375,
+      "deathNote": "赵世家在位年系年，前375年卒。",
+      "title": "赵侯，徙都邯郸",
+      "bio": "前386徙邯郸，赵的重心南移，从此常当秦东出之冲。前375年卒；卫、中山与齐魏的兵端都开在其世。",
+      "tags": [
+        "赵国",
+        "邯郸"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-chenghou",
+      "name": "赵成侯",
+      "display": "赵成侯",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -350,
+      "deathNote": "赵世家在位年与年表系定，前350年卒。",
+      "title": "赵侯，围邯郸之主",
+      "bio": "魏围邯郸，齐救之——桂陵、马陵两役孙膑对庞涓，都在他的求援与失地上发生。前350年卒，胡服骑射接在他孙儿武灵王手上。",
+      "tags": [
+        "赵国",
+        "桂陵"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-xiaochengwang",
+      "name": "赵孝成王",
+      "display": "赵孝成王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -245,
+      "deathNote": "赵世家：孝成王二十一年卒；由世家\"二十年秦王政初立\"与秦王政元年（前246）逆推，卒于前245。与落库记录中李牧、平原君条同推。",
+      "title": "赵王，长平邯郸之主",
+      "bio": "长平的赵王：以赵括代廉颇，四十余万坑；随即坚壁邯郸，赖平原君告急、信陵君窃符解围。轴上changping、handan两点的焦点人物。前245年卒，其后三世而赵亡。",
+      "tags": [
+        "赵国",
+        "长平",
+        "邯郸"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-daoxiangwang",
+      "name": "赵悼襄王",
+      "display": "赵悼襄王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -236,
+      "deathNote": "赵世家：悼襄王九年卒，子迁立；由王迁七年（前229，李牧被斩）逆推，卒于前236年。纪年有出入，记approx。",
+      "title": "赵王，逐廉颇之世",
+      "bio": "廉颇被谗去魏、终身不复入赵；庞煖却燕取武遂，赵的将帅一线在他手里拆散。约前236年卒；其后王迁立，李牧死、邯郸降。",
+      "tags": [
+        "赵国",
+        "廉颇"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-he",
+      "name": "田和",
+      "display": "齐太公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -384,
+      "deathNote": "田敬仲完世家、六国年表：田和列为诸侯，立数年而卒，前384年。",
+      "title": "田齐首君，代姜者",
+      "bio": "太公田和：迁康公而请命于周，正式列于诸侯——年表齐国纪年从他起数。前384年卒。轴上的齐君列自此姓田；威宣之强、桂陵马陵之战，都打在田氏旗号下。",
+      "tags": [
+        "齐国",
+        "田氏代齐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-kanggong",
+      "name": "齐康公",
+      "display": "齐康公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -379,
+      "deathNote": "田敬仲完世家：康公迁海上、不得食邑而卒，由年表系前379年，姜氏之祀遂绝。",
+      "title": "姜齐末君",
+      "bio": "姜氏最后一位齐君：名号犹存而土田尽入于田氏，迁于海边、不得食邑而卒，世家但存一卒句。前379年卒。逐他的田和同栏并排，读的是\"齐换了主人\"。",
+      "tags": [
+        "齐国",
+        "田氏代齐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-wu",
+      "name": "田午",
+      "display": "田齐桓公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -357,
+      "deathNote": "桓公武卒年世家与年表有出入，逆推约前357年，记approx。",
+      "title": "田齐过渡之君",
+      "bio": "太公、威王之间的齐君。开稷下置大夫之制相传在田齐早段，扁鹊见桓侯而望走的故事也系在他这一世（异说并存）。约前357年卒，其后因齐立，齐最强一段开始。",
+      "tags": [
+        "齐国",
+        "稷下"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-xuanwang",
+      "name": "齐宣王",
+      "display": "齐宣王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -301,
+      "deathNote": "田敬仲完世家、六国年表：宣王卒年系定为前301年。",
+      "title": "齐王，稷下之王",
+      "bio": "孟子见宣王问王政，伐燕取半渡之功而不能守；稷下先生之盛在此世。前301年卒，其子湣王立——由宣到湣，齐是一条上坡接着一脚踩空。",
+      "tags": [
+        "齐国",
+        "稷下"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-fa",
+      "name": "田法",
+      "display": "齐襄王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -265,
+      "deathNote": "田敬仲完世家、年表：襄王法即位后前265年卒。襄、湣之际传系年数后世异说甚多，此从史记本系。",
+      "title": "破齐之后的存国君",
+      "bio": "乐毅破齐、湣王死，莒、即墨独存——立的是这位襄王。齐守四十余年不复战，君王后制于内。前265年卒，其后王建不战降秦。",
+      "tags": [
+        "齐国",
+        "复国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-shengwang",
+      "name": "楚声王",
+      "display": "楚声王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -402,
+      "deathNote": "楚世家：声王为盗所杀，卒于前402年。",
+      "title": "楚王，\"为盗所杀\"",
+      "bio": "楚世家里的非常之笔：一位方城以外的大君死于盗。楚地广而政弛，吴起后来在楚相悼王所治正是这种局面。其子悼王立，轴上楚的变法条由此接起。",
+      "tags": [
+        "楚国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-daowang",
+      "name": "楚悼王",
+      "display": "楚悼王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -381,
+      "deathNote": "楚世家、孙子吴起列传：悼王用吴起变法，卒于前381年；射吴起并中王尸即在其丧期。",
+      "title": "楚王，用吴起者",
+      "bio": "自魏迎吴起以为令尹：损禄秩以实兵，贵人不得世其封，南收杨越、北却三晋，楚之震畏。前381年卒，未葬之间宗室大臣伏弩射吴起并中王尸；新王即位，坐射王尸之罪夷宗死者七十余家——楚的变法以一场族诛结账。",
+      "tags": [
+        "楚国",
+        "吴起",
+        "变法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-suwang",
+      "name": "楚肃王",
+      "display": "楚肃王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -370,
+      "deathNote": "楚世家：肃王立，由世家在位年与年表系前370年卒。",
+      "title": "楚王，吴起之后",
+      "bio": "悼王嗣绝、肃王立——坐射尸之罪族诛既毕，楚法弛而复旧。前370年卒，楚复为一个大而不治的国，宣威两世与齐魏争强，其后怀王之祸。",
+      "tags": [
+        "楚国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-xuanwang",
+      "name": "楚宣王",
+      "display": "楚宣王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -340,
+      "deathNote": "楚世家在位年与年表系定，前340年卒。",
+      "title": "楚王，威怀之父",
+      "bio": "宣王世楚仍为山东地最大之国，与齐威、魏惠并立。前340年卒——张仪欺楚、丹阳蓝田、怀王客死于秦，一连串灾祸都在他身后二三十年里。",
+      "tags": [
+        "楚国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-weiwang",
+      "name": "楚威王",
+      "display": "楚威王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -329,
+      "deathNote": "楚世家在位年系年，前329年卒。",
+      "title": "楚王，徐州相王之世",
+      "bio": "并越地、与齐魏徐州相王，苏秦说六国时楚为纵长之资。屈原为其世左徒，主联齐距秦。前329年卒，轴上张仪欺楚之祸起于其子怀王熊槐。",
+      "tags": [
+        "楚国",
+        "合纵"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-qingxiangwang",
+      "name": "楚顷襄王",
+      "display": "楚顷襄王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -263,
+      "deathNote": "楚世家、年表：顷襄王三十六年卒，系前263年。",
+      "title": "楚王，郢亡之君",
+      "bio": "太子横质于齐，怀王入秦不反，齐送其归而立。白起取郢、烧夷陵，东徙而收东地之兵，楚之西半尽失。屈原放逐江南、前278年投汨罗，并在其世。前263年卒，考烈王与春申君接之。",
+      "tags": [
+        "楚国",
+        "郢"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-kaoliewang",
+      "name": "楚考烈王",
+      "display": "楚考烈王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -238,
+      "deathNote": "楚世家、春申君列传：考完以春申君力归立，元年以歇为相；卒于始皇九年（前238），春申君亦是岁死。与落库记录同推。",
+      "title": "楚王，春申所立",
+      "bio": "太子完尝质于秦，黄歇设谋得归而立——相国于歇二十余年，东徙寿春，与诸侯合从攻秦不克。前238年卒；同年李园杀春申君，楚的把柄换了人家。",
+      "tags": [
+        "楚国",
+        "春申君"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-youwang",
+      "name": "楚幽王",
+      "display": "楚幽王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -228,
+      "deathNote": "楚世家：幽王立而卒于前228年，与李园之狱相及。",
+      "title": "楚王，李园之局",
+      "bio": "考烈死、哀立、旋杀——李园以妹得幸于春申君，既杀歇，复逐所立之君。幽王承此乱而卒于前228年；再后五年，项燕立昌平君、秦灭楚。",
+      "tags": [
+        "楚国",
+        "李园"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-aiwang",
+      "name": "楚哀王",
+      "display": "楚哀王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -228,
+      "deathNote": "楚世家：哀王即位二月余，李园使人伏袭杀之；年份与幽王卒岁重叠，系前228年，记approx。",
+      "title": "楚王，两月而殒",
+      "bio": "考烈王死、太子哀即位，两月余即遇弑——楚室最后一幕的急促就在这两个月里。其弟幽王代立，再后负刍虏于秦，无卒年，例不入。",
+      "tags": [
+        "楚国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-wengong",
+      "name": "燕文公",
+      "display": "燕文公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -333,
+      "deathNote": "燕世家与年表于燕早期系年冲突（湣、釐、桓三公可缓），文公卒年从年表系前333年。",
+      "title": "燕公，始与山东通",
+      "bio": "燕与赵结好、始通中国，苏秦之说燕文公在其世。前333年卒——燕从边地之国进入合纵连横的盘面，从此条起。",
+      "tags": [
+        "燕国",
+        "苏秦"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-yiwang",
+      "name": "燕易王",
+      "display": "燕易王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -321,
+      "deathNote": "燕世家、年表：易王卒于前321年，子哙立。",
+      "title": "燕王，让国之祸的前夜",
+      "bio": "燕至此称王。齐女为后、秦与燕婚，外交初开。前321年卒，接着就是王哙让国、齐人伐燕——父子之际燕几乎亡国。",
+      "tags": [
+        "燕国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-kuaiwang",
+      "name": "燕王哙",
+      "display": "燕王哙",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -314,
+      "deathNote": "燕世家：齐乘燕乱伐之，杀王哙与子之；年份约前314，哙死法与系年异说并存，记approx。",
+      "title": "燕王，让国者",
+      "bio": "让国于相子之、三百石以上之吏皆归焉，三年而燕大乱。齐宣王伐燕，士卒不战、城门不闭，哙与子之俱死（约前314）。燕昭王筑宫招贤，正是在这场奇祸的残局上。",
+      "tags": [
+        "燕国",
+        "子之"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-wuchengwang",
+      "name": "燕武成王",
+      "display": "燕武成王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -258,
+      "deathNote": "燕世家在位年与年表系定，前258年卒。",
+      "title": "燕王，复国之后",
+      "bio": "昭王之后长于安静，与齐赵未甚构兵——乐毅伐齐的仇，齐人后来报在燕孝之世。前258年卒；秦东并日急，燕对秦的最后一点主动，轮到太子丹。",
+      "tags": [
+        "燕国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-xiaowang",
+      "name": "燕王喜",
+      "display": "燕王喜",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -255,
+      "deathNote": "六国年表作孝王、卒于前255；燕世家此段作王喜——名号异说，纪年从年表、世系从世家并记。",
+      "title": "燕末君，太子丹之父",
+      "bio": "年表之燕孝王，世家之王喜：燕国最后一位有卒年可纪的国君。灭燕之事全在其太子之世——斩丹以献不能缓秦兵，奔辽东而虏。前255年卒。",
+      "tags": [
+        "燕国",
+        "太子丹"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhou-weiliewang",
+      "name": "周威烈王",
+      "display": "周威烈王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -402,
+      "deathNote": "周本纪、六国年表：威烈王午，在位二十六年，卒于前402年。",
+      "title": "周王，命三家为诸侯者",
+      "bio": "战国开始的界线画在他的命令上：前403命魏赵韩俱为诸侯。死在那道命令之后九年——周王的条从此起，渐渐比不过七国的县令。",
+      "tags": [
+        "周室",
+        "三家分晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhou-anwang",
+      "name": "周安王",
+      "display": "周安王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -376,
+      "deathNote": "周本纪、年表：安王骄，在位二十六年，卒于前376年。",
+      "title": "周王，晋祀遂绝",
+      "bio": "他在位时田和列为诸侯、三家又分残晋而晋祀绝——周的印玺只是追认已成之势。前376年卒。",
+      "tags": [
+        "周室"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhou-xianwang",
+      "name": "周显王",
+      "display": "周显王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -321,
+      "deathNote": "周本纪、年表：显王扁，在位四十八年，卒于前321年。",
+      "title": "周王，秦称王之世",
+      "bio": "商君封商、惠文称王，秦致伯诸侯——他四十八年的位在位里，天子名分被一步步抽空。前321年卒，孙赧王延接之。",
+      "tags": [
+        "周室",
+        "商鞅"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhou-nanwang",
+      "name": "周赧王",
+      "display": "周赧王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -256,
+      "deathNote": "周本纪、年表：赧王延五十九年，与轴上秦灭东周（前256，mie-zhou）同岁而卒。",
+      "title": "东周末王",
+      "bio": "周王在位最长的一条、也是最后一条：合从攻秦、债台高筑之说出于后世，事败尽献其邑而卒。轴上mie-zhou一点正是他的结局，九鼎由此入秦。",
+      "tags": [
+        "周室",
+        "九鼎"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jin-liegong",
+      "name": "晋烈公",
+      "display": "晋烈公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -393,
+      "deathNote": "卒年独见今本竹书纪年晋纪（前393年），史记失载——记approx并出此注。",
+      "title": "晋之寄公",
+      "bio": "三家分晋时晋公室仅存祀名，土地人民皆入韩赵魏；轴上sanjia一点发生在这一世。卒年史不详，依今本竹书晋纪约前393年，姑存其注。",
+      "tags": [
+        "晋国",
+        "三家分晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-qi",
+      "name": "吴起",
+      "display": "吴起",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -381,
+      "deathNote": "孙子吴起列传：楚之贵族恶吴起；悼王卒，宗室大臣设伏射吴起并中王尸。新王坐射王尸之罪，夷宗死者七十余家。悼王卒岁即前381年。",
+      "title": "魏守西河，楚行变法",
+      "bio": "以兵法并用名世：魏文侯使守西河，秦人不敢东向；去魏入楚，为悼王令尹，损禄秩、实兵权，南收杨越、北却三晋。悼王死，伏弩射起并中王尸，新王坐罪夷宗室七十余家——楚的变法随他一起结账。一条横贯魏楚两个朝廷，是变法席位上代价最重的人。",
+      "tags": [
+        "魏国",
+        "楚国",
+        "西河",
+        "变法"
+      ],
+      "categories": [
+        "minister",
+        "general"
+      ],
+      "primary": "minister",
+      "polity": [
+        "wei-zhanguo",
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-buhai",
+      "name": "申不害",
+      "display": "申不害",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -337,
+      "deathNote": "老子韩非列传、韩世家：申子卒、韩国不复振；由昭侯纪元与年表系前337年卒。",
+      "title": "韩相，主术的法家",
+      "bio": "故郑之贱臣，学黄老刑名以术干韩昭侯，昭侯使相韩：内修政教、外应诸侯，国治兵强十五年，终申子之身诸侯不敢侵。法家称\"商君之法、申子之术\"，创始两人同在轴上；他死后四年昭侯亦卒，韩不复振。",
+      "tags": [
+        "韩国",
+        "变法",
+        "术"
+      ],
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chuli-zi",
+      "name": "樗里子",
+      "display": "樗里子",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -300,
+      "deathNote": "樗里子甘茂列传：樗里子至昭王世为政；卒年由纪年系于前300年（昭王七年）。",
+      "title": "秦公子，惠王庶弟",
+      "bio": "秦惠王庶弟，里中语曰\"力则任鄙，智则樗里\"。历惠文、武、昭三世，以滑稽多智自全于严疾、甘茂之间。前300年卒——秦宫廷智囊一格的公子，与宣太后、穰侯的外戚故事接壤。",
+      "tags": [
+        "秦国"
+      ],
+      "categories": [
+        "minister",
+        "strategist"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zi-zhi",
+      "name": "子之",
+      "display": "子之",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -314,
+      "deathNote": "燕世家：子之南面行王事，哙老不听政，三年国大乱；齐伐燕，杀王哙与子之——约前314年，死法与年份异说并存，记approx。",
+      "title": "燕相，受让国者",
+      "bio": "为燕相而行事断，三百石以上之吏尽归之；王哙让国、委而听事三年，燕大乱，齐赵交攻，哙与子之俱死——燕几亡于这场奇祸。昭王收残局而复兴。合纵一章里燕国的内崩，名字系在他身上。",
+      "tags": [
+        "燕国",
+        "子之之乱"
+      ],
+      "categories": [
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "taizi-dan",
+      "name": "燕太子丹",
+      "display": "燕太子丹",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -226,
+      "deathNote": "刺客列传、燕世家：秦破燕，王喜徙保辽东，使人斩太子丹欲以献秦——系始皇二十一年（前226）破蓟之岁，记approx。",
+      "title": "燕太子，督亢之图",
+      "bio": "少时与嬴政俱质于赵，政立而丹质于秦，不得意亡归：恐秦尽并天下而祸至燕，卑身厚币养士，终遣荆轲奉督亢图、图穷匕见于咸阳殿上。事不成，秦兵东下，丹被斩犹不能缓燕亡（约前226）——轴上对秦最后一次主动出击，出自他。",
+      "tags": [
+        "燕国",
+        "荆轲",
+        "刺秦"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "changping-jun",
+      "name": "昌平君",
+      "display": "昌平君",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -223,
+      "deathNote": "秦始皇本纪：二十三年王翦蒙武大破荆兵，昌平君死、项燕自杀——前223年，楚亡之岁。",
+      "title": "秦相而末代楚王",
+      "bio": "楚公子之在秦者，吕不韦免相之岁代其国事，仕秦为相；及秦灭楚急，项燕立为荆王，起兵淮南反秦。一人两身，是轴上秦与楚两条线的接点：前223年兵败而死，楚随之亡。被虏无卒年者例不收，他在秦楚之季战死有年，独入。",
+      "tags": [
+        "秦国",
+        "楚国"
+      ],
+      "categories": [
+        "royal-kin",
+        "minister"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qin",
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-chengjiao",
+      "name": "成蟜",
+      "display": "成蟜",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -239,
+      "deathNote": "秦始皇本纪：八年，王弟长安君成蟜将军击赵，反，死屯留。",
+      "title": "长安君，反死屯留",
+      "bio": "始皇之弟，封长安君。八年将兵击赵，中途反秦，死在屯留。军吏都被斩。",
+      "tags": [
+        "秦国",
+        "长安君"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-ao",
+      "name": "蒙骜",
+      "display": "蒙骜",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -240,
+      "deathNote": "白起王翦列传、秦始皇本纪：蒙骜将兵取成皋、荥阳置三川郡，攻魏取二十余城；始皇七年卒（前240）。",
+      "title": "秦将，蒙氏三世之祖",
+      "bio": "自齐入秦，历昭王至始皇世将兵：定成皋荥阳为三川郡，又上党之后定太原——轴上灭六国之前半段取地多出其手，郡县的版图先由他画。蒙武继之，蒙恬其孙，秦将门三世之条自他起。前240年卒。",
+      "tags": [
+        "秦国",
+        "蒙氏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qi-jie",
+      "name": "骑劫",
+      "display": "骑劫",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -279,
+      "deathNote": "田单列传：燕惠王疑乐毅，使骑劫代将围即墨；田单以火牛千余夜出，刺杀骑劫——与轴上tiandan同年，前279年。",
+      "title": "燕将，代乐毅覆军者",
+      "bio": "以谗代乐毅为将，攻即墨不下——火牛一奔，身死而燕军瓦解，齐七十余城由此尽复。轴上乐毅伐齐与田单复齐两条的接缝，就是他这条短将条。",
+      "tags": [
+        "燕国",
+        "即墨"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ju-xin",
+      "name": "剧辛",
+      "display": "剧辛",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -242,
+      "deathNote": "赵世家：赵使庞煖拒燕，擒剧辛杀之；由悼襄纪年与王迁七年（前229）逆推，约前242年，记approx。",
+      "title": "燕之老将，丧于轻赵",
+      "bio": "赵人，燕昭王卑身厚币招贤，剧辛自赵往——邹衍、剧辛之徒聚燕，黄金台的实名。历事两朝，晚年断言赵将庞煖易与，自请将兵击赵，果为煖所擒杀（约前242）。燕自昭王之盛到太子丹之亡，他一人盖住中段。",
+      "tags": [
+        "燕国",
+        "招贤"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "junwanghou",
+      "name": "君王后",
+      "display": "君王后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -249,
+      "deathNote": "田敬仲完世家：君王后卒，由襄王卒（前265）与王建降（前221）间在位年数逆推，约前249年，记approx。",
+      "title": "齐后，不兵误齐者",
+      "bio": "破齐之后襄王立，君王后制国：谨事秦、与诸侯信，从即墨以后齐不受兵四十余年。五国皆亡、齐犹宴然，最后不战而降的积势，正是她留下的秩序。约前249年卒——齐的王后线条到她为止。",
+      "tags": [
+        "齐国",
+        "不战而降"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qi"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "huayang-taihou",
+      "name": "华阳太后",
+      "display": "华阳太后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -230,
+      "deathNote": "秦始皇本纪：十七年，华阳太后卒。",
+      "title": "孝文王后，立子楚",
+      "bio": "安国君的正夫人。她自己无子，把在赵国做人质的子楚立为继承人。庄襄王尊她为华阳太后。始皇十七年卒。",
+      "tags": [
+        "秦国",
+        "太后"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qin"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "di-taihou",
+      "name": "帝太后",
+      "display": "帝太后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -228,
+      "deathNote": "秦始皇本纪在十九年段写始皇帝母太后崩。吕不韦列传：始皇十九年太后薨，谥为帝太后。",
+      "title": "始皇母，谥帝太后",
+      "bio": "庄襄王夫人，始皇的母亲。嫪毐作乱时用过她的玺。始皇十九年崩，谥帝太后。",
+      "tags": [
+        "秦国",
+        "太后"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qin"
+      ],
+      "gender": "female"
     }
   ],
   "relationTypes": [
@@ -1044,14 +2600,14 @@
       "note": "欺楚绝齐，屈原主联齐"
     },
     {
-      "source": "mengzi",
-      "target": "xunzi",
+      "source": "meng-zi",
+      "target": "xun-zi",
       "type": "rival",
       "note": "性善与性恶"
     },
     {
-      "source": "xunzi",
-      "target": "hanfei",
+      "source": "xun-zi",
+      "target": "han-fei",
       "type": "mentor",
       "note": "韩非学于荀子"
     },
@@ -1076,7 +2632,7 @@
     },
     {
       "source": "ying-zheng",
-      "target": "hanfei",
+      "target": "han-fei",
       "type": "ruler-subject",
       "since": -233,
       "note": "悦其书，韩非使秦而死"
@@ -1223,6 +2779,527 @@
       "target": "huang-xie",
       "type": "rival",
       "note": "黄歇入秦上书，劝止白起伐楚"
+    },
+    {
+      "source": "zhou-weiliewang",
+      "target": "wei-wenhou",
+      "type": "ruler-subject",
+      "since": -403,
+      "note": "威烈王二十三年命三晋为诸侯，文侯为其首"
+    },
+    {
+      "source": "zhou-weiliewang",
+      "target": "han-jinghou",
+      "type": "ruler-subject",
+      "since": -403,
+      "note": "韩景侯与魏赵之君同年受命"
+    },
+    {
+      "source": "zhou-weiliewang",
+      "target": "zhao-liehou",
+      "type": "ruler-subject",
+      "since": -403,
+      "note": "赵烈侯同年受命，轴上三家自此成栏"
+    },
+    {
+      "source": "zhou-weiliewang",
+      "target": "zhou-anwang",
+      "type": "kin",
+      "note": "安王骄嗣威烈王之位——田和请命、晋祀断绝都在他这一世"
+    },
+    {
+      "source": "zhou-xianwang",
+      "target": "zhou-nanwang",
+      "type": "kin",
+      "note": "赧王延，显王之后；五十九年之位是周王最后、也是最长的一条"
+    },
+    {
+      "source": "jin-liegong",
+      "target": "zhou-weiliewang",
+      "type": "peer",
+      "note": "同世的两家名分之主：晋寓于三家，周行命于王城"
+    },
+    {
+      "source": "jin-liegong",
+      "target": "han-jinghou",
+      "type": "ruler-subject",
+      "note": "晋烈公之世，晋祀仅存名号，韩赵魏分有其地"
+    },
+    {
+      "source": "zhou-anwang",
+      "target": "tian-he",
+      "type": "ruler-subject",
+      "since": -386,
+      "note": "安王命田和列为诸侯——三晋之后又一家受命"
+    },
+    {
+      "source": "tian-he",
+      "target": "tian-kanggong",
+      "type": "rival",
+      "note": "田和迁姜氏之君于海上，齐自此换了主人"
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "wu-qi",
+      "type": "ruler-subject",
+      "note": "文侯礼贤，用吴起守西河，秦人不敢东向"
+    },
+    {
+      "source": "wei-wuhou",
+      "target": "wu-qi",
+      "type": "ruler-subject",
+      "note": "武侯世公叔用事、以谗疑起——起去魏入楚，西河渐非魏有"
+    },
+    {
+      "source": "chu-daowang",
+      "target": "wu-qi",
+      "type": "ruler-subject",
+      "note": "自魏迎吴起以为令尹；王卒，贵族射起并中王尸"
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "ying-shixi",
+      "type": "rival",
+      "note": "师隰自魏而还——秦的变法前奏接在魏国朝廷的门口"
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "ying-jian",
+      "type": "rival",
+      "note": "吴起守西河，连夺秦西河之地，简惠之世秦人不敢东出"
+    },
+    {
+      "source": "ying-hui",
+      "target": "ying-chuzi",
+      "type": "kin",
+      "note": "惠公卒，君位转于幼子出子"
+    },
+    {
+      "source": "ying-chuzi",
+      "target": "ying-shixi",
+      "type": "rival",
+      "note": "出子即位四年，庶长改杀之于并，迎师隰于魏——献公止从死起于此"
+    },
+    {
+      "source": "ying-huai",
+      "target": "ying-ling",
+      "type": "kin",
+      "note": "怀公至灵公，君统在本纪里自相错出"
+    },
+    {
+      "source": "ying-ling",
+      "target": "ying-jian",
+      "type": "kin",
+      "note": "灵公卒后君位连转，简公、惠公、出子相继而立"
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "wei-wuhou",
+      "type": "kin",
+      "note": "文侯卒，武侯嗣——西河之业在这一代漏掉"
+    },
+    {
+      "source": "wei-wuhou",
+      "target": "wei-huiwang",
+      "type": "kin",
+      "note": "武侯卒，惠王嗣，迁大梁、徐州相王"
+    },
+    {
+      "source": "wei-huiwang",
+      "target": "wei-xiangwang",
+      "type": "kin",
+      "note": "惠王卒，襄王嗣；五国攻秦之会并在其世"
+    },
+    {
+      "source": "wei-xiangwang",
+      "target": "wei-zhaowang",
+      "type": "kin",
+      "note": "襄王卒，昭王嗣，河东岁割于秦"
+    },
+    {
+      "source": "wei-zhaowang",
+      "target": "wei-anxiwang",
+      "type": "kin",
+      "note": "昭王卒，安釐王嗣——不能专信信陵"
+    },
+    {
+      "source": "wei-anxiwang",
+      "target": "wei-jinminwang",
+      "type": "kin",
+      "note": "安釐三十四年公子与王相继而卒，景湣王嗣之"
+    },
+    {
+      "source": "wei-anxiwang",
+      "target": "wei-wuji",
+      "type": "kin",
+      "note": "信陵君，安釐王庶弟也；窃符解邯郸之围，王忌之不能用"
+    },
+    {
+      "source": "han-jinghou",
+      "target": "han-liehou",
+      "type": "kin",
+      "note": "景侯卒，列侯嗣；侠累堂上遇聂政即在其世"
+    },
+    {
+      "source": "han-yigong",
+      "target": "han-zhaohou",
+      "type": "kin",
+      "note": "懿侯卒，次年昭侯代立"
+    },
+    {
+      "source": "han-zhaohou",
+      "target": "shen-buhai",
+      "type": "ruler-subject",
+      "note": "申子以术干昭侯，昭侯使相韩；国治兵强十五年，终申子之身诸侯不敢侵"
+    },
+    {
+      "source": "han-zhaohou",
+      "target": "han-xuanhuiwang",
+      "type": "kin",
+      "note": "昭侯卒，宣惠王嗣，韩自此列王号"
+    },
+    {
+      "source": "han-xuanhuiwang",
+      "target": "han-xiangwang",
+      "type": "kin",
+      "note": "宣惠卒，襄王嗣；雍氏之围连岁不解"
+    },
+    {
+      "source": "han-xiangwang",
+      "target": "han-xiwang",
+      "type": "kin",
+      "note": "襄王卒，釐王嗣，秦取韩城岁有之"
+    },
+    {
+      "source": "han-xiwang",
+      "target": "han-huanhuiwang",
+      "type": "kin",
+      "note": "釐王卒，桓惠王嗣；上党之变起于其世，九年而韩举国降"
+    },
+    {
+      "source": "zhao-liehou",
+      "target": "zhao-jinghou",
+      "type": "kin",
+      "note": "烈侯卒，敬侯嗣"
+    },
+    {
+      "source": "zhao-jinghou",
+      "target": "zhao-chenghou",
+      "type": "kin",
+      "note": "敬侯卒，成侯嗣；邯郸之围在其世"
+    },
+    {
+      "source": "zhao-chenghou",
+      "target": "zhao-yong",
+      "type": "kin",
+      "note": "胡服骑射之政成于武灵王，烈侯、敬侯、成侯三世守邯郸之基"
+    },
+    {
+      "source": "zhao-he",
+      "target": "zhao-xiaochengwang",
+      "type": "kin",
+      "note": "惠文王卒，子丹嗣，是为孝成王"
+    },
+    {
+      "source": "zhao-xiaochengwang",
+      "target": "zhao-daoxiangwang",
+      "type": "kin",
+      "note": "孝成王二十一年卒，悼襄王嗣；其后三世而赵亡"
+    },
+    {
+      "source": "zhao-xiaochengwang",
+      "target": "zhao-kuo-changping",
+      "type": "ruler-subject",
+      "note": "长平之主：中秦反间，以括代颇，一军尽坑"
+    },
+    {
+      "source": "zhao-xiaochengwang",
+      "target": "zhao-sheng",
+      "type": "ruler-subject",
+      "note": "平原君相孝成王，邯郸急时告救楚魏——遂有窃符"
+    },
+    {
+      "source": "zhao-daoxiangwang",
+      "target": "lian-po",
+      "type": "ruler-subject",
+      "note": "廉颇见谗去赵，将军买马于邯郸而不用；终身不复入赵"
+    },
+    {
+      "source": "zhao-daoxiangwang",
+      "target": "li-mu",
+      "type": "ruler-subject",
+      "note": "悼襄世李牧击燕破秦，赵之北边恃之；就斩于王迁之世"
+    },
+    {
+      "source": "ju-xin",
+      "target": "zhao-daoxiangwang",
+      "type": "ruler-subject",
+      "note": "燕将寇赵，赵使庞煖擒剧辛而杀之——赵的晚年尚有此一战"
+    },
+    {
+      "source": "tian-wu",
+      "target": "tian-yinqi",
+      "type": "kin",
+      "note": "桓武卒，因齐立——齐最强的一段在田氏旗下"
+    },
+    {
+      "source": "tian-yinqi",
+      "target": "tian-xuanwang",
+      "type": "kin",
+      "note": "威王卒，宣王嗣，稷下之盛在其世"
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "tian-di",
+      "type": "kin",
+      "note": "宣王卒，湣王嗣"
+    },
+    {
+      "source": "tian-di",
+      "target": "tian-fa",
+      "type": "kin",
+      "note": "湣王死于莒，襄王法立于难际"
+    },
+    {
+      "source": "tian-fa",
+      "target": "junwanghou",
+      "type": "kin",
+      "note": "君王后者，襄王之后也；内制齐政四十余年，谨事秦、与诸侯信"
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "yan-kuaiwang",
+      "type": "rival",
+      "since": -314,
+      "note": "乘燕让国之乱伐燕，士卒不战、城门不闭；二年后燕人畔，齐戍尽出"
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "meng-zi",
+      "type": "ruler-subject",
+      "note": "问王政于孟子，亦问伐燕——不合则去"
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "zi-zhi",
+      "type": "rival",
+      "note": "齐伐燕，王哙与子之俱死"
+    },
+    {
+      "source": "qi-jie",
+      "target": "yue-yi",
+      "type": "rival",
+      "since": -279,
+      "note": "以谗代乐毅围即墨；火牛一奔，身死军覆，齐七十余城尽复"
+    },
+    {
+      "source": "qi-jie",
+      "target": "tian-dan",
+      "type": "rival",
+      "since": -279,
+      "note": "火牛阵破燕军，骑劫死于阵"
+    },
+    {
+      "source": "chu-shengwang",
+      "target": "chu-daowang",
+      "type": "kin",
+      "note": "声王为盗所杀，悼王嗣"
+    },
+    {
+      "source": "chu-daowang",
+      "target": "chu-suwang",
+      "type": "kin",
+      "note": "射尸之狱既行，肃王嗣立——楚法弛而复旧"
+    },
+    {
+      "source": "chu-suwang",
+      "target": "chu-xuanwang",
+      "type": "kin",
+      "note": "肃王卒，宣王嗣"
+    },
+    {
+      "source": "chu-xuanwang",
+      "target": "chu-weiwang",
+      "type": "kin",
+      "note": "宣王卒，威王嗣，并越、徐州相王"
+    },
+    {
+      "source": "chu-weiwang",
+      "target": "xiong-huai",
+      "type": "kin",
+      "note": "威王卒，怀王槐嗣——商於六百里之欺起于其身"
+    },
+    {
+      "source": "xiong-huai",
+      "target": "chu-qingxiangwang",
+      "type": "kin",
+      "note": "太子横质于齐，怀王入秦不反，齐送立之"
+    },
+    {
+      "source": "chu-qingxiangwang",
+      "target": "qu-yuan",
+      "type": "ruler-subject",
+      "note": "顷襄王复放屈原于江南；前278年郢亡，屈原投汨罗"
+    },
+    {
+      "source": "chu-qingxiangwang",
+      "target": "chu-kaoliewang",
+      "type": "kin",
+      "note": "考烈王完，顷襄王之子，尝质于秦，黄歇设谋得归而立"
+    },
+    {
+      "source": "huang-xie",
+      "target": "chu-kaoliewang",
+      "type": "ruler-subject",
+      "note": "考烈元年以歇为相，委国二十余年，东徙寿春"
+    },
+    {
+      "source": "chu-kaoliewang",
+      "target": "chu-aiwang",
+      "type": "kin",
+      "note": "太子悍即位两月余，李园伏斧施杀之——春申君同岁死于棘门"
+    },
+    {
+      "source": "chu-aiwang",
+      "target": "chu-youwang",
+      "type": "kin",
+      "note": "哀王遇弑，弟幽王代立；再后负刍虏于秦，例不入"
+    },
+    {
+      "source": "yan-yiwang",
+      "target": "yan-kuaiwang",
+      "type": "kin",
+      "note": "易王卒，哙嗣——让国之祸起于父子之间"
+    },
+    {
+      "source": "yan-kuaiwang",
+      "target": "zi-zhi",
+      "type": "ruler-subject",
+      "note": "委国于相子之，三百石以上皆归焉；三年而燕大乱，哙与子之俱死于齐"
+    },
+    {
+      "source": "yan-kuaiwang",
+      "target": "ji-zhi",
+      "type": "kin",
+      "note": "燕世家：昭王平为王哙之子——让国奇祸的残局上筑黄金台。异说并存，从世家"
+    },
+    {
+      "source": "ji-zhi",
+      "target": "ju-xin",
+      "type": "ruler-subject",
+      "note": "卑身厚币以招贤者，剧辛自赵往、乐毅自魏往——黄金台的实名"
+    },
+    {
+      "source": "yan-wuchengwang",
+      "target": "yan-xiaowang",
+      "type": "kin",
+      "note": "武成王卒，王喜嗣——燕国最后一位有卒年可纪之君"
+    },
+    {
+      "source": "yan-xiaowang",
+      "target": "taizi-dan",
+      "type": "kin",
+      "note": "太子丹，喜之子也；少与秦王政俱质于赵，政立而丹质于秦，亡归"
+    },
+    {
+      "source": "taizi-dan",
+      "target": "ying-zheng",
+      "type": "rival",
+      "since": -227,
+      "note": "恐秦并天下而祸至燕，遣荆轲奉督亢图——图穷匕见，事不成"
+    },
+    {
+      "source": "taizi-dan",
+      "target": "ju-xin",
+      "type": "peer",
+      "note": "老臣辛言人主一遇败不复仇，谏太子毋轻以秦为仇；丹不用，辛西丧于赵"
+    },
+    {
+      "source": "chuli-zi",
+      "target": "ying-si",
+      "type": "kin",
+      "note": "惠王庶弟，里中语曰力则任鄙、智则樗里"
+    },
+    {
+      "source": "chuli-zi",
+      "target": "ying-ji",
+      "type": "ruler-subject",
+      "note": "历惠文、武、昭三世以智自全；昭王七年卒，自为兆域"
+    },
+    {
+      "source": "ying-ji",
+      "target": "meng-ao",
+      "type": "ruler-subject",
+      "note": "蒙骜自齐入秦，昭王世将兵取成皋荥阳——秦将门三世之条自此起"
+    },
+    {
+      "source": "ying-ji",
+      "target": "zhou-nanwang",
+      "type": "rival",
+      "since": -256,
+      "note": "求九鼎、取河南；赧王尽献其邑而卒，共主之条断于斯年"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-chengjiao",
+      "type": "kin",
+      "note": "长安君成蟜，秦王弟也"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-chengjiao",
+      "type": "rival",
+      "since": -239,
+      "note": "成蟜将卒而畔屯留，秦兵诛之——亲弟之反是轴上秦国内乱的最后一笔"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "changping-jun",
+      "type": "ruler-subject",
+      "note": "昌平君故在秦，吕不韦免相之岁代其国事，仕秦为相"
+    },
+    {
+      "source": "changping-jun",
+      "target": "ying-zheng",
+      "type": "rival",
+      "since": -223,
+      "note": "秦灭楚急，项燕立为荆王于淮南，起兵反秦；兵败而死，楚随之亡"
+    },
+    {
+      "source": "ying-zao",
+      "target": "ying-huai",
+      "type": "kin",
+      "note": "躁、怀、灵迭而立，君统在本纪里自相错出——献公以前的短乱从此数起"
+    },
+    {
+      "source": "han-liehou",
+      "target": "han-wenhou",
+      "type": "peer",
+      "note": "列侯、哀侯之间的韩君，世家与纪年两说并存——文侯之条姑并与前后两世"
+    },
+    {
+      "source": "han-aigong",
+      "target": "han-yigong",
+      "type": "kin",
+      "note": "哀侯死于大夫之难，懿侯代立——灭郑之年与易代之际挤在同一条尾"
+    },
+    {
+      "source": "yan-wengong",
+      "target": "su-qin",
+      "type": "ruler-subject",
+      "note": "史记：苏秦初至燕为文公使、说文公——年代从出土文献后置系于昭王之世，这条游说之线仍照画"
+    },
+    {
+      "source": "ying-zhu",
+      "target": "huayang-taihou",
+      "type": "kin",
+      "note": "孝文王太子夫人，楚族也；子楚立，号华阳夫人——所生之子不得名位"
+    },
+    {
+      "source": "di-taihou",
+      "target": "lv-buwei",
+      "type": "ruler-subject",
+      "note": "太后本吕氏所进姬，有子政立为王后；秦王壮年与其幸臣长信侯嫪毐之乱，事败而嫪毐车裂，吕不韦亦坐免相"
     }
   ],
   "events": [
@@ -1231,7 +3308,14 @@
       "name": "三家分晋",
       "kind": "point",
       "year": -403,
-      "desc": "周威烈王命韩赵魏为诸侯。本专题镜头从这一年打开，人物要再过半个世纪才密起来。"
+      "desc": "周威烈王命韩赵魏为诸侯。本专题镜头从这一年打开，人物要再过半个世纪才密起来。",
+      "people": [
+        "zhou-weiliewang",
+        "wei-wenhou",
+        "han-jinghou",
+        "zhao-liehou",
+        "jin-liegong"
+      ]
     },
     {
       "id": "xiangong-li",
@@ -1239,7 +3323,8 @@
       "kind": "point",
       "year": -384,
       "people": [
-        "ying-shixi"
+        "ying-shixi",
+        "ying-chuzi"
       ],
       "desc": "庶长改迎灵公之子于河西而立。废人殉、城栎阳，秦不再内乱。孝公变法的前奏画在这条之前。"
     },
@@ -1274,7 +3359,9 @@
       "people": [
         "sun-bin",
         "pang-juan",
-        "tian-yinqi"
+        "tian-yinqi",
+        "wei-huiwang",
+        "zhao-chenghou"
       ],
       "desc": "围魏救赵。孙膑的条刚刚出现，庞涓已经与他画成敌对。"
     },
@@ -1285,7 +3372,8 @@
       "year": -341,
       "people": [
         "sun-bin",
-        "pang-juan"
+        "pang-juan",
+        "wei-huiwang"
       ],
       "desc": "减灶诱敌。庞涓的条在这一年截断，孙膑的条也几乎停在此处。"
     },
@@ -1317,7 +3405,8 @@
       "kind": "point",
       "year": -320,
       "people": [
-        "mengzi"
+        "meng-zi",
+        "wei-huiwang"
       ],
       "desc": "问何以利吾国。诸子泳道在变法之后进入轴的中段，和纵横家并行。"
     },
@@ -1354,7 +3443,8 @@
         "tian-dan",
         "yue-yi",
         "ji-zhi",
-        "ji-huiwang"
+        "ji-huiwang",
+        "qi-jie"
       ],
       "desc": "昭王新卒，惠王使骑劫代将。火牛阵复七十城。破齐与复齐叠在燕王条的终点两侧。"
     },
@@ -1364,7 +3454,8 @@
       "kind": "point",
       "year": -278,
       "people": [
-        "qu-yuan"
+        "qu-yuan",
+        "chu-qingxiangwang"
       ],
       "desc": "约顷襄王之世。白起拔郢前后，楚的士人条在汨罗截断。"
     },
@@ -1377,7 +3468,8 @@
         "bai-qi",
         "lian-po",
         "ying-ji",
-        "zhao-kuo-changping"
+        "zhao-kuo-changping",
+        "zhao-xiaochengwang"
       ],
       "desc": "廉颇被代，赵括出。白起坑杀赵卒。山东再没有能与秦对峙的举国之战。"
     },
@@ -1391,7 +3483,8 @@
         "bai-qi",
         "ying-ji",
         "zhao-sheng",
-        "wei-wuji"
+        "wei-wuji",
+        "zhao-xiaochengwang"
       ],
       "desc": "白起不肯再将。魏楚救赵，秦退。武安君赐死就落在这段带的尽头。"
     },
@@ -1412,7 +3505,8 @@
       "kind": "point",
       "year": -256,
       "people": [
-        "ying-ji"
+        "ying-ji",
+        "zhou-nanwang"
       ],
       "desc": "周赧王卒，秦迁九鼎。共主从轴上消失，只剩灭国。"
     },
@@ -1422,9 +3516,9 @@
       "kind": "point",
       "year": -233,
       "people": [
-        "hanfei",
+        "han-fei",
         "ying-zheng",
-        "xunzi"
+        "xun-zi"
       ],
       "desc": "秦王悦其书。李斯、姚贾害之。法家条在统一前夜截断，书留在秦廷。"
     },
@@ -1437,7 +3531,12 @@
       "people": [
         "ying-zheng",
         "wang-jian",
-        "li-mu"
+        "li-mu",
+        "ying-chengjiao",
+        "taizi-dan",
+        "changping-jun",
+        "han-huanhuiwang",
+        "huang-xie"
       ],
       "desc": "灭韩、赵、魏、楚、燕、齐。王翦的条收在这一段里。嬴政活到前 210 年，帝号与制度留给秦专题。"
     },
@@ -1451,16 +3550,135 @@
         "wang-jian"
       ],
       "desc": "灭齐。战国结束。叙事停在统一；嬴政的条仍画到前 210 年，帝号、驰道与焚书留给秦专题。"
+    },
+    {
+      "id": "tianhe-liehoushi",
+      "name": "田和列为诸侯",
+      "kind": "point",
+      "year": -386,
+      "people": [
+        "tian-he",
+        "tian-kanggong",
+        "zhou-anwang"
+      ],
+      "desc": "田氏请命于周，年表齐国纪年从太公起数；康公迁于海上、不得食邑而卒。姜齐与田齐两条并排，读的是齐换了主人。"
+    },
+    {
+      "id": "wuzhongdao",
+      "name": "楚悼王卒，吴起并死",
+      "kind": "point",
+      "year": -381,
+      "people": [
+        "chu-daowang",
+        "wu-qi",
+        "chu-suwang"
+      ],
+      "desc": "送王丧，宗室大臣设伏弩射吴起并中王尸。新王坐射尸之罪夷死者七十余家——楚的变法与吴起同岁结账，魏守西河那条线也在此年截断。"
+    },
+    {
+      "id": "shenbuhai-si",
+      "name": "申子卒，韩不复振",
+      "kind": "point",
+      "year": -337,
+      "people": [
+        "shen-buhai",
+        "han-zhaohou"
+      ],
+      "desc": "术之一路收在这条上：申不害相韩十五年国治兵强，卒后四年昭侯亦卒。韩自此不再有自己的主张，跟着楚的败仗走。"
+    },
+    {
+      "id": "qi-fa-yan",
+      "name": "齐伐燕，杀哙与子之",
+      "kind": "point",
+      "year": -314,
+      "people": [
+        "tian-xuanwang",
+        "yan-kuaiwang",
+        "zi-zhi"
+      ],
+      "desc": "乘让国之乱伐燕，士卒不战、城门不闭，五旬而举之；两年后燕人畔，齐戍尽出。燕昭王的招贤台就筑在这场奇祸的残局上。"
+    },
+    {
+      "id": "chengjiao-fan",
+      "name": "成蟜屯留之反",
+      "kind": "point",
+      "year": -239,
+      "people": [
+        "ying-chengjiao",
+        "ying-zheng",
+        "meng-ao"
+      ],
+      "desc": "内史之乱既收，秦王弟又据屯留反，秦兵诛之——嬴政亲政年的内部条，与吕不韦免相连着画。蒙骜恰卒于是岁，三世将门接上灭国。"
+    },
+    {
+      "id": "yansheng-dan",
+      "name": "秦破燕蓟，燕斩丹献秦",
+      "kind": "point",
+      "year": -226,
+      "people": [
+        "taizi-dan",
+        "yan-xiaowang",
+        "ying-zheng",
+        "wang-jian"
+      ],
+      "desc": "荆轲事不成，王翦等东下破燕蓟；王喜徙保辽东，斩太子丹欲以献秦——以为可以缓兵，不能。轴上对秦最后一次主动出击，以斩其主帅之头收场。"
+    },
+    {
+      "id": "changpingwang-chu",
+      "name": "昌平君立为荆王",
+      "kind": "point",
+      "year": -223,
+      "people": [
+        "changping-jun",
+        "ying-zheng"
+      ],
+      "desc": "项燕立昌平君为荆王，反秦于淮南；王翦蒙武大破之，昌平君死、项燕自杀，楚亡。一人在轴上同时接住秦相与楚末王两条线。"
     }
   ],
   "views": [
     {
       "id": "overview",
       "name": "战国全览",
-      "from": -400,
+      "from": -435,
       "to": -190,
-      "brief": "秦国这一列现在是连续的：献公止从死、孝公与商鞅几乎等长的变法、惠文王车裂商鞅后接上武王与昭襄王、孝文王三日、庄襄王灭东周，最后收到嬴政。昭襄王仍是最长的一条，压过六国；右边嬴政十年灭国。诸子和纵横穿在君主条的缝里。",
+      "brief": "轴上最早的条是秦躁公，最晚的是秦王政。七国的君主列现在补齐了一整代：三家受命、田和请命、秦的乱君四世接到献公止从死，前战国的事不再稀疏。中段吴起、申不害、商鞅三条变法横贯三国朝廷，后段六国之君一条比一条短，只余嬴政一条不缩——到昌平君立为荆王，秦与楚两条线交在一个人的条尾。",
       "focus": "ying-zheng"
+    },
+    {
+      "id": "sanjin",
+      "name": "三家受命",
+      "from": -435,
+      "to": -370,
+      "focus": "wei-wenhou",
+      "brief": "这一章只讲轴怎么打开：秦的乱君四世相继而死，接到献公止从死；周威烈王的一道命令与田和的一次请命互相对照，晋烈公只余名号。魏文侯的朝廷最密——吴起之条自西河贯入郢都，与楚悼王同年截断。七国君主列的头一段从这里长出。",
+      "people": [
+        "ying-zao",
+        "ying-huai",
+        "ying-ling",
+        "ying-jian",
+        "ying-hui",
+        "ying-chuzi",
+        "wei-wenhou",
+        "wei-wuhou",
+        "han-jinghou",
+        "han-liehou",
+        "zhao-liehou",
+        "zhao-jinghou",
+        "tian-he",
+        "tian-kanggong",
+        "zhou-weiliewang",
+        "zhou-anwang",
+        "jin-liegong",
+        "wu-qi",
+        "chu-daowang",
+        "ying-shixi"
+      ],
+      "events": [
+        "sanjia",
+        "tianhe-liehoushi",
+        "xiangong-li",
+        "wuzhongdao"
+      ]
     },
     {
       "id": "bianfa",
@@ -1468,7 +3686,7 @@
       "from": -390,
       "to": -320,
       "focus": "shang-yang",
-      "brief": "商鞅的条几乎全落在孝公在位期内，两人同年截断。齐威王一侧，孙膑与庞涓的短条在桂陵、马陵撞上。",
+      "brief": "三国的朝廷里三条变法线并走：商鞅与孝公等长、同年截断；吴起为楚悼王所置，王卒身死，射尸之诛同场结账；申不害以术事韩昭侯，申子卒后四年昭侯亦卒——韩不复振。魏的一栏归梁惠王：桂陵马陵两败于齐，却在大梁被孟子教了一句仁义。",
       "people": [
         "ying-shixi",
         "ying-quliang",
@@ -1477,13 +3695,21 @@
         "tian-yinqi",
         "sun-bin",
         "pang-juan",
-        "mengzi"
+        "meng-zi",
+        "wei-wenhou",
+        "wei-wuhou",
+        "wei-huiwang",
+        "han-yigong",
+        "han-zhaohou",
+        "shen-buhai"
       ],
       "events": [
         "xiangong-li",
         "sanjia",
+        "wuzhongdao",
         "shangyang-bianfa",
         "shangyang-si",
+        "shenbuhai-si",
         "guiling",
         "maling",
         "meng-liang"
@@ -1495,7 +3721,7 @@
       "from": -340,
       "to": -270,
       "focus": "zhang-yi",
-      "brief": "张仪向秦倾斜，苏秦按出土文献放在燕昭王一侧。乐毅破齐与田单复齐对咬；屈原的条对着连横。",
+      "brief": "燕文公之条自边地接入合纵的盘面，易王首称王，王哙却让国于子之，齐宣乘乱并燕——苏秦的故事从这片乱局里过，按出土文献系于燕昭王之世。纵横一半在秦齐，一半在楚廷：张仪之欺、怀王之怒、屈原之放。后半燕昭王筑台招贤，乐毅之条最长；骑劫一代将而火牛破之，齐虽复国，自宣至湣的一脚踩空已不可挽回。",
       "people": [
         "ying-ji",
         "zhao-yong",
@@ -1506,13 +3732,19 @@
         "tian-di",
         "zhang-yi",
         "su-qin",
-        "mengzi",
+        "meng-zi",
         "qu-yuan",
         "yue-yi",
         "tian-dan",
-        "lin-xiangru"
+        "lin-xiangru",
+        "yan-wengong",
+        "yan-yiwang",
+        "yan-kuaiwang",
+        "zi-zhi",
+        "tian-xuanwang"
       ],
       "events": [
+        "qi-fa-yan",
         "zhangyi-qi-chu",
         "hufu",
         "meng-liang",
@@ -1528,7 +3760,7 @@
       "from": -270,
       "to": -190,
       "focus": "ying-zheng",
-      "brief": "白起的条在邯郸未下时截断。吕不韦压着年轻的秦王政，韩非死在统一前夜，王翦把灭国画完。",
+      "brief": "秦昭王之条仍压过山东，但最后五十年是倒计时：长平邯郸之际白起与信陵之条俱断，周之条绝于赧王，秦内乱之条尽于成蟜。将门由蒙骜接到王翦，六国之君一条比一条短；春申与昌平相接而终，灭国六条画在嬴政手里。",
       "people": [
         "ying-ji",
         "bai-qi",
@@ -1536,18 +3768,30 @@
         "lin-xiangru",
         "lv-buwei",
         "wang-jian",
-        "hanfei",
-        "xunzi",
+        "han-fei",
+        "xun-zi",
         "ying-zheng",
         "ying-zhu",
-        "ying-zichu"
+        "ying-zichu",
+        "meng-ao",
+        "ying-chengjiao",
+        "zhou-nanwang",
+        "zhao-xiaochengwang",
+        "zhao-daoxiangwang",
+        "chu-kaoliewang",
+        "huang-xie",
+        "changping-jun",
+        "taizi-dan"
       ],
       "events": [
         "changping",
         "handan",
         "baiqi-si",
         "mie-zhou",
+        "chengjiao-fan",
         "hanfei-qin",
+        "yansheng-dan",
+        "changpingwang-chu",
         "mie-liu",
         "qin-yi"
       ]
