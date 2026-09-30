@@ -1,11 +1,11 @@
 {
   "_comment": "元代专题逐人分类覆盖表。categories 取自 pipeline/vocab/categories.json，按 rank 从高到低排列；primary 为最被后世所知的身份，覆盖系统按 rank 的自动推导。",
 
-  "hubilie": {
+  "hu-bi-lie": {
     "categories": ["monarch", "founding"],
     "primary": "monarch"
   },
-  "cheng-jis-han": {
+  "tie-mu-zhen": {
     "categories": ["monarch", "founding"],
     "primary": "monarch"
   },
@@ -13,7 +13,7 @@
     "categories": ["monarch"],
     "primary": "monarch"
   },
-  "haishan": {
+  "hai-shan": {
     "categories": ["monarch"],
     "primary": "monarch"
   },
@@ -50,7 +50,7 @@
     "primary": "monarch"
   },
 
-  "yelü-chucai": {
+  "yelv-chucai": {
     "categories": ["chancellor", "outsider", "confucian"],
     "primary": "chancellor"
   },
@@ -71,7 +71,7 @@
     "primary": "chancellor"
   },
 
-  "boyan": {
+  "bo-yan": {
     "categories": ["general"],
     "primary": "general"
   },
@@ -84,7 +84,7 @@
     "primary": "general"
   },
 
-  "basiba": {
+  "ba-si-ba": {
     "categories": ["outsider", "buddhism"],
     "primary": "buddhism"
   },
@@ -113,7 +113,7 @@
     "primary": "agronomy"
   },
 
-  "ahema": {
+  "a-he-ma": {
     "categories": ["regent", "outsider"],
     "primary": "regent"
   },

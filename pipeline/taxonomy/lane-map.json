@@ -35,6 +35,8 @@
   "donghan:consort": { "categories": ["consort"], "polity": ["han"], "confidence": "medium" },
   "donghan:scholar": { "categories": ["scholar"], "polity": ["han"], "confidence": "medium" },
   "donghan:general": { "categories": ["general"], "polity": ["han"], "confidence": "high" },
+  "donghan:kin": { "categories": ["royal-kin"], "polity": ["han"], "confidence": "medium" },
+  "donghan:qunxiong": { "categories": ["warlord"], "confidence": "medium" },
   "donghan:end": { "categories": ["rebel"], "polity": ["han"], "confidence": "medium" },
 
   "sanguo:caowei": { "polity": ["wei"], "confidence": "medium" },
@@ -89,5 +91,12 @@
   "qing:end": { "categories": ["warlord"], "polity": ["qing"], "confidence": "medium" },
 
   "rujia:ru": { "categories": ["confucian"], "confidence": "high" },
-  "rujia:fa": { "categories": ["legalism"], "confidence": "high" }
+  "rujia:fa": { "categories": ["legalism"], "confidence": "high" },
+  "wudai:emperor": { "categories": ["monarch"], "polity": ["wudai"], "confidence": "high" },
+  "wudai:shiguo": { "polity": ["shiguo"], "confidence": "medium" },
+  "wudai:chancellor": { "polity": ["wudai", "shiguo"], "confidence": "low" },
+  "wudai:general": { "categories": ["general"], "polity": ["wudai"], "confidence": "medium" },
+  "wudai:literati": { "categories": ["literature"], "polity": ["shiguo"], "confidence": "low" },
+  "wudai:khitan": { "categories": ["outsider"], "polity": ["liao-jin"], "confidence": "high" },
+  "wudai:end": { "polity": ["song"], "confidence": "low" }
 }

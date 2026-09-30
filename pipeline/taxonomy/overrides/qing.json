@@ -1,7 +1,7 @@
 {
   "_comment": "清代专题逐人分类覆盖表。categories 取自 pipeline/vocab/categories.json，按 rank 从高到低排列；primary 为最被后世所知的身份，覆盖系统按 rank 的自动推导。",
 
-  "nurhaci": {
+  "nu-er-ha-chi": {
     "categories": ["monarch", "founding"],
     "primary": "monarch"
   },
@@ -41,7 +41,7 @@
     "categories": ["monarch", "falling"],
     "primary": "monarch"
   },
-  "cixi": {
+  "ci-xi": {
     "categories": ["consort", "regent"],
     "primary": "consort"
   },

@@ -57,8 +57,11 @@
   ],
   "people": [
     {
-      "id": "cheng-jis-han",
-      "lane": "emperor"
+      "id": "tie-mu-zhen",
+      "lane": "emperor",
+      "display": "元太祖铁木真",
+      "title": "蒙古帝国奠基者",
+      "bio": "孛儿只斤氏，统一漠北诸部，1206 年称成吉思汗，建大蒙古国；灭西夏途中崩，为元之追尊太祖。"
     },
     {
       "id": "wo-kuo-tai",
@@ -70,10 +73,11 @@
     },
     {
       "id": "meng-ge",
-      "lane": "emperor"
+      "lane": "emperor",
+      "bio": "拖雷长子。即位后诛锄诸王异己，命忽必烈总漠南汉地、旭烈兀西征；1259 年亲征南宋，久顿合州钓鱼城下，七月卒于军中。"
     },
     {
-      "id": "hubilie",
+      "id": "hu-bi-lie",
       "lane": "emperor"
     },
     {
@@ -81,7 +85,7 @@
       "lane": "emperor"
     },
     {
-      "id": "haishan",
+      "id": "hai-shan",
       "lane": "emperor"
     },
     {
@@ -153,7 +157,7 @@
       "lane": "consort"
     },
     {
-      "id": "yelü-chucai",
+      "id": "yelv-chucai",
       "lane": "chancellor"
     },
     {
@@ -241,7 +245,7 @@
       "lane": "chancellor"
     },
     {
-      "id": "bayan-quanchen",
+      "id": "bo-yan-quanchen",
       "lane": "chancellor",
       "display": "伯颜（顺帝朝）"
     },
@@ -290,8 +294,10 @@
       "lane": "general"
     },
     {
-      "id": "boyan",
-      "lane": "general"
+      "id": "bo-yan",
+      "lane": "general",
+      "title": "灭宋统帅",
+      "bio": "蒙古八邻部人，世祖倚为统帅。统二十万军下襄阳、渡长江，会师临安，宋室降；旋平内乱，位望倾朝。"
     },
     {
       "id": "cha-han-tiemuer",
@@ -310,7 +316,7 @@
       "lane": "literati"
     },
     {
-      "id": "basiba",
+      "id": "ba-si-ba",
       "lane": "literati"
     },
     {
@@ -418,7 +424,7 @@
       "lane": "end"
     },
     {
-      "id": "ahema",
+      "id": "a-he-ma",
       "lane": "end"
     },
     {
@@ -497,13 +503,13 @@
   ],
   "relations": [
     {
-      "source": "hubilie",
-      "target": "yelü-chucai",
+      "source": "hu-bi-lie",
+      "target": "yelv-chucai",
       "type": "ruler-subject",
       "note": "楚材定中原制度，虽早卒而规制垂后"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "liu-bingzhong",
       "type": "ruler-subject",
       "note": "潜邸谋主，建国号、筑大都皆出其画"
@@ -521,26 +527,26 @@
       "note": "姚枢传程朱之学，许衡承之兴国学"
     },
     {
-      "source": "hubilie",
-      "target": "boyan",
+      "source": "hu-bi-lie",
+      "target": "bo-yan",
       "type": "ruler-subject",
       "note": "倚为灭宋统帅，总二十万军下临安"
     },
     {
-      "source": "boyan",
+      "source": "bo-yan",
       "target": "zhang-hongfan",
       "type": "ruler-subject",
       "note": "弘范为其前部，崖山尽灭南宋"
     },
     {
-      "source": "hubilie",
-      "target": "basiba",
+      "source": "hu-bi-lie",
+      "target": "ba-si-ba",
       "type": "ruler-subject",
       "note": "尊为帝师，命制蒙古新字"
     },
     {
-      "source": "hubilie",
-      "target": "ahema",
+      "source": "hu-bi-lie",
+      "target": "a-he-ma",
       "type": "ruler-subject",
       "note": "宠任总理财赋，后伏诛"
     },
@@ -591,25 +597,25 @@
       "note": "北伐克大都，元室北遁"
     },
     {
-      "source": "cheng-jis-han",
-      "target": "hubilie",
+      "source": "tie-mu-zhen",
+      "target": "hu-bi-lie",
       "type": "kin",
       "note": "祖孙，成吉思汗之孙忽必烈嗣位建元"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "cheng-zong",
       "type": "kin",
       "note": "父子，世祖传成宗"
     },
     {
       "source": "cheng-zong",
-      "target": "haishan",
+      "target": "hai-shan",
       "type": "kin",
       "note": "叔侄，成宗崩无嗣，武宗入继"
     },
     {
-      "source": "haishan",
+      "source": "hai-shan",
       "target": "ren-zong",
       "type": "kin",
       "note": "兄弟，武宗传弟仁宗（武仁授受）"
@@ -657,7 +663,7 @@
       "note": "兄弟，宁宗崩，顺帝（明宗长子）立"
     },
     {
-      "source": "cheng-jis-han",
+      "source": "tie-mu-zhen",
       "target": "tuo-lei",
       "type": "kin",
       "note": "父子，拖雷为幼子守灶而握漠北精锐"
@@ -676,7 +682,7 @@
     },
     {
       "source": "tuo-lei",
-      "target": "hubilie",
+      "target": "hu-bi-lie",
       "type": "kin",
       "note": "父子"
     },
@@ -687,7 +693,7 @@
       "note": "父子"
     },
     {
-      "source": "cheng-jis-han",
+      "source": "tie-mu-zhen",
       "target": "wo-kuo-tai",
       "type": "kin",
       "note": "父子，太祖定窝阔台嗣位"
@@ -712,7 +718,7 @@
     },
     {
       "source": "suo-lu-he-tie-ni",
-      "target": "hubilie",
+      "target": "hu-bi-lie",
       "type": "kin",
       "note": "母子"
     },
@@ -724,18 +730,18 @@
     },
     {
       "source": "meng-ge",
-      "target": "hubilie",
+      "target": "hu-bi-lie",
       "type": "kin",
       "note": "兄弟，宪宗命忽必烈总漠南汉地"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "cha-bi",
       "type": "kin",
       "note": "夫妇，世祖皇后察必屡救护汉臣"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "zhen-jin",
       "type": "kin",
       "note": "父子，中统三年立为皇太子"
@@ -747,21 +753,21 @@
       "note": "父子，真金第三子铁穆耳嗣位"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "a-li-bu-ge",
       "type": "rival",
       "note": "兄弟争位，两汗并立四年而后定",
       "since": 1260
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "nai-yan",
       "type": "rival",
       "note": "东道诸王连兵，世祖扶病亲征擒之",
       "since": 1287
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "hai-du",
       "type": "rival",
       "note": "西北诸王拒命，相持逾三十年",
@@ -776,7 +782,7 @@
     },
     {
       "source": "da-ji",
-      "target": "haishan",
+      "target": "hai-shan",
       "type": "kin",
       "note": "母子"
     },
@@ -800,7 +806,7 @@
       "since": 1354
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "wang-wentong",
       "type": "ruler-subject",
       "note": "中统初为中书平章，制度多出其手，后坐李璮之狱诛"
@@ -812,32 +818,32 @@
       "note": "坐尝以姻书相通，1262 年与李璮同诛"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "li-tan",
       "type": "rival",
       "note": "据济南而反，城破被擒",
       "since": 1262
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "lian-xixian",
       "type": "ruler-subject",
       "note": "藩邸旧臣，镇关中、请立御史台"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "shang-ting",
       "type": "ruler-subject",
       "note": "藩府谋士，历参知政事、枢密副使"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "zhao-bi",
       "type": "ruler-subject",
       "note": "通译之臣，奉使征聘江南遗逸"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "dou-mo",
       "type": "ruler-subject",
       "note": "召为翰林侍讲，与姚枢、许衡共讲程朱"
@@ -855,7 +861,7 @@
       "note": "同为忽必烈所召的北方儒臣"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "zhang-wenqian",
       "type": "ruler-subject",
       "note": "邢州幕府之旧，劝农桑、董水利"
@@ -873,7 +879,7 @@
       "note": "共董水利之役，荐守敬于朝"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "an-tong",
       "type": "ruler-subject",
       "note": "十八岁拜右丞相，推重汉法、独阻阿合马"
@@ -891,13 +897,13 @@
       "note": "祖孙，同出木华黎之家"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "lu-shirong",
       "type": "ruler-subject",
       "note": "以理财进，行钞法立平准，二年而诛"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "sang-ge",
       "type": "ruler-subject",
       "note": "总理财赋，钩考钱谷而上下交怨"
@@ -934,7 +940,7 @@
     },
     {
       "source": "ha-la-ha-sun",
-      "target": "haishan",
+      "target": "hai-shan",
       "type": "ruler-subject",
       "note": "遣使北迎海山即位，挫皇后之谋"
     },
@@ -1015,14 +1021,14 @@
       "since": 1328
     },
     {
-      "source": "bayan-quanchen",
+      "source": "bo-yan-quanchen",
       "target": "shun-di",
       "type": "ruler-subject",
       "note": "顺帝初独秉国政，请停科举、收南人兵器"
     },
     {
       "source": "tuo-tuo",
-      "target": "bayan-quanchen",
+      "target": "bo-yan-quanchen",
       "type": "rival",
       "note": "与帝定计逐伯颜，遂代总中书",
       "since": 1340
@@ -1041,7 +1047,7 @@
       "since": 1351
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "shi-tianze",
       "type": "ruler-subject",
       "note": "河北世侯之首，中统间位至丞相"
@@ -1066,13 +1072,13 @@
       "note": "同为汉军世侯之后，同隶南征诸军"
     },
     {
-      "source": "cheng-jis-han",
+      "source": "tie-mu-zhen",
       "target": "mu-huali",
       "type": "ruler-subject",
       "note": "四杰之首，封太师国王，受命专征中原"
     },
     {
-      "source": "cheng-jis-han",
+      "source": "tie-mu-zhen",
       "target": "su-butai",
       "type": "ruler-subject",
       "note": "四狗之一，追敌万里而为灭金前锋"
@@ -1084,43 +1090,43 @@
       "note": "从其西征诸部，并定中原之役"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "zhang-rou",
       "type": "ruler-subject",
       "note": "河北世侯，重筑保州而聚书养士"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "dong-wenbing",
       "type": "ruler-subject",
       "note": "收沿江诸郡而禁杀掠，人心遂附"
     },
     {
-      "source": "boyan",
+      "source": "bo-yan",
       "target": "a-shu",
       "type": "peer",
       "note": "同总南征之军，伯颜居上而阿术当其锋"
     },
     {
-      "source": "boyan",
+      "source": "bo-yan",
       "target": "a-li-hai-ya",
       "type": "peer",
       "note": "荆湖一路并进，江陵潭州之役当其任"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "a-shu",
       "type": "ruler-subject",
       "note": "围襄阳五年而下之，遂顺汉水东进"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "a-li-hai-ya",
       "type": "ruler-subject",
       "note": "经略荆湖南北，广南随之而定"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "li-heng-yuan",
       "type": "ruler-subject",
       "note": "从征江南，别将追二王入广"
@@ -1151,20 +1157,20 @@
       "since": 1358
     },
     {
-      "source": "cheng-jis-han",
+      "source": "tie-mu-zhen",
       "target": "qiu-chuji",
       "type": "ruler-subject",
       "note": "雪山之对：以敬天爱民、戒杀为请",
       "since": 1222
     },
     {
-      "source": "basiba",
+      "source": "ba-si-ba",
       "target": "dan-ba",
       "type": "peer",
       "note": "同出萨斯迦，先后为帝师国师而领释教"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "dan-ba",
       "type": "ruler-subject",
       "note": "尊为国师，佛法之事多以咨之"
@@ -1260,13 +1266,13 @@
       "note": "命为三史总裁，卒于史馆"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "wang-yun-yuan",
       "type": "ruler-subject",
       "note": "历监察御史，论列无所回避"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "a-nige",
       "type": "ruler-subject",
       "note": "监建大都白塔，累官将作院使"
@@ -1284,7 +1290,7 @@
       "note": "同为技艺之属：一易织具，一撰农书"
     },
     {
-      "source": "hubilie",
+      "source": "hu-bi-lie",
       "target": "zhao-xian",
       "type": "ruler-subject",
       "note": "临安出降后送至大都，后徙居于吐蕃",
@@ -1340,7 +1346,7 @@
       "kind": "point",
       "year": 1271,
       "people": [
-        "hubilie",
+        "hu-bi-lie",
         "liu-bingzhong"
       ],
       "desc": "忽必烈取《易经》「大哉乾元」定国号大元，次年营大都（今北京），立中书省、行汉法。"
@@ -1351,9 +1357,9 @@
       "kind": "point",
       "year": 1279,
       "people": [
-        "boyan",
+        "bo-yan",
         "zhang-hongfan",
-        "hubilie",
+        "hu-bi-lie",
         "a-shu",
         "a-li-hai-ya",
         "li-heng-yuan"
@@ -1366,8 +1372,8 @@
       "kind": "point",
       "year": 1269,
       "people": [
-        "basiba",
-        "hubilie"
+        "ba-si-ba",
+        "hu-bi-lie"
       ],
       "desc": "帝师八思巴制蒙古新字（八思巴文）颁行，与汉字并行，领宣政院掌天下释教及吐蕃。"
     },
@@ -1413,8 +1419,8 @@
       "kind": "point",
       "year": 1282,
       "people": [
-        "ahema",
-        "hubilie"
+        "a-he-ma",
+        "hu-bi-lie"
       ],
       "desc": "阿合马理财聚敛、民怨沸腾，益都千户王著诈杀之于阙下，世祖乃籍其家。"
     },
@@ -1476,7 +1482,7 @@
       "year": 1259,
       "people": [
         "meng-ge",
-        "hubilie"
+        "hu-bi-lie"
       ],
       "desc": "宪宗亲征四川，合州钓鱼城久攻不下，七月卒于军中。攻宋之役中辍，蒙古汗位之争复起。"
     },
@@ -1486,7 +1492,7 @@
       "kind": "point",
       "year": 1260,
       "people": [
-        "hubilie",
+        "hu-bi-lie",
         "a-li-bu-ge"
       ],
       "desc": "忽必烈在开平即大汗位，阿里不哥于和林争立。四年而胜负决，蒙古的重心自此移至汉地。"
@@ -1499,7 +1505,7 @@
       "people": [
         "li-tan",
         "wang-wentong",
-        "hubilie",
+        "hu-bi-lie",
         "shi-tianze"
       ],
       "desc": "山东世侯李璮举济南反，旋败被斩；中书平章王文统坐与通谋同诛，汉人世侯兵权由此尽收。"
@@ -1511,7 +1517,7 @@
       "year": 1285,
       "people": [
         "zhen-jin",
-        "hubilie"
+        "hu-bi-lie"
       ],
       "desc": "有人上书请世祖禅位，事寝而太子真金旋卒，年四十三。汉法一系顿失储君，其后理财之臣益用事。"
     },
@@ -1521,7 +1527,7 @@
       "kind": "point",
       "year": 1287,
       "people": [
-        "hubilie",
+        "hu-bi-lie",
         "nai-yan"
       ],
       "desc": "东道诸王乃颜连兵而西，世祖扶病亲征，一战擒之。辽东诸王部众被分，东北道自此不复为患。"
@@ -1545,7 +1551,7 @@
       "endYear": 1301,
       "people": [
         "hai-du",
-        "hubilie",
+        "hu-bi-lie",
         "cheng-zong"
       ],
       "desc": "窝阔台之孙海都据中亚，连察合台诸王抗命，西北三十余年不安；1301 年兵败道卒，漠北始定。"
@@ -1568,7 +1574,7 @@
       "kind": "point",
       "year": 1340,
       "people": [
-        "bayan-quanchen",
+        "bo-yan-quanchen",
         "tuo-tuo",
         "shun-di"
       ],
@@ -1581,7 +1587,7 @@
       "name": "元全览",
       "from": 1140,
       "to": 1370,
-      "focus": "hubilie",
+      "focus": "hu-bi-lie",
       "brief": "忽必烈的红条最长，压过前后的大汗与诸帝；其下宰辅、名将两条成排展开，八思巴、郭守敬、赵孟頫的青条落在中段。宗室的短横支队只占几年，南坡一带关系密集。尾段是权臣与群雄的紫条，最后朱元璋的一条横切过来，把顺帝收在北去的路上。"
     },
     {
@@ -1589,10 +1595,10 @@
       "name": "漠北崛起与大汗更迭",
       "from": 1140,
       "to": 1260,
-      "focus": "cheng-jis-han",
+      "focus": "tie-mu-zhen",
       "brief": "成吉思汗一条横贯全窗，木华黎、速不台贴其左右；太宗、定宗、宪宗三条短而相接，中间空一段就是汗位之争。丘处机与耶律楚材的青条插进来，是这一阶段唯一的另外两色。",
       "people": [
-        "cheng-jis-han",
+        "tie-mu-zhen",
         "tuo-lei",
         "suo-lu-he-tie-ni",
         "wo-kuo-tai",
@@ -1602,7 +1608,7 @@
         "mu-huali",
         "su-butai",
         "qiu-chuji",
-        "yelü-chucai",
+        "yelv-chucai",
         "yuan-haowen",
         "li-ye-yuan"
       ],
@@ -1617,27 +1623,27 @@
       "name": "立国与灭宋",
       "from": 1250,
       "to": 1295,
-      "focus": "hubilie",
+      "focus": "hu-bi-lie",
       "brief": "忽必烈的条在此窗内几乎顶满；刘秉忠、姚枢、窦默、廉希宪列在其下，伯颜、阿术、张弘范排成一列，是江南之役先后出场的主将。窗内七件点事件依次落下：李璮之乱、太子之薨、建国号、颁新字、灭宋、乃颜之叛、诛阿合马。",
       "people": [
         "meng-ge",
-        "hubilie",
+        "hu-bi-lie",
         "zhen-jin",
         "liu-bingzhong",
         "yao-shu",
         "dou-mo",
         "lian-xixian",
         "zhang-wenqian",
-        "basiba",
+        "ba-si-ba",
         "shi-tianze",
-        "boyan",
+        "bo-yan",
         "zhang-hongfan",
         "a-shu",
         "a-li-hai-ya",
         "li-heng-yuan",
         "zhang-rou",
         "dong-wenbing",
-        "ahema",
+        "a-he-ma",
         "an-tong"
       ],
       "events": [
@@ -1658,7 +1664,7 @@
       "focus": "xu-heng",
       "brief": "姚枢、窦默、许衡、刘因、吴澄的青条几乎并行，是程朱之学在元代的样子；其下郭守敬、张文谦两条贴着水利与历算之役。仁宗复科举一点落在右侧，李孟在旁边。八思巴与胆巴另据一路，是释教这一脉。",
       "people": [
-        "yelü-chucai",
+        "yelv-chucai",
         "li-ye-yuan",
         "xu-heng",
         "yao-shu",
@@ -1668,7 +1674,7 @@
         "wu-cheng",
         "xu-qian",
         "guo-shoujing",
-        "basiba",
+        "ba-si-ba",
         "dan-ba",
         "ren-zong",
         "huang-daopo",
@@ -1728,7 +1734,7 @@
         "tie-shi",
         "da-ji",
         "yan-tiemuer",
-        "bayan-quanchen",
+        "bo-yan-quanchen",
         "tuo-tuo",
         "shun-di",
         "qi-huanghou",

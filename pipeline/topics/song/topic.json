@@ -114,7 +114,7 @@
       "lane": "emperor"
     },
     {
-      "id": "lizong",
+      "id": "li-zong",
       "lane": "emperor"
     },
     {
@@ -926,8 +926,9 @@
       "lane": "rival"
     },
     {
-      "id": "tiemuzhen",
-      "lane": "rival"
+      "id": "tie-mu-zhen",
+      "lane": "rival",
+      "bio": "统一漠北诸部，1206年建大蒙古国，号成吉思汗。西征花剌子模，破西夏。伐金数年，覆金半壁。丁亥年七月卒于六盘山，蒙宋「联蒙灭金」之约其后成局。"
     },
     {
       "id": "heshilie-zhining",
@@ -938,20 +939,23 @@
       "lane": "rival"
     },
     {
-      "id": "mengge",
-      "lane": "rival"
+      "id": "meng-ge",
+      "lane": "rival",
+      "title": "蒙哥汗，殒命钓鱼城的大汗",
+      "bio": "拖雷长子，1251年即汗位，遣弟忽必烈征大理、旭烈兀西征。自将伐宋，围合州钓鱼城九阅月，己未年七月殒于城下，蒙古西征自此敛兵。"
     },
     {
       "id": "liu-zheng-1212",
       "lane": "rival"
     },
     {
-      "id": "hubilie",
+      "id": "hu-bi-lie",
       "lane": "rival"
     },
     {
       "id": "bo-yan",
-      "lane": "rival"
+      "lane": "rival",
+      "bio": "蒙古八邻部人，深沉有智略。至元十一年总二十万大军伐宋，下临安掳谢太后、恭帝北去。元贞元年卒。"
     },
     {
       "id": "zhang-hongfan",
@@ -1221,12 +1225,12 @@
     },
     {
       "source": "zhao-kuo",
-      "target": "lizong",
+      "target": "li-zong",
       "type": "kin",
       "note": "养父子，宁宗传理宗"
     },
     {
-      "source": "lizong",
+      "source": "li-zong",
       "target": "zhao-qi",
       "type": "kin",
       "note": "父子，理宗传度宗"

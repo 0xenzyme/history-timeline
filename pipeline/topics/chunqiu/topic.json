@@ -43,6 +43,11 @@
       "id": "shi",
       "name": "士人",
       "color": "#6b5b95"
+    },
+    {
+      "id": "lord",
+      "name": "诸侯",
+      "color": "#3f7d52"
     }
   ],
   "people": [
@@ -51,6 +56,76 @@
       "lane": "zhou",
       "title": "东周第一位天子",
       "bio": "东迁之后，王室只剩共主空名。他的条停在前 720 年，后面的霸主条越来越长，周王泳道从此空下来。"
+    },
+    {
+      "id": "ji-lin",
+      "lane": "zhou",
+      "title": "在位二十三年，郑师射伤于繻葛"
+    },
+    {
+      "id": "ji-tuo",
+      "lane": "zhou",
+      "title": "杀周公黑肩，弟王子克奔燕"
+    },
+    {
+      "id": "ji-hu-qi",
+      "lane": "zhou",
+      "title": "在位五年，齐桓霸业起于其初年"
+    },
+    {
+      "id": "ji-liang",
+      "lane": "zhou",
+      "title": "为王子頽所逐，赖郑虢复国"
+    },
+    {
+      "id": "ji-zheng",
+      "lane": "zhou",
+      "title": "借晋文公之力复位，践土受诸侯朝"
+    },
+    {
+      "id": "ji-ren-chen",
+      "lane": "zhou",
+      "title": "在位六年，晋灵公之祸起于其世"
+    },
+    {
+      "id": "ji-ban",
+      "lane": "zhou",
+      "title": "在位六年，晋灵公被立于此年"
+    },
+    {
+      "id": "ji-yu",
+      "lane": "zhou",
+      "title": "问九鼎之役，楚庄王北上的极点"
+    },
+    {
+      "id": "ji-yi",
+      "lane": "zhou",
+      "title": "纳晋厉公复位之命出于此年"
+    },
+    {
+      "id": "ji-xie-xin",
+      "lane": "zhou",
+      "title": "在位二十七年，弑君自诸侯始"
+    },
+    {
+      "id": "ji-gui",
+      "lane": "zhou",
+      "title": "爱子朝而乱王室，崩于王城"
+    },
+    {
+      "id": "ji-meng",
+      "lane": "zhou",
+      "title": "未及正式即位即为子朝所杀"
+    },
+    {
+      "id": "ji-gai",
+      "lane": "zhou",
+      "title": "在位四十四年，十六年方由晋定公送归王城"
+    },
+    {
+      "id": "ji-ren",
+      "lane": "zhou",
+      "title": "在位七年，三家分晋之后的天子"
     },
     {
       "id": "ji-wusheng",
@@ -133,13 +208,238 @@
       "lane": "minister"
     },
     {
-      "id": "kongzi",
+      "id": "kong-zi",
       "lane": "shi",
       "bio": "鲁人。夹谷之会相定公，周游十四年，晚岁据鲁史作《春秋》。霸主们的条在他之前已经画了两百年，他给这些年份起了一个可以问责的名字。"
     },
     {
       "id": "sun-wu",
       "lane": "shi"
+    },
+    {
+      "id": "jin-zhaohou",
+      "lane": "lord",
+      "title": "曲沃内乱中被潘父弑杀的第一位晋君"
+    },
+    {
+      "id": "jin-xiaohou",
+      "lane": "lord",
+      "title": "曲沃庄伯入翼弑之"
+    },
+    {
+      "id": "jin-ehou",
+      "lane": "lord",
+      "title": "六年而卒，曲沃庄伯闻讣即伐"
+    },
+    {
+      "id": "jin-aihou",
+      "lane": "lord",
+      "title": "为曲沃所俘，废为食邑"
+    },
+    {
+      "id": "jin-xiaozihou",
+      "lane": "lord",
+      "title": "在位四年，为曲沃伯诱杀"
+    },
+    {
+      "id": "jin-hou-min",
+      "lane": "lord",
+      "title": "翼一系最后一位，为曲沃武公所灭"
+    },
+    {
+      "id": "quwo-wugong",
+      "lane": "lord",
+      "title": "以一军为晋侯，尽并晋地"
+    },
+    {
+      "id": "jin-huigong",
+      "lane": "lord",
+      "title": "骊姬之乱后即位十四年，为秦所立"
+    },
+    {
+      "id": "jin-huaigong",
+      "lane": "lord",
+      "title": "在位一年，为秦送重耳归国所杀"
+    },
+    {
+      "id": "jin-xianggong",
+      "lane": "lord",
+      "title": "文公之子，守成七年"
+    },
+    {
+      "id": "jin-linggong",
+      "lane": "lord",
+      "title": "为赵穿所弑，赵盾另立黑臀"
+    },
+    {
+      "id": "jin-chenggong",
+      "lane": "lord",
+      "title": "十八年，郑捷敖之难后收郑为邑"
+    },
+    {
+      "id": "jin-jinggong",
+      "lane": "lord",
+      "title": "下宫之难，郤氏族灭"
+    },
+    {
+      "id": "jin-ligong",
+      "lane": "lord",
+      "title": "七年，为栾盈所弑"
+    },
+    {
+      "id": "jin-daogong",
+      "lane": "lord",
+      "title": "复霸之君，二十六年"
+    },
+    {
+      "id": "jin-pinggong",
+      "lane": "lord",
+      "title": "二十四载，齐晋鞀之战"
+    },
+    {
+      "id": "jin-zhaogong-2",
+      "lane": "lord",
+      "title": "晋楚红会，晋分三军"
+    },
+    {
+      "id": "jin-qinggong",
+      "lane": "lord",
+      "title": "王室之乱，入朝于周"
+    },
+    {
+      "id": "jin-dinggong",
+      "lane": "lord",
+      "title": "四十年而卒，晋室至是益微"
+    },
+    {
+      "id": "jin-chugong",
+      "lane": "lord",
+      "title": "奔齐道死，六卿分其地"
+    },
+    {
+      "id": "qi-chunqiu-ligong",
+      "lane": "lord",
+      "title": "襄公之子，齐桓公霸业之始"
+    },
+    {
+      "id": "qi-xianggong",
+      "lane": "lord",
+      "title": "醉杀鲁桓公，为公孙无知所弑"
+    },
+    {
+      "id": "qi-xiaogong",
+      "lane": "lord",
+      "title": "五公子争立之一，在位十年"
+    },
+    {
+      "id": "qi-zhaogong",
+      "lane": "lord",
+      "title": "在位十九年，弟商人篡之"
+    },
+    {
+      "id": "qi-yigong",
+      "lane": "lord",
+      "title": "墓上弒君自立，在位四年"
+    },
+    {
+      "id": "qi-huigong",
+      "lane": "lord",
+      "title": "在位十年，废昭公诸子而立"
+    },
+    {
+      "id": "qi-qinggong",
+      "lane": "lord",
+      "title": "在位十七年，晏子整齐齐政"
+    },
+    {
+      "id": "qi-linggong",
+      "lane": "lord",
+      "title": "弑惠公诸子而立，为崔杼所立"
+    },
+    {
+      "id": "qi-zhuanggong-hou",
+      "lane": "lord",
+      "title": "崔杼迎立，六年为崔杼所弑"
+    },
+    {
+      "id": "qi-chunqiu-jinggong",
+      "lane": "lord",
+      "title": "在位五十八年，史墨断其必亡"
+    },
+    {
+      "id": "qi-yanruz",
+      "lane": "lord",
+      "title": "景公少子，立而被田氏所杀"
+    },
+    {
+      "id": "qi-daogong",
+      "lane": "lord",
+      "title": "田乞所立，旋为田氏所杀"
+    },
+    {
+      "id": "qi-jiangong",
+      "lane": "lord",
+      "title": "田常弑之，在位四年"
+    },
+    {
+      "id": "qi-pinggong",
+      "lane": "lord",
+      "title": "在位二十五年，晏子十世相齐之末"
+    },
+    {
+      "id": "xiong-mi",
+      "lane": "lord",
+      "title": "始称楚王，弟熊通代立"
+    },
+    {
+      "id": "xiong-tong",
+      "lane": "lord",
+      "title": "自立为王，与随人盟，楚地始开濮"
+    },
+    {
+      "id": "xiong-zi",
+      "lane": "lord",
+      "title": "始都郢，在位十三年"
+    },
+    {
+      "id": "xiong-xia",
+      "lane": "lord",
+      "title": "在位三年，为公子羆所弑"
+    },
+    {
+      "id": "xiong-shangchen",
+      "lane": "lord",
+      "title": "弑成王自立，在位十二年"
+    },
+    {
+      "id": "xiong-shen",
+      "lane": "lord",
+      "title": "鄢陵之战中楚，为晋厉公所射"
+    },
+    {
+      "id": "xiong-zhao",
+      "lane": "lord",
+      "title": "在位十五年，宠四公子致乱"
+    },
+    {
+      "id": "xiong-yuan",
+      "lane": "lord",
+      "title": "在位四年，为公子围所杀"
+    },
+    {
+      "id": "xiong-wei",
+      "lane": "lord",
+      "title": "章华台饿死，为申亥之家所杀"
+    },
+    {
+      "id": "xiong-qiji",
+      "lane": "lord",
+      "title": "弑三王自立，在位十三年"
+    },
+    {
+      "id": "xiong-zhen",
+      "lane": "lord",
+      "title": "吴破楚奔随，卒于军中"
     }
   ],
   "relationTypes": [
@@ -450,7 +750,7 @@
       "kind": "point",
       "year": -551,
       "people": [
-        "kongzi"
+        "kong-zi"
       ],
       "desc": "生年取《史记》前 551 年说。士人泳道在霸主时代的后半段才出现。"
     },
@@ -473,7 +773,7 @@
       "year": -497,
       "endYear": -484,
       "people": [
-        "kongzi"
+        "kong-zi"
       ],
       "desc": "去鲁十四年。吴越争霸的同时，士人条在卫、陈、蔡之间平移，求行其道而未得。"
     },
@@ -507,7 +807,7 @@
       "kind": "point",
       "year": -479,
       "people": [
-        "kongzi"
+        "kong-zi"
       ],
       "desc": "鲁哀公十六年。同一时期吴越尚未终局，《春秋》的笔停了，争霸还在继续。"
     },
@@ -589,7 +889,7 @@
       "brief": "楚庄王的条在左，勾践的条在右，孔子的条从中间穿过。伍子胥连着阖闾与夫差，范蠡在灭吴之后主动断开。",
       "people": [
         "mi-lv",
-        "kongzi",
+        "kong-zi",
         "wu-yuan",
         "sun-wu",
         "ji-guang",

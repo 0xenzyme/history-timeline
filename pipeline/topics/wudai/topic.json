@@ -1,0 +1,1103 @@
+{
+  "meta": {
+    "id": "wudai",
+    "title": "五代十国",
+    "subtitle": "从朱温代唐到纳土归宋 · 公元 907 — 979",
+    "range": [
+      907,
+      979
+    ]
+  },
+  "catalog": {
+    "subtitle": "从朱温代唐到纳土归宋",
+    "region": "cn",
+    "eras": [
+      "wudai"
+    ],
+    "themes": [
+      "dynasty"
+    ]
+  },
+  "lanes": [
+    {
+      "id": "emperor",
+      "name": "五代帝王",
+      "color": "#c0392b"
+    },
+    {
+      "id": "shiguo",
+      "name": "十国君主",
+      "color": "#8a5a44"
+    },
+    {
+      "id": "chancellor",
+      "name": "宰辅 · 文臣",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "general",
+      "name": "将帅 · 武力",
+      "color": "#3f7d52"
+    },
+    {
+      "id": "literati",
+      "name": "文学 · 艺术",
+      "color": "#1f7f8f"
+    },
+    {
+      "id": "khitan",
+      "name": "契丹 · 北疆",
+      "color": "#8f4a55"
+    },
+    {
+      "id": "end",
+      "name": "禅代 · 归宋",
+      "color": "#6b5b95"
+    }
+  ],
+  "people": [
+    {
+      "id": "zhu-wen",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-yougui",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-zhen",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-ke-yong",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-cunxu",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-siyuan",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-conghou",
+      "lane": "emperor"
+    },
+    {
+      "id": "li-congke",
+      "lane": "emperor"
+    },
+    {
+      "id": "shi-jingtang",
+      "lane": "emperor"
+    },
+    {
+      "id": "shi-chonggui",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-zhiyuan",
+      "lane": "emperor"
+    },
+    {
+      "id": "liu-chengyou",
+      "lane": "emperor"
+    },
+    {
+      "id": "guo-wei",
+      "lane": "emperor"
+    },
+    {
+      "id": "chai-rong",
+      "lane": "emperor"
+    },
+    {
+      "id": "chai-zongxun",
+      "lane": "emperor"
+    },
+    {
+      "id": "yang-xingmi",
+      "lane": "shiguo"
+    },
+    {
+      "id": "li-bian",
+      "lane": "shiguo"
+    },
+    {
+      "id": "li-jing-916",
+      "lane": "shiguo"
+    },
+    {
+      "id": "li-yu-937",
+      "lane": "shiguo"
+    },
+    {
+      "id": "wang-jian-918",
+      "lane": "shiguo"
+    },
+    {
+      "id": "meng-zhixiang",
+      "lane": "shiguo"
+    },
+    {
+      "id": "meng-chang",
+      "lane": "shiguo"
+    },
+    {
+      "id": "ma-yin",
+      "lane": "shiguo"
+    },
+    {
+      "id": "qian-liu",
+      "lane": "shiguo"
+    },
+    {
+      "id": "qian-hongchu",
+      "lane": "shiguo"
+    },
+    {
+      "id": "liu-yan",
+      "lane": "shiguo"
+    },
+    {
+      "id": "liu-chang",
+      "lane": "shiguo"
+    },
+    {
+      "id": "liu-ren-gong",
+      "lane": "shiguo"
+    },
+    {
+      "id": "liu-shou-guang",
+      "lane": "shiguo"
+    },
+    {
+      "id": "gao-ji-xing",
+      "lane": "shiguo"
+    },
+    {
+      "id": "gao-baozheng",
+      "lane": "shiguo"
+    },
+    {
+      "id": "liu-chong",
+      "lane": "shiguo"
+    },
+    {
+      "id": "liu-chengjun",
+      "lane": "shiguo"
+    },
+    {
+      "id": "feng-dao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "he-ning",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-xu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-pu-906",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-pu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fan-zhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-renpu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xu-wen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "song-qi-qiu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "han-xizai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-congbai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-cunxiao",
+      "lane": "general"
+    },
+    {
+      "id": "zhou-dewei",
+      "lane": "general"
+    },
+    {
+      "id": "guo-congqian",
+      "lane": "general"
+    },
+    {
+      "id": "wang-du",
+      "lane": "general"
+    },
+    {
+      "id": "du-chongwei",
+      "lane": "general"
+    },
+    {
+      "id": "han-tong",
+      "lane": "general"
+    },
+    {
+      "id": "fan-aineng",
+      "lane": "general"
+    },
+    {
+      "id": "he-hui",
+      "lane": "general"
+    },
+    {
+      "id": "guan-xiu",
+      "lane": "literati"
+    },
+    {
+      "id": "feng-yansi",
+      "lane": "literati"
+    },
+    {
+      "id": "sun-guangxian",
+      "lane": "literati"
+    },
+    {
+      "id": "yelv-abaoji",
+      "lane": "khitan"
+    },
+    {
+      "id": "yelv-deguang",
+      "lane": "khitan"
+    },
+    {
+      "id": "zhao-kuangyin",
+      "lane": "end"
+    },
+    {
+      "id": "zhao-guangyi",
+      "lane": "end"
+    },
+    {
+      "id": "zhao-pu",
+      "lane": "end"
+    },
+    {
+      "id": "li-yun",
+      "lane": "end"
+    },
+    {
+      "id": "li-chongjin",
+      "lane": "end"
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "ruler-subject",
+      "name": "君臣",
+      "color": "#8a8f98",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "mentor",
+      "name": "师承",
+      "color": "#1f7f8f",
+      "dash": null,
+      "directed": true
+    },
+    {
+      "id": "kin",
+      "name": "亲族",
+      "color": "#4a9c5d",
+      "dash": null,
+      "directed": false
+    },
+    {
+      "id": "peer",
+      "name": "同僚",
+      "color": "#9b7cbf",
+      "dash": "2 3",
+      "directed": false
+    },
+    {
+      "id": "rival",
+      "name": "敌对 · 争夺",
+      "color": "#922b3a",
+      "dash": "6 3",
+      "directed": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ke-yong",
+      "target": "li-cunxu",
+      "type": "kin",
+      "note": "父子，晋王之位与三矢之誓所传"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "li-cunxiao",
+      "type": "kin",
+      "note": "养子，十三太保之勇，终以叛诛"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "yelv-abaoji",
+      "type": "rival",
+      "note": "云州会盟约为兄弟，已而契丹附梁"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "li-ke-yong",
+      "type": "rival",
+      "note": "上源驿之祸，梁晋世仇"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "zhu-yougui",
+      "type": "kin",
+      "note": "父子，寝殿之变所由生"
+    },
+    {
+      "source": "zhu-yougui",
+      "target": "zhu-zhen",
+      "type": "rival",
+      "note": "兄弟相图，宣武兵入而珪死"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "zhu-zhen",
+      "type": "rival",
+      "note": "夹河决战十余年，存勖灭朱"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "zhou-dewei",
+      "type": "ruler-subject",
+      "note": "柏乡却梁，唐之宿将"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "guo-congqian",
+      "type": "rival",
+      "note": "伶人宠将，兴教门弑逆"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "li-cunxu",
+      "type": "rival",
+      "note": "从马直之乱，兄弟兵争而得位"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "li-conghou",
+      "type": "kin",
+      "note": "父子，闵帝立而失驭"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "li-congke",
+      "type": "kin",
+      "note": "养子，反戈相向而覆其家"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "shi-jingtang",
+      "type": "kin",
+      "note": "子婿与腹心，晋阳之变由此起"
+    },
+    {
+      "source": "li-congke",
+      "target": "shi-jingtang",
+      "type": "rival",
+      "note": "太原举兵，引契丹灭唐"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "note": "称儿皇帝，父事契丹"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "shi-chonggui",
+      "type": "kin",
+      "note": "兄子为养子，出帝继晋"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "du-chongwei",
+      "type": "kin",
+      "note": "甥婿相维，将相之位由亲而得"
+    },
+    {
+      "source": "shi-chonggui",
+      "target": "du-chongwei",
+      "type": "ruler-subject",
+      "note": "总大军御边，中渡先降"
+    },
+    {
+      "source": "shi-chonggui",
+      "target": "yelv-deguang",
+      "type": "rival",
+      "note": "称孙不称臣，三度受伐"
+    },
+    {
+      "source": "du-chongwei",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "note": "以大军降，导契丹入汴"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "liu-chengyou",
+      "type": "kin",
+      "note": "父子，隐帝急于除大臣"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "liu-chong",
+      "type": "kin",
+      "note": "兄弟，汉祚一在汴、一在太原"
+    },
+    {
+      "source": "liu-chong",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "note": "北汉称臣于契丹，约为父子之国"
+    },
+    {
+      "source": "liu-chong",
+      "target": "liu-chengjun",
+      "type": "kin",
+      "note": "父子，睿宗慎守父业"
+    },
+    {
+      "source": "liu-chengyou",
+      "target": "guo-wei",
+      "type": "rival",
+      "note": "诛其家属，邺都兵起"
+    },
+    {
+      "source": "guo-wei",
+      "target": "chai-rong",
+      "type": "kin",
+      "note": "姑婿为后，周祚所传"
+    },
+    {
+      "source": "chai-rong",
+      "target": "chai-zongxun",
+      "type": "kin",
+      "note": "父子，恭帝冲龄而禅"
+    },
+    {
+      "source": "chai-rong",
+      "target": "wang-pu-906",
+      "type": "ruler-subject",
+      "note": "枢密首席，平边之策所自出"
+    },
+    {
+      "source": "chai-rong",
+      "target": "fan-aineng",
+      "type": "rival",
+      "note": "高平弃阵而奔，并按军法"
+    },
+    {
+      "source": "chai-rong",
+      "target": "he-hui",
+      "type": "rival",
+      "note": "高平弃阵而奔，并按军法"
+    },
+    {
+      "source": "chai-rong",
+      "target": "liu-chong",
+      "type": "rival",
+      "note": "高平、太原之役，北汉赖辽而存"
+    },
+    {
+      "source": "chai-rong",
+      "target": "li-jing-916",
+      "type": "rival",
+      "note": "三征淮南，尽取江北之地"
+    },
+    {
+      "source": "chai-rong",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "note": "江南词臣，奉表称国主"
+    },
+    {
+      "source": "feng-dao",
+      "target": "liu-xu",
+      "type": "peer",
+      "note": "晋朝宰辅同列"
+    },
+    {
+      "source": "feng-dao",
+      "target": "li-siyuan",
+      "type": "ruler-subject",
+      "note": "事明宗为相，号称长者"
+    },
+    {
+      "source": "fan-zhi",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "note": "受顾命相恭帝，随世宗之子入宋"
+    },
+    {
+      "source": "wang-pu",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "note": "周之宰相，入宋撰《五代会要》"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "chai-zongxun",
+      "type": "rival",
+      "note": "陈桥返旆，恭帝让位"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "han-tong",
+      "type": "rival",
+      "note": "禁军旧恩，变起而死于扈从"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-pu",
+      "type": "ruler-subject",
+      "note": "掌机要，佐命归宋"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-yun",
+      "type": "rival",
+      "note": "宿将不平，据潞州叛宋"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-chongjin",
+      "type": "rival",
+      "note": "周亲扬州举兵，覆亡"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-yu-937",
+      "type": "rival",
+      "note": "称臣之邦，围城三载而陷"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "meng-chang",
+      "type": "rival",
+      "note": "后蜀不战而降，至汴而卒"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "liu-chang",
+      "type": "rival",
+      "note": "南汉火舰不效，衔榇出降"
+    },
+    {
+      "source": "qian-liu",
+      "target": "qian-hongchu",
+      "type": "kin",
+      "note": "祖孙，武肃\"善事中国\"之遗训"
+    },
+    {
+      "source": "qian-hongchu",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "note": "纳土归宋，封爵就第"
+    },
+    {
+      "source": "yang-xingmi",
+      "target": "qian-liu",
+      "type": "rival",
+      "note": "宣润相持，杨吴不得东下"
+    },
+    {
+      "source": "yang-xingmi",
+      "target": "xu-wen",
+      "type": "ruler-subject",
+      "note": "同里起兵，吴之权卒归于温"
+    },
+    {
+      "source": "xu-wen",
+      "target": "li-bian",
+      "type": "kin",
+      "note": "养子秉政，齐王因之受禅"
+    },
+    {
+      "source": "li-bian",
+      "target": "li-jing-916",
+      "type": "kin",
+      "note": "父子，元宗拓而复失"
+    },
+    {
+      "source": "li-jing-916",
+      "target": "li-yu-937",
+      "type": "kin",
+      "note": "父子，中主传后主"
+    },
+    {
+      "source": "li-yu-937",
+      "target": "li-congbai",
+      "type": "kin",
+      "note": "兄弟，从善入宋不返"
+    },
+    {
+      "source": "li-yu-937",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "note": "词臣之知，\"吹皱一池春水\""
+    },
+    {
+      "source": "li-yu-937",
+      "target": "han-xizai",
+      "type": "ruler-subject",
+      "note": "欲相之而遣夜宴图察其放达"
+    },
+    {
+      "source": "han-xizai",
+      "target": "feng-yansi",
+      "type": "peer",
+      "note": "江左词坛两雄"
+    },
+    {
+      "source": "song-qi-qiu",
+      "target": "feng-yansi",
+      "type": "peer",
+      "note": "五鬼之党更相倾附"
+    },
+    {
+      "source": "song-qi-qiu",
+      "target": "li-bian",
+      "type": "ruler-subject",
+      "note": "佐烈祖定国，江左谋主"
+    },
+    {
+      "source": "ma-yin",
+      "target": "gao-ji-xing",
+      "type": "rival",
+      "note": "澧朗之争，马殷不能南制"
+    },
+    {
+      "source": "gao-ji-xing",
+      "target": "li-jing-916",
+      "type": "rival",
+      "note": "岳州一役，荆南尽收楚地"
+    },
+    {
+      "source": "sun-guangxian",
+      "target": "gao-ji-xing",
+      "type": "ruler-subject",
+      "note": "世掌荆南记室，劝其臣中国"
+    },
+    {
+      "source": "meng-zhixiang",
+      "target": "meng-chang",
+      "type": "kin",
+      "note": "父子，后蜀二主"
+    },
+    {
+      "source": "liu-yan",
+      "target": "liu-chang",
+      "type": "kin",
+      "note": "祖孙之统，三世而国除"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "guan-xiu",
+      "type": "ruler-subject",
+      "note": "晚节依蜀，禅月之号所由显"
+    },
+    {
+      "source": "guan-xiu",
+      "target": "qian-liu",
+      "type": "rival",
+      "note": "十四州之句，不肯改从一州"
+    },
+    {
+      "source": "liu-ren-gong",
+      "target": "liu-shou-guang",
+      "type": "kin",
+      "note": "父子，守光囚父而僭燕"
+    },
+    {
+      "source": "liu-shou-guang",
+      "target": "li-cunxu",
+      "type": "rival",
+      "note": "晋兵围幽州，桀燕擒斩"
+    },
+    {
+      "source": "liu-ren-gong",
+      "target": "li-ke-yong",
+      "type": "rival",
+      "note": "借晋兵而有卢龙，已而背之"
+    },
+    {
+      "source": "gao-baozheng",
+      "target": "gao-ji-xing",
+      "type": "kin",
+      "note": "祖孙相继，仅守三州"
+    },
+    {
+      "source": "liu-chengjun",
+      "target": "zhao-guangyi",
+      "type": "rival",
+      "note": "开宝之围，北汉最后的屏障"
+    },
+    {
+      "source": "chai-rong",
+      "target": "wei-renpu",
+      "type": "ruler-subject",
+      "note": "周世宗即位，以魏仁浦为宰相，与王溥同预政事"
+    },
+    {
+      "source": "he-ning",
+      "target": "liu-xu",
+      "type": "peer",
+      "note": "后晋同朝宰相，旧唐书纂修之事并预"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "wang-du",
+      "type": "rival",
+      "note": "王都据定州反，晋王李存勖遣兵围之，契丹援败而城破"
+    }
+  ],
+  "events": [
+    {
+      "id": "wudai-907",
+      "name": "朱温代唐 · 五代始",
+      "kind": "point",
+      "year": 907,
+      "people": [
+        "zhu-wen",
+        "li-ke-yong"
+      ],
+      "desc": "唐哀帝禅位于梁王朱温，唐朝亡，五十余年五代更迭之局自此而始。"
+    },
+    {
+      "id": "wudai-923",
+      "name": "后唐灭梁",
+      "kind": "point",
+      "year": 923,
+      "people": [
+        "li-cunxu",
+        "zhu-zhen"
+      ],
+      "desc": "晋王李存勖即位于魏州，旋袭汴州，梁末帝死之，五代第一朝易主。"
+    },
+    {
+      "id": "wudai-926",
+      "name": "兴教门之变",
+      "kind": "point",
+      "year": 926,
+      "people": [
+        "li-cunxu",
+        "guo-congqian",
+        "zhou-dewei"
+      ],
+      "desc": "从马直军乱，伶人郭从谦纵火弑逆，庄宗殂，明宗由乱军得位。"
+    },
+    {
+      "id": "wudai-936",
+      "name": "石敬瑭借兵割燕云",
+      "kind": "point",
+      "year": 936,
+      "people": [
+        "shi-jingtang",
+        "yelv-deguang",
+        "li-congke"
+      ],
+      "desc": "河东举兵，契丹主自雁门来援，约割卢龙雁门以北；唐废帝自焚，后晋立。"
+    },
+    {
+      "id": "wudai-947",
+      "name": "契丹入汴 · 国号大辽",
+      "kind": "point",
+      "year": 947,
+      "people": [
+        "yelv-deguang",
+        "shi-chonggui",
+        "du-chongwei"
+      ],
+      "desc": "杜重威举军降，德光入汴受晋降，改元大同、国号大辽，北归暴卒于杀胡林。"
+    },
+    {
+      "id": "wudai-951",
+      "name": "后周建国 · 北汉分立",
+      "kind": "point",
+      "year": 951,
+      "people": [
+        "guo-wei",
+        "liu-chong",
+        "liu-chengyou"
+      ],
+      "desc": "隐帝遇弑，郭威入汴称周；河东刘崇据太原称汉，北汉自此与契丹连衡。"
+    },
+    {
+      "id": "wudai-954",
+      "name": "高平之战",
+      "kind": "point",
+      "year": 954,
+      "people": [
+        "chai-rong",
+        "liu-chong",
+        "fan-aineng",
+        "he-hui"
+      ],
+      "desc": "世宗新立，亲犯矢石破北汉；先遁之将按诛，由是整军东向。"
+    },
+    {
+      "id": "wudai-958",
+      "name": "淮南入周",
+      "kind": "point",
+      "year": 958,
+      "people": [
+        "chai-rong",
+        "li-jing-916"
+      ],
+      "desc": "三征南唐，紫金山丧师，元宗尽献江北十四州，去帝号。"
+    },
+    {
+      "id": "wudai-960",
+      "name": "陈桥兵变",
+      "kind": "point",
+      "year": 960,
+      "people": [
+        "zhao-kuangyin",
+        "chai-zongxun",
+        "han-tong",
+        "zhao-pu"
+      ],
+      "desc": "殿前都点检赵匡胤黄袍加身，还汴受周禅；韩通死之，中原自此归一姓。"
+    },
+    {
+      "id": "wudai-965",
+      "name": "宋平后蜀",
+      "kind": "point",
+      "year": 965,
+      "people": [
+        "meng-chang",
+        "zhao-kuangyin"
+      ],
+      "desc": "宋师入剑门，后蜀不战而降。"
+    },
+    {
+      "id": "wudai-971",
+      "name": "宋平南汉",
+      "kind": "point",
+      "year": 971,
+      "people": [
+        "liu-chang",
+        "zhao-kuangyin"
+      ],
+      "desc": "潘美克广州，刘鋹火舰不效出降。"
+    },
+    {
+      "id": "wudai-975",
+      "name": "宋平南唐",
+      "kind": "point",
+      "year": 975,
+      "people": [
+        "li-yu-937",
+        "zhao-kuangyin"
+      ],
+      "desc": "曹彬围金陵，城陷后主出降。"
+    },
+    {
+      "id": "wudai-978",
+      "name": "吴越纳土",
+      "kind": "point",
+      "year": 978,
+      "people": [
+        "qian-hongchu"
+      ],
+      "desc": "钱俶上版籍十三州，吴越国除，东南以一。"
+    },
+    {
+      "id": "wudai-979",
+      "name": "宋平北汉",
+      "kind": "point",
+      "year": 979,
+      "people": [
+        "zhao-guangyi"
+      ],
+      "desc": "宋太宗进围太原，刘继元降，十国之局终，唐末藩镇之分局亦终。"
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "name": "五代十国全览",
+      "from": 885,
+      "to": 979,
+      "focus": "chai-rong",
+      "brief": "朱温代唐起，八姓十四主在汴洛之间走马登场：后梁红条最短，后唐宗室内乱、契丹南牧，后晋以儿皇帝换燕云十六州，后周世宗一枝红条独长，惜以三十九岁而止。南方十国另成一片：吴越奉中国、南唐以词传家、前蜀后蜀据三峡之险；北方契丹紫条压顶。最后陈桥黄袍，中原收而复一。"
+    },
+    {
+      "id": "liang-tang",
+      "name": "后梁 · 后唐（907—936）",
+      "from": 907,
+      "to": 936,
+      "focus": "li-cunxu",
+      "people": [
+        "zhu-wen",
+        "zhu-yougui",
+        "zhu-zhen",
+        "li-ke-yong",
+        "li-cunxu",
+        "li-siyuan",
+        "li-conghou",
+        "li-congke",
+        "li-cunxiao",
+        "zhou-dewei",
+        "guo-congqian",
+        "wang-du",
+        "feng-dao",
+        "yang-xingmi",
+        "xu-wen",
+        "ma-yin",
+        "qian-liu",
+        "guan-xiu",
+        "liu-ren-gong",
+        "liu-shou-guang"
+      ],
+      "events": [
+        "wudai-907",
+        "wudai-923",
+        "wudai-926"
+      ],
+      "brief": "梁晋夹河十八年是主轴：朱温起于黄巢军，据汴洛而国梁；李克用挟沙陀骑兵居太原，存勖三矢雪耻，一战灭梁。而庄宗得之易失之亦速，伶人门变；明宗起于乱军粗致小康，闵、废二帝以内乱亡，唐祚十五年。"
+    },
+    {
+      "id": "jin-han",
+      "name": "后晋 · 后汉（936—950）",
+      "from": 936,
+      "to": 950,
+      "focus": "shi-jingtang",
+      "people": [
+        "shi-jingtang",
+        "shi-chonggui",
+        "du-chongwei",
+        "liu-zhiyuan",
+        "liu-chengyou",
+        "yelv-deguang",
+        "he-ning",
+        "liu-xu"
+      ],
+      "events": [
+        "wudai-936",
+        "wudai-947"
+      ],
+      "brief": "石敬瑭以幽蓟十六州易契丹之援，\"儿皇帝\"之名与燕云之失并垂千古；出帝一朝，中渡军降，契丹入汴而北归暴亡。汉祚仅四年，隐帝一夕族诛大臣，乱自封禅寺始。"
+    },
+    {
+      "id": "zhou",
+      "name": "后周 · 统一前夜（950—960）",
+      "from": 950,
+      "to": 960,
+      "focus": "chai-rong",
+      "people": [
+        "guo-wei",
+        "chai-rong",
+        "chai-zongxun",
+        "wang-pu-906",
+        "fan-aineng",
+        "he-hui",
+        "liu-chong",
+        "liu-chengjun",
+        "feng-dao",
+        "fan-zhi",
+        "wang-pu",
+        "wei-renpu"
+      ],
+      "events": [
+        "wudai-951",
+        "wudai-954",
+        "wudai-958"
+      ],
+      "brief": "太祖起于邺都之师，世宗以三十九之身为十年之谋：高平整军、淮南得地、瓦桥北望。王朴《平边策》先南后北之序，宋人受而用之。"
+    },
+    {
+      "id": "shiguo",
+      "name": "十国 · 江淮湖广",
+      "from": 902,
+      "to": 979,
+      "focus": "li-yu-937",
+      "people": [
+        "yang-xingmi",
+        "li-bian",
+        "li-jing-916",
+        "li-yu-937",
+        "wang-jian-918",
+        "meng-zhixiang",
+        "meng-chang",
+        "ma-yin",
+        "qian-liu",
+        "qian-hongchu",
+        "liu-yan",
+        "liu-chang",
+        "gao-ji-xing",
+        "gao-baozheng",
+        "song-qi-qiu",
+        "han-xizai",
+        "li-congbai",
+        "feng-yansi",
+        "sun-guangxian"
+      ],
+      "brief": "十国各保一方：杨吴—南唐一系最盛，烈祖保境、元宗失淮南、后主以词传世；前蜀后蜀据三峡之险，吴越守\"善事中国\"之家法，荆南\"高赖子\"往来两可，马楚听高郁之策，南汉隔岭自帝。"
+    },
+    {
+      "id": "gui-song",
+      "name": "归宋（960—979）",
+      "from": 960,
+      "to": 979,
+      "focus": "zhao-kuangyin",
+      "people": [
+        "zhao-kuangyin",
+        "zhao-guangyi",
+        "zhao-pu",
+        "han-tong",
+        "li-yun",
+        "li-chongjin",
+        "chai-zongxun",
+        "meng-chang",
+        "liu-chang",
+        "li-yu-937",
+        "qian-hongchu",
+        "liu-chengjun",
+        "wang-pu",
+        "fan-zhi",
+        "wei-renpu"
+      ],
+      "events": [
+        "wudai-960",
+        "wudai-965",
+        "wudai-971",
+        "wudai-975",
+        "wudai-978",
+        "wudai-979"
+      ],
+      "brief": "陈桥受禅，\"兵强马壮者为之\"的五代规则第一次被打破；杯酒之后，后蜀、南汉、南唐、吴越、北汉以次归宋，五十年分裂之局终。"
+    }
+  ]
+}

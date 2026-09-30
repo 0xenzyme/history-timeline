@@ -241,6 +241,82 @@
     {
       "id": "chu-lingyuan",
       "lane": "dongjin"
+    },
+    {
+      "id": "he-zeng",
+      "lane": "xijin"
+    },
+    {
+      "id": "chen-qian",
+      "lane": "xijin"
+    },
+    {
+      "id": "pei-xiu",
+      "lane": "xijin"
+    },
+    {
+      "id": "wei-guan",
+      "lane": "xijin"
+    },
+    {
+      "id": "xun-xu",
+      "lane": "xijin"
+    },
+    {
+      "id": "jia-chong",
+      "lane": "xijin"
+    },
+    {
+      "id": "wei-shu",
+      "lane": "xijin"
+    },
+    {
+      "id": "wang-rong",
+      "lane": "xijin"
+    },
+    {
+      "id": "wang-yan",
+      "lane": "xijin"
+    },
+    {
+      "id": "pei-wei",
+      "lane": "xijin"
+    },
+    {
+      "id": "wen-qiao",
+      "lane": "dongjin"
+    },
+    {
+      "id": "xi-jian",
+      "lane": "dongjin"
+    },
+    {
+      "id": "yu-bing",
+      "lane": "dongjin"
+    },
+    {
+      "id": "he-chong",
+      "lane": "dongjin"
+    },
+    {
+      "id": "cai-mo",
+      "lane": "dongjin"
+    },
+    {
+      "id": "yin-hao",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-biaozhi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-tanzhi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-yao",
+      "lane": "dongjin"
     }
   ],
   "relationTypes": [
@@ -320,10 +396,10 @@
       "note": "倚张华居中调护数年"
     },
     {
-      "source": "sima-zhong",
+      "source": "zhang-hua",
       "target": "lu-ji",
-      "type": "ruler-subject",
-      "note": "陆机入洛为成都王参军，败于河桥被谗死"
+      "type": "mentor",
+      "note": "陆机入洛，张华荐之于诸公，称为二俊"
     },
     {
       "source": "sima-rui",
@@ -338,16 +414,16 @@
       "note": "从兄弟，敦乱导稳"
     },
     {
-      "source": "zu-ti",
-      "target": "sima-rui",
+      "source": "sima-rui",
+      "target": "zu-ti",
       "type": "ruler-subject",
       "note": "中流击楫，请兵北伐"
     },
     {
-      "source": "huan-wen",
-      "target": "sima-rui",
-      "type": "rival",
-      "note": "桓温北伐树威，几行篡事"
+      "source": "zu-ti",
+      "target": "liu-kun",
+      "type": "peer",
+      "note": "同为司州主簿，共被同寝，闻鸡起舞"
     },
     {
       "source": "xie-an",
@@ -379,12 +455,6 @@
       "target": "shi-hu",
       "type": "kin",
       "note": "从父子，虎继勒后虐政"
-    },
-    {
-      "source": "liu-yuan",
-      "target": "liu-yu",
-      "type": "kin",
-      "note": "同出刘氏，一开汉赵一终晋祚"
     },
     {
       "source": "huan-xuan",
@@ -463,7 +533,7 @@
       "source": "huan-wen",
       "target": "sima-yi-haixi",
       "type": "rival",
-      "note": "桓温诬帝为阉，咸安二年降封海西县公"
+      "note": "桓温诬帝痿疾，太和六年废之，降封海西县公"
     },
     {
       "source": "sima-rui",
@@ -532,10 +602,106 @@
       "note": "恭帝皇后。禅宋后降为零陵王妃"
     },
     {
-      "source": "liu-yu",
-      "target": "chu-lingyuan",
+      "source": "sima-yan",
+      "target": "jia-chong",
+      "type": "ruler-subject",
+      "note": "禅代谋主，定律令"
+    },
+    {
+      "source": "sima-yan",
+      "target": "pei-xiu",
+      "type": "ruler-subject",
+      "note": "司空，定制图六体"
+    },
+    {
+      "source": "jia-chong",
+      "target": "jia-nanfeng",
+      "type": "kin",
+      "note": "父女，专权之根"
+    },
+    {
+      "source": "pei-xiu",
+      "target": "pei-wei",
+      "type": "kin",
+      "note": "父子，崇有矫虚"
+    },
+    {
+      "source": "wang-rong",
+      "target": "wang-yan",
+      "type": "kin",
+      "note": "族昆弟"
+    },
+    {
+      "source": "wang-yan",
+      "target": "wang-dao",
+      "type": "kin",
+      "note": "从兄弟，衍谈导政"
+    },
+    {
+      "source": "wang-yan",
+      "target": "shi-le",
       "type": "rival",
-      "note": "恭帝禅位于宋，褚灵媛降为零陵王妃"
+      "note": "苦县覆军，排墙而杀"
+    },
+    {
+      "source": "sima-shao",
+      "target": "wen-qiao",
+      "type": "ruler-subject",
+      "note": "密图王敦，受遗辅政"
+    },
+    {
+      "source": "wen-qiao",
+      "target": "yu-liang",
+      "type": "peer",
+      "note": "同讨苏峻"
+    },
+    {
+      "source": "wen-qiao",
+      "target": "tao-kan",
+      "type": "peer",
+      "note": "推侃为盟主"
+    },
+    {
+      "source": "sima-rui",
+      "target": "xi-jian",
+      "type": "ruler-subject",
+      "note": "流民帅受任兖州"
+    },
+    {
+      "source": "xi-jian",
+      "target": "tao-kan",
+      "type": "peer",
+      "note": "同讨苏峻，鉴守京口"
+    },
+    {
+      "source": "sima-yue",
+      "target": "yu-bing",
+      "type": "ruler-subject",
+      "note": "立长君之议"
+    },
+    {
+      "source": "sima-yue",
+      "target": "he-chong",
+      "type": "ruler-subject",
+      "note": "同受顾命"
+    },
+    {
+      "source": "chu-suanzi",
+      "target": "yin-hao",
+      "type": "ruler-subject",
+      "note": "太后倚任，受命北伐"
+    },
+    {
+      "source": "sima-yu",
+      "target": "wang-tanzhi",
+      "type": "ruler-subject",
+      "note": "遗诏赖改，如诸葛王导故事"
+    },
+    {
+      "source": "sima-yao",
+      "target": "wang-biaozhi",
+      "type": "ruler-subject",
+      "note": "尚书令，同辅孝武"
     }
   ],
   "events": [
@@ -560,7 +726,8 @@
       "people": [
         "sima-zhong",
         "jia-nanfeng",
-        "zhang-hua"
+        "zhang-hua",
+        "sima-yue-donghai"
       ],
       "desc": "贾后专政引发宗室诸王相屠，中枢崩坏，伏永嘉之祸。"
     },
@@ -617,7 +784,8 @@
       "year": 403,
       "people": [
         "huan-xuan",
-        "huan-wen"
+        "sima-dezong",
+        "liu-yu"
       ],
       "desc": "桓玄废安帝自立，国号楚。次年刘裕起兵讨玄，晋室复存而实权已移。"
     },
@@ -627,7 +795,8 @@
       "kind": "point",
       "year": 420,
       "people": [
-        "liu-yu"
+        "liu-yu",
+        "sima-dewen"
       ],
       "desc": "刘裕废晋恭帝自立，国号宋，开启南朝。两晋一百五十五年至此而终。"
     }
@@ -654,12 +823,16 @@
         "du-yu",
         "wang-jun",
         "jia-nanfeng",
+        "yang-yan-jin",
         "sima-zhong",
         "zhang-hua",
         "lu-ji",
         "shi-chong",
+        "chen-shou",
         "sima-chi",
-        "sima-ye"
+        "sima-yue-donghai",
+        "sima-ye",
+        "liu-kun"
       ],
       "events": [
         "lj-miewu",
@@ -676,6 +849,13 @@
       "brief": "王导稳住江左，祖逖、桓温先后北伐；谢安、谢玄在淝水以少胜多。末尾桓玄一乱，刘裕收尾。",
       "people": [
         "sima-rui",
+        "sima-shao",
+        "sima-yan-cheng",
+        "sima-yue",
+        "sima-dan",
+        "sima-pi",
+        "sima-yi-haixi",
+        "sima-yu",
         "sima-dezong",
         "sima-dewen",
         "wang-dao",

@@ -213,7 +213,7 @@
       "lane": "chancellor"
     },
     {
-      "id": "zhang-wen-guan",
+      "id": "zhang-wenguan",
       "lane": "chancellor"
     },
     {
@@ -502,10 +502,6 @@
     },
     {
       "id": "liu-ren-gui",
-      "lane": "chancellor"
-    },
-    {
-      "id": "zhang-wenguan",
       "lane": "chancellor"
     },
     {
@@ -883,12 +879,6 @@
     },
     {
       "source": "li-long-ji",
-      "target": "wei-zheng",
-      "type": "peer",
-      "note": "玄宗以魏征为镜，开元求治"
-    },
-    {
-      "source": "li-long-ji",
       "target": "yao-chong",
       "type": "ruler-subject",
       "note": "姚崇十事要说，开元之首"
@@ -952,8 +942,8 @@
     {
       "source": "shi-si-ming",
       "target": "an-lu-shan",
-      "type": "kin",
-      "note": "同起范阳，继为乱"
+      "type": "peer",
+      "note": "同乡里，同起范阳，继为乱"
     },
     {
       "source": "li-chun",
@@ -981,9 +971,9 @@
     },
     {
       "source": "zhu-wen",
-      "target": "li-chen",
+      "target": "li-chu",
       "type": "rival",
-      "note": "朱温逼迁昭宗，弑哀帝，唐亡"
+      "note": "朱温逼迁昭宗，篡唐建梁，寻鸩杀哀帝"
     },
     {
       "source": "li-ke-yong",
@@ -1222,7 +1212,7 @@
     {
       "source": "li-jing",
       "target": "su-ding-fang",
-      "type": "ruler-subject",
+      "type": "peer",
       "note": "靖用定方为前锋，夜袭颉利"
     },
     {
@@ -1304,7 +1294,7 @@
       "note": "建中二年卒，子纳秘不发丧"
     },
     {
-      "source": "li-heng",
+      "source": "li-yu",
       "target": "gao-shi",
       "type": "ruler-subject",
       "note": "以适代崔光远为西川节度，永泰元年卒"
@@ -1317,9 +1307,9 @@
     },
     {
       "source": "li-zhi",
-      "target": "zhang-wen-guan",
+      "target": "zhang-wenguan",
       "type": "ruler-subject",
-      "note": "宰相表载667至669年在任，仪凤二年卒"
+      "note": "乾封二年参知政事，宰相表载 667—669 年在任；薨年旧唐书作仪凤二年、新唐书作仪凤三年九月。"
     },
     {
       "source": "li-zhi",
@@ -1718,7 +1708,7 @@
       "note": "昭宗朝为相，光化二年卒"
     },
     {
-      "source": "li-heng",
+      "source": "li-yu",
       "target": "fang-guan",
       "type": "ruler-subject",
       "note": "肃宗朝为相，广德元年卒"
@@ -1791,12 +1781,6 @@
     },
     {
       "source": "li-zhi",
-      "target": "zhang-wenguan",
-      "type": "ruler-subject",
-      "note": "乾封二年参知政事，仪凤三年九月薨"
-    },
-    {
-      "source": "li-zhi",
       "target": "dai-zhide",
       "type": "ruler-subject",
       "note": "乾封二年同三品，调露元年正月薨"
@@ -1848,7 +1832,7 @@
         "li-yuan",
         "li-shimin"
       ],
-      "desc": "李渊起兵入长安，称帝建唐；世民平定群雄，天下渐归。"
+      "desc": "李渊大业十三年晋阳起兵入长安，武德元年称帝建唐；世民平定群雄，天下渐归。"
     },
     {
       "id": "tang-xuanwu",
@@ -1972,7 +1956,7 @@
       "year": 907,
       "people": [
         "zhu-wen",
-        "li-chen"
+        "li-chu"
       ],
       "desc": "朱温废哀帝自立，国号梁，史称后梁。唐朝二百八十九年至此而终，五代开始。"
     }
@@ -2008,8 +1992,7 @@
         "di-ren-jie",
         "li-long-ji",
         "yao-chong",
-        "song-jing",
-        "li-jing"
+        "song-jing"
       ],
       "events": [
         "tang-gai",

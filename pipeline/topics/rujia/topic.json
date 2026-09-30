@@ -34,7 +34,7 @@
   ],
   "people": [
     {
-      "id": "kongzi",
+      "id": "kong-zi",
       "lane": "ru"
     },
     {
@@ -42,23 +42,23 @@
       "lane": "ru"
     },
     {
-      "id": "zengzi",
+      "id": "zeng-zi",
       "lane": "ru"
     },
     {
-      "id": "zisi",
+      "id": "zi-si",
       "lane": "ru"
     },
     {
-      "id": "mengzi",
+      "id": "meng-zi",
       "lane": "ru"
     },
     {
-      "id": "xunzi",
+      "id": "xun-zi",
       "lane": "ru"
     },
     {
-      "id": "hanfei",
+      "id": "han-fei",
       "lane": "fa"
     },
     {
@@ -106,49 +106,49 @@
   ],
   "relations": [
     {
-      "source": "kongzi",
+      "source": "kong-zi",
       "target": "yan-hui",
       "type": "mentor",
       "note": "孔门德行科"
     },
     {
-      "source": "kongzi",
-      "target": "zengzi",
+      "source": "kong-zi",
+      "target": "zeng-zi",
       "type": "mentor",
       "note": "孔门弟子"
     },
     {
-      "source": "kongzi",
-      "target": "zisi",
+      "source": "kong-zi",
+      "target": "zi-si",
       "type": "kin",
       "note": "祖孙"
     },
     {
-      "source": "zengzi",
-      "target": "zisi",
+      "source": "zeng-zi",
+      "target": "zi-si",
       "type": "mentor",
       "note": "传统道统所记"
     },
     {
-      "source": "zisi",
-      "target": "mengzi",
+      "source": "zi-si",
+      "target": "meng-zi",
       "type": "mentor",
       "note": "孟子之学出子思之门"
     },
     {
-      "source": "xunzi",
-      "target": "hanfei",
+      "source": "xun-zi",
+      "target": "han-fei",
       "type": "mentor",
       "note": "韩非学于荀子"
     },
     {
-      "source": "mengzi",
-      "target": "xunzi",
+      "source": "meng-zi",
+      "target": "xun-zi",
       "type": "rival",
       "note": "性善与性恶"
     },
     {
-      "source": "xunzi",
+      "source": "xun-zi",
       "target": "dong-zhongshu",
       "type": "peer",
       "note": "礼法与天人，皆为汉儒所资"
@@ -162,7 +162,7 @@
       "year": -497,
       "endYear": -484,
       "people": [
-        "kongzi",
+        "kong-zi",
         "yan-hui"
       ],
       "desc": "去鲁适卫、陈、蔡等地十四年，求行其道而未得，后返鲁整理文献。"
@@ -173,7 +173,7 @@
       "kind": "point",
       "year": -479,
       "people": [
-        "kongzi"
+        "kong-zi"
       ],
       "desc": "鲁哀公十六年，孔子卒于曲阜，年七十三。其后学散游诸侯，儒学始分。"
     },
@@ -183,7 +183,7 @@
       "kind": "point",
       "year": -320,
       "people": [
-        "mengzi"
+        "meng-zi"
       ],
       "desc": "惠王问何以利吾国，孟子答以仁义。其问答后入《孟子》首篇。"
     },
@@ -193,7 +193,7 @@
       "kind": "point",
       "year": -264,
       "people": [
-        "xunzi"
+        "xun-zi"
       ],
       "desc": "齐襄王时荀子在稷下学宫最为老师，三为祭酒，儒法思想在此交汇。"
     },
@@ -203,8 +203,8 @@
       "kind": "point",
       "year": -233,
       "people": [
-        "hanfei",
-        "xunzi"
+        "han-fei",
+        "xun-zi"
       ],
       "desc": "韩王遣非使秦。秦王悦其书，李斯、姚贾害之，非死狱中。"
     },
@@ -225,7 +225,7 @@
       "name": "儒学谱系",
       "from": -560,
       "to": -90,
-      "focus": "kongzi",
+      "focus": "kong-zi",
       "brief": "从曲阜到长安。孔子、曾子、子思、孟子一条线，荀子另开礼法，韩非出其门而入法家；到董仲舒，儒学才成为汉家制度。"
     },
     {
@@ -236,7 +236,7 @@
       "focus": "dong-zhongshu",
       "brief": "荀子把礼法讲成一套可操作的秩序，董仲舒把它接进汉廷。这一章只看儒家如何入汉，法家泳道会收起来。",
       "people": [
-        "xunzi",
+        "xun-zi",
         "dong-zhongshu"
       ],
       "events": [

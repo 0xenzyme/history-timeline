@@ -30,9 +30,19 @@
       "color": "#c98a3a"
     },
     {
+      "id": "chancellor",
+      "name": "宰相",
+      "color": "#2f6f9f"
+    },
+    {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "scholar",
       "name": "文臣 · 学者",
-      "color": "#2f6f9f"
+      "color": "#1f7f8f"
     },
     {
       "id": "general",
@@ -43,6 +53,11 @@
       "id": "xiongnu",
       "name": "匈奴",
       "color": "#6b5b95"
+    },
+    {
+      "id": "opposite",
+      "name": "对立面",
+      "color": "#8f4a55"
     },
     {
       "id": "xinmang",
@@ -116,14 +131,7 @@
     },
     {
       "id": "dong-zhongshu",
-      "lane": "scholar",
-      "display": "董仲舒",
-      "title": "西汉儒家学者，倡天人三策",
-      "bio": "广川人。以公羊学应对武帝，提出「诸不在六艺之科孔子之术者，皆绝其道」，奠定两千年儒学正统。著《春秋繁露》。",
-      "tags": [
-        "儒学",
-        "天人三策"
-      ]
+      "lane": "scholar"
     },
     {
       "id": "sang-hongyang",
@@ -162,11 +170,15 @@
       "lane": "general"
     },
     {
-      "id": "junchen",
+      "id": "mo-dun",
       "lane": "xiongnu"
     },
     {
-      "id": "yizhixie",
+      "id": "jun-chen",
+      "lane": "xiongnu"
+    },
+    {
+      "id": "yi-zhi-xie",
       "lane": "xiongnu"
     },
     {
@@ -220,6 +232,242 @@
     {
       "id": "fu-taihou",
       "lane": "consort"
+    },
+    {
+      "id": "xiang-yu",
+      "lane": "opposite"
+    },
+    {
+      "id": "han-xin",
+      "lane": "general"
+    },
+    {
+      "id": "peng-yue",
+      "lane": "general"
+    },
+    {
+      "id": "ying-bu",
+      "lane": "general"
+    },
+    {
+      "id": "xiao-he",
+      "lane": "scholar"
+    },
+    {
+      "id": "cao-can",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhang-liang",
+      "lane": "scholar"
+    },
+    {
+      "id": "chen-ping",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhou-bo",
+      "lane": "general"
+    },
+    {
+      "id": "fan-kuai",
+      "lane": "general"
+    },
+    {
+      "id": "guan-ying",
+      "lane": "general"
+    },
+    {
+      "id": "li-yi-ji",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhu-fu-yan",
+      "lane": "scholar"
+    },
+    {
+      "id": "yan-zhu",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhang-tang",
+      "lane": "scholar"
+    },
+    {
+      "id": "sima-xiang-ru",
+      "lane": "scholar"
+    },
+    {
+      "id": "sima-tan",
+      "lane": "scholar"
+    },
+    {
+      "id": "xiao-wang-zhi",
+      "lane": "scholar"
+    },
+    {
+      "id": "jing-fang",
+      "lane": "scholar"
+    },
+    {
+      "id": "liu-xiang",
+      "lane": "scholar"
+    },
+    {
+      "id": "liu-xin-zijun",
+      "lane": "scholar"
+    },
+    {
+      "id": "yang-xiong",
+      "lane": "scholar"
+    },
+    {
+      "id": "he-wu",
+      "lane": "scholar"
+    },
+    {
+      "id": "wang-hui",
+      "lane": "general"
+    },
+    {
+      "id": "jin-mi-di",
+      "lane": "general"
+    },
+    {
+      "id": "shangguan-jie",
+      "lane": "general"
+    },
+    {
+      "id": "su-wu",
+      "lane": "general"
+    },
+    {
+      "id": "chang-hui",
+      "lane": "general"
+    },
+    {
+      "id": "li-guang-li",
+      "lane": "general"
+    },
+    {
+      "id": "duan-hui-zong",
+      "lane": "general"
+    },
+    {
+      "id": "liu-wu",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-de",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-an",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-ci",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-ju",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-dan",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-xu-guangling",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-bo",
+      "lane": "kin"
+    },
+    {
+      "id": "shen-tu-jia",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-cang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-cai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-an-shi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gongsun-he",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-qu-mao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "che-qian-qiu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-xin",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cai-yi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-chang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-xiang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "bing-ji",
+      "lane": "chancellor"
+    },
+    {
+      "id": "huang-ba",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-xuan-cheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-shang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhai-fang-jin",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-yu-bc5",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhu-bo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "ping-dang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-jia",
+      "lane": "chancellor"
+    },
+    {
+      "id": "kong-guang",
+      "lane": "chancellor"
     }
   ],
   "relationTypes": [
@@ -324,7 +572,7 @@
       "source": "dou-yifang",
       "target": "dou-ying",
       "type": "kin",
-      "note": "姑侄"
+      "note": "堂姑侄"
     },
     {
       "source": "wei-zifu",
@@ -371,12 +619,6 @@
     },
     {
       "source": "liu-heng",
-      "target": "dou-ying",
-      "type": "ruler-subject",
-      "note": "用为太傅"
-    },
-    {
-      "source": "liu-heng",
       "target": "chao-cuo",
       "type": "ruler-subject",
       "note": "为太子家令，辅导景帝"
@@ -393,7 +635,7 @@
       "target": "dou-ying",
       "type": "ruler-subject",
       "since": -154,
-      "note": "七国之乱拜大将军"
+      "note": "七国之乱拜大将军；栗太子立，又以为太子太傅"
     },
     {
       "source": "liu-qi",
@@ -544,18 +786,31 @@
       "note": "吕后残害刘氏诸子，文帝因在代地得免"
     },
     {
+      "source": "liu-bang",
+      "target": "mo-dun",
+      "type": "rival",
+      "since": -200,
+      "note": "白登之围七日，此后汉匈以和亲相处"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "mo-dun",
+      "type": "rival",
+      "note": "冒顿嫚书之辱，汉以宗室女和亲答之"
+    },
+    {
       "source": "liu-che",
-      "target": "junchen",
+      "target": "jun-chen",
       "type": "rival",
       "since": -133,
       "note": "马邑之谋，汉匈全面开战"
     },
     {
-      "source": "huo-qubing",
-      "target": "yizhixie",
+      "source": "wei-qing",
+      "target": "yi-zhi-xie",
       "type": "rival",
-      "since": -121,
-      "note": "河西、漠北两战皆破之"
+      "since": -119,
+      "note": "漠北之战直捣单于本部，单于仅以身免"
     },
     {
       "source": "liu-shi",
@@ -573,7 +828,7 @@
       "source": "liu-xin",
       "target": "liu-kan",
       "type": "kin",
-      "note": "哀帝崩，九岁的刘衎（平帝）即位"
+      "note": "从兄弟，同为元帝之孙。哀帝崩，九岁的刘衎（平帝）即位"
     },
     {
       "source": "wang-zhengjun",
@@ -646,6 +901,346 @@
       "target": "fu-taihou",
       "type": "kin",
       "note": "哀帝祖母。元寿元年崩，追称孝元傅皇后"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiang-yu",
+      "type": "rival",
+      "since": -206,
+      "note": "楚汉相争五年，垓下一战定天下"
+    },
+    {
+      "source": "han-xin",
+      "target": "xiang-yu",
+      "type": "rival",
+      "note": "垓下之战，韩信将三十万为主力"
+    },
+    {
+      "source": "liu-bang",
+      "target": "han-xin",
+      "type": "ruler-subject",
+      "since": -206,
+      "note": "登坛拜将，破魏赵燕齐；后贬淮阴侯"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "han-xin",
+      "type": "rival",
+      "note": "与萧何诱杀韩信于长乐宫钟室"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "note": "沛县起兵即相从，镇国家抚百姓，功第一"
+    },
+    {
+      "source": "xiao-he",
+      "target": "cao-can",
+      "type": "peer",
+      "note": "萧规曹随，继为相国，举事无所变更"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhang-liang",
+      "type": "ruler-subject",
+      "note": "运筹帷幄之中，决胜千里之外"
+    },
+    {
+      "source": "liu-bang",
+      "target": "chen-ping",
+      "type": "ruler-subject",
+      "note": "六出奇计；吕后时为丞相，与周勃诛诸吕"
+    },
+    {
+      "source": "chen-ping",
+      "target": "zhou-bo",
+      "type": "peer",
+      "note": "与周勃合谋诛诸吕，迎立代王"
+    },
+    {
+      "source": "liu-heng",
+      "target": "zhou-bo",
+      "type": "ruler-subject",
+      "note": "诸吕既平，迎立代王，拜右丞相"
+    },
+    {
+      "source": "liu-bang",
+      "target": "fan-kuai",
+      "type": "ruler-subject",
+      "note": "沛县从起兵，鸿门瞋目解危"
+    },
+    {
+      "source": "liu-bang",
+      "target": "guan-ying",
+      "type": "ruler-subject",
+      "note": "从击项籍，领车骑；后与周勃共诛诸吕"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "peng-yue",
+      "type": "rival",
+      "note": "梁王被告变，夷三族"
+    },
+    {
+      "source": "liu-bang",
+      "target": "ying-bu",
+      "type": "rival",
+      "note": "淮南王举兵反，帝亲击破之"
+    },
+    {
+      "source": "liu-bang",
+      "target": "li-yi-ji",
+      "type": "ruler-subject",
+      "note": "请使说齐，下七十余城；韩信袭齐后被烹"
+    },
+    {
+      "source": "liu-che",
+      "target": "zhu-fu-yan",
+      "type": "ruler-subject",
+      "since": -128,
+      "note": "岁中四迁中大夫，倡推恩令"
+    },
+    {
+      "source": "liu-che",
+      "target": "yan-zhu",
+      "type": "ruler-subject",
+      "note": "中大夫，闽越之役与淮南王往复议兵"
+    },
+    {
+      "source": "zhang-tang",
+      "target": "yan-zhu",
+      "type": "rival",
+      "note": "淮南案争杀严助：「弗诛，后不可治」"
+    },
+    {
+      "source": "liu-che",
+      "target": "sima-xiang-ru",
+      "type": "ruler-subject",
+      "note": "读《子虚赋》而叹「独不得与此人同时」"
+    },
+    {
+      "source": "sima-tan",
+      "target": "sima-qian",
+      "type": "kin",
+      "note": "父子相继为太史令，属以续修史事"
+    },
+    {
+      "source": "liu-che",
+      "target": "zhang-tang",
+      "type": "ruler-subject",
+      "note": "御史大夫，定律令、造皮币"
+    },
+    {
+      "source": "liu-shi",
+      "target": "xiao-wang-zhi",
+      "type": "ruler-subject",
+      "note": "太子太傅，即位以师傅见任"
+    },
+    {
+      "source": "liu-xiang",
+      "target": "liu-xin-zijun",
+      "type": "kin",
+      "note": "父子相继领校中秘书，歆撰《七略》"
+    },
+    {
+      "source": "liu-xin-zijun",
+      "target": "yang-xiong",
+      "type": "peer",
+      "note": "同校书王莽朝，歆谓《太玄》「吾恐后人用覆酱瓿」"
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-xin-zijun",
+      "type": "ruler-subject",
+      "note": "以为国师；歆后与王涉谋劫莽降汉，事泄自杀"
+    },
+    {
+      "source": "wang-mang",
+      "target": "he-wu",
+      "type": "rival",
+      "note": "元始三年吕宽案构陷，槛车征，武自杀"
+    },
+    {
+      "source": "liu-che",
+      "target": "wang-hui",
+      "type": "ruler-subject",
+      "since": -133,
+      "note": "首倡马邑之谋，单于觉遁，下狱自杀"
+    },
+    {
+      "source": "liu-che",
+      "target": "jin-mi-di",
+      "type": "ruler-subject",
+      "note": "休屠王子入侍，遗诏封秺侯"
+    },
+    {
+      "source": "huo-guang",
+      "target": "jin-mi-di",
+      "type": "peer",
+      "note": "同受顾命辅昭帝，日磾为副"
+    },
+    {
+      "source": "huo-guang",
+      "target": "shangguan-jie",
+      "type": "rival",
+      "note": "元凤元年争权，桀与燕王旦谋反被族诛"
+    },
+    {
+      "source": "shangguan-jie",
+      "target": "shangguan-hou",
+      "type": "kin",
+      "note": "祖孙；上官氏六岁为昭帝皇后"
+    },
+    {
+      "source": "su-wu",
+      "target": "chang-hui",
+      "type": "peer",
+      "note": "同使匈奴俱被留，惠代苏武为典属国"
+    },
+    {
+      "source": "li-ling",
+      "target": "su-wu",
+      "type": "peer",
+      "note": "降匈奴后置酒诀别，泣下数行"
+    },
+    {
+      "source": "liu-che",
+      "target": "li-guang-li",
+      "type": "ruler-subject",
+      "note": "贰师将军，伐大宛得善马"
+    },
+    {
+      "source": "li-guang-li",
+      "target": "liu-bo",
+      "type": "kin",
+      "note": "舅甥；贰师谋立昌邑王，事泄降匈奴"
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-wu",
+      "type": "kin",
+      "note": "同母弟，梁孝王拒吴楚有功"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-an",
+      "type": "rival",
+      "note": "淮南谋反事泄，自刑杀，国除"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-ju",
+      "type": "kin",
+      "note": "父子；巫蛊之祸兵败自经"
+    },
+    {
+      "source": "wei-zifu",
+      "target": "liu-ju",
+      "type": "kin",
+      "note": "母子；巫蛊之祸中母子俱亡"
+    },
+    {
+      "source": "liu-dan",
+      "target": "huo-guang",
+      "type": "rival",
+      "note": "燕王旦与上官桀谋反，事败自绞"
+    },
+    {
+      "source": "liu-xu-guangling",
+      "target": "liu-xun",
+      "type": "rival",
+      "note": "祝诅事发，五凤四年自绞死"
+    },
+    {
+      "source": "shen-tu-jia",
+      "target": "chao-cuo",
+      "type": "rival",
+      "note": "奏请诛晁错不得，呕血死"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhang-cang",
+      "type": "ruler-subject",
+      "note": "主计领郡国上计，定汉历律令"
+    },
+    {
+      "source": "li-guang",
+      "target": "li-cai",
+      "type": "kin",
+      "note": "从弟为相，而广终身不得封侯"
+    },
+    {
+      "source": "zhang-tang",
+      "target": "zhang-an-shi",
+      "type": "kin",
+      "note": "父子；安世为麒麟阁十一功臣之首"
+    },
+    {
+      "source": "liu-xun",
+      "target": "zhang-an-shi",
+      "type": "ruler-subject",
+      "note": "大司马车骑将军领尚书事"
+    },
+    {
+      "source": "gongsun-he",
+      "target": "wei-zifu",
+      "type": "kin",
+      "note": "妻卫君孺为卫皇后长姊"
+    },
+    {
+      "source": "liu-che",
+      "target": "gongsun-he",
+      "type": "ruler-subject",
+      "note": "太仆至丞相，卒于巫蛊狱中"
+    },
+    {
+      "source": "liu-qu-mao",
+      "target": "li-guang-li",
+      "type": "peer",
+      "note": "共谋立昌邑王，事泄要斩"
+    },
+    {
+      "source": "liu-che",
+      "target": "che-qian-qiu",
+      "type": "ruler-subject",
+      "note": "上书讼戾太子冤，感悟武帝"
+    },
+    {
+      "source": "sima-qian",
+      "target": "yang-chang",
+      "type": "kin",
+      "note": "其子杨恽为司马迁外孙，始布《史记》"
+    },
+    {
+      "source": "wei-xiang",
+      "target": "bing-ji",
+      "type": "peer",
+      "note": "宣帝朝并相，总领众职"
+    },
+    {
+      "source": "liu-xun",
+      "target": "bing-ji",
+      "type": "ruler-subject",
+      "note": "郡邸狱中护视皇曾孙，微时知之"
+    },
+    {
+      "source": "liu-xun",
+      "target": "huang-ba",
+      "type": "ruler-subject",
+      "note": "颍川治为第一，征为太子太傅至相"
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhai-fang-jin",
+      "type": "ruler-subject",
+      "note": "荧惑守心，赐册责让，即日自杀"
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhang-yu-bc5",
+      "type": "ruler-subject",
+      "note": "为太子时从禹受《论语》，即位尊为师相"
     }
   ],
   "events": [
@@ -667,7 +1262,7 @@
       "year": -200,
       "people": [
         "liu-bang",
-        "junchen"
+        "mo-dun"
       ],
       "desc": "刘邦亲征匈奴被围白登山七日，此后汉匈以和亲维持大致和平六十余年。"
     },
@@ -788,8 +1383,8 @@
         "wei-qing",
         "huo-qubing",
         "li-guang",
-        "junchen",
-        "yizhixie"
+        "jun-chen",
+        "yi-zhi-xie"
       ],
       "desc": "自马邑之谋起，汉匈由和亲转为长达四十余年的全面战争，以匈奴远遁、漠南无王庭告一段落。"
     },
@@ -823,7 +1418,7 @@
         "wei-qing",
         "huo-qubing",
         "li-guang",
-        "yizhixie"
+        "yi-zhi-xie"
       ],
       "desc": "卫青、霍去病各率五万骑分道出击，霍去病封狼居胥；李广走东路失道，不愿受刀笔吏之辱而自刎。"
     },
@@ -1004,6 +1599,7 @@
         "liu-bang",
         "liu-ying",
         "lv-zhi",
+        "mo-dun",
         "liu-heng",
         "dou-yifang",
         "liu-qi",
@@ -1042,8 +1638,8 @@
         "li-guang",
         "zhang-qian",
         "li-ling",
-        "junchen",
-        "yizhixie"
+        "jun-chen",
+        "yi-zhi-xie"
       ],
       "events": [
         "qian141-jingdi-beng",

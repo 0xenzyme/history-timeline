@@ -3,9 +3,11 @@
   "name": "李贽",
   "display": "李贽",
   "birth": 1527,
-  "birthAccuracy": "exact",
+  "birthAccuracy": "approx",
+  "birthNote": "《明史》无传。生年据袁中道《李温陵传》及其自著行迹上推。",
   "death": 1602,
-  "deathAccuracy": "exact",
+  "deathAccuracy": "approx",
+  "deathNote": "万历三十年以敢倡乱道逮问，自刭狱中；其死之年诸家俱系于一六〇二。",
   "polity": [
     "ming"
   ],
@@ -16,10 +18,16 @@
   "primary": "thinker",
   "sources": [
     {
-      "work": "焚书"
+      "work": "焚书",
+      "part": "童心说"
     },
     {
-      "work": "藏书"
+      "work": "藏书",
+      "part": "世纪列传总目前论"
+    },
+    {
+      "work": "李温陵传",
+      "part": "袁中道撰"
     }
   ],
   "title": "卓吾，童心之说",
