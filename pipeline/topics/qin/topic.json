@@ -25,6 +25,16 @@
       "color": "#c0392b"
     },
     {
+      "id": "qin-consort",
+      "name": "后妃",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "qin-kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "qin-official",
       "name": "秦朝臣僚",
       "color": "#2f6f9f"
@@ -63,7 +73,27 @@
       "lane": "qin-ruler"
     },
     {
+      "id": "huayang-taihou",
+      "lane": "qin-consort"
+    },
+    {
+      "id": "di-taihou",
+      "lane": "qin-consort"
+    },
+    {
+      "id": "ying-chengjiao",
+      "lane": "qin-kin"
+    },
+    {
       "id": "li-si",
+      "lane": "qin-official"
+    },
+    {
+      "id": "feng-quji",
+      "lane": "qin-official"
+    },
+    {
+      "id": "lv-buwei",
       "lane": "qin-official"
     },
     {
@@ -345,6 +375,36 @@
       "target": "liu-bang",
       "type": "ruler-subject",
       "note": "厚重的周勃，后平定诸吕"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "huayang-taihou",
+      "type": "kin",
+      "note": "华阳太后是庄襄王的嗣母，始皇十七年卒"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "di-taihou",
+      "type": "kin",
+      "note": "母子。始皇十九年帝太后崩"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-chengjiao",
+      "type": "kin",
+      "note": "兄弟。八年成蟜击赵反，死于屯留"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "lv-buwei",
+      "type": "ruler-subject",
+      "note": "年少时委国事于相国，十年免相，十二年死"
+    },
+    {
+      "source": "li-si",
+      "target": "feng-quji",
+      "type": "peer",
+      "note": "同为丞相。二世二年同谏停阿房，去疾自杀，李斯下狱"
     }
   ],
   "events": [

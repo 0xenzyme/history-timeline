@@ -264,6 +264,26 @@
     {
       "id": "cao-zhi",
       "lane": "caowei"
+    },
+    {
+      "id": "cao-shuang",
+      "lane": "caowei"
+    },
+    {
+      "id": "bian-hou",
+      "lane": "caowei"
+    },
+    {
+      "id": "zhen-hou",
+      "lane": "caowei"
+    },
+    {
+      "id": "guo-hou-wende",
+      "lane": "caowei"
+    },
+    {
+      "id": "guo-hou-mingyuan",
+      "lane": "caowei"
     }
   ],
   "relationTypes": [
@@ -513,6 +533,60 @@
       "target": "he-yan",
       "type": "rival",
       "note": "非汤武薄周孔，与正始玄学相抵"
+    },
+    {
+      "source": "sima-yi",
+      "target": "cao-shuang",
+      "type": "rival",
+      "note": "嘉平元年高平陵之变，司马懿奏免曹爽，爽寻伏诛"
+    },
+    {
+      "source": "cao-fang",
+      "target": "cao-shuang",
+      "type": "ruler-subject",
+      "note": "齐王在位，曹爽为大将军。嘉平元年被诛"
+    },
+    {
+      "source": "cao-cao",
+      "target": "bian-hou",
+      "type": "kin",
+      "note": "曹操之妻，曹丕之母。太和四年崩"
+    },
+    {
+      "source": "bian-hou",
+      "target": "cao-pi",
+      "type": "kin",
+      "note": "母子。卞皇后是文帝之母"
+    },
+    {
+      "source": "cao-pi",
+      "target": "zhen-hou",
+      "type": "kin",
+      "note": "曹丕之妻。黄初二年六月赐死"
+    },
+    {
+      "source": "zhen-hou",
+      "target": "cao-rui",
+      "type": "kin",
+      "note": "母子。甄皇后是明帝之母"
+    },
+    {
+      "source": "cao-pi",
+      "target": "guo-hou-wende",
+      "type": "kin",
+      "note": "曹丕皇后。青龙三年崩于许昌"
+    },
+    {
+      "source": "zhen-hou",
+      "target": "guo-hou-wende",
+      "type": "rival",
+      "note": "甄后之死，由郭后之宠"
+    },
+    {
+      "source": "cao-fang",
+      "target": "guo-hou-mingyuan",
+      "type": "kin",
+      "note": "齐王即位尊为皇太后。景元四年崩"
     }
   ],
   "events": [
@@ -620,7 +694,8 @@
       "year": 249,
       "people": [
         "sima-yi",
-        "cao-rui"
+        "cao-fang",
+        "cao-shuang"
       ],
       "desc": "司马懿发动政变，诛曹爽一族，曹魏大权尽归司马氏。"
     },

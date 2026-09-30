@@ -199,6 +199,30 @@
       "gender": "male"
     },
     {
+      "id": "xiong-yun",
+      "name": "熊恽",
+      "display": "楚成王",
+      "lane": "south",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -626,
+      "deathNote": "楚世家：四十六年冬十月丁未，成王自绞杀。同篇把泓之战写在三十四年。专题此战为前638年，四十六年即前626年。",
+      "title": "泓之战败宋，四十六年自缢",
+      "bio": "楚成王。三十四年在泓击败宋襄公。城濮战败后诛子玉。四十六年冬十月被太子商臣围困，自缢。",
+      "tags": [
+        "楚国",
+        "泓之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "primary": "hegemon",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "mi-lv",
       "name": "芈侣",
       "display": "楚庄王",
@@ -727,6 +751,12 @@
       "target": "ji-wusheng",
       "type": "ruler-subject",
       "note": "王室东迁后，郑庄公最先坐大"
+    },
+    {
+      "source": "xiong-yun",
+      "target": "zi-zifu",
+      "type": "rival",
+      "note": "泓之战射伤宋襄公，襄公病创而死"
     }
   ],
   "events": [
@@ -804,7 +834,8 @@
       "kind": "point",
       "year": -638,
       "people": [
-        "zi-zifu"
+        "zi-zifu",
+        "xiong-yun"
       ],
       "desc": "宋襄公不击半渡，伤股。想接齐桓霸业的那条短条，在这里折断。"
     },

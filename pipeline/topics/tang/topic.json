@@ -501,6 +501,42 @@
       "lane": "consort"
     },
     {
+      "id": "liu-ren-gui",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-wenguan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "dai-zhide",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cen-wenben",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wen-yanbo-tang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-jifu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-shilian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xu-jingzong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lai-ji",
+      "lane": "chancellor"
+    },
+    {
       "id": "li-su",
       "lane": "general"
     },
@@ -1746,6 +1782,60 @@
       "target": "wang-shichong",
       "type": "rival",
       "note": "洛阳郑主，武德四年降唐，后为仇人所杀"
+    },
+    {
+      "source": "li-zhi",
+      "target": "liu-ren-gui",
+      "type": "ruler-subject",
+      "note": "麟德二年十月知政事，后又同中书门下三品"
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhang-wenguan",
+      "type": "ruler-subject",
+      "note": "乾封二年参知政事，仪凤三年九月薨"
+    },
+    {
+      "source": "li-zhi",
+      "target": "dai-zhide",
+      "type": "ruler-subject",
+      "note": "乾封二年同三品，调露元年正月薨"
+    },
+    {
+      "source": "li-shimin",
+      "target": "cen-wenben",
+      "type": "ruler-subject",
+      "note": "贞观十六年专典机密，十九年四月薨"
+    },
+    {
+      "source": "li-shimin",
+      "target": "wen-yanbo-tang",
+      "type": "ruler-subject",
+      "note": "贞观四年为中书令，十一年六月薨"
+    },
+    {
+      "source": "li-shimin",
+      "target": "gao-jifu",
+      "type": "ruler-subject",
+      "note": "贞观十九年同掌机务，永徽四年十二月薨"
+    },
+    {
+      "source": "li-shimin",
+      "target": "gao-shilian",
+      "type": "ruler-subject",
+      "note": "贞观十九年再摄太子太傅，二十一年正月薨"
+    },
+    {
+      "source": "li-zhi",
+      "target": "xu-jingzong",
+      "type": "ruler-subject",
+      "note": "高宗朝长期知政事，咸亨三年薨"
+    },
+    {
+      "source": "li-zhi",
+      "target": "lai-ji",
+      "type": "ruler-subject",
+      "note": "永徽中同三品，谏立武后，龙朔二年阵没"
     }
   ],
   "events": [

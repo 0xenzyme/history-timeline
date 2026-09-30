@@ -25,6 +25,11 @@
       "color": "#c0392b"
     },
     {
+      "id": "consort",
+      "name": "后妃",
+      "color": "#c98a3a"
+    },
+    {
       "id": "kin",
       "name": "宗室",
       "color": "#8a5a44"
@@ -38,6 +43,11 @@
       "id": "general",
       "name": "名将",
       "color": "#3f7d52"
+    },
+    {
+      "id": "opposite",
+      "name": "对立",
+      "color": "#6b4a6a"
     },
     {
       "id": "craft",
@@ -110,6 +120,38 @@
     {
       "id": "yu-wen-huaji",
       "lane": "mowei"
+    },
+    {
+      "id": "dugu-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "yang-zhao",
+      "lane": "kin"
+    },
+    {
+      "id": "niu-hong",
+      "lane": "minister"
+    },
+    {
+      "id": "yu-wen-shu",
+      "lane": "general"
+    },
+    {
+      "id": "zhangsun-sheng",
+      "lane": "general"
+    },
+    {
+      "id": "shi-wansui",
+      "lane": "general"
+    },
+    {
+      "id": "chen-shubao",
+      "lane": "opposite"
+    },
+    {
+      "id": "yuwen-chan",
+      "lane": "opposite"
     }
   ],
   "relationTypes": [
@@ -240,6 +282,114 @@
       "target": "wang-shichong",
       "type": "rival",
       "note": "河北窦建德与东都王世充相持，俱为唐所灭"
+    },
+    {
+      "source": "yang-jian",
+      "target": "dugu-huanghou",
+      "type": "kin",
+      "note": "独孤信以女妻坚。受禅立为皇后，废勇立广皆后之谋"
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-yong",
+      "type": "kin",
+      "note": "母子。后意太子妃暴薨，讽文帝废勇"
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-guang",
+      "type": "kin",
+      "note": "母子。竟废太子而立广，皆后之谋"
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "gao-jiong",
+      "type": "rival",
+      "note": "后讽文帝黜高颎"
+    },
+    {
+      "source": "yang-jian",
+      "target": "niu-hong",
+      "type": "ruler-subject",
+      "note": "开皇三年拜礼部尚书，修五礼百卷。献后崩，仪注决之于弘"
+    },
+    {
+      "source": "yang-guang",
+      "target": "niu-hong",
+      "type": "ruler-subject",
+      "note": "大业中礼遇亲重，六年十一月卒于江都"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-shu",
+      "type": "ruler-subject",
+      "note": "夺宗之计出于述。辽东之役，述为扶余道军将"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "note": "玄感西走，述破之于阌乡，斩之"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "yu-wen-huaji",
+      "type": "kin",
+      "note": "父子。述临终请炀帝哀怜化及"
+    },
+    {
+      "source": "yang-jian",
+      "target": "zhangsun-sheng",
+      "type": "ruler-subject",
+      "note": "开皇初晟离间摄图与玷厥，又说染干、诱阿波"
+    },
+    {
+      "source": "yang-guang",
+      "target": "zhangsun-sheng",
+      "type": "ruler-subject",
+      "note": "大业三年喻染干，开御道。五年卒"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-zhao",
+      "type": "kin",
+      "note": "父子。大业元年立昭为皇太子，二年薨"
+    },
+    {
+      "source": "yang-zhao",
+      "target": "yang-you",
+      "type": "kin",
+      "note": "父子。韦妃生恭帝侑"
+    },
+    {
+      "source": "yang-jian",
+      "target": "shi-wansui",
+      "type": "ruler-subject",
+      "note": "开皇十七年平西宁羌。二十年废太子，同日杀万岁"
+    },
+    {
+      "source": "yang-su",
+      "target": "shi-wansui",
+      "type": "rival",
+      "note": "素谮其功，又以谒东宫激怒文帝"
+    },
+    {
+      "source": "yang-jian",
+      "target": "chen-shubao",
+      "type": "rival",
+      "note": "开皇九年灭陈，后主就擒"
+    },
+    {
+      "source": "han-qinhu",
+      "target": "chen-shubao",
+      "type": "rival",
+      "note": "平陈之役，韩擒虎先入建康，后主就擒"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yuwen-chan",
+      "type": "rival",
+      "note": "大定元年杨坚称帝，静帝逊于别宫。开皇元年五月崩，年九岁"
     }
   ],
   "events": [
@@ -250,7 +400,8 @@
       "year": 581,
       "people": [
         "yang-jian",
-        "gao-jiong"
+        "gao-jiong",
+        "yuwen-chan"
       ],
       "desc": "北周静帝禅位于隋王杨坚，国号隋，都大兴。高颎定三省六部之制。"
     },
@@ -263,7 +414,8 @@
         "yang-jian",
         "yang-su",
         "he-ruo-bi",
-        "han-qinhu"
+        "han-qinhu",
+        "chen-shubao"
       ],
       "desc": "贺若弼渡京口、韩擒虎入朱雀门，陈后主就擒。分裂二百七十年复归一统。"
     },
@@ -307,7 +459,8 @@
       "year": 612,
       "endYear": 614,
       "people": [
-        "yang-guang"
+        "yang-guang",
+        "yu-wen-shu"
       ],
       "desc": "举国远征，溃于辽东；役兴盗起，天下骚然。"
     },

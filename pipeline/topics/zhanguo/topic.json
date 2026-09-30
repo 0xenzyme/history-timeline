@@ -25,6 +25,11 @@
       "color": "#c0392b"
     },
     {
+      "id": "consort",
+      "name": "后妃",
+      "color": "#c98a3a"
+    },
+    {
       "id": "minister",
       "name": "变法 · 谋臣",
       "color": "#c98a3a"
@@ -83,6 +88,10 @@
       "lane": "ruler"
     },
     {
+      "id": "xuan-taihou",
+      "lane": "consort"
+    },
+    {
       "id": "tian-di",
       "lane": "ruler"
     },
@@ -93,6 +102,10 @@
     {
       "id": "zhao-he",
       "lane": "ruler"
+    },
+    {
+      "id": "zhao-sheng",
+      "lane": "minister"
     },
     {
       "id": "ying-zheng",
@@ -115,6 +128,10 @@
       "lane": "minister"
     },
     {
+      "id": "huang-xie",
+      "lane": "minister"
+    },
+    {
       "id": "sun-bin",
       "lane": "general"
     },
@@ -127,7 +144,19 @@
       "lane": "general"
     },
     {
+      "id": "zhao-kuo-changping",
+      "lane": "general"
+    },
+    {
       "id": "lian-po",
+      "lane": "general"
+    },
+    {
+      "id": "wei-wuji",
+      "lane": "general"
+    },
+    {
+      "id": "li-mu",
       "lane": "general"
     },
     {
@@ -437,6 +466,48 @@
       "type": "rival",
       "since": -284,
       "note": "五国伐齐，乐毅下七十余城，湣王死于莒"
+    },
+    {
+      "source": "ying-ji",
+      "target": "xuan-taihou",
+      "type": "kin",
+      "note": "母子。昭襄王四十二年十月宣太后薨"
+    },
+    {
+      "source": "zhao-he",
+      "target": "zhao-sheng",
+      "type": "ruler-subject",
+      "note": "平原君相赵惠文王、孝成王"
+    },
+    {
+      "source": "zhao-sheng",
+      "target": "wei-wuji",
+      "type": "peer",
+      "note": "信陵君窃符救赵，解开邯郸之围"
+    },
+    {
+      "source": "bai-qi",
+      "target": "zhao-kuo-changping",
+      "type": "rival",
+      "note": "长平之战射杀赵括"
+    },
+    {
+      "source": "lian-po",
+      "target": "zhao-kuo-changping",
+      "type": "peer",
+      "note": "赵王以赵括代廉颇"
+    },
+    {
+      "source": "wang-jian",
+      "target": "li-mu",
+      "type": "rival",
+      "note": "赵王迁七年王翦攻赵，李牧被斩"
+    },
+    {
+      "source": "ying-ji",
+      "target": "huang-xie",
+      "type": "rival",
+      "note": "黄歇入秦上书，劝止白起伐楚"
     }
   ],
   "events": [
@@ -590,7 +661,8 @@
       "people": [
         "bai-qi",
         "lian-po",
-        "ying-ji"
+        "ying-ji",
+        "zhao-kuo-changping"
       ],
       "desc": "廉颇被代，赵括出。白起坑杀赵卒。山东再没有能与秦对峙的举国之战。"
     },
@@ -602,7 +674,9 @@
       "endYear": -257,
       "people": [
         "bai-qi",
-        "ying-ji"
+        "ying-ji",
+        "zhao-sheng",
+        "wei-wuji"
       ],
       "desc": "白起不肯再将。魏楚救赵，秦退。武安君赐死就落在这段带的尽头。"
     },
@@ -647,7 +721,8 @@
       "endYear": -221,
       "people": [
         "ying-zheng",
-        "wang-jian"
+        "wang-jian",
+        "li-mu"
       ],
       "desc": "灭韩、赵、魏、楚、燕、齐。王翦的条收在这一段里。嬴政活到前 210 年，帝号与制度留给秦专题。"
     },

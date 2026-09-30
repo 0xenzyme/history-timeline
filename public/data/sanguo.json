@@ -1413,6 +1413,127 @@
         "wei"
       ],
       "gender": "male"
+    },
+    {
+      "id": "cao-shuang",
+      "name": "曹爽",
+      "display": "曹爽",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 249,
+      "deathNote": "齐王纪嘉平元年正月奏免曹爽，随即称其与谋不轨，语在爽传。爽传书收爽等皆伏诛。",
+      "title": "大将军，高平陵之变被诛",
+      "bio": "曹真之子，字昭伯。明帝病重时拜大将军。齐王芳嘉平元年正月，司马懿趁曹芳谒高平陵，奏免曹爽。爽传写他和诸弟都被诛，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "bian-hou",
+      "name": "卞皇后",
+      "display": "武宣卞皇后",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 230,
+      "deathNote": "传文太和四年春追谥其祖父，其年五月后崩。",
+      "title": "曹操之妻，曹丕之母",
+      "bio": "琅邪开阳人，文帝之母。曹操在谯纳她为妾。太和四年五月崩，七月合葬高陵。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "wei"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhen-hou",
+      "name": "甄皇后",
+      "display": "文昭甄皇后",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 221,
+      "deathNote": "传文黄初元年践阼，后书二年六月赐死，依黄初二年。",
+      "title": "曹丕之妻，曹叡之母，黄初二年赐死",
+      "bio": "中山无极人，明帝之母。曹丕称帝后她失意有怨言。黄初二年六月被赐死，葬于邺。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "wei"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "guo-hou-wende",
+      "name": "郭皇后",
+      "display": "文德郭皇后",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 235,
+      "title": "曹丕皇后，青龙三年崩",
+      "bio": "安平广宗人。曹丕践阼后为贵嫔，甄后之死与她得宠有关。青龙三年春崩于许昌。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "wei"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "guo-hou-mingyuan",
+      "name": "郭太后",
+      "display": "明元郭皇后",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 263,
+      "deathNote": "传文写景元四年十二日崩。年份取景元四年，不把十二日改成十二月。",
+      "title": "齐王太后，景元四年崩",
+      "bio": "西平人。明帝立为皇后。齐王即位尊为皇太后。三主幼弱时，大事先问太后。景元四年崩。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "wei"
+      ],
+      "gender": "female"
     }
   ],
   "relationTypes": [
@@ -1662,6 +1783,60 @@
       "target": "he-yan",
       "type": "rival",
       "note": "非汤武薄周孔，与正始玄学相抵"
+    },
+    {
+      "source": "sima-yi",
+      "target": "cao-shuang",
+      "type": "rival",
+      "note": "嘉平元年高平陵之变，司马懿奏免曹爽，爽寻伏诛"
+    },
+    {
+      "source": "cao-fang",
+      "target": "cao-shuang",
+      "type": "ruler-subject",
+      "note": "齐王在位，曹爽为大将军。嘉平元年被诛"
+    },
+    {
+      "source": "cao-cao",
+      "target": "bian-hou",
+      "type": "kin",
+      "note": "曹操之妻，曹丕之母。太和四年崩"
+    },
+    {
+      "source": "bian-hou",
+      "target": "cao-pi",
+      "type": "kin",
+      "note": "母子。卞皇后是文帝之母"
+    },
+    {
+      "source": "cao-pi",
+      "target": "zhen-hou",
+      "type": "kin",
+      "note": "曹丕之妻。黄初二年六月赐死"
+    },
+    {
+      "source": "zhen-hou",
+      "target": "cao-rui",
+      "type": "kin",
+      "note": "母子。甄皇后是明帝之母"
+    },
+    {
+      "source": "cao-pi",
+      "target": "guo-hou-wende",
+      "type": "kin",
+      "note": "曹丕皇后。青龙三年崩于许昌"
+    },
+    {
+      "source": "zhen-hou",
+      "target": "guo-hou-wende",
+      "type": "rival",
+      "note": "甄后之死，由郭后之宠"
+    },
+    {
+      "source": "cao-fang",
+      "target": "guo-hou-mingyuan",
+      "type": "kin",
+      "note": "齐王即位尊为皇太后。景元四年崩"
     }
   ],
   "events": [
@@ -1769,7 +1944,8 @@
       "year": 249,
       "people": [
         "sima-yi",
-        "cao-rui"
+        "cao-fang",
+        "cao-shuang"
       ],
       "desc": "司马懿发动政变，诛曹爽一族，曹魏大权尽归司马氏。"
     },

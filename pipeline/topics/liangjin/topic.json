@@ -189,6 +189,58 @@
     {
       "id": "murong-chui",
       "lane": "shiliuguo"
+    },
+    {
+      "id": "sima-shao",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-yan-cheng",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-yue",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-dan",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-pi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-yi-haixi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-yu",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sima-yue-donghai",
+      "lane": "xijin"
+    },
+    {
+      "id": "yang-yan-jin",
+      "lane": "xijin"
+    },
+    {
+      "id": "chu-suanzi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "he-fani",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-shenai",
+      "lane": "dongjin"
+    },
+    {
+      "id": "chu-lingyuan",
+      "lane": "dongjin"
     }
   ],
   "relationTypes": [
@@ -370,6 +422,120 @@
       "target": "tao-yuanming",
       "type": "peer",
       "note": "虎溪三笑之雅，一僧一隐"
+    },
+    {
+      "source": "sima-rui",
+      "target": "sima-shao",
+      "type": "kin",
+      "note": "父子。明帝为元帝长子，永昌元年元帝崩后即位"
+    },
+    {
+      "source": "sima-shao",
+      "target": "sima-yan-cheng",
+      "type": "kin",
+      "note": "父子。成帝为明帝长子，太宁三年明帝崩后即位"
+    },
+    {
+      "source": "sima-yan-cheng",
+      "target": "sima-yue",
+      "type": "kin",
+      "note": "兄弟。康帝为成帝母弟，咸康八年入嗣"
+    },
+    {
+      "source": "sima-yue",
+      "target": "sima-dan",
+      "type": "kin",
+      "note": "父子。穆帝为康帝子，建元二年即位，时年二岁"
+    },
+    {
+      "source": "sima-yan-cheng",
+      "target": "sima-pi",
+      "type": "kin",
+      "note": "父子。哀帝为成帝长子，升平五年穆帝无嗣后入继"
+    },
+    {
+      "source": "sima-pi",
+      "target": "sima-yi-haixi",
+      "type": "kin",
+      "note": "兄弟。海西公为哀帝母弟，兴宁三年入继"
+    },
+    {
+      "source": "huan-wen",
+      "target": "sima-yi-haixi",
+      "type": "rival",
+      "note": "桓温诬帝为阉，咸安二年降封海西县公"
+    },
+    {
+      "source": "sima-rui",
+      "target": "sima-yu",
+      "type": "kin",
+      "note": "父子。简文帝为元帝少子"
+    },
+    {
+      "source": "sima-yu",
+      "target": "huan-wen",
+      "type": "ruler-subject",
+      "note": "咸安二年简文遗诏，以桓温辅政，依王导故事"
+    },
+    {
+      "source": "shi-le",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "note": "越薨于项后，石勒焚其柩，说此人乱天下"
+    },
+    {
+      "source": "sima-chi",
+      "target": "sima-yue-donghai",
+      "type": "ruler-subject",
+      "note": "永嘉五年越薨于项，怀帝在位，朝政此前由越执掌"
+    },
+    {
+      "source": "sima-yan",
+      "target": "yang-yan-jin",
+      "type": "kin",
+      "note": "武帝皇后。泰始十年崩于明光殿，年三十七"
+    },
+    {
+      "source": "yang-yan-jin",
+      "target": "sima-zhong",
+      "type": "kin",
+      "note": "母子。杨艳生惠帝"
+    },
+    {
+      "source": "sima-yue",
+      "target": "chu-suanzi",
+      "type": "kin",
+      "note": "康帝皇后。穆帝幼冲，她以太后临朝"
+    },
+    {
+      "source": "chu-suanzi",
+      "target": "sima-dan",
+      "type": "kin",
+      "note": "穆帝即位尊为皇太后，未亲国政"
+    },
+    {
+      "source": "sima-dan",
+      "target": "he-fani",
+      "type": "kin",
+      "note": "升平元年纳为皇后。元兴三年崩，年六十六"
+    },
+    {
+      "source": "sima-dezong",
+      "target": "wang-shenai",
+      "type": "kin",
+      "note": "王献之女。安帝皇后，义熙八年崩"
+    },
+    {
+      "source": "sima-dewen",
+      "target": "chu-lingyuan",
+      "type": "kin",
+      "note": "恭帝皇后。禅宋后降为零陵王妃"
+    },
+    {
+      "source": "liu-yu",
+      "target": "chu-lingyuan",
+      "type": "rival",
+      "note": "恭帝禅位于宋，褚灵媛降为零陵王妃"
     }
   ],
   "events": [
@@ -405,7 +571,8 @@
       "year": 311,
       "people": [
         "shi-le",
-        "sima-chi"
+        "sima-chi",
+        "sima-yue-donghai"
       ],
       "desc": "匈奴汉国陷洛阳，怀帝被俘；316 年愍帝出降，西晋亡。"
     },

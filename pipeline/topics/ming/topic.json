@@ -273,6 +273,18 @@
       "lane": "chancellor"
     },
     {
+      "id": "chen-yubi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gu-dingchen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhu-guozuo",
+      "lane": "chancellor"
+    },
+    {
       "id": "chang-yuchun",
       "lane": "general"
     },
@@ -475,6 +487,50 @@
     {
       "id": "wei-zhongxian",
       "lane": "end"
+    },
+    {
+      "id": "wang-xijue",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhao-zhigao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "he-zongyan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fang-congzhe",
+      "lane": "chancellor"
+    },
+    {
+      "id": "he-fengsheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-tingji",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xue-guoguan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-zhifa",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhou-yanru",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xie-qian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zou-yuanbiao",
+      "lane": "chancellor"
     },
     {
       "id": "wen-tiren",
@@ -1402,6 +1458,108 @@
       "target": "xu-guangqi",
       "type": "peer",
       "note": "同精律历之学，皆有推步之书"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhou-yanru",
+      "type": "ruler-subject",
+      "note": "崇祯二年入阁，十四年起复为首辅，十六年十二月勒令自尽"
+    },
+    {
+      "source": "zhou-yanru",
+      "target": "wen-tiren",
+      "type": "rival",
+      "note": "同在崇祯朝，体仁欲倾延儒"
+    },
+    {
+      "source": "xie-qian",
+      "target": "liu-jian",
+      "type": "peer",
+      "note": "同辅孝宗，刘瑾矫旨把二人一起除名"
+    },
+    {
+      "source": "zou-yuanbiao",
+      "target": "gao-panlong",
+      "type": "peer",
+      "note": "同列东林。天启中建首善书院，四年卒"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "wang-xijue",
+      "type": "ruler-subject",
+      "note": "万历中入阁，力请建储。三十五年召，辞不赴"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhao-zhigao",
+      "type": "ruler-subject",
+      "note": "万历十九年入阁，二十九年卒于邸舍"
+    },
+    {
+      "source": "zhu-youxiao",
+      "target": "he-zongyan",
+      "type": "ruler-subject",
+      "note": "天启元年还朝，四年正月卒于官"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "fang-congzhe",
+      "type": "ruler-subject",
+      "note": "万历末叶向高去后独相，崇祯元年二月卒"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "he-fengsheng",
+      "type": "ruler-subject",
+      "note": "崇祯十四年再入阁，十六年五月武昌陷后投湖"
+    },
+    {
+      "source": "zhang-xianzhong",
+      "target": "he-fengsheng",
+      "type": "rival",
+      "note": "张献忠陷武昌，逢圣投墩子湖死"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "li-tingji",
+      "type": "ruler-subject",
+      "note": "万历三十五年入阁，四十年出都，居四年卒"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "xue-guoguan",
+      "type": "ruler-subject",
+      "note": "崇祯十年入阁，十四年八月赐缢"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhang-zhifa",
+      "type": "ruler-subject",
+      "note": "崇祯八年入阁，后为首辅，十五年七月病殁"
+    },
+    {
+      "source": "zhang-zhifa",
+      "target": "wen-tiren",
+      "type": "peer",
+      "note": "体仁去后至发为首辅，为政守其旧"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "chen-yubi",
+      "type": "ruler-subject",
+      "note": "与赵志皋等同在内阁，万历二十四年冬卒于位"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "gu-dingchen",
+      "type": "ruler-subject",
+      "note": "嘉靖十七年入阁，十九年十月卒"
+    },
+    {
+      "source": "zhu-youxiao",
+      "target": "zhu-guozuo",
+      "type": "ruler-subject",
+      "note": "天启中为首辅，崇祯五年卒"
     }
   ],
   "events": [

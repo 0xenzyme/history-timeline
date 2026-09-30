@@ -143,6 +143,134 @@
     {
       "id": "zu-chongzhi",
       "lane": "wen"
+    },
+    {
+      "id": "tuoba-si",
+      "lane": "bei"
+    },
+    {
+      "id": "tuoba-jun",
+      "lane": "bei"
+    },
+    {
+      "id": "tuoba-hong",
+      "lane": "bei"
+    },
+    {
+      "id": "yuan-ke",
+      "lane": "bei"
+    },
+    {
+      "id": "yuan-ziyou",
+      "lane": "bei"
+    },
+    {
+      "id": "yuan-shanjian",
+      "lane": "bei"
+    },
+    {
+      "id": "gao-yang",
+      "lane": "bei"
+    },
+    {
+      "id": "gao-yin",
+      "lane": "bei"
+    },
+    {
+      "id": "gao-yan",
+      "lane": "bei"
+    },
+    {
+      "id": "gao-zhan",
+      "lane": "bei"
+    },
+    {
+      "id": "yuwen-yun",
+      "lane": "bei"
+    },
+    {
+      "id": "yuwen-chan",
+      "lane": "bei"
+    },
+    {
+      "id": "liu-jun",
+      "lane": "nan"
+    },
+    {
+      "id": "liu-zhun",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-ze",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-zhaowen",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-baojuan",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-gang",
+      "lane": "nan"
+    },
+    {
+      "id": "xiao-yi",
+      "lane": "nan"
+    },
+    {
+      "id": "chen-qian",
+      "lane": "nan"
+    },
+    {
+      "id": "chen-bozong",
+      "lane": "nan"
+    },
+    {
+      "id": "chen-xu",
+      "lane": "nan"
+    },
+    {
+      "id": "xu-xianzhi",
+      "lane": "nan"
+    },
+    {
+      "id": "fu-liang",
+      "lane": "nan"
+    },
+    {
+      "id": "juqu-muqian",
+      "lane": "bei"
+    },
+    {
+      "id": "hu-taihou",
+      "lane": "bei"
+    },
+    {
+      "id": "lou-zhaojun",
+      "lane": "bei"
+    },
+    {
+      "id": "dou-taihou",
+      "lane": "bei"
+    },
+    {
+      "id": "yuan-hou-yuwen",
+      "lane": "bei"
+    },
+    {
+      "id": "ashina-hou",
+      "lane": "bei"
+    },
+    {
+      "id": "zhang-yaoer",
+      "lane": "nan"
+    },
+    {
+      "id": "wang-zhenfeng",
+      "lane": "nan"
     }
   ],
   "relationTypes": [
@@ -284,6 +412,288 @@
       "target": "liu-yilong",
       "type": "ruler-subject",
       "note": "宋时测算圆周率、制大明历"
+    },
+    {
+      "source": "tuoba-gui",
+      "target": "tuoba-si",
+      "type": "kin",
+      "note": "父子。太宗纪：嗣为太祖长子"
+    },
+    {
+      "source": "tuoba-si",
+      "target": "tuoba-tao",
+      "type": "kin",
+      "note": "父子。世祖纪称焘为太宗明元皇帝长子"
+    },
+    {
+      "source": "tuoba-tao",
+      "target": "tuoba-jun",
+      "type": "kin",
+      "note": "祖孙。高宗为景穆长子，太武称为世嫡皇孙"
+    },
+    {
+      "source": "tuoba-jun",
+      "target": "tuoba-hong",
+      "type": "kin",
+      "note": "父子。显祖为高宗文成皇帝长子"
+    },
+    {
+      "source": "tuoba-hong",
+      "target": "yuan-hong",
+      "type": "kin",
+      "note": "父子。高祖纪称宏为显祖献文皇帝长子。献文传位后，承明元年崩"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "yuan-ke",
+      "type": "kin",
+      "note": "父子。世宗为高祖孝文皇帝第二子"
+    },
+    {
+      "source": "yuan-xu",
+      "target": "yuan-ziyou",
+      "type": "ruler-subject",
+      "note": "子攸幼侍肃宗，长直禁中，为孝明所亲待"
+    },
+    {
+      "source": "gao-huan",
+      "target": "yuan-shanjian",
+      "type": "ruler-subject",
+      "note": "出帝入关，齐献武王与百僚推善见为帝"
+    },
+    {
+      "source": "gao-huan",
+      "target": "gao-yang",
+      "type": "kin",
+      "note": "父子。文宣为高祖第二子"
+    },
+    {
+      "source": "yuan-shanjian",
+      "target": "gao-yang",
+      "type": "rival",
+      "note": "天保元年孝静逊位，高洋受禅"
+    },
+    {
+      "source": "gao-yang",
+      "target": "gao-yin",
+      "type": "kin",
+      "note": "父子。废帝为文宣长子"
+    },
+    {
+      "source": "gao-huan",
+      "target": "gao-yan",
+      "type": "kin",
+      "note": "父子。孝昭为神武第六子"
+    },
+    {
+      "source": "gao-yang",
+      "target": "gao-yan",
+      "type": "kin",
+      "note": "同母兄弟。孝昭为文宣母弟"
+    },
+    {
+      "source": "gao-yan",
+      "target": "gao-yin",
+      "type": "rival",
+      "note": "孝昭废殷为济南王，皇建二年九月使人杀之"
+    },
+    {
+      "source": "gao-huan",
+      "target": "gao-zhan",
+      "type": "kin",
+      "note": "父子。武成为神武第九子"
+    },
+    {
+      "source": "gao-yan",
+      "target": "gao-zhan",
+      "type": "kin",
+      "note": "同母兄弟。皇建二年孝昭崩，遗诏征湛"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "yuwen-yun",
+      "type": "kin",
+      "note": "父子。宣帝为高祖长子"
+    },
+    {
+      "source": "yuwen-yun",
+      "target": "yuwen-chan",
+      "type": "kin",
+      "note": "父子。静帝为宣帝长子"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "liu-jun",
+      "type": "kin",
+      "note": "父子。孝武为文帝第三子"
+    },
+    {
+      "source": "xiao-daocheng",
+      "target": "liu-zhun",
+      "type": "rival",
+      "note": "昇明三年顺帝禅于齐，建元元年殂于丹阳宫"
+    },
+    {
+      "source": "xiao-daocheng",
+      "target": "xiao-ze",
+      "type": "kin",
+      "note": "父子。武帝为太祖长子"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "xiao-baojuan",
+      "type": "rival",
+      "note": "永元三年张齐斩东昏侯，首送梁王"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "xiao-gang",
+      "type": "kin",
+      "note": "父子。简文为高祖第三子"
+    },
+    {
+      "source": "xiao-tong",
+      "target": "xiao-gang",
+      "type": "kin",
+      "note": "同母兄弟。简文为昭明太子母弟"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "xiao-yi",
+      "type": "kin",
+      "note": "父子。元帝为高祖第七子"
+    },
+    {
+      "source": "xiao-gang",
+      "target": "xiao-yi",
+      "type": "kin",
+      "note": "兄弟。元帝追崇纲为简文皇帝"
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-qian",
+      "type": "kin",
+      "note": "永定三年霸先崩，遗诏征蒨入纂"
+    },
+    {
+      "source": "chen-qian",
+      "target": "chen-bozong",
+      "type": "kin",
+      "note": "父子。伯宗为世祖嫡长子"
+    },
+    {
+      "source": "chen-qian",
+      "target": "chen-xu",
+      "type": "kin",
+      "note": "兄弟。二人同为始兴昭烈王之子"
+    },
+    {
+      "source": "chen-xu",
+      "target": "chen-shubao",
+      "type": "kin",
+      "note": "父子。太建十四年宣帝崩，太子叔宝即位"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "xu-xianzhi",
+      "type": "rival",
+      "note": "元嘉三年正月下诏，尔日羡之自刭"
+    },
+    {
+      "source": "liu-yu",
+      "target": "fu-liang",
+      "type": "ruler-subject",
+      "note": "亮悟刘裕受禅之意，夜请还都，征其入辅"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "fu-liang",
+      "type": "rival",
+      "note": "元嘉三年傅亮伏诛，年五十三"
+    },
+    {
+      "source": "xu-xianzhi",
+      "target": "fu-liang",
+      "type": "peer",
+      "note": "同受顾命。三年之变，亮驰报羡之，二人同日死"
+    },
+    {
+      "source": "tuoba-tao",
+      "target": "juqu-muqian",
+      "type": "rival",
+      "note": "太武平凉后，真君八年诏崔浩于公主第赐牧犍死"
+    },
+    {
+      "source": "yuan-xu",
+      "target": "hu-taihou",
+      "type": "kin",
+      "note": "胡氏生肃宗。武泰元年与幼主并沉于河"
+    },
+    {
+      "source": "erzhu-rong",
+      "target": "hu-taihou",
+      "type": "rival",
+      "note": "武泰元年尔朱荣把灵太后沉于河阴"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "tuoba-tao",
+      "type": "rival",
+      "note": "元嘉二十七年太武至瓜步，宋人称为虏伪主"
+    },
+    {
+      "source": "gao-huan",
+      "target": "lou-zhaojun",
+      "type": "kin",
+      "note": "神武明皇后。密谋常参预，大宁二年崩"
+    },
+    {
+      "source": "lou-zhaojun",
+      "target": "gao-zhan",
+      "type": "kin",
+      "note": "孝昭帝崩，娄太后下诏立武成帝"
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "zhang-yaoer",
+      "type": "kin",
+      "note": "霸先聘为皇后。光大二年她黜废帝、立高宗"
+    },
+    {
+      "source": "zhang-yaoer",
+      "target": "chen-bozong",
+      "type": "rival",
+      "note": "光大二年下令黜伯宗为临海王"
+    },
+    {
+      "source": "zhang-yaoer",
+      "target": "chen-xu",
+      "type": "kin",
+      "note": "同诏命高宗陈顼嗣位"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "ashina-hou",
+      "type": "kin",
+      "note": "突厥木杆可汗之女，武帝皇后。开皇二年殂"
+    },
+    {
+      "source": "tuoba-tao",
+      "target": "dou-taihou",
+      "type": "kin",
+      "note": "奉养不异所生。征凉时她命将击走柔然，真君元年崩"
+    },
+    {
+      "source": "yuwen-tai",
+      "target": "yuan-hou-yuwen",
+      "type": "kin",
+      "note": "魏孝武帝之妹，配太祖，生孝闵帝。大统七年薨"
+    },
+    {
+      "source": "liu-zhun",
+      "target": "wang-zhenfeng",
+      "type": "kin",
+      "note": "顺帝禅位，太后与帝同逊东邸。建元元年薨"
     }
   ],
   "events": [
@@ -303,7 +713,8 @@
       "kind": "point",
       "year": 439,
       "people": [
-        "tuoba-tao"
+        "tuoba-tao",
+        "juqu-muqian"
       ],
       "desc": "魏太武帝灭北凉，结束十六国分裂，与南朝宋形成南北对峙。"
     },
@@ -325,7 +736,8 @@
       "year": 528,
       "people": [
         "erzhu-rong",
-        "yuan-xu"
+        "yuan-xu",
+        "hu-taihou"
       ],
       "desc": "尔朱荣举兵入洛，溺杀灵太后与幼主及朝士二千，北魏元气尽丧。"
     },
@@ -369,7 +781,8 @@
       "year": 450,
       "people": [
         "liu-yilong",
-        "tan-daoji"
+        "tan-daoji",
+        "tuoba-tao"
       ],
       "desc": "宋文帝屡北伐无功，魏太武反叩瓜步，江南大扰。道济已先见杀。"
     },

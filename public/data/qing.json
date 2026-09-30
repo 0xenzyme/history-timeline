@@ -16,6 +16,11 @@
       "color": "#c0392b"
     },
     {
+      "id": "consort",
+      "name": "后妃",
+      "color": "#c98a3a"
+    },
+    {
       "id": "chancellor",
       "name": "名相 · 文臣",
       "color": "#2f6f9f"
@@ -342,6 +347,274 @@
       "gender": "male"
     },
     {
+      "id": "da-fei",
+      "name": "大妃",
+      "display": "大妃",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1590,
+      "death": 1626,
+      "birthNote": "岁辛丑来归，年十二，上推生年。",
+      "deathNote": "天命十一年八月，太祖崩之次日殉。",
+      "title": "太祖大妃，多尔衮、多铎之母",
+      "bio": "乌喇纳喇氏。孝慈皇后崩后立为大妃。太祖崩，次日殉，年三十七。子阿济格、多尔衮、多铎。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "houjin"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-duan",
+      "name": "孝端文皇后",
+      "display": "孝端文皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1599,
+      "death": 1649,
+      "birthNote": "顺治六年崩，年五十一，上推生年。",
+      "title": "太宗中宫",
+      "bio": "博尔济吉特氏，科尔沁贝勒莽古思女。崇德元年正位中宫。世祖尊为皇太后，顺治六年四月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-zhuang",
+      "name": "孝庄文皇后",
+      "display": "孝庄文皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1613,
+      "death": 1687,
+      "birthNote": "康熙二十六年崩，年七十五，上推生年。",
+      "deathNote": "康熙二十六年十二月己巳崩。",
+      "title": "太皇太后",
+      "bio": "博尔济吉特氏，孝端侄女。崇德元年封庄妃，三年生世祖。圣祖即位尊为太皇太后，康熙二十六年十二月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-gong",
+      "name": "孝恭仁皇后",
+      "display": "孝恭仁皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1660,
+      "death": 1723,
+      "birthNote": "雍正元年崩，年六十四，上推生年。",
+      "title": "世宗生母",
+      "bio": "乌雅氏。康熙十七年生世宗，后进德妃。世宗即位尊为皇太后，雍正元年五月崩，徽号未及册上。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-sheng",
+      "name": "孝圣宪皇后",
+      "display": "孝圣宪皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1692,
+      "death": 1777,
+      "birthNote": "乾隆四十二年崩，年八十六，上推生年。",
+      "title": "高宗生母，四十年皇太后",
+      "bio": "钮祜禄氏。康熙五十年生高宗。高宗即位尊为皇太后，以天下养。乾隆四十二年正月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-xian",
+      "name": "孝贤纯皇后",
+      "display": "孝贤纯皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1712,
+      "death": 1748,
+      "birthNote": "乾隆十三年崩，年三十七，上推生年。",
+      "title": "高宗皇后",
+      "bio": "富察氏。乾隆二年册为皇后。十三年从驾东巡，三月还至德州，崩于舟次。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-he-rui",
+      "name": "孝和睿皇后",
+      "display": "孝和睿皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1776,
+      "death": 1849,
+      "birthNote": "道光二十九年崩，年七十四，上推生年。",
+      "title": "仁宗皇后，传位宣宗",
+      "bio": "钮祜禄氏。孝淑皇后崩后，高宗敕她继位中宫。嘉庆二十五年仁宗崩于热河，她传旨令宣宗嗣位。道光二十九年十二月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-quan",
+      "name": "孝全成皇后",
+      "display": "孝全成皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1808,
+      "death": 1840,
+      "birthNote": "道光二十年崩，年三十三，上推生年。",
+      "title": "文宗生母",
+      "bio": "钮祜禄氏。道光十一年生文宗，十四年立为皇后。二十年正月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "ci-an",
+      "name": "慈安",
+      "display": "慈安太后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1837,
+      "death": 1881,
+      "birthNote": "光绪七年崩，年四十五，上推生年。",
+      "title": "母后皇太后，与慈禧并垂帘",
+      "bio": "钮祜禄氏，咸丰皇后。文宗崩后与孝钦并尊，诏旨称母后皇太后。同治、光绪两度垂帘。光绪七年三月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-zhe",
+      "name": "孝哲毅皇后",
+      "display": "孝哲毅皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1875,
+      "deathNote": "光绪元年二月戊子崩。传文不载生年。",
+      "title": "同治皇后",
+      "bio": "阿鲁特氏，崇绮女。同治十一年立为皇后。穆宗崩后封嘉顺皇后，光绪元年二月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "long-yu",
+      "name": "隆裕",
+      "display": "隆裕太后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1868,
+      "death": 1913,
+      "birthNote": "崩年四十六，上推生年。",
+      "deathNote": "宣统三年十二月逊位，越二年正月甲戌崩。",
+      "title": "德宗皇后，宣布逊位",
+      "bio": "叶赫那拉氏，孝钦侄女。光绪十五年立为皇后。宣统即位尊为隆裕皇太后。宣统三年十二月以太后命逊位，越二年正月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
       "id": "duo-er-gun",
       "name": "多尔衮",
       "display": "多尔衮",
@@ -592,6 +865,78 @@
       "gender": "male"
     },
     {
+      "id": "e-er-tai",
+      "name": "鄂尔泰",
+      "display": "鄂尔泰",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1745,
+      "deathNote": "乾隆十年，以疾乞解任，加太傅，旋卒。",
+      "title": "世宗顾命，高宗军机",
+      "bio": "西林觉罗氏。世宗末与张廷玉同受顾命。高宗初总理事务，后为军机大臣。乾隆十年卒，遗诏曾令配享太庙。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-heng",
+      "name": "傅恒",
+      "display": "傅恒",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1769,
+      "deathNote": "乾隆三十四年七月卒。",
+      "title": "孝贤之弟，经略征缅",
+      "bio": "富察氏，孝贤纯皇后弟。乾隆十年起在军机处行走。三十三年自请经略征缅，三十四年七月卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-tongxun",
+      "name": "刘统勋",
+      "display": "刘统勋",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1773,
+      "deathNote": "乾隆三十八年十一月，入朝至东华门外卒。",
+      "title": "东阁大学士",
+      "bio": "诸城人。雍正二年进士。乾隆二十六年拜东阁大学士，兼管礼部、兵部。三十八年十一月入朝，至东华门外卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "shi-lang",
       "name": "施琅",
       "display": "施琅",
@@ -696,6 +1041,54 @@
       "death": 1903,
       "title": "镇南关大捷",
       "bio": "老将，1885 年中法战争亲率萃军大破法军于镇南关，扭转战局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "duo-duo",
+      "name": "多铎",
+      "display": "多铎",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1614,
+      "death": 1649,
+      "birthNote": "顺治六年薨，年三十六，上推生年。",
+      "title": "豫亲王，定江南",
+      "bio": "太祖第十五子，多尔衮同母弟。入关后下江南，定南京。顺治六年三月以痘薨。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general",
+        "royal-kin"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-huacheng",
+      "name": "陈化成",
+      "display": "陈化成",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1842,
+      "deathNote": "道光二十二年五月，吴淞西炮台中弹死。",
+      "title": "吴淞殉国",
+      "bio": "同安人，江南提督。道光二十二年五月英舰犯吴淞，守西炮台，中弹死。宣宗震悼，谥忠愍。",
       "tags": [
         "清"
       ],
@@ -989,6 +1382,56 @@
         "qing"
       ],
       "gender": "male"
+    },
+    {
+      "id": "zheng-chenggong",
+      "name": "郑成功",
+      "display": "郑成功",
+      "lane": "end",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1624,
+      "death": 1662,
+      "birthNote": "康熙元年卒，年三十九，上推生年。",
+      "deathNote": "康熙元年五月朔受谒，数日卒。",
+      "title": "据台湾",
+      "bio": "南安人，芝龙子。驱荷兰人，号台湾为东都。康熙元年五月病卒，年三十九。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general",
+        "warlord"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shang-kexi",
+      "name": "尚可喜",
+      "display": "尚可喜",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1676,
+      "deathNote": "康熙十五年十月卒。子之信已叛。",
+      "title": "平南亲王",
+      "bio": "辽东人。康熙十四年进封平南亲王。十五年二月子之信叛，可喜卧疾不能制，十月卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general",
+        "vassal"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -1226,6 +1669,156 @@
       "target": "xuan-tong",
       "type": "kin",
       "note": "叔侄，光绪无嗣，摄政王载沣子溥仪继位为宣统"
+    },
+    {
+      "source": "da-fei",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "note": "母子。大妃纳喇氏生阿济格、多尔衮、多铎"
+    },
+    {
+      "source": "da-fei",
+      "target": "duo-duo",
+      "type": "kin",
+      "note": "母子。多铎为太祖第十五子，多尔衮同母弟"
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "duo-duo",
+      "type": "kin",
+      "note": "同母兄弟。多铎下江南，定南京"
+    },
+    {
+      "source": "fu-lin",
+      "target": "duo-duo",
+      "type": "ruler-subject",
+      "note": "入关后授扬威大将军，定南京，顺治六年以痘薨"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "xiao-duan",
+      "type": "kin",
+      "note": "崇德元年正位中宫，世祖尊为皇太后"
+    },
+    {
+      "source": "xiao-zhuang",
+      "target": "fu-lin",
+      "type": "kin",
+      "note": "母子。崇德三年生世祖"
+    },
+    {
+      "source": "xiao-zhuang",
+      "target": "kang-xi",
+      "type": "kin",
+      "note": "圣祖即位，尊为太皇太后"
+    },
+    {
+      "source": "xiao-gong",
+      "target": "yong-zheng",
+      "type": "kin",
+      "note": "母子。康熙十七年生世宗"
+    },
+    {
+      "source": "xiao-sheng",
+      "target": "qian-long",
+      "type": "kin",
+      "note": "母子。康熙五十年生高宗，后以皇太后养于慈宁宫"
+    },
+    {
+      "source": "qian-long",
+      "target": "xiao-xian",
+      "type": "kin",
+      "note": "皇后。乾隆十三年东巡还，崩于德州舟次"
+    },
+    {
+      "source": "xiao-xian",
+      "target": "fu-heng",
+      "type": "kin",
+      "note": "姐弟。傅恒为孝贤纯皇后弟"
+    },
+    {
+      "source": "jia-qing",
+      "target": "xiao-he-rui",
+      "type": "kin",
+      "note": "皇后。仁宗崩于热河，她传旨令宣宗嗣位"
+    },
+    {
+      "source": "dao-guang",
+      "target": "xiao-quan",
+      "type": "kin",
+      "note": "皇后，文宗生母。道光二十年正月崩"
+    },
+    {
+      "source": "xian-feng",
+      "target": "ci-an",
+      "type": "kin",
+      "note": "皇后。文宗崩后称母后皇太后，与慈禧并垂帘"
+    },
+    {
+      "source": "ci-an",
+      "target": "cixi",
+      "type": "peer",
+      "note": "两宫并尊。同治、光绪两度垂帘"
+    },
+    {
+      "source": "tong-zhi",
+      "target": "xiao-zhe",
+      "type": "kin",
+      "note": "皇后。同治十一年立，光绪元年二月崩"
+    },
+    {
+      "source": "guang-xu",
+      "target": "long-yu",
+      "type": "kin",
+      "note": "皇后。宣统三年十二月以太后命逊位"
+    },
+    {
+      "source": "cixi",
+      "target": "long-yu",
+      "type": "kin",
+      "note": "姑侄。隆裕为孝钦侄女"
+    },
+    {
+      "source": "qian-long",
+      "target": "e-er-tai",
+      "type": "ruler-subject",
+      "note": "世宗顾命大臣，高宗初为军机大臣"
+    },
+    {
+      "source": "e-er-tai",
+      "target": "zhang-tingyu",
+      "type": "peer",
+      "note": "同受世宗顾命，高宗初并相"
+    },
+    {
+      "source": "qian-long",
+      "target": "fu-heng",
+      "type": "ruler-subject",
+      "note": "军机大臣。乾隆三十三年自请经略征缅"
+    },
+    {
+      "source": "qian-long",
+      "target": "liu-tongxun",
+      "type": "ruler-subject",
+      "note": "乾隆二十六年拜东阁大学士，三十八年卒于入朝途中"
+    },
+    {
+      "source": "kang-xi",
+      "target": "zheng-chenggong",
+      "type": "rival",
+      "note": "据台湾。圣祖即位之年病卒，后由其孙克塽降"
+    },
+    {
+      "source": "kang-xi",
+      "target": "shang-kexi",
+      "type": "ruler-subject",
+      "note": "平南亲王。三藩乱中病卒，子之信已先叛"
+    },
+    {
+      "source": "dao-guang",
+      "target": "chen-huacheng",
+      "type": "ruler-subject",
+      "note": "江南提督。道光二十二年五月守吴淞，中弹死"
     }
   ],
   "events": [
@@ -1257,7 +1850,8 @@
       "people": [
         "duo-er-gun",
         "wu-sangui",
-        "fu-lin"
+        "fu-lin",
+        "duo-duo"
       ],
       "desc": "李自成破京、崇祯自缢；吴三桂乞师，多尔衮率清军入关击败大顺，迎顺治迁都北京。"
     },
@@ -1279,7 +1873,8 @@
       "year": 1681,
       "people": [
         "kang-xi",
-        "wu-sangui"
+        "wu-sangui",
+        "shang-kexi"
       ],
       "desc": "吴三桂举兵，三藩乱起；康熙运筹决胜，历时八年平定，集权于中央。"
     },
@@ -1306,7 +1901,8 @@
       "people": [
         "dao-guang",
         "lin-zexu",
-        "guan-tianpei"
+        "guan-tianpei",
+        "chen-huacheng"
       ],
       "desc": "林则徐虎门销烟，英舰叩关；关天培虎门殉国，清战败签《南京条约》，国门洞开。"
     },

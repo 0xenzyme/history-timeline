@@ -16,6 +16,16 @@
       "color": "#c0392b"
     },
     {
+      "id": "qin-consort",
+      "name": "后妃",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "qin-kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "qin-official",
       "name": "秦朝臣僚",
       "color": "#2f6f9f"
@@ -131,6 +141,78 @@
       "gender": "male"
     },
     {
+      "id": "huayang-taihou",
+      "name": "华阳太后",
+      "display": "华阳太后",
+      "lane": "qin-consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -230,
+      "deathNote": "秦始皇本纪：十七年，华阳太后卒。",
+      "title": "孝文王后，立子楚",
+      "bio": "安国君的正夫人。她自己无子，把在赵国做人质的子楚立为继承人。庄襄王尊她为华阳太后。始皇十七年卒。",
+      "tags": [
+        "秦国",
+        "太后"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qin"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "di-taihou",
+      "name": "帝太后",
+      "display": "帝太后",
+      "lane": "qin-consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -228,
+      "deathNote": "秦始皇本纪在十九年段写始皇帝母太后崩。吕不韦列传：始皇十九年太后薨，谥为帝太后。",
+      "title": "始皇母，谥帝太后",
+      "bio": "庄襄王夫人，始皇的母亲。嫪毐作乱时用过她的玺。始皇十九年崩，谥帝太后。",
+      "tags": [
+        "秦国",
+        "太后"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qin"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "ying-chengjiao",
+      "name": "成蟜",
+      "display": "成蟜",
+      "lane": "qin-kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -239,
+      "deathNote": "秦始皇本纪：八年，王弟长安君成蟜将军击赵，反，死屯留。",
+      "title": "长安君，反死屯留",
+      "bio": "始皇之弟，封长安君。八年将兵击赵，中途反秦，死在屯留。军吏都被斩。",
+      "tags": [
+        "秦国",
+        "长安君"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "li-si",
       "name": "李斯",
       "display": "李斯",
@@ -148,6 +230,54 @@
         "legalism"
       ],
       "primary": "legalism",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-quji",
+      "name": "冯去疾",
+      "display": "冯去疾",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -208,
+      "deathNote": "秦始皇本纪在二世二年段写右丞相去疾与冯劫说将相不辱而自杀，三年才另起。集解徐广曰姓冯。六国年表把诛去疾系在前208年。",
+      "title": "右丞相，二世二年自杀",
+      "bio": "始皇三十七年已是右丞相，始皇出游时留守咸阳。二世二年与李斯请停阿房宫，下吏后说将相不辱，自杀。",
+      "tags": [
+        "秦朝",
+        "丞相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lv-buwei",
+      "name": "吕不韦",
+      "display": "吕不韦",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -235,
+      "deathNote": "吕不韦列传只写十年十月免相、岁余饮鸩。秦始皇本纪写十二年文信侯不韦死。卒年取本纪十二年。",
+      "title": "秦相，立子楚，著《吕氏春秋》",
+      "bio": "阳翟贾人。助异人质子楚归秦。庄襄王、秦王政时为相，封文信侯。免相迁蜀，饮鸩。嬴政亲政前，这条相条压着王条。",
+      "tags": [
+        "秦国",
+        "仲父"
+      ],
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
       "polity": [
         "qin"
       ],
@@ -842,6 +972,36 @@
       "target": "liu-bang",
       "type": "ruler-subject",
       "note": "厚重的周勃，后平定诸吕"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "huayang-taihou",
+      "type": "kin",
+      "note": "华阳太后是庄襄王的嗣母，始皇十七年卒"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "di-taihou",
+      "type": "kin",
+      "note": "母子。始皇十九年帝太后崩"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-chengjiao",
+      "type": "kin",
+      "note": "兄弟。八年成蟜击赵反，死于屯留"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "lv-buwei",
+      "type": "ruler-subject",
+      "note": "年少时委国事于相国，十年免相，十二年死"
+    },
+    {
+      "source": "li-si",
+      "target": "feng-quji",
+      "type": "peer",
+      "note": "同为丞相。二世二年同谏停阿房，去疾自杀，李斯下狱"
     }
   ],
   "events": [

@@ -196,6 +196,30 @@
     {
       "id": "wang-mang",
       "lane": "xinmang"
+    },
+    {
+      "id": "zhang-hou-hui",
+      "lane": "consort"
+    },
+    {
+      "id": "bo-ji",
+      "lane": "consort"
+    },
+    {
+      "id": "wang-hou-jing",
+      "lane": "consort"
+    },
+    {
+      "id": "shangguan-hou",
+      "lane": "consort"
+    },
+    {
+      "id": "wang-hou-xuan",
+      "lane": "consort"
+    },
+    {
+      "id": "fu-taihou",
+      "lane": "consort"
     }
   ],
   "relationTypes": [
@@ -574,6 +598,54 @@
       "target": "liu-ying-ruzi",
       "type": "ruler-subject",
       "note": "平帝崩，莽立婴为孺子，居摄称制"
+    },
+    {
+      "source": "liu-ying",
+      "target": "zhang-hou-hui",
+      "type": "kin",
+      "note": "惠帝皇后。吕后以鲁元公主女配帝。文帝后元年薨"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "zhang-hou-hui",
+      "type": "kin",
+      "note": "鲁元公主之女。吕后配给惠帝，惠帝崩后废处北宫"
+    },
+    {
+      "source": "bo-ji",
+      "target": "liu-heng",
+      "type": "kin",
+      "note": "母子。薄姬生文帝。景帝前二年崩"
+    },
+    {
+      "source": "liu-qi",
+      "target": "wang-hou-jing",
+      "type": "kin",
+      "note": "景帝皇后"
+    },
+    {
+      "source": "wang-hou-jing",
+      "target": "liu-che",
+      "type": "kin",
+      "note": "母子。元朔三年崩"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "shangguan-hou",
+      "type": "kin",
+      "note": "昭帝皇后。宣帝时为太皇太后，建昭二年崩"
+    },
+    {
+      "source": "liu-xun",
+      "target": "wang-hou-xuan",
+      "type": "kin",
+      "note": "宣帝皇后，称邛成太后。永始元年崩"
+    },
+    {
+      "source": "liu-xin",
+      "target": "fu-taihou",
+      "type": "kin",
+      "note": "哀帝祖母。元寿元年崩，追称孝元傅皇后"
     }
   ],
   "events": [

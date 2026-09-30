@@ -25,6 +25,11 @@
       "color": "#c0392b"
     },
     {
+      "id": "consort",
+      "name": "后妃",
+      "color": "#c98a3a"
+    },
+    {
       "id": "chancellor",
       "name": "名相 · 文臣",
       "color": "#2f6f9f"
@@ -99,6 +104,50 @@
       "lane": "emperor"
     },
     {
+      "id": "da-fei",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-duan",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-zhuang",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-gong",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-sheng",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-xian",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-he-rui",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-quan",
+      "lane": "consort"
+    },
+    {
+      "id": "ci-an",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-zhe",
+      "lane": "consort"
+    },
+    {
+      "id": "long-yu",
+      "lane": "consort"
+    },
+    {
       "id": "duo-er-gun",
       "lane": "chancellor"
     },
@@ -139,6 +188,18 @@
       "lane": "chancellor"
     },
     {
+      "id": "e-er-tai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fu-heng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-tongxun",
+      "lane": "chancellor"
+    },
+    {
       "id": "shi-lang",
       "lane": "general"
     },
@@ -156,6 +217,14 @@
     },
     {
       "id": "feng-zicai",
+      "lane": "general"
+    },
+    {
+      "id": "duo-duo",
+      "lane": "general"
+    },
+    {
+      "id": "chen-huacheng",
       "lane": "general"
     },
     {
@@ -200,6 +269,14 @@
     },
     {
       "id": "wu-sangui",
+      "lane": "end"
+    },
+    {
+      "id": "zheng-chenggong",
+      "lane": "end"
+    },
+    {
+      "id": "shang-kexi",
       "lane": "end"
     }
   ],
@@ -438,6 +515,156 @@
       "target": "xuan-tong",
       "type": "kin",
       "note": "叔侄，光绪无嗣，摄政王载沣子溥仪继位为宣统"
+    },
+    {
+      "source": "da-fei",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "note": "母子。大妃纳喇氏生阿济格、多尔衮、多铎"
+    },
+    {
+      "source": "da-fei",
+      "target": "duo-duo",
+      "type": "kin",
+      "note": "母子。多铎为太祖第十五子，多尔衮同母弟"
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "duo-duo",
+      "type": "kin",
+      "note": "同母兄弟。多铎下江南，定南京"
+    },
+    {
+      "source": "fu-lin",
+      "target": "duo-duo",
+      "type": "ruler-subject",
+      "note": "入关后授扬威大将军，定南京，顺治六年以痘薨"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "xiao-duan",
+      "type": "kin",
+      "note": "崇德元年正位中宫，世祖尊为皇太后"
+    },
+    {
+      "source": "xiao-zhuang",
+      "target": "fu-lin",
+      "type": "kin",
+      "note": "母子。崇德三年生世祖"
+    },
+    {
+      "source": "xiao-zhuang",
+      "target": "kang-xi",
+      "type": "kin",
+      "note": "圣祖即位，尊为太皇太后"
+    },
+    {
+      "source": "xiao-gong",
+      "target": "yong-zheng",
+      "type": "kin",
+      "note": "母子。康熙十七年生世宗"
+    },
+    {
+      "source": "xiao-sheng",
+      "target": "qian-long",
+      "type": "kin",
+      "note": "母子。康熙五十年生高宗，后以皇太后养于慈宁宫"
+    },
+    {
+      "source": "qian-long",
+      "target": "xiao-xian",
+      "type": "kin",
+      "note": "皇后。乾隆十三年东巡还，崩于德州舟次"
+    },
+    {
+      "source": "xiao-xian",
+      "target": "fu-heng",
+      "type": "kin",
+      "note": "姐弟。傅恒为孝贤纯皇后弟"
+    },
+    {
+      "source": "jia-qing",
+      "target": "xiao-he-rui",
+      "type": "kin",
+      "note": "皇后。仁宗崩于热河，她传旨令宣宗嗣位"
+    },
+    {
+      "source": "dao-guang",
+      "target": "xiao-quan",
+      "type": "kin",
+      "note": "皇后，文宗生母。道光二十年正月崩"
+    },
+    {
+      "source": "xian-feng",
+      "target": "ci-an",
+      "type": "kin",
+      "note": "皇后。文宗崩后称母后皇太后，与慈禧并垂帘"
+    },
+    {
+      "source": "ci-an",
+      "target": "cixi",
+      "type": "peer",
+      "note": "两宫并尊。同治、光绪两度垂帘"
+    },
+    {
+      "source": "tong-zhi",
+      "target": "xiao-zhe",
+      "type": "kin",
+      "note": "皇后。同治十一年立，光绪元年二月崩"
+    },
+    {
+      "source": "guang-xu",
+      "target": "long-yu",
+      "type": "kin",
+      "note": "皇后。宣统三年十二月以太后命逊位"
+    },
+    {
+      "source": "cixi",
+      "target": "long-yu",
+      "type": "kin",
+      "note": "姑侄。隆裕为孝钦侄女"
+    },
+    {
+      "source": "qian-long",
+      "target": "e-er-tai",
+      "type": "ruler-subject",
+      "note": "世宗顾命大臣，高宗初为军机大臣"
+    },
+    {
+      "source": "e-er-tai",
+      "target": "zhang-tingyu",
+      "type": "peer",
+      "note": "同受世宗顾命，高宗初并相"
+    },
+    {
+      "source": "qian-long",
+      "target": "fu-heng",
+      "type": "ruler-subject",
+      "note": "军机大臣。乾隆三十三年自请经略征缅"
+    },
+    {
+      "source": "qian-long",
+      "target": "liu-tongxun",
+      "type": "ruler-subject",
+      "note": "乾隆二十六年拜东阁大学士，三十八年卒于入朝途中"
+    },
+    {
+      "source": "kang-xi",
+      "target": "zheng-chenggong",
+      "type": "rival",
+      "note": "据台湾。圣祖即位之年病卒，后由其孙克塽降"
+    },
+    {
+      "source": "kang-xi",
+      "target": "shang-kexi",
+      "type": "ruler-subject",
+      "note": "平南亲王。三藩乱中病卒，子之信已先叛"
+    },
+    {
+      "source": "dao-guang",
+      "target": "chen-huacheng",
+      "type": "ruler-subject",
+      "note": "江南提督。道光二十二年五月守吴淞，中弹死"
     }
   ],
   "events": [
@@ -469,7 +696,8 @@
       "people": [
         "duo-er-gun",
         "wu-sangui",
-        "fu-lin"
+        "fu-lin",
+        "duo-duo"
       ],
       "desc": "李自成破京、崇祯自缢；吴三桂乞师，多尔衮率清军入关击败大顺，迎顺治迁都北京。"
     },
@@ -491,7 +719,8 @@
       "year": 1681,
       "people": [
         "kang-xi",
-        "wu-sangui"
+        "wu-sangui",
+        "shang-kexi"
       ],
       "desc": "吴三桂举兵，三藩乱起；康熙运筹决胜，历时八年平定，集权于中央。"
     },
@@ -518,7 +747,8 @@
       "people": [
         "dao-guang",
         "lin-zexu",
-        "guan-tianpei"
+        "guan-tianpei",
+        "chen-huacheng"
       ],
       "desc": "林则徐虎门销烟，英舰叩关；关天培虎门殉国，清战败签《南京条约》，国门洞开。"
     },

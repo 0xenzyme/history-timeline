@@ -2901,6 +2901,29 @@
     "death": -637
   },
   {
+    "id": "xiong-yun",
+    "name": "熊恽",
+    "display": "楚成王",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "泓之战败宋，四十六年自缢",
+    "tags": [
+      "楚国",
+      "泓之战"
+    ],
+    "categories": [
+      "hegemon"
+    ],
+    "primary": "hegemon",
+    "polity": [
+      "chu"
+    ],
+    "gender": "male",
+    "death": -626
+  },
+  {
     "id": "mi-lv",
     "name": "芈侣",
     "display": "楚庄王",
@@ -3449,6 +3472,30 @@
     "death": -251
   },
   {
+    "id": "xuan-taihou",
+    "name": "宣太后",
+    "display": "宣太后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "昭襄王母，四十二年薨",
+    "tags": [
+      "秦国",
+      "太后"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qin"
+    ],
+    "gender": "female",
+    "death": -265
+  },
+  {
     "id": "tian-di",
     "name": "田地",
     "display": "齐湣王",
@@ -3516,6 +3563,29 @@
     ],
     "gender": "male",
     "death": -266
+  },
+  {
+    "id": "zhao-sheng",
+    "name": "赵胜",
+    "display": "平原君",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "赵相，散财守邯郸",
+    "tags": [
+      "赵国",
+      "平原君"
+    ],
+    "categories": [
+      "minister"
+    ],
+    "primary": "minister",
+    "polity": [
+      "zhao"
+    ],
+    "gender": "male",
+    "death": -251
   },
   {
     "id": "ying-zheng",
@@ -3636,6 +3706,29 @@
     "death": -235
   },
   {
+    "id": "huang-xie",
+    "name": "黄歇",
+    "display": "春申君",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "楚相，始皇九年被杀",
+    "tags": [
+      "楚国",
+      "春申君"
+    ],
+    "categories": [
+      "minister"
+    ],
+    "primary": "minister",
+    "polity": [
+      "chu"
+    ],
+    "gender": "male",
+    "death": -238
+  },
+  {
     "id": "sun-bin",
     "name": "孙膑",
     "display": "孙膑",
@@ -3703,6 +3796,29 @@
     "death": -257
   },
   {
+    "id": "zhao-kuo-changping",
+    "name": "赵括",
+    "display": "赵括",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "长平代将，被射杀",
+    "tags": [
+      "赵国",
+      "长平"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "zhao"
+    ],
+    "gender": "male",
+    "death": -260
+  },
+  {
     "id": "lian-po",
     "name": "廉颇",
     "display": "廉颇",
@@ -3724,6 +3840,53 @@
     ],
     "gender": "male",
     "death": -243
+  },
+  {
+    "id": "wei-wuji",
+    "name": "魏无忌",
+    "display": "信陵君",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "窃符救赵",
+    "tags": [
+      "魏国",
+      "信陵君"
+    ],
+    "categories": [
+      "royal-kin",
+      "general"
+    ],
+    "primary": "royal-kin",
+    "polity": [
+      "wei"
+    ],
+    "gender": "male",
+    "death": -243
+  },
+  {
+    "id": "li-mu",
+    "name": "李牧",
+    "display": "李牧",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "赵将，王迁七年被斩",
+    "tags": [
+      "赵国",
+      "武安君"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "zhao"
+    ],
+    "gender": "male",
+    "death": -229
   },
   {
     "id": "yue-yi",
@@ -4042,6 +4205,75 @@
     "death": -206
   },
   {
+    "id": "huayang-taihou",
+    "name": "华阳太后",
+    "display": "华阳太后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "孝文王后，立子楚",
+    "tags": [
+      "秦国",
+      "太后"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qin"
+    ],
+    "gender": "female",
+    "death": -230
+  },
+  {
+    "id": "di-taihou",
+    "name": "帝太后",
+    "display": "帝太后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "始皇母，谥帝太后",
+    "tags": [
+      "秦国",
+      "太后"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qin"
+    ],
+    "gender": "female",
+    "death": -228
+  },
+  {
+    "id": "ying-chengjiao",
+    "name": "成蟜",
+    "display": "成蟜",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "长安君，反死屯留",
+    "tags": [
+      "秦国",
+      "长安君"
+    ],
+    "categories": [
+      "royal-kin"
+    ],
+    "primary": "royal-kin",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -239
+  },
+  {
     "id": "li-si",
     "name": "李斯",
     "display": "李斯",
@@ -4063,6 +4295,52 @@
     ],
     "gender": "male",
     "death": -208
+  },
+  {
+    "id": "feng-quji",
+    "name": "冯去疾",
+    "display": "冯去疾",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "右丞相，二世二年自杀",
+    "tags": [
+      "秦朝",
+      "丞相"
+    ],
+    "categories": [
+      "chancellor"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -208
+  },
+  {
+    "id": "lv-buwei",
+    "name": "吕不韦",
+    "display": "吕不韦",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "秦相，立子楚，著《吕氏春秋》",
+    "tags": [
+      "秦国",
+      "仲父"
+    ],
+    "categories": [
+      "minister"
+    ],
+    "primary": "minister",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -235
   },
   {
     "id": "zhao-gao",
@@ -5363,6 +5641,140 @@
     "death": 23
   },
   {
+    "id": "zhang-hou-hui",
+    "name": "张皇后",
+    "display": "孝惠张皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "惠帝皇后，鲁元公主之女",
+    "tags": [
+      "西汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": -163
+  },
+  {
+    "id": "bo-ji",
+    "name": "薄姬",
+    "display": "薄太后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "文帝之母",
+    "tags": [
+      "西汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": -155
+  },
+  {
+    "id": "wang-hou-jing",
+    "name": "王皇后",
+    "display": "孝景王皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "景帝皇后，武帝之母",
+    "tags": [
+      "西汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": -126
+  },
+  {
+    "id": "shangguan-hou",
+    "name": "上官皇后",
+    "display": "孝昭上官皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "昭帝皇后，宣帝时为太皇太后",
+    "tags": [
+      "西汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "birth": -88,
+    "death": -37
+  },
+  {
+    "id": "wang-hou-xuan",
+    "name": "王皇后",
+    "display": "邛成太后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "宣帝皇后",
+    "tags": [
+      "西汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": -16
+  },
+  {
+    "id": "fu-taihou",
+    "name": "傅昭仪",
+    "display": "傅太后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "哀帝祖母",
+    "tags": [
+      "西汉"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": -2
+  },
+  {
     "id": "liu-xiu",
     "name": "刘秀",
     "display": "汉光武帝",
@@ -6338,6 +6750,142 @@
     "gender": "male",
     "birth": 137,
     "death": 192
+  },
+  {
+    "id": "ma-hou-mingde",
+    "name": "马皇后",
+    "display": "明德马皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "明帝皇后，马援之女",
+    "tags": [
+      "东汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": 79
+  },
+  {
+    "id": "liang-na",
+    "name": "梁妠",
+    "display": "顺烈梁皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "顺帝皇后，临朝立桓帝",
+    "tags": [
+      "东汉"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "birth": 106,
+    "death": 150
+  },
+  {
+    "id": "liang-nuying",
+    "name": "梁女莹",
+    "display": "桓帝懿献梁皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "桓帝皇后，延熹三年崩",
+    "tags": [
+      "东汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": 160
+  },
+  {
+    "id": "dou-miao",
+    "name": "窦妙",
+    "display": "桓思窦皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "桓帝皇后，窦武之女",
+    "tags": [
+      "东汉"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": 172
+  },
+  {
+    "id": "he-hou-ling",
+    "name": "何皇后",
+    "display": "灵思何皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "灵帝皇后，少帝之母，被董卓鸩杀",
+    "tags": [
+      "东汉"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": 189
+  },
+  {
+    "id": "cao-jie",
+    "name": "曹节",
+    "display": "献穆曹皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "献帝皇后，曹操之女",
+    "tags": [
+      "东汉"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": 237
   },
   {
     "id": "cao-cao",
@@ -7722,6 +8270,123 @@
     "death": 232
   },
   {
+    "id": "cao-shuang",
+    "name": "曹爽",
+    "display": "曹爽",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "大将军，高平陵之变被诛",
+    "tags": [
+      "三国",
+      "曹魏"
+    ],
+    "categories": [
+      "general",
+      "regent"
+    ],
+    "primary": "regent",
+    "polity": [
+      "wei"
+    ],
+    "gender": "male",
+    "death": 249
+  },
+  {
+    "id": "bian-hou",
+    "name": "卞皇后",
+    "display": "武宣卞皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "曹操之妻，曹丕之母",
+    "tags": [
+      "三国",
+      "曹魏"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "wei"
+    ],
+    "gender": "female",
+    "death": 230
+  },
+  {
+    "id": "zhen-hou",
+    "name": "甄皇后",
+    "display": "文昭甄皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "曹丕之妻，曹叡之母，黄初二年赐死",
+    "tags": [
+      "三国",
+      "曹魏"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "wei"
+    ],
+    "gender": "female",
+    "death": 221
+  },
+  {
+    "id": "guo-hou-wende",
+    "name": "郭皇后",
+    "display": "文德郭皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "曹丕皇后，青龙三年崩",
+    "tags": [
+      "三国",
+      "曹魏"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "wei"
+    ],
+    "gender": "female",
+    "death": 235
+  },
+  {
+    "id": "guo-hou-mingyuan",
+    "name": "郭太后",
+    "display": "明元郭皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "齐王太后，景元四年崩",
+    "tags": [
+      "三国",
+      "曹魏"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "wei"
+    ],
+    "gender": "female",
+    "death": 263
+  },
+  {
     "id": "sima-yan",
     "name": "司马炎",
     "display": "晋武帝司马炎",
@@ -8651,6 +9316,319 @@
     "death": 396
   },
   {
+    "id": "sima-shao",
+    "name": "司马绍",
+    "display": "晋明帝司马绍",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋明帝，太宁三年崩",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 299,
+    "death": 325
+  },
+  {
+    "id": "sima-yan-cheng",
+    "name": "司马衍",
+    "display": "晋成帝司马衍",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋成帝，咸康八年崩",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 321,
+    "death": 342
+  },
+  {
+    "id": "sima-yue",
+    "name": "司马岳",
+    "display": "晋康帝司马岳",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋康帝，建元二年崩",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 322,
+    "death": 344
+  },
+  {
+    "id": "sima-dan",
+    "name": "司马聃",
+    "display": "晋穆帝司马聃",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋穆帝，升平五年崩",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 343,
+    "death": 361
+  },
+  {
+    "id": "sima-pi",
+    "name": "司马丕",
+    "display": "晋哀帝司马丕",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋哀帝，兴宁三年崩",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 341,
+    "death": 365
+  },
+  {
+    "id": "sima-yi-haixi",
+    "name": "司马奕",
+    "display": "海西公司马奕",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋废帝，太元十一年薨于吴",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 342,
+    "death": 386
+  },
+  {
+    "id": "sima-yu",
+    "name": "司马昱",
+    "display": "晋简文帝司马昱",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋简文帝，咸安二年崩",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 320,
+    "death": 372
+  },
+  {
+    "id": "sima-yue-donghai",
+    "name": "司马越",
+    "display": "东海王司马越",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "八王的收场，永嘉五年薨于项",
+    "tags": [
+      "晋",
+      "西晋"
+    ],
+    "categories": [
+      "royal-kin"
+    ],
+    "primary": "royal-kin",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "death": 311
+  },
+  {
+    "id": "yang-yan-jin",
+    "name": "杨艳",
+    "display": "武元杨皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "晋武帝皇后，惠帝之母",
+    "tags": [
+      "晋",
+      "西晋"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "jin"
+    ],
+    "gender": "female",
+    "birth": 238,
+    "death": 274
+  },
+  {
+    "id": "chu-suanzi",
+    "name": "褚蒜子",
+    "display": "康献褚皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "东晋太后，临朝四十年",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "jin"
+    ],
+    "gender": "female",
+    "birth": 324,
+    "death": 384
+  },
+  {
+    "id": "he-fani",
+    "name": "何法倪",
+    "display": "穆章何皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "晋穆帝皇后",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "jin"
+    ],
+    "gender": "female",
+    "birth": 339,
+    "death": 404
+  },
+  {
+    "id": "wang-shenai",
+    "name": "王神爱",
+    "display": "安僖王皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "晋安帝皇后，王献之女",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "jin"
+    ],
+    "gender": "female",
+    "birth": 384,
+    "death": 412
+  },
+  {
+    "id": "chu-lingyuan",
+    "name": "褚灵媛",
+    "display": "恭思褚皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "晋恭帝皇后，降为零陵王妃",
+    "tags": [
+      "晋",
+      "东晋"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "jin"
+    ],
+    "gender": "female",
+    "birth": 384,
+    "death": 436
+  },
+  {
     "id": "tuoba-gui",
     "name": "拓跋珪",
     "display": "道武帝拓跋珪",
@@ -9334,6 +10312,785 @@
     "death": 500
   },
   {
+    "id": "tuoba-si",
+    "name": "拓跋嗣",
+    "display": "明元帝拓跋嗣",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北魏明元帝，泰常八年崩",
+    "tags": [
+      "南北朝",
+      "北魏"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 392,
+    "death": 423
+  },
+  {
+    "id": "tuoba-jun",
+    "name": "拓跋濬",
+    "display": "文成帝拓跋濬",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北魏文成帝，太武之孙",
+    "tags": [
+      "南北朝",
+      "北魏"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 440,
+    "death": 465
+  },
+  {
+    "id": "tuoba-hong",
+    "name": "拓跋弘",
+    "display": "献文帝拓跋弘",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北魏献文帝，传位后崩",
+    "tags": [
+      "南北朝",
+      "北魏"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 454,
+    "death": 476
+  },
+  {
+    "id": "yuan-ke",
+    "name": "元恪",
+    "display": "宣武帝元恪",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北魏宣武帝，孝文第二子",
+    "tags": [
+      "南北朝",
+      "北魏"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 483,
+    "death": 515
+  },
+  {
+    "id": "yuan-ziyou",
+    "name": "元子攸",
+    "display": "孝庄帝元子攸",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北魏孝庄帝，尔朱兆迁杀于晋阳",
+    "tags": [
+      "南北朝",
+      "北魏"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 507,
+    "death": 530
+  },
+  {
+    "id": "yuan-shanjian",
+    "name": "元善见",
+    "display": "孝静帝元善见",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "东魏孝静帝，禅齐后被杀",
+    "tags": [
+      "南北朝",
+      "东魏"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 524,
+    "death": 551
+  },
+  {
+    "id": "gao-yang",
+    "name": "高洋",
+    "display": "文宣帝高洋",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北齐文宣帝，受魏禅",
+    "tags": [
+      "南北朝",
+      "北齐"
+    ],
+    "categories": [
+      "monarch",
+      "founding"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 529,
+    "death": 559
+  },
+  {
+    "id": "gao-yin",
+    "name": "高殷",
+    "display": "废帝高殷",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北齐废帝，济南王",
+    "tags": [
+      "南北朝",
+      "北齐"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 545,
+    "death": 561
+  },
+  {
+    "id": "gao-yan",
+    "name": "高演",
+    "display": "孝昭帝高演",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北齐孝昭帝，皇建二年崩",
+    "tags": [
+      "南北朝",
+      "北齐"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "death": 561
+  },
+  {
+    "id": "gao-zhan",
+    "name": "高湛",
+    "display": "武成帝高湛",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北齐武成帝，传位后崩",
+    "tags": [
+      "南北朝",
+      "北齐"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 537,
+    "death": 568
+  },
+  {
+    "id": "yuwen-yun",
+    "name": "宇文赟",
+    "display": "周宣帝宇文赟",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北周宣帝，大象二年崩",
+    "tags": [
+      "南北朝",
+      "北周"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 559,
+    "death": 580
+  },
+  {
+    "id": "yuwen-chan",
+    "name": "宇文阐",
+    "display": "周静帝宇文阐",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北周静帝，禅隋后崩",
+    "tags": [
+      "南北朝",
+      "北周"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 573,
+    "death": 581
+  },
+  {
+    "id": "liu-jun",
+    "name": "刘骏",
+    "display": "宋孝武帝刘骏",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "刘宋孝武帝，大明八年崩",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 430,
+    "death": 464
+  },
+  {
+    "id": "liu-zhun",
+    "name": "刘准",
+    "display": "宋顺帝刘准",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "刘宋末帝，禅齐后被杀",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 467,
+    "death": 479
+  },
+  {
+    "id": "xiao-ze",
+    "name": "萧赜",
+    "display": "齐武帝萧赜",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "南齐武帝，永明十一年崩",
+    "tags": [
+      "南北朝",
+      "南齐"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 440,
+    "death": 493
+  },
+  {
+    "id": "xiao-zhaowen",
+    "name": "萧昭文",
+    "display": "海陵王萧昭文",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "南齐海陵王，建武元年被杀",
+    "tags": [
+      "南北朝",
+      "南齐"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 480,
+    "death": 494
+  },
+  {
+    "id": "xiao-baojuan",
+    "name": "萧宝卷",
+    "display": "东昏侯萧宝卷",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "南齐东昏侯，永元三年被斩",
+    "tags": [
+      "南北朝",
+      "南齐"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "death": 501
+  },
+  {
+    "id": "xiao-gang",
+    "name": "萧纲",
+    "display": "梁简文帝萧纲",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "梁简文帝，侯景以土囊弑之",
+    "tags": [
+      "南北朝",
+      "梁"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 503,
+    "death": 551
+  },
+  {
+    "id": "xiao-yi",
+    "name": "萧绎",
+    "display": "梁元帝萧绎",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "梁元帝，江陵陷后被杀",
+    "tags": [
+      "南北朝",
+      "梁"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 508,
+    "death": 554
+  },
+  {
+    "id": "chen-qian",
+    "name": "陈蒨",
+    "display": "陈文帝陈蒨",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "陈文帝，天康元年崩",
+    "tags": [
+      "南北朝",
+      "陈"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "death": 566
+  },
+  {
+    "id": "chen-bozong",
+    "name": "陈伯宗",
+    "display": "陈废帝陈伯宗",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "陈废帝，太建二年薨",
+    "tags": [
+      "南北朝",
+      "陈"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "death": 570
+  },
+  {
+    "id": "chen-xu",
+    "name": "陈顼",
+    "display": "陈宣帝陈顼",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "陈宣帝，太建十四年崩",
+    "tags": [
+      "南北朝",
+      "陈"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 530,
+    "death": 582
+  },
+  {
+    "id": "xu-xianzhi",
+    "name": "徐羡之",
+    "display": "徐羡之",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "刘宋顾命大臣，元嘉三年自刭",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "regent",
+      "minister"
+    ],
+    "primary": "regent",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 364,
+    "death": 426
+  },
+  {
+    "id": "fu-liang",
+    "name": "傅亮",
+    "display": "傅亮",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "刘宋顾命大臣，元嘉三年伏诛",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "regent",
+      "minister"
+    ],
+    "primary": "regent",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 374,
+    "death": 426
+  },
+  {
+    "id": "juqu-muqian",
+    "name": "沮渠牧犍",
+    "display": "河西王沮渠牧犍",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北凉末主，真君八年赐死",
+    "tags": [
+      "南北朝",
+      "北凉"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "death": 447
+  },
+  {
+    "id": "hu-taihou",
+    "name": "胡太后",
+    "display": "灵太后胡氏",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "孝明之母，武泰元年沉于河",
+    "tags": [
+      "南北朝",
+      "北魏"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "bei"
+    ],
+    "gender": "female",
+    "death": 528
+  },
+  {
+    "id": "lou-zhaojun",
+    "name": "娄昭君",
+    "display": "神武明皇后娄昭君",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "高欢之妻，两度下诏定帝",
+    "tags": [
+      "南北朝",
+      "北齐"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "bei"
+    ],
+    "gender": "female",
+    "birth": 501,
+    "death": 562
+  },
+  {
+    "id": "dou-taihou",
+    "name": "窦太后",
+    "display": "太武惠太后窦氏",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "太武帝保太后，真君元年崩",
+    "tags": [
+      "南北朝",
+      "北魏"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "bei"
+    ],
+    "gender": "female",
+    "birth": 378,
+    "death": 440
+  },
+  {
+    "id": "yuan-hou-yuwen",
+    "name": "元皇后",
+    "display": "冯翊公主元氏",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "宇文泰之妻，孝闵帝之母",
+    "tags": [
+      "南北朝",
+      "西魏"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "bei"
+    ],
+    "gender": "female",
+    "death": 541
+  },
+  {
+    "id": "ashina-hou",
+    "name": "阿史那皇后",
+    "display": "周武帝阿史那皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "突厥木杆可汗之女，周武帝皇后",
+    "tags": [
+      "南北朝",
+      "北周"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "bei"
+    ],
+    "gender": "female",
+    "birth": 551,
+    "death": 582
+  },
+  {
+    "id": "zhang-yaoer",
+    "name": "章要儿",
+    "display": "陈宣皇后章要儿",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "陈霸先皇后，废临海王立宣帝",
+    "tags": [
+      "南北朝",
+      "陈"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "nan"
+    ],
+    "gender": "female",
+    "birth": 506,
+    "death": 570
+  },
+  {
+    "id": "wang-zhenfeng",
+    "name": "王贞风",
+    "display": "明恭王皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "宋明帝皇后，建元元年薨",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "nan"
+    ],
+    "gender": "female",
+    "birth": 436,
+    "death": 479
+  },
+  {
     "id": "yang-jian",
     "name": "杨坚",
     "display": "隋文帝杨坚",
@@ -9681,6 +11438,195 @@
     ],
     "gender": "male",
     "death": 619
+  },
+  {
+    "id": "dugu-huanghou",
+    "name": "独孤皇后",
+    "display": "文献皇后独孤氏",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "隋文帝皇后，废勇立广皆出其谋",
+    "tags": [
+      "隋"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "sui"
+    ],
+    "gender": "female",
+    "birth": 553,
+    "death": 602
+  },
+  {
+    "id": "yang-zhao",
+    "name": "杨昭",
+    "display": "元德太子杨昭",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "炀帝长子，皇太子，大业二年薨",
+    "tags": [
+      "隋"
+    ],
+    "categories": [
+      "royal-kin"
+    ],
+    "primary": "royal-kin",
+    "polity": [
+      "sui"
+    ],
+    "gender": "male",
+    "death": 606
+  },
+  {
+    "id": "niu-hong",
+    "name": "牛弘",
+    "display": "牛弘",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "修五礼，定献后丧仪",
+    "tags": [
+      "隋"
+    ],
+    "categories": [
+      "minister",
+      "classics"
+    ],
+    "primary": "minister",
+    "polity": [
+      "sui"
+    ],
+    "gender": "male",
+    "birth": 545,
+    "death": 610
+  },
+  {
+    "id": "yu-wen-shu",
+    "name": "宇文述",
+    "display": "宇文述",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "夺嫡主谋，辽东扶余道军将",
+    "tags": [
+      "隋"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "sui"
+    ],
+    "gender": "male",
+    "death": 616
+  },
+  {
+    "id": "zhangsun-sheng",
+    "name": "长孙晟",
+    "display": "长孙晟",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "离间突厥，大业五年卒",
+    "tags": [
+      "隋"
+    ],
+    "categories": [
+      "general",
+      "diplomat"
+    ],
+    "primary": "diplomat",
+    "polity": [
+      "sui"
+    ],
+    "gender": "male",
+    "birth": 552,
+    "death": 609
+  },
+  {
+    "id": "shi-wansui",
+    "name": "史万岁",
+    "display": "史万岁",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "开皇名将，废太子同日被杀",
+    "tags": [
+      "隋"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "sui"
+    ],
+    "gender": "male",
+    "death": 600
+  },
+  {
+    "id": "chen-shubao",
+    "name": "陈叔宝",
+    "display": "陈后主陈叔宝",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "陈后主，玉树后庭花，为隋所灭",
+    "tags": [
+      "南朝",
+      "南陈",
+      "亡国"
+    ],
+    "categories": [
+      "monarch",
+      "falling",
+      "poetry"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 553,
+    "death": 604
+  },
+  {
+    "id": "yuwen-chan",
+    "name": "宇文阐",
+    "display": "周静帝宇文阐",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "北周静帝，禅隋后崩",
+    "tags": [
+      "南北朝",
+      "北周"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 573,
+    "death": 581
   },
   {
     "id": "li-yuan",
@@ -12309,6 +14255,215 @@
     ],
     "gender": "female",
     "death": 786
+  },
+  {
+    "id": "liu-ren-gui",
+    "name": "刘仁轨",
+    "display": "刘仁轨",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "高宗宰相",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "death": 685
+  },
+  {
+    "id": "zhang-wenguan",
+    "name": "张文瓘",
+    "display": "张文瓘",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "高宗宰相",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "death": 678
+  },
+  {
+    "id": "dai-zhide",
+    "name": "戴至德",
+    "display": "戴至德",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "高宗宰相",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "death": 679
+  },
+  {
+    "id": "cen-wenben",
+    "name": "岑文本",
+    "display": "岑文本",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "专典机密",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "death": 645
+  },
+  {
+    "id": "wen-yanbo-tang",
+    "name": "温彦博",
+    "display": "温彦博",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "贞观中书令",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "death": 637
+  },
+  {
+    "id": "gao-jifu",
+    "name": "高季辅",
+    "display": "高季辅",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "贞观末同掌机务",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "death": 653
+  },
+  {
+    "id": "gao-shilian",
+    "name": "高士廉",
+    "display": "高士廉",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "再入机务",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "death": 647
+  },
+  {
+    "id": "xu-jingzong",
+    "name": "许敬宗",
+    "display": "许敬宗",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "高宗朝修史宰相",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "birth": 592,
+    "death": 672
+  },
+  {
+    "id": "lai-ji",
+    "name": "来济",
+    "display": "来济",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "tang",
+    "topicTitle": "唐",
+    "title": "谏立武后，贬后阵没",
+    "tags": [
+      "唐"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "tang"
+    ],
+    "gender": "male",
+    "birth": 610,
+    "death": 662
   },
   {
     "id": "li-su",
@@ -22774,6 +24929,76 @@
     "death": 1645
   },
   {
+    "id": "chen-yubi",
+    "name": "陈于陛",
+    "display": "陈于陛",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "卒于阁直",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1596
+  },
+  {
+    "id": "gu-dingchen",
+    "name": "顾鼎臣",
+    "display": "顾鼎臣",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "嘉靖大学士",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "birth": 1473,
+    "death": 1540
+  },
+  {
+    "id": "zhu-guozuo",
+    "name": "朱国祚",
+    "display": "朱国祚",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "天启首辅",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1632
+  },
+  {
     "id": "chang-yuchun",
     "name": "常遇春",
     "display": "常遇春",
@@ -23993,6 +26218,260 @@
     "death": 1627
   },
   {
+    "id": "wang-xijue",
+    "name": "王锡爵",
+    "display": "王锡爵",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "万历辅臣，争册立",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "birth": 1534,
+    "death": 1610
+  },
+  {
+    "id": "zhao-zhigao",
+    "name": "赵志皋",
+    "display": "赵志皋",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "万历首辅",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1601
+  },
+  {
+    "id": "he-zongyan",
+    "name": "何宗彦",
+    "display": "何宗彦",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "天启大学士",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1624
+  },
+  {
+    "id": "fang-congzhe",
+    "name": "方从哲",
+    "display": "方从哲",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "万历末独相",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1628
+  },
+  {
+    "id": "he-fengsheng",
+    "name": "贺逢圣",
+    "display": "贺逢圣",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "武昌投湖",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1643
+  },
+  {
+    "id": "li-tingji",
+    "name": "李廷机",
+    "display": "李廷机",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "阁籍六年，秉政九月",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1616
+  },
+  {
+    "id": "xue-guoguan",
+    "name": "薛国观",
+    "display": "薛国观",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "崇祯首辅，赐缢",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "regent"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1641
+  },
+  {
+    "id": "zhang-zhifa",
+    "name": "张至发",
+    "display": "张至发",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "外僚入阁，继温体仁",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1642
+  },
+  {
+    "id": "zhou-yanru",
+    "name": "周延儒",
+    "display": "周延儒",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "崇祯再相，勒令自尽",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "regent"
+    ],
+    "primary": "regent",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1643
+  },
+  {
+    "id": "xie-qian",
+    "name": "谢迁",
+    "display": "谢迁",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "孝宗辅臣",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "birth": 1449,
+    "death": 1531
+  },
+  {
+    "id": "zou-yuanbiao",
+    "name": "邹元标",
+    "display": "邹元标",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "ming",
+    "topicTitle": "明",
+    "title": "东林，首善书院",
+    "tags": [
+      "明"
+    ],
+    "categories": [
+      "minister",
+      "scholar"
+    ],
+    "primary": "minister",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "death": 1624
+  },
+  {
     "id": "wen-tiren",
     "name": "温体仁",
     "display": "温体仁",
@@ -24452,6 +26931,260 @@
     "death": 1875
   },
   {
+    "id": "da-fei",
+    "name": "大妃",
+    "display": "大妃",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "太祖大妃，多尔衮、多铎之母",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "houjin"
+    ],
+    "gender": "female",
+    "birth": 1590,
+    "death": 1626
+  },
+  {
+    "id": "xiao-duan",
+    "name": "孝端文皇后",
+    "display": "孝端文皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "太宗中宫",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1599,
+    "death": 1649
+  },
+  {
+    "id": "xiao-zhuang",
+    "name": "孝庄文皇后",
+    "display": "孝庄文皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "太皇太后",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1613,
+    "death": 1687
+  },
+  {
+    "id": "xiao-gong",
+    "name": "孝恭仁皇后",
+    "display": "孝恭仁皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "世宗生母",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1660,
+    "death": 1723
+  },
+  {
+    "id": "xiao-sheng",
+    "name": "孝圣宪皇后",
+    "display": "孝圣宪皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "高宗生母，四十年皇太后",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1692,
+    "death": 1777
+  },
+  {
+    "id": "xiao-xian",
+    "name": "孝贤纯皇后",
+    "display": "孝贤纯皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "高宗皇后",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1712,
+    "death": 1748
+  },
+  {
+    "id": "xiao-he-rui",
+    "name": "孝和睿皇后",
+    "display": "孝和睿皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "仁宗皇后，传位宣宗",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1776,
+    "death": 1849
+  },
+  {
+    "id": "xiao-quan",
+    "name": "孝全成皇后",
+    "display": "孝全成皇后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "文宗生母",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1808,
+    "death": 1840
+  },
+  {
+    "id": "ci-an",
+    "name": "慈安",
+    "display": "慈安太后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "母后皇太后，与慈禧并垂帘",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1837,
+    "death": 1881
+  },
+  {
+    "id": "xiao-zhe",
+    "name": "孝哲毅皇后",
+    "display": "孝哲毅皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "同治皇后",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "death": 1875
+  },
+  {
+    "id": "long-yu",
+    "name": "隆裕",
+    "display": "隆裕太后",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "德宗皇后，宣布逊位",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "consort",
+      "regent"
+    ],
+    "primary": "consort",
+    "polity": [
+      "qing"
+    ],
+    "gender": "female",
+    "birth": 1868,
+    "death": 1913
+  },
+  {
     "id": "duo-er-gun",
     "name": "多尔衮",
     "display": "多尔衮",
@@ -24702,6 +27435,75 @@
     "death": 1909
   },
   {
+    "id": "e-er-tai",
+    "name": "鄂尔泰",
+    "display": "鄂尔泰",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "世宗顾命，高宗军机",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "qing"
+    ],
+    "gender": "male",
+    "death": 1745
+  },
+  {
+    "id": "fu-heng",
+    "name": "傅恒",
+    "display": "傅恒",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "孝贤之弟，经略征缅",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "chancellor",
+      "general"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "qing"
+    ],
+    "gender": "male",
+    "death": 1769
+  },
+  {
+    "id": "liu-tongxun",
+    "name": "刘统勋",
+    "display": "刘统勋",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "东阁大学士",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "chancellor",
+      "official"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "qing"
+    ],
+    "gender": "male",
+    "death": 1773
+  },
+  {
     "id": "shi-lang",
     "name": "施琅",
     "display": "施琅",
@@ -24817,6 +27619,52 @@
     "gender": "male",
     "birth": 1818,
     "death": 1903
+  },
+  {
+    "id": "duo-duo",
+    "name": "多铎",
+    "display": "多铎",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "豫亲王，定江南",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "general",
+      "royal-kin"
+    ],
+    "primary": "general",
+    "polity": [
+      "qing"
+    ],
+    "gender": "male",
+    "birth": 1614,
+    "death": 1649
+  },
+  {
+    "id": "chen-huacheng",
+    "name": "陈化成",
+    "display": "陈化成",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "吴淞殉国",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "qing"
+    ],
+    "gender": "male",
+    "death": 1842
   },
   {
     "id": "gu-yanwu",
@@ -25099,6 +27947,53 @@
     "gender": "male",
     "birth": 1612,
     "death": 1678
+  },
+  {
+    "id": "zheng-chenggong",
+    "name": "郑成功",
+    "display": "郑成功",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "据台湾",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "general",
+      "warlord"
+    ],
+    "primary": "general",
+    "polity": [
+      "ming"
+    ],
+    "gender": "male",
+    "birth": 1624,
+    "death": 1662
+  },
+  {
+    "id": "shang-kexi",
+    "name": "尚可喜",
+    "display": "尚可喜",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "qing",
+    "topicTitle": "清",
+    "title": "平南亲王",
+    "tags": [
+      "清"
+    ],
+    "categories": [
+      "general",
+      "vassal"
+    ],
+    "primary": "general",
+    "polity": [
+      "qing"
+    ],
+    "gender": "male",
+    "death": 1676
   },
   {
     "id": "kongzi",

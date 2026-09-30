@@ -213,6 +213,30 @@
     {
       "id": "wang-yun",
       "lane": "end"
+    },
+    {
+      "id": "ma-hou-mingde",
+      "lane": "consort"
+    },
+    {
+      "id": "liang-na",
+      "lane": "consort"
+    },
+    {
+      "id": "liang-nuying",
+      "lane": "consort"
+    },
+    {
+      "id": "dou-miao",
+      "lane": "consort"
+    },
+    {
+      "id": "he-hou-ling",
+      "lane": "consort"
+    },
+    {
+      "id": "cao-jie",
+      "lane": "consort"
     }
   ],
   "relationTypes": [
@@ -404,6 +428,90 @@
       "target": "zhang-jiao",
       "type": "rival",
       "note": "灵帝时黄巾大起，八州响应"
+    },
+    {
+      "source": "ma-yuan",
+      "target": "ma-hou-mingde",
+      "type": "kin",
+      "note": "明德马皇后是马援的小女"
+    },
+    {
+      "source": "liu-zhuang",
+      "target": "ma-hou-mingde",
+      "type": "kin",
+      "note": "明帝皇后。建初四年为太后时崩"
+    },
+    {
+      "source": "liu-da",
+      "target": "ma-hou-mingde",
+      "type": "kin",
+      "note": "章帝时她为太后，建初四年六月崩"
+    },
+    {
+      "source": "liang-ji",
+      "target": "liang-na",
+      "type": "kin",
+      "note": "兄妹。冀鸩杀质帝，妠立桓帝"
+    },
+    {
+      "source": "liang-na",
+      "target": "liu-zhi",
+      "type": "kin",
+      "note": "梁太后立桓帝。和平元年归政后二日崩"
+    },
+    {
+      "source": "liang-na",
+      "target": "liang-nuying",
+      "type": "kin",
+      "note": "姐妹。女莹为桓帝皇后，延熹三年崩"
+    },
+    {
+      "source": "liu-zhi",
+      "target": "liang-nuying",
+      "type": "kin",
+      "note": "桓帝皇后。延熹三年忧恚崩，同年诛梁冀"
+    },
+    {
+      "source": "liang-ji",
+      "target": "liang-nuying",
+      "type": "kin",
+      "note": "延熹三年后崩，其岁诛冀"
+    },
+    {
+      "source": "liu-zhi",
+      "target": "dou-miao",
+      "type": "kin",
+      "note": "延熹八年立为桓帝皇后"
+    },
+    {
+      "source": "liu-hong",
+      "target": "dou-miao",
+      "type": "kin",
+      "note": "灵帝时为太后。熹平元年崩"
+    },
+    {
+      "source": "liu-hong",
+      "target": "he-hou-ling",
+      "type": "kin",
+      "note": "灵帝皇后，生少帝辩"
+    },
+    {
+      "source": "he-hou-ling",
+      "target": "liu-bian",
+      "type": "kin",
+      "note": "母子。中平六年她临朝，董卓废辩"
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "he-hou-ling",
+      "type": "rival",
+      "note": "董卓迁她于永安宫，进鸩弑崩"
+    },
+    {
+      "source": "liu-xie-xiandi",
+      "target": "cao-jie",
+      "type": "kin",
+      "note": "献帝皇后，曹操中女。景初元年薨"
     }
   ],
   "events": [
@@ -505,7 +613,8 @@
         "dong-zhuo",
         "liu-bian",
         "liu-xie-xiandi",
-        "wang-yun"
+        "wang-yun",
+        "he-hou-ling"
       ],
       "desc": "何进召外兵诛宦，反为所杀；董卓入京废立，焚洛阳迁都长安。三年后王允、吕布诛卓，关东已不可收拾。"
     },

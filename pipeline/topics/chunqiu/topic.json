@@ -77,6 +77,10 @@
       "lane": "hegemon"
     },
     {
+      "id": "xiong-yun",
+      "lane": "south"
+    },
+    {
       "id": "mi-lv",
       "lane": "south"
     },
@@ -319,6 +323,12 @@
       "target": "ji-wusheng",
       "type": "ruler-subject",
       "note": "王室东迁后，郑庄公最先坐大"
+    },
+    {
+      "source": "xiong-yun",
+      "target": "zi-zifu",
+      "type": "rival",
+      "note": "泓之战射伤宋襄公，襄公病创而死"
     }
   ],
   "events": [
@@ -396,7 +406,8 @@
       "kind": "point",
       "year": -638,
       "people": [
-        "zi-zifu"
+        "zi-zifu",
+        "xiong-yun"
       ],
       "desc": "宋襄公不击半渡，伤股。想接齐桓霸业的那条短条，在这里折断。"
     },
