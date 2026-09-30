@@ -468,6 +468,70 @@
     {
       "id": "kong-guang",
       "lane": "chancellor"
+    },
+    {
+      "id": "lv-chan",
+      "lane": "consort"
+    },
+    {
+      "id": "lv-lu",
+      "lane": "consort"
+    },
+    {
+      "id": "xu-ping-jun",
+      "lane": "consort"
+    },
+    {
+      "id": "huo-cheng-jun",
+      "lane": "consort"
+    },
+    {
+      "id": "zhao-fei-yan",
+      "lane": "consort"
+    },
+    {
+      "id": "ding-taihou",
+      "lane": "consort"
+    },
+    {
+      "id": "wang-feng",
+      "lane": "consort"
+    },
+    {
+      "id": "dong-xian",
+      "lane": "consort"
+    },
+    {
+      "id": "liu-pi",
+      "lane": "opposite"
+    },
+    {
+      "id": "zhao-tuo",
+      "lane": "opposite"
+    },
+    {
+      "id": "lv-jia",
+      "lane": "opposite"
+    },
+    {
+      "id": "yu-shan",
+      "lane": "opposite"
+    },
+    {
+      "id": "wei-you-qu",
+      "lane": "opposite"
+    },
+    {
+      "id": "zhai-yi",
+      "lane": "opposite"
+    },
+    {
+      "id": "zhi-zhi",
+      "lane": "xiongnu"
+    },
+    {
+      "id": "hu-han-xie",
+      "lane": "xiongnu"
     }
   ],
   "relationTypes": [
@@ -1241,6 +1305,109 @@
       "target": "zhang-yu-bc5",
       "type": "ruler-subject",
       "note": "为太子时从禹受《论语》，即位尊为师相"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "lv-chan",
+      "type": "kin",
+      "note": "吕后之侄，封梁王相国；吕后崩后与禄同诛"
+    },
+    {
+      "source": "lv-chan",
+      "target": "lv-lu",
+      "type": "kin",
+      "note": "兄弟；诸吕之乱中同日被诛"
+    },
+    {
+      "source": "liu-xun",
+      "target": "xu-ping-jun",
+      "type": "kin",
+      "note": "夫妻，「微时故剑」；许后为霍显毒杀"
+    },
+    {
+      "source": "huo-guang",
+      "target": "huo-cheng-jun",
+      "type": "kin",
+      "note": "父女；霍氏族灭，废后徙馆自杀"
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhao-fei-yan",
+      "type": "kin",
+      "note": "成帝皇后；哀帝崩后废为庶人，是日自杀"
+    },
+    {
+      "source": "liu-xin",
+      "target": "ding-taihou",
+      "type": "kin",
+      "note": "母子；建平二年崩，追尊帝太后"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "wang-feng",
+      "type": "kin",
+      "note": "长兄为大司马辅政，王氏专权自此始"
+    },
+    {
+      "source": "liu-xin",
+      "target": "dong-xian",
+      "type": "ruler-subject",
+      "note": "嬖幸冠绝，二十二岁拜大司马；帝崩即日自杀"
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-pi",
+      "type": "rival",
+      "since": -154,
+      "note": "七国之乱，吴为首谋；三月而平"
+    },
+    {
+      "source": "liu-heng",
+      "target": "zhao-tuo",
+      "type": "ruler-subject",
+      "note": "陆贾再使南越，佗去帝号称臣"
+    },
+    {
+      "source": "liu-che",
+      "target": "lv-jia",
+      "type": "rival",
+      "note": "南越相吕嘉抗命，元鼎六年国灭"
+    },
+    {
+      "source": "liu-che",
+      "target": "yu-shan",
+      "type": "rival",
+      "note": "东越反，元封元年平定"
+    },
+    {
+      "source": "liu-che",
+      "target": "wei-you-qu",
+      "type": "rival",
+      "note": "朝鲜杀汉使拒命，元封三年置四郡"
+    },
+    {
+      "source": "zhi-zhi",
+      "target": "hu-han-xie",
+      "type": "kin",
+      "note": "兄弟争国，郅支西走康居"
+    },
+    {
+      "source": "hu-han-xie",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "note": "甘露三年入朝称臣，汉匈自此和好"
+    },
+    {
+      "source": "zhai-fang-jin",
+      "target": "zhai-yi",
+      "type": "kin",
+      "note": "父子；义起兵讨王莽，兵败磔死"
+    },
+    {
+      "source": "wang-mang",
+      "target": "zhai-yi",
+      "type": "rival",
+      "note": "东郡太守勒兵讨莽，众至十余万"
     }
   ],
   "events": [
