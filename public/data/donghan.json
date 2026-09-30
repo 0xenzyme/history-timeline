@@ -21,6 +21,11 @@
       "color": "#c98a3a"
     },
     {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "scholar",
       "name": "文臣 · 学者 · 士人",
       "color": "#2f6f9f"
@@ -29,6 +34,11 @@
       "id": "general",
       "name": "武将",
       "color": "#3f7d52"
+    },
+    {
+      "id": "qunxiong",
+      "name": "建安群雄",
+      "color": "#7f8c8d"
     },
     {
       "id": "end",
@@ -319,6 +329,31 @@
       "gender": "male"
     },
     {
+      "id": "liu-long-shangdi",
+      "name": "刘隆",
+      "display": "汉殇帝",
+      "lane": "emperor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 105,
+      "death": 106,
+      "birthNote": "元兴元年十二月辛未夜即皇帝位，时诞育百余日，上推生于元兴元年，定为105年。",
+      "deathNote": "殇帝纪：延平元年八月辛亥，帝崩，年二岁。安帝纪又书「八月，殇帝崩」，九月丙寅葬于康陵。",
+      "title": "东汉殇帝，即位时始生百余日",
+      "bio": "和帝少子。元兴元年十二月即位于襁褓之中，时始生百余日，邓太后临朝，兄邓骘秉政。延平元年八月崩，年二岁，葬康陵。补入殇帝，东汉帝王序列自和帝以下幼帝相承的格局才看得完整。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "yin-lihua",
       "name": "阴丽华",
       "display": "光烈皇后阴丽华",
@@ -589,6 +624,789 @@
       "tags": [
         "东汉",
         "黄巾"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jia-fu-junwen",
+      "name": "贾复",
+      "display": "贾复",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 55,
+      "title": "云台将，破敌拔城，以柔克刚",
+      "bio": "南阳冠军人，习《尚书》。持汉中王刘嘉书北度河，及光武于柏人，因邓禹得召见。从击青犢、五校，被羽先登，身遇十二创而未尝丧败；诸将论功自伐，复独无言，帝曰「贾君之功，我自知之」。常从帝居中，故无方面之勋。天下既定，与邓禹并剽甲兵、敦儒学，与高密、固始参议国事。建武三十一年卒，谥刚侯。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kou-xun",
+      "name": "寇恂",
+      "display": "寇恂",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 36,
+      "title": "云台将，守河内足食足兵",
+      "bio": "上谷昌平人。光武北定河北，以为河内太守，伐木材、讲驰射、输粮养兵，当萧何镇关中任，遂成平山东之策。为贾复所怨，效蔺相如屈廉颇，全国体；后单骑晓高峻，斩其谋主皇甫文而降其城。时人归其长者，以为有宰相器。建武十二年卒，谥威侯。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cen-peng",
+      "name": "岑彭",
+      "display": "岑彭",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 35,
+      "deathNote": "建武十一年春与吴汉伐蜀，破荆门、长驱武阳，「会日暮，蜀刺客诈为亡奴降，夜刺杀彭」；吴汉传明系「十一年……会岑彭为刺客所杀」，卒年定在十一年。",
+      "title": "云台将，征南定荆楚入蜀",
+      "bio": "南阳棘阳人，更始时封归德侯。说光武以「大王平河北，开王业」，又单骑下朱鲔于洛阳，军信秋毫无犯。为征南大将军，南破秦丰、田戎，先说降江南八郡；建武十一年烧荆门浮桥，直捣武阳，势若风雨，为公孙述刺客夜所杀，谥壮侯。伐蜀之主将，与吴汉共事而殁于中道。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jia-zun",
+      "name": "祭遵",
+      "display": "祭遵",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 33,
+      "title": "云台将，征虏守死善道",
+      "bio": "颍川颍阳人。光武署为门下史，为军市令，格杀舍中儿奉法不避，寻拜刺奸将军，「当备祭遵，吾舍中儿犯法尚杀之」。从平河北，北拒彭宠、斩张丰，定渔阳；西阻陇坻，独留不却。廉约小心，赏赐尽与士卒，在军中雅歌投壶，建武九年春卒于军。帝叹「安得忧国奉公之臣如祭征虏者」。与冯异、邓禹等同当西面之任。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jing-dan",
+      "name": "景丹",
+      "display": "景丹",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 26,
+      "deathNote": "系于建武二年秋：是岁封栎阳侯、从破五校于羛阳，会弘农有警，力疾拜命，「将营到郡，十馀日薨」，故约在二年（26）。",
+      "title": "云台将，将渔阳突骑南下",
+      "bio": "冯翊栎阳人，王莽时举四科。王郎起，说上谷太守耿况共拒之，将突骑与耿弇、寇恂南归光武，「吾闻突骑天下精兵，今乃见其战」。诸臣推为大司马者惟吴汉与丹，帝以讖文用孙咸、又以汉有大策，拜丹骠骑大将军，副汉而已。建武二年病薨于弘农任，十馀日。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ge-yan",
+      "name": "盖延",
+      "display": "盖延",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 39,
+      "title": "云台将，虎牙定东方",
+      "bio": "渔阳要阳人，身长八尺，弯弓三百斤，故吏于彭宠。与吴汉同谋归光武于广阿，拜虎牙大将军，为东方主将：夜梯睢阳逐刘永，转斗沛楚临淮，破苏茂、佼彊、董宪。帝以其轻敌深入，数以书诫之，庞萌之乱几不得免。建武十五年薨于位。赞曰「虎牙猛力，功立睢阳」。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yao-qi",
+      "name": "铫期",
+      "display": "铫期",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 34,
+      "title": "云台将，瞋目全光武于蓟城",
+      "bio": "颍川郏人，长八尺二寸，容貌绝异。王郎起、蓟中乱，期骑马奋戟、瞋目大呼，冒刃扞卫光武得出城门，遂从徇河北。击铜马背水而战，战巨鹿手杀五十余人、中额摄帻复战。行魏郡太守，威信一郡，以义信化李熊、陆反侧之谋。帝微行，顿首车前切谏。建武十年卒，谥忠侯。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "geng-chun",
+      "name": "耿纯",
+      "display": "耿纯",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 37,
+      "title": "云台将，举宗归汉，定计真定",
+      "bio": "巨鹿宋子人，河北大姓。世祖度河，纯率宗族宾客二千余人奉迎，尽焚庐舍以绝反顾，从平邯郸、破射犬。单车镇河北，赖其恩德怀之，纯为首唱。建武二年持节诛真定王刘扬，一郡震怖而不劳师。为东郡太守，盗贼清宁，去职百姓涕泣思之。建武十三年卒官，谥成侯。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zang-gong",
+      "name": "臧宫",
+      "display": "臧宫",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 58,
+      "title": "云台将，沈水破蜀，质朴敢谏",
+      "bio": "颍川郏人，少为县亭长，率宾客随光武征伐，至河北以为偏将军，勤力少言。从岑彭入蜀，锯城门限诈称汉兵大至以安骆越，沈水一战破延岑，降者以十万数，与吴汉并灭公孙述。明帝初与马武上言乘匈奴饥疫北击，帝报以「柔能制刚」，自是诸将莫敢复言兵事。永平元年卒，谥湣侯。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-wu",
+      "name": "马武",
+      "display": "马武",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 61,
+      "title": "云台将，捕虏嗜酒，阔达敢言",
+      "bio": "南阳湖阳人，起兵郡界，入绿林。谢躬败死，武驰至射犬归光武，每战常为军锋，慎水之败独还陷阵为殿。帝燕居笑问诸卿不遭际会自度爵禄，武对「以武勇可守尉督盗贼」。为人嗜酒阔达，醉折同列无所避忌，帝纵以为笑乐，故保福禄无诛谴。明帝初复拜捕虏将军，击西羌东西邯大破之。永平四年卒。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-cheng",
+      "name": "马成",
+      "display": "马成",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 56,
+      "deathNote": "本传直书「三十二年卒」，然建武纪元止三十一年（55），三十二年即中元元年（56），系仍追计建武之年；年号易名有歧，故标约，定卒为56。",
+      "title": "云台将，扬武缮障塞田北边",
+      "bio": "南阳棘阳人，调守郟令，世祖讨河北，弃官步负追及于蒲阳。围舒斩李宪，定江淮。主北边最久：代杜茂缮治障塞，自西河至渭桥、中山至邺，筑保起烽，十里一候，屯田常山、中山；南单于保塞后拜中山太守，上将军印绶。云台位次「中山太守全椒侯」。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-liang",
+      "name": "王梁",
+      "display": "王梁",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 38,
+      "title": "云台将，以谶文拜大司空",
+      "bio": "渔阳要阳人，与盖延、吴汉将兵南及光武于广阿。为野王令，南拒洛阳、北守天井关。帝以《赤伏符》「王梁主卫作玄武」，超拜大司空，封武强侯；然两违诏敕，几至军法。徙河南尹，穿渠引穀水注洛阳，渠成而水不流，七年为有司所劾。建武十四年卒官。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-jun",
+      "name": "陈俊",
+      "display": "陈俊",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 47,
+      "title": "云台将，强弩困贼坚壁之策",
+      "bio": "西鄂人，光武徇河北，荐以为安集掾。下马手接短兵破五校于安次，帝叹「战将尽如是，岂有忧哉」。建空壁绝粮之策，散渔阳之围。守泰山破张步于嬴下，遂定太山；八年张步反于琅琊，俊追讨斩之，诏得专征青徐，东方帖然。建武十三年定封祝阿侯，二十三年卒。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-mao",
+      "name": "杜茂",
+      "display": "杜茂",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 43,
+      "title": "云台将，骠骑屯北拒卢芳",
+      "bio": "南阳冠军人，初归光武于河北；即位，拜大将军。东征战佼彊、苏茂，拔西防；北则屯田晋阳、广武，与雁门太守郭凉击卢芳将尹于，筑亭候、修烽火，边城稍稍来降，芳遂亡入匈奴。坐断兵马禀缣免官，定封参蘧乡侯。建武十九年卒，与王霸、马成同为北边宿将。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-jun",
+      "name": "傅俊",
+      "display": "傅俊",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 31,
+      "title": "云台将，积弩定江东",
+      "bio": "颍川襄城人，以县亭长迎军，家属尽为襄城所灭，犹从征伐不顾。世祖讨河北，与宾客十余人北追及于邯郸，常将颍川兵。拜积弩将军，从岑彭破秦丰，因将兵徇扬州，江东悉定。建武七年卒，谥威侯。云台位次「积弩将军昆阳侯傅俊」。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jian-tan",
+      "name": "坚镡",
+      "display": "坚镡",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 50,
+      "title": "云台将，晨开上东门降朱鲔",
+      "bio": "颍川襄城人，以吏能召见，署主簿，从平河北，拜扬化将军。攻洛阳，与朱鲔别将约，晨开上东门，大战武库下，朱鲔由是降。徇南阳，敢死夜登城破董欣于堵乡；万脩病卒后孤军独守，南拒邓奉、北当董欣，一年间粮道隔塞，食蔬菜与士卒共劳苦，身被三创。建武六年定封合肥侯，二十六年卒。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-ba",
+      "name": "王霸",
+      "display": "王霸",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 59,
+      "deathNote": "永平二年（59）以病免，「后数月卒」，或跨入永平三年，依免年定为59。",
+      "title": "云台将，疾风知劲草，二十年镇代北",
+      "bio": "颍川颍阳人。从光武度河北，颍川从者皆逝、霸独留，帝曰「疾风知劲草」。呼沱冰合，诡言「冰坚可度」以安众而护济。追斩王郎。为讨虏将军，善抚士卒，死者脱衣敛之。拜上谷太守，与杜茂治飞狐道，筑亭障、修烽火，凡与匈奴乌桓大小百余战，在上谷二十余岁，北边无事。永平二年以病免，数月卒。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ren-guang",
+      "name": "任光",
+      "display": "任光",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 29,
+      "deathNote": "传云「五年，征诣京师，奉朝请。其冬卒」，上承「建武元年入洛阳、明年击檀乡」系年，五年即建武五年（29）；旧报告作26，误以「是岁更封阿陵侯」之封侯年（建武二年）为卒年。",
+      "title": "云台将，孤城守汉，迎光武于信都",
+      "bio": "南阳宛人，更始信用都太守。王郎起、郡国皆降，光独与李忠、万脩等坚城守汉，斩使徇市。光武自蓟狼狈而还，驰赴信都，河北之业自此始。募奔命、伪为城头子路力子都之檄，投暮入堂阳，举城震惊夜下，旬日兵众大盛。封阿陵侯，建武五年征诣京师，其冬卒。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-zhong",
+      "name": "李忠",
+      "display": "李忠",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 43,
+      "title": "云台将，丹阳起学，课为天下第一",
+      "bio": "东莱黄人。更始时都尉，与任光同心守信都、奉迎世祖，光武自解所佩绶带之。攻巨鹿，马宠反城执其母妻，忠即格杀宠弟，不复内顾。迁丹阳太守，为起学校、习礼容，垦田增多，三岁流民占著五万余口；十四年三公奏课为天下第一，迁豫章太守。病去官，建武十九年卒。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zhi-boxian",
+      "name": "刘植",
+      "display": "刘植",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 26,
+      "deathNote": "传无直书卒年：「建武二年，更封植为昌城侯。讨密县贼，战殁」，战殁承本年系事，故约在二年（26）。",
+      "title": "云台将，据昌城开门迎世祖",
+      "bio": "巨鹿昌城人。王郎起，植与弟喜、从兄歆率宗族宾客数千人据昌城，闻世祖自蓟还、开门迎之，拜骁骑将军。单车说真定王刘扬十余万众归降，世祖因留真定纳郭后，遂定河北之路。从平邯郸。建武二年更封昌城侯，讨密县贼战殁。云台位次「骁骑将军昌城侯」。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-long",
+      "name": "刘隆",
+      "display": "刘隆",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 57,
+      "title": "云台将，代吴汉行大将军事",
+      "bio": "南阳安众侯宗室，父礼起兵诛王莽族灭，隆以年未七岁获免。闻世祖在河内，追及于射犬，为骑都尉与冯异共拒朱鲔、李轶，轶杀其妻子不顾。拜诛虏将军从马成平李宪，屯田武当；又副马援击交趾，破征侧于禁谿口。吴汉薨，迁骠骑将军、行大司军事，视事八年，奉法自守。中元二年卒，谥靖侯。云台位次「骠骑将军慎侯刘隆」。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-you",
+      "name": "朱祐",
+      "display": "朱祐",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 48,
+      "title": "云台将，建义质直，受降不戮",
+      "bio": "南阳宛人，少依舂陵刘氏，与世祖有旧。为护军从讨河北，常舍止禁中；即拜建义大将军。淯阳之败为邓奉所获，奉破肉袒因祐得降；代岑彭围秦丰三年，黎丘卒下之。将兵多受降，以克定城邑为本，禁士卒虏掠。十五年上大将军印绶，奏改诸王为公、三公去「大」名，皆从之。建武二十四年卒。",
+      "tags": [
+        "东汉",
+        "云台二十八将"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lai-she",
+      "name": "来歙",
+      "display": "来歙",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 35,
+      "deathNote": "建武十一年，蜀人大惧，使刺客刺歙……投笔抽刃而绝。帝纪同年书「安遣间人刺杀中郎将来歙」。",
+      "title": "征羌中郎将，为蜀刺客所杀",
+      "bio": "南阳新野人，光武祖姑之子，帝之外兄。单车往来说隗嚣遣子入质，又护送马援奉使西州；略阳保卫战撑开陇右，凉州由此流通。建武十一年进击河池，被公孙述刺客所伤，投笔书表而绝，谥征羌侯。",
+      "tags": [
+        "东汉",
+        "羌战"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dou-rong",
+      "name": "窦融",
+      "display": "窦融",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": -15,
+      "death": 62,
+      "birthNote": "永平五年会融卒，时年七十八，上推生年。",
+      "deathNote": "永平五年，盱妇家上书言状……会融卒，时年七十八，谥曰戴侯。",
+      "title": "保河西五郡，举地归光武",
+      "bio": "扶风平陵人，更始末自署行河西五郡大将军事，修政养民，「外则折挫羌胡，内则百姓蒙福」。光武赐书「千载一会」，遂奉命东觐，率五郡兵会高平共破隗嚣。入朝拜大司徒，建武二十年策免，永平五年卒，年七十八。曾孙即大将军窦宪，外戚之盛自此始。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dou-gu",
+      "name": "窦固",
+      "display": "窦固",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 88,
+      "deathNote": "章和二年（88年）卒，谥曰文侯。",
+      "title": "奉车都尉，天山破虏屯伊吾",
+      "bio": "窦融从子，尚公主，袭父友封显亲侯。以明习边事拜奉车都尉，永平十六年与耿秉、祭肜等分道伐北匈奴，独破呼衍王于天山，追至蒲类海，留屯伊吾卢城；又破白山、定车师，汉通西域实自固始，班超初定鄯善即还报于固。肃宗世历大鸿胪、卫尉，章和二年卒，为窦宪执政时诸将前辈。",
+      "tags": [
+        "东汉",
+        "西域"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "geng-bing",
+      "name": "耿秉",
+      "display": "耿秉",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 91,
+      "deathNote": "本传系于相对年：「永元二年，代桓虞为光禄勋。明年夏卒，时年五十余。」旁证永元二年为公元90年，明年卒即91年；年五十余，生年不可定。",
+      "title": "驸马都尉，以战去战定车师",
+      "bio": "大司农耿国之子，耿弇之从子，能说《司马兵法》，倡「以战去战」。永平十六年与窦固等并出伐北匈奴，十七年合兵定车师，身先突骑，曰「受降如受敌」。永元二年代桓虞为光禄勋，明年夏卒，匈奴举国号哭。",
+      "tags": [
+        "东汉",
+        "西域"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jia-rong",
+      "name": "祭肜",
+      "display": "祭肜",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 73,
+      "deathNote": "本传系于相对年：「十六年，使肜以太仆将万余骑与南单于左贤王信伐北匈奴，期至涿邪山……坐逗留畏懦下狱免。肜自恨见诈无功，出狱数日，欧血死。」明帝纪永平十六年伐匈奴，欧血死在其后，故系约73年。",
+      "title": "辽东太守，使鲜卑击却北虏",
+      "bio": "云台将祭遵宗族，光武以遵故拜黄门侍郎，遵卒无子，出为偃师长。建武十七年拜辽东太守，几三十年边无寇警，以财招鲜卑偏何，使东击匈奴、西破赤山乌桓，「自是匈奴衰弱」。永平十二年征为太仆，号帝之御侮；十六年与窦固等同伐北匈奴，失期下狱，出狱数日欧血死。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huangfu-gui",
+      "name": "皇甫规",
+      "display": "皇甫规",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 104,
+      "death": 174,
+      "birthNote": "熹平三年卒，年七十一，上推生年。",
+      "deathNote": "熹平三年，以疾召还，未至，卒于谷城，年七十一。",
+      "title": "以威信降东羌，凉州三明之一",
+      "bio": "安定朝那人，知兵而有文，上疏论羌事无所回避。桓帝延熹间羌大反，规拜中郎将持节监关西兵，先零诸种慕其威信相劝降者十余万；恶绝宦官，被诬坐讼，凉州为之语曰「凉州三明」，与张奂、段颎齐名。",
+      "tags": [
+        "东汉",
+        "凉州三明"
+      ],
+      "categories": [
+        "general",
+        "military-theory"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-huan",
+      "name": "张奂",
+      "display": "张奂",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 104,
+      "death": 181,
+      "birthNote": "光和四年卒，年七十八，上推生年。",
+      "deathNote": "光和四年卒，年七十八。",
+      "title": "恩信服羌胡，凉州三明之一",
+      "bio": "敦煌人，少言「大丈夫当为国家立功边境」，将帅有名。匈奴、乌桓、羌胡皆畏而爱之。建宁初被曹节矫制迫围窦武，深病其卖，固让封还印绶；与段颎争羌宜招降，因此被诬禁锢，杜门养徒著书。光和四年卒。",
+      "tags": [
+        "东汉",
+        "凉州三明"
+      ],
+      "categories": [
+        "general",
+        "military-theory"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "duan-jian",
+      "name": "段颎",
+      "display": "段颎",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 179,
+      "deathNote": "光和二年，复代桥玄为太尉……会日食自劾……时司隶校尉阳球奏诛王甫，并及颎，就狱中诘责之，遂饮鸩死。",
+      "title": "百八十战灭东羌，狱中饮鸩",
+      "bio": "武威姑臧人，桓帝世将兵深出塞外击羌，追烧何大帅于积石山。建宁初破先零于逢义山，遂定东羌，凡百八十战，斩三万八千余级，费用四十四亿；与张奂招降之议正相反，俱号凉州三明。光和二年为太尉，因结宦官王甫，阳球奏诛甫并及于颎，饮鸩死狱中。",
+      "tags": [
+        "东汉",
+        "凉州三明"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-jun",
+      "name": "朱儁",
+      "display": "朱儁",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 195,
+      "deathNote": "本传但云「会李傕杀樊稠，而郭汜又自疑，与傕相攻……汜不肯，遂留质儁等。儁素刚，即日发病卒」；傕杀稠在献帝纪兴平二年二月，故卒年系约195年。",
+      "title": "与皇甫嵩同平黄巾，见质发病卒",
+      "bio": "会稽上虞人。中平元年黄巾起，儁讨颍川有功，与荆州刺史徐璆、南阳太守秦颉合围宛城，连斩赵弘、韩忠、孙夏，南阳平，与皇甫嵩同为平黄巾主将。董卓既诛，李傕、郭汜作乱，傕征儁入朝，拜太尉；郭汜留以为质，儁素刚，即日发病卒。",
+      "tags": [
+        "东汉",
+        "末世"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lu-zhi-192",
+      "name": "卢植",
+      "display": "卢植",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 192,
+      "deathNote": "初平三年卒。",
+      "title": "北中郎将广宗破贼，学为儒宗",
+      "bio": "涿郡涿人，与郑玄并事马融，「学为儒宗，士之楷模」。中平元年拜北中郎将，持节讨黄巾，连破张角于广宗；小黄门左丰索赂，植不肯，被谮槛征，减死罪一等。后隐上谷，袁绍请为军师，曹操北征过涿郡，犹告守令致敬于植。初平三年卒。",
+      "tags": [
+        "东汉",
+        "末世"
       ],
       "categories": [
         "general"
@@ -926,6 +1744,497 @@
       "gender": "male"
     },
     {
+      "id": "feng-qin",
+      "name": "冯勤",
+      "display": "冯勤",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 56,
+      "title": "光武所称佳吏，典封事至司徒",
+      "bio": "魏郡繁阳人，长八尺三寸，八岁善计。给事尚书，典诸侯封事，差量功次轻重，莫不厌服，帝每顾左右曰「佳乎吏也」。迁尚书仆射、尚书令、大司农，三岁迁司徒，中元元年薨。光武朝尚书台最被亲任者。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor",
+        "founding"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "mou-rong",
+      "name": "牟融",
+      "display": "牟融",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 79,
+      "title": "经明才高，代赵憙为太尉",
+      "bio": "北海安丘人，以《大夏侯尚书》教授，明帝以为才堪宰相，代伏恭为司空。肃宗即位，以先朝名臣代赵憙为太尉，参录尚书事。建初四年薨，诏赐冢茔于显节陵下。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-xi",
+      "name": "赵憙",
+      "display": "赵憙",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": -4,
+      "death": 80,
+      "birthNote": "建初五年薨，时年八十四，上推生年为公元前四年。",
+      "title": "昆阳战将，正身立朝，再典丧礼",
+      "bio": "南阳宛人，更始时以信义降舞阴，助诸将破王寻、王邑于昆阳，封勇功侯。建武二十七年拜太尉，典边事，上奏复缘边诸郡；光武崩，受遗诏典丧礼，横剑殿阶扶诸王下以明尊卑。明帝时行太尉事，正身立朝，帝崩再典丧事；章帝即位，进为太傅，录尚书事。建初五年薨，年八十四，谥正侯。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor",
+        "general",
+        "founding"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "bao-yu",
+      "name": "鲍昱",
+      "display": "鲍昱",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 81,
+      "title": "鲍永之子，言还徙家属以和灾",
+      "bio": "东海鲍永之子，字文泉，奉法守正有父风。拜司隶校尉，徙汝南太守作方梁石洫，溉田倍多。建初元年大旱，帝问消复灾眚，对以楚狱冤者过多，宜还徙家属、蠲除禁锢，帝纳其言。代牟融为太尉，建初六年薨，年七十余。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-an",
+      "name": "袁安",
+      "display": "袁安",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 92,
+      "title": "汝南袁氏始祖，与窦宪廷争",
+      "bio": "汝南汝阳人，楚王英狱连及数千人，为楚郡太守多出无辜四百余家，京师肃然，名重朝廷。和帝立，窦太后临朝，安与任隗守正不移，免冠固争谏止窦宪北征；宪欲立降者为北单于，安独上封事难折，宪竟不能夺。永元四年春薨，数月而窦氏败。四世后袁逢、袁隗皆至三公，为东京名族。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-pu",
+      "name": "张酺",
+      "display": "张酺",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 104,
+      "title": "帝师尚书，史鱼之风，正对窦景",
+      "bio": "汝南细阳人，赵王张敖之后。显宗时为四姓小侯置五经师，酺以《尚书》教授，入授皇太子，数有匡正之辞，帝谓有史鱼之风。和帝初出守魏郡，正执金吾窦景客侯海之罪，太后诏自今执金吾辟吏勿遣。永元十六年代鲁恭为司徒，月余薨。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor",
+        "classics"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-yu",
+      "name": "张禹",
+      "display": "张禹",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 113,
+      "title": "帝师欧阳尚书，定策立安帝",
+      "bio": "赵国襄国人，事太常桓荣，习《欧阳尚书》，贫穷不改其志。和帝时拜太尉，每有灾异多所谏正。延平元年迁太傅，录尚书事，舍宫中授殇帝经；安帝即位，以定策功封安乡侯。永初七年卒于家。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor",
+        "classics"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-qiao",
+      "name": "杜乔",
+      "display": "杜乔",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 147,
+      "deathNote": "本传无直书卒年：建和元年「代胡广为太尉」，在位数月以地震免，及清河王蒜事起，梁冀「遂白执系之，死狱中」，叙事仍在建和元年内，故系 147。帝纪唯有《续汉志》注文「梁太后摄政，兄兾枉杀李固、杜乔」，注文不作卒年依据。",
+      "title": "与李固同死，梁冀胁之不屈",
+      "bio": "河内林虑人，少为诸生，辟司徒杨震府，清直与李固并称。建和元年代胡广为太尉，谏梁冀无功之封，不为冀女会丧。因刘文、刘鲔之狱被劾，冀使人胁以妻子，乔不肯从，死狱中，与李固俱暴尸洛阳城北。",
+      "tags": [
+        "东汉",
+        "清流"
+      ],
+      "categories": [
+        "chancellor",
+        "scholar-official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huang-qiong",
+      "name": "黄琼",
+      "display": "黄琼",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 86,
+      "death": 164,
+      "birthNote": "延熹七年卒，时年七十九，上推生年。",
+      "title": "经术名臣，廷争梁冀比周公之礼",
+      "bio": "江夏安陆人，黄香之子，五府俱辟连年不应，阳嘉中乃就征。与李固、周举同心辅政，和平中以选入侍讲禁中。桓帝时历太尉、司空、司徒，梁冀欲比周公，琼独议比邓禹。延熹七年病笃上疏极谏，其年卒，时年七十九。",
+      "tags": [
+        "东汉",
+        "清流"
+      ],
+      "categories": [
+        "chancellor",
+        "scholar-official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-bing",
+      "name": "杨秉",
+      "display": "杨秉",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 92,
+      "death": 165,
+      "birthNote": "延熹八年薨，时年七十四，上推生年。",
+      "title": "杨震中子，三不惑，劾侯览具瑗",
+      "bio": "弘农杨震中子，传父业兼明《京氏易》，自称有「三不惑：酒、色、财」。延熹三年为李雲争谏坐免，五年冬代刘矩为太尉，与周景并劾宦官子弟，条奏牧守以下五十余人，又奏中常侍侯览弟参贪残，览由是疑惧。八年薨。",
+      "tags": [
+        "东汉",
+        "清流"
+      ],
+      "categories": [
+        "chancellor",
+        "scholar-official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hu-guang",
+      "name": "胡广",
+      "display": "胡广",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 91,
+      "death": 172,
+      "birthNote": "熹平元年薨，年八十二，上推生年。",
+      "title": "万事不理问伯始，历事六帝",
+      "bio": "南郡华容人，少孤贫，试章奏为安帝天下第一，博览多闻，习达故事，明解朝典。一履司空、再作司徒、三登太尉，又为太傅，在公台三十余年，历事六帝。京师谚「万事不理问伯始，天下中庸有胡公」。与李固定策而大议不全，又与中常侍丁肃婚姻，以此见讥。熹平元年薨，年八十二。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qiao-xuan",
+      "name": "桥玄",
+      "display": "桥玄",
+      "lane": "scholar",
+      "birthAccuracy": "disputed",
+      "deathAccuracy": "disputed",
+      "birth": 109,
+      "death": 183,
+      "birthNote": "传光和六年卒、年七十五，上推生年为109；碑作光和七年五月薨，则前推为110，附两说。",
+      "deathNote": "两说并存：传「玄以光和六年卒，时年七十五」（光和六年当183）；桥公庙碑「七年五月甲寅，以太中大夫薨于京师」（光和七年五月当184）。蔡邕西鼎铭载光和元年桥玄自言犬马齿七十，故卒年以光和六年为近。",
+      "title": "刚急名公，光和太尉，不赎劫子",
+      "bio": "梁国睢阳人，七世祖桥仁为戴德弟子。历上谷、汉阳太守，以威断闻。建宁三年迁司空、转司徒。素与陈球有隙，既在公位荐球为廷尉。少子为劫所质，玄不贳贼，有司奏议由是定。光和元年迁太尉，数月疾罢；光和六年卒（一作七年）。",
+      "tags": [
+        "东汉",
+        "末世"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-qiu",
+      "name": "陈球",
+      "display": "陈球",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 118,
+      "death": 179,
+      "birthNote": "光和二年下狱死，时年六十二，上推生年。",
+      "deathNote": "灵帝纪光和二年冬十月甲申「司徒刘郃、永乐少府陈球、卫尉阳球、步兵校尉刘纳谋诛宦者，事泄，皆下狱死」。",
+      "title": "守正议窦后合葬，谋诛宦官死狱",
+      "bio": "下邳淮浦人，举孝廉，破朱盖、胡兰于零陵，以强干知名。公卿议桓思窦后配葬，球独正言「陈、窦既冤」，曹节等不能夺。光和元年迁太尉，明年为永乐少府，与司徒刘郃谋诛宦官，事泄，为程璜所告，下狱死。",
+      "tags": [
+        "东汉",
+        "末世"
+      ],
+      "categories": [
+        "chancellor",
+        "scholar-official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-ci",
+      "name": "杨赐",
+      "display": "杨赐",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 185,
+      "title": "杨震之孙，三世太尉，议先捕张角",
+      "bio": "弘农杨秉子、杨震孙，少传家学。光和元年虹蜺降殿，对问极言宦官之祸，自以「死而后已」；又谏灵帝微行、造苑。中平初在司徒，先建疏捕张角之策，帝后悟封临晋侯。中平二年九月代张温为司空，其月薨。自震至赐三世太尉，与袁氏俱为东京名族。",
+      "tags": [
+        "东汉",
+        "末世"
+      ],
+      "categories": [
+        "chancellor",
+        "scholar-official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "he-xiu",
+      "name": "何休",
+      "display": "何休",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 129,
+      "death": 182,
+      "birthNote": "光和五年卒，年五十四，上推生年。",
+      "title": "公羊学大宗，注春秋公羊解诂",
+      "bio": "任城樊人，精研六经，与师博士羊弼追述李育之意以难二传，作《公羊墨守》《左氏膏肓》《穀梁废疾》。太傅陈蕃辟之，蕃败后坐党锢废，覃思十七年成《春秋公羊解诂》，为汉代公羊学殿军。党禁解，拜议郎，迁谏议大夫，光和五年卒，年五十四。",
+      "tags": [
+        "东汉",
+        "经学"
+      ],
+      "categories": [
+        "scholar",
+        "classics"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-shi",
+      "name": "杜诗",
+      "display": "杜诗",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 38,
+      "title": "南阳太守，造水排铸农器",
+      "bio": "河内汲人，建武中历成皋令、沛郡汝南都尉，迁南阳太守。造作水排，铸为农器，用力少见功多，又修治陂池，广拓土田，南阳为之语曰「前有召父，后有杜母」。建武十四年被征，会病卒，家贫无田宅，诏赐赙绢。",
+      "tags": [
+        "东汉",
+        "方术"
+      ],
+      "categories": [
+        "official",
+        "craft"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-pang",
+      "name": "范滂",
+      "display": "范滂",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 137,
+      "death": 169,
+      "birthNote": "建宁二年死狱中，时年三十三，上推生年。",
+      "title": "清诏使，澄清天下，狱中死节",
+      "bio": "汝南征羌人，少厉清节，为清诏使案察冀州，守令望风解印绶。为太守宗资功曹，裁斥权豪，坐牢修钩党案系北寺狱，与王甫廷辩不屈。建宁二年大诛党人，诏下急捕，滂自诣狱，与母诀别而死，时年三十三。督邮吴导抱诏伏哭、县令郭揖愿与俱亡，为一时清议所宗。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official",
+        "falling"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-mi",
+      "name": "杜密",
+      "display": "杜密",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 169,
+      "deathNote": "本传但云「明年，坐党事被征，自杀」，系陈蕃辅政（建宁元年）后之明年；帝纪建宁二年十月书党人被狱事，据以定位。",
+      "title": "太仆，与李膺并称「李杜」",
+      "bio": "颍川阳城人，为北海相时识郑玄于乡佐，遣就学，郑玄之显于经学实密启之。与同郡刘胜「寒蝉」之对，成为党人清议名言。桓帝朝历尚书令、河南尹、太仆，与李膺名行相次，时称「李杜」。建宁二年坐党事被征，自杀。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official",
+        "falling"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-tao",
+      "name": "刘陶",
+      "display": "刘陶",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 185,
+      "deathNote": "本传但云为宦官所谗「下黄门北寺狱……遂闭气而死」，不书年；《灵帝纪》中平二年「前司徒陈耽、谏议大夫刘陶坐直言，下狱死」，据帝纪旁证系年。",
+      "title": "谏议大夫，坐直言下狱死",
+      "bio": "颍川颍阴人，宗室之后。桓帝时游太学，上疏讥梁冀专朝；灵帝时与乐松、袁贡连名上书言张角事，帝后思其言封中陵乡侯，数迁至尚书令、侍中。因切谏为权臣所忌惮，复陈八事，大校言天下大乱皆由宦官，宦官共谗其与贼通情，收北寺狱，闭气而死，天下痛之。",
+      "tags": [
+        "东汉",
+        "清议"
+      ],
+      "categories": [
+        "scholar-official",
+        "falling"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-shi",
+      "name": "陈寔",
+      "display": "陈寔",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 104,
+      "death": 187,
+      "birthNote": "中平四年卒，年八十四，上推生年。",
+      "title": "太丘长，海内服其德的颍川名士",
+      "bio": "颍川许人，出于单微，受业太学，除太丘长，修德清静，邻县归附。逮捕党人事连陈寔，寔曰「吾不就狱，众无所恃」，自请囚系，遇赦得出。窦武辅政辟为掾属；张让父归葬颍川，名士无往，寔独吊之，后诛党人时让感寔多所全宥。梁上君子之喻传于乡里，中平四年卒于家，海内赴者三万余人，谥文范先生。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "primary": "scholar-official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "hua-tuo",
       "name": "华佗",
       "display": "华佗",
@@ -1012,6 +2321,524 @@
         "falling"
       ],
       "primary": "scholar-official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-xuan",
+      "name": "刘玄",
+      "display": "刘玄",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 25,
+      "deathNote": "更始三年，谢禄使从兵与更始共牧马于郊下，因令缢杀之；《光武纪》于建武元年直书「赤眉杀更始」。",
+      "title": "更始帝，与光武并立的割据者",
+      "bio": "舂陵宗室，光武族兄，被新市、平林诸将立为更始帝，入长安诛王莽。诛伯升，政乱爵滥，关中离心。更始三年赤眉入长安，降封长沙王，旋被谢禄缢杀；光武为葬之霸陵。他是光武兴起这条轴上的另一方。",
+      "tags": [
+        "东汉",
+        "割据"
+      ],
+      "categories": [
+        "warlord",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gongsun-shu",
+      "name": "公孙述",
+      "display": "公孙述",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 36,
+      "deathNote": "建武十二年至十一月，自将攻吴汉，被刺洞胸，堕马，其夜死。",
+      "title": "蜀中称帝，西州成家之主",
+      "bio": "茂陵人，王莽末为导江卒正，据蜀地。建武元年据「成家」符瑞自立为天子，都成都，阻兵守三峡，又数出兵汉中与隗嚣相角。建武十二年岑彭、吴汉长驱围成都，出战被创，其夜死，族延岑同见夷灭。建武统一战争西线的一方。",
+      "tags": [
+        "东汉",
+        "割据"
+      ],
+      "categories": [
+        "warlord",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kui-xiao",
+      "name": "隗嚣",
+      "display": "隗嚣",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 33,
+      "deathNote": "建武九年春，嚣病且饿，出城餐糗糒，恚愤而死。",
+      "title": "据陇平，两汉之间周旋的西州主",
+      "bio": "成纪人，起兵应汉诛莽镇戎大尹，更始时为御史大夫，奔还天水称西州上将军。附汉复叛，遣使称臣于公孙述，父子两见诛于光武。建武九年围急病饿，出城恚愤而死；余部立其子纯，明年落门破，西州平。他是建武统一战争陇右一线的另一方。",
+      "tags": [
+        "东汉",
+        "割据"
+      ],
+      "categories": [
+        "warlord",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-chao",
+      "name": "樊崇",
+      "display": "樊崇",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 27,
+      "deathNote": "宜阳之降系于「明年正月」（建武三年），传云「其夏，樊崇、逄安谋反，诛死」，为相对系年。",
+      "title": "赤眉首领，入长安倾更始",
+      "bio": "琅邪莒人，王莽末起兵，转战太山，众十余万，皆朱其眉以别莽军，号赤眉。破廉丹、王匡，立刘盆子为帝，建世元年，入长安而更始遂亡。建武三年率盆子降光武于宜阳，赐第洛阳，其夏谋反诛死。光武与更始并立这条轴上，赤眉是第三方。",
+      "tags": [
+        "东汉",
+        "赤眉"
+      ],
+      "categories": [
+        "rebel",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "peng-chong",
+      "name": "彭宠",
+      "display": "彭宠",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 29,
+      "deathNote": "建武五年春，宠斋独在便室，苍头子密等缚之，即斩宠及妻头，持记出城降汉。",
+      "title": "渔阳太守，建武初北州叛者",
+      "bio": "宛人，渔阳太守，首发突骑助光武破王郎，自以功当得王，与朱浮不相能，建武二年举兵反，攻朱浮于蓟，分徇广阳、上谷、右北平。五年为家奴子密等缚斩，传首京师；共立其子午为王者旋亦诛死，宗族夷。建武北州一线的对立面。",
+      "tags": [
+        "东汉",
+        "割据"
+      ],
+      "categories": [
+        "warlord",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yong-donghan",
+      "name": "刘永",
+      "display": "刘永",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 27,
+      "deathNote": "建武三年为吴汉、盖延等围睢阳，城中食尽走酇，诸将追急，永将庆吾斩永首降。",
+      "title": "梁王，建武讨平群雄东方之主",
+      "bio": "梁孝王八世孙，更始立为梁王，都睢阳，更始败后自称天子。据梁楚二十八城，拜董宪、张步为翼汉、辅汉将军，与共连兵。建武三年盖延、吴汉围睢阳，城破走酇，为部将庆吾斩首降汉。其子纡与苏茂、周建续乱，东方平建武五年间。",
+      "tags": [
+        "东汉",
+        "割据"
+      ],
+      "categories": [
+        "warlord",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-xian-donghan",
+      "name": "李宪",
+      "display": "李宪",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 30,
+      "deathNote": "建武六年正月舒城拔，宪亡走，其军士帛意追斩宪而降。",
+      "title": "僭号天子于皖城，江淮割据者",
+      "bio": "许昌人，王莽末为偏将军、庐江连率，击破江贼，莽败后据郡自守。更始元年自称淮南王，建武三年遂自立为天子，置公卿百官，拥九城、众十余万，保皖城。建武六年马成围舒城破，宪亡走，为军士帛意追斩。光武江淮用兵一方的首领。",
+      "tags": [
+        "东汉",
+        "割据"
+      ],
+      "categories": [
+        "warlord",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shan-chao",
+      "name": "单超",
+      "display": "单超",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 160,
+      "deathNote": "五侯之封在延熹二年；传云「超病，帝遣使者就拜车骑将军。明年薨」，相对系年，当作延熹三年。",
+      "title": "五侯之首，宦官专权的开端",
+      "bio": "中常侍。桓帝不堪梁冀之逼，延熹二年啮超臂出血为盟，与超等五人定诛冀之议，冀及宗亲党与悉诛。超与徐璜、具瑗、左悺、唐衡同日封侯，世谓「五侯」，自是权归宦官，朝廷日乱。病重拜车骑将军，明年薨。梁冀案与五侯格局的对立面之首。",
+      "tags": [
+        "东汉",
+        "宦官"
+      ],
+      "categories": [
+        "eunuch"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hou-lan",
+      "name": "侯览",
+      "display": "侯览",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 172,
+      "deathNote": "熹平元年，有司举奏览专权骄奢，策收印绶，自杀。",
+      "title": "党锢关键人物，张俭李膺之敌",
+      "bio": "山阳防东人，桓帝朝中常侍，以佞猾进，倚势贪放，托预诛梁冀功进封高乡侯。济北相滕延捕杀其宾客坐废，兄参被杨秉奏征于道自杀。建宁二年督邮张俭举奏其贪侈，览反诬俭为钩党，李膺、杜密等皆夷灭，党锢之祸遂成。熹平元年收印绶自杀。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "eunuch",
+        "falling"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-fu-donghan",
+      "name": "王甫",
+      "display": "王甫",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 179,
+      "deathNote": "光和二年，司隶校尉阳球奏诛王甫及子萌、吉，皆死狱中。",
+      "title": "桓帝幸宦，诛杀窦武陈蕃者",
+      "bio": "本长乐食监。窦太后临朝，窦武与陈蕃谋诛中官，曹节等矫诏以甫为黄门令，将兵诛武、蕃，党锢由之而定；迁中常侍，封冠军侯。又与节诬奏渤海王悝谋反，因功封者十二人。光和二年为司隶校尉阳球奏诛，父子皆死狱中。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "eunuch",
+        "falling"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-jie-eunuch",
+      "name": "曹节",
+      "display": "宦官曹节",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 181,
+      "deathNote": "阳球诛王甫事在光和二年，传承其下云「章寝不报，节遂领尚书令。四年，卒，赠车骑将军」，当作光和三年。",
+      "title": "中常侍，窦武陈蕃之案的矫诏首谋",
+      "bio": "中常侍，桓帝朝用事。窦太后临朝，窦武与陈蕃谋诛中官，节与朱瑀等十七人矫诏，以王甫为黄门令将兵诛武、蕃，迁长乐卫尉，封育阳侯，又诬奏渤海王悝。熹平元年朱雀阙书已指其「幽杀太后」。领尚书令，光和四年卒。党锢之祸的核心对立面。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "eunuch",
+        "falling"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-rang",
+      "name": "张让",
+      "display": "张让",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 189,
+      "deathNote": "中平六年帝崩，让、忠等杀何进；袁绍勒兵捕宦官，让等劫质天子走河上，追急，皆投河而死。",
+      "title": "十常侍首领，灵帝末祸局当事人",
+      "bio": "颍川人，灵帝时为中常侍、封列侯，与曹节、王甫表里相结，让、忠及夏恽等十二人并中常侍，世称十常侍。张钧请斩之以谢百姓，帝反怒钧；让等实与张角交通。中平六年帝崩，让、忠等因何进入省共杀进，袁绍勒兵捕斩宦官，让劫质天子走河上，追急投河而死。东汉轴尾的黄巾—何进之乱的另一方。",
+      "tags": [
+        "东汉",
+        "末世"
+      ],
+      "categories": [
+        "eunuch",
+        "falling"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-zhong",
+      "name": "赵忠",
+      "display": "赵忠",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 189,
+      "deathNote": "中平六年帝崩，忠与张让等杀何进，袁绍勒兵斩忠，捕宦官无少长悉斩之。",
+      "title": "十二常侍之一，灵帝末祸局另一方",
+      "bio": "安平人，少给事中，桓帝时以预诛梁冀封都乡侯。灵帝时迁中常侍、封列侯，节死后领大长秋，与张让相为表里。中常侍赵忠、夏恽共构杀清忠的吕强，又劝帝敛天下田亩税十钱以修宫室，守令助军钱，百姓嗟怨。中平六年与让共杀何进，为袁绍所斩。",
+      "tags": [
+        "东汉",
+        "宦官"
+      ],
+      "categories": [
+        "eunuch",
+        "falling"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "lane": "qunxiong",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 155,
+      "death": 220,
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han",
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-jian",
+      "name": "孙坚",
+      "display": "孙坚",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 191,
+      "title": "破虏将军，讨董卓先入洛阳",
+      "bio": "吴郡富春人，少为县吏，以勇烈显。讨黄巾、平区星，长沙太守。初平元年举兵讨董，斩华雄、都尉叶雄，先诸侯入洛阳，得传国玺于井中。二年与刘表战于襄阳，为黄祖部曲射杀，年三十七。江东基业自此始。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-ce",
+      "name": "孙策",
+      "display": "孙策",
+      "lane": "qunxiong",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 175,
+      "death": 200,
+      "title": "讨逆将军，定江东，遇刺而亡",
+      "bio": "孙坚长子，年十余已结知名士。以袁术所余千余兵渡江，五年间平定吴、会稽、丹阳、豫章、庐陵，江东遂定。美姿颜，能笑语，人称孙郎。建安五年猎于丹徒，为许贡客所射，创甚而卒，年二十六，弟权代之。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-shao",
+      "name": "袁绍",
+      "display": "袁绍",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 202,
+      "title": "大将军，四世三公，败于官渡",
+      "bio": "汝南汝阳人，袁逢之子，四世居三公位。诛十常侍，为关东联军盟主讨董。取冀州，北并公孙瓒，据四州之地，号令河北。建安五年与曹操战于官渡，谋士不和、粮草被烧，大败而归。七年忧愤发病，呕血而死。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-shu",
+      "name": "袁术",
+      "display": "袁术",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 199,
+      "title": "后将军，僭号仲氏，呕血而死",
+      "bio": "汝南汝阳人，袁绍之弟。据南阳，得孙坚之众，兼有江淮。建安二年得传国玺，僭号于寿春，自称仲家，置公卿百官，郊祀天地。奢侈无度，百姓相食，遂为曹操、吕布、孙策所败，欲归帝号于绍而道绝，愤慨呕血死。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "monarch"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lv-bu",
+      "name": "吕布",
+      "display": "吕布",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 199,
+      "title": "左将军，辕门射戟，白门楼被缢",
+      "bio": "五原九原人，便弓马，膂力过人，号为飞将。初事丁原而杀之归董卓，又与王允谋诛卓。辕门射戟解刘备之围，旋夺徐州。建安三年曹操围下邳，布为部下所执，请为操将，刘备一言而缢之于白门楼。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-biao",
+      "name": "刘表",
+      "display": "刘表",
+      "lane": "qunxiong",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 142,
+      "death": 208,
+      "title": "荆州牧，坐保江汉，死后荆州三分",
+      "bio": "山阳高平人，鲁恭王之后，身长八尺余，姿貌甚伟。单骑入宜城，招诱有方，遂据荆州八郡，学者归者千数，立学官，修俎豆。然外宽内忌，好谋无决，坐观官渡而不救。建安十三年疽发背卒，年六十七，子琮寻降，荆州遂分。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official",
+        "royal-kin"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gongsun-zan",
+      "name": "公孙瓒",
+      "display": "公孙瓒",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 199,
+      "title": "前将军，白马义从，困于易京",
+      "bio": "辽西令支人，以孝廉为涿令，数与鲜卑战，号白马义从。杀刘虞而有幽州，与袁绍连年相攻。筑易京楼橹千重，谓天下事可坐定。建安四年绍凿地道破之，瓒知必败，尽杀其妻子，引火自焚，年未五十。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
       "polity": [
         "han"
       ],
@@ -1156,6 +2983,258 @@
         "han"
       ],
       "gender": "female"
+    },
+    {
+      "id": "guo-shengtong",
+      "name": "郭圣通",
+      "display": "光武郭皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 52,
+      "deathNote": "传文「二十八年，后薨，葬于北芒」。光武帝纪建武二十八年夏六月丁卯沛太后郭氏薨，年纪旁证同。",
+      "title": "光武元配皇后，建武十七年见废",
+      "bio": "真定槀人，更始二年光武击王郎时纳之，建武二年立为皇后，子刘强为皇太子。后宠衰数怀怨恚，十七年废为中山王太后，徙沛太后；太子强亦让储，出王中山。二十八年薨，葬北芒，郭氏恩宠始终不衰，京师号其家为「金穴」。轴上与刘秀、阴丽华、刘强相接，是东汉废后的第一例。",
+      "tags": [
+        "东汉",
+        "废后"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "dou-zhangde",
+      "name": "窦皇后",
+      "display": "章德窦皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 97,
+      "deathNote": "传文「九年，太后崩」；和帝纪永元九年书「闰月辛巳，皇太后窦氏崩。丙申，葬章德皇后」。",
+      "title": "章帝皇后，临朝而窦宪专权",
+      "bio": "扶风平陵人，窦融曾孙，窦宪之妹。建初三年立为皇后，谮杀宋贵人、废太子庆为清河王，又作飞书陷梁贵人，养刘肇为子。章帝崩后临朝十年，兄弟擅权；永元四年窦宪被诛，九年太后崩，朝议欲贬尊号，和帝不许，合葬敬陵。清河王庆一系后来出了安帝，是外戚盛衰一条线上的枢纽。",
+      "tags": [
+        "东汉",
+        "外戚"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "yan-ansi",
+      "name": "阎姬",
+      "display": "安思阎皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 126,
+      "deathNote": "传文「明年，太后崩」；顺帝纪永建元年春正月「辛未，皇太后阎氏崩」直书。",
+      "title": "安帝皇后，北乡侯之立与阎氏之诛",
+      "bio": "河南荥阳人，元初二年立为皇后。妒忌，鸩杀皇子保生母李氏，又与江京、樊丰谮废太子保。延光四年安帝崩于行道，秘不发丧，与兄阎显立北乡侯、临朝。北乡侯薨，孙程等诛江京、阎显，迎立顺帝，太后迁离宫，明年崩，在位十二年。轴上是安帝—顺帝之际宫变的直接当事人。",
+      "tags": [
+        "东汉",
+        "外戚"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "dou-wu",
+      "name": "窦武",
+      "display": "窦武",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 168,
+      "deathNote": "灵帝纪建宁元年九月丁亥「中常侍曹节矫诏诛太傅陈蕃、大将军窦武」；传文「武、绍走，诸军追围之，皆自杀，枭首洛阳都亭」。",
+      "title": "大将军，桓思窦后之父，谋诛群阉不果",
+      "bio": "扶风平陵人，少以经行著称，教授于大泽中，不交时事。女为桓帝皇后，累越骑校尉、城门校尉。桓帝崩，与女桓思窦太后定策禁中，迎立灵帝，拜大将军，与太傅陈蕃共谋诛宦官。建宁元年五月因日食进言，事泄，曹节矫诏起兵，武军溃，与兄子绍走，追围自杀，枭首洛阳都亭，宗亲宾客姻属悉诛。与陈蕃同案，何进后事正复如是。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "consort-kin",
+        "scholar-official"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-shou",
+      "name": "伏寿",
+      "display": "献帝伏皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 214,
+      "deathNote": "伏后传：「至十九年，事乃露泄……遂将后下暴室，以幽崩」，承上「十四年卒」之文，是建安十九年。献帝纪建安五年书董承受密诏诛曹操事泄被杀；后自董承死后始与父完密谋，至十九年事泄幽死，非衣带诏当年。",
+      "title": "献帝皇后，与父伏完密谋抗曹",
+      "bio": "琅邪东武人，司徒伏湛八世孙，父完袭不其侯、尚桓帝女阳安公主。兴平二年立为皇后，经李傕、郭汜之乱，曹阳血溅后衣。都许之后帝守位而已，帝愤语曹操「不尔，幸垂恩相舍」。建安五年董承衣带诏事泄被诛，后乃与完书密图曹操；十九年事泄，华歆勒兵入宫牵后出，下暴室幽崩，所生二皇子皆被酖杀，宗族死者百余人。曹节次年继立，汉统遂禅。",
+      "tags": [
+        "东汉",
+        "末世"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "han"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "liu-qiang",
+      "name": "刘强",
+      "display": "东海恭王刘强",
+      "lane": "kin",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 25,
+      "death": 58,
+      "birthNote": "永平元年薨，年三十四，上推生年。",
+      "deathNote": "永平元年，彊病，显宗遣医视疾，及薨。",
+      "title": "光武长子，让太子位封东海王",
+      "bio": "光武帝长子，母郭皇后。建武十七年郭后废，他屡让储位，十九年出为东海王，都鲁。光武以其废不以过、去就有礼，特厚封之，兼食鲁郡。明帝永平元年薨，谥恭。",
+      "tags": [
+        "东汉",
+        "储位"
+      ],
+      "categories": [
+        "royal-kin",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-cang",
+      "name": "刘苍",
+      "display": "东平宪王刘苍",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 83,
+      "deathNote": "建初八年春正月壬辰，东平王苍薨。",
+      "title": "光武子，明帝时以骠骑辅政",
+      "bio": "光武帝子，明帝同母弟。拜骠骑将军辅政，位在公上，与公卿共议礼乐制度。以天下既平、声望日重而自惧，屡请归国，章帝建初八年薨，谥宪。",
+      "tags": [
+        "东汉",
+        "诸侯王"
+      ],
+      "categories": [
+        "royal-kin",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ying-donghan",
+      "name": "刘英",
+      "display": "楚王刘英",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 71,
+      "deathNote": "十三年燕广告英谋反，废徙丹阳泾县。明年，英至丹阳，自杀。传以「明年」相对系年，据永平十三年推为十四年；明帝纪但书十三年废、国除。",
+      "title": "光武子，楚王奉佛，谋反自杀",
+      "bio": "光武帝子，母许氏无宠，封楚王。少好游侠，晚节喜黄老、为浮屠斋戒祭祀，是宗室奉佛最早的可考记录。永平十三年被告与渔阳王平、颜忠造作图谶谋反，废徙丹阳泾县，明年自杀，国除。",
+      "tags": [
+        "东汉",
+        "奉佛"
+      ],
+      "categories": [
+        "royal-kin",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-qing",
+      "name": "刘庆",
+      "display": "清河孝王刘庆",
+      "lane": "kin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 78,
+      "death": 106,
+      "birthNote": "建初三年，大贵人生庆。",
+      "deathNote": "安帝纪延平元年十二月甲子，清河王薨；本年二十九，与建初三年生合。",
+      "title": "章帝废太子，安帝之父",
+      "bio": "章帝子，母宋贵人。建初三年生，次年立为皇太子，七年因窦后谮陷宋氏被废为清河王。和帝待之特渥。子祜即位为安帝，庆薨后追尊孝德皇。",
+      "tags": [
+        "东汉",
+        "储位"
+      ],
+      "categories": [
+        "royal-kin",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-suan",
+      "name": "刘蒜",
+      "display": "清河王刘蒜",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 147,
+      "deathNote": "建和元年刘文、刘鲔谋立蒜，事觉，坐贬尉氏侯，徙桂阳，自杀。桓帝纪系建和元年。",
+      "title": "清河王当统，谋立未遂自杀",
+      "bio": "章帝玄孙，清河王（孝王庆嗣孙）。质帝崩，太尉李固等欲立蒜，梁冀、曹腾遂立桓帝，蒜由是得罪。建和元年刘文、刘鲔讹言「清河王当统天子」，事觉，贬尉氏侯徙桂阳，自杀，国绝。",
+      "tags": [
+        "东汉",
+        "储位"
+      ],
+      "categories": [
+        "royal-kin",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [

@@ -30,6 +30,11 @@
       "color": "#c98a3a"
     },
     {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "scholar",
       "name": "文臣 · 学者 · 士人",
       "color": "#2f6f9f"
@@ -38,6 +43,11 @@
       "id": "general",
       "name": "武将",
       "color": "#3f7d52"
+    },
+    {
+      "id": "qunxiong",
+      "name": "建安群雄",
+      "color": "#7f8c8d"
     },
     {
       "id": "end",
@@ -95,6 +105,10 @@
       "lane": "emperor"
     },
     {
+      "id": "liu-long-shangdi",
+      "lane": "emperor"
+    },
+    {
       "id": "yin-lihua",
       "lane": "consort"
     },
@@ -140,6 +154,134 @@
     },
     {
       "id": "huangfu-song",
+      "lane": "general"
+    },
+    {
+      "id": "jia-fu-junwen",
+      "lane": "general"
+    },
+    {
+      "id": "kou-xun",
+      "lane": "general"
+    },
+    {
+      "id": "cen-peng",
+      "lane": "general"
+    },
+    {
+      "id": "jia-zun",
+      "lane": "general"
+    },
+    {
+      "id": "jing-dan",
+      "lane": "general"
+    },
+    {
+      "id": "ge-yan",
+      "lane": "general"
+    },
+    {
+      "id": "yao-qi",
+      "lane": "general"
+    },
+    {
+      "id": "geng-chun",
+      "lane": "general"
+    },
+    {
+      "id": "zang-gong",
+      "lane": "general"
+    },
+    {
+      "id": "ma-wu",
+      "lane": "general"
+    },
+    {
+      "id": "ma-cheng",
+      "lane": "general"
+    },
+    {
+      "id": "wang-liang",
+      "lane": "general"
+    },
+    {
+      "id": "chen-jun",
+      "lane": "general"
+    },
+    {
+      "id": "du-mao",
+      "lane": "general"
+    },
+    {
+      "id": "fu-jun",
+      "lane": "general"
+    },
+    {
+      "id": "jian-tan",
+      "lane": "general"
+    },
+    {
+      "id": "wang-ba",
+      "lane": "general"
+    },
+    {
+      "id": "ren-guang",
+      "lane": "general"
+    },
+    {
+      "id": "li-zhong",
+      "lane": "general"
+    },
+    {
+      "id": "liu-zhi-boxian",
+      "lane": "general"
+    },
+    {
+      "id": "liu-long",
+      "lane": "general"
+    },
+    {
+      "id": "zhu-you",
+      "lane": "general"
+    },
+    {
+      "id": "lai-she",
+      "lane": "general"
+    },
+    {
+      "id": "dou-rong",
+      "lane": "general"
+    },
+    {
+      "id": "dou-gu",
+      "lane": "general"
+    },
+    {
+      "id": "geng-bing",
+      "lane": "general"
+    },
+    {
+      "id": "jia-rong",
+      "lane": "general"
+    },
+    {
+      "id": "huangfu-gui",
+      "lane": "general"
+    },
+    {
+      "id": "zhang-huan",
+      "lane": "general"
+    },
+    {
+      "id": "duan-jian",
+      "lane": "general"
+    },
+    {
+      "id": "zhu-jun",
+      "lane": "general"
+    },
+    {
+      "id": "lu-zhi-192",
       "lane": "general"
     },
     {
@@ -199,6 +341,86 @@
       "lane": "scholar"
     },
     {
+      "id": "feng-qin",
+      "lane": "scholar"
+    },
+    {
+      "id": "mou-rong",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhao-xi",
+      "lane": "scholar"
+    },
+    {
+      "id": "bao-yu",
+      "lane": "scholar"
+    },
+    {
+      "id": "yuan-an",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhang-pu",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhang-yu",
+      "lane": "scholar"
+    },
+    {
+      "id": "du-qiao",
+      "lane": "scholar"
+    },
+    {
+      "id": "huang-qiong",
+      "lane": "scholar"
+    },
+    {
+      "id": "yang-bing",
+      "lane": "scholar"
+    },
+    {
+      "id": "hu-guang",
+      "lane": "scholar"
+    },
+    {
+      "id": "qiao-xuan",
+      "lane": "scholar"
+    },
+    {
+      "id": "chen-qiu",
+      "lane": "scholar"
+    },
+    {
+      "id": "yang-ci",
+      "lane": "scholar"
+    },
+    {
+      "id": "he-xiu",
+      "lane": "scholar"
+    },
+    {
+      "id": "du-shi",
+      "lane": "scholar"
+    },
+    {
+      "id": "fan-pang",
+      "lane": "scholar"
+    },
+    {
+      "id": "du-mi",
+      "lane": "scholar"
+    },
+    {
+      "id": "liu-tao",
+      "lane": "scholar"
+    },
+    {
+      "id": "chen-shi",
+      "lane": "scholar"
+    },
+    {
       "id": "hua-tuo",
       "lane": "end"
     },
@@ -213,6 +435,90 @@
     {
       "id": "wang-yun",
       "lane": "end"
+    },
+    {
+      "id": "liu-xuan",
+      "lane": "end"
+    },
+    {
+      "id": "gongsun-shu",
+      "lane": "end"
+    },
+    {
+      "id": "kui-xiao",
+      "lane": "end"
+    },
+    {
+      "id": "fan-chao",
+      "lane": "end"
+    },
+    {
+      "id": "peng-chong",
+      "lane": "end"
+    },
+    {
+      "id": "liu-yong-donghan",
+      "lane": "end"
+    },
+    {
+      "id": "li-xian-donghan",
+      "lane": "end"
+    },
+    {
+      "id": "shan-chao",
+      "lane": "end"
+    },
+    {
+      "id": "hou-lan",
+      "lane": "end"
+    },
+    {
+      "id": "wang-fu-donghan",
+      "lane": "end"
+    },
+    {
+      "id": "cao-jie-eunuch",
+      "lane": "end"
+    },
+    {
+      "id": "zhang-rang",
+      "lane": "end"
+    },
+    {
+      "id": "zhao-zhong",
+      "lane": "end"
+    },
+    {
+      "id": "cao-cao",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sun-jian",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sun-ce",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "yuan-shao",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "yuan-shu",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "lv-bu",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "liu-biao",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "gongsun-zan",
+      "lane": "qunxiong"
     },
     {
       "id": "ma-hou-mingde",
@@ -237,6 +543,46 @@
     {
       "id": "cao-jie",
       "lane": "consort"
+    },
+    {
+      "id": "guo-shengtong",
+      "lane": "consort"
+    },
+    {
+      "id": "dou-zhangde",
+      "lane": "consort"
+    },
+    {
+      "id": "yan-ansi",
+      "lane": "consort"
+    },
+    {
+      "id": "dou-wu",
+      "lane": "consort"
+    },
+    {
+      "id": "fu-shou",
+      "lane": "consort"
+    },
+    {
+      "id": "liu-qiang",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-cang",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-ying-donghan",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-qing",
+      "lane": "kin"
+    },
+    {
+      "id": "liu-suan",
+      "lane": "kin"
     }
   ],
   "relationTypes": [
