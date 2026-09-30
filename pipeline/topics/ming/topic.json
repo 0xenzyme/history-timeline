@@ -2,7 +2,7 @@
   "meta": {
     "id": "ming",
     "title": "明",
-    "subtitle": "从洪武开国到煤山国殇 · 公元 1328 — 公元 1644",
+    "subtitle": "从洪武开国到煤山国殇 · 公元 1328 — 公元 1660",
     "range": [
       1320,
       1660
@@ -25,8 +25,18 @@
       "color": "#c0392b"
     },
     {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
+      "id": "consort",
+      "name": "后妃",
+      "color": "#c98a3a"
+    },
+    {
       "id": "chancellor",
-      "name": "名相 · 文臣",
+      "name": "宰辅 · 文臣",
       "color": "#2f6f9f"
     },
     {
@@ -36,12 +46,12 @@
     },
     {
       "id": "literati",
-      "name": "科技 · 文化",
+      "name": "文史 · 技艺",
       "color": "#1f7f8f"
     },
     {
       "id": "end",
-      "name": "权臣 · 末世群雄",
+      "name": "权臣 · 群雄 · 对立",
       "color": "#6b5b95"
     }
   ],
@@ -51,7 +61,15 @@
       "lane": "emperor"
     },
     {
+      "id": "zhu-yunwen",
+      "lane": "emperor"
+    },
+    {
       "id": "zhu-di",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-gaochi",
       "lane": "emperor"
     },
     {
@@ -60,26 +78,6 @@
     },
     {
       "id": "zhu-qizhen",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhu-houcong",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhu-yijun",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhu-youjian",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhu-yunwen",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhu-gaochi",
       "lane": "emperor"
     },
     {
@@ -99,7 +97,15 @@
       "lane": "emperor"
     },
     {
+      "id": "zhu-houcong",
+      "lane": "emperor"
+    },
+    {
       "id": "zhu-zaiji",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-yijun",
       "lane": "emperor"
     },
     {
@@ -111,7 +117,67 @@
       "lane": "emperor"
     },
     {
+      "id": "zhu-youjian",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-yousong",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhu-biao",
+      "lane": "kin"
+    },
+    {
+      "id": "zhu-quan",
+      "lane": "kin"
+    },
+    {
+      "id": "zhu-gaoxu",
+      "lane": "kin"
+    },
+    {
+      "id": "zhu-chenhao",
+      "lane": "kin"
+    },
+    {
+      "id": "ma-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "xu-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "zhang-taihu",
+      "lane": "consort"
+    },
+    {
+      "id": "wan-guifei",
+      "lane": "consort"
+    },
+    {
+      "id": "zheng-guifei",
+      "lane": "consort"
+    },
+    {
       "id": "liu-ji",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-shan-chang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xie-jin",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yao-guangxiao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xia-yuanji",
       "lane": "chancellor"
     },
     {
@@ -119,7 +185,39 @@
       "lane": "chancellor"
     },
     {
+      "id": "yang-rong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-pu",
+      "lane": "chancellor"
+    },
+    {
       "id": "yu-qian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-xian-ming",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xu-you-zhen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shang-lu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-dongyang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-jian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-tinghe",
       "lane": "chancellor"
     },
     {
@@ -127,7 +225,19 @@
       "lane": "chancellor"
     },
     {
+      "id": "yang-yiqing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-gong",
+      "lane": "chancellor"
+    },
+    {
       "id": "zhang-juzheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xu-jie",
       "lane": "chancellor"
     },
     {
@@ -135,27 +245,63 @@
       "lane": "chancellor"
     },
     {
-      "id": "yan-song",
-      "lane": "end"
+      "id": "gu-xiancheng",
+      "lane": "chancellor"
     },
     {
-      "id": "wei-zhongxian",
-      "lane": "end"
+      "id": "yang-lian",
+      "lane": "chancellor"
     },
     {
-      "id": "xu-da",
-      "lane": "general"
+      "id": "ye-xianggao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-panlong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shen-shixing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-sichang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shi-kefa",
+      "lane": "chancellor"
     },
     {
       "id": "chang-yuchun",
       "lane": "general"
     },
     {
-      "id": "qi-jiguang",
+      "id": "xu-da",
       "lane": "general"
     },
     {
-      "id": "yuan-chonghuan",
+      "id": "li-wenzhong",
+      "lane": "general"
+    },
+    {
+      "id": "mu-ying",
+      "lane": "general"
+    },
+    {
+      "id": "lan-yu",
+      "lane": "general"
+    },
+    {
+      "id": "fu-youde",
+      "lane": "general"
+    },
+    {
+      "id": "tang-he",
+      "lane": "general"
+    },
+    {
+      "id": "tie-xuan",
       "lane": "general"
     },
     {
@@ -163,7 +309,107 @@
       "lane": "general"
     },
     {
+      "id": "hu-zongxian",
+      "lane": "general"
+    },
+    {
+      "id": "yu-dayou",
+      "lane": "general"
+    },
+    {
+      "id": "qi-jiguang",
+      "lane": "general"
+    },
+    {
+      "id": "li-chengliang",
+      "lane": "general"
+    },
+    {
+      "id": "liu-ting",
+      "lane": "general"
+    },
+    {
+      "id": "xiong-tingbi",
+      "lane": "general"
+    },
+    {
+      "id": "yuan-chonghuan",
+      "lane": "general"
+    },
+    {
+      "id": "sun-chengzong",
+      "lane": "general"
+    },
+    {
+      "id": "lu-xiangsheng",
+      "lane": "general"
+    },
+    {
+      "id": "sun-chuanting",
+      "lane": "general"
+    },
+    {
+      "id": "qin-liangyu",
+      "lane": "general"
+    },
+    {
+      "id": "gao-qi",
+      "lane": "literati"
+    },
+    {
+      "id": "song-lian",
+      "lane": "literati"
+    },
+    {
+      "id": "chen-xianzhang",
+      "lane": "literati"
+    },
+    {
+      "id": "tang-yin",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-gen",
+      "lane": "literati"
+    },
+    {
+      "id": "wen-zhengming",
+      "lane": "literati"
+    },
+    {
+      "id": "tang-shunzhi",
+      "lane": "literati"
+    },
+    {
+      "id": "gui-youguang",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-shizhen",
+      "lane": "literati"
+    },
+    {
       "id": "li-shi-zhen",
+      "lane": "literati"
+    },
+    {
+      "id": "xu-wei",
+      "lane": "literati"
+    },
+    {
+      "id": "li-zhi-ming",
+      "lane": "literati"
+    },
+    {
+      "id": "li-madou",
+      "lane": "literati"
+    },
+    {
+      "id": "zhu-zaiyu",
+      "lane": "literati"
+    },
+    {
+      "id": "tang-xianzu",
       "lane": "literati"
     },
     {
@@ -171,11 +417,15 @@
       "lane": "literati"
     },
     {
-      "id": "song-yingxing",
+      "id": "dong-qichang",
       "lane": "literati"
     },
     {
-      "id": "tang-xianzu",
+      "id": "xu-xiake",
+      "lane": "literati"
+    },
+    {
+      "id": "song-yingxing",
       "lane": "literati"
     },
     {
@@ -187,11 +437,63 @@
       "lane": "literati"
     },
     {
+      "id": "chen-youliang",
+      "lane": "end"
+    },
+    {
+      "id": "zhang-shicheng",
+      "lane": "end"
+    },
+    {
+      "id": "hu-wei-yong",
+      "lane": "end"
+    },
+    {
+      "id": "wang-zhen-ming",
+      "lane": "end"
+    },
+    {
+      "id": "ye-xian",
+      "lane": "end"
+    },
+    {
+      "id": "liu-jin",
+      "lane": "end"
+    },
+    {
+      "id": "yan-song",
+      "lane": "end"
+    },
+    {
+      "id": "anda-han",
+      "lane": "end"
+    },
+    {
+      "id": "nurhaci",
+      "lane": "end"
+    },
+    {
+      "id": "wei-zhongxian",
+      "lane": "end"
+    },
+    {
+      "id": "wen-tiren",
+      "lane": "end"
+    },
+    {
+      "id": "hong-taiji",
+      "lane": "end"
+    },
+    {
       "id": "li-zicheng",
       "lane": "end"
     },
     {
       "id": "zhang-xianzhong",
+      "lane": "end"
+    },
+    {
+      "id": "duo-er-gun",
       "lane": "end"
     },
     {
@@ -446,6 +748,660 @@
       "target": "zhu-youjian",
       "type": "kin",
       "note": "兄弟，熹宗崩，弟思宗继"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "ma-huanghou",
+      "type": "kin",
+      "note": "夫妇，好读书、屡劝宽刑"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "zhu-biao",
+      "type": "kin",
+      "note": "父子，太子先卒，遂以太孙承统"
+    },
+    {
+      "source": "zhu-biao",
+      "target": "zhu-yunwen",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "li-wenzhong",
+      "type": "kin",
+      "note": "甥舅，文忠为太祖姊之子"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "mu-ying",
+      "type": "kin",
+      "note": "养子，赐姓而世镇云南"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "li-shan-chang",
+      "type": "ruler-subject",
+      "note": "掌书记、给军食，开国第一文臣"
+    },
+    {
+      "source": "li-shan-chang",
+      "target": "hu-wei-yong",
+      "type": "peer",
+      "note": "善长荐之入相，后皆坐其党"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "hu-wei-yong",
+      "type": "rival",
+      "note": "既诛惟庸，遂罢中书省，丞相之官自此不设",
+      "since": 1380
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "lan-yu",
+      "type": "rival",
+      "note": "坐谋反诛，列侯以下死者万五千余人",
+      "since": 1393
+    },
+    {
+      "source": "lan-yu",
+      "target": "fu-youde",
+      "type": "peer",
+      "note": "同为洪武末被诛的开国功臣"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "tang-he",
+      "type": "ruler-subject",
+      "note": "同里旧侣，请解兵归第得以令终"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "song-lian",
+      "type": "ruler-subject",
+      "note": "总修元史、教太子诸王，为文臣之首"
+    },
+    {
+      "source": "song-lian",
+      "target": "gao-qi",
+      "type": "peer",
+      "note": "同以文章受知于太祖，皆不得终于乡里"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "zhang-shicheng",
+      "type": "rival",
+      "note": "平江围久乃下，士诚被执而死",
+      "since": 1367
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "chen-youliang",
+      "type": "rival",
+      "note": "鄱阳湖一战，友谅中流矢死",
+      "since": 1363
+    },
+    {
+      "source": "zhu-di",
+      "target": "yao-guangxiao",
+      "type": "ruler-subject",
+      "note": "靖难之计多出其画，住僧寺而赞军机"
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-quan",
+      "type": "peer",
+      "note": "宁王之甲兵为其所并，事后改封南昌"
+    },
+    {
+      "source": "zhu-di",
+      "target": "xu-huanghou",
+      "type": "kin",
+      "note": "夫妇，仁孝徐皇后"
+    },
+    {
+      "source": "xu-da",
+      "target": "xu-huanghou",
+      "type": "kin",
+      "note": "父女，长女为燕王妃"
+    },
+    {
+      "source": "zhu-di",
+      "target": "tie-xuan",
+      "type": "rival",
+      "note": "济南之守挫其锋，壬午城破遂遇害",
+      "since": 1402
+    },
+    {
+      "source": "zhu-di",
+      "target": "xie-jin",
+      "type": "ruler-subject",
+      "note": "总纂《永乐大典》，才高而不终"
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-gaoxu",
+      "type": "kin",
+      "note": "父子，永乐间数有夺嫡之谋"
+    },
+    {
+      "source": "zhu-zhanji",
+      "target": "zhu-gaoxu",
+      "type": "rival",
+      "note": "汉王举兵，宣宗亲征而擒之",
+      "since": 1426
+    },
+    {
+      "source": "zhu-chenhao",
+      "target": "zhu-quan",
+      "type": "kin",
+      "note": "同出宁王一系，袭封南昌而举事"
+    },
+    {
+      "source": "wang-shouren",
+      "target": "zhu-chenhao",
+      "type": "rival",
+      "note": "四十三日平其乱，擒宸濠于樵舍",
+      "since": 1519
+    },
+    {
+      "source": "zhu-houzhao",
+      "target": "zhu-chenhao",
+      "type": "rival",
+      "note": "宁藩之叛起于正德十四年",
+      "since": 1519
+    },
+    {
+      "source": "zhu-gaochi",
+      "target": "zhang-taihu",
+      "type": "kin",
+      "note": "夫妇，宣宗之母"
+    },
+    {
+      "source": "zhu-zhanji",
+      "target": "zhang-taihu",
+      "type": "kin",
+      "note": "母子，太后委政于三杨"
+    },
+    {
+      "source": "yang-shiqi",
+      "target": "yang-rong",
+      "type": "peer",
+      "note": "同为三杨，历事四朝"
+    },
+    {
+      "source": "yang-shiqi",
+      "target": "yang-pu",
+      "type": "peer",
+      "note": "同为三杨，共成仁宣之治"
+    },
+    {
+      "source": "zhu-zhanji",
+      "target": "xia-yuanji",
+      "type": "ruler-subject",
+      "note": "掌户部三十年，理财而不事聚敛"
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "wang-zhen-ming",
+      "type": "ruler-subject",
+      "note": "司礼监窃持威福，劝帝亲征",
+      "since": 1442
+    },
+    {
+      "source": "ye-xian",
+      "target": "zhu-qizhen",
+      "type": "rival",
+      "note": "土木堡之败，帝为其所俘",
+      "since": 1449
+    },
+    {
+      "source": "ye-xian",
+      "target": "wang-zhen-ming",
+      "type": "rival",
+      "note": "一军俱没于土木，王振死于乱兵",
+      "since": 1449
+    },
+    {
+      "source": "ye-xian",
+      "target": "yu-qian",
+      "type": "rival",
+      "note": "挟上皇叩京师，谦督九门之兵拒之",
+      "since": 1449
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "xu-you-zhen",
+      "type": "ruler-subject",
+      "note": "夺门之谋主，以功入阁而旋败"
+    },
+    {
+      "source": "xu-you-zhen",
+      "target": "yu-qian",
+      "type": "rival",
+      "note": "以意欲二字定其死，天下冤之",
+      "since": 1457
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "li-xian-ming",
+      "type": "ruler-subject",
+      "note": "复位后入阁掌吏部，抑曹石之党"
+    },
+    {
+      "source": "zhu-jianshen",
+      "target": "shang-lu",
+      "type": "ruler-subject",
+      "note": "三元及第入阁，请罢西厂而去"
+    },
+    {
+      "source": "zhu-jianshen",
+      "target": "wan-guifei",
+      "type": "kin",
+      "note": "专宠掖庭，外廷不敢问"
+    },
+    {
+      "source": "zhu-youtang",
+      "target": "liu-jian",
+      "type": "ruler-subject",
+      "note": "弘治辅政之臣，时称刘公断"
+    },
+    {
+      "source": "liu-jian",
+      "target": "li-dongyang",
+      "type": "peer",
+      "note": "同为顾命之臣，同心辅政"
+    },
+    {
+      "source": "zhu-houzhao",
+      "target": "li-dongyang",
+      "type": "ruler-subject",
+      "note": "正德初独留内阁，隐护善类"
+    },
+    {
+      "source": "zhu-houzhao",
+      "target": "liu-jin",
+      "type": "ruler-subject",
+      "note": "八虎之首，正德初政出其门"
+    },
+    {
+      "source": "liu-jin",
+      "target": "yang-yiqing",
+      "type": "rival",
+      "note": "与张永共谋，卒诛刘瑾",
+      "since": 1510
+    },
+    {
+      "source": "yang-tinghe",
+      "target": "zhu-houcong",
+      "type": "ruler-subject",
+      "note": "定策迎立，登极诏尽罢前朝弊政"
+    },
+    {
+      "source": "yang-tinghe",
+      "target": "zhu-houcong",
+      "type": "rival",
+      "note": "大礼议起，力争不得而去位",
+      "since": 1524
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "xu-jie",
+      "type": "ruler-subject",
+      "note": "承严嵩之后为首辅，务为安静"
+    },
+    {
+      "source": "xu-jie",
+      "target": "yan-song",
+      "type": "rival",
+      "note": "以方术事世宗，终为徐阶所攻去",
+      "since": 1562
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "hu-zongxian",
+      "type": "ruler-subject",
+      "note": "总督浙直福建军务，用俞戚以平倭"
+    },
+    {
+      "source": "hu-zongxian",
+      "target": "yu-dayou",
+      "type": "ruler-subject",
+      "note": "幕府用之，俞家军屡立水战之功"
+    },
+    {
+      "source": "hu-zongxian",
+      "target": "qi-jiguang",
+      "type": "ruler-subject",
+      "note": "调义乌之兵，成节制之师"
+    },
+    {
+      "source": "yu-dayou",
+      "target": "qi-jiguang",
+      "type": "peer",
+      "note": "同为抗倭名将，时称俞龙戚虎"
+    },
+    {
+      "source": "qi-jiguang",
+      "target": "tang-shunzhi",
+      "type": "peer",
+      "note": "同在东南海防，一文一武"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "tang-shunzhi",
+      "type": "ruler-subject",
+      "note": "以兵部郎中视师海上，卒于舟中"
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "anda-han",
+      "type": "rival",
+      "note": "庚戌之变，其众薄都城而焚掠近畿",
+      "since": 1550
+    },
+    {
+      "source": "gao-gong",
+      "target": "anda-han",
+      "type": "peer",
+      "note": "主封贡之议，北边开互市",
+      "since": 1571
+    },
+    {
+      "source": "zhu-zaiji",
+      "target": "gao-gong",
+      "type": "ruler-subject",
+      "note": "藩邸旧臣，主俺答封贡与考绩之法"
+    },
+    {
+      "source": "gao-gong",
+      "target": "zhang-juzheng",
+      "type": "rival",
+      "note": "冯保交结，拱去而居正遂专政",
+      "since": 1572
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "shen-shixing",
+      "type": "ruler-subject",
+      "note": "继居正之后为首辅，务为宽静"
+    },
+    {
+      "source": "zhang-juzheng",
+      "target": "shen-shixing",
+      "type": "peer",
+      "note": "同为万历初政的内阁重臣"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zheng-guifei",
+      "type": "kin",
+      "note": "宠冠后宫，争国本者十余年"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "li-chengliang",
+      "type": "ruler-subject",
+      "note": "镇辽东三十年，边事一以委之"
+    },
+    {
+      "source": "li-chengliang",
+      "target": "nurhaci",
+      "type": "rival",
+      "note": "其祖父死于古勒之役，衅由此起",
+      "since": 1583
+    },
+    {
+      "source": "nurhaci",
+      "target": "hong-taiji",
+      "type": "kin",
+      "note": "父子，第八子嗣位而改国号为清"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "liu-ting",
+      "type": "ruler-subject",
+      "note": "朝鲜、播州之役皆当其锋"
+    },
+    {
+      "source": "liu-ting",
+      "target": "nurhaci",
+      "type": "rival",
+      "note": "萨尔浒三路败没，綖以孤军战死",
+      "since": 1619
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "ye-xianggao",
+      "type": "ruler-subject",
+      "note": "万历末独相，请补阁臣而不得"
+    },
+    {
+      "source": "ye-xianggao",
+      "target": "wei-zhongxian",
+      "type": "rival",
+      "note": "拂忠贤之意而去位",
+      "since": 1624
+    },
+    {
+      "source": "wei-zhongxian",
+      "target": "yang-lian",
+      "type": "rival",
+      "note": "涟上二十四罪疏，遂死于诏狱",
+      "since": 1624
+    },
+    {
+      "source": "yang-lian",
+      "target": "gao-panlong",
+      "type": "peer",
+      "note": "同列东林而被逮治，死状最惨"
+    },
+    {
+      "source": "gu-xiancheng",
+      "target": "gao-panlong",
+      "type": "peer",
+      "note": "同为东林之魁，讲学东林书院"
+    },
+    {
+      "source": "gu-xiancheng",
+      "target": "wei-zhongxian",
+      "type": "rival",
+      "note": "东林之榜既出，身后仍遭追削"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "xiong-tingbi",
+      "type": "ruler-subject",
+      "note": "经略辽东，三方布置之策未得行"
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "sun-chengzong",
+      "type": "ruler-subject",
+      "note": "以大学士督师蓟辽，练车营、复四城"
+    },
+    {
+      "source": "sun-chengzong",
+      "target": "yuan-chonghuan",
+      "type": "mentor",
+      "note": "经略辽事之日，崇焕为其属将"
+    },
+    {
+      "source": "yuan-chonghuan",
+      "target": "nurhaci",
+      "type": "rival",
+      "note": "宁远守战，其役之后汗遂崩",
+      "since": 1626
+    },
+    {
+      "source": "yuan-chonghuan",
+      "target": "hong-taiji",
+      "type": "rival",
+      "note": "反间既行，崇焕遂逮而见戮",
+      "since": 1629
+    },
+    {
+      "source": "hong-taiji",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "note": "兄弟，弟为摄政而定鼎北京"
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "wu-sangui",
+      "type": "ruler-subject",
+      "note": "纳其降表，山海关一战入北京"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "wen-tiren",
+      "type": "ruler-subject",
+      "note": "崇祯朝为首辅，为政刻深"
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "yang-sichang",
+      "type": "ruler-subject",
+      "note": "以兵部尚书督师剿寇，创十面之网"
+    },
+    {
+      "source": "yang-sichang",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "note": "玛瑙山之捷后为其所乘",
+      "since": 1640
+    },
+    {
+      "source": "yang-sichang",
+      "target": "lu-xiangsheng",
+      "type": "peer",
+      "note": "同为崇祯朝督师剿寇之臣"
+    },
+    {
+      "source": "lu-xiangsheng",
+      "target": "duo-er-gun",
+      "type": "rival",
+      "note": "清兵入塞，督师勤王而孤军战没",
+      "since": 1638
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "sun-chuanting",
+      "type": "ruler-subject",
+      "note": "总督陕西，练秦兵而剿寇最有声"
+    },
+    {
+      "source": "sun-chuanting",
+      "target": "li-zicheng",
+      "type": "rival",
+      "note": "潼关军溃而死，自成遂长驱入关",
+      "since": 1643
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "qin-liangyu",
+      "type": "ruler-subject",
+      "note": "率白杆兵勤王，加封一品夫人"
+    },
+    {
+      "source": "qin-liangyu",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "note": "守石砫而拒其一军不得入蜀",
+      "since": 1640
+    },
+    {
+      "source": "shi-kefa",
+      "target": "zhu-yousong",
+      "type": "ruler-subject",
+      "note": "弘光立于南京，可法督师江北"
+    },
+    {
+      "source": "shi-kefa",
+      "target": "duo-er-gun",
+      "type": "rival",
+      "note": "扬州城破，可法被执不屈而死",
+      "since": 1645
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhu-yousong",
+      "type": "kin",
+      "note": "宗亲，煤山之后南京奉其为弘光帝"
+    },
+    {
+      "source": "xu-guangqi",
+      "target": "li-madou",
+      "type": "mentor",
+      "note": "共译《几何原本》，西学由此入历局"
+    },
+    {
+      "source": "xu-guangqi",
+      "target": "song-yingxing",
+      "type": "peer",
+      "note": "同为晚明实学之士：一重历算，一重工技"
+    },
+    {
+      "source": "tang-xianzu",
+      "target": "wu-chengen",
+      "type": "peer",
+      "note": "同为明代戏曲小说之林的两家"
+    },
+    {
+      "source": "chen-xianzhang",
+      "target": "wang-shouren",
+      "type": "peer",
+      "note": "白沙之学启阳明心学之先路"
+    },
+    {
+      "source": "wang-shouren",
+      "target": "wang-gen",
+      "type": "mentor",
+      "note": "受业门下，遂传百姓日用之学"
+    },
+    {
+      "source": "wang-gen",
+      "target": "li-zhi-ming",
+      "type": "mentor",
+      "note": "本其日用即道之说而益纵之"
+    },
+    {
+      "source": "tang-yin",
+      "target": "wen-zhengming",
+      "type": "peer",
+      "note": "同为吴中才士，一放诞一谨重"
+    },
+    {
+      "source": "wen-zhengming",
+      "target": "dong-qichang",
+      "type": "peer",
+      "note": "吴门之宗与华亭南北宗之说，前后相望"
+    },
+    {
+      "source": "gui-youguang",
+      "target": "wang-shizhen",
+      "type": "peer",
+      "note": "同以文辞名世，一主唐宋一主秦汉"
+    },
+    {
+      "source": "xu-wei",
+      "target": "hu-zongxian",
+      "type": "ruler-subject",
+      "note": "入其幕府，代草章奏而亲见倭事"
+    },
+    {
+      "source": "xu-xiake",
+      "target": "xu-guangqi",
+      "type": "peer",
+      "note": "同为晚明以行历与实验求知者"
+    },
+    {
+      "source": "zhu-zaiyu",
+      "target": "xu-guangqi",
+      "type": "peer",
+      "note": "同精律历之学，皆有推步之书"
     }
   ],
   "events": [
@@ -468,7 +1424,10 @@
       "year": 1402,
       "people": [
         "zhu-di",
-        "zhu-yuanzhang"
+        "zhu-yuanzhang",
+        "yao-guangxiao",
+        "zhu-quan",
+        "tie-xuan"
       ],
       "desc": "燕王朱棣起兵靖难，入南京继统。在位营北京、修大典、通西洋，是为永乐盛世。"
     },
@@ -501,7 +1460,9 @@
       "year": 1449,
       "people": [
         "zhu-qizhen",
-        "yu-qian"
+        "yu-qian",
+        "wang-zhen-ming",
+        "ye-xian"
       ],
       "desc": "英宗亲征瓦剌，土木堡溃败被俘；于谦力排南迁，拥郕王监国，督师破敌于北京。"
     },
@@ -512,7 +1473,8 @@
       "year": 1457,
       "people": [
         "zhu-qizhen",
-        "yu-qian"
+        "yu-qian",
+        "xu-you-zhen"
       ],
       "desc": "英宗南宫复辟，杀于谦。谦社稷之臣，天下冤之；明之忠佞由此可见。"
     },
@@ -548,7 +1510,8 @@
       "people": [
         "yan-song",
         "hai-rui",
-        "zhu-houcong"
+        "zhu-houcong",
+        "xu-jie"
       ],
       "desc": "严嵩窃柄、边防日坏；海瑞备棺上《治安疏》直谏嘉靖，朝野震动。"
     },
@@ -584,9 +1547,105 @@
         "li-zicheng",
         "zhang-xianzhong",
         "wu-sangui",
-        "zhu-youjian"
+        "zhu-youjian",
+        "duo-er-gun",
+        "shi-kefa"
       ],
       "desc": "李自成破北京，崇祯自缢煤山；吴三桂引清兵入关，山海关一战定鼎易主，明祚终。"
+    },
+    {
+      "id": "ming-huwei-yong",
+      "name": "胡惟庸案 · 废丞相",
+      "kind": "point",
+      "year": 1380,
+      "people": [
+        "hu-wei-yong",
+        "zhu-yuanzhang",
+        "li-shan-chang"
+      ],
+      "desc": "胡惟庸以谋逆诛，牵连至三万余人。太祖遂罢中书省，不复置丞相，六部直属天子，皇权自此为一变。"
+    },
+    {
+      "id": "ming-lanyu",
+      "name": "蓝玉案",
+      "kind": "point",
+      "year": 1393,
+      "people": [
+        "lan-yu",
+        "fu-youde",
+        "zhu-yuanzhang"
+      ],
+      "desc": "蓝玉以谋反诛，列侯以下坐死者万五千人。开国功臣至是一空，唯汤和数人得以令终。"
+    },
+    {
+      "id": "ming-chenhao",
+      "name": "宁王之乱",
+      "kind": "point",
+      "year": 1519,
+      "people": [
+        "zhu-chenhao",
+        "wang-shouren",
+        "zhu-houzhao"
+      ],
+      "desc": "宁王宸濠据南昌举兵，略九江、攻安庆。提督王守仁仓卒起义兵，四十三日而擒之。"
+    },
+    {
+      "id": "ming-dali",
+      "name": "大礼议",
+      "kind": "point",
+      "year": 1524,
+      "people": [
+        "yang-tinghe",
+        "zhu-houcong"
+      ],
+      "desc": "世宗欲尊本生父母为帝后，廷臣与之为礼议之争。杨廷和先已去位，至是左顺门哭谏者被廷杖，议礼之臣遂定。"
+    },
+    {
+      "id": "ming-gengxu",
+      "name": "庚戌之变",
+      "kind": "point",
+      "year": 1550,
+      "people": [
+        "anda-han",
+        "zhu-houcong"
+      ],
+      "desc": "俺答大举入寇，薄都城而焚掠近畿八日，援兵皆观望不敢战。此后始议筑边墙、练蓟镇之兵。"
+    },
+    {
+      "id": "ming-saerhu",
+      "name": "萨尔浒之战",
+      "kind": "point",
+      "year": 1619,
+      "people": [
+        "liu-ting",
+        "nurhaci",
+        "zhu-yijun"
+      ],
+      "desc": "明四路出师十余万讨后金，努尔哈赤以集中之兵破其分路，刘綎等三路先后败没，辽事遂不可问。"
+    },
+    {
+      "id": "ming-donglin",
+      "name": "东林六君子之狱",
+      "kind": "point",
+      "year": 1625,
+      "people": [
+        "yang-lian",
+        "gao-panlong",
+        "wei-zhongxian"
+      ],
+      "desc": "杨涟劾魏忠贤之后，六君子同下诏狱拷掠而死；次年又逮高攀龙等七人，攀龙赴水自沉，东林一空。"
+    },
+    {
+      "id": "ming-nanjing",
+      "name": "扬州之役 · 弘光之亡",
+      "kind": "point",
+      "year": 1645,
+      "people": [
+        "shi-kefa",
+        "zhu-yousong",
+        "duo-er-gun"
+      ],
+      "desc": "清兵南下，史可法守扬州，城破死之；弘光帝出奔被执，南明第一个朝廷就此终结。"
     }
   ],
   "views": [
@@ -596,80 +1655,179 @@
       "from": 1320,
       "to": 1660,
       "focus": "zhu-yuanzhang",
-      "brief": "朱元璋的条起于洪武，压过其下六帝。徐达、常遇春、郑和列于开国；张居正、戚继光撑起中叶；尾段魏忠贤、袁崇焕、李自成、吴三桂把国运拽向煤山。"
+      "brief": "洪武到崇祯十六帝的红条排成一列，中无断缺；其下宗室与后妃几条短横，紧接着是连续不断的一条宰辅之线。中叶之后将帅的绿条与文人的青条并行而下，末段紫条由阉党、辽东、群雄三段接住，弘光与吴三桂的两条收在 1660 之前。"
     },
     {
       "id": "kai",
-      "name": "开国与永乐",
-      "from": 1350,
+      "name": "开国与靖难",
+      "from": 1340,
       "to": 1435,
       "focus": "zhu-yuanzhang",
-      "brief": "朱元璋称帝、北伐克元；朱棣靖难、迁都北京、派郑和下西洋。刘基、徐达、姚广孝一脉，奠定二百年格局。",
+      "brief": "朱元璋起于濠州，一条从 1328 直贯到 1398；其晚年几年的节点把开国诸将一并收尽，胡惟庸与蓝玉两条在同一窗内先后断掉。建文一线短得像一道缝隙，永乐接上之后再无间断，郑和下西洋的长条横过窗的上半。",
       "people": [
         "zhu-yuanzhang",
+        "ma-huanghou",
+        "zhu-biao",
+        "li-shan-chang",
+        "song-lian",
         "liu-ji",
         "xu-da",
         "chang-yuchun",
+        "tang-he",
+        "li-wenzhong",
+        "mu-ying",
+        "lan-yu",
+        "fu-youde",
+        "hu-wei-yong",
+        "zhu-yunwen",
+        "tie-xuan",
+        "yao-guangxiao",
         "zhu-di",
-        "yang-shiqi",
-        "zheng-he"
+        "xu-huanghou",
+        "xie-jin"
       ],
       "events": [
         "ming-kai",
+        "ming-huwei-yong",
+        "ming-lanyu",
         "ming-jingnan",
         "ming-qiandu",
         "ming-xiyang"
       ]
     },
     {
-      "id": "zhong",
-      "name": "中叶：倭患与改革",
-      "from": 1500,
-      "to": 1600,
-      "focus": "zhu-houcong",
-      "brief": "嘉靖崇道委严嵩，海瑞骂疏；王守仁平宸濠、倡心学；戚继光平倭、张居正行新政。一代治乱相掺。",
+      "id": "zhongye",
+      "name": "土木与夺门",
+      "from": 1435,
+      "to": 1520,
+      "focus": "zhu-qizhen",
+      "brief": "正统、景泰、天顺三条互相重叠，英宗的那条被从中隔断一次，明代唯一两度为帝的人就在这一窗。王振与也先的紫条在 1449 同时收尾；其后宪宗、孝宗、武宗相接而不断，刘瑾一条落在正德初年。",
       "people": [
+        "zhu-qizhen",
+        "wang-zhen-ming",
+        "ye-xian",
+        "yu-qian",
+        "zhu-qiyu",
+        "xu-you-zhen",
+        "li-xian-ming",
+        "zhu-jianshen",
+        "wan-guifei",
+        "shang-lu",
+        "zhu-youtang",
+        "liu-jian",
+        "li-dongyang",
+        "liu-jin",
+        "zhu-houzhao",
+        "yang-tinghe"
+      ],
+      "events": [
+        "ming-tumu",
+        "ming-duomen",
+        "ming-chenhao",
+        "ming-dali"
+      ]
+    },
+    {
+      "id": "zhong",
+      "name": "嘉靖万历：倭患与新政",
+      "from": 1500,
+      "to": 1605,
+      "focus": "zhu-houcong",
+      "brief": "嘉靖一条长达四十五年，严嵩与海瑞分列其两侧；其下是俞大猷与戚继光两条互相平行的绿条。张居正新政十年紧接其后，万历中叶之后这条线的重心就移到深宫与宦竖那边。",
+      "people": [
+        "zhu-houzhao",
+        "yang-tinghe",
         "zhu-houcong",
+        "yang-yiqing",
         "yan-song",
+        "xu-jie",
         "hai-rui",
         "wang-shouren",
+        "anda-han",
+        "hu-zongxian",
+        "yu-dayou",
         "qi-jiguang",
+        "tang-shunzhi",
         "zhu-yijun",
+        "gao-gong",
         "zhang-juzheng",
+        "li-chengliang",
+        "zheng-guifei",
+        "shen-shixing",
+        "xu-guangqi"
+      ],
+      "events": [
+        "ming-gengxu",
+        "ming-kangwo",
+        "ming-zhangju",
+        "ming-yan"
+      ]
+    },
+    {
+      "id": "wen",
+      "name": "心学 · 文章 · 格致",
+      "from": 1360,
+      "to": 1645,
+      "focus": "wang-shouren",
+      "brief": "这条青线上是另一种次序：宋濂、高启贴着洪武，其下心学与实学各成一束。先看王守仁，再看他两侧的王艮与李贽；唐寅与文徵明两条几乎同起同止，晚明则落到徐光启、宋应星、徐霞客一线。",
+      "people": [
+        "song-lian",
+        "gao-qi",
+        "chen-xianzhang",
+        "wang-shouren",
+        "wang-gen",
+        "tang-yin",
+        "wen-zhengming",
+        "gui-youguang",
+        "tang-xianzu",
+        "luo-guanzhong",
+        "wu-chengen",
+        "xu-wei",
+        "li-zhi-ming",
+        "zhu-zaiyu",
+        "dong-qichang",
+        "xu-xiake",
         "li-shi-zhen",
         "xu-guangqi",
         "song-yingxing",
-        "tang-xianzu",
-        "luo-guanzhong",
-        "wu-chengen"
-      ],
-      "events": [
-        "ming-kangwo",
-        "ming-zhangju",
-        "ming-yan",
-        "ming-wanli"
+        "li-madou"
       ]
     },
     {
       "id": "mo",
-      "name": "末世：危局与鼎革",
+      "name": "辽事与鼎革",
       "from": 1580,
       "to": 1660,
       "focus": "zhu-youjian",
-      "brief": "万历怠政、天启阉祸；崇祯诛魏忠贤而自毁长城，袁崇焕冤死。李自成破京、吴三桂引清兵，煤山一缢，明亡清兴。",
+      "brief": "窗内紫红两条并行：上面是明廷与辽镇的一串节点，下面是后金到清的一条不断变长的条。袁崇焕与皇太极两条在 1630 前后互咬，最后李自成与多尔衮几乎同时抵达 1644 年，煤山之后只剩两条。",
       "people": [
-        "zhu-yijun",
+        "zhu-youxiao",
         "wei-zhongxian",
-        "zhu-youjian",
+        "yang-lian",
+        "gu-xiancheng",
+        "nurhaci",
+        "liu-ting",
+        "xiong-tingbi",
+        "sun-chengzong",
         "yuan-chonghuan",
+        "hong-taiji",
+        "zhu-youjian",
+        "yang-sichang",
+        "lu-xiangsheng",
+        "sun-chuanting",
         "li-zicheng",
         "zhang-xianzhong",
+        "shi-kefa",
+        "duo-er-gun",
+        "zhu-yousong",
         "wu-sangui"
       ],
       "events": [
-        "ming-wanli",
+        "ming-saerhu",
+        "ming-donglin",
         "ming-yuan",
-        "ming-wang"
+        "ming-wang",
+        "ming-nanjing"
       ]
     }
   ]

@@ -25,19 +25,34 @@
       "color": "#c0392b"
     },
     {
+      "id": "consort",
+      "name": "后妃 · 外戚",
+      "color": "#c98a3a"
+    },
+    {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
+    },
+    {
       "id": "chancellor",
       "name": "名相 · 文臣",
       "color": "#2f6f9f"
     },
     {
       "id": "general",
-      "name": "名将 · 抗金",
+      "name": "将帅",
       "color": "#3f7d52"
     },
     {
       "id": "literati",
-      "name": "文学 · 理学",
+      "name": "文学 · 艺术 · 学术",
       "color": "#1f7f8f"
+    },
+    {
+      "id": "rival",
+      "name": "对立面 · 外族",
+      "color": "#8f4a55"
     },
     {
       "id": "end",
@@ -63,11 +78,23 @@
       "lane": "emperor"
     },
     {
+      "id": "zhao-shu",
+      "lane": "emperor"
+    },
+    {
       "id": "zhao-xu",
       "lane": "emperor"
     },
     {
+      "id": "zhao-xu-zhe",
+      "lane": "emperor"
+    },
+    {
       "id": "zhao-ji",
+      "lane": "emperor"
+    },
+    {
+      "id": "zhao-huan",
       "lane": "emperor"
     },
     {
@@ -76,18 +103,6 @@
     },
     {
       "id": "zhao-shen",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhao-shu",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhao-xu-zhe",
-      "lane": "emperor"
-    },
-    {
-      "id": "zhao-huan",
       "lane": "emperor"
     },
     {
@@ -107,11 +122,11 @@
       "lane": "emperor"
     },
     {
-      "id": "zhao-xian",
+      "id": "zhao-shi",
       "lane": "emperor"
     },
     {
-      "id": "zhao-shi",
+      "id": "zhao-xian",
       "lane": "emperor"
     },
     {
@@ -119,7 +134,131 @@
       "lane": "emperor"
     },
     {
+      "id": "du-taihou",
+      "lane": "consort"
+    },
+    {
+      "id": "song-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "li-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "liu-e",
+      "lane": "consort"
+    },
+    {
+      "id": "cao-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "gao-taotao",
+      "lane": "consort"
+    },
+    {
+      "id": "xiang-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "meng-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "wu-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "zheng-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "li-fengniang",
+      "lane": "consort"
+    },
+    {
+      "id": "xie-daoqing",
+      "lane": "consort"
+    },
+    {
+      "id": "xie-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "yang-huanghou",
+      "lane": "consort"
+    },
+    {
+      "id": "yang-shufei",
+      "lane": "consort"
+    },
+    {
+      "id": "zhao-tingmei",
+      "lane": "kin"
+    },
+    {
+      "id": "zhao-yuanzuo",
+      "lane": "kin"
+    },
+    {
+      "id": "zhao-yuanxi",
+      "lane": "kin"
+    },
+    {
+      "id": "shen-yilun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fan-zhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-renpu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xue-juzheng",
+      "lane": "chancellor"
+    },
+    {
       "id": "zhao-pu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-pu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-fang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lu-duoxun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lv-duan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-qixian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lv-mengzheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-hang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xiang-minzhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-dan",
       "lane": "chancellor"
     },
     {
@@ -127,11 +266,47 @@
       "lane": "chancellor"
     },
     {
+      "id": "wang-qinruo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-shixun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "ding-wei",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-di",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-dexiang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lv-yijian",
+      "lane": "chancellor"
+    },
+    {
       "id": "fan-zhongyan",
       "lane": "chancellor"
     },
     {
-      "id": "ou-yangxiu",
+      "id": "chen-zhizhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yan-shu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-hang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "jia-changchao",
       "lane": "chancellor"
     },
     {
@@ -139,7 +314,27 @@
       "lane": "chancellor"
     },
     {
-      "id": "wang-anshi",
+      "id": "zeng-gongliang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fu-bi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wen-yanbo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "ou-yangxiu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "han-qi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lv-gongzhu",
       "lane": "chancellor"
     },
     {
@@ -147,11 +342,267 @@
       "lane": "chancellor"
     },
     {
+      "id": "wang-gui-song",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-anshi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wu-chong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lv-dafang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-zhibai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "han-zhongyan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-dun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zeng-bu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cai-que",
+      "lane": "chancellor"
+    },
+    {
+      "id": "he-zhizhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cai-jing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lv-yihao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-fu",
+      "lane": "chancellor"
+    },
+    {
       "id": "li-gang",
       "lane": "chancellor"
     },
     {
+      "id": "zhao-ding",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-jun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chen-kangbo",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhao-tingzhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yu-yunwen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chen-junqing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "bai-shizhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wang-huai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhou-bida",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yu-shen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhao-xiong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liang-kejia",
+      "lane": "chancellor"
+    },
+    {
+      "id": "liu-zheng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "huang-qianshan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-bangyan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "jing-tang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xie-shenfu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhao-ruyu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "han-tuozhou",
+      "lane": "chancellor"
+    },
+    {
+      "id": "qiao-xingjian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cui-yuzhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "tang-situi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shi-miyuan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zheng-qingzhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shi-songzhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cheng-yuanfeng",
+      "lane": "chancellor"
+    },
+    {
+      "id": "ye-mengding",
+      "lane": "chancellor"
+    },
+    {
+      "id": "ma-tingluan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-zongmian",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fan-zhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "xie-fangshu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "guo-jin",
+      "lane": "general"
+    },
+    {
+      "id": "pan-mei",
+      "lane": "general"
+    },
+    {
       "id": "cao-bin",
+      "lane": "general"
+    },
+    {
+      "id": "li-jilong",
+      "lane": "general"
+    },
+    {
+      "id": "cao-wei",
+      "lane": "general"
+    },
+    {
+      "id": "chong-shiheng",
+      "lane": "general"
+    },
+    {
+      "id": "yang-ye",
+      "lane": "general"
+    },
+    {
+      "id": "di-qing",
+      "lane": "general"
+    },
+    {
+      "id": "guo-kui",
+      "lane": "general"
+    },
+    {
+      "id": "zhang-jie",
+      "lane": "general"
+    },
+    {
+      "id": "chong-e",
+      "lane": "general"
+    },
+    {
+      "id": "wang-shao",
+      "lane": "general"
+    },
+    {
+      "id": "chong-shidao",
+      "lane": "general"
+    },
+    {
+      "id": "tong-guan",
+      "lane": "general"
+    },
+    {
+      "id": "zong-ze",
+      "lane": "general"
+    },
+    {
+      "id": "zhang-jun-1086",
+      "lane": "general"
+    },
+    {
+      "id": "han-shizhong",
+      "lane": "general"
+    },
+    {
+      "id": "wu-jie",
+      "lane": "general"
+    },
+    {
+      "id": "liu-qi-1098",
+      "lane": "general"
+    },
+    {
+      "id": "wu-lin",
+      "lane": "general"
+    },
+    {
+      "id": "yang-cunzhong",
       "lane": "general"
     },
     {
@@ -159,8 +610,88 @@
       "lane": "general"
     },
     {
-      "id": "han-shizhong",
+      "id": "li-xianzhong",
       "lane": "general"
+    },
+    {
+      "id": "chong-shizhong",
+      "lane": "general"
+    },
+    {
+      "id": "wang-bing",
+      "lane": "general"
+    },
+    {
+      "id": "meng-gong",
+      "lane": "general"
+    },
+    {
+      "id": "yu-jie",
+      "lane": "general"
+    },
+    {
+      "id": "li-tingzhi",
+      "lane": "general"
+    },
+    {
+      "id": "wang-jian-1264",
+      "lane": "general"
+    },
+    {
+      "id": "lv-wende",
+      "lane": "general"
+    },
+    {
+      "id": "zhang-shijie",
+      "lane": "general"
+    },
+    {
+      "id": "yan-su",
+      "lane": "literati"
+    },
+    {
+      "id": "lin-bu",
+      "lane": "literati"
+    },
+    {
+      "id": "bi-sheng",
+      "lane": "literati"
+    },
+    {
+      "id": "yang-yi",
+      "lane": "literati"
+    },
+    {
+      "id": "mei-yaochen",
+      "lane": "literati"
+    },
+    {
+      "id": "su-xun",
+      "lane": "literati"
+    },
+    {
+      "id": "shao-yong",
+      "lane": "literati"
+    },
+    {
+      "id": "cai-xiang",
+      "lane": "literati"
+    },
+    {
+      "id": "zhou-dunyi",
+      "lane": "literati"
+    },
+    {
+      "id": "wen-tong",
+      "lane": "literati"
+    },
+    {
+      "id": "zeng-gong",
+      "lane": "literati"
+    },
+    {
+      "id": "zhang-zai",
+      "lane": "literati"
     },
     {
       "id": "shen-kuo",
@@ -175,7 +706,7 @@
       "lane": "literati"
     },
     {
-      "id": "zhu-xi",
+      "id": "li-jie",
       "lane": "literati"
     },
     {
@@ -183,7 +714,75 @@
       "lane": "literati"
     },
     {
+      "id": "yan-jidao",
+      "lane": "literati"
+    },
+    {
+      "id": "su-zhe",
+      "lane": "literati"
+    },
+    {
+      "id": "fan-zuyu",
+      "lane": "literati"
+    },
+    {
+      "id": "huang-tingjian",
+      "lane": "literati"
+    },
+    {
+      "id": "qin-guan",
+      "lane": "literati"
+    },
+    {
+      "id": "li-gonglin",
+      "lane": "literati"
+    },
+    {
+      "id": "mi-fu",
+      "lane": "literati"
+    },
+    {
+      "id": "he-zhu",
+      "lane": "literati"
+    },
+    {
+      "id": "liu-yong",
+      "lane": "literati"
+    },
+    {
+      "id": "chen-shidao",
+      "lane": "literati"
+    },
+    {
+      "id": "yang-shi",
+      "lane": "literati"
+    },
+    {
+      "id": "zhou-bangyan",
+      "lane": "literati"
+    },
+    {
+      "id": "mi-youren",
+      "lane": "literati"
+    },
+    {
+      "id": "hu-anguo",
+      "lane": "literati"
+    },
+    {
       "id": "li-qingzhao",
+      "lane": "literati"
+    },
+    {
+      "id": "chen-yuyi",
+      "lane": "literati"
+    },
+    {
+      "id": "zheng-qiao",
+      "lane": "literati"
+    },
+    {
+      "id": "li-dao",
       "lane": "literati"
     },
     {
@@ -191,11 +790,179 @@
       "lane": "literati"
     },
     {
+      "id": "fan-chengda",
+      "lane": "literati"
+    },
+    {
+      "id": "yang-wanli",
+      "lane": "literati"
+    },
+    {
+      "id": "zhu-xi",
+      "lane": "literati"
+    },
+    {
+      "id": "yuan-shu-1131",
+      "lane": "literati"
+    },
+    {
+      "id": "zhang-shi",
+      "lane": "literati"
+    },
+    {
+      "id": "lv-zuqian",
+      "lane": "literati"
+    },
+    {
+      "id": "lu-jiuyuan",
+      "lane": "literati"
+    },
+    {
       "id": "xin-qiji",
       "lane": "literati"
     },
     {
+      "id": "chen-liang",
+      "lane": "literati"
+    },
+    {
+      "id": "ye-shi",
+      "lane": "literati"
+    },
+    {
+      "id": "huang-gan",
+      "lane": "literati"
+    },
+    {
+      "id": "jiang-kui",
+      "lane": "literati"
+    },
+    {
+      "id": "zhen-dexiu",
+      "lane": "literati"
+    },
+    {
+      "id": "wei-liaoweng",
+      "lane": "literati"
+    },
+    {
+      "id": "liu-kezhuang",
+      "lane": "literati"
+    },
+    {
+      "id": "xiao-chuo",
+      "lane": "rival"
+    },
+    {
+      "id": "han-tong",
+      "lane": "rival"
+    },
+    {
+      "id": "li-jiquan",
+      "lane": "rival"
+    },
+    {
+      "id": "li-yun",
+      "lane": "rival"
+    },
+    {
+      "id": "li-chongjin",
+      "lane": "rival"
+    },
+    {
+      "id": "yelv-longxu",
+      "lane": "rival"
+    },
+    {
+      "id": "li-deming",
+      "lane": "rival"
+    },
+    {
+      "id": "wang-xiaobo",
+      "lane": "rival"
+    },
+    {
+      "id": "li-shun",
+      "lane": "rival"
+    },
+    {
+      "id": "yelv-xiuge",
+      "lane": "rival"
+    },
+    {
+      "id": "li-yuanhao",
+      "lane": "rival"
+    },
+    {
+      "id": "nong-zhigao",
+      "lane": "rival"
+    },
+    {
+      "id": "wanyan-aguda",
+      "lane": "rival"
+    },
+    {
+      "id": "liu-yu-1073",
+      "lane": "rival"
+    },
+    {
+      "id": "wanyan-zonghan",
+      "lane": "rival"
+    },
+    {
+      "id": "fang-la",
+      "lane": "rival"
+    },
+    {
+      "id": "wanyan-liang",
+      "lane": "rival"
+    },
+    {
+      "id": "wanyan-zongwang",
+      "lane": "rival"
+    },
+    {
+      "id": "wanyan-zongbi",
+      "lane": "rival"
+    },
+    {
+      "id": "tiemuzhen",
+      "lane": "rival"
+    },
+    {
+      "id": "heshilie-zhining",
+      "lane": "rival"
+    },
+    {
+      "id": "li-quan",
+      "lane": "rival"
+    },
+    {
+      "id": "mengge",
+      "lane": "rival"
+    },
+    {
+      "id": "liu-zheng-1212",
+      "lane": "rival"
+    },
+    {
+      "id": "hubilie",
+      "lane": "rival"
+    },
+    {
+      "id": "bo-yan",
+      "lane": "rival"
+    },
+    {
+      "id": "zhang-hongfan",
+      "lane": "rival"
+    },
+    {
       "id": "qin-hui",
+      "lane": "end"
+    },
+    {
+      "id": "jia-sidao",
       "lane": "end"
     },
     {
@@ -203,7 +970,7 @@
       "lane": "end"
     },
     {
-      "id": "jia-sidao",
+      "id": "lu-xiufu",
       "lane": "end"
     }
   ],
@@ -614,6 +1381,8 @@
       "year": 1279,
       "people": [
         "wen-tianxiang",
+        "lu-xiufu",
+        "zhang-shijie",
         "jia-sidao"
       ],
       "desc": "元兵破崖山，陆秀夫负幼帝投海，十万军民从死。文天祥被执不屈，作《正气歌》就义，宋祚终。"
