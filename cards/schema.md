@@ -55,6 +55,8 @@ registry: pipeline/registry/people/ji-hu.json
 
 生卒与 registry 不一致时，**改卡片或写 note，不覆盖 JSON**。
 
+registry 是唯一事实源，卡片是草稿。卡片里考出来的东西（例如 `deathNote` 的系年依据）要**回填注册表**再标 `promoted`，否则两套正文会分叉——`card/西周/ji-hu.md` 就有一句「共和十四年死于彘」，而 `ji-hu.json` 里没有对应的 `deathNote`。
+
 ## 正文
 
 - `## 生平纪要`：条目，不写百科。服务读史料，不替代 registry `bio`。

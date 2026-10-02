@@ -1,6 +1,6 @@
 # 人物卡片（草稿层）
 
-从 `raw/` 史料抽出的人物卡。**卡片不是时间轴，也不进编译。** 生卒与站点名录仍以 `pipeline/registry/people/*.json` 为准；审过后再人工提升。
+从 `raw/` 史料抽出的人物卡。**卡片不是时间轴，也不进编译。** 正式待收名单是 `pipeline/topics/<id>/candidates.json`。新人物写 `content/<topic>/<id>.md`。已经在册的人改他那一份源文件：多数在 `content/<topic>/`，61 人仍在 `pipeline/registry/people/*.json`。卡片审完后，按 `pipeline/PLAYBOOK.md` 的简表流程写入人物文件和候选台账，不从卡片自动提升。
 
 ## 目录
 
@@ -10,7 +10,7 @@
 cards/
   README.md
   schema.md
-  西周/                 专题 14 人，生年皆 unknown
+  西周/                 131 张，已全部 promoted；其余时段尚未建卡（本层目前只有西周）
     ji-hu.md            周厉王
     ji-jing.md          周宣王
     ji-gongsheng.md     周幽王
@@ -61,7 +61,7 @@ python -X utf8 raw/extract_people.py --check
 
 ## 不做什么
 
-- 不自动把卡片提升到 `pipeline/registry/people/`
+- 不自动把卡片提升到 `content/<topic>/` 或 `pipeline/registry/people/`
 - 不改时间轴人数、关系、章节
 - 不从 5557 页通跑抽名人录
-- 不把 Wikidata / CBDB 当出处
+- 不把 Wikidata / CBDB 当出处直接抄进卡片。它们只作候选：用来发现线索、对排异说；采信前须回 `raw/` 原典或现代考证核实，核实不了的年份留 `unknown`。写入登记时用 `kind: database` 标出并说明核实情况（见 PLAYBOOK《出处》）
