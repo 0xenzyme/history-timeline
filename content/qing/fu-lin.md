@@ -1,7 +1,7 @@
 ---
 id: fu-lin
-name: 顺治
-display: 福临
+name: 福临
+display: 顺治
 profile: full
 gender: male
 polity:
@@ -17,6 +17,10 @@ deathAccuracy: exact
 title: 入关第一帝
 tags:
   - 清
+aliases:
+  - 福临
+  - 清世祖
+  - 顺治
 sources:
   - work: 清史稿
     part: 世祖本纪

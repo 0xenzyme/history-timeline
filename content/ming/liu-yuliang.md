@@ -1,0 +1,29 @@
+---
+id: liu-yuliang
+name: 刘宇亮
+display: 刘宇亮
+profile: brief
+gender: male
+polity:
+  - ming
+categories:
+  - chancellor
+  - official
+primary: chancellor
+birth: 1619
+birthAccuracy: approx
+birthNote: 本传不载生年，只云「万历四十七年进士」；此系登第之年（1619），非生年。
+death: 1639
+deathAccuracy: approx
+deathNote: 本传作崇祯十二年去位后「久之，卒于家」；年表十二年二月罢，以该年（1639）为活动下限，非寿数。
+title: 崇祯首辅，督师无功
+tags:
+  - 明
+sources:
+  - work: 明史
+    part: 卷253·张至发传（附刘宇亮）
+    kind: classic
+  - work: 明史
+    part: 卷110·表十一·宰辅年表二
+    kind: classic
+---

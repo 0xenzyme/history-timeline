@@ -1,0 +1,30 @@
+---
+id: xu-ling
+name: 徐陵
+display: 徐陵
+profile: brief
+gender: male
+polity:
+  - nan
+categories:
+  - literature
+primary: literature
+birth: 507
+birthAccuracy: approx
+birthNote: 至德元年卒，年七十七，上推生年。
+death: 583
+deathAccuracy: exact
+deathNote: 「至德元年卒，時年七十七」（陈书·徐陵传），其时隋开皇三年，卒于隋世而不书隋年。
+title: 陈代文宗，编《玉台新咏》，聘周携庾信并世文名
+tags:
+  - 南北朝
+  - 陈
+aliases:
+  - 徐陵
+  - 徐孝穆
+  - 徐孝穆集
+sources:
+  - work: 陈书
+    part: 徐陵传
+    kind: classic
+---

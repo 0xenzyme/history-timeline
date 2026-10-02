@@ -1,0 +1,21 @@
+---
+id: dong-fu-xiang
+name: 董福祥
+display: 董福祥
+profile: brief
+gender: male
+polity:
+  - qing
+categories:
+  - general
+birthAccuracy: unknown
+death: 1908
+deathAccuracy: exact
+deathNote: 清史稿·卷455·董福祥传：庚子事后被褫职锢于家，光绪三十四年（1908）卒，其子天纯输银四十万济帑复官。无谥。
+aliases:
+  - 星五
+sources:
+  - work: 清史稿
+    part: 卷455·董福祥传
+    kind: classic
+---

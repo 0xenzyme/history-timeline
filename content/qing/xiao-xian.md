@@ -1,7 +1,7 @@
 ---
 id: xiao-xian
-name: 孝贤纯皇后
-display: 孝贤纯皇后
+name: 富察皇后
+display: 富察皇后
 profile: full
 gender: female
 polity:
@@ -17,6 +17,9 @@ deathAccuracy: exact
 title: 高宗皇后
 tags:
   - 清
+aliases:
+  - 富察氏
+  - 孝贤纯皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝贤纯皇后

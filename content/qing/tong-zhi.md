@@ -1,7 +1,7 @@
 ---
 id: tong-zhi
 name: 载淳
-display: 载淳
+display: 同治
 profile: full
 gender: male
 polity:

@@ -1,7 +1,7 @@
 ---
 id: jia-qing
 name: 颙琰
-display: 颙琰
+display: 嘉庆
 profile: full
 gender: male
 polity:

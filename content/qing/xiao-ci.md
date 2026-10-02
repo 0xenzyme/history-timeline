@@ -1,7 +1,7 @@
 ---
 id: xiao-ci
 name: 孟古哲哲
-display: 孝慈高皇后
+display: 孟古哲哲
 profile: full
 gender: female
 polity:
@@ -18,6 +18,10 @@ deathNote: 《清史稿》作岁癸卯崩，年二十九；皇太极即位后追
 title: 太祖皇后，太宗生母
 tags:
   - 清
+aliases:
+  - 孟古哲哲
+  - 叶赫那拉氏
+  - 孝慈高皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝慈高皇后

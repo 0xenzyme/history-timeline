@@ -1,0 +1,20 @@
+---
+id: changdi-qiaoru
+name: 侨如
+display: 长狄侨如
+profile: brief
+gender: male
+polity:
+  - lu
+birthAccuracy: unknown
+death: -616
+deathAccuracy: exact
+deathNote: 左传·文公十一年（前616）鲁败狄于咸，获长狄侨如，富父终甥摏其喉以戈杀之；史记·鲁周公世家「獲長翟喬如」。
+sources:
+  - work: 春秋左传
+    part: 文公十一年
+    kind: classic
+  - work: 史记
+    part: 鲁周公世家
+    kind: classic
+---

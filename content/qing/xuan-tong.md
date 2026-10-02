@@ -1,7 +1,7 @@
 ---
 id: xuan-tong
-name: 宣统
-display: 溥仪
+name: 溥仪
+display: 宣统
 profile: full
 gender: male
 polity:
@@ -17,6 +17,10 @@ deathAccuracy: exact
 title: 末代皇帝
 tags:
   - 清
+aliases:
+  - 溥仪
+  - 宣统
+  - 清逊帝
 sources:
   - work: 清史稿
     part: 宣统皇帝本纪

@@ -1,7 +1,7 @@
 ---
 id: yong-zheng
-name: 雍正
-display: 胤禛
+name: 胤禛
+display: 雍正
 profile: full
 gender: male
 polity:
@@ -16,6 +16,10 @@ deathAccuracy: exact
 title: 肃政集权
 tags:
   - 清
+aliases:
+  - 胤禛
+  - 清世宗
+  - 雍正
 sources:
   - work: 清史稿
     part: 世宗本纪

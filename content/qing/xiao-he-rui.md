@@ -18,6 +18,9 @@ deathNote: 《清史稿》作道光二十九年十二月崩；折公历已入 18
 title: 仁宗皇后，传位宣宗
 tags:
   - 清
+aliases:
+  - 钮祜禄氏
+  - 孝和睿皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝和睿皇后

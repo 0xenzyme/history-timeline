@@ -1,7 +1,7 @@
 ---
 id: xiao-quan
-name: 孝全成皇后
-display: 孝全成皇后
+name: 全妃钮祜禄氏
+display: 全妃钮祜禄氏
 profile: full
 gender: female
 polity:
@@ -17,6 +17,10 @@ deathAccuracy: exact
 title: 文宗生母
 tags:
   - 清
+aliases:
+  - 钮祜禄氏
+  - 全妃
+  - 孝全成皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝全成皇后

@@ -1,7 +1,7 @@
 ---
 id: xiao-gong
-name: 孝恭仁皇后
-display: 孝恭仁皇后
+name: 德妃乌雅氏
+display: 德妃乌雅氏
 profile: full
 gender: female
 polity:
@@ -17,6 +17,10 @@ deathAccuracy: exact
 title: 世宗生母
 tags:
   - 清
+aliases:
+  - 乌雅氏
+  - 德妃
+  - 孝恭仁皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝恭仁皇后

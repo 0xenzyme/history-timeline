@@ -1,7 +1,7 @@
 ---
 id: dao-guang
-name: 道光
-display: 旻宁
+name: 旻宁
+display: 道光
 profile: full
 gender: male
 polity:
@@ -16,6 +16,10 @@ deathAccuracy: exact
 title: 鸦片战火开国门
 tags:
   - 清
+aliases:
+  - 旻宁
+  - 清宣宗
+  - 道光
 sources:
   - work: 清史稿
     part: 宣宗本纪

@@ -1,0 +1,28 @@
+---
+id: liu-yigong
+name: 刘义恭
+display: 刘义恭
+profile: brief
+gender: male
+polity:
+  - nan
+categories:
+  - royal-kin
+primary: royal-kin
+birthAccuracy: unknown
+death: 465
+deathAccuracy: exact
+deathNote: 「帝誅義恭、元景等」（宋书·沈庆之传）；前废帝「斷析義恭支體」（宋书·江夏文献王义恭传），系永光元年。
+title: 江夏王，宋文惠之长，元嘉老臣，遇害支解
+tags:
+  - 南北朝
+  - 刘宋
+aliases:
+  - 刘义恭
+  - 江夏王
+  - 江夏文献王
+sources:
+  - work: 宋书
+    part: 江夏文献王义恭传
+    kind: classic
+---

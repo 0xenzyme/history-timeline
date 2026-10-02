@@ -1,7 +1,7 @@
 ---
 id: qian-long
-name: 乾隆
-display: 弘历
+name: 弘历
+display: 乾隆
 profile: full
 gender: male
 polity:
@@ -16,6 +16,10 @@ deathAccuracy: exact
 title: 十全武功
 tags:
   - 清
+aliases:
+  - 弘历
+  - 清高宗
+  - 乾隆
 sources:
   - work: 清史稿
     part: 高宗本纪

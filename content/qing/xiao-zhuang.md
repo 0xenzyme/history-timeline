@@ -1,7 +1,7 @@
 ---
 id: xiao-zhuang
-name: 孝庄文皇后
-display: 孝庄文皇后
+name: 布木布泰
+display: 布木布泰
 profile: full
 gender: female
 polity:
@@ -18,6 +18,11 @@ deathNote: 《清史稿》作康熙二十六年十二月己巳崩；折公历已
 title: 太皇太后
 tags:
   - 清
+aliases:
+  - 博尔济吉特·布木布泰
+  - 博尔济吉特氏
+  - 庄妃
+  - 孝庄文皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝庄文皇后

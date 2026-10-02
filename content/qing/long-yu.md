@@ -19,6 +19,10 @@ deathNote: 宣统三年十二月逊位，越二年正月甲戌崩。
 title: 德宗皇后，宣布逊位
 tags:
   - 清
+aliases:
+  - 隆裕
+  - 叶赫那拉氏
+  - 孝定景皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝定景皇后

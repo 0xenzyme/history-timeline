@@ -1,0 +1,27 @@
+---
+id: fei-ying-dong
+name: 费英东
+display: 费英东
+profile: brief
+gender: male
+polity:
+  - qing
+categories:
+  - general
+  - founding
+birth: 1564
+birthAccuracy: approx
+birthNote: 传载天命五年卒、年五十有七（虚岁），自卒年 1620 上推。
+death: 1620
+deathAccuracy: exact
+deathNote: 清史稿·卷225·费英东传：五年春三月（上文系天命建元，即天命五年），太祖定武功爵授三等总兵官，是月费英东卒，年五十有七，太祖临丧哭之恸。追封直义公（卷3·太宗本纪：崇德元年四月追封功臣费英东为直义公）。
+aliases:
+  - 直义公
+sources:
+  - work: 清史稿
+    part: 卷225·费英东传
+    kind: classic
+  - work: 清史稿
+    part: 卷3·太宗本纪
+    kind: classic
+---

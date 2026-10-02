@@ -1,7 +1,7 @@
 ---
 id: xiao-duan
-name: 孝端文皇后
-display: 孝端文皇后
+name: 哲哲
+display: 哲哲
 profile: full
 gender: female
 polity:
@@ -17,6 +17,10 @@ deathAccuracy: exact
 title: 太宗中宫
 tags:
   - 清
+aliases:
+  - 博尔济吉特·哲哲
+  - 博尔济吉特氏
+  - 孝端文皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝端文皇后

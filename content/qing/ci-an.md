@@ -18,6 +18,10 @@ deathAccuracy: exact
 title: 母后皇太后，与慈禧并垂帘
 tags:
   - 清
+aliases:
+  - 慈安
+  - 钮祜禄氏
+  - 孝贞显皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝贞显皇后

@@ -1,0 +1,23 @@
+---
+id: shang-zhi-xin
+name: 尚之信
+display: 尚之信
+profile: brief
+gender: male
+polity:
+  - qing
+categories:
+  - vassal
+  - rebel
+birthAccuracy: unknown
+death: 1680
+deathAccuracy: exact
+deathNote: 清史稿·卷474·尚之信传：康熙十九年春自将攻武宣，巡抚金俊与藩下总兵王国栋等告其凶残暴虐、犹存异志，被逮后狱上，上命赐之信死；卷6·圣祖本纪一康熙十九年八月甲申同书诏赐之信死。此前他杀父客金光以降吴三桂，复归正后又擅杀、阻兵不进。
+sources:
+  - work: 清史稿
+    part: 卷474·尚之信传
+    kind: classic
+  - work: 清史稿
+    part: 卷6·圣祖本纪一
+    kind: classic
+---

@@ -1,7 +1,7 @@
 ---
 id: xiao-sheng
-name: 孝圣宪皇后
-display: 孝圣宪皇后
+name: 熹妃钮祜禄氏
+display: 熹妃钮祜禄氏
 profile: full
 gender: female
 polity:
@@ -17,6 +17,11 @@ deathAccuracy: exact
 title: 高宗生母，四十年皇太后
 tags:
   - 清
+aliases:
+  - 钮祜禄氏
+  - 熹妃
+  - 崇庆皇太后
+  - 孝圣宪皇后
 sources:
   - work: 清史稿
     part: 后妃传·孝圣宪皇后

@@ -1,7 +1,7 @@
 ---
 id: xian-feng
-name: 咸丰
-display: 奕詝
+name: 奕詝
+display: 咸丰
 profile: full
 gender: male
 polity:
@@ -16,6 +16,10 @@ deathAccuracy: exact
 title: 内忧外患
 tags:
   - 清
+aliases:
+  - 奕詝
+  - 清文宗
+  - 咸丰
 sources:
   - work: 清史稿
     part: 文宗本纪

@@ -1,0 +1,17 @@
+---
+id: nangong-wan
+name: 南宫万
+display: 南宫万
+profile: brief
+gender: male
+polity:
+  - song-guo
+birthAccuracy: unknown
+death: -682
+deathAccuracy: exact
+deathNote: 左传·庄公十二年（前682）弑闵公作乱败，奔陈被归，宋人醢之。
+sources:
+  - work: 春秋左传
+    part: 庄公十二年
+    kind: classic
+---

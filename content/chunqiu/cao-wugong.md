@@ -1,0 +1,20 @@
+---
+id: cao-wugong
+name: 姬勝
+display: 曹武公
+profile: brief
+gender: male
+polity:
+  - cao-guo
+birthAccuracy: unknown
+death: -526
+deathAccuracy: approx
+deathNote: 史记·管蔡世家「二十七年，武公卒，子平公頃須立」。按经·昭公十八年曹伯须卒（前524）上推，武公卒当在前527—前526；试跑名单取前526，作约年。
+sources:
+  - work: 史记
+    part: 管蔡世家
+    kind: classic
+  - work: 春秋左传
+    part: 昭公十八年
+    kind: classic
+---

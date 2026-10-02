@@ -1,7 +1,7 @@
 ---
 id: kang-xi
-name: 康熙
-display: 玄烨
+name: 玄烨
+display: 康熙
 profile: full
 gender: male
 polity:
@@ -16,6 +16,10 @@ deathAccuracy: exact
 title: 康乾盛世之始
 tags:
   - 清
+aliases:
+  - 玄烨
+  - 清圣祖
+  - 康熙
 sources:
   - work: 清史稿
     part: 圣祖本纪

@@ -1,0 +1,17 @@
+---
+id: ji-wen-zi
+name: 季孙行父
+display: 季文子
+profile: brief
+gender: male
+polity:
+  - lu
+birthAccuracy: unknown
+death: -568
+deathAccuracy: exact
+deathNote: 史记·鲁周公世家「五年，季文子卒……以相三君」（襄公五年，前568）。
+sources:
+  - work: 史记
+    part: 鲁周公世家
+    kind: classic
+---

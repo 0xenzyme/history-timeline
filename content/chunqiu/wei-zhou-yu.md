@@ -1,0 +1,20 @@
+---
+id: wei-zhou-yu
+name: 州吁
+display: 州吁
+profile: brief
+gender: male
+polity:
+  - wei-guo
+birthAccuracy: unknown
+death: -719
+deathAccuracy: exact
+deathNote: 春秋经·隐公四年「九月，衞人殺州吁于濮」（前719），石碏大义灭亲。弑桓公自立者。
+sources:
+  - work: 春秋左传
+    part: 隐公四年
+    kind: classic
+  - work: 史记
+    part: 卫康叔世家
+    kind: classic
+---

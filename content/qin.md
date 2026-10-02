@@ -39,5 +39,15 @@
 | [fan-kuai](qin/fan-kuai.md) | 樊哙 | 樊哙 | full |
 | [zhou-bo](qin/zhou-bo.md) | 周勃 | 周勃 | full |
 | [guan-ying](qin/guan-ying.md) | 灌婴 | 灌婴 | full |
+| [zhou-ke](qin/zhou-ke.md) | 周苛 | 周苛 | brief |
+| [ji-xin](qin/ji-xin.md) | 纪信 | 纪信 | brief |
 | [chen-sheng](qin/chen-sheng.md) | 陈胜 | 陈胜 | full |
 | [wu-guang](qin/wu-guang.md) | 吴广 | 吴广 | full |
+| [lao-ai](qin/lao-ai.md) | 嫪毐 | 嫪毐 | brief |
+| [chen-yu](qin/chen-yu.md) | 陈馀 | 陈馀 | brief |
+| [zhao-xie](qin/zhao-xie.md) | 赵歇 | 赵歇 | brief |
+| [tian-dan-qiwang](qin/tian-dan-qiwang.md) | 田儋 | 田儋 | brief |
+| [tian-rong](qin/tian-rong.md) | 田荣 | 田荣 | brief |
+| [tian-heng](qin/tian-heng.md) | 田横 | 田横 | brief |
+| [wei-bao](qin/wei-bao.md) | 魏豹 | 魏豹 | brief |
+| [han-guang](qin/han-guang.md) | 韩广 | 韩广 | brief |

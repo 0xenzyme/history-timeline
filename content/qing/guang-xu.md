@@ -1,7 +1,7 @@
 ---
 id: guang-xu
-name: 光绪
-display: 载湉
+name: 载湉
+display: 光绪
 profile: full
 gender: male
 polity:
@@ -16,6 +16,10 @@ deathAccuracy: exact
 title: 戊戌变法
 tags:
   - 清
+aliases:
+  - 载湉
+  - 清德宗
+  - 光绪
 sources:
   - work: 清史稿
     part: 德宗本纪

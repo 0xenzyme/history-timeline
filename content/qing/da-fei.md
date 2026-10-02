@@ -1,7 +1,7 @@
 ---
 id: da-fei
-name: 大妃
-display: 大妃
+name: 阿巴亥
+display: 阿巴亥
 profile: full
 gender: female
 polity:
@@ -18,6 +18,10 @@ deathNote: 天命十一年八月，太祖崩之次日殉。
 title: 太祖大妃，多尔衮、多铎之母
 tags:
   - 清
+aliases:
+  - 大妃
+  - 乌喇纳喇氏
+  - 孝烈武皇后
 sources:
   - work: 清史稿
     part: 后妃传·大妃

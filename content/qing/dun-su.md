@@ -1,0 +1,26 @@
+---
+id: dun-su
+name: 年贵妃
+display: 年贵妃
+profile: brief
+gender: female
+polity:
+  - qing
+categories:
+  - consort
+birthAccuracy: unknown
+death: 1725
+deathAccuracy: exact
+deathNote: 清史稿·卷92·礼志十一·凶礼一：雍正三年敦肃皇贵妃年氏薨，辍朝五日；卷214·后妃传·敦肃皇贵妃作雍正三年十一月病笃进皇贵妃，薨逾月而兄羹尧得罪死，本传未系薨日。
+aliases:
+  - 年氏
+  - 年妃
+  - 敦肃皇贵妃
+sources:
+  - work: 清史稿
+    part: 卷92·志六十七·礼志十一·凶礼一
+    kind: classic
+  - work: 清史稿
+    part: 卷214·后妃传·敦肃皇贵妃
+    kind: classic
+---

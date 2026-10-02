@@ -1,0 +1,27 @@
+---
+id: kong-you-de
+name: 孔有德
+display: 孔有德
+profile: brief
+gender: male
+polity:
+  - qing
+categories:
+  - general
+  - vassal
+  - founding
+birthAccuracy: unknown
+death: 1652
+deathAccuracy: exact
+deathNote: 清史稿·卷234·孔有德传：顺治九年七月，李定国昼夜环攻桂林，有德躬守陴，矢中额仍指挥击敌，城陷，令其孥以火殉，遂自经，妻白氏、李氏皆死于火（死之，谥武壮）。卷5·世祖本纪：九年秋七月癸酉，故明将孙可望陷桂林，定南王孔有德死之。明降将，天聪七年率众来归。
+aliases:
+  - 恭顺王
+  - 定南王
+sources:
+  - work: 清史稿
+    part: 卷234·孔有德传
+    kind: classic
+  - work: 清史稿
+    part: 卷5·世祖本纪
+    kind: classic
+---

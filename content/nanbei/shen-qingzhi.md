@@ -1,0 +1,30 @@
+---
+id: shen-qingzhi
+name: 沈庆之
+display: 沈庆之
+profile: brief
+gender: male
+polity:
+  - nan
+categories:
+  - general
+primary: general
+birth: 386
+birthAccuracy: approx
+birthNote: 景和元年赐死，年八十，上推生年。
+death: 465
+deathAccuracy: exact
+deathNote: 「帝乃遣慶之從子攸之齎藥賜慶之死，時年八十」（宋书·沈庆之传），不肯饮药，攸之以被掩杀。
+title: 宋室宿将，历事四朝，八十岁为废帝赐死
+tags:
+  - 南北朝
+  - 刘宋
+aliases:
+  - 沈庆之
+  - 沈弘先
+  - 襄公
+sources:
+  - work: 宋书
+    part: 沈庆之传
+    kind: classic
+---
