@@ -1,0 +1,29 @@
+---
+id: du-yu
+name: 杜预
+display: 杜预
+profile: full
+gender: male
+polity:
+  - jin
+categories:
+  - general
+  - classics
+primary: general
+birth: 222
+birthAccuracy: exact
+death: 285
+deathAccuracy: exact
+title: 镇南大将军，灭吴统帅，作《春秋左氏传集解》
+tags:
+  - 西晋
+aliases:
+  - 杜预
+  - 杜元凯
+sources:
+  - work: 晋书
+    part: 杜预传
+    kind: classic
+---
+
+京兆杜陵人，司马昭妹夫，博学多通，朝野号曰杜武库，言其无所不有。太康元年统军南下，一举灭吴。作《春秋左氏经传集解》，又修水利、造欹器，尝言「立德不可企，立功立言可庶几」。太康五年卒，年六十三。

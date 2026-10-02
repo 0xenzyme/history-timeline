@@ -1,0 +1,30 @@
+---
+id: ji-yi
+name: 姬夷
+display: 周简王
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -572
+deathAccuracy: exact
+deathNote: 今本竹书纪年·晋纪「简王十四年 王陟」。
+title: 纳晋厉公复位之命出于此年
+tags:
+  - 晋厉公
+  - 晋悼公
+aliases:
+  - 周简王
+sources:
+  - work: 史记
+    part: 周本纪
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+---
+
+定王崩而立，在位十四年。十三年晋杀其君厉公，迎子周于周而立之为悼公——周王最后一次直接干预晋国的君位更替。此后天子只剩受诸侯朝的名义。十四年崩。

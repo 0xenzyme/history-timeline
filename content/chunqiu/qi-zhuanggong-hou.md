@@ -1,0 +1,30 @@
+---
+id: qi-zhuanggong-hou
+name: 姜光
+display: 齐庄公（后）
+profile: full
+gender: male
+polity:
+  - qi
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -548
+deathAccuracy: approx
+deathNote: 史记未记此庄公在位年数。卒年前548，据其即位于灵公卒年、左传·襄公二十一年（前541）载崔杼杀庄公相合，作约年。与前731的第一位齐庄公（釐公之父）务必分清。
+title: 崔杼迎立，六年为崔杼所弑
+tags:
+  - 崔杼迎立
+  - 杀太子牙
+  - 与前731庄公别
+aliases:
+  - 齐庄公（后）
+sources:
+  - work: 史记
+    part: 齐太公世家
+    kind: classic
+---
+
+桓公之孙，灵公之废太子。灵公疾，崔杼迎故太子光而立之。五月壬辰灵公卒，光即位，执太子牙于句窦之丘，杀之。任崔杼为右相、庆封为左相，宠信之，遂至国乱。

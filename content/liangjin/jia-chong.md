@@ -1,0 +1,29 @@
+---
+id: jia-chong
+name: 贾充
+display: 贾充
+profile: full
+gender: male
+polity:
+  - jin
+categories:
+  - chancellor
+  - official
+birth: 217
+birthAccuracy: approx
+birthNote: 太康三年（282）薨，年六十六，虚岁上推生年。
+death: 282
+deathAccuracy: exact
+title: 西晋权臣，弑君之谋主
+tags:
+  - 晋
+  - 西晋
+aliases:
+  - 贾充
+sources:
+  - work: 晋书
+    part: 贾充传
+    kind: classic
+---
+
+平阳襄陵人。魏时为司马氏腹心，成济弑高贵乡公，充实使之。晋世定律令，历司空、太尉。女南风为太子妃，宠信终身。太康三年四月薨，年六十六。

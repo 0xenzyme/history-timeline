@@ -1,0 +1,30 @@
+---
+id: qu-yuan
+name: 屈平
+display: 屈原
+profile: full
+gender: unknown
+polity:
+  - chu
+categories:
+  - scholar
+birth: -340
+birthAccuracy: approx
+birthNote: 生卒皆为后人所系，约怀王、顷襄王之世。
+death: -278
+deathAccuracy: approx
+deathNote: 传统系于顷襄王时投汨罗，约前 278 年。
+title: 楚三闾大夫，《离骚》作者
+tags:
+  - 楚国
+  - 离骚
+aliases:
+  - 屈原
+  - 正则
+sources:
+  - work: 史记
+    part: 屈原贾生列传
+    kind: classic
+---
+
+楚贵族。联齐抗秦，被谗见疏。怀王入秦不返，他作《离骚》，后投汨罗。士人泳道上，这条文学的条对着张仪的连横。

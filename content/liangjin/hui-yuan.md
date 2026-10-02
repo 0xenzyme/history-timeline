@@ -1,0 +1,30 @@
+---
+id: hui-yuan
+name: 慧远
+display: 慧远
+profile: full
+gender: male
+polity:
+  - jin
+categories:
+  - buddhism
+primary: buddhism
+birth: 334
+birthAccuracy: exact
+death: 416
+deathAccuracy: exact
+title: 庐山东林寺，白莲社，沙门不拜王者
+tags:
+  - 东晋
+  - 庐山
+aliases:
+  - 慧远
+  - 远公
+  - 庐山慧远
+sources:
+  - work: 高僧传
+    part: 慧远传
+    kind: classic
+---
+
+雁门楼烦人，本姓贾，游学许洛，博综六经，尤善老庄。年二十一从道安出家，后止庐山，建东林寺，与刘遗民、周续之等结白莲社，为净土之宗。作《沙门不敬王者论》，桓玄下令沙门礼敬王者，独抗之得免。义熙十二年卒，年八十三。

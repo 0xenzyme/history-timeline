@@ -1,0 +1,31 @@
+---
+id: jin-muhou
+name: 姬费王
+display: 晋穆侯
+profile: full
+gender: male
+polity:
+  - jin
+categories:
+  - vassal
+birthAccuracy: unknown
+death: -785
+deathAccuracy: exact
+deathNote: 史记：穆侯二十七年卒；殇叔三年周宣王崩，故穆侯卒当宣王四十三年前后。竹书宣王四十三年晋穆侯费生薨。
+title: 晋穆侯，名太子仇、少子成师
+tags:
+  - 晋
+aliases:
+  - 晋穆侯
+  - 穆侯费王
+  - 穆侯费生
+sources:
+  - work: 史记
+    part: 晋世家
+    kind: classic
+  - work: 今本竹书纪年
+    part: 周纪
+    kind: classic
+---
+
+七年伐条生太子仇，十年伐千亩生少子成师。师服已预警适庶名反逆。二十七年卒，弟殇叔自立。

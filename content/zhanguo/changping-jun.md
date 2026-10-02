@@ -1,0 +1,32 @@
+---
+id: changping-jun
+name: 昌平君
+display: 昌平君
+profile: full
+gender: male
+polity:
+  - qin
+  - chu
+categories:
+  - royal-kin
+  - minister
+birthAccuracy: unknown
+death: -223
+deathAccuracy: exact
+deathNote: 秦始皇本纪：二十三年王翦蒙武大破荆兵，昌平君死、项燕自杀——前223年，楚亡之岁。
+title: 秦相而末代楚王
+tags:
+  - 秦国
+  - 楚国
+aliases:
+  - 昌平君
+sources:
+  - work: 史记
+    part: 秦始皇本纪
+    kind: classic
+  - work: 史记
+    part: 楚世家
+    kind: classic
+---
+
+楚公子之在秦者，吕不韦免相之岁代其国事，仕秦为相；及秦灭楚急，项燕立为荆王，起兵淮南反秦。一人两身，是轴上秦与楚两条线的接点：前223年兵败而死，楚随之亡。被虏无卒年者例不收，他在秦楚之季战死有年，独入。

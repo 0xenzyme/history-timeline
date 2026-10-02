@@ -1,0 +1,29 @@
+---
+id: sima-yue
+name: 司马岳
+display: 晋康帝司马岳
+profile: full
+gender: male
+polity:
+  - jin
+categories:
+  - monarch
+birth: 322
+birthAccuracy: approx
+birthNote: 建元二年崩，年二十三，上推生年。
+death: 344
+deathAccuracy: exact
+title: 东晋康帝，建元二年崩
+tags:
+  - 晋
+  - 东晋
+aliases:
+  - 司马岳
+  - 晋康帝
+sources:
+  - work: 晋书
+    part: 康帝纪
+    kind: classic
+---
+
+成帝母弟。咸康八年成帝崩，以琅邪王入嗣。建元二年崩于式乾殿，年二十三。

@@ -1,0 +1,27 @@
+---
+id: liu-kezhuang
+name: 刘克庄
+display: 刘克庄
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - poetry
+  - official
+birth: 1187
+birthAccuracy: exact
+death: 1269
+deathAccuracy: exact
+title: 后村居士，南宋晚期的江湖诗宗
+tags:
+  - 宋
+aliases:
+  - 后村居士
+sources:
+  - work: 宋史
+    part: 刘克庄传
+    kind: classic
+---
+
+以荫入仕而负诗名，江湖诗案中遭禁锢。晚年目盲犹作诗文，词风豪迈近稼轩。咸淳五年卒，年八十三。

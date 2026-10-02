@@ -1,0 +1,28 @@
+---
+id: ji-jing
+name: 姬静
+display: 周宣王
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -782
+deathAccuracy: exact
+title: 西周中兴之王，在位四十六年
+tags:
+  - 宣王中兴
+aliases:
+  - 周宣王
+sources:
+  - work: 史记
+    part: 周本纪
+    kind: classic
+  - work: 史记
+    part: 十二诸侯年表
+    kind: classic
+---
+
+厉王太子。国人暴动时匿于召公家。共和罢，即位。用仲山甫、尹吉甫，史称宣王中兴。即位不行籍田之礼；晚年千亩之战，王师败绩。

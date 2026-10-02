@@ -1,0 +1,27 @@
+---
+id: bing-ji
+name: 丙吉
+display: 丙吉
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+birthAccuracy: unknown
+death: -55
+deathAccuracy: exact
+title: 郡邸狱护宣帝，宽厚知大体
+tags:
+  - 西汉
+  - 宣帝中兴
+  - 知大体
+aliases:
+  - 丙少卿
+sources:
+  - work: 汉书
+    part: 魏相丙吉传
+    kind: classic
+---
+
+字少卿，鲁国人，治律令为狱吏。巫蛊事起诏治郡邸狱，闭门拒使者，全护皇曾孙（即宣帝）而绝口不道前恩。后为太子太傅、御史大夫，神爵三年代魏相为相，封博阳侯，遇群斗死伤不问而问牛喘，谓三公典调和阴阳。五凤三年春病笃，帝自临问，荐杜延年、于定国、陈万年自代。

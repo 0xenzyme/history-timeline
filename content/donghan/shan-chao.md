@@ -1,0 +1,28 @@
+---
+id: shan-chao
+name: 单超
+display: 单超
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - eunuch
+birthAccuracy: unknown
+death: 160
+deathAccuracy: approx
+deathNote: 五侯之封在延熹二年；传云「超病，帝遣使者就拜车骑将军。明年薨」，相对系年，当作延熹三年。
+title: 五侯之首，宦官专权的开端
+tags:
+  - 东汉
+  - 宦官
+aliases:
+  - 单超
+  - 新丰侯
+sources:
+  - work: 后汉书
+    part: 宦者列传·单超
+    kind: classic
+---
+
+中常侍。桓帝不堪梁冀之逼，延熹二年啮超臂出血为盟，与超等五人定诛冀之议，冀及宗亲党与悉诛。超与徐璜、具瑗、左悺、唐衡同日封侯，世谓「五侯」，自是权归宦官，朝廷日乱。病重拜车骑将军，明年薨。梁冀案与五侯格局的对立面之首。

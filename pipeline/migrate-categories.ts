@@ -2,6 +2,8 @@ import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { findPersonMarkdown } from './person-md';
+
 const pipelineRoot = dirname(fileURLToPath(import.meta.url));
 const peopleDir = join(pipelineRoot, 'registry', 'people');
 const vocabPath = join(pipelineRoot, 'vocab', 'categories.json');
@@ -225,6 +227,11 @@ function main(): void {
     }
 
     if (write) {
+      const markdown = findPersonMarkdown(join(pipelineRoot, '..', 'content'), String(parsed.id));
+      if (markdown) {
+        console.warn(`${String(parsed.id)} 在 ${markdown}，分类迁移不改 Markdown`);
+        continue;
+      }
       const next = rebuild(parsed, categories, primary, nextTags, 'tags' in parsed);
       writeFileSync(path, `${JSON.stringify(next, null, 2)}\n`);
       stats.written += 1;

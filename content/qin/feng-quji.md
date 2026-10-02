@@ -1,0 +1,36 @@
+---
+id: feng-quji
+name: 冯去疾
+display: 冯去疾
+profile: full
+gender: male
+polity:
+  - qin
+categories:
+  - chancellor
+birthAccuracy: unknown
+death: -208
+deathAccuracy: exact
+deathNote: 秦始皇本纪在二世二年段写右丞相去疾与冯劫说将相不辱而自杀，三年才另起。集解徐广曰姓冯。六国年表把诛去疾系在前208年。
+title: 右丞相，二世二年自杀
+tags:
+  - 秦朝
+  - 丞相
+aliases:
+  - 去疾
+  - 右丞相去疾
+  - 冯去疾
+sources:
+  - work: 史记
+    part: 秦始皇本纪
+    note: 集解徐广曰：去疾姓冯。
+    kind: classic
+  - work: 史记
+    part: 六国年表
+    kind: classic
+  - work: 汉书
+    part: 冯奉世传
+    kind: classic
+---
+
+始皇三十七年已是右丞相，始皇出游时留守咸阳。二世二年与李斯请停阿房宫，下吏后说将相不辱，自杀。

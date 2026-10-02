@@ -1,0 +1,31 @@
+---
+id: zhang-huan
+name: 张奂
+display: 张奂
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+  - military-theory
+birth: 104
+birthAccuracy: approx
+birthNote: 光和四年卒，年七十八，上推生年。
+death: 181
+deathAccuracy: exact
+deathNote: 光和四年卒，年七十八。
+title: 恩信服羌胡，凉州三明之一
+tags:
+  - 东汉
+  - 凉州三明
+aliases:
+  - 张奂
+  - 张然明
+sources:
+  - work: 后汉书
+    part: 皇甫张段列传
+    kind: classic
+---
+
+敦煌人，少言「大丈夫当为国家立功边境」，将帅有名。匈奴、乌桓、羌胡皆畏而爱之。建宁初被曹节矫制迫围窦武，深病其卖，固让封还印绶；与段颎争羌宜招降，因此被诬禁锢，杜门养徒著书。光和四年卒。

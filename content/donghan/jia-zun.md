@@ -1,0 +1,29 @@
+---
+id: jia-zun
+name: 祭遵
+display: 祭遵
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+  - founding
+birthAccuracy: unknown
+death: 33
+deathAccuracy: exact
+title: 云台将，征虏守死善道
+tags:
+  - 东汉
+  - 云台二十八将
+aliases:
+  - 祭遵
+  - 祭弟孙
+  - 颍阳侯
+sources:
+  - work: 后汉书
+    part: 铫期王霸祭遵列传
+    kind: classic
+---
+
+颍川颍阳人。光武署为门下史，为军市令，格杀舍中儿奉法不避，寻拜刺奸将军，「当备祭遵，吾舍中儿犯法尚杀之」。从平河北，北拒彭宠、斩张丰，定渔阳；西阻陇坻，独留不却。廉约小心，赏赐尽与士卒，在军中雅歌投壶，建武九年春卒于军。帝叹「安得忧国奉公之臣如祭征虏者」。与冯异、邓禹等同当西面之任。

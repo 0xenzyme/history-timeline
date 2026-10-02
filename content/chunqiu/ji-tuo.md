@@ -1,0 +1,30 @@
+---
+id: ji-tuo
+name: 姬佗
+display: 周庄王
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -682
+deathAccuracy: exact
+deathNote: 今本竹书纪年缺庄王卒年，年数取史记·周本纪「十五年，庄王崩」，仍按同一锚点推算。
+title: 杀周公黑肩，弟王子克奔燕
+tags:
+  - 王子克奔燕
+  - 周公黑肩
+aliases:
+  - 周庄王
+sources:
+  - work: 史记
+    part: 周本纪
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+---
+
+桓王崩而立。即位四年，弟王子克有宠，周公黑肩欲杀庄王立克；辛伯告变，庄王杀周公，王子克遂奔燕。此后王室只剩名号，燕与晋的曲沃争政开始分走周室的实权。

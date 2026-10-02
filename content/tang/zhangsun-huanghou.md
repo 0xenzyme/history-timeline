@@ -1,0 +1,29 @@
+---
+id: zhangsun-huanghou
+name: 长孙皇后
+display: 长孙皇后
+profile: full
+gender: female
+polity:
+  - tang
+categories:
+  - consort
+primary: consort
+birth: 601
+birthAccuracy: exact
+death: 636
+deathAccuracy: exact
+title: 文德皇后，贞观十年崩，年三十六
+tags:
+  - 唐
+  - 贞观
+aliases:
+  - 长孙皇后
+  - 文德皇后
+sources:
+  - work: 旧唐书
+    part: 后妃传·文德皇后长孙氏
+    kind: classic
+---
+
+长孙晟之女，年十三嫔于太宗。玄武门之变时亲慰将士。太宗即位立为皇后，劝勿以外戚为宰执，疾革仍请留用房玄龄。贞观十年六月崩于立政殿，时年三十六。

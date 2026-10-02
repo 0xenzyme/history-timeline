@@ -1,0 +1,30 @@
+---
+id: yuan-shanjian
+name: 元善见
+display: 孝静帝元善见
+profile: full
+gender: male
+polity:
+  - bei
+categories:
+  - monarch
+  - falling
+birth: 524
+birthAccuracy: approx
+birthNote: 天保二年殂，年二十八，上推生年。即位时年十一，与此相合。
+death: 551
+deathAccuracy: exact
+title: 东魏孝静帝，禅齐后被杀
+tags:
+  - 南北朝
+  - 东魏
+aliases:
+  - 元善见
+  - 孝静帝
+sources:
+  - work: 魏书
+    part: 孝静纪
+    kind: classic
+---
+
+清河王亶世子。出帝入关，高欢与百僚推他奉孝明之后，永熙三年即位，时年十一。天保元年逊位，封中山王。二年十二月殂，年二十八。

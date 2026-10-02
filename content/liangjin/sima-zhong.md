@@ -1,0 +1,29 @@
+---
+id: sima-zhong
+name: 司马衷
+display: 晋惠帝司马衷
+profile: full
+gender: male
+polity:
+  - jin
+categories:
+  - monarch
+primary: monarch
+birth: 259
+birthAccuracy: exact
+death: 307
+deathAccuracy: exact
+title: 晋惠帝，何不食肉糜，八王之乱
+tags:
+  - 西晋
+  - 八王之乱
+aliases:
+  - 司马衷
+  - 晋惠帝
+sources:
+  - work: 晋书
+    part: 惠帝纪
+    kind: classic
+---
+
+司马炎第二子，九岁立为太子。即位后政出贾后，诸王争政，赵王伦篡位，齐王冏、成都王颖、河间王颙、东海王越相继兴兵，史称八王之乱。天下饥馑，帝闻百姓无粟，曰「何不食肉糜」。光熙元年食饼中毒而崩，年四十八。

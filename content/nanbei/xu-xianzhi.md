@@ -1,0 +1,30 @@
+---
+id: xu-xianzhi
+name: 徐羡之
+display: 徐羡之
+profile: full
+gender: male
+polity:
+  - nan
+categories:
+  - regent
+  - minister
+birth: 364
+birthAccuracy: approx
+birthNote: 元嘉三年自刭，年六十三，上推生年。
+death: 426
+deathAccuracy: exact
+deathNote: 传文先书元嘉二年归政，接着书三年正月下诏，尔日自刭。
+title: 刘宋顾命大臣，元嘉三年自刭
+tags:
+  - 南北朝
+  - 刘宋
+aliases:
+  - 徐羡之
+sources:
+  - work: 宋书
+    part: 徐羡之传
+    kind: classic
+---
+
+宋初与傅亮同掌朝政。元嘉二年上表归政。三年正月文帝下诏讨逆，尔日召他，他逃至新林，自刭死，年六十三。

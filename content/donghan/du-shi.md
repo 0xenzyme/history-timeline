@@ -1,0 +1,28 @@
+---
+id: du-shi
+name: 杜诗
+display: 杜诗
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - official
+  - craft
+birthAccuracy: unknown
+death: 38
+deathAccuracy: exact
+title: 南阳太守，造水排铸农器
+tags:
+  - 东汉
+  - 方术
+aliases:
+  - 杜诗
+  - 杜君公
+sources:
+  - work: 后汉书
+    part: 郭杜孔张廉王苏羊贾陆列传·杜诗
+    kind: classic
+---
+
+河内汲人，建武中历成皋令、沛郡汝南都尉，迁南阳太守。造作水排，铸为农器，用力少见功多，又修治陂池，广拓土田，南阳为之语曰「前有召父，后有杜母」。建武十四年被征，会病卒，家贫无田宅，诏赐赙绢。

@@ -1,0 +1,31 @@
+---
+id: li-yuan-ji
+name: 李元吉
+display: 巢王李元吉
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - royal-kin
+  - general
+primary: royal-kin
+birth: 603
+birthAccuracy: exact
+death: 626
+deathAccuracy: exact
+title: 齐王，助太子而死于玄武门
+tags:
+  - 唐
+  - 玄武门
+aliases:
+  - 李元吉
+  - 李三胡
+  - 齐王
+sources:
+  - work: 旧唐书
+    part: 巢王元吉传
+    kind: classic
+---
+
+李渊第四子，封齐王，性猜鸷，好兵。太原留守时弃城而走，为刘武周所败，其后与太子建成合谋倾秦王。武德九年欲刺世民于昆明池，谋泄，六月四日与建成同入玄武门，为尉迟敬德所射杀，年二十四，五子皆诛。

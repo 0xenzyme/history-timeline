@@ -1,0 +1,29 @@
+---
+id: zhang-yu-bc5
+name: 张禹
+display: 张禹
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+  - classics
+birthAccuracy: unknown
+death: -5
+deathAccuracy: exact
+deathNote: id 取 zhang-yu-bc5：registry 已有东汉张禹（zhang-yu，卒于 113 年），以卒年前加 bc 后缀区分。
+title: 成帝授《论语》师，安昌侯
+tags:
+  - 西汉
+  - 论语
+  - 成帝师
+aliases:
+  - 张子文
+sources:
+  - work: 汉书
+    part: 匡张孔马传
+    kind: classic
+---
+
+字子文，河内轵人，从施雠受《易》，从王阳、庸生问《论语》，元帝时诏令授太子《论语》，即后来的成帝。河平四年代王商为相，封安昌侯，鸿嘉元年以老病免，成帝每病辄车驾临问。为《论语章句》，诸儒语曰「欲为《论》，念张文」，建平二年薨。

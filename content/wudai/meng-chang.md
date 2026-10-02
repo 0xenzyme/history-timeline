@@ -1,0 +1,28 @@
+---
+id: meng-chang
+name: 孟昶
+display: 后蜀后主
+profile: full
+gender: male
+polity:
+  - shiguo
+categories:
+  - monarch
+  - falling
+birth: 919
+birthAccuracy: exact
+death: 965
+deathAccuracy: exact
+title: 后蜀后主，芙蓉锦城，桃符留句
+tags:
+  - 十国
+  - 后蜀
+sources:
+  - work: 十国春秋
+    part: 后蜀
+    kind: classic
+  - work: 宋史
+    kind: classic
+---
+
+知祥之子，嗣位逾四十年。初政恭俭，有小国之治；后期奢纵，罗城尽种芙蓉，七宝楼船之盛甲于诸国，亲书桃符"新年纳余庆，嘉节号长春"，为后世春联之祖。广政二十七年宋师入，不战而降，至汴七日而卒。

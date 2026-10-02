@@ -1,0 +1,27 @@
+---
+id: tan-daoji
+name: 檀道济
+display: 檀道济
+profile: full
+gender: male
+polity:
+  - nan
+categories:
+  - general
+primary: general
+birthAccuracy: unknown
+death: 436
+deathAccuracy: exact
+title: 征南大将军，唱筹量沙，死于自坏长城
+tags:
+  - 南朝
+  - 刘宋
+aliases:
+  - 檀道济
+sources:
+  - work: 宋书
+    part: 檀道济传
+    kind: classic
+---
+
+高平金乡人，世居京口。从刘裕征伐，为前锋，所至望风降。元嘉八年北伐，粮尽而夜唱筹量沙，全军而还，魏人不敢追。进位司空，威名甚重，朝廷疑之。元嘉十三年文帝疾笃，召入见而收付廷尉，诛之，临刑愤怒叱曰「乃坏汝万里长城」。

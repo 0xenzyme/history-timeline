@@ -1,0 +1,26 @@
+---
+id: wang-xin
+name: 王訢
+display: 王訢
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+birthAccuracy: unknown
+death: -76
+deathAccuracy: exact
+title: 武帝末右扶风，昭帝朝拜相
+tags:
+  - 西汉
+  - 昭帝
+aliases:
+  - 王䜣
+sources:
+  - work: 汉书
+    part: 公孙刘田王杨蔡陈郑传
+    kind: classic
+---
+
+济南人，以郡县吏积功至被阳令，暴胜之欲斩之，以「不如时有所宽，以明恩贷」一言得免。武帝末为右扶风，宫馆驰道修治供张办，武帝驻车嘉之。昭帝元凤四年代田千秋为相，封宜春侯，明年十二月薨，子谭以列侯与谋废昌邑王立宣帝。

@@ -1,0 +1,29 @@
+---
+id: he-yan
+name: 何晏
+display: 何晏
+profile: full
+gender: male
+polity:
+  - wei
+categories:
+  - official
+  - metaphysics
+primary: metaphysics
+birthAccuracy: unknown
+death: 249
+deathAccuracy: exact
+title: 正始名士，言《老子》，高平陵后族诛
+tags:
+  - 三国
+  - 曹魏
+aliases:
+  - 何晏
+  - 何平叔
+sources:
+  - work: 三国志
+    part: 魏书·诸夏侯曹传
+    kind: classic
+---
+
+南阳宛人，何进之孙，母尹氏，曹操纳之，遂为操所养。尚金乡公主，好老庄，与王弼并倡「以无为本」，作《论语集解》《道德论》。曹爽执政时为吏部尚书，正始十年爽败，与邓飏等同诛，夷三族。

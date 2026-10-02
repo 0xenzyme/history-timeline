@@ -1,0 +1,31 @@
+---
+id: gao-rou
+name: 高柔
+display: 高柔
+profile: full
+gender: male
+polity:
+  - wei
+categories:
+  - chancellor
+  - official
+primary: chancellor
+birth: 174
+birthAccuracy: approx
+birthNote: 传云卒时年九十，据卒年上推。
+death: 263
+deathAccuracy: exact
+title: 魏廷尉二十余年，官至太尉
+tags:
+  - 三国
+  - 曹魏
+aliases:
+  - 高柔
+  - 高文惠
+sources:
+  - work: 三国志
+    part: 魏书·韩崔高孙王传
+    kind: classic
+---
+
+陈留圉人，字文惠。为廷尉二十三年，执法平允；齐王时为司空，高贵乡公时转司徒、太尉。高平陵之变，奉太后诏假节行大将军事，据曹爽营，司马懿谓「君为周勃矣」。景元四年薨，年九十，谥元侯。

@@ -1,0 +1,28 @@
+---
+id: guo-congqian
+name: 郭从谦
+display: 郭从谦
+profile: full
+gender: male
+polity:
+  - wudai
+categories:
+  - general
+  - rebel
+birthAccuracy: unknown
+death: 926
+deathAccuracy: exact
+title: 兴教门之变的伶人
+tags:
+  - 五代
+  - 后唐
+sources:
+  - work: 旧五代史
+    part: 庄宗本纪
+    kind: classic
+  - work: 新五代史
+    part: 伶官传
+    kind: classic
+---
+
+幼隶伶官，艺名镜新，事庄宗为行城使，所部号从马直。庄宗末，从谦与其党谋乱，兴教门一夕纵火行弑。明宗入立，族诛之。

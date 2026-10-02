@@ -1,0 +1,28 @@
+---
+id: zhai-fang-jin
+name: 翟方进
+display: 翟方进
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+  - classics
+birthAccuracy: unknown
+death: -7
+deathAccuracy: exact
+title: 荧惑守心，成帝赐册即日自杀
+tags:
+  - 西汉
+  - 经学
+  - 荧惑守心
+aliases:
+  - 翟子威
+sources:
+  - work: 汉书
+    part: 翟方进传
+    kind: classic
+---
+
+字子威，汝南上蔡人，家世微贱，母织屦供其从博士受《春秋》，以射策甲科为郎。永始二年代薛宣为丞相，持法刻深，好《左氏传》、天文星历，为相十年。绥和二年春荧惑守心，成帝赐册归咎政事，即日自杀，帝亲临吊，礼赐异于它相。

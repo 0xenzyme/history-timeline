@@ -1,0 +1,28 @@
+---
+id: wei-anxiwang
+name: 魏安釐王
+display: 魏安釐王
+profile: full
+gender: male
+polity:
+  - wei-zhanguo
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -243
+deathAccuracy: exact
+deathNote: 魏世家：安釐王三十四年信陵君卒，王亦卒；由景湣王元年（前242，秦初置东郡）逆系为前243。与落库记录中信陵君条同推。
+title: 魏王，窃符之后的猜忌
+tags:
+  - 魏国
+  - 信陵君
+aliases:
+  - 安釐王
+  - 安僖王
+sources:
+  - work: 史记
+    part: 魏世家
+    kind: classic
+---
+
+信陵君窃符救赵后忌之，不能复用；三十四年公子与王相继而卒。次年秦置东郡，魏只剩大梁以东。他的条与信陵君同年截断，是读魏国衰亡的对照。

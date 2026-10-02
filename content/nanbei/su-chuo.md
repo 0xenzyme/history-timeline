@@ -1,0 +1,31 @@
+---
+id: su-chuo
+name: 苏绰
+display: 苏绰
+profile: full
+gender: male
+polity:
+  - bei
+categories:
+  - official
+  - scholar
+primary: official
+birth: 498
+birthAccuracy: exact
+death: 546
+deathAccuracy: exact
+title: 西魏度支尚书，六条诏书与朱出墨入
+tags:
+  - 北朝
+  - 西魏
+  - 制度
+aliases:
+  - 苏绰
+  - 苏令绰
+sources:
+  - work: 周书
+    part: 苏绰传
+    kind: classic
+---
+
+武功人，少好学，博览群书，尤善算术。宇文泰问以天地造化之始、历代兴亡之迹，应对如流，遂为大行台左丞。定文案程式、朱出墨入之法及计帐、户籍之制，作六条诏书：先治心、敦教化、尽地利、擢贤良、恤狱讼、均赋役，为西魏立国之纲。大统十二年卒，年四十九。

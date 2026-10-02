@@ -1,0 +1,28 @@
+---
+id: meng-hao-ran
+name: 孟浩然
+display: 孟浩然
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - poetry
+primary: poetry
+birth: 689
+birthAccuracy: exact
+death: 740
+deathAccuracy: exact
+title: 襄阳隐士，一生布衣，与王维并称
+tags:
+  - 唐
+aliases:
+  - 孟浩然
+  - 孟襄阳
+sources:
+  - work: 旧唐书
+    part: 孟浩然传
+    kind: classic
+---
+
+襄州襄阳人，少好节义，喜振人患难，隐鹿门山。年四十游京师，太学赋诗，一座倾伏。张九龄、王维雅称道之，尝于内署诵所作，玄宗闻而命出，自诵「不才明主弃」，帝不悦而放还。采访使韩朝宗欲荐之朝，约日引谒而浩然与友剧饮，卒不赴。开元二十八年卒，年五十二。

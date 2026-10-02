@@ -1,0 +1,24 @@
+---
+id: su-wu
+name: 苏武
+display: 苏武
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+birthAccuracy: unknown
+death: -60
+deathAccuracy: exact
+title: 持节不屈，留匈奴十九年
+tags:
+  - 北海牧羊
+  - 持节
+sources:
+  - work: 汉书
+    part: 李广苏建传
+    kind: classic
+---
+
+天汉元年以中郎将使匈奴，被扣留十九年，持汉节牧羊北海而不屈；始元六年归国，拜典属国。宣帝神爵二年病卒，年八十余，后列名麒麟阁十一功臣。

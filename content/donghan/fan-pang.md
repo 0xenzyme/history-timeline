@@ -1,0 +1,30 @@
+---
+id: fan-pang
+name: 范滂
+display: 范滂
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - scholar-official
+  - falling
+birth: 137
+birthAccuracy: approx
+birthNote: 建宁二年死狱中，时年三十三，上推生年。
+death: 169
+deathAccuracy: exact
+title: 清诏使，澄清天下，狱中死节
+tags:
+  - 东汉
+  - 党锢
+aliases:
+  - 范滂
+  - 范孟博
+sources:
+  - work: 后汉书
+    part: 党锢列传·范滂
+    kind: classic
+---
+
+汝南征羌人，少厉清节，为清诏使案察冀州，守令望风解印绶。为太守宗资功曹，裁斥权豪，坐牢修钩党案系北寺狱，与王甫廷辩不屈。建宁二年大诛党人，诏下急捕，滂自诣狱，与母诀别而死，时年三十三。督邮吴导抱诏伏哭、县令郭揖愿与俱亡，为一时清议所宗。

@@ -1,0 +1,31 @@
+---
+id: zhao-sheng
+name: 赵胜
+display: 平原君
+profile: full
+gender: male
+polity:
+  - zhao
+categories:
+  - minister
+birthAccuracy: unknown
+death: -251
+deathAccuracy: exact
+deathNote: 平原君虞卿列传：以赵孝成王十五年卒。赵世家把秦王政初立记在孝成王二十年。秦王政元年为前246年，十五年即前251年。
+title: 赵相，散财守邯郸
+tags:
+  - 赵国
+  - 平原君
+aliases:
+  - 平原君
+  - 赵胜
+sources:
+  - work: 史记
+    part: 平原君虞卿列传
+    kind: classic
+  - work: 史记
+    part: 赵世家
+    kind: classic
+---
+
+赵公子，封平原君。相惠文王、孝成王，三次罢相又复任。邯郸被围时散家财飨士。孝成王十五年卒。

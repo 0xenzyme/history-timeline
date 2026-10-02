@@ -1,0 +1,24 @@
+---
+id: li-shun
+name: 李顺
+display: 李顺
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - rebel
+birthAccuracy: unknown
+death: 995
+deathAccuracy: disputed
+deathNote: 卒年异说并存，姑系于995年（至道二年官军复成都前后）。
+title: 大蜀政权的建立者
+tags:
+  - 宋
+sources:
+  - work: 宋史
+    part: 太宗本纪
+    kind: classic
+---
+
+王小波妻弟，继领其众，攻下成都，建国大蜀，年号应运。至道二年官军复成都，其下落诸说不一：俘杀、遁去莫知所终，皆见记载。

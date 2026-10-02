@@ -1,15 +1,151 @@
-import type { Topic } from '../src/types';
-import type { LintMessage, PipelineData, RegistryPerson } from './types';
+import { readFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const GENDERS = new Set(['female', 'male', 'unknown']);
+import type { Topic } from '../src/types';
+import type { CandidateEntry, LintMessage, PipelineData, RegistryPerson, SourceRef } from './types';
+
+const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
+
+/** person.schema.json 里用到的 JSON Schema 子集：type / enum / items / required / properties */
+interface SchemaProp {
+  type?: string;
+  enum?: string[];
+  items?: SchemaProp;
+  required?: string[];
+  properties?: Record<string, SchemaProp>;
+}
+
+const personSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'person.schema.json'), 'utf8'),
+) as SchemaProp;
+
+function typeMismatch(value: unknown, rule: SchemaProp | undefined): boolean {
+  switch (rule?.type) {
+    case 'integer':
+      return typeof value !== 'number' || !Number.isInteger(value);
+    case 'string':
+      return typeof value !== 'string';
+    case 'array':
+      return !Array.isArray(value);
+    case 'object':
+      return typeof value !== 'object' || value === null || Array.isArray(value);
+    default:
+      return false;
+  }
+}
+
+function enumViolation(value: unknown, rule: SchemaProp | undefined): boolean {
+  return Boolean(rule?.enum) && !rule!.enum!.includes(value as string);
+}
+
+/** 按 person.schema.json 校验登记记录。未知字段先只告警：历史登记尚未按 schema 审计过。 */
+function lintPersonSchema(person: RegistryPerson, path: string): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const props = personSchema.properties ?? {};
+  const record = person as unknown as Record<string, unknown>;
+
+  for (const key of personSchema.required ?? []) {
+    if (record[key] === undefined) {
+      messages.push({ level: 'error', path, message: `缺少必填字段 ${key}` });
+    }
+  }
+
+  for (const [key, value] of Object.entries(record)) {
+    const rule = props[key];
+    if (!rule) {
+      messages.push({ level: 'warning', path, message: `字段 ${key} 不在 person.schema.json 中` });
+      continue;
+    }
+    if (value === undefined) continue;
+    if (typeMismatch(value, rule)) {
+      messages.push({ level: 'error', path, message: `字段 ${key} 类型应为 ${rule.type}` });
+      continue;
+    }
+    if (enumViolation(value, rule)) {
+      messages.push({ level: 'error', path, message: `字段 ${key} 取值 ${String(value)} 不合法` });
+    }
+    if (!Array.isArray(value)) continue;
+
+    for (const item of value) {
+      if (typeMismatch(item, rule.items)) {
+        messages.push({ level: 'error', path, message: `字段 ${key} 的元素类型应为 ${rule.items?.type}` });
+      }
+      if (rule.items?.type !== 'object') continue;
+
+      const object = item as Record<string, unknown>;
+      for (const required of rule.items.required ?? []) {
+        if (object[required] === undefined) {
+          messages.push({ level: 'error', path, message: `字段 ${key} 的元素缺少 ${required}` });
+        }
+      }
+      for (const [subKey, subValue] of Object.entries(object)) {
+        const subRule = rule.items.properties?.[subKey];
+        if (!subRule) {
+          messages.push({ level: 'warning', path, message: `字段 ${key} 的 ${subKey} 不在 person.schema.json 中` });
+        } else if (enumViolation(subValue, subRule)) {
+          messages.push({ level: 'error', path, message: `字段 ${key} 的 ${subKey} 取值 ${String(subValue)} 不合法` });
+        }
+      }
+    }
+  }
+
+  return messages;
+}
 
 function vocabSet(items: { id: string }[]): Set<string> {
   return new Set(items.map((item) => item.id));
 }
 
-function lintPerson(person: RegistryPerson, categoryIds: Set<string>, polityIds: Set<string>): LintMessage[] {
-  const messages: LintMessage[] = [];
-  const path = `registry/people/${person.id}`;
+const CANDIDATE_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const CANDIDATE_KEYS = new Set(['id', 'name', 'display', 'seat', 'status', 'anchor', 'reason', 'sources']);
+
+export function profileOf(person: RegistryPerson): 'brief' | 'full' {
+  if (person.profile) return person.profile;
+  return person.bio?.trim() ? 'full' : 'brief';
+}
+
+function sourceKind(source: SourceRef): 'classic' | 'modern' | 'database' {
+  return source.kind ?? 'classic';
+}
+
+function hasReliableSource(sources: SourceRef[] | undefined): boolean {
+  return Boolean(sources?.some((source) => source.work.trim() && sourceKind(source) !== 'database'));
+}
+
+export interface RosterReport {
+  brief: number;
+  full: number;
+  pending: number;
+  rejected: number;
+}
+
+/** 登记按简表/详表计数；候选台账按待核/不收计数。人数本身不是门禁。 */
+export function summarizeRoster(data: PipelineData): RosterReport {
+  let brief = 0;
+  let full = 0;
+  for (const person of data.people.values()) {
+    if (profileOf(person) === 'brief') brief += 1;
+    else full += 1;
+  }
+  let pending = 0;
+  let rejected = 0;
+  for (const entries of data.candidates.values()) {
+    for (const entry of entries) {
+      if (entry.status === 'pending') pending += 1;
+      else if (entry.status === 'rejected') rejected += 1;
+    }
+  }
+  return { brief, full, pending, rejected };
+}
+
+export function lintRegistryPerson(
+  person: RegistryPerson,
+  categoryIds: Set<string>,
+  polityIds: Set<string>,
+  path = `pipeline/registry/people/${person.id}.json`,
+): LintMessage[] {
+  const messages = lintPersonSchema(person, path);
   for (const category of person.categories ?? []) {
     if (!categoryIds.has(category)) {
       messages.push({ level: 'error', path, message: `category ${category} 不在词表中` });
@@ -22,9 +158,6 @@ function lintPerson(person: RegistryPerson, categoryIds: Set<string>, polityIds:
     if (!polityIds.has(polity)) {
       messages.push({ level: 'error', path, message: `polity ${polity} 不在词表中` });
     }
-  }
-  if (person.gender && !GENDERS.has(person.gender)) {
-    messages.push({ level: 'error', path, message: `gender ${person.gender} 非法` });
   }
   if (!person.sources || person.sources.length === 0) {
     messages.push({ level: 'error', path, message: '缺少出处' });
@@ -50,8 +183,103 @@ function lintPerson(person: RegistryPerson, categoryIds: Set<string>, polityIds:
   if (person.deathAccuracy === 'disputed' && !person.deathNote) {
     messages.push({ level: 'error', path, message: '卒年异说必须写 deathNote' });
   }
-  if (!person.bio) {
-    messages.push({ level: 'warning', path, message: '缺少 bio' });
+  if (person.birth !== undefined && person.death !== undefined && person.birth > person.death) {
+    messages.push({ level: 'error', path, message: '生年晚于卒年' });
+  }
+  if ((person.birth !== undefined || person.death !== undefined) && !hasReliableSource(person.sources)) {
+    messages.push({ level: 'error', path, message: '年份不能只靠 database 出处支撑，需要 classic 或 modern' });
+  }
+  if (person.profile === 'full' && !person.bio?.trim()) {
+    messages.push({ level: 'error', path, message: '详表缺少 bio' });
+  }
+  if (person.profile === 'brief' && person.bio?.trim()) {
+    messages.push({ level: 'error', path, message: '已写 bio，profile 应为 full' });
+  }
+  if (person.profile && (!person.polity || person.polity.length === 0)) {
+    messages.push({ level: 'error', path, message: '简表必须写 polity' });
+  }
+  if (person.profile === 'brief' || person.profile === 'full') {
+    if (person.birthAccuracy === 'approx' && !person.birthNote?.trim()) {
+      messages.push({ level: 'error', path, message: '生年约略必须写 birthNote' });
+    }
+    if (person.deathAccuracy === 'approx' && !person.deathNote?.trim()) {
+      messages.push({ level: 'error', path, message: '卒年约略必须写 deathNote' });
+    }
+  }
+  return messages;
+}
+
+function lintCandidates(data: PipelineData): LintMessage[] {
+  const messages: LintMessage[] = [];
+  for (const draft of data.topics) {
+    const topicId = draft.meta.id;
+    const path = `topics/${topicId}/candidates.json`;
+    const entries = data.candidates.get(topicId) ?? [];
+    const laneIds = new Set(draft.lanes.map((lane) => lane.id));
+    const topicPeople = new Set(draft.people.map((person) => person.id));
+    const seen = new Set<string>();
+
+    for (const entry of entries) {
+      messages.push(...lintCandidateEntry(entry, path, laneIds, topicPeople, data, seen));
+    }
+  }
+  return messages;
+}
+
+function lintCandidateEntry(
+  entry: CandidateEntry,
+  path: string,
+  laneIds: Set<string>,
+  topicPeople: Set<string>,
+  data: PipelineData,
+  seen: Set<string>,
+): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const record = entry as unknown as Record<string, unknown>;
+  for (const key of Object.keys(record)) {
+    if (!CANDIDATE_KEYS.has(key)) {
+      messages.push({ level: 'warning', path, message: `${entry.id || '(无 id)'} 的字段 ${key} 不在候选台账中` });
+    }
+  }
+  if (!entry.id || !CANDIDATE_ID.test(entry.id)) {
+    messages.push({ level: 'error', path, message: `候选 id 不合法：${entry.id || '(空)'}` });
+    return messages;
+  }
+  if (seen.has(entry.id)) {
+    messages.push({ level: 'error', path, message: `候选 id 重复：${entry.id}` });
+  }
+  seen.add(entry.id);
+  if (!entry.name?.trim()) {
+    messages.push({ level: 'error', path, message: `${entry.id} 缺少 name` });
+  }
+  if (!entry.seat || !laneIds.has(entry.seat)) {
+    messages.push({ level: 'error', path, message: `${entry.id} 的 seat 不是本专题泳道` });
+  }
+  if (entry.status !== 'pending' && entry.status !== 'rejected') {
+    messages.push({ level: 'error', path, message: `${entry.id} 的 status 只能是 pending 或 rejected` });
+    return messages;
+  }
+  if (entry.status === 'pending') {
+    if (!entry.anchor?.trim()) {
+      messages.push({ level: 'error', path, message: `${entry.id} 待核但缺少 anchor` });
+    }
+    if (!hasReliableSource(entry.sources)) {
+      messages.push({ level: 'error', path, message: `${entry.id} 待核但没有 classic 或 modern 出处` });
+    }
+    if (data.people.has(entry.id)) {
+      messages.push({ level: 'error', path, message: `${entry.id} 已有登记，简表写入后应移出候选台账` });
+    }
+    if (topicPeople.has(entry.id)) {
+      messages.push({ level: 'error', path, message: `${entry.id} 已收入专题，应移出候选台账` });
+    }
+  }
+  if (entry.status === 'rejected') {
+    if (!entry.reason?.trim()) {
+      messages.push({ level: 'error', path, message: `${entry.id} 已标不收但缺少 reason` });
+    }
+    if (topicPeople.has(entry.id)) {
+      messages.push({ level: 'error', path, message: `${entry.id} 已标不收，但仍在专题 people 里` });
+    }
   }
   return messages;
 }
@@ -73,9 +301,35 @@ export function lintPipeline(data: PipelineData, compiled: Topic[]): LintMessage
   const categoryIds = vocabSet(data.categories);
   const polityIds = vocabSet(data.polities);
   const usedPeople = new Set<string>();
+  const approxGaps: string[] = [];
+  const polityGaps: string[] = [];
 
   for (const person of data.people.values()) {
-    messages.push(...lintPerson(person, categoryIds, polityIds));
+    const path = data.personPaths.get(person.id) ?? `pipeline/registry/people/${person.id}.json`;
+    messages.push(...lintRegistryPerson(person, categoryIds, polityIds, path));
+    if (!person.profile) {
+      if (person.birthAccuracy === 'approx' && person.birth !== undefined && !person.birthNote?.trim()) {
+        approxGaps.push(`${person.id} 生年`);
+      }
+      if (person.deathAccuracy === 'approx' && person.death !== undefined && !person.deathNote?.trim()) {
+        approxGaps.push(`${person.id} 卒年`);
+      }
+      if (!person.polity || person.polity.length === 0) polityGaps.push(person.id);
+    }
+  }
+  if (approxGaps.length > 0) {
+    messages.push({
+      level: 'warning',
+      path: 'registry/people',
+      message: `约略年份缺少 note（${approxGaps.length} 处）：${approxGaps.join(' ')}`,
+    });
+  }
+  if (polityGaps.length > 0) {
+    messages.push({
+      level: 'warning',
+      path: 'registry/people',
+      message: `登记缺 polity（${polityGaps.length} 人）：${polityGaps.join(' ')}`,
+    });
   }
 
   for (const draft of data.topics) {
@@ -129,22 +383,32 @@ export function lintPipeline(data: PipelineData, compiled: Topic[]): LintMessage
     }
   }
 
+  messages.push(...lintCandidates(data));
+
   for (const topic of compiled) {
     const linked = connectedPeople(topic);
-    for (const person of topic.people) {
-      if (!linked.has(person.id)) {
-        messages.push({
-          level: 'warning',
-          path: `topics/${topic.meta.id}`,
-          message: `${person.id} 没有关系，确认是否只为镜头收录`,
-        });
-      }
+    const missing = topic.people
+      .filter((person) => {
+        const registry = data.people.get(person.id);
+        return registry !== undefined && profileOf(registry) === 'full' && !linked.has(person.id);
+      })
+      .map((person) => person.id);
+    if (missing.length > 0) {
+      messages.push({
+        level: 'warning',
+        path: `topics/${topic.meta.id}`,
+        message: `详表尚未写关系 ${missing.length} 人：${missing.join(' ')}`,
+      });
     }
   }
 
   for (const id of data.people.keys()) {
     if (!usedPeople.has(id)) {
-      messages.push({ level: 'warning', path: `registry/people/${id}`, message: '已登记但未被任何专题收录' });
+      messages.push({
+        level: 'warning',
+        path: data.personPaths.get(id) ?? `pipeline/registry/people/${id}.json`,
+        message: '已登记但未被任何专题收录',
+      });
     }
   }
 

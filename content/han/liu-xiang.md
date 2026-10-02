@@ -1,0 +1,26 @@
+---
+id: liu-xiang
+name: 刘向
+display: 刘向
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - classics
+  - literature
+birthAccuracy: unknown
+death: -5
+deathAccuracy: approx
+deathNote: 本传书「年七十二卒，卒后十三岁而王氏代汉」，据此推为前5年；通行另有前8年一说。
+title: 校书中秘，屡劾王氏
+tags:
+  - 经学
+  - 校雠
+sources:
+  - work: 汉书
+    part: 楚元王传
+    kind: classic
+---
+
+楚元王之后，字子政，本名更生。治《穀梁》，领校中秘书，撰《别录》，著《新序》《说苑》《列女传》。屡上封事以灾异警戒外戚王氏，居列大夫官前后三十余年，年七十二卒。

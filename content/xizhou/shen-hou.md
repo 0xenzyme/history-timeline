@@ -1,0 +1,25 @@
+---
+id: shen-hou
+name: 申侯
+display: 申侯
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - consort
+birthAccuracy: unknown
+death: -770
+deathAccuracy: approx
+deathNote: 卒年不详。前 771 年联合犬戎攻杀幽王，前 770 年拥立平王东迁，取东迁年为最后可考活动，非确凿卒年。
+title: 申后之父，平王外祖
+tags:
+  - 申国
+  - 犬戎
+sources:
+  - work: 史记
+    part: 周本纪
+    kind: classic
+---
+
+西申之君。女为幽后，外孙为宜臼。幽王废申后，他引犬戎入镐，又与诸侯立平王。敌对与亲族叠在同一条姻亲上。

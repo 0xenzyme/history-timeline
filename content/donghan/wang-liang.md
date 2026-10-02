@@ -1,0 +1,29 @@
+---
+id: wang-liang
+name: 王梁
+display: 王梁
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+  - founding
+birthAccuracy: unknown
+death: 38
+deathAccuracy: exact
+title: 云台将，以谶文拜大司空
+tags:
+  - 东汉
+  - 云台二十八将
+aliases:
+  - 王梁
+  - 王君严
+  - 阜成侯
+sources:
+  - work: 后汉书
+    part: 朱景王杜马刘傅坚马列传
+    kind: classic
+---
+
+渔阳要阳人，与盖延、吴汉将兵南及光武于广阿。为野王令，南拒洛阳、北守天井关。帝以《赤伏符》「王梁主卫作玄武」，超拜大司空，封武强侯；然两违诏敕，几至军法。徙河南尹，穿渠引穀水注洛阳，渠成而水不流，七年为有司所劾。建武十四年卒官。

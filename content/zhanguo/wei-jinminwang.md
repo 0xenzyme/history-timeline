@@ -1,0 +1,28 @@
+---
+id: wei-jinminwang
+name: 魏景湣王
+display: 魏景湣王
+profile: full
+gender: male
+polity:
+  - wei-zhanguo
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -228
+deathAccuracy: approx
+deathNote: 魏世家在位年系年，约前228年卒；其子假即位数年城破水灌、被虏无卒年，不入。
+title: 魏王，大梁将亡之主
+tags:
+  - 魏国
+  - 大梁
+aliases:
+  - 景湣王
+  - 闵王（魏）
+sources:
+  - work: 史记
+    part: 魏世家
+    kind: classic
+---
+
+秦已置东郡、割城二十，魏的条只剩大梁一隅。约前228年卒；魏亡在最后两年，被虏之君例不收。

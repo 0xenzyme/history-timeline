@@ -1,0 +1,26 @@
+---
+id: ji-huiwang
+name: 燕惠王
+display: 燕惠王
+profile: full
+gender: male
+polity:
+  - yan
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -272
+deathAccuracy: exact
+title: 燕王，疑乐毅，骑劫代将
+tags:
+  - 燕国
+  - 即墨
+aliases:
+  - 燕惠王
+sources:
+  - work: 史记
+    part: 燕召公世家
+    kind: classic
+---
+
+昭王之子，名不载于《史记》。为太子时与乐毅有隙，即位使骑劫代将，即墨一败，田单复七十城。昭王那条刚断在这里，齐国那条就从这里重新长起来。

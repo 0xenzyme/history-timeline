@@ -1,0 +1,31 @@
+---
+id: qian-hongchu
+name: 钱弘俶
+display: 吴越忠懿王
+profile: full
+gender: male
+polity:
+  - shiguo
+categories:
+  - monarch
+  - falling
+birth: 929
+birthAccuracy: exact
+death: 988
+deathAccuracy: exact
+title: 忠懿王纳土归宋，封邓王
+tags:
+  - 十国
+  - 吴越
+aliases:
+  - 钱俶
+sources:
+  - work: 宋史
+    part: 钱俶传
+    kind: classic
+  - work: 十国春秋
+    part: 吴越
+    kind: classic
+---
+
+文穆王九子。嗣位后事奉中国，避宋讳去"弘"单名俶。佐宋下常、润，拒南唐之援。太平兴国三年入朝，上版籍十三州、民五十五万户，纳土归宋，封淮海国王、邓王。端拱元年暴卒，议者疑焉。

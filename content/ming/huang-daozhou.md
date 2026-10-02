@@ -1,0 +1,27 @@
+---
+id: huang-daozhou
+name: 黄道周
+display: 黄道周
+profile: full
+gender: male
+polity:
+  - ming
+categories:
+  - official
+  - scholar
+  - falling
+primary: scholar
+birth: 1585
+birthAccuracy: exact
+death: 1646
+deathAccuracy: exact
+title: 石斋先生，婺源就义
+tags:
+  - 明
+sources:
+  - work: 明史
+    part: 黄道周传
+    kind: classic
+---
+
+字幼玄，号石斋，福建漳浦人。天启二年进士，崇祯朝疏论杨嗣昌夺情，廷杖削籍。隆武立，以武英殿大学士自请督师，1646 年婺源兵败被俘，南京不屈而死。

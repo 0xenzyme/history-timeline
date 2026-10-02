@@ -1,0 +1,30 @@
+---
+id: shangguan-wan-er
+name: 上官婉儿
+display: 上官婉儿
+profile: full
+gender: female
+polity:
+  - tang
+categories:
+  - consort
+  - poetry
+primary: consort
+birth: 664
+birthAccuracy: exact
+death: 710
+deathAccuracy: exact
+title: 上官昭容，掌诏命，死于唐隆之变
+tags:
+  - 唐
+  - 宫闱
+aliases:
+  - 上官婉儿
+  - 上官昭容
+sources:
+  - work: 旧唐书
+    part: 后妃传·上官昭容
+    kind: classic
+---
+
+陕州陕人，上官仪之孙女，仪被诛，婉儿与母郑氏配入掖庭。年十四聪达敏识，明习吏事，则天爱其才而用之，自圣历以后百司表奏多令参决。中宗时进拜昭容，掌修文馆，引大臣宴集赋诗，评其甲乙。景龙四年临淄王隆基举兵诛韦后，婉儿亦被斩于旗下，年四十七。

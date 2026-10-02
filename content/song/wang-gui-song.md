@@ -1,0 +1,24 @@
+---
+id: wang-gui-song
+name: 王珪
+display: 王珪
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - chancellor
+birth: 1019
+birthAccuracy: exact
+death: 1085
+deathAccuracy: exact
+title: 「三旨相公」，元丰末受顾命
+tags:
+  - 宋
+sources:
+  - work: 宋史
+    part: 王珪传
+    kind: classic
+---
+
+执政十六年，上殿进呈云「取圣旨」，可否云「领圣旨」，退谕禀事者云「已得圣旨」。元丰末受顾命立哲宗。元丰八年卒于位。

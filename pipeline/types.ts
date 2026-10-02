@@ -4,6 +4,8 @@ export interface SourceRef {
   work: string;
   part?: string;
   note?: string;
+  /** 出处类型：典籍 / 现代考证 / 外部数据库（只作候选）。省略按 classic 处理 */
+  kind?: 'classic' | 'modern' | 'database';
 }
 
 export interface RegistryPerson {
@@ -27,7 +29,31 @@ export interface RegistryPerson {
   /** 政权归属，取自 vocab/polities.json，可多值（如伍子胥 = chu + wu-guo） */
   polity?: string[];
   gender?: Gender;
+  /**
+   * 简表 brief：只够上轴。详表 full：已写 bio，并应补关系。
+   * 缺省时，有 bio 视为 full，否则视为 brief。
+   */
+  profile?: 'brief' | 'full';
   sources: SourceRef[];
+}
+
+/** 专题待收台账。只放还没进简表的人，以及明确不收的人。 */
+export interface CandidateEntry {
+  id: string;
+  name: string;
+  display?: string;
+  /** 该专题 topic.json 里已有的泳道 id */
+  seat: string;
+  status: 'pending' | 'rejected';
+  /** 待核年份依据。pending 必填 */
+  anchor?: string;
+  /** 不收的原因。rejected 必填 */
+  reason?: string;
+  sources?: SourceRef[];
+}
+
+export interface CandidateFile {
+  people: CandidateEntry[];
 }
 
 export interface PersonOverlay {
@@ -81,7 +107,11 @@ export interface PipelineData {
   categories: CategoryFile[];
   polities: VocabFile[];
   people: Map<string, RegistryPerson>;
+  /** 人物 id → 相对仓库根的源文件。存量 JSON 与新 Markdown 各一条。 */
+  personPaths: Map<string, string>;
   topics: TopicDraft[];
+  /** 键是专题 id */
+  candidates: Map<string, CandidateEntry[]>;
 }
 
 export interface LintMessage {

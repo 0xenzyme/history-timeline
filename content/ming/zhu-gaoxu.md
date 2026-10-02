@@ -1,0 +1,26 @@
+---
+id: zhu-gaoxu
+name: 朱高煦
+display: 汉王朱高煦
+profile: full
+gender: male
+polity:
+  - ming
+categories:
+  - royal-kin
+  - rebel
+primary: royal-kin
+birth: 1380
+birthAccuracy: exact
+death: 1426
+deathAccuracy: exact
+title: 汉王，两度觊觎储位
+tags:
+  - 明
+sources:
+  - work: 明史
+    part: 诸王传
+    kind: classic
+---
+
+朱棣次子。靖难中屡为前锋，永乐间数谋夺嫡；封汉王就藩乐安，1426 年举兵反，宣宗亲征而降，废为庶人，竟不得其死。

@@ -1,0 +1,32 @@
+---
+id: jin-aihou
+name: 姬光
+display: 晋哀侯
+profile: full
+gender: male
+polity:
+  - jin-guo
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -709
+deathAccuracy: exact
+deathNote: 今本竹书纪年·晋纪「桓王十一年，曲沃获晋哀侯。晋人立哀侯子为小子侯」。系被曲沃俘获，非战死。
+title: 为曲沃所俘，废为食邑
+tags:
+  - 曲沃之争
+  - 被俘
+aliases:
+  - 晋哀侯
+sources:
+  - work: 史记
+    part: 晋世家
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+---
+
+鄂侯之子。六年，晋侵陘廷，陘廷与曲沃武公谋，伐晋于汾旁，虏哀侯。此后为曲沃置食邑，十二年而废。晋人立哀侯子小子，是为小子侯。

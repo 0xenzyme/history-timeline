@@ -1,0 +1,24 @@
+---
+id: cha-bi
+name: 察必
+display: 察必
+profile: full
+gender: female
+polity:
+  - yuan
+categories:
+  - consort
+primary: consort
+birthAccuracy: unknown
+death: 1281
+deathAccuracy: exact
+title: 世祖皇后察必
+tags:
+  - 元
+sources:
+  - work: 元史
+    part: 后妃传
+    kind: classic
+---
+
+弘吉剌氏，忽必烈正后。性明达、尚俭紊，屡于世祖前救护汉臣、谏止滥罪；1281 年崩，后追谥昭睿顺圣皇后。

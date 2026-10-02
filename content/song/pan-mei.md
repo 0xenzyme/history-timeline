@@ -1,0 +1,24 @@
+---
+id: pan-mei
+name: 潘美
+display: 潘美
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - general
+birth: 925
+birthAccuracy: exact
+death: 991
+deathAccuracy: exact
+title: 从平岭南江南的开国元戎
+tags:
+  - 宋
+sources:
+  - work: 宋史
+    part: 潘美传
+    kind: classic
+---
+
+从太祖平岭南、下江南，太宗朝为北路都部署攻太原。雍熙北伐独拔寰朔云应四州，陈家谷失利，坐削秩。淳化二年卒，年六十七，谥武惠。

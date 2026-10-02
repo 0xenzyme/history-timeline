@@ -1,0 +1,29 @@
+---
+id: zhao-yun
+name: 赵云
+display: 赵云
+profile: full
+gender: male
+polity:
+  - shu
+categories:
+  - general
+primary: general
+birthAccuracy: unknown
+death: 229
+deathAccuracy: exact
+title: 五虎上将，长坂坡单骑救主
+tags:
+  - 三国
+  - 蜀汉
+aliases:
+  - 赵云
+  - 赵子龙
+  - 赵顺平
+sources:
+  - work: 三国志
+    part: 蜀书·关张马黄赵传
+    kind: classic
+---
+
+常山真定人，字子龙。初从公孙瓒，后归刘备，患难相随。长坂坡于乱军中怀抱幼主刘禅，出入重围，血染征袍；赤壁后随刘备取荆益，定益州。汉水之战设空营计，大破曹军，刘备叹「子龙一身都是胆也」。建兴七年卒，谥顺平侯。

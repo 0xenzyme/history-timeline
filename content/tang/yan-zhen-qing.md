@@ -1,0 +1,31 @@
+---
+id: yan-zhen-qing
+name: 颜真卿
+display: 颜真卿
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - calligraphy
+  - official
+primary: calligraphy
+birth: 709
+birthAccuracy: exact
+death: 785
+deathAccuracy: exact
+title: 太子太师，颜体书法，使李希烈而死
+tags:
+  - 唐
+  - 忠烈
+aliases:
+  - 颜真卿
+  - 颜清臣
+  - 颜鲁公
+sources:
+  - work: 旧唐书
+    part: 颜真卿传
+    kind: classic
+---
+
+琅邪临沂人，颜师古五世从孙。开元进士，为平原太守，安禄山反，独以平原、清河拒之，河北十七郡同日归顺。书法雄秀，端庄雄伟，世称颜体，与柳公权并称颜筋柳骨。建中四年李希烈陷汝州，使真卿宣慰，希烈胁之使降不从，贞元元年缢杀之，年七十七。

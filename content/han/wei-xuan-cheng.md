@@ -1,0 +1,28 @@
+---
+id: wei-xuan-cheng
+name: 韦玄成
+display: 韦玄成
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+  - classics
+birthAccuracy: unknown
+death: -36
+deathAccuracy: exact
+title: 让爵的经生，元帝朝丞相
+tags:
+  - 西汉
+  - 经学
+  - 让爵
+aliases:
+  - 韦少翁
+sources:
+  - work: 汉书
+    part: 韦贤传
+    kind: classic
+---
+
+韦贤少子，字少翁，以明经历位。父病笃当袭扶阳侯，阳狂不应召，让爵于兄，朝廷高其节。元帝永光二年代于定国为相，守正持重不及父而文采过之，与议罢郡国庙。建昭三年薨；邹鲁谚曰「遗子黄金满籯，不如一经」。

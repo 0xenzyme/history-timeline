@@ -7,10 +7,13 @@
     "dev": "vite",
     "content": "tsx pipeline/cli.ts",
     "content:check": "tsx pipeline/cli.ts --check",
+    "people:check": "tsx pipeline/people-cli.ts check",
+    "people:format": "tsx pipeline/people-cli.ts format",
+    "people:new": "tsx pipeline/people-cli.ts new",
     "taxonomy": "tsx pipeline/infer-taxonomy.ts",
     "migrate": "tsx pipeline/migrate-categories.ts",
     "overrides": "tsx pipeline/apply-overrides.ts",
-    "build": "tsc --noEmit && tsc --noEmit -p pipeline/tsconfig.json && tsx pipeline/cli.ts --check && vite build",
+    "build": "tsc --noEmit && tsc --noEmit -p pipeline/tsconfig.json && tsx pipeline/people-cli.ts check && tsx pipeline/cli.ts --check && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,6 +28,7 @@
     "@types/node": "^24.5.2",
     "tsx": "^4.20.5",
     "typescript": "^5.7.2",
-    "vite": "^6.0.7"
+    "vite": "^6.0.7",
+    "yaml": "^2.9.1"
   }
 }

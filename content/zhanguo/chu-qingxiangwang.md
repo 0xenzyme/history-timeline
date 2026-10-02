@@ -1,0 +1,27 @@
+---
+id: chu-qingxiangwang
+name: 楚顷襄王
+display: 楚顷襄王
+profile: full
+gender: male
+polity:
+  - chu
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -263
+deathAccuracy: exact
+deathNote: 楚世家、年表：顷襄王三十六年卒，系前263年。
+title: 楚王，郢亡之君
+tags:
+  - 楚国
+  - 郢
+aliases:
+  - 顷襄王
+sources:
+  - work: 史记
+    part: 楚世家
+    kind: classic
+---
+
+太子横质于齐，怀王入秦不反，齐送其归而立。白起取郢、烧夷陵，东徙而收东地之兵，楚之西半尽失。屈原放逐江南、前278年投汨罗，并在其世。前263年卒，考烈王与春申君接之。

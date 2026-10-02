@@ -1,0 +1,27 @@
+---
+id: yan-zhu
+name: 严助
+display: 严助
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - official
+birthAccuracy: unknown
+death: -122
+deathAccuracy: exact
+title: 中大夫，与淮南王论兵
+tags:
+  - 淮南王
+  - 闽越
+sources:
+  - work: 汉书
+    part: 严朱吾丘主父徐严终王贾传
+    kind: classic
+  - work: 汉书
+    part: 武帝纪
+    kind: classic
+---
+
+会稽吴人，建元中举贤良对策，擢为中大夫。闽越围东瓯，持节发会稽兵浮海救之；武帝遣谕意南越，与淮南王安往复议兵。后与淮南王交通，元狩元年淮南案起，廷尉张汤争「弗诛后不可治」，弃市。

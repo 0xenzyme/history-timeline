@@ -1,0 +1,30 @@
+---
+id: li-shimin
+name: 李世民
+display: 唐太宗李世民
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - monarch
+primary: monarch
+birth: 598
+birthAccuracy: exact
+death: 649
+deathAccuracy: exact
+title: 唐太宗，天可汗，贞观之治
+tags:
+  - 唐
+  - 贞观
+aliases:
+  - 李世民
+  - 唐太宗
+  - 秦王
+sources:
+  - work: 旧唐书
+    part: 太宗纪
+    kind: classic
+---
+
+李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。

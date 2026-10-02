@@ -1,0 +1,29 @@
+---
+id: qi-linggong
+name: 姜环
+display: 齐灵公
+profile: full
+gender: male
+polity:
+  - qi
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -554
+deathAccuracy: approx
+deathNote: 史记未记灵公在位年数。卒年由其父顷公卒（前582）与崔杼迎故太子光立庄公（庄公前548）之间推定，作约年。左传·襄公二十八年（前545）载齐侯使子家告于晋，是其末年。
+title: 弑惠公诸子而立，为崔杼所立
+tags:
+  - 崔杼立君
+  - 田氏起
+aliases:
+  - 齐灵公
+sources:
+  - work: 史记
+    part: 齐太公世家
+    kind: classic
+---
+
+顷公之子。初立，贵妃有宠，崔杼立之。九年，栾书弑晋厉公，晋伐齐。又八年，高国田氏以庆封为相，害伯子牙，栾公首亦见杀。灵公疾，崔杼迎故太子光而立之，是为庄公。

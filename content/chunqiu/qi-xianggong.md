@@ -1,0 +1,30 @@
+---
+id: qi-xianggong
+name: 姜诸儿
+display: 齐襄公
+profile: full
+gender: male
+polity:
+  - qi
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -686
+deathAccuracy: approx
+deathNote: 史记未记襄公在位年数。卒年前686，系据其父釐公卒（前698）与子孝公卒（前633）之间的次序及桓公卒前685推定，作约年。左传·桓公十八年（前704）载齐侯使管至父戍葵丘、瓜时往而不代，即襄公末年之事。
+title: 醉杀鲁桓公，为公孙无知所弑
+tags:
+  - 杀鲁桓公
+  - 公孙无知之乱
+  - 公子纠奔鲁
+aliases:
+  - 齐襄公
+sources:
+  - work: 史记
+    part: 齐太公世家
+    kind: classic
+---
+
+釐公太子。父卒立为君，丝绌无知秩服，无知怨。通桓公夫人，醉而使力士彭生抱鲁桓公上车以杀之，桓公下车而死。诸弟惧祸及己，公子纠奔鲁。襄公后为公孙无知所弑，雍林人又袭杀无知。

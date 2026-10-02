@@ -1,0 +1,25 @@
+---
+id: zhang-rou
+name: 张柔
+display: 张柔
+profile: full
+gender: male
+polity:
+  - yuan
+categories:
+  - general
+primary: general
+birth: 1190
+birthAccuracy: exact
+death: 1268
+deathAccuracy: exact
+title: 河北世侯之首
+tags:
+  - 元
+sources:
+  - work: 元史
+    part: 张柔传
+    kind: classic
+---
+
+易州定兴人。初为金将，蒙古南下后降，遂为河北世侯，重筑保州、聚书教士，隶忽必烈麾下；子弘范为其第九子。1268 年卒，年七十九。

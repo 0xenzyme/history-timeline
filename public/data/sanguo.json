@@ -55,7 +55,6 @@
       ],
       "primary": "monarch",
       "polity": [
-        "han",
         "wei"
       ],
       "gender": "male"
@@ -532,7 +531,6 @@
       ],
       "primary": "monarch",
       "polity": [
-        "han",
         "shu"
       ],
       "gender": "male"
@@ -1534,6 +1532,2213 @@
         "wei"
       ],
       "gender": "female"
+    },
+    {
+      "id": "mao-hou",
+      "name": "毛皇后",
+      "display": "明悼毛皇后",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 237,
+      "title": "魏明帝皇后，景初元年赐死",
+      "bio": "河内人，史失其名。黄初中选入平原王曹叡府，叡即位为贵嫔，太和元年立为皇后。明帝宠郭夫人，景初元年游后园召才人，毛后坐是赐死，谥曰悼。其弟毛曾以外戚封侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "wei"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "shu-mu-hou",
+      "name": "穆皇后",
+      "display": "先主穆皇后",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 245,
+      "title": "刘备皇后，延熙八年崩",
+      "bio": "陈留人，吴懿之妹，史失其名。兄吴懿随刘焉入蜀，相者谓后当极贵，刘瑁死后寡居；刘备定蜀，群下劝聘，建安二十四年立为汉中王后，章武元年立为皇后。后主即位尊为皇太后，延熙八年崩，合葬惠陵。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "shu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhong-yao",
+      "name": "钟繇",
+      "display": "钟繇",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 230,
+      "title": "魏太傅，楷书之祖",
+      "bio": "颍川长社人，字元常。汉末为司隶校尉持节督关中，官渡相持时送马应急；魏国初建为大理，迁相国，文帝时为廷尉，明帝时进太傅。工书法，后世与王羲之并称「钟王」。太和四年薨，谥成侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "calligraphy"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-lang",
+      "name": "王朗",
+      "display": "王朗",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 228,
+      "title": "魏司徒，经学名臣",
+      "bio": "东海郯人，字景兴。以通经拜郎中，汉末为会稽太守，孙策定江东后辗转入许；曹丕即王位迁御史大夫，及践阼改司空，明帝时为司徒。著《易》《春秋》《孝经》《周官》传。太和二年薨，谥成侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hua-xin",
+      "name": "华歆",
+      "display": "华歆",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 231,
+      "title": "历汉魏两朝，官至太尉",
+      "bio": "平原高唐人，字子鱼。汉末避乱江东，孙策待以上宾之礼；归曹后历尚书、尚书令，魏国初建为相国，文帝践阼改司徒，明帝时进太尉。清素自守，禄赐振施亲戚故人。太和五年薨，谥敬侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-qun",
+      "name": "陈群",
+      "display": "陈群",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 236,
+      "title": "魏司空，创九品官人法",
+      "bio": "颍川许昌人，字长文，陈寔之孙。刘备领豫州时辟为别驾，后归曹操，历侍中、尚书；文帝时为吏部尚书，立九品官人之法；明帝时为司空，录尚书事。青龙四年薨，谥靖侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dong-zhao",
+      "name": "董昭",
+      "display": "董昭",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 236,
+      "title": "魏司徒，定奉天子之策",
+      "bio": "济阴定陶人，字公仁。汉末说杨奉迎天子，为曹操迁都许昌定策；后首倡进魏公、加九锡之议，累画军国重事；明帝时为司徒。青龙四年薨，谥定侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-fang",
+      "name": "刘放",
+      "display": "刘放",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 250,
+      "title": "魏中书监，久掌机密",
+      "bio": "涿郡人，字子弃，汉广阳顺王之后。魏文帝时为中书监，与中书令孙资同掌机密三十余年；明帝寝疾，力主召曹爽与司马懿受遗辅政。齐王时加特进。嘉平二年卒。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-zi",
+      "name": "孙资",
+      "display": "孙资",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 251,
+      "title": "魏中书令，与刘放共掌机密",
+      "bio": "太原人，字彦龙。与刘放同为文、明二朝枢要，任中书令；明帝临终，与放共定策召曹爽、司马懿辅政。齐王时加特进。嘉平三年卒。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jiang-ji",
+      "name": "蒋济",
+      "display": "蒋济",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 249,
+      "deathNote": "承嘉平元年高平陵之变系年，本传「是岁薨」。",
+      "title": "魏太尉，高平陵之变中诱曹爽交权",
+      "bio": "楚国平阿人，字子通。历仕曹操、文帝、明帝，以谋略见称；高平陵之变中为司马懿作书，许曹爽以不失富贵，爽既诛，进封都乡侯，是岁薨，谥景侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-tai",
+      "name": "陈泰",
+      "display": "陈泰",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 260,
+      "title": "魏征西将军，屡拒姜维",
+      "bio": "陈群之子，字玄伯。出为雍州刺史，迁征西将军，牛头山退姜维、狄道解围，陇右赖之；后入朝。景元元年薨，追赠司空。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "general"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-rou",
+      "name": "高柔",
+      "display": "高柔",
+      "lane": "caowei",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 174,
+      "death": 263,
+      "birthNote": "传云卒时年九十，据卒年上推。",
+      "title": "魏廷尉二十余年，官至太尉",
+      "bio": "陈留圉人，字文惠。为廷尉二十三年，执法平允；齐王时为司空，高贵乡公时转司徒、太尉。高平陵之变，奉太后诏假节行大将军事，据曹爽营，司马懿谓「君为周勃矣」。景元四年薨，年九十，谥元侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-guan",
+      "name": "王观",
+      "display": "王观",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 260,
+      "title": "魏司空，守法俭素",
+      "bio": "东郡廪丘人，字伟台。明帝时为治书侍御史，历河南尹、少府，以守法不阿称；爽诛后行中领军据曹羲营，历光禄大夫、尚书右仆射；常道乡公即位拜司空，就官数日辄上印绶归里舍，薨于家，谥肃侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cui-lin",
+      "name": "崔林",
+      "display": "崔林",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 244,
+      "title": "魏司空，政尚清简",
+      "bio": "清河东武城人，字德儒，崔琰从弟。牧守州郡所在而治，以司隶校尉见荐于朝；景初中司徒、司空并缺，遂为司空，三公封列侯自林始。正始五年薨，谥孝侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-miao",
+      "name": "徐邈",
+      "display": "徐邈",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 249,
+      "title": "魏凉州刺史，西土称其能",
+      "bio": "燕国蓟人，字景山。为凉州刺史，持节领护羌校尉十余年，西土称其能；征为大司农，转光禄大夫，数岁拜司空，固辞不受。嘉平元年卒，年七十八，谥穆侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lu-yu",
+      "name": "卢毓",
+      "display": "卢毓",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 257,
+      "title": "魏司空，两典选举",
+      "bio": "涿郡涿人，字子家，卢植之子。典选举，重实名而轻虚誉；曹爽夺其吏部之任，爽诛复为吏部尚书，转仆射；高贵乡公时迁司空。甘露二年薨，谥成侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-li",
+      "name": "孙礼",
+      "display": "孙礼",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 250,
+      "title": "魏司空，泣请司马懿除曹爽",
+      "bio": "涿郡容城人，字德达。太祖平幽州召为军谋掾；曹爽专权时与之忿争，出为并州刺史，临行见司马懿涕泣横流，言社稷将危；爽诛，入为司隶校尉，迁司空。嘉平二年薨，谥景侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-gu",
+      "name": "傅嘏",
+      "display": "傅嘏",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 255,
+      "deathNote": "承毌丘俭之役系正元二年（255）。",
+      "title": "魏名理之宗，著才性四本论",
+      "bio": "北地泥阳人，字兰石。精于名理，作《四本论》，论才性同、异、合、离；正始间不附曹爽一党，司马氏执政后参预征讨之谋；正元二年从平毌丘俭、文钦，是岁卒。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "scholar"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-jing",
+      "name": "许靖",
+      "display": "许靖",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 222,
+      "title": "蜀司徒，一时人望",
+      "bio": "汝南平舆人，字文休，许劭从兄。以臧否人物知名，避乱交州，后入蜀依刘璋；成都将破逾城出降，备薄其为人，法正劝厚待之；章武元年拜司徒，虽年逾七十，爱乐人物，诱纳后进。章武二年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ba",
+      "name": "刘巴",
+      "display": "刘巴",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 222,
+      "title": "蜀尚书令，铸直百钱以济军需",
+      "bio": "零陵烝阳人，字子初。先附曹操，奉命南徇长沙、零陵、桂阳，为刘备所阻不得北还，辗转交趾入蜀；备定益州，委以尚书，代法正为尚书令，与诸葛亮等共撰《蜀科》。章武二年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-yan-shu",
+      "name": "李严",
+      "display": "李严",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 234,
+      "deathNote": "本传「闻诸葛亮卒，发病死」，承建兴十二年系年。",
+      "title": "蜀中都护，与诸葛亮并受托孤",
+      "bio": "南阳人，字正方。以才干见称，归刘备后守犍为；章武三年与诸葛亮并受遗诏辅后主，为中都护、统内外军事，留镇永安；建兴九年督运军粮误期，矫诏召亮还，坐废为民，徙梓潼郡；建兴十二年闻亮卒，发病死。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dong-yun",
+      "name": "董允",
+      "display": "董允",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 246,
+      "title": "蜀侍中，黄皓不敢为非",
+      "bio": "南郡枝江人，字休昭，董和之子。后主时为侍中，后主欲广择后宫，允执不可；宦人黄皓有宠，允正色匡主，数责于皓，皓畏允，终允之世不敢为非；延熙中守尚书令。延熙九年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lv-yi",
+      "name": "吕乂",
+      "display": "吕乂",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 251,
+      "title": "蜀尚书令，众事无留",
+      "bio": "南阳人，字季阳。历尚书、蜀郡太守；董允卒，代为尚书令，众事无留。延熙十四年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qiao-zhou",
+      "name": "谯周",
+      "display": "谯周",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 270,
+      "deathNote": "卒于晋泰始六年，生平主体在蜀，归三国专题。",
+      "title": "蜀大儒，力主降魏",
+      "bio": "巴西西充国人，字允南。潜心典籍，精研六经，晓天文；陈寿、李密皆出其门。炎兴元年魏军入蜀，力主后主舆榇自缚出降；入晋拜骑都尉。泰始六年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "scholar",
+        "official"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gu-yong",
+      "name": "顾雍",
+      "display": "顾雍",
+      "lane": "sunwu",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 168,
+      "death": 243,
+      "birthNote": "传云「为相十九年，年七十六」，据赤乌六年卒上推。",
+      "title": "吴丞相，为相十九年",
+      "bio": "吴郡吴人，字元叹。少从蔡邕学琴书；黄武四年代孙邵为丞相，平尚书事，为相十九年，权尝叹「顾君不言，言必有中」。赤乌六年卒，年七十六，谥肃侯。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pan-jun",
+      "name": "潘濬",
+      "display": "潘濬",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 239,
+      "title": "吴太常，与陆逊共典荆州",
+      "bio": "武陵汉寿人，字承明。刘备以为荆州治中，典留州事；关羽败后归吴，权慰抚之，与陆逊俱驻武昌，共典荆州事；讨平武陵蛮，迁太常。赤乌二年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "official",
+        "general"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kan-ze",
+      "name": "阚泽",
+      "display": "阚泽",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 243,
+      "title": "吴太子太傅，通历数",
+      "bio": "会稽山阴人，字德润。家世农夫，少为人佣书，写毕诵遍，究览群籍，兼通历数；历尚书、中书令，赤乌五年拜太子太傅，领中书如故，著《乾象历注》以正时日。赤乌六年冬卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "official",
+        "scholar"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "bu-zhi",
+      "name": "步骘",
+      "display": "步骘",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 248,
+      "deathNote": "本传作「十（一）年卒」，承前「赤乌九年代陆逊为丞相」；「十年」「十一年」两读，分繫247、248，点校本补「一」字取十一年，故作248。",
+      "title": "吴丞相，定交州",
+      "bio": "临淮淮阴人，字子山。避难江东，与卫旌种瓜自给；建安十五年领交州刺史，斩苍梧太守吴巨，士燮兄弟相率供命，南土之宾自此始；权称帝拜骠骑将军，都督西陵；赤乌九年代陆逊为丞相。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lv-dai",
+      "name": "吕岱",
+      "display": "吕岱",
+      "lane": "sunwu",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 161,
+      "death": 256,
+      "birthNote": "传云卒时年九十六，据卒年上推。",
+      "title": "吴大司马，年九十六而卒",
+      "bio": "广陵海陵人，字定公。讨定交州，诱斩士徽兄弟；陆逊卒后督右部，迁上大将军；孙亮即位拜大司马。清身奉公，在交州历年不饷其家。太平元年卒，年九十六。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xue-zong",
+      "name": "薛综",
+      "display": "薛综",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 243,
+      "deathNote": "本传「赤乌三年徙选曹尚书，五年为太子少傅……六年春卒」，承前系赤乌六年（243）。",
+      "title": "吴太子少傅，名儒领选",
+      "bio": "沛郡竹邑人，字敬文。少避地交州，从刘熙受学；历合浦、交阯太守，还都迁尚书仆射，徙选曹尚书，官至太子少傅，仍领选举。著诗赋难论数万言，题曰《私载》，又定《五宗图述》《二京解》。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "official",
+        "scholar"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-jun",
+      "name": "孙峻",
+      "display": "孙峻",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 256,
+      "title": "吴丞相，诛诸葛恪后辅政",
+      "bio": "吴郡富春人，字子远，孙静曾孙。孙亮时定谋诛太傅诸葛恪，自为丞相，不复置御史大夫，士人失望；宗室吴侯孙英谋杀之，事泄死。太平元年卒，从弟綝代辅政。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-lin",
+      "name": "孙綝",
+      "display": "孙綝",
+      "lane": "sunwu",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 231,
+      "death": 258,
+      "birthNote": "传云诛时年二十八，据卒年上推。",
+      "title": "吴大将军，废立自专",
+      "bio": "孙峻从弟，字子密。峻卒代辅政，迁大将军，假节，负贵倨傲；废孙亮为会稽王，迎立孙休；休与丁奉定计，腊会执綝，斩之，夷三族。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "puyang-xing",
+      "name": "濮阳兴",
+      "display": "濮阳兴",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 264,
+      "deathNote": "孙皓即位收兴，徙广州，道追杀之，承即位事系元兴元年（264）。",
+      "title": "吴丞相，迎立孙皓而被杀",
+      "bio": "陈留人，字子元。为会稽太守时与孙休相亲善；休即位，兴为太常、卫将军，平军国事，迁丞相，与张布相表里；后与张布共迎立孙皓，皓即位未几，收兴、布，徙广州，道追杀之，夷三族。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yue-jin",
+      "name": "乐进",
+      "display": "乐进",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 218,
+      "title": "魏右将军，每战先登",
+      "bio": "阳平卫国人，字文谦。以胆烈从曹操，每战常先登陷阵；官渡力战破绍，后与张辽、李典以七千人屯合肥，破孙权十万之众。建安二十三年薨，谥威侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dian-wei",
+      "name": "典韦",
+      "display": "典韦",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 197,
+      "deathNote": "卒句承建安二年宛城之变叙事系年。",
+      "title": "曹操帐前都尉，宛城死战",
+      "bio": "陈留己吾人。形貌魁梧，膂力过人，为曹操帐前都尉，领亲兵绕大帐；建安二年张绣夜叛袭营，韦据门死战，掩护曹操得脱，遂战死。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pang-de",
+      "name": "庞德",
+      "display": "庞德",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 219,
+      "deathNote": "卒句承建安二十四年樊城之围叙事系年。",
+      "title": "魏立义将军，亲搏关羽",
+      "bio": "南安狟道人，字令明。初为马超部将，随张鲁归曹操；樊城之役亲搏关羽，射羽中额；汉水泛涨后乘小船接战，箭尽被擒，骂不绝口，为关羽所杀，曹操为之流涕，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-jin",
+      "name": "于禁",
+      "display": "于禁",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 221,
+      "title": "魏左将军，晚节一跌",
+      "bio": "泰山钜平人，字文则。以法御军，最号毅重；樊城之役督七军援曹仁，汉水暴溢，全军覆没降羽；孙权袭荆州后送还魏，文帝拜安远将军，使谒高陵，豫画陵屋其困降之状，惭恚发病薨。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "display": "曹仁",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 223,
+      "title": "魏大司马，守樊拒关羽",
+      "bio": "沛国谯人，字子孝，曹操从弟。从曹操起兵，以守御见长；樊城被关羽围困，激励将士坚守待援，徐晃至而围解；文帝时为大司马。黄初四年卒，谥忠侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiahou-shang",
+      "name": "夏侯尚",
+      "display": "夏侯尚",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 225,
+      "title": "魏征南将军，都督南方",
+      "bio": "沛国谯人，字伯仁，夏侯渊之侄，与文帝为布衣之交。黄初中假节都督南方诸军事，拔上庸，定三郡九县，与诸葛瑾隔江相拒；所幸爱妾为文帝赐死，发病恍惚，黄初六年薨，谥悼侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiahou-yuan",
+      "name": "夏侯渊",
+      "display": "夏侯渊",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 219,
+      "title": "魏征西将军，定军山阵殁",
+      "bio": "沛国谯人，字妙才，夏侯惇族弟。以急行军见长，军中语「三日五百，六日一千」；讨灭陇右叛乱，都督汉中；建安二十四年定军山之役，为刘备将黄忠所斩，谥愍侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-huang",
+      "name": "徐晃",
+      "display": "徐晃",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 227,
+      "title": "魏右将军，解樊城之围",
+      "bio": "河东杨人，字公明。本杨奉部将，归曹操后以治军严整称；樊城之役长驱直入，连破围堑，解樊城之围，曹操案行诸军谓其「有周亚夫之风」。太和元年卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-zhen",
+      "name": "曹真",
+      "display": "曹真",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 231,
+      "title": "魏大司马，久镇关中",
+      "bio": "字子丹，曹操族子，少孤，操收养与诸子同。久镇西线，街亭之役督张郃破马谡，却诸葛亮首出祁山；明帝时为大司马。太和五年卒，谥元侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-xiu",
+      "name": "曹休",
+      "display": "曹休",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 228,
+      "title": "魏大司马，石亭之败",
+      "bio": "沛国谯人，字文烈，曹操族子，操谓「此吾家千里驹」。久都督扬州，石亭之役中吴将周鲂诈降诱击，陆逊断其归路，大败而还，痈发背薨。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-hong",
+      "name": "曹洪",
+      "display": "曹洪",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 232,
+      "title": "魏骠骑将军，荥阳让马",
+      "bio": "沛国谯人，字子廉，曹操从弟。荥阳之败让马与操，曰「天下可无洪，不可无君」；家赀巨万而性吝啬。文帝时坐事下狱，赖卞太后得免；明帝时复为骠骑将军。太和六年薨，谥恭侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "man-chong",
+      "name": "满宠",
+      "display": "满宠",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 242,
+      "title": "魏太尉，筑合肥新城",
+      "bio": "山阳昌邑人，字伯宁。历县令、太守，执法不避权贵；久镇淮南，请筑合肥新城，数却吴军；年老征还，迁太尉。正始三年卒，谥景侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "display": "张郃",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 231,
+      "title": "魏右将军，街亭破马谡",
+      "bio": "河间鄚人，字儁乂。本袁绍部将，官渡之役来归；识变量，善处营阵，料地势战阵无不精；街亭之役破马谡，平陇右；太和五年追击诸葛亮于木门，中飞矢卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guo-huai",
+      "name": "郭淮",
+      "display": "郭淮",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 255,
+      "title": "魏征西将军，屡拒姜维",
+      "bio": "太原阳曲人，字伯济。历雍州刺史、征西将军，都督雍凉诸军事，屡拒姜维北伐，抚御羌胡得法。正元二年卒，追赠大将军，谥贞侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-chang",
+      "name": "王昶",
+      "display": "王昶",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 259,
+      "title": "魏司空，著治论兵书",
+      "bio": "太原晋阳人，字文舒。著《治论》《兵书》十余篇，以立身之道教子弟；都督荆豫，击破吴将施绩；后迁司空，持节、都督如故。甘露四年卒，谥穆侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-ji",
+      "name": "王基",
+      "display": "王基",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 261,
+      "title": "魏征南将军，三叛皆与平",
+      "bio": "东莱曲城人，字伯舆。少孤，以笃学知名；历荆州刺史、征南将军，毌丘俭、诸葛诞之叛皆力主速进，与谋居多；著《时要论》。景元二年卒，追赠司空，谥景侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hu-zhi",
+      "name": "胡质",
+      "display": "胡质",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 250,
+      "title": "魏征东将军，清素无声色",
+      "bio": "楚国寿春人，字文德。历荆州刺史，迁征东将军，假节都督青、徐诸军；不营产业，身没之后家无余财，子胡威亦以清慎称。嘉平二年卒。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huang-quan",
+      "name": "黄权",
+      "display": "黄权",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 240,
+      "title": "降魏的蜀将，备曰孤负黄权",
+      "bio": "巴西阆中人，字公衡。为刘璋主簿，谏勿迎刘备；备定益州用之，伐吴时为镇北将军督江北军；夷陵败后归路断绝，率所领降魏，备曰「孤负黄权，权不负孤也」。在魏历车骑将军、开府仪同三司，正始元年卒，谥景侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-ping",
+      "name": "王平",
+      "display": "王平",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 248,
+      "title": "蜀镇北大将军，据兴势却曹爽",
+      "bio": "宕渠人，字子均。少养于外家，本姓何，后复姓王；街亭之役独领千人鸣鼓自守，张郃不敢逼；后镇汉中，曹爽大举入寇，平据兴势以拒，援军至而爽退。延熙十一年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-zhong",
+      "name": "马忠",
+      "display": "马忠",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 249,
+      "title": "蜀镇南大将军，坐镇南中",
+      "bio": "巴西阆中人，字德信。历汶山太守、庲降都督，处南中恩威并立，蛮夷畏而爱之；后入为镇南大将军，平尚书事。延熙十二年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "deng-zhi",
+      "name": "邓芝",
+      "display": "邓芝",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 251,
+      "title": "蜀车骑将军，重修吴蜀之盟",
+      "bio": "义阳新野人，字伯苗，邓禹之后。建兴元年使吴，与孙权直言相对，重修吴蜀之盟；后为车骑将军，假节，都督江州，为将二十余年，赏罚明断。延熙十四年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-yi-ni",
+      "name": "张嶷",
+      "display": "张嶷",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 254,
+      "title": "蜀荡寇将军，临阵陨身",
+      "bio": "巴西南充国人，字伯岐。为越嶲太守，在郡十五年，绥定夷獠，恩信甚洽；后为荡寇将军，疾笃扶病随姜维北伐，与魏将徐质交锋，临阵陨身。越嶲民夷闻之，无不流涕。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-yi-shu",
+      "name": "张翼",
+      "display": "张翼",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 264,
+      "deathNote": "魏军入蜀后随姜维降钟会，会败，为乱兵所杀，承成都之乱系年。",
+      "title": "蜀左车骑将军，谏姜维黩武",
+      "bio": "犍为武阳人，字伯恭。历庲降都督，绥集南土；官至左车骑将军，屡廷争谓国小民劳不宜黩武，与姜维异；魏军入蜀后随军至成都，钟会之乱中为乱兵所杀。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lv-fan",
+      "name": "吕范",
+      "display": "吕范",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 228,
+      "title": "吴大司马，印绶未下而卒",
+      "bio": "汝南细阳人，字子衡。少为县吏，避难寿春，率私客百人从孙策定江东；策使典主财计，权执政后倚为宿将，屡督舟师御敌；迁大司马，印绶未下，疾卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-huan",
+      "name": "朱桓",
+      "display": "朱桓",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 238,
+      "title": "吴前将军，大破曹仁",
+      "bio": "吴郡吴人，字休穆。轻财贵义，兼有胆智；为余姚长平定山越，濡须之役拒魏大司马曹仁，破其军，得士卒心。赤乌元年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pan-zhang",
+      "name": "潘璋",
+      "display": "潘璋",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 234,
+      "title": "吴右将军，部下擒关羽",
+      "bio": "东郡发干人，字文珪。少家贫，从孙权征讨，合肥之役殿后收兵；袭荆州之役遣部下司马马忠擒关羽，历右将军；性奢泰，末年弥甚。嘉禾三年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-ran",
+      "name": "朱然",
+      "display": "朱然",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 249,
+      "title": "吴左大司马，守江陵名震敌国",
+      "bio": "丹杨故鄣人，字义封，本姓施，为舅朱治所养；少与孙权同学书。江陵之役魏大军围城，然内固外安，名震敌国；官至左大司马、右军师。赤乌十二年卒，权素服举哀。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "quan-cong",
+      "name": "全琮",
+      "display": "全琮",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 249,
+      "title": "吴右大司马，散米振赡",
+      "bio": "吴郡钱唐人，字子璜。少以父命运米数千斛赴吴，悉散以振赡灾民，不先白其父；后为将，屡任方面，官至右大司马、左军师。赤乌十二年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-yi",
+      "name": "朱异",
+      "display": "朱异",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 257,
+      "deathNote": "寿春之役中为孙綝所枉害，系太平二年（257）。",
+      "title": "吴将，枉死于孙綝之手",
+      "bio": "吴郡吴人，字季文，朱桓之子。有文武才，数从征伐，累有战功；太平二年寿春解围之役，受命拒魏军，为权臣孙綝所枉害。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ding-feng",
+      "name": "丁奉",
+      "display": "丁奉",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 271,
+      "title": "吴右大司马，雪中奋短兵",
+      "bio": "庐江安丰人，字承渊。少以骁勇为小将；东兴之役雪中奋短兵破魏军；孙休欲诛孙綝，奉曰可因腊会以兵诛之，谋成；迎立孙皓，迁右大司马、左军师。建衡三年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiahou-xuan",
+      "name": "夏侯玄",
+      "display": "夏侯玄",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 254,
+      "deathNote": "李丰、张缉等谋废易大臣，引玄为大将军，事觉，嘉平六年与丰等同伏诛。",
+      "title": "魏征西将军，玄学领袖，诛于司马氏",
+      "bio": "沛国谯人，夏侯尚之子，曹爽表弟。少知名，与何晏、王弼竞为玄学之宗，士林推重。中护军任上选举有法度，后为征西将军都督雍凉，与曹爽同伐蜀无功。懿诛爽后召入朝，位望虽隆而郁郁不得志；嘉平六年与李丰、张缉谋诛司马师，事泄被杀，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "royal-kin",
+        "official"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-yi",
+      "name": "孙翊",
+      "display": "孙翊",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 204,
+      "deathNote": "本传建安八年以偏将军领丹杨太守，后为左右边鸿所杀，卒句无年号，试跑复核系建安九年（204）。",
+      "title": "吴丹杨太守，为边鸿所害",
+      "bio": "孙坚第三子，孙权之弟。骁悍果烈，有兄策之风。建安九年以偏将军领丹杨太守，为众所附，加绥远将军。后为左右边鸿袭杀，妫览、戴员继专郡事，其妻徐氏设计诛览、员，报夫之仇。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-jiao",
+      "name": "孙皎",
+      "display": "孙皎",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 219,
+      "title": "吴都护征虏将军，代程普督夏口",
+      "bio": "孙静之子，字叔朗。轻财能施，善与人交，以护军校尉拒曹操于濡须，迁都护征虏将军，代程普督夏口。尝与甘宁忿争，得孙权书切责，遂与宁结厚。吕蒙袭南郡，权欲使皎与蒙为左右部大督，用蒙言以蒙为大督、皎为后继。禽关羽、定荆州有功，建安二十四年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-shao",
+      "name": "孙韶",
+      "display": "孙韶",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 241,
+      "title": "吴镇北将军，京下督",
+      "bio": "孙河之侄，本姓俞，孙策爱之，赐姓列属。年十七收河余众缮治京城，权试攻不能下，甚器之，拜承烈校尉统其部曲。为边将数十年，常置远斥候，先知敌情而为之备，青、徐、汝、沛之民颇来归附，魏淮南滨江屯候皆彻兵远徙。官至镇北将军，加领幽州牧、假节，赤乌四年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-huan",
+      "name": "孙奂",
+      "display": "孙奂",
+      "lane": "sunwu",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 195,
+      "death": 234,
+      "birthNote": "传云卒时年四十，据卒年上推。",
+      "title": "吴扬威将军，镇江夏",
+      "bio": "孙静之子，字季明。兄皎卒，代统其众，以扬武中郎将领江夏太守，遵皎旧迹，礼纳刘靖、李允等，军民称之。黄武五年权攻石阳，奂以地主使鲜于丹断淮道，自率前锋降高城，得三将，拜扬威将军，封沙羡侯。爱乐儒生，命部曲子弟就业，后仕进朝廷者数十人。嘉禾三年卒，年四十。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-ba",
+      "name": "孙霸",
+      "display": "孙霸",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 250,
+      "deathNote": "二宫构争，太子和既废，霸亦赐死，承赤乌十三年废太子叙事系年。",
+      "title": "吴鲁王，二宫构争赐死",
+      "bio": "孙和之弟，字子威。和立为太子，霸为鲁王，宠爱崇特与和无殊，遂有二宫构争，全寄、吴安、孙奇、杨竺等阴附霸图危太子。权禁断二宫往来不能止，谮毁既行，太子以败，霸亦赐死，党附者并诛。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-he",
+      "name": "孙和",
+      "display": "孙和",
+      "lane": "sunwu",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 224,
+      "death": 253,
+      "birthNote": "传云赤乌五年立为太子时年十九，据以推生年。",
+      "deathNote": "诸葛恪被诛后，孙峻夺和玺绶，徙新都，遣使赐死，承建兴二年叙事系年。",
+      "title": "吴废太子，南阳王，赐死",
+      "bio": "孙权三子，字子孝，好学下士，甚见称述。赤乌五年立为太子，与鲁王霸构争累年，朝臣各有所附。十三年被废，徙故鄣；太元二年封南阳王，遣之长沙。权崩后诸葛恪秉政，恪诛，孙峻夺和玺绶，徙新都，遣使赐死，妃张氏亦自杀。子皓后即帝位。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ruan-yu",
+      "name": "阮瑀",
+      "display": "阮瑀",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 212,
+      "title": "建安七子之一，军国书檄多出其手",
+      "bio": "陈留尉氏人，字元瑜，少受学于蔡邕。为曹操司空军谋祭酒，与陈琳并管记室，军国书檄多出其手。建安十七年卒。子阮籍、嗣孙阮咸显于魏晋。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "literature",
+        "official"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-can",
+      "name": "王粲",
+      "display": "王粲",
+      "lane": "caowei",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 177,
+      "death": 217,
+      "birthNote": "传云卒时年四十一，据卒年上推。",
+      "title": "建安七子之冠，诗赋赋咏建安风骨",
+      "bio": "山阳高平人，字仲宣，曾祖王龚、祖王畅皆汉三公。年十七司徒辟不就，往依刘表，表以其貌寝而体通侻，不甚重之。表卒，劝刘琮举州归曹操，辟丞相掾，赐爵关内侯，拜侍中，典兴造制度。博物多识，问无不对，著诗赋论议垂六十篇。建安二十二年春从征吴，道病卒，时年四十一。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "literature",
+        "official"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-gan",
+      "name": "徐干",
+      "display": "徐干",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 217,
+      "title": "建安七子之一，著《中论》",
+      "bio": "北海人，字伟长。为司空军谋祭酒掾属，五官中郎将文学。怀文抱质，恬淡寡欲，曹丕称其有箕山之志，可谓彬彬君子者。建安二十二年卒，著《中论》二十余篇，辞义典雅，为当世所重。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "literature",
+        "scholar"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-lin",
+      "name": "陈琳",
+      "display": "陈琳",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 217,
+      "title": "建安七子之一，为曹操作书檄愈头风",
+      "bio": "广陵射阳人，字孔璋。初为何进主簿，进欲诛宦官召四方将入朝，琳切谏不听，后果败。董卓乱起，依袁绍，为绍作檄文骂曹操并及其父祖；绍败，归曹，太祖爱其才而弗咎，与阮瑀并管记室，军国书檄多出其手。建安二十二年卒。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "literature",
+        "official"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ying-yang",
+      "name": "应玚",
+      "display": "应玚",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 217,
+      "title": "建安七子之一，五官将文学",
+      "bio": "汝南南顿人，字德琏，应劭之从子。为司空军谋祭酒，为五官将文学。曹丕与吴质书称其才学足以著书，而美志不遂，良可痛惜。建安二十二年卒。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "literature",
+        "official"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zhen",
+      "name": "刘桢",
+      "display": "刘桢",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 217,
+      "title": "建安七子之一，五言诗妙绝时人",
+      "bio": "东平宁阳人，字公干。为丞相掾属，与曹丕兄弟友善，以文辞知名。后以失敬被刑，刑竟署吏。五言诗与王粲并重，曹丕称其五言诗之善者妙绝时人。建安二十二年卒。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "literature"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-xiu",
+      "name": "杨修",
+      "display": "杨修",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 219,
+      "deathNote": "裴注引《典略》：至二十四年秋，公以修前后漏泄言教，交关诸侯，乃收杀之。",
+      "title": "魏丞相主簿，以漏泄言教被杀",
+      "bio": "弘农华阴人，字德祖，太尉杨彪之子。好学能文，才思敏捷，为丞相曹操主簿，军国多事，总知外内，事皆称意。为曹植羽翼，与曹丕争储相涉。建安二十四年秋，以前后漏泄言教、交关诸侯被收杀，临死谓故人曰：我固自以死之晚也。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "literature",
+        "official"
+      ],
+      "primary": "literature",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xun-you",
+      "name": "荀攸",
+      "display": "荀攸",
+      "lane": "caowei",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 157,
+      "death": 214,
+      "birthNote": "裴注引《魏书》云建安十九年攸年五十八，据卒年上推。",
+      "title": "魏尚书令，曹操谋主，画策十二奇",
+      "bio": "颍川颍阴人，字公达，荀彧从子。董卓乱中谋归而系狱，后为曹操军师，从征吕布、官渡、河北，白马解围、延津诱敌之策皆出其手，又画策定四州。迁中军师，魏国既建为尚书令。操每称公达外愚内智、外怯内勇，与之周游二十余年自无毫毛可非者。建安十九年从征孙权，道薨。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "strategist",
+        "official"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tao-qian",
+      "name": "陶谦",
+      "display": "陶谦",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 194,
+      "deathNote": "本传兴平元年曹操复东征，是岁谦病死。",
+      "title": "汉徐州牧，与曹操构兵，病死让州",
+      "bio": "丹杨人，字恭祖。诸生仕州郡，累迁徐州刺史、牧。黄巾乱后徐州市井殷盛，谷米丰赡，流民多归之，而谦背道任情，信用非所，刑政不理。曹操父曹嵩于泰山被杀，归咎于谦，操遂两征徐州，所过多所残戮。兴平元年病死，别驾糜竺等迎刘备领徐州。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-yan-yizhou",
+      "name": "刘焉",
+      "display": "刘焉",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 194,
+      "deathNote": "本传兴平元年痈疽发背而卒。",
+      "title": "汉益州牧，倡废史立牧，遂成割据",
+      "bio": "江夏竟陵人，字君郎，汉室疏宗。中平五年建议改刺史为州牧，选清名重臣出居地方，自请为益州牧。使张鲁断斜谷道杀汉使，遂绝贡献，以米贼作乱为辞隔塞王命，造作乘舆车具千余乘。兴平元年痈疽发背卒，子璋继领益州，后降于刘备。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-ji",
+      "name": "张济",
+      "display": "张济",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 196,
+      "deathNote": "攻穰城，为流矢所中死，承建安元年叙事系年。",
+      "title": "汉骠骑将军，董卓余部，攻穰中矢死",
+      "bio": "凉州人，董卓部将。卓死后与李傕、郭汜合兵攻陷长安，共秉朝政，官至骠骑将军、平阳侯。献帝东归，济屯弘农欲迎驾不果。建安元年引兵出关中，攻南阳穰城，为流矢所中死，其众归族子张绣，屯宛依刘表，成曹刘之间的缓冲。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-jue",
+      "name": "李傕",
+      "display": "李傕",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 197,
+      "deathNote": "裴茂率关西诸将诛傕，夷三族，承建安二年叙事系年。",
+      "title": "汉车骑将军，劫迁天子，乱关中",
+      "bio": "北地人，董卓部将。卓死，用贾诩之谋与郭汜等合兵反攻长安，杀王允，逐吕布，以车骑将军、司隶校尉、假节专朝政。后与郭汜相攻于长安，一劫天子一劫公卿，纵兵略关中，三辅民相食殆尽。献帝东归，追乘舆于弘农、陕。建安二年为裴茂所督关西诸将讨诛，夷三族。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guo-si",
+      "name": "郭汜",
+      "display": "郭汜",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 197,
+      "deathNote": "为其将五习所袭，死于郿，与李傕之诛同段叙事，系建安二年。",
+      "title": "汉后将军，与李傕相攻，长安大乱",
+      "bio": "张掖人，董卓部将。与李傕攻陷长安，以后将军秉政。与傕争权相攻，长安城内连月兵战，帝后公卿俱被劫执。献帝东归，复与傕追乘舆，大败于东涧。后为其将五习所袭，死于郿。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ta-dun",
+      "name": "蹋顿",
+      "display": "蹋顿",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 207,
+      "deathNote": "白狼山之战为张辽所斩，承建安十二年北征乌桓叙事系年。",
+      "title": "乌桓大人，白狼山为张辽所斩",
+      "bio": "辽西乌桓大人。汉末边乱，辽东属国乌桓诸部皆从其号令，边长老皆比之冒顿。袁绍矫制赐单于印绶与之和亲，绍败，袁尚、袁熙来奔，恃其阻远收纳亡命，数入塞为害。建安十二年曹操北征，轻兵出卢龙塞，张辽为先锋于白狼山斩蹋顿，胡汉降者二十余万。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "wuhuan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-xiu",
+      "name": "张绣",
+      "display": "张绣",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 207,
+      "deathNote": "从征乌丸于柳城，未至，薨，承建安十二年北征叙事系年。",
+      "title": "宛城割据，两降两叛，终再降封侯",
+      "bio": "武威祖厉人，张济族子。济死，绣统其众屯宛，与刘表合。建安二年降曹操而悔之，袭杀曹操长子昂、侄安民，典韦死之，据宛拒守；后用贾诩计于官渡前夕再降，操执其手与欢宴，为子均娶绣女。从征有功，迁破羌将军。建安十二年从征乌丸，未至柳城薨。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shi-xie",
+      "name": "士燮",
+      "display": "士燮",
+      "lane": "qunxiong",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 137,
+      "death": 226,
+      "birthNote": "传云黄武五年卒时年九十，据卒年上推。",
+      "title": "汉交趾太守四十年，南土之宾",
+      "bio": "苍梧广信人，字威彦，先本鲁国汶阳人。少游学京师治左氏春秋，举茂才，除交趾太守，在郡四十余年。中原丧乱，独交州安然，中国士人往依避难者以百数。道路隔绝而职贡不废，汉特下诏拜绥南中郎将、董督七郡，又拜安远将军、封龙度亭侯；孙权抚有江东，加左将军，遣步骘定交州，燮兄弟相率供命，南土之宾自此始。黄武五年卒，年九十。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-da",
+      "name": "孟达",
+      "display": "孟达",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 228,
+      "deathNote": "太和二年正月司马懿倍道袭新城，城破斩达，传首。",
+      "title": "先主将，降魏守新城，谋归蜀被斩",
+      "bio": "扶风郿人，本字子敬，避先主叔父敬讳改字子度。与法正同迎刘备入蜀，为宜都太守，与刘封同取上庸三郡；关羽围樊时二人不承命出救，羽败。达惧罪率部曲降魏，曹丕甚器之，合房陵、上庸、西城为新城郡以达领太守。诸葛亮数书诱之，达阴许归蜀；事泄，司马懿潜军倍道八日至城下，太和二年正月城破斩达。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ke-bi-neng",
+      "name": "轲比能",
+      "display": "轲比能",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 235,
+      "deathNote": "青龙三年幽州刺史王雄使勇士韩龙刺杀比能，更立其弟。",
+      "title": "鲜卑大人，御众有法，为魏所刺",
+      "bio": "鲜卑人，以勇健断法平端、不贪财物，众推为大人。部落近塞，中国人多亡叛归之，教作兵器铠楯，颇学文字，勒御部众拟则中国，出入弋猎以鼓节为进退。与魏互市通贡又数扰幽并边郡，田豫、王雄先后为校尉抚御之。青龙三年幽州刺史王雄遣勇士韩龙刺杀比能，种落离散，互相侵伐，强者远遁。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "xianbei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gongsun-yuan",
+      "name": "公孙渊",
+      "display": "公孙渊",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 238,
+      "deathNote": "景初二年司马懿围襄平，城破斩渊父子。",
+      "title": "割据辽东，称燕王，司马懿平之",
+      "bio": "辽东襄平人，字文懿，公孙度之孙。度以汉末割据辽东，传康；渊长，胁夺叔恭位自立，魏拜扬烈将军、辽东太守。数与吴通，孙权遣张弥、许晏假渊燕王，渊斩使者送首于魏，进大司马、乐浪公。景初二年复叛，自称燕王，改元绍汉；司马懿步骑四万围襄平，城破斩渊父子，辽东平。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-ling",
+      "name": "王凌",
+      "display": "王凌",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 251,
+      "deathNote": "淮南兵败，凌至项，饮药死，承嘉平三年叙事系年。",
+      "title": "魏太尉，淮南一叛主谋",
+      "bio": "太原祁人，字彦云，司徒王允之侄。允诛董卓遇害，凌与兄晨逾城得脱，亡命山野数年。举孝廉，为兖州刺史，从张辽等讨孙权；石亭之败，凌力战决围，曹休得免难，徙扬、豫二州刺史，所在咸得军民欢心。全琮寇芍陂，凌率诸军逆讨，力战连日贼退走。都督扬州，入为司空、太尉。与外甥令狐愚私谋以年幼天子不堪辅政，欲立楚王彪都许昌；嘉平三年事泄，司马懿潜军袭之，凌穷蹙自归，至项饮药死，相连者皆夷三族，楚王彪亦赐死。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "rebel"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "guanqiu-jian",
+      "name": "毌丘俭",
+      "display": "毌丘俭",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 255,
+      "deathNote": "寿春兵败西走，安风津都尉部民张属射杀之，传首京都，承正元二年叙事系年。",
+      "title": "魏镇东将军，远征高句丽，淮南二叛",
+      "bio": "河东闻喜人，字仲恭，父兴武威太守，俭袭父乡侯爵。明帝时论辽东事，后两度出塞征高句丽，破丸都城，刻石纪功而还，为魏对东北用兵第一人。迁镇东将军都督扬州。司马师废芳立髦，俭与文钦矫太后诏起兵讨师，为淮南二叛；师力疾亲讨，钦败降吴，俭众溃西走，正元二年于安风津被射杀，传首，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhuge-dan",
+      "name": "诸葛诞",
+      "display": "诸葛诞",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 258,
+      "deathNote": "寿春城破，斩诞，传首，夷三族，承甘露三年叙事系年。",
+      "title": "魏征东大将军，淮南三叛",
+      "bio": "琅邪阳都人，诸葛丰之后，与诸葛亮同族。与夏侯玄友善，累迁御史中丞、尚书，出为扬州刺史、昭武将军，诸葛恪围合肥新城，诞遣兵拒守。迁征东大将军都督扬州。俭、钦既败，诞见司马氏次第诛夷名族，惧不自安，倾帑振施以结众心。甘露二年诏征为司空，诞惧而反，杀扬州刺史乐綝，敛淮南众保寿春；三年司马昭围城，城中粮尽，城破斩诞，夷三族，麾下数百人拱手不降，每斩一人辄降之，终不转。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [

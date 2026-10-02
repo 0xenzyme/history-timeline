@@ -1,0 +1,43 @@
+# 秦 · 帝国与楚汉
+
+本文件是 `content/qin/` 的人物索引。一人一个文件，文件名即 id。顺序跟 `pipeline/topics/qin/topic.json` 的收录一致；还没写进专题的人排在表末。
+
+| id | 姓名 | 显示名 | profile |
+| --- | --- | --- | --- |
+| [ying-zheng](qin/ying-zheng.md) | 嬴政 | 秦王政 | full |
+| [ying-fusu](qin/ying-fusu.md) | 嬴扶苏 | 扶苏 | full |
+| [ying-huhai](qin/ying-huhai.md) | 嬴胡亥 | 秦二世 | full |
+| [ying-ziying](qin/ying-ziying.md) | 嬴子婴 | 秦王子婴 | full |
+| [huayang-taihou](qin/huayang-taihou.md) | 华阳太后 | 华阳太后 | full |
+| [di-taihou](qin/di-taihou.md) | 帝太后 | 帝太后 | full |
+| [ying-chengjiao](qin/ying-chengjiao.md) | 成蟜 | 成蟜 | full |
+| [li-si](qin/li-si.md) | 李斯 | 李斯 | full |
+| [feng-quji](qin/feng-quji.md) | 冯去疾 | 冯去疾 | full |
+| [lv-buwei](qin/lv-buwei.md) | 吕不韦 | 吕不韦 | full |
+| [zhao-gao](qin/zhao-gao.md) | 赵高 | 赵高 | full |
+| [meng-tian](qin/meng-tian.md) | 蒙恬 | 蒙恬 | full |
+| [meng-yi](qin/meng-yi.md) | 蒙毅 | 蒙毅 | full |
+| [zhang-han](qin/zhang-han.md) | 章邯 | 章邯 | full |
+| [wang-li](qin/wang-li.md) | 王离 | 王离 | brief |
+| [sima-xin](qin/sima-xin.md) | 司马欣 | 司马欣 | brief |
+| [xiang-liang](qin/xiang-liang.md) | 项梁 | 项梁 | full |
+| [xiang-yu](qin/xiang-yu.md) | 项籍 | 项羽 | full |
+| [song-yi](qin/song-yi.md) | 宋义 | 宋义 | brief |
+| [long-ju](qin/long-ju.md) | 龙且 | 龙且 | brief |
+| [cao-jiu](qin/cao-jiu.md) | 曹咎 | 曹咎 | brief |
+| [fan-zeng](qin/fan-zeng.md) | 范增 | 范增 | full |
+| [xiong-xin](qin/xiong-xin.md) | 熊心 | 楚怀王 | full |
+| [liu-bang](qin/liu-bang.md) | 刘邦 | 汉高祖 | full |
+| [zhang-liang](qin/zhang-liang.md) | 张良 | 张良 | full |
+| [han-xin](qin/han-xin.md) | 韩信 | 韩信 | full |
+| [zhang-er](qin/zhang-er.md) | 张耳 | 张耳 | brief |
+| [peng-yue](qin/peng-yue.md) | 彭越 | 彭越 | full |
+| [ying-bu](qin/ying-bu.md) | 英布 | 英布 | full |
+| [xiao-he](qin/xiao-he.md) | 萧何 | 萧何 | full |
+| [cao-can](qin/cao-can.md) | 曹参 | 曹参 | full |
+| [chen-ping](qin/chen-ping.md) | 陈平 | 陈平 | full |
+| [fan-kuai](qin/fan-kuai.md) | 樊哙 | 樊哙 | full |
+| [zhou-bo](qin/zhou-bo.md) | 周勃 | 周勃 | full |
+| [guan-ying](qin/guan-ying.md) | 灌婴 | 灌婴 | full |
+| [chen-sheng](qin/chen-sheng.md) | 陈胜 | 陈胜 | full |
+| [wu-guang](qin/wu-guang.md) | 吴广 | 吴广 | full |

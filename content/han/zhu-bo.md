@@ -1,0 +1,31 @@
+---
+id: zhu-bo
+name: 朱博
+display: 朱博
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+birthAccuracy: unknown
+death: -5
+deathAccuracy: exact
+deathNote: 建平二年四月拜相，八月甲戌有罪自杀，系年据百官公卿表与哀帝纪。
+title: 武吏出身的哀帝朝丞相
+tags:
+  - 西汉
+  - 哀帝
+  - 傅太后
+aliases:
+  - 朱子元
+sources:
+  - work: 汉书
+    part: 薛宣朱博传
+    kind: classic
+  - work: 汉书
+    part: 百官公卿表
+    kind: classic
+---
+
+字子元，杜陵人，少给事县为亭长，本武吏不更文法，为刺史行部决遣如神，州郡畏其威严。哀帝朝由京兆尹迁大司空，建平二年代孔光为相，封阳乡侯；承傅太后指奏免傅喜、何武，事觉，谒者持节召诣廷尉诏狱，自杀，国除。

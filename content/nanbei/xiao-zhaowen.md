@@ -1,0 +1,30 @@
+---
+id: xiao-zhaowen
+name: 萧昭文
+display: 海陵王萧昭文
+profile: full
+gender: male
+polity:
+  - nan
+categories:
+  - monarch
+  - falling
+birth: 480
+birthAccuracy: approx
+birthNote: 建武元年殒，年十五，上推生年。
+death: 494
+deathAccuracy: exact
+title: 南齐海陵王，建武元年被杀
+tags:
+  - 南北朝
+  - 南齐
+aliases:
+  - 萧昭文
+  - 海陵王
+sources:
+  - work: 南齐书
+    part: 海陵王纪
+    kind: classic
+---
+
+降封海陵王后，建武元年十一月称有疾，数遣御师占视，随即被害，年十五。

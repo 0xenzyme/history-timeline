@@ -1,0 +1,29 @@
+---
+id: geng-chun
+name: 耿纯
+display: 耿纯
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+  - founding
+birthAccuracy: unknown
+death: 37
+deathAccuracy: exact
+title: 云台将，举宗归汉，定计真定
+tags:
+  - 东汉
+  - 云台二十八将
+aliases:
+  - 耿纯
+  - 耿伯山
+  - 东光侯
+sources:
+  - work: 后汉书
+    part: 任李万邳刘耿列传
+    kind: classic
+---
+
+巨鹿宋子人，河北大姓。世祖度河，纯率宗族宾客二千余人奉迎，尽焚庐舍以绝反顾，从平邯郸、破射犬。单车镇河北，赖其恩德怀之，纯为首唱。建武二年持节诛真定王刘扬，一郡震怖而不劳师。为东郡太守，盗贼清宁，去职百姓涕泣思之。建武十三年卒官，谥成侯。

@@ -1,0 +1,28 @@
+---
+id: ying-chengjiao
+name: 成蟜
+display: 成蟜
+profile: full
+gender: male
+polity:
+  - qin
+categories:
+  - royal-kin
+birthAccuracy: unknown
+death: -239
+deathAccuracy: exact
+deathNote: 秦始皇本纪：八年，王弟长安君成蟜将军击赵，反，死屯留。
+title: 长安君，反死屯留
+tags:
+  - 秦国
+  - 长安君
+aliases:
+  - 长安君
+  - 成蟜
+sources:
+  - work: 史记
+    part: 秦始皇本纪
+    kind: classic
+---
+
+始皇之弟，封长安君。八年将兵击赵，中途反秦，死在屯留。军吏都被斩。

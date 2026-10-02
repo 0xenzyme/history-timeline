@@ -317,6 +317,238 @@
     {
       "id": "sima-yao",
       "lane": "dongjin"
+    },
+    {
+      "id": "yu-wenjun",
+      "lane": "dongjin"
+    },
+    {
+      "id": "du-lingyang",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-muzhi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "yu-daolian",
+      "lane": "dongjin"
+    },
+    {
+      "id": "li-lingrong",
+      "lane": "dongjin"
+    },
+    {
+      "id": "yang-jun",
+      "lane": "xijin"
+    },
+    {
+      "id": "chu-pou",
+      "lane": "dongjin"
+    },
+    {
+      "id": "liu-yao",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "ran-min",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "murong-hui",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "murong-huang",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "murong-jun",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "murong-ke",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "fu-jian-jianye",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "fu-sheng",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "fu-rong",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "yao-chang",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "yao-xing",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "yao-hong",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "li-te",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "li-xiong",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "lv-guang",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "tufa-wugu",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "qifu-guoren",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "li-gao",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "murong-de",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "murong-chao",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "wang-mi",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "su-jun",
+      "lane": "dongjin"
+    },
+    {
+      "id": "wang-gong",
+      "lane": "dongjin"
+    },
+    {
+      "id": "yin-zhongkan",
+      "lane": "dongjin"
+    },
+    {
+      "id": "sun-en",
+      "lane": "dongjin"
+    },
+    {
+      "id": "lu-xun-yuxian",
+      "lane": "dongjin"
+    },
+    {
+      "id": "liu-yi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "shi-bao",
+      "lane": "xijin"
+    },
+    {
+      "id": "wang-hun",
+      "lane": "xijin"
+    },
+    {
+      "id": "zhou-chu",
+      "lane": "xijin"
+    },
+    {
+      "id": "zhou-fang",
+      "lane": "dongjin"
+    },
+    {
+      "id": "yu-yi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "huan-chong",
+      "lane": "dongjin"
+    },
+    {
+      "id": "xie-yan",
+      "lane": "dongjin"
+    },
+    {
+      "id": "liu-laozhi",
+      "lane": "dongjin"
+    },
+    {
+      "id": "mao-bao",
+      "lane": "dongjin"
+    },
+    {
+      "id": "pan-yue",
+      "lane": "wen"
+    },
+    {
+      "id": "lu-yun",
+      "lane": "wen"
+    },
+    {
+      "id": "guo-pu",
+      "lane": "wen"
+    },
+    {
+      "id": "shan-tao",
+      "lane": "wen"
+    },
+    {
+      "id": "wei-jie",
+      "lane": "wen"
+    },
+    {
+      "id": "sima-you",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-liang",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-wei",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-lun",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-jiong",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-yi-changsha",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-ying",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-yong",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-yu-minhuai",
+      "lane": "xijin"
+    },
+    {
+      "id": "sima-daozi",
+      "lane": "dongjin"
     }
   ],
   "relationTypes": [
@@ -702,6 +934,498 @@
       "target": "wang-biaozhi",
       "type": "ruler-subject",
       "note": "尚书令，同辅孝武"
+    },
+    {
+      "source": "sima-shao",
+      "target": "yu-wenjun",
+      "type": "kin",
+      "note": "明帝皇后。成帝幼冲，她临朝摄万机"
+    },
+    {
+      "source": "yu-wenjun",
+      "target": "sima-yan-cheng",
+      "type": "kin",
+      "note": "母子。成帝即位尊为皇太后"
+    },
+    {
+      "source": "yu-wenjun",
+      "target": "yu-liang",
+      "type": "kin",
+      "note": "兄妹。亮以帝舅当权，乱起后携诸弟奔寻阳"
+    },
+    {
+      "source": "yu-wenjun",
+      "target": "yu-bing",
+      "type": "kin",
+      "note": "兄妹。乱中冰奔会稽，后以忧崩"
+    },
+    {
+      "source": "sima-yan-cheng",
+      "target": "du-lingyang",
+      "type": "kin",
+      "note": "成帝皇后。咸康二年立，七年崩，在位六年"
+    },
+    {
+      "source": "sima-pi",
+      "target": "wang-muzhi",
+      "type": "kin",
+      "note": "哀帝皇后。初为琅邪王妃，即位立之"
+    },
+    {
+      "source": "sima-yi-haixi",
+      "target": "yu-daolian",
+      "type": "kin",
+      "note": "废帝皇后。帝废后追贬曰海西公夫人"
+    },
+    {
+      "source": "sima-yu",
+      "target": "li-lingrong",
+      "type": "kin",
+      "note": "会稽王时织坊宫人纳之，生孝武帝"
+    },
+    {
+      "source": "sima-yao",
+      "target": "li-lingrong",
+      "type": "kin",
+      "note": "母子。太元十九年以母贵尊为皇太后"
+    },
+    {
+      "source": "sima-yan",
+      "target": "yang-jun",
+      "type": "ruler-subject",
+      "note": "武帝遗诏太傅辅政，骏矫藏诏书独任威权"
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "yang-jun",
+      "type": "rival",
+      "note": "元康元年矫诏夜讨骏，夷三族而夺政"
+    },
+    {
+      "source": "chu-suanzi",
+      "target": "chu-pou",
+      "type": "kin",
+      "note": "父女。以国姥不臣之礼，固请居籓镇京口"
+    },
+    {
+      "source": "chu-pou",
+      "target": "yin-hao",
+      "type": "peer",
+      "note": "固辞录尚书事，举殷浩出膺扬州"
+    },
+    {
+      "source": "shi-le",
+      "target": "liu-yao",
+      "type": "rival",
+      "note": "洛阳决战，曜坠马被执，前赵由此而灭"
+    },
+    {
+      "source": "shi-le",
+      "target": "wang-mi",
+      "type": "rival",
+      "note": "忌其骁勇，伏兵袭杀并其众"
+    },
+    {
+      "source": "liu-yuan",
+      "target": "liu-yao",
+      "type": "kin",
+      "note": "族子。渊开汉号，曜徙都长安改称赵"
+    },
+    {
+      "source": "fu-jian-jianye",
+      "target": "fu-jian",
+      "type": "kin",
+      "note": "伯侄。健入长安建前秦，坚终成一统之业"
+    },
+    {
+      "source": "fu-jian-jianye",
+      "target": "fu-sheng",
+      "type": "kin",
+      "note": "父子。生嗣位而暴虐，为坚所废"
+    },
+    {
+      "source": "fu-jian",
+      "target": "fu-sheng",
+      "type": "rival",
+      "note": "从兄弟。坚废其主而自立"
+    },
+    {
+      "source": "fu-jian",
+      "target": "fu-rong",
+      "type": "kin",
+      "note": "季弟。淝水督前锋，马倒被杀"
+    },
+    {
+      "source": "fu-jian",
+      "target": "yao-chang",
+      "type": "rival",
+      "note": "龙骧将军叛秦，缢坚于新平佛寺"
+    },
+    {
+      "source": "murong-hui",
+      "target": "murong-huang",
+      "type": "kin",
+      "note": "父子。廆奠辽东之基，皝称燕王"
+    },
+    {
+      "source": "murong-huang",
+      "target": "murong-jun",
+      "type": "kin",
+      "note": "父子。儁灭冉魏入邺僭帝"
+    },
+    {
+      "source": "murong-huang",
+      "target": "murong-de",
+      "type": "kin",
+      "note": "父子。德南徙广固建南燕"
+    },
+    {
+      "source": "murong-jun",
+      "target": "murong-ke",
+      "type": "kin",
+      "note": "兄弟。恪辅幼主行周公事"
+    },
+    {
+      "source": "murong-ke",
+      "target": "ran-min",
+      "type": "rival",
+      "note": "廉台之战擒闵，送龙城斩之"
+    },
+    {
+      "source": "murong-de",
+      "target": "murong-chao",
+      "type": "kin",
+      "note": "叔侄。德无子，立超为太子"
+    },
+    {
+      "source": "liu-yu",
+      "target": "murong-chao",
+      "type": "rival",
+      "note": "义熙六年北伐，斩超于建康市"
+    },
+    {
+      "source": "liu-yu",
+      "target": "yao-hong",
+      "type": "rival",
+      "note": "义熙十三年克长安，执泓斩于建康"
+    },
+    {
+      "source": "liu-yu",
+      "target": "lu-xun-yuxian",
+      "type": "rival",
+      "note": "循直逼建康，裕回师破之"
+    },
+    {
+      "source": "liu-yu",
+      "target": "liu-yi",
+      "type": "rival",
+      "note": "义熙八年先发讨毅，毅自缢于江陵"
+    },
+    {
+      "source": "liu-yi",
+      "target": "huan-xuan",
+      "type": "rival",
+      "note": "峥嵘洲纵火破玄"
+    },
+    {
+      "source": "lu-xun-yuxian",
+      "target": "liu-yi",
+      "type": "rival",
+      "note": "桑落洲之战毅军大败"
+    },
+    {
+      "source": "su-jun",
+      "target": "yu-wenjun",
+      "type": "rival",
+      "note": "陷京都逼辱后宫，太后忧崩"
+    },
+    {
+      "source": "su-jun",
+      "target": "yu-liang",
+      "type": "rival",
+      "note": "亮奔寻阳，召义军同讨峻"
+    },
+    {
+      "source": "su-jun",
+      "target": "wen-qiao",
+      "type": "rival",
+      "note": "攻白石垒，轻骑出阵坠马被斩"
+    },
+    {
+      "source": "tao-kan",
+      "target": "su-jun",
+      "type": "rival",
+      "note": "侃为盟主，率舟军四万屯蔡洲讨峻"
+    },
+    {
+      "source": "wang-gong",
+      "target": "huan-xuan",
+      "type": "peer",
+      "note": "两次连兵向阙，推恭为盟主"
+    },
+    {
+      "source": "yin-zhongkan",
+      "target": "huan-xuan",
+      "type": "rival",
+      "note": "玄袭江陵，仲堪被执逼死柞溪"
+    },
+    {
+      "source": "liu-yu",
+      "target": "sun-en",
+      "type": "rival",
+      "note": "裕起于讨恩，南山郁洲屡破其众"
+    },
+    {
+      "source": "li-te",
+      "target": "li-xiong",
+      "type": "kin",
+      "note": "父子。特败死，雄卒成帝业"
+    },
+    {
+      "source": "sima-yan",
+      "target": "shi-bao",
+      "type": "ruler-subject",
+      "note": "大司马都督扬州，镇抚淮南"
+    },
+    {
+      "source": "sima-yan",
+      "target": "wang-hun",
+      "type": "ruler-subject",
+      "note": "都督扬州，击破吴丞相张悌"
+    },
+    {
+      "source": "wang-hun",
+      "target": "wang-jun",
+      "type": "peer",
+      "note": "争平吴之功，王濬楼船先入建业"
+    },
+    {
+      "source": "zhou-fang",
+      "target": "tao-kan",
+      "type": "peer",
+      "note": "相者言二君位至方岳，功名略同"
+    },
+    {
+      "source": "yu-liang",
+      "target": "yu-yi",
+      "type": "kin",
+      "note": "兄弟。翼代亮镇武昌，谋北伐"
+    },
+    {
+      "source": "yu-bing",
+      "target": "yu-yi",
+      "type": "kin",
+      "note": "兄弟。冰主中枢而翼镇荆州"
+    },
+    {
+      "source": "huan-wen",
+      "target": "huan-chong",
+      "type": "kin",
+      "note": "兄弟。温卒，冲代都督，尽忠王室"
+    },
+    {
+      "source": "huan-chong",
+      "target": "xie-an",
+      "type": "peer",
+      "note": "自以德望不逮谢安，委之内相"
+    },
+    {
+      "source": "xie-an",
+      "target": "xie-yan",
+      "type": "kin",
+      "note": "父子。琰与玄共破苻坚"
+    },
+    {
+      "source": "xie-yan",
+      "target": "sun-en",
+      "type": "rival",
+      "note": "隆安四年为孙恩所败，死之"
+    },
+    {
+      "source": "xie-xuan",
+      "target": "liu-laozhi",
+      "type": "peer",
+      "note": "北府精兵，洛涧先登斩梁成"
+    },
+    {
+      "source": "liu-laozhi",
+      "target": "wang-gong",
+      "type": "rival",
+      "note": "受元显之诱反恭，恭败被斩"
+    },
+    {
+      "source": "liu-laozhi",
+      "target": "huan-xuan",
+      "type": "rival",
+      "note": "一人三反，终缢于新洲"
+    },
+    {
+      "source": "liu-laozhi",
+      "target": "liu-yu",
+      "type": "ruler-subject",
+      "note": "参军刘裕出其麾下"
+    },
+    {
+      "source": "yu-liang",
+      "target": "mao-bao",
+      "type": "ruler-subject",
+      "note": "以万人守邾城，救缓城陷溺死"
+    },
+    {
+      "source": "pan-yue",
+      "target": "shi-chong",
+      "type": "peer",
+      "note": "同被孙秀所构，同日赴市"
+    },
+    {
+      "source": "lu-yun",
+      "target": "lu-ji",
+      "type": "kin",
+      "note": "兄弟。云间二陆，与兄同诛"
+    },
+    {
+      "source": "zhang-hua",
+      "target": "lu-yun",
+      "type": "peer",
+      "note": "入洛诣华，称为二俊"
+    },
+    {
+      "source": "guo-pu",
+      "target": "wang-dun",
+      "type": "rival",
+      "note": "筮敦必败，被收斩于南冈"
+    },
+    {
+      "source": "guo-pu",
+      "target": "wen-qiao",
+      "type": "peer",
+      "note": "峤亮谋讨王敦，使璞筮之"
+    },
+    {
+      "source": "shan-tao",
+      "target": "sima-yan",
+      "type": "ruler-subject",
+      "note": "司徒。论去州郡武备，帝称名言"
+    },
+    {
+      "source": "shan-tao",
+      "target": "wang-rong",
+      "type": "peer",
+      "note": "竹林之游，七贤为友"
+    },
+    {
+      "source": "wei-guan",
+      "target": "wei-jie",
+      "type": "kin",
+      "note": "祖孙。玠风神秀异，看杀卫玠"
+    },
+    {
+      "source": "sima-yan",
+      "target": "sima-you",
+      "type": "kin",
+      "note": "同产弟。望重见忌，逼遣就国而薨"
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-wei",
+      "type": "ruler-subject",
+      "note": "矫诏使玮杀亮瓘，事毕弃之"
+    },
+    {
+      "source": "sima-wei",
+      "target": "sima-liang",
+      "type": "rival",
+      "note": "元康元年矫诏所杀，玮旋反坐"
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-yu-minhuai",
+      "type": "rival",
+      "note": "矫诏害庶人遹于许昌"
+    },
+    {
+      "source": "sima-zhong",
+      "target": "sima-yu-minhuai",
+      "type": "kin",
+      "note": "父子。愍怀太子"
+    },
+    {
+      "source": "sima-lun",
+      "target": "jia-nanfeng",
+      "type": "rival",
+      "note": "用孙秀谋废后杀之，寻篡位"
+    },
+    {
+      "source": "sima-lun",
+      "target": "sima-zhong",
+      "type": "rival",
+      "note": "废帝自僭位，改元建武"
+    },
+    {
+      "source": "sima-jiong",
+      "target": "sima-lun",
+      "type": "rival",
+      "note": "首倡三王之兵，讨伦而反正"
+    },
+    {
+      "source": "sima-yi-changsha",
+      "target": "sima-jiong",
+      "type": "rival",
+      "note": "奉乘舆攻冏，杀之而代辅政"
+    },
+    {
+      "source": "sima-ying",
+      "target": "sima-yi-changsha",
+      "type": "rival",
+      "note": "与颙连兵攻洛，乂力拒之"
+    },
+    {
+      "source": "sima-yue-donghai",
+      "target": "sima-yi-changsha",
+      "type": "rival",
+      "note": "越夜执乂送张方所害"
+    },
+    {
+      "source": "sima-yue-donghai",
+      "target": "sima-ying",
+      "type": "rival",
+      "note": "越迎大驾，颖败废被缢"
+    },
+    {
+      "source": "sima-yue-donghai",
+      "target": "sima-yong",
+      "type": "rival",
+      "note": "越西征破颙，帝还洛阳"
+    },
+    {
+      "source": "sima-rui",
+      "target": "sima-daozi",
+      "type": "kin",
+      "note": "父子。简文临崩封道子为琅邪王"
+    },
+    {
+      "source": "sima-yao",
+      "target": "sima-daozi",
+      "type": "kin",
+      "note": "母弟。帝委政道子，主相相猜"
+    },
+    {
+      "source": "li-lingrong",
+      "target": "sima-daozi",
+      "type": "kin",
+      "note": "母子。会稽文孝王"
+    },
+    {
+      "source": "wang-gong",
+      "target": "sima-daozi",
+      "type": "rival",
+      "note": "两举兵向阙，讨其党王国宝"
+    },
+    {
+      "source": "sima-daozi",
+      "target": "huan-xuan",
+      "type": "rival",
+      "note": "玄入建康，徙之安成而鸩杀"
     }
   ],
   "events": [

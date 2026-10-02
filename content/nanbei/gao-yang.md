@@ -1,0 +1,30 @@
+---
+id: gao-yang
+name: 高洋
+display: 文宣帝高洋
+profile: full
+gender: male
+polity:
+  - bei
+categories:
+  - monarch
+  - founding
+birth: 529
+birthAccuracy: approx
+birthNote: 天保十年崩，年三十一，上推生年。
+death: 559
+deathAccuracy: exact
+title: 北齐文宣帝，受魏禅
+tags:
+  - 南北朝
+  - 北齐
+aliases:
+  - 高洋
+  - 文宣帝
+sources:
+  - work: 北齐书
+    part: 文宣纪
+    kind: classic
+---
+
+高欢第二子，高澄同母弟。天保元年受东魏禅。在位后期酗酒肆杀。天保十年十月暴崩于晋阳宫，年三十一。

@@ -1,0 +1,31 @@
+---
+id: zhao-kuo-changping
+name: 赵括
+display: 赵括
+profile: full
+gender: male
+polity:
+  - zhao
+categories:
+  - general
+birthAccuracy: unknown
+death: -260
+deathAccuracy: exact
+deathNote: 白起王翦列传在昭王四十七年段写秦军射杀赵括。昭襄王五十六年是前251年，四十七年即前260年。
+title: 长平代将，被射杀
+tags:
+  - 赵国
+  - 长平
+aliases:
+  - 赵括
+  - 马服子
+sources:
+  - work: 史记
+    part: 白起王翦列传
+    kind: classic
+  - work: 史记
+    part: 廉颇蔺相如列传
+    kind: classic
+---
+
+赵奢之子。长平之战代廉颇为将，被秦军射杀。赵军四十万降后被坑。

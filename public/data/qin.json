@@ -353,7 +353,8 @@
       "primary": "royal-kin",
       "polity": [
         "qin"
-      ]
+      ],
+      "gender": "male"
     },
     {
       "id": "zhang-han",
@@ -373,6 +374,42 @@
         "official"
       ],
       "primary": "official",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-li",
+      "name": "王离",
+      "display": "王离",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -207,
+      "deathNote": "项羽本纪与白起王翦列传都只写巨鹿之战项羽虏王离，没有卒年。巨鹿在本专题系前 207 年。此年是被俘之年，不是寿数。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-xin",
+      "name": "司马欣",
+      "display": "司马欣",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -203,
+      "deathNote": "高祖本纪汉四年与曹咎同句：长史欣自刭汜水上。项羽本纪的长史欣即司马欣，曾封塞王。汉四年是前 203 年。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
       "polity": [
         "qin"
       ],
@@ -429,6 +466,60 @@
       "gender": "male"
     },
     {
+      "id": "song-yi",
+      "name": "宋义",
+      "display": "宋义",
+      "lane": "chu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -207,
+      "deathNote": "项羽本纪写项羽在安阳帐中斩上将军宋义，事在北救赵、虏王离之前，本句没有年号。巨鹿在本专题系前 207 年。此年是被斩之年，不是寿数。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "long-ju",
+      "name": "龙且",
+      "display": "龙且",
+      "lane": "chu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -204,
+      "deathNote": "高祖本纪把「杀龙且」写在「三年」段里、「四年」段之前，没有月份。按本专题，汉三年是前 204 年。潍水之战的月次在汉三年、四年之交有异说，所以不标 exact。此年是被杀之年。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-jiu",
+      "name": "曹咎",
+      "display": "曹咎",
+      "lane": "chu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -203,
+      "deathNote": "高祖本纪汉四年：海春侯大司马曹咎自刭汜水上。汉四年是前 203 年。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "fan-zeng",
       "name": "范增",
       "display": "范增",
@@ -448,7 +539,8 @@
       "primary": "strategist",
       "polity": [
         "chu"
-      ]
+      ],
+      "gender": "male"
     },
     {
       "id": "xiong-xin",
@@ -538,6 +630,24 @@
         "general"
       ],
       "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-er",
+      "name": "张耳",
+      "display": "张耳",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -202,
+      "deathNote": "张耳陈馀列传：汉五年张耳薨，谥景王。汉五年是前 202 年。",
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
       "polity": [
         "han"
       ],

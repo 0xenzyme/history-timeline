@@ -1,0 +1,27 @@
+---
+id: jin-mi-di
+name: 金日磾
+display: 金日磾
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+birthAccuracy: unknown
+death: -86
+deathAccuracy: exact
+title: 车骑将军，与霍光同受遗诏
+tags:
+  - 休屠王子
+  - 托孤辅政
+sources:
+  - work: 汉书
+    part: 霍光金日磾传
+    kind: classic
+  - work: 汉书
+    part: 昭帝纪
+    kind: classic
+---
+
+本匈奴休屠王太子，父被昆邪王所杀后与母弟没入官养马，为武帝亲信近侍。武帝遗诏封秺侯，与霍光同受顾命辅佐昭帝，日磾为副；辅政岁余病薨，谥敬侯。

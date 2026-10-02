@@ -1,0 +1,25 @@
+---
+id: chang-hui
+name: 常惠
+display: 常惠
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+birthAccuracy: unknown
+death: -46
+deathAccuracy: approx
+deathNote: 传称「宣帝崩，惠事元帝，三岁薨」，宣帝崩于前48年，推算约卒于初元三年（前46年）。
+title: 随苏武使匈奴，官至右将军
+tags:
+  - 乌孙
+  - 匈奴
+sources:
+  - work: 汉书
+    part: 傅常郑甘陈段传
+    kind: classic
+---
+
+太原人，少随苏武使匈奴，同被拘留十余年，昭帝时还，拜光禄大夫。本始二年奉使乌孙，持节护乌孙兵击匈奴，入右谷蠡庭大获，封长罗侯；后代苏武为典属国，官至右将军，谥壮武侯。

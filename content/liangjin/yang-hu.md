@@ -1,0 +1,29 @@
+---
+id: yang-hu
+name: 羊祜
+display: 羊祜
+profile: full
+gender: male
+polity:
+  - jin
+categories:
+  - general
+primary: general
+birth: 221
+birthAccuracy: exact
+death: 278
+deathAccuracy: exact
+title: 征南大将军，与陆抗对境而各保其民
+tags:
+  - 西晋
+  - 灭吴
+aliases:
+  - 羊祜
+  - 羊叔子
+sources:
+  - work: 晋书
+    part: 羊祜传
+    kind: classic
+---
+
+泰山南城人，蔡邕外孙。都督荆州十年，开屯田、修学校，与吴将陆抗对境，各保分界，抗遗之酒，祜饮之不疑。上疏请伐吴，未及行而卒，年五十八。南州人闻之罢市巷哭，襄阳百姓为立碑，望其碑者莫不流涕，谓之堕泪碑。

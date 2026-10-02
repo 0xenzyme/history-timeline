@@ -1,0 +1,26 @@
+---
+id: yao-guangxiao
+name: 姚广孝
+display: 姚广孝
+profile: full
+gender: male
+polity:
+  - ming
+categories:
+  - strategist
+  - buddhism
+primary: strategist
+birth: 1335
+birthAccuracy: exact
+death: 1418
+deathAccuracy: exact
+title: 道衍和尚，靖难首谋
+tags:
+  - 明
+sources:
+  - work: 明史
+    part: 姚广孝传
+    kind: classic
+---
+
+长洲人，僧名道衍。靖难之计多出其画，居庆寿寺而出入军机; 成祖即位复姓赐名，拜太子少师，仍僧服蔬食。1418 年卒。

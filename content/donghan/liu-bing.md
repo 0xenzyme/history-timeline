@@ -1,0 +1,28 @@
+---
+id: liu-bing
+name: 刘炳
+display: 汉冲帝
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - monarch
+primary: monarch
+birth: 143
+birthAccuracy: exact
+death: 145
+deathAccuracy: exact
+title: 东汉冲帝，在位一年
+tags:
+  - 东汉
+aliases:
+  - 刘炳
+  - 汉冲帝
+sources:
+  - work: 后汉书
+    part: 孝冲帝纪
+    kind: classic
+---
+
+顺帝子，在位一年。冲帝的条极短，贴在顺帝末端。李固请立长君，就在他崩后。

@@ -1,0 +1,25 @@
+---
+id: xie-shenfu
+name: 谢深甫
+display: 谢深甫
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - chancellor
+birth: 1139
+birthAccuracy: exact
+death: 1203
+deathAccuracy: exact
+deathNote: 传文卒句缺明确年份，据《续通鉴》嘉泰三年系年。
+title: 庆元党禁时的执政
+tags:
+  - 宋
+sources:
+  - work: 宋史
+    part: 谢深甫传
+    kind: classic
+---
+
+庆元间执政至右相，助韩侂胄定伪学之禁。嘉泰三年卒。其甥女杨氏后为宁宗皇后，杨氏之称制实承其家学。

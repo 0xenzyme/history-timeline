@@ -1,0 +1,32 @@
+---
+id: jin-huigong
+name: 姬夷吾
+display: 晋惠公
+profile: full
+gender: male
+polity:
+  - jin-guo
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -637
+deathAccuracy: exact
+deathNote: 今本竹书纪年·晋纪「襄王十五年，晋惠公卒，子怀公圉立」。
+title: 骊姬之乱后即位十四年，为秦所立
+tags:
+  - 骊姬之乱
+  - 三郤之乱
+aliases:
+  - 晋惠公
+sources:
+  - work: 史记
+    part: 晋世家
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+---
+
+献公之子，骊姬所生。献公卒，骊姬使里克杀奚齐、卓子而立夷吾，惠公既立而诛里克等三郤，晋国内乱。前637年卒，十四年在位。子怀公圉立。

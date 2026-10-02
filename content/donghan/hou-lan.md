@@ -1,0 +1,29 @@
+---
+id: hou-lan
+name: 侯览
+display: 侯览
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - eunuch
+  - falling
+birthAccuracy: unknown
+death: 172
+deathAccuracy: exact
+deathNote: 熹平元年，有司举奏览专权骄奢，策收印绶，自杀。
+title: 党锢关键人物，张俭李膺之敌
+tags:
+  - 东汉
+  - 党锢
+aliases:
+  - 侯览
+  - 高乡侯
+sources:
+  - work: 后汉书
+    part: 宦者列传·侯览
+    kind: classic
+---
+
+山阳防东人，桓帝朝中常侍，以佞猾进，倚势贪放，托预诛梁冀功进封高乡侯。济北相滕延捕杀其宾客坐废，兄参被杨秉奏征于道自杀。建宁二年督邮张俭举奏其贪侈，览反诬俭为钩党，李膺、杜密等皆夷灭，党锢之祸遂成。熹平元年收印绶自杀。

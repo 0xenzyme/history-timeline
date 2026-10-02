@@ -1,0 +1,26 @@
+---
+id: chang-yuchun
+name: 常遇春
+display: 常遇春
+profile: full
+gender: male
+polity:
+  - ming
+categories:
+  - general
+  - founding
+primary: general
+birth: 1330
+birthAccuracy: exact
+death: 1369
+deathAccuracy: exact
+title: 开国猛将
+tags:
+  - 明
+sources:
+  - work: 明史
+    part: 常遇春传
+    kind: classic
+---
+
+怀远人，自称能将十万众横行，从太祖征战常充先锋，平吴克大都，暴疾卒于柳河川。

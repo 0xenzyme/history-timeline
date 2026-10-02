@@ -1,0 +1,28 @@
+---
+id: wanyan-zonghan
+name: 完颜宗翰
+display: 完颜宗翰
+profile: full
+gender: male
+polity:
+  - liao-jin
+categories:
+  - outsider
+  - general
+birth: 1080
+birthAccuracy: approx
+birthNote: 生年约1080。
+death: 1137
+deathAccuracy: exact
+title: 粘罕，靖康之变的西路主帅
+tags:
+  - 金
+aliases:
+  - 粘罕
+sources:
+  - work: 金史
+    part: 宗翰传
+    kind: classic
+---
+
+国相撒改之子，金初军政第一人。西路攻太原、下汴京，掳徽钦二帝；后立刘豫、议礼制度。天会十五年以谋反名下狱死。

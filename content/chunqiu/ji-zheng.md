@@ -1,0 +1,34 @@
+---
+id: ji-zheng
+name: 姬郑
+display: 周襄王
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -619
+deathAccuracy: exact
+deathNote: 今本竹书纪年·晋纪「襄王三十三年 王陟」；史记·周本纪作「三十二年，襄王崩」，早一年，此处取竹书。
+title: 借晋文公之力复位，践土受诸侯朝
+tags:
+  - 晋文公纳王
+  - 践土之会
+  - 叔带之乱
+aliases:
+  - 周襄王
+sources:
+  - work: 史记
+    part: 周本纪
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+  - work: 春秋左传
+    part: 僖公二十四年传
+    kind: classic
+---
+
+惠王崩而立。惠后与叔带之乱逼得襄王出奔郑、居氾，子带自立为王。前 636 晋文公纳襄王而诛叔带，天子赐珪鬯弓矢为伯。二十年河阳、践土之会，诸侯毕朝而书「天王狩于河阳」——书法的避讳本身就是权威的证明。

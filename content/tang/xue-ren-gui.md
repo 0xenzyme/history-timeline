@@ -1,0 +1,27 @@
+---
+id: xue-ren-gui
+name: 薛仁贵
+display: 薛仁贵
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - general
+primary: general
+birth: 612
+birthAccuracy: exact
+death: 681
+deathAccuracy: exact
+title: 开耀元年再起，其年病卒
+tags:
+  - 唐
+aliases:
+  - 薛仁贵
+sources:
+  - work: 旧唐书
+    part: 薛仁贵传
+    kind: classic
+---
+
+绛州龙门人。乾封中援泉男生，破高丽于金山，拔扶余，与李勣会于平壤。开耀元年高宗复起之，击突厥元珍于云州，其年病卒，年七十。

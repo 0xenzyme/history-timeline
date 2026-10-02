@@ -1,0 +1,32 @@
+---
+id: ruan-ji
+name: 阮籍
+display: 阮籍
+profile: full
+gender: male
+polity:
+  - wei
+categories:
+  - metaphysics
+  - poetry
+  - literature
+primary: poetry
+birth: 210
+birthAccuracy: exact
+death: 263
+deathAccuracy: exact
+title: 竹林七贤之一，咏怀八十二首
+tags:
+  - 三国
+  - 竹林七贤
+aliases:
+  - 阮籍
+  - 阮嗣宗
+  - 阮步兵
+sources:
+  - work: 晋书
+    part: 阮籍传
+    kind: classic
+---
+
+陈留尉氏人，阮瑀之子。志气宏放，任情不羁，闻步兵校尉厨多美酒而求为步兵，世称阮步兵。口不臧否人物，常以青白眼待人，作《咏怀诗》八十二首，隐晦述志。景元四年卒，年五十四。

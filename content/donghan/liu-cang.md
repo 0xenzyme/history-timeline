@@ -1,0 +1,29 @@
+---
+id: liu-cang
+name: 刘苍
+display: 东平宪王刘苍
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - royal-kin
+  - vassal
+birthAccuracy: unknown
+death: 83
+deathAccuracy: exact
+deathNote: 建初八年春正月壬辰，东平王苍薨。
+title: 光武子，明帝时以骠骑辅政
+tags:
+  - 东汉
+  - 诸侯王
+aliases:
+  - 刘苍
+  - 东平宪王
+sources:
+  - work: 后汉书
+    part: 光武十王列传
+    kind: classic
+---
+
+光武帝子，明帝同母弟。拜骠骑将军辅政，位在公上，与公卿共议礼乐制度。以天下既平、声望日重而自惧，屡请归国，章帝建初八年薨，谥宪。

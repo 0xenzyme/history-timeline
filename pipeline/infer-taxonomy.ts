@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 import type { Gender } from '../src/types';
 import { loadPipeline } from './load';
+import { findPersonMarkdown } from './person-md';
 import type { PipelineData, RegistryPerson } from './types';
 
 const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
@@ -223,6 +224,11 @@ function collectSuggestions(
 
 /** 只插入原本缺失的字段，插在 sources 之前以保持字段语义顺序，避免大范围 diff；overrides 则是覆盖式。 */
 function applySuggestion(person: RegistryPerson, suggestion: Suggestion, override?: Override): boolean {
+  const markdown = findPersonMarkdown(join(pipelineRoot, '..', 'content'), person.id);
+  if (markdown) {
+    console.warn(`${person.id} 在 ${markdown}，分类回填不改 Markdown`);
+    return false;
+  }
   const file = join(pipelineRoot, 'registry', 'people', `${person.id}.json`);
   const parsed = JSON.parse(readFileSync(file, 'utf8')) as Record<string, unknown>;
 

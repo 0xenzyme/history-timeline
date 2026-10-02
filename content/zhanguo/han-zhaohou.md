@@ -1,0 +1,31 @@
+---
+id: han-zhaohou
+name: 韩昭侯
+display: 韩昭侯
+profile: full
+gender: male
+polity:
+  - han-guo
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -333
+deathAccuracy: exact
+deathNote: 韩世家在位年与年表系定，前333年卒；申不害卒在其任内（老子韩非列传）。
+title: 韩侯，用申不害之主
+tags:
+  - 韩国
+  - 申不害
+  - 变法
+aliases:
+  - 昭侯（韩）
+sources:
+  - work: 史记
+    part: 韩世家
+    kind: classic
+  - work: 史记
+    part: 老子韩非列传
+    kind: classic
+---
+
+任申不害相韩，国治兵强，终申子之身诸侯不敢侵；敛席藏弊的俭核之政出名。前333年卒——韩的最后一轮振作收在这条上，其后韩不复振。

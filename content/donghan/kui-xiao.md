@@ -1,0 +1,30 @@
+---
+id: kui-xiao
+name: 隗嚣
+display: 隗嚣
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - warlord
+  - falling
+birthAccuracy: unknown
+death: 33
+deathAccuracy: exact
+deathNote: 建武九年春，嚣病且饿，出城餐糗糒，恚愤而死。
+title: 据陇平，两汉之间周旋的西州主
+tags:
+  - 东汉
+  - 割据
+aliases:
+  - 隗嚣
+  - 季孟
+  - 西州上将军
+sources:
+  - work: 后汉书
+    part: 隗嚣传
+    kind: classic
+---
+
+成纪人，起兵应汉诛莽镇戎大尹，更始时为御史大夫，奔还天水称西州上将军。附汉复叛，遣使称臣于公孙述，父子两见诛于光武。建武九年围急病饿，出城恚愤而死；余部立其子纯，明年落门破，西州平。他是建武统一战争陇右一线的另一方。

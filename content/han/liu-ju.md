@@ -1,0 +1,27 @@
+---
+id: liu-ju
+name: 刘据
+display: 戾太子刘据
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - royal-kin
+birthAccuracy: unknown
+death: -91
+deathAccuracy: exact
+title: 戾太子，巫蛊之祸自经
+tags:
+  - 巫蛊之祸
+  - 太子
+aliases:
+  - 戾太子
+  - 卫太子
+sources:
+  - work: 汉书
+    part: 武五子传
+    kind: classic
+---
+
+武帝长子，母卫皇后子夫。征和二年巫蛊之祸起，江充穷治太子宫掘得桐木人，太子惧不能自明，矫节收捕江充，与丞相刘屈氂战长安中，兵败亡匿湖县，自经死。其孙病已后即位，是为宣帝。

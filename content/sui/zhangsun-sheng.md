@@ -1,0 +1,29 @@
+---
+id: zhangsun-sheng
+name: 长孙晟
+display: 长孙晟
+profile: full
+gender: male
+polity:
+  - sui
+categories:
+  - general
+  - diplomat
+birth: 552
+birthAccuracy: approx
+birthNote: 大业五年卒，年五十八，上推生年。
+death: 609
+deathAccuracy: exact
+deathNote: 传文先书大业三年，后书五年卒，依同年号计为大业五年。
+title: 离间突厥，大业五年卒
+tags:
+  - 隋
+aliases:
+  - 长孙晟
+sources:
+  - work: 隋书
+    part: 长孙晟传
+    kind: classic
+---
+
+开皇初行反间，使摄图与玷厥相猜，又说染干、诱阿波，突厥因此自相攻击。大业三年为炀帝喻染干，发民开御道三千里。五年卒，年五十八。

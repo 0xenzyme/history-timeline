@@ -1,0 +1,33 @@
+---
+id: jin-daogong
+name: 晋悼公
+display: 晋悼公
+profile: full
+gender: male
+polity:
+  - jin-guo
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -558
+deathAccuracy: exact
+deathNote: 今本竹书纪年·晋纪「灵王十四年，晋悼公卒」。
+title: 复霸之君，二十六年
+tags:
+  - 复霸
+  - 用士会
+  - 尊王攘夷
+aliases:
+  - 晋悼公
+sources:
+  - work: 史记
+    part: 晋世家
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+---
+
+厉公之子，周乱入晋而得立。即位诛不忠者，罢军、治政、释囚、纡赦，禄于戚、旧亲、故人；用士会、魏绛、栾书、荀罃、叔向。在位二十六年，会诸侯于戚，平公室，尊王攘夷。卒时晋之政始复整。

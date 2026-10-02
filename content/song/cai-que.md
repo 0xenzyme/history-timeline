@@ -1,0 +1,24 @@
+---
+id: cai-que
+name: 蔡确
+display: 蔡确
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - chancellor
+birth: 1037
+birthAccuracy: exact
+death: 1093
+deathAccuracy: exact
+title: 新党首领，车盖亭诗案
+tags:
+  - 宋
+sources:
+  - work: 宋史
+    part: 蔡确传
+    kind: classic
+---
+
+王安石新法的后继主持人，元丰末与王珪同受顾命。元祐初贬新州，以《车盖亭》诗案竟死于贬所。新旧党争由是加深。

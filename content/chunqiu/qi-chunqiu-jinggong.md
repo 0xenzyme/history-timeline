@@ -1,0 +1,31 @@
+---
+id: qi-chunqiu-jinggong
+name: 姜杵臼
+display: 齐景公
+profile: full
+gender: male
+polity:
+  - qi
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -490
+deathAccuracy: exact
+deathNote: 史记·齐太公世家「五十八年夏，景公夫人燕姬适子死」记在位五十八年。据其即位于庄公（前548）卒后一年，得前547，五十八年推得前490。
+title: 在位五十八年，史墨断其必亡
+tags:
+  - 崔杼庆封之祸
+  - 史墨论亡
+  - 田乞秉政
+aliases:
+  - 齐景公
+  - 景公杵臼
+sources:
+  - work: 史记
+    part: 齐太公世家
+    kind: classic
+---
+
+庄公异母弟。崔杼立之，以崔杼为右相、庆封为左相。庆封以酒醋鱼黍罚为，崔杼与庆封相恶，庆封奔卫。景公问于史墨，曰「其亡乎」，对曰「亡。公室益卑，公及大夫皆富」。田乞亦始大。

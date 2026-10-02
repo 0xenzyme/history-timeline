@@ -1,0 +1,27 @@
+---
+id: wen-zhong
+name: 文种
+display: 文种
+profile: full
+gender: unknown
+polity:
+  - yue
+categories:
+  - official
+birthAccuracy: unknown
+death: -472
+deathAccuracy: approx
+deathNote: 灭吴后不久，勾践赐死。取前 472 年前后。
+title: 越大夫，守国之臣
+tags:
+  - 越国
+  - 赐死
+aliases:
+  - 大夫种
+sources:
+  - work: 史记
+    part: 越王勾践世家
+    kind: classic
+---
+
+字少禽。勾践入吴为质时，他守国。吴亡，不听范蠡之劝，赐死。与范蠡同谋不同终，两条在灭吴后分叉。

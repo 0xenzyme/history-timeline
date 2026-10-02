@@ -1,0 +1,29 @@
+---
+id: li-chun
+name: 李纯
+display: 唐宪宗李纯
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - monarch
+primary: monarch
+birth: 778
+birthAccuracy: exact
+death: 820
+deathAccuracy: exact
+title: 唐宪宗，元和中兴，藩镇暂服
+tags:
+  - 唐
+  - 元和中兴
+aliases:
+  - 李纯
+  - 唐宪宗
+sources:
+  - work: 旧唐书
+    part: 宪宗纪
+    kind: classic
+---
+
+李诵长子，永贞元年即位。用杜黄裳、裴度、李绛、武元衡，平西川刘辟、镇海李锜，元和十二年雪夜入蔡州擒吴元济，淄青、成德相继听命，河南北三十余州复为朝廷所有，史称元和中兴。晚年服饵求长生，性躁而多内宠，元和十五年为宦官陈弘志等所弑于中和殿，年四十三。

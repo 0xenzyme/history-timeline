@@ -1,0 +1,36 @@
+---
+id: yao-hong
+name: 姚泓
+display: 姚泓
+profile: full
+gender: male
+polity:
+  - shiliuguo
+categories:
+  - monarch
+  - outsider
+  - falling
+primary: monarch
+birth: 388
+birthAccuracy: approx
+birthNote: 义熙十三年（417）送建康市斩之，时年三十，虚岁上推生年。
+death: 417
+deathAccuracy: exact
+title: 后秦末主，长安城破送建康市
+tags:
+  - 十六国
+  - 后秦
+  - 羌
+aliases:
+  - 姚泓
+  - 姚元子
+sources:
+  - work: 晋书
+    part: 姚泓载记
+    kind: classic
+  - work: 晋书
+    part: 安帝纪
+    kind: classic
+---
+
+姚兴长子。仁弱而无断，亲任姚绍，抚诸弟以恩，然赫连勃勃内侵，晋军西讨，诸子相疑。义熙十三年刘裕克长安，泓计无所出，欲降，其子佛念年十一劝自裁而不从，遂将妻子诣垒门降，送建康市斩之，时年三十，在位二年，后秦亡。

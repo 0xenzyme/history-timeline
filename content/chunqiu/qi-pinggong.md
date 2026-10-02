@@ -1,0 +1,30 @@
+---
+id: qi-pinggong
+name: 姜驩
+display: 齐平公
+profile: full
+gender: male
+polity:
+  - qi
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -456
+deathAccuracy: exact
+deathNote: 史记·齐太公世家「平公八年，越灭吴。二十五年卒，子宣公贷立」记在位二十五年。据平公八年即专题所定的越灭吴前473年反推，平公元年前480，二十五年推得前456，与全链吻合。
+title: 在位二十五年，晏子十世相齐之末
+tags:
+  - 田常专政
+  - 越灭吴
+  - 晏子五世相齐
+aliases:
+  - 齐平公
+sources:
+  - work: 史记
+    part: 齐太公世家
+    kind: classic
+---
+
+简公弟。田常乃立简公弟驩，是为平公，平公即位，田常相之，专齐之政，割齐安平以东为田氏封邑。八年，越灭吴。二十五年卒。晏婴历事灵公、庄公、景公、悼公、简公至平公，凡五世。

@@ -1,0 +1,29 @@
+---
+id: kou-xun
+name: 寇恂
+display: 寇恂
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+  - founding
+birthAccuracy: unknown
+death: 36
+deathAccuracy: exact
+title: 云台将，守河内足食足兵
+tags:
+  - 东汉
+  - 云台二十八将
+aliases:
+  - 寇恂
+  - 寇子翼
+  - 雍奴侯
+sources:
+  - work: 后汉书
+    part: 邓寇列传
+    kind: classic
+---
+
+上谷昌平人。光武北定河北，以为河内太守，伐木材、讲驰射、输粮养兵，当萧何镇关中任，遂成平山东之策。为贾复所怨，效蔺相如屈廉颇，全国体；后单骑晓高峻，斩其谋主皇甫文而降其城。时人归其长者，以为有宰相器。建武十二年卒，谥威侯。

@@ -1,0 +1,31 @@
+---
+id: shen-buhai
+name: 申不害
+display: 申不害
+profile: full
+gender: male
+polity:
+  - han-guo
+categories:
+  - minister
+birthAccuracy: unknown
+death: -337
+deathAccuracy: exact
+deathNote: 老子韩非列传、韩世家：申子卒、韩国不复振；由昭侯纪元与年表系前337年卒。
+title: 韩相，主术的法家
+tags:
+  - 韩国
+  - 变法
+  - 术
+aliases:
+  - 申子
+sources:
+  - work: 史记
+    part: 老子韩非列传
+    kind: classic
+  - work: 史记
+    part: 韩世家
+    kind: classic
+---
+
+故郑之贱臣，学黄老刑名以术干韩昭侯，昭侯使相韩：内修政教、外应诸侯，国治兵强十五年，终申子之身诸侯不敢侵。法家称"商君之法、申子之术"，创始两人同在轴上；他死后四年昭侯亦卒，韩不复振。

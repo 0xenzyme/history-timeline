@@ -1,0 +1,25 @@
+---
+id: gui-you
+name: 贵由
+display: 贵由
+profile: full
+gender: male
+polity:
+  - yuan
+categories:
+  - monarch
+primary: monarch
+birth: 1206
+birthAccuracy: exact
+death: 1248
+deathAccuracy: exact
+title: 元定宗，1246—1248 年在位
+tags:
+  - 元
+sources:
+  - work: 元史
+    part: 定宗纪
+    kind: classic
+---
+
+窝阔台长子。定宗在位仅两年而崩，其后由窝阔台系转入拖雷系，蒙哥即位，蒙古汗位从此在拖雷子孙间承袭。

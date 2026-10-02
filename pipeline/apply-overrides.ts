@@ -2,6 +2,8 @@ import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { findPersonMarkdown } from './person-md';
+
 const pipelineRoot = dirname(fileURLToPath(import.meta.url));
 const peopleDir = join(pipelineRoot, 'registry', 'people');
 const vocabPath = join(pipelineRoot, 'vocab', 'categories.json');
@@ -102,6 +104,11 @@ function main(): void {
       }
       if (primary && !categories.includes(primary)) {
         errors.push(`${file}: ${id} 的 primary ${primary} 不在 categories 中`);
+      }
+      const markdown = findPersonMarkdown(join(pipelineRoot, '..', 'content'), id);
+      if (markdown) {
+        errors.push(`${file}: ${id} 在 ${markdown}，overrides 不改 Markdown`);
+        continue;
       }
       if (!existsSync(join(peopleDir, `${id}.json`))) {
         errors.push(`${file}: 人物 ${id} 不存在`);

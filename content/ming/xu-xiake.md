@@ -1,0 +1,30 @@
+---
+id: xu-xiake
+name: 徐霞客
+display: 徐霞客
+profile: full
+gender: male
+polity:
+  - ming
+categories:
+  - explorer
+primary: explorer
+birth: 1587
+birthAccuracy: approx
+birthNote: 《明史》无传。陈函辉《霞客徐先生墓志铭》记其卒年五十有六，上推生年在一五八七年前后。
+death: 1641
+deathAccuracy: approx
+deathNote: 墓志铭与后人整理的游记跋语均系其卒于崇祯十四年正月（一六四一）。
+title: 三十年游记
+tags:
+  - 明
+sources:
+  - work: 徐霞客游记
+    part: 游天台山日记
+    kind: classic
+  - work: 霞客徐先生墓志铭
+    part: 陈函辉撰
+    kind: classic
+---
+
+名弘祖，字振之，江阴人。弃科举而事游历，三十年足迹遍南北荒远之区，日有所记，成《徐霞客游记》。1641 年卒。

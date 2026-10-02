@@ -1,0 +1,29 @@
+---
+id: guo-hou-mingyuan
+name: 郭太后
+display: 明元郭皇后
+profile: full
+gender: female
+polity:
+  - wei
+categories:
+  - consort
+  - regent
+birthAccuracy: unknown
+death: 263
+deathAccuracy: exact
+deathNote: 传文写景元四年十二日崩。年份取景元四年，不把十二日改成十二月。
+title: 齐王太后，景元四年崩
+tags:
+  - 三国
+  - 曹魏
+aliases:
+  - 郭太后
+  - 明元郭皇后
+sources:
+  - work: 三国志
+    part: 魏书·后妃传·明元郭皇后
+    kind: classic
+---
+
+西平人。明帝立为皇后。齐王即位尊为皇太后。三主幼弱时，大事先问太后。景元四年崩。

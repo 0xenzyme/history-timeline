@@ -1,0 +1,29 @@
+---
+id: liu-yan-yizhou
+name: 刘焉
+display: 刘焉
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - warlord
+  - official
+primary: warlord
+birthAccuracy: unknown
+death: 194
+deathAccuracy: exact
+deathNote: 本传兴平元年痈疽发背而卒。
+title: 汉益州牧，倡废史立牧，遂成割据
+tags:
+  - 三国
+aliases:
+  - 刘焉
+  - 刘君郎
+sources:
+  - work: 三国志
+    part: 蜀书·刘二牧传
+    kind: classic
+---
+
+江夏竟陵人，字君郎，汉室疏宗。中平五年建议改刺史为州牧，选清名重臣出居地方，自请为益州牧。使张鲁断斜谷道杀汉使，遂绝贡献，以米贼作乱为辞隔塞王命，造作乘舆车具千余乘。兴平元年痈疽发背卒，子璋继领益州，后降于刘备。

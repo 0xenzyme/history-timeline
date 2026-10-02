@@ -1,0 +1,27 @@
+---
+id: zhang-yu
+name: 张禹
+display: 张禹
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+  - classics
+birthAccuracy: unknown
+death: 113
+deathAccuracy: exact
+title: 帝师欧阳尚书，定策立安帝
+tags:
+  - 东汉
+aliases:
+  - 张禹
+  - 张伯达
+sources:
+  - work: 后汉书
+    part: 张禹传
+    kind: classic
+---
+
+赵国襄国人，事太常桓荣，习《欧阳尚书》，贫穷不改其志。和帝时拜太尉，每有灾异多所谏正。延平元年迁太傅，录尚书事，舍宫中授殇帝经；安帝即位，以定策功封安乡侯。永初七年卒于家。

@@ -1,0 +1,25 @@
+---
+id: xia-yuanji
+name: 夏原吉
+display: 夏原吉
+profile: full
+gender: male
+polity:
+  - ming
+categories:
+  - minister
+primary: minister
+birth: 1366
+birthAccuracy: exact
+death: 1430
+deathAccuracy: exact
+title: 掌户部三十年
+tags:
+  - 明
+sources:
+  - work: 明史
+    part: 夏原吉传
+    kind: classic
+---
+
+字维喆，湘阴人。掌户部几三十年，理财不尚聚敛;谏阻北征而系狱，仁宗即位复任。1430 年卒。

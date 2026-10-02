@@ -1,0 +1,31 @@
+---
+id: ma-zhiyuan
+name: 马致远
+display: 马致远
+profile: full
+gender: male
+polity:
+  - yuan
+categories:
+  - drama
+  - poetry
+primary: drama
+birth: 1250
+birthAccuracy: approx
+birthNote: 元人传记不载生年，近人考订约在一二五〇年前后。
+death: 1321
+deathAccuracy: approx
+deathNote: 一说卒于一三二一或一三二四年，此处采一三二一说。
+title: 东篱一曲《汉宫秋》
+tags:
+  - 元
+sources:
+  - work: 录鬼簿
+    part: 前辈已死名公才人
+    kind: classic
+  - work: 元曲家考略
+    note: 生卒约一二五〇至一三二一，诸说不一
+    kind: classic
+---
+
+号东篱，大都人。曾任江浙行省务官，杂剧《汉宫秋》《荐福碑》并传，小令《天净沙·秋思》最为人所诵。

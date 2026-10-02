@@ -1,0 +1,26 @@
+---
+id: chen-liang
+name: 陈亮
+display: 陈亮
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - thinker
+birth: 1143
+birthAccuracy: exact
+death: 1194
+deathAccuracy: exact
+title: 上孝宗四书力主恢复的龙川
+tags:
+  - 宋
+aliases:
+  - 龙川先生
+sources:
+  - work: 宋史
+    part: 陈亮传
+    kind: classic
+---
+
+布衣而上书孝宗言恢复，秦桧余党疾之如仇，三下狱。与辛弃疾鹅湖同游，长歌相答。绍熙四年状元及第，未赴任而卒。

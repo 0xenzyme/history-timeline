@@ -1,0 +1,30 @@
+---
+id: bai-ju-yi
+name: 白居易
+display: 白居易
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - poetry
+  - official
+primary: poetry
+birth: 772
+birthAccuracy: exact
+death: 846
+deathAccuracy: exact
+title: 诗魔，新乐府与《长恨歌》《琵琶行》
+tags:
+  - 唐
+aliases:
+  - 白居易
+  - 白乐天
+  - 白香山
+sources:
+  - work: 旧唐书
+    part: 白居易传
+    kind: classic
+---
+
+太原人，后徙下邽，幼聪慧，五六岁学为诗，九岁谙识声韵。贞元进士，为翰林学士、左拾遗，作新乐府五十首、秦中吟十首，论事切直。元和十年贬江州司马，作《琵琶行》。后为杭州、苏州刺史，修六井、凿山塘。会昌六年卒于洛阳，年七十五，葬香山如满师塔侧。

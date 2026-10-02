@@ -1,0 +1,25 @@
+---
+id: he-hui
+name: 何徽
+display: 何徽
+profile: full
+gender: male
+polity:
+  - wudai
+categories:
+  - general
+  - falling
+birthAccuracy: unknown
+death: 954
+deathAccuracy: exact
+title: 高平先遁之诛
+tags:
+  - 五代
+  - 后周
+sources:
+  - work: 旧五代史
+    part: 何徽传
+    kind: classic
+---
+
+并州人。事后汉至控鹤左厢都指挥使，周初历房州、延州。从高平之役，与樊爱能弃阵先奔，并其部曲之遁者，世宗并按军法斩之。

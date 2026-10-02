@@ -1,0 +1,24 @@
+---
+id: chen-kangbo
+name: 陈康伯
+display: 陈康伯
+profile: full
+gender: male
+polity:
+  - song
+categories:
+  - chancellor
+birth: 1098
+birthAccuracy: exact
+death: 1165
+deathAccuracy: exact
+title: 采石之役定高宗传位
+tags:
+  - 宋
+sources:
+  - work: 宋史
+    part: 陈康伯传
+    kind: classic
+---
+
+完颜亮南侵，康伯力劝高宗亲征，家用书壁曰「以此身听命于天」。虞允文采石之捷，遂安。孝宗立，乾道元年薨于位。

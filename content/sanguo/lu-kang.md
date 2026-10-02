@@ -1,0 +1,30 @@
+---
+id: lu-kang
+name: 陆抗
+display: 陆抗
+profile: full
+gender: male
+polity:
+  - wu
+categories:
+  - general
+  - official
+primary: general
+birth: 226
+birthAccuracy: exact
+death: 274
+deathAccuracy: exact
+title: 大司马，西陵克羊祜，吴之长城
+tags:
+  - 三国
+  - 孙吴
+aliases:
+  - 陆抗
+  - 陆幼节
+sources:
+  - work: 三国志
+    part: 吴书·陆逊传
+    kind: classic
+---
+
+陆逊次子。凤凰元年西陵督步阐叛降晋，抗率军围之，破羊祜救兵，克西陵而诛阐。与晋对境，各保分界，羊祜遗之酒，抗饮之不疑。官至大司马、荆州牧。三年卒，年四十九，吴遂无人可守江陵。

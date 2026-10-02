@@ -1,0 +1,30 @@
+---
+id: li-shang-yin
+name: 李商隐
+display: 李商隐
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - poetry
+  - official
+primary: poetry
+birth: 813
+birthAccuracy: exact
+death: 858
+deathAccuracy: exact
+title: 晚唐诗人，无题与锦瑟，困于牛李
+tags:
+  - 唐
+aliases:
+  - 李商隐
+  - 李义山
+  - 李玉溪
+sources:
+  - work: 旧唐书
+    part: 李商隐传
+    kind: classic
+---
+
+郑州荥阳人，令狐楚奇其才，使与诸子游，以骈文荐于朝。开成进士，王茂元辟为掌书记，茂元与令狐楚分属李、牛两党，遂为令狐绹所恶，久不调。诗深情绵邈，尤工无题，用典繁密，后世笺注者众。大中十二年罢盐铁推官，还郑州而卒，年四十五。

@@ -1,0 +1,33 @@
+---
+id: ji-lin
+name: 姬林
+display: 周桓王
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - monarch
+birthAccuracy: unknown
+death: -697
+deathAccuracy: exact
+deathNote: 今本竹书纪年·晋纪「桓王二十三年 三月乙未，王陟」。按平王元年前 770 逐王推得。
+title: 在位二十三年，郑师射伤于繻葛
+tags:
+  - 繻葛之战
+  - 郑庄公
+aliases:
+  - 周桓王
+sources:
+  - work: 史记
+    part: 周本纪
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+  - work: 春秋左传
+    part: 桓公五年传
+    kind: classic
+---
+
+平王之孙。平王五十一年前 720 崩，立其子泄之父蚤死，遂立桓王。即位三年郑庄公来朝，不与礼；遂与郑交恶。前 707 繻葛之战为郑将祝聃射中肩，王师大败。这是周天子第一次在战场上受伤，王室的兵权与威信一同下落。

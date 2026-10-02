@@ -1,0 +1,31 @@
+---
+id: li-mu
+name: 李牧
+display: 李牧
+profile: full
+gender: male
+polity:
+  - zhao
+categories:
+  - general
+birthAccuracy: unknown
+death: -229
+deathAccuracy: exact
+deathNote: 廉颇蔺相如列传：赵王迁七年被斩。赵世家：孝成王二十年秦王政初立，二十一年孝成王卒；悼襄王九年卒，子迁立。由此王迁七年是前229年。
+title: 赵将，王迁七年被斩
+tags:
+  - 赵国
+  - 武安君
+aliases:
+  - 李牧
+  - 武安君
+sources:
+  - work: 史记
+    part: 廉颇蔺相如列传
+    kind: classic
+  - work: 史记
+    part: 赵世家
+    kind: classic
+---
+
+赵北边守将，后封武安君。赵王迁七年，王翦攻赵，李牧被郭开所谗，不受代将被斩。三个月后赵王被俘。

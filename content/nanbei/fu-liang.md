@@ -1,0 +1,29 @@
+---
+id: fu-liang
+name: 傅亮
+display: 傅亮
+profile: full
+gender: male
+polity:
+  - nan
+categories:
+  - regent
+  - minister
+birth: 374
+birthAccuracy: approx
+birthNote: 元嘉三年伏诛，年五十三，上推生年。
+death: 426
+deathAccuracy: exact
+title: 刘宋顾命大臣，元嘉三年伏诛
+tags:
+  - 南北朝
+  - 刘宋
+aliases:
+  - 傅亮
+sources:
+  - work: 宋书
+    part: 傅亮传
+    kind: classic
+---
+
+刘裕有受禅之意而难于开口，亮夜叩宫门，请先还都征其入辅。永初以后专典诏命。元嘉三年文帝诛之，年五十三。

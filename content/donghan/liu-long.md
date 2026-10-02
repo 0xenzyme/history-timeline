@@ -1,0 +1,29 @@
+---
+id: liu-long
+name: 刘隆
+display: 刘隆
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+  - founding
+birthAccuracy: unknown
+death: 57
+deathAccuracy: exact
+title: 云台将，代吴汉行大将军事
+tags:
+  - 东汉
+  - 云台二十八将
+aliases:
+  - 刘隆
+  - 刘元伯
+  - 慎侯
+sources:
+  - work: 后汉书
+    part: 朱景王杜马刘傅坚马列传
+    kind: classic
+---
+
+南阳安众侯宗室，父礼起兵诛王莽族灭，隆以年未七岁获免。闻世祖在河内，追及于射犬，为骑都尉与冯异共拒朱鲔、李轶，轶杀其妻子不顾。拜诛虏将军从马成平李宪，屯田武当；又副马援击交趾，破征侧于禁谿口。吴汉薨，迁骠骑将军、行大司军事，视事八年，奉法自守。中元二年卒，谥靖侯。云台位次「骠骑将军慎侯刘隆」。

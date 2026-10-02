@@ -1,0 +1,28 @@
+---
+id: zheng-tian
+name: 郑畋
+display: 郑畋
+profile: full
+gender: male
+polity:
+  - tang
+categories:
+  - chancellor
+primary: chancellor
+birth: 824
+birthAccuracy: exact
+death: 882
+deathAccuracy: exact
+title: 中和二年薨，年五十九
+tags:
+  - 唐
+  - 宰相
+aliases:
+  - 郑畋
+sources:
+  - work: 旧唐书
+    part: 郑畋传
+    kind: classic
+---
+
+僖宗朝同平章事。中和二年罢相，薨于郡舍，年五十九。

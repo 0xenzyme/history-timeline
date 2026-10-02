@@ -1,0 +1,33 @@
+---
+id: jin-ligong
+name: 晋厉公
+display: 晋厉公
+profile: full
+gender: male
+polity:
+  - jin-guo
+categories:
+  - monarch
+  - vassal
+primary: vassal
+birthAccuracy: unknown
+death: -573
+deathAccuracy: exact
+deathNote: 今本竹书纪年·晋纪「简王十三年，晋厉公卒」。
+title: 七年，为栾盈所弑
+tags:
+  - 栾盈之乱
+  - 下鄢陵
+  - 囚于卫
+aliases:
+  - 晋厉公
+sources:
+  - work: 史记
+    part: 晋世家
+    kind: classic
+  - work: 今本竹书纪年
+    part: 晋纪
+    kind: classic
+---
+
+景公之子。三年纳栾盈而容其居郤氏故邑。前573年栾盈、范鞅起兵，厉公杀之，栾盈又反；栾书、中行偃攻厉公，获之于鄢陵，栾书请杀之而止，迎周王而囚之。明年使囚于卫，终身不赦。
