@@ -1,0 +1,399 @@
+{
+  "contractVersion": 1,
+  "id": "history",
+  "title": "历史事件",
+  "subtitle": "政变 · 变法 · 盟约 · 文化",
+  "range": [
+    -1600,
+    1949
+  ],
+  "segments": [
+    {
+      "id": "seg-bc3-ad15",
+      "label": "前 3 世纪—15 世纪",
+      "from": -300,
+      "to": 1500,
+      "events": [
+        "daizexiang-qiyi",
+        "chibi-zhizhan",
+        "mengjin-zhanzheng",
+        "yehuling-zhizhan",
+        "duomen-zhibian"
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "xia",
+      "name": "夏",
+      "from": -2070,
+      "to": -1600
+    },
+    {
+      "id": "shang",
+      "name": "商",
+      "from": -1600,
+      "to": -1046
+    },
+    {
+      "id": "western-zhou",
+      "name": "西周",
+      "from": -1046,
+      "to": -771
+    },
+    {
+      "id": "spring-autumn",
+      "name": "春秋",
+      "from": -770,
+      "to": -476
+    },
+    {
+      "id": "warring-states",
+      "name": "战国",
+      "from": -475,
+      "to": -221
+    },
+    {
+      "id": "qin",
+      "name": "秦",
+      "from": -221,
+      "to": -207
+    },
+    {
+      "id": "western-han",
+      "name": "西汉",
+      "from": -202,
+      "to": 8
+    },
+    {
+      "id": "xin",
+      "name": "新",
+      "from": 8,
+      "to": 23
+    },
+    {
+      "id": "eastern-han",
+      "name": "东汉",
+      "from": 25,
+      "to": 220
+    },
+    {
+      "id": "three-kingdoms",
+      "name": "三国",
+      "from": 220,
+      "to": 280
+    },
+    {
+      "id": "western-jin",
+      "name": "西晋",
+      "from": 265,
+      "to": 316
+    },
+    {
+      "id": "eastern-jin",
+      "name": "东晋",
+      "from": 317,
+      "to": 420
+    },
+    {
+      "id": "shiliuguo",
+      "name": "十六国",
+      "from": 304,
+      "to": 439
+    },
+    {
+      "id": "northern-southern",
+      "name": "南北朝",
+      "from": 420,
+      "to": 589
+    },
+    {
+      "id": "sui",
+      "name": "隋",
+      "from": 581,
+      "to": 618
+    },
+    {
+      "id": "tang",
+      "name": "唐",
+      "from": 618,
+      "to": 907
+    },
+    {
+      "id": "wudai",
+      "name": "五代十国",
+      "from": 907,
+      "to": 960
+    },
+    {
+      "id": "liao",
+      "name": "辽",
+      "from": 916,
+      "to": 1125
+    },
+    {
+      "id": "song",
+      "name": "宋",
+      "from": 960,
+      "to": 1279
+    },
+    {
+      "id": "xixia",
+      "name": "西夏",
+      "from": 1038,
+      "to": 1227
+    },
+    {
+      "id": "jin-chao",
+      "name": "金",
+      "from": 1115,
+      "to": 1234
+    },
+    {
+      "id": "mongol",
+      "name": "大蒙古国",
+      "from": 1206,
+      "to": 1271
+    },
+    {
+      "id": "yuan",
+      "name": "元",
+      "from": 1271,
+      "to": 1368
+    },
+    {
+      "id": "ming",
+      "name": "明",
+      "from": 1368,
+      "to": 1644
+    },
+    {
+      "id": "qing",
+      "name": "清",
+      "from": 1644,
+      "to": 1912
+    },
+    {
+      "id": "minguo",
+      "name": "民国",
+      "from": 1912,
+      "to": 1949
+    }
+  ],
+  "events": [
+    {
+      "id": "chibi-zhizhan",
+      "name": "赤壁之战",
+      "display": "赤壁之战",
+      "kind": "point",
+      "type": "military",
+      "scale": "battle",
+      "importance": 3,
+      "year": 208,
+      "yearAccuracy": "exact",
+      "place": "赤壁",
+      "placeNow": "今湖北赤壁市西北，一说黄州赤壁",
+      "belligerents": [
+        "wei",
+        "wu",
+        "shu"
+      ],
+      "commanders": [
+        {
+          "id": "cao-cao",
+          "side": "wei"
+        },
+        {
+          "id": "zhou-yu",
+          "side": "wu"
+        },
+        {
+          "id": "liu-bei",
+          "side": "shu"
+        }
+      ],
+      "people": [
+        "zhuge-liang"
+      ],
+      "result": "孙刘联军火攻大破曹军，三分之势始定",
+      "dynasties": [
+        "eastern-han"
+      ],
+      "desc": "208 年冬，曹操南下荆州，孙权用周瑜、鲁肃之议，与刘备合兵拒之。两军夹江对垒于赤壁，黄盖诈降纵火，曹军舟船尽焚，人马死者甚众，曹操引军北还。此战之前曹操几定天下，此战之后终其世不能南渡；孙、刘各据荆扬与益州，三分天下的格局由此奠定。",
+      "sources": [
+        {
+          "work": "三国志",
+          "part": "吴书 · 周瑜传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷六十五",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "daizexiang-qiyi",
+      "name": "大泽乡起义",
+      "display": "大泽乡起义",
+      "kind": "point",
+      "type": "rebellion",
+      "importance": 2,
+      "year": -209,
+      "yearAccuracy": "exact",
+      "place": "大泽乡",
+      "placeNow": "今安徽宿州东南",
+      "polity": [
+        "qin"
+      ],
+      "people": [
+        "chen-sheng",
+        "wu-guang"
+      ],
+      "result": "秦末民变开端，六国故地并起亡秦",
+      "dynasties": [
+        "qin"
+      ],
+      "desc": "前 209 年七月，陈胜、吴广率戍卒九百人于蕲县大泽乡举事，诈称公子扶苏、项燕，号张楚。攻蕲下陈，据陈称王，四方响应，六国故地并起。起义虽半年而败，然秦亡之局自此始——中国史上第一次大规模农民战争，由此揭幕。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "陈涉世家",
+          "kind": "classic"
+        },
+        {
+          "work": "汉书",
+          "part": "陈胜项籍传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "duomen-zhibian",
+      "name": "夺门之变",
+      "display": "夺门之变",
+      "kind": "point",
+      "type": "political",
+      "importance": 2,
+      "year": 1457,
+      "yearAccuracy": "exact",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-qizhen",
+        "yu-qian",
+        "xu-you-zhen"
+      ],
+      "result": "英宗自南宫复辟，于谦被杀，景泰旧臣尽逐",
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "1457 年正月，石亨、曹吉祥与徐有贞等乘景帝病笃，拥太上皇朱祁镇自南宫夺门复辟，改元天顺。于谦以「意欲迎立外藩」下狱论死，籍其家，天下冤之。北京保卫战的主持者一死，景泰朝的用人尽逐，明代中期士气的转折常以此事为界。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "于谦传",
+          "kind": "classic"
+        },
+        {
+          "work": "明史纪事本末",
+          "part": "卷三十五 · 南宫复辟",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "mengjin-zhanzheng",
+      "name": "蒙金战争",
+      "display": "蒙金战争",
+      "kind": "span",
+      "type": "military",
+      "scale": "war",
+      "importance": 2,
+      "year": 1211,
+      "yearAccuracy": "exact",
+      "endYear": 1234,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "jin-chao",
+        "mongol"
+      ],
+      "commanders": [
+        {
+          "id": "tie-mu-zhen",
+          "side": "mongol"
+        }
+      ],
+      "result": "蒙古联宋灭金，金亡，蒙古据有中原",
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "1211 年成吉思汗伐金，野狐岭一战后金军主力尽丧；中都既下，金迁都汴京，河北、山东次第失守。1232 年三峰山之战金军最后一支精锐覆没，1234 年蔡州城破，金亡。此战之后蒙古与南宋正面相接，南北对峙的格局转为蒙宋之争。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "金史",
+          "part": "哀宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yehuling-zhizhan",
+      "name": "野狐岭之战",
+      "display": "野狐岭之战",
+      "kind": "point",
+      "type": "military",
+      "scale": "battle",
+      "importance": 2,
+      "year": 1211,
+      "yearAccuracy": "exact",
+      "place": "野狐岭",
+      "placeNow": "今河北张家口张北县境",
+      "belligerents": [
+        "jin-chao",
+        "mongol"
+      ],
+      "commanders": [
+        {
+          "id": "tie-mu-zhen",
+          "side": "mongol"
+        },
+        {
+          "id": "mu-huali",
+          "side": "mongol"
+        }
+      ],
+      "result": "蒙古大破金军，金朝精锐尽失，自此由攻转守",
+      "parent": "mengjin-zhanzheng",
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "1211 年八月，成吉思汗率蒙古军南下，金以完颜承裕统兵拒战于野狐岭。蒙古军集中兵力突破一点，金军主力溃败，死者蔽野，河北以北遂无险可守。此战是蒙金战争的第一场决定性会战：金朝的野战力量一朝丧尽，此后只能婴城自守，中都震动，迁都之议遂起。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "金史",
+          "part": "卫绍王本纪",
+          "kind": "classic"
+        }
+      ]
+    }
+  ]
+}

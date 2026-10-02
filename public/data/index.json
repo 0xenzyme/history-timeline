@@ -553,5 +553,35 @@
         "thought"
       ]
     }
+  ],
+  "lines": [
+    {
+      "id": "people",
+      "title": "人物",
+      "subtitle": "按朝代专题编排",
+      "axis": "topic"
+    },
+    {
+      "id": "military",
+      "title": "军事",
+      "subtitle": "战争 · 战役 · 会战",
+      "axis": "time",
+      "file": "military.json",
+      "range": [
+        -1600,
+        1949
+      ]
+    },
+    {
+      "id": "history",
+      "title": "历史事件",
+      "subtitle": "政变 · 变法 · 盟约 · 文化",
+      "axis": "time",
+      "file": "history.json",
+      "range": [
+        -1600,
+        1949
+      ]
+    }
   ]
 }

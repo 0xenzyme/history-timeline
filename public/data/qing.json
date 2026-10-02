@@ -17,8 +17,13 @@
     },
     {
       "id": "consort",
-      "name": "后妃",
+      "name": "后妃 · 外戚",
       "color": "#c98a3a"
+    },
+    {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
     },
     {
       "id": "chancellor",
@@ -32,12 +37,12 @@
     },
     {
       "id": "literati",
-      "name": "科技 · 文化",
+      "name": "文学 · 艺术 · 科技",
       "color": "#1f7f8f"
     },
     {
       "id": "end",
-      "name": "权臣 · 末世群雄",
+      "name": "权臣 · 末世 · 对立",
       "color": "#6b5b95"
     }
   ],
@@ -92,8 +97,8 @@
     },
     {
       "id": "fu-lin",
-      "name": "顺治",
-      "display": "福临",
+      "name": "福临",
+      "display": "顺治",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -116,8 +121,8 @@
     },
     {
       "id": "kang-xi",
-      "name": "康熙",
-      "display": "玄烨",
+      "name": "玄烨",
+      "display": "康熙",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -139,8 +144,8 @@
     },
     {
       "id": "yong-zheng",
-      "name": "雍正",
-      "display": "胤禛",
+      "name": "胤禛",
+      "display": "雍正",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -162,8 +167,8 @@
     },
     {
       "id": "qian-long",
-      "name": "乾隆",
-      "display": "弘历",
+      "name": "弘历",
+      "display": "乾隆",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -184,9 +189,32 @@
       "gender": "male"
     },
     {
+      "id": "jia-qing",
+      "name": "颙琰",
+      "display": "嘉庆",
+      "lane": "emperor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1760,
+      "death": 1820,
+      "title": "亲政诛和珅",
+      "bio": "乾隆第十五子，受禅即位，改元嘉庆。亲政即赐和珅死、籍其家，欲挽颓风；白莲、天理教相继起，禁鸦片之初议自此始。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "dao-guang",
-      "name": "道光",
-      "display": "旻宁",
+      "name": "旻宁",
+      "display": "道光",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -208,8 +236,8 @@
     },
     {
       "id": "xian-feng",
-      "name": "咸丰",
-      "display": "奕詝",
+      "name": "奕詝",
+      "display": "咸丰",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
@@ -230,45 +258,21 @@
       "gender": "male"
     },
     {
-      "id": "guang-xu",
-      "name": "光绪",
-      "display": "载湉",
+      "id": "tong-zhi",
+      "name": "载淳",
+      "display": "同治",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
-      "birth": 1871,
-      "death": 1908,
-      "title": "戊戌变法",
-      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "birth": 1856,
+      "death": 1875,
+      "title": "两宫垂帘，同治中兴",
+      "bio": "咸丰长子，冲龄即位，慈禧、慈安两宫垂帘。用曾左李平太平、捻回，号为中兴；亲政未久而崩，无嗣。",
       "tags": [
         "清"
       ],
       "categories": [
         "monarch"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "qing"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "xuan-tong",
-      "name": "宣统",
-      "display": "溥仪",
-      "lane": "emperor",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
-      "birth": 1906,
-      "death": 1967,
-      "title": "末代皇帝",
-      "bio": "醇亲王载沣之子，三岁即位，为清亡国之君；1912 年退位，两千年帝制终。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "monarch",
-        "falling"
       ],
       "primary": "monarch",
       "polity": [
@@ -301,16 +305,16 @@
       "gender": "female"
     },
     {
-      "id": "jia-qing",
-      "name": "颙琰",
-      "display": "颙琰",
+      "id": "guang-xu",
+      "name": "载湉",
+      "display": "光绪",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
-      "birth": 1760,
-      "death": 1820,
-      "title": "亲政诛和珅",
-      "bio": "乾隆第十五子，受禅即位，改元嘉庆。亲政即赐和珅死、籍其家，欲挽颓风；白莲、天理教相继起，禁鸦片之初议自此始。",
+      "birth": 1871,
+      "death": 1908,
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
       "tags": [
         "清"
       ],
@@ -324,32 +328,58 @@
       "gender": "male"
     },
     {
-      "id": "tong-zhi",
-      "name": "载淳",
-      "display": "载淳",
+      "id": "xuan-tong",
+      "name": "溥仪",
+      "display": "宣统",
       "lane": "emperor",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
-      "birth": 1856,
-      "death": 1875,
-      "title": "两宫垂帘，同治中兴",
-      "bio": "咸丰长子，冲龄即位，慈禧、慈安两宫垂帘。用曾左李平太平、捻回，号为中兴；亲政未久而崩，无嗣。",
+      "birth": 1906,
+      "death": 1967,
+      "title": "末代皇帝",
+      "bio": "醇亲王载沣之子，三岁即位，为清亡国之君；1912 年退位，两千年帝制终。",
       "tags": [
         "清"
       ],
       "categories": [
-        "monarch"
+        "monarch",
+        "falling"
       ],
       "primary": "monarch",
       "polity": [
         "qing"
       ],
       "gender": "male"
+    },
+    {
+      "id": "xiao-ci",
+      "name": "孟古哲哲",
+      "display": "孟古哲哲",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1575,
+      "death": 1603,
+      "birthNote": "《清史稿》不载生年，据万历十六年来归之年十四上推。",
+      "deathNote": "《清史稿》作岁癸卯崩，年二十九；皇太极即位后追尊为皇后。",
+      "title": "太祖皇后，太宗生母",
+      "bio": "叶赫那拉氏，叶赫贝勒杨吉砮之女。1588 年来归努尔哈赤，1592 年生皇太极。1603 年崩，年二十九，后追尊为孝慈高皇后。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
     },
     {
       "id": "da-fei",
-      "name": "大妃",
-      "display": "大妃",
+      "name": "阿巴亥",
+      "display": "阿巴亥",
       "lane": "consort",
       "birthAccuracy": "approx",
       "deathAccuracy": "exact",
@@ -373,8 +403,8 @@
     },
     {
       "id": "xiao-duan",
-      "name": "孝端文皇后",
-      "display": "孝端文皇后",
+      "name": "哲哲",
+      "display": "哲哲",
       "lane": "consort",
       "birthAccuracy": "approx",
       "deathAccuracy": "exact",
@@ -396,9 +426,47 @@
       "gender": "female"
     },
     {
+      "id": "xiao-xian-qing",
+      "name": "董鄂妃",
+      "display": "董鄂妃",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1660,
+      "deathNote": "清史稿·卷214·后妃传·孝献皇后：顺治十七年八月薨；卷5·世祖本纪系于顺治十七年八月壬寅，皇贵妃董鄂氏薨，辍朝五日，甲辰追封为皇后。",
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-cheng-ren",
+      "name": "赫舍里皇后",
+      "display": "赫舍里皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1653,
+      "death": 1674,
+      "birthNote": "康熙十三年崩，传载年二十二（虚岁），自卒年1674上推。",
+      "deathNote": "清史稿·卷214·后妃传·孝诚仁皇后：康熙十三年五月丙寅生皇二子允礽，即于是日崩，年二十二。",
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
       "id": "xiao-zhuang",
-      "name": "孝庄文皇后",
-      "display": "孝庄文皇后",
+      "name": "布木布泰",
+      "display": "布木布泰",
       "lane": "consort",
       "birthAccuracy": "approx",
       "deathAccuracy": "exact",
@@ -421,9 +489,45 @@
       "gender": "female"
     },
     {
+      "id": "tong-guo-gang",
+      "name": "佟国纲",
+      "display": "佟国纲",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1690,
+      "deathNote": "清史稿·卷281·列传六十八·佟国纲：康熙二十九年大将军裕亲王福全率师讨噶尔丹，八月己未朔师次乌喇布通，国纲奋勇督兵进击中鸟枪没于阵；卷260·韩大任传、卷219·福全传同作二十九年乌喇布通之役。旧试笔记作康熙二十六年，误。",
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tong-guo-wei",
+      "name": "佟国维",
+      "display": "佟国维",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1719,
+      "deathNote": "清史稿·卷287·列传七十四·佟国维：康熙五十八年卒，赐祭葬（本传自四十三年以老解任、四十七年、四十八年诸事下接，又云雍正元年赠太傅，系康熙纪年）；孝康章皇后幼弟、孝懿仁皇后父。",
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "xiao-gong",
-      "name": "孝恭仁皇后",
-      "display": "孝恭仁皇后",
+      "name": "德妃乌雅氏",
+      "display": "德妃乌雅氏",
       "lane": "consort",
       "birthAccuracy": "approx",
       "deathAccuracy": "exact",
@@ -445,9 +549,89 @@
       "gender": "female"
     },
     {
+      "id": "dun-su",
+      "name": "年贵妃",
+      "display": "年贵妃",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1725,
+      "deathNote": "清史稿·卷92·礼志十一·凶礼一：雍正三年敦肃皇贵妃年氏薨，辍朝五日；卷214·后妃传·敦肃皇贵妃作雍正三年十一月病笃进皇贵妃，薨逾月而兄羹尧得罪死，本传未系薨日。",
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "long-ke-duo",
+      "name": "隆科多",
+      "display": "隆科多",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1728,
+      "deathNote": "清史稿·卷295·列传八十二·隆科多：雍正五年免正法、于畅春园外筑屋永远禁锢，六年六月死于禁所，赐金治丧；卷9·世宗本纪五年十月王大臣会审隆科多狱上，得旨禁锢。",
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-xian",
+      "name": "富察皇后",
+      "display": "富察皇后",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1712,
+      "death": 1748,
+      "birthNote": "乾隆十三年崩，年三十七，上推生年。",
+      "title": "高宗皇后",
+      "bio": "富察氏。乾隆二年册为皇后。十三年从驾东巡，三月还至德州，崩于舟次。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "xiao-yi-chun",
+      "name": "令妃",
+      "display": "令妃",
+      "lane": "consort",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1727,
+      "death": 1775,
+      "birthNote": "乾隆四十年薨，传载年四十九（虚岁），自卒年1775上推。",
+      "deathNote": "清史稿·卷214·后妃传·孝仪纯皇后：乾隆四十年正月丁丑薨，年四十九；初谥令懿皇贵妃，仁宗立为皇太子后册赠孝仪皇后。",
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female"
+    },
+    {
       "id": "xiao-sheng",
-      "name": "孝圣宪皇后",
-      "display": "孝圣宪皇后",
+      "name": "熹妃钮祜禄氏",
+      "display": "熹妃钮祜禄氏",
       "lane": "consort",
       "birthAccuracy": "approx",
       "deathAccuracy": "exact",
@@ -469,17 +653,17 @@
       "gender": "female"
     },
     {
-      "id": "xiao-xian",
-      "name": "孝贤纯皇后",
-      "display": "孝贤纯皇后",
+      "id": "xiao-quan",
+      "name": "全妃钮祜禄氏",
+      "display": "全妃钮祜禄氏",
       "lane": "consort",
       "birthAccuracy": "approx",
       "deathAccuracy": "exact",
-      "birth": 1712,
-      "death": 1748,
-      "birthNote": "乾隆十三年崩，年三十七，上推生年。",
-      "title": "高宗皇后",
-      "bio": "富察氏。乾隆二年册为皇后。十三年从驾东巡，三月还至德州，崩于舟次。",
+      "birth": 1808,
+      "death": 1840,
+      "birthNote": "道光二十年崩，年三十三，上推生年。",
+      "title": "文宗生母",
+      "bio": "钮祜禄氏。道光十一年生文宗，十四年立为皇后。二十年正月崩。",
       "tags": [
         "清"
       ],
@@ -518,17 +702,16 @@
       "gender": "female"
     },
     {
-      "id": "xiao-quan",
-      "name": "孝全成皇后",
-      "display": "孝全成皇后",
+      "id": "xiao-zhe",
+      "name": "阿鲁特皇后",
+      "display": "阿鲁特皇后",
       "lane": "consort",
-      "birthAccuracy": "approx",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1808,
-      "death": 1840,
-      "birthNote": "道光二十年崩，年三十三，上推生年。",
-      "title": "文宗生母",
-      "bio": "钮祜禄氏。道光十一年生文宗，十四年立为皇后。二十年正月崩。",
+      "death": 1875,
+      "deathNote": "光绪元年二月戊子崩。传文不载生年。",
+      "title": "同治皇后",
+      "bio": "阿鲁特氏，崇绮女。同治十一年立为皇后。穆宗崩后封嘉顺皇后，光绪元年二月崩。",
       "tags": [
         "清"
       ],
@@ -567,29 +750,6 @@
       "gender": "female"
     },
     {
-      "id": "xiao-zhe",
-      "name": "孝哲毅皇后",
-      "display": "孝哲毅皇后",
-      "lane": "consort",
-      "birthAccuracy": "unknown",
-      "deathAccuracy": "exact",
-      "death": 1875,
-      "deathNote": "光绪元年二月戊子崩。传文不载生年。",
-      "title": "同治皇后",
-      "bio": "阿鲁特氏，崇绮女。同治十一年立为皇后。穆宗崩后封嘉顺皇后，光绪元年二月崩。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "consort"
-      ],
-      "primary": "consort",
-      "polity": [
-        "qing"
-      ],
-      "gender": "female"
-    },
-    {
       "id": "long-yu",
       "name": "隆裕",
       "display": "隆裕太后",
@@ -616,6 +776,156 @@
       "gender": "female"
     },
     {
+      "id": "shu-erhaqi",
+      "name": "舒尔哈齐",
+      "display": "舒尔哈齐",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1611,
+      "deathNote": "清史稿·卷215·诸王一·显祖诸子·舒尔哈齐：自是上不遣舒尔哈齐将兵，居恒郁郁，岁辛亥八月薨，顺治十年追封谥；卷1·本纪一·太祖本纪辛亥条亦书「八月，弟舒尔哈齐卒」。辛亥为明万历三十九年，公元 1611。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-ying",
+      "name": "褚英",
+      "display": "褚英",
+      "lane": "kin",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1580,
+      "death": 1615,
+      "birthNote": "传无生年，惟书「死于禁所，年三十六」；自乙卯（万历四十三年，1615）上推虚岁三十六，约生于 1580。",
+      "deathNote": "清史稿·卷216·诸王二·太祖诸子一·褚英：癸丑坐咀咒幽禁，越二年乙卯闰八月死于禁所，年三十六；卷162·表二·皇子世表二·太祖系作「乙卯年，以罪赐死」。乙卯为明万历四十三年，公元 1615。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yun-reng",
+      "name": "允礽",
+      "display": "允礽",
+      "lane": "kin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1674,
+      "death": 1724,
+      "birthNote": "允礽传不载生年；清史稿·卷6·本纪六·圣祖本纪一康熙十三年条书「五月丙寅，皇子胤礽生，皇后赫舍里氏崩」，卷214·后妃传·孝诚仁皇后作十三年五月丙寅生皇二子允礽、即于是日崩。",
+      "deathNote": "清史稿·卷220·圣祖诸子·允礽：雍正二年十二月允礽病薨，追封谥；卷9·本纪九·世宗本纪二年十二月癸未书「废太子胤礽薨，封理亲王，谥曰密」。卒在农历十二月，折公历已入 1725 年 1 月，此处仍依纪年系于 1724。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yun-si",
+      "name": "允禩",
+      "display": "允禩",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1726,
+      "deathNote": "清史稿·卷220·圣祖诸子·允禩：雍正四年削王爵交宗人府圈禁高墙、改名阿其那，九月患呕噦，命给与调养，未几卒于幽所；卷9·本纪九·世宗本纪四年九月己亥书「锡保奏阿其那卒于禁所」。乾隆四十三年正月复原名、收入玉牒。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yun-tang",
+      "name": "允禟",
+      "display": "允禟",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1726,
+      "deathNote": "清史稿·卷220·圣祖诸子·允禟：雍正四年削宗籍、改名塞思黑，胡什礼监至保定命李绂暂禁，八月绂奏允禟以腹疾卒于幽所；卷9·本纪九·世宗本纪四年八月丁亥书「李绂奏塞思黑卒于保定」。乾隆四十三年正月复原名、还宗籍。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yun-xiang",
+      "name": "允祥",
+      "display": "允祥",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1730,
+      "deathNote": "清史稿·卷220·圣祖诸子·怡贤亲王允祥：雍正八年五月疾笃，上亲临视，及至王已薨，谥曰贤；卷9·本纪九·世宗本纪八年五月辛未书「怡亲王胤祥薨」，卷164·皇子世表四·圣祖系作雍正八年薨。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yun-ti",
+      "name": "允禵",
+      "display": "允禵",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1755,
+      "deathNote": "清史稿·卷220·圣祖诸子·恂勤郡王允禵：五十七年命为抚远大将军，雍正四年与子并锢于寿皇殿左右，高宗即位命释之，乾隆二年封辅国公、十三年正月进封恂郡王，二十年六月薨，予谥；卷164·皇子世表四·圣祖系作胤祯「十三年复封恂郡王，二十年薨，谥曰勤」。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yi-huan",
+      "name": "奕譞",
+      "display": "奕譞",
+      "lane": "kin",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1840,
+      "death": 1890,
+      "birthNote": "传无生年，惟书薨「年五十一」；自光绪十六年（1890）上推虚岁五十一，约生于 1840（道光二十年）。",
+      "deathNote": "清史稿·卷221·诸王七·宣宗诸子·醇贤亲王奕譞：光绪十六年十一月王疾作，丁亥薨，年五十一，谥曰贤；卷23·德宗本纪一光绪十六年十一月丁亥书「醇亲王薨」。是日折公历为 1891 年 1 月 1 日，此处仍依纪年系于 1890。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "duo-er-gun",
       "name": "多尔衮",
       "display": "多尔衮",
@@ -635,6 +945,24 @@
         "official"
       ],
       "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hong-chengchou",
+      "name": "洪承畴",
+      "display": "洪承畴",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1665,
+      "deathNote": "清史稿·卷237·洪承畴传（贰臣传）：圣祖即位后乞致仕，\"康熙四年二月，卒，谥文襄\"。松山被俘降清，招抚江南、经略湖广云南，武英殿大学士。明降臣，叙事脉络在清初宰辅。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
       "polity": [
         "qing"
       ],
@@ -666,46 +994,17 @@
       "gender": "male"
     },
     {
-      "id": "zhang-tingyu",
-      "name": "张廷玉",
-      "display": "张廷玉",
+      "id": "su-ke-sa-ha",
+      "name": "苏克萨哈",
+      "display": "苏克萨哈",
       "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1672,
-      "death": 1755,
-      "title": "三朝元辅",
-      "bio": "康熙进士，历事康雍乾三朝，掌机要、修典制，配享太庙，汉臣所稀。",
-      "tags": [
-        "清"
-      ],
+      "death": 1667,
+      "deathNote": "清史稿·卷249·苏克萨哈传：康熙六年上亲政，苏克萨哈奏乞守先帝陵寝，鳌拜诬以怨望、构罪状二十四款，\"卒坐苏克萨哈处绞\"；康熙八年鳌拜败，诏复官及世爵。",
       "categories": [
         "chancellor",
-        "official"
-      ],
-      "primary": "official",
-      "polity": [
-        "qing"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "he-shen",
-      "name": "和珅",
-      "display": "和珅",
-      "lane": "chancellor",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
-      "birth": 1750,
-      "death": 1799,
-      "title": "巨贪权相",
-      "bio": "乾隆晚年宠臣，揽权纳贿，富可敌国；嘉庆即位即赐死抄家，家产巨万。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "regent",
-        "official"
+        "regent"
       ],
       "primary": "regent",
       "polity": [
@@ -714,101 +1013,133 @@
       "gender": "male"
     },
     {
-      "id": "lin-zexu",
-      "name": "林则徐",
-      "display": "林则徐",
+      "id": "suo-ni",
+      "name": "索尼",
+      "display": "索尼",
       "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1785,
-      "death": 1850,
-      "title": "禁烟大臣",
-      "bio": "湖广总督，1839 年虎门销烟，主持禁烟；后遣戍伊犁，近代开眼看世界之先。",
-      "tags": [
-        "清"
-      ],
+      "death": 1667,
+      "deathNote": "清史稿·卷249·索尼传：康熙六年六月卒，谥文忠（世祖崩后与苏克萨哈、遏必隆、鳌拜同受遗诏辅政，传文系年即康熙六年）。",
       "categories": [
-        "minister",
-        "official"
+        "chancellor",
+        "regent"
       ],
-      "primary": "official",
+      "primary": "regent",
       "polity": [
         "qing"
       ],
       "gender": "male"
     },
     {
-      "id": "yi-xin",
-      "name": "奕䜣",
-      "display": "奕䜣",
+      "id": "e-bi-long",
+      "name": "遏必隆",
+      "display": "遏必隆",
       "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1833,
-      "death": 1898,
-      "title": "总理衙门",
-      "bio": "道光第六子，咸丰之弟；主持总理衙门，倡洋务，为同光新政中枢。",
-      "tags": [
-        "清"
-      ],
+      "death": 1673,
+      "deathNote": "清史稿·卷249·遏必隆传：\"九年……仍以公爵宿卫内廷。十二年，疾笃，车驾亲临慰问。及卒，赐祭葬，谥恪僖\"，年号承上文回溯至康熙（康熙十二年）。额亦都第十六子，孝昭皇后之父。",
       "categories": [
-        "royal-kin",
-        "minister",
-        "official",
-        "diplomat"
+        "chancellor",
+        "regent"
       ],
-      "primary": "official",
+      "primary": "regent",
       "polity": [
         "qing"
       ],
       "gender": "male"
     },
     {
-      "id": "zeng-guofan",
-      "name": "曾国藩",
-      "display": "曾国藩",
+      "id": "suo-e-tu",
+      "name": "索额图",
+      "display": "索额图",
       "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1811,
-      "death": 1872,
-      "title": "湘军创立",
-      "bio": "理学名臣，练湘军剿太平天国，兴洋务、办学堂，被誉为中兴第一名臣。",
-      "tags": [
-        "清",
-        "儒臣"
-      ],
+      "death": 1703,
+      "deathNote": "清史稿·卷269·索额图传：康熙四十二年五月，上命执索额图交宗人府拘禁，\"寻索额图死于幽所\"（死于禁所）。索尼第三子，保和殿大学士，曾充尼布楚议界大臣。",
       "categories": [
-        "minister",
-        "official",
-        "general",
+        "chancellor",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ming-zhu",
+      "name": "明珠",
+      "display": "明珠",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1708,
+      "deathNote": "清史稿·卷269·明珠传：\"自罢政后……为内大臣者二十年，竟不复柄用。四十七年，卒\"，年号承上文回溯至康熙（康熙四十七年）。武英殿大学士，主撤三藩。",
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-yushu",
+      "name": "张玉书",
+      "display": "张玉书",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1642,
+      "death": 1711,
+      "birthNote": "传载享年七十（虚岁），自卒年1711上推。",
+      "deathNote": "清史稿·卷267·张玉书传：康熙五十年从幸热河，甫至疾作遂卒；卷174·大学士年表：康熙五十年辛卯条 张玉书（五月丙午卒），谥文贞。文华殿大学士兼户部尚书。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-guangdi",
+      "name": "李光地",
+      "display": "李光地",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1642,
+      "death": 1718,
+      "birthNote": "传载享年七十七（虚岁），自卒年1718上推。",
+      "deathNote": "清史稿·卷262·李光地传：康熙五十七年卒，年七十七，谥文贞；卷174·大学士年表：康熙五十七年戊戌条 李光地（六月己丑卒）。康熙四十四年拜文渊阁大学士，理学名臣。",
+      "categories": [
+        "chancellor",
         "neo-confucian"
       ],
-      "primary": "minister",
+      "primary": "chancellor",
       "polity": [
         "qing"
       ],
       "gender": "male"
     },
     {
-      "id": "li-hongzhang",
-      "name": "李鸿章",
-      "display": "李鸿章",
+      "id": "tian-wenjing",
+      "name": "田文镜",
+      "display": "田文镜",
       "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1823,
-      "death": 1901,
-      "title": "洋务领袖",
-      "bio": "曾国藩门生，编淮军、办洋务、建北洋水师，周旋列强，签诸条约负重谤。",
-      "tags": [
-        "清"
-      ],
+      "death": 1732,
+      "deathNote": "清史稿·卷294·田文镜传：\"十年，复以病乞休，允之。旋卒，赐祭葬，谥端肃\"，年号承上文（九年谕山东、河南水灾事）回溯至雍正（雍正十年）。河南总督、河东总督，雍正朝实心任事督抚。",
       "categories": [
-        "minister",
-        "official",
-        "diplomat",
-        "general"
+        "minister"
       ],
       "primary": "minister",
       "polity": [
@@ -817,49 +1148,38 @@
       "gender": "male"
     },
     {
-      "id": "zuo-zongtang",
-      "name": "左宗棠",
-      "display": "左宗棠",
+      "id": "li-wei",
+      "name": "李卫",
+      "display": "李卫",
       "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1812,
-      "death": 1885,
-      "title": "收复新疆",
-      "bio": "湘军宿将，平捻、剿回，力主塞防，率军收复新疆，建行省固西陲。",
-      "tags": [
-        "清"
-      ],
+      "death": 1738,
+      "deathNote": "清史稿·卷294·李卫传：系事至\"乾隆三年，疏劾总河朱藻\"，继言\"病作，乞解任，遣御医诊视。卒，赐祭葬，谥敏达\"，卒年自传文回溯系乾隆三年；卷10·高宗本纪：乾隆三年冬十月\"直隶总督李卫以病免\"互证。浙江、直隶总督，雍正朝名督抚。",
       "categories": [
-        "minister",
-        "official",
-        "general"
+        "minister"
       ],
-      "primary": "general",
+      "primary": "minister",
       "polity": [
         "qing"
       ],
       "gender": "male"
     },
     {
-      "id": "zhang-zhidong",
-      "name": "张之洞",
-      "display": "张之洞",
+      "id": "ma-qi",
+      "name": "马齐",
+      "display": "马齐",
       "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
-      "birth": 1837,
-      "death": 1909,
-      "title": "中体西用",
-      "bio": "洋务后期重臣，办汉阳铁厂、新式学堂，倡“中学为体、西学为用”。",
-      "tags": [
-        "清"
-      ],
+      "birth": 1652,
+      "death": 1739,
+      "birthNote": "传载年八十八（虚岁），自卒年1739上推。",
+      "deathNote": "清史稿·卷287·马齐传：乾隆四年病笃，高宗谕\"马齐历相三朝\"，寻卒，年八十八，赠太傅，谥文穆；卷10·高宗本纪：乾隆四年五月辛未 致仕大学士马齐卒。武英殿大学士。",
       "categories": [
-        "minister",
-        "official"
+        "chancellor"
       ],
-      "primary": "minister",
+      "primary": "chancellor",
       "polity": [
         "qing"
       ],
@@ -884,6 +1204,30 @@
         "official"
       ],
       "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-tingyu",
+      "name": "张廷玉",
+      "display": "张廷玉",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1672,
+      "death": 1755,
+      "title": "三朝元辅",
+      "bio": "康熙进士，历事康雍乾三朝，掌机要、修典制，配享太庙，汉臣所稀。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "official",
       "polity": [
         "qing"
       ],
@@ -938,6 +1282,617 @@
       "gender": "male"
     },
     {
+      "id": "yu-minzhong",
+      "name": "于敏中",
+      "display": "于敏中",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1780,
+      "deathNote": "清史稿·卷174·大学士年表：乾隆四十四年己亥条 于敏中（十二月戊午卒）；卷319·于敏中传：\"四十四年，病喘……卒\"，年号回溯至乾隆。农历十二月卒，公历已入1780年。文华殿大学士、军机大臣。身后因甘肃捐监案追咎，撤出贤良祠。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "a-gui",
+      "name": "阿桂",
+      "display": "阿桂",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1717,
+      "death": 1797,
+      "title": "定伊犁征缅甸之相",
+      "bio": "章佳氏，初隶满洲正蓝旗，以平回部驻伊犁治事有劳改隶正白旗，大学士阿克敦之子。乾隆朝屡统大军，定金川、定伊犁、征缅甸，官至武英殿大学士、军机大臣。嘉庆二年卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "he-shen",
+      "name": "和珅",
+      "display": "和珅",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1750,
+      "death": 1799,
+      "title": "巨贪权相",
+      "bio": "乾隆晚年宠臣，揽权纳贿，富可敌国；嘉庆即位即赐死抄家，家产巨万。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cao-zhenyong",
+      "name": "曹振镛",
+      "display": "曹振镛",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1755,
+      "death": 1835,
+      "birthNote": "传载年八十有一（虚岁），自卒年1835上推。",
+      "deathNote": "清史稿·卷363·曹振镛传：道光十五年卒，年八十有一，谥文正；卷177·军机大臣年表：道光十五年乙未条 曹振镛（正月癸亥卒）。体仁阁/武英殿大学士、军机大臣。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lin-zexu",
+      "name": "林则徐",
+      "display": "林则徐",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1785,
+      "death": 1850,
+      "title": "禁烟大臣",
+      "bio": "湖广总督，1839 年虎门销烟，主持禁烟；后遣戍伊犁，近代开眼看世界之先。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "mu-zhang-a",
+      "name": "穆彰阿",
+      "display": "穆彰阿",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1782,
+      "death": 1856,
+      "title": "道光朝主抚之相",
+      "bio": "郭佳氏，满洲镶蓝旗人，嘉庆十年进士。道光朝久任军机大臣，门生故吏遍于朝列；鸦片战争力主抚议，与林则徐之禁烟相抗。文宗即位后黜之，1856 年卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "falling"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hu-lin-yi",
+      "name": "胡林翼",
+      "display": "胡林翼",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1812,
+      "death": 1861,
+      "title": "抚鄂援湘，与曾并称",
+      "bio": "字贶生，号润芝，湖南益阳人，道光十六年进士。官湖北巡抚，整饬吏治、裕湘军饷源，与曾国藩并称曾胡。1861 年安庆既下，以劳卒于武昌。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "general"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zeng-guofan",
+      "name": "曾国藩",
+      "display": "曾国藩",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1811,
+      "death": 1872,
+      "title": "湘军创立",
+      "bio": "理学名臣，练湘军剿太平天国，兴洋务、办学堂，被誉为中兴第一名臣。",
+      "tags": [
+        "清",
+        "儒臣"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "general",
+        "neo-confucian"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wen-xiang",
+      "name": "文祥",
+      "display": "文祥",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1876,
+      "deathNote": "清史稿·卷386·文祥传：光绪二年上自强密疏，\"疏上，未几卒\"，年号承上文系光绪二年；卷177·军机大臣年表：光绪二年丙子条 文祥（五月甲午卒），谥文忠。体仁阁大学士、军机大臣，总理衙门创设者之一。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-baozhen",
+      "name": "沈葆桢",
+      "display": "沈葆桢",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1879,
+      "deathNote": "清史稿·卷413·沈葆桢传：光绪五年入觐后\"是年十一月，卒于位，赠太子太保……谥文肃\"（卒于两江总督任上）。江西巡抚、办理台湾等处海防、两江总督，未入阁拜大学士。",
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-guifen",
+      "name": "沈桂芬",
+      "display": "沈桂芬",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1817,
+      "death": 1880,
+      "birthNote": "传载年六十有四（虚岁），自卒年（光绪六年，公历跨年为1881年1月）上推。",
+      "deathNote": "清史稿·卷436·沈桂芬传：久卧病，光绪六年卒，谥文定；卷177·军机大臣年表：光绪六年庚辰条 沈桂芬（十二月癸亥卒）。兵部尚书、军机大臣。农历十二月卒，公历已入1881年1月。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zuo-zongtang",
+      "name": "左宗棠",
+      "display": "左宗棠",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1812,
+      "death": 1885,
+      "title": "收复新疆",
+      "bio": "湘军宿将，平捻、剿回，力主塞防，率军收复新疆，建行省固西陲。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-hongzao",
+      "name": "李鸿藻",
+      "display": "李鸿藻",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1820,
+      "death": 1897,
+      "birthNote": "传载年七十有八（虚岁），自卒年1897上推。",
+      "deathNote": "清史稿·卷436·李鸿藻传：光绪二十三年以病乞假，疾笃，\"卒，年七十有八……予谥文正\"；卷177·军机大臣年表：光绪二十三年丁酉条 李鸿藻（三月病假，七月卒）。军机大臣、吏部尚书协办大学士，清流派中枢。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yi-xin",
+      "name": "奕䜣",
+      "display": "奕䜣",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1833,
+      "death": 1898,
+      "title": "总理衙门",
+      "bio": "道光第六子，咸丰之弟；主持总理衙门，倡洋务，为同光新政中枢。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "royal-kin",
+        "minister",
+        "official",
+        "diplomat"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-hongzhang",
+      "name": "李鸿章",
+      "display": "李鸿章",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1823,
+      "death": 1901,
+      "title": "洋务领袖",
+      "bio": "曾国藩门生，编淮军、办洋务、建北洋水师，周旋列强，签诸条约负重谤。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "diplomat",
+        "general"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "rong-lu",
+      "name": "荣禄",
+      "display": "荣禄",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1903,
+      "deathNote": "清史稿·卷437·荣禄传：光绪二十九年卒，赠太傅，谥文忠，晋一等男爵；卷177·军机大臣年表：光绪二十九年癸卯条 荣禄（三月戊辰卒）。文华殿大学士、军机大臣，节制北洋各军。",
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "weng-tonghe",
+      "name": "翁同龢",
+      "display": "翁同龢",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1830,
+      "death": 1904,
+      "birthNote": "传载年七十有五（虚岁），自卒年1904上推。",
+      "deathNote": "清史稿·卷436·翁同龢传：二十四年开缺回籍、革职永不叙用，\"三十年，卒于家，年七十有五\"（光绪三十年），宣统元年复原官，追谥文恭。军机大臣、协办大学士，两朝帝师。",
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-zhidong",
+      "name": "张之洞",
+      "display": "张之洞",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1837,
+      "death": 1909,
+      "title": "中体西用",
+      "bio": "洋务后期重臣，办汉阳铁厂、新式学堂，倡“中学为体、西学为用”。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fei-ying-dong",
+      "name": "费英东",
+      "display": "费英东",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1564,
+      "death": 1620,
+      "birthNote": "传载天命五年卒、年五十有七（虚岁），自卒年 1620 上推。",
+      "deathNote": "清史稿·卷225·费英东传：五年春三月（上文系天命建元，即天命五年），太祖定武功爵授三等总兵官，是月费英东卒，年五十有七，太祖临丧哭之恸。追封直义公（卷3·太宗本纪：崇德元年四月追封功臣费英东为直义公）。",
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "e-yi-du",
+      "name": "额亦都",
+      "display": "额亦都",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1562,
+      "death": 1621,
+      "birthNote": "清史稿·卷225·额亦都传：岁壬戌，额亦都生（壬戌即 1562 年；传又载庚辰年太祖年二十二、额亦都年十九，相合）。",
+      "deathNote": "清史稿·卷225·额亦都传：六年，克辽阳，六月卒，年六十（年号承上文天命纪年，即天命六年）。天聪元年追封弘毅公。",
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-gu-li",
+      "name": "扬古利",
+      "display": "扬古利",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1572,
+      "death": 1637,
+      "birthNote": "传载崇德二年正月卒、时年六十六（虚岁），自卒年 1637 上推。",
+      "deathNote": "清史稿·卷226·扬古利传：崇德元年十二月太宗亲伐朝鲜，二年正月（纪年承上文），朝鲜败卒伏崖侧窃发鸟枪，中扬古利，创重遂卒。卷3·太宗本纪：崇德二年正月丁未，扬古利被创卒。是年追封武勋王。",
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hao-ge",
+      "name": "豪格",
+      "display": "豪格",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1648,
+      "deathNote": "清史稿·卷219·肃武亲王豪格传：顺治五年二月师还，睿亲王多尔袞与豪格有夙隙，系豪格于狱，三月薨（幽死）。卷4·世祖本纪：五年三月辛丑，和硕肃亲王豪格有罪论死，上不忍置法，幽系之。八年顺治亲政后雪其枉，追谥武肃。太宗第一子，靖远大将军，平四川、射杀张献忠。",
+      "categories": [
+        "general",
+        "royal-kin",
+        "founding"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "duo-duo",
+      "name": "多铎",
+      "display": "多铎",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1614,
+      "death": 1649,
+      "birthNote": "顺治六年薨，年三十六，上推生年。",
+      "title": "豫亲王，定江南",
+      "bio": "太祖第十五子，多尔衮同母弟。入关后下江南，定南京。顺治六年三月以痘薨。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general",
+        "royal-kin"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "geng-zhong-ming",
+      "name": "耿仲明",
+      "display": "耿仲明",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1649,
+      "deathNote": "清史稿·卷234·耿仲明传：顺治六年改封靖南王，与尚可喜分道征广东；师既行，刑部论其部下梅勒章京陈绍宗等隐匿逃人，吏议夺爵，上命宽之，仲明未闻命，十一月次吉安，自经死（惧罪自裁）。卷4·世祖本纪：顺治六年十一月壬午，耿仲明军次吉安，畏罪自杀。明降将，天聪七年率众来归。祖孙关系：孙耿精忠（已在册）。",
+      "categories": [
+        "general",
+        "vassal",
+        "founding"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "a-ji-ge",
+      "name": "阿济格",
+      "display": "阿济格",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1651,
+      "deathNote": "清史稿·卷217·阿济格传：顺治八年多尔袞薨后被讦欲为乱，议削爵幽禁，逾月系别室、籍其家；十月监守者告阿济格将于系所举火，赐死。卷5·世祖本纪：八年十月庚申，赐阿济格死。太祖第十二子，靖远大将军，追剿李自成。",
+      "categories": [
+        "general",
+        "royal-kin",
+        "founding"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kong-you-de",
+      "name": "孔有德",
+      "display": "孔有德",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1652,
+      "deathNote": "清史稿·卷234·孔有德传：顺治九年七月，李定国昼夜环攻桂林，有德躬守陴，矢中额仍指挥击敌，城陷，令其孥以火殉，遂自经，妻白氏、李氏皆死于火（死之，谥武壮）。卷5·世祖本纪：九年秋七月癸酉，故明将孙可望陷桂林，定南王孔有德死之。明降将，天聪七年率众来归。",
+      "categories": [
+        "general",
+        "vassal",
+        "founding"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-er-ha-lang",
+      "name": "济尔哈朗",
+      "display": "济尔哈朗",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1599,
+      "death": 1655,
+      "birthNote": "传载顺治十二年薨、年五十七（虚岁），自卒年 1655 上推。",
+      "deathNote": "清史稿·卷215·郑献亲王济尔哈朗传：顺治十二年五月疾革，翌日薨，年五十七。卷5·世祖本纪：十二年五月辛卯，和硕郑亲王济尔哈朗薨。庄亲王舒尔哈齐第六子，太祖抚育，封和硕郑亲王，为定远大将军下湖广。",
+      "categories": [
+        "general",
+        "royal-kin",
+        "founding"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tu-hai",
+      "name": "图海",
+      "display": "图海",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1681,
+      "deathNote": "清史稿·卷251·图海传：康熙二十年（上文历十四至十八年纪年，此「二十年」即康熙二十年）以疾征还，卒，谥文襄。卷6·圣祖本纪：二十年十二月戊戌，大学士图海卒（本月已入公元 1682 年 1 月，本条按康熙纪年系 1681）。定西将军、抚远大将军，平布尔尼、降王辅臣、督师汉中。",
+      "categories": [
+        "general",
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "shi-lang",
       "name": "施琅",
       "display": "施琅",
@@ -957,6 +1912,26 @@
       "primary": "general",
       "polity": [
         "ming",
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-liang-dong",
+      "name": "赵良栋",
+      "display": "赵良栋",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1621,
+      "death": 1697,
+      "birthNote": "传载康熙三十六年卒、年七十有七（虚岁），自卒年 1697 上推。",
+      "deathNote": "清史稿·卷255·赵良栋传：康熙三十六年良栋病，寻卒，年七十有七，赐祭葬，谥襄忠。卷7·圣祖本纪：三十六年三月丁巳，赵良栋卒。勇略将军、云贵总督，独当一路复四川、进云南。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
         "qing"
       ],
       "gender": "male"
@@ -986,6 +1961,136 @@
       "gender": "male"
     },
     {
+      "id": "yue-zhong-qi",
+      "name": "岳钟琪",
+      "display": "岳钟琪",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1754,
+      "deathNote": "清史稿·卷296·岳钟琪传：乾隆十九年重庆民陈琨为乱，钟琪力疾亲往捕治，还，卒于资州，赐祭葬，谥襄勤。卷11·高宗本纪：十九年三月，四川提督岳钟琪卒。宁远大将军、川陕总督，平青海、定西藏、入金川勒乌围受降。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-hui",
+      "name": "兆惠",
+      "display": "兆惠",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1764,
+      "deathNote": "清史稿·卷313·兆惠传：乾隆二十九年（1764）十一月卒，上临其丧，赠太保，谥文襄。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ming-rui",
+      "name": "明瑞",
+      "display": "明瑞",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1768,
+      "deathNote": "清史稿·卷327·明瑞传：乾隆三十三年二月，征缅甸师至小猛育，被围粮尽火药竭，明瑞令诸将分队围而出，自为殿，血战万寇中，负创行二十余里，手截辫发授其仆归报，缢于树下（死事，谥果烈，京师建旌勇祠祀之）。卷13·高宗本纪：三十三年二月丙戌，明瑞等败绩于猛育，死之。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hai-lan-cha",
+      "name": "海兰察",
+      "display": "海兰察",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1793,
+      "deathNote": "清史稿·卷331·海兰察传：乾隆五十八年（1793）三月以病卒，谥武壮。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-kang-an",
+      "name": "福康安",
+      "display": "福康安",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1796,
+      "deathNote": "清史稿·卷330·福康安传：嘉庆元年（1796）督兵讨苗疆，染瘴病作，五月卒于军，加郡王衔，谥文襄；卷16·仁宗本纪系于嘉庆元年五月壬申。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-yu-chun",
+      "name": "杨遇春",
+      "display": "杨遇春",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1760,
+      "death": 1837,
+      "birthNote": "清史稿·卷347·杨遇春传：仁宗手诏「朕与卿同岁」；卷16·仁宗本纪仁宗乾隆二十五年（1760）生，据同岁推其约生于1760年。",
+      "deathNote": "清史稿·卷347·杨遇春传：道光十七年（1837）卒于家，赠太子太傅、兵部尚书，谥忠武。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chang-ling",
+      "name": "长龄",
+      "display": "长龄",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1758,
+      "death": 1838,
+      "birthNote": "清史稿·卷367·长龄传：道光十七年（1837）「以八十寿」晋一等公，据虚岁八十上推约生于1758年。",
+      "deathNote": "清史稿·卷367·长龄传：道光十七年（1837）以病乞休、以八十寿晋一等公爵，「次年，卒」，即道光十八年（1838），谥文襄。卒年系由传文「道光十七年」下文「次年」回溯得出，待复核。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "guan-tianpei",
       "name": "关天培",
       "display": "关天培",
@@ -999,6 +2104,108 @@
       "tags": [
         "清"
       ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-huacheng",
+      "name": "陈化成",
+      "display": "陈化成",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1842,
+      "deathNote": "道光二十二年五月，吴淞西炮台中弹死。",
+      "title": "吴淞殉国",
+      "bio": "同安人，江南提督。道光二十二年五月英舰犯吴淞，守西炮台，中弹死。宣宗震悼，谥忠愍。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-xu-bin",
+      "name": "李续宾",
+      "display": "李续宾",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1858,
+      "deathNote": "清史稿·卷408·李续宾传：咸丰八年（1858）三河之役，具衣冠望阙叩首后跃马驰入贼阵战死，赠总督，谥忠武。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "seng-ge-lin-qin",
+      "name": "僧格林沁",
+      "display": "僧格林沁",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1811,
+      "death": 1865,
+      "title": "科尔沁亲王，剿捻战殁",
+      "bio": "博尔济吉特氏，科尔沁左翼后旗人，尚庄敬和硕公主之嗣子。咸丰朝统满蒙马队，破太平军北伐之师于天津、连镇；后又督剿捻军，1865 年于曹州高楼寨战殁，清廷所倚之长城自此无人。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "peng-yu-lin",
+      "name": "彭玉麟",
+      "display": "彭玉麟",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1816,
+      "death": 1890,
+      "birthNote": "清史稿·卷410·彭玉麟传：光绪十六年（1890）卒，年七十五；据享年虚岁上推约生于1816年。",
+      "deathNote": "清史稿·卷410·彭玉麟传：光绪十六年（1890）卒，年七十五，赠太子太保，谥刚直。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zeng-guoquan",
+      "name": "曾国荃",
+      "display": "曾国荃",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1890,
+      "deathNote": "清史稿·卷413·曾国荃传：光绪十六年（1890）卒于官（任两江总督任内），赠太傅，谥忠襄。",
       "categories": [
         "general"
       ],
@@ -1032,6 +2239,104 @@
       "gender": "male"
     },
     {
+      "id": "zuo-bao-gui",
+      "name": "左宝贵",
+      "display": "左宝贵",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1894,
+      "deathNote": "清史稿·卷460·左宝贵传：光绪二十年（1894）平壤之役，扼玄武门登城指麾中炮踣，及城下始殒，赠太子少保，谥忠壮。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ding-ru-chang",
+      "name": "丁汝昌",
+      "display": "丁汝昌",
+      "lane": "general",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1836,
+      "death": 1895,
+      "deathNote": "威海卫围急，拒降而服鸦片自尽，事在光绪二十一年正月。",
+      "title": "北洋水师提督，威海仰药",
+      "bio": "字禹廷，安徽庐江人。本淮军将领，改统北洋水师为提督。甲午黄海之役负伤督战；1895 年威海卫围急，诸将请降，拒之而服鸦片死。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-bu-chan",
+      "name": "刘步蟾",
+      "display": "刘步蟾",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1895,
+      "deathNote": "清史稿·卷460·刘步蟾传：光绪二十年（1894）中日战起，「明年，战威海，中弹死」，即光绪二十一年（1895）。卒年系由传文「二十年」下文「明年」回溯得出；本传记为战殁中弹，与旧说「刘公岛服毒」不同。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-ming-chuan",
+      "name": "刘铭传",
+      "display": "刘铭传",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1837,
+      "death": 1896,
+      "birthNote": "清史稿·卷416·刘铭传传：咸丰四年（1854）「铭传年十八」，据虚岁上推约生于1837年。",
+      "deathNote": "清史稿·卷416·刘铭传传：光绪二十一年朝鲜兵起，以病未出，寻卒；卷24·德宗本纪系于光绪二十二年（1896）二月刘铭传卒，赠太子太保，谥壮肃。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "nie-shi-cheng",
+      "name": "聂士成",
+      "display": "聂士成",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1900,
+      "deathNote": "清史稿·卷467·聂士成传：光绪二十六年（1900）天津八里台御联军，立桥上手刃退卒，遂殞于阵，肠胃洞流；后赠太子少保，谥忠节。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "feng-zicai",
       "name": "冯子材",
       "display": "冯子材",
@@ -1055,23 +2360,16 @@
       "gender": "male"
     },
     {
-      "id": "duo-duo",
-      "name": "多铎",
-      "display": "多铎",
+      "id": "dong-fu-xiang",
+      "name": "董福祥",
+      "display": "董福祥",
       "lane": "general",
-      "birthAccuracy": "approx",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1614,
-      "death": 1649,
-      "birthNote": "顺治六年薨，年三十六，上推生年。",
-      "title": "豫亲王，定江南",
-      "bio": "太祖第十五子，多尔衮同母弟。入关后下江南，定南京。顺治六年三月以痘薨。",
-      "tags": [
-        "清"
-      ],
+      "death": 1908,
+      "deathNote": "清史稿·卷455·董福祥传：庚子事后被褫职锢于家，光绪三十四年（1908）卒，其子天纯输银四十万济帑复官。无谥。",
       "categories": [
-        "general",
-        "royal-kin"
+        "general"
       ],
       "primary": "general",
       "polity": [
@@ -1080,23 +2378,19 @@
       "gender": "male"
     },
     {
-      "id": "chen-huacheng",
-      "name": "陈化成",
-      "display": "陈化成",
-      "lane": "general",
+      "id": "wu-yeuye",
+      "name": "吴伟业",
+      "display": "吴伟业",
+      "lane": "literati",
       "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "death": 1842,
-      "deathNote": "道光二十二年五月，吴淞西炮台中弹死。",
-      "title": "吴淞殉国",
-      "bio": "同安人，江南提督。道光二十二年五月英舰犯吴淞，守西炮台，中弹死。宣宗震悼，谥忠愍。",
-      "tags": [
-        "清"
-      ],
+      "death": 1671,
+      "deathNote": "清史稿·卷484·文苑传·吴伟业：顺治九年以两江总督马国柱荐至京，授秘书院侍讲，十三年迁祭酒，丁母忧归，「康熙十年，卒」。本传明书康熙十年，即 1671 年；不载享年，生年阙。",
       "categories": [
-        "general"
+        "poetry",
+        "literature"
       ],
-      "primary": "general",
+      "primary": "literature",
       "polity": [
         "qing"
       ],
@@ -1119,31 +2413,6 @@
       "categories": [
         "scholar",
         "classics"
-      ],
-      "primary": "scholar",
-      "polity": [
-        "ming",
-        "qing"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "huang-zongxi",
-      "name": "黄宗羲",
-      "display": "黄宗羲",
-      "lane": "literati",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
-      "birth": 1610,
-      "death": 1695,
-      "title": "明夷待访录",
-      "bio": "思想家，著《明夷待访录》批判君权，与顾、王并称清初三大儒。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "scholar",
-        "thinker"
       ],
       "primary": "scholar",
       "polity": [
@@ -1178,6 +2447,92 @@
       "gender": "male"
     },
     {
+      "id": "huang-zongxi",
+      "name": "黄宗羲",
+      "display": "黄宗羲",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1610,
+      "death": 1695,
+      "title": "明夷待访录",
+      "bio": "思想家，著《明夷待访录》批判君权，与顾、王并称清初三大儒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "scholar",
+        "thinker"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-ruoqu",
+      "name": "阎若璩",
+      "display": "阎若璩",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1636,
+      "death": 1704,
+      "birthNote": "清史稿·卷481·儒林传·阎若璩：康熙四十三年卒，年六十九。虚岁六十九自卒年 1704 上推，约当 1636 年。",
+      "deathNote": "清史稿·卷481·儒林传·阎若璩：「康熙四十三年，卒，年六十九。世宗遣使经纪其丧，亲制诗四章，复为文祭之。」年号明载，即 1704 年。",
+      "categories": [
+        "classics",
+        "scholar"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-shizhen-qing",
+      "name": "王士禛",
+      "display": "王士禛",
+      "lane": "literati",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1711,
+      "deathNote": "清史稿·卷266·列传·王士禛：康熙三十七年迁左都御史，迁刑部尚书，四十三年坐王五、吴谦狱罢，四十九年诏复原职，「五十年，卒」。上文历康熙三十七、四十三、四十九年，此「五十年」即康熙五十年，为 1711 年；传不载享年，生年阙。本传末又记其初名士禛，卒后避世宗讳追改士正，乾隆三十年追谥文简，三十九年改定为士禎。",
+      "categories": [
+        "poetry",
+        "literature"
+      ],
+      "primary": "literature",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fang-bao",
+      "name": "方苞",
+      "display": "方苞",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1668,
+      "death": 1749,
+      "birthNote": "清史稿·卷290·列传·方苞：乾隆十四年卒，年八十二。虚岁八十二自卒年 1749 上推，约当 1668 年。",
+      "deathNote": "清史稿·卷290·列传·方苞：乾隆元年充三礼义疏副总裁，擢礼部侍郎，后削侍郎衔、赐侍讲衔许还里，「十四年，卒，年八十二」。上文自「乾隆元年」「乾隆初」及高宗诸事皆乾隆纪年，此十四年为乾隆十四年，即 1749 年。",
+      "categories": [
+        "literature",
+        "classics"
+      ],
+      "primary": "literature",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "cao-xueqin",
       "name": "曹雪芹",
       "display": "曹雪芹",
@@ -1198,6 +2553,210 @@
         "novel"
       ],
       "primary": "novel",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lang-shi-ning",
+      "name": "郎世宁",
+      "display": "郎世宁",
+      "lane": "literati",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1766,
+      "deathNote": "清史稿·卷13·高宗本纪：乾隆三十一年「六月丙午，杨应琚奏猛勇头目召斋及猛龙沙头目叭护猛等内附。戊申，予故三品衔西洋人郎世宁侍郎衔」。本纪不书卒，据同年六月给予故官侍郎衔系其卒于乾隆三十一年，即 1766 年。卷504·艺术传仅云「郎世宁，西洋人。康熙中入直，高宗尤赏异」，不载生卒年月。",
+      "categories": [
+        "painting"
+      ],
+      "primary": "painting",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dai-zhen",
+      "name": "戴震",
+      "display": "戴震",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1723,
+      "death": 1777,
+      "birthNote": "清史稿·卷481·儒林传·戴震：乾隆四十二年卒于官，年五十有五。虚岁五十五自卒年 1777 上推，约当 1723 年。",
+      "deathNote": "清史稿·卷481·儒林传·戴震：乾隆二十七年举乡试，三十八年四库馆开、荐充纂修，四十年赐同进士出身改庶吉士，「四十二年，卒于官，年五十有五」。上文历乾隆二十七、三十八、四十年，此四十二年为乾隆四十二年，即 1777 年。",
+      "categories": [
+        "classics",
+        "thinker"
+      ],
+      "primary": "classics",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qian-daxin",
+      "name": "钱大昕",
+      "display": "钱大昕",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1728,
+      "death": 1804,
+      "birthNote": "清史稿·卷481·儒林传·钱大昕：嘉庆九年卒，年七十七。虚岁七十七自卒年 1804 上推，约当 1728 年。",
+      "deathNote": "清史稿·卷481·儒林传·钱大昕：乾隆十六年召试举人，十九年进士，三十二年乞假归，四十丁父艰、又丁母艰，病不复出，「嘉庆九年，卒，年七十七」。年号明载，即 1804 年。",
+      "categories": [
+        "historian",
+        "classics"
+      ],
+      "primary": "historian",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "duan-yucai",
+      "name": "段玉裁",
+      "display": "段玉裁",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1735,
+      "death": 1815,
+      "birthNote": "清史稿·卷481·儒林传·段玉裁：嘉庆二十年卒，年八十一。虚岁八十一自卒年 1815 上推，约当 1735 年。",
+      "deathNote": "清史稿·卷481·儒林传·段玉裁：乾隆二十五年举人，官巫山县，「年四十六，以父老引疾归，键户不问世事者三十馀年」，著说文解字注等，「嘉庆二十年，卒，年八十一」。年号明载，即 1815 年。",
+      "categories": [
+        "classics",
+        "scholar"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yao-nai",
+      "name": "姚鼐",
+      "display": "姚鼐",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1731,
+      "death": 1815,
+      "birthNote": "清史稿·卷485·文苑传·姚鼐：嘉庆二十年卒，年八十有五。虚岁八十五自卒年 1815 上推，约当 1731 年。",
+      "deathNote": "清史稿·卷485·文苑传·姚鼐：乾隆二十八年进士，四库馆开充纂修官，书成以御史记名乞养归，主讲江南、钟山书院四十馀年，「嘉庆十五年，重赴鹿鸣，加四品衔。二十年，卒，年八十有五」。年号明载，即 1815 年。",
+      "categories": [
+        "literature"
+      ],
+      "primary": "literature",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-yuan",
+      "name": "魏源",
+      "display": "魏源",
+      "lane": "literati",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 1856,
+      "deathNote": "清史稿·卷486·文苑传·魏源：道光二年举顺天乡试，二十四年成进士，以知州发江苏，权兴化，二十八年大水，补高邮，「咸丰六年，卒」。本传系年作咸丰六年，即 1856 年；通行说作咸丰七年（1857），与本传异。今从本传，两说并存。传不载享年，生年阙。",
+      "categories": [
+        "historian",
+        "scholar"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-shanlan",
+      "name": "李善兰",
+      "display": "李善兰",
+      "lane": "literati",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1884,
+      "deathNote": "清史稿·卷507·畴人传·李善兰：咸丰初客上海，与伟烈亚力同译几何原本后九卷、代微积拾级，粤匪陷吴越后依曾国藩军中，同治七年用巡抚郭嵩焘荐征入同文馆，充算学总教习、总理衙门章京，授户部郎中、三品卿衔，「光绪十年，卒于官，年垂七十」。年号明载，即 1884 年。「年垂七十」是举成数而非确岁，故生年不上推。",
+      "categories": [
+        "science",
+        "astronomy"
+      ],
+      "primary": "science",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-shou",
+      "name": "徐寿",
+      "display": "徐寿",
+      "lane": "literati",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 1884,
+      "deathNote": "清史稿·卷505·艺术传·徐寿：咸丰十一年从曾国藩军，设机器局于安庆、江宁；同治末与傅兰雅设格致书院于上海，山东、四川仿设机器局争延聘，大冶煤铁矿、开平煤矿、漠河金矿经始皆为其擘画，「寿狷介，不求仕进，以布衣终。光绪中，卒，年六十七」。本传只云「光绪中」，不著确年，诸矿经始在光绪十年前后，今约计为 1884 年，非确年；年六十七为虚岁，卒年既系约计，生年亦不上推。",
+      "categories": [
+        "science",
+        "craft"
+      ],
+      "primary": "science",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tan-sitong",
+      "name": "谭嗣同",
+      "display": "谭嗣同",
+      "lane": "literati",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1865,
+      "death": 1898,
+      "title": "戊戌六君子",
+      "bio": "维新志士，著《仁学》；戊戌政变不肯逃，慷慨就义，为六君子之一。",
+      "tags": [
+        "清",
+        "维新"
+      ],
+      "categories": [
+        "official",
+        "thinker"
+      ],
+      "primary": "thinker",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yan-fu-qing",
+      "name": "严复",
+      "display": "严复",
+      "lane": "literati",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1853,
+      "death": 1921,
+      "birthNote": "清史稿·卷486·文苑传·严复：辛酉秋卒，年六十有九。虚岁六十九自卒年 1921 上推，约当 1853 年；传又称沈葆桢初创船政招试英俊时严复「年十四」，船政设于同治五年（1866），亦与同推相合。",
+      "deathNote": "清史稿·卷486·文苑传·严复（林纾传附）：「宣统元年，海军部立，特授协都统……三年，授海军一等参谋官……辛酉秋，卒，年六十有九。」本传已入民国记事，同卷林纾传作「甲子秋，卒」即民国十三年，故辛酉为民国十年，即 1921 年。卒年在清季专题窗口（下限 1920）之外，循康有为、梁启超、溥仪在册之例收入。",
+      "categories": [
+        "thinker",
+        "literature"
+      ],
+      "primary": "literature",
       "polity": [
         "qing"
       ],
@@ -1255,27 +2814,82 @@
       "gender": "male"
     },
     {
-      "id": "tan-sitong",
-      "name": "谭嗣同",
-      "display": "谭嗣同",
-      "lane": "literati",
+      "id": "li-zicheng",
+      "name": "李自成",
+      "display": "李自成",
+      "lane": "end",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
-      "birth": 1865,
-      "death": 1898,
-      "title": "戊戌六君子",
-      "bio": "维新志士，著《仁学》；戊戌政变不肯逃，慷慨就义，为六君子之一。",
+      "birth": 1606,
+      "death": 1645,
+      "title": "闯王，灭明",
+      "bio": "米脂驿卒，从闯王高迎祥起事，迎祥死后代领其众。均田免赋，众至百万；1644 破北京，旋为吴三桂引清兵败于山海关。",
       "tags": [
-        "清",
-        "维新"
+        "明",
+        "民变"
       ],
       "categories": [
-        "official",
-        "thinker"
+        "rebel",
+        "warlord",
+        "falling"
       ],
-      "primary": "thinker",
+      "primary": "rebel",
       "polity": [
-        "qing"
+        "ming",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-xianzhong",
+      "name": "张献忠",
+      "display": "张献忠",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1606,
+      "death": 1647,
+      "title": "八大王",
+      "bio": "延安人，与李自成并起陕北，转战豫楚川陕。1644 入蜀称帝，国号大西；性残暴，清军入川被杀。",
+      "tags": [
+        "明",
+        "民变"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "ming",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-chenggong",
+      "name": "郑成功",
+      "display": "郑成功",
+      "lane": "end",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1624,
+      "death": 1662,
+      "birthNote": "康熙元年卒，年三十九，上推生年。",
+      "deathNote": "康熙元年五月朔受谒，数日卒。",
+      "title": "据台湾",
+      "bio": "南安人，芝龙子。驱荷兰人，号台湾为东都。康熙元年五月病卒，年三十九。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general",
+        "warlord"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
       ],
       "gender": "male"
     },
@@ -1306,53 +2920,24 @@
       "gender": "male"
     },
     {
-      "id": "hong-xiuquan",
-      "name": "洪秀全",
-      "display": "洪秀全",
+      "id": "shang-kexi",
+      "name": "尚可喜",
+      "display": "尚可喜",
       "lane": "end",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1814,
-      "death": 1864,
-      "title": "太平天国",
-      "bio": "科举失意而创拜上帝会，1851 年建太平天国，席卷半壁，1864 年天京陷身死。",
+      "death": 1676,
+      "deathNote": "康熙十五年十月卒。子之信已叛。",
+      "title": "平南亲王",
+      "bio": "辽东人。康熙十四年进封平南亲王。十五年二月子之信叛，可喜卧疾不能制，十月卒。",
       "tags": [
         "清"
       ],
       "categories": [
-        "warlord",
-        "rebel",
-        "falling"
-      ],
-      "primary": "rebel",
-      "polity": [
-        "qing",
-        "minbian"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "yuan-shikai",
-      "name": "袁世凯",
-      "display": "袁世凯",
-      "lane": "end",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
-      "birth": 1859,
-      "death": 1916,
-      "title": "北洋领袖",
-      "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "warlord",
-        "regent",
-        "official",
         "general",
-        "falling"
+        "vassal"
       ],
-      "primary": "warlord",
+      "primary": "general",
       "polity": [
         "qing"
       ],
@@ -1388,79 +2973,61 @@
       "gender": "male"
     },
     {
-      "id": "zheng-chenggong",
-      "name": "郑成功",
-      "display": "郑成功",
+      "id": "shang-zhi-xin",
+      "name": "尚之信",
+      "display": "尚之信",
       "lane": "end",
-      "birthAccuracy": "approx",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1624,
-      "death": 1662,
-      "birthNote": "康熙元年卒，年三十九，上推生年。",
-      "deathNote": "康熙元年五月朔受谒，数日卒。",
-      "title": "据台湾",
-      "bio": "南安人，芝龙子。驱荷兰人，号台湾为东都。康熙元年五月病卒，年三十九。",
-      "tags": [
-        "清"
-      ],
+      "death": 1680,
+      "deathNote": "清史稿·卷474·尚之信传：康熙十九年春自将攻武宣，巡抚金俊与藩下总兵王国栋等告其凶残暴虐、犹存异志，被逮后狱上，上命赐之信死；卷6·圣祖本纪一康熙十九年八月甲申同书诏赐之信死。此前他杀父客金光以降吴三桂，复归正后又擅杀、阻兵不进。",
       "categories": [
-        "general",
+        "vassal",
+        "rebel"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-shifan",
+      "name": "吴世璠",
+      "display": "吴世璠",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1681,
+      "deathNote": "清史稿·卷474·吴三桂传附：三桂死后其孙世璠（吴应熊庶子，留云南）被部下拥称帝，改号洪化；康熙二十年十月昆明城陷前夕，线緎等谋执世璠以降，世璠与郭壮图皆自杀，城降后戮其尸、传首京师。",
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-jing",
+      "name": "郑经",
+      "display": "郑经",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1681,
+      "deathNote": "清史稿·卷224·郑成功传附：康熙二十年，锦（郑经）卒。传自顺治十八年成功卒后连书康熙年次，「二十年」上承「十九年」兴师之役，系年为康熙二十年。清史稿正文称其名为锦，一名经。",
+      "categories": [
         "warlord"
       ],
-      "primary": "general",
+      "primary": "warlord",
       "polity": [
         "ming"
       ],
       "gender": "male"
-    },
-    {
-      "id": "shang-kexi",
-      "name": "尚可喜",
-      "display": "尚可喜",
-      "lane": "end",
-      "birthAccuracy": "unknown",
-      "deathAccuracy": "exact",
-      "death": 1676,
-      "deathNote": "康熙十五年十月卒。子之信已叛。",
-      "title": "平南亲王",
-      "bio": "辽东人。康熙十四年进封平南亲王。十五年二月子之信叛，可喜卧疾不能制，十月卒。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "general",
-        "vassal"
-      ],
-      "primary": "general",
-      "polity": [
-        "qing"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "xiao-ci",
-      "name": "孟古哲哲",
-      "display": "孝慈高皇后",
-      "lane": "consort",
-      "birthAccuracy": "approx",
-      "deathAccuracy": "exact",
-      "birth": 1575,
-      "death": 1603,
-      "birthNote": "《清史稿》不载生年，据万历十六年来归之年十四上推。",
-      "deathNote": "《清史稿》作岁癸卯崩，年二十九；皇太极即位后追尊为皇后。",
-      "title": "太祖皇后，太宗生母",
-      "bio": "叶赫那拉氏，叶赫贝勒杨吉砮之女。1588 年来归努尔哈赤，1592 年生皇太极。1603 年崩，年二十九，后追尊为孝慈高皇后。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "consort"
-      ],
-      "primary": "consort",
-      "polity": [
-        "qing"
-      ],
-      "gender": "female"
     },
     {
       "id": "geng-jing-zhong",
@@ -1487,50 +3054,86 @@
       "gender": "male"
     },
     {
-      "id": "a-gui",
-      "name": "阿桂",
-      "display": "阿桂",
-      "lane": "chancellor",
-      "birthAccuracy": "exact",
+      "id": "ga-er-dan",
+      "name": "噶尔丹",
+      "display": "噶尔丹",
+      "lane": "end",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1717,
-      "death": 1797,
-      "title": "定伊犁征缅甸之相",
-      "bio": "章佳氏，初隶满洲正蓝旗，以平回部驻伊犁治事有劳改隶正白旗，大学士阿克敦之子。乾隆朝屡统大军，定金川、定伊犁、征缅甸，官至武英殿大学士、军机大臣。嘉庆二年卒。",
-      "tags": [
-        "清"
-      ],
+      "death": 1697,
+      "deathNote": "清史稿·卷7·圣祖本纪二：康熙三十六年夏四月，费扬古疏报闰三月十三日噶尔丹仰药死，其女钟齐海率三百户来降。乌兰布通、昭莫多两役败后西走，援绝粮尽而仰药死；卷525·藩部八记其入藏为喇嘛，归而篡其汗位，自称受达赖封为准噶尔博硕克图汗。",
       "categories": [
-        "chancellor",
-        "general"
+        "outsider",
+        "warlord"
       ],
-      "primary": "chancellor",
+      "primary": "warlord",
       "polity": [
-        "qing"
+        "mongol"
       ],
       "gender": "male"
     },
     {
-      "id": "mu-zhang-a",
-      "name": "穆彰阿",
-      "display": "穆彰阿",
-      "lane": "chancellor",
+      "id": "lin-qing",
+      "name": "林清",
+      "display": "林清",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1813,
+      "deathNote": "清史稿·卷16·仁宗本纪：嘉庆十八年九月，有奸人陈爽等数十人突入紫禁城；同月辛巳，首逆林清就擒，丙戌，首逆林清与通逆内监刘进亨等伏诛。卷367·那彦成传系此事于嘉庆十八年，称河南天理会教匪李文成等倡乱、林清纠党犯禁门、清既诛；卷17·宣宗本纪一亦作教匪林清党犯阙之变。",
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-chao-gui",
+      "name": "萧朝贵",
+      "display": "萧朝贵",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1852,
+      "deathNote": "清史稿·卷475·洪秀全传：萧朝贵为洪秀全妹婿，永安建制时封西王；咸丰二年八月攻长沙南门，官兵击之，殪，尸埋老龙潭，后掘出枭其首。卷20·文宗本纪咸丰三年正月条又书张亮基奏贼目萧朝贵实在长沙城外轰毙、起获尸身验明枭锉，可证其炮毙于长沙城下。",
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-xiu-qing",
+      "name": "杨秀清",
+      "display": "杨秀清",
+      "lane": "end",
       "birthAccuracy": "exact",
       "deathAccuracy": "exact",
-      "birth": 1782,
+      "birth": 1823,
       "death": 1856,
-      "title": "道光朝主抚之相",
-      "bio": "郭佳氏，满洲镶蓝旗人，嘉庆十年进士。道光朝久任军机大臣，门生故吏遍于朝列；鸦片战争力主抚议，与林则徐之禁烟相抗。文宗即位后黜之，1856 年卒。",
+      "deathNote": "天京事变，韦昌辉夜攻东王府，秀清及其部众皆被杀。",
+      "title": "东王，总理天国军政",
+      "bio": "广西桂平人，耕山烧炭为业，托天父下凡之说起事。金田起事后封东王，节制诸王而总理军政，号令出于东府。1856 年逼封万岁，天京事变中为韦昌辉所杀。",
       "tags": [
         "清"
       ],
       "categories": [
-        "chancellor",
-        "falling"
+        "warlord",
+        "rebel"
       ],
-      "primary": "chancellor",
+      "primary": "rebel",
       "polity": [
-        "qing"
+        "qing",
+        "minbian"
       ],
       "gender": "male"
     },
@@ -1560,97 +3163,19 @@
       "gender": "male"
     },
     {
-      "id": "seng-ge-lin-qin",
-      "name": "僧格林沁",
-      "display": "僧格林沁",
-      "lane": "general",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
-      "birth": 1811,
-      "death": 1865,
-      "title": "科尔沁亲王，剿捻战殁",
-      "bio": "博尔济吉特氏，科尔沁左翼后旗人，尚庄敬和硕公主之嗣子。咸丰朝统满蒙马队，破太平军北伐之师于天津、连镇；后又督剿捻军，1865 年于曹州高楼寨战殁，清廷所倚之长城自此无人。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "general"
-      ],
-      "primary": "general",
-      "polity": [
-        "qing"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "hu-lin-yi",
-      "name": "胡林翼",
-      "display": "胡林翼",
-      "lane": "chancellor",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
-      "birth": 1812,
-      "death": 1861,
-      "title": "抚鄂援湘，与曾并称",
-      "bio": "字贶生，号润芝，湖南益阳人，道光十六年进士。官湖北巡抚，整饬吏治、裕湘军饷源，与曾国藩并称曾胡。1861 年安庆既下，以劳卒于武昌。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "minister",
-        "official",
-        "general"
-      ],
-      "primary": "minister",
-      "polity": [
-        "qing"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "ding-ru-chang",
-      "name": "丁汝昌",
-      "display": "丁汝昌",
-      "lane": "general",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
-      "birth": 1836,
-      "death": 1895,
-      "deathNote": "威海卫围急，拒降而服鸦片自尽，事在光绪二十一年正月。",
-      "title": "北洋水师提督，威海仰药",
-      "bio": "字禹廷，安徽庐江人。本淮军将领，改统北洋水师为提督。甲午黄海之役负伤督战；1895 年威海卫围急，诸将请降，拒之而服鸦片死。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "general"
-      ],
-      "primary": "general",
-      "polity": [
-        "qing"
-      ],
-      "gender": "male"
-    },
-    {
-      "id": "yang-xiu-qing",
-      "name": "杨秀清",
-      "display": "杨秀清",
+      "id": "chen-yu-cheng",
+      "name": "陈玉成",
+      "display": "陈玉成",
       "lane": "end",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
-      "birth": 1823,
-      "death": 1856,
-      "deathNote": "天京事变，韦昌辉夜攻东王府，秀清及其部众皆被杀。",
-      "title": "东王，总理天国军政",
-      "bio": "广西桂平人，耕山烧炭为业，托天父下凡之说起事。金田起事后封东王，节制诸王而总理军政，号令出于东府。1856 年逼封万岁，天京事变中为韦昌辉所杀。",
-      "tags": [
-        "清"
-      ],
+      "death": 1862,
+      "deathNote": "清史稿·卷21·穆宗本纪一：同治元年四月，多隆阿军克庐州，匪首陈玉成遁至寿州境，苗沛霖诱擒之；五月乙巳，陈玉成解京师，诏于中途磔之。卷409·多隆阿传、卷475·洪秀全传同作玉成奔寿州为苗沛霖所擒、献胜保大营伏诛。封英王，军中号四眼狗。",
       "categories": [
         "warlord",
         "rebel"
       ],
-      "primary": "rebel",
+      "primary": "warlord",
       "polity": [
         "qing",
         "minbian"
@@ -1684,6 +3209,72 @@
       "gender": "male"
     },
     {
+      "id": "zhang-luo-xing",
+      "name": "张洛行",
+      "display": "张洛行",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1863,
+      "deathNote": "清史稿·卷404·僧格林沁传：同治二年正月以后，捻巢次第剿平，张洛行为巨憝首恶；二月进攻尹家沟、雉河集，洛行夜遁，追至淝河北岸，西洋寨捻首李勤邦投诚，诱擒张洛行及其子张憙以献，磔之。传称捻匪自蒙、亳创乱十年至是扫除。清史稿本纪与诸传均作张洛行。",
+      "categories": [
+        "rebel",
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hong-ren-gan",
+      "name": "洪仁玕",
+      "display": "洪仁玕",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1864,
+      "deathNote": "清史稿·卷475·洪秀全传：同治三年天京、湖州相继陷后，席宝田追剿自湖州出逃的太平军，大歼于广昌白水岭，擒伪干王洪仁玕、伪恤王洪仁政及伪昭王黄文英，皆伏诛；卷413·沈葆桢传明系此事于同治三年，令席宝田追剿至石城，阵擒洪仁玕、洪仁政等，卷420·席宝田传同作克江宁后追擒洪仁玕等于石城杨家牌。",
+      "categories": [
+        "rebel",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hong-xiuquan",
+      "name": "洪秀全",
+      "display": "洪秀全",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1814,
+      "death": 1864,
+      "title": "太平天国",
+      "bio": "科举失意而创拜上帝会，1851 年建太平天国，席卷半壁，1864 年天京陷身死。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "rebel",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "li-xiu-cheng",
       "name": "李秀成",
       "display": "李秀成",
@@ -1706,6 +3297,72 @@
       "polity": [
         "qing",
         "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "a-gu-bai",
+      "name": "阿古柏",
+      "display": "阿古柏",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 1877,
+      "deathNote": "清史稿·卷454·刘锦棠传：光绪三年春大军逾岭克达坂城，破吐鲁番、托克逊，南路门洞开，阿古柏势穷被执，饮药死；卷412·左宗棠传同书光绪三年三月收托克逊后帕夏饮药死，其子伯克胡里戕其弟走喀什噶尔，并记其人本安集延部之和硕伯克，安集延故属敖罕（浩罕），畏俄逼阑入边，据喀什噶尔而蚕食南路。死法为服毒（饮药死）。",
+      "categories": [
+        "outsider",
+        "warlord"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "xiyu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-shikai",
+      "name": "袁世凯",
+      "display": "袁世凯",
+      "lane": "end",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 1859,
+      "death": 1916,
+      "title": "北洋领袖",
+      "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "regent",
+        "official",
+        "general",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zai-feng",
+      "name": "载沣",
+      "display": "载沣",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 1883,
+      "death": 1951,
+      "birthNote": "自日记与行谱系为光绪九年十月，合公历约 1883（通行生日常折为 2 月 12 日，未复核干支折日，故记 approx）。",
+      "deathNote": "卒于北京，modern 年谱口径系为民国四十年十二月十八日，折公历 1951 年 2 月 3 日；清史稿无传不载。",
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "qing"
       ],
       "gender": "male"
     }
@@ -2359,6 +4016,126 @@
       "target": "xuan-tong",
       "type": "kin",
       "note": "宣统即位，隆裕以太后听政而颁逊位之诏"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "fei-ying-dong",
+      "type": "ruler-subject",
+      "note": "五大臣之一，建州起兵时的创业武将"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "e-yi-du",
+      "type": "ruler-subject",
+      "note": "五大臣之一，世袭佐领，清初元勋"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "yang-gu-li",
+      "type": "ruler-subject",
+      "note": "五大臣之首，松山阵亡，清初功臣第一条"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "chu-ying",
+      "type": "kin",
+      "note": "长子受国政旋废，开清初储位之争先例"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "hao-ge",
+      "type": "kin",
+      "note": "皇太极长子，争位失败，与多尔衮对立"
+    },
+    {
+      "source": "hao-ge",
+      "target": "duo-er-gun",
+      "type": "rival",
+      "note": "皇太极崩后争立，豪格败于多尔衮"
+    },
+    {
+      "source": "ji-er-ha-lang",
+      "target": "duo-er-gun",
+      "type": "peer",
+      "note": "同辅政郑亲王，多尔衮生前受制，1651 反噬议罪"
+    },
+    {
+      "source": "kang-xi",
+      "target": "yun-reng",
+      "type": "kin",
+      "note": "密建储位立为皇太子，两立两废"
+    },
+    {
+      "source": "kang-xi",
+      "target": "li-guangdi",
+      "type": "ruler-subject",
+      "note": "翰林出身久任直省，入值南书房参密谋"
+    },
+    {
+      "source": "kang-xi",
+      "target": "ma-qi",
+      "type": "ruler-subject",
+      "note": "康熙朝入相，历康雍乾三朝元老"
+    },
+    {
+      "source": "qian-long",
+      "target": "yu-minzhong",
+      "type": "ruler-subject",
+      "note": "状元入军机，傅恒之后领班"
+    },
+    {
+      "source": "qian-long",
+      "target": "fu-kang-an",
+      "type": "ruler-subject",
+      "note": "领班军机大臣八年"
+    },
+    {
+      "source": "qian-long",
+      "target": "ga-er-dan",
+      "type": "rival",
+      "note": "准噶尔东犯，三驾亲征与乌兰布通之役"
+    },
+    {
+      "source": "jia-qing",
+      "target": "chang-ling",
+      "type": "ruler-subject",
+      "note": "白莲教与回疆两役宿将，嘉庆朝统兵大员"
+    },
+    {
+      "source": "jia-qing",
+      "target": "yang-yu-chun",
+      "type": "ruler-subject",
+      "note": "平川楚白莲教、定回疆，提督起家至陕甘总督"
+    },
+    {
+      "source": "jia-qing",
+      "target": "cao-zhenyong",
+      "type": "ruler-subject",
+      "note": "嘉道两朝承旨久直军机"
+    },
+    {
+      "source": "yi-huan",
+      "target": "zai-feng",
+      "type": "kin",
+      "note": "奕譞第五子，1890 袭第二代醇亲王"
+    },
+    {
+      "source": "zai-feng",
+      "target": "xuan-tong",
+      "type": "kin",
+      "note": "溥仪生父；1908 年幼子入承大统，载沣以监国摄政王掌实际君权"
+    },
+    {
+      "source": "guang-xu",
+      "target": "zai-feng",
+      "type": "kin",
+      "note": "同父异母弟；光绪崩后载沣摄政，兄弟相继为清代皇权过渡一环"
+    },
+    {
+      "source": "ci-xi",
+      "target": "zai-feng",
+      "type": "ruler-subject",
+      "note": "慈禧命其为军机大臣兼摄政，旋于宣统三年被迫辞职"
     }
   ],
   "events": [
@@ -2520,7 +4297,8 @@
       "people": [
         "yuan-shikai",
         "xuan-tong",
-        "long-yu"
+        "long-yu",
+        "zai-feng"
       ],
       "desc": "武昌起义，各省响应；袁世凯逼宫，宣统退位，两千年帝制终结，清祚终。"
     },
@@ -2697,20 +4475,30 @@
         "nu-er-ha-chi",
         "hong-taiji",
         "fu-lin",
-        "duo-er-gun",
-        "wu-sangui",
         "kang-xi",
-        "ao-bai",
-        "shi-lang",
         "xiao-ci",
         "da-fei",
-        "fan-wencheng",
         "xiao-duan",
         "xiao-zhuang",
-        "zheng-chenggong",
+        "chu-ying",
+        "yun-reng",
+        "duo-er-gun",
+        "fan-wencheng",
+        "li-guangdi",
+        "ma-qi",
+        "fei-ying-dong",
+        "e-yi-du",
+        "yang-gu-li",
+        "hao-ge",
+        "ji-er-ha-lang",
+        "shi-lang",
+        "zhao-liang-dong",
         "gu-yanwu",
-        "huang-zongxi",
         "wang-fuzhi",
+        "huang-zongxi",
+        "zheng-chenggong",
+        "ao-bai",
+        "wu-sangui",
         "geng-jing-zhong"
       ],
       "events": [
@@ -2737,17 +4525,24 @@
         "kang-xi",
         "yong-zheng",
         "qian-long",
-        "zhang-tingyu",
-        "he-shen",
-        "nian-gengyao",
+        "jia-qing",
         "xiao-gong",
-        "xiao-sheng",
         "xiao-xian",
+        "xiao-sheng",
+        "yun-reng",
+        "li-guangdi",
+        "ma-qi",
         "e-er-tai",
+        "zhang-tingyu",
         "fu-heng",
         "liu-tongxun",
+        "yu-minzhong",
         "a-gui",
-        "cao-xueqin"
+        "he-shen",
+        "nian-gengyao",
+        "fu-kang-an",
+        "cao-xueqin",
+        "ga-er-dan"
       ],
       "events": [
         "qing-kangyongqian",
@@ -2758,73 +4553,127 @@
     {
       "id": "shuai",
       "name": "嘉道中衰",
-      "from": 1780,
+      "from": 1796,
       "to": 1850,
       "focus": "jia-qing",
-      "brief": "这一窗接住盛世的尾巴：嘉庆亲政即诛和珅，白莲一役拖了十年；仁宗暴崩于热河，孝和睿皇后传旨定宣宗嗣位。道光朝穆彰阿久柄政，主抚之论已成朝论，而海上的事已经起头。",
+      "brief": "这一窗接住盛世的尾巴：嘉庆亲政即诛和珅，白莲一役拖了十年；仁宗暴崩于热河，孝和睿皇后传旨定宣宗嗣位。道光朝穆彰阿久柄政，主抚之论已成朝论。林则徐虎门销烟、英舰叩关，海上的事终于起了头。窗口上沿推到乾隆内禅：和珅伏法即在嘉庆元年，川楚白莲一役长龄、杨遇春并起；金田拜会上线，洪杨石诸人已在窗内露头。",
       "people": [
         "jia-qing",
-        "he-shen",
-        "xiao-he-rui",
         "dao-guang",
+        "xian-feng",
         "xiao-quan",
-        "mu-zhang-a"
+        "xiao-he-rui",
+        "he-shen",
+        "cao-zhenyong",
+        "lin-zexu",
+        "mu-zhang-a",
+        "yi-xin",
+        "yang-yu-chun",
+        "chang-ling",
+        "guan-tianpei",
+        "chen-huacheng",
+        "yang-xiu-qing",
+        "su-shun",
+        "shi-da-kai",
+        "hong-xiuquan"
       ],
       "events": [
         "qing-jiaqing",
-        "qing-jiadao"
+        "qing-jiadao",
+        "qing-yapian"
       ]
     },
     {
       "id": "bian",
       "name": "晚清变局",
-      "from": 1830,
+      "from": 1894,
       "to": 1970,
-      "focus": "dao-guang",
+      "focus": "guang-xu",
       "people": [
-        "dao-guang",
-        "lin-zexu",
-        "guan-tianpei",
-        "hong-xiuquan",
-        "zeng-guofan",
-        "yi-xin",
-        "li-hongzhang",
-        "zuo-zongtang",
-        "zhang-zhidong",
-        "guang-xu",
         "ci-xi",
+        "guang-xu",
+        "xuan-tong",
+        "long-yu",
+        "rong-lu",
+        "weng-tonghe",
+        "zhang-zhidong",
+        "tan-sitong",
+        "yan-fu-qing",
         "kang-youwei",
         "liang-qichao",
-        "tan-sitong",
-        "deng-shichang",
         "yuan-shikai",
-        "xuan-tong",
-        "ci-an",
-        "xiao-zhe",
-        "long-yu",
-        "su-shun",
-        "seng-ge-lin-qin",
-        "hu-lin-yi",
-        "ding-ru-chang",
-        "feng-zicai",
-        "yang-xiu-qing",
-        "shi-da-kai",
-        "li-xiu-cheng",
-        "xian-feng"
+        "zai-feng"
       ],
       "events": [
-        "qing-yapian",
-        "qing-taiping",
-        "qing-yangwu",
         "qing-jiawu",
         "qing-wuxu",
-        "qing-xinhai",
-        "qing-yingfa",
+        "qing-xinhai"
+      ],
+      "brief": "甲午一败涂地，戊戌维新百日而终，慈禧政变杀六君子、囚光绪。翁同龢逐于政变之前，谭嗣同六君子之一，严复译《天演论》为变局张本。庚子拳乱、八国联军入京，慈禧挟帝西狩。辛亥枪响，各省独立，袁世凯逼宫，宣统退位，两千年帝制落幕。退位之后并不即断：康、梁、严复、溥仪诸条拖到 1921、1927、1929 与 1967。 摄政王载沣为溥仪生父，辛亥辞去摄政、赞成本子退位，一条拖到 1951。"
+    },
+    {
+      "id": "taiping",
+      "name": "太平天国",
+      "from": 1850,
+      "to": 1864,
+      "focus": "hong-xiuquan",
+      "people": [
+        "xian-feng",
+        "ci-xi",
+        "ci-an",
+        "hu-lin-yi",
+        "zeng-guofan",
+        "zuo-zongtang",
+        "yi-xin",
+        "li-hongzhang",
+        "seng-ge-lin-qin",
+        "yang-xiu-qing",
+        "su-shun",
+        "shi-da-kai",
+        "hong-ren-gan",
+        "hong-xiuquan",
+        "li-xiu-cheng"
+      ],
+      "events": [
+        "qing-taiping",
+        "qing-yingfa"
+      ],
+      "brief": "洪秀全金田起事，建号太平天国，席卷半壁江山。曾国藩湘军苦战，胡林翼争武昌九江，僧格林沁马队破北伐之师。天京事变杨秀清被杀、石达开出走，内部分裂；英法联军北犯，圆明园被焚，咸丰奔热河。"
+    },
+    {
+      "id": "yangwu",
+      "name": "洋务运动",
+      "from": 1860,
+      "to": 1895,
+      "focus": "yi-xin",
+      "people": [
+        "tong-zhi",
+        "ci-xi",
+        "guang-xu",
+        "ci-an",
+        "zeng-guofan",
+        "wen-xiang",
+        "shen-baozhen",
+        "zuo-zongtang",
+        "li-hongzao",
+        "yi-xin",
+        "li-hongzhang",
+        "weng-tonghe",
+        "zhang-zhidong",
+        "deng-shichang",
+        "ding-ru-chang",
+        "liu-ming-chuan",
+        "feng-zicai",
+        "su-shun"
+      ],
+      "events": [
+        "qing-yangwu",
         "qing-xinyou",
         "qing-tongzhibeng",
-        "qing-zhongfa"
+        "qing-zhongfa",
+        "qing-jiawu"
       ],
-      "brief": "鸦片战火开局，太平天国撼基；曾左李以洋务图强，甲午一败涂地。戊戌维新遇慈禧政变，辛亥枪响、袁世凯逼宫，宣统退位，帝制落幕。此后只剩三条尾巴：康、梁止于 1927、1929，溥仪一条拖到 1967。"
+      "brief": "辛酉政变两宫垂帘，恭亲王奕䜣与曾国藩推行洋务。李鸿章、左宗棠、张之洞办工厂、建船政、练新军、派留学生。中法战争镇南关大捷仍议和收场，甲午北洋覆灭，自强之梦碎。 奕訢、文祥当枢廷，翁同龢以帝师入军机与北洋立异；光绪亲政而实不出慈禧之手，严复译《天演》其说大行。"
     }
   ]
 }

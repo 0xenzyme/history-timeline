@@ -44,6 +44,11 @@
       "id": "rebel",
       "name": "秦末民变",
       "color": "#6b5b95"
+    },
+    {
+      "id": "opp",
+      "name": "对立面",
+      "color": "#7f8c8d"
     }
   ],
   "people": [
@@ -843,6 +848,65 @@
       "gender": "male"
     },
     {
+      "id": "zhou-ke",
+      "name": "周苛",
+      "display": "周苛",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -204,
+      "deathNote": "项羽本纪：汉王使御史大夫周苛、枞公、魏豹守荥阳，周苛与枞公谋曰「反国之王，难与守城」，乃共杀魏豹；楚下荥阳城，生得周苛，项王怒，烹周苛。荥阳城破系于汉三年叙事内，月分不详，作前 204 年，故不标 exact。",
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ji-xin",
+      "name": "纪信",
+      "display": "纪信",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -204,
+      "deathNote": "项羽本纪：荥阳急，汉将纪信请为王诳楚，乘黄屋车傅左纛出东门，曰「城中食尽，汉王降」，楚军皆呼万岁；汉王从西门走成皋，项王烧杀纪信。事系于汉三年荥阳被围叙事内，月分不详，作前 204 年，故不标 exact。",
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-yi-ji",
+      "name": "郦食其",
+      "display": "郦食其",
+      "lane": "han",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -204,
+      "title": "辩士，凭轼下齐七十余城",
+      "bio": "陈留高阳人，自号「高阳酒徒」。说沛公下陈留，转饷有功。楚汉相持时请使齐，说齐王田广罢守兵下七十余城；韩信袭齐，齐王以为卖己，烹之。",
+      "tags": [
+        "汉初",
+        "说客"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
       "id": "chen-sheng",
       "name": "陈胜",
       "display": "陈胜",
@@ -885,6 +949,150 @@
       "primary": "rebel",
       "polity": [
         "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lao-ai",
+      "name": "嫪毐",
+      "display": "嫪毐",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -238,
+      "deathNote": "秦始皇本纪九年：长信侯毐作乱而觉，矫王御玺及太后玺发县卒卫卒攻蕲年宫，王令相国昌平君、昌文君发卒攻毐，战咸阳，尽得毐等，车裂以徇，灭其宗。始皇九年是前 238 年。",
+      "categories": [
+        "eunuch"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-yu",
+      "name": "陈馀",
+      "display": "陈馀",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -204,
+      "deathNote": "张耳陈馀列传汉三年：韩信已定魏地，遣张耳与韩信击破赵井陉，斩陈馀泜水上。高祖本纪三年段同记「斩陈馀、赵王歇」。按本专题，汉三年是前 204 年。此年是被杀之年。",
+      "categories": [
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-xie",
+      "name": "赵歇",
+      "display": "赵歇",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -204,
+      "deathNote": "张耳陈馀列传汉三年：击破赵井陉，「斩陈馀泜水上，追杀赵王歇襄国」。按本专题，汉三年是前 204 年。",
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-dan-qiwang",
+      "name": "田儋",
+      "display": "田儋",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -208,
+      "deathNote": "田儋列传：秦将章邯围魏王咎于临济，儋将兵救魏，章邯夜衔枚击，大破齐魏军，杀田儋于临济下。传文不系年，事在章邯破陈王、进击魏赵之役，试跑系于二世二年（同役魏咎自烧死），是前 208 年。",
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-rong",
+      "name": "田荣",
+      "display": "田荣",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": -205,
+      "deathNote": "田儋列传：项王闻之，大怒，乃北伐齐，齐王田荣兵败，走平原，平原人杀荣。项羽本纪把这场仗记在「汉之二年冬」：田荣不胜，走至平原，平原民杀之。汉二年冬是前 205 年。",
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-heng",
+      "name": "田横",
+      "display": "田横",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -202,
+      "deathNote": "田儋列传：汉灭项籍、汉王立为皇帝后，高帝赦田横罪而召之，横与其客二人乘传诣洛阳，未至三十里，至尸乡厩置，遂自刭。传文不系年月，据叙事链（垓下之后、高帝称帝之际）推定为高帝五年，是前 202 年，故不标 exact。",
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-bao",
+      "name": "魏豹",
+      "display": "魏豹",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -204,
+      "deathNote": "魏豹彭越列传：汉王遣韩信击虏豹于河东，传诣荥阳；楚围荥阳急，周苛遂杀魏豹。虏豹见高祖本纪汉三年段，杀豹系于荥阳被围叙事内，月分不详，作前 204 年，故不标 exact。此年是被杀之年，非寿数。",
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-guang",
+      "name": "韩广",
+      "display": "韩广",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -206,
+      "deathNote": "项羽本纪汉之元年：臧荼之国，因逐韩广之辽东，广弗听，荼击杀广无终。汉元年是前 206 年；本纪只系其年，不著月份，故不标 exact。",
+      "categories": [
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qin"
       ],
       "gender": "male"
     }
