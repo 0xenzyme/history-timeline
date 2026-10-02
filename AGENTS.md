@@ -5,6 +5,7 @@
 - `src/` contains the Vite + TypeScript application. `src/main.ts` coordinates loading, routing, interaction, and rendering.
 - `src/timeline/` contains the SVG timeline renderer; `src/ui/` contains topic navigation, chapters, search, cards, and the relationship graph.
 - `pipeline/` compiles content. People live in `content/<topic>/<id>.md`, with an index at `content/<topic>.md`. One person has one file. People already in `content/qin/` stay there, including those also listed in Zhanguo or Han. A shared person migrated later lives in the latest topic named by `polity` when that id is one of their topics; otherwise in the earliest topic, skipping `rujia` when another topic exists. Topic composition stays in `pipeline/topics/<id>/topic.json`. Sixty-one legacy records remain `pipeline/registry/people/*.json` because an explicit profile would fail: they lack `polity`, or an `approx` year has no note. Do not invent those fields to force the move.
+- Events are the second entity type, alongside people. They live in `content/events/<id>.md`, with an index at `content/events.md` and a skeleton at `content/_template-event.md`. One event has one file, and the id is global — not prefixed by topic. One entity library feeds two time-ordered catalogs, `military` and `history`, which are filters over it rather than separate entities. Scope is -1600 to 1949. Rules live in `docs/事件线规则.md`; it wins over `PLAYBOOK.md` (which only covers people).
 - `public/data/` contains generated runtime JSON and must not be edited by hand.
 - `cards/` contains research drafts and source-oriented person notes; these are not compiled directly into the site.
 - `pipeline/PLAYBOOK.md` is the content style guide: 收录席位、生卒 accuracy、关系、章节文案、polity 归属口径。Editing anyone's registry file means reading it first.
@@ -19,13 +20,16 @@ npm run dev            # Start the Vite development server
 npm run people:new -- <topic> <id>  # Scaffold content/<topic>/<id>.md and refresh the index
 npm run people:format  # Rewrite person Markdown and the topic index
 npm run people:check   # Check person Markdown, the index, and the same person rules as content:check
-npm run content        # Compile registry JSON and content/<topic> Markdown into public/data/
+npm run events:new -- <id>  # Scaffold content/events/<id>.md and refresh the index
+npm run events:format  # Rewrite event Markdown and the event index
+npm run events:check   # Check event Markdown, the index, and the same event rules as content:check
+npm run content        # Compile registry JSON and content Markdown into public/data/
 npm run content:check  # Validate pipeline output without rewriting files
 npm run build          # Type-check app and pipeline, validate content, and build dist/
 npm run preview        # Serve the production build locally
 ```
 
-After changing content, edit `content/<topic>/` or `pipeline/` and run `npm run content`; review generated JSON in the same change. Do not add a second file for a person who already has one. Do not hand-edit `content/<topic>.md`; run `npm run people:format`.
+After changing content, edit `content/<topic>/`, `content/events/`, or `pipeline/` and run `npm run content`; review generated JSON in the same change. Do not add a second file for a person or event that already has one. Do not hand-edit `content/<topic>.md` or `content/events.md`; run `npm run people:format` or `npm run events:format`.
 
 ## Coding Style and Naming
 
