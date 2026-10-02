@@ -1,8 +1,18 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
+import { EventMarkdownError, publishedEventMarkdown, readEventMarkdown } from './event-md';
 import { PersonMarkdownError, publishedPersonMarkdown, readContentMarkdown } from './person-md';
-import type { CandidateFile, CategoryFile, PipelineData, RegistryPerson, TopicDraft, VocabFile } from './types';
+import type {
+  CandidateFile,
+  CategoryFile,
+  DynastyTerm,
+  PipelineData,
+  RegistryEvent,
+  RegistryPerson,
+  TopicDraft,
+  VocabFile,
+} from './types';
 
 function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(path, 'utf8')) as T;
@@ -26,6 +36,7 @@ export function loadPipeline(root: string): PipelineData {
   const themes = readJson<VocabFile[]>(join(root, 'vocab/themes.json'));
   const categories = readJson<CategoryFile[]>(join(root, 'vocab/categories.json'));
   const polities = readJson<VocabFile[]>(join(root, 'vocab/polities.json'));
+  const dynasties = readJson<DynastyTerm[]>(join(root, 'vocab/dynasties.json'));
 
   const people = new Map<string, RegistryPerson>();
   const personPaths = new Map<string, string>();
@@ -91,5 +102,43 @@ export function loadPipeline(root: string): PipelineData {
     personPaths.set(file.person.id, file.path);
   }
 
-  return { order, regions, eras, themes, categories, polities, people, personPaths, topics, candidates };
+  const events = new Map<string, RegistryEvent>();
+  const eventPaths = new Map<string, string>();
+  const eventFiles = readEventMarkdown(join(root, '..', 'content'));
+  const eventErrors: string[] = [];
+  for (const file of eventFiles) {
+    for (const message of file.messages) {
+      if (message.level === 'error') eventErrors.push(`${message.path}: ${message.message}`);
+    }
+  }
+  const seenEvents = new Map<string, string>();
+  for (const file of publishedEventMarkdown(eventFiles)) {
+    const id = file.event?.id;
+    if (!id) continue;
+    const previous = seenEvents.get(id);
+    if (previous) eventErrors.push(`事件 ${id} 同时在 ${previous} 和 ${file.path}`);
+    else seenEvents.set(id, file.path);
+  }
+  if (eventErrors.length > 0) throw new EventMarkdownError(eventErrors.join('\n'));
+  for (const file of publishedEventMarkdown(eventFiles)) {
+    if (!file.event) continue;
+    events.set(file.event.id, file.event);
+    eventPaths.set(file.event.id, file.path);
+  }
+
+  return {
+    order,
+    regions,
+    eras,
+    themes,
+    categories,
+    polities,
+    dynasties,
+    people,
+    personPaths,
+    events,
+    eventPaths,
+    topics,
+    candidates,
+  };
 }

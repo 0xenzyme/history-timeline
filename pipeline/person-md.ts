@@ -2,6 +2,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse, stringify } from 'yaml';
 
+import { EVENT_DIR, EVENT_INDEX_NAME, EVENT_TEMPLATE_NAME } from './event-md';
 import type { LintMessage, RegistryPerson, SourceRef } from './types';
 
 /** 文首字段的规定顺序。people:format 按这个顺序重写，people:check 拒绝漂移。 */
@@ -305,10 +306,12 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
 
   const topicIds = new Set(topics.map((topic) => topic.id));
   const files = readTemplateFiles(contentRoot);
-  const rootMarkdown = new Set(['README.md', '_template.md', '_template-full.md']);
+  const rootMarkdown = new Set(['README.md', '_template.md', '_template-full.md', EVENT_INDEX_NAME, EVENT_TEMPLATE_NAME]);
 
   for (const entry of entries) {
     if (entry.isDirectory) {
+      // 事件实体库与人物目录并列，不是专题目录
+      if (entry.name === EVENT_DIR) continue;
       if (!topicIds.has(entry.name)) {
         const path = `content/${entry.name}`;
         files.push({ path, messages: [{ level: 'error', path, message: '目录名必须是专题 id' }] });
@@ -359,7 +362,7 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
 export function findPersonMarkdown(contentRoot: string, id: string): string | undefined {
   if (!existsSync(contentRoot)) return undefined;
   for (const entry of readdirSync(contentRoot, { withFileTypes: true })) {
-    if (!entry.isDirectory()) continue;
+    if (!entry.isDirectory() || entry.name === EVENT_DIR) continue;
     if (existsSync(join(contentRoot, entry.name, `${id}.md`))) return `content/${entry.name}/${id}.md`;
   }
   return undefined;

@@ -1,0 +1,62 @@
+{
+  "$id": "https://history-timeline.local/schema/event.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "事件登记",
+  "description": "事件实体的纸面契约。kind 由 endYear 推导，不录入。desc 只写正文。",
+  "type": "object",
+  "required": ["id", "name", "type", "importance", "year", "yearAccuracy", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "display": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": ["military", "political", "rebellion", "institutional", "diplomatic", "cultural"]
+    },
+    "scale": {
+      "type": "string",
+      "enum": ["war", "campaign", "battle", "engagement"]
+    },
+    "importance": { "type": "integer", "enum": [1, 2, 3] },
+    "year": { "type": "integer" },
+    "yearAccuracy": { "type": "string", "enum": ["exact", "approx", "disputed", "unknown"] },
+    "yearNote": { "type": "string" },
+    "endYear": { "type": "integer" },
+    "endYearAccuracy": { "type": "string", "enum": ["exact", "approx", "disputed", "unknown"] },
+    "place": { "type": "string" },
+    "placeNow": { "type": "string" },
+    "belligerents": { "type": "array", "items": { "type": "string" } },
+    "polity": { "type": "array", "items": { "type": "string" } },
+    "commanders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string" },
+          "side": { "type": "string" }
+        }
+      }
+    },
+    "people": { "type": "array", "items": { "type": "string" } },
+    "result": { "type": "string" },
+    "parent": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["work"],
+        "properties": {
+          "work": { "type": "string" },
+          "part": { "type": "string" },
+          "note": { "type": "string" },
+          "kind": { "type": "string", "enum": ["classic", "modern", "database"] }
+        }
+      }
+    },
+    "desc": { "type": "string" }
+  }
+}

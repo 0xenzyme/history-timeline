@@ -3,7 +3,15 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import type { Topic } from '../src/types';
-import type { CandidateEntry, LintMessage, PipelineData, RegistryPerson, SourceRef } from './types';
+import type {
+  CandidateEntry,
+  DynastyTerm,
+  LintMessage,
+  PipelineData,
+  RegistryEvent,
+  RegistryPerson,
+  SourceRef,
+} from './types';
 
 const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 
@@ -18,6 +26,10 @@ interface SchemaProp {
 
 const personSchema = JSON.parse(
   readFileSync(join(pipelineRoot, 'schema', 'person.schema.json'), 'utf8'),
+) as SchemaProp;
+
+const eventSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'event.schema.json'), 'utf8'),
 ) as SchemaProp;
 
 function typeMismatch(value: unknown, rule: SchemaProp | undefined): boolean {
@@ -39,22 +51,20 @@ function enumViolation(value: unknown, rule: SchemaProp | undefined): boolean {
   return Boolean(rule?.enum) && !rule!.enum!.includes(value as string);
 }
 
-/** 按 person.schema.json 校验登记记录。未知字段先只告警：历史登记尚未按 schema 审计过。 */
-function lintPersonSchema(person: RegistryPerson, path: string): LintMessage[] {
+/** 按 schema 的字段表逐项校验。未知字段先只告警：历史登记尚未按 schema 审计过。 */
+function lintSchemaProps(
+  record: Record<string, unknown>,
+  schema: SchemaProp,
+  schemaName: string,
+  path: string,
+): LintMessage[] {
   const messages: LintMessage[] = [];
-  const props = personSchema.properties ?? {};
-  const record = person as unknown as Record<string, unknown>;
-
-  for (const key of personSchema.required ?? []) {
-    if (record[key] === undefined) {
-      messages.push({ level: 'error', path, message: `缺少必填字段 ${key}` });
-    }
-  }
+  const props = schema.properties ?? {};
 
   for (const [key, value] of Object.entries(record)) {
     const rule = props[key];
     if (!rule) {
-      messages.push({ level: 'warning', path, message: `字段 ${key} 不在 person.schema.json 中` });
+      messages.push({ level: 'warning', path, message: `字段 ${key} 不在 ${schemaName} 中` });
       continue;
     }
     if (value === undefined) continue;
@@ -82,7 +92,7 @@ function lintPersonSchema(person: RegistryPerson, path: string): LintMessage[] {
       for (const [subKey, subValue] of Object.entries(object)) {
         const subRule = rule.items.properties?.[subKey];
         if (!subRule) {
-          messages.push({ level: 'warning', path, message: `字段 ${key} 的 ${subKey} 不在 person.schema.json 中` });
+          messages.push({ level: 'warning', path, message: `字段 ${key} 的 ${subKey} 不在 ${schemaName} 中` });
         } else if (enumViolation(subValue, subRule)) {
           messages.push({ level: 'error', path, message: `字段 ${key} 的 ${subKey} 取值 ${String(subValue)} 不合法` });
         }
@@ -91,6 +101,36 @@ function lintPersonSchema(person: RegistryPerson, path: string): LintMessage[] {
   }
 
   return messages;
+}
+
+function lintSchemaRequired(
+  record: Record<string, unknown>,
+  schema: SchemaProp,
+  path: string,
+): LintMessage[] {
+  const messages: LintMessage[] = [];
+  for (const key of schema.required ?? []) {
+    if (record[key] === undefined) {
+      messages.push({ level: 'error', path, message: `缺少必填字段 ${key}` });
+    }
+  }
+  return messages;
+}
+
+function lintPersonSchema(person: RegistryPerson, path: string): LintMessage[] {
+  const record = person as unknown as Record<string, unknown>;
+  return [
+    ...lintSchemaRequired(record, personSchema, path),
+    ...lintSchemaProps(record, personSchema, 'person.schema.json', path),
+  ];
+}
+
+function lintEventSchema(event: RegistryEvent, path: string): LintMessage[] {
+  const record = event as unknown as Record<string, unknown>;
+  return [
+    ...lintSchemaRequired(record, eventSchema, path),
+    ...lintSchemaProps(record, eventSchema, 'event.schema.json', path),
+  ];
 }
 
 function vocabSet(items: { id: string }[]): Set<string> {
@@ -206,6 +246,147 @@ export function lintRegistryPerson(
       messages.push({ level: 'error', path, message: '卒年约略必须写 deathNote' });
     }
   }
+  return messages;
+}
+
+/** 事件线的收录范围。含夏商，止于民国结束。 */
+export const EVENT_YEAR_MIN = -1600;
+export const EVENT_YEAR_MAX = 1949;
+
+export interface EventLintContext {
+  polityIds: Set<string>;
+  people: Set<string>;
+  events: Map<string, RegistryEvent>;
+}
+
+export function lintRegistryEvent(
+  event: RegistryEvent,
+  ctx: EventLintContext,
+  path = `content/events/${event.id}.md`,
+): LintMessage[] {
+  const messages = lintEventSchema(event, path);
+  const military = event.type === 'military';
+
+  if (military) {
+    if (!event.scale) {
+      messages.push({ level: 'error', path, message: '军事事件缺少 scale' });
+    }
+    if (!event.belligerents || event.belligerents.length < 2) {
+      messages.push({ level: 'error', path, message: '军事事件至少要写两个交战方' });
+    }
+    if (event.scale === 'war' && event.place) {
+      messages.push({ level: 'error', path, message: 'war 是跨地域战争，不应写 place' });
+    }
+    if (event.scale && event.scale !== 'war' && !event.place?.trim()) {
+      messages.push({ level: 'error', path, message: `${event.scale} 缺少 place` });
+    }
+  } else {
+    if (event.scale) {
+      messages.push({ level: 'error', path, message: 'scale 只用于军事事件' });
+    }
+    if (event.belligerents) {
+      messages.push({ level: 'error', path, message: 'belligerents 只用于军事事件' });
+    }
+    if (!event.polity || event.polity.length === 0) {
+      messages.push({ level: 'error', path, message: '非军事事件缺少 polity' });
+    }
+  }
+
+  if (event.yearAccuracy === 'unknown') {
+    messages.push({ level: 'error', path, message: 'yearAccuracy 为 unknown 时不应写 year，事件上不了轴' });
+  }
+  if (event.yearAccuracy === 'disputed' && !event.yearNote?.trim()) {
+    messages.push({ level: 'error', path, message: '年份有异说必须写 yearNote' });
+  }
+  if (event.yearAccuracy === 'approx' && !event.yearNote?.trim()) {
+    messages.push({ level: 'error', path, message: '年份约略必须写 yearNote' });
+  }
+  if (event.endYear !== undefined && event.endYear < event.year) {
+    messages.push({ level: 'error', path, message: 'endYear 早于 year' });
+  }
+  if (event.year < EVENT_YEAR_MIN || event.year > EVENT_YEAR_MAX) {
+    messages.push({ level: 'error', path, message: `year ${event.year} 超出收录范围 ${EVENT_YEAR_MIN}—${EVENT_YEAR_MAX}` });
+  }
+  if (event.endYear !== undefined && (event.endYear < EVENT_YEAR_MIN || event.endYear > EVENT_YEAR_MAX)) {
+    messages.push({ level: 'error', path, message: `endYear ${event.endYear} 超出收录范围 ${EVENT_YEAR_MIN}—${EVENT_YEAR_MAX}` });
+  }
+  if (!hasReliableSource(event.sources)) {
+    messages.push({ level: 'error', path, message: '年份不能只靠 database 出处支撑，需要 classic 或 modern' });
+  }
+
+  for (const polity of [...(event.belligerents ?? []), ...(event.polity ?? [])]) {
+    if (!ctx.polityIds.has(polity)) {
+      messages.push({ level: 'error', path, message: `政权 ${polity} 不在词表中` });
+    }
+  }
+  const sides = new Set(event.belligerents ?? []);
+  for (const commander of event.commanders ?? []) {
+    if (commander.side && !sides.has(commander.side)) {
+      messages.push({ level: 'error', path, message: `主将 ${commander.id} 的 side ${commander.side} 不在 belligerents 中` });
+    }
+  }
+  for (const id of [...(event.commanders ?? []).map((item) => item.id), ...(event.people ?? [])]) {
+    if (!ctx.people.has(id)) {
+      messages.push({ level: 'error', path, message: `引用的人物不存在：${id}` });
+    }
+  }
+
+  if (event.parent !== undefined) {
+    if (event.parent === event.id) {
+      messages.push({ level: 'error', path, message: 'parent 不能指向自己' });
+    } else {
+      const parent = ctx.events.get(event.parent);
+      if (!parent) {
+        messages.push({ level: 'error', path, message: `parent ${event.parent} 不存在` });
+      } else if (parent.parent) {
+        messages.push({ level: 'error', path, message: `parent ${event.parent} 自身还有 parent，只允许两层` });
+      }
+    }
+  }
+
+  if (event.importance === 3 && !event.desc?.trim()) {
+    messages.push({ level: 'warning', path, message: 'importance 为 3 但还没写正文' });
+  }
+  if (event.name.length > 8 && !event.display) {
+    messages.push({ level: 'warning', path, message: '名称较长但没有 display，轴上标签会挤' });
+  }
+  if (military && !event.result?.trim()) {
+    messages.push({ level: 'warning', path, message: '军事事件缺少 result' });
+  }
+  if (!military && (event.sources?.length ?? 0) < 2) {
+    messages.push({ level: 'warning', path, message: '非军事事件建议两条出处' });
+  }
+  return messages;
+}
+
+function lintDynasties(dynasties: DynastyTerm[]): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const path = 'pipeline/vocab/dynasties.json';
+  const seen = new Set<string>();
+  for (const item of dynasties) {
+    if (seen.has(item.id)) {
+      messages.push({ level: 'error', path, message: `朝代 id 重复：${item.id}` });
+    }
+    seen.add(item.id);
+    if (item.from > item.to) {
+      messages.push({ level: 'error', path, message: `${item.id} 的 from 晚于 to` });
+    }
+  }
+  return messages;
+}
+
+export function lintEvents(data: PipelineData): LintMessage[] {
+  const ctx: EventLintContext = {
+    polityIds: vocabSet(data.polities),
+    people: new Set(data.people.keys()),
+    events: data.events,
+  };
+  const messages: LintMessage[] = [];
+  for (const event of data.events.values()) {
+    const path = data.eventPaths.get(event.id) ?? `content/events/${event.id}.md`;
+    messages.push(...lintRegistryEvent(event, ctx, path));
+  }
+  messages.push(...lintDynasties(data.dynasties));
   return messages;
 }
 
@@ -384,6 +565,7 @@ export function lintPipeline(data: PipelineData, compiled: Topic[]): LintMessage
   }
 
   messages.push(...lintCandidates(data));
+  messages.push(...lintEvents(data));
 
   for (const topic of compiled) {
     const linked = connectedPeople(topic);

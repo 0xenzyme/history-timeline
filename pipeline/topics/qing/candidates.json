@@ -1,3 +1,123 @@
 {
-  "people": []
+  "people": [
+    {
+      "id": "qian-qianyi",
+      "name": "钱谦益",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "清史稿卷484文苑传本传只作「越十年卒」（承顺治五年黄毓祺案），无系年卒年、无享年；通行卒年须外证（年谱、清史列传）后才能入册",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷484·文苑传·钱谦益",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "nalan-xing-de",
+      "name": "纳兰性德",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "清史稿卷484本传作「遽卒，年止三十一」，无系年卒年，且同传「康熙十四年成进士，年十六」自相矛盾；须以徐乾学墓表神道碑一类的modern考证定卒年",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷484·文苑传·性德",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhu-yizun",
+      "name": "朱彝尊",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "清史稿卷484本传末书「卒，年八十一」，前有康熙三十一年假归而无卒年；年谱外证到位再收",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷484·文苑传·朱彝尊",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yuan-mei",
+      "name": "袁枚",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "清史稿卷485本传作「卒，年八十二」，前唯乾隆四年成进士与「优游其中者五十年」，无系年卒年",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷485·文苑传·袁枚",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhao-yi",
+      "name": "赵翼",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "清史稿卷485系「嘉庆十五年重宴鹿鸣，赐三品衔。卒，年八十六」，卒年不书；享年又与通行八十七、八十八之说出入",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷485·文苑传·赵翼",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "gong-zizhen",
+      "name": "龚自珍",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "清史稿卷486传题作「龔鞏祚」，只作「年五十，卒于丹阳书院」，前有「道光时成进士」无年；须外证（系年谱）",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷486·文苑传·龚自珍",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zheng-keshuang",
+      "name": "郑克塽",
+      "seat": "end",
+      "status": "rejected",
+      "reason": "清史稿不载卒年，降清后无系年可指"
+    },
+    {
+      "id": "wang-fu-chen",
+      "name": "王辅臣",
+      "seat": "end",
+      "status": "rejected",
+      "reason": "「仰药死」一句在本库卷次中未定位到系年"
+    },
+    {
+      "id": "long-ke-na-la",
+      "name": "乾隆继后那拉氏",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "卒句待复核；清史稿本传无系年崩日"
+    },
+    {
+      "id": "hong-xi",
+      "name": "弘皙",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "削爵年明确而卒年无载"
+    },
+    {
+      "id": "wan-rong",
+      "name": "婉容",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "清史稿无传，生卒须外证"
+    }
+  ]
 }

@@ -2,7 +2,9 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { CONTRACT_VERSION } from '../src/types';
 import { compileAll, compileSearch, toPrettyJson } from './compile';
+import { EventMarkdownError } from './event-md';
 import { lintPipeline, summarizeRoster } from './lint';
 import { loadPipeline } from './load';
 import { PersonMarkdownError } from './person-md';
@@ -34,17 +36,17 @@ function main(): void {
   try {
     data = loadPipeline(pipelineRoot);
   } catch (error) {
-    if (error instanceof PersonMarkdownError) {
+    if (error instanceof PersonMarkdownError || error instanceof EventMarkdownError) {
       console.error(error.message);
       process.exit(1);
     }
     throw error;
   }
-  const { catalog, topics } = compileAll(data);
+  const { catalog, topics, events, lines } = compileAll(data);
   const lints = lintPipeline(data, topics);
   const roster = summarizeRoster(data);
   console.log(
-    `收录进度：简表 ${roster.brief} 人，详表 ${roster.full} 人，候选待核 ${roster.pending} 人，不收 ${roster.rejected} 人`,
+    `收录进度：简表 ${roster.brief} 人，详表 ${roster.full} 人，候选待核 ${roster.pending} 人，不收 ${roster.rejected} 人，事件 ${events.length} 条`,
   );
   const errors = lints.filter((item) => item.level === 'error').map((item) => `error ${item.path}: ${item.message}`);
   const warnings = lints
@@ -54,7 +56,9 @@ function main(): void {
 
   const files: Array<[string, unknown]> = [
     ['index.json', catalog],
-    ['search.json', compileSearch(topics)],
+    ['search.json', compileSearch(topics, events)],
+    ['events.json', { contractVersion: CONTRACT_VERSION, events }],
+    ...lines.map((line) => [`${line.id}.json`, line] as [string, unknown]),
     ...topics.map((topic) => [`${topic.meta.id}.json`, topic] as [string, unknown]),
   ];
 

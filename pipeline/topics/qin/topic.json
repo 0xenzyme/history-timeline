@@ -53,6 +53,11 @@
       "id": "rebel",
       "name": "秦末民变",
       "color": "#6b5b95"
+    },
+    {
+      "id": "opp",
+      "name": "对立面",
+      "color": "#7f8c8d"
     }
   ],
   "people": [
@@ -197,12 +202,56 @@
       "lane": "han"
     },
     {
+      "id": "zhou-ke",
+      "lane": "han"
+    },
+    {
+      "id": "ji-xin",
+      "lane": "han"
+    },
+    {
+      "id": "li-yi-ji",
+      "lane": "han"
+    },
+    {
       "id": "chen-sheng",
       "lane": "rebel"
     },
     {
       "id": "wu-guang",
       "lane": "rebel"
+    },
+    {
+      "id": "lao-ai",
+      "lane": "opp"
+    },
+    {
+      "id": "chen-yu",
+      "lane": "opp"
+    },
+    {
+      "id": "zhao-xie",
+      "lane": "opp"
+    },
+    {
+      "id": "tian-dan-qiwang",
+      "lane": "opp"
+    },
+    {
+      "id": "tian-rong",
+      "lane": "opp"
+    },
+    {
+      "id": "tian-heng",
+      "lane": "opp"
+    },
+    {
+      "id": "wei-bao",
+      "lane": "opp"
+    },
+    {
+      "id": "han-guang",
+      "lane": "opp"
     }
   ],
   "relationTypes": [

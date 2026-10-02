@@ -10,10 +10,13 @@
     "people:check": "tsx pipeline/people-cli.ts check",
     "people:format": "tsx pipeline/people-cli.ts format",
     "people:new": "tsx pipeline/people-cli.ts new",
+    "events:check": "tsx pipeline/events-cli.ts check",
+    "events:format": "tsx pipeline/events-cli.ts format",
+    "events:new": "tsx pipeline/events-cli.ts new",
     "taxonomy": "tsx pipeline/infer-taxonomy.ts",
     "migrate": "tsx pipeline/migrate-categories.ts",
     "overrides": "tsx pipeline/apply-overrides.ts",
-    "build": "tsc --noEmit && tsc --noEmit -p pipeline/tsconfig.json && tsx pipeline/people-cli.ts check && tsx pipeline/cli.ts --check && vite build",
+    "build": "tsc --noEmit && tsc --noEmit -p pipeline/tsconfig.json && tsx pipeline/people-cli.ts check && tsx pipeline/events-cli.ts check && tsx pipeline/cli.ts --check && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

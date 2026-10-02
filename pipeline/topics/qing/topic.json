@@ -26,8 +26,13 @@
     },
     {
       "id": "consort",
-      "name": "后妃",
+      "name": "后妃 · 外戚",
       "color": "#c98a3a"
+    },
+    {
+      "id": "kin",
+      "name": "宗室",
+      "color": "#8a5a44"
     },
     {
       "id": "chancellor",
@@ -41,12 +46,12 @@
     },
     {
       "id": "literati",
-      "name": "科技 · 文化",
+      "name": "文学 · 艺术 · 科技",
       "color": "#1f7f8f"
     },
     {
       "id": "end",
-      "name": "权臣 · 末世群雄",
+      "name": "权臣 · 末世 · 对立",
       "color": "#6b5b95"
     }
   ],
@@ -76,11 +81,23 @@
       "lane": "emperor"
     },
     {
+      "id": "jia-qing",
+      "lane": "emperor"
+    },
+    {
       "id": "dao-guang",
       "lane": "emperor"
     },
     {
       "id": "xian-feng",
+      "lane": "emperor"
+    },
+    {
+      "id": "tong-zhi",
+      "lane": "emperor"
+    },
+    {
+      "id": "ci-xi",
       "lane": "emperor"
     },
     {
@@ -92,16 +109,8 @@
       "lane": "emperor"
     },
     {
-      "id": "ci-xi",
-      "lane": "emperor"
-    },
-    {
-      "id": "jia-qing",
-      "lane": "emperor"
-    },
-    {
-      "id": "tong-zhi",
-      "lane": "emperor"
+      "id": "xiao-ci",
+      "lane": "consort"
     },
     {
       "id": "da-fei",
@@ -112,7 +121,23 @@
       "lane": "consort"
     },
     {
+      "id": "xiao-xian-qing",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-cheng-ren",
+      "lane": "consort"
+    },
+    {
       "id": "xiao-zhuang",
+      "lane": "consort"
+    },
+    {
+      "id": "tong-guo-gang",
+      "lane": "consort"
+    },
+    {
+      "id": "tong-guo-wei",
       "lane": "consort"
     },
     {
@@ -120,7 +145,11 @@
       "lane": "consort"
     },
     {
-      "id": "xiao-sheng",
+      "id": "dun-su",
+      "lane": "consort"
+    },
+    {
+      "id": "long-ke-duo",
       "lane": "consort"
     },
     {
@@ -128,7 +157,11 @@
       "lane": "consort"
     },
     {
-      "id": "xiao-he-rui",
+      "id": "xiao-yi-chun",
+      "lane": "consort"
+    },
+    {
+      "id": "xiao-sheng",
       "lane": "consort"
     },
     {
@@ -136,7 +169,7 @@
       "lane": "consort"
     },
     {
-      "id": "ci-an",
+      "id": "xiao-he-rui",
       "lane": "consort"
     },
     {
@@ -144,11 +177,51 @@
       "lane": "consort"
     },
     {
+      "id": "ci-an",
+      "lane": "consort"
+    },
+    {
       "id": "long-yu",
       "lane": "consort"
     },
     {
+      "id": "shu-erhaqi",
+      "lane": "kin"
+    },
+    {
+      "id": "chu-ying",
+      "lane": "kin"
+    },
+    {
+      "id": "yun-reng",
+      "lane": "kin"
+    },
+    {
+      "id": "yun-si",
+      "lane": "kin"
+    },
+    {
+      "id": "yun-tang",
+      "lane": "kin"
+    },
+    {
+      "id": "yun-xiang",
+      "lane": "kin"
+    },
+    {
+      "id": "yun-ti",
+      "lane": "kin"
+    },
+    {
+      "id": "yi-huan",
+      "lane": "kin"
+    },
+    {
       "id": "duo-er-gun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "hong-chengchou",
       "lane": "chancellor"
     },
     {
@@ -156,39 +229,51 @@
       "lane": "chancellor"
     },
     {
-      "id": "zhang-tingyu",
+      "id": "su-ke-sa-ha",
       "lane": "chancellor"
     },
     {
-      "id": "he-shen",
+      "id": "suo-ni",
       "lane": "chancellor"
     },
     {
-      "id": "lin-zexu",
+      "id": "e-bi-long",
       "lane": "chancellor"
     },
     {
-      "id": "yi-xin",
+      "id": "suo-e-tu",
       "lane": "chancellor"
     },
     {
-      "id": "zeng-guofan",
+      "id": "ming-zhu",
       "lane": "chancellor"
     },
     {
-      "id": "li-hongzhang",
+      "id": "zhang-yushu",
       "lane": "chancellor"
     },
     {
-      "id": "zuo-zongtang",
+      "id": "li-guangdi",
       "lane": "chancellor"
     },
     {
-      "id": "zhang-zhidong",
+      "id": "tian-wenjing",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-wei",
+      "lane": "chancellor"
+    },
+    {
+      "id": "ma-qi",
       "lane": "chancellor"
     },
     {
       "id": "e-er-tai",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-tingyu",
       "lane": "chancellor"
     },
     {
@@ -200,23 +285,91 @@
       "lane": "chancellor"
     },
     {
-      "id": "shi-lang",
+      "id": "yu-minzhong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "a-gui",
+      "lane": "chancellor"
+    },
+    {
+      "id": "he-shen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "cao-zhenyong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "lin-zexu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "mu-zhang-a",
+      "lane": "chancellor"
+    },
+    {
+      "id": "hu-lin-yi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zeng-guofan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wen-xiang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shen-baozhen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "shen-guifen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zuo-zongtang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-hongzao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yi-xin",
+      "lane": "chancellor"
+    },
+    {
+      "id": "li-hongzhang",
+      "lane": "chancellor"
+    },
+    {
+      "id": "rong-lu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "weng-tonghe",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-zhidong",
+      "lane": "chancellor"
+    },
+    {
+      "id": "fei-ying-dong",
       "lane": "general"
     },
     {
-      "id": "nian-gengyao",
+      "id": "e-yi-du",
       "lane": "general"
     },
     {
-      "id": "guan-tianpei",
+      "id": "yang-gu-li",
       "lane": "general"
     },
     {
-      "id": "deng-shichang",
-      "lane": "general"
-    },
-    {
-      "id": "feng-zicai",
+      "id": "hao-ge",
       "lane": "general"
     },
     {
@@ -224,15 +377,127 @@
       "lane": "general"
     },
     {
+      "id": "geng-zhong-ming",
+      "lane": "general"
+    },
+    {
+      "id": "a-ji-ge",
+      "lane": "general"
+    },
+    {
+      "id": "kong-you-de",
+      "lane": "general"
+    },
+    {
+      "id": "ji-er-ha-lang",
+      "lane": "general"
+    },
+    {
+      "id": "tu-hai",
+      "lane": "general"
+    },
+    {
+      "id": "shi-lang",
+      "lane": "general"
+    },
+    {
+      "id": "zhao-liang-dong",
+      "lane": "general"
+    },
+    {
+      "id": "nian-gengyao",
+      "lane": "general"
+    },
+    {
+      "id": "yue-zhong-qi",
+      "lane": "general"
+    },
+    {
+      "id": "zhao-hui",
+      "lane": "general"
+    },
+    {
+      "id": "ming-rui",
+      "lane": "general"
+    },
+    {
+      "id": "hai-lan-cha",
+      "lane": "general"
+    },
+    {
+      "id": "fu-kang-an",
+      "lane": "general"
+    },
+    {
+      "id": "yang-yu-chun",
+      "lane": "general"
+    },
+    {
+      "id": "chang-ling",
+      "lane": "general"
+    },
+    {
+      "id": "guan-tianpei",
+      "lane": "general"
+    },
+    {
       "id": "chen-huacheng",
       "lane": "general"
     },
     {
-      "id": "gu-yanwu",
+      "id": "li-xu-bin",
+      "lane": "general"
+    },
+    {
+      "id": "seng-ge-lin-qin",
+      "lane": "general"
+    },
+    {
+      "id": "peng-yu-lin",
+      "lane": "general"
+    },
+    {
+      "id": "zeng-guoquan",
+      "lane": "general"
+    },
+    {
+      "id": "deng-shichang",
+      "lane": "general"
+    },
+    {
+      "id": "zuo-bao-gui",
+      "lane": "general"
+    },
+    {
+      "id": "ding-ru-chang",
+      "lane": "general"
+    },
+    {
+      "id": "liu-bu-chan",
+      "lane": "general"
+    },
+    {
+      "id": "liu-ming-chuan",
+      "lane": "general"
+    },
+    {
+      "id": "nie-shi-cheng",
+      "lane": "general"
+    },
+    {
+      "id": "feng-zicai",
+      "lane": "general"
+    },
+    {
+      "id": "dong-fu-xiang",
+      "lane": "general"
+    },
+    {
+      "id": "wu-yeuye",
       "lane": "literati"
     },
     {
-      "id": "huang-zongxi",
+      "id": "gu-yanwu",
       "lane": "literati"
     },
     {
@@ -240,7 +505,63 @@
       "lane": "literati"
     },
     {
+      "id": "huang-zongxi",
+      "lane": "literati"
+    },
+    {
+      "id": "yan-ruoqu",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-shizhen-qing",
+      "lane": "literati"
+    },
+    {
+      "id": "fang-bao",
+      "lane": "literati"
+    },
+    {
       "id": "cao-xueqin",
+      "lane": "literati"
+    },
+    {
+      "id": "lang-shi-ning",
+      "lane": "literati"
+    },
+    {
+      "id": "dai-zhen",
+      "lane": "literati"
+    },
+    {
+      "id": "qian-daxin",
+      "lane": "literati"
+    },
+    {
+      "id": "duan-yucai",
+      "lane": "literati"
+    },
+    {
+      "id": "yao-nai",
+      "lane": "literati"
+    },
+    {
+      "id": "wei-yuan",
+      "lane": "literati"
+    },
+    {
+      "id": "li-shanlan",
+      "lane": "literati"
+    },
+    {
+      "id": "xu-shou",
+      "lane": "literati"
+    },
+    {
+      "id": "tan-sitong",
+      "lane": "literati"
+    },
+    {
+      "id": "yan-fu-qing",
       "lane": "literati"
     },
     {
@@ -252,23 +573,11 @@
       "lane": "literati"
     },
     {
-      "id": "tan-sitong",
-      "lane": "literati"
-    },
-    {
-      "id": "ao-bai",
+      "id": "li-zicheng",
       "lane": "end"
     },
     {
-      "id": "hong-xiuquan",
-      "lane": "end"
-    },
-    {
-      "id": "yuan-shikai",
-      "lane": "end"
-    },
-    {
-      "id": "wu-sangui",
+      "id": "zhang-xianzhong",
       "lane": "end"
     },
     {
@@ -276,43 +585,55 @@
       "lane": "end"
     },
     {
+      "id": "ao-bai",
+      "lane": "end"
+    },
+    {
       "id": "shang-kexi",
       "lane": "end"
     },
     {
-      "id": "xiao-ci",
-      "lane": "consort"
+      "id": "wu-sangui",
+      "lane": "end"
+    },
+    {
+      "id": "shang-zhi-xin",
+      "lane": "end"
+    },
+    {
+      "id": "wu-shifan",
+      "lane": "end"
+    },
+    {
+      "id": "zheng-jing",
+      "lane": "end"
     },
     {
       "id": "geng-jing-zhong",
       "lane": "end"
     },
     {
-      "id": "a-gui",
-      "lane": "chancellor"
+      "id": "ga-er-dan",
+      "lane": "end"
     },
     {
-      "id": "mu-zhang-a",
-      "lane": "chancellor"
+      "id": "lin-qing",
+      "lane": "end"
+    },
+    {
+      "id": "xiao-chao-gui",
+      "lane": "end"
+    },
+    {
+      "id": "yang-xiu-qing",
+      "lane": "end"
     },
     {
       "id": "su-shun",
       "lane": "end"
     },
     {
-      "id": "seng-ge-lin-qin",
-      "lane": "general"
-    },
-    {
-      "id": "hu-lin-yi",
-      "lane": "chancellor"
-    },
-    {
-      "id": "ding-ru-chang",
-      "lane": "general"
-    },
-    {
-      "id": "yang-xiu-qing",
+      "id": "chen-yu-cheng",
       "lane": "end"
     },
     {
@@ -320,8 +641,32 @@
       "lane": "end"
     },
     {
+      "id": "zhang-luo-xing",
+      "lane": "end"
+    },
+    {
+      "id": "hong-ren-gan",
+      "lane": "end"
+    },
+    {
+      "id": "hong-xiuquan",
+      "lane": "end"
+    },
+    {
       "id": "li-xiu-cheng",
       "lane": "end"
+    },
+    {
+      "id": "a-gu-bai",
+      "lane": "end"
+    },
+    {
+      "id": "yuan-shikai",
+      "lane": "end"
+    },
+    {
+      "id": "zai-feng",
+      "lane": "chancellor"
     }
   ],
   "relationTypes": [
@@ -973,6 +1318,126 @@
       "target": "xuan-tong",
       "type": "kin",
       "note": "宣统即位，隆裕以太后听政而颁逊位之诏"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "fei-ying-dong",
+      "type": "ruler-subject",
+      "note": "五大臣之一，建州起兵时的创业武将"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "e-yi-du",
+      "type": "ruler-subject",
+      "note": "五大臣之一，世袭佐领，清初元勋"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "yang-gu-li",
+      "type": "ruler-subject",
+      "note": "五大臣之首，松山阵亡，清初功臣第一条"
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "chu-ying",
+      "type": "kin",
+      "note": "长子受国政旋废，开清初储位之争先例"
+    },
+    {
+      "source": "hong-taiji",
+      "target": "hao-ge",
+      "type": "kin",
+      "note": "皇太极长子，争位失败，与多尔衮对立"
+    },
+    {
+      "source": "hao-ge",
+      "target": "duo-er-gun",
+      "type": "rival",
+      "note": "皇太极崩后争立，豪格败于多尔衮"
+    },
+    {
+      "source": "ji-er-ha-lang",
+      "target": "duo-er-gun",
+      "type": "peer",
+      "note": "同辅政郑亲王，多尔衮生前受制，1651 反噬议罪"
+    },
+    {
+      "source": "kang-xi",
+      "target": "yun-reng",
+      "type": "kin",
+      "note": "密建储位立为皇太子，两立两废"
+    },
+    {
+      "source": "kang-xi",
+      "target": "li-guangdi",
+      "type": "ruler-subject",
+      "note": "翰林出身久任直省，入值南书房参密谋"
+    },
+    {
+      "source": "kang-xi",
+      "target": "ma-qi",
+      "type": "ruler-subject",
+      "note": "康熙朝入相，历康雍乾三朝元老"
+    },
+    {
+      "source": "qian-long",
+      "target": "yu-minzhong",
+      "type": "ruler-subject",
+      "note": "状元入军机，傅恒之后领班"
+    },
+    {
+      "source": "qian-long",
+      "target": "fu-kang-an",
+      "type": "ruler-subject",
+      "note": "领班军机大臣八年"
+    },
+    {
+      "source": "qian-long",
+      "target": "ga-er-dan",
+      "type": "rival",
+      "note": "准噶尔东犯，三驾亲征与乌兰布通之役"
+    },
+    {
+      "source": "jia-qing",
+      "target": "chang-ling",
+      "type": "ruler-subject",
+      "note": "白莲教与回疆两役宿将，嘉庆朝统兵大员"
+    },
+    {
+      "source": "jia-qing",
+      "target": "yang-yu-chun",
+      "type": "ruler-subject",
+      "note": "平川楚白莲教、定回疆，提督起家至陕甘总督"
+    },
+    {
+      "source": "jia-qing",
+      "target": "cao-zhenyong",
+      "type": "ruler-subject",
+      "note": "嘉道两朝承旨久直军机"
+    },
+    {
+      "source": "yi-huan",
+      "target": "zai-feng",
+      "type": "kin",
+      "note": "奕譞第五子，1890 袭第二代醇亲王"
+    },
+    {
+      "source": "zai-feng",
+      "target": "xuan-tong",
+      "type": "kin",
+      "note": "溥仪生父；1908 年幼子入承大统，载沣以监国摄政王掌实际君权"
+    },
+    {
+      "source": "guang-xu",
+      "target": "zai-feng",
+      "type": "kin",
+      "note": "同父异母弟；光绪崩后载沣摄政，兄弟相继为清代皇权过渡一环"
+    },
+    {
+      "source": "ci-xi",
+      "target": "zai-feng",
+      "type": "ruler-subject",
+      "note": "慈禧命其为军机大臣兼摄政，旋于宣统三年被迫辞职"
     }
   ],
   "events": [
@@ -1134,7 +1599,8 @@
       "people": [
         "yuan-shikai",
         "xuan-tong",
-        "long-yu"
+        "long-yu",
+        "zai-feng"
       ],
       "desc": "武昌起义，各省响应；袁世凯逼宫，宣统退位，两千年帝制终结，清祚终。"
     },
@@ -1311,20 +1777,30 @@
         "nu-er-ha-chi",
         "hong-taiji",
         "fu-lin",
-        "duo-er-gun",
-        "wu-sangui",
         "kang-xi",
-        "ao-bai",
-        "shi-lang",
         "xiao-ci",
         "da-fei",
-        "fan-wencheng",
         "xiao-duan",
         "xiao-zhuang",
-        "zheng-chenggong",
+        "chu-ying",
+        "yun-reng",
+        "duo-er-gun",
+        "fan-wencheng",
+        "li-guangdi",
+        "ma-qi",
+        "fei-ying-dong",
+        "e-yi-du",
+        "yang-gu-li",
+        "hao-ge",
+        "ji-er-ha-lang",
+        "shi-lang",
+        "zhao-liang-dong",
         "gu-yanwu",
-        "huang-zongxi",
         "wang-fuzhi",
+        "huang-zongxi",
+        "zheng-chenggong",
+        "ao-bai",
+        "wu-sangui",
         "geng-jing-zhong"
       ],
       "events": [
@@ -1351,17 +1827,24 @@
         "kang-xi",
         "yong-zheng",
         "qian-long",
-        "zhang-tingyu",
-        "he-shen",
-        "nian-gengyao",
+        "jia-qing",
         "xiao-gong",
-        "xiao-sheng",
         "xiao-xian",
+        "xiao-sheng",
+        "yun-reng",
+        "li-guangdi",
+        "ma-qi",
         "e-er-tai",
+        "zhang-tingyu",
         "fu-heng",
         "liu-tongxun",
+        "yu-minzhong",
         "a-gui",
-        "cao-xueqin"
+        "he-shen",
+        "nian-gengyao",
+        "fu-kang-an",
+        "cao-xueqin",
+        "ga-er-dan"
       ],
       "events": [
         "qing-kangyongqian",
@@ -1372,73 +1855,127 @@
     {
       "id": "shuai",
       "name": "嘉道中衰",
-      "from": 1780,
+      "from": 1796,
       "to": 1850,
       "focus": "jia-qing",
-      "brief": "这一窗接住盛世的尾巴：嘉庆亲政即诛和珅，白莲一役拖了十年；仁宗暴崩于热河，孝和睿皇后传旨定宣宗嗣位。道光朝穆彰阿久柄政，主抚之论已成朝论，而海上的事已经起头。",
+      "brief": "这一窗接住盛世的尾巴：嘉庆亲政即诛和珅，白莲一役拖了十年；仁宗暴崩于热河，孝和睿皇后传旨定宣宗嗣位。道光朝穆彰阿久柄政，主抚之论已成朝论。林则徐虎门销烟、英舰叩关，海上的事终于起了头。窗口上沿推到乾隆内禅：和珅伏法即在嘉庆元年，川楚白莲一役长龄、杨遇春并起；金田拜会上线，洪杨石诸人已在窗内露头。",
       "people": [
         "jia-qing",
-        "he-shen",
-        "xiao-he-rui",
         "dao-guang",
+        "xian-feng",
         "xiao-quan",
-        "mu-zhang-a"
+        "xiao-he-rui",
+        "he-shen",
+        "cao-zhenyong",
+        "lin-zexu",
+        "mu-zhang-a",
+        "yi-xin",
+        "yang-yu-chun",
+        "chang-ling",
+        "guan-tianpei",
+        "chen-huacheng",
+        "yang-xiu-qing",
+        "su-shun",
+        "shi-da-kai",
+        "hong-xiuquan"
       ],
       "events": [
         "qing-jiaqing",
-        "qing-jiadao"
+        "qing-jiadao",
+        "qing-yapian"
       ]
     },
     {
       "id": "bian",
       "name": "晚清变局",
-      "from": 1830,
+      "from": 1894,
       "to": 1970,
-      "focus": "dao-guang",
+      "focus": "guang-xu",
       "people": [
-        "dao-guang",
-        "lin-zexu",
-        "guan-tianpei",
-        "hong-xiuquan",
-        "zeng-guofan",
-        "yi-xin",
-        "li-hongzhang",
-        "zuo-zongtang",
-        "zhang-zhidong",
-        "guang-xu",
         "ci-xi",
+        "guang-xu",
+        "xuan-tong",
+        "long-yu",
+        "rong-lu",
+        "weng-tonghe",
+        "zhang-zhidong",
+        "tan-sitong",
+        "yan-fu-qing",
         "kang-youwei",
         "liang-qichao",
-        "tan-sitong",
-        "deng-shichang",
         "yuan-shikai",
-        "xuan-tong",
-        "ci-an",
-        "xiao-zhe",
-        "long-yu",
-        "su-shun",
-        "seng-ge-lin-qin",
-        "hu-lin-yi",
-        "ding-ru-chang",
-        "feng-zicai",
-        "yang-xiu-qing",
-        "shi-da-kai",
-        "li-xiu-cheng",
-        "xian-feng"
+        "zai-feng"
       ],
       "events": [
-        "qing-yapian",
-        "qing-taiping",
-        "qing-yangwu",
         "qing-jiawu",
         "qing-wuxu",
-        "qing-xinhai",
-        "qing-yingfa",
+        "qing-xinhai"
+      ],
+      "brief": "甲午一败涂地，戊戌维新百日而终，慈禧政变杀六君子、囚光绪。翁同龢逐于政变之前，谭嗣同六君子之一，严复译《天演论》为变局张本。庚子拳乱、八国联军入京，慈禧挟帝西狩。辛亥枪响，各省独立，袁世凯逼宫，宣统退位，两千年帝制落幕。退位之后并不即断：康、梁、严复、溥仪诸条拖到 1921、1927、1929 与 1967。 摄政王载沣为溥仪生父，辛亥辞去摄政、赞成本子退位，一条拖到 1951。"
+    },
+    {
+      "id": "taiping",
+      "name": "太平天国",
+      "from": 1850,
+      "to": 1864,
+      "focus": "hong-xiuquan",
+      "people": [
+        "xian-feng",
+        "ci-xi",
+        "ci-an",
+        "hu-lin-yi",
+        "zeng-guofan",
+        "zuo-zongtang",
+        "yi-xin",
+        "li-hongzhang",
+        "seng-ge-lin-qin",
+        "yang-xiu-qing",
+        "su-shun",
+        "shi-da-kai",
+        "hong-ren-gan",
+        "hong-xiuquan",
+        "li-xiu-cheng"
+      ],
+      "events": [
+        "qing-taiping",
+        "qing-yingfa"
+      ],
+      "brief": "洪秀全金田起事，建号太平天国，席卷半壁江山。曾国藩湘军苦战，胡林翼争武昌九江，僧格林沁马队破北伐之师。天京事变杨秀清被杀、石达开出走，内部分裂；英法联军北犯，圆明园被焚，咸丰奔热河。"
+    },
+    {
+      "id": "yangwu",
+      "name": "洋务运动",
+      "from": 1860,
+      "to": 1895,
+      "focus": "yi-xin",
+      "people": [
+        "tong-zhi",
+        "ci-xi",
+        "guang-xu",
+        "ci-an",
+        "zeng-guofan",
+        "wen-xiang",
+        "shen-baozhen",
+        "zuo-zongtang",
+        "li-hongzao",
+        "yi-xin",
+        "li-hongzhang",
+        "weng-tonghe",
+        "zhang-zhidong",
+        "deng-shichang",
+        "ding-ru-chang",
+        "liu-ming-chuan",
+        "feng-zicai",
+        "su-shun"
+      ],
+      "events": [
+        "qing-yangwu",
         "qing-xinyou",
         "qing-tongzhibeng",
-        "qing-zhongfa"
+        "qing-zhongfa",
+        "qing-jiawu"
       ],
-      "brief": "鸦片战火开局，太平天国撼基；曾左李以洋务图强，甲午一败涂地。戊戌维新遇慈禧政变，辛亥枪响、袁世凯逼宫，宣统退位，帝制落幕。此后只剩三条尾巴：康、梁止于 1927、1929，溥仪一条拖到 1967。"
+      "brief": "辛酉政变两宫垂帘，恭亲王奕䜣与曾国藩推行洋务。李鸿章、左宗棠、张之洞办工厂、建船政、练新军、派留学生。中法战争镇南关大捷仍议和收场，甲午北洋覆灭，自强之梦碎。 奕訢、文祥当枢廷，翁同龢以帝师入军机与北洋立异；光绪亲政而实不出慈禧之手，严复译《天演》其说大行。"
     }
   ]
 }

@@ -1,6 +1,56 @@
-import { CONTRACT_VERSION, type Catalog, type Person, type SearchRecord, type Topic } from '../src/types';
+import {
+  CONTRACT_VERSION,
+  type Catalog,
+  type CatalogLine,
+  type DynastyTerm,
+  type EventLineView,
+  type EventRecord,
+  type Person,
+  type SearchRecord,
+  type Topic,
+} from '../src/types';
 import { validateCatalog, validateTopic } from '../src/contract';
-import type { PersonOverlay, PipelineData, RegistryPerson } from './types';
+import { buildSegments } from './segments';
+import type { PersonOverlay, PipelineData, RegistryEvent, RegistryPerson } from './types';
+
+/** 两条时间线的收录范围。含夏商，止于民国结束。 */
+export const EVENT_RANGE: [number, number] = [-1600, 1949];
+
+const LINES: CatalogLine[] = [
+  { id: 'people', title: '人物', subtitle: '按朝代专题编排', axis: 'topic' },
+  {
+    id: 'military',
+    title: '军事',
+    subtitle: '战争 · 战役 · 会战',
+    axis: 'time',
+    file: 'military.json',
+    range: EVENT_RANGE,
+  },
+  {
+    id: 'history',
+    title: '历史事件',
+    subtitle: '政变 · 变法 · 盟约 · 文化',
+    axis: 'time',
+    file: 'history.json',
+    range: EVENT_RANGE,
+  },
+];
+
+function lineTitle(id: 'military' | 'history'): string {
+  return id === 'military' ? '军事' : '历史事件';
+}
+
+/** 军事目录收全部军事事件；历史事件目录收全部非军事事件 + importance 2 以上的军事事件。 */
+function inLine(event: EventRecord, line: 'military' | 'history'): boolean {
+  if (line === 'military') return event.type === 'military';
+  return event.type !== 'military' || event.importance >= 2;
+}
+
+/** 事件的年份区间与朝代区间有交集即命中。只是筛选标签，不是归属判定。 */
+export function dynastyHits(dynasties: DynastyTerm[], year: number, endYear?: number): string[] {
+  const to = endYear ?? year;
+  return dynasties.filter((item) => item.from <= to && item.to >= year).map((item) => item.id);
+}
 
 /** 未显式指定 primary 时，按词表 rank 取最高的分类作为主分类 */
 export function primaryOf(categories: string[], ranks: Map<string, number>): string | undefined {
@@ -85,10 +135,65 @@ export function compileCatalog(data: PipelineData): Catalog {
       eras: draft.catalog.eras,
       themes: draft.catalog.themes,
     })),
+    lines: LINES,
   };
 }
 
-export function compileSearch(topics: Topic[]): SearchRecord[] {
+/** 事件实体编译。kind 由 endYear 推导，display 回退 name。 */
+export function compileEvent(registry: RegistryEvent, dynasties: DynastyTerm[]): EventRecord {
+  return {
+    id: registry.id,
+    name: registry.name,
+    display: registry.display ?? registry.name,
+    kind: registry.endYear === undefined ? 'point' : 'span',
+    type: registry.type,
+    scale: registry.scale,
+    importance: registry.importance,
+    year: registry.year,
+    yearAccuracy: registry.yearAccuracy,
+    yearNote: registry.yearNote,
+    endYear: registry.endYear,
+    endYearAccuracy: registry.endYearAccuracy,
+    place: registry.place,
+    placeNow: registry.placeNow,
+    belligerents: registry.belligerents,
+    polity: registry.polity,
+    commanders: registry.commanders,
+    people: registry.people,
+    result: registry.result,
+    parent: registry.parent,
+    aliases: registry.aliases,
+    tags: registry.tags,
+    dynasties: dynastyHits(dynasties, registry.year, registry.endYear),
+    desc: registry.desc,
+    sources: registry.sources,
+  };
+}
+
+/** 全量实体，按 id 排序，保证产物确定。 */
+export function compileEvents(data: PipelineData): EventRecord[] {
+  return [...data.events.values()]
+    .sort((left, right) => left.id.localeCompare(right.id))
+    .map((registry) => compileEvent(registry, data.dynasties));
+}
+
+export function compileLine(data: PipelineData, line: 'military' | 'history'): EventLineView {
+  const meta = LINES.find((item) => item.id === line);
+  if (!meta) throw new Error(`没有这条内容线：${line}`);
+  const events = compileEvents(data).filter((event) => inLine(event, line));
+  return {
+    contractVersion: CONTRACT_VERSION,
+    id: line,
+    title: meta.title,
+    subtitle: meta.subtitle,
+    range: EVENT_RANGE,
+    segments: buildSegments(events, EVENT_RANGE),
+    dynasties: data.dynasties,
+    events,
+  };
+}
+
+export function compileSearch(topics: Topic[], events: EventRecord[]): SearchRecord[] {
   const rows: SearchRecord[] = [];
   for (const topic of topics) {
     for (const person of topic.people) {
@@ -112,12 +217,36 @@ export function compileSearch(topics: Topic[]): SearchRecord[] {
       rows.push(row);
     }
   }
+  for (const event of events) {
+    const line = inLine(event, 'history') ? 'history' : 'military';
+    const row: SearchRecord = {
+      id: event.id,
+      name: event.name,
+      display: event.display,
+      kind: 'event',
+      year: event.year,
+      yearAccuracy: event.yearAccuracy,
+      type: event.type,
+      importance: event.importance,
+      topicId: line,
+      topicTitle: lineTitle(line),
+    };
+    if (event.endYear !== undefined) row.endYear = event.endYear;
+    rows.push(row);
+  }
   return rows;
 }
 
-export function compileAll(data: PipelineData): { catalog: Catalog; topics: Topic[] } {
+export function compileAll(data: PipelineData): {
+  catalog: Catalog;
+  topics: Topic[];
+  events: EventRecord[];
+  lines: EventLineView[];
+} {
   const catalog = compileCatalog(data);
   const topics = data.topics.map((draft) => compileTopic(data, draft.meta.id));
+  const events = compileEvents(data);
+  const lines = [compileLine(data, 'military'), compileLine(data, 'history')];
   const problems = [
     ...validateCatalog(catalog).map((item) => `目录：${item}`),
     ...topics.flatMap((topic) => validateTopic(topic, topic.meta.id).map((item) => `${topic.meta.id}：${item}`)),
@@ -125,7 +254,7 @@ export function compileAll(data: PipelineData): { catalog: Catalog; topics: Topi
   if (problems.length > 0) {
     throw new Error(`编译校验未通过（${problems.length} 项）：\n${problems.join('\n')}`);
   }
-  return { catalog, topics };
+  return { catalog, topics, events, lines };
 }
 
 export function toPrettyJson(value: unknown): string {

@@ -1,0 +1,159 @@
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+import { lintRegistryEvent } from './lint';
+import {
+  EVENT_DIR,
+  EVENT_ID_PATTERN,
+  EVENT_INDEX_NAME,
+  EVENT_TEMPLATE,
+  coerceEventMarkdown,
+  eventIndexRows,
+  formatEventIndex,
+  formatEventMarkdown,
+  parseEventMarkdown,
+  publishedEventMarkdown,
+  readEventMarkdown,
+} from './event-md';
+import type { LintMessage, RegistryEvent } from './types';
+
+const pipelineRoot = dirname(fileURLToPath(import.meta.url));
+const repoRoot = join(pipelineRoot, '..');
+const contentRoot = join(repoRoot, 'content');
+const eventDir = join(contentRoot, EVENT_DIR);
+
+function usage(): void {
+  console.error(`用法：
+  npm run events:check
+  npm run events:format
+  npm run events:new -- <id>`);
+  process.exit(1);
+}
+
+function vocabIds(name: string): Set<string> {
+  const rows = JSON.parse(readFileSync(join(pipelineRoot, 'vocab', name), 'utf8')) as Array<{ id: string }>;
+  return new Set(rows.map((row) => row.id));
+}
+
+/** 只扫文件名，不解析全文：校验事件引用的人物是否存在，用不到人物的字段。 */
+function personIds(): Set<string> {
+  const ids = new Set<string>();
+  const registry = join(pipelineRoot, 'registry', 'people');
+  for (const name of readdirSync(registry)) {
+    if (name.endsWith('.json')) ids.add(name.slice(0, -'.json'.length));
+  }
+  const order = JSON.parse(readFileSync(join(pipelineRoot, 'topics.json'), 'utf8')) as string[];
+  for (const topic of order) {
+    const directory = join(contentRoot, topic);
+    if (!existsSync(directory)) continue;
+    for (const name of readdirSync(directory)) {
+      if (name.endsWith('.md') && !name.startsWith('_')) ids.add(name.slice(0, -'.md'.length));
+    }
+  }
+  return ids;
+}
+
+function eventMap(): Map<string, RegistryEvent> {
+  const events = new Map<string, RegistryEvent>();
+  for (const file of publishedEventMarkdown(readEventMarkdown(contentRoot))) {
+    if (file.event) events.set(file.event.id, file.event);
+  }
+  return events;
+}
+
+function commandCheck(): void {
+  const files = readEventMarkdown(contentRoot);
+  const messages: LintMessage[] = files.flatMap((file) => file.messages);
+  const ctx = { polityIds: vocabIds('polities.json'), people: personIds(), events: eventMap() };
+
+  for (const file of publishedEventMarkdown(files)) {
+    if (!file.event) continue;
+    messages.push(...lintRegistryEvent(file.event, ctx, file.path));
+  }
+
+  const warnings = messages.filter((item) => item.level === 'warning');
+  const errors = messages.filter((item) => item.level === 'error');
+  for (const item of warnings) console.warn(`warning ${item.path}: ${item.message}`);
+  if (errors.length > 0) {
+    console.error(errors.map((item) => `error ${item.path}: ${item.message}`).join('\n'));
+    process.exit(1);
+  }
+  const published = publishedEventMarkdown(files).length;
+  console.log(`events check passed：模板 1，索引 1，事件 ${published} 条`);
+}
+
+function rewriteEventIndex(): boolean {
+  if (!existsSync(eventDir)) return false;
+  const names = readdirSync(eventDir).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
+  const files = names.map((name) =>
+    parseEventMarkdown(readFileSync(join(eventDir, name), 'utf8'), `content/${EVENT_DIR}/${name}`),
+  );
+  const rows = eventIndexRows(files);
+  if (!rows) return false;
+  const next = formatEventIndex(rows);
+  const indexPath = join(contentRoot, EVENT_INDEX_NAME);
+  const current = existsSync(indexPath) ? readFileSync(indexPath, 'utf8').replace(/\r\n/g, '\n') : '';
+  if (current === next) return false;
+  writeFileSync(indexPath, next);
+  console.log(`已整理 content/${EVENT_INDEX_NAME}`);
+  return true;
+}
+
+function commandFormat(): void {
+  if (!existsSync(eventDir)) {
+    console.error(`没有 content/${EVENT_DIR}/，先跑 npm run events:new -- <id>`);
+    process.exit(1);
+  }
+  let changed = 0;
+  const names = readdirSync(eventDir).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
+  let failed = false;
+  for (const name of names) {
+    const path = `content/${EVENT_DIR}/${name}`;
+    const original = readFileSync(join(eventDir, name), 'utf8').replace(/\r\n/g, '\n');
+    const result = coerceEventMarkdown(original);
+    if (result.error || !result.formatted) {
+      console.error(`${path}: ${result.error ?? '无法整理'}`);
+      process.exitCode = 1;
+      failed = true;
+      continue;
+    }
+    if (result.dropped.length > 0) console.warn(`${path}: 去掉文首字段 ${result.dropped.join('、')}`);
+    if (result.movedDesc) console.warn(`${path}: desc 已从文首移到正文`);
+    if (result.formatted === original) continue;
+    writeFileSync(join(eventDir, name), result.formatted);
+    changed += 1;
+    console.log(`已整理 ${path}`);
+  }
+  if (failed) process.exit(process.exitCode ?? 1);
+  if (rewriteEventIndex()) changed += 1;
+  console.log(changed === 0 ? '事件 Markdown 已是规定格式' : `整理了 ${changed} 个文件`);
+}
+
+function commandNew(id: string | undefined): void {
+  if (!id || !EVENT_ID_PATTERN.test(id)) {
+    console.error('id 必须是小写 kebab-case，例如 yehuling-zhizhan');
+    process.exit(1);
+  }
+  const target = join(eventDir, `${id}.md`);
+  if (existsSync(target)) {
+    console.error(`事件 ${id} 已存在，不新建`);
+    process.exit(1);
+  }
+  mkdirSync(eventDir, { recursive: true });
+  const event: RegistryEvent = {
+    ...EVENT_TEMPLATE,
+    id,
+    sources: EVENT_TEMPLATE.sources.map((source) => ({ ...source })),
+  };
+  writeFileSync(target, formatEventMarkdown(event));
+  rewriteEventIndex();
+  console.log(`已写 content/${EVENT_DIR}/${id}.md`);
+  console.log('这是会战骨架。改 name、place、belligerents 和出处；换 type 时同步改 scale 与必填字段。模板里的占位不能编译上轴。');
+}
+
+const command = process.argv[2];
+if (command === 'check') commandCheck();
+else if (command === 'format') commandFormat();
+else if (command === 'new') commandNew(process.argv[3]);
+else usage();

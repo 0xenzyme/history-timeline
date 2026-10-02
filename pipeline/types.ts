@@ -1,11 +1,49 @@
-import type { Accuracy, Gender, Lane, Relation, RelationType, TimelineEvent, View } from '../src/types';
+import type {
+  Accuracy,
+  DynastyTerm,
+  EventCommander,
+  EventImportance,
+  EventScale,
+  EventType,
+  Gender,
+  Lane,
+  Relation,
+  RelationType,
+  SourceRef,
+  TimelineEvent,
+  View,
+} from '../src/types';
 
-export interface SourceRef {
-  work: string;
-  part?: string;
-  note?: string;
-  /** 出处类型：典籍 / 现代考证 / 外部数据库（只作候选）。省略按 classic 处理 */
-  kind?: 'classic' | 'modern' | 'database';
+export type { DynastyTerm, SourceRef };
+
+/** 事件登记。kind 由 endYear 推导，不录入；desc 只从 Markdown 正文来。 */
+export interface RegistryEvent {
+  id: string;
+  name: string;
+  /** 轴上短标签。name 过长时必填 */
+  display?: string;
+  type: EventType;
+  /** 仅 type=military 时有值 */
+  scale?: EventScale;
+  importance: EventImportance;
+  year: number;
+  yearAccuracy: Accuracy;
+  yearNote?: string;
+  endYear?: number;
+  endYearAccuracy?: Accuracy;
+  place?: string;
+  placeNow?: string;
+  belligerents?: string[];
+  polity?: string[];
+  commanders?: EventCommander[];
+  people?: string[];
+  result?: string;
+  /** 父事件 id，只允许两层：战争 → 其下战役 */
+  parent?: string;
+  aliases?: string[];
+  tags?: string[];
+  sources: SourceRef[];
+  desc?: string;
 }
 
 export interface RegistryPerson {
@@ -106,9 +144,15 @@ export interface PipelineData {
   themes: VocabFile[];
   categories: CategoryFile[];
   polities: VocabFile[];
+  /** 朝代年份区间表。只用于筛选与分段标签，不用于推导归属。 */
+  dynasties: DynastyTerm[];
   people: Map<string, RegistryPerson>;
   /** 人物 id → 相对仓库根的源文件。存量 JSON 与新 Markdown 各一条。 */
   personPaths: Map<string, string>;
+  /** 事件实体库。全局唯一 id，可被军事与历史事件两条目录引用。 */
+  events: Map<string, RegistryEvent>;
+  /** 事件 id → 相对仓库根的源文件。 */
+  eventPaths: Map<string, string>;
   topics: TopicDraft[];
   /** 键是专题 id */
   candidates: Map<string, CandidateEntry[]>;

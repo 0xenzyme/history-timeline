@@ -48,7 +48,9 @@ export function buildSearchRows(
   if (local.length > 0) return { rows: local, notice: null, pending: false };
   if (!index) return { rows: [], notice: null, pending: true };
 
+  // 事件行等阶段二再进搜索，先把它们挡在人物结果之外
   const remote = index
+    .filter((record) => (record.kind ?? 'person') === 'person')
     .filter((record) => record.topicId !== topic.meta.id)
     .map((record) => ({
       record,
@@ -88,8 +90,8 @@ function rowFromRecord(record: SearchRecord, note: string | null): SearchRow {
     name: record.name,
     display: record.display,
     lane: '',
-    birthAccuracy: record.birthAccuracy,
-    deathAccuracy: record.deathAccuracy,
+    birthAccuracy: record.birthAccuracy ?? 'unknown',
+    deathAccuracy: record.deathAccuracy ?? 'unknown',
   };
   if (record.birth !== undefined) person.birth = record.birth;
   if (record.death !== undefined) person.death = record.death;
