@@ -1,0 +1,33 @@
+---
+id: feng-yansi
+name: 冯延巳
+display: 冯延巳
+profile: full
+gender: male
+polity:
+  - shiguo
+categories:
+  - literature
+  - poetry
+  - minister
+primary: literature
+birth: 903
+birthAccuracy: approx
+birthNote: 建隆元年卒于金陵，年五十八，上推生年。
+death: 960
+deathAccuracy: exact
+title: 吹皱一池春水，开北宋一代风气
+tags:
+  - 十国
+  - 南唐
+aliases:
+  - 冯延嗣
+sources:
+  - work: 十国春秋
+    part: 南唐
+    kind: classic
+  - work: 马书
+    kind: classic
+---
+
+广陵人，字正中。少与元宗游处，及即位累拜右仆射同平章事，出镇洪州、再入相。辩说纵横，竞权于宋齐丘之党。其词深婉开宕，中主戏曰"吹皱一池春水，干卿何事"；晏殊、欧阳修辈皆祖其体。建隆初卒。

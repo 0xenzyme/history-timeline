@@ -50,6 +50,11 @@
       "color": "#8f4a55"
     },
     {
+      "id": "yunnan",
+      "name": "云南 · 西南",
+      "color": "#a4762e"
+    },
+    {
       "id": "end",
       "name": "禅代 · 归宋",
       "color": "#6b5b95"
@@ -177,7 +182,7 @@
       "lane": "shiguo"
     },
     {
-      "id": "gao-baozheng",
+      "id": "gao-baoxu",
       "lane": "shiguo"
     },
     {
@@ -201,7 +206,7 @@
       "lane": "chancellor"
     },
     {
-      "id": "wang-pu-906",
+      "id": "wang-pu-915",
       "lane": "chancellor"
     },
     {
@@ -285,6 +290,62 @@
       "lane": "khitan"
     },
     {
+      "id": "yelv-ruan",
+      "lane": "khitan"
+    },
+    {
+      "id": "yelv-jing-931",
+      "lane": "khitan"
+    },
+    {
+      "id": "yelv-xian",
+      "lane": "khitan"
+    },
+    {
+      "id": "zheng-maisi",
+      "lane": "yunnan"
+    },
+    {
+      "id": "zheng-renmin",
+      "lane": "yunnan"
+    },
+    {
+      "id": "zheng-longdan",
+      "lane": "yunnan"
+    },
+    {
+      "id": "zhao-shanzheng",
+      "lane": "yunnan"
+    },
+    {
+      "id": "yang-ganzhen",
+      "lane": "yunnan"
+    },
+    {
+      "id": "yang-zhao-yining",
+      "lane": "yunnan"
+    },
+    {
+      "id": "duan-siping",
+      "lane": "yunnan"
+    },
+    {
+      "id": "duan-siying",
+      "lane": "yunnan"
+    },
+    {
+      "id": "duan-siliang",
+      "lane": "yunnan"
+    },
+    {
+      "id": "duan-sicong",
+      "lane": "yunnan"
+    },
+    {
+      "id": "duan-sushun",
+      "lane": "yunnan"
+    },
+    {
       "id": "zhao-kuangyin",
       "lane": "end"
     },
@@ -360,6 +421,96 @@
       "target": "yelv-abaoji",
       "type": "rival",
       "note": "云州会盟约为兄弟，已而契丹附梁"
+    },
+    {
+      "source": "yelv-abaoji",
+      "target": "yelv-deguang",
+      "type": "kin",
+      "note": "父子，以德光为天下兵马大元帅，灭晋之役自将"
+    },
+    {
+      "source": "yelv-deguang",
+      "target": "yelv-ruan",
+      "type": "kin",
+      "note": "叔侄，北归暴卒，永康王为军中所立"
+    },
+    {
+      "source": "yelv-ruan",
+      "target": "yelv-jing-931",
+      "type": "kin",
+      "note": "从兄弟，察割之变，寿安王讨平乱党而即位"
+    },
+    {
+      "source": "yelv-jing-931",
+      "target": "yelv-xian",
+      "type": "kin",
+      "note": "从叔侄，穆宗遇弑无嗣，世宗次子入继"
+    },
+    {
+      "source": "chai-rong",
+      "target": "yelv-jing-931",
+      "type": "rival",
+      "note": "北伐下三关，睡王不设备，曰此本汉地今以还主"
+    },
+    {
+      "source": "liu-chengjun",
+      "target": "yelv-jing-931",
+      "type": "ruler-subject",
+      "note": "称男事辽，乞师以存"
+    },
+    {
+      "source": "zheng-maisi",
+      "target": "zheng-renmin",
+      "type": "kin",
+      "note": "父子，大长和二世"
+    },
+    {
+      "source": "zheng-renmin",
+      "target": "zheng-longdan",
+      "type": "kin",
+      "note": "父子，三世而国亡"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "zheng-renmin",
+      "type": "rival",
+      "note": "乾化四年寇黎州，为蜀兵所破"
+    },
+    {
+      "source": "yang-ganzhen",
+      "target": "zheng-longdan",
+      "type": "rival",
+      "note": "东川节度使弑主，大长和亡"
+    },
+    {
+      "source": "yang-ganzhen",
+      "target": "zhao-shanzheng",
+      "type": "rival",
+      "note": "拥立复废之，十月而移国祚"
+    },
+    {
+      "source": "yang-zhao-yining",
+      "target": "yang-ganzhen",
+      "type": "kin",
+      "note": "兄弟相废，杨氏二主"
+    },
+    {
+      "source": "duan-siping",
+      "target": "yang-zhao-yining",
+      "type": "rival",
+      "note": "联三十七部起兵，灭大义宁"
+    },
+    {
+      "source": "duan-siping",
+      "target": "duan-siying",
+      "type": "kin",
+      "note": "父子，思英逾年而为僧"
+    },
+    {
+      "source": "duan-siliang",
+      "target": "duan-siying",
+      "type": "rival",
+      "note": "叔废侄而自立，大理之统转入思良一系"
     },
     {
       "source": "zhu-wen",
@@ -477,9 +628,9 @@
     },
     {
       "source": "liu-chong",
-      "target": "yelv-deguang",
+      "target": "yelv-jing-931",
       "type": "ruler-subject",
-      "note": "北汉称臣于契丹，约为父子之国"
+      "note": "称侄乞师，辽册为大汉神武皇帝，恃以抗周"
     },
     {
       "source": "liu-chong",
@@ -507,7 +658,7 @@
     },
     {
       "source": "chai-rong",
-      "target": "wang-pu-906",
+      "target": "wang-pu-915",
       "type": "ruler-subject",
       "note": "枢密首席，平边之策所自出"
     },
@@ -752,7 +903,7 @@
       "note": "借晋兵而有卢龙，已而背之"
     },
     {
-      "source": "gao-baozheng",
+      "source": "gao-baoxu",
       "target": "gao-ji-xing",
       "type": "kin",
       "note": "祖孙相继，仅守三州"
@@ -828,6 +979,17 @@
         "li-congke"
       ],
       "desc": "河东举兵，契丹主自雁门来援，约割卢龙雁门以北；唐废帝自焚，后晋立。"
+    },
+    {
+      "id": "wudai-937-dali",
+      "name": "段思平建大理",
+      "kind": "point",
+      "year": 937,
+      "people": [
+        "duan-siping",
+        "yang-zhao-yining"
+      ],
+      "desc": "通海节度使段思平联滇东三十七部起兵，灭大义宁，建国号大理；云南自成一系，不复入中原之数。"
     },
     {
       "id": "wudai-947",
@@ -1001,6 +1163,7 @@
         "liu-zhiyuan",
         "liu-chengyou",
         "yelv-deguang",
+        "yelv-ruan",
         "he-ning",
         "liu-xu"
       ],
@@ -1020,11 +1183,12 @@
         "guo-wei",
         "chai-rong",
         "chai-zongxun",
-        "wang-pu-906",
+        "wang-pu-915",
         "fan-aineng",
         "he-hui",
         "liu-chong",
         "liu-chengjun",
+        "yelv-jing-931",
         "feng-dao",
         "fan-zhi",
         "wang-pu",
@@ -1057,7 +1221,7 @@
         "liu-yan",
         "liu-chang",
         "gao-ji-xing",
-        "gao-baozheng",
+        "gao-baoxu",
         "song-qi-qiu",
         "han-xizai",
         "li-congbai",
@@ -1085,6 +1249,8 @@
         "li-yu-937",
         "qian-hongchu",
         "liu-chengjun",
+        "yelv-jing-931",
+        "yelv-xian",
         "wang-pu",
         "fan-zhi",
         "wei-renpu"
@@ -1098,6 +1264,30 @@
         "wudai-979"
       ],
       "brief": "陈桥受禅，\"兵强马壮者为之\"的五代规则第一次被打破；杯酒之后，后蜀、南汉、南唐、吴越、北汉以次归宋，五十年分裂之局终。"
+    },
+    {
+      "id": "yunnan",
+      "name": "云南 · 大长和至大理",
+      "from": 902,
+      "to": 979,
+      "focus": "duan-siping",
+      "people": [
+        "zheng-maisi",
+        "zheng-renmin",
+        "zheng-longdan",
+        "zhao-shanzheng",
+        "yang-ganzhen",
+        "yang-zhao-yining",
+        "duan-siping",
+        "duan-siying",
+        "duan-siliang",
+        "duan-sicong",
+        "duan-sushun"
+      ],
+      "events": [
+        "wudai-937-dali"
+      ],
+      "brief": "南诏亡于本族权臣，云南三十年三易其号：大长和郑氏三世、大天兴赵善政十月、大义宁杨氏兄弟相废，皆以篡弑始终。937 年通海节度使段思平联三十七部建大理，其祚乃长：崇佛守界，不与中原争锋，五代纷纭而西南自安。"
     }
   ]
 }
