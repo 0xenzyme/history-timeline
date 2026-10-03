@@ -13,6 +13,7 @@
     "events:check": "tsx pipeline/events-cli.ts check",
     "events:format": "tsx pipeline/events-cli.ts format",
     "events:new": "tsx pipeline/events-cli.ts new",
+    "events:publish:check": "tsx pipeline/event-production.ts publish-check",
     "events:migration:check": "tsx pipeline/events-migration.ts check",
     "events:migration:write": "tsx pipeline/events-migration.ts write",
     "taxonomy": "tsx pipeline/infer-taxonomy.ts",

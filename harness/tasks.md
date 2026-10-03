@@ -4,6 +4,14 @@ Priority uses P0, P1, P2, or P3 only.
 
 ## Now
 
+- [x] P1 实施 Agent-driven 历史事件生产线
+  - Type: development
+  - Status: completed
+  - Spec: harness/specs/event-agent-production.md
+  - Goal: harness/goals/2026-10-04-event-agent-production.md
+  - Acceptance: Skill、controller/worker 合同、Harness 四阶段 checkpoint、Run evidence 和 publish preview 落地；不生产具体唐朝事件，不修改 258 条冻结输入。
+  - Notes: Run `.harness/runs/20261004-024911-event-agent-production` 完成；config/Goal/Run/checkpoint、events:check、migration check、content:check、build 和 diff check 通过。Python quick validator 因 PyYAML 缺失未运行，Node YAML/resource check 通过。下一步是有人工 gate 的 bounded Tang pilot。
+
 ## Next
 
 - [ ] P1 按 manifest 分批迁移旧事件的史料与 canonical 实体

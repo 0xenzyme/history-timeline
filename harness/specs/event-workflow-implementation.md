@@ -5,7 +5,7 @@ Status: accepted
 
 ## Decision
 
-当前 thread 是 controller，直接在现有 local checkout 实施事件工作流。事件实体的 canonical source 保持为 `content/events/<id>.md`；本 spec 只落实输入生命周期、证据闸门、编译/运行时契约、稳定路由和迁移冻结，不代替历史专家对 258 条旧记录逐条作史料判断。
+该 spec 记录事件实体工作流的基础实现；当前 thread/Skill 是入口，后续 agent-driven 生产由独立 controller subagent 负责。事件实体的 canonical source 保持为 `content/events/<id>.md`；本 spec 只落实输入生命周期、证据闸门、编译/运行时契约、稳定路由和迁移冻结，不代替历史专家对 258 条旧记录逐条作史料判断。agent-driven 生产线由 `harness/specs/event-agent-production.md` 另行定义。
 
 ## Scope
 

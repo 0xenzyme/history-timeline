@@ -14,7 +14,11 @@ Thumbs.db
 raw/
 
 # 本地工具产物
-.harness/
+.harness/*
+!.harness/config.json
+!.harness/runs/
+.harness/runs/*
+!.harness/runs/.gitkeep
 .qoder/
 .zcodeignore
 .tmp-window-check.mjs
