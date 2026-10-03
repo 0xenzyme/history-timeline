@@ -46,6 +46,14 @@ export function parseHash(hash: string, catalog: Catalog): Route {
 
   // 事件线走在前面：military / history 不是任何专题 id，不会和旧链接冲突
   if (timeLineIds(catalog).has(parts[0])) {
+    // 新格式把事件 id 作为稳定主键，segment 仅作为旧链接兼容字段。
+    if (parts[1] === 'event' && parts[2]) {
+      return {
+        axis: 'time', topicId: empty.topicId, viewId: null,
+        lineId: parts[0] as LineId, segmentId: null, eventId: parts[2],
+        unknownTopic: null, canonicalize: false,
+      };
+    }
     return {
       axis: 'time',
       topicId: empty.topicId,
@@ -54,7 +62,7 @@ export function parseHash(hash: string, catalog: Catalog): Route {
       segmentId: parts[1] ?? null,
       eventId: parts[2] ?? null,
       unknownTopic: null,
-      canonicalize: false,
+      canonicalize: Boolean(parts[2]),
     };
   }
 
@@ -82,7 +90,12 @@ export function formatHash(topicId: string, viewId: string): string {
 }
 
 export function formatLineHash(lineId: LineId, segmentId: string, eventId?: string | null): string {
-  return eventId ? `#${lineId}/${segmentId}/${eventId}` : `#${lineId}/${segmentId}`;
+  return eventId ? formatLineEventHash(lineId, eventId) : `#${lineId}/${segmentId}`;
+}
+
+/** 稳定事件链接不包含易因稀疏段合并而变化的 segment id。 */
+export function formatLineEventHash(lineId: LineId, eventId: string): string {
+  return `#${lineId}/event/${eventId}`;
 }
 
 export type HistoryMode = 'push' | 'replace' | 'skip';

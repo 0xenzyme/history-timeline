@@ -12,14 +12,16 @@ import {
   stringifyFrontmatter,
   tableCell,
 } from './frontmatter';
-import type { LintMessage, RegistryEvent, SourceRef } from './types';
+import type { EventCatalog, LintMessage, RegistryEvent, SourceRef } from './types';
 
 /** 文首字段的规定顺序。events:format 按这个顺序重写，events:check 拒绝漂移。 */
 export const EVENT_MD_KEYS = [
   'id',
+  'status',
   'name',
   'display',
   'type',
+  'catalogs',
   'scale',
   'importance',
   'year',
@@ -27,6 +29,7 @@ export const EVENT_MD_KEYS = [
   'yearNote',
   'endYear',
   'endYearAccuracy',
+  'endYearNote',
   'place',
   'placeNow',
   'belligerents',
@@ -40,10 +43,15 @@ export const EVENT_MD_KEYS = [
   'sources',
 ] as const;
 
+/** 生命周期：缺省 status 的存量事件按 published 兼容；新建事件显式 draft。 */
+export type EventStatus = 'draft' | 'published';
+export type EventLifecycle = RegistryEvent & { status?: EventStatus };
+
 export const EVENT_ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 const EVENT_TYPES = new Set(['military', 'political', 'rebellion', 'institutional', 'diplomatic', 'cultural']);
 const EVENT_SCALES = new Set(['war', 'campaign', 'battle', 'engagement']);
+const EVENT_CATALOGS = new Set<EventCatalog>(['military', 'history']);
 const ACCURACIES = new Set(['exact', 'approx', 'disputed', 'unknown']);
 const IMPORTANCES = new Set([1, 2, 3]);
 
@@ -59,8 +67,10 @@ export const EVENT_TEMPLATE_BODY = '待填。两三句：经过、结果、为�
 /** 骨架。默认是一场会战，改 type 时同步改 scale 与必填字段。desc 只写正文，不进文首。 */
 export const EVENT_TEMPLATE: RegistryEvent = {
   id: 'example-event',
+  status: 'draft',
   name: '待填',
   type: 'military',
+  catalogs: ['military'],
   scale: 'battle',
   importance: 2,
   year: 1211,
@@ -159,14 +169,35 @@ export function parseEventMarkdown(text: string, path: string): EventMarkdownFil
   if (record.scale !== undefined && !EVENT_SCALES.has(String(record.scale))) {
     messages.push({ level: 'error', path, message: 'scale 必须是 war、campaign、battle 或 engagement' });
   }
+  if (record.catalogs !== undefined) {
+    if (!Array.isArray(record.catalogs) || record.catalogs.length === 0) {
+      messages.push({ level: 'error', path, message: 'catalogs 至少要有一个 military 或 history' });
+    } else {
+      const catalogs = record.catalogs as unknown[];
+      if (new Set(catalogs).size !== catalogs.length) {
+        messages.push({ level: 'error', path, message: 'catalogs 不能有重复值' });
+      }
+      for (const catalog of catalogs) {
+        if (!EVENT_CATALOGS.has(String(catalog) as EventCatalog)) {
+          messages.push({ level: 'error', path, message: 'catalogs 只能是 military 或 history' });
+        }
+      }
+    }
+  }
   if (!IMPORTANCES.has(record.importance as number)) {
     messages.push({ level: 'error', path, message: `importance 必须是 1、2 或 3：${String(record.importance)}` });
   }
   if (!ACCURACIES.has(String(record.yearAccuracy))) {
     messages.push({ level: 'error', path, message: 'yearAccuracy 必须是 exact、approx、disputed 或 unknown' });
   }
+  if (record.status !== undefined && record.status !== 'draft' && record.status !== 'published') {
+    messages.push({ level: 'error', path, message: 'status 必须是 draft 或 published' });
+  }
   if (record.endYearAccuracy !== undefined && !ACCURACIES.has(String(record.endYearAccuracy))) {
     messages.push({ level: 'error', path, message: 'endYearAccuracy 必须是 exact、approx、disputed 或 unknown' });
+  }
+  if (record.endYearNote !== undefined && typeof record.endYearNote !== 'string') {
+    messages.push({ level: 'error', path, message: 'endYearNote 必须是字符串' });
   }
   if (record.year !== undefined && typeof record.year !== 'number') {
     messages.push({ level: 'error', path, message: 'year 必须是数字，公元前用负数' });
@@ -194,7 +225,7 @@ export function parseEventMarkdown(text: string, path: string): EventMarkdownFil
     }
   }
 
-  const event = record as unknown as RegistryEvent;
+  const event = record as unknown as EventLifecycle;
   if (record.commanders !== undefined) {
     const commanders = normalizeCommanders(record.commanders);
     if (!commanders) {
@@ -262,6 +293,13 @@ export function coerceEventMarkdown(text: string): CoerceEventMarkdown {
     }
     record[key] = value;
   }
+  if (dropped.length > 0) {
+    return {
+      error: `文首含未知字段：${dropped.join('、')}；请先决定字段并更新事件 schema，不会自动丢弃`,
+      dropped,
+      movedDesc: false,
+    };
+  }
   const event = record as unknown as RegistryEvent;
   if (event.sources !== undefined && !Array.isArray(event.sources)) {
     return { error: 'sources 必须是列表', dropped, movedDesc: false };
@@ -312,7 +350,11 @@ export function formatEventIndex(rows: EventIndexRow[]): string {
 }
 
 export function publishedEventMarkdown(files: EventMarkdownFile[]): EventMarkdownFile[] {
-  return files.filter((file) => !file.path.split('/').pop()?.startsWith('_'));
+  return files.filter((file) => {
+    if (file.path.split('/').pop()?.startsWith('_')) return false;
+    const status = (file.event as EventLifecycle | undefined)?.status;
+    return status !== 'draft';
+  });
 }
 
 export function eventIndexRows(files: EventMarkdownFile[]): EventIndexRow[] | undefined {

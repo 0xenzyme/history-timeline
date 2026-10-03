@@ -770,12 +770,17 @@ function relayout(): void {
   render();
 }
 
-function setFocus(id: string | null): void {
+function setFocus(id: string | null, history: HistoryMode = 'push'): void {
   if (!state) return;
   state.focusId = id;
   if (id === null && state.mode === 'graph') {
     returnToTimeline();
     return;
+  }
+  if (isLineState(state)) {
+    state.routeMiss = null;
+    const segment = currentSegment();
+    if (segment) writeLineHash(state.line.id, segment.id, id, history);
   }
   renderChrome();
   render();
@@ -952,7 +957,12 @@ async function mountLine(
     };
 
     // 只给了事件 id 时，先定位它落在哪一段
-    const target = segmentId ?? (eventId ? segmentForEvent(line, eventId)?.id ?? null : null);
+    // event id 是稳定链接的主键。segment 可能因编译时稀疏段合并而变化，
+    // 因此只有在它确实存在时才优先采用；否则按事件反查当前分段。
+    const requestedSegment = segmentId && line.segments.some((segment) => segment.id === segmentId)
+      ? segmentId
+      : null;
+    const target = requestedSegment ?? (eventId ? segmentForEvent(line, eventId)?.id ?? null : null);
     const missing = eventId && !line.events.some((event) => event.id === eventId) ? eventId : null;
     if (missing) state.routeMiss = { topicToken: null, viewToken: null, lineToken: missing };
 
@@ -967,6 +977,13 @@ async function mountLine(
     }
 
     applySegment(target ?? first.id, { focusId: missing ? null : eventId, history });
+    if (segmentId && !requestedSegment && !eventId) {
+      state.routeMiss = { topicToken: null, viewToken: segmentId, lineToken: null };
+      renderRouteMiss();
+    } else if (missing) {
+      state.routeMiss = { topicToken: null, viewToken: null, lineToken: missing };
+      renderRouteMiss();
+    }
     renderSearchUI();
   } finally {
     loadingTopic = false;
@@ -983,12 +1000,29 @@ async function onHashChange(): Promise<void> {
       await mountLine(route.lineId, route.segmentId, route.eventId, history);
       return;
     }
-    const segment = findSegment(state.line, route.segmentId);
+    const requested = route.segmentId && state.line.segments.some((item) => item.id === route.segmentId)
+      ? route.segmentId
+      : null;
+    const eventSegment = route.eventId ? segmentForEvent(state.line, route.eventId)?.id ?? null : null;
+    const segment = findSegment(state.line, requested ?? eventSegment);
     if (segment.id !== state.viewId) {
-      applySegment(segment.id, { focusId: route.eventId, history });
+      applySegment(segment.id, { focusId: route.eventId && eventSegment ? route.eventId : null, history });
+      if (route.segmentId && !requested) {
+        state.routeMiss = { topicToken: null, viewToken: route.segmentId, lineToken: null };
+        renderRouteMiss();
+      }
       return;
     }
-    if (route.eventId !== null && route.eventId !== state.focusId) setFocus(route.eventId);
+    if (route.eventId !== null && !eventSegment) {
+      setFocus(null, 'skip');
+      state.routeMiss = { topicToken: null, viewToken: null, lineToken: route.eventId };
+      renderRouteMiss();
+    } else if (route.eventId !== null && route.eventId !== state.focusId) {
+      setFocus(route.eventId, history);
+    } else if (route.eventId !== null && eventSegment && route.canonicalize) {
+      // 即使事件本来已经被选中，旧 segment/event 链接也必须替换成稳定 event-id 链接。
+      writeLineHash(state.line.id, eventSegment, route.eventId, 'replace');
+    }
     return;
   }
 

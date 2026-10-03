@@ -2,6 +2,7 @@ import type {
   Accuracy,
   DynastyTerm,
   EventCommander,
+  EventCatalog,
   EventImportance,
   EventScale,
   EventType,
@@ -14,15 +15,19 @@ import type {
   View,
 } from '../src/types';
 
-export type { DynastyTerm, SourceRef };
+export type { DynastyTerm, EventCatalog, SourceRef };
 
 /** 事件登记。kind 由 endYear 推导，不录入；desc 只从 Markdown 正文来。 */
 export interface RegistryEvent {
   id: string;
+  /** 新记录显式标记生命周期；缺省按 published 兼容存量。 */
+  status?: 'draft' | 'published';
   name: string;
   /** 轴上短标签。name 过长时必填 */
   display?: string;
   type: EventType;
+  /** 目录视图，至少一条；缺省时按旧规则推导并发出提醒。 */
+  catalogs?: EventCatalog[];
   /** 仅 type=military 时有值 */
   scale?: EventScale;
   importance: EventImportance;
@@ -31,6 +36,7 @@ export interface RegistryEvent {
   yearNote?: string;
   endYear?: number;
   endYearAccuracy?: Accuracy;
+  endYearNote?: string;
   place?: string;
   placeNow?: string;
   belligerents?: string[];

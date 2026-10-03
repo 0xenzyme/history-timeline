@@ -1,7 +1,11 @@
 ---
 id: mengjin-zhanzheng
+status: published
 name: 蒙金战争
 type: military
+catalogs:
+  - military
+  - history
 scale: war
 importance: 2
 year: 1211

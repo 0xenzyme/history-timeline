@@ -13,6 +13,7 @@ import { fileURLToPath } from 'node:url';
 
 import { CONTRACT_VERSION } from '../src/types';
 import { compileAll, compileSearch, toPrettyJson } from './compile';
+import { checkLegacyEventManifest } from './event-migration';
 import { EventMarkdownError } from './event-md';
 import { lintPipeline, summarizeRoster } from './lint';
 import { loadPipeline } from './load';
@@ -41,6 +42,10 @@ function reportAndExit(errors: string[], warnings: string[]): void {
 }
 
 function main(): void {
+  const migrationProblems = checkLegacyEventManifest(pipelineRoot);
+  if (migrationProblems.length > 0) {
+    reportAndExit(migrationProblems.map((problem) => `error pipeline/events-migration-manifest.json: ${problem}`), []);
+  }
   let data: PipelineData;
   try {
     data = loadPipeline(pipelineRoot);

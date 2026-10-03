@@ -1,7 +1,10 @@
 ---
 id: example-event
+status: draft
 name: 待填
 type: military
+catalogs:
+  - military
 scale: battle
 importance: 2
 year: 1211

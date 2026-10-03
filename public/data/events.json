@@ -7,6 +7,10 @@
       "display": "赤壁之战",
       "kind": "point",
       "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
       "scale": "battle",
       "importance": 3,
       "year": 208,
@@ -59,6 +63,10 @@
       "display": "大泽乡起义",
       "kind": "point",
       "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
       "importance": 2,
       "year": -209,
       "yearAccuracy": "exact",
@@ -95,6 +103,9 @@
       "display": "夺门之变",
       "kind": "point",
       "type": "political",
+      "catalogs": [
+        "history"
+      ],
       "importance": 2,
       "year": 1457,
       "yearAccuracy": "exact",
@@ -130,6 +141,10 @@
       "display": "蒙金战争",
       "kind": "span",
       "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
       "scale": "war",
       "importance": 2,
       "year": 1211,
@@ -173,6 +188,10 @@
       "display": "野狐岭之战",
       "kind": "point",
       "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
       "scale": "battle",
       "importance": 2,
       "year": 1211,

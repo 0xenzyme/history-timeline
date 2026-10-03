@@ -1,6 +1,99 @@
-import { CONTRACT_VERSION, type Catalog, type Topic } from './types';
+import { CONTRACT_VERSION, type Catalog, type EventLineView, type Topic } from './types';
 
 export const FILE_PATTERN = /^[A-Za-z0-9_-]+\.json$/;
+
+/**
+ * 校验编译后的事件线。事件线是独立 JSON 产物，不能只依赖管线保证；
+ * 这里只做结构/引用/时间不变量检查，不把 dynasty 命中当作 polity 归属。
+ */
+export function validateEventLine(line: EventLineView, expectedId?: string): string[] {
+  const problems: string[] = [];
+  if (!line || line.contractVersion !== CONTRACT_VERSION) {
+    problems.push(`事件线 contractVersion 应为 ${CONTRACT_VERSION}`);
+  }
+  if (expectedId !== undefined && line?.id !== expectedId) {
+    problems.push(`事件线 id 为 ${line?.id}，期望 ${expectedId}`);
+  }
+  if (line?.id !== 'military' && line?.id !== 'history') problems.push('事件线 id 必须是 military 或 history');
+  if (!Array.isArray(line?.range) || line.range.length !== 2 || !line.range.every(Number.isFinite) || line.range[0] >= line.range[1]) {
+    problems.push('事件线 range 无效');
+  }
+  if (!Array.isArray(line?.events)) problems.push('事件线 events 不是数组');
+  if (!Array.isArray(line?.segments)) problems.push('事件线 segments 不是数组');
+  if (!Array.isArray(line?.dynasties)) problems.push('事件线 dynasties 不是数组');
+
+  const eventRows = Array.isArray(line?.events) ? line.events : [];
+  const segmentRows = Array.isArray(line?.segments) ? line.segments : [];
+  const eventIds = new Set<string>();
+  const eventTypes = new Set(['military', 'political', 'rebellion', 'institutional', 'diplomatic', 'cultural']);
+  const accuracies = new Set(['exact', 'approx', 'disputed', 'unknown']);
+  for (const event of eventRows) {
+    const tag = `事件 ${event?.id ?? '(空)'}`;
+    if (!event || typeof event !== 'object') {
+      problems.push(`${tag} 不是对象`);
+      continue;
+    }
+    if (typeof event.id !== 'string' || event.id.length === 0) problems.push(`${tag} 缺少 id`);
+    else if (eventIds.has(event.id)) problems.push(`${tag} id 重复`);
+    else eventIds.add(event.id);
+    if (typeof event.name !== 'string' || event.name.trim() === '') problems.push(`${tag} 缺少 name`);
+    if (typeof event.display !== 'string' || event.display.trim() === '') problems.push(`${tag} 缺少 display`);
+    if (event.kind !== 'point' && event.kind !== 'span') problems.push(`${tag} kind 无效`);
+    if (!Number.isInteger(event.year) || event.year === 0) problems.push(`${tag} year 无效（不能是公元 0 年）`);
+    if (eventTypes.has(event.type) === false) problems.push(`${tag} type 无效`);
+    if (!accuracies.has(event.yearAccuracy)) problems.push(`${tag} yearAccuracy 无效`);
+    if (event.endYear !== undefined && (!Number.isInteger(event.endYear) || event.endYear === 0 || event.endYear < event.year)) {
+      problems.push(`${tag} endYear 无效`);
+    }
+    if (event.endYear !== undefined && !accuracies.has(event.endYearAccuracy ?? '')) problems.push(`${tag} endYearAccuracy 无效`);
+    if (event.kind === 'span' && event.endYear === undefined) problems.push(`${tag} span 缺少 endYear`);
+    if (event.kind === 'point' && event.endYear !== undefined) problems.push(`${tag} point 不应有 endYear`);
+    if (![1, 2, 3].includes(event.importance)) problems.push(`${tag} importance 无效`);
+    if (!Array.isArray(event.sources) || event.sources.length === 0) problems.push(`${tag} 缺少 sources`);
+    if (event.catalogs !== undefined) {
+      if (!Array.isArray(event.catalogs) || event.catalogs.length === 0 || event.catalogs.some((catalog) => catalog !== 'military' && catalog !== 'history')) {
+        problems.push(`${tag} catalogs 无效`);
+      }
+    }
+    if (Array.isArray(line.range) && line.range.length === 2) {
+      if (event.year < line.range[0] || event.year > line.range[1]) problems.push(`${tag} 超出事件线范围`);
+      if (event.endYear !== undefined && (event.endYear < line.range[0] || event.endYear > line.range[1])) problems.push(`${tag} endYear 超出事件线范围`);
+    }
+  }
+
+  const segmentIds = new Set<string>();
+  const segmentMembership = new Map<string, number>();
+  for (const segment of segmentRows) {
+    const tag = `分段 ${segment?.id ?? '(空)'}`;
+    if (!segment || typeof segment !== 'object' || typeof segment.id !== 'string' || segment.id.length === 0) {
+      problems.push(`${tag} 缺少 id`);
+      continue;
+    }
+    if (segmentIds.has(segment.id)) problems.push(`${tag} id 重复`);
+    segmentIds.add(segment.id);
+    if (!Number.isFinite(segment.from) || !Number.isFinite(segment.to) || segment.from >= segment.to) problems.push(`${tag} 时间范围无效`);
+    if (!Array.isArray(segment.events)) {
+      problems.push(`${tag} events 不是数组`);
+      continue;
+    }
+    for (const id of segment.events) {
+      if (!eventIds.has(id)) problems.push(`${tag} 引用了不存在的事件 ${id}`);
+      segmentMembership.set(id, (segmentMembership.get(id) ?? 0) + 1);
+    }
+  }
+  for (const event of eventRows) {
+    if (!event || typeof event !== 'object' || typeof event.id !== 'string') continue;
+    const membership = segmentMembership.get(event.id) ?? 0;
+    if (membership !== 1) problems.push(`事件 ${event.id} 应恰好属于一个分段，实际 ${membership}`);
+    const segment = segmentRows.find((candidate) => (
+      candidate && typeof candidate === 'object' && Array.isArray(candidate.events) && candidate.events.includes(event.id)
+    ));
+    if (segment && (event.year < segment.from || event.year > segment.to)) {
+      problems.push(`事件 ${event.id} 的年份不在所属分段范围内`);
+    }
+  }
+  return problems;
+}
 
 export function validateTopic(topic: Topic, expectedId?: string): string[] {
   const problems: string[] = [];

@@ -1,7 +1,11 @@
 ---
 id: daizexiang-qiyi
+status: published
 name: 大泽乡起义
 type: rebellion
+catalogs:
+  - military
+  - history
 importance: 2
 year: -209
 yearAccuracy: exact

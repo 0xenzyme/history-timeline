@@ -93,6 +93,9 @@ export function renderEventCard(
   if (event.yearAccuracy !== 'exact') {
     notes.push(`年份${ACCURACY_LABEL[event.yearAccuracy]}${event.yearNote ? ` · ${event.yearNote}` : ''}`);
   }
+  if (event.endYear !== undefined && event.endYearAccuracy && event.endYearAccuracy !== 'exact') {
+    notes.push(`结束年份${ACCURACY_LABEL[event.endYearAccuracy]}${event.endYearNote ? ` · ${event.endYearNote}` : ''}`);
+  }
 
   const place =
     event.place || event.placeNow
@@ -125,9 +128,11 @@ export function renderEventCard(
     .map((source) => `<li>${esc(source.work)}${source.part ? ` · ${esc(source.part)}` : ''}</li>`)
     .join('');
 
-  // 军事事件在历史事件目录里也收录，给它一条回到军事线的路
+  // 显式进入 military catalog 的事件在历史目录里也收录，给它一条回到军事线的路。
+  // 缺省 catalogs 的存量事件沿用 type=military 的兼容规则。
+  const inMilitary = event.catalogs?.includes('military') ?? event.type === 'military';
   const jump =
-    event.type === 'military' && lineId === 'history'
+    inMilitary && lineId === 'history'
       ? `<button type="button" class="card-action" data-line-jump="military">在军事线查看</button>`
       : '';
 

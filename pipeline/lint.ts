@@ -297,6 +297,8 @@ export const EVENT_YEAR_MAX = 1949;
 export interface EventLintContext {
   polityIds: Set<string>;
   people: Set<string>;
+  /** 完整人物登记；events:check 可只传 people，content:check 传入后启用跨实体门禁。 */
+  personRecords?: Map<string, RegistryPerson>;
   events: Map<string, RegistryEvent>;
 }
 
@@ -315,11 +317,20 @@ export function lintRegistryEvent(
     if (!event.belligerents || event.belligerents.length < 2) {
       messages.push({ level: 'error', path, message: '军事事件至少要写两个交战方' });
     }
+    if (event.polity && event.polity.length > 0) {
+      messages.push({ level: 'error', path, message: '军事事件用 belligerents 表示政权，不应同时写 polity' });
+    }
     if (event.scale === 'war' && typeof event.place === 'string' && event.place) {
       messages.push({ level: 'error', path, message: 'war 是跨地域战争，不应写 place' });
     }
     if (event.scale && event.scale !== 'war' && (typeof event.place !== 'string' || !event.place.trim())) {
       messages.push({ level: 'error', path, message: `${event.scale} 缺少 place` });
+    }
+    if (event.scale === 'war' && event.endYear === undefined) {
+      messages.push({ level: 'error', path, message: '[EVENT_WAR_END_YEAR] war 必须写 endYear' });
+    }
+    if ((event.scale === 'battle' || event.scale === 'engagement') && event.endYear !== undefined) {
+      messages.push({ level: 'error', path, message: `[EVENT_POINT_SCALE_END_YEAR] ${event.scale} 是点事件，不应写 endYear` });
     }
   } else {
     if (event.scale) {
@@ -336,6 +347,9 @@ export function lintRegistryEvent(
   if (event.yearAccuracy === 'unknown') {
     messages.push({ level: 'error', path, message: 'yearAccuracy 为 unknown 时不应写 year，事件上不了轴' });
   }
+  if (event.year === 0) {
+    messages.push({ level: 'error', path, message: '[EVENT_YEAR_ZERO] year 不存在公元 0 年，使用 -1 或 1' });
+  }
   if (event.yearAccuracy === 'disputed' && (typeof event.yearNote !== 'string' || !event.yearNote.trim())) {
     messages.push({ level: 'error', path, message: '年份有异说必须写 yearNote' });
   }
@@ -344,6 +358,22 @@ export function lintRegistryEvent(
   }
   if (event.endYear !== undefined && event.endYear < event.year) {
     messages.push({ level: 'error', path, message: 'endYear 早于 year' });
+  }
+  if (event.endYear !== undefined) {
+    if (!event.endYearAccuracy) {
+      messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_ACCURACY] 有 endYear 时必须写 endYearAccuracy' });
+    }
+    if (event.endYearAccuracy === 'unknown') {
+      messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_UNKNOWN] endYear 不能标 unknown' });
+    }
+    if ((event.endYearAccuracy === 'approx' || event.endYearAccuracy === 'disputed') && !event.endYearNote?.trim()) {
+      messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_NOTE] endYear 约略或有异说时必须写 endYearNote' });
+    }
+  } else if (event.endYearAccuracy !== undefined || event.endYearNote !== undefined) {
+    messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_ORPHAN] 没有 endYear 时不能写端点 accuracy/note' });
+  }
+  if (event.endYear === 0) {
+    messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_ZERO] endYear 不存在公元 0 年，使用 -1 或 1' });
   }
   if (event.year < EVENT_YEAR_MIN || event.year > EVENT_YEAR_MAX) {
     messages.push({ level: 'error', path, message: `year ${event.year} 超出收录范围 ${EVENT_YEAR_MIN}—${EVENT_YEAR_MAX}` });
@@ -355,8 +385,62 @@ export function lintRegistryEvent(
     messages.push({ level: 'error', path, message: '年份不能只靠 database 出处支撑，需要 classic 或 modern' });
   }
 
+  if (!event.catalogs || event.catalogs.length === 0) {
+    const lifecycleStatus = (event as RegistryEvent).status;
+    messages.push({
+      level: lifecycleStatus === 'published' ? 'error' : 'warning',
+      path,
+      message: lifecycleStatus === 'published'
+        ? '[EVENT_CATALOG_REQUIRED] published 事件必须显式声明 catalogs'
+        : '[EVENT_CATALOG_DEFAULT] 未显式声明 catalogs，将暂按旧规则推导；新迁移条目应补齐',
+    });
+  } else {
+    const catalogs = new Set(event.catalogs);
+    if (event.type === 'military' && !catalogs.has('military')) {
+      messages.push({ level: 'error', path, message: '[EVENT_CATALOG_MILITARY] type=military 必须进入 military catalog' });
+    }
+    if (catalogs.has('military') && event.type !== 'military' && event.type !== 'rebellion') {
+      messages.push({ level: 'error', path, message: '[EVENT_CATALOG_TYPE] 只有 military 或 rebellion 可以进入 military catalog' });
+    }
+    if (event.type === 'rebellion' && !catalogs.has('history')) {
+      messages.push({ level: 'warning', path, message: '[EVENT_CATALOG_REBELLION] rebellion 通常应进入 history catalog；如有武装行动请同时声明 military' });
+    }
+  }
+
+  // draft 允许保留骨架占位；published 事件一旦仍有占位就拒绝进入轴。
+  const lifecycleStatus = (event as RegistryEvent & { status?: 'draft' | 'published' }).status;
+  if (lifecycleStatus !== 'draft') {
+    const placeholderFields: Array<[string, unknown]> = [
+      ['name', event.name],
+      ['display', event.display],
+      ['place', event.place],
+      ['placeNow', event.placeNow],
+      ['result', event.result],
+      ['yearNote', event.yearNote],
+      ['desc', event.desc],
+    ];
+    for (const [field, value] of placeholderFields) {
+      if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
+        messages.push({ level: 'error', path, message: `[EVENT_PLACEHOLDER] ${field} 仍包含占位符` });
+      }
+    }
+    for (const [index, source] of (event.sources ?? []).entries()) {
+      for (const field of ['work', 'part', 'note'] as const) {
+        const value = source[field];
+        if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
+          messages.push({ level: 'error', path, message: `[EVENT_PLACEHOLDER] sources[${index}].${field} 仍包含占位符` });
+        }
+      }
+    }
+  }
+
   const belligerents = Array.isArray(event.belligerents) ? event.belligerents : [];
   const polities = Array.isArray(event.polity) ? event.polity : [];
+  for (const [label, values] of [['belligerents', belligerents], ['polity', polities], ['people', event.people ?? []]] as const) {
+    if (new Set(values).size !== values.length) {
+      messages.push({ level: 'error', path, message: `${label} 不能有重复值` });
+    }
+  }
   for (const polity of [...belligerents, ...polities]) {
     if (!ctx.polityIds.has(polity)) {
       messages.push({ level: 'error', path, message: `政权 ${polity} 不在词表中` });
@@ -373,6 +457,44 @@ export function lintRegistryEvent(
   for (const id of [...commanders.map((item) => item?.id), ...people]) {
     if (!ctx.people.has(id)) {
       messages.push({ level: 'error', path, message: `引用的人物不存在：${id}` });
+    }
+  }
+
+  // 事件年份与人物生卒、人物政权归属是交叉证据：确定冲突报错，异说或仅相关人物报提醒。
+  if (ctx.personRecords) {
+    const eventStart = event.year;
+    const eventEnd = event.endYear ?? event.year;
+    for (const commander of commanders) {
+      const person = ctx.personRecords.get(commander.id);
+      if (!person) continue;
+      const exactLife = person.birthAccuracy === 'exact' && person.deathAccuracy === 'exact';
+      const exactEvent = event.yearAccuracy === 'exact'
+        && (event.endYear === undefined || event.endYearAccuracy === 'exact');
+      const certainDateConflict = exactLife && exactEvent;
+      if (person.birth !== undefined && eventEnd < person.birth) {
+        messages.push({ level: certainDateConflict ? 'error' : 'warning', path, message: `[EVENT_PERSON_DATE] 主将 ${commander.id} 的事件早于生年` });
+      }
+      if (person.death !== undefined && eventStart > person.death) {
+        messages.push({ level: certainDateConflict ? 'error' : 'warning', path, message: `[EVENT_PERSON_DATE] 主将 ${commander.id} 的事件晚于卒年` });
+      }
+      if (commander.side && person.polity && person.polity.length > 0 && !person.polity.includes(commander.side)) {
+        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 side=${commander.side} 与人物 polity 不重合，请核对时点归属` });
+      }
+      if (!commander.side && polities.length > 0 && person.polity && person.polity.length > 0
+        && !person.polity.some((item) => polities.includes(item))) {
+        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 polity 与事件 polity 不重合，请核对时点归属` });
+      }
+    }
+    for (const id of people) {
+      if (commanders.some((commander) => commander.id === id)) continue;
+      const person = ctx.personRecords.get(id);
+      if (!person) continue;
+      if ((person.birth !== undefined && eventEnd < person.birth) || (person.death !== undefined && eventStart > person.death)) {
+        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_DATE] 相关人物 ${id} 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明` });
+      }
+      if (polities.length > 0 && person.polity && person.polity.length > 0 && !person.polity.some((item) => polities.includes(item))) {
+        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 相关人物 ${id} 的 polity 与事件 polity 不重合，请核对时点归属` });
+      }
     }
   }
 
@@ -400,6 +522,16 @@ export function lintRegistryEvent(
         if (parent.endYear !== undefined && (event.year < parent.year || childEnd > parent.endYear)) {
           messages.push({ level: 'error', path, message: `事件时间 ${event.year}—${childEnd} 超出 parent ${event.parent} 的范围 ${parent.year}—${parent.endYear}` });
         }
+      }
+      const seenParents = new Set<string>([event.id]);
+      let cursor = event.parent;
+      while (cursor) {
+        if (seenParents.has(cursor)) {
+          messages.push({ level: 'error', path, message: 'parent 链存在循环' });
+          break;
+        }
+        seenParents.add(cursor);
+        cursor = ctx.events.get(cursor)?.parent ?? '';
       }
     }
   }
@@ -439,12 +571,31 @@ export function lintEvents(data: PipelineData): LintMessage[] {
   const ctx: EventLintContext = {
     polityIds: vocabSet(data.polities),
     people: new Set(data.people.keys()),
+    personRecords: data.people,
     events: data.events,
   };
   const messages: LintMessage[] = [];
+  const aliasOwners = new Map<string, string>();
   for (const event of data.events.values()) {
     const path = data.eventPaths.get(event.id) ?? `content/events/${event.id}.md`;
     messages.push(...lintRegistryEvent(event, ctx, path));
+    const aliases = event.aliases ?? [];
+    if (new Set(aliases).size !== aliases.length) {
+      messages.push({ level: 'error', path, message: 'aliases 不能有重复值' });
+    }
+    for (const alias of aliases) {
+      if (alias === event.id) messages.push({ level: 'error', path, message: `alias 不能等于 canonical id：${alias}` });
+      const canonical = data.events.get(alias);
+      if (canonical && canonical.id !== event.id) {
+        messages.push({ level: 'error', path, message: `alias ${alias} 与另一个 canonical event id 冲突` });
+      }
+      const owner = aliasOwners.get(alias);
+      if (owner && owner !== event.id) {
+        messages.push({ level: 'error', path, message: `alias ${alias} 已指向 ${owner}，不能再指向 ${event.id}` });
+      } else {
+        aliasOwners.set(alias, event.id);
+      }
+    }
   }
   messages.push(...lintDynasties(data.dynasties));
   return messages;

@@ -2,7 +2,7 @@ import type { CenturySegment, EventRecord } from '../src/types';
 
 /** 公元 1—100 年是 1 世纪；前 1600—前 1501 年是 -16 世纪。没有公元 0 年。 */
 export function centuryOf(year: number): number {
-  if (year === 0) return 1;
+  if (year === 0) throw new Error('事件年份不存在公元 0 年');
   if (year > 0) return Math.floor((year - 1) / 100) + 1;
   return -(Math.floor((-year - 1) / 100) + 1);
 }

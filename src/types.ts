@@ -57,6 +57,9 @@ export type EventScale = 'war' | 'campaign' | 'battle' | 'engagement';
 
 export type EventImportance = 1 | 2 | 3;
 
+/** 事件可以被一个或两个目录引用；目录归属不改变事件事实分类。 */
+export type EventCatalog = 'military' | 'history';
+
 /** 主将。side 取 belligerents 中的政权 id，可省略。 */
 export interface EventCommander {
   id: string;
@@ -78,6 +81,7 @@ export interface EventRecord {
   display: string;
   kind: EventKind;
   type: EventType;
+  catalogs?: EventCatalog[];
   scale?: EventScale;
   importance: EventImportance;
   year: number;
@@ -85,6 +89,7 @@ export interface EventRecord {
   yearNote?: string;
   endYear?: number;
   endYearAccuracy?: Accuracy;
+  endYearNote?: string;
   place?: string;
   placeNow?: string;
   belligerents?: string[];
@@ -252,6 +257,7 @@ export interface SearchRecord {
   endYear?: number;
   yearAccuracy?: Accuracy;
   type?: EventType;
+  catalogs?: EventCatalog[];
   importance?: EventImportance;
   topicId: string;
   topicTitle: string;

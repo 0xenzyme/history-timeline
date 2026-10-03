@@ -1,7 +1,11 @@
 ---
 id: yehuling-zhizhan
+status: published
 name: 野狐岭之战
 type: military
+catalogs:
+  - military
+  - history
 scale: battle
 importance: 2
 year: 1211

@@ -40,8 +40,12 @@ function lineTitle(id: 'military' | 'history'): string {
   return id === 'military' ? '军事' : '历史事件';
 }
 
-/** 军事目录收全部军事事件；历史事件目录收全部非军事事件 + importance 2 以上的军事事件。 */
-function inLine(event: EventRecord, line: 'military' | 'history'): boolean {
+/**
+ * 目录是实体的过滤视图。新记录可以显式声明 catalogs；缺省时保留旧规则，
+ * 以便存量实体逐批补齐而不会在迁移期间改变可见范围。
+ */
+export function inLine(event: EventRecord, line: 'military' | 'history'): boolean {
+  if (event.catalogs && event.catalogs.length > 0) return event.catalogs.includes(line);
   if (line === 'military') return event.type === 'military';
   return event.type !== 'military' || event.importance >= 2;
 }
@@ -162,6 +166,7 @@ export function compileEvent(registry: RegistryEvent, dynasties: DynastyTerm[]):
     display: registry.display ?? registry.name,
     kind: registry.endYear === undefined ? 'point' : 'span',
     type: registry.type,
+    catalogs: registry.catalogs,
     scale: registry.scale,
     importance: registry.importance,
     year: registry.year,
@@ -169,6 +174,7 @@ export function compileEvent(registry: RegistryEvent, dynasties: DynastyTerm[]):
     yearNote: registry.yearNote,
     endYear: registry.endYear,
     endYearAccuracy: registry.endYearAccuracy,
+    endYearNote: registry.endYearNote,
     place: registry.place,
     placeNow: registry.placeNow,
     belligerents: registry.belligerents,
@@ -232,22 +238,26 @@ export function compileSearch(topics: Topic[], events: EventRecord[]): SearchRec
       rows.push(row);
     }
   }
-  for (const event of events) {
-    const line = inLine(event, 'history') ? 'history' : 'military';
-    const row: SearchRecord = {
-      id: event.id,
-      name: event.name,
-      display: event.display,
-      kind: 'event',
-      year: event.year,
-      yearAccuracy: event.yearAccuracy,
-      type: event.type,
-      importance: event.importance,
-      topicId: line,
-      topicTitle: lineTitle(line),
-    };
-    if (event.endYear !== undefined) row.endYear = event.endYear;
-    rows.push(row);
+  // 搜索索引与两条目录使用同一套父事件闭包。一个事件可能同时出现在
+  // military 与 history（例如高重要度军事事件），因此保留两条可跳转记录。
+  for (const line of ['military', 'history'] as const) {
+    for (const event of eventsForLine(events, line)) {
+      const row: SearchRecord = {
+        id: event.id,
+        name: event.name,
+        display: event.display,
+        kind: 'event',
+        year: event.year,
+        yearAccuracy: event.yearAccuracy,
+        type: event.type,
+        catalogs: event.catalogs,
+        importance: event.importance,
+        topicId: line,
+        topicTitle: lineTitle(line),
+      };
+      if (event.endYear !== undefined) row.endYear = event.endYear;
+      rows.push(row);
+    }
   }
   return rows;
 }

@@ -13,6 +13,8 @@
     "events:check": "tsx pipeline/events-cli.ts check",
     "events:format": "tsx pipeline/events-cli.ts format",
     "events:new": "tsx pipeline/events-cli.ts new",
+    "events:migration:check": "tsx pipeline/events-migration.ts check",
+    "events:migration:write": "tsx pipeline/events-migration.ts write",
     "taxonomy": "tsx pipeline/infer-taxonomy.ts",
     "migrate": "tsx pipeline/migrate-categories.ts",
     "overrides": "tsx pipeline/apply-overrides.ts",

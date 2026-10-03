@@ -1,7 +1,10 @@
 ---
 id: duomen-zhibian
+status: published
 name: 夺门之变
 type: political
+catalogs:
+  - history
 importance: 2
 year: 1457
 yearAccuracy: exact

@@ -16,6 +16,7 @@ import {
   publishedEventMarkdown,
   readEventMarkdown,
 } from './event-md';
+import type { EventLifecycle } from './event-md';
 import type { LintMessage, RegistryEvent } from './types';
 
 const pipelineRoot = dirname(fileURLToPath(import.meta.url));
@@ -67,7 +68,8 @@ function commandCheck(): void {
   const messages: LintMessage[] = files.flatMap((file) => file.messages);
   const ctx = { polityIds: vocabIds('polities.json'), people: personIds(), events: eventMap() };
 
-  for (const file of publishedEventMarkdown(files)) {
+  // draft 事件也做结构、类型和时间校验；只有发布态才参与跨事件索引和上轴。
+  for (const file of files.filter((item) => !item.path.split('/').pop()?.startsWith('_'))) {
     if (!file.event) continue;
     messages.push(...lintRegistryEvent(file.event, ctx, file.path));
   }
@@ -146,15 +148,16 @@ function commandNew(id: string | undefined): void {
     process.exit(1);
   }
   mkdirSync(eventDir, { recursive: true });
-  const event: RegistryEvent = {
+  const event: EventLifecycle = {
     ...EVENT_TEMPLATE,
     id,
+    status: 'draft',
     sources: EVENT_TEMPLATE.sources.map((source) => ({ ...source })),
   };
   writeFileSync(target, formatEventMarkdown(event));
   rewriteEventIndex();
   console.log(`已写 content/${EVENT_DIR}/${id}.md`);
-  console.log('这是会战骨架。改 name、place、belligerents 和出处；换 type 时同步改 scale 与必填字段。模板里的占位不能编译上轴。');
+  console.log('这是 draft 会战骨架，不会编译上轴。改 name、place、belligerents 和出处，完成后将 status 改为 published；换 type 时同步改 scale 与必填字段。模板里的占位不能发布。');
 }
 
 const command = process.argv[2];

@@ -222,3 +222,9 @@ polity 记的是「这个人站在哪条叙事脉络里」，不是血统、族�
 `polity` 是有序数组，按时间先后排。
 
 **跨朝代在站点上怎么体现**：同一条登记出现在多个 `topic.json`，泳道和文案各自覆盖——刘邦在秦专题 `lane:"han"`（作为秦的对立面），在汉专题 `lane:"emperor"`。专题覆盖字段只有 `lane / display / title / bio / tags / order`，不能覆盖 `polity`，也不能覆盖生卒。不要为了「让他在某个专题里显示成那一朝的人」去改 polity 或年份。
+
+## 事件入口（规则以 `docs/事件线规则.md` 为准）
+
+人物 PLAYBOOK 不定义事件字段或事件收录口径。事件的 canonical source 是 `content/events/<id>.md`；现有 `topic.json` 的 `events[]` 是冻结的旧 inline 输入，只能用于迁移盘点，不得继续扩写。军事与历史是同一事件库的两个 catalog，不是两套实体。
+
+事件迁移必须先登记 `pipeline/events-migration-manifest.json`，并通过 `npm run events:migration:check` 的逐条冻结比对；经过证据、去重、taxonomy、引用和编译 gates 后再落 canonical 文件。缺年份锚点、主出处或无法判断重复关系的条目保持 `evidence-needed`，不得以猜测补齐 `type`、`catalogs`、`polity`、`belligerents` 或 `sources`。新建事件先保持 `status: draft`，完成审核后才改为 `published`。不要把 `public/data/` 当源文件，也不要手改专题索引。

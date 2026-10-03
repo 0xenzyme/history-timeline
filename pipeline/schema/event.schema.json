@@ -7,12 +7,18 @@
   "required": ["id", "name", "type", "importance", "year", "yearAccuracy", "sources"],
   "additionalProperties": false,
   "properties": {
-    "id": { "type": "string" },
-    "name": { "type": "string" },
-    "display": { "type": "string" },
+    "id": { "type": "string", "minLength": 1, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "status": { "type": "string", "enum": ["draft", "published"] },
+    "name": { "type": "string", "minLength": 1 },
+    "display": { "type": "string", "minLength": 1 },
     "type": {
       "type": "string",
       "enum": ["military", "political", "rebellion", "institutional", "diplomatic", "cultural"]
+    },
+    "catalogs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "enum": ["military", "history"] }
     },
     "scale": {
       "type": "string",
@@ -21,13 +27,14 @@
     "importance": { "type": "integer", "enum": [1, 2, 3] },
     "year": { "type": "integer" },
     "yearAccuracy": { "type": "string", "enum": ["exact", "approx", "disputed", "unknown"] },
-    "yearNote": { "type": "string" },
+    "yearNote": { "type": "string", "minLength": 1 },
     "endYear": { "type": "integer" },
     "endYearAccuracy": { "type": "string", "enum": ["exact", "approx", "disputed", "unknown"] },
-    "place": { "type": "string" },
-    "placeNow": { "type": "string" },
-    "belligerents": { "type": "array", "items": { "type": "string" } },
-    "polity": { "type": "array", "items": { "type": "string" } },
+    "endYearNote": { "type": "string", "minLength": 1 },
+    "place": { "type": "string", "minLength": 1 },
+    "placeNow": { "type": "string", "minLength": 1 },
+    "belligerents": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "polity": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "commanders": {
       "type": "array",
       "items": {
@@ -40,25 +47,26 @@
         }
       }
     },
-    "people": { "type": "array", "items": { "type": "string" } },
-    "result": { "type": "string" },
-    "parent": { "type": "string" },
-    "aliases": { "type": "array", "items": { "type": "string" } },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "people": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "result": { "type": "string", "minLength": 1 },
+    "parent": { "type": "string", "minLength": 1 },
+    "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "sources": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
         "required": ["work"],
         "properties": {
-          "work": { "type": "string" },
-          "part": { "type": "string" },
-          "note": { "type": "string" },
+          "work": { "type": "string", "minLength": 1 },
+          "part": { "type": "string", "minLength": 1 },
+          "note": { "type": "string", "minLength": 1 },
           "kind": { "type": "string", "enum": ["classic", "modern", "database"] }
         }
       }
     },
-    "desc": { "type": "string" }
+    "desc": { "type": "string", "minLength": 1 }
   }
 }

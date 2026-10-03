@@ -1,7 +1,11 @@
 ---
 id: chibi-zhizhan
+status: published
 name: 赤壁之战
 type: military
+catalogs:
+  - military
+  - history
 scale: battle
 importance: 3
 year: 208
