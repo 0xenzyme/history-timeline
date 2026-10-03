@@ -26,7 +26,22 @@
 }
 ```
 
-`approval` 只在 controller 回显范围后填入。普通讨论文本不能被当成批准。
+`approval` 只在 controller 通过 `askuserquestion` 回显范围后，根据工具返回结果填入。普通讨论文本、用户手写 JSON 或“看起来可以”不能被当成批准。
+
+工具询问至少要能回收：
+
+```json
+{
+  "questionId": "research-approval-1",
+  "decision": "approve|exclude|hold|needs-more-evidence",
+  "includeIds": [],
+  "excludeIds": [],
+  "holdIds": [],
+  "userText": "the optional free-text clarification returned with the tool answer"
+}
+```
+
+controller 只有在收到 askuserquestion 的结构化结果后，才可以写 `gates/*.json` 或推进 checkpoint。
 
 ## Worker envelope
 

@@ -57,6 +57,7 @@ artifacts/
 每个 gate record 至少记录：
 
 - gate 类型；
+- `questionId` 和 `decisionSource: askuserquestion`；
 - Run id 和 checkpoint revision；
 - scope hash；
 - include/exclude/hold ids；

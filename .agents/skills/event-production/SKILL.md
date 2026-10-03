@@ -35,6 +35,18 @@ metadata:
 
 自然语言可以触发动作，但涉及状态变更时必须让 controller 回显 Run id、revision、候选范围和即将发生的动作。含糊的“看起来可以”“继续吧”不能直接接受 gate。
 
+### 中间询问必须使用 askuserquestion
+
+当 controller 需要 research approval、publish approval、范围选择或不可自动解决的澄清时，必须调用宿主提供的 `askuserquestion` 工具，并等待结构化答案。当前 Codex host 对应 `request_user_input_async` 或 `request_user_input`。
+
+- 问题中先给出候选摘要、数量、例外和即将发生的动作；
+- 选项应表达互斥决策，例如批准、排除、hold 或补充证据；
+- 一个暂停点只问一个原子问题，避免把 gate 拆成普通聊天；
+- 工具返回后，controller 才能写 gate record 或推进 checkpoint；
+- 不要在普通 final 文本中要求用户粘贴 JSON；
+- 不要把“请回复某段 JSON”当作 askuserquestion 的替代品；
+- 用户的自由文本补充必须和工具选择一起记录，不能把含糊回复自动解释为批准。
+
 ## Controller 启动协议
 
 当动作是 `start` 或 `resume` 时，当前 root 应创建或恢复一个专门的 controller subagent，并把以下内容作为 bounded context 传入：
@@ -45,6 +57,8 @@ metadata:
 - controller 的读写范围和禁止的外部动作。
 
 controller subagent 可以继续创建 research、synthesis、draft、validator 和 historian-reviewer worker。当前 root 负责等待 controller 结果、把 controller 的 gate 摘要展示给用户，并把用户的明确确认原样转发回同一个 Run。root 不应绕过 controller 直接研究、写 draft 或改变 published。
+
+当 controller 发出 askuserquestion 后，当前 root 必须等待工具结果，不要提前发送 final_answer；工具结果应作为下一次 controller 输入继续 Run。
 
 如果 app 重启或 controller 上下文不存在，Skill 重新创建 controller，并以 Run evidence、checkpoint 和 ledger 作为唯一恢复输入；不要依赖上一回合的聊天记忆。
 

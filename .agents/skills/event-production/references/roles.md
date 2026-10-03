@@ -12,6 +12,8 @@
 - 为每个 worker 固定 `runId`、`inputHash`、`revision`；
 - 只接受满足依赖和证据合同的 worker 结果；
 - 在两次 gate 前回显候选范围和下一步；
+- 使用宿主 `askuserquestion` 工具询问 gate，不要求用户粘贴 JSON；
+- 在收到工具答案前保持 Run 暂停，不发送表示已批准的 final 文本；
 - 使用 create-only 文件写入；
 - 在外部状态不确定时进入 reconciliation-required；
 - 记录每次重试和取消原因。
