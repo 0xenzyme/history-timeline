@@ -109,9 +109,11 @@ export function normalizeCommanders(raw: unknown): EventCommander[] | undefined 
       commanders.push({ id: item });
       continue;
     }
-    if (!isRecord(item) || typeof item.id !== 'string') continue;
+    if (!isRecord(item) || typeof item.id !== 'string') return undefined;
+    if (Object.keys(item).some((key) => key !== 'id' && key !== 'side')) return undefined;
     const commander: EventCommander = { id: item.id };
-    if (typeof item.side === 'string') commander.side = item.side;
+    if (item.side !== undefined && typeof item.side !== 'string') return undefined;
+    if (item.side !== undefined) commander.side = item.side;
     commanders.push(commander);
   }
   return commanders;
@@ -181,8 +183,8 @@ export function parseEventMarkdown(text: string, path: string): EventMarkdownFil
       if (typeof source.work !== 'string' || source.work.trim() === '') {
         messages.push({ level: 'error', path, message: '出处缺少 work' });
       }
-      if (!SOURCE_KINDS.has(String(source.kind))) {
-        messages.push({ level: 'error', path, message: '出处必须写 kind：classic、modern 或 database' });
+      if (source.kind !== undefined && !SOURCE_KINDS.has(String(source.kind))) {
+        messages.push({ level: 'error', path, message: '出处 kind 必须是 classic、modern 或 database' });
       }
       for (const key of Object.keys(source)) {
         if (!SOURCE_KEYS.includes(key as (typeof SOURCE_KEYS)[number])) {
@@ -193,8 +195,14 @@ export function parseEventMarkdown(text: string, path: string): EventMarkdownFil
   }
 
   const event = record as unknown as RegistryEvent;
-  const commanders = normalizeCommanders(record.commanders);
-  if (commanders) event.commanders = commanders;
+  if (record.commanders !== undefined) {
+    const commanders = normalizeCommanders(record.commanders);
+    if (!commanders) {
+      messages.push({ level: 'error', path, message: 'commanders 必须是字符串 id 或包含 id、side 的字段表列表' });
+    } else {
+      event.commanders = commanders;
+    }
+  }
   const desc = split.body.trim();
   if (desc) event.desc = desc;
 
@@ -244,7 +252,8 @@ export function coerceEventMarkdown(text: string): CoerceEventMarkdown {
   let frontDesc = '';
   for (const [key, value] of Object.entries(parsed)) {
     if (key === 'desc') {
-      if (typeof value === 'string') frontDesc = value.trim();
+      if (typeof value !== 'string') return { error: '文首 desc 必须是字符串', dropped, movedDesc: false };
+      frontDesc = value.trim();
       continue;
     }
     if (!EVENT_MD_KEYS.includes(key as (typeof EVENT_MD_KEYS)[number])) {
@@ -263,12 +272,20 @@ export function coerceEventMarkdown(text: string): CoerceEventMarkdown {
       if (!isRecord(source) || typeof source.work !== 'string') {
         return { error: '出处必须有 work', dropped, movedDesc: false };
       }
+      const unknown = Object.keys(source).find((key) => !SOURCE_KEYS.includes(key as (typeof SOURCE_KEYS)[number]));
+      if (unknown) return { error: `出处字段 ${unknown} 不在模板中`, dropped, movedDesc: false };
+      if (source.kind !== undefined && !SOURCE_KINDS.has(String(source.kind))) {
+        return { error: '出处 kind 必须是 classic、modern 或 database', dropped, movedDesc: false };
+      }
       sources.push(source as unknown as SourceRef);
     }
     event.sources = sources;
   }
-  const commanders = normalizeCommanders(record.commanders);
-  if (commanders) event.commanders = commanders;
+  if (record.commanders !== undefined) {
+    const commanders = normalizeCommanders(record.commanders);
+    if (!commanders) return { error: 'commanders 必须是字符串 id 或包含 id、side 的字段表列表', dropped, movedDesc: false };
+    event.commanders = commanders;
+  }
 
   const body = split.body.trim();
   const desc = [frontDesc, body].filter((part) => part.length > 0).join('\n\n');

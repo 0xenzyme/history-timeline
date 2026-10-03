@@ -58,6 +58,7 @@ export function validateTopic(topic: Topic, expectedId?: string): string[] {
     if (!personIds.has(rel.target)) problems.push(`${tag} 的 target 人物不存在`);
     if (!typeIds.has(rel.type)) problems.push(`${tag} 的关系类型 ${rel.type} 不存在`);
     if (rel.source === rel.target) problems.push(`${tag} 指向自身`);
+    if (typeof rel.note !== 'string' || rel.note.trim() === '') problems.push(`${tag} 缺少 note`);
   }
 
   for (const event of topic.events ?? []) {
@@ -76,6 +77,8 @@ export function validateTopic(topic: Topic, expectedId?: string): string[] {
   for (const view of topic.views ?? []) {
     const tag = `章节 ${view.id}`;
     if (view.from >= view.to) problems.push(`${tag} 的时间窗无效`);
+    if (typeof view.brief !== 'string' || view.brief.trim() === '') problems.push(`${tag} 缺少 brief`);
+    if (typeof view.focus !== 'string' || view.focus.trim() === '') problems.push(`${tag} 缺少 focus`);
     if (view.focus !== undefined && !personIds.has(view.focus)) {
       problems.push(`${tag} 的 focus 人物不存在`);
     }
@@ -101,7 +104,7 @@ function vocabIds(terms: Catalog['regions'] | undefined, label: string, problems
       problems.push(`${label} 存在缺少 id 的词条`);
       continue;
     }
-    if (!term.name) problems.push(`${label} ${term.id} 缺少 name`);
+    if (typeof term.name !== 'string' || term.name.trim() === '') problems.push(`${label} ${term.id} 缺少 name`);
     if (ids.has(term.id)) problems.push(`${label} id 重复：${term.id}`);
     ids.add(term.id);
   }
@@ -121,6 +124,7 @@ export function validateCatalog(catalog: Catalog): string[] {
   const regionIds = vocabIds(catalog.regions, 'regions', problems);
   const eraIds = vocabIds(catalog.eras, 'eras', problems);
   const themeIds = vocabIds(catalog.themes, 'themes', problems);
+  const polityIds = vocabIds(catalog.polities, 'polities', problems);
 
   if (!Array.isArray(catalog.categories) || catalog.categories.length === 0) {
     problems.push('categories 为空');
@@ -131,10 +135,47 @@ export function validateCatalog(catalog: Catalog): string[] {
         problems.push('categories 存在缺少 id 的词条');
         continue;
       }
-      if (!term.name) problems.push(`categories ${term.id} 缺少 name`);
+      if (typeof term.name !== 'string' || term.name.trim() === '') problems.push(`categories ${term.id} 缺少 name`);
       if (typeof term.rank !== 'number') problems.push(`categories ${term.id} 缺少 rank`);
       if (seen.has(term.id)) problems.push(`categories id 重复：${term.id}`);
       seen.add(term.id);
+    }
+  }
+
+  const lineIds = new Set<string>();
+  const lineFiles = new Set<string>();
+  if (!Array.isArray(catalog.lines) || catalog.lines.length === 0) {
+    problems.push('lines 为空');
+  } else {
+    for (const line of catalog.lines) {
+      if (!line?.id) problems.push('存在缺少 id 的内容线');
+      if (!line?.title) problems.push(`内容线 ${line?.id ?? '(空)'} 缺少 title`);
+      if (line?.axis !== 'topic' && line?.axis !== 'time') {
+        problems.push(`内容线 ${line?.id ?? '(空)'} 的 axis 无效`);
+      }
+      if (line?.axis === 'time') {
+        if (!line.file || !FILE_PATTERN.test(line.file)) {
+          problems.push(`内容线 ${line.id ?? '(空)'} 的 file 非法：${String(line.file ?? '(空)')}`);
+        }
+        if (!Array.isArray(line.range) || line.range.length !== 2 || line.range[0] >= line.range[1]) {
+          problems.push(`内容线 ${line.id ?? '(空)'} 的 range 无效`);
+        }
+      }
+      if (line?.id) {
+        if (lineIds.has(line.id)) problems.push(`内容线 id 重复：${line.id}`);
+        lineIds.add(line.id);
+      }
+      if (line?.file) {
+        if (lineFiles.has(line.file)) problems.push(`内容线 file 重复：${line.file}`);
+        lineFiles.add(line.file);
+      }
+    }
+  }
+
+  if (polityIds.size > 0 && Array.isArray(catalog.polities)) {
+    for (const term of catalog.polities) {
+      if (!term?.id) continue;
+      if (term.name.trim() === '') problems.push(`polities ${term.id} 缺少 name`);
     }
   }
 

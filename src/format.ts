@@ -40,6 +40,13 @@ export function lifespanSpan(person: Person): string | null {
   return fuzzy ? `约 ${years} 岁` : `${years} 岁`;
 }
 
+/** 事件的时间写法：单年是「公元前 209 年」，跨年是「1211 — 1234 年」。 */
+export function formatEventRange(year: number, endYear: number | undefined, accuracy: Accuracy): string {
+  const mark = MARK[accuracy];
+  if (endYear === undefined || endYear === year) return `${mark}${formatYear(year)}`;
+  return `${mark}${formatYearShort(year)} — ${formatYearShort(endYear)} 年`;
+}
+
 export const ACCURACY_LABEL: Record<Accuracy, string> = {
   exact: '确切',
   approx: '约略',

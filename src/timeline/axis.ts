@@ -1,10 +1,16 @@
 import { formatYearShort } from '../format';
-import type { RenderContext } from './context';
-import { AXIS_H } from './layout';
+import { AXIS_H, type AxisLayout } from './layout';
 import { esc, round } from './svg';
 import { toAxis } from './years';
 
 const STEPS = [5, 10, 20, 25, 50, 100, 200, 500, 1000];
+
+/** 只吃轴几何，人物线与事件线都能用。 */
+export interface AxisCtx {
+  domain: [number, number];
+  x: (year: number) => number;
+  layout: AxisLayout;
+}
 
 export function tickYears(domain: [number, number]): number[] {
   const span = toAxis(domain[1]) - toAxis(domain[0]);
@@ -18,7 +24,7 @@ export function tickYears(domain: [number, number]): number[] {
   return years;
 }
 
-export function renderGrid(ctx: RenderContext): string {
+export function renderGrid(ctx: AxisCtx): string {
   const { x } = ctx;
   const parts: string[] = [];
   for (const year of tickYears(ctx.domain)) {
@@ -31,7 +37,7 @@ export function renderGrid(ctx: RenderContext): string {
   return parts.join('');
 }
 
-export function renderPinnedAxis(ctx: RenderContext, laneName: string): string {
+export function renderPinnedAxis(ctx: AxisCtx, laneName: string): string {
   const { x, layout } = ctx;
   const parts: string[] = [];
   const labelY = AXIS_H - 12;

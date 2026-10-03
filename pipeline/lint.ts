@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import type { Topic } from '../src/types';
+import type { Catalog, Topic } from '../src/types';
 import type {
   CandidateEntry,
   DynastyTerm,
@@ -15,13 +15,22 @@ import type {
 
 const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 
-/** person.schema.json 里用到的 JSON Schema 子集：type / enum / items / required / properties */
+/** 内容 schema 使用的 JSON Schema 子集。支持本仓库 schema 实际用到的约束。 */
 interface SchemaProp {
-  type?: string;
-  enum?: string[];
+  title?: string;
+  type?: string | string[];
+  enum?: unknown[];
+  const?: unknown;
+  $ref?: string;
   items?: SchemaProp;
   required?: string[];
   properties?: Record<string, SchemaProp>;
+  additionalProperties?: boolean;
+  minLength?: number;
+  minItems?: number;
+  maxItems?: number;
+  pattern?: string;
+  $defs?: Record<string, SchemaProp>;
 }
 
 const personSchema = JSON.parse(
@@ -31,106 +40,123 @@ const personSchema = JSON.parse(
 const eventSchema = JSON.parse(
   readFileSync(join(pipelineRoot, 'schema', 'event.schema.json'), 'utf8'),
 ) as SchemaProp;
+const catalogSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'catalog.schema.json'), 'utf8'),
+) as SchemaProp;
+const topicSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'topic.schema.json'), 'utf8'),
+) as SchemaProp;
+const candidateSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'candidate.schema.json'), 'utf8'),
+) as SchemaProp;
+
+function typeMatches(value: unknown, type: string): boolean {
+  switch (type) {
+    case 'integer':
+      return typeof value === 'number' && Number.isInteger(value);
+    case 'string':
+      return typeof value === 'string';
+    case 'array':
+      return Array.isArray(value);
+    case 'object':
+      return typeof value === 'object' && value !== null && !Array.isArray(value);
+    case 'number':
+      return typeof value === 'number' && Number.isFinite(value);
+    case 'boolean':
+      return typeof value === 'boolean';
+    case 'null':
+      return value === null;
+    default:
+      return true;
+  }
+}
 
 function typeMismatch(value: unknown, rule: SchemaProp | undefined): boolean {
-  switch (rule?.type) {
-    case 'integer':
-      return typeof value !== 'number' || !Number.isInteger(value);
-    case 'string':
-      return typeof value !== 'string';
-    case 'array':
-      return !Array.isArray(value);
-    case 'object':
-      return typeof value !== 'object' || value === null || Array.isArray(value);
-    default:
-      return false;
-  }
+  if (!rule?.type) return false;
+  const types = Array.isArray(rule.type) ? rule.type : [rule.type];
+  return !types.some((type) => typeMatches(value, type));
 }
 
-function enumViolation(value: unknown, rule: SchemaProp | undefined): boolean {
-  return Boolean(rule?.enum) && !rule!.enum!.includes(value as string);
+function resolveSchema(rule: SchemaProp, root: SchemaProp): SchemaProp {
+  if (!rule.$ref) return rule;
+  const match = /^#\/\$defs\/([^/]+)$/.exec(rule.$ref);
+  return match && root.$defs?.[match[1]] ? root.$defs[match[1]] : rule;
 }
 
-/** 按 schema 的字段表逐项校验。未知字段先只告警：历史登记尚未按 schema 审计过。 */
-function lintSchemaProps(
-  record: Record<string, unknown>,
-  schema: SchemaProp,
-  schemaName: string,
-  path: string,
-): LintMessage[] {
+function schemaLabel(root: SchemaProp): string {
+  return root.title ? `${root.title}.schema.json` : 'schema';
+}
+
+function lintSchemaValue(value: unknown, ruleInput: SchemaProp, root: SchemaProp, path: string): LintMessage[] {
   const messages: LintMessage[] = [];
-  const props = schema.properties ?? {};
+  const rule = resolveSchema(ruleInput, root);
 
-  for (const [key, value] of Object.entries(record)) {
+  if (typeMismatch(value, rule)) {
+    messages.push({ level: 'error', path, message: `值类型不符合 ${schemaLabel(root)} 的 schema` });
+    return messages;
+  }
+  if (rule.const !== undefined && value !== rule.const) {
+    messages.push({ level: 'error', path, message: `值必须是 ${String(rule.const)}` });
+  }
+  if (rule.enum && !rule.enum.some((item) => Object.is(item, value))) {
+    messages.push({ level: 'error', path, message: `取值 ${String(value)} 不合法` });
+  }
+  if (typeof value === 'string') {
+    if (rule.minLength !== undefined && value.length < rule.minLength) {
+      messages.push({ level: 'error', path, message: `字符串长度不能少于 ${rule.minLength}` });
+    }
+    if (rule.pattern && !new RegExp(rule.pattern).test(value)) {
+      messages.push({ level: 'error', path, message: `字符串不符合格式 ${rule.pattern}` });
+    }
+  }
+  if (Array.isArray(value)) {
+    if (rule.minItems !== undefined && value.length < rule.minItems) {
+      messages.push({ level: 'error', path, message: `数组至少需要 ${rule.minItems} 项` });
+    }
+    if (rule.maxItems !== undefined && value.length > rule.maxItems) {
+      messages.push({ level: 'error', path, message: `数组最多只能有 ${rule.maxItems} 项` });
+    }
+    if (rule.items) {
+      value.forEach((item, index) => messages.push(...lintSchemaValue(item, rule.items!, root, `${path}[${index}]`)));
+    }
+    return messages;
+  }
+  if (typeof value !== 'object' || value === null || Array.isArray(value)) return messages;
+
+  const record = value as Record<string, unknown>;
+  const props = rule.properties ?? {};
+  for (const required of rule.required ?? []) {
+    if (record[required] === undefined) {
+      messages.push({ level: 'error', path, message: `缺少必填字段 ${required}` });
+    }
+  }
+  for (const [key, child] of Object.entries(record)) {
     const rule = props[key];
     if (!rule) {
-      messages.push({ level: 'warning', path, message: `字段 ${key} 不在 ${schemaName} 中` });
+      if (resolveSchema(ruleInput, root).additionalProperties === false) {
+        messages.push({ level: 'error', path, message: `字段 ${key} 不在 ${schemaLabel(root)} 中` });
+      }
       continue;
     }
-    if (value === undefined) continue;
-    if (typeMismatch(value, rule)) {
-      messages.push({ level: 'error', path, message: `字段 ${key} 类型应为 ${rule.type}` });
-      continue;
-    }
-    if (enumViolation(value, rule)) {
-      messages.push({ level: 'error', path, message: `字段 ${key} 取值 ${String(value)} 不合法` });
-    }
-    if (!Array.isArray(value)) continue;
-
-    for (const item of value) {
-      if (typeMismatch(item, rule.items)) {
-        messages.push({ level: 'error', path, message: `字段 ${key} 的元素类型应为 ${rule.items?.type}` });
-      }
-      if (rule.items?.type !== 'object') continue;
-
-      const object = item as Record<string, unknown>;
-      for (const required of rule.items.required ?? []) {
-        if (object[required] === undefined) {
-          messages.push({ level: 'error', path, message: `字段 ${key} 的元素缺少 ${required}` });
-        }
-      }
-      for (const [subKey, subValue] of Object.entries(object)) {
-        const subRule = rule.items.properties?.[subKey];
-        if (!subRule) {
-          messages.push({ level: 'warning', path, message: `字段 ${key} 的 ${subKey} 不在 ${schemaName} 中` });
-        } else if (enumViolation(subValue, subRule)) {
-          messages.push({ level: 'error', path, message: `字段 ${key} 的 ${subKey} 取值 ${String(subValue)} 不合法` });
-        }
-      }
-    }
-  }
-
-  return messages;
-}
-
-function lintSchemaRequired(
-  record: Record<string, unknown>,
-  schema: SchemaProp,
-  path: string,
-): LintMessage[] {
-  const messages: LintMessage[] = [];
-  for (const key of schema.required ?? []) {
-    if (record[key] === undefined) {
-      messages.push({ level: 'error', path, message: `缺少必填字段 ${key}` });
-    }
+    messages.push(...lintSchemaValue(child, rule, root, `${path}.${key}`));
   }
   return messages;
 }
 
 function lintPersonSchema(person: RegistryPerson, path: string): LintMessage[] {
-  const record = person as unknown as Record<string, unknown>;
-  return [
-    ...lintSchemaRequired(record, personSchema, path),
-    ...lintSchemaProps(record, personSchema, 'person.schema.json', path),
-  ];
+  return lintSchemaValue(person, personSchema, personSchema, path);
 }
 
 function lintEventSchema(event: RegistryEvent, path: string): LintMessage[] {
-  const record = event as unknown as Record<string, unknown>;
-  return [
-    ...lintSchemaRequired(record, eventSchema, path),
-    ...lintSchemaProps(record, eventSchema, 'event.schema.json', path),
-  ];
+  return lintSchemaValue(event, eventSchema, eventSchema, path);
+}
+
+function lintCatalogSchema(catalog: Catalog, path: string): LintMessage[] {
+  return lintSchemaValue(catalog, catalogSchema, catalogSchema, path);
+}
+
+function lintTopicSchema(topic: Topic, path: string): LintMessage[] {
+  return lintSchemaValue(topic, topicSchema, topicSchema, path);
 }
 
 function vocabSet(items: { id: string }[]): Set<string> {
@@ -150,7 +176,14 @@ function sourceKind(source: SourceRef): 'classic' | 'modern' | 'database' {
 }
 
 function hasReliableSource(sources: SourceRef[] | undefined): boolean {
-  return Boolean(sources?.some((source) => source.work.trim() && sourceKind(source) !== 'database'));
+  if (!Array.isArray(sources)) return false;
+  return sources.some((source) =>
+    source !== null &&
+    typeof source === 'object' &&
+    typeof source.work === 'string' &&
+    source.work.trim() !== '' &&
+    sourceKind(source) !== 'database',
+  );
 }
 
 export interface RosterReport {
@@ -186,15 +219,23 @@ export function lintRegistryPerson(
   path = `pipeline/registry/people/${person.id}.json`,
 ): LintMessage[] {
   const messages = lintPersonSchema(person, path);
-  for (const category of person.categories ?? []) {
+  const categories = Array.isArray(person.categories) ? person.categories : [];
+  if (new Set(categories).size !== categories.length) {
+    messages.push({ level: 'error', path, message: 'categories 不能有重复值' });
+  }
+  for (const category of categories) {
     if (!categoryIds.has(category)) {
       messages.push({ level: 'error', path, message: `category ${category} 不在词表中` });
     }
   }
-  if (person.primary && person.categories && !person.categories.includes(person.primary)) {
+  if (person.primary && Array.isArray(person.categories) && !person.categories.includes(person.primary)) {
     messages.push({ level: 'error', path, message: `primary ${person.primary} 不在 categories 中` });
   }
-  for (const polity of person.polity ?? []) {
+  const polities = Array.isArray(person.polity) ? person.polity : [];
+  if (new Set(polities).size !== polities.length) {
+    messages.push({ level: 'error', path, message: 'polity 不能有重复值' });
+  }
+  for (const polity of polities) {
     if (!polityIds.has(polity)) {
       messages.push({ level: 'error', path, message: `polity ${polity} 不在词表中` });
     }
@@ -274,10 +315,10 @@ export function lintRegistryEvent(
     if (!event.belligerents || event.belligerents.length < 2) {
       messages.push({ level: 'error', path, message: '军事事件至少要写两个交战方' });
     }
-    if (event.scale === 'war' && event.place) {
+    if (event.scale === 'war' && typeof event.place === 'string' && event.place) {
       messages.push({ level: 'error', path, message: 'war 是跨地域战争，不应写 place' });
     }
-    if (event.scale && event.scale !== 'war' && !event.place?.trim()) {
+    if (event.scale && event.scale !== 'war' && (typeof event.place !== 'string' || !event.place.trim())) {
       messages.push({ level: 'error', path, message: `${event.scale} 缺少 place` });
     }
   } else {
@@ -295,10 +336,10 @@ export function lintRegistryEvent(
   if (event.yearAccuracy === 'unknown') {
     messages.push({ level: 'error', path, message: 'yearAccuracy 为 unknown 时不应写 year，事件上不了轴' });
   }
-  if (event.yearAccuracy === 'disputed' && !event.yearNote?.trim()) {
+  if (event.yearAccuracy === 'disputed' && (typeof event.yearNote !== 'string' || !event.yearNote.trim())) {
     messages.push({ level: 'error', path, message: '年份有异说必须写 yearNote' });
   }
-  if (event.yearAccuracy === 'approx' && !event.yearNote?.trim()) {
+  if (event.yearAccuracy === 'approx' && (typeof event.yearNote !== 'string' || !event.yearNote.trim())) {
     messages.push({ level: 'error', path, message: '年份约略必须写 yearNote' });
   }
   if (event.endYear !== undefined && event.endYear < event.year) {
@@ -314,18 +355,22 @@ export function lintRegistryEvent(
     messages.push({ level: 'error', path, message: '年份不能只靠 database 出处支撑，需要 classic 或 modern' });
   }
 
-  for (const polity of [...(event.belligerents ?? []), ...(event.polity ?? [])]) {
+  const belligerents = Array.isArray(event.belligerents) ? event.belligerents : [];
+  const polities = Array.isArray(event.polity) ? event.polity : [];
+  for (const polity of [...belligerents, ...polities]) {
     if (!ctx.polityIds.has(polity)) {
       messages.push({ level: 'error', path, message: `政权 ${polity} 不在词表中` });
     }
   }
-  const sides = new Set(event.belligerents ?? []);
-  for (const commander of event.commanders ?? []) {
-    if (commander.side && !sides.has(commander.side)) {
+  const commanders = Array.isArray(event.commanders) ? event.commanders : [];
+  const people = Array.isArray(event.people) ? event.people : [];
+  const sides = new Set(belligerents);
+  for (const commander of commanders) {
+    if (commander && typeof commander === 'object' && commander.side && !sides.has(commander.side)) {
       messages.push({ level: 'error', path, message: `主将 ${commander.id} 的 side ${commander.side} 不在 belligerents 中` });
     }
   }
-  for (const id of [...(event.commanders ?? []).map((item) => item.id), ...(event.people ?? [])]) {
+  for (const id of [...commanders.map((item) => item?.id), ...people]) {
     if (!ctx.people.has(id)) {
       messages.push({ level: 'error', path, message: `引用的人物不存在：${id}` });
     }
@@ -338,19 +383,34 @@ export function lintRegistryEvent(
       const parent = ctx.events.get(event.parent);
       if (!parent) {
         messages.push({ level: 'error', path, message: `parent ${event.parent} 不存在` });
-      } else if (parent.parent) {
-        messages.push({ level: 'error', path, message: `parent ${event.parent} 自身还有 parent，只允许两层` });
+      } else {
+        if (parent.parent) {
+          messages.push({ level: 'error', path, message: `parent ${event.parent} 自身还有 parent，只允许两层` });
+        }
+        if (parent.type !== 'military' || parent.scale !== 'war') {
+          messages.push({ level: 'error', path, message: `parent ${event.parent} 必须是 scale=war 的军事事件` });
+        }
+        if (parent.endYear === undefined) {
+          messages.push({ level: 'error', path, message: `parent ${event.parent} 是战争时必须写 endYear` });
+        }
+        if (event.type !== 'military' || (event.scale !== 'campaign' && event.scale !== 'battle')) {
+          messages.push({ level: 'error', path, message: 'parent 子事件必须是 scale=campaign 或 battle 的军事事件' });
+        }
+        const childEnd = event.endYear ?? event.year;
+        if (parent.endYear !== undefined && (event.year < parent.year || childEnd > parent.endYear)) {
+          messages.push({ level: 'error', path, message: `事件时间 ${event.year}—${childEnd} 超出 parent ${event.parent} 的范围 ${parent.year}—${parent.endYear}` });
+        }
       }
     }
   }
 
-  if (event.importance === 3 && !event.desc?.trim()) {
+  if (event.importance === 3 && (typeof event.desc !== 'string' || !event.desc.trim())) {
     messages.push({ level: 'warning', path, message: 'importance 为 3 但还没写正文' });
   }
-  if (event.name.length > 8 && !event.display) {
+  if (typeof event.name === 'string' && event.name.length > 8 && !event.display) {
     messages.push({ level: 'warning', path, message: '名称较长但没有 display，轴上标签会挤' });
   }
-  if (military && !event.result?.trim()) {
+  if (military && (typeof event.result !== 'string' || !event.result.trim())) {
     messages.push({ level: 'warning', path, message: '军事事件缺少 result' });
   }
   if (!military && (event.sources?.length ?? 0) < 2) {
@@ -396,11 +456,13 @@ function lintCandidates(data: PipelineData): LintMessage[] {
     const topicId = draft.meta.id;
     const path = `topics/${topicId}/candidates.json`;
     const entries = data.candidates.get(topicId) ?? [];
+    messages.push(...lintSchemaValue({ people: entries }, candidateSchema, candidateSchema, path));
     const laneIds = new Set(draft.lanes.map((lane) => lane.id));
     const topicPeople = new Set(draft.people.map((person) => person.id));
     const seen = new Set<string>();
 
     for (const entry of entries) {
+      if (entry === null || typeof entry !== 'object' || Array.isArray(entry)) continue;
       messages.push(...lintCandidateEntry(entry, path, laneIds, topicPeople, data, seen));
     }
   }
@@ -422,7 +484,7 @@ function lintCandidateEntry(
       messages.push({ level: 'warning', path, message: `${entry.id || '(无 id)'} 的字段 ${key} 不在候选台账中` });
     }
   }
-  if (!entry.id || !CANDIDATE_ID.test(entry.id)) {
+  if (typeof entry.id !== 'string' || !CANDIDATE_ID.test(entry.id)) {
     messages.push({ level: 'error', path, message: `候选 id 不合法：${entry.id || '(空)'}` });
     return messages;
   }
@@ -430,10 +492,10 @@ function lintCandidateEntry(
     messages.push({ level: 'error', path, message: `候选 id 重复：${entry.id}` });
   }
   seen.add(entry.id);
-  if (!entry.name?.trim()) {
+  if (typeof entry.name !== 'string' || !entry.name.trim()) {
     messages.push({ level: 'error', path, message: `${entry.id} 缺少 name` });
   }
-  if (!entry.seat || !laneIds.has(entry.seat)) {
+  if (typeof entry.seat !== 'string' || !laneIds.has(entry.seat)) {
     messages.push({ level: 'error', path, message: `${entry.id} 的 seat 不是本专题泳道` });
   }
   if (entry.status !== 'pending' && entry.status !== 'rejected') {
@@ -441,7 +503,7 @@ function lintCandidateEntry(
     return messages;
   }
   if (entry.status === 'pending') {
-    if (!entry.anchor?.trim()) {
+    if (typeof entry.anchor !== 'string' || !entry.anchor.trim()) {
       messages.push({ level: 'error', path, message: `${entry.id} 待核但缺少 anchor` });
     }
     if (!hasReliableSource(entry.sources)) {
@@ -455,11 +517,14 @@ function lintCandidateEntry(
     }
   }
   if (entry.status === 'rejected') {
-    if (!entry.reason?.trim()) {
+    if (typeof entry.reason !== 'string' || !entry.reason.trim()) {
       messages.push({ level: 'error', path, message: `${entry.id} 已标不收但缺少 reason` });
     }
     if (topicPeople.has(entry.id)) {
       messages.push({ level: 'error', path, message: `${entry.id} 已标不收，但仍在专题 people 里` });
+    }
+    if (data.people.has(entry.id)) {
+      messages.push({ level: 'error', path, message: `${entry.id} 已登记却标为不收，应从候选台账移除或重新说明` });
     }
   }
   return messages;
@@ -474,8 +539,10 @@ function connectedPeople(topic: Topic): Set<string> {
   return ids;
 }
 
-export function lintPipeline(data: PipelineData, compiled: Topic[]): LintMessage[] {
+export function lintPipeline(data: PipelineData, compiled: Topic[], catalog?: Catalog): LintMessage[] {
   const messages: LintMessage[] = [];
+  if (catalog) messages.push(...lintCatalogSchema(catalog, 'public/data/index.json'));
+  for (const topic of compiled) messages.push(...lintTopicSchema(topic, `public/data/${topic.meta.id}.json`));
   const regionIds = vocabSet(data.regions);
   const eraIds = vocabSet(data.eras);
   const themeIds = vocabSet(data.themes);

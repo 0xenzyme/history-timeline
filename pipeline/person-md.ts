@@ -400,7 +400,10 @@ export function coercePersonMarkdown(text: string): CoercePersonMarkdown {
   let frontBio = '';
   for (const [key, value] of Object.entries(parsed)) {
     if (key === 'bio') {
-      if (typeof value === 'string') frontBio = value.trim();
+      if (typeof value !== 'string') {
+        return { error: '文首 bio 必须是字符串', dropped, movedBio: false };
+      }
+      frontBio = value.trim();
       continue;
     }
     if (!PERSON_MD_KEYS.includes(key as (typeof PERSON_MD_KEYS)[number])) {
@@ -420,11 +423,19 @@ export function coercePersonMarkdown(text: string): CoercePersonMarkdown {
       if (!isRecord(source) || typeof source.work !== 'string') {
         return { error: '出处必须有 work', dropped, movedBio: false };
       }
+      const unknown = Object.keys(source).find((key) => !SOURCE_KEYS.includes(key as (typeof SOURCE_KEYS)[number]));
+      if (unknown) return { error: `出处字段 ${unknown} 不在模板中`, dropped, movedBio: false };
+      if (source.kind !== undefined && !SOURCE_KINDS.has(String(source.kind))) {
+        return { error: '出处 kind 必须是 classic、modern 或 database', dropped, movedBio: false };
+      }
       sources.push(formatSource(source as unknown as SourceRef));
     }
     person.sources = sources;
   }
   const body = matched[2].trim();
+  if (frontBio && body) {
+    return { error: '文首 bio 与正文同时存在，无法安全合并；请删除其中一份', dropped, movedBio: false };
+  }
   const bio = body || frontBio;
   if (bio) person.bio = bio;
   return {

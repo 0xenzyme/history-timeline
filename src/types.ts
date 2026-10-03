@@ -217,6 +217,8 @@ export interface Catalog {
   themes: VocabTerm[];
   categories: CategoryTerm[];
   topics: CatalogEntry[];
+  /** 政权词表。事件卡要用它把 belligerents 的 id 翻成中文名。 */
+  polities?: VocabTerm[];
   /** 三条内容线。人物按专题组织，军事与历史事件按时间组织。 */
   lines?: CatalogLine[];
 }
@@ -225,6 +227,8 @@ export interface TopicFilters {
   region: string | null;
   era: string | null;
   theme: string | null;
+  /** 事件线按朝代区间筛选。只用于两条时间线。 */
+  dynasty: string | null;
 }
 
 /** 跨专题搜索用的瘦索引，由管线编译，不含简介。人物与事件共用，用 kind 区分。 */

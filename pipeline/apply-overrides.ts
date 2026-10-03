@@ -75,6 +75,7 @@ function main(): void {
 
   const errors: string[] = [];
   const protectedHits: string[] = [];
+  const markdownHits: string[] = [];
   const targets = new Map<string, { entry: OverrideEntry; tables: string[] }>();
 
   for (const file of files) {
@@ -98,6 +99,10 @@ function main(): void {
       const primary = typeof value.primary === 'string' ? value.primary : undefined;
 
       if (categories.length === 0) errors.push(`${file}: ${id} 缺少 categories`);
+      if (!Array.isArray(value.categories) || value.categories.some((item) => typeof item !== 'string')) {
+        errors.push(`${file}: ${id} 的 categories 必须是字符串数组`);
+      }
+      if (new Set(categories).size !== categories.length) errors.push(`${file}: ${id} 的 categories 不能重复`);
       if (value.primary !== undefined && !primary) errors.push(`${file}: ${id} 的 primary 不是字符串`);
       for (const category of categories) {
         if (!known.has(category)) errors.push(`${file}: ${id} 的 category ${category} 不在词表内`);
@@ -107,7 +112,7 @@ function main(): void {
       }
       const markdown = findPersonMarkdown(join(pipelineRoot, '..', 'content'), id);
       if (markdown) {
-        errors.push(`${file}: ${id} 在 ${markdown}，overrides 不改 Markdown`);
+        markdownHits.push(`${id}（${file} → ${markdown}）`);
         continue;
       }
       if (!existsSync(join(peopleDir, `${id}.json`))) {
@@ -136,15 +141,33 @@ function main(): void {
   }
 
   const droppedPrimary: string[] = [];
+  const writes: Array<{ path: string; content: string }> = [];
   for (const [id, target] of targets) {
     const path = join(peopleDir, `${id}.json`);
-    const parsed = JSON.parse(readFileSync(path, 'utf8')) as Record<string, unknown>;
+    const parsed = JSON.parse(readFileSync(path, 'utf8')) as unknown;
+    if (!isEntry(parsed)) {
+      errors.push(`${id}.json: 登记文件顶层必须是对象`);
+      continue;
+    }
     if (!target.entry.primary && parsed.primary !== undefined) droppedPrimary.push(id);
-    if (write) writeFileSync(path, `${JSON.stringify(applyEntry(parsed, target.entry), null, 2)}\n`);
+    if (write) writes.push({ path, content: `${JSON.stringify(applyEntry(parsed, target.entry), null, 2)}\n` });
+  }
+  if (errors.length > 0) {
+    console.log(`校验失败 ${errors.length} 项，已中止：${write ? '未写入任何文件' : 'dry-run'}`);
+    for (const message of errors.slice(0, 40)) console.log(`  - ${message}`);
+    if (errors.length > 40) console.log(`  ... 另有 ${errors.length - 40} 项`);
+    process.exitCode = 1;
+    return;
+  }
+  for (const item of writes) {
+    writeFileSync(item.path, item.content);
   }
 
   if (protectedHits.length > 0) {
     console.log(`手工标注保护，已整条跳过 ${protectedHits.length} 处：${protectedHits.join('、')}`);
+  }
+  if (markdownHits.length > 0) {
+    console.log(`已迁移到 Markdown，按规则跳过 ${markdownHits.length} 处（overrides 不改 Markdown）：${markdownHits.slice(0, 20).join('、')}${markdownHits.length > 20 ? ' …' : ''}`);
   }
 
   const cross = [...targets.entries()].filter(([, target]) => target.tables.length > 1);

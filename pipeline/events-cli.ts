@@ -106,6 +106,7 @@ function commandFormat(): void {
     process.exit(1);
   }
   let changed = 0;
+  const plans: Array<{ path: string; full: string; original: string; formatted: string; result: ReturnType<typeof coerceEventMarkdown> }> = [];
   const names = readdirSync(eventDir).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
   let failed = false;
   for (const name of names) {
@@ -118,14 +119,18 @@ function commandFormat(): void {
       failed = true;
       continue;
     }
-    if (result.dropped.length > 0) console.warn(`${path}: 去掉文首字段 ${result.dropped.join('、')}`);
-    if (result.movedDesc) console.warn(`${path}: desc 已从文首移到正文`);
-    if (result.formatted === original) continue;
-    writeFileSync(join(eventDir, name), result.formatted);
-    changed += 1;
-    console.log(`已整理 ${path}`);
+    plans.push({ path, full: join(eventDir, name), original, formatted: result.formatted, result });
   }
   if (failed) process.exit(process.exitCode ?? 1);
+
+  for (const plan of plans) {
+    if (plan.result.dropped.length > 0) console.warn(`${plan.path}: 去掉文首字段 ${plan.result.dropped.join('、')}`);
+    if (plan.result.movedDesc) console.warn(`${plan.path}: desc 已从文首移到正文`);
+    if (plan.formatted === plan.original) continue;
+    writeFileSync(plan.full, plan.formatted);
+    changed += 1;
+    console.log(`已整理 ${plan.path}`);
+  }
   if (rewriteEventIndex()) changed += 1;
   console.log(changed === 0 ? '事件 Markdown 已是规定格式' : `整理了 ${changed} 个文件`);
 }

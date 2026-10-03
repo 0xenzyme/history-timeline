@@ -104,11 +104,12 @@ function rewriteTopicIndex(topic: TopicIndexContext): boolean {
 function commandFormat(): void {
   const topics = topicContexts();
   let changed = 0;
+  const plans: Array<{ path: string; full: string; original: string; formatted: string; result: ReturnType<typeof coercePersonMarkdown> }> = [];
+  let failed = false;
   for (const topic of topics) {
     const directory = join(contentRoot, topic.id);
     if (!existsSync(directory)) continue;
     const names = readdirSync(directory).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
-    let failed = false;
     for (const name of names) {
       const path = `content/${topic.id}/${name}`;
       const full = join(directory, name);
@@ -120,17 +121,22 @@ function commandFormat(): void {
         failed = true;
         continue;
       }
-      if (result.dropped.length > 0) console.warn(`${path}: 去掉文首字段 ${result.dropped.join('、')}`);
-      if (result.movedBio) console.warn(`${path}: bio 已从文首移到正文`);
-      if (result.formatted === original) continue;
-      writeFileSync(full, result.formatted);
-      changed += 1;
-      console.log(`已整理 ${path}`);
+      plans.push({ path, full, original, formatted: result.formatted, result });
     }
-    if (failed) continue;
+  }
+  if (failed) process.exit(process.exitCode ?? 1);
+
+  for (const plan of plans) {
+    if (plan.result.dropped.length > 0) console.warn(`${plan.path}: 去掉文首字段 ${plan.result.dropped.join('、')}`);
+    if (plan.result.movedBio) console.warn(`${plan.path}: bio 已从文首移到正文`);
+    if (plan.formatted === plan.original) continue;
+    writeFileSync(plan.full, plan.formatted);
+    changed += 1;
+    console.log(`已整理 ${plan.path}`);
+  }
+  for (const topic of topics) {
     if (rewriteTopicIndex(topic)) changed += 1;
   }
-  if (process.exitCode) process.exit(process.exitCode);
   console.log(changed === 0 ? '人物 Markdown 已是规定格式' : `整理了 ${changed} 个文件`);
 }
 

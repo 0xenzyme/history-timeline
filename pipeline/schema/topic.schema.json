@@ -63,7 +63,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["source", "target", "type"],
+        "required": ["source", "target", "type", "note"],
         "properties": {
           "source": { "type": "string", "minLength": 1 },
           "target": { "type": "string", "minLength": 1 },
@@ -96,7 +96,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "name", "from", "to"],
+        "required": ["id", "name", "from", "to", "brief", "focus"],
         "properties": {
           "id": { "type": "string", "minLength": 1 },
           "name": { "type": "string", "minLength": 1 },
@@ -129,6 +129,10 @@
         "title": { "type": "string" },
         "bio": { "type": "string" },
         "tags": { "type": "array", "items": { "type": "string" } },
+        "categories": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "primary": { "type": "string", "minLength": 1 },
+        "polity": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "gender": { "enum": ["female", "male", "unknown"] },
         "order": { "type": "integer" }
       }
     }

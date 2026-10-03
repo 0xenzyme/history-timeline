@@ -39,6 +39,49 @@ body {
 
 /* ---------- topbar ---------- */
 
+/* 内容线主 tab：人物 / 军事 / 历史事件 */
+.lines {
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+}
+
+.line-tab {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 14px;
+  border: none;
+  border-radius: 999px;
+  background: none;
+  color: var(--ink-2);
+  font: inherit;
+  line-height: 1.15;
+  cursor: pointer;
+}
+
+.line-tab:hover {
+  color: var(--accent);
+}
+
+.line-tab.is-active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.line-tab-title {
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.line-tab-axis {
+  font-size: 10px;
+  opacity: 0.66;
+}
+
 .topbar {
   display: flex;
   align-items: center;
@@ -588,8 +631,94 @@ body.is-graph .axis-pin {
 .layer-event-lines,
 .layer-axis,
 .layer-event-labels,
-.layer-gutter {
+.layer-gutter,
+/* 事件线：layer-shadows 与 layer-hits 要能点，故意不在列 */
+.layer-rows,
+.layer-warbands,
+.layer-marks {
   pointer-events: none;
+}
+
+/* 事件线 */
+.ev-row-bg {
+  opacity: 0.07;
+}
+
+.ev-row-sep {
+  stroke: var(--hair);
+  stroke-width: 1;
+}
+
+.ev-war-label {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
+.ev-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.ev-mark {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.ev-label {
+  font-family: var(--sans);
+  font-size: 12px;
+}
+
+.ev-more {
+  fill: var(--muted);
+  font-family: var(--sans);
+  font-size: 11px;
+}
+
+.ev-shadow {
+  fill: #5a5a5a;
+  opacity: 0.26;
+  cursor: pointer;
+}
+
+.ev-shadow-mark {
+  fill: #5a5a5a;
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+.ev-shadow-name {
+  fill: var(--muted);
+  font-family: var(--sans);
+  font-size: 10px;
+}
+
+.ev-row-name {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.ev-gutter-bar {
+  opacity: 0.55;
+}
+
+.ev-empty {
+  fill: var(--muted);
+  font-family: var(--sans);
+  font-size: 13px;
+}
+
+/* 搜索结果里的事件行 */
+.search-hit.is-event .search-hit-kind {
+  margin-right: 6px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--paper-2);
+  color: var(--muted);
+  font-size: 10px;
+  font-style: normal;
 }
 
 .layer-gutter .gutter-name {
@@ -1121,6 +1250,12 @@ body.is-graph .stage {
     padding: 10px 14px 8px;
   }
 
+  .lines {
+    order: -1;
+    flex-basis: 100%;
+    justify-content: flex-start;
+  }
+
   .brand {
     flex: 1 1 180px;
     min-width: 0;
@@ -1208,7 +1343,8 @@ body.is-graph .stage {
 
   .facet-chip,
   .topic-option,
-  .search-hit {
+  .search-hit,
+  .line-tab {
     min-height: 38px;
   }
 

@@ -12,7 +12,7 @@ const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 interface LaneRule {
   categories?: string[];
   polity?: string[];
-  confidence?: 'high' | 'medium';
+  confidence?: 'high' | 'medium' | 'low';
 }
 
 interface Suggestion {
@@ -137,11 +137,27 @@ const MALE_HINTS = ['皇帝', '帝', '皇', '王', '公', '侯', '将', '相', '
 
 function readLaneMap(): Map<string, LaneRule> {
   const raw = readFileSync(join(pipelineRoot, 'taxonomy', 'lane-map.json'), 'utf8');
-  const parsed = JSON.parse(raw) as Record<string, LaneRule>;
+  const parsed = JSON.parse(raw) as unknown;
+  if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+    throw new Error('pipeline/taxonomy/lane-map.json 顶层必须是对象');
+  }
   const map = new Map<string, LaneRule>();
-  for (const [key, value] of Object.entries(parsed)) {
+  for (const [key, value] of Object.entries(parsed as Record<string, unknown>)) {
     if (key.startsWith('_')) continue;
-    map.set(key, value);
+    if (!value || typeof value !== 'object' || Array.isArray(value)) {
+      throw new Error(`lane-map ${key} 必须是对象`);
+    }
+    const rule = value as Record<string, unknown>;
+    for (const field of ['categories', 'polity']) {
+      const items = rule[field];
+      if (items !== undefined && (!Array.isArray(items) || items.some((item) => typeof item !== 'string'))) {
+        throw new Error(`lane-map ${key}.${field} 必须是字符串数组`);
+      }
+    }
+    if (rule.confidence !== undefined && rule.confidence !== 'high' && rule.confidence !== 'medium' && rule.confidence !== 'low') {
+      throw new Error(`lane-map ${key}.confidence 必须是 high、medium 或 low`);
+    }
+    map.set(key, rule as LaneRule);
   }
   return map;
 }
@@ -157,11 +173,24 @@ function readOverrides(): Map<string, Override> {
   const map = new Map<string, Override>();
   if (!existsSync(dir)) return map;
   for (const file of readdirSync(dir).filter((name) => name.endsWith('.json')).sort()) {
-    const parsed = JSON.parse(readFileSync(join(dir, file), 'utf8')) as Record<string, Override>;
-    for (const [id, value] of Object.entries(parsed)) {
+    const parsed = JSON.parse(readFileSync(join(dir, file), 'utf8')) as unknown;
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+      throw new Error(`overrides/${file} 顶层必须是对象`);
+    }
+    for (const [id, value] of Object.entries(parsed as Record<string, unknown>)) {
       if (id.startsWith('_')) continue;
+      if (!value || typeof value !== 'object' || Array.isArray(value)) {
+        throw new Error(`overrides/${file}: ${id} 必须是对象`);
+      }
+      const entry = value as Record<string, unknown>;
+      if (entry.categories !== undefined && (!Array.isArray(entry.categories) || entry.categories.some((item) => typeof item !== 'string'))) {
+        throw new Error(`overrides/${file}: ${id}.categories 必须是字符串数组`);
+      }
+      if (entry.primary !== undefined && typeof entry.primary !== 'string') {
+        throw new Error(`overrides/${file}: ${id}.primary 必须是字符串`);
+      }
       if (map.has(id)) console.warn(`overrides: ${id} 在多个文件中出现，后者覆盖前者（${file}）`);
-      map.set(id, value);
+      map.set(id, entry as Override);
     }
   }
   return map;
@@ -312,7 +341,7 @@ function main(): void {
   }
 
   const total = suggestions.size;
-  const pct = (value: number): string => `${((value / total) * 100).toFixed(1)}%`;
+  const pct = (value: number): string => (total === 0 ? '0.0%' : `${((value / total) * 100).toFixed(1)}%`);
   console.log(`推断范围：${onlyTopic ?? '全部专题'}，涉及人物 ${total} 位`);
   console.log(`categories 覆盖 ${categoryTotal} / ${total}（${pct(categoryTotal)}）`);
   console.log(`polity     覆盖 ${polityTotal} / ${total}（${pct(polityTotal)}）`);
@@ -327,9 +356,8 @@ function main(): void {
     }
   }
 
-  writeFileSync(join(pipelineRoot, 'taxonomy', 'todo.json'), `${JSON.stringify(todo, null, 2)}\n`);
-
   if (write) {
+    writeFileSync(join(pipelineRoot, 'taxonomy', 'todo.json'), `${JSON.stringify(todo, null, 2)}\n`);
     console.log(`已写入 ${written} 个人物文件；待补清单见 pipeline/taxonomy/todo.json`);
   } else {
     console.log('dry-run：未改动任何文件，加 --write 落地，加 --topic=<id> 限定专题');

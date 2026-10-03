@@ -31,6 +31,20 @@ svg { background: ${PAPER}; }
 .graph-node.is-center .graph-label { font-size: 16px; font-weight: 700; }
 .graph-sub { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 11px; fill: #8b8378; }
 .graph-empty { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 13px; fill: #8b8378; }
+/* 事件线。几何色一律内联，这里只补文字与描边 */
+.ev-row-bg { opacity: 0.07; }
+.ev-row-sep { stroke: #e7e0d3; stroke-width: 1; }
+.ev-war-label { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 10px; letter-spacing: 0.04em; }
+.ev-hit { fill: transparent; }
+.ev-mark { stroke: #fffdf9; stroke-width: 1; }
+.ev-label { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 12px; }
+.ev-more { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 11px; fill: #8b8378; }
+.ev-shadow { fill: #5a5a5a; opacity: 0.26; }
+.ev-shadow-mark { fill: #5a5a5a; opacity: 0.45; }
+.ev-shadow-name { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 10px; fill: #8b8378; }
+.ev-row-name { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 11px; font-weight: 600; }
+.ev-gutter-bar { opacity: 0.55; }
+.ev-empty { font-family: "PingFang SC","Microsoft YaHei",sans-serif; font-size: 13px; fill: #8b8378; }
 `;
 
 export function exportBasename(parts: string[]): string {

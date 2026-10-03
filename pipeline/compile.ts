@@ -46,6 +46,20 @@ function inLine(event: EventRecord, line: 'military' | 'history'): boolean {
   return event.type !== 'military' || event.importance >= 2;
 }
 
+/** 父事件是子事件的结构上下文；即使父事件本身不满足目录筛选，也必须随子事件进入该目录。 */
+function eventsForLine(events: EventRecord[], line: 'military' | 'history'): EventRecord[] {
+  const byId = new Map(events.map((event) => [event.id, event]));
+  const selected = new Map(events.filter((event) => inLine(event, line)).map((event) => [event.id, event]));
+  for (const event of [...selected.values()]) {
+    let parent = event.parent ? byId.get(event.parent) : undefined;
+    while (parent && !selected.has(parent.id)) {
+      selected.set(parent.id, parent);
+      parent = parent.parent ? byId.get(parent.parent) : undefined;
+    }
+  }
+  return events.filter((event) => selected.has(event.id));
+}
+
 /** 事件的年份区间与朝代区间有交集即命中。只是筛选标签，不是归属判定。 */
 export function dynastyHits(dynasties: DynastyTerm[], year: number, endYear?: number): string[] {
   const to = endYear ?? year;
@@ -126,6 +140,7 @@ export function compileCatalog(data: PipelineData): Catalog {
     eras: data.eras,
     themes: data.themes,
     categories: data.categories,
+    polities: data.polities,
     topics: data.topics.map((draft) => ({
       id: draft.meta.id,
       title: draft.meta.title,
@@ -180,7 +195,7 @@ export function compileEvents(data: PipelineData): EventRecord[] {
 export function compileLine(data: PipelineData, line: 'military' | 'history'): EventLineView {
   const meta = LINES.find((item) => item.id === line);
   if (!meta) throw new Error(`没有这条内容线：${line}`);
-  const events = compileEvents(data).filter((event) => inLine(event, line));
+  const events = eventsForLine(compileEvents(data), line);
   return {
     contractVersion: CONTRACT_VERSION,
     id: line,

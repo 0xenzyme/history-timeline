@@ -176,8 +176,20 @@ function main(): void {
   };
   const review: Record<string, { legacyRole: string; tags: string[] }> = {};
   const unknownIds = new Set<string>();
+  const files = readdirSync(peopleDir).filter((name) => name.endsWith('.json')).sort();
 
-  for (const file of readdirSync(peopleDir).filter((name) => name.endsWith('.json')).sort()) {
+  // 先完整检查输入，再进入写入循环，避免坏记录出现在中途时留下半迁移目录。
+  for (const file of files) {
+    const parsed = JSON.parse(readFileSync(join(peopleDir, file), 'utf8')) as Record<string, unknown>;
+    for (const key of ['role', 'tags', 'categories']) {
+      const value = parsed[key];
+      if (value !== undefined && (!Array.isArray(value) || value.some((item) => typeof item !== 'string'))) {
+        throw new Error(`${file}: ${key} 必须是字符串数组`);
+      }
+    }
+  }
+
+  for (const file of files) {
     const path = join(peopleDir, file);
     const parsed = JSON.parse(readFileSync(path, 'utf8')) as Record<string, unknown>;
     stats.files += 1;
@@ -239,7 +251,7 @@ function main(): void {
   }
 
   /** 清单为空时不覆盖既有文件，避免二次运行把人工复核线索清掉。 */
-  if (Object.keys(review).length > 0) writeFileSync(reviewPath, `${JSON.stringify(review, null, 2)}\n`);
+  if (write && Object.keys(review).length > 0) writeFileSync(reviewPath, `${JSON.stringify(review, null, 2)}\n`);
 
   console.log(`扫描 ${stats.files} 个人物文件（${write ? '写入模式' : 'dry-run'}）`);
   console.log(`获得 categories：${stats.withCategories} 人，仍无分类：${stats.withoutCategories} 人`);

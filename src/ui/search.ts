@@ -1,11 +1,14 @@
 import type { Person, SearchRecord, Topic } from '../types';
-import { formatLifespan } from '../format';
+import { formatEventRange, formatLifespan } from '../format';
 import { esc } from '../timeline/svg';
 
 export interface SearchRow {
   key: string;
   personId: string;
   topicId: string | null;
+  kind: 'person' | 'event';
+  /** 事件行才有：军事 / 历史事件 */
+  lineId: string | null;
   display: string;
   meta: string;
   note: string | null;
@@ -27,31 +30,33 @@ export function searchPeople(topic: Topic, query: string): Person[] {
     .map((item) => item.person);
 }
 
+/** topic 传 null 表示当前在事件线上，只搜全局索引。 */
 export function buildSearchRows(
-  topic: Topic,
+  topic: Topic | null,
   query: string,
   index: SearchRecord[] | null,
 ): { rows: SearchRow[]; notice: string | null; pending: boolean } {
   const q = query.trim();
   if (!q) return { rows: [], notice: null, pending: false };
   const needle = q.toLowerCase();
-  const local = topic.people
-    .map((person) => ({
-      person,
-      scored: scoreFields(person.display, person.name, person.title, person.tags, needle),
-    }))
-    .filter((item) => item.scored.score > 0)
-    .sort((a, b) => b.scored.score - a.scored.score || a.person.display.localeCompare(b.person.display, 'zh'))
-    .slice(0, 8)
-    .map((item) => rowFromPerson(item.person, item.scored.note));
 
-  if (local.length > 0) return { rows: local, notice: null, pending: false };
+  if (topic) {
+    const local = topic.people
+      .map((person) => ({
+        person,
+        scored: scoreFields(person.display, person.name, person.title, person.tags, needle),
+      }))
+      .filter((item) => item.scored.score > 0)
+      .sort((a, b) => b.scored.score - a.scored.score || a.person.display.localeCompare(b.person.display, 'zh'))
+      .slice(0, 8)
+      .map((item) => rowFromPerson(item.person, item.scored.note));
+    if (local.length > 0) return { rows: local, notice: null, pending: false };
+  }
+
   if (!index) return { rows: [], notice: null, pending: true };
 
-  // 事件行等阶段二再进搜索，先把它们挡在人物结果之外
   const remote = index
-    .filter((record) => (record.kind ?? 'person') === 'person')
-    .filter((record) => record.topicId !== topic.meta.id)
+    .filter((record) => record.topicId !== topic?.meta.id)
     .map((record) => ({
       record,
       scored: scoreFields(record.display, record.name, record.title, record.tags, needle),
@@ -64,11 +69,13 @@ export function buildSearchRows(
         a.record.display.localeCompare(b.record.display, 'zh'),
     )
     .slice(0, 6)
-    .map((item) => rowFromRecord(item.record, item.scored.note));
+    .map((item) =>
+      item.record.kind === 'event' ? rowFromEvent(item.record, item.scored.note) : rowFromRecord(item.record, item.scored.note),
+    );
 
   return {
     rows: remote,
-    notice: `${topic.meta.title}没有「${q}」`,
+    notice: topic ? `${topic.meta.title}没有「${q}」` : null,
     pending: false,
   };
 }
@@ -78,6 +85,8 @@ function rowFromPerson(person: Person, note: string | null): SearchRow {
     key: person.id,
     personId: person.id,
     topicId: null,
+    kind: 'person',
+    lineId: null,
     display: person.display,
     meta: `${person.name} · ${formatLifespan(person)}`,
     note,
@@ -99,8 +108,23 @@ function rowFromRecord(record: SearchRecord, note: string | null): SearchRow {
     key: `${record.topicId}/${record.id}`,
     personId: record.id,
     topicId: record.topicId,
+    kind: 'person',
+    lineId: null,
     display: record.display,
     meta: `${record.topicTitle} · ${formatLifespan(person)}`,
+    note,
+  };
+}
+
+function rowFromEvent(record: SearchRecord, note: string | null): SearchRow {
+  return {
+    key: `${record.topicId}/${record.id}`,
+    personId: record.id,
+    topicId: record.topicId,
+    kind: 'event',
+    lineId: record.topicId,
+    display: record.display,
+    meta: `${record.topicTitle} · ${formatEventRange(record.year ?? 0, record.endYear, record.yearAccuracy ?? 'exact')}`,
     note,
   };
 }
@@ -138,7 +162,7 @@ export function renderSearchResults(
     parts.push(`<p class="search-empty" role="status">${esc(notice)}</p>`);
   }
   if (rows.length === 0) {
-    if (!pending && !notice) parts.push(`<p class="search-empty" role="status">没有匹配的人物</p>`);
+    if (!pending && !notice) parts.push(`<p class="search-empty" role="status">没有匹配的人物或事件</p>`);
     return parts.join('');
   }
   if (notice && rows.length > 0) {
@@ -149,11 +173,13 @@ export function renderSearchResults(
       .map((row, index) => {
         const active = index === activeIndex;
         const attrs =
-          row.topicId === null
-            ? `data-search-hit="${esc(row.personId)}"`
-            : `data-search-jump="${esc(row.topicId)}/${esc(row.personId)}"`;
-        return `<li><button type="button" id="search-hit-${esc(row.key)}" class="search-hit${active ? ' is-active' : ''}" role="option" aria-selected="${active}" ${attrs}>
-          <span class="search-hit-name">${esc(row.display)}</span>
+          row.kind === 'event'
+            ? `data-search-event="${esc(row.lineId ?? '')}/${esc(row.personId)}"`
+            : row.topicId === null
+              ? `data-search-hit="${esc(row.personId)}"`
+              : `data-search-jump="${esc(row.topicId)}/${esc(row.personId)}"`;
+        return `<li><button type="button" id="search-hit-${esc(row.key)}" class="search-hit${active ? ' is-active' : ''}${row.kind === 'event' ? ' is-event' : ''}" role="option" aria-selected="${active}" ${attrs}>
+          <span class="search-hit-name">${row.kind === 'event' ? '<i class="search-hit-kind">事件</i>' : ''}${esc(row.display)}</span>
           <span class="search-hit-meta">${esc(row.meta)}</span>
           ${row.note ? `<span class="search-hit-note">${esc(row.note)}</span>` : ''}
         </button></li>`;

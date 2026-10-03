@@ -1,4 +1,13 @@
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import {
+  existsSync,
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  readdirSync,
+  renameSync,
+  rmSync,
+  writeFileSync,
+} from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -43,7 +52,7 @@ function main(): void {
     throw error;
   }
   const { catalog, topics, events, lines } = compileAll(data);
-  const lints = lintPipeline(data, topics);
+  const lints = lintPipeline(data, topics, catalog);
   const roster = summarizeRoster(data);
   console.log(
     `收录进度：简表 ${roster.brief} 人，详表 ${roster.full} 人，候选待核 ${roster.pending} 人，不收 ${roster.rejected} 人，事件 ${events.length} 条`,
@@ -64,6 +73,7 @@ function main(): void {
 
   if (checkOnly) {
     const mismatches: string[] = [];
+    const expectedNames = new Set(files.map(([name]) => name));
     for (const [name, value] of files) {
       const expected = toPrettyJson(value);
       let actual = '';
@@ -75,16 +85,39 @@ function main(): void {
       }
       if (actual !== expected) mismatches.push(`public/data/${name} 与管线输出不一致`);
     }
+    if (existsSync(outDir)) {
+      for (const entry of readdirSync(outDir, { withFileTypes: true })) {
+        if (!expectedNames.has(entry.name)) mismatches.push(`public/data/${entry.name} 是多余的 stale 产物`);
+      }
+    }
     reportAndExit([...errors, ...mismatches], warnings);
     console.log(`content check passed：${topics.length} 个专题`);
     return;
   }
 
   reportAndExit(errors, warnings);
-  mkdirSync(outDir, { recursive: true });
-  for (const [name, value] of files) {
-    writeFileSync(join(outDir, name), toPrettyJson(value));
+  const outputParent = dirname(outDir);
+  mkdirSync(outputParent, { recursive: true });
+  const tempDir = mkdtempSync(join(outputParent, '.data-tmp-'));
+  try {
+    for (const [name, value] of files) {
+      writeFileSync(join(tempDir, name), toPrettyJson(value), 'utf8');
+    }
+  } catch (error) {
+    rmSync(tempDir, { recursive: true, force: true });
+    throw error;
   }
+  const backupDir = `${outDir}.previous`;
+  if (existsSync(backupDir)) rmSync(backupDir, { recursive: true, force: true });
+  if (existsSync(outDir)) renameSync(outDir, backupDir);
+  try {
+    renameSync(tempDir, outDir);
+  } catch (error) {
+    if (existsSync(backupDir) && !existsSync(outDir)) renameSync(backupDir, outDir);
+    if (existsSync(tempDir)) rmSync(tempDir, { recursive: true, force: true });
+    throw error;
+  }
+  if (existsSync(backupDir)) rmSync(backupDir, { recursive: true, force: true });
   console.log(`wrote ${files.length} files to public/data`);
 }
 

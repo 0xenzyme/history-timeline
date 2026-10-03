@@ -1,5 +1,5 @@
-import type { TimelineEvent, Topic, View } from '../types';
-import type { Layout } from './layout';
+import type { CenturySegment, EventLineView, TimelineEvent, Topic, View } from '../types';
+import type { EventLayout, Layout } from './layout';
 
 export interface RenderContext {
   topic: Topic;
@@ -15,6 +15,25 @@ export interface RenderContext {
   showAllRelations: boolean;
   eventRows: Map<string, number>;
   adjacency: Map<string, Set<string>>;
+}
+
+/** 事件线的渲染上下文。与人物线的 RenderContext 平行，不共用字段。 */
+export interface EventLineContext {
+  line: EventLineView;
+  layout: EventLayout;
+  segment: CenturySegment | null;
+  domain: [number, number];
+  x: (year: number) => number;
+  zoneEvents: Set<string>;
+  focusId: string | null;
+  hoverId: string | null;
+}
+
+/** 事件没有邻接关系，只按焦点做强弱。 */
+export function opacityOfEvent(ctx: EventLineContext, id: string): number {
+  const hot = activeId(ctx);
+  if (hot === null) return 1;
+  return id === hot ? 1 : 0.4;
 }
 
 export function opacityOf(ctx: RenderContext, id: string): number {

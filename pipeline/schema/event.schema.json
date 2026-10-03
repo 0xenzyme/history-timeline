@@ -32,6 +32,7 @@
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": ["id"],
         "properties": {
           "id": { "type": "string" },
@@ -48,6 +49,7 @@
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": ["work"],
         "properties": {
           "work": { "type": "string" },

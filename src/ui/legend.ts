@@ -1,4 +1,5 @@
-import type { Topic } from '../types';
+import type { EventLineView, Topic } from '../types';
+import { EVENT_TYPE_ORDER, EVENT_TYPE_META } from '../timeline/layout';
 
 export function renderLegend(topic: Topic): string {
   const lanes = topic.lanes
@@ -25,5 +26,34 @@ export function renderLegend(topic: Topic): string {
     <div class="legend-group"><span class="legend-title">泳道</span>${lanes}</div>
     <div class="legend-group"><span class="legend-title">关系</span>${relations}</div>
     <div class="legend-group"><span class="legend-title">年代</span>${bars}</div>
+  `;
+}
+
+/** 事件线没有泳道与关系，图例换成类型色、重要度与影子条。 */
+export function renderEventLegend(line: EventLineView): string {
+  const present = EVENT_TYPE_ORDER.filter((type) => line.events.some((event) => event.type === type));
+  const types = present
+    .map(
+      (type) =>
+        `<span class="legend-item"><i class="swatch" style="background:${EVENT_TYPE_META[type].color}"></i>${EVENT_TYPE_META[type].name}</span>`,
+    )
+    .join('');
+
+  const marks = [1, 2, 3]
+    .map((level) => {
+      const r = [3.4, 4.4, 5.6][level - 1];
+      return `<span class="legend-item"><svg class="legend-line" viewBox="0 0 14 14" width="14" height="14"><polygon points="7,${7 - r} ${7 + r},7 7,${7 + r} ${7 - r},7" fill="#5a5a5a" /></svg>${level === 3 ? '改变格局' : level === 2 ? '重要' : '有记录'}</span>`;
+    })
+    .join('');
+
+  const shadow =
+    line.id === 'military'
+      ? `<div class="legend-group"><span class="legend-title">背景</span><span class="legend-item"><svg class="legend-line" viewBox="0 0 34 10" width="34" height="10"><rect x="1" y="3" width="32" height="5" rx="1.5" fill="#5a5a5a" opacity="0.28" /></svg>参战人物生命条</span></div>`
+      : '';
+
+  return `
+    <div class="legend-group"><span class="legend-title">类型</span>${types}</div>
+    <div class="legend-group"><span class="legend-title">重要度</span>${marks}</div>
+    ${shadow}
   `;
 }

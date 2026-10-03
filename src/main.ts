@@ -3,14 +3,39 @@ import { select } from 'd3-selection';
 import { zoom as createZoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
 
 import { downloadChart, exportBasename } from './export';
-import { formatLifespan, lifespanSpan } from './format';
-import { findCatalogEntry, loadCatalog, loadSearchIndex, loadTopic } from './loader';
-import { parseHash, topicDataUrl, writeHash, type HistoryMode } from './routing';
-import type { Catalog, Person, SearchRecord, Topic, TopicFilters, View } from './types';
-import { buildLayout, AXIS_H, type Layout } from './timeline/layout';
+import { formatEventRange, formatLifespan, lifespanSpan } from './format';
+import { findCatalogEntry, loadCatalog, loadLine, loadSearchIndex, loadTopic } from './loader';
+import {
+  parseHash,
+  topicDataUrl,
+  writeHash,
+  writeLineHash,
+  type HistoryMode,
+  type LineId,
+} from './routing';
+import type {
+  Catalog,
+  CenturySegment,
+  EventLineView,
+  EventRecord,
+  Person,
+  SearchRecord,
+  Topic,
+  TopicFilters,
+  View,
+} from './types';
+import {
+  buildEventLayout,
+  buildLayout,
+  segmentDomain,
+  AXIS_H,
+  type AxisLayout,
+  type EventLayout,
+  type Layout,
+} from './timeline/layout';
 import { fromAxis, toAxis } from './timeline/years';
 import { fitPersonDomain } from './timeline/geometry';
-import { buildAdjacency, type RenderContext } from './timeline/context';
+import { buildAdjacency, type EventLineContext, type RenderContext } from './timeline/context';
 import { renderGrid, renderPinnedAxis } from './timeline/axis';
 import { renderGutter, renderLanes } from './timeline/lanes';
 import { renderBarDefs, renderBars, renderHitAreas } from './timeline/bars';
@@ -22,12 +47,24 @@ import {
   renderEventLines,
   renderEventRibbon,
 } from './timeline/events';
+import {
+  renderEventEmpty,
+  renderEventHits,
+  renderEventMarks,
+  renderLineLabels,
+  renderShadowBars,
+  renderTypeGutter,
+  renderTypeRows,
+  renderWarBands,
+} from './timeline/event-axis';
 import { entryView, findView, findViewForPerson, isIndexView, renderChapters } from './ui/chapters';
-import { renderLegend } from './ui/legend';
-import { renderCard } from './ui/card';
-import { renderTopics } from './ui/topics';
+import { renderEventLegend, renderLegend } from './ui/legend';
+import { renderCard, renderEventCard } from './ui/card';
+import { renderLineTabs } from './ui/lines';
+import { renderTopics, type NavTarget } from './ui/topics';
 import { buildSearchRows, renderSearchResults, searchPeople, type SearchRow } from './ui/search';
 import { renderGraph, personRelationCount } from './ui/graph';
+import { entrySegment, findSegment, renderSegments, segmentForEvent } from './ui/segments';
 import { esc } from './timeline/svg';
 
 const svg = document.getElementById('chart') as unknown as SVGSVGElement;
@@ -41,6 +78,7 @@ const legendEl = document.getElementById('legend') as HTMLElement;
 const tooltipEl = document.getElementById('tooltip') as HTMLElement;
 const briefEl = document.getElementById('brief') as HTMLElement;
 const hintEl = document.getElementById('hint') as HTMLElement;
+const linesEl = document.getElementById('lines') as HTMLElement;
 const topicSwitchEl = document.getElementById('topic-switch') as HTMLElement;
 const searchInput = document.getElementById('search-input') as HTMLInputElement;
 const searchResultsEl = document.getElementById('search-results') as HTMLElement;
@@ -53,12 +91,11 @@ type Mode = 'timeline' | 'graph';
 interface RouteMiss {
   topicToken: string | null;
   viewToken: string | null;
+  /** 事件线上不存在的分段或事件 id */
+  lineToken: string | null;
 }
 
-interface AppState {
-  topic: Topic;
-  layout: Layout;
-  viewId: string;
+interface CommonState {
   domain: [number, number];
   focusId: string | null;
   hoverId: string | null;
@@ -66,6 +103,44 @@ interface AppState {
   adjacency: Map<string, Set<string>>;
   mode: Mode;
   routeMiss: RouteMiss | null;
+}
+
+/** 人物线：按朝代专题组织。 */
+interface TopicState extends CommonState {
+  axis: 'topic';
+  topic: Topic;
+  layout: Layout;
+  viewId: string;
+}
+
+/** 军事 / 历史事件线：按世纪分段组织。viewId 存的是分段 id。 */
+interface LineState extends CommonState {
+  axis: 'time';
+  line: EventLineView;
+  layout: EventLayout;
+  viewId: string;
+}
+
+type AppState = TopicState | LineState;
+
+function isLineState(s: AppState): s is LineState {
+  return s.axis === 'time';
+}
+
+function axisRange(s: AppState): [number, number] {
+  return s.axis === 'topic' ? s.topic.meta.range : s.line.range;
+}
+
+function axisTitle(s: AppState): string {
+  return s.axis === 'topic' ? s.topic.meta.title : s.line.title;
+}
+
+function activeLineId(s: AppState): string {
+  return s.axis === 'topic' ? 'people' : s.line.id;
+}
+
+function activeTopic(s: AppState | null): Topic | null {
+  return s && s.axis === 'topic' ? s.topic : null;
 }
 
 const ui: {
@@ -83,8 +158,21 @@ const ui: {
     region: null,
     era: null,
     theme: null,
+    dynasty: null,
   },
 };
+
+/** 事件线的朝代筛选会改变布局，人物线的筛选只改菜单。 */
+function refreshAfterFilter(): void {
+  if (state && isLineState(state)) {
+    rebuildLayout();
+    renderChrome();
+    render();
+    paintAxisPin();
+    return;
+  }
+  renderChrome();
+}
 
 let catalog: Catalog | null = null;
 let state: AppState | null = null;
@@ -96,13 +184,26 @@ let applyingTransform = false;
 let loadingTopic = false;
 const pointer = { x: 0, y: 0 };
 
-function currentView(): View {
-  return findView(state!.topic, state!.viewId);
+/** 人物线的当前章节。事件线没有章节，返回 null。 */
+function currentView(): View | null {
+  if (!state || state.axis !== 'topic') return null;
+  return findView(state.topic, state.viewId);
+}
+
+/** 事件线的当前分段。 */
+function currentSegment(): CenturySegment | null {
+  if (!state || state.axis !== 'time') return null;
+  return findSegment(state.line, state.viewId);
 }
 
 function personById(id: string | null): Person | null {
-  if (!state || id === null) return null;
+  if (!state || id === null || state.axis !== 'topic') return null;
   return state.topic.people.find((person) => person.id === id) ?? null;
+}
+
+function eventById(id: string | null): EventRecord | null {
+  if (!state || id === null || state.axis !== 'time') return null;
+  return state.line.events.find((event) => event.id === id) ?? null;
 }
 
 function announce(message: string): void {
@@ -129,14 +230,15 @@ function render(): void {
     updateTooltip();
     return;
   }
-  renderTimeline();
+  if (isLineState(state)) renderLineTimeline();
+  else renderTopicTimeline();
   updateTooltip();
 }
 
-function renderTimeline(): void {
-  if (!state) return;
+function renderTopicTimeline(): void {
+  if (!state || state.axis !== 'topic') return;
   const { topic, layout } = state;
-  const view = currentView();
+  const view = findView(topic, state.viewId);
   const x = yearX(layout, state.domain);
   const zonePeople = new Set(view.people ?? topic.people.map((person) => person.id));
   const zoneEvents = new Set(view.events ?? topic.events.map((event) => event.id));
@@ -179,8 +281,48 @@ function renderTimeline(): void {
   paintAxisPin(ctx);
 }
 
+function renderLineTimeline(): void {
+  if (!state || state.axis !== 'time') return;
+  const { line, layout } = state;
+  const segment = currentSegment();
+  const x = yearX(layout, state.domain);
+  const zoneEvents = new Set(
+    layout.typeRows.flatMap((row) => row.events.map((event) => event.id)),
+  );
+
+  const ctx: EventLineContext = {
+    line,
+    layout,
+    segment,
+    domain: state.domain,
+    x,
+    zoneEvents,
+    focusId: state.focusId,
+    hoverId: state.hoverId,
+  };
+
+  const width = layout.plotRight - layout.plotLeft;
+  svg.setAttribute('viewBox', `0 0 ${layout.width} ${layout.height}`);
+  svg.setAttribute('width', String(layout.width));
+  svg.setAttribute('height', String(layout.height));
+  svg.setAttribute('aria-label', `${line.title}时间轴`);
+
+  svg.innerHTML = [
+    `<defs><clipPath id="plot-clip"><rect x="${layout.plotLeft}" y="0" width="${width}" height="${layout.height}" /></clipPath></defs>`,
+    `<g class="layer-shadows" clip-path="url(#plot-clip)">${renderShadowBars(ctx)}</g>`,
+    `<g class="layer-rows" clip-path="url(#plot-clip)">${renderTypeRows(ctx)}</g>`,
+    `<g class="layer-warbands" clip-path="url(#plot-clip)">${renderWarBands(ctx)}</g>`,
+    `<g class="layer-grid" clip-path="url(#plot-clip)">${renderGrid(ctx)}</g>`,
+    `<g class="layer-hits" clip-path="url(#plot-clip)">${renderEventHits(ctx)}</g>`,
+    `<g class="layer-marks" clip-path="url(#plot-clip)">${renderEventMarks(ctx)}</g>`,
+    `<g class="layer-event-labels">${renderLineLabels(ctx)}${renderEventEmpty(ctx)}</g>`,
+    `<g class="layer-gutter">${renderTypeGutter(ctx)}</g>`,
+  ].join('');
+  paintAxisPin();
+}
+
 function renderGraphView(): void {
-  if (!state || state.focusId === null) return;
+  if (!state || state.focusId === null || state.axis !== 'topic') return;
   const width = Math.max(320, stage.clientWidth);
   const height = Math.max(360, stage.clientHeight);
   svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
@@ -192,7 +334,7 @@ function renderGraphView(): void {
 
 function currentSearchRows(): SearchRow[] {
   if (!state) return [];
-  return buildSearchRows(state.topic, ui.searchQuery, searchIndex).rows;
+  return buildSearchRows(activeTopic(state), ui.searchQuery, searchIndex).rows;
 }
 
 function renderSearchUI(): void {
@@ -203,7 +345,7 @@ function renderSearchUI(): void {
     searchInput.setAttribute('aria-expanded', 'false');
     return;
   }
-  const built = buildSearchRows(state.topic, ui.searchQuery, searchIndex);
+  const built = buildSearchRows(activeTopic(state), ui.searchQuery, searchIndex);
   if (ui.searchActiveIndex >= built.rows.length) ui.searchActiveIndex = built.rows.length - 1;
   searchResultsEl.innerHTML = renderSearchResults(
     built.rows,
@@ -228,11 +370,38 @@ function renderSearchUI(): void {
   }
 }
 
+/** 政权 id → 中文名，事件卡的交战方要用。 */
+function polityNames(): Map<string, string> {
+  return new Map((catalog?.polities ?? []).map((item) => [item.id, item.name]));
+}
+
+/** 人物 id → 索引记录。跨专题重复时取最后一条，贴近「归后朝」直觉。 */
+function personRefs(): Map<string, SearchRecord> {
+  const map = new Map<string, SearchRecord>();
+  for (const record of searchIndex ?? []) {
+    if (record.kind === 'event') continue;
+    map.set(record.id, record);
+  }
+  return map;
+}
+
 function renderChrome(): void {
   if (!state || !catalog) return;
-  topicSwitchEl.innerHTML = renderTopics(catalog, state.topic, ui.topicMenuOpen, ui.filters);
-  chaptersEl.innerHTML = renderChapters(state.topic, state.viewId);
-  briefEl.textContent = currentView().brief ?? '';
+  const target: NavTarget = isLineState(state)
+    ? { kind: 'line', line: state.line, segment: currentSegment() ?? entrySegment(state.line) }
+    : { kind: 'topic', topic: state.topic };
+  linesEl.innerHTML = renderLineTabs(catalog, activeLineId(state));
+  topicSwitchEl.innerHTML = renderTopics(catalog, target, ui.topicMenuOpen, ui.filters);
+  if (isLineState(state)) {
+    chaptersEl.innerHTML = renderSegments(state.line, state.viewId);
+    const segment = currentSegment();
+    briefEl.textContent = segment
+      ? `${segment.label} · ${segment.events.length} 条${state.line.events.length === segment.events.length ? '' : ` / 共 ${state.line.events.length} 条`}`
+      : '';
+  } else {
+    chaptersEl.innerHTML = renderChapters(state.topic, state.viewId);
+    briefEl.textContent = currentView()?.brief ?? '';
+  }
   const coarse = window.matchMedia('(pointer: coarse)').matches || isNarrow();
   hintEl.textContent =
     state.mode === 'graph'
@@ -244,10 +413,17 @@ function renderChrome(): void {
         : '滚轮上下翻人名 · 左右拖动平移年份 · Ctrl 或 ⌘ + 滚轮缩放';
   renderRouteMiss();
 
-  const person = personById(state.focusId);
-  cardEl.innerHTML = renderCard(state.topic, person);
-  cardEl.hidden = person === null;
-  if (person) cardEl.setAttribute('aria-label', `${person.display}人物详情`);
+  if (isLineState(state)) {
+    const event = eventById(state.focusId);
+    cardEl.innerHTML = event ? renderEventCard(event, state.line.id, polityNames(), personRefs()) : '';
+    cardEl.hidden = event === null;
+    if (event) cardEl.setAttribute('aria-label', `${event.display}事件详情`);
+  } else {
+    const person = personById(state.focusId);
+    cardEl.innerHTML = renderCard(state.topic, person);
+    cardEl.hidden = person === null;
+    if (person) cardEl.setAttribute('aria-label', `${person.display}人物详情`);
+  }
 
   document.getElementById('toggle-relations')?.setAttribute(
     'aria-pressed',
@@ -259,24 +435,41 @@ function renderChrome(): void {
 
 function updateTooltip(): void {
   if (!state) return;
-  const person = personById(state.hoverId);
-  if (!person) {
+  if (!isLineState(state)) {
+    const person = personById(state.hoverId);
+    if (!person) {
+      tooltipEl.hidden = true;
+      return;
+    }
+    const lane = state.topic.lanes.find((item) => item.id === person.lane);
+    const span = lifespanSpan(person);
+    tooltipEl.innerHTML = `
+      <strong>${esc(person.display)}</strong>
+      <span class="tt-name">${esc(person.name)}</span>
+      <span class="tt-lane" style="color:${esc(lane?.color ?? '#666')}">${esc(lane?.name ?? '')}</span>
+      <span class="tt-life">${esc(formatLifespan(person))}${span ? ` · ${esc(span)}` : ''}</span>
+    `;
+    tooltipEl.hidden = false;
+    tooltipEl.style.transform = `translate(${pointer.x + 16}px, ${pointer.y + 16}px)`;
+    return;
+  }
+
+  const event = eventById(state.hoverId);
+  if (!event) {
     tooltipEl.hidden = true;
     return;
   }
-  const lane = state.topic.lanes.find((item) => item.id === person.lane);
-  const span = lifespanSpan(person);
   tooltipEl.innerHTML = `
-    <strong>${esc(person.display)}</strong>
-    <span class="tt-name">${esc(person.name)}</span>
-    <span class="tt-lane" style="color:${esc(lane?.color ?? '#666')}">${esc(lane?.name ?? '')}</span>
-    <span class="tt-life">${esc(formatLifespan(person))}${span ? ` · ${esc(span)}` : ''}</span>
+    <strong>${esc(event.display)}</strong>
+    <span class="tt-name">${esc(event.name)}</span>
+    <span class="tt-life">${esc(formatEventRange(event.year, event.endYear, event.yearAccuracy))}</span>
+    ${event.place ? `<span class="tt-lane">${esc(event.place)}</span>` : ''}
   `;
   tooltipEl.hidden = false;
   tooltipEl.style.transform = `translate(${pointer.x + 16}px, ${pointer.y + 16}px)`;
 }
 
-function yearX(layout: Layout, domain: [number, number]): (year: number) => number {
+function yearX(layout: AxisLayout, domain: [number, number]): (year: number) => number {
   const scale = layout.xTopic.copy().domain([toAxis(domain[0]), toAxis(domain[1])]);
   return (year: number) => scale(toAxis(year));
 }
@@ -337,12 +530,40 @@ function initZoom(): void {
   applyDomainToZoom();
 }
 
+/** 军事线背景的参战人物。跨专题取最后一条，按生年排序，最多 12 条。 */
+function shadowRefs(line: EventLineView): SearchRecord[] {
+  const refs = personRefs();
+  if (refs.size === 0) return [];
+  const ids = new Set<string>();
+  for (const event of line.events) {
+    if (event.type !== 'military') continue;
+    for (const commander of event.commanders ?? []) ids.add(commander.id);
+    for (const id of event.people ?? []) ids.add(id);
+  }
+  return [...ids]
+    .map((id) => refs.get(id))
+    .filter((ref): ref is SearchRecord => ref !== undefined)
+    .sort((left, right) => (left.birth ?? left.death ?? 0) - (right.birth ?? right.death ?? 0))
+    .slice(0, 12);
+}
+
 function rebuildLayout(): void {
   if (!state) return;
+  if (isLineState(state)) {
+    state.layout = buildEventLayout(
+      state.line,
+      currentSegment(),
+      { dynasty: ui.filters.dynasty },
+      stage.clientWidth,
+      stage.clientHeight,
+      state.line.id === 'military' ? shadowRefs(state.line) : [],
+    );
+    return;
+  }
   state.layout = buildLayout(
     state.topic,
     stage.clientWidth,
-    currentView(),
+    findView(state.topic, state.viewId),
     stage.clientHeight,
   );
 }
@@ -365,47 +586,56 @@ function initialFocus(view: View, options: ApplyViewOptions): string | null {
 }
 
 function laneAtScroll(): string {
-  if (!state || state.layout.lanes.length === 0) return '';
+  if (!state || isLineState(state) || state.layout.lanes.length === 0) return '';
   const y = stage.scrollTop + state.layout.plotTop;
   const box = state.layout.lanes.find((lane) => y >= lane.top && y < lane.bottom);
   return (box ?? state.layout.lanes[0]).lane.name;
 }
 
-function paintAxisPin(ctx?: RenderContext): void {
+function paintAxisPin(topicCtx?: RenderContext): void {
   if (!state || state.mode === 'graph') {
     axisPinEl.hidden = true;
     return;
   }
+  const { width } = state.layout;
+  axisPinEl.hidden = false;
+  axisPinSvg.setAttribute('viewBox', `0 0 ${width} ${AXIS_H}`);
+  axisPinSvg.setAttribute('width', String(width));
+  axisPinSvg.setAttribute('height', String(AXIS_H));
+
+  if (isLineState(state)) {
+    const x = yearX(state.layout, state.domain);
+    axisPinSvg.innerHTML = renderPinnedAxis(
+      { domain: state.domain, x, layout: state.layout },
+      state.line.title,
+    );
+    return;
+  }
+
   const layout = state.layout;
-  const view = currentView();
   const x = yearX(layout, state.domain);
-  const zonePeople = new Set(view.people ?? state.topic.people.map((person) => person.id));
-  const zoneEvents = new Set(view.events ?? state.topic.events.map((event) => event.id));
-  const pinCtx: RenderContext = ctx ?? {
+  const view = findView(state.topic, state.viewId);
+  const pinCtx: RenderContext = topicCtx ?? {
     topic: state.topic,
     layout,
     view,
     domain: state.domain,
     x,
-    zonePeople,
-    zoneEvents,
+    zonePeople: new Set(view.people ?? state.topic.people.map((person) => person.id)),
+    zoneEvents: new Set(view.events ?? state.topic.events.map((event) => event.id)),
     focusId: state.focusId,
     hoverId: state.hoverId,
     showAllRelations: state.showAllRelations,
     eventRows: new Map(),
     adjacency: state.adjacency,
   };
-  axisPinEl.hidden = false;
-  axisPinSvg.setAttribute('viewBox', `0 0 ${layout.width} ${AXIS_H}`);
-  axisPinSvg.setAttribute('width', String(layout.width));
-  axisPinSvg.setAttribute('height', String(AXIS_H));
   axisPinSvg.innerHTML = renderPinnedAxis(pinCtx, laneAtScroll());
 }
 
 function renderRouteMiss(): void {
   if (!state || !catalog) return;
   const miss = state.routeMiss;
-  if (!miss || (!miss.topicToken && !miss.viewToken)) {
+  if (!miss || (!miss.topicToken && !miss.viewToken && !miss.lineToken)) {
     routeMissEl.hidden = true;
     routeMissEl.innerHTML = '';
     return;
@@ -414,6 +644,14 @@ function renderRouteMiss(): void {
   if (miss.topicToken) {
     const home = catalog.topics[0];
     routeMissEl.innerHTML = `<p>没有「${esc(miss.topicToken)}」这个专题。</p><button type="button" data-go-topic="${esc(home.id)}">回到${esc(home.title)}</button>`;
+    return;
+  }
+  if (miss.lineToken) {
+    routeMissEl.innerHTML = `<p>${esc(axisTitle(state))}里没有「${esc(miss.lineToken)}」这个事件。</p>`;
+    return;
+  }
+  if (isLineState(state)) {
+    routeMissEl.innerHTML = `<p>${esc(axisTitle(state))}没有「${esc(miss.viewToken ?? '')}」这一段。</p>`;
     return;
   }
   const buttons = state.topic.views
@@ -430,12 +668,12 @@ function scrollFocusIntoView(id: string | null): void {
     stage.scrollTop = 0;
     return;
   }
-  const row = state.layout.rows.get(id);
-  if (!row) {
+  const y = isLineState(state) ? state.layout.eventY.get(id) : state.layout.rows.get(id)?.y;
+  if (y === undefined) {
     stage.scrollTop = 0;
     return;
   }
-  stage.scrollTop = Math.max(0, row.y - state.layout.plotTop - 24);
+  stage.scrollTop = Math.max(0, y - state.layout.plotTop - 24);
 }
 
 function panByPixels(dx: number): void {
@@ -445,7 +683,7 @@ function panByPixels(dx: number): void {
   const end0 = toAxis(state.domain[1]);
   const span = end0 - start0;
   const shift = (-dx / Math.max(1, width)) * span;
-  const [min, max] = state.topic.meta.range;
+  const [min, max] = axisRange(state);
   const minAxis = toAxis(min);
   const maxAxis = toAxis(max);
   let start = start0 + shift;
@@ -466,8 +704,32 @@ function panByPixels(dx: number): void {
   render();
 }
 
+/** 事件线的分段切换，对应人物线的 applyView。 */
+function applySegment(
+  segmentId: string,
+  options: { focusId?: string | null; history?: HistoryMode } = {},
+): void {
+  if (!state || !isLineState(state)) return;
+  const segment = findSegment(state.line, segmentId);
+  state.mode = 'timeline';
+  state.viewId = segment.id;
+  state.hoverId = null;
+  state.showAllRelations = false;
+  state.focusId = options.focusId ?? null;
+  state.routeMiss = null;
+  rebuildLayout();
+  state.domain = segmentDomain(segment, state.line.range);
+  writeLineHash(state.line.id, segment.id, state.focusId, options.history ?? 'skip');
+  initZoom();
+  renderChrome();
+  render();
+  stage.scrollTop = 0;
+  paintAxisPin();
+  announce(`已进入分段：${segment.label}`);
+}
+
 function applyView(viewId: string, options: ApplyViewOptions = {}): void {
-  if (!state) return;
+  if (!state || state.axis !== 'topic') return;
   const view = findView(state.topic, viewId);
   state.mode = 'timeline';
   state.viewId = view.id;
@@ -517,12 +779,16 @@ function setFocus(id: string | null): void {
   }
   renderChrome();
   render();
-  announce(id ? `已选择人物：${personById(id)?.display ?? id}` : '已取消人物选择');
+  if (isLineState(state)) {
+    announce(id ? `已选择事件：${eventById(id)?.display ?? id}` : '已取消事件选择');
+  } else {
+    announce(id ? `已选择人物：${personById(id)?.display ?? id}` : '已取消人物选择');
+  }
   if (id) window.requestAnimationFrame(() => focusPersonControl(id));
 }
 
 function enterGraph(): void {
-  if (!state || state.focusId === null) return;
+  if (!state || state.focusId === null || state.axis !== 'topic') return;
   if (personRelationCount(state.topic, state.focusId) === 0) return;
   state.mode = 'graph';
   state.hoverId = null;
@@ -532,10 +798,10 @@ function enterGraph(): void {
 }
 
 function returnToTimeline(): void {
-  if (!state) return;
+  if (!state || state.axis !== 'topic') return;
   state.mode = 'timeline';
   if (state.focusId) {
-    const view = findViewForPerson(state.topic, state.focusId, currentView());
+    const view = findViewForPerson(state.topic, state.focusId, findView(state.topic, state.viewId));
     if (view.id !== state.viewId) {
       applyView(view.id, { focusId: state.focusId, fitPerson: true, history: 'push' });
       return;
@@ -548,13 +814,13 @@ function returnToTimeline(): void {
 }
 
 function revealPerson(id: string): void {
-  if (!state) return;
+  if (!state || state.axis !== 'topic') return;
   ui.searchQuery = '';
   ui.searchActiveIndex = -1;
   searchInput.value = '';
   searchInput.blur();
   renderSearchUI();
-  const view = findViewForPerson(state.topic, id, currentView());
+  const view = findViewForPerson(state.topic, id, findView(state.topic, state.viewId));
   applyView(view.id, { focusId: id, fitPerson: true, history: 'push' });
 }
 
@@ -563,7 +829,8 @@ async function openRemotePerson(topicId: string, personId: string): Promise<void
   ui.searchActiveIndex = -1;
   searchInput.value = '';
   renderSearchUI();
-  if (!state || state.topic.meta.id !== topicId) {
+  const current = activeTopic(state);
+  if (!current || current.meta.id !== topicId) {
     await mountTopic(topicId, null, 'skip');
   }
   revealPerson(personId);
@@ -593,7 +860,7 @@ function closeMenus(except?: 'topic' | 'export'): void {
 
 async function switchTopic(topicId: string): Promise<void> {
   if (!catalog || loadingTopic) return;
-  if (state?.topic.meta.id === topicId) {
+  if (activeTopic(state)?.meta.id === topicId) {
     ui.topicMenuOpen = false;
     renderChrome();
     return;
@@ -621,6 +888,7 @@ async function mountTopic(
     legendEl.innerHTML = renderLegend(topic);
     const first = topic.views[0];
     state = {
+      axis: 'topic',
       topic,
       layout: buildLayout(topic, stage.clientWidth, first, stage.clientHeight),
       viewId: first.id,
@@ -636,7 +904,7 @@ async function mountTopic(
     const found = requested ? topic.views.some((view) => view.id === requested) : true;
     const missingView = requested && !found ? requested : null;
     if (missingView || unknownTopic) {
-      state.routeMiss = { topicToken: unknownTopic, viewToken: missingView };
+      state.routeMiss = { topicToken: unknownTopic, viewToken: missingView, lineToken: null };
     }
     applyView(found && requested ? requested : entryView(topic).id, {
       history: missingView || unknownTopic ? 'skip' : history,
@@ -648,17 +916,89 @@ async function mountTopic(
   }
 }
 
+async function mountLine(
+  lineId: LineId,
+  segmentId: string | null,
+  eventId: string | null,
+  history: HistoryMode,
+): Promise<void> {
+  if (!catalog) return;
+  const entry = (catalog.lines ?? []).find((line) => line.id === lineId);
+  if (!entry?.file) throw new Error(`目录里没有这条内容线：${lineId}`);
+  loadingTopic = true;
+  try {
+    const line = await loadLine(topicDataUrl(entry.file), lineId);
+    document.title = `${line.title} · 历史时间轴`;
+    legendEl.innerHTML = renderEventLegend(line);
+    const first = entrySegment(line);
+    state = {
+      axis: 'time',
+      line,
+      layout: buildEventLayout(
+        line,
+        first,
+        { dynasty: ui.filters.dynasty },
+        stage.clientWidth,
+        stage.clientHeight,
+      ),
+      viewId: first.id,
+      domain: segmentDomain(first, line.range),
+      focusId: null,
+      hoverId: null,
+      showAllRelations: false,
+      adjacency: new Map(),
+      mode: 'timeline',
+      routeMiss: null,
+    };
+
+    // 只给了事件 id 时，先定位它落在哪一段
+    const target = segmentId ?? (eventId ? segmentForEvent(line, eventId)?.id ?? null : null);
+    const missing = eventId && !line.events.some((event) => event.id === eventId) ? eventId : null;
+    if (missing) state.routeMiss = { topicToken: null, viewToken: null, lineToken: missing };
+
+    // 影子条要人物索引，异步就绪后重排一次
+    if (line.id === 'military') {
+      void ensureSearchIndex().then(() => {
+        if (state && isLineState(state)) {
+          rebuildLayout();
+          render();
+        }
+      });
+    }
+
+    applySegment(target ?? first.id, { focusId: missing ? null : eventId, history });
+    renderSearchUI();
+  } finally {
+    loadingTopic = false;
+  }
+}
+
 async function onHashChange(): Promise<void> {
   if (!catalog || !state || loadingTopic) return;
   const route = parseHash(location.hash, catalog);
   const history: HistoryMode = route.canonicalize ? 'replace' : 'skip';
-  if (route.unknownTopic || route.topicId !== state.topic.meta.id) {
+
+  if (route.axis === 'time' && route.lineId) {
+    if (!isLineState(state) || state.line.id !== route.lineId) {
+      await mountLine(route.lineId, route.segmentId, route.eventId, history);
+      return;
+    }
+    const segment = findSegment(state.line, route.segmentId);
+    if (segment.id !== state.viewId) {
+      applySegment(segment.id, { focusId: route.eventId, history });
+      return;
+    }
+    if (route.eventId !== null && route.eventId !== state.focusId) setFocus(route.eventId);
+    return;
+  }
+
+  if (isLineState(state) || route.unknownTopic || route.topicId !== state.topic.meta.id) {
     await mountTopic(route.topicId, route.viewId, history, route.unknownTopic);
     return;
   }
   const found = route.viewId ? state.topic.views.some((view) => view.id === route.viewId) : true;
   if (route.viewId && !found) {
-    state.routeMiss = { topicToken: null, viewToken: route.viewId };
+    state.routeMiss = { topicToken: null, viewToken: route.viewId, lineToken: null };
     applyView(entryView(state.topic).id, { history: 'skip', keepMiss: true });
     return;
   }
@@ -669,11 +1009,14 @@ async function onHashChange(): Promise<void> {
 
 function exportBasenameNow(): string {
   if (!state) return '时间轴';
-  if (state.mode === 'graph') {
+  if (state.mode === 'graph' && state.axis === 'topic') {
     const person = personById(state.focusId);
     return exportBasename([state.topic.meta.title, person?.display ?? '关系', '关系']);
   }
-  return exportBasename([state.topic.meta.title, currentView().name]);
+  if (isLineState(state)) {
+    return exportBasename([state.line.title, currentSegment()?.label ?? '']);
+  }
+  return exportBasename([state.topic.meta.title, findView(state.topic, state.viewId).name]);
 }
 
 async function handleExport(format: 'png' | 'svg'): Promise<void> {
@@ -692,11 +1035,39 @@ function isTypingTarget(target: EventTarget | null): boolean {
   return target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement;
 }
 
+/** 事件线上事件可悬停，人物影子条也可悬停（本体要跳去人物专题）。 */
+function hoverableId(target: Element | null): string | null {
+  return (
+    target?.closest('[data-event]')?.getAttribute('data-event') ??
+    target?.closest('[data-person]')?.getAttribute('data-person') ??
+    null
+  );
+}
+
+/** 从搜索结果或事件卡跳到某条事件线的某个事件。 */
+async function openLineEvent(lineId: LineId, eventId: string | null): Promise<void> {
+  ui.searchQuery = '';
+  ui.searchActiveIndex = -1;
+  searchInput.value = '';
+  renderSearchUI();
+  if (!state || !isLineState(state) || state.line.id !== lineId) {
+    await mountLine(lineId, null, eventId, 'push');
+    return;
+  }
+  if (!eventId) return;
+  const segment = segmentForEvent(state.line, eventId) ?? currentSegment();
+  if (segment && segment.id !== state.viewId) {
+    applySegment(segment.id, { focusId: eventId, history: 'push' });
+    return;
+  }
+  setFocus(eventId);
+}
+
 function wireEvents(): void {
   svg.addEventListener('focusin', (event) => {
     if (!state) return;
     const target = event.target as Element | null;
-    const id = target?.closest('[data-person]')?.getAttribute('data-person') ?? null;
+    const id = hoverableId(target);
     if (!id || id === state.hoverId) return;
     state.hoverId = id;
     render();
@@ -706,7 +1077,7 @@ function wireEvents(): void {
   svg.addEventListener('keydown', (event) => {
     if (!state || (event.key !== 'Enter' && event.key !== ' ')) return;
     const target = event.target as Element | null;
-    const id = target?.closest('[data-person]')?.getAttribute('data-person') ?? null;
+    const id = hoverableId(target);
     if (!id) return;
     event.preventDefault();
     setFocus(state.focusId === id ? null : id);
@@ -717,7 +1088,7 @@ function wireEvents(): void {
     pointer.x = event.clientX;
     pointer.y = event.clientY;
     const target = event.target as Element | null;
-    const id = target?.closest('[data-person]')?.getAttribute('data-person') ?? null;
+    const id = hoverableId(target);
     if (id !== state.hoverId) {
       state.hoverId = id;
       render();
@@ -743,10 +1114,19 @@ function wireEvents(): void {
     }
     if (!state) return;
     const target = event.target as Element | null;
-    const id = target?.closest('[data-person]')?.getAttribute('data-person') ?? null;
+    const id = hoverableId(target);
     if (state.mode === 'graph') {
       if (id) setFocus(id);
       return;
+    }
+    // 军事轴背景上的参战人物：点了要跳回人物专题
+    if (state.axis === 'time') {
+      const personNode = target?.closest('[data-person]');
+      const personTopic = personNode?.getAttribute('data-person-topic');
+      if (personNode && personTopic) {
+        void openRemotePerson(personTopic, personNode.getAttribute('data-person') ?? '');
+        return;
+      }
     }
     setFocus(state.focusId === id ? null : id);
   });
@@ -756,7 +1136,8 @@ function wireEvents(): void {
     ui.searchActiveIndex = -1;
     renderSearchUI();
     const query = ui.searchQuery;
-    if (!state || !query.trim() || searchPeople(state.topic, query).length > 0) return;
+    const topic = activeTopic(state);
+    if (!state || !query.trim() || (topic && searchPeople(topic, query).length > 0)) return;
     void ensureSearchIndex().then(() => {
       if (ui.searchQuery === query) renderSearchUI();
     });
@@ -788,7 +1169,8 @@ function wireEvents(): void {
     if (event.key !== 'Enter') return;
     const selected = hits[ui.searchActiveIndex] ?? hits[0];
     if (!selected) {
-      if (!ui.searchQuery.trim() || !state || searchPeople(state.topic, ui.searchQuery).length > 0) return;
+      const topic = activeTopic(state);
+      if (!ui.searchQuery.trim() || !state || (topic && searchPeople(topic, ui.searchQuery).length > 0)) return;
       event.preventDefault();
       const query = ui.searchQuery;
       void ensureSearchIndex().then(() => {
@@ -846,6 +1228,46 @@ function wireEvents(): void {
       renderChrome();
     }
 
+    const lineId = target.closest('[data-line]')?.getAttribute('data-line');
+    if (lineId) {
+      ui.topicMenuOpen = false;
+      if (lineId === 'people') {
+        const home = catalog?.topics[0];
+        if (home && (!state || state.axis !== 'topic')) {
+          void mountTopic(home.id, null, 'push');
+          return;
+        }
+      } else if (lineId === 'military' || lineId === 'history') {
+        if (!state || !isLineState(state) || state.line.id !== lineId) {
+          void mountLine(lineId, null, null, 'push');
+          return;
+        }
+      }
+      renderChrome();
+      return;
+    }
+
+    const segment = target.closest('[data-segment]')?.getAttribute('data-segment');
+    if (segment) {
+      applySegment(segment, { history: 'push' });
+      return;
+    }
+
+    const searchEvent = target.closest('[data-search-event]')?.getAttribute('data-search-event');
+    if (searchEvent) {
+      const slash = searchEvent.indexOf('/');
+      if (slash > 0) {
+        void openLineEvent(searchEvent.slice(0, slash) as LineId, searchEvent.slice(slash + 1));
+      }
+      return;
+    }
+
+    const lineJump = target.closest('[data-line-jump]')?.getAttribute('data-line-jump');
+    if (lineJump === 'military' || lineJump === 'history') {
+      void openLineEvent(lineJump, state.focusId);
+      return;
+    }
+
     const chapter = target.closest('[data-chapter]')?.getAttribute('data-chapter');
     if (chapter) {
       applyView(chapter, { history: 'push' });
@@ -854,9 +1276,10 @@ function wireEvents(): void {
 
     const goTopic = target.closest('[data-go-topic]')?.getAttribute('data-go-topic');
     if (goTopic) {
-      if (state.topic.meta.id === goTopic) {
+      const current = activeTopic(state);
+      if (current?.meta.id === goTopic) {
         state.routeMiss = null;
-        applyView(entryView(state.topic).id, { history: 'push' });
+        applyView(entryView(current).id, { history: 'push' });
       } else {
         void mountTopic(goTopic, null, 'push');
       }
@@ -874,7 +1297,8 @@ function wireEvents(): void {
       ui.filters.region = null;
       ui.filters.era = null;
       ui.filters.theme = null;
-      renderChrome();
+      ui.filters.dynasty = null;
+      refreshAfterFilter();
       return;
     }
 
@@ -882,9 +1306,9 @@ function wireEvents(): void {
     if (facet) {
       const key = facet.getAttribute('data-facet');
       const value = facet.getAttribute('data-value') ?? '';
-      if (key === 'region' || key === 'era' || key === 'theme') {
+      if (key === 'region' || key === 'era' || key === 'theme' || key === 'dynasty') {
         ui.filters[key] = value.length === 0 || ui.filters[key] === value ? null : value;
-        renderChrome();
+        refreshAfterFilter();
       }
       return;
     }
@@ -1026,7 +1450,11 @@ async function boot(): Promise<void> {
   const route = parseHash(location.hash, catalog);
   const bare = !location.hash || location.hash === '#';
   const history: HistoryMode = route.unknownTopic ? 'skip' : bare || route.canonicalize ? 'replace' : 'skip';
-  await mountTopic(route.topicId, route.viewId, history, route.unknownTopic);
+  if (route.axis === 'time' && route.lineId) {
+    await mountLine(route.lineId, route.segmentId, route.eventId, history);
+  } else {
+    await mountTopic(route.topicId, route.viewId, history, route.unknownTopic);
+  }
   wireEvents();
 }
 
