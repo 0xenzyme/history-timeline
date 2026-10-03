@@ -88,6 +88,7 @@
 | [huang-gongwang](yuan/huang-gongwang.md) | 黄公望 | 黄公望 | full |
 | [huang-jin](yuan/huang-jin.md) | 黄溍 | 黄溍 | full |
 | [ou-yangxuan](yuan/ou-yangxuan.md) | 欧阳玄 | 欧阳玄 | full |
+| [wang-mian](yuan/wang-mian.md) | 王冕 | 王冕 | brief |
 | [yang-weizhen](yuan/yang-weizhen.md) | 杨维桢 | 杨维桢 | full |
 | [li-tan](yuan/li-tan.md) | 李璮 | 李璮 | full |
 | [hai-du](yuan/hai-du.md) | 海都 | 海都 | full |
