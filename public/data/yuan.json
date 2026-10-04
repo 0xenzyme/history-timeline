@@ -2167,6 +2167,8 @@
       "birth": 1287,
       "death": 1359,
       "birthNote": "诸传不载生年；吴荣光《历代名人年谱》系于至元二十四年（1287）七月廿二，与卒时享年七十三相合，另有小异说，从谱录通行之年。",
+      "title": "梅花屋主，元末画梅名家",
+      "bio": "字元章，诸暨人。幼贫而从韩性受业，屡试不第后隐居九里山，自号梅花屋主，以画梅自给；又仿《周官》著书，常以天下将乱自言。朱元璋下婺州时征入幕府，授咨议参军，旋病卒。",
       "tags": [
         "元"
       ],
@@ -2174,7 +2176,7 @@
         "painting",
         "poetry"
       ],
-      "primary": "poetry",
+      "primary": "painting",
       "polity": [
         "yuan"
       ],
@@ -2609,6 +2611,12 @@
       "type": "rival",
       "since": 1368,
       "note": "北伐克大都，元室北遁"
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "wang-mian",
+      "type": "ruler-subject",
+      "note": "下婺州物色得之，置幕府授咨议参军"
     },
     {
       "source": "tie-mu-zhen",
