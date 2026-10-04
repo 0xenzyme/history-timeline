@@ -1,0 +1,25 @@
+---
+id: ganlu-zhibian
+status: published
+name: 甘露之变
+type: political
+catalogs:
+  - history
+importance: 3
+year: 835
+yearAccuracy: exact
+polity:
+  - tang
+result: 文宗诛宦官计划失败，宦官控制禁军与朝政进一步巩固
+aliases:
+  - 甘露之变
+sources:
+  - work: 旧唐书
+    part: 文宗本纪
+    kind: classic
+  - work: 新唐书
+    part: 文宗本纪、宦官传
+    kind: classic
+---
+
+835 年，唐文宗与李训等设计诛杀宦官，因计划败露而失败，仇士良等宦官反杀朝臣并控制禁军。李训、仇士良均暂无现有人物 canonical id，故不写入 people 字段。

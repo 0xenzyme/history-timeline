@@ -9,13 +9,38 @@
   ],
   "segments": [
     {
-      "id": "seg-bc3-ad15",
-      "label": "前 3 世纪—15 世纪",
+      "id": "seg-bc3-ad8",
+      "label": "前 3 世纪—8 世纪",
       "from": -300,
-      "to": 1500,
+      "to": 800,
       "events": [
         "daizexiang-qiyi",
         "chibi-zhizhan",
+        "tanglong-zhibian",
+        "xiantian-zhibian",
+        "talas-zhizhan",
+        "anshi-zhiluan"
+      ]
+    },
+    {
+      "id": "seg-ad9",
+      "label": "9 世纪",
+      "from": 801,
+      "to": 900,
+      "events": [
+        "yuanhe-huaixi",
+        "ganlu-zhibian",
+        "huichang-miefo",
+        "huangchao-zhi-luan"
+      ]
+    },
+    {
+      "id": "seg-ad10-ad15",
+      "label": "10—15 世纪",
+      "from": 901,
+      "to": 1500,
+      "events": [
+        "zhu-wen-dai-tang",
         "mengjin-zhanzheng",
         "yehuling-zhizhan",
         "duomen-zhibian"
@@ -182,6 +207,51 @@
   ],
   "events": [
     {
+      "id": "anshi-zhiluan",
+      "name": "安史之乱",
+      "display": "安史之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 755,
+      "yearAccuracy": "exact",
+      "endYear": 763,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "an-lu-shan",
+        "shi-si-ming",
+        "guo-zi-yi",
+        "li-guang-bi"
+      ],
+      "result": "唐廷平定叛乱但中央财政、兵制与藩镇关系长期改组",
+      "aliases": [
+        "安禄山史思明之乱"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "755 至 763 年，安禄山、史思明相继发动叛乱，叛军攻陷两京，唐廷依靠郭子仪、李光弼等部及外援逐步收复失地。叛乱结束后，朝廷以安史旧将及功臣分镇，藩镇格局由此定型，唐朝由盛转衰。死亡数字与各战役细节另行核证，不在主事件中夸大。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "肃宗本纪、郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "方镇传、郭子仪传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "chibi-zhizhan",
       "name": "赤壁之战",
       "display": "赤壁之战",
@@ -316,6 +386,129 @@
       ]
     },
     {
+      "id": "ganlu-zhibian",
+      "name": "甘露之变",
+      "display": "甘露之变",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 835,
+      "yearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "result": "文宗诛宦官计划失败，宦官控制禁军与朝政进一步巩固",
+      "aliases": [
+        "甘露之变"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "835 年，唐文宗与李训等设计诛杀宦官，因计划败露而失败，仇士良等宦官反杀朝臣并控制禁军。李训、仇士良均暂无现有人物 canonical id，故不写入 people 字段。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "文宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "文宗本纪、宦官传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "huangchao-zhi-luan",
+      "name": "黄巢之乱",
+      "display": "黄巢之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 875,
+      "yearAccuracy": "exact",
+      "endYear": 884,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "huang-chao",
+        "zhu-wen",
+        "li-ke-yong"
+      ],
+      "result": "黄巢军攻入长安后败亡，唐朝财政、军政与藩镇结构进一步崩解",
+      "aliases": [
+        "黄巢起义",
+        "tang-huangchao"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "875 至 884 年，黄巢起兵并转战全国，攻入长安建立大齐；唐廷借助朱温、李克用等藩镇力量最终平乱。战乱加速中央财政与军政体系崩解，并为朱温代唐铺路。伤亡与破坏规模缺乏统一可靠数字，不在实体中量化。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "僖宗本纪、黄巢传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "僖宗本纪、黄巢传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "huichang-miefo",
+      "name": "会昌毁佛",
+      "display": "会昌毁佛",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 2,
+      "year": 845,
+      "yearAccuracy": "exact",
+      "endYear": 846,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "li-de-yu"
+      ],
+      "result": "大规模寺院、僧尼与寺产整顿，唐廷重建部分财政与行政控制",
+      "aliases": [
+        "会昌灭佛",
+        "会昌法难"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "845 至 846 年，会昌毁佛政策达到高峰并在武宗死后停止。它整顿寺院财产与僧尼户籍，影响财政和宗教组织。政策数量与寺院统计存在版本差异，本实体不写争议数字；唐武宗暂无现有人物 canonical id。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "武宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "武宗本纪、食货志",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "mengjin-zhanzheng",
       "name": "蒙金战争",
       "display": "蒙金战争",
@@ -358,6 +551,130 @@
         {
           "work": "金史",
           "part": "哀宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "talas-zhizhan",
+      "name": "怛罗斯之战",
+      "display": "怛罗斯",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 751,
+      "yearAccuracy": "exact",
+      "place": "怛罗斯",
+      "placeNow": "今哈萨克斯坦江布尔附近",
+      "belligerents": [
+        "tang",
+        "xiyu"
+      ],
+      "commanders": [
+        {
+          "id": "gao-xian-zhi",
+          "side": "tang"
+        }
+      ],
+      "result": "唐军败于阿拔斯势力，唐在中亚的军事推进受到遏制",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "751 年，高仙芝率唐军在怛罗斯与阿拔斯势力交战，唐军败退。交战兵力、俘虏数量及造纸术传播说法存在争议，均不在本实体中写入；事件仅记录可核的年份、地点、交战双方与战略转折。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "高仙芝传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "高仙芝传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "tanglong-zhibian",
+      "name": "唐隆政变",
+      "display": "唐隆政变",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 710,
+      "yearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "li-long-ji",
+        "li-dan",
+        "wei-huang-hou"
+      ],
+      "result": "李旦复辟，李隆基被立为太子，韦氏集团覆灭",
+      "aliases": [
+        "唐隆之变"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "710 年，临淄王李隆基与相王李旦集团发动唐隆政变，诛韦后及其党羽，少帝李重茂退位，李旦复辟。政变重组了神龙政变后的皇位继承，并使李隆基进入最高权力核心。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "中宗本纪、睿宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "中宗本纪、睿宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xiantian-zhibian",
+      "name": "先天政变",
+      "display": "先天政变",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 713,
+      "yearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "li-long-ji"
+      ],
+      "result": "太平公主集团被清除，唐玄宗取得实际最高权力",
+      "aliases": [
+        "先天之变"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "713 年，李隆基发动先天政变，清除太平公主及其党羽，唐睿宗随后传位。太平公主未进入现有人物 canonical id，故只作为叙事背景，不写入 people 字段。政变结束了唐隆政变后的权力竞争，为开元政治奠定前提。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "玄宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "玄宗本纪",
           "kind": "classic"
         }
       ]
@@ -410,6 +727,96 @@
         {
           "work": "金史",
           "part": "卫绍王本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yuanhe-huaixi",
+      "name": "元和淮西之战",
+      "display": "元和淮西之战",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 815,
+      "yearAccuracy": "exact",
+      "endYear": 817,
+      "endYearAccuracy": "exact",
+      "place": "淮西",
+      "belligerents": [
+        "tang",
+        "minbian"
+      ],
+      "commanders": [
+        {
+          "id": "pei-du",
+          "side": "tang"
+        },
+        {
+          "id": "wu-yuan-ji",
+          "side": "minbian"
+        }
+      ],
+      "result": "吴元济败亡，唐廷暂时恢复对淮西的直接控制",
+      "aliases": [
+        "元和削藩（淮西）"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "815 至 817 年，唐宪宗调集多道兵力讨伐淮西吴元济，最终攻破蔡州并擒杀吴元济。战事显示中央在安史之后仍能集中资源削平强藩，但成效具有阶段性；李愬雪夜入蔡州作为战役节点暂不另立实体。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "宪宗本纪、吴元济传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "宪宗本纪、裴度传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhu-wen-dai-tang",
+      "name": "朱温篡唐",
+      "display": "朱温篡唐",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 907,
+      "yearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "result": "唐哀帝禅位，朱温建立后梁，唐朝灭亡",
+      "aliases": [
+        "唐亡",
+        "后梁代唐"
+      ],
+      "dynasties": [
+        "tang",
+        "wudai"
+      ],
+      "desc": "907 年，朱温迫唐哀帝李柷禅位，建立后梁，唐朝结束，历史进入五代时期。李柷暂无现有人物 canonical id，故不写入 people 字段；朱温以现有人物 id 记录于黄巢之乱关联中。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "哀帝本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "哀帝本纪、朱全忠传",
           "kind": "classic"
         }
       ]

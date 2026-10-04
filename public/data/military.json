@@ -9,13 +9,25 @@
   ],
   "segments": [
     {
-      "id": "seg-bc3-ad13",
-      "label": "前 3 世纪—13 世纪",
+      "id": "seg-bc3-ad8",
+      "label": "前 3 世纪—8 世纪",
       "from": -300,
-      "to": 1300,
+      "to": 800,
       "events": [
         "daizexiang-qiyi",
         "chibi-zhizhan",
+        "talas-zhizhan",
+        "anshi-zhiluan"
+      ]
+    },
+    {
+      "id": "seg-ad9-ad13",
+      "label": "9—13 世纪",
+      "from": 801,
+      "to": 1300,
+      "events": [
+        "yuanhe-huaixi",
+        "huangchao-zhi-luan",
         "mengjin-zhanzheng",
         "yehuling-zhizhan"
       ]
@@ -181,6 +193,51 @@
   ],
   "events": [
     {
+      "id": "anshi-zhiluan",
+      "name": "安史之乱",
+      "display": "安史之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 755,
+      "yearAccuracy": "exact",
+      "endYear": 763,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "an-lu-shan",
+        "shi-si-ming",
+        "guo-zi-yi",
+        "li-guang-bi"
+      ],
+      "result": "唐廷平定叛乱但中央财政、兵制与藩镇关系长期改组",
+      "aliases": [
+        "安禄山史思明之乱"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "755 至 763 年，安禄山、史思明相继发动叛乱，叛军攻陷两京，唐廷依靠郭子仪、李光弼等部及外援逐步收复失地。叛乱结束后，朝廷以安史旧将及功臣分镇，藩镇格局由此定型，唐朝由盛转衰。死亡数字与各战役细节另行核证，不在主事件中夸大。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "肃宗本纪、郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "方镇传、郭子仪传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "chibi-zhizhan",
       "name": "赤壁之战",
       "display": "赤壁之战",
@@ -277,6 +334,51 @@
       ]
     },
     {
+      "id": "huangchao-zhi-luan",
+      "name": "黄巢之乱",
+      "display": "黄巢之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 875,
+      "yearAccuracy": "exact",
+      "endYear": 884,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "huang-chao",
+        "zhu-wen",
+        "li-ke-yong"
+      ],
+      "result": "黄巢军攻入长安后败亡，唐朝财政、军政与藩镇结构进一步崩解",
+      "aliases": [
+        "黄巢起义",
+        "tang-huangchao"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "875 至 884 年，黄巢起兵并转战全国，攻入长安建立大齐；唐廷借助朱温、李克用等藩镇力量最终平乱。战乱加速中央财政与军政体系崩解，并为朱温代唐铺路。伤亡与破坏规模缺乏统一可靠数字，不在实体中量化。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "僖宗本纪、黄巢传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "僖宗本纪、黄巢传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "mengjin-zhanzheng",
       "name": "蒙金战争",
       "display": "蒙金战争",
@@ -319,6 +421,50 @@
         {
           "work": "金史",
           "part": "哀宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "talas-zhizhan",
+      "name": "怛罗斯之战",
+      "display": "怛罗斯",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 751,
+      "yearAccuracy": "exact",
+      "place": "怛罗斯",
+      "placeNow": "今哈萨克斯坦江布尔附近",
+      "belligerents": [
+        "tang",
+        "xiyu"
+      ],
+      "commanders": [
+        {
+          "id": "gao-xian-zhi",
+          "side": "tang"
+        }
+      ],
+      "result": "唐军败于阿拔斯势力，唐在中亚的军事推进受到遏制",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "751 年，高仙芝率唐军在怛罗斯与阿拔斯势力交战，唐军败退。交战兵力、俘虏数量及造纸术传播说法存在争议，均不在本实体中写入；事件仅记录可核的年份、地点、交战双方与战略转折。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "高仙芝传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "高仙芝传",
           "kind": "classic"
         }
       ]
@@ -371,6 +517,58 @@
         {
           "work": "金史",
           "part": "卫绍王本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yuanhe-huaixi",
+      "name": "元和淮西之战",
+      "display": "元和淮西之战",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 815,
+      "yearAccuracy": "exact",
+      "endYear": 817,
+      "endYearAccuracy": "exact",
+      "place": "淮西",
+      "belligerents": [
+        "tang",
+        "minbian"
+      ],
+      "commanders": [
+        {
+          "id": "pei-du",
+          "side": "tang"
+        },
+        {
+          "id": "wu-yuan-ji",
+          "side": "minbian"
+        }
+      ],
+      "result": "吴元济败亡，唐廷暂时恢复对淮西的直接控制",
+      "aliases": [
+        "元和削藩（淮西）"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "815 至 817 年，唐宪宗调集多道兵力讨伐淮西吴元济，最终攻破蔡州并擒杀吴元济。战事显示中央在安史之后仍能集中资源削平强藩，但成效具有阶段性；李愬雪夜入蔡州作为战役节点暂不另立实体。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "宪宗本纪、吴元济传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "宪宗本纪、裴度传",
           "kind": "classic"
         }
       ]

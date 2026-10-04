@@ -4565,19 +4565,27 @@
         "huang-chao"
       ],
       "legacyDesc": "黄巢转战南北，一度入长安号大齐。虽平而藩镇益强，唐室名存实亡。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "huangchao-zhi-luan",
+      "aliases": [
+        "tang-huangchao"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        ".harness/runs/20261004-legacy-migration-huangchao/evidence/sources/old-tang-book.json",
+        ".harness/runs/20261004-legacy-migration-huangchao/evidence/sources/new-tang-book.json",
+        ".harness/runs/20261004-legacy-migration-huangchao/evidence/claims/huangchao-zhi-luan.json"
+      ],
+      "review": [
+        ".harness/runs/20261004-legacy-migration-huangchao/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {

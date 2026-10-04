@@ -49018,6 +49018,23 @@
     "death": -104
   },
   {
+    "id": "anshi-zhiluan",
+    "name": "安史之乱",
+    "display": "安史之乱",
+    "kind": "event",
+    "year": 755,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 763
+  },
+  {
     "id": "chibi-zhizhan",
     "name": "赤壁之战",
     "display": "赤壁之战",
@@ -49050,6 +49067,23 @@
     "topicTitle": "军事"
   },
   {
+    "id": "huangchao-zhi-luan",
+    "name": "黄巢之乱",
+    "display": "黄巢之乱",
+    "kind": "event",
+    "year": 875,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 884
+  },
+  {
     "id": "mengjin-zhanzheng",
     "name": "蒙金战争",
     "display": "蒙金战争",
@@ -49067,6 +49101,22 @@
     "endYear": 1234
   },
   {
+    "id": "talas-zhizhan",
+    "name": "怛罗斯之战",
+    "display": "怛罗斯",
+    "kind": "event",
+    "year": 751,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "yehuling-zhizhan",
     "name": "野狐岭之战",
     "display": "野狐岭之战",
@@ -49081,6 +49131,40 @@
     "importance": 2,
     "topicId": "military",
     "topicTitle": "军事"
+  },
+  {
+    "id": "yuanhe-huaixi",
+    "name": "元和淮西之战",
+    "display": "元和淮西之战",
+    "kind": "event",
+    "year": 815,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 817
+  },
+  {
+    "id": "anshi-zhiluan",
+    "name": "安史之乱",
+    "display": "安史之乱",
+    "kind": "event",
+    "year": 755,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 763
   },
   {
     "id": "chibi-zhizhan",
@@ -49130,6 +49214,54 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "ganlu-zhibian",
+    "name": "甘露之变",
+    "display": "甘露之变",
+    "kind": "event",
+    "year": 835,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "huangchao-zhi-luan",
+    "name": "黄巢之乱",
+    "display": "黄巢之乱",
+    "kind": "event",
+    "year": 875,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 884
+  },
+  {
+    "id": "huichang-miefo",
+    "name": "会昌毁佛",
+    "display": "会昌毁佛",
+    "kind": "event",
+    "year": 845,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 846
+  },
+  {
     "id": "mengjin-zhanzheng",
     "name": "蒙金战争",
     "display": "蒙金战争",
@@ -49147,6 +49279,52 @@
     "endYear": 1234
   },
   {
+    "id": "talas-zhizhan",
+    "name": "怛罗斯之战",
+    "display": "怛罗斯",
+    "kind": "event",
+    "year": 751,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "tanglong-zhibian",
+    "name": "唐隆政变",
+    "display": "唐隆政变",
+    "kind": "event",
+    "year": 710,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "xiantian-zhibian",
+    "name": "先天政变",
+    "display": "先天政变",
+    "kind": "event",
+    "year": 713,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "yehuling-zhizhan",
     "name": "野狐岭之战",
     "display": "野狐岭之战",
@@ -49159,6 +49337,38 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yuanhe-huaixi",
+    "name": "元和淮西之战",
+    "display": "元和淮西之战",
+    "kind": "event",
+    "year": 815,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 817
+  },
+  {
+    "id": "zhu-wen-dai-tang",
+    "name": "朱温篡唐",
+    "display": "朱温篡唐",
+    "kind": "event",
+    "year": 907,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
     "topicId": "history",
     "topicTitle": "历史事件"
   }
