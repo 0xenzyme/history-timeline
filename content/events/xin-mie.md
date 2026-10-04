@@ -1,0 +1,26 @@
+---
+id: xin-mie
+status: published
+name: 新朝灭亡
+type: political
+catalogs:
+  - history
+importance: 3
+year: 23
+yearAccuracy: exact
+polity:
+  - xin
+  - han
+result: 更始军攻入长安，王莽被杀，新朝覆亡
+aliases:
+  - 长安之战
+sources:
+  - work: 汉书
+    part: 王莽传下
+    kind: classic
+  - work: 后汉书
+    part: 刘玄刘盆子列传
+    kind: classic
+---
+
+昆阳战败后，新朝失去主要军事支柱。更始军攻入长安，王莽在未央宫渐台被杀，新朝覆亡。此后更始、赤眉与各地割据势力并立，汉室重建仍须经过新的政治与军事竞争。

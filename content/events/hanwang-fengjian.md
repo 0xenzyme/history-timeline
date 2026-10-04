@@ -1,0 +1,24 @@
+---
+id: hanwang-fengjian
+status: published
+name: 刘邦受封汉王与诸侯分封
+type: political
+catalogs:
+  - history
+importance: 3
+year: -206
+yearAccuracy: exact
+polity:
+  - chu-han
+  - han
+result: 项羽分封十八诸侯，刘邦受封汉王，秦亡后的楚汉争衡由此展开
+sources:
+  - work: 史记
+    part: 项羽本纪、高祖本纪
+    kind: classic
+  - work: 汉书
+    part: 高帝纪上
+    kind: classic
+---
+
+秦亡后，项羽主持分封十八诸侯，以巴、蜀、汉中之地封刘邦为汉王。分封重划了秦帝国崩溃后的政治空间，也使刘邦与项羽的矛盾由灭秦合作转为天下争衡。

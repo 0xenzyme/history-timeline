@@ -1,0 +1,23 @@
+---
+id: han-jian-guo
+status: published
+name: 刘邦称帝，西汉建立
+type: political
+catalogs:
+  - history
+importance: 3
+year: -202
+yearAccuracy: exact
+polity:
+  - han
+result: 刘邦即皇帝位，西汉政权建立
+sources:
+  - work: 史记
+    part: 高祖本纪
+    kind: classic
+  - work: 汉书
+    part: 高帝纪下
+    kind: classic
+---
+
+垓下之战后，诸侯王共同尊刘邦为皇帝。刘邦在定陶氾水之阳即位，汉朝由诸侯王国转为统治天下的中央政权，随后定都长安。

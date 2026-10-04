@@ -1,0 +1,28 @@
+---
+id: hexi-zhizhan
+status: published
+name: 河西之战
+type: military
+catalogs:
+  - military
+  - history
+scale: campaign
+importance: 3
+year: -121
+yearAccuracy: exact
+place: 河西走廊
+placeNow: 今甘肃河西走廊
+belligerents:
+  - han
+  - xiongnu
+result: 汉军击破河西匈奴诸部，浑邪王率部归降，汉取得经营河西走廊的基础
+sources:
+  - work: 史记
+    part: 卫将军骠骑列传
+    kind: classic
+  - work: 汉书
+    part: 卫青霍去病传
+    kind: classic
+---
+
+霍去病在元狩二年春、夏两次率军深入河西，击破休屠、浑邪诸部。其后浑邪王率众降汉，匈奴在河西的势力遭到重创，汉朝由此取得控制河西走廊、连接西域的战略条件。
