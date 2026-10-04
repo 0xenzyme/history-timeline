@@ -49036,11 +49036,92 @@
     "endYear": 763
   },
   {
+    "id": "baideng-zhiwei",
+    "name": "白登之围",
+    "display": "白登之围",
+    "kind": "event",
+    "year": -200,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "beisong-tongyi",
+    "name": "北宋统一战争",
+    "display": "宋统一",
+    "kind": "event",
+    "year": 963,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 979
+  },
+  {
+    "id": "caishi-zhizhan",
+    "name": "采石之战",
+    "display": "采石之战",
+    "kind": "event",
+    "year": 1161,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "caizhou-zhizhan",
+    "name": "蔡州之战",
+    "display": "蔡州之战",
+    "kind": "event",
+    "year": 1234,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "chibi-zhizhan",
     "name": "赤壁之战",
     "display": "赤壁之战",
     "kind": "event",
     "year": 208,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "dadu-xianluo",
+    "name": "大都陷落",
+    "display": "大都陷落",
+    "kind": "event",
+    "year": 1368,
     "yearAccuracy": "exact",
     "type": "military",
     "catalogs": [
@@ -49064,6 +49145,217 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "dali-zhanzheng",
+    "name": "蒙古征大理",
+    "display": "征大理",
+    "kind": "event",
+    "year": 1252,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1253
+  },
+  {
+    "id": "diaoyucheng-zhizhan",
+    "name": "钓鱼城之战",
+    "display": "钓鱼城之战",
+    "kind": "event",
+    "year": 1259,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "dingchuanzhai-zhizhan",
+    "name": "定川寨之战",
+    "display": "定川寨之战",
+    "kind": "event",
+    "year": 1042,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "dingjiazhou-zhizhan",
+    "name": "丁家洲之战",
+    "display": "丁家洲之战",
+    "kind": "event",
+    "year": 1275,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "duanping-rulu",
+    "name": "端平入洛",
+    "display": "端平入洛",
+    "kind": "event",
+    "year": 1234,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1234
+  },
+  {
+    "id": "fang-la-qiyi",
+    "name": "方腊起义",
+    "display": "方腊起义",
+    "kind": "event",
+    "year": 1120,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1121
+  },
+  {
+    "id": "fuping-zhizhan",
+    "name": "富平之战",
+    "display": "富平之战",
+    "kind": "event",
+    "year": 1130,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "gaixia-zhizhan",
+    "name": "垓下之战",
+    "display": "垓下之战",
+    "kind": "event",
+    "year": -202,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "gaolianghe-zhizhan",
+    "name": "高梁河之战",
+    "display": "高梁河之战",
+    "kind": "event",
+    "year": 979,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "haoshuichuan-zhizhan",
+    "name": "好水川之战",
+    "display": "好水川之战",
+    "kind": "event",
+    "year": 1041,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "heshangyuan-zhizhan",
+    "name": "和尚原之战",
+    "display": "和尚原之战",
+    "kind": "event",
+    "year": 1131,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "hexi-zhizhan",
+    "name": "河西之战",
+    "display": "河西之战",
+    "kind": "event",
+    "year": -121,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "hongjin-qiyi",
+    "name": "红巾起义",
+    "display": "红巾起义",
+    "kind": "event",
+    "year": 1351,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
     "topicId": "military",
     "topicTitle": "军事"
   },
@@ -49085,6 +49377,138 @@
     "endYear": 884
   },
   {
+    "id": "jingkang-zhibian",
+    "name": "靖康之变",
+    "display": "靖康之变",
+    "kind": "event",
+    "year": 1125,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1127
+  },
+  {
+    "id": "jinjun-dujiang",
+    "name": "金军渡江",
+    "display": "金军渡江",
+    "kind": "event",
+    "year": 1129,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1130
+  },
+  {
+    "id": "kaixi-beifa",
+    "name": "开禧北伐",
+    "display": "开禧北伐",
+    "kind": "event",
+    "year": 1206,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1207
+  },
+  {
+    "id": "kunyang-zhizhan",
+    "name": "昆阳之战",
+    "display": "昆阳之战",
+    "kind": "event",
+    "year": 23,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "linan-xiangbiao",
+    "name": "临安降元",
+    "display": "临安降元",
+    "kind": "event",
+    "year": 1276,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "litan-zhiluan",
+    "name": "李璮之乱",
+    "display": "李璮之乱",
+    "kind": "event",
+    "year": 1262,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "longxing-beifa",
+    "name": "隆兴北伐",
+    "display": "隆兴北伐",
+    "kind": "event",
+    "year": 1163,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1163
+  },
+  {
+    "id": "lulin-chimei-qiyi",
+    "name": "绿林、赤眉军兴起",
+    "display": "绿林、赤眉军兴起",
+    "kind": "event",
+    "year": 17,
+    "yearAccuracy": "disputed",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "mengjin-zhanzheng",
     "name": "蒙金战争",
     "display": "蒙金战争",
@@ -49102,6 +49526,270 @@
     "endYear": 1234
   },
   {
+    "id": "mengsong-zhanzheng",
+    "name": "蒙宋战争",
+    "display": "蒙宋战争",
+    "kind": "event",
+    "year": 1235,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1279
+  },
+  {
+    "id": "mengxia-zhanzheng",
+    "name": "蒙古灭夏",
+    "display": "灭夏",
+    "kind": "event",
+    "year": 1226,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1227
+  },
+  {
+    "id": "mie-beihan",
+    "name": "灭北汉",
+    "display": "灭北汉",
+    "kind": "event",
+    "year": 979,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "mie-houshu",
+    "name": "灭后蜀",
+    "display": "灭后蜀",
+    "kind": "event",
+    "year": 964,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 965
+  },
+  {
+    "id": "mie-nanhan",
+    "name": "灭南汉",
+    "display": "灭南汉",
+    "kind": "event",
+    "year": 970,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 971
+  },
+  {
+    "id": "mie-nantang",
+    "name": "灭南唐",
+    "display": "灭南唐",
+    "kind": "event",
+    "year": 974,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 976
+  },
+  {
+    "id": "mobei-zhizhan",
+    "name": "漠北之战",
+    "display": "漠北之战",
+    "kind": "event",
+    "year": -119,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "naiyan-zhiluan",
+    "name": "乃颜之乱",
+    "display": "乃颜之乱",
+    "kind": "event",
+    "year": 1287,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "nongzhigao-qiyi",
+    "name": "侬智高起义",
+    "display": "侬智高起义",
+    "kind": "event",
+    "year": 1052,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1053
+  },
+  {
+    "id": "ping-jinghu",
+    "name": "平荆湖",
+    "display": "平荆湖",
+    "kind": "event",
+    "year": 963,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "qiguo-zhi-luan",
+    "name": "七国之乱",
+    "display": "七国之乱",
+    "kind": "event",
+    "year": -154,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "qingli-songxia-zhanzheng",
+    "name": "庆历宋夏战争",
+    "display": "庆历宋夏",
+    "kind": "event",
+    "year": 1040,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1044
+  },
+  {
+    "id": "sanchuankou-zhizhan",
+    "name": "三川口之战",
+    "display": "三川口之战",
+    "kind": "event",
+    "year": 1040,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "sanfengshan-zhizhan",
+    "name": "三峰山之战",
+    "display": "三峰山",
+    "kind": "event",
+    "year": 1232,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "shou-yanyun",
+    "name": "收复燕云",
+    "display": "收复燕云",
+    "kind": "event",
+    "year": 1122,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1123
+  },
+  {
+    "id": "shunchang-zhizhan",
+    "name": "顺昌之战",
+    "display": "顺昌之战",
+    "kind": "event",
+    "year": 1140,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "talas-zhizhan",
     "name": "怛罗斯之战",
     "display": "怛罗斯",
@@ -49114,6 +49802,105 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "xiangyang-shoufu",
+    "name": "收复襄阳",
+    "display": "收复襄阳",
+    "kind": "event",
+    "year": 1134,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1134
+  },
+  {
+    "id": "xiangyang-zhizhan",
+    "name": "襄阳之战",
+    "display": "襄阳之战",
+    "kind": "event",
+    "year": 1268,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1273
+  },
+  {
+    "id": "xianrenguan-zhizhan",
+    "name": "仙人关之战",
+    "display": "仙人关之战",
+    "kind": "event",
+    "year": 1134,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "xihe-kaibian",
+    "name": "熙河开边",
+    "display": "熙河开边",
+    "kind": "event",
+    "year": 1072,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1073
+  },
+  {
+    "id": "yancheng-zhizhan",
+    "name": "郾城之战",
+    "display": "郾城之战",
+    "kind": "event",
+    "year": 1140,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "yashan-zhizhan",
+    "name": "崖山海战",
+    "display": "崖山海战",
+    "kind": "event",
+    "year": 1279,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
     "topicId": "military",
     "topicTitle": "军事"
   },
@@ -49134,6 +49921,55 @@
     "topicTitle": "军事"
   },
   {
+    "id": "yongle-zhizhan",
+    "name": "永乐城之战",
+    "display": "永乐城之战",
+    "kind": "event",
+    "year": 1082,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "yongxi-beifa",
+    "name": "雍熙北伐",
+    "display": "雍熙北伐",
+    "kind": "event",
+    "year": 986,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "yuanfeng-songxia-zhanzheng",
+    "name": "元丰宋夏战争",
+    "display": "元丰宋夏",
+    "kind": "event",
+    "year": 1081,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1082
+  },
+  {
     "id": "yuanhe-huaixi",
     "name": "元和淮西之战",
     "display": "元和淮西之战",
@@ -49149,6 +49985,23 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": 817
+  },
+  {
+    "id": "zhongdu-zhiyi",
+    "name": "蒙金中都之役",
+    "display": "中都",
+    "kind": "event",
+    "year": 1214,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1215
   },
   {
     "id": "anshi-zhiluan",
@@ -49168,11 +50021,152 @@
     "endYear": 763
   },
   {
+    "id": "baideng-zhiwei",
+    "name": "白登之围",
+    "display": "白登之围",
+    "kind": "event",
+    "year": -200,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "beijiu-shibingquan",
+    "name": "杯酒释兵权",
+    "display": "杯酒释兵权",
+    "kind": "event",
+    "year": 961,
+    "yearAccuracy": "disputed",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "beisong-tongyi",
+    "name": "北宋统一战争",
+    "display": "宋统一",
+    "kind": "event",
+    "year": 963,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 979
+  },
+  {
+    "id": "caishi-zhizhan",
+    "name": "采石之战",
+    "display": "采石之战",
+    "kind": "event",
+    "year": 1161,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "caizhou-zhizhan",
+    "name": "蔡州之战",
+    "display": "蔡州之战",
+    "kind": "event",
+    "year": 1234,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "chanyuan-zhimeng",
+    "name": "澶渊之盟",
+    "display": "澶渊之盟",
+    "kind": "event",
+    "year": 1005,
+    "yearAccuracy": "disputed",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "chenqiao-bingbian",
+    "name": "陈桥兵变",
+    "display": "陈桥兵变",
+    "kind": "event",
+    "year": 960,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "chibi-zhizhan",
     "name": "赤壁之战",
     "display": "赤壁之战",
     "kind": "event",
     "year": 208,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "dadu-gaiming",
+    "name": "改中都为大都",
+    "display": "改大都",
+    "kind": "event",
+    "year": 1272,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "dadu-xianluo",
+    "name": "大都陷落",
+    "display": "大都陷落",
+    "kind": "event",
+    "year": 1368,
     "yearAccuracy": "exact",
     "type": "military",
     "catalogs": [
@@ -49200,6 +50194,118 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "dali-zhanzheng",
+    "name": "蒙古征大理",
+    "display": "征大理",
+    "kind": "event",
+    "year": 1252,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1253
+  },
+  {
+    "id": "damengguguo-jianguo",
+    "name": "成吉思汗即位",
+    "display": "称汗",
+    "kind": "event",
+    "year": 1206,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "dayuan-jianguo",
+    "name": "建国号大元",
+    "display": "建大元",
+    "kind": "event",
+    "year": 1271,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "diaoyucheng-zhizhan",
+    "name": "钓鱼城之战",
+    "display": "钓鱼城之战",
+    "kind": "event",
+    "year": 1259,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "dingchuanzhai-zhizhan",
+    "name": "定川寨之战",
+    "display": "定川寨之战",
+    "kind": "event",
+    "year": 1042,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "dingjiazhou-zhizhan",
+    "name": "丁家洲之战",
+    "display": "丁家洲之战",
+    "kind": "event",
+    "year": 1275,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "duanping-rulu",
+    "name": "端平入洛",
+    "display": "端平入洛",
+    "kind": "event",
+    "year": 1234,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1234
+  },
+  {
     "id": "duomen-zhibian",
     "name": "夺门之变",
     "display": "夺门之变",
@@ -49215,6 +50321,55 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "fang-la-qiyi",
+    "name": "方腊起义",
+    "display": "方腊起义",
+    "kind": "event",
+    "year": 1120,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1121
+  },
+  {
+    "id": "fuping-zhizhan",
+    "name": "富平之战",
+    "display": "富平之战",
+    "kind": "event",
+    "year": 1130,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "gaixia-zhizhan",
+    "name": "垓下之战",
+    "display": "垓下之战",
+    "kind": "event",
+    "year": -202,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "ganlu-zhibian",
     "name": "甘露之变",
     "display": "甘露之变",
@@ -49223,6 +50378,131 @@
     "yearAccuracy": "exact",
     "type": "political",
     "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "gaolianghe-zhizhan",
+    "name": "高梁河之战",
+    "display": "高梁河之战",
+    "kind": "event",
+    "year": 979,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "haishang-zhi-meng",
+    "name": "海上之盟",
+    "display": "海上之盟",
+    "kind": "event",
+    "year": 1120,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "han-jian-guo",
+    "name": "刘邦称帝，西汉建立",
+    "display": "刘邦称帝，西汉建立",
+    "kind": "event",
+    "year": -202,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "hanwang-fengjian",
+    "name": "刘邦受封汉王与诸侯分封",
+    "display": "刘邦受封汉王与诸侯分封",
+    "kind": "event",
+    "year": -206,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "haoshuichuan-zhizhan",
+    "name": "好水川之战",
+    "display": "好水川之战",
+    "kind": "event",
+    "year": 1041,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "heshangyuan-zhizhan",
+    "name": "和尚原之战",
+    "display": "和尚原之战",
+    "kind": "event",
+    "year": 1131,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "hexi-zhizhan",
+    "name": "河西之战",
+    "display": "河西之战",
+    "kind": "event",
+    "year": -121,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "hongjin-qiyi",
+    "name": "红巾起义",
+    "display": "红巾起义",
+    "kind": "event",
+    "year": 1351,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
       "history"
     ],
     "importance": 3,
@@ -49263,6 +50543,214 @@
     "endYear": 846
   },
   {
+    "id": "jiading-heyi",
+    "name": "嘉定和议",
+    "display": "嘉定和议",
+    "kind": "event",
+    "year": 1208,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "jingkang-zhibian",
+    "name": "靖康之变",
+    "display": "靖康之变",
+    "kind": "event",
+    "year": 1125,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1127
+  },
+  {
+    "id": "jinjun-dujiang",
+    "name": "金军渡江",
+    "display": "金军渡江",
+    "kind": "event",
+    "year": 1129,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1130
+  },
+  {
+    "id": "jinkui-zhimeng",
+    "name": "金匮之盟",
+    "display": "金匮之盟",
+    "kind": "event",
+    "year": 961,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "kaixi-beifa",
+    "name": "开禧北伐",
+    "display": "开禧北伐",
+    "kind": "event",
+    "year": 1206,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1207
+  },
+  {
+    "id": "kunyang-zhizhan",
+    "name": "昆阳之战",
+    "display": "昆阳之战",
+    "kind": "event",
+    "year": 23,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "linan-dingdu",
+    "name": "定都临安",
+    "display": "定都临安",
+    "kind": "event",
+    "year": 1138,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "linan-xiangbiao",
+    "name": "临安降元",
+    "display": "临安降元",
+    "kind": "event",
+    "year": 1276,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "litan-zhiluan",
+    "name": "李璮之乱",
+    "display": "李璮之乱",
+    "kind": "event",
+    "year": 1262,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "longxing-beifa",
+    "name": "隆兴北伐",
+    "display": "隆兴北伐",
+    "kind": "event",
+    "year": 1163,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1163
+  },
+  {
+    "id": "longxing-heyi",
+    "name": "隆兴和议",
+    "display": "隆兴和议",
+    "kind": "event",
+    "year": 1164,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1165
+  },
+  {
+    "id": "lulin-chimei-qiyi",
+    "name": "绿林、赤眉军兴起",
+    "display": "绿林、赤眉军兴起",
+    "kind": "event",
+    "year": 17,
+    "yearAccuracy": "disputed",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "mengge-jiwei",
+    "name": "蒙哥即位",
+    "display": "蒙哥即位",
+    "kind": "event",
+    "year": 1251,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "mengjin-zhanzheng",
     "name": "蒙金战争",
     "display": "蒙金战争",
@@ -49278,6 +50766,393 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 1234
+  },
+  {
+    "id": "mengsong-zhanzheng",
+    "name": "蒙宋战争",
+    "display": "蒙宋战争",
+    "kind": "event",
+    "year": 1235,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1279
+  },
+  {
+    "id": "mengxia-zhanzheng",
+    "name": "蒙古灭夏",
+    "display": "灭夏",
+    "kind": "event",
+    "year": 1226,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1227
+  },
+  {
+    "id": "mie-beihan",
+    "name": "灭北汉",
+    "display": "灭北汉",
+    "kind": "event",
+    "year": 979,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "mie-houshu",
+    "name": "灭后蜀",
+    "display": "灭后蜀",
+    "kind": "event",
+    "year": 964,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 965
+  },
+  {
+    "id": "mie-nanhan",
+    "name": "灭南汉",
+    "display": "灭南汉",
+    "kind": "event",
+    "year": 970,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 971
+  },
+  {
+    "id": "mie-nantang",
+    "name": "灭南唐",
+    "display": "灭南唐",
+    "kind": "event",
+    "year": 974,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 976
+  },
+  {
+    "id": "mobei-zhizhan",
+    "name": "漠北之战",
+    "display": "漠北之战",
+    "kind": "event",
+    "year": -119,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "naiyan-zhiluan",
+    "name": "乃颜之乱",
+    "display": "乃颜之乱",
+    "kind": "event",
+    "year": 1287,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "nanpo-zhibian",
+    "name": "南坡之变",
+    "display": "南坡之变",
+    "kind": "event",
+    "year": 1323,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "nansong-jianli",
+    "name": "南宋建立",
+    "display": "南宋建立",
+    "kind": "event",
+    "year": 1127,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "nongzhigao-qiyi",
+    "name": "侬智高起义",
+    "display": "侬智高起义",
+    "kind": "event",
+    "year": 1052,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1053
+  },
+  {
+    "id": "ping-jinghu",
+    "name": "平荆湖",
+    "display": "平荆湖",
+    "kind": "event",
+    "year": 963,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qiguo-zhi-luan",
+    "name": "七国之乱",
+    "display": "七国之乱",
+    "kind": "event",
+    "year": -154,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qingli-heyi",
+    "name": "庆历和议",
+    "display": "庆历和议",
+    "kind": "event",
+    "year": 1044,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qingli-songxia-zhanzheng",
+    "name": "庆历宋夏战争",
+    "display": "庆历宋夏",
+    "kind": "event",
+    "year": 1040,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1044
+  },
+  {
+    "id": "qingli-xinzheng",
+    "name": "庆历新政",
+    "display": "庆历新政",
+    "kind": "event",
+    "year": 1043,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1045
+  },
+  {
+    "id": "qingli-zengbi",
+    "name": "庆历增币",
+    "display": "庆历增币",
+    "kind": "event",
+    "year": 1042,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "sanchuankou-zhizhan",
+    "name": "三川口之战",
+    "display": "三川口之战",
+    "kind": "event",
+    "year": 1040,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "sanfengshan-zhizhan",
+    "name": "三峰山之战",
+    "display": "三峰山",
+    "kind": "event",
+    "year": 1232,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "shaosheng-shaoshu",
+    "name": "绍圣绍述",
+    "display": "绍圣绍述",
+    "kind": "event",
+    "year": 1094,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1100
+  },
+  {
+    "id": "shaoxing-heyi",
+    "name": "绍兴和议",
+    "display": "绍兴和议",
+    "kind": "event",
+    "year": 1141,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1142
+  },
+  {
+    "id": "shaoxing-shoubing",
+    "name": "绍兴收兵权",
+    "display": "绍兴收兵权",
+    "kind": "event",
+    "year": 1141,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "shou-yanyun",
+    "name": "收复燕云",
+    "display": "收复燕云",
+    "kind": "event",
+    "year": 1122,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1123
+  },
+  {
+    "id": "shunchang-zhizhan",
+    "name": "顺昌之战",
+    "display": "顺昌之战",
+    "kind": "event",
+    "year": 1140,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "talas-zhizhan",
@@ -49311,6 +51186,102 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "wangmang-daihan",
+    "name": "王莽代汉，建立新朝",
+    "display": "王莽代汉，建立新朝",
+    "kind": "event",
+    "year": 9,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "weiqi",
+    "name": "伪齐",
+    "display": "伪齐",
+    "kind": "event",
+    "year": 1130,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1138
+  },
+  {
+    "id": "wuyue-natu",
+    "name": "吴越纳土",
+    "display": "吴越纳土",
+    "kind": "event",
+    "year": 978,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "xiangyang-shoufu",
+    "name": "收复襄阳",
+    "display": "收复襄阳",
+    "kind": "event",
+    "year": 1134,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1134
+  },
+  {
+    "id": "xiangyang-zhizhan",
+    "name": "襄阳之战",
+    "display": "襄阳之战",
+    "kind": "event",
+    "year": 1268,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1273
+  },
+  {
+    "id": "xianrenguan-zhizhan",
+    "name": "仙人关之战",
+    "display": "仙人关之战",
+    "kind": "event",
+    "year": 1134,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "xiantian-zhibian",
     "name": "先天政变",
     "display": "先天政变",
@@ -49326,6 +51297,54 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "xihe-kaibian",
+    "name": "熙河开边",
+    "display": "熙河开边",
+    "kind": "event",
+    "year": 1072,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1073
+  },
+  {
+    "id": "xin-mie",
+    "name": "新朝灭亡",
+    "display": "新朝灭亡",
+    "kind": "event",
+    "year": 23,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "xining-bianfa",
+    "name": "熙宁变法",
+    "display": "熙宁变法",
+    "kind": "event",
+    "year": 1069,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1085
+  },
+  {
     "id": "xuanwu-zhibian",
     "name": "玄武门之变",
     "display": "玄武门之变",
@@ -49334,6 +51353,53 @@
     "yearAccuracy": "exact",
     "type": "political",
     "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yancheng-zhizhan",
+    "name": "郾城之战",
+    "display": "郾城之战",
+    "kind": "event",
+    "year": 1140,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yanyou-fuke",
+    "name": "延祐复科举",
+    "display": "复科举",
+    "kind": "event",
+    "year": 1313,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yashan-zhizhan",
+    "name": "崖山海战",
+    "display": "崖山海战",
+    "kind": "event",
+    "year": 1279,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
       "history"
     ],
     "importance": 3,
@@ -49357,6 +51423,85 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "yizhou-jiaozi",
+    "name": "置益州交子务",
+    "display": "交子务",
+    "kind": "event",
+    "year": 1024,
+    "yearAccuracy": "disputed",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yongle-zhizhan",
+    "name": "永乐城之战",
+    "display": "永乐城之战",
+    "kind": "event",
+    "year": 1082,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yongxi-beifa",
+    "name": "雍熙北伐",
+    "display": "雍熙北伐",
+    "kind": "event",
+    "year": 986,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yuanfeng-songxia-zhanzheng",
+    "name": "元丰宋夏战争",
+    "display": "元丰宋夏",
+    "kind": "event",
+    "year": 1081,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1082
+  },
+  {
+    "id": "yuanhao-chengdi",
+    "name": "元昊称帝",
+    "display": "元昊称帝",
+    "kind": "event",
+    "year": 1038,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "yuanhe-huaixi",
     "name": "元和淮西之战",
     "display": "元和淮西之战",
@@ -49374,6 +51519,39 @@
     "endYear": 817
   },
   {
+    "id": "yuanyou-genghua",
+    "name": "元祐更化",
+    "display": "元祐更化",
+    "kind": "event",
+    "year": 1086,
+    "yearAccuracy": "disputed",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1093
+  },
+  {
+    "id": "zhongdu-zhiyi",
+    "name": "蒙金中都之役",
+    "display": "中都",
+    "kind": "event",
+    "year": 1214,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1215
+  },
+  {
     "id": "zhu-wen-dai-tang",
     "name": "朱温篡唐",
     "display": "朱温篡唐",
@@ -49385,6 +51563,21 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "zizhi-tongjian",
+    "name": "《资治通鉴》成书",
+    "display": "通鉴成书",
+    "kind": "event",
+    "year": 1085,
+    "yearAccuracy": "disputed",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   }
