@@ -9,13 +9,22 @@
   ],
   "segments": [
     {
-      "id": "seg-bc3-ad8",
-      "label": "前 3 世纪—8 世纪",
+      "id": "seg-bc3-ad7",
+      "label": "前 3 世纪—7 世纪",
       "from": -300,
-      "to": 800,
+      "to": 700,
       "events": [
         "daizexiang-qiyi",
         "chibi-zhizhan",
+        "xuanwu-zhibian"
+      ]
+    },
+    {
+      "id": "seg-ad8",
+      "label": "8 世纪",
+      "from": 701,
+      "to": 800,
+      "events": [
         "tanglong-zhibian",
         "xiantian-zhibian",
         "talas-zhizhan",
@@ -680,6 +689,51 @@
         {
           "work": "新唐书",
           "part": "玄宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xuanwu-zhibian",
+      "name": "玄武门之变",
+      "display": "玄武门之变",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 626,
+      "yearAccuracy": "exact",
+      "place": "长安玄武门",
+      "placeNow": "今西安城内唐长安宫城北门一带",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "li-shimin",
+        "li-jian-cheng",
+        "li-yuan-ji",
+        "li-yuan",
+        "yu-chi-gong"
+      ],
+      "result": "李建成、李元吉被杀，李世民成为皇太子并继位为太宗",
+      "aliases": [
+        "tang-xuanwu"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "626 年六月，李世民在玄武门发动宫廷武装政变，杀李建成、李元吉，随后被立为皇太子；八月李渊传位，李世民即位为唐太宗。它重组了唐初最高权力结构，直接开启贞观政治。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "太宗本纪上",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "唐纪七",
           "kind": "classic"
         }
       ]

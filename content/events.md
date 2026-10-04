@@ -6,6 +6,7 @@
 | --- | --- | --- | --- | --- |
 | [daizexiang-qiyi](events/daizexiang-qiyi.md) | 大泽乡起义 | 大泽乡起义 | rebellion | -209 |
 | [chibi-zhizhan](events/chibi-zhizhan.md) | 赤壁之战 | 赤壁之战 | military | 208 |
+| [xuanwu-zhibian](events/xuanwu-zhibian.md) | 玄武门之变 | 玄武门之变 | political | 626 |
 | [tanglong-zhibian](events/tanglong-zhibian.md) | 唐隆政变 | 唐隆政变 | political | 710 |
 | [xiantian-zhibian](events/xiantian-zhibian.md) | 先天政变 | 先天政变 | political | 713 |
 | [talas-zhizhan](events/talas-zhizhan.md) | 怛罗斯之战 | 怛罗斯 | military | 751 |

@@ -4332,19 +4332,28 @@
         "yu-chi-gong"
       ],
       "legacyDesc": "世民伏兵玄武门，杀太子建成、齐王元吉，遂立为太子，八月即位。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "xuanwu-zhibian",
+      "aliases": [
+        "tang-xuanwu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        ".harness/runs/20261004-legacy-migration-xuanwu/evidence/sources/old-tang-book.json",
+        ".harness/runs/20261004-legacy-migration-xuanwu/evidence/sources/new-tang-book.json",
+        ".harness/runs/20261004-legacy-migration-xuanwu/evidence/sources/zizhi-tongjian.json",
+        ".harness/runs/20261004-legacy-migration-xuanwu/evidence/claims/xuanwu-zhibian.json"
+      ],
+      "review": [
+        ".harness/runs/20261004-legacy-migration-xuanwu/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {

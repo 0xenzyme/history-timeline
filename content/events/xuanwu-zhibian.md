@@ -1,6 +1,6 @@
 ---
 id: xuanwu-zhibian
-status: draft
+status: published
 name: 玄武门之变
 display: 玄武门之变
 type: political
@@ -18,7 +18,10 @@ people:
   - li-jian-cheng
   - li-yuan-ji
   - li-yuan
+  - yu-chi-gong
 result: 李建成、李元吉被杀，李世民成为皇太子并继位为太宗
+aliases:
+  - tang-xuanwu
 sources:
   - work: 旧唐书
     part: 太宗本纪上
