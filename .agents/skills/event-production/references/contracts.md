@@ -26,9 +26,11 @@
 }
 ```
 
-`approval` 只在 controller 通过 `askuserquestion` 回显范围后，根据工具返回结果填入。普通讨论文本、用户手写 JSON 或“看起来可以”不能被当成批准。
+`approval` 由 controller 写入。controller 先用 `SKILL.md` 里的宿主提问工具展示范围，再把工具结果规范化成下面的记录。普通聊天、用户手写 JSON 或“看起来可以”不是批准。工具没有返回答案也不是批准。
 
-工具询问至少要能回收：
+宿主工具的原始返回值可以不同。Grok 的 `ask_user_question` 返回选项和自由文本。controller 把「批准建议名单」写成 `decision: approve`，把点名排除写入 `excludeIds`，把「先补证据」写成 `needs-more-evidence`，把「暂停」写成 `hold`。自由文本进入 `userText`。自由文本单独出现时，`decision` 不能是 `approve`。
+
+规范化记录至少包含：
 
 ```json
 {
@@ -41,7 +43,9 @@
 }
 ```
 
-controller 只有在收到 askuserquestion 的结构化结果后，才可以写 `gates/*.json` 或推进 checkpoint。
+已有 gate 文件可以带更多字段，也可以使用 `approve-with-vocab` 这类已经写下来的 `decision`。新说明接受这些旧字段。controller 缺少上面的任一标识时，不推进 checkpoint。
+
+controller 把这条记录写入 `gates/*.json` 之后，才能推进 checkpoint。
 
 ## Worker envelope
 

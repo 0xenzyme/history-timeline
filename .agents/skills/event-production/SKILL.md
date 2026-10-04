@@ -1,26 +1,24 @@
 ---
 name: event-production
-description: 用研究、综合、起草、校验和历史审核 subagent 生产历史事件；适用于“研究并添加某朝代重大事件”、恢复事件生产 Run 或处理事件审批 gate。
+description: 用研究、综合、起草、校验和历史审核 worker 生产历史事件；适用于“研究并添加某朝代重大事件”、恢复事件生产 Run 或处理事件审批 gate。
 metadata:
   short-description: Agent-driven historical event production
 ---
 
-# Agent-driven 事件生产
+# 事件生产
 
-这个 Skill 是事件生产的入口层。真正的状态机、Run、checkpoint、候选 ledger、人工 gate 和 accepted-state 由 controller subagent 负责；当前对话只负责识别意图、启动或恢复 controller、展示结果和转发用户确认。
+这个 Skill 是事件生产的唯一执行入口。controller 是一个角色，不是某一个宿主的子 agent 类型。它持有 Run、checkpoint、候选 ledger、人工 gate 和 published 状态。
+
+执行本技能时不读取 `harness/` 文档，不运行 agent-harness。`.harness/runs/` 只是本仓库存放 Run 文件的目录。
 
 ## 使用前读取
-
-按需读取以下项目事实：
 
 1. `AGENTS.md`
 2. `docs/事件线规则.md`
 3. `pipeline/PLAYBOOK.md` 的事件部分
-4. `harness/README.md`
-5. `harness/specs/event-agent-production.md`
-6. 本 Skill 的 `references/contracts.md` 和 `references/roles.md`
+4. 本 Skill 的 `references/contracts.md`、`references/roles.md`、`references/evidence.md`
 
-本目录就是标准 project-local Skill discovery 路径 `.agents/skills/event-production/`。Skill 的角色合同和引用文件随仓库版本控制；不要把宿主缓存或全局安装目录当作事实来源。
+本目录是 `.agents/skills/event-production/`。角色合同以这里的文件为准。只有 Codex 读取 `agents/openai.yaml`。其他宿主只读本文件的 `name` 和 `description`。
 
 ## 入口意图
 
@@ -33,34 +31,40 @@ metadata:
 - `cancel`：取消 Run 并保留 evidence；
 - `status`：只读展示 Run、checkpoint、candidate ledger 和下一步。
 
-自然语言可以触发动作，但涉及状态变更时必须让 controller 回显 Run id、revision、候选范围和即将发生的动作。含糊的“看起来可以”“继续吧”不能直接接受 gate。
+状态变更前，controller 先展示 Run id、revision、候选范围和即将发生的动作。含糊的“看起来可以”“继续吧”不能直接接受 gate。
 
-### 中间询问必须使用 askuserquestion
+## 谁担任 controller
 
-当 controller 需要 research approval、publish approval、范围选择或不可自动解决的澄清时，必须调用宿主提供的 `askuserquestion` 工具，并等待结构化答案。当前 Codex host 对应 `request_user_input_async` 或 `request_user_input`。
+controller 必须同时能做两件事：向用户提问，启动 worker。做不到这两件事的子 agent 不能担任 controller。
 
-- 问题中先给出候选摘要、数量、例外和即将发生的动作；
-- 选项应表达互斥决策，例如批准、排除、hold 或补充证据；
-- 一个暂停点只问一个原子问题，避免把 gate 拆成普通聊天；
-- 工具返回后，controller 才能写 gate record 或推进 checkpoint；
-- 不要在普通 final 文本中要求用户粘贴 JSON；
-- 不要把“请回复某段 JSON”当作 askuserquestion 的替代品；
-- 用户的自由文本补充必须和工具选择一起记录，不能把含糊回复自动解释为批准。
+| 宿主 | 提问工具 | controller | 启动 worker |
+| --- | --- | --- | --- |
+| Grok | `ask_user_question` | 根 agent | 根 agent 调用 `spawn_subagent` |
+| Codex | `request_user_input` 或 `request_user_input_async` | 根 agent，或一个能提问且能再启动 worker 的子 agent | 担任 controller 的那个 agent |
+| Claude | `AskUserQuestion` | 能提问且能启动 worker 的那个 agent | 同一个 agent |
 
-## Controller 启动协议
+Cursor、ZCode、CodeBuddy 不另写选项。它们用自己的提问工具，并遵守上面的角色规则。
 
-当动作是 `start` 或 `resume` 时，当前 root 应创建或恢复一个专门的 controller subagent，并把以下内容作为 bounded context 传入：
+Grok 的一次 gate 只给四个选项：批准建议名单、批准但排除补充里点名的条目、先补证据、暂停。候选 id 写在问题正文里，或指向 `artifacts/candidate-summary.md`。四个选项以外的自由文本只作补充。自由文本本身不是批准。
+
+用户不回答，或工具返回空，都不是批准。checkpoint 停在当前 stage。这条规则也适用于 Codex：空回答不能按最佳判断继续。
+
+提问工具的原始返回值形状可以不同。controller 把它写成 `references/contracts.md` 里的 gate 记录后，才能推进 checkpoint。记录写入之前，不向用户发送已批准的结论，也不要求用户粘贴 JSON。
+
+## 启动和恢复
+
+`start` 或 `resume` 时，担任 controller 的 agent 读取：
 
 - 用户归一化后的 `EventProductionRequest`；
 - 当前 Run 路径、manifest、checkpoint revision 和下一步动作；
-- `AGENTS.md`、事件规则、PLAYBOOK 事件部分和本 Skill 合同；
-- controller 的读写范围和禁止的外部动作。
+- 上面的项目事实和本 Skill 合同；
+- 自己的读写范围。worker 只写分配给它的 evidence。
 
-controller subagent 可以继续创建 research、synthesis、draft、validator 和 historian-reviewer worker。当前 root 负责等待 controller 结果、把 controller 的 gate 摘要展示给用户，并把用户的明确确认原样转发回同一个 Run。root 不应绕过 controller 直接研究、写 draft 或改变 published。
+controller 启动 research、synthesis、draft、validator、historian-reviewer。根 agent 担任 controller 时，仍然把检索和起草交给 worker，不在根对话里直接研究、写 draft 或改 published。
 
-当 controller 发出 askuserquestion 后，当前 root 必须等待工具结果，不要提前发送 final_answer；工具结果应作为下一次 controller 输入继续 Run。
+worker 把长证据写入 Run 目录。controller 只读取 synthesis、ledger 和 gate 需要的摘要。
 
-如果 app 重启或 controller 上下文不存在，Skill 重新创建 controller，并以 Run evidence、checkpoint 和 ledger 作为唯一恢复输入；不要依赖上一回合的聊天记忆。
+会话中断后，从该 Run 的 manifest、checkpoint、ledger 和 evidence 恢复。不把上一回合的聊天当作 gate 决定。
 
 ## 默认生产线
 
@@ -70,7 +74,9 @@ controller subagent 可以继续创建 research、synthesis、draft、validator 
 research -> draft -> validate -> publish
 ```
 
-research 阶段按时期和领域并行调用 research worker，再由 synthesis worker 合并。全任务只设置一次 research approval；批准后 draft worker 只创建新的 `content/events/<id>.md`，并显式写 `status: draft`。validate 阶段同时运行确定性命令和独立历史 reviewer；第二次全任务 publish approval 通过后，controller 才能把 draft 改为 `published` 并编译。
+research 阶段按时期和领域并行调用 research worker，再由 synthesis worker 合并。全任务只有一次 research approval。批准后 draft worker 只创建新的 `content/events/<id>.md`，并写 `status: draft`。validate 阶段同时运行确定性命令和独立历史 reviewer。第二次 publish approval 通过后，controller 才能把 draft 改为 `published` 并编译。
+
+某个 stage 的暂停条件、以及外部文件或命令结果对不上时如何停止，写在 `references/evidence.md`。
 
 ## 角色边界
 
@@ -80,11 +86,11 @@ research 阶段按时期和领域并行调用 research worker，再由 synthesis
 - `validator`：运行 `npm run events:check`、`npm run content:check`、`npm run build` 和 publish preview；只返回报告。
 - `historian-reviewer`：只读审核收录闸门、史料冲突、分类、重复和人物引用；不改文件、不接受 gate。
 
-所有 worker 输出必须带 `runId`、`inputHash`、`revision`。controller 拒绝 stale output，并且是唯一能够更新 Harness accepted state、gate、ledger artifact 状态和 published 状态的角色。
+所有 worker 输出必须带 `runId`、`inputHash`、`revision`。controller 拒绝不匹配的结果。只有 controller 能更新 checkpoint、gate、ledger 和 published 状态。
 
 ## 证据和生命周期
 
-完整网页引用、摘录、claim mapping、review 和命令输出放在 `.harness/runs/<run-id>/evidence/`。canonical event 的 `sources` 继续只使用 `work`、`part`、`note`、`kind`；不要把 URL 直接塞入事件 frontmatter。
+完整网页引用、摘录、claim mapping、review 和命令输出放在 `.harness/runs/<run-id>/evidence/`。canonical event 的 `sources` 继续只使用 `work`、`part`、`note`、`kind`。不要把 URL 写入事件 frontmatter。
 
 新的事件生产 ledger 与旧的 258 条迁移 manifest 分离。ledger 同时记录：
 
@@ -95,7 +101,7 @@ research 阶段按时期和领域并行调用 research worker，再由 synthesis
 
 ## 外部动作边界
 
-不自动 commit、push、deploy、release 或调用付费 API。发布只在明确的 publish approval 后执行；如果编译或文件状态不确定，进入 Harness reconciliation-required/blocked，不盲目重试。
+不自动 commit、push、deploy、release 或调用付费 API。发布只在明确的 publish approval 后执行。编译结果或文件状态对不上时，按 `references/evidence.md` 停止并记录原因，不重试，不删除意外文件。
 
 详细合同见：
 

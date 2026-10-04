@@ -1,21 +1,23 @@
 # Event Production Roles
 
-这些角色由 controller 根据当前 Run 动态生成 prompt。角色只接收完成任务所需的 scope、规则摘录和 evidence refs，不共享未经确认的 accepted state。
+这些角色由 controller 根据当前 Run 动态生成 prompt。角色只接收完成任务所需的 scope、规则摘录和 evidence refs。尚未写入 gate 或 ledger 的结果不是批准。
+
+controller 是角色。它必须能向用户提问，并且能启动 worker。Grok 的根 agent 担任 controller。Codex 可以由根 agent 担任，也可以交给能提问且能再启动 worker 的子 agent。
 
 ## Controller
 
-**拥有**：Run manifest、checkpoint、candidate ledger、gate record、accepted state、published 状态和最终 state sync。
+**拥有**：Run manifest、checkpoint、candidate ledger、gate record、published 状态。
 
 **必须**：
 
 - 先读取当前 checkpoint revision，再采取动作；
 - 为每个 worker 固定 `runId`、`inputHash`、`revision`；
 - 只接受满足依赖和证据合同的 worker 结果；
-- 在两次 gate 前回显候选范围和下一步；
-- 使用宿主 `askuserquestion` 工具询问 gate，不要求用户粘贴 JSON；
-- 在收到工具答案前保持 Run 暂停，不发送表示已批准的 final 文本；
+- 在两次 gate 前展示候选范围和下一步；
+- 使用 `SKILL.md` 里该宿主的提问工具询问 gate，再把结果写成 gate 记录；不要求用户粘贴 JSON；
+- 工具没有返回答案时，checkpoint 停在当前 stage；不向用户发送已批准的结论；
 - 使用 create-only 文件写入；
-- 在外部状态不确定时进入 reconciliation-required；
+- 外部文件或命令结果对不上时，按 `evidence.md` 停止并记录原因，不重试；
 - 记录每次重试和取消原因。
 
 **不得**：

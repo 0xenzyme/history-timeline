@@ -5,6 +5,8 @@ Status: accepted
 
 ## Decision
 
+执行步骤以 `.agents/skills/event-production/SKILL.md` 为准。
+
 Skill 只负责意图路由、规则加载、Run 启动/恢复和结果展示；专门的 controller subagent 负责事件生产状态机、worker 调度、checkpoint、候选 ledger、人工 gate、canonical 写入边界和最终状态同步。controller 不是常驻服务；每次恢复从 Harness Run 的 manifest、checkpoint、evidence 和 ledger 重建上下文。
 
 事件实体仍以 `content/events/<id>.md` 为唯一 canonical source。旧的 `pipeline/topics/*/topic.json#events[]` 和 `pipeline/events-migration-manifest.json` 继续只服务冻结的 258 条迁移输入，不被新生产 Run 复用或扩写。
