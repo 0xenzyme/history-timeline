@@ -1,0 +1,31 @@
+---
+id: jiaozhi-neishu
+status: published
+name: 交趾内属
+type: political
+catalogs:
+  - history
+importance: 2
+year: 1407
+yearAccuracy: exact
+yearNote: 永乐五年六月置交趾布政司，宣德二年十月弃交趾。
+endYear: 1427
+endYearAccuracy: exact
+polity:
+  - ming
+result: 置交趾布政司，宣德二年放弃
+aliases:
+  - 平定安南
+  - 弃交趾
+sources:
+  - work: 明史
+    part: 卷六
+    note: 永乐五年六月以安南平诏天下，置交趾布政司
+    kind: classic
+  - work: 明史
+    part: 卷九
+    note: 宣德二年十月王通弃交趾，与黎利盟，召吏士还
+    kind: classic
+---
+
+永乐五年六月，以安南平诏天下，置交趾布政司。宣德二年十月，王通弃交趾，与黎利盟，随后召吏士还。词表没有安南，本条不写成两方交战。

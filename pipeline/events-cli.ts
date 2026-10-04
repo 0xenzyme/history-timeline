@@ -57,7 +57,9 @@ function personIds(): Set<string> {
 
 function eventMap(): Map<string, RegistryEvent> {
   const events = new Map<string, RegistryEvent>();
-  for (const file of publishedEventMarkdown(readEventMarkdown(contentRoot))) {
+  // Draft wars stay in this map so a child year can be checked before publish.
+  // The index and the axis still use published events only.
+  for (const file of readEventMarkdown(contentRoot)) {
     if (file.event) events.set(file.event.id, file.event);
   }
   return events;

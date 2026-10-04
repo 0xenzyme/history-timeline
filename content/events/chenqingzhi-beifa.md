@@ -1,0 +1,33 @@
+---
+id: chenqingzhi-beifa
+status: published
+name: 陈庆之北伐
+type: military
+catalogs:
+  - military
+  - history
+scale: campaign
+importance: 2
+year: 528
+yearAccuracy: exact
+endYear: 529
+endYearAccuracy: exact
+place: 洛阳
+placeNow: 今河南洛阳
+belligerents:
+  - nan
+  - bei
+result: 一度送元颢入洛阳，旋为尔朱荣军所败，庆之间道南还
+aliases:
+  - 送元颢入洛
+  - 白袍北伐
+sources:
+  - work: 梁书
+    part: 陈庆之传
+    kind: classic
+  - work: 南史
+    part: 陈庆之传
+    kind: classic
+---
+
+河阴之变后，魏北海王元颢降梁求立为魏主。大通二年（528）梁武帝命陈庆之率七千人送颢北归，自铚县取荥城、拔睢阳、下考城，乘胜入洛阳，颢即帝位。次年尔朱荣反攻，元颢败死，庆之收众南还。北伐规模不大而战果奇绝，为南北对峙期标志性插曲。

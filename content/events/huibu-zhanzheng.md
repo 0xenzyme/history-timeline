@@ -1,0 +1,27 @@
+---
+id: huibu-zhanzheng
+status: published
+name: 回部之役
+type: military
+catalogs:
+  - military
+  - history
+scale: war
+importance: 3
+year: 1757
+yearAccuracy: exact
+yearNote: 地理志乾隆二十二年再出师，明年回部亦平。
+endYear: 1759
+endYearAccuracy: exact
+belligerents:
+  - qing
+  - huibu
+result: 回部亦平
+sources:
+  - work: 清史稿
+    part: 卷七十六
+    note: 霍集占附之，再出師。二十三年，克庫車、沙雅爾、阿克蘇、烏什諸城；明年，收和闐、喀什噶爾、葉爾羌諸城，二酋走死，回部亦平
+    kind: classic
+---
+
+乾隆二十二年霍集占附阿睦尔撒纳，清军再出师。二十三年克库车等城，明年二酋走死，回部亦平。天山南路由此改归清朝管辖。
