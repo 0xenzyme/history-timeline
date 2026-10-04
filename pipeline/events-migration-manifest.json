@@ -4453,19 +4453,27 @@
         "zhang-xun"
       ],
       "legacyDesc": "安禄山范阳起兵，哥舒翰败于灵宝，潼关陷、玄宗奔蜀；郭子仪、李光弼收复两京，张巡死守睢阳。乱平而藩镇之祸始。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "anshi-zhiluan",
+      "aliases": [
+        "tang-tianbao"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        ".harness/runs/20261004-legacy-migration-anshi/evidence/sources/old-tang-book.json",
+        ".harness/runs/20261004-legacy-migration-anshi/evidence/sources/new-tang-book.json",
+        ".harness/runs/20261004-legacy-migration-anshi/evidence/claims/anshi-zhiluan.json"
+      ],
+      "review": [
+        ".harness/runs/20261004-legacy-migration-anshi/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {

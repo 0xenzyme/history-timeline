@@ -16,11 +16,16 @@ polity:
 people:
   - an-lu-shan
   - shi-si-ming
+  - li-long-ji
+  - yang-yu-huan
+  - ge-shu-han
   - guo-zi-yi
   - li-guang-bi
+  - zhang-xun
 result: 唐廷平定叛乱但中央财政、兵制与藩镇关系长期改组
 aliases:
   - 安禄山史思明之乱
+  - tang-tianbao
 sources:
   - work: 旧唐书
     part: 肃宗本纪、郭子仪传
