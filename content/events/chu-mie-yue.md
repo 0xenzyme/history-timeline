@@ -1,0 +1,27 @@
+---
+id: chu-mie-yue
+status: published
+name: 楚灭越
+type: military
+catalogs:
+  - military
+scale: campaign
+importance: 1
+year: -306
+yearAccuracy: disputed
+yearNote: 年代三说无定论：史记·越王句践世家系于楚威王时『大败越，杀王无彊，尽取故吴地至浙江……越以此散』（通鉴卷2系于显王三十五年＝前334）；杨宽等据楚怀王时期用兵江东的记载（怀王二十三年前后城广陵、取越地置郡）推楚怀王灭越约前306；另有越族残余（滨于江南海上）延续至战国末之说。run 通则仅明示『约前306与更晚』两说，本地核对后知史记系统另有前334系，故标 disputed。
+place: 越地（故吴地，东至浙江）
+placeNow: 今江苏省苏州以南至浙江省杭州、绍兴一带（江东）
+belligerents:
+  - chu
+  - yue
+result: 楚败越、杀越王无彊，尽取越地，越国自此离散
+sources:
+  - work: 史记
+    part: 卷四十一·越王句践世家
+    kind: classic
+  - work: 资治通鉴
+    kind: classic
+---
+
+越王无彊释齐伐楚，楚人大败越军，杀无彊，尽取故吴地至浙江（钱塘江），越国作为独立政权解体，诸族子争立、滨于江南海上服朝于楚。楚由此并江东、版图臻于极盛。

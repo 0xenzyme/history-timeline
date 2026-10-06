@@ -1,0 +1,37 @@
+---
+id: chuisha-zhizhan
+status: published
+name: 垂沙之战
+type: military
+catalogs:
+  - military
+  - history
+scale: battle
+importance: 2
+year: -301
+yearAccuracy: exact
+yearNote: 通鉴卷3赧王十四年（前301）『秦庶长奂会韩、魏、齐兵伐楚，败其师于重丘，杀其将唐昧』；史记·楚世家怀王二十八年互证。地名两系：通鉴/史记作重丘，荀子·议兵作垂沙（『兵殆於垂沙，唐蔑死』），吕氏春秋卷二十五详泚水之役。
+place: 垂沙（泚水之滨；通鉴作重丘）
+placeNow: 今河南唐河、泌阳一带（方城外泚水流域，诸说）
+belligerents:
+  - qi
+  - han-guo
+  - wei-zhanguo
+  - qin
+  - chu
+result: 齐韩魏联兵破楚于垂沙，唐昧战死，楚国内乱
+sources:
+  - work: 资治通鉴
+    kind: classic
+  - work: 史记
+    part: 卷四十·楚世家
+    kind: classic
+  - work: 吕氏春秋
+    part: 卷二十五
+    kind: classic
+  - work: 荀子
+    part: 议兵
+    kind: classic
+---
+
+齐将匡章率齐韩魏（秦庶长奂会师，一说秦未与）联军攻楚，楚以唐昧（唐蔑）拒之，夹泚水相持六月；联军探知楚军守备虚实，夜渡突袭，大破楚军于垂沙，唐蔑战死，楚军被歼二万余。楚方城—宛叶以北防线崩溃，宛、叶以北地入韩魏；次年秦复攻楚杀景缺取襄城。同列于《荀子·议兵》『兵殆於垂沙，唐蔑死。庄蹻起，楚分为三四』。

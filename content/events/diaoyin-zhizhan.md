@@ -1,0 +1,35 @@
+---
+id: diaoyin-zhizhan
+status: published
+name: 雕阴之战
+type: military
+catalogs:
+  - military
+  - history
+scale: battle
+importance: 2
+year: -330
+yearAccuracy: disputed
+yearNote: 三系并存：史记·秦本纪系于惠文君七年（前331）『公子卬与魏战，虏其将龙贾，斩首八万』，八年（前330）『魏纳河西地』；史记·魏世家系于『襄王五年』（魏纪年经古本竹书纪年校正即惠成王后元五年＝前330）『秦败我龙贾军四万五千于雕阴……予秦河西之地』；通鉴卷2随史记·苏秦列传框架系于显王三十六年（前333，随苏秦合纵叙事，经马王堆帛书证伪的纪年框架，仅作一系）。主锚取前330（河西献地之年），前331说入 aliases。
+place: 雕阴
+placeNow: 今陕西省甘泉县南一带
+belligerents:
+  - qin
+  - wei-zhanguo
+result: 秦大败魏军于雕阴、俘龙贾，魏尽献河西之地
+aliases:
+  - 前331年一说
+sources:
+  - work: 史记
+    part: 卷五·秦本纪
+    kind: classic
+  - work: 史记
+    part: 卷四十四·魏世家
+    kind: classic
+  - work: 资治通鉴
+    kind: classic
+  - work: 雕阴之战相关网络条目（搜狐等）
+    kind: modern
+---
+
+秦惠文君时秦魏河西决战：秦军（通行叙述称犀首公孙衍为大良造率军；秦本纪则记公子卬虏龙贾）败魏军四万五千（秦本纪作斩首八万），魏河西主将龙贾被俘，秦围焦、曲沃。前330（惠文君八年）魏被迫纳河西之地，秦尽复吴起以来所失河西，并渡河取汾阴、皮氏（前329）、魏纳上郡十五县（前328），河东门户洞开。

@@ -1,0 +1,38 @@
+---
+id: wei-mie-zhongshan
+status: published
+name: 魏灭中山之战
+type: military
+catalogs:
+  - military
+  - history
+scale: campaign
+importance: 2
+year: -408
+yearAccuracy: approx
+yearNote: 『三年而拔』(战国策·魏策一)与现代通史通行的前408–406 口径互证;魏世家作『文侯十七年,伐中山』,与秦纪年换算同样存在系统差,故 approx。通鉴卷001系文侯故事于威烈王二十三年(前403)前叙述,不能定年。
+endYear: -406
+endYearAccuracy: approx
+endYearNote: 终年据：『三年而拔』(战国策·魏策一)与现代通史通行的前408–406 口径互证;魏世家作『文侯十七年,伐中山』,与秦纪年换算同
+place: 顾(中山都)
+placeNow: 河北定州
+belligerents:
+  - wei-zhanguo
+  - zhongshan
+result: 乐羊假道赵国三年而拔中山，中山一度亡于魏
+aliases:
+  - 乐羊伐中山
+  - 魏取中山
+sources:
+  - work: 战国策
+    part: 卷22·魏策一
+    kind: classic
+  - work: 史记
+    part: 卷044·魏世家
+    kind: classic
+  - work: 吕氏春秋
+    part: 卷16·先识览·乐成
+    kind: classic
+---
+
+魏文侯命乐羊为将越赵地远攻中山,三年而拔其都顾,旋以太子击(魏武侯)守之、赵仓唐傅之。魏国势力由此插入河北平原,但魏本土与中山间为赵所隔,三十年后中山复国,魏的统治不能持久。

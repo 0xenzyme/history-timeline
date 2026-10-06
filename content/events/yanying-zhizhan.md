@@ -1,0 +1,40 @@
+---
+id: yanying-zhizhan
+status: published
+name: 鄢郢之战（白起拔郢）
+display: 鄢郢之战
+type: military
+catalogs:
+  - military
+  - history
+scale: campaign
+importance: 3
+year: -278
+yearAccuracy: exact
+yearNote: 跨两年 campaign：前279（通鉴卷4赧王三十六年；秦本纪昭王二十八年）白起取鄢、邓、西陵；前278（赧王三十七年；昭王二十九年；楚世家顷襄王二十一年）拔郢、烧夷陵，楚迁于陈。主年份取拔郢年（前278），前279入 aliases。
+place: 鄢、郢（秦先取邓、西陵）
+placeNow: 鄢今湖北省宜城市南（一说宜城郑集楚皇城）；郢今湖北省荆州市荆州区纪南城；夷陵今湖北省宜昌市
+belligerents:
+  - qin
+  - chu
+commanders:
+  - id: bai-qi
+    side: qin
+result: 白起拔鄢郢、烧夷陵，楚迁陈郢，郢都置秦南郡
+aliases:
+  - 前279年一说
+sources:
+  - work: 资治通鉴
+    kind: classic
+  - work: 史记
+    part: 卷七十三·白起王翦列传
+    kind: classic
+  - work: 史记
+    part: 卷五·秦本纪
+    kind: classic
+  - work: 史记
+    part: 卷四十·楚世家
+    kind: classic
+---
+
+秦昭王命大良造白起大举攻楚：前279取鄢、邓、西陵（鄢城水灌之细节出《水经注》转述，本地无《水经注》，仅 desc 提及）；前278拔郢、烧先王墓夷陵，东至竟陵。楚襄王兵散不复战，东北徙都于陈（陈郢，今河南淮阳）。秦以郢为南郡，封白起武安君，并定巫、黔中。楚失去江汉腹地与郢都，屈原忧愤自沉正值顷襄王迁陈前后。
