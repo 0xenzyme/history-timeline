@@ -4,6 +4,12 @@
 
 | id | 名称 | 显示名 | type | 年份 |
 | --- | --- | --- | --- | --- |
+| [ming-tiao-zhizhan](events/ming-tiao-zhizhan.md) | 鸣条之战 | 鸣条之战 | military | -1600 |
+| [muye-zhizhan](events/muye-zhizhan.md) | 牧野之战 | 牧野之战 | military | -1046 |
+| [zhou-gong-dong-zheng](events/zhou-gong-dong-zheng.md) | 周公东征 | 周公东征 | military | -1042 |
+| [zhao-wang-nan-zheng](events/zhao-wang-nan-zheng.md) | 周昭王南征 | 周昭王南征 | military | -985 |
+| [mu-wang-xi-zheng](events/mu-wang-xi-zheng.md) | 周穆王西征 | 周穆王西征 | military | -964 |
+| [gonghe-xingzheng](events/gonghe-xingzheng.md) | 共和行政 | 共和行政 | political | -841 |
 | [daizexiang-qiyi](events/daizexiang-qiyi.md) | 大泽乡起义 | 大泽乡起义 | rebellion | -209 |
 | [hanwang-fengjian](events/hanwang-fengjian.md) | 刘邦受封汉王与诸侯分封 | 刘邦受封汉王与诸侯分封 | political | -206 |
 | [gaixia-zhizhan](events/gaixia-zhizhan.md) | 垓下之战 | 垓下之战 | military | -202 |
