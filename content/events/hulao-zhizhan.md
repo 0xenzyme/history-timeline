@@ -1,6 +1,6 @@
 ---
 id: hulao-zhizhan
-status: draft
+status: published
 name: 虎牢之战
 display: 虎牢之战
 type: military

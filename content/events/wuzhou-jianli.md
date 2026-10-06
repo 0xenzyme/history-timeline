@@ -1,6 +1,6 @@
 ---
 id: wuzhou-jianli
-status: draft
+status: published
 name: 武周建立
 display: 武周建立
 type: political

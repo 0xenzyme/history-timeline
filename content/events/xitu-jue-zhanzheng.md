@@ -1,6 +1,6 @@
 ---
 id: xitu-jue-zhanzheng
-status: draft
+status: published
 name: 唐灭西突厥之战
 display: 灭西突厥
 type: military

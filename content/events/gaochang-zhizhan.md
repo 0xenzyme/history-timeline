@@ -1,6 +1,6 @@
 ---
 id: gaochang-zhizhan
-status: draft
+status: published
 name: 唐灭高昌之战
 display: 高昌之战
 type: military

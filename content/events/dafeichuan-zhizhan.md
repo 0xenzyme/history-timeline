@@ -1,6 +1,6 @@
 ---
 id: dafeichuan-zhizhan
-status: draft
+status: published
 name: 大非川之战
 display: 大非川之战
 type: military

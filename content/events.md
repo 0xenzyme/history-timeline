@@ -226,7 +226,14 @@
 | [yuchijiong-zhiluan](events/yuchijiong-zhiluan.md) | 尉迟迥之乱 | 尉迟迥之乱 | rebellion | 580 |
 | [yang-jian-dai-zhou](events/yang-jian-dai-zhou.md) | 杨坚代周 | 杨坚代周 | political | 581 |
 | [sui-mie-chen](events/sui-mie-chen.md) | 隋灭陈 | 隋灭陈 | military | 588 |
+| [tang-jian-guo](events/tang-jian-guo.md) | 唐朝建立 | 建唐 | political | 618 |
+| [hulao-zhizhan](events/hulao-zhizhan.md) | 虎牢之战 | 虎牢之战 | military | 621 |
 | [xuanwu-zhibian](events/xuanwu-zhibian.md) | 玄武门之变 | 玄武门之变 | political | 626 |
+| [dongtujue-zhanzheng](events/dongtujue-zhanzheng.md) | 唐灭东突厥之战 | 灭东突厥 | military | 629 |
+| [gaochang-zhizhan](events/gaochang-zhizhan.md) | 唐灭高昌之战 | 高昌之战 | military | 640 |
+| [xitu-jue-zhanzheng](events/xitu-jue-zhanzheng.md) | 唐灭西突厥之战 | 灭西突厥 | military | 655 |
+| [dafeichuan-zhizhan](events/dafeichuan-zhizhan.md) | 大非川之战 | 大非川之战 | military | 670 |
+| [wuzhou-jianli](events/wuzhou-jianli.md) | 武周建立 | 武周建立 | political | 690 |
 | [tanglong-zhibian](events/tanglong-zhibian.md) | 唐隆政变 | 唐隆政变 | political | 710 |
 | [xiantian-zhibian](events/xiantian-zhibian.md) | 先天政变 | 先天政变 | political | 713 |
 | [talas-zhizhan](events/talas-zhizhan.md) | 怛罗斯之战 | 怛罗斯 | military | 751 |

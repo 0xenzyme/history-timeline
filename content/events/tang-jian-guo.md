@@ -1,6 +1,6 @@
 ---
 id: tang-jian-guo
-status: draft
+status: published
 name: 唐朝建立
 display: 建唐
 type: political

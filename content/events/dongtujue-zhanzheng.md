@@ -1,6 +1,6 @@
 ---
 id: dongtujue-zhanzheng
-status: draft
+status: published
 name: 唐灭东突厥之战
 display: 灭东突厥
 type: military
