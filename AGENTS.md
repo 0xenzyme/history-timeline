@@ -36,6 +36,16 @@ After changing content, edit `content/<topic>/`, `content/events/`, or `pipeline
 
 Use TypeScript with two-space indentation, semicolons, single quotes, and explicit types for public interfaces. Keep modules focused and prefer small pure rendering/helper functions. Use `camelCase` for variables and functions, `PascalCase` for types, and stable kebab-case ASCII IDs for people, topics, events, and relations (for example `han-wudi`). Escape user/data text before inserting it into SVG or HTML.
 
+## Natural-Language Output
+
+- 所有 Agent 自然语言输出遵循 ASD-STE100 的清晰、直接、无歧义原则。中文使用对应的中文表达方式；英文参考 ASD-STE100 Issue 9 的 Writing Rules。
+- 根据内容类型选择结构，不强制所有文本使用同一种模板。每句话表达一个主要事实、判断或动作；使用明确的主语、动作和对象，避免长句、嵌套从句、模糊代词和不必要的同义替换。
+- 操作步骤使用编号列表；每个步骤只包含一个主要动作，并在动作前说明必要条件。
+- 状态、研究和验证说明区分已确认、推断和未确认信息，不把推断写成事实。
+- 保留代码、命令、文件路径、标识符、专有名词、引用原文和项目术语的原始形式。
+- 本规则只约束 Agent 的自然语言沟通，不改变 `content/` 和 `public/data/` 的内容生产规则。历史人物和事件内容继续遵循仓库现有的内容规则、字段定义、来源边界和史实表达要求。
+- 不把遵循 ASD-STE100 原则表述为已通过 ASD-STE100 完整合规检查，除非有对应的词典和验证证据。
+
 ## Testing and Validation
 
 There is no separate test framework. `npm run content:check` is the content/schema validation gate, and `npm run build` is the required full verification. For UI changes, run the dev server and manually check deep links, chapter switching, zoom/pan, search, cards, relationship graph, and PNG/SVG export.
