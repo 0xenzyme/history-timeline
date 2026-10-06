@@ -143,6 +143,13 @@
 | [lulin-chimei-qiyi](events/lulin-chimei-qiyi.md) | 绿林、赤眉军兴起 | 绿林、赤眉军兴起 | rebellion | 17 |
 | [kunyang-zhizhan](events/kunyang-zhizhan.md) | 昆阳之战 | 昆阳之战 | military | 23 |
 | [xin-mie](events/xin-mie.md) | 新朝灭亡 | 新朝灭亡 | political | 23 |
+| [guangwu-dengji](events/guangwu-dengji.md) | 光武称帝，东汉建立 | 建东汉 | political | 25 |
+| [yongping-xiyu-kaifu](events/yongping-xiyu-kaifu.md) | 永平通西域 | 永平通西域 | military | 73 |
+| [yanran-zhizhan](events/yanran-zhizhan.md) | 燕然之战 | 燕然之战 | military | 89 |
+| [danggu-zhi-huo](events/danggu-zhi-huo.md) | 党锢之祸 | 党锢之祸 | political | 166 |
+| [huangjin-zhi-luan](events/huangjin-zhi-luan.md) | 黄巾之乱 | 黄巾之乱 | rebellion | 184 |
+| [dong-zhuo-luan-zheng](events/dong-zhuo-luan-zheng.md) | 董卓乱政与迁都 | 董卓乱政与迁都 | political | 189 |
+| [guandu-zhizhan](events/guandu-zhizhan.md) | 官渡之战 | 官渡之战 | military | 200 |
 | [chibi-zhizhan](events/chibi-zhizhan.md) | 赤壁之战 | 赤壁之战 | military | 208 |
 | [liu-yu-dai-jin](events/liu-yu-dai-jin.md) | 刘裕代晋 | 刘裕代晋 | political | 420 |
 | [yuanjia-zhizhi](events/yuanjia-zhizhi.md) | 元嘉之治 | 元嘉之治 | institutional | 424 |
