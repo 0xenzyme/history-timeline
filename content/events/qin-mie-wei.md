@@ -1,0 +1,32 @@
+---
+id: qin-mie-wei
+status: published
+name: 秦灭魏（灌大梁）
+display: 秦灭魏
+type: military
+catalogs:
+  - military
+scale: battle
+importance: 1
+year: -225
+yearAccuracy: exact
+yearNote: 《史記·秦始皇本紀》二十二年（前225）：「王賁攻魏，引河溝灌大梁，大梁城壞，其王請降，盡取其地」；《資治通鑑》卷7始皇二十二年（前225）：「王賁伐魏，引河溝以灌大梁。〔春〕，三月，城壞。魏王假降，殺之，遂滅魏」。
+place: 大梁
+placeNow: 河南省开封市西北（大梁故城）
+belligerents:
+  - qin
+  - wei-zhanguo
+people:
+  - ying-zheng
+result: 王贲引河沟灌大梁，三月城坏，魏王假降，魏亡
+parent: qin-mie-liuguo
+sources:
+  - work: 史记
+    part: 卷六·卷006）
+    kind: classic
+  - work: 资治通鉴
+    part: 卷七
+    kind: classic
+---
+
+王贲引河沟水灌大梁，三月城坏，魏王假降，魏亡。

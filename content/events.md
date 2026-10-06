@@ -120,8 +120,17 @@
 | [lvshi-chunqiu](events/lvshi-chunqiu.md) | 《吕氏春秋》成书 | 吕氏春秋 | cultural | -239 |
 | [liaoai-zhiluan](events/liaoai-zhiluan.md) | 嫪毐之乱 | 嫪毐之乱 | rebellion | -238 |
 | [lvbuwei-baxiang](events/lvbuwei-baxiang.md) | 吕不韦罢相 | 吕不韦罢相 | political | -237 |
+| [qin-mie-liuguo](events/qin-mie-liuguo.md) | 秦灭六国战争 | 秦灭六国战争 | military | -236 |
 | [feizhi-zhizhan](events/feizhi-zhizhan.md) | 肥之战 | 肥之战 | military | -233 |
 | [fanwu-zhizhan](events/fanwu-zhizhan.md) | 番吾之战 | 番吾之战 | military | -232 |
+| [qin-mie-han](events/qin-mie-han.md) | 秦灭韩 | 秦灭韩 | military | -230 |
+| [qin-mie-zhao](events/qin-mie-zhao.md) | 秦灭赵 | 秦灭赵 | military | -229 |
+| [jingke-ciqin](events/jingke-ciqin.md) | 荆轲刺秦王 | 荆轲刺秦王 | political | -227 |
+| [qin-po-yan](events/qin-po-yan.md) | 秦破燕拔蓟 | 秦破燕拔蓟 | military | -226 |
+| [qin-mie-wei](events/qin-mie-wei.md) | 秦灭魏（灌大梁） | 秦灭魏 | military | -225 |
+| [qin-mie-chu](events/qin-mie-chu.md) | 秦灭楚 | 秦灭楚 | military | -224 |
+| [qin-mie-yan](events/qin-mie-yan.md) | 秦灭燕 | 秦灭燕 | military | -222 |
+| [qin-yitong](events/qin-yitong.md) | 秦统一六国 | 秦统一六国 | political | -221 |
 | [daizexiang-qiyi](events/daizexiang-qiyi.md) | 大泽乡起义 | 大泽乡起义 | rebellion | -209 |
 | [hanwang-fengjian](events/hanwang-fengjian.md) | 刘邦受封汉王与诸侯分封 | 刘邦受封汉王与诸侯分封 | political | -206 |
 | [gaixia-zhizhan](events/gaixia-zhizhan.md) | 垓下之战 | 垓下之战 | military | -202 |
