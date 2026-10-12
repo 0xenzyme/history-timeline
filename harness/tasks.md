@@ -26,6 +26,14 @@ Priority uses P0, P1, P2, or P3 only.
 
 ## Done
 
+- [x] P1 把原型前端方案落到正式版
+  - Type: development
+  - Status: completed
+  - Spec: docs/前端重设计.md
+  - Goal: 无独立 Goal 文件，随线程直接执行
+  - Acceptance: `prototype/1008/dual` 的布局与双皮肤进入 `src/`；数据只经 `src/loader.ts`；内容线 / 专题 / 章节 / 深链 / 搜索 / 卡片 / 泳道 / 事件条 / PNG 与 SVG 导出可用；`npm run build` 通过。
+  - Notes: 删除被取代的 SVG 渲染器与旧 UI（`src/timeline/`、`src/ui/`、`src/export.ts`、`src/format.ts`）。SVG 导出暂为位图内嵌；分类 / 政权多选筛选与列表视图未做，记录在 `docs/前端重设计.md` 第九节。
+
 - [x] P1 建立事件实体库治理与迁移 ledger
   - Type: development
   - Status: completed

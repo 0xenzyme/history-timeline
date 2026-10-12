@@ -3,66 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>历史人物时间轴</title>
-    <meta name="description" content="用生卒年份把历史人物串起来" />
+    <title>历史时间轴</title>
+    <meta name="description" content="四千年人物与事件，同一条时间轴" />
   </head>
-  <body>
-    <header class="topbar">
-      <nav class="lines" id="lines" aria-label="内容线"></nav>
-      <div class="brand" id="topic-switch"></div>
-      <nav class="chapters" id="chapters" aria-label="章节"></nav>
-      <div class="search" id="search">
-        <label class="sr-only" for="search-input">搜索人物</label>
-        <input id="search-input" type="search" placeholder="搜索本专题人物" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false" />
-        <div id="search-results" class="search-results" role="listbox" aria-label="人物搜索结果" hidden></div>
-      </div>
-      <div class="tools">
-        <button type="button" id="zoom-out" class="tool icon timeline-only" aria-label="缩小">−</button>
-        <button type="button" id="zoom-in" class="tool icon timeline-only" aria-label="放大">＋</button>
-        <button type="button" id="toggle-relations" class="tool timeline-only" aria-pressed="false">
-          显示全部关系
-        </button>
-        <button type="button" id="reset-view" class="tool timeline-only">复位</button>
-        <button type="button" id="exit-graph" class="tool graph-only">返回时间轴</button>
-        <div class="export-wrap" id="export-wrap">
-          <button type="button" id="export-toggle" class="tool" aria-expanded="false" aria-haspopup="true">
-            导出图片
-          </button>
-          <div id="export-menu" class="export-menu" hidden>
+  <body class="skin-voyage">
+    <div id="nebula" aria-hidden="true"></div>
+    <canvas id="stars" aria-hidden="true"></canvas>
+
+    <div class="boot" id="boot">正在载入数据…</div>
+    <div class="boot is-error" id="boot-error" hidden></div>
+
+    <div id="stage">
+      <canvas id="chart" role="img" aria-label="历史时间轴"></canvas>
+    </div>
+
+    <header class="topbar" id="topbar">
+      <div class="island">
+        <span class="brand">历史时间轴</span>
+        <nav class="line-tabs" aria-label="内容线">
+          <button type="button" class="line-btn active" data-line="people">人物</button>
+          <button type="button" class="line-btn" data-line="military">军事</button>
+          <button type="button" class="line-btn" data-line="history">历史事件</button>
+        </nav>
+        <span class="divider"></span>
+        <label class="sr-only" for="topic-select">专题</label>
+        <select class="topic-select" id="topic-select"></select>
+        <span class="divider"></span>
+        <div class="search">
+          <label class="sr-only" for="search">搜索人物或事件</label>
+          <input
+            class="search-input"
+            id="search"
+            type="search"
+            placeholder="搜索人物 / 事件"
+            autocomplete="off"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="search-results"
+          />
+          <div class="search-results" id="search-results" role="listbox" aria-label="搜索结果" hidden></div>
+        </div>
+        <span class="divider"></span>
+        <button type="button" class="tool" id="btn-lanes" aria-haspopup="true" aria-expanded="false">泳道</button>
+        <button type="button" class="tool" id="btn-reset">复位</button>
+        <div class="export-wrap">
+          <button type="button" class="tool" id="btn-export" aria-haspopup="true" aria-expanded="false">导出</button>
+          <div class="export-menu" id="export-menu" hidden>
             <button type="button" data-export="png">导出 PNG</button>
             <button type="button" data-export="svg">导出 SVG</button>
           </div>
         </div>
+        <span class="divider"></span>
+        <div class="skin-switch" role="group" aria-label="皮肤">
+          <button type="button" id="skin-voyage" class="on">巡航</button>
+          <button type="button" id="skin-deepspace">深空</button>
+        </div>
+      </div>
+
+      <div class="chips" id="chips" role="group" aria-label="快捷筛选">
+        <button type="button" class="chip on" data-filter="all">全部</button>
+        <button type="button" class="chip" data-filter="military">战事</button>
+        <button type="button" class="chip" data-filter="political">朝政</button>
+        <button type="button" class="chip" data-filter="cultural">文化</button>
+        <button type="button" class="chip" data-filter="female">女性</button>
       </div>
     </header>
 
-    <div class="briefbar">
-      <p id="brief"></p>
-      <span class="hint" id="hint">
-        滚轮缩放 · 拖动平移 · 点击人物高亮一跳关系 · Shift / Alt + 滚轮上下滚动
-      </span>
+    <button type="button" class="strip-toggle" id="strip-toggle" aria-expanded="false">事件条 ▾</button>
+
+    <div class="lane-panel" id="lane-panel">
+      <div class="lane-panel-head">
+        <span>显示泳道</span>
+        <button type="button" id="lanes-all">全选</button>
+        <button type="button" id="lanes-none">清空</button>
+      </div>
+      <div id="lane-list"></div>
+      <div id="lane-chapters"></div>
     </div>
 
-    <div id="route-miss" class="route-miss" hidden></div>
+    <p class="hint" id="hint">滚轮缩放 · 拖动平移 · 点击人物或事件 · 底部朝代带可跳转</p>
 
-    <main class="workspace">
-      <section class="stage" id="stage" aria-label="时间轴绘图区">
-        <div id="axis-pin" class="axis-pin" hidden>
-          <svg id="axis-pin-svg" aria-hidden="true"></svg>
-        </div>
-        <svg id="chart" role="img" aria-label="历史人物生卒时间轴"></svg>
-      </section>
-      <aside class="card" id="card" aria-label="人物详情" aria-live="polite" tabindex="-1" hidden></aside>
-    </main>
+    <aside class="card" id="card" aria-live="polite" aria-label="详情">
+      <button type="button" class="card-close" id="card-close" aria-label="关闭详情">×</button>
+      <div id="card-body"></div>
+    </aside>
 
-    <footer class="legendbar">
-      <details class="legend-details">
-        <summary class="legend-summary">图例</summary>
-        <div id="legend" class="legend-body"></div>
-      </details>
-    </footer>
+    <div class="ribbon">
+      <canvas id="ribbon-canvas" aria-hidden="true"></canvas>
+    </div>
 
-    <div class="tooltip" id="tooltip" hidden></div>
+    <div class="tooltip" id="tooltip" role="status" hidden></div>
     <div class="sr-only" id="status" aria-live="polite" aria-atomic="true"></div>
 
     <script type="module" src="/src/main.ts"></script>

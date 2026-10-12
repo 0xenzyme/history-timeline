@@ -74,7 +74,7 @@ function normalizeEventLine(line: EventLineView, expectedId?: string): EventLine
   const fallbackRange: [number, number] = Array.isArray(source.range) && source.range.length === 2
     && source.range.every((year) => Number.isFinite(year)) && source.range[0] < source.range[1]
     ? source.range
-    : [-1600, 1949];
+    : [-2070, 1949];
   const safeSegments: CenturySegment[] = segments.length > 0 ? segments : [{
     id: 'seg-empty', label: '暂无事件', from: fallbackRange[0], to: fallbackRange[1], events: [],
   }];
