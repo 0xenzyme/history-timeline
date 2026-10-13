@@ -1,0 +1,26 @@
+---
+id: xiliao-jianguo
+status: published
+name: 西辽建国
+display: 西辽
+type: political
+catalogs:
+  - history
+importance: 2
+year: 1132
+yearAccuracy: exact
+yearNote: 辽史天祚皇帝纪四记耶律大石西行至叶密立称帝，号菊儿汗；系年通作 1132（宋绍兴二年），其后迁都虎思斡耳朵（1134）。本实体取称帝之年。
+place: 叶密立
+placeNow: 今新疆塔城地区一带
+polity:
+  - liao
+result: 耶律大石称帝于中亚，辽祚西延九十余年
+sources:
+  - work: 辽史
+    part: 天祚皇帝纪四
+    kind: classic
+  - work: 世界征服者史
+    kind: classic
+---
+
+金既灭辽，耶律大石率余众西行，至可敦城，会西北诸部，得精兵数万；遂假道高昌、回鹘，西至叶密立。1132 年，大石即皇帝位，号菊儿汗，建官属；已而都虎思斡耳朵（1134），臣属西域诸国，号令被于中亚。辽之社稷亡于东而存于西，契丹又国于西域者九十余年，至太祖十三年（1218）乃亡于蒙古。

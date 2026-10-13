@@ -20,6 +20,7 @@ commanders:
 people:
   - tuoba-tao
 result: 柔然部众大溃西走，诸部降魏者数十万落，北边威胁骤减
+parent: beiwei-tongyi-beifang
 aliases:
   - 神麚北伐
   - 太武袭柔然

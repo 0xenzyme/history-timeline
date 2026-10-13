@@ -1,0 +1,27 @@
+---
+id: jin-xuanzong-nanqian
+status: published
+name: 金宣宗南迁
+display: 宣宗南迁
+type: political
+catalogs:
+  - history
+importance: 2
+year: 1214
+yearAccuracy: exact
+yearNote: 金史宣宗本纪系贞祐二年（1214）五月迁都汴京；明年五月中都陷于蒙古。本实体取迁都之年。
+place: 汴京
+placeNow: 今河南开封
+polity:
+  - jin-chao
+result: 金宣宗弃中都迁汴，河北尽失，金之存亡系于河南一隅
+sources:
+  - work: 金史
+    part: 宣宗本纪
+    kind: classic
+  - work: 元史
+    part: 太祖本纪
+    kind: classic
+---
+
+贞祐二年（1214），蒙古兵压中都，金奉币帛乞盟，成吉思汗引兵北还；宣宗怯于兵锋，是年迁都汴京，图恃河淮以自固。明年中都与河北诸郡次第陷没，金之疆土仅存河南、淮北。而庙议犹欲南取宋地以自益，遂开金宋交兵之局，国力益蹙；中都一去，金之亡形已成。

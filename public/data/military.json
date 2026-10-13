@@ -196,6 +196,7 @@
         "huanwen-beifa",
         "feishui-zhizhan",
         "xiexuan-beifa",
+        "canhepo-zhizhan",
         "sunen-luxun-qiyi"
       ]
     },
@@ -215,6 +216,7 @@
         "gaiwu-qiyi",
         "guabu-zhiyi",
         "taishi-zhihuo",
+        "yijia-zhiluan",
         "tangyuzhi-qiyi",
         "xiaowen-nanfa"
       ]
@@ -228,6 +230,7 @@
         "zhongli-zhizhan",
         "liuzhen-zhiluan",
         "chenqingzhi-beifa",
+        "hanling-zhizhan",
         "shayuan-zhizhan",
         "heqiao-zhizhan",
         "mangshan-zhizhan",
@@ -248,22 +251,41 @@
       "from": 601,
       "to": 700,
       "events": [
+        "jinyang-qibing",
         "hulao-zhizhan",
         "dongtujue-zhanzheng",
         "gaochang-zhizhan",
+        "tang-taizong-zheng-gaogouli",
         "xitu-jue-zhanzheng",
+        "tang-mie-baiji",
+        "baijiangkou-zhizhan",
+        "tang-mie-gaogouli",
         "dafeichuan-zhizhan"
       ]
     },
     {
-      "id": "seg-ad8-ad9",
-      "label": "8—9 世纪",
+      "id": "seg-ad8",
+      "label": "8 世纪",
       "from": 701,
-      "to": 900,
+      "to": 800,
       "events": [
+        "tang-nanzhao-zhanzheng",
         "talas-zhizhan",
         "anshi-zhiluan",
+        "suiyang-baowei-zhan",
+        "xiangjisi-zhizhan",
+        "tubo-ru-changan"
+      ]
+    },
+    {
+      "id": "seg-ad9",
+      "label": "9 世纪",
+      "from": 801,
+      "to": 900,
+      "events": [
         "yuanhe-huaixi",
+        "huihu-xiqian",
+        "zhang-yichao-guifu-hexi",
         "huangchao-zhi-luan"
       ]
     },
@@ -273,6 +295,19 @@
       "from": 901,
       "to": 1000,
       "events": [
+        "liangjin-zhanzheng",
+        "baixiang-zhizhan",
+        "houtang-mie-liang",
+        "houtang-mie-qianshu",
+        "qidan-mie-bohai",
+        "shi-jingtang-jie-bing",
+        "nantang-mie-min",
+        "qidan-mie-houjin",
+        "nantang-mie-chu",
+        "gaoping-zhizhan",
+        "shizong-zheng-nantang",
+        "zijinshan-zhizhan",
+        "shizong-beifa",
         "beisong-tongyi",
         "ping-jinghu",
         "mie-houshu",
@@ -280,7 +315,8 @@
         "mie-nantang",
         "gaolianghe-zhizhan",
         "mie-beihan",
-        "yongxi-beifa"
+        "yongxi-beifa",
+        "liao-li-zhanzheng"
       ]
     },
     {
@@ -305,6 +341,8 @@
       "from": 1101,
       "to": 1200,
       "events": [
+        "jin-liao-zhanzheng",
+        "chuhedian-zhizhan",
         "fang-la-qiyi",
         "shou-yanyun",
         "jingkang-zhibian",
@@ -329,12 +367,19 @@
         "mengjin-zhanzheng",
         "yehuling-zhizhan",
         "zhongdu-zhiyi",
+        "hongaojun-qiyi",
+        "menggu-mie-xiliao",
+        "tie-mu-zhen-xi-zheng",
+        "jialejiahe-zhizhan",
         "mengxia-zhanzheng",
+        "meng-li-zhanzheng",
         "sanfengshan-zhizhan",
         "caizhou-zhizhan",
         "duanping-rulu",
         "mengsong-zhanzheng",
+        "badu-xi-zheng",
         "dali-zhanzheng",
+        "xuliewu-xi-zheng",
         "diaoyucheng-zhizhan",
         "litan-zhiluan",
         "xiangyang-zhizhan",
@@ -769,6 +814,51 @@
       ]
     },
     {
+      "id": "badu-xi-zheng",
+      "name": "拔都西征",
+      "display": "长子西征",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 1236,
+      "yearAccuracy": "exact",
+      "yearNote": "元史太宗本纪系八年（1236）春，诸王拔都、速不台等西征钦察、罗斯诸部；窝阔台凶问至军，1242 年东还。",
+      "endYear": 1242,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "mongol",
+        "eluosi"
+      ],
+      "commanders": [
+        {
+          "id": "su-butai",
+          "side": "mongol"
+        }
+      ],
+      "result": "钦察、罗斯诸部尽服，波兰、匈牙利蹂躏，钦察汗国建于伏尔加",
+      "dynasties": [
+        "song",
+        "mongol"
+      ],
+      "desc": "太宗八年（1236）春，术赤子拔都率诸王宗支西征，速不台为之前导。蒙古军先定钦察诸部，1237 年至 1238 年取弗拉基米尔等罗斯东北诸城，1239 年再入罗斯，1240 年冬陷其故都基辅；1241 年分军西略，破波兰、匈牙利之兵于里格尼茨与赛约河。1242 年窝阔台凶问至军，拔都班师还伏尔加，建钦察汗国。罗斯诸公国役于蒙古者二百四十余年，东欧之局由此重划；大蒙古国西部之疆，亦于此役而定。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "世界征服者史",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "baideng-zhiwei",
       "name": "白登之围",
       "display": "白登之围",
@@ -802,6 +892,104 @@
         {
           "work": "汉书",
           "part": "高帝纪下、匈奴传上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "baijiangkou-zhizhan",
+      "name": "白江口之战",
+      "display": "白江口",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 663,
+      "yearAccuracy": "exact",
+      "place": "白江口",
+      "placeNow": "今韩国锦江入海口一带",
+      "belligerents": [
+        "tang",
+        "baiji",
+        "riben"
+      ],
+      "commanders": [
+        {
+          "id": "liu-ren-gui",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "liu-ren-gui"
+      ],
+      "result": "唐军大破百济复国军与倭国援军，百济复国势力覆灭",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "龙朔三年（663），刘仁轨率唐军与新罗兵会师，于白江口大破百济复国军及其倭国援军，焚其舟舰。百济复国势力自此覆灭，倭国势力退出朝鲜半岛，唐在东亚的秩序推进到高句丽城下。日本文献称此战为白村江之战；双方兵力与舟数各书记载不一，不在本实体中取单一数字。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "刘仁轨传、百济传",
+          "kind": "classic"
+        },
+        {
+          "work": "日本书纪",
+          "part": "齐明天皇纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "baixiang-zhizhan",
+      "name": "柏乡之战",
+      "display": "柏乡之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 910,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系开平四年十一月，公历910年末。是岁李存勖尚为晋王，河东未国号唐，交兵之一方史称后唐前身。",
+      "place": "柏乡",
+      "placeNow": "今河北柏乡",
+      "belligerents": [
+        "hou-tang",
+        "hou-liang"
+      ],
+      "commanders": [
+        {
+          "id": "li-cunxu",
+          "side": "hou-tang"
+        },
+        {
+          "id": "zhou-dewei",
+          "side": "hou-tang"
+        }
+      ],
+      "result": "李存勖大破梁军王景仁于柏乡，辎重略尽；梁晋争衡之势自此而转。",
+      "parent": "liangjin-zhanzheng",
+      "dynasties": [
+        "wudai"
+      ],
+      "desc": "开平四年十一月，梁以王景仁、韩勍将兵渡河击晋，军于柏乡。李存勖陈于野河之北，周德威劝俟其饥疲，先以游兵绝梁军樵采。梁军嚣躁，存勖纵骑决战，梁师大溃，王景仁以数十骑遁，弃铠仗委积。存勖因其胜略地邢、洺。柏乡之胜为梁晋十余年交兵之转枢，存勖之业基于此。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后梁纪·开平四年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "庄宗本纪",
           "kind": "classic"
         }
       ]
@@ -1002,6 +1190,7 @@
         "tuoba-tao"
       ],
       "result": "柔然部众大溃西走，诸部降魏者数十万落，北边威胁骤减",
+      "parent": "beiwei-tongyi-beifang",
       "aliases": [
         "神麚北伐",
         "太武袭柔然"
@@ -1441,6 +1630,58 @@
       ]
     },
     {
+      "id": "canhepo-zhizhan",
+      "name": "参合陂之战",
+      "display": "参合陂之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 395,
+      "yearAccuracy": "exact",
+      "place": "参合陂",
+      "placeNow": "今内蒙古凉城东北",
+      "belligerents": [
+        "bei",
+        "shiliuguo"
+      ],
+      "commanders": [
+        {
+          "id": "tuoba-gui",
+          "side": "bei"
+        },
+        {
+          "id": "murong-baiyao",
+          "side": "shiliuguo"
+        }
+      ],
+      "result": "后燕精锐尽丧，拓跋珪次年入中山，华北归属遂定",
+      "aliases": [
+        "参合陂之役"
+      ],
+      "dynasties": [
+        "eastern-jin",
+        "shiliuguo"
+      ],
+      "desc": "登国十年（395）后燕主慕容垂遣太子慕容宝将兵八万伐魏，魏主拓跋珪敛兵西走以避其锋，燕军野无所掠，人马疲困。魏军旋邀击于参合陂，纵骑突陈，燕军大溃，赴水死者数万，器甲资粮尽为魏有，慕容宝单骑走归。后燕精锐一朝丧尽，拓跋珪次年入中山，河北诸州次第归魏，华北格局自此大变，为北魏统一北方之张本。",
+      "sources": [
+        {
+          "work": "魏书",
+          "part": "太祖纪",
+          "kind": "classic"
+        },
+        {
+          "work": "北史",
+          "part": "魏本纪一",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "changping-zhizhan",
       "name": "长平之战",
       "display": "长平之战",
@@ -1837,6 +2078,54 @@
           "work": "清史稿",
           "part": "卷十六",
           "note": "以搜捕三省餘匪淨盡，甄敘額勒登保",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "chuhedian-zhizhan",
+      "name": "出河店之战",
+      "display": "出河店",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 1114,
+      "yearAccuracy": "exact",
+      "yearNote": "辽史天祚皇帝纪系天庆四年（1114）十一月辽军溃于出河店；金史太祖本纪系是年，女真兵于是满万。",
+      "place": "出河店",
+      "placeNow": "今黑龙江肇源县境",
+      "belligerents": [
+        "liao",
+        "jin-chao"
+      ],
+      "commanders": [
+        {
+          "id": "wanyan-aguda",
+          "side": "jin-chao"
+        }
+      ],
+      "result": "女真以少击众破辽军，辽之东北藩篱尽撤",
+      "parent": "jin-liao-zhanzheng",
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia"
+      ],
+      "desc": "天庆四年（1114）十月，阿骨打先下宁江州；十一月，辽以都统萧嗣先、副都统萧挞不也将兵七千余进屯出河店，与女真隔江相待。阿骨打乘其未阵鼓行而进，辽军大溃，蹂藉死者相枕，获甲马辎重无算。辽人尝言「女直兵若满万则不可敌」，至是始满万，其谚乃验。此战之后，东北番部望风归女真，辽之藩篱尽撤，阿骨打遂以次年建国称帝。",
+      "sources": [
+        {
+          "work": "金史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "辽史",
+          "part": "天祚皇帝纪",
           "kind": "classic"
         }
       ]
@@ -3266,6 +3555,68 @@
       ]
     },
     {
+      "id": "gaoping-zhizhan",
+      "name": "高平之战",
+      "display": "高平之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 954,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系显德元年三月，周世宗亲征，战于高平；公历954。",
+      "place": "高平",
+      "placeNow": "今山西高平",
+      "belligerents": [
+        "hou-zhou",
+        "beihan",
+        "liao"
+      ],
+      "commanders": [
+        {
+          "id": "chai-rong",
+          "side": "hou-zhou"
+        },
+        {
+          "id": "fan-aineng",
+          "side": "hou-zhou"
+        },
+        {
+          "id": "liu-chong",
+          "side": "beihan"
+        }
+      ],
+      "people": [
+        "he-hui",
+        "liu-chengjun"
+      ],
+      "result": "世宗亲犯矢石，北汉大败；临阵斩逃将，禁军自此整肃。",
+      "aliases": [
+        "wudai-954"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "显德元年，周太祖崩，世宗立；北汉主刘崇乘丧南下，乞师于辽，杨衮以骑来会。世宗自将亲征，陈于高平之南。刘崇先攻周军右翼，樊爱能、何徽引骑先遁，步卒千余人解甲呼降，东厢之师溃。世宗自将亲兵，犯矢石而进，赵匡胤率所部力战，诸军乃奋击，北汉大败。日暮，刘崇收余众遁归太原。还军，世宗斩樊爱能、何徽及其所部军使以上七十余人，由是骄将惰兵知有军法。高平之役为世宗整军、经略天下之始。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后周纪·显德元年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "世宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "gengxu-zhibian",
       "name": "庚戌之变",
       "display": "庚戌之变",
@@ -3621,6 +3972,57 @@
       ]
     },
     {
+      "id": "hanling-zhizhan",
+      "name": "韩陵之战",
+      "display": "韩陵之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 532,
+      "yearAccuracy": "exact",
+      "place": "韩陵",
+      "placeNow": "今河南安阳东北",
+      "belligerents": [
+        "bei",
+        "erzhu-shi"
+      ],
+      "commanders": [
+        {
+          "id": "gao-huan",
+          "side": "bei"
+        },
+        {
+          "id": "erzhu-zhao",
+          "side": "erzhu-shi"
+        }
+      ],
+      "result": "尔朱氏联军大溃，高欢入洛掌魏朝，尔朱军阀覆亡",
+      "aliases": [
+        "韩陵山之战"
+      ],
+      "dynasties": [
+        "northern-southern"
+      ],
+      "desc": "尔朱荣死后，尔朱兆、尔朱天光、尔朱仲远、尔朱度律诸部复合，拥众二十万攻高欢于邺南。532 年高欢屯韩陵逆战，以寡击众，大破尔朱联军，兆走晋阳，仲远南奔，天光、度律就擒。契胡尔朱氏数载之局一朝瓦解，高欢入洛辅政，拥立孝武帝，东魏之基定于此役；北魏末权柄归高，与西走关中之宇文泰成东西对峙之形。",
+      "sources": [
+        {
+          "work": "北齐书",
+          "part": "神武帝纪",
+          "kind": "classic"
+        },
+        {
+          "work": "魏书",
+          "part": "尔朱兆传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "hanyuan-zhizhan",
       "name": "韩原之战",
       "display": "韩原之战",
@@ -3910,6 +4312,47 @@
       ]
     },
     {
+      "id": "hongaojun-qiyi",
+      "name": "红袄军起义",
+      "display": "红袄军",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 1214,
+      "yearAccuracy": "exact",
+      "yearNote": "贞祐二年（1214）李全起于潍州，杨安儿之众盛于山东；泰和以来杨安儿、刘二祖已先后起事，义军衣红为号，金人谓之红袄军。本实体以 1214 年山东大起为始。",
+      "endYear": 1231,
+      "endYearAccuracy": "approx",
+      "endYearNote": "绍定四年（1231）李全败死于扬州，红袄余众离散；此前杨安儿、刘二祖两支已先后败亡。",
+      "polity": [
+        "jin-chao"
+      ],
+      "result": "山东义军蹂躏金之腹心，金腹背受敌而亡形日著",
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "贞祐二年（1214），潍州李全与其兄李福聚众数千起，益都杨安儿之众方盛于山东，义军衣红为号，金人谓之红袄军。山东半壁数为所有，金兵不能制；杨安儿其后败死于海上，其妹杨妙真归于李全。李全南归宋、北降蒙古，往来叛服，宋金蒙三方皆目为腹心之患。金之亡，内被红袄之扰，外遭蒙古之锋，二者相因为患。",
+      "sources": [
+        {
+          "work": "金史",
+          "part": "宣宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "叛臣传·李全",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "hongjin-qiyi",
       "name": "红巾起义",
       "display": "红巾起义",
@@ -4046,6 +4489,115 @@
         {
           "work": "南史",
           "part": "贼臣传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "houtang-mie-liang",
+      "name": "后唐灭梁",
+      "display": "后唐灭梁",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 923,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系同光元年四月存勖即皇帝位于魏州，十月袭汴州，朱友贞死；公历并在923。同年事，不写 endYear。",
+      "place": "汴州",
+      "placeNow": "今河南开封",
+      "belligerents": [
+        "hou-tang",
+        "hou-liang"
+      ],
+      "commanders": [
+        {
+          "id": "li-cunxu",
+          "side": "hou-tang"
+        }
+      ],
+      "people": [
+        "zhu-zhen"
+      ],
+      "result": "汴州陷，朱友贞死，后梁亡；李存勖定汴，国号唐，改元同光。",
+      "parent": "liangjin-zhanzheng",
+      "aliases": [
+        "wudai-923",
+        "李存勖灭梁"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "同光元年四月，李存勖即皇帝位于魏州，国号唐。梁以段凝悉锐阵于河上，汴州空虚；存勖用李嗣源策，轻骑倍道袭汴。十月，汴城开，朱友贞使皇甫麟杀己，后梁亡。存勖入汴，河东之业至此极。沙陀李氏自晋而唐，据中原之号，五代第一朝易主。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后唐纪·同光元年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "庄宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "新五代史",
+          "part": "唐本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "houtang-mie-qianshu",
+      "name": "后唐灭前蜀",
+      "display": "后唐灭前蜀",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 925,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系同光三年十一月出师，十二月王衍降；十二月已跨入926，故 endYear 取926。",
+      "endYear": 926,
+      "endYearAccuracy": "exact",
+      "place": "成都",
+      "belligerents": [
+        "hou-tang",
+        "qianshu"
+      ],
+      "people": [
+        "li-cunxu",
+        "meng-zhixiang"
+      ],
+      "result": "王衍降，前蜀亡；孟知祥因之以有蜀，后蜀之基于此。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "同光三年，唐议伐蜀，以魏王继岌为都统、郭崇韬节度之。蜀主王衍奢淫无备，君臣游移莫决。十一月出师，十二月师次成都，衍出降，前蜀亡。班师，存勖遣使诛王衍宗族于秦川驿。崇韬留孟知祥为西川节度使，知祥据蜀自固，后蜀之基基于此。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后唐纪·同光三年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "庄宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "十国春秋",
+          "part": "前蜀",
           "kind": "classic"
         }
       ]
@@ -4353,6 +4905,47 @@
       ]
     },
     {
+      "id": "huihu-xiqian",
+      "name": "回鹘西迁",
+      "display": "回鹘西迁",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 840,
+      "yearAccuracy": "exact",
+      "endYear": 843,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "tang",
+        "huihu"
+      ],
+      "people": [
+        "wujie-kehan"
+      ],
+      "result": "回鹘汗国瓦解部众西迁，南下部为唐所破",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "开成五年（840）回鹘汗国为黠戛斯所破，可汗被杀，部众大规模西迁；南下的乌介可汗部驻牧近唐边，屡有挟索，会昌三年（843）唐军破之于杀胡山，乌介败走。回鹘汗国自此瓦解，草原权力真空由黠戛斯填补，唐北边暂解。西迁诸部后来的甘州、高昌回鹘等延续不在本实体中展开。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "回鹘传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百四十六至二百四十七",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "hulao-zhizhan",
       "name": "虎牢之战",
       "display": "虎牢之战",
@@ -4447,6 +5040,54 @@
         {
           "work": "春秋左傳正義卷16",
           "part": "raw/春秋/春秋左傳正義/卷16.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷16.md）",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jialejiahe-zhizhan",
+      "name": "迦勒迦河之战",
+      "display": "迦勒迦河",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 1223,
+      "yearAccuracy": "exact",
+      "yearNote": "元史太祖本纪系成吉思汗十八年（1223）；罗斯编年史作五月末，公历 1223 年 5 月 31 日。",
+      "place": "迦勒迦河",
+      "placeNow": "今乌克兰东南部，亚速海西北岸一带",
+      "belligerents": [
+        "mongol",
+        "eluosi"
+      ],
+      "commanders": [
+        {
+          "id": "su-butai",
+          "side": "mongol"
+        }
+      ],
+      "result": "蒙古军大破罗斯诸部与钦察联军，罗斯重创，蒙古东还",
+      "parent": "tie-mu-zhen-xi-zheng",
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "成吉思汗十八年（1223）五月，哲别、速不台之军蹑钦察而北，罗斯诸部与钦察联军御之于迦勒迦河。蒙古军卑辞遣使以缓其军，联军杀使者而渡河急追；哲别、速不台佯退诱其前锋，返斗大破之。诸部之兵隔河不救，与钦察同溃，数公殁于阵。是役也，罗斯诸部始知蒙古之强而不能合；十四年后拔都西征，罗斯诸公国尽役于蒙古。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "世界征服者史",
           "kind": "classic"
         }
       ]
@@ -4694,6 +5335,54 @@
         {
           "work": "史记",
           "part": "卷八十二·田单列传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jin-liao-zhanzheng",
+      "name": "金辽战争",
+      "display": "金辽",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1114,
+      "yearAccuracy": "exact",
+      "yearNote": "辽史天祚皇帝纪系天庆四年（1114）出河店之败，为金人首胜；金史太祖本纪系收国元年（1115）建国以前女真已数胜辽军。起年取首战之 1114。",
+      "endYear": 1125,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "liao",
+        "jin-chao"
+      ],
+      "commanders": [
+        {
+          "id": "wanyan-aguda",
+          "side": "jin-chao"
+        }
+      ],
+      "result": "辽五京尽失，天祚帝被俘，辽亡；金全有辽故壤，与宋以燕云为界",
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia",
+        "jin-chao"
+      ],
+      "desc": "天庆四年（1114），女真阿骨打起兵，辽军再溃于出河店，东北诸部尽叛。收国元年（1115）阿骨打称帝建国，辽人不能制；金师岁岁深入，辽五京次第陷落，天祚西奔不暇；保大五年（1125），天祚为金军所获，辽亡。契丹二百余年之基一朝摧塌，燕云、辽东尽归金，东亚对峙之势由辽宋之争转为宋金之争，其局至此重定。",
+      "sources": [
+        {
+          "work": "金史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "辽史",
+          "part": "天祚皇帝纪",
           "kind": "classic"
         }
       ]
@@ -4985,6 +5674,58 @@
       ]
     },
     {
+      "id": "jinyang-qibing",
+      "name": "晋阳起兵",
+      "display": "晋阳起兵",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 617,
+      "yearAccuracy": "exact",
+      "place": "晋阳",
+      "placeNow": "今山西太原西南",
+      "belligerents": [
+        "tang",
+        "sui"
+      ],
+      "commanders": [
+        {
+          "id": "li-yuan",
+          "side": "tang"
+        },
+        {
+          "id": "li-shimin",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "li-yuan",
+        "li-shimin"
+      ],
+      "result": "李渊取晋阳入据长安，隋在该地区的统治瓦解",
+      "dynasties": [
+        "sui"
+      ],
+      "desc": "大业十三年（617）李渊誓师晋阳，建成、世民分率诸军南下，破霍邑，渡黄河，十一月入据长安，立代王侑，隋在此地的统治瓦解。起兵为次年唐朝建立奠基，是隋唐政权更替的起点；本实体记起兵至入长安，不涉隋末群雄割据。与唐朝建立（618）为前后两事，不合并记录。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "高祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "大唐创业起居注",
+          "part": "卷上至卷中",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "jinyang-zhizhan",
       "name": "晋阳之战（范氏、中行氏之乱）",
       "display": "晋阳之战（范氏、中行氏之乱）",
@@ -5256,6 +5997,91 @@
         {
           "work": "晋书",
           "part": "卷一百二十·载记第二十",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "liangjin-zhanzheng",
+      "name": "梁晋战争",
+      "display": "梁晋",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 908,
+      "yearAccuracy": "exact",
+      "yearNote": "起开平二年（908）李克用卒、李存勖嗣晋王，梁晋交兵；止同光元年（923）汴州陷落。907年朱温代唐后河东已与梁绝，通鉴以908年为战端。",
+      "endYear": 923,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "hou-tang",
+        "hou-liang"
+      ],
+      "people": [
+        "li-cunxu",
+        "zhu-wen",
+        "zhu-zhen"
+      ],
+      "result": "梁晋夹河十余年，柏乡决胜负；923年汴州陷，后梁亡，河东入定中原。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "开平二年，李克用卒，李存勖嗣晋王，梁晋兵连不解。朱温据汴洛，挟中原之众；存勖保太原，以沙陀骑逐燕。柏乡一战，梁军歼于河北，攻守势易。夹河之守十余年，存勖称帝魏州，袭汴州，朱友贞死，梁亡。河东政权自晋而唐，得河北、并、汴、洛之地，五代第一大战由此定。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后梁纪·开平二年、后唐纪·同光元年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "庄宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "liao-li-zhanzheng",
+      "name": "辽丽战争",
+      "display": "辽丽",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 993,
+      "yearAccuracy": "exact",
+      "yearNote": "辽史圣宗本纪系统和十一年（993）辽责高丽越境筑城，东征而盟；二次统和二十八年（1010）圣宗亲征，开泰八年（1019）辽军自龟州之败后退。",
+      "endYear": 1019,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "liao",
+        "gaoli"
+      ],
+      "result": "高丽两战两盟，奉辽正朔二百余年；辽解东顾之患，东北归于一统",
+      "dynasties": [
+        "liao",
+        "song"
+      ],
+      "desc": "统和十一年（993），辽责高丽越鸭绿江筑城、侵女真之地，遣师东征；高丽遣徐熙赴军前请盟，奉辽正朔，辽军还。统和二十八年（1010），辽圣宗以高丽权臣康兆弑主擅立为词亲征，焚其开京，高丽几不国；开泰八年（1019）初，姜邯赞大破辽军于龟州，辽师尽退。高丽两战而后皆盟，遂为辽藩属；辽之东陲无警，国势臻于极盛，此后再用兵于南则澶渊、于西则西域。",
+      "sources": [
+        {
+          "work": "辽史",
+          "part": "圣宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "高丽史",
+          "part": "世家·显宗",
           "kind": "classic"
         }
       ]
@@ -5873,6 +6699,90 @@
         {
           "work": "北齐书",
           "part": "神武纪下",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "meng-li-zhanzheng",
+      "name": "蒙丽战争",
+      "display": "蒙丽",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 1231,
+      "yearAccuracy": "exact",
+      "yearNote": "元史太宗本纪系八年（1231）遣撒礼塔征高丽；至元十年（1273）三别抄平，高丽尽为元属。其间九举大兵，数叛数服。",
+      "endYear": 1273,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "mongol",
+        "gaoli"
+      ],
+      "result": "高丽数降数叛，终为元驸马国，元置征东行省领其地",
+      "dynasties": [
+        "song",
+        "jin-chao",
+        "mongol",
+        "yuan"
+      ],
+      "desc": "太宗八年（1231），蒙古遣撒礼塔伐高丽，高丽不能御而请成；明年，崔氏挟迁江华岛以避其锋。自是数叛数征，大举者九，国中蹂躏，生业荡尽。1258 年以后高丽奉表入朝，武人专政亦替；1270 年三别抄据珍岛、济州抗元，1273 年元丽联军平之。高丽自是称驸马国，元置征东行省，国王入觐尚主；高丽二百余年武人政治由此而终，蒙古之兵锋亦遂及于朝鲜半岛。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "高丽史",
+          "part": "世家",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "menggu-mie-xiliao",
+      "name": "蒙古灭西辽",
+      "display": "灭西辽",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 1218,
+      "yearAccuracy": "exact",
+      "yearNote": "元史太祖本纪系成吉思汗十三年（1218）遣哲别讨屈出律；辽史天祚皇帝纪四记屈出律篡位之由。",
+      "place": "撒里桓",
+      "placeNow": "今新疆塔什库尔干一带（巴达哈伤山地）",
+      "belligerents": [
+        "mongol",
+        "liao"
+      ],
+      "result": "屈出律被擒杀，西辽境土尽归蒙古，大蒙古国与花剌子模接壤",
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "成吉思汗十三年（1218），哲别将兵讨西辽。屈出律者，乃蛮太阳汗之子，乃蛮破后窜入西辽，篡直鲁古之位，仍号其国曰辽；其政苛而迫境内伊斯兰之民改宗，西域苦之。蒙古军至，诸城多迎降，屈出律遁入巴达哈伤山之撒里桓，为军中所擒，斩之。西辽全境款附，蒙古之疆与花剌子模相接，成吉思汗西征之局自此开。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "辽史",
+          "part": "天祚皇帝纪四",
           "kind": "classic"
         }
       ]
@@ -6540,6 +7450,91 @@
       ]
     },
     {
+      "id": "nantang-mie-chu",
+      "name": "南唐灭楚",
+      "display": "南唐灭楚",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 951,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系后周广顺元年、南唐保大九年，边镐入长沙，马希崇降；公历951。",
+      "place": "长沙",
+      "belligerents": [
+        "nantang",
+        "machu"
+      ],
+      "people": [
+        "li-jing-916"
+      ],
+      "result": "边镐取长沙，马希崇降，马楚亡；湖南旋为武平诸将所据。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "南唐保大九年，马楚兄弟相攻，国中大乱。南唐遣边镐提兵入湖南，马希崇降，马楚亡。楚自马殷保境息民、以茶马之利富强，至是瓦解于诸子之内斗。未几，湖南为刘言、王逵所据，复为武平军，南唐不能有其地。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后周纪·广顺元年",
+          "kind": "classic"
+        },
+        {
+          "work": "十国春秋",
+          "part": "楚",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "nantang-mie-min",
+      "name": "南唐灭闽",
+      "display": "南唐灭闽",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 945,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系后晋开运二年、南唐保大三年，唐师取建州，王延政降；公历945。",
+      "place": "建州",
+      "placeNow": "今福建建瓯",
+      "belligerents": [
+        "nantang",
+        "min"
+      ],
+      "people": [
+        "li-jing-916"
+      ],
+      "result": "王延政降，闽亡；建、汀、泉、漳入南唐，福州寻附吴越。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "南唐保大三年，闽之诸王自相屠，建州王延政与福王延羲交兵不已。南唐乘其敝，遣将攻建州，延政降，闽亡。建、汀、泉、漳之地入于南唐，福州寻附吴越。王氏据闽数十年，瓦解于骨肉之内乱。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后晋纪·开运二年",
+          "kind": "classic"
+        },
+        {
+          "work": "十国春秋",
+          "part": "闽",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "nianjun-qiyi",
       "name": "捻军",
       "display": "捻军",
@@ -6952,6 +7947,120 @@
         {
           "work": "史记",
           "part": "卷三十八·宋微子世家",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qidan-mie-bohai",
+      "name": "契丹灭渤海",
+      "display": "契丹灭渤海",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 926,
+      "yearAccuracy": "exact",
+      "yearNote": "辽史太祖本纪系天显元年正月围忽汗城，二月渤海降，七月阿保机道卒；公历并在926。",
+      "place": "忽汗城",
+      "placeNow": "今黑龙江宁安",
+      "belligerents": [
+        "liao",
+        "bohai"
+      ],
+      "commanders": [
+        {
+          "id": "yelv-abaoji",
+          "side": "liao"
+        }
+      ],
+      "people": [
+        "yelv-deguang"
+      ],
+      "result": "渤海降，阿保机置东丹国；还次夫余，道卒，契丹转入德光之世。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "天显元年正月，耶律阿保机亲征渤海，围忽汗城，渤海王大諲譔降。阿保机以渤海地为东丹国，以太子倍王东丹。还军，七月卒于夫余。德光继立；同岁后唐庄宗死于兴教门之变，北疆与中原同时易主。",
+      "sources": [
+        {
+          "work": "辽史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "后唐纪·天成元年",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qidan-mie-houjin",
+      "name": "契丹灭后晋",
+      "display": "契丹灭晋",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 946,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系开运三年（946）契丹大举南伐，杜重威全军降；明年正月入汴，废晋主。跨946、947两年。",
+      "endYear": 947,
+      "endYearAccuracy": "exact",
+      "place": "汴州",
+      "placeNow": "今河南开封",
+      "belligerents": [
+        "liao",
+        "hou-jin"
+      ],
+      "commanders": [
+        {
+          "id": "yelv-deguang",
+          "side": "liao"
+        },
+        {
+          "id": "du-chongwei",
+          "side": "hou-jin"
+        }
+      ],
+      "people": [
+        "shi-chonggui",
+        "liu-zhiyuan"
+      ],
+      "result": "杜重威全军降，德光入汴废晋主，改号大辽；北还，卒于杀胡林。",
+      "aliases": [
+        "wudai-947",
+        "契丹入汴"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "开运三年，晋出帝耻于称孙不称臣，契丹三伐，至是三举大入。晋以杜重威将大军御之，壁于恒州，为契丹所绝粮道，军中饥疲。重威怯不敢决，日与亲信饮博；偏将请战，皆抑而下之。十二月，重威与众降，河北州县望风款附。明年正月，耶律德光入汴，俘出帝，废其国，改元大同，建国号大辽。德光不习中原之治，纵兵剽掠，京畿萧然；四月北还，卒于杀胡林。河东刘知远因虚入汴，汉祚代之而兴。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后晋纪·开运三年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "少帝本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "辽史",
+          "part": "太宗本纪",
           "kind": "classic"
         }
       ]
@@ -7924,6 +9033,69 @@
       ]
     },
     {
+      "id": "shi-jingtang-jie-bing",
+      "name": "石敬瑭借兵",
+      "display": "石敬瑭借兵",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 936,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系清泰三年五月敬瑭起兵晋阳，九月契丹自雁门入，十一月废帝自焚；公历并在936。同年事，不写 endYear。",
+      "place": "晋阳",
+      "placeNow": "今山西太原",
+      "belligerents": [
+        "hou-jin",
+        "liao",
+        "hou-tang"
+      ],
+      "commanders": [
+        {
+          "id": "shi-jingtang",
+          "side": "hou-jin"
+        },
+        {
+          "id": "yelv-deguang",
+          "side": "liao"
+        }
+      ],
+      "people": [
+        "li-congke"
+      ],
+      "result": "契丹册立石敬瑭，败唐兵，废帝自焚；石敬瑭入汴，改国号晋。",
+      "aliases": [
+        "wudai-936",
+        "石敬瑭借兵割燕云"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "清泰三年五月，河东节度使石敬瑭举兵，唐以张敬达围晋阳。敬瑭遣使求救于契丹，约割卢龙、雁门以北，岁输帛三十万匹。九月，耶律德光自雁门入，破唐兵，围张敬达于晋安寨；敬达不敢战，为杨光远所杀，余众皆降。十一月，契丹册敬瑭为大晋皇帝；废帝李从珂登玄武楼自焚，后唐亡。敬瑭入汴，改元天福。沙陀李氏十五年至此而绝。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后唐纪·清泰三年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "晋高祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "辽史",
+          "part": "太宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "shimen-zhizhan",
       "name": "石门之战",
       "display": "石门之战",
@@ -7960,6 +9132,110 @@
         {
           "work": "资治通鉴",
           "part": "卷002·周纪二",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "shizong-beifa",
+      "name": "周世宗北伐",
+      "display": "世宗北伐",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 959,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系显德六年四月至五月，取三关，莫、瀛、易三州降；谋取幽州，世宗不豫而还。公历959。",
+      "place": "瓦桥关",
+      "placeNow": "今河北雄县",
+      "belligerents": [
+        "hou-zhou",
+        "liao"
+      ],
+      "commanders": [
+        {
+          "id": "chai-rong",
+          "side": "hou-zhou"
+        }
+      ],
+      "people": [
+        "zhao-kuangyin"
+      ],
+      "result": "三关入周，莫、瀛、易三州降；世宗病，谋取幽州不果。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "显德六年四月，周世宗大举北伐，趋沧州。辽益津关守将终廷晖以城降，瓦桥关、淤口关相继而下，莫、瀛、易三州闻风请命，关南之地尽入于周。世宗议乘胜取幽州，猝遇疾，班师。六月，帝崩于汴，年三十九。关南之役为世宗一生之极，幽燕未复，赍志而殁；是岁冬，陈桥兵变，周祚移于宋。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后周纪·显德六年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "世宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "shizong-zheng-nantang",
+      "name": "周世宗三征南唐",
+      "display": "世宗征南唐",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 955,
+      "yearAccuracy": "exact",
+      "yearNote": "起显德二年（955）十一月始伐淮南，止显德五年（958）春李璟献江北之地、去帝号。淮上之役首尾三年，历四次用师。",
+      "endYear": 958,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "hou-zhou",
+        "nantang"
+      ],
+      "people": [
+        "chai-rong",
+        "li-jing-916",
+        "zhao-kuangyin"
+      ],
+      "result": "周师三驾淮上，寿州降、紫金山丧师，南唐去帝号称国主，尽献江北十四州。",
+      "aliases": [
+        "wudai-958",
+        "周世宗征淮南",
+        "淮南之役"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "显德二年十一月，周世宗行先南后北之略，以李谷督军攻寿州，始伐淮南。三年，世宗亲征再驾，赵匡胤以奇兵取滁州、清流关。刘仁赡守寿州，周岁不能下。四年，世宗三驾，破紫金山，刘仁赡以州降。五年春，南唐奉表，去帝号，称国主，奉周正朔，尽献寿、庐、濠、楚、和、滁、扬、泰、泗、海、光、黄、舒、蕲十四州。周得淮南之饶，国用以富；南唐江淮尽失，不敢复言问北。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后周纪·显德二年、五年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "世宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "十国春秋",
+          "part": "南唐",
           "kind": "classic"
         }
       ]
@@ -8175,6 +9451,62 @@
         {
           "work": "陈书",
           "part": "后主纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "suiyang-baowei-zhan",
+      "name": "睢阳保卫战",
+      "display": "睢阳保卫战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 757,
+      "yearAccuracy": "exact",
+      "place": "睢阳",
+      "placeNow": "今河南商丘",
+      "belligerents": [
+        "tang",
+        "anshi"
+      ],
+      "commanders": [
+        {
+          "id": "zhang-xun",
+          "side": "tang"
+        },
+        {
+          "id": "xu-yuan",
+          "side": "tang"
+        },
+        {
+          "id": "yin-ziqi",
+          "side": "anshi"
+        }
+      ],
+      "people": [
+        "zhang-xun",
+        "xu-yuan"
+      ],
+      "result": "张巡死守睢阳近十月，叛军无力南下江淮",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "757 年，张巡与许远合力守睢阳，以数千之众抗尹子奇所率叛军围攻近十月，粮尽后城陷殉国。睢阳之守阻遏叛军南下江淮，保障唐廷财赋所出，是安史之乱中的关键节点。城内食人惨状等极端记载众说纷纭，不在本实体中采信单一数字。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "张巡传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一十九至二百二十",
           "kind": "classic"
         }
       ]
@@ -8522,6 +9854,215 @@
       ]
     },
     {
+      "id": "tang-mie-baiji",
+      "name": "唐灭百济",
+      "display": "唐灭百济",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 660,
+      "yearAccuracy": "exact",
+      "place": "泗沚城",
+      "placeNow": "今韩国扶余",
+      "belligerents": [
+        "tang",
+        "baiji"
+      ],
+      "commanders": [
+        {
+          "id": "su-ding-fang",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "su-ding-fang"
+      ],
+      "result": "唐军渡海灭百济，析其地置五都督府",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "显庆五年（660），苏定方率唐军自成山渡海，破百济，其王义慈降，百济亡。唐析百济故地置熊津等五都督府，以唐人镇抚。百济遗臣随后依托倭兵图谋复国，引出次年的白江口之战；本实体只录灭国一役，不复拆沿途战斗。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "高宗本纪、百济传、苏定方传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "tang-mie-gaogouli",
+      "name": "唐灭高句丽",
+      "display": "唐灭高句丽",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 668,
+      "yearAccuracy": "exact",
+      "place": "平壤",
+      "placeNow": "今朝鲜平壤",
+      "belligerents": [
+        "tang",
+        "gaogouli"
+      ],
+      "commanders": [
+        {
+          "id": "xu-shi-ji",
+          "side": "tang"
+        },
+        {
+          "id": "xue-ren-gui",
+          "side": "tang"
+        },
+        {
+          "id": "qi-bi-he-li",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "xu-shi-ji",
+        "xue-ren-gui",
+        "qi-bi-he-li"
+      ],
+      "result": "李世勣围平壤，高句丽王出降，高句丽亡",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "总章元年（668），李世勣率唐军合围平壤，高句丽王高藏出降，高句丽亡。唐分其地置九都督府、安东都护府，势力进入朝鲜半岛北部。高句丽既灭，唐在半岛的对手只剩新罗，次年唐新关系转向对峙。高句丽降主名与各都督府分置细节以两《唐书》高丽传为准，不在本实体中展开。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "高宗本纪、李勣传、高丽传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "tang-nanzhao-zhanzheng",
+      "name": "唐诏战争",
+      "display": "唐诏战",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 750,
+      "yearAccuracy": "exact",
+      "endYear": 754,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "tang",
+        "nanzhao"
+      ],
+      "commanders": [
+        {
+          "id": "xianyu-zhongtong",
+          "side": "tang"
+        },
+        {
+          "id": "li-mi-tang",
+          "side": "tang"
+        }
+      ],
+      "result": "唐两次征诏大败，南诏附吐蕃独立，西南边防洞开",
+      "aliases": [
+        "天宝之战"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "天宝九载至十三载（750—754），南诏阁逻凤因边吏挑衅反唐，附吐蕃自立；唐遣鲜于仲通、李宓两度大军征讨，先后溃于洱海之滨，全军覆没。南诏自此立国西南，唐剑南防务洞开，天宝末年的军政困局由此加重。两役兵力与伤亡各书出入大，不在本实体中取数。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "南诏蛮传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一十六至二百一十七",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "tang-taizong-zheng-gaogouli",
+      "name": "唐太宗征高句丽",
+      "display": "唐太宗征高句丽",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 645,
+      "yearAccuracy": "exact",
+      "endYear": 647,
+      "endYearAccuracy": "exact",
+      "place": "辽东",
+      "placeNow": "今辽宁辽阳一带",
+      "belligerents": [
+        "tang",
+        "gaogouli"
+      ],
+      "commanders": [
+        {
+          "id": "li-shimin",
+          "side": "tang"
+        },
+        {
+          "id": "xu-shi-ji",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "li-shimin",
+        "xu-shi-ji"
+      ],
+      "result": "太宗亲征不克安市城而还，高句丽存续而国势大损",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "贞观十九年（645）太宗亲征高句丽，李勣等拔辽东等城，进围安市城，久攻不克，次年班师；二十一年（647）复遣偏师入其境并诏造舟备战，大举未果。此役重创高句丽而未竟全功，为高宗时期继续用兵、最终灭之国留下战略基础。沿途城邑攻守不在本实体中拆录。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "太宗本纪下",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷一百九十七至一百九十八",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "tangyuzhi-qiyi",
       "name": "唐寓之起义",
       "display": "唐寓之起义",
@@ -8623,6 +10164,61 @@
       ]
     },
     {
+      "id": "tie-mu-zhen-xi-zheng",
+      "name": "成吉思汗西征",
+      "display": "西征",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1219,
+      "yearAccuracy": "exact",
+      "yearNote": "元史太祖本纪系十四年（1219）秋大会于也儿的石河，亲征花剌子模；二十一年（1225）东还。",
+      "endYear": 1225,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "mongol",
+        "huacimo"
+      ],
+      "commanders": [
+        {
+          "id": "tie-mu-zhen",
+          "side": "mongol"
+        },
+        {
+          "id": "tuo-lei",
+          "side": "mongol"
+        },
+        {
+          "id": "su-butai",
+          "side": "mongol"
+        }
+      ],
+      "result": "花剌子模亡，蒙古兵锋抵于里海、黑海之北，中亚易主",
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "十四年（1219）秋，成吉思汗大会诸将于也儿的石河，以花剌子模边将擅杀蒙古商使为词，亲征西讨。铁木真自讹答剌进兵，不花剌、撒马尔罕次第陷落，摩诃末西走，死于里海洲岛；拖雷蹂躏呼罗珊，哲别、速不台追札兰丁至印度河畔。二将于归途又败罗斯诸部于迦勒迦河（见本条之战）。二十一年（1225）春，铁木真东还。花剌子模亡，中亚城郭丘墟，蒙古于是与波斯、俄罗斯诸地相接，世界之局由此改观。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "世界征服者史",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "tongwan-zhizhan",
       "name": "统万之战",
       "display": "统万之战",
@@ -8664,6 +10260,54 @@
         {
           "work": "魏书",
           "part": "世祖纪上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "tubo-ru-changan",
+      "name": "吐蕃入长安",
+      "display": "吐蕃入长安",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 763,
+      "yearAccuracy": "exact",
+      "place": "长安",
+      "placeNow": "今陕西西安",
+      "belligerents": [
+        "tang",
+        "tubo"
+      ],
+      "commanders": [
+        {
+          "id": "guo-zi-yi",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "li-yu",
+        "guo-zi-yi"
+      ],
+      "result": "吐蕃军入长安，代宗出奔陕州，郭子仪设疑兵退敌",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "广德元年（763）十月，吐蕃乘安史之乱后唐廷虚弱长驱入寇，关中唐军溃散，代宗出奔陕州，吐蕃军入据长安。郭子仪设疑兵逼敌，吐蕃退走，京师收复。京师陷落十余日，唐廷威望与关中防务危机暴露无遗，边患与藩镇问题自此交织。吐蕃主帅汉文史籍作马重英（吐蕃名恩兰·达扎路恭），生卒无考，不入人物库。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "代宗本纪、郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百二十三",
           "kind": "classic"
         }
       ]
@@ -9152,6 +10796,54 @@
         {
           "work": "史記卷041-越王句踐世家",
           "part": "raw/先秦-西汉/史記/卷041-越王句踐世家.md",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xiangjisi-zhizhan",
+      "name": "香积寺之战",
+      "display": "香积寺",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 757,
+      "yearAccuracy": "exact",
+      "place": "香积寺",
+      "placeNow": "今陕西西安南",
+      "belligerents": [
+        "tang",
+        "anshi"
+      ],
+      "commanders": [
+        {
+          "id": "guo-zi-yi",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "guo-zi-yi",
+        "an-qing-xu"
+      ],
+      "result": "唐军大破叛军，次日收复长安",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "至德二载（757）唐军与安庆绪叛军战于长安城南香积寺，郭子仪等大破叛军，次日收复长安。此役是安史之乱中唐军转守为攻的决定性会战，两京恢复由此开端，叛军退守洛阳。双方伤亡数字各书出入甚大，不在本实体中取数。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百二十",
           "kind": "classic"
         }
       ]
@@ -9790,6 +11482,46 @@
       ]
     },
     {
+      "id": "xuliewu-xi-zheng",
+      "name": "旭烈兀西征",
+      "display": "旭烈兀西征",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 1256,
+      "yearAccuracy": "exact",
+      "yearNote": "元史宪宗本纪系六年（1256）命旭烈兀西征；九年（1259）已克报达、入叙利亚，蒙哥凶问至军，旭烈兀旋东还。本实体以 1260 年爱音扎鲁特之败为西征之末。",
+      "endYear": 1260,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "mongol",
+        "mulayi",
+        "abo-si"
+      ],
+      "result": "木剌夷、阿拔斯俱亡，叙利亚残破，伊利汗国建于波斯",
+      "dynasties": [
+        "song",
+        "mongol"
+      ],
+      "desc": "宪宗六年（1256），蒙哥遣其弟旭烈兀西征未服之国。蒙古军先入伊朗，降木剌夷主，吉兰诸堡毁夷殆尽；1258 年破报达（今巴格达），末代哈里发穆斯台绥木出降，传五百余年之阿拔斯朝以亡。1259 年旭烈兀入叙利亚，1260 年蒙古军败于爱音扎鲁特，西征之锋乃止。哈里发之制自是以绝，波斯、两河流域易主；旭烈兀还而建国曰伊利，大蒙古国西半之局成。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "宪宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "世界征服者史",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "yaksa-zhizhan",
       "name": "雅克萨之战",
       "display": "雅克萨之战",
@@ -10329,6 +12061,49 @@
           "work": "清史稿",
           "part": "卷二十四",
           "note": "榮祿以武衛中軍護各國使館",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yijia-zhiluan",
+      "name": "义嘉之乱",
+      "display": "义嘉之乱",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 466,
+      "yearAccuracy": "exact",
+      "place": "寻阳",
+      "placeNow": "今江西九江",
+      "polity": [
+        "nan"
+      ],
+      "people": [
+        "liu-yu-xiangdong"
+      ],
+      "result": "刘子勋伏诛，宋宗室与方镇伤残略尽，刘宋由是衰亡",
+      "aliases": [
+        "义嘉之役",
+        "寻阳之乱"
+      ],
+      "dynasties": [
+        "northern-southern"
+      ],
+      "desc": "宋明帝刘彧弑前废帝自立，孝武诸子皆不能平。466 年（泰始二年）邓琬、袁顗等奉晋安王刘子勋称帝于寻阳，建元义嘉，江、郢、荆、徐、会稽诸镇响应，建康东西两面受敌。明帝分道东讨，沈攸之、张兴世诸军溯江直捣寻阳，八月城陷，刘子勋伏诛，义嘉政权八月而灭。宋室宗王与上游方镇经此一战伤残略尽，刘宋衰亡之机实始于此；乱后薛安都引魏、淮北四州入于北魏，其事另见泰始之祸。",
+      "sources": [
+        {
+          "work": "宋书",
+          "part": "明帝纪",
+          "kind": "classic"
+        },
+        {
+          "work": "宋书",
+          "part": "邓琬传",
           "kind": "classic"
         }
       ]
@@ -11160,6 +12935,55 @@
       ]
     },
     {
+      "id": "zhang-yichao-guifu-hexi",
+      "name": "张议潮归复河西",
+      "display": "归复河西",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 848,
+      "yearAccuracy": "exact",
+      "endYear": 851,
+      "endYearAccuracy": "exact",
+      "place": "沙州",
+      "placeNow": "今甘肃敦煌",
+      "belligerents": [
+        "tang",
+        "tubo"
+      ],
+      "commanders": [
+        {
+          "id": "zhang-yichao",
+          "side": "tang"
+        }
+      ],
+      "people": [
+        "zhang-yichao"
+      ],
+      "result": "河西十一州归唐，唐置归义军",
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "大中二年至五年（848—851），沙州张议潮乘吐蕃内乱起兵，河西十一州渐次归唐；851 年唐置归义军，以张议潮为节度使。河西走廊自安史之乱陷入吐蕃百余年后再归唐廷，是晚唐罕见的疆域恢复。各州收复的具体年份以《通鉴》与两《唐书》互证为准，不在本实体中逐州列举。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "吐蕃传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百四十九",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "zhao-mie-zhongshan",
       "name": "赵灭中山",
       "display": "赵灭中山",
@@ -11499,6 +13323,57 @@
           "work": "清史稿",
           "part": "卷五百二十二",
           "note": "厄魯特舊分四部：曰和碩特，姓博爾濟吉特；曰準噶爾",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zijinshan-zhizhan",
+      "name": "紫金山之战",
+      "display": "紫金山之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 958,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系显德五年春，周师破紫金山，南唐援军大溃，遂请和；公历958。",
+      "place": "紫金山",
+      "placeNow": "今安徽寿县西北",
+      "belligerents": [
+        "hou-zhou",
+        "nantang"
+      ],
+      "commanders": [
+        {
+          "id": "chai-rong",
+          "side": "hou-zhou"
+        }
+      ],
+      "people": [
+        "zhao-kuangyin",
+        "li-jing-916"
+      ],
+      "result": "周师破紫金山，南唐诸军皆溃；李璟大惧，奉表请成。",
+      "parent": "shizong-zheng-nantang",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "显德四年冬，周世宗复驾淮上，围寿州。南唐聚兵数万阵于紫金山，与寿州为犄角。五年春，周师攻之，南唐军大溃，诸将不能成军。刘仁赡病甚，监军周廷构以寿州降。李璟闻之，遣使奉表，尽献江北之地，去帝号称国主。紫金山一战，淮南之局遂决。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后周纪·显德五年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "世宗本纪",
           "kind": "classic"
         }
       ]

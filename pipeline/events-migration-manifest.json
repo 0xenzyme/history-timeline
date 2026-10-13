@@ -3764,19 +3764,26 @@
         "tuoba-gui"
       ],
       "legacyDesc": "拓跋珪即代王位，改国号魏，迁都平城，开启北朝。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "beiwei-jianli",
+      "aliases": [
+        "nb-tuoba"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/beiwei-jianli.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3792,19 +3799,26 @@
         "juqu-muqian"
       ],
       "legacyDesc": "魏太武帝灭北凉，结束十六国分裂，与南朝宋形成南北对峙。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "beiwei-tongyi-beifang",
+      "aliases": [
+        "nb-tongyi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/beiwei-tongyi-beifang.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3820,19 +3834,26 @@
         "feng-taihou"
       ],
       "legacyDesc": "孝文帝依冯太后遗规，迁都洛阳、禁胡服胡语、改姓元，加速胡汉融合。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "xiaowen-qiandu",
+      "aliases": [
+        "nb-hanhu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/xiaowen-qiandu.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3849,19 +3870,26 @@
         "hu-taihou"
       ],
       "legacyDesc": "尔朱荣举兵入洛，溺杀灵太后与幼主及朝士二千，北魏元气尽丧。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "heyin-zhibian",
+      "aliases": [
+        "nb-heyin"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/heyin-zhibian.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3877,19 +3905,26 @@
         "yuwen-tai"
       ],
       "legacyDesc": "高欢立孝静帝都邺为东魏，宇文泰立文帝都长安为西魏，北朝一分为二。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "beiwei-fenlie",
+      "aliases": [
+        "nb-dongxi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/beiwei-fenlie.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3906,19 +3941,26 @@
         "gao-changgong"
       ],
       "legacyDesc": "北周武帝灭北齐，统一北方；次年述佛法、灭佛道，然英年崩，功业付隋。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "beizhou-mie-beiqi",
+      "aliases": [
+        "nb-yong"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/beizhou-mie-beiqi.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3933,19 +3975,26 @@
         "liu-yu"
       ],
       "legacyDesc": "代晋称帝，南朝始此；元嘉之治为江左小康。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "liu-yu-dai-jin",
+      "aliases": [
+        "nb-song"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/liu-yu-dai-jin.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3962,19 +4011,26 @@
         "tuoba-tao"
       ],
       "legacyDesc": "宋文帝屡北伐无功，魏太武反叩瓜步，江南大扰。道济已先见杀。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yuanjia-beifa",
+      "aliases": [
+        "nb-yuanjia"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yuanjia-beifa.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3990,19 +4046,26 @@
         "shen-yue"
       ],
       "legacyDesc": "代齐称帝，崇佛兴学；昭明太子编《文选》，南朝文风极盛。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "xiao-yan-dai-qi",
+      "aliases": [
+        "nb-xiao"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/xiao-yan-dai-qi.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4017,19 +4080,26 @@
         "chen-ba-xian"
       ],
       "legacyDesc": "平侯景之乱后受梁禅，国号陈，为南朝最后一朝。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "chen-ba-xian-dai-liang",
+      "aliases": [
+        "nb-chen"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/chen-ba-xian-dai-liang.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4044,19 +4114,26 @@
         "chen-shubao"
       ],
       "legacyDesc": "隋军渡江，后主与张丽华匿胭脂井被擒，陈亡，南北复归一统。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "sui-mie-chen",
+      "aliases": [
+        "nb-chenwang"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/sui-mie-chen.md",
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-nanbei-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4372,19 +4449,26 @@
         "li-jing"
       ],
       "legacyDesc": "纳谏任贤、轻徭薄赋、武功四达，长安为天下都会，胡汉来朝。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "zhenguan-zhizhi",
+      "aliases": [
+        "tang-zhenghuan"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/zhenguan-zhizhi.md",
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4429,19 +4513,26 @@
         "song-jing"
       ],
       "legacyDesc": "姚崇、宋璟相继为相，府库充盈、户口滋盛，为唐之极盛。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "kaiyuan-shengshi",
+      "aliases": [
+        "tang-kaiyuan"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/kaiyuan-shengshi.md",
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4499,19 +4590,26 @@
         "yang-guo-zhong"
       ],
       "legacyDesc": "扈从兵变，杀杨国忠，缢贵妃于马嵬坡；太子亨灵武即位，是为肃宗。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "mawei-zhibian",
+      "aliases": [
+        "tang-maiwu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/mawei-zhibian.md",
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4527,19 +4625,26 @@
         "pei-du"
       ],
       "legacyDesc": "裴度督师，李愬雪夜入蔡州擒吴元济，削藩暂振，唐室一时回光。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yuanhe-zhongxing",
+      "aliases": [
+        "tang-yuanhe"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yuanhe-zhongxing.md",
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4555,19 +4660,26 @@
         "niu-seng-ru"
       ],
       "legacyDesc": "牛僧孺、李德裕两党相互排抑，进退系朝局数十年，国是日非。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "niu-li-dangzheng",
+      "aliases": [
+        "tang-dang"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/niu-li-dangzheng.md",
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
+      "review": [
+        ".harness/runs/20261013-tang-events/evidence/reviews/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {

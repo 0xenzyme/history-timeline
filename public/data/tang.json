@@ -4333,6 +4333,514 @@
         "tubo"
       ],
       "gender": "male"
+    },
+    {
+      "id": "zhang-jian-zhi",
+      "name": "张柬之",
+      "display": "张柬之",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 625,
+      "death": 706,
+      "title": "宰相，神龙政变主谋，封汉阳郡王",
+      "bio": "襄州襄阳人，字孟将。登进士第，补清源丞。永昌元年以贤良对策擢监察御史，忤武后旨，出为合、蜀二州刺史。狄仁杰荐其有宰相才，长安中召为司刑少卿，拜同平章事。神龙元年与桓彦范、敬晖等诛张昌宗、张易之，复中宗位，擢天官尚书，迁中书令，封汉阳郡王。为武三思所沮，神龙二年卒，年八十二。",
+      "tags": [
+        "唐",
+        "武周"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wen-cheng-gongzhu",
+      "name": "文成公主",
+      "display": "文成公主",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 680,
+      "title": "唐宗室女，贞观十五年入藏和亲",
+      "bio": "唐宗室女。贞观十五年，太宗以为文成公主，妻吐蕃赞普松赞干布，礼部尚书、江夏王李道宗主婚，持节送于吐蕃。赞普于柏海亲迎，为筑城邑以居之。自贞观十五年至永隆元年，居吐蕃三十九年；松赞干布卒后寡居，唐蕃使问相继，甥舅之称自此始。永隆元年病逝于逻些，唐遣使吊祭。",
+      "tags": [
+        "唐",
+        "吐蕃"
+      ],
+      "categories": [
+        "royal-kin",
+        "consort"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "tang",
+        "tubo"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "da-zu-rong",
+      "name": "大祚荣",
+      "display": "大祚荣",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 719,
+      "title": "渤海建国者，受唐册封渤海郡王",
+      "bio": "粟末靺鞨首领乞乞仲象之子，本名祚荣，无姓。武周万岁通天中，契丹李尽忠反，营州残破，靺鞨部东渡辽水。圣历元年，据东牟山建国，自称震国王，别称振国。后受唐招抚册封，为渤海郡王，遂以渤海为国号，制度仿唐，通使朝贡，有海东盛国之称。开元七年卒，子大武艺立。",
+      "tags": [
+        "渤海"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bohai"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gu-dulu",
+      "name": "骨咄禄",
+      "display": "骨咄禄",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 691,
+      "title": "后突厥建国者，颉跌利施可汗",
+      "bio": "阿史那氏，颉利可汗疏族后裔，世为吐屯啜。唐永隆元年，从阿史那伏念反唐，伏念败没，骨咄禄鸠集亡散，入总材山，聚众五千余。永淳元年，复国于黑沙城，自称颉跌利施可汗，史称后突厥。连年入寇北边，武周不能制。天授二年卒，弟默啜立。",
+      "tags": [
+        "突厥"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tujue"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xianyu-zhongtong",
+      "name": "鲜于仲通",
+      "display": "鲜于仲通",
+      "lane": "general",
+      "birthAccuracy": "disputed",
+      "deathAccuracy": "approx",
+      "birth": 693,
+      "death": 755,
+      "birthNote": "生年两说，或系693，或系694",
+      "deathNote": "卒年旧说系于天宝十四载（755），两唐书无系年卒句",
+      "title": "剑南节度使，征南诏大败",
+      "bio": "名向，字仲通，蓟州渔阳人，寄籍于蜀之新政。开元二十年进士，为剑南节度使章仇兼琼所知，因荐杨国忠于朝。天宝十载，将兵八万讨南诏，阁逻凤遣使谢罪，仲通不许，卷甲深入，至洱海，为南诏所败，士卒丧亡数万。杨国忠为掩其败，反荐为京兆尹。天宝十三载李宓再败，西南遂不可问。天宝十四载卒。",
+      "tags": [
+        "唐",
+        "南诏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-mi-tang",
+      "name": "李宓",
+      "display": "李宓",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 754,
+      "deathNote": "天宝十三载征南诏败没；《新唐书》称战死西洱河，《资治通鉴》记为蛮所执，异说并存",
+      "title": "剑南留后，再征南诏全军覆没",
+      "bio": "天宝十三载，以剑南留后将兵七万击南诏。南诏诱其深入，坚壁持久，宓粮尽，士卒瘴疫饥死什七八，乃引还，为蛮追击，全军覆没。其身死，《新唐书》称战死西洱河，《资治通鉴》记为蛮所执，异说并存，本表并存两说，不取一说。南诏为唐军阵亡者起天宝战士冢。",
+      "tags": [
+        "唐",
+        "南诏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-yuan",
+      "name": "许远",
+      "display": "许远",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 757,
+      "title": "睢阳太守，与张巡分城拒守，城陷而死",
+      "bio": "字令威，杭州新城人，右仆射许敬宗玄孙。开元末进士及第，历高要县尉，后为睢阳太守。至德二载，张巡入睢阳，远开门纳之，分城而守；自谓才不及巡，让巡主战事，而己专治粮廪兵仗。阅十月，粮尽城陷，死之。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "an-qing-xu",
+      "name": "安庆绪",
+      "display": "安庆绪",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 759,
+      "title": "弑父自立，伪燕第二位皇帝，为史思明所杀",
+      "bio": "字仁执，营州柳城人，安禄山次子。天宝十四载从父起兵，徇河北。禄山僭号，封晋王。至德二年，与严庄等弑禄山于洛阳，自立为帝，改元载初。唐军复两京，乃退出洛阳，走保邺郡。乾元二年，史思明败九节度使之师，进次相州，庆绪出见，为思明所诛，并其诸弟及高尚、孙孝哲、崔乾祐。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "rebel",
+        "monarch"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-ci",
+      "name": "朱泚",
+      "display": "朱泚",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 784,
+      "title": "泾原乱兵所立，僭号称帝，败死",
+      "bio": "幽州昌平人。少从军，以敢战积功，为士卒所附，后以勋旧进位太尉，闲居京师。建中四年，泾原兵过长安哗变，德宗出奔奉天，乱兵无主，推泚为帅，遂僭号称帝，国号秦，改元应天，据长安。李晟、浑瑊等进讨，兴元元年李晟复京师，泚西走败死。",
+      "tags": [
+        "唐",
+        "藩镇"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-shu-wen",
+      "name": "王叔文",
+      "display": "王叔文",
+      "lane": "chancellor",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 753,
+      "death": 806,
+      "birthNote": "生年近人系于天宝十二年（753），传世文献无明记",
+      "title": "永贞革新主事者，贬死渝州",
+      "bio": "越州山阴人。以棋待诏德宗，出入东宫，顺宗为太子时侍读，有宠。顺宗即位，与王伾同入政事，引韦执谊为相，谋收神策军兵权、罢宫市、黜李实，百四十余日而大变。顺宗内禅，宪宗即位，贬渝州司户，元和元年赐死。未据相位而操政柄，一朝权归而速败，史称永贞革新。",
+      "tags": [
+        "唐",
+        "永贞革新"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-yichao",
+      "name": "张议潮",
+      "display": "张议潮",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 799,
+      "death": 872,
+      "birthNote": "生年旧说系于贞元十五年（799）",
+      "title": "归义军首任节度使，收复河西十一州",
+      "bio": "沙州敦煌人，世为沙州州将，敦煌右族。安史之乱后河西陷于吐蕃，议潮阴养士马，图复其土。大中二年，乘吐蕃内乱起兵，沙、瓜、伊、西、甘、肃、兰、鄯、河、岷、廓十一州次第归唐；五年，遣使奉十一州图籍入朝，宣宗置归义军，以议潮为节度使。晚岁入朝留长安，咸通十三年卒。",
+      "tags": [
+        "唐",
+        "归义军"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wujie-kehan",
+      "name": "乌介可汗",
+      "display": "乌介可汗",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 846,
+      "deathNote": "会昌三年（843）杀胡山之败后离散，卒年旧说或系会昌六年（846）",
+      "title": "回鹘末代可汗，南附唐边，败于杀胡山",
+      "bio": "回鹘汗国为黠戛斯所破，部众离散，会昌元年为十三部拥立为可汗，率残部南渡大漠，驻牧河套之北，挟太和公主请命于唐。会昌二年入大同川，侵云、朔，抄掠诸部。会昌三年正月，唐将石雄破之于杀胡山，迎太和公主以归，乌介败走，部众瓦解，回鹘汗国遂亡。",
+      "tags": [
+        "回鹘"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "huihu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "cui-xuanwei",
+      "name": "崔玄暐",
+      "display": "崔玄暐",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 639,
+      "death": 706,
+      "title": "宰相，神龙政变五王之一，封博陵郡王",
+      "bio": "博陵安平人，本名晔，字玄暐，博陵崔氏。举明经，历库部员外郎、天官郎中、凤阁舍人，武周长安中为天官侍郎，拜同平章事。神龙元年与张柬之等诛张昌宗、张易之，复中宗位，封博陵郡王。为武三思所构，神龙二年流放岭外，病卒于道。睿宗即位，追复官爵，谥曰文献。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jing-hui",
+      "name": "敬晖",
+      "display": "敬晖",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 706,
+      "title": "宰相，神龙政变五王之一，封平阳郡王",
+      "bio": "字仲晔，绛州太平县（《新唐书》作绛州平阳）人。以明经入仕，累迁卫州刺史、夏官侍郎、洛州长史、御史右丞。圣历元年，突厥入寇，诸州籍民筑城，晖以秋收为重，罢其役。神龙元年与张柬之等诛二张，复中宗位，封平阳郡王，知政事。为武三思所构，神龙二年流放崖州，为使者所杀。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huan-yanfan",
+      "name": "桓彦范",
+      "display": "桓彦范",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 653,
+      "death": 706,
+      "title": "宰相，神龙政变五王之一，封扶阳郡王",
+      "bio": "润州曲阿人。以门荫入仕，历御史，官至御史中丞，有断狱之称。神龙元年与张柬之等定谋入宫，诛张昌宗、张易之，复中宗位，封扶阳郡王，知政事。为武三思所构，神龙二年流放岭外，为使者所杀。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-shuji",
+      "name": "袁恕己",
+      "display": "袁恕己",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 706,
+      "title": "宰相，神龙政变五王之一，封南阳郡王",
+      "bio": "沧州东光人，汝南袁氏。历司刑少卿，相王府司马。神龙元年与张柬之等诛二张，复中宗位，以功拜中书令，封南阳郡王。为武三思所构，神龙二年流放岭外，为使者所杀。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yin-ziqi",
+      "name": "尹子奇",
+      "display": "尹子奇",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 757,
+      "title": "安史叛军河南节度使，睢阳之围主将，为陈留人所杀",
+      "bio": "安史叛军将领。至德二载（757）安庆绪弑父自立后，以为河南节度使、汴州刺史，率同罗、突厥、奚等部众并杨朝宗部十余万攻睢阳。张巡、许远婴城死守，南霁云射中其左目。十月城破，巡等死之。同月二十一日，陈留人怨其屠掠，夜袭杀之，举郡降唐。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-dao-zong",
+      "name": "李道宗",
+      "display": "李道宗",
+      "lane": "kin",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 600,
+      "death": 653,
+      "title": "宗室名将，江夏王，送文成公主入蕃",
+      "bio": "字承范，高祖从子，陇西成纪人。从李孝恭平萧铣，又从侯君集击吐谷浑，破伏允，积功封江夏王。贞观中为礼部尚书，十五年持节送文成公主入吐蕃，赞普亲迎于柏海。永徽四年，坐房遗爱案，流象州，道卒。",
+      "tags": [
+        "唐",
+        "宗室"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-pi",
+      "name": "王伾",
+      "display": "王伾",
+      "lane": "chancellor",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 806,
+      "deathNote": "顺宗内禅后贬开州司马，次年病卒，旧说系于元和元年（806）",
+      "title": "永贞革新二王之一，贬死开州",
+      "bio": "杭州人。德宗末为翰林待诏、太子侍书，与太子李诵游处。顺宗即位，迁左散骑常侍，得入大明宫柿林院，沟通内侍李忠言与牛昭容，居中传顺宗旨意；与王叔文并称二王，同主永贞革新。顺宗内禅，贬开州司马，次年病卒。",
+      "tags": [
+        "唐",
+        "永贞革新"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-zhi-yi",
+      "name": "韦执谊",
+      "display": "韦执谊",
+      "lane": "chancellor",
+      "birthAccuracy": "exact",
+      "deathAccuracy": "exact",
+      "birth": 764,
+      "death": 812,
+      "title": "永贞朝宰相，二王八司马之一，贬死崖州",
+      "bio": "字宗仁，京兆杜陵人，京兆韦氏龙门公房。聪俊有文，登进士第，历右拾遗、翰林学士。顺宗倚重，擢同平章事，为王叔文革新主文诰。顺宗内禅，宪宗即位，贬崖州司马，八司马之一。元和七年卒于贬所。",
+      "tags": [
+        "唐",
+        "永贞革新"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chi-zu-de-zan",
+      "name": "赤祖德赞",
+      "display": "赤祖德赞",
+      "lane": "end",
+      "birthAccuracy": "disputed",
+      "deathAccuracy": "exact",
+      "birth": 802,
+      "death": 838,
+      "birthNote": "生年两说，或系贞元十八年（802），或系元和元年（806）",
+      "title": "吐蕃赞普，长庆会盟时在位，汉籍称可黎可足",
+      "bio": "吐蕃赞普，汉文史籍称可黎可足，又作彝泰赞普，赤德松赞之子。元和十年（815）继位，崇信佛教，师事钵阐布，定崇佛之政。长庆元年、二年（821—822）与唐两度会盟，三年（823）于逻些立唐蕃会盟碑。开成三年（838）为臣下所弑，吐蕃内乱由此始。",
+      "tags": [
+        "吐蕃"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tubo"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -5382,6 +5890,138 @@
       "target": "lai-ji",
       "type": "ruler-subject",
       "note": "永徽中同三品，谏立武后，龙朔二年阵没"
+    },
+    {
+      "source": "di-ren-jie",
+      "target": "zhang-jian-zhi",
+      "type": "mentor",
+      "note": "狄仁杰荐其有宰相才，神龙政变后为首相"
+    },
+    {
+      "source": "songzan-ganbu",
+      "target": "wen-cheng-gongzhu",
+      "type": "kin",
+      "note": "贞观十五年婚配，唐蕃甥舅之始"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "da-zu-rong",
+      "type": "ruler-subject",
+      "note": "受唐册封，为渤海郡王"
+    },
+    {
+      "source": "gu-dulu",
+      "target": "wu-zetian",
+      "type": "rival",
+      "note": "骨咄禄复国后屡寇北边，武周不能制"
+    },
+    {
+      "source": "yang-guo-zhong",
+      "target": "xianyu-zhongtong",
+      "type": "peer",
+      "note": "仲通引荐国忠，丧师南诏为所掩"
+    },
+    {
+      "source": "xianyu-zhongtong",
+      "target": "li-mi-tang",
+      "type": "peer",
+      "note": "先后将兵征南诏，俱大败"
+    },
+    {
+      "source": "zhang-xun",
+      "target": "xu-yuan",
+      "type": "peer",
+      "note": "分城共守睢阳，远让巡主军事"
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "an-qing-xu",
+      "type": "kin",
+      "note": "父子；庆绪弑父自立，燕统内移"
+    },
+    {
+      "source": "an-qing-xu",
+      "target": "shi-si-ming",
+      "type": "rival",
+      "note": "思明败九节度使，杀庆绪并其诸弟"
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhu-ci",
+      "type": "rival",
+      "note": "泾原兵变，泚僭号据长安，德宗出奔奉天"
+    },
+    {
+      "source": "li-song",
+      "target": "wang-shu-wen",
+      "type": "ruler-subject",
+      "note": "叔文侍读东宫，顺宗即位委以政事"
+    },
+    {
+      "source": "li-chen",
+      "target": "zhang-yichao",
+      "type": "ruler-subject",
+      "note": "宣宗置归义军，授议潮节度使"
+    },
+    {
+      "source": "wujie-kehan",
+      "target": "li-yan",
+      "type": "rival",
+      "note": "会昌三年石雄破乌介于杀胡山"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "cui-xuanwei",
+      "type": "peer",
+      "note": "同预神龙政变，封博陵郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "jing-hui",
+      "type": "peer",
+      "note": "同预神龙政变，封平阳郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "huan-yanfan",
+      "type": "peer",
+      "note": "同预神龙政变，封扶阳郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "yuan-shuji",
+      "type": "peer",
+      "note": "同预神龙政变，封南阳郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "an-qing-xu",
+      "target": "yin-ziqi",
+      "type": "ruler-subject",
+      "note": "安庆绪命尹子奇率军攻睢阳"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-dao-zong",
+      "type": "ruler-subject",
+      "note": "宗室名将，贞观十五年持节送文成公主入吐蕃"
+    },
+    {
+      "source": "wang-shu-wen",
+      "target": "wang-pi",
+      "type": "peer",
+      "note": "二王并列，共主永贞革新"
+    },
+    {
+      "source": "wang-shu-wen",
+      "target": "wei-zhi-yi",
+      "type": "peer",
+      "note": "叔文引为相，革新派掌文诰"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "chi-zu-de-zan",
+      "type": "peer",
+      "note": "长庆会盟，唐穆宗与吐蕃赞普定边界之盟"
     }
   ],
   "events": [
@@ -5554,7 +6194,16 @@
         "di-ren-jie",
         "li-long-ji",
         "yao-chong",
-        "song-jing"
+        "song-jing",
+        "zhang-jian-zhi",
+        "wen-cheng-gongzhu",
+        "da-zu-rong",
+        "gu-dulu",
+        "cui-xuanwei",
+        "jing-hui",
+        "huan-yanfan",
+        "yuan-shuji",
+        "li-dao-zong"
       ],
       "events": [
         "tang-gai",
@@ -5585,7 +6234,12 @@
         "li-bi",
         "li-bai",
         "du-fu",
-        "wang-wei"
+        "wang-wei",
+        "xianyu-zhongtong",
+        "li-mi-tang",
+        "xu-yuan",
+        "an-qing-xu",
+        "yin-ziqi"
       ],
       "events": [
         "tang-kaiyuan",
@@ -5611,7 +6265,14 @@
         "huang-chao",
         "zhu-wen",
         "li-ke-yong",
-        "li-chen"
+        "li-chen",
+        "zhu-ci",
+        "wang-shu-wen",
+        "zhang-yichao",
+        "wujie-kehan",
+        "wang-pi",
+        "wei-zhi-yi",
+        "chi-zu-de-zan"
       ],
       "events": [
         "tang-yuanhe",

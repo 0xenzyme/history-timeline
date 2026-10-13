@@ -771,6 +771,90 @@
     {
       "id": "songzan-ganbu",
       "lane": "end"
+    },
+    {
+      "id": "zhang-jian-zhi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wen-cheng-gongzhu",
+      "lane": "consort"
+    },
+    {
+      "id": "da-zu-rong",
+      "lane": "end"
+    },
+    {
+      "id": "gu-dulu",
+      "lane": "end"
+    },
+    {
+      "id": "xianyu-zhongtong",
+      "lane": "general"
+    },
+    {
+      "id": "li-mi-tang",
+      "lane": "general"
+    },
+    {
+      "id": "xu-yuan",
+      "lane": "general"
+    },
+    {
+      "id": "an-qing-xu",
+      "lane": "end"
+    },
+    {
+      "id": "zhu-ci",
+      "lane": "end"
+    },
+    {
+      "id": "wang-shu-wen",
+      "lane": "chancellor"
+    },
+    {
+      "id": "zhang-yichao",
+      "lane": "general"
+    },
+    {
+      "id": "wujie-kehan",
+      "lane": "end"
+    },
+    {
+      "id": "cui-xuanwei",
+      "lane": "chancellor"
+    },
+    {
+      "id": "jing-hui",
+      "lane": "chancellor"
+    },
+    {
+      "id": "huan-yanfan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yuan-shuji",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yin-ziqi",
+      "lane": "end"
+    },
+    {
+      "id": "li-dao-zong",
+      "lane": "kin"
+    },
+    {
+      "id": "wang-pi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "wei-zhi-yi",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chi-zu-de-zan",
+      "lane": "end"
     }
   ],
   "relationTypes": [
@@ -1820,6 +1904,138 @@
       "target": "lai-ji",
       "type": "ruler-subject",
       "note": "永徽中同三品，谏立武后，龙朔二年阵没"
+    },
+    {
+      "source": "di-ren-jie",
+      "target": "zhang-jian-zhi",
+      "type": "mentor",
+      "note": "狄仁杰荐其有宰相才，神龙政变后为首相"
+    },
+    {
+      "source": "songzan-ganbu",
+      "target": "wen-cheng-gongzhu",
+      "type": "kin",
+      "note": "贞观十五年婚配，唐蕃甥舅之始"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "da-zu-rong",
+      "type": "ruler-subject",
+      "note": "受唐册封，为渤海郡王"
+    },
+    {
+      "source": "gu-dulu",
+      "target": "wu-zetian",
+      "type": "rival",
+      "note": "骨咄禄复国后屡寇北边，武周不能制"
+    },
+    {
+      "source": "yang-guo-zhong",
+      "target": "xianyu-zhongtong",
+      "type": "peer",
+      "note": "仲通引荐国忠，丧师南诏为所掩"
+    },
+    {
+      "source": "xianyu-zhongtong",
+      "target": "li-mi-tang",
+      "type": "peer",
+      "note": "先后将兵征南诏，俱大败"
+    },
+    {
+      "source": "zhang-xun",
+      "target": "xu-yuan",
+      "type": "peer",
+      "note": "分城共守睢阳，远让巡主军事"
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "an-qing-xu",
+      "type": "kin",
+      "note": "父子；庆绪弑父自立，燕统内移"
+    },
+    {
+      "source": "an-qing-xu",
+      "target": "shi-si-ming",
+      "type": "rival",
+      "note": "思明败九节度使，杀庆绪并其诸弟"
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhu-ci",
+      "type": "rival",
+      "note": "泾原兵变，泚僭号据长安，德宗出奔奉天"
+    },
+    {
+      "source": "li-song",
+      "target": "wang-shu-wen",
+      "type": "ruler-subject",
+      "note": "叔文侍读东宫，顺宗即位委以政事"
+    },
+    {
+      "source": "li-chen",
+      "target": "zhang-yichao",
+      "type": "ruler-subject",
+      "note": "宣宗置归义军，授议潮节度使"
+    },
+    {
+      "source": "wujie-kehan",
+      "target": "li-yan",
+      "type": "rival",
+      "note": "会昌三年石雄破乌介于杀胡山"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "cui-xuanwei",
+      "type": "peer",
+      "note": "同预神龙政变，封博陵郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "jing-hui",
+      "type": "peer",
+      "note": "同预神龙政变，封平阳郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "huan-yanfan",
+      "type": "peer",
+      "note": "同预神龙政变，封扶阳郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "yuan-shuji",
+      "type": "peer",
+      "note": "同预神龙政变，封南阳郡王，同以武三思构陷贬死"
+    },
+    {
+      "source": "an-qing-xu",
+      "target": "yin-ziqi",
+      "type": "ruler-subject",
+      "note": "安庆绪命尹子奇率军攻睢阳"
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-dao-zong",
+      "type": "ruler-subject",
+      "note": "宗室名将，贞观十五年持节送文成公主入吐蕃"
+    },
+    {
+      "source": "wang-shu-wen",
+      "target": "wang-pi",
+      "type": "peer",
+      "note": "二王并列，共主永贞革新"
+    },
+    {
+      "source": "wang-shu-wen",
+      "target": "wei-zhi-yi",
+      "type": "peer",
+      "note": "叔文引为相，革新派掌文诰"
+    },
+    {
+      "source": "li-heng-mu",
+      "target": "chi-zu-de-zan",
+      "type": "peer",
+      "note": "长庆会盟，唐穆宗与吐蕃赞普定边界之盟"
     }
   ],
   "events": [
@@ -1992,7 +2208,16 @@
         "di-ren-jie",
         "li-long-ji",
         "yao-chong",
-        "song-jing"
+        "song-jing",
+        "zhang-jian-zhi",
+        "wen-cheng-gongzhu",
+        "da-zu-rong",
+        "gu-dulu",
+        "cui-xuanwei",
+        "jing-hui",
+        "huan-yanfan",
+        "yuan-shuji",
+        "li-dao-zong"
       ],
       "events": [
         "tang-gai",
@@ -2023,7 +2248,12 @@
         "li-bi",
         "li-bai",
         "du-fu",
-        "wang-wei"
+        "wang-wei",
+        "xianyu-zhongtong",
+        "li-mi-tang",
+        "xu-yuan",
+        "an-qing-xu",
+        "yin-ziqi"
       ],
       "events": [
         "tang-kaiyuan",
@@ -2049,7 +2279,14 @@
         "huang-chao",
         "zhu-wen",
         "li-ke-yong",
-        "li-chen"
+        "li-chen",
+        "zhu-ci",
+        "wang-shu-wen",
+        "zhang-yichao",
+        "wujie-kehan",
+        "wang-pi",
+        "wei-zhi-yi",
+        "chi-zu-de-zan"
       ],
       "events": [
         "tang-yuanhe",

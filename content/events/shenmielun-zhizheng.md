@@ -2,7 +2,7 @@
 id: shenmielun-zhizheng
 status: published
 name: 神灭论之争
-type: political
+type: cultural
 catalogs:
   - history
 importance: 1

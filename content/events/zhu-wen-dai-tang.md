@@ -14,6 +14,7 @@ result: 唐哀帝禅位，朱温建立后梁，唐朝灭亡
 aliases:
   - 唐亡
   - 后梁代唐
+  - wudai-907
 sources:
   - work: 旧唐书
     part: 哀帝本纪

@@ -6,7 +6,7 @@ display: 文选
 type: cultural
 catalogs:
   - history
-importance: 1
+importance: 2
 year: 526
 yearAccuracy: approx
 yearNote: 编成无确切纪年，通说在普通年间至中大通三年（531 萧统卒）之间，取约 526。
