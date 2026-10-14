@@ -1,0 +1,31 @@
+---
+id: zhuzang-dachen
+status: published
+name: 驻藏大臣设立
+type: institutional
+catalogs:
+  - history
+importance: 2
+year: 1727
+yearAccuracy: exact
+yearNote: 雍正五年西藏阿尔布巴之乱定，命内阁学士僧格、副都统马喇驻藏办事，是为驻藏大臣之始；乾隆以后定为督办藏内事务之制。
+endYear: 1793
+endYearAccuracy: exact
+endYearNote: 乾隆五十八年《钦定藏内善后章程》定为常制，故以1793为定制之终。
+place: 拉萨
+placeNow: 今西藏拉萨
+polity:
+  - qing
+people:
+  - yong-zheng
+result: 清以大臣驻藏督办藏政，藏地自此入国家行政之轨
+aliases:
+  - 驻藏办事大臣
+  - 督办藏内事务
+sources:
+  - work: 清史稿
+    part: 藩部传
+    kind: classic
+---
+
+西藏自唐之吐蕃既亡，历四百余年之分合。康熙中，清定卫藏，封第巴、郡王以羁縻之，而藏事仍决于其地。雍正五年，西藏三噶伦阿尔布巴、隆布鼐、扎尔鼐相攻，台吉颇罗鼐讨平之；乱既定，乃命内阁学士僧格、副都统马喇驻藏办事，是为驻藏大臣之始。初但司驻防与传诏，藏政仍决于噶厦。乾隆十五年，诛珠尔默特那木札勒，始定噶伦四名之制，以驻藏大臣督办藏内事务，与达赖、班禅喇嘛并尊。五十六年，逐廓尔喀，复定钦定藏内善后章程，设金奔巴瓶抽签认定转世呼毕勒罕之法，节制噶伦、监督财政刑名及边务。藏地法制，至是始大备。

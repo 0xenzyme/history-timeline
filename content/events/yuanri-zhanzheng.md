@@ -1,0 +1,38 @@
+---
+id: yuanri-zhanzheng
+status: published
+name: 元日战争
+type: military
+catalogs:
+  - military
+  - history
+scale: war
+importance: 2
+year: 1274
+yearAccuracy: exact
+yearNote: 文永之役在至元十一年（1274），弘安之役在至元十八年（1281）。二年并举为一条，故纪其始终。
+endYear: 1281
+endYearAccuracy: exact
+belligerents:
+  - yuan
+  - riben
+commanders:
+  - id: hu-bi-lie
+    side: yuan
+people:
+  - hu-bi-lie
+result: 元师再举，皆为飓风所破；日本号曰神风，终元之世不复东伐
+aliases:
+  - 文永之役
+  - 弘安之役
+  - 蒙古袭来
+sources:
+  - work: 元史
+    part: 世祖本纪
+    kind: classic
+  - work: 元史
+    part: 日本传
+    kind: classic
+---
+
+至元十一年，世祖使凤州经略使忻都、高丽军民总管洪茶丘将蒙汉高丽军二万五千、舟九百艘侵日本，焚对马、壹岐，登博多湾。日本征兵拒战，元师顿兵坚壁，会夜中大风雨，舟多覆没，乃还。至元十八年，复遣阿剌罕、范文虎等率江南新附军十万东征，抵志贺岛，飓风复作，士卒溺死什七八。日本由此严备北边，筑石垒于博多之岸；元之远畧，亦自此少沮。日本所称文永、弘安两役，即此二举也。

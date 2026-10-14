@@ -1,0 +1,26 @@
+---
+id: huiban-jinjing
+status: published
+name: 徽班进京
+type: cultural
+catalogs:
+  - history
+importance: 2
+year: 1790
+yearAccuracy: exact
+yearNote: 乾隆五十五年高宗八旬万寿，三庆班等徽班入都祝厘；余徽班踵至。见《扬州画舫录》《清史稿·高宗本纪》。
+place: 北京
+placeNow: 今北京
+polity:
+  - qing
+result: 徽班合西皮、二簧为一，与汉调相合，为京剧之滥觞
+aliases:
+  - 四大徽班进京
+  - 京剧起源
+sources:
+  - work: 扬州画舫录
+    part: 卷五
+    kind: classic
+---
+
+乾隆五十五年，高宗八旬万寿，浙江盐务商等先期谘于江南，得安庆徽班三庆一军，赍以入都祝厘；京师之人未谙南曲之妙，观者骇然。既而春台、和春、四喜诸徽班踵至。徽班本出安庆石牌，唱二簧调，又杂以昆弋；入都后，其伶工取汉调之西皮与二簧合为一，声律为之一变。其初行于内城，至道光间而盛，遂以三庆、四喜、和春、春台为「四大徽班」。其后谭鑫培出，合众长为一，别立一派，号为谭派；京剧之名，遂大著于近世。

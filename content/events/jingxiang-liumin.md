@@ -1,0 +1,34 @@
+---
+id: jingxiang-liumin
+status: published
+name: 荆襄流民与郧阳设府
+type: rebellion
+catalogs:
+  - military
+  - history
+importance: 2
+year: 1465
+yearAccuracy: exact
+yearNote: 天顺以后，荆襄山荆壤相接，四方流民屯聚耕垦，率数十百万；成化元年刘通、石龙作乱，十二年原杰开设郧阳府抚之。《明史·原杰传》与《食货志》系其事。
+endYear: 1476
+endYearAccuracy: exact
+place: 荆襄
+placeNow: 今湖北西北与河南西南山地一带
+polity:
+  - ming
+people:
+  - zhu-jianshen
+result: 设郧阳府、置都司，流民占籍，荆襄之乱始息
+aliases:
+  - 流民起义
+  - 开郧阳
+sources:
+  - work: 明史
+    part: 原杰传
+    kind: classic
+  - work: 明史
+    part: 食货志
+    kind: classic
+---
+
+荆襄之地，在万山中，连接川陕河南，地旷利薄，腹里之民困于赋役，往往携家流入，结茅垦山，聚成村落。其始也，或土著、或客居，久而户口蕃息，或至一百数十万。官司以为化外，不之问；其强者结寨自固，弱者转死沟壑，而猾者乘之，煽聚为盗。成化元年，刘通、石龙聚众数万据梅梁，僭号王，官兵讨之，数年而后定。然旋讨旋聚，终不能绝。成化十二年，都御史原杰奉招抚之诏往，遍历山溪，宣朝廷德意，因列上便宜，谓「不可置之化外」，请设府州县以统之。乃开郧阳府，领七县，置湖广行都司、行都司卫所，以流民之愿占籍者附之，其不愿者给道里费遣归。由是流民有所统属，争讼有官，赋役有籍，荆襄之患以息。论者以为原杰之策，不事诛杀而纳民于轨，明代善政之一也。

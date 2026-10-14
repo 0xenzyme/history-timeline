@@ -424,10 +424,12 @@
         "diaoyucheng-zhizhan",
         "litan-zhiluan",
         "xiangyang-zhizhan",
+        "yuanri-zhanzheng",
         "dingjiazhou-zhizhan",
         "linan-xiangbiao",
         "yashan-zhizhan",
-        "naiyan-zhiluan"
+        "naiyan-zhiluan",
+        "yuanzheng-zhaowa"
       ]
     },
     {
@@ -437,6 +439,8 @@
       "to": 1400,
       "events": [
         "hongjin-qiyi",
+        "yuanmo-qunxiong",
+        "panyanghu-zhizhan",
         "dadu-xianluo",
         "buyuerhai-zhizhan"
       ]
@@ -449,7 +453,8 @@
       "events": [
         "yongle-beizheng",
         "tumu-zhibian",
-        "beijing-baowei"
+        "beijing-baowei",
+        "jingxiang-liumin"
       ]
     },
     {
@@ -458,8 +463,10 @@
       "from": 1501,
       "to": 1600,
       "events": [
+        "liuliu-liuqi-qiyi",
         "ningwang-zhiluan",
         "gengxu-zhibian",
+        "wanli-chaoxian",
         "bozhou-zhiluan"
       ]
     },
@@ -489,6 +496,7 @@
       "from": 1701,
       "to": 1800,
       "events": [
+        "daxiaojinchuan-zhizhi",
         "zhungeer-zhanzheng",
         "huibu-zhanzheng",
         "chuanchu-qiyi"
@@ -501,6 +509,7 @@
       "to": 1949,
       "events": [
         "tianlijiao-qiyi",
+        "zhanggeer-zhiluan",
         "yapian-zhanzheng",
         "taiping-qiyi",
         "nianjun-qiyi",
@@ -2743,6 +2752,48 @@
         {
           "work": "史记",
           "part": "卷四十·楚世家",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "daxiaojinchuan-zhizhi",
+      "name": "大小金川之役",
+      "display": "大小金川",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 1747,
+      "yearAccuracy": "exact",
+      "yearNote": "乾隆十二年，大金川土司莎罗奔攻小金川及明正土司，清用兵西南；四十一年索诺木降而事定。中间中辍者十余年，故用兵之岁实两起。",
+      "endYear": 1776,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "qing",
+        "jinchuan"
+      ],
+      "people": [
+        "qian-long",
+        "fu-heng",
+        "a-gui"
+      ],
+      "result": "两金川平，清收其地置懋功诸屯，西南土司自此革面敛手",
+      "aliases": [
+        "大小金川之役"
+      ],
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "金川在大渡河之西，地瘠而险，土司莎罗奔恃其巢穴，数为边患。乾隆十二年，莎罗奔攻革布什咱、明正诸土司，川督庆复用兵不利，继以张广泗经略，无功；高宗遣讷亲往视，又以傅恒为经略、岳钟琪为提督。钟琪宿将，谙其山川与诸酋离合，用间招其党，十四年莎罗奔缚送乞降，师还。二十年，郎卡之子索诺木与小金川僧格桑复叛，清再讨之，以阿桂为定西将军，温福分道进，败死木果木；诏罪温福而专任阿桂，绝其水道，合以围之。四十一年，索诺木穷蹙出降。前后两次用兵，糜帑至钜；自是西南诸土司革面敛手，边地之固，亦国家之远图也。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "高宗本纪",
           "kind": "classic"
         }
       ]
@@ -6057,6 +6108,52 @@
       ]
     },
     {
+      "id": "jingxiang-liumin",
+      "name": "荆襄流民与郧阳设府",
+      "display": "荆襄流民与郧阳设府",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 1465,
+      "yearAccuracy": "exact",
+      "yearNote": "天顺以后，荆襄山荆壤相接，四方流民屯聚耕垦，率数十百万；成化元年刘通、石龙作乱，十二年原杰开设郧阳府抚之。《明史·原杰传》与《食货志》系其事。",
+      "endYear": 1476,
+      "endYearAccuracy": "exact",
+      "place": "荆襄",
+      "placeNow": "今湖北西北与河南西南山地一带",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-jianshen"
+      ],
+      "result": "设郧阳府、置都司，流民占籍，荆襄之乱始息",
+      "aliases": [
+        "流民起义",
+        "开郧阳"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "荆襄之地，在万山中，连接川陕河南，地旷利薄，腹里之民困于赋役，往往携家流入，结茅垦山，聚成村落。其始也，或土著、或客居，久而户口蕃息，或至一百数十万。官司以为化外，不之问；其强者结寨自固，弱者转死沟壑，而猾者乘之，煽聚为盗。成化元年，刘通、石龙聚众数万据梅梁，僭号王，官兵讨之，数年而后定。然旋讨旋聚，终不能绝。成化十二年，都御史原杰奉招抚之诏往，遍历山溪，宣朝廷德意，因列上便宜，谓「不可置之化外」，请设府州县以统之。乃开郧阳府，领七县，置湖广行都司、行都司卫所，以流民之愿占籍者附之，其不愿者给道里费遣归。由是流民有所统属，争讼有官，赋役有籍，荆襄之患以息。论者以为原杰之策，不事诛杀而纳民于轨，明代善政之一也。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "原杰传",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "食货志",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "jinjun-dujiang",
       "name": "金军渡江",
       "display": "金军渡江",
@@ -6703,6 +6800,46 @@
           "work": "续资治通鉴",
           "part": "卷一百七十六",
           "note": "以涟海三城来归，宋封齐郡王",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "liuliu-liuqi-qiyi",
+      "name": "刘六刘七起义",
+      "display": "刘六刘七起义",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 1510,
+      "yearAccuracy": "exact",
+      "yearNote": "正德五年，刘宠、刘宸、杨虎、赵燧等起于畿南，纵横河北山东数省，七年败没。《明史·武宗本纪》《马中锡传》系之。",
+      "endYear": 1512,
+      "endYearAccuracy": "exact",
+      "place": "霸州",
+      "placeNow": "今河北霸州",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-houzhao"
+      ],
+      "result": "起义军纵横数省，为官军所灭",
+      "aliases": [
+        "刘六刘七之乱"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "正德之世，阉宦用事，贵戚庄田遍畿内，而黄河复决，漕河梗阻，饥民流离。霸州刘宠与其弟刘宸，素有胆力，为乡里所归；杨虎、赵燧、刘惠等各以众应之，起于文安，攻城邑、劫富室，众至数万。其初不过数十骑，官军怯懦，望风溃，遂纵横畿甸，北抵真定，南入江淮，又渡河而东，至于山东，破城九十余。官兵讨之，前后数易将，或抚或剿，反覆无成；尝受抚而复叛，号为「老回回」者以百计。至七年，赵燧败于江都，被执死；刘惠、杨虎先后败死，刘宠赴水死。其起也，不过饥寒之民，而能使朝廷震动者，武备之弛、政令之扰，有以招之也。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "武宗本纪",
           "kind": "classic"
         }
       ]
@@ -8242,6 +8379,63 @@
         {
           "work": "宋史",
           "part": "卷十二",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "panyanghu-zhizhan",
+      "name": "鄱阳湖之战",
+      "display": "鄱阳湖之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1363,
+      "yearAccuracy": "exact",
+      "yearNote": "至正二十三年，陈友谅攻洪都，朱元璋逆战于鄱阳湖，凡三十六日，友谅中流矢死。《明史·太祖本纪》与《元史》并系于此年。",
+      "place": "鄱阳湖",
+      "placeNow": "今江西鄱阳湖",
+      "belligerents": [
+        "ming",
+        "yuan"
+      ],
+      "commanders": [
+        {
+          "id": "chen-youliang",
+          "side": "yuan"
+        },
+        {
+          "id": "zhu-yuanzhang",
+          "side": "ming"
+        }
+      ],
+      "people": [
+        "chen-youliang",
+        "zhu-yuanzhang",
+        "zhang-shicheng"
+      ],
+      "result": "友谅败死，其地为元璋所并；东南之敌一，而明之兴基于此",
+      "aliases": [
+        "鄱阳湖水战"
+      ],
+      "dynasties": [
+        "yuan"
+      ],
+      "desc": "至正二十三年，陈友谅以巨舰六十万攻洪都，朱元璋救之。友谅之舰高大，连锁为阵，旌旗楼橹千里相望；元璋兵少而舟小，乃分十一队，以火攻之。郭兴献策，令舣舟近敌，裹纸裹灰，顺风掷火；敢死士以枪钩其舟，人不得反顾。战凡三十六日，元璋亲督战，不为动；会日暮，友谅从舟尾窥之，为流矢所中，贯睛及颅而死。其兵大溃，资仗器械尽为元璋所得。友谅之子理立，逾年而降。张士诚素与友谅相持，至此南北之势已成；未几，元璋乃南定陈理、东取士诚，而大明之业肇于此一战。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "元史",
+          "part": "顺帝本纪",
           "kind": "classic"
         }
       ]
@@ -11584,6 +11778,58 @@
       ]
     },
     {
+      "id": "wanli-chaoxian",
+      "name": "万历朝鲜之役",
+      "display": "万历朝鲜之役",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1592,
+      "yearAccuracy": "exact",
+      "yearNote": "万历二十年，日本丰臣秀吉发兵侵朝鲜，明遣李如松等援之；二十五年秀吉死，倭大溃，役平。前后七年，见《明史·神宗本纪》《日本传》《朝鲜传》。",
+      "endYear": 1598,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "ming",
+        "riben"
+      ],
+      "commanders": [
+        {
+          "id": "zhu-yijun",
+          "side": "ming"
+        }
+      ],
+      "people": [
+        "zhu-yijun"
+      ],
+      "result": "明日议和，日本尽还所陷，朝鲜复其社稷；明之兵力财力大耗，辽左诸部因之寖强",
+      "aliases": [
+        "壬辰倭乱",
+        "丁酉再乱"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "万历二十年，日本关白丰臣秀吉既平其国，欲假道于朝鲜以窥中国，先遣使乞封贡，廷议不许，遂大发兵涉海袭之。朝鲜承平日久，兵不习战，王京陷，宣祖出奔义州，八道尽没。明廷命经略宋应昌、提督李如松援之，碧蹄馆之战，如松轻进遇伏，几败；已而拔平壤、复开城，倭退守王京。其后议和数反复，二十五年秀吉死，倭大溃，明将陈璘与朝鲜将李舜臣夹击破之，李、陈所部皆多战死。役凡七年，明之兵力、财力大耗，而辽左诸部因之寖强。论者谓明之亡不始于辽，而始于东事。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "神宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "朝鲜传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "wei-ba-handan",
       "name": "魏拔邯郸",
       "display": "魏拔邯郸",
@@ -13979,6 +14225,155 @@
       ]
     },
     {
+      "id": "yuanmo-qunxiong",
+      "name": "元末群雄",
+      "display": "元末群雄",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 1351,
+      "yearAccuracy": "exact",
+      "yearNote": "至正十一年红巾起，群雄并作；刘福通、徐寿辉、张士诚、方国珍、陈友谅、明玉珍相继起于江淮、江汉、荆湖、巴蜀。通以1351—1368为元末群雄之世。",
+      "endYear": 1368,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "yuan"
+      ],
+      "people": [
+        "han-shantong",
+        "liu-futong",
+        "xu-shouhui",
+        "zhang-shicheng",
+        "ming-yuzhen",
+        "chen-youliang"
+      ],
+      "result": "元室以是亡，而群雄相攻，卒归于朱氏",
+      "aliases": [
+        "元末割据"
+      ],
+      "dynasties": [
+        "yuan",
+        "ming"
+      ],
+      "desc": "至正之末，枢政不修，黄河决而钞法坏，山东西河南之民大困。十一年，韩山童、刘福通以「弥勒下生、明王出世」惑众，言「蕴玉玺于汴，石人一眼」之谣，颍上之民起而应之，号红巾。于是四方之雄并起：蕲州徐寿辉据蕲、黄，号天完；泰州张士诚陷高邮，据平江，号周；台州方国珍有温、台、庆元，劫海漕；沔阳陈友谅、明玉珍本寿辉之党，后各据其地。又有毛贵、芝麻李、布王三之属，起于山东、徐、宿，数年之间，大江南北无完土。元社之屋，不独由朱氏；明之代兴，亦由翦灭诸雄而后成。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "顺帝本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yuanri-zhanzheng",
+      "name": "元日战争",
+      "display": "元日战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 1274,
+      "yearAccuracy": "exact",
+      "yearNote": "文永之役在至元十一年（1274），弘安之役在至元十八年（1281）。二年并举为一条，故纪其始终。",
+      "endYear": 1281,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "yuan",
+        "riben"
+      ],
+      "commanders": [
+        {
+          "id": "hu-bi-lie",
+          "side": "yuan"
+        }
+      ],
+      "people": [
+        "hu-bi-lie"
+      ],
+      "result": "元师再举，皆为飓风所破；日本号曰神风，终元之世不复东伐",
+      "aliases": [
+        "文永之役",
+        "弘安之役",
+        "蒙古袭来"
+      ],
+      "dynasties": [
+        "song",
+        "yuan"
+      ],
+      "desc": "至元十一年，世祖使凤州经略使忻都、高丽军民总管洪茶丘将蒙汉高丽军二万五千、舟九百艘侵日本，焚对马、壹岐，登博多湾。日本征兵拒战，元师顿兵坚壁，会夜中大风雨，舟多覆没，乃还。至元十八年，复遣阿剌罕、范文虎等率江南新附军十万东征，抵志贺岛，飓风复作，士卒溺死什七八。日本由此严备北边，筑石垒于博多之岸；元之远畧，亦自此少沮。日本所称文永、弘安两役，即此二举也。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "世祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "元史",
+          "part": "日本传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yuanzheng-zhaowa",
+      "name": "元征爪哇",
+      "display": "元征爪哇",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 1,
+      "year": 1293,
+      "yearAccuracy": "exact",
+      "yearNote": "至元三十年，史弼、亦黑迷失、高兴将兵征爪哇；《元史·外夷传》与《世祖本纪》并系于此年。",
+      "place": "爪哇",
+      "placeNow": "今印度尼西亚爪哇岛",
+      "belligerents": [
+        "yuan",
+        "zhaowa"
+      ],
+      "people": [
+        "hu-bi-lie"
+      ],
+      "result": "元师克爪哇之葛当，为葛当之婿所袭，丧师而还",
+      "aliases": [
+        "征爪哇之役",
+        "元爪战争"
+      ],
+      "dynasties": [
+        "yuan"
+      ],
+      "desc": "至元三十年，世祖遣史弼、亦黑迷失、高兴将兵二万、舟千艘征爪哇。时爪哇为哈只葛当所据，其故王婿土罕必阇耶乞师，愿为乡导。元师至，葛当帅众拒战，败死；弼乘胜深入，会食之间不设备，为葛当之婿来袭所掩，高兴等力战，弼乃断浮桥以退，丧师三千余。土罕必阇耶因遣使贡方物。元之远藩，盖至爪哇而极；然舟师越重洋，馈运不给，虽暂克其都，不能有其地。此役与元日战争，同为海表之挫。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "外夷传",
+          "kind": "classic"
+        },
+        {
+          "work": "元史",
+          "part": "世祖本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
       "id": "yubi-zhizhan",
       "name": "玉壁之战",
       "display": "玉壁之战",
@@ -14236,6 +14631,58 @@
         {
           "work": "资治通鉴",
           "part": "卷二百四十九",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhanggeer-zhiluan",
+      "name": "张格尔之乱",
+      "display": "张格尔之乱",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 2,
+      "year": 1820,
+      "yearAccuracy": "exact",
+      "yearNote": "嘉庆二十五年张格尔犯卡，道光六年喀什噶尔等四城陷，七年获之于喀铁盖山，八年槛送入京。《清宣宗实录》系之。",
+      "endYear": 1828,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "qing",
+        "huibu"
+      ],
+      "commanders": [
+        {
+          "id": "chang-ling",
+          "side": "qing"
+        },
+        {
+          "id": "yang-yu-chun",
+          "side": "qing"
+        }
+      ],
+      "people": [
+        "chang-ling",
+        "yang-yu-chun",
+        "dao-guang"
+      ],
+      "result": "张格尔就擒，回疆四城复，清重定西陲兵备",
+      "aliases": [
+        "张格尔叛乱"
+      ],
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "张格尔，大和卓木布拉敦之孙也。乾隆中平定回部，大、小二和卓授首，其子孙流入浩罕，阴图报复。嘉庆二十五年四月，张格尔犯卡，参赞大臣斌静在喀什噶尔以酒色废事，回民苦之，多起而应之。道光六年，喀什噶尔、英吉沙尔、叶尔羌、和阗四城相继陷。宣宗以长龄为扬威将军，杨遇春、武隆阿为参赞，集数万众讨之。七年春，清军复喀什噶尔；张格尔遁入布鲁特，其众离心。十二月，杨芳设伏于喀铁盖山，擒之。八年五月，槛送入京，上御午门受俘，磔于市。回疆之扰，自乾隆平定以来未之或烈；清自是汰戍兵、严边防，而浩罕以边禁转严，其后亦为清所钤制。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "宣宗本纪",
           "kind": "classic"
         }
       ]

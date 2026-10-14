@@ -1,0 +1,30 @@
+---
+id: zhangxianzhong-daxi
+status: published
+name: 张献忠与大西政权
+type: political
+catalogs:
+  - history
+importance: 2
+year: 1644
+yearAccuracy: exact
+yearNote: 崇祯十六年献忠取成都，僭号大西王，建元大顺；顺治三年（1646）败死于西充凤凰山。通以据成都之1644年为其政权之始。
+endYear: 1646
+endYearAccuracy: exact
+place: 成都
+placeNow: 今四川成都
+polity:
+  - ming
+people:
+  - zhang-xianzhong
+result: 献忠据成都称制，三年而灭；蜀地残破，一时为甚
+aliases:
+  - 大西政权
+  - 张献忠入蜀
+sources:
+  - work: 明史
+    part: 张献忠传
+    kind: classic
+---
+
+张献忠，延安卫柳树涧人，与李自成同起于陕北，号「黄虎」。崇祯三年群盗起于山西，献忠从之，转战秦、晋、楚、豫、皖、蜀之间，尝受抚于熊文灿，复叛去。十六年，弃湖广入蜀，十一月取重庆、成都，僭号大西王，建元大顺，置官属，开科取士。然其性残忍，所至屠戮，在蜀三年，蜀人几尽，故老传其酷。顺治三年，大清兵下蜀，献忠逆战于西充凤凰山，中流矢死；其养子孙可望、李定国等奉遗众入云南，后附于南明。蜀之残破，明兵、清兵与献忠之众相寻，非一人之罪，然其惨贼固有不可掩者。
