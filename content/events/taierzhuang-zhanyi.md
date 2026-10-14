@@ -1,0 +1,32 @@
+---
+id: taierzhuang-zhanyi
+status: published
+name: 台儿庄战役
+type: military
+catalogs:
+  - military
+  - history
+scale: battle
+importance: 2
+year: 1938
+yearAccuracy: exact
+yearNote: 1938年3月下旬起第五战区在台儿庄迎击濑谷支队，4月7日取得胜利。
+place: 台儿庄
+placeNow: 今山东枣庄台儿庄区
+belligerents:
+  - minguo
+  - riben
+result: 台儿庄取胜，是正面战场的重要胜绩
+aliases:
+  - 台儿庄大捷
+sources:
+  - work: 中华民国史事日志
+    part: 1938年4月
+    note: 第五战区在台儿庄迎击日军，4月上旬克台儿庄
+    kind: modern
+  - work: 中国抗日战争史
+    part: 台儿庄战役相关章节
+    kind: modern
+---
+
+1938年春，日军濑谷支队沿津浦线南下，直趋徐州。第五战区李宗仁指挥，调集孙连仲第二集团军守台儿庄，汤恩伯第二十军团迂回包抄。巷战自3月下旬延至4月上旬，日军两次攻入庄内均被逐出，4月7日中国军队克复台儿庄，遗弃辎重与伤亡甚众。此役是全面抗战以来正面战场的第一次大捷，士气为之大振；徐州仍于5月放弃，会战转入下一个阶段。李宗仁、孙连仲、汤恩伯未入人物库，本条不设人物引用。

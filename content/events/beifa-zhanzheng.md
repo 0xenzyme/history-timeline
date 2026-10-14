@@ -1,0 +1,32 @@
+---
+id: beifa-zhanzheng
+status: published
+name: 北伐战争
+type: political
+catalogs:
+  - history
+importance: 3
+year: 1926
+yearAccuracy: exact
+yearNote: 1926年7月9日国民革命军在广州誓师北伐，1928年12月东北易帜，北伐告成。
+endYear: 1928
+endYearAccuracy: exact
+place: 广州
+placeNow: 今广东广州
+polity:
+  - minguo
+result: 国民革命军克两湖、取京津，北洋政权结束
+aliases:
+  - 国民革命军北伐
+  - 国民革命
+sources:
+  - work: 中华民国史事日志
+    part: 1926年7月9日
+    note: 国民革命军在广州誓师北伐
+    kind: modern
+  - work: 中华民国史
+    part: 北伐战争相关章节
+    kind: modern
+---
+
+1926年7月9日，国民革命军在广州誓师北伐，以打倒军阀、统一全国为号。国民政府迁武汉后，一路下长沙、取武昌，1927年3月克南京，席卷东南。1927年4月清党之后，国民党分裂，武汉、南京、北京三方面对峙。1928年继续北伐，6月北伐军进北京，北京改称北平；12月东北易帜，南京国民政府形式上统一全国。此役结束了民初十余年的军阀局面，也埋下了此后党争与内战的伏线。蒋介石、冯玉祥、阎锡山、李宗仁未入人物库，本条不设人物引用。

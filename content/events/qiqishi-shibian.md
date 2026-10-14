@@ -1,0 +1,32 @@
+---
+id: qiqishi-shibian
+status: published
+name: 七七事变
+type: military
+catalogs:
+  - military
+  - history
+scale: battle
+importance: 3
+year: 1937
+yearAccuracy: exact
+yearNote: 1937年7月7日夜日军在卢沟桥附近挑衅并进攻宛平城，7月底平津失守。
+place: 卢沟桥
+placeNow: 今北京丰台
+belligerents:
+  - minguo
+  - riben
+result: 卢沟桥事变爆发，全面抗战开始
+aliases:
+  - 卢沟桥事变
+sources:
+  - work: 中华民国史事日志
+    part: 1937年7月7日
+    note: 日军攻卢沟桥，攻宛平城，7月底平津失守
+    kind: modern
+  - work: 中国抗日战争史
+    part: 七七事变相关章节
+    kind: modern
+---
+
+1937年7月7日夜，日军在北平西南卢沟桥附近演习，借口一名士兵失踪，要求进入宛平城搜查，遭拒后向中国守军开火。守军第七十七师吉星文部还击，北平方面与日军交涉，而日军陆续增兵入关。7月底北平、天津相继失守。此役把1931年以来的局部抗战推向全面战争，国民政府随即安排大搬迁与总动员，红军改编为国民革命军第八路军，抗日民族统一战线正式形成。蒋介石、宋哲元、吉星文未入人物库，本条不设人物引用。

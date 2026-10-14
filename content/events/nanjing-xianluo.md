@@ -1,0 +1,32 @@
+---
+id: nanjing-xianluo
+status: published
+name: 南京陷落
+type: military
+catalogs:
+  - military
+  - history
+scale: battle
+importance: 3
+year: 1937
+yearAccuracy: exact
+yearNote: 1937年12月13日南京陷落，日军入城后对军人与平民实施大规模屠杀与暴行。
+place: 南京
+placeNow: 今江苏南京
+belligerents:
+  - minguo
+  - riben
+result: 南京陷落，国民政府迁重庆继续抗战
+aliases:
+  - 南京失守
+sources:
+  - work: 中华民国史事日志
+    part: 1937年12月13日
+    note: 日军入南京，对军人与平民施大规模暴行
+    kind: modern
+  - work: 中国抗日战争史
+    part: 南京陷落相关章节
+    kind: modern
+---
+
+1937年12月初，日军围攻南京，中国守军在城郊逐日作战。12月13日南京陷落，日军入城后对已放下武器的军人与平民实施大规模屠杀、焚烧与奸淫，史称南京大屠杀。死难人数各说不一，审判与研究的数字也互有出入，本条不写入具体数字。国民政府与军事机关早已迁重庆，长江下游的战事转入山地与湖泊地带。南京陷落是抗战第一个冬天最沉重的记忆，也是此后审判日本战犯的核心罪状。唐生智、萧山令未入人物库，本条不设人物引用。

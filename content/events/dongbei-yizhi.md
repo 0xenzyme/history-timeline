@@ -1,0 +1,29 @@
+---
+id: dongbei-yizhi
+status: published
+name: 东北易帜
+type: political
+catalogs:
+  - history
+importance: 2
+year: 1928
+yearAccuracy: exact
+yearNote: 1928年12月29日张学良通电东北改悬青天白日满地红旗，奉天省改称辽宁省。
+place: 奉天
+placeNow: 今辽宁沈阳
+polity:
+  - minguo
+result: 东北改旗易帜，南京国民政府形式上统一全国
+aliases:
+  - 东北改旗
+sources:
+  - work: 中华民国史事日志
+    part: 1928年12月29日
+    note: 张学良通电东北改悬青天白日满地红旗
+    kind: modern
+  - work: 中华民国史
+    part: 东北易帜相关章节
+    kind: modern
+---
+
+1928年，北洋政府告终，北方军政改隶南京国民政府。日本多方阻挠东北与关内统一，而关东军之压力反使奉系内部倾向易帜。12月29日，张学良通电奉天、吉林、黑龙江、热河改悬青天白日满地红旗，奉天省改称辽宁省，东北军换帜而不换旗号编制。此举使南京国民政府在名义上完成全国统一，也在东北与日本的既得利益之间留下裂口。张学良、张作相未入人物库，本条不设人物引用。

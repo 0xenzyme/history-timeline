@@ -1,0 +1,32 @@
+---
+id: jiuyiba-shibian
+status: published
+name: 九一八事变
+type: military
+catalogs:
+  - military
+  - history
+scale: engagement
+importance: 3
+year: 1931
+yearAccuracy: exact
+yearNote: 1931年9月18日夜关东军炸柳条湖铁路、攻北大营，9月19日沈阳陷落，东北数省随后沦入敌手。
+place: 柳条湖
+placeNow: 今辽宁沈阳北郊
+belligerents:
+  - minguo
+  - riben
+result: 北大营失守，沈阳陷落，东北沦陷始于此夜
+aliases:
+  - 沈阳事变
+sources:
+  - work: 中华民国史事日志
+    part: 1931年9月18日
+    note: 是夜关东军攻北大营，9月19日沈阳陷落
+    kind: modern
+  - work: 中国抗日战争史
+    part: 九一八事变相关章节
+    kind: modern
+---
+
+1931年9月18日夜，日军关东军在沈阳北郊柳条湖炸坏一段铁路，反指中国军所为，随即进攻北大营与沈阳城。东北军奉不抵抗之令退走，9月19日沈阳陷落，数日间辽阳、营口、长春、吉林相继失守。此后五年，东北三省与热河陆续沦入敌手，地方武装与民众转入游击。九一八是十四年局部抗战的起点，也是当时国内外政局急转的枢纽。蒋介石、张学良、马占山未入人物库，本条不设人物引用。

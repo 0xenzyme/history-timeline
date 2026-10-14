@@ -51480,6 +51480,23 @@
     "topicTitle": "军事"
   },
   {
+    "id": "baituan-dazhan",
+    "name": "百团大战",
+    "display": "百团大战",
+    "kind": "event",
+    "year": 1940,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1940
+  },
+  {
     "id": "baituanwei-zhizhan",
     "name": "白团卫村之战",
     "display": "白团卫村之战",
@@ -51753,6 +51770,23 @@
     "importance": 2,
     "topicId": "military",
     "topicTitle": "军事"
+  },
+  {
+    "id": "changzheng",
+    "name": "长征",
+    "display": "长征",
+    "kind": "event",
+    "year": 1934,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1936
   },
   {
     "id": "chen-tang-gong-zhizhi",
@@ -52175,6 +52209,39 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": 1234
+  },
+  {
+    "id": "dujiang-zhanyi",
+    "name": "渡江战役",
+    "display": "渡江战役",
+    "kind": "event",
+    "year": 1949,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1949
+  },
+  {
+    "id": "erci-geming",
+    "name": "二次革命",
+    "display": "二次革命",
+    "kind": "event",
+    "year": 1913,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
   },
   {
     "id": "eyu-zhizhan",
@@ -52843,6 +52910,23 @@
     "topicTitle": "军事"
   },
   {
+    "id": "huguo-zhanzheng",
+    "name": "护国战争",
+    "display": "护国战争",
+    "kind": "event",
+    "year": 1915,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1916
+  },
+  {
     "id": "huibu-zhanzheng",
     "name": "回部之役",
     "display": "回部之役",
@@ -53152,6 +53236,22 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": -490
+  },
+  {
+    "id": "jiuyiba-shibian",
+    "name": "九一八事变",
+    "display": "九一八事变",
+    "kind": "event",
+    "year": 1931,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
   },
   {
     "id": "kaixi-beifa",
@@ -53764,6 +53864,38 @@
     "topicTitle": "军事"
   },
   {
+    "id": "nanchang-qiyi",
+    "name": "南昌起义",
+    "display": "南昌起义",
+    "kind": "event",
+    "year": 1927,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "nanjing-xianluo",
+    "name": "南京陷落",
+    "display": "南京陷落",
+    "kind": "event",
+    "year": 1937,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "nantang-mie-chu",
     "name": "南唐灭楚",
     "display": "南唐灭楚",
@@ -54216,6 +54348,38 @@
     "topicTitle": "军事"
   },
   {
+    "id": "qiqishi-shibian",
+    "name": "七七事变",
+    "display": "七七事变",
+    "kind": "event",
+    "year": 1937,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "qiushou-qiyi",
+    "name": "秋收起义",
+    "display": "秋收起义",
+    "kind": "event",
+    "year": 1927,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "saerhu-zhizhan",
     "name": "萨尔浒之战",
     "display": "萨尔浒之战",
@@ -54246,6 +54410,23 @@
     "importance": 2,
     "topicId": "military",
     "topicTitle": "军事"
+  },
+  {
+    "id": "sanda-zhanyi",
+    "name": "三大战役",
+    "display": "三大战役",
+    "kind": "event",
+    "year": 1948,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1949
   },
   {
     "id": "sandian-zheng-gaoliuli",
@@ -54506,6 +54687,23 @@
     "topicTitle": "军事"
   },
   {
+    "id": "songhu-huizhan",
+    "name": "淞沪会战",
+    "display": "淞沪会战",
+    "kind": "event",
+    "year": 1937,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1937
+  },
+  {
     "id": "songjin-zhizhan",
     "name": "松锦之战",
     "display": "松锦之战",
@@ -54623,6 +54821,22 @@
     "endYear": 411
   },
   {
+    "id": "taierzhuang-zhanyi",
+    "name": "台儿庄战役",
+    "display": "台儿庄战役",
+    "kind": "event",
+    "year": 1938,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "taijian-beifa",
     "name": "太建北伐",
     "display": "太建北伐",
@@ -54655,6 +54869,23 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": 1864
+  },
+  {
+    "id": "taipingyang-zhanzheng",
+    "name": "太平洋战争",
+    "display": "太平洋战争",
+    "kind": "event",
+    "year": 1941,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1945
   },
   {
     "id": "taishi-zhihuo",
@@ -55031,6 +55262,23 @@
     "importance": 2,
     "topicId": "military",
     "topicTitle": "军事"
+  },
+  {
+    "id": "wuhan-huizhan",
+    "name": "武汉会战",
+    "display": "武汉会战",
+    "kind": "event",
+    "year": 1938,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 1938
   },
   {
     "id": "wuyue-zhanzheng",
@@ -56253,6 +56501,23 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "baituan-dazhan",
+    "name": "百团大战",
+    "display": "百团大战",
+    "kind": "event",
+    "year": 1940,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1940
+  },
+  {
     "id": "baituanwei-zhizhan",
     "name": "白团卫村之战",
     "display": "白团卫村之战",
@@ -56314,6 +56579,22 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 306
+  },
+  {
+    "id": "beifa-zhanzheng",
+    "name": "北伐战争",
+    "display": "北伐战争",
+    "kind": "event",
+    "year": 1926,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1928
   },
   {
     "id": "beihan-jianli",
@@ -56679,6 +56960,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "chaju-zhidu",
+    "name": "察举制确立",
+    "display": "察举制确立",
+    "kind": "event",
+    "year": -134,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "changping-zhizhan",
     "name": "长平之战",
     "display": "长平之战",
@@ -56725,6 +57021,23 @@
     "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
+  },
+  {
+    "id": "changzheng",
+    "name": "长征",
+    "display": "长征",
+    "kind": "event",
+    "year": 1934,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1936
   },
   {
     "id": "chanyuan-zhimeng",
@@ -56777,6 +57090,21 @@
     "display": "诸侯城楚丘封卫",
     "kind": "event",
     "year": -658,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "chenghan-jianli",
+    "name": "李雄建成汉",
+    "display": "李雄建成汉",
+    "kind": "event",
+    "year": 304,
     "yearAccuracy": "exact",
     "type": "political",
     "catalogs": [
@@ -57386,6 +57714,21 @@
     "endYear": 192
   },
   {
+    "id": "dongbei-yizhi",
+    "name": "东北易帜",
+    "display": "东北易帜",
+    "kind": "event",
+    "year": 1928,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "donglin-dangjin",
     "name": "东林党禁",
     "display": "东林党禁",
@@ -57451,6 +57794,23 @@
     "endYear": 1234
   },
   {
+    "id": "dujiang-zhanyi",
+    "name": "渡江战役",
+    "display": "渡江战役",
+    "kind": "event",
+    "year": 1949,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1949
+  },
+  {
     "id": "dujiangyan",
     "name": "都江堰",
     "display": "都江堰",
@@ -57488,6 +57848,37 @@
     "year": 1457,
     "yearAccuracy": "exact",
     "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "erci-geming",
+    "name": "二次革命",
+    "display": "二次革命",
+    "kind": "event",
+    "year": 1913,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "ershiyi-tiao",
+    "name": "二十一条",
+    "display": "二十一条",
+    "kind": "event",
+    "year": 1915,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
     "catalogs": [
       "history"
     ],
@@ -57857,6 +58248,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "gongchandang-chengli",
+    "name": "中国共产党成立",
+    "display": "中国共产党成立",
+    "kind": "event",
+    "year": 1921,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "gonghe-xingzheng",
     "name": "共和行政",
     "display": "共和行政",
@@ -57957,6 +58363,21 @@
     "display": "郭威建周",
     "kind": "event",
     "year": 951,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "guomindang-yida",
+    "name": "国民党一大",
+    "display": "国民党一大",
+    "kind": "event",
+    "year": 1924,
     "yearAccuracy": "exact",
     "type": "political",
     "catalogs": [
@@ -58314,6 +58735,21 @@
     "endYear": 552
   },
   {
+    "id": "houliang-jianli",
+    "name": "吕光建后凉",
+    "display": "吕光建后凉",
+    "kind": "event",
+    "year": 386,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "houshu-chengshu",
     "name": "范晔撰《后汉书》",
     "display": "后汉书成书",
@@ -58458,6 +58894,21 @@
     "endYear": 185
   },
   {
+    "id": "huangpu-jianjun",
+    "name": "黄埔建军",
+    "display": "黄埔建军",
+    "kind": "event",
+    "year": 1924,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "huangtiandang-zhizhan",
     "name": "黄天荡之战",
     "display": "黄天荡之战",
@@ -58570,6 +59021,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "hufa-yundong",
+    "name": "护法运动",
+    "display": "护法运动",
+    "kind": "event",
+    "year": 1917,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1922
+  },
+  {
     "id": "hufu-qishe",
     "name": "胡服骑射",
     "display": "胡服骑射",
@@ -58583,6 +59050,23 @@
     "importance": 3,
     "topicId": "history",
     "topicTitle": "历史事件"
+  },
+  {
+    "id": "huguo-zhanzheng",
+    "name": "护国战争",
+    "display": "护国战争",
+    "kind": "event",
+    "year": 1915,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1916
   },
   {
     "id": "huiban-jinjing",
@@ -59218,6 +59702,37 @@
     "endYear": -490
   },
   {
+    "id": "jiupin-zhongzheng",
+    "name": "九品中正制确立",
+    "display": "九品中正制确立",
+    "kind": "event",
+    "year": 220,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "jiuyiba-shibian",
+    "name": "九一八事变",
+    "display": "九一八事变",
+    "kind": "event",
+    "year": 1931,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "junjichu-sheli",
     "name": "军机处设立",
     "display": "军机处设立",
@@ -59264,6 +59779,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 741
+  },
+  {
+    "id": "kangzhan-shengli",
+    "name": "抗战胜利与台湾光复",
+    "display": "抗战胜利",
+    "kind": "event",
+    "year": 1945,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "ke-zhihui",
@@ -59452,6 +59982,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 923
+  },
+  {
+    "id": "liangshui-fa",
+    "name": "两税法",
+    "display": "两税法",
+    "kind": "event",
+    "year": 780,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "liangzhou-huimeng",
@@ -59942,6 +60487,37 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "maijishan-shiku",
+    "name": "麦积山石窟开凿",
+    "display": "麦积山石窟",
+    "kind": "event",
+    "year": 384,
+    "yearAccuracy": "approx",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "makepoluo-laihua",
+    "name": "马可波罗来华",
+    "display": "马可波罗",
+    "kind": "event",
+    "year": 1271,
+    "yearAccuracy": "approx",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1291
+  },
+  {
     "id": "maling-zhizhan",
     "name": "马陵之战",
     "display": "马陵之战",
@@ -60331,6 +60907,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "nanchang-qiyi",
+    "name": "南昌起义",
+    "display": "南昌起义",
+    "kind": "event",
+    "year": 1927,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "nanhan-jianli",
     "name": "南汉建立",
     "display": "南汉建立",
@@ -60342,6 +60934,22 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "nanjing-xianluo",
+    "name": "南京陷落",
+    "display": "南京陷落",
+    "kind": "event",
+    "year": 1937,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -60684,6 +61292,37 @@
     "display": "前蜀建立",
     "kind": "event",
     "year": 907,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qiantang-shi",
+    "name": "日本遣唐使",
+    "display": "遣唐使",
+    "kind": "event",
+    "year": 630,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 838
+  },
+  {
+    "id": "qianyan-jianguo",
+    "name": "慕容皝建前燕",
+    "display": "慕容皝建前燕",
+    "kind": "event",
+    "year": 337,
     "yearAccuracy": "exact",
     "type": "political",
     "catalogs": [
@@ -61056,6 +61695,53 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "qiqishi-shibian",
+    "name": "七七事变",
+    "display": "七七事变",
+    "kind": "event",
+    "year": 1937,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qiushou-qiyi",
+    "name": "秋收起义",
+    "display": "秋收起义",
+    "kind": "event",
+    "year": 1927,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "quanmian-neizhan",
+    "name": "全面内战爆发",
+    "display": "全面内战爆发",
+    "kind": "event",
+    "year": 1946,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "quwo-daiyi",
     "name": "曲沃代翼",
     "display": "曲沃代翼",
@@ -61116,6 +61802,23 @@
     "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
+  },
+  {
+    "id": "sanda-zhanyi",
+    "name": "三大战役",
+    "display": "三大战役",
+    "kind": "event",
+    "year": 1948,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1949
   },
   {
     "id": "sandian-zheng-gaoliuli",
@@ -61559,6 +62262,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "siershi-zhengbian",
+    "name": "四一二政变",
+    "display": "四一二政变",
+    "kind": "event",
+    "year": 1927,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "siku-quanshu",
     "name": "《四库全书》纂修",
     "display": "《四库全书》纂修",
@@ -61605,6 +62323,23 @@
     "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
+  },
+  {
+    "id": "songhu-huizhan",
+    "name": "淞沪会战",
+    "display": "淞沪会战",
+    "kind": "event",
+    "year": 1937,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1937
   },
   {
     "id": "songjin-zhizhan",
@@ -61739,6 +62474,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "taierzhuang-zhanyi",
+    "name": "台儿庄战役",
+    "display": "台儿庄战役",
+    "kind": "event",
+    "year": 1938,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "taihe-gaizhi",
     "name": "太和改制",
     "display": "太和改制",
@@ -61805,6 +62556,23 @@
     "endYear": 1864
   },
   {
+    "id": "taipingyang-zhanzheng",
+    "name": "太平洋战争",
+    "display": "太平洋战争",
+    "kind": "event",
+    "year": 1941,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1945
+  },
+  {
     "id": "taishi-zhihuo",
     "name": "泰始之祸",
     "display": "泰始之祸",
@@ -61843,6 +62611,21 @@
     "display": "太武帝灭佛",
     "kind": "event",
     "year": 446,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "taixue-yu-boshi-dizi",
+    "name": "太学与博士弟子立",
+    "display": "太学立",
+    "kind": "event",
+    "year": -124,
     "yearAccuracy": "exact",
     "type": "institutional",
     "catalogs": [
@@ -62563,6 +63346,23 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "wuhan-huizhan",
+    "name": "武汉会战",
+    "display": "武汉会战",
+    "kind": "event",
+    "year": 1938,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1938
+  },
+  {
     "id": "wuqi-bianfa",
     "name": "吴起变法",
     "display": "吴起变法",
@@ -62577,6 +63377,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": -381
+  },
+  {
+    "id": "wusi-yundong",
+    "name": "五四运动",
+    "display": "五四运动",
+    "kind": "event",
+    "year": 1919,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "wuxu-bianfa",
@@ -62646,6 +63461,36 @@
     "display": "武周建立",
     "kind": "event",
     "year": 690,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "xia-jianguo",
+    "name": "赫连勃勃建夏",
+    "display": "赫连勃勃建夏",
+    "kind": "event",
+    "year": 407,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "xian-shibian",
+    "name": "西安事变",
+    "display": "西安事变",
+    "kind": "event",
+    "year": 1936,
     "yearAccuracy": "exact",
     "type": "political",
     "catalogs": [
@@ -63000,6 +63845,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "xinwenhua-yundong",
+    "name": "新文化运动",
+    "display": "新文化运动",
+    "kind": "event",
+    "year": 1915,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 1923
+  },
+  {
     "id": "xinyou-zhengbian",
     "name": "辛酉政变",
     "display": "辛酉政变",
@@ -63298,6 +64159,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "yantie-huiyi",
+    "name": "盐铁会议",
+    "display": "盐铁会议",
+    "kind": "event",
+    "year": -81,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "yanying-zhizhan",
     "name": "鄢郢之战（白起拔郢）",
     "display": "鄢郢之战",
@@ -63440,6 +64316,22 @@
     "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
+  },
+  {
+    "id": "yijing-sengzhi",
+    "name": "南北朝译经与僧团制度",
+    "display": "译经与僧制",
+    "kind": "event",
+    "year": 379,
+    "yearAccuracy": "approx",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 569
   },
   {
     "id": "yili-heyue",
@@ -64028,6 +64920,21 @@
     "endYear": 465
   },
   {
+    "id": "zhang-xun-fubi",
+    "name": "张勋复辟",
+    "display": "张勋复辟",
+    "kind": "event",
+    "year": 1917,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "zhang-yichao-guifu-hexi",
     "name": "张议潮归复河西",
     "display": "归复河西",
@@ -64073,6 +64980,21 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "zhangqian-tong-xiyu",
+    "name": "张骞通西域",
+    "display": "张骞通西域",
+    "kind": "event",
+    "year": -138,
+    "yearAccuracy": "approx",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -64280,6 +65202,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 1215
+  },
+  {
+    "id": "zhonghua-minguo-chengli",
+    "name": "中华民国临时政府成立",
+    "display": "中华民国成立",
+    "kind": "event",
+    "year": 1912,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "zhonghui-dengai-mieshu",
@@ -64579,5 +65516,20 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 321
+  },
+  {
+    "id": "zuyongdiao-zhidu",
+    "name": "租庸调制定",
+    "display": "租庸调",
+    "kind": "event",
+    "year": 624,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   }
 ]

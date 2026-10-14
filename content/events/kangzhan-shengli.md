@@ -1,0 +1,32 @@
+---
+id: kangzhan-shengli
+status: published
+name: 抗战胜利与台湾光复
+display: 抗战胜利
+type: political
+catalogs:
+  - history
+importance: 3
+year: 1945
+yearAccuracy: exact
+yearNote: 1945年8月15日日本宣布无条件投降，9月2日签署投降书，9月9日中国战区受降，10月25日台湾光复。
+place: 南京
+placeNow: 今江苏南京
+polity:
+  - minguo
+result: 日本投降，台湾、澎湖列岛归还中国
+aliases:
+  - 抗日战争胜利
+  - 台湾光复
+  - 日本投降
+sources:
+  - work: 中华民国史事日志
+    part: 1945年10月25日
+    note: 日本投降书签署于9月2日，9月9日中国战区受降，10月25日台湾光复
+    kind: modern
+  - work: 中国抗日战争史
+    part: 受降与台湾光复相关章节
+    kind: modern
+---
+
+1945年8月15日，日本宣布无条件投降，9月2日在东京湾签署投降书。9月9日，中国战区受降典礼在南京举行，日军缴械集中。10月25日，台湾、澎湖列岛受降与光复典礼在台北举行，台湾自此复归。抗战八年，中国付出极大的人员与财产代价，收复失地与废除部分不平等条约也同时进行。胜利之后，接收与复员即生弊病，国共矛盾迅速转为全面内战。蒋介石、何应钦、冈村宁次未入人物库，本条不设人物引用。

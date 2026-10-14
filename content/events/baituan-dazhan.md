@@ -1,0 +1,34 @@
+---
+id: baituan-dazhan
+status: published
+name: 百团大战
+type: military
+catalogs:
+  - military
+  - history
+scale: campaign
+importance: 2
+year: 1940
+yearAccuracy: exact
+yearNote: 1940年8月20日起八路军在华北破袭日军交通线，因参战力逾百团而称百团大战，至12月上旬收束。
+endYear: 1940
+endYearAccuracy: exact
+place: 正太铁路
+placeNow: 今河北石家庄至山西太原一带
+belligerents:
+  - minguo
+  - riben
+result: 破袭日军交通线，八路军在敌后发起大规模攻势
+aliases:
+  - 百团大破袭战
+sources:
+  - work: 中华民国史事日志
+    part: 1940年8月20日
+    note: 八路军在华北破袭正太铁路，参战力逾百团
+    kind: modern
+  - work: 中国抗日战争史
+    part: 百团大战相关章节
+    kind: modern
+---
+
+1940年，日军以铁路、公路与据点分割华北根据地，反复清乡扫荡。8月20日，八路军在华北交通线同时动手，以破袭正太铁路为中心，波及同蒲、平汉、津浦、平绥诸线，参战兵力一百零五个团上下，故称百团大战。作战历时三个半月，破路炸桥、拔除据点，也付出相当大的伤亡。此役之后，日军加码对华北根据地的扫荡与三光政策，而中共在华北的军政基础经此一战更为巩固。彭德怀、左权未入人物库，本条不设人物引用。

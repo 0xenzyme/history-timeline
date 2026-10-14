@@ -1,0 +1,33 @@
+---
+id: sanda-zhanyi
+status: published
+name: 三大战役
+type: military
+catalogs:
+  - military
+  - history
+scale: war
+importance: 3
+year: 1948
+yearAccuracy: exact
+yearNote: 辽沈战役1948年9月12日至11月2日，淮海战役1948年11月6日至1949年1月10日，平津战役1948年11月29日至1949年1月31日。
+endYear: 1949
+endYearAccuracy: exact
+belligerents:
+  - minguo
+  - jiefangjun
+result: 国民党军主力被歼，长江以北大局已定
+aliases:
+  - 战略决战
+  - 辽沈淮海平津三大战役
+sources:
+  - work: 中华民国史事日志
+    part: 1948年9月12日
+    note: 辽沈战役始于9月12日，淮海、平津相继展开，至1949年1月10日终战
+    kind: modern
+  - work: 中华民国史
+    part: 三大战役相关章节
+    kind: modern
+---
+
+1948年9月12日，辽沈战役开始，东北野战军攻锦州、围长春、克沈阳，11月2日东北全境解放。11月6日淮海战役展开，中原、华东野战军以徐州为中心，先后歼黄百韬、黄维、杜聿明诸兵团，1949年1月10日结束。11月29日平津战役起，东北军入关，天津29小时而下，北平以和平方式移交，1949年1月31日收场。三大战役歼国民党军主力一百五十余万，中国北方的军政版图自此重定。林彪、粟裕、刘伯承、傅作义未入人物库，本条不设人物引用。

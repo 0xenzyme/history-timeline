@@ -1,0 +1,30 @@
+---
+id: guomindang-yida
+status: published
+name: 国民党一大
+type: political
+catalogs:
+  - history
+importance: 3
+year: 1924
+yearAccuracy: exact
+yearNote: 1924年1月20日至30日中国国民党第一次全国代表大会在广州召开，宣言确立联俄、容共、扶助农工。
+place: 广州
+placeNow: 今广东广州
+polity:
+  - minguo
+result: 国民党改组，第一次国共合作形成
+aliases:
+  - 第一次国共合作
+  - 国民党改组
+sources:
+  - work: 中华民国史事日志
+    part: 1924年1月20日
+    note: 中国国民党第一次全国代表大会在广州开幕
+    kind: modern
+  - work: 中华民国史
+    part: 国民党一大与国共合作相关章节
+    kind: modern
+---
+
+1924年1月20日至30日，中国国民党第一次全国代表大会在广州召开。大会改组国民党，通过宣言，确立联俄、容共、扶助农工三项政策，允许共产党员以个人身份加入国民党，同时改组中央与基层组织。这是孙中山联俄政策的落地，也是国共两党第一次合作的起点。合作之后，国民党得到苏俄的军援与办校经验，两党的工农组织工作同时铺开，广东成为北伐的后方。孙中山、廖仲恺、胡汉民、鲍罗廷未入人物库，本条不设人物引用。

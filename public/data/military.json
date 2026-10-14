@@ -503,10 +503,10 @@
       ]
     },
     {
-      "id": "seg-ad19-ad20",
-      "label": "19—20 世纪",
+      "id": "seg-ad19",
+      "label": "19 世纪",
       "from": 1801,
-      "to": 1949,
+      "to": 1900,
       "events": [
         "tianlijiao-qiyi",
         "zhanggeer-zhiluan",
@@ -516,8 +516,31 @@
         "yapian-zhanzheng-xianfeng",
         "agubo-zhanzheng",
         "jiawu-zhanzheng",
-        "yihetuan-qiyi",
-        "wuchang-qiyi"
+        "yihetuan-qiyi"
+      ]
+    },
+    {
+      "id": "seg-ad20",
+      "label": "20 世纪",
+      "from": 1901,
+      "to": 1949,
+      "events": [
+        "wuchang-qiyi",
+        "erci-geming",
+        "huguo-zhanzheng",
+        "nanchang-qiyi",
+        "qiushou-qiyi",
+        "jiuyiba-shibian",
+        "changzheng",
+        "nanjing-xianluo",
+        "qiqishi-shibian",
+        "songhu-huizhan",
+        "taierzhuang-zhanyi",
+        "wuhan-huizhan",
+        "baituan-dazhan",
+        "taipingyang-zhanzheng",
+        "sanda-zhanyi",
+        "dujiang-zhanyi"
       ]
     }
   ],
@@ -1046,6 +1069,51 @@
           "work": "三国志",
           "part": "魏书·乌丸鲜卑东夷传",
           "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "baituan-dazhan",
+      "name": "百团大战",
+      "display": "百团大战",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 1940,
+      "yearAccuracy": "exact",
+      "yearNote": "1940年8月20日起八路军在华北破袭日军交通线，因参战力逾百团而称百团大战，至12月上旬收束。",
+      "endYear": 1940,
+      "endYearAccuracy": "exact",
+      "place": "正太铁路",
+      "placeNow": "今河北石家庄至山西太原一带",
+      "belligerents": [
+        "minguo",
+        "riben"
+      ],
+      "result": "破袭日军交通线，八路军在敌后发起大规模攻势",
+      "aliases": [
+        "百团大破袭战"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1940年，日军以铁路、公路与据点分割华北根据地，反复清乡扫荡。8月20日，八路军在华北交通线同时动手，以破袭正太铁路为中心，波及同蒲、平汉、津浦、平绥诸线，参战兵力一百零五个团上下，故称百团大战。作战历时三个半月，破路炸桥、拔除据点，也付出相当大的伤亡。此役之后，日军加码对华北根据地的扫荡与三光政策，而中共在华北的军政基础经此一战更为巩固。彭德怀、左权未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1940年8月20日",
+          "note": "八路军在华北破袭正太铁路，参战力逾百团",
+          "kind": "modern"
+        },
+        {
+          "work": "中国抗日战争史",
+          "part": "百团大战相关章节",
+          "kind": "modern"
         }
       ]
     },
@@ -1945,6 +2013,49 @@
           "work": "春秋左傳正義卷07",
           "part": "raw/春秋/春秋左傳正義/卷07.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷07.md）",
           "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "changzheng",
+      "name": "长征",
+      "display": "长征",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1934,
+      "yearAccuracy": "exact",
+      "yearNote": "1934年10月中央红军自江西瑞金等地出发转移，1936年10月三大主力在甘肃会宁地区会师。",
+      "endYear": 1936,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "minguo",
+        "jiefangjun"
+      ],
+      "result": "中央红军到陕北，三大主力会师；红军骨干与中共重心移至西北",
+      "aliases": [
+        "战略转移",
+        "二万五千里长征"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1934年10月，中央红军自江西瑞金、雩都等地出发，撤离中央苏区，开始战略转移。红军西趋湘桂，转贵州，1935年1月遵义会议后指挥与战略均有改变；四渡赤水、巧渡金沙江、强渡大渡河、飞夺泸定桥，翻雪山过草地，1935年10月抵陕北吴起镇。1936年10月，红一、红二、红四方面军在甘肃会宁地区会师，万里行军结束。长征保存了红军的骨干与指挥体系，也使中共的重心移到抗日前线的西北。毛泽东、周恩来、朱德、张闻天未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中国共产党历史",
+          "part": "第一卷（1921—1949）长征相关章节",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "长征相关章节",
+          "kind": "modern"
         }
       ]
     },
@@ -3245,6 +3356,97 @@
           "work": "续资治通鉴",
           "part": "卷一百六十七",
           "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "dujiang-zhanyi",
+      "name": "渡江战役",
+      "display": "渡江战役",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 1949,
+      "yearAccuracy": "exact",
+      "yearNote": "1949年4月20日夜人民解放军发起渡江作战，4月23日占领南京，5月27日上海解放，战役收场。",
+      "endYear": 1949,
+      "endYearAccuracy": "exact",
+      "endYearNote": "同月上海解放，战役即告收场，故与 year 同年而纪其事。",
+      "place": "长江下游",
+      "placeNow": "今江苏江阴至安徽湖口一带",
+      "belligerents": [
+        "minguo",
+        "jiefangjun"
+      ],
+      "result": "占领南京，国民政府结束；民国最后一段国都与经济重心移手",
+      "aliases": [
+        "京沪杭战役"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1949年4月，北平和平移交之后，国共谈判仍破裂。4月20日夜，人民解放军第二、第三野战军百万之众自江阴至湖口一线渡江，一举撕开长江防线。4月23日占领南京，国民政府结束；随后分兵东取沪杭、南下皖浙赣。5月27日上海解放，渡江战役收场。此役把民国的最后一段国都与经济重心移手，也直接引出此后南方的追歼与新政权建都北平。毛泽东、朱德、粟裕、汤恩伯未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1949年4月20日",
+          "note": "4月20日夜发起渡江作战，4月23日占领南京，5月27日上海解放",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "渡江战役相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "erci-geming",
+      "name": "二次革命",
+      "display": "二次革命",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 1913,
+      "yearAccuracy": "exact",
+      "yearNote": "1913年3月宋教仁在上海车站被刺，7月12日李烈钧在江西湖口起兵讨袁，9月南京相继败绩，两月而败。",
+      "place": "湖口",
+      "placeNow": "今江西九江",
+      "polity": [
+        "minguo"
+      ],
+      "people": [
+        "yuan-shikai"
+      ],
+      "result": "湖口、南京起兵讨袁，两月俱败",
+      "aliases": [
+        "癸丑之役",
+        "赣宁之役"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1913年3月，宋教仁在上海车站被刺，国民党在国内的领袖受创。刺案之后，善后大借款又把财政交涉激成政争。7月12日，李烈钧在江西湖口宣布独立、起兵讨袁，黄兴等在南京响应，安徽、广东、湖南、福建数省相继宣告独立。袁世凯以北洋军沿铁路南下，先下江西，再取南京。9月1日南京陷落，各地相继取消独立，前后不足两月而败。国民党失去陆军与地盘，转入议会外活动。宋教仁、李烈钧、黄兴未入人物库，本条不设其人物引用；袁世凯已在人物库中，故列于 people。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1913年7月12日",
+          "note": "李烈钧在江西湖口举兵讨袁，前后两月而败",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "二次革命相关章节",
+          "kind": "modern"
         }
       ]
     },
@@ -5355,6 +5557,55 @@
       ]
     },
     {
+      "id": "huguo-zhanzheng",
+      "name": "护国战争",
+      "display": "护国战争",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 1915,
+      "yearAccuracy": "exact",
+      "yearNote": "1915年12月25日云南宣布独立、护国军兴兵，1916年6月6日袁世凯死后战事告结。",
+      "endYear": 1916,
+      "endYearAccuracy": "exact",
+      "place": "云南",
+      "placeNow": "今云南一带",
+      "polity": [
+        "minguo"
+      ],
+      "people": [
+        "yuan-shikai",
+        "liang-qichao"
+      ],
+      "result": "洪宪帝制撤销，袁世凯死，帝制再遭失败",
+      "aliases": [
+        "护国运动",
+        "洪宪帝制",
+        "云南起义"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1915年12月，袁世凯接受帝制，改元洪宪，国内反对四起。12月25日，云南宣布独立，组织护国军，分路入川、入桂，护国战起。护国军初兵少，而各省相继独立，贵州、广西、广东、浙江、陕西先后加入。1916年3月22日，袁世凯撤销帝制，仍称大总统；6月6日袁世凯死，帝制与洪宪年号俱废。梁启超先在津沪之间谋划，后入粤参赞军务，两广独立与他有关。此役之后，北洋集团分裂，中央威令不出都门。蔡锷、唐继尧、李烈钧未入人物库，本条不设其人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1915年12月25日",
+          "note": "云南宣布独立，组织护国军兴兵讨袁",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "护国战争相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
       "id": "huibu-zhanzheng",
       "name": "回部之役",
       "display": "回部之役",
@@ -6310,6 +6561,49 @@
           "work": "史記卷039-晉世家",
           "part": "raw/先秦-西汉/史記/卷039-晉世家.md",
           "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jiuyiba-shibian",
+      "name": "九一八事变",
+      "display": "九一八事变",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "engagement",
+      "importance": 3,
+      "year": 1931,
+      "yearAccuracy": "exact",
+      "yearNote": "1931年9月18日夜关东军炸柳条湖铁路、攻北大营，9月19日沈阳陷落，东北数省随后沦入敌手。",
+      "place": "柳条湖",
+      "placeNow": "今辽宁沈阳北郊",
+      "belligerents": [
+        "minguo",
+        "riben"
+      ],
+      "result": "北大营失守，沈阳陷落，东北沦陷始于此夜",
+      "aliases": [
+        "沈阳事变"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1931年9月18日夜，日军关东军在沈阳北郊柳条湖炸坏一段铁路，反指中国军所为，随即进攻北大营与沈阳城。东北军奉不抵抗之令退走，9月19日沈阳陷落，数日间辽阳、营口、长春、吉林相继失守。此后五年，东北三省与热河陆续沦入敌手，地方武装与民众转入游击。九一八是十四年局部抗战的起点，也是当时国内外政局急转的枢纽。蒋介石、张学良、马占山未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1931年9月18日",
+          "note": "是夜关东军攻北大营，9月19日沈阳陷落",
+          "kind": "modern"
+        },
+        {
+          "work": "中国抗日战争史",
+          "part": "九一八事变相关章节",
+          "kind": "modern"
         }
       ]
     },
@@ -8115,6 +8409,91 @@
       ]
     },
     {
+      "id": "nanchang-qiyi",
+      "name": "南昌起义",
+      "display": "南昌起义",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 1927,
+      "yearAccuracy": "exact",
+      "yearNote": "1927年8月1日南昌起义爆发，8日起义军退出南昌南下；此日后为建军节。",
+      "place": "南昌",
+      "placeNow": "今江西南昌",
+      "polity": [
+        "minguo"
+      ],
+      "result": "起义军占南昌后南下，转入游击与根据地建设",
+      "aliases": [
+        "八一南昌起义",
+        "南昌暴动"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1927年8月1日，南昌起义爆发，周恩来、贺龙、叶挺、朱德、刘伯承等率部占领南昌。起义军数日后退出南昌，沿赣南、闽西南下，沿途作战损失颇大，余部分别转入游击与粤东。此役打响武装反抗清党的第一枪，此后中共走上了独立建军之路。部队虽未在江西扎住根，但其骨干成为后来各支红军的基础。周恩来、贺龙、叶挺、朱德、刘伯承未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1927年8月1日",
+          "note": "南昌起义爆发，8日退出南昌南下",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "南昌起义相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "nanjing-xianluo",
+      "name": "南京陷落",
+      "display": "南京陷落",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1937,
+      "yearAccuracy": "exact",
+      "yearNote": "1937年12月13日南京陷落，日军入城后对军人与平民实施大规模屠杀与暴行。",
+      "place": "南京",
+      "placeNow": "今江苏南京",
+      "belligerents": [
+        "minguo",
+        "riben"
+      ],
+      "result": "南京陷落，国民政府迁重庆继续抗战",
+      "aliases": [
+        "南京失守"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1937年12月初，日军围攻南京，中国守军在城郊逐日作战。12月13日南京陷落，日军入城后对已放下武器的军人与平民实施大规模屠杀、焚烧与奸淫，史称南京大屠杀。死难人数各说不一，审判与研究的数字也互有出入，本条不写入具体数字。国民政府与军事机关早已迁重庆，长江下游的战事转入山地与湖泊地带。南京陷落是抗战第一个冬天最沉重的记忆，也是此后审判日本战犯的核心罪状。唐生智、萧山令未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1937年12月13日",
+          "note": "日军入南京，对军人与平民施大规模暴行",
+          "kind": "modern"
+        },
+        {
+          "work": "中国抗日战争史",
+          "part": "南京陷落相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
       "id": "nantang-mie-chu",
       "name": "南唐灭楚",
       "display": "南唐灭楚",
@@ -9489,6 +9868,90 @@
       ]
     },
     {
+      "id": "qiqishi-shibian",
+      "name": "七七事变",
+      "display": "七七事变",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1937,
+      "yearAccuracy": "exact",
+      "yearNote": "1937年7月7日夜日军在卢沟桥附近挑衅并进攻宛平城，7月底平津失守。",
+      "place": "卢沟桥",
+      "placeNow": "今北京丰台",
+      "belligerents": [
+        "minguo",
+        "riben"
+      ],
+      "result": "卢沟桥事变爆发，全面抗战开始",
+      "aliases": [
+        "卢沟桥事变"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1937年7月7日夜，日军在北平西南卢沟桥附近演习，借口一名士兵失踪，要求进入宛平城搜查，遭拒后向中国守军开火。守军第七十七师吉星文部还击，北平方面与日军交涉，而日军陆续增兵入关。7月底北平、天津相继失守。此役把1931年以来的局部抗战推向全面战争，国民政府随即安排大搬迁与总动员，红军改编为国民革命军第八路军，抗日民族统一战线正式形成。蒋介石、宋哲元、吉星文未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1937年7月7日",
+          "note": "日军攻卢沟桥，攻宛平城，7月底平津失守",
+          "kind": "modern"
+        },
+        {
+          "work": "中国抗日战争史",
+          "part": "七七事变相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "qiushou-qiyi",
+      "name": "秋收起义",
+      "display": "秋收起义",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 2,
+      "year": 1927,
+      "yearAccuracy": "exact",
+      "yearNote": "1927年9月9日秋收起义军分三路攻长沙，文家市退兵后转向井冈山，10月建农村革命根据地。",
+      "place": "长沙",
+      "placeNow": "今湖南长沙",
+      "polity": [
+        "minguo"
+      ],
+      "result": "文家市退兵，转向井冈山建立根据地",
+      "aliases": [
+        "湘赣边界秋收起义"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1927年9月9日，湘赣边界秋收起义发动，起义军编为工农革命军，分三路攻长沙。长沙一带敌方兵力集中，各路军相继受挫，起义军退向浏阳文家市，决定放弃攻取中心城市。部队随即向罗霄山脉转向，10月在井冈山落脚，建立第一个农村革命根据地。这一转向把武装斗争、土地革命与根据地三者连成一体，成为此后红军的建军路线。毛泽东、卢德铭、余洒度未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1927年9月9日",
+          "note": "秋收起义军分三路攻长沙，受挫后退向文家市",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "秋收起义相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
       "id": "saerhu-zhizhan",
       "name": "萨尔浒之战",
       "display": "萨尔浒之战",
@@ -9594,6 +10057,50 @@
           "work": "续资治通鉴",
           "part": "卷四十二",
           "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "sanda-zhanyi",
+      "name": "三大战役",
+      "display": "三大战役",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1948,
+      "yearAccuracy": "exact",
+      "yearNote": "辽沈战役1948年9月12日至11月2日，淮海战役1948年11月6日至1949年1月10日，平津战役1948年11月29日至1949年1月31日。",
+      "endYear": 1949,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "minguo",
+        "jiefangjun"
+      ],
+      "result": "国民党军主力被歼，长江以北大局已定",
+      "aliases": [
+        "战略决战",
+        "辽沈淮海平津三大战役"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1948年9月12日，辽沈战役开始，东北野战军攻锦州、围长春、克沈阳，11月2日东北全境解放。11月6日淮海战役展开，中原、华东野战军以徐州为中心，先后歼黄百韬、黄维、杜聿明诸兵团，1949年1月10日结束。11月29日平津战役起，东北军入关，天津29小时而下，北平以和平方式移交，1949年1月31日收场。三大战役歼国民党军主力一百五十余万，中国北方的军政版图自此重定。林彪、粟裕、刘伯承、傅作义未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1948年9月12日",
+          "note": "辽沈战役始于9月12日，淮海、平津相继展开，至1949年1月10日终战",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "三大战役相关章节",
+          "kind": "modern"
         }
       ]
     },
@@ -10437,6 +10944,52 @@
       ]
     },
     {
+      "id": "songhu-huizhan",
+      "name": "淞沪会战",
+      "display": "淞沪会战",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 1937,
+      "yearAccuracy": "exact",
+      "yearNote": "1937年8月13日日军攻上海，11月12日上海失守，会战历时三个月。",
+      "endYear": 1937,
+      "endYearAccuracy": "exact",
+      "place": "上海",
+      "placeNow": "今上海",
+      "belligerents": [
+        "minguo",
+        "riben"
+      ],
+      "result": "上海失守，日军西趋南京",
+      "aliases": [
+        "八一三事变",
+        "淞沪抗战"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1937年8月13日，日军攻上海，淞沪会战爆发。中国军队投入中央军与各省部队七十余万人，另以德式师与空军逐日消耗，战事延至11月9日。日军三次在杭州湾登陆侧翼，11月12日上海失守。此役规模与损耗空前，国民政府的精锐与外国资产一并西撤，长江下游的军政、工业与人口向内地转移。兵力与伤亡数字各方记载不一，本条不写入数字。蒋介石、张治中、冯玉祥、谢晋元未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1937年8月13日",
+          "note": "日军攻上海，11月12日上海失守",
+          "kind": "modern"
+        },
+        {
+          "work": "中国抗日战争史",
+          "part": "淞沪会战相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
       "id": "songjin-zhizhan",
       "name": "松锦之战",
       "display": "松锦之战",
@@ -10831,6 +11384,49 @@
       ]
     },
     {
+      "id": "taierzhuang-zhanyi",
+      "name": "台儿庄战役",
+      "display": "台儿庄战役",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": 1938,
+      "yearAccuracy": "exact",
+      "yearNote": "1938年3月下旬起第五战区在台儿庄迎击濑谷支队，4月7日取得胜利。",
+      "place": "台儿庄",
+      "placeNow": "今山东枣庄台儿庄区",
+      "belligerents": [
+        "minguo",
+        "riben"
+      ],
+      "result": "台儿庄取胜，是正面战场的重要胜绩",
+      "aliases": [
+        "台儿庄大捷"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1938年春，日军濑谷支队沿津浦线南下，直趋徐州。第五战区李宗仁指挥，调集孙连仲第二集团军守台儿庄，汤恩伯第二十军团迂回包抄。巷战自3月下旬延至4月上旬，日军两次攻入庄内均被逐出，4月7日中国军队克复台儿庄，遗弃辎重与伤亡甚众。此役是全面抗战以来正面战场的第一次大捷，士气为之大振；徐州仍于5月放弃，会战转入下一个阶段。李宗仁、孙连仲、汤恩伯未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1938年4月",
+          "note": "第五战区在台儿庄迎击日军，4月上旬克台儿庄",
+          "kind": "modern"
+        },
+        {
+          "work": "中国抗日战争史",
+          "part": "台儿庄战役相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
       "id": "taijian-beifa",
       "name": "太建北伐",
       "display": "太建北伐",
@@ -10921,6 +11517,52 @@
           "part": "卷二十一",
           "note": "官軍克復江寧，洪秀全先自盡，其子福瑱遁，獲賊酋洪仁達、李秀成，江南平",
           "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "taipingyang-zhanzheng",
+      "name": "太平洋战争",
+      "display": "太平洋战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1941,
+      "yearAccuracy": "exact",
+      "yearNote": "1941年12月7日日本偷袭珍珠港，12月8日美英对日宣战，12月9日中华民国发布对日宣战文告。",
+      "endYear": 1945,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "minguo",
+        "meilijian",
+        "yingjili",
+        "riben"
+      ],
+      "result": "中国对日宣战，抗战与世界反法西斯战争连成一线",
+      "aliases": [
+        "太平洋战争爆发",
+        "中华民国对日宣战"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1941年12月7日，日本偷袭珍珠港，次日美英对日宣战，太平洋战争爆发。12月9日中华民国跟随宣战，此前四年多的不宣而战就此了结。战争从此成为世界战场的一部分，中国的战事与美英的南洋、太平洋作战连成一线，滇缅公路、租借物资与空军支援相继改观。日军为策应南洋作战，加强对华北、华中根据地的扫荡，中国战场的地位与消耗同时加重。蒋介石、罗斯福、丘吉尔未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1941年12月8日",
+          "note": "12月8日美英对日宣战，12月9日中华民国发布对日宣战文告",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "太平洋战争相关章节",
+          "kind": "modern"
         }
       ]
     },
@@ -12073,6 +12715,51 @@
           "work": "史记",
           "part": "卷四十三·卷043）",
           "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "wuhan-huizhan",
+      "name": "武汉会战",
+      "display": "武汉会战",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 1938,
+      "yearAccuracy": "exact",
+      "yearNote": "1938年6月起日军分路进攻武汉，10月25日武汉失守，抗战进入相持阶段。",
+      "endYear": 1938,
+      "endYearAccuracy": "exact",
+      "place": "武汉",
+      "placeNow": "今湖北武汉",
+      "belligerents": [
+        "minguo",
+        "riben"
+      ],
+      "result": "武汉失守，抗战转入相持",
+      "aliases": [
+        "武汉保卫战"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1938年6月，日军沿长江与淮河分路西进，武汉会战开始。中国军队在长江两岸、大别山与鄱阳湖一带逐次抵抗，第五、第九战区部队换防轮战，江南野战与要塞作战交错。10月25日武汉失守，日军亦无力继续西进。此役之后，日军兵力与补给见绌，停止战略进攻，抗战转入相持阶段；中共在敌后的游击战与根据地同时铺开，正面与敌后两条战线并立。陈诚、白崇禧、薛岳未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1938年10月25日",
+          "note": "日军攻武汉，10月25日武汉失守",
+          "kind": "modern"
+        },
+        {
+          "work": "中国抗日战争史",
+          "part": "武汉会战相关章节",
+          "kind": "modern"
         }
       ]
     },
