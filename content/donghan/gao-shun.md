@@ -1,0 +1,32 @@
+---
+id: gao-shun
+name: 高顺
+display: 高顺
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+primary: general
+birthAccuracy: unknown
+death: 199
+deathAccuracy: exact
+deathNote: 建安三年冬曹操围下邳，城破之日已在公元 199 年，顺与吕布、陈宫同被擒杀；《三国志·魏书·吕布传》未单书其卒日。
+title: 陷阵营之将，与布同死
+tags:
+  - 东汉
+  - 群雄
+aliases:
+  - 高顺
+  - 陷阵营
+sources:
+  - work: 三国志
+    part: 魏书·吕布传
+    kind: classic
+  - work: 英雄记
+    part: 裴松之注《三国志·魏书·吕布传》引
+    kind: classic
+---
+
+吕布帐下督将，为人清白有威严，不饮酒，不受馈遗。所将七百余兵，铠甲斗具皆精练齐整，每所攻击无不破者，号为「陷阵营」。建安三年（198）布遣顺攻刘备于沛，破之，又败夏侯惇之救；曹操乃自征布，围下邳。城陷，顺与布、陈宫俱被擒，同时见杀。旧记顺尝数谏布，布知其忠而不能用。

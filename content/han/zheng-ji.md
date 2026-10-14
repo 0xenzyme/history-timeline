@@ -1,0 +1,39 @@
+---
+id: zheng-ji
+name: 郑吉
+display: 郑吉
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - general
+primary: general
+birthAccuracy: unknown
+death: -60
+deathAccuracy: approx
+deathNote: 卒年不详。神爵二年（前 60）迎日逐王、并护北道而号为都护，是其行迹可考之年；其后封安远侯，年寿不复可见。取神爵二年为活动下限，非确凿卒年。
+title: 首任西域都护，西汉治西域自此始
+tags:
+  - 西汉
+  - 西域
+  - 名将
+aliases:
+  - 郑吉
+  - 安远侯
+sources:
+  - work: 汉书
+    part: 傅常郑甘陈段传
+    note: 会稽人、以卒伍从军数出西域、神爵二年迎日逐王、封安远侯据此
+    kind: classic
+  - work: 汉书
+    part: 西域传上
+    note: 「乃因使吉并护北道，故号曰都护。都护之起，自吉置矣」据此
+    kind: classic
+  - work: 汉书
+    part: 宣帝纪
+    note: 神爵二年匈奴日逐王先贤掸来降、使都护郑吉迎之据此
+    kind: classic
+---
+
+会稽人。以卒伍从军，善骑射，又习外国事，数出西域。宣帝时匈奴日逐王先贤掸，为虏所攻，将人众万余叩玉门关请降；吉发兵迎之，又由车师出击，破交河城。神爵二年（前 60），汉因使其并护北道，号曰都护，治乌垒城，督察乌孙、康居诸外国动静，可安辑者安辑之、可击者击之，并领屯田以供使者——西域都护之置，自吉始也。其后封安远侯。汉廷对西域由通使转为设官，西域正式纳入版图；东汉经营西域的三绝三通，皆以复置都护为标志。

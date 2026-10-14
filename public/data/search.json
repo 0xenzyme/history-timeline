@@ -2772,6 +2772,152 @@
     "death": -773
   },
   {
+    "id": "qin-ying",
+    "name": "秦嬴",
+    "display": "秦嬴",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "xizhou",
+    "topicTitle": "西周",
+    "title": "非子，始封于秦，秦之始祖",
+    "tags": [
+      "西周",
+      "秦",
+      "始祖"
+    ],
+    "categories": [
+      "vassal",
+      "founding"
+    ],
+    "primary": "vassal",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -855
+  },
+  {
+    "id": "lu-ligong",
+    "name": "鲁厉公",
+    "display": "鲁厉公",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "xizhou",
+    "topicTitle": "西周",
+    "title": "周之鲁君，周公之后",
+    "tags": [
+      "西周",
+      "鲁",
+      "姬姓"
+    ],
+    "categories": [
+      "vassal"
+    ],
+    "primary": "vassal",
+    "polity": [
+      "lu"
+    ],
+    "gender": "male",
+    "death": -828
+  },
+  {
+    "id": "song-ligong",
+    "name": "宋厉公",
+    "display": "宋厉公",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "xizhou",
+    "topicTitle": "西周",
+    "title": "周之宋君，微子之后",
+    "tags": [
+      "西周",
+      "宋",
+      "殷后"
+    ],
+    "categories": [
+      "vassal"
+    ],
+    "primary": "vassal",
+    "polity": [
+      "song-guo"
+    ],
+    "gender": "male",
+    "death": -831
+  },
+  {
+    "id": "wei-zhenbo",
+    "name": "卫贞伯",
+    "display": "卫贞伯",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "xizhou",
+    "topicTitle": "西周",
+    "title": "周之卫君，康叔之后",
+    "tags": [
+      "西周",
+      "卫",
+      "姬姓"
+    ],
+    "categories": [
+      "vassal"
+    ],
+    "primary": "vassal",
+    "polity": [
+      "wei-guo"
+    ],
+    "gender": "male",
+    "death": -870
+  },
+  {
+    "id": "guo-jizibai",
+    "name": "虢季子白",
+    "display": "虢季子白",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "xizhou",
+    "topicTitle": "西周",
+    "title": "宣王世虢君，伐猃狁而作盘",
+    "tags": [
+      "西周",
+      "虢",
+      "金文"
+    ],
+    "categories": [
+      "vassal"
+    ],
+    "primary": "vassal",
+    "polity": [
+      "zhou"
+    ],
+    "gender": "male",
+    "death": -816
+  },
+  {
+    "id": "e-hou-yufang",
+    "name": "鄂侯驭方",
+    "display": "鄂侯驭方",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "xizhou",
+    "topicTitle": "西周",
+    "title": "周之鄂侯，率东夷南淮夷内犯",
+    "tags": [
+      "西周",
+      "鄂",
+      "金文"
+    ],
+    "categories": [
+      "vassal",
+      "outsider"
+    ],
+    "primary": "vassal",
+    "polity": [
+      "e"
+    ],
+    "gender": "male",
+    "death": -771
+  },
+  {
     "id": "ji-yijiu",
     "name": "姬宜臼",
     "display": "周平王",
@@ -6886,6 +7032,202 @@
     "death": -481
   },
   {
+    "id": "zhu-zhiwu",
+    "name": "烛之武",
+    "display": "烛之武",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "缒城说秦，一言退晋秦之师",
+    "tags": [
+      "春秋",
+      "郑",
+      "辞令"
+    ],
+    "categories": [
+      "minister",
+      "diplomat"
+    ],
+    "primary": "diplomat",
+    "polity": [
+      "zheng"
+    ],
+    "gender": "male",
+    "death": -630
+  },
+  {
+    "id": "shen-baoxu",
+    "name": "申包胥",
+    "display": "申包胥",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "哭秦庭七日，乞师而复楚",
+    "tags": [
+      "春秋",
+      "楚",
+      "复国"
+    ],
+    "categories": [
+      "minister"
+    ],
+    "primary": "minister",
+    "polity": [
+      "chu"
+    ],
+    "gender": "male",
+    "death": -506
+  },
+  {
+    "id": "ji-zha",
+    "name": "季札",
+    "display": "季札",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "吴季札，让国而观周乐",
+    "tags": [
+      "春秋",
+      "吴",
+      "公子"
+    ],
+    "categories": [
+      "vassal"
+    ],
+    "primary": "vassal",
+    "polity": [
+      "wu-guo"
+    ],
+    "gender": "male",
+    "birth": -557,
+    "death": -547
+  },
+  {
+    "id": "xi-shi",
+    "name": "西施",
+    "display": "西施",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "越之美人，吴之所以亡",
+    "tags": [
+      "春秋",
+      "越",
+      "美人"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "yue"
+    ],
+    "gender": "female",
+    "death": -473
+  },
+  {
+    "id": "jian-shu",
+    "name": "蹇叔",
+    "display": "蹇叔",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "哭送秦师，知殽之不可袭",
+    "tags": [
+      "春秋",
+      "秦",
+      "远识"
+    ],
+    "categories": [
+      "minister",
+      "strategist"
+    ],
+    "primary": "strategist",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -628
+  },
+  {
+    "id": "shi-que",
+    "name": "石碏",
+    "display": "石碏",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "杀子以明大义，卫之纯臣",
+    "tags": [
+      "春秋",
+      "卫",
+      "大义灭亲"
+    ],
+    "categories": [
+      "minister"
+    ],
+    "primary": "minister",
+    "polity": [
+      "wei-guo"
+    ],
+    "gender": "male",
+    "death": -714
+  },
+  {
+    "id": "xi-ke",
+    "name": "郤克",
+    "display": "郤克",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "晋之执政，鞌之战以雪齐之辱",
+    "tags": [
+      "春秋",
+      "晋",
+      "执政"
+    ],
+    "categories": [
+      "minister",
+      "diplomat"
+    ],
+    "primary": "diplomat",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "death": -587
+  },
+  {
+    "id": "shi-kuang",
+    "name": "师旷",
+    "display": "师旷",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "chunqiu",
+    "topicTitle": "春秋",
+    "title": "晋之乐师，以道事君",
+    "tags": [
+      "春秋",
+      "晋",
+      "乐师"
+    ],
+    "categories": [
+      "scholar-official"
+    ],
+    "primary": "scholar-official",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "death": -559
+  },
+  {
     "id": "ying-shixi",
     "name": "嬴师隰",
     "display": "秦献公",
@@ -9230,6 +9572,209 @@
     "death": -228
   },
   {
+    "id": "li-kui-wei",
+    "name": "李悝",
+    "display": "李悝",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "魏文侯之相，法家先声",
+    "tags": [
+      "战国",
+      "魏",
+      "法家"
+    ],
+    "categories": [
+      "chancellor",
+      "legalism"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "wei-zhanguo"
+    ],
+    "gender": "male",
+    "birth": -494,
+    "death": -426
+  },
+  {
+    "id": "tian-ji",
+    "name": "田忌",
+    "display": "田忌",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "齐之将，与孙膑俱有功",
+    "tags": [
+      "战国",
+      "齐",
+      "将"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "qi"
+    ],
+    "gender": "male",
+    "death": -386
+  },
+  {
+    "id": "li-bing",
+    "name": "李冰",
+    "display": "李冰",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "秦蜀守，作都江堰",
+    "tags": [
+      "战国",
+      "秦",
+      "水利",
+      "农学"
+    ],
+    "categories": [
+      "general",
+      "agronomy"
+    ],
+    "primary": "agronomy",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -256
+  },
+  {
+    "id": "zheng-guo",
+    "name": "郑国",
+    "display": "郑国",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "韩之水工，疲秦而成郑国渠",
+    "tags": [
+      "战国",
+      "秦",
+      "水利"
+    ],
+    "categories": [
+      "general",
+      "agronomy"
+    ],
+    "primary": "agronomy",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -246
+  },
+  {
+    "id": "zou-yan",
+    "name": "邹衍",
+    "display": "邹衍",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "谈天衍，五德终始之说",
+    "tags": [
+      "战国",
+      "齐",
+      "阴阳"
+    ],
+    "categories": [
+      "scholar",
+      "metaphysics"
+    ],
+    "primary": "metaphysics",
+    "polity": [
+      "qi"
+    ],
+    "gender": "male",
+    "birth": -305,
+    "death": -240
+  },
+  {
+    "id": "fan-ju",
+    "name": "范雎",
+    "display": "范雎",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "远交近攻，秦独强之谋",
+    "tags": [
+      "战国",
+      "秦",
+      "宰相"
+    ],
+    "categories": [
+      "chancellor",
+      "diplomat"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -255
+  },
+  {
+    "id": "gongsun-yan",
+    "name": "公孙衍",
+    "display": "公孙衍",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "合纵约长，五国相王",
+    "tags": [
+      "战国",
+      "魏",
+      "纵横"
+    ],
+    "categories": [
+      "diplomat",
+      "general"
+    ],
+    "primary": "diplomat",
+    "polity": [
+      "wei-zhanguo"
+    ],
+    "gender": "male",
+    "death": -238
+  },
+  {
+    "id": "mengchang-jun",
+    "name": "田文",
+    "display": "孟尝君",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "zhanguo",
+    "topicTitle": "战国",
+    "title": "孟尝君，好客而齐以名重",
+    "tags": [
+      "战国",
+      "齐",
+      "公子"
+    ],
+    "categories": [
+      "vassal",
+      "diplomat"
+    ],
+    "primary": "diplomat",
+    "polity": [
+      "qi"
+    ],
+    "gender": "male",
+    "birth": -389,
+    "death": -279
+  },
+  {
     "id": "ying-zheng",
     "name": "嬴政",
     "display": "秦王政",
@@ -10261,6 +10806,78 @@
     ],
     "gender": "male",
     "death": -206
+  },
+  {
+    "id": "wang-ben",
+    "name": "王贲",
+    "display": "王贲",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "翦之子，灭齐而秦以并六国",
+    "tags": [
+      "秦",
+      "统一",
+      "名将"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -221
+  },
+  {
+    "id": "wang-jian",
+    "name": "王翦",
+    "display": "王翦",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "秦将，灭赵、灭楚",
+    "tags": [
+      "秦国",
+      "灭六国"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -220
+  },
+  {
+    "id": "wei-liao",
+    "name": "尉缭",
+    "display": "尉缭",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "qin",
+    "topicTitle": "秦 · 帝国与楚汉",
+    "title": "尉缭子，以兵术说秦王",
+    "tags": [
+      "秦",
+      "兵家",
+      "统一"
+    ],
+    "categories": [
+      "scholar",
+      "military-theory"
+    ],
+    "primary": "scholar",
+    "polity": [
+      "qin"
+    ],
+    "gender": "male",
+    "death": -237
   },
   {
     "id": "liu-bang",
@@ -13001,6 +13618,153 @@
     ],
     "gender": "male",
     "death": -31
+  },
+  {
+    "id": "zhou-yafu",
+    "name": "周亚夫",
+    "display": "周亚夫",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "西汉太尉、丞相，三月而定吴楚",
+    "tags": [
+      "细柳营",
+      "七国之乱",
+      "条侯"
+    ],
+    "categories": [
+      "chancellor",
+      "general"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": -143
+  },
+  {
+    "id": "jiang-chong",
+    "name": "江充",
+    "display": "江充",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "武帝时直指绣衣使者，发巫蛊之狱",
+    "tags": [
+      "巫蛊之祸",
+      "绣衣直指",
+      "太子据"
+    ],
+    "categories": [
+      "official"
+    ],
+    "primary": "official",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": -91
+  },
+  {
+    "id": "dongfang-shuo",
+    "name": "东方朔",
+    "display": "东方朔",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "disputed",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "武帝常侍郎，以诙谐行讽谏",
+    "tags": [
+      "答客难",
+      "诙谐",
+      "金马门"
+    ],
+    "categories": [
+      "literature",
+      "scholar"
+    ],
+    "primary": "literature",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "birth": -154,
+    "death": -87
+  },
+  {
+    "id": "li-furen",
+    "name": "李夫人",
+    "display": "孝武李皇后",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "disputed",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "武帝宠姬，李延年之妹，霍光追尊孝武皇后",
+    "tags": [
+      "倾国倾城",
+      "昌邑王之母",
+      "追尊皇后"
+    ],
+    "categories": [
+      "consort"
+    ],
+    "primary": "consort",
+    "polity": [
+      "han"
+    ],
+    "gender": "female",
+    "death": -101
+  },
+  {
+    "id": "zheng-ji",
+    "name": "郑吉",
+    "display": "郑吉",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "首任西域都护，西汉治西域自此始",
+    "tags": [
+      "西汉",
+      "西域",
+      "名将"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": -60
+  },
+  {
+    "id": "chen-tang",
+    "name": "陈汤",
+    "display": "陈汤",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "han",
+    "topicTitle": "汉代",
+    "title": "矫制发兵诛郅支，「明犯强汉者虽远必诛」",
+    "tags": [
+      "西汉",
+      "西域",
+      "名将"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": -36
   },
   {
     "id": "liu-xiu",
@@ -16133,6 +16897,194 @@
     ],
     "gender": "male",
     "death": 147
+  },
+  {
+    "id": "zhang-bao",
+    "name": "张宝",
+    "display": "张宝",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "地公将军，下曲阳被斩",
+    "tags": [
+      "东汉",
+      "黄巾"
+    ],
+    "categories": [
+      "rebel"
+    ],
+    "primary": "rebel",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": 184
+  },
+  {
+    "id": "zhang-liang-donghan",
+    "name": "张梁",
+    "display": "张梁（黄巾）",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "人公将军，广宗败死",
+    "tags": [
+      "东汉",
+      "黄巾"
+    ],
+    "categories": [
+      "rebel"
+    ],
+    "primary": "rebel",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": 184
+  },
+  {
+    "id": "mi-heng",
+    "name": "祢衡",
+    "display": "祢衡",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "击鼓骂操，客死于黄祖之手",
+    "tags": [
+      "东汉",
+      "建安"
+    ],
+    "categories": [
+      "literature"
+    ],
+    "primary": "literature",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "birth": 173,
+    "death": 198
+  },
+  {
+    "id": "dong-cheng",
+    "name": "董承",
+    "display": "董承",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "受密诏图操，事泄夷三族",
+    "tags": [
+      "东汉",
+      "衣带诏"
+    ],
+    "categories": [
+      "consort-kin"
+    ],
+    "primary": "consort-kin",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": 200
+  },
+  {
+    "id": "zhang-lu",
+    "name": "张鲁",
+    "display": "张鲁",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "五斗米道师君，据汉中三十年",
+    "tags": [
+      "东汉",
+      "五斗米道"
+    ],
+    "categories": [
+      "warlord",
+      "daoism"
+    ],
+    "primary": "warlord",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": 216
+  },
+  {
+    "id": "chen-gong",
+    "name": "陈宫",
+    "display": "陈宫",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "迎操入兖又叛操，终与吕布同死",
+    "tags": [
+      "东汉",
+      "群雄"
+    ],
+    "categories": [
+      "strategist"
+    ],
+    "primary": "strategist",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": 199
+  },
+  {
+    "id": "gao-shun",
+    "name": "高顺",
+    "display": "高顺",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "陷阵营之将，与布同死",
+    "tags": [
+      "东汉",
+      "群雄"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": 199
+  },
+  {
+    "id": "gan-ying",
+    "name": "甘英",
+    "display": "甘英",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "donghan",
+    "topicTitle": "东汉",
+    "title": "奉使大秦，抵条支临西海而还",
+    "tags": [
+      "东汉",
+      "西域",
+      "探险"
+    ],
+    "categories": [
+      "explorer",
+      "diplomat"
+    ],
+    "primary": "explorer",
+    "polity": [
+      "han"
+    ],
+    "gender": "male",
+    "death": 97
   },
   {
     "id": "cao-cao",
@@ -19801,6 +20753,77 @@
     "death": 258
   },
   {
+    "id": "cui-yan",
+    "name": "崔琰",
+    "display": "崔琰",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "曹魏尚书、中尉，答书被诬赐死",
+    "tags": [
+      "三国",
+      "曹魏"
+    ],
+    "categories": [
+      "official"
+    ],
+    "primary": "official",
+    "polity": [
+      "wei"
+    ],
+    "gender": "male",
+    "death": 216
+  },
+  {
+    "id": "xu-shu",
+    "name": "徐庶",
+    "display": "徐庶",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "荐诸葛于先主，长坂之别北归",
+    "tags": [
+      "三国",
+      "蜀汉"
+    ],
+    "categories": [
+      "strategist"
+    ],
+    "primary": "strategist",
+    "polity": [
+      "shu"
+    ],
+    "gender": "male",
+    "death": 231
+  },
+  {
+    "id": "zhuge-zhan",
+    "name": "诸葛瞻",
+    "display": "诸葛瞻",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "sanguo",
+    "topicTitle": "三国",
+    "title": "诸葛亮长子，绵竹拒降战殁",
+    "tags": [
+      "三国",
+      "蜀汉"
+    ],
+    "categories": [
+      "general",
+      "official"
+    ],
+    "primary": "general",
+    "polity": [
+      "shu"
+    ],
+    "gender": "male",
+    "birth": 227,
+    "death": 263
+  },
+  {
     "id": "sima-yan",
     "name": "司马炎",
     "display": "晋武帝司马炎",
@@ -23015,6 +24038,86 @@
     "gender": "male",
     "birth": 364,
     "death": 402
+  },
+  {
+    "id": "dao-an",
+    "name": "道安",
+    "display": "道安",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "苻坚座上译经僧，考校群经撰经录，制僧尼轨范",
+    "tags": [
+      "晋",
+      "东晋",
+      "译经",
+      "乱世护法"
+    ],
+    "categories": [
+      "buddhism"
+    ],
+    "primary": "buddhism",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 312,
+    "death": 385
+  },
+  {
+    "id": "fa-xian",
+    "name": "法显",
+    "display": "法显",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "disputed",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "西行求法僧，《佛国记》的作者",
+    "tags": [
+      "晋",
+      "东晋",
+      "西行求法",
+      "天竺"
+    ],
+    "categories": [
+      "buddhism",
+      "explorer"
+    ],
+    "primary": "buddhism",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 337,
+    "death": 418
+  },
+  {
+    "id": "zhi-dun",
+    "name": "支遁",
+    "display": "支遁",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "liangjin",
+    "topicTitle": "两晋 · 十六国",
+    "title": "字道林，注《逍遥篇》，开即色宗",
+    "tags": [
+      "晋",
+      "东晋",
+      "清谈",
+      "玄学"
+    ],
+    "categories": [
+      "buddhism",
+      "metaphysics"
+    ],
+    "primary": "buddhism",
+    "polity": [
+      "jin"
+    ],
+    "gender": "male",
+    "birth": 314,
+    "death": 366
   },
   {
     "id": "tuoba-gui",
@@ -26715,6 +27818,157 @@
     "death": 411
   },
   {
+    "id": "fan-ye",
+    "name": "范晔",
+    "display": "范晔",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "撰《后汉书》九十卷，纪传为体而《光武纪》兼用编年，元嘉二十二年以谋逆被诛",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "official",
+      "historian",
+      "literature"
+    ],
+    "primary": "historian",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 398,
+    "death": 445
+  },
+  {
+    "id": "pei-songzhi",
+    "name": "裴松之",
+    "display": "裴松之",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "元嘉六年奏上《三国志》注六十五卷，与《三国志》并行传世，为史注之冠",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "official",
+      "historian"
+    ],
+    "primary": "historian",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 372,
+    "death": 451
+  },
+  {
+    "id": "liu-yiqing",
+    "name": "刘义庆",
+    "display": "临川王刘义庆",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "袭封临川王，招集文学之士撰《世说新语》三十卷",
+    "tags": [
+      "南北朝",
+      "刘宋"
+    ],
+    "categories": [
+      "royal-kin",
+      "official",
+      "literature"
+    ],
+    "primary": "literature",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 403,
+    "death": 444
+  },
+  {
+    "id": "zhong-rong",
+    "name": "钟嵘",
+    "display": "钟嵘",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "齐永明中为国子生，梁初历王国侍郎、诸王记室，撰《诗品》三卷论五言诗",
+    "tags": [
+      "南北朝",
+      "萧梁"
+    ],
+    "categories": [
+      "official",
+      "literature"
+    ],
+    "primary": "literature",
+    "polity": [
+      "nan"
+    ],
+    "gender": "male",
+    "birth": 468,
+    "death": 518
+  },
+  {
+    "id": "wei-shou",
+    "name": "魏收",
+    "display": "魏收",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "北齐奉敕撰《魏书》百三十卷，天保五年奏上",
+    "tags": [
+      "南北朝",
+      "北齐"
+    ],
+    "categories": [
+      "official",
+      "historian"
+    ],
+    "primary": "historian",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "birth": 507,
+    "death": 572
+  },
+  {
+    "id": "jia-si-xie",
+    "name": "贾思勰",
+    "display": "贾思勰",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "nanbei",
+    "topicTitle": "南北朝",
+    "title": "高阳太守，撰《齐民要术》十卷九十二篇",
+    "tags": [
+      "南北朝",
+      "北朝",
+      "农学"
+    ],
+    "categories": [
+      "agronomy"
+    ],
+    "primary": "agronomy",
+    "polity": [
+      "bei"
+    ],
+    "gender": "male",
+    "death": 544
+  },
+  {
     "id": "yang-jian",
     "name": "杨坚",
     "display": "隋文帝杨坚",
@@ -27684,6 +28938,53 @@
     "gender": "male",
     "birth": 585,
     "death": 618
+  },
+  {
+    "id": "zhang-xu-tuo",
+    "name": "张须陀",
+    "display": "张须陀",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "隋末劲将，破王薄诸部而殁于大海寺",
+    "tags": [
+      "隋末",
+      "名将"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "sui"
+    ],
+    "gender": "male",
+    "death": 616
+  },
+  {
+    "id": "wang-bo",
+    "name": "王薄",
+    "display": "王薄",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "sui",
+    "topicTitle": "隋",
+    "title": "长白山首义，作《无向辽东浪死歌》",
+    "tags": [
+      "隋末",
+      "首义",
+      "长白山"
+    ],
+    "categories": [
+      "rebel"
+    ],
+    "primary": "rebel",
+    "polity": [
+      "sui"
+    ],
+    "gender": "male",
+    "death": 622
   },
   {
     "id": "li-yuan",
@@ -34321,6 +35622,307 @@
     "death": 965
   },
   {
+    "id": "wang-yanzhang",
+    "name": "王彦章",
+    "display": "王彦章",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "王铁枪，后梁末帝之将",
+    "tags": [
+      "五代",
+      "后梁",
+      "死节"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "birth": 863,
+    "death": 923
+  },
+  {
+    "id": "fu-yanqing",
+    "name": "符彦卿",
+    "display": "符彦卿",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "历事五朝之宿将，周世宗后父",
+    "tags": [
+      "五代",
+      "宿将",
+      "宋初"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "birth": 898,
+    "death": 975
+  },
+  {
+    "id": "sang-weihan",
+    "name": "桑维翰",
+    "display": "桑维翰",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "石敬瑭之谋主，割地称臣自兹始",
+    "tags": [
+      "五代",
+      "后晋",
+      "和战"
+    ],
+    "categories": [
+      "chancellor"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "death": 947
+  },
+  {
+    "id": "guo-chongtao",
+    "name": "郭崇韬",
+    "display": "郭崇韬",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "枢密主谋灭梁，旋以疑忌见诛",
+    "tags": [
+      "五代",
+      "后唐",
+      "枢密"
+    ],
+    "categories": [
+      "chancellor",
+      "general"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "birth": 865,
+    "death": 926
+  },
+  {
+    "id": "yang-ningshi",
+    "name": "杨凝式",
+    "display": "杨凝式",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "五季之世以书名家，笔迹雄强",
+    "tags": [
+      "五代",
+      "书法",
+      "洛下"
+    ],
+    "categories": [
+      "calligraphy",
+      "scholar-official"
+    ],
+    "primary": "calligraphy",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "birth": 873,
+    "death": 954
+  },
+  {
+    "id": "wang-yan-qianshu",
+    "name": "王衍",
+    "display": "王衍",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "前蜀后主，国亡身死",
+    "tags": [
+      "五代",
+      "前蜀",
+      "末世"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "birth": 899,
+    "death": 926
+  },
+  {
+    "id": "wei-zhuang",
+    "name": "韦庄",
+    "display": "韦庄",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "开国制度多出其手，晚年以词章名",
+    "tags": [
+      "五代",
+      "前蜀",
+      "词"
+    ],
+    "categories": [
+      "literature",
+      "poetry"
+    ],
+    "primary": "literature",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "birth": 836,
+    "death": 910
+  },
+  {
+    "id": "li-jianxun",
+    "name": "李建勋",
+    "display": "李建勋",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "disputed",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "南唐立国与执政之主",
+    "tags": [
+      "五代",
+      "南唐",
+      "宰相"
+    ],
+    "categories": [
+      "chancellor",
+      "literature"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "death": 952
+  },
+  {
+    "id": "gao-jichong",
+    "name": "高继冲",
+    "display": "高继冲",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "disputed",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "荆南末主，纳土归宋",
+    "tags": [
+      "五代",
+      "荆南",
+      "亡国之君"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "death": 973
+  },
+  {
+    "id": "an-chongrong",
+    "name": "安重荣",
+    "display": "安重荣",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "耻事契丹，据镇州而叛",
+    "tags": [
+      "五代",
+      "后晋",
+      "叛将"
+    ],
+    "categories": [
+      "general",
+      "rebel"
+    ],
+    "primary": "general",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "death": 942
+  },
+  {
+    "id": "shi-hongzhao",
+    "name": "史弘肇",
+    "display": "史弘肇",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "后汉顾命大将，为隐帝所诛",
+    "tags": [
+      "五代",
+      "后汉",
+      "顾命"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "death": 950
+  },
+  {
+    "id": "li-song-houjin",
+    "name": "李崧",
+    "display": "李崧",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "exact",
+    "topicId": "wudai",
+    "topicTitle": "五代十国",
+    "title": "事累朝为相，终以谗灭",
+    "tags": [
+      "五代",
+      "后晋",
+      "宰相"
+    ],
+    "categories": [
+      "chancellor"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "wudai"
+    ],
+    "gender": "male",
+    "death": 948
+  },
+  {
     "id": "zhao-kuangyin",
     "name": "赵匡胤",
     "display": "赵匡胤",
@@ -39927,6 +41529,234 @@
     ],
     "gender": "male",
     "death": 1260
+  },
+  {
+    "id": "wanyan-yong",
+    "name": "完颜雍",
+    "display": "完颜雍",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "金世宗，大定之治",
+    "tags": [
+      "金",
+      "世宗",
+      "小尧舜"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "liao-jin"
+    ],
+    "gender": "male",
+    "birth": 1123,
+    "death": 1189
+  },
+  {
+    "id": "wanyan-dan",
+    "name": "完颜亶",
+    "display": "完颜亶",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "金熙宗，为完颜亮所弑",
+    "tags": [
+      "金",
+      "熙宗",
+      "内禅之弑"
+    ],
+    "categories": [
+      "monarch",
+      "falling"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "liao-jin"
+    ],
+    "gender": "male",
+    "birth": 1119,
+    "death": 1150
+  },
+  {
+    "id": "yelv-dashi",
+    "name": "耶律大石",
+    "display": "耶律大石",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "西辽之立，辽祚西延",
+    "tags": [
+      "辽",
+      "西辽",
+      "建国"
+    ],
+    "categories": [
+      "monarch",
+      "founding"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "liao-jin"
+    ],
+    "gender": "male",
+    "birth": 1085,
+    "death": 1143
+  },
+  {
+    "id": "li-renxiao",
+    "name": "李仁孝",
+    "display": "李仁孝",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "夏仁宗，立国学、崇儒术",
+    "tags": [
+      "西夏",
+      "仁宗",
+      "尊孔"
+    ],
+    "categories": [
+      "monarch"
+    ],
+    "primary": "monarch",
+    "polity": [
+      "xixia"
+    ],
+    "gender": "male",
+    "birth": 1124,
+    "death": 1193
+  },
+  {
+    "id": "su-song",
+    "name": "苏颂",
+    "display": "苏颂",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "元祐宰相，造水运仪象台",
+    "tags": [
+      "北宋",
+      "科学",
+      "天文"
+    ],
+    "categories": [
+      "science",
+      "astronomy"
+    ],
+    "primary": "science",
+    "polity": [
+      "song"
+    ],
+    "gender": "male",
+    "birth": 1020,
+    "death": 1101
+  },
+  {
+    "id": "fan-chunren",
+    "name": "范纯仁",
+    "display": "范纯仁",
+    "birthAccuracy": "exact",
+    "deathAccuracy": "exact",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "仲淹之子，元祐宰相",
+    "tags": [
+      "北宋",
+      "宰相",
+      "元祐"
+    ],
+    "categories": [
+      "chancellor"
+    ],
+    "primary": "chancellor",
+    "polity": [
+      "song"
+    ],
+    "gender": "male",
+    "birth": 1027,
+    "death": 1101
+  },
+  {
+    "id": "chao-buzhi",
+    "name": "晁补之",
+    "display": "晁补之",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "approx",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "苏门四学士，词章为时所重",
+    "tags": [
+      "北宋",
+      "文学",
+      "苏门"
+    ],
+    "categories": [
+      "literature",
+      "poetry"
+    ],
+    "primary": "literature",
+    "polity": [
+      "song"
+    ],
+    "gender": "male",
+    "birth": 1053,
+    "death": 1110
+  },
+  {
+    "id": "bi-zaiyu",
+    "name": "毕再遇",
+    "display": "毕再遇",
+    "birthAccuracy": "unknown",
+    "deathAccuracy": "approx",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "开禧北伐之名将",
+    "tags": [
+      "南宋",
+      "名将",
+      "开禧"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "song"
+    ],
+    "gender": "male",
+    "death": 1217
+  },
+  {
+    "id": "qu-duan",
+    "name": "曲端",
+    "display": "曲端",
+    "birthAccuracy": "approx",
+    "deathAccuracy": "exact",
+    "topicId": "song",
+    "topicTitle": "宋",
+    "title": "川陕都统制，富平之战议不合",
+    "tags": [
+      "南宋",
+      "川陕",
+      "将帅"
+    ],
+    "categories": [
+      "general"
+    ],
+    "primary": "general",
+    "polity": [
+      "song"
+    ],
+    "gender": "male",
+    "birth": 1090,
+    "death": 1131
   },
   {
     "id": "tie-mu-zhen",
@@ -49634,6 +51464,38 @@
     "topicTitle": "军事"
   },
   {
+    "id": "bailangshan-zhizhan",
+    "name": "白狼山之战",
+    "display": "白狼山之战",
+    "kind": "event",
+    "year": 207,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "baituanwei-zhizhan",
+    "name": "白团卫村之战",
+    "display": "白团卫村之战",
+    "kind": "event",
+    "year": 945,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "baixiang-zhizhan",
     "name": "柏乡之战",
     "display": "柏乡之战",
@@ -49893,6 +51755,21 @@
     "topicTitle": "军事"
   },
   {
+    "id": "chen-tang-gong-zhizhi",
+    "name": "陈汤伐郅支单于",
+    "display": "陈汤伐郅支单于",
+    "kind": "event",
+    "year": -36,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military"
+    ],
+    "importance": 1,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "chengpu-zhizhan",
     "name": "城濮之战",
     "display": "城濮之战",
@@ -50134,6 +52011,21 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "dayuan-zhizhan",
+    "name": "大宛之战",
+    "display": "大宛之战",
+    "kind": "event",
+    "year": -104,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military"
+    ],
+    "importance": 1,
     "topicId": "military",
     "topicTitle": "军事"
   },
@@ -50623,6 +52515,23 @@
     "topicTitle": "军事"
   },
   {
+    "id": "hanzhong-zhizhan",
+    "name": "汉中之战",
+    "display": "汉中之战",
+    "kind": "event",
+    "year": 217,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 219
+  },
+  {
     "id": "haoshuichuan-zhizhan",
     "name": "好水川之战",
     "display": "好水川之战",
@@ -50800,6 +52709,23 @@
     "endYear": 926
   },
   {
+    "id": "huainan-sanpan",
+    "name": "淮南三叛",
+    "display": "淮南三叛",
+    "kind": "event",
+    "year": 251,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 258
+  },
+  {
     "id": "huangchao-zhi-luan",
     "name": "黄巢之乱",
     "display": "黄巢之乱",
@@ -50832,6 +52758,22 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": 185
+  },
+  {
+    "id": "huangtiandang-zhizhan",
+    "name": "黄天荡之战",
+    "display": "黄天荡之战",
+    "kind": "event",
+    "year": 1130,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
   },
   {
     "id": "huanwen-beifa",
@@ -51442,6 +53384,22 @@
     "topicTitle": "军事"
   },
   {
+    "id": "luoshui-zhizhan",
+    "name": "洛水之战",
+    "display": "洛水之战",
+    "kind": "event",
+    "year": -816,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "maling-zhizhan",
     "name": "马陵之战",
     "display": "马陵之战",
@@ -51469,6 +53427,22 @@
       "military"
     ],
     "importance": 1,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "mayuan-jiaozhi",
+    "name": "马援南征交趾",
+    "display": "马援南征交趾",
+    "kind": "event",
+    "year": 43,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
     "topicId": "military",
     "topicTitle": "军事"
   },
@@ -51771,6 +53745,22 @@
     "topicTitle": "军事"
   },
   {
+    "id": "nanzheng-menghuo",
+    "name": "诸葛亮南征",
+    "display": "诸葛亮南征",
+    "kind": "event",
+    "year": 225,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "nianjun-qiyi",
     "name": "捻军",
     "display": "捻军",
@@ -51918,6 +53908,22 @@
     "topicTitle": "军事"
   },
   {
+    "id": "qianqin-tongyi-beifang",
+    "name": "前秦统一北方",
+    "display": "前秦统一北方",
+    "kind": "event",
+    "year": 376,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "qidan-mie-bohai",
     "name": "契丹灭渤海",
     "display": "契丹灭渤海",
@@ -51972,6 +53978,22 @@
     "display": "秦师救楚（申包胥哭秦庭）",
     "kind": "event",
     "year": -505,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "qin-mie-bashu",
+    "name": "秦灭巴蜀",
+    "display": "秦灭巴蜀",
+    "kind": "event",
+    "year": -316,
     "yearAccuracy": "exact",
     "type": "military",
     "catalogs": [
@@ -52159,6 +54181,23 @@
     "topicTitle": "军事"
   },
   {
+    "id": "sandian-zheng-gaoliuli",
+    "name": "隋炀帝三征高句丽",
+    "display": "三征高句丽",
+    "kind": "event",
+    "year": 612,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 614
+  },
+  {
     "id": "sanfan-zhiluan",
     "name": "三藩之乱",
     "display": "三藩之乱",
@@ -52286,6 +54325,22 @@
     "topicTitle": "军事"
   },
   {
+    "id": "shiting-zhizhan",
+    "name": "石亭之战",
+    "display": "石亭之战",
+    "kind": "event",
+    "year": 228,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "shizong-beifa",
     "name": "周世宗北伐",
     "display": "世宗北伐",
@@ -52336,11 +54391,43 @@
     "endYear": 1123
   },
   {
+    "id": "shuiyan-qijun",
+    "name": "关羽水淹七军",
+    "display": "关羽水淹七军",
+    "kind": "event",
+    "year": 219,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "shunchang-zhizhan",
     "name": "顺昌之战",
     "display": "顺昌之战",
     "kind": "event",
     "year": 1140,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "simayi-ping-liaodong",
+    "name": "司马懿平辽东",
+    "display": "司马懿平辽东",
+    "kind": "event",
+    "year": 238,
     "yearAccuracy": "exact",
     "type": "military",
     "catalogs": [
@@ -52386,6 +54473,22 @@
     "endYear": 589
   },
   {
+    "id": "suimo-nongmin-qiyi",
+    "name": "隋末农民起义",
+    "display": "隋末起义",
+    "kind": "event",
+    "year": 611,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "suiyang-baowei-zhan",
     "name": "睢阳保卫战",
     "display": "睢阳保卫战",
@@ -52417,6 +54520,23 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": 329
+  },
+  {
+    "id": "sunce-ping-jiangdong",
+    "name": "孙策平定江东",
+    "display": "孙策平定江东",
+    "kind": "event",
+    "year": 195,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 196
   },
   {
     "id": "sunen-luxun-qiyi",
@@ -52697,6 +54817,22 @@
     "topicTitle": "军事"
   },
   {
+    "id": "wancheng-zhizhan",
+    "name": "宛城之战",
+    "display": "宛城之战",
+    "kind": "event",
+    "year": 197,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "wangdun-zhiluan",
     "name": "王敦之乱",
     "display": "王敦之乱",
@@ -52712,6 +54848,23 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": 324
+  },
+  {
+    "id": "wangxiaobo-li-shun-qiyi",
+    "name": "王小波李顺起义",
+    "display": "王小波李顺起义",
+    "kind": "event",
+    "year": 993,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 995
   },
   {
     "id": "wei-ba-handan",
@@ -53074,6 +55227,22 @@
     "topicTitle": "军事"
   },
   {
+    "id": "yang-xuangan-zhiluan",
+    "name": "杨玄感之乱",
+    "display": "杨玄感之乱",
+    "kind": "event",
+    "year": 613,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "yanling-zhizhan",
     "name": "鄢陵之战",
     "display": "鄢陵之战",
@@ -53086,6 +55255,22 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "yanmen-zhiwei",
+    "name": "雁门之围",
+    "display": "雁门之围",
+    "kind": "event",
+    "year": 615,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
     "topicId": "military",
     "topicTitle": "军事"
   },
@@ -53216,6 +55401,22 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
+    "id": "yiling-zhizhan",
+    "name": "夷陵之战",
+    "display": "夷陵之战",
+    "kind": "event",
+    "year": 222,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
     "topicId": "military",
     "topicTitle": "军事"
   },
@@ -53563,6 +55764,22 @@
     "endYear": 1215
   },
   {
+    "id": "zhonghui-dengai-mieshu",
+    "name": "钟会、邓艾灭蜀",
+    "display": "钟会、邓艾灭蜀",
+    "kind": "event",
+    "year": 263,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事"
+  },
+  {
     "id": "zhongli-zhizhan",
     "name": "钟离之战",
     "display": "钟离之战",
@@ -53594,6 +55811,23 @@
     "topicId": "military",
     "topicTitle": "军事",
     "endYear": -1039
+  },
+  {
+    "id": "zhugeliang-beifa",
+    "name": "诸葛亮北伐",
+    "display": "诸葛亮北伐",
+    "kind": "event",
+    "year": 228,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "military",
+    "topicTitle": "军事",
+    "endYear": 234
   },
   {
     "id": "zhungeer-zhanzheng",
@@ -53776,6 +56010,36 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "baidi-tuogu",
+    "name": "白帝托孤",
+    "display": "白帝托孤",
+    "kind": "event",
+    "year": 223,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "baihu-xian-huiyi",
+    "name": "白虎观会议",
+    "display": "白虎观会议",
+    "kind": "event",
+    "year": 79,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "baijiangkou-zhizhan",
     "name": "白江口之战",
     "display": "白江口",
@@ -53788,6 +56052,22 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "bailangshan-zhizhan",
+    "name": "白狼山之战",
+    "display": "白狼山之战",
+    "kind": "event",
+    "year": 207,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -53818,6 +56098,22 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "baituanwei-zhizhan",
+    "name": "白团卫村之战",
+    "display": "白团卫村之战",
+    "kind": "event",
+    "year": 945,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -54119,6 +56415,21 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "cailun-zhizao",
+    "name": "蔡伦改进造纸术",
+    "display": "蔡伦改进造纸术",
+    "kind": "event",
+    "year": 105,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -54503,6 +56814,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "cishi-zhidu",
+    "name": "置十三部刺史",
+    "display": "置十三部刺史",
+    "kind": "event",
+    "year": -106,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "da-jin-jianguo",
     "name": "大金建国",
     "display": "金建国",
@@ -54514,6 +56840,21 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "dachanghe-jianli",
+    "name": "大长和建立",
+    "display": "大长和建立",
+    "kind": "event",
+    "year": 902,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -54712,6 +57053,21 @@
     "year": 1271,
     "yearAccuracy": "exact",
     "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "dayunhe-kaozhuo",
+    "name": "隋炀帝开凿大运河",
+    "display": "开凿大运河",
+    "kind": "event",
+    "year": 605,
+    "yearAccuracy": "exact",
+    "type": "cultural",
     "catalogs": [
       "history"
     ],
@@ -54991,6 +57347,36 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "fen-shu",
+    "name": "焚书",
+    "display": "焚书",
+    "kind": "event",
+    "year": -213,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "fengshan-taishan",
+    "name": "泰山封禅",
+    "display": "泰山封禅",
+    "kind": "event",
+    "year": 1008,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "fubing-chuangzhi",
     "name": "府兵制创立",
     "display": "府兵制创立",
@@ -55159,6 +57545,21 @@
     "type": "military",
     "catalogs": [
       "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "gaopingling-zhibian",
+    "name": "高平陵之变",
+    "display": "高平陵之变",
+    "kind": "event",
+    "year": 249,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
       "history"
     ],
     "importance": 3,
@@ -55447,6 +57848,23 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "hanzhong-zhizhan",
+    "name": "汉中之战",
+    "display": "汉中之战",
+    "kind": "event",
+    "year": 217,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 219
+  },
+  {
     "id": "haoshuichuan-zhizhan",
     "name": "好水川之战",
     "display": "好水川之战",
@@ -55558,6 +57976,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "hongmen-yan",
+    "name": "鸿门宴",
+    "display": "鸿门宴",
+    "kind": "event",
+    "year": -206,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "hongshui-zhizhan",
     "name": "泓水之战",
     "display": "泓水之战",
@@ -55619,6 +58052,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 552
+  },
+  {
+    "id": "houshu-chengshu",
+    "name": "范晔撰《后汉书》",
+    "display": "后汉书成书",
+    "kind": "event",
+    "year": 445,
+    "yearAccuracy": "approx",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "houshu-jianli",
@@ -55684,6 +58132,23 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "huainan-sanpan",
+    "name": "淮南三叛",
+    "display": "淮南三叛",
+    "kind": "event",
+    "year": 251,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 258
+  },
+  {
     "id": "huangchao-zhi-luan",
     "name": "黄巢之乱",
     "display": "黄巢之乱",
@@ -55731,6 +58196,22 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 185
+  },
+  {
+    "id": "huangtiandang-zhizhan",
+    "name": "黄天荡之战",
+    "display": "黄天荡之战",
+    "kind": "event",
+    "year": 1130,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "huanwen-beifa",
@@ -55781,6 +58262,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 404
+  },
+  {
+    "id": "huayang-guozhi",
+    "name": "《华阳国志》成书",
+    "display": "《华阳国志》成书",
+    "kind": "event",
+    "year": 348,
+    "yearAccuracy": "approx",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "huayang-zhizhan",
@@ -55910,6 +58406,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "jiagu-zhihui",
+    "name": "夹谷之会",
+    "display": "夹谷之会",
+    "kind": "event",
+    "year": -500,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "jialejiahe-zhizhan",
     "name": "迦勒迦河之战",
     "display": "迦勒迦河",
@@ -55937,6 +58448,21 @@
       "history"
     ],
     "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "jiangdu-zhibian",
+    "name": "江都之变",
+    "display": "江都之变",
+    "kind": "event",
+    "year": 618,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -56417,11 +58943,56 @@
     "endYear": 741
   },
   {
+    "id": "ke-zhihui",
+    "name": "柯之盟",
+    "display": "柯之盟",
+    "kind": "event",
+    "year": -681,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 1,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "keduan-yuyan",
     "name": "郑伯克段于鄢",
     "display": "郑伯克段于鄢",
     "kind": "event",
     "year": -722,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "keju-kaishi",
+    "name": "隋文帝设科举",
+    "display": "隋文帝设科举",
+    "kind": "event",
+    "year": 587,
+    "yearAccuracy": "disputed",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "keng-ru",
+    "name": "坑儒",
+    "display": "坑儒",
+    "kind": "event",
+    "year": -212,
     "yearAccuracy": "exact",
     "type": "political",
     "catalogs": [
@@ -56716,6 +59287,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "liubei-chengdi",
+    "name": "刘备称帝于成都",
+    "display": "刘备称帝于成都",
+    "kind": "event",
+    "year": 221,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "liuyu-mie-houqin",
     "name": "刘裕灭后秦之战",
     "display": "刘裕灭后秦之战",
@@ -56847,6 +59433,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "luoshui-zhizhan",
+    "name": "洛水之战",
+    "display": "洛水之战",
+    "kind": "event",
+    "year": -816,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "luoyang-qialan-ji",
     "name": "洛阳伽蓝记成书",
     "display": "洛阳伽蓝记",
@@ -56876,6 +59478,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": -235
+  },
+  {
+    "id": "lvhou-sha-hanxin",
+    "name": "吕后杀韩信",
+    "display": "吕后杀韩信",
+    "kind": "event",
+    "year": -196,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "lvshi-chunqiu",
@@ -56950,6 +59567,22 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "mayuan-jiaozhi",
+    "name": "马援南征交趾",
+    "display": "马援南征交趾",
+    "kind": "event",
+    "year": 43,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -57217,6 +59850,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "mogaoku-kaizhuo",
+    "name": "敦煌莫高窟开凿",
+    "display": "敦煌莫高窟开凿",
+    "kind": "event",
+    "year": 366,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "mu-wang-xi-zheng",
     "name": "周穆王西征",
     "display": "周穆王西征",
@@ -57232,6 +59880,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": -960
+  },
+  {
+    "id": "murongchui-jian-houyan",
+    "name": "慕容垂建后燕",
+    "display": "慕容垂建后燕",
+    "kind": "event",
+    "year": 384,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "muye-zhizhan",
@@ -57358,6 +60021,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "nanzheng-menghuo",
+    "name": "诸葛亮南征",
+    "display": "诸葛亮南征",
+    "kind": "event",
+    "year": 225,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "nianjun-qiyi",
     "name": "捻军",
     "display": "捻军",
@@ -57437,6 +60116,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 1053
+  },
+  {
+    "id": "pei-songzhi-zhu-sanguozhi",
+    "name": "裴松之注《三国志》",
+    "display": "裴注三国志",
+    "kind": "event",
+    "year": 429,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "ping-jinghu",
@@ -57525,6 +60219,37 @@
     "display": "齐灭宋",
     "kind": "event",
     "year": -286,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qian-du-xu",
+    "name": "曹操迎献帝迁都许",
+    "display": "曹操迎献帝迁都许",
+    "kind": "event",
+    "year": 196,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qianqin-tongyi-beifang",
+    "name": "前秦统一北方",
+    "display": "前秦统一北方",
+    "kind": "event",
+    "year": 376,
     "yearAccuracy": "exact",
     "type": "military",
     "catalogs": [
@@ -57676,6 +60401,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "qin-mie-bashu",
+    "name": "秦灭巴蜀",
+    "display": "秦灭巴蜀",
+    "kind": "event",
+    "year": -316,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "qin-mie-chu",
     "name": "秦灭楚",
     "display": "秦灭楚",
@@ -57754,6 +60495,21 @@
       "history"
     ],
     "importance": 1,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "qin-qian-du-xianyang",
+    "name": "秦国迁都咸阳",
+    "display": "秦国迁都咸阳",
+    "kind": "event",
+    "year": -350,
+    "yearAccuracy": "approx",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -57944,6 +60700,23 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "sandian-zheng-gaoliuli",
+    "name": "隋炀帝三征高句丽",
+    "display": "三征高句丽",
+    "kind": "event",
+    "year": 612,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 614
+  },
+  {
     "id": "sanfan-zhiluan",
     "name": "三藩之乱",
     "display": "三藩之乱",
@@ -57984,6 +60757,21 @@
     "year": -403,
     "yearAccuracy": "exact",
     "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "sanzheng-liubu",
+    "name": "三省六部制确立",
+    "display": "三省六部制确立",
+    "kind": "event",
+    "year": 583,
+    "yearAccuracy": "disputed",
+    "type": "institutional",
     "catalogs": [
       "history"
     ],
@@ -58195,6 +60983,52 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "shiji-chengshu",
+    "name": "司马迁著《史记》成书",
+    "display": "史记成书",
+    "kind": "event",
+    "year": -91,
+    "yearAccuracy": "approx",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "shile-jian-houzhao",
+    "name": "石勒建后赵",
+    "display": "石勒建后赵",
+    "kind": "event",
+    "year": 319,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "shiting-zhizhan",
+    "name": "石亭之战",
+    "display": "石亭之战",
+    "kind": "event",
+    "year": 228,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "shizong-beifa",
     "name": "周世宗北伐",
     "display": "世宗北伐",
@@ -58260,6 +61094,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "shuiyan-qijun",
+    "name": "关羽水淹七军",
+    "display": "关羽水淹七军",
+    "kind": "event",
+    "year": 219,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "shunchang-zhizhan",
     "name": "顺昌之战",
     "display": "顺昌之战",
@@ -58290,6 +61140,22 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 318
+  },
+  {
+    "id": "simayi-ping-liaodong",
+    "name": "司马懿平辽东",
+    "display": "司马懿平辽东",
+    "kind": "event",
+    "year": 238,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "songjin-zhizhan",
@@ -58326,6 +61192,22 @@
     "endYear": 589
   },
   {
+    "id": "suimo-nongmin-qiyi",
+    "name": "隋末农民起义",
+    "display": "隋末起义",
+    "kind": "event",
+    "year": 611,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "suiyang-baowei-zhan",
     "name": "睢阳保卫战",
     "display": "睢阳保卫战",
@@ -58359,6 +61241,23 @@
     "endYear": 329
   },
   {
+    "id": "sunce-ping-jiangdong",
+    "name": "孙策平定江东",
+    "display": "孙策平定江东",
+    "kind": "event",
+    "year": 195,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 196
+  },
+  {
     "id": "sunen-luxun-qiyi",
     "name": "孙恩卢循起义",
     "display": "孙恩卢循起义",
@@ -58374,6 +61273,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 411
+  },
+  {
+    "id": "sunquan-chengdi",
+    "name": "孙权称帝，建号吴",
+    "display": "孙权称帝，建号吴",
+    "kind": "event",
+    "year": 229,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "taihe-gaizhi",
@@ -58744,6 +61658,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "tuienling",
+    "name": "推恩令",
+    "display": "推恩令",
+    "kind": "event",
+    "year": -127,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "tulhute-guifu",
     "name": "土尔扈特投诚",
     "display": "土尔扈特投诚",
@@ -58771,6 +61700,22 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "wancheng-zhizhan",
+    "name": "宛城之战",
+    "display": "宛城之战",
+    "kind": "event",
+    "year": 197,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -58818,6 +61763,38 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "wangxiaobo-li-shun-qiyi",
+    "name": "王小波李顺起义",
+    "display": "王小波李顺起义",
+    "kind": "event",
+    "year": 993,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 995
+  },
+  {
+    "id": "wangxizhi-lanting",
+    "name": "王羲之兰亭修禊",
+    "display": "王羲之兰亭修禊",
+    "kind": "event",
+    "year": 353,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -58933,6 +61910,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 1138
+  },
+  {
+    "id": "weishu-chengshu",
+    "name": "魏收撰《魏书》",
+    "display": "魏书成书",
+    "kind": "event",
+    "year": 554,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "wen-cheng-gongzhu-ru-zang",
@@ -59479,6 +62471,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "xiping-shijing",
+    "name": "熹平石经刊刻",
+    "display": "熹平石经刊刻",
+    "kind": "event",
+    "year": 175,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 183
+  },
+  {
     "id": "xishou-huolin",
     "name": "西狩获麟",
     "display": "西狩获麟",
@@ -59509,6 +62517,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 657
+  },
+  {
+    "id": "xiyu-duhu",
+    "name": "置西域都护府",
+    "display": "置西域都护府",
+    "kind": "event",
+    "year": -60,
+    "yearAccuracy": "exact",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "xuanwu-zhibian",
@@ -59637,6 +62660,37 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "yang-xuangan-zhiluan",
+    "name": "杨玄感之乱",
+    "display": "杨玄感之乱",
+    "kind": "event",
+    "year": 613,
+    "yearAccuracy": "exact",
+    "type": "rebellion",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yangdi-jiwei",
+    "name": "隋炀帝即位",
+    "display": "隋炀帝即位",
+    "kind": "event",
+    "year": 604,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "yangwu-jianli",
     "name": "杨吴建立",
     "display": "杨吴建立",
@@ -59664,6 +62718,22 @@
       "history"
     ],
     "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
+    "id": "yanmen-zhiwei",
+    "name": "雁门之围",
+    "display": "雁门之围",
+    "kind": "event",
+    "year": 615,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 2,
     "topicId": "history",
     "topicTitle": "历史事件"
   },
@@ -59843,6 +62913,22 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "yiling-zhizhan",
+    "name": "夷陵之战",
+    "display": "夷陵之战",
+    "kind": "event",
+    "year": 222,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "yique-zhizhan",
     "name": "伊阙之战",
     "display": "伊阙之战",
@@ -59999,6 +63085,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 493
+  },
+  {
+    "id": "yongping-qiu-fa",
+    "name": "永平求法，佛教传入中土",
+    "display": "永平求法",
+    "kind": "event",
+    "year": 67,
+    "yearAccuracy": "disputed",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "yongping-xiyu-kaifu",
@@ -60256,6 +63357,21 @@
     "topicTitle": "历史事件"
   },
   {
+    "id": "yuefei-yunsi",
+    "name": "岳飞遇害",
+    "display": "岳飞遇害",
+    "kind": "event",
+    "year": 1142,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "yungang-shiku",
     "name": "云冈石窟开凿",
     "display": "云冈石窟开凿",
@@ -60287,6 +63403,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 851
+  },
+  {
+    "id": "zhangheng-didongyi",
+    "name": "张衡造候风地动仪",
+    "display": "张衡造候风地动仪",
+    "kind": "event",
+    "year": 132,
+    "yearAccuracy": "exact",
+    "type": "cultural",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "zhao-mie-zhongshan",
@@ -60336,6 +63467,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": -607
+  },
+  {
+    "id": "zhaojun-chusai",
+    "name": "王昭君出塞",
+    "display": "王昭君出塞",
+    "kind": "event",
+    "year": -33,
+    "yearAccuracy": "exact",
+    "type": "diplomatic",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 1,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "zhaoling-zhimeng",
@@ -60431,6 +63577,21 @@
     "endYear": 649
   },
   {
+    "id": "zhilu-weima",
+    "name": "指鹿为马",
+    "display": "指鹿为马",
+    "kind": "event",
+    "year": -207,
+    "yearAccuracy": "exact",
+    "type": "political",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 1,
+    "topicId": "history",
+    "topicTitle": "历史事件"
+  },
+  {
     "id": "zhongdu-zhiyi",
     "name": "蒙金中都之役",
     "display": "中都",
@@ -60446,6 +63607,22 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 1215
+  },
+  {
+    "id": "zhonghui-dengai-mieshu",
+    "name": "钟会、邓艾灭蜀",
+    "display": "钟会、邓艾灭蜀",
+    "kind": "event",
+    "year": 263,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "zhongli-zhizhan",
@@ -60494,6 +63671,21 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": -1039
+  },
+  {
+    "id": "zhougong-ying-luoyi",
+    "name": "周公营建洛邑",
+    "display": "成周之建",
+    "kind": "event",
+    "year": -1042,
+    "yearAccuracy": "approx",
+    "type": "institutional",
+    "catalogs": [
+      "history"
+    ],
+    "importance": 2,
+    "topicId": "history",
+    "topicTitle": "历史事件"
   },
   {
     "id": "zhouwudi-zhu-yuwenhu",
@@ -60570,6 +63762,23 @@
     "topicId": "history",
     "topicTitle": "历史事件",
     "endYear": 913
+  },
+  {
+    "id": "zhugeliang-beifa",
+    "name": "诸葛亮北伐",
+    "display": "诸葛亮北伐",
+    "kind": "event",
+    "year": 228,
+    "yearAccuracy": "exact",
+    "type": "military",
+    "catalogs": [
+      "military",
+      "history"
+    ],
+    "importance": 3,
+    "topicId": "history",
+    "topicTitle": "历史事件",
+    "endYear": 234
   },
   {
     "id": "zhungeer-zhanzheng",

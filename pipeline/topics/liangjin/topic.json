@@ -549,6 +549,18 @@
     {
       "id": "sima-daozi",
       "lane": "dongjin"
+    },
+    {
+      "id": "dao-an",
+      "lane": "wen"
+    },
+    {
+      "id": "fa-xian",
+      "lane": "wen"
+    },
+    {
+      "id": "zhi-dun",
+      "lane": "wen"
     }
   ],
   "relationTypes": [
@@ -1426,6 +1438,36 @@
       "target": "huan-xuan",
       "type": "rival",
       "note": "玄入建康，徙之安成而鸩杀"
+    },
+    {
+      "source": "fu-jian",
+      "target": "dao-an",
+      "type": "ruler-subject",
+      "note": "坚以十万之师取襄阳，唯得一人半；安为其谋主，谏勿南征"
+    },
+    {
+      "source": "dao-an",
+      "target": "hui-yuan",
+      "type": "mentor",
+      "note": "慧远年二十一从道安出家，后入匡山结白莲社"
+    },
+    {
+      "source": "wang-xizhi",
+      "target": "zhi-dun",
+      "type": "peer",
+      "note": "羲之诣剡观其风力，问《逍遥篇》，披衿解带流连不能已"
+    },
+    {
+      "source": "xie-an",
+      "target": "zhi-dun",
+      "type": "peer",
+      "note": "遁讲肆善标宗会，谢安闻而善之"
+    },
+    {
+      "source": "fa-xian",
+      "target": "hui-yuan",
+      "type": "peer",
+      "note": "义熙年间并时弘法：显自天竺求律归国，于京口道场寺译经；远在匡山结社"
     }
   ],
   "events": [
@@ -1590,7 +1632,10 @@
         "xie-an",
         "xie-xuan",
         "huan-xuan",
-        "liu-yu"
+        "liu-yu",
+        "dao-an",
+        "fa-xian",
+        "zhi-dun"
       ],
       "events": [
         "lj-dongdu",

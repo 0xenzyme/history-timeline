@@ -653,6 +653,18 @@
     {
       "id": "zhuge-dan",
       "lane": "qunxiong"
+    },
+    {
+      "id": "cui-yan",
+      "lane": "caowei"
+    },
+    {
+      "id": "xu-shu",
+      "lane": "shuhan"
+    },
+    {
+      "id": "zhuge-zhan",
+      "lane": "shuhan"
     }],
   "relationTypes": [
     {
@@ -955,6 +967,44 @@
       "target": "guo-hou-mingyuan",
       "type": "kin",
       "note": "齐王即位尊为皇太后。景元四年崩"
+    },
+    {
+      "source": "cao-cao",
+      "target": "cui-yan",
+      "type": "ruler-subject",
+      "note": "操领冀州辟琰为别驾从事，魏国既建拜尚书迁中尉；建安二十一年以答书被诬赐死"
+    },
+    {
+      "source": "cui-yan",
+      "target": "cui-lin",
+      "type": "kin",
+      "note": "从弟。林亦仕魏，官至司空"
+    },
+    {
+      "source": "liu-bei",
+      "target": "xu-shu",
+      "type": "ruler-subject",
+      "since": 207,
+      "note": "建安十二年备屯新野，庶往见而见器重；十三年长坂之别，以母辞备北归"
+    },
+    {
+      "source": "xu-shu",
+      "target": "zhuge-liang",
+      "type": "peer",
+      "note": "庶以亮进于先主，亮后为蜀汉丞相"
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "zhuge-zhan",
+      "type": "kin",
+      "note": "父子。瞻为亮长子，炎兴元年与子尚战殁绵竹"
+    },
+    {
+      "source": "deng-ai",
+      "target": "zhuge-zhan",
+      "type": "rival",
+      "since": 263,
+      "note": "艾自阴平袭入，瞻督诸军拒于绵竹，辞其诱降而战殁"
     }
   ],
   "events": [
@@ -1143,7 +1193,8 @@
         "sun-quan",
         "lv-meng",
         "lu-xun",
-        "zhou-yu"
+        "zhou-yu",
+        "cui-yan"
       ],
       "events": [
         "sg-chibi",
@@ -1175,7 +1226,9 @@
         "cao-huan",
         "sun-liang",
         "sun-xiu",
-        "sun-hao"
+        "sun-hao",
+        "xu-shu",
+        "zhuge-zhan"
       ],
       "events": [
         "sg-qibu",

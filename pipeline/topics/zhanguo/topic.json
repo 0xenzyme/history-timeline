@@ -458,6 +458,38 @@
     {
       "id": "di-taihou",
       "lane": "consort"
+    },
+    {
+      "id": "li-kui-wei",
+      "lane": "minister"
+    },
+    {
+      "id": "tian-ji",
+      "lane": "general"
+    },
+    {
+      "id": "li-bing",
+      "lane": "minister"
+    },
+    {
+      "id": "zheng-guo",
+      "lane": "minister"
+    },
+    {
+      "id": "zou-yan",
+      "lane": "scholar"
+    },
+    {
+      "id": "fan-ju",
+      "lane": "minister"
+    },
+    {
+      "id": "gongsun-yan",
+      "lane": "diplomat"
+    },
+    {
+      "id": "mengchang-jun",
+      "lane": "diplomat"
     }
   ],
   "relationTypes": [
@@ -1289,6 +1321,78 @@
       "target": "lv-buwei",
       "type": "ruler-subject",
       "note": "太后本吕氏所进姬，有子政立为王后；秦王壮年与其幸臣长信侯嫪毐之乱，事败而嫪毐车裂，吕不韦亦坐免相"
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "li-kui-wei",
+      "type": "ruler-subject",
+      "note": "魏文侯任悝为相，作尽地力之教，著《法经》六篇，魏以是先富强"
+    },
+    {
+      "source": "sun-bin",
+      "target": "tian-ji",
+      "type": "peer",
+      "note": "忌荐孙膑于威王，以膑为军师；桂陵之役、马陵之战，齐以破魏，忌为大将而膑主其谋"
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "tian-ji",
+      "type": "ruler-subject",
+      "note": "齐宣王以田忌为将，与魏战于桂陵、马陵，齐由此霸诸侯"
+    },
+    {
+      "source": "ying-zhu",
+      "target": "li-bing",
+      "type": "ruler-subject",
+      "note": "秦昭王以李冰为蜀守，冰凿离碓、壅江作堋，穿二江成都之中，蜀为陆海"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "zheng-guo",
+      "type": "ruler-subject",
+      "note": "韩使水工郑国来说秦凿泾渠以疲之；渠成而关中为沃野，秦卒就其利"
+    },
+    {
+      "source": "ji-huiwang",
+      "target": "zou-yan",
+      "type": "ruler-subject",
+      "note": "邹衍游于齐稷下，为列大夫；其五德终始之说，秦皇汉武封禅改制皆承之"
+    },
+    {
+      "source": "xun-zi",
+      "target": "zou-yan",
+      "type": "peer",
+      "note": "并游学于齐稷下，皆以学名动诸侯；衍谈天，卿论礼，为齐学之两端"
+    },
+    {
+      "source": "ying-zhu",
+      "target": "fan-ju",
+      "type": "ruler-subject",
+      "note": "范雎说昭王远交近攻，罢穰侯、废太后、杜私门，拜为相封应侯，秦之帝业自此成"
+    },
+    {
+      "source": "zhang-yi",
+      "target": "gongsun-yan",
+      "type": "rival",
+      "note": "一主连横、一主合纵，秦、魏相轧数十年，纵约屡解而诸侯愈困"
+    },
+    {
+      "source": "ji-huiwang",
+      "target": "mengchang-jun",
+      "type": "ruler-subject",
+      "note": "孟尝君相齐，好客食客数千，亦尝相于魏，出入虎狼之口以其客自免"
+    },
+    {
+      "source": "mengchang-jun",
+      "target": "su-qin",
+      "type": "peer",
+      "note": "世称战国四公子与纵横之士，皆以士为轻重，而俱不能挽秦并天下之局"
+    },
+    {
+      "source": "zheng-guo",
+      "target": "li-bing",
+      "type": "peer",
+      "note": "并举秦之水利：冰作于蜀以溉成都，国凿于泾以溉关中，秦因以富强"
     }
   ],
   "events": [
@@ -1690,7 +1794,9 @@
         "wei-huiwang",
         "han-yigong",
         "han-zhaohou",
-        "shen-buhai"
+        "shen-buhai",
+        "li-kui-wei",
+        "tian-ji"
       ],
       "events": [
         "xiangong-li",
@@ -1730,7 +1836,10 @@
         "yan-yiwang",
         "yan-kuaiwang",
         "zi-zhi",
-        "tian-xuanwang"
+        "tian-xuanwang",
+        "zou-yan",
+        "gongsun-yan",
+        "mengchang-jun"
       ],
       "events": [
         "qi-fa-yan",
@@ -1770,7 +1879,10 @@
         "chu-kaoliewang",
         "huang-xie",
         "changping-jun",
-        "taizi-dan"
+        "taizi-dan",
+        "fan-ju",
+        "li-bing",
+        "zheng-guo"
       ],
       "events": [
         "changping",

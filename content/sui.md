@@ -44,3 +44,5 @@
 | [yang-jun-600](sui/yang-jun-600.md) | 杨俊 | 秦孝王杨俊 | brief |
 | [yang-xiu-618](sui/yang-xiu-618.md) | 杨秀 | 庶人杨秀 | brief |
 | [yang-jian-585](sui/yang-jian-585.md) | 杨暕 | 齐王杨暕 | brief |
+| [zhang-xu-tuo](sui/zhang-xu-tuo.md) | 张须陀 | 张须陀 | full |
+| [wang-bo](sui/wang-bo.md) | 王薄 | 王薄 | full |

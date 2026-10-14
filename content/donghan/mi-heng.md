@@ -1,0 +1,34 @@
+---
+id: mi-heng
+name: 祢衡
+display: 祢衡
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - literature
+primary: literature
+birth: 173
+birthAccuracy: approx
+birthNote: 史无生年明载；本传止记被杀时「年二十六」，卒年据《资治通鉴》建安三年（198）系年，据此上推生年约在 173 年。
+death: 198
+deathAccuracy: approx
+deathNote: 《后汉书·文苑列传》记以言辞不逊为江夏太守黄祖所杀，时年二十六，传未书卒年；建安三年（198）出自《资治通鉴》系年。
+title: 击鼓骂操，客死于黄祖之手
+tags:
+  - 东汉
+  - 建安
+aliases:
+  - 祢衡
+  - 祢正平
+sources:
+  - work: 后汉书
+    part: 文苑列传
+    kind: classic
+  - work: 资治通鉴
+    part: 汉纪·建安三年
+    kind: classic
+---
+
+平原般人，字正平，少有才辩而尚气刚傲，独与孔融相善。建安初融上疏荐之，曹操欲见，衡称狂病不往。操录为鼓史，衡至坐中裸身更衣，作《渔阳参挝》挝打而去，当面数操。操惮杀贤之名，遣送荆州刘表，表亦不能容，转送江夏太守黄祖。建安三年（198）于祖席上出言不逊，遂被杀，时年二十六。今存《鹦鹉赋》一篇。

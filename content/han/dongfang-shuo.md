@@ -1,0 +1,36 @@
+---
+id: dongfang-shuo
+name: 东方朔
+display: 东方朔
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - literature
+  - scholar
+primary: literature
+birth: -154
+birthAccuracy: approx
+birthNote: 本传不书生年；后人据其上书自叙「年十三学书……十九学孙吴兵法」及「臣朔年二十二」诸语推算，有前154与前161两说，此从前154。
+death: -87
+deathAccuracy: disputed
+deathNote: 本传不书卒年；《史记·滑稽列传》记其临死引「营营青蝇」之诗劝帝远巧佞，亦不著年。通行卒年有前93与前87两说，此从前87。
+title: 武帝常侍郎，以诙谐行讽谏
+tags:
+  - 答客难
+  - 诙谐
+  - 金马门
+aliases:
+  - 东方曼倩
+sources:
+  - work: 汉书
+    part: 东方朔传
+    kind: classic
+  - work: 史记
+    part: 滑稽列传
+    note: 末段「褚先生曰」以下为褚少孙所补，东方朔事在其中，非司马迁原文。
+    kind: classic
+---
+
+平原厌次人，字曼倩。武帝初即位征方正贤良，上书自荐，谓年二十二、目若悬珠、勇若孟贲、廉若鲍叔，待诏公车，累迁常侍郎、太中大夫。谏起上林苑、谏引董偃入宣室，皆设为恢谐之辞而理归于正；又以位卑不得大用，作《答客难》《非有先生论》以自解。世传其诙达多智，长安至以为俳优。

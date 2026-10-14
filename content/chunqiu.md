@@ -236,3 +236,11 @@
 | [zhuan-zhu](chunqiu/zhuan-zhu.md) | 专诸 | 专诸 | brief |
 | [wang-zi-chao](chunqiu/wang-zi-chao.md) | 姬朝 | 王子朝 | brief |
 | [tai-zai-pi](chunqiu/tai-zai-pi.md) | 伯嚭 | 太宰嚭 | brief |
+| [zhu-zhiwu](chunqiu/zhu-zhiwu.md) | 烛之武 | 烛之武 | full |
+| [shen-baoxu](chunqiu/shen-baoxu.md) | 申包胥 | 申包胥 | full |
+| [ji-zha](chunqiu/ji-zha.md) | 季札 | 季札 | full |
+| [xi-shi](chunqiu/xi-shi.md) | 西施 | 西施 | full |
+| [jian-shu](chunqiu/jian-shu.md) | 蹇叔 | 蹇叔 | full |
+| [shi-que](chunqiu/shi-que.md) | 石碏 | 石碏 | full |
+| [xi-ke](chunqiu/xi-ke.md) | 郤克 | 郤克 | full |
+| [shi-kuang](chunqiu/shi-kuang.md) | 师旷 | 师旷 | full |

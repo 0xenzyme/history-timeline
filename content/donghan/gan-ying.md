@@ -1,0 +1,31 @@
+---
+id: gan-ying
+name: 甘英
+display: 甘英
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - explorer
+  - diplomat
+primary: explorer
+birthAccuracy: unknown
+death: 97
+deathAccuracy: approx
+deathNote: 卒年不详。永元九年（97）奉都护班超命使大秦，抵条支、临大海而止，是其行迹可考之年，此外无闻。取永元九年为活动下限，非确凿卒年。
+title: 奉使大秦，抵条支临西海而还
+tags:
+  - 东汉
+  - 西域
+  - 探险
+aliases:
+  - 甘英
+sources:
+  - work: 后汉书
+    part: 西域传
+    note: 永元九年班超遣甘英使大秦、抵条支临大海欲度而止据此
+    kind: classic
+---
+
+东汉西域使者，职里史无明文。和帝永元九年（97），都护班超遣甘英使大秦，英抵条支，临大海欲度。安息西界船人告以海水广大、往来者逢善风三月乃得度，若遇迟风亦有二岁者，故入海者皆赍三岁粮；海中善使人思土恋慕，数有死亡者。英闻之乃止，未西渡而还。此行虽未达大秦，然汉使足迹至于西海，中西交通所至之远，此为西汉通西域以来最著的一程；其所闻海道风信、安息西界情形，亦赖班勇《西域列传》诸书而存。

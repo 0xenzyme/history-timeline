@@ -558,6 +558,30 @@
     {
       "id": "zou-zi",
       "lane": "minister"
+    },
+    {
+      "id": "qin-ying",
+      "lane": "lord"
+    },
+    {
+      "id": "lu-ligong",
+      "lane": "lord"
+    },
+    {
+      "id": "song-ligong",
+      "lane": "lord"
+    },
+    {
+      "id": "wei-zhenbo",
+      "lane": "lord"
+    },
+    {
+      "id": "guo-jizibai",
+      "lane": "lord"
+    },
+    {
+      "id": "e-hou-yufang",
+      "lane": "lord"
     }
   ],
   "relationTypes": [
@@ -1715,6 +1739,54 @@
       "target": "xiong-yi",
       "type": "ruler-subject",
       "note": "若敖二十年犬戎杀幽王"
+    },
+    {
+      "source": "ji-jing",
+      "target": "guo-jizibai",
+      "type": "ruler-subject",
+      "note": "宣王十二年命虢季子白伐猃狁，至于洛水之北，斩首五百、执讯五十，王飨于周庙宣榭，锡以弓矢大钺"
+    },
+    {
+      "source": "guo-jizibai",
+      "target": "guo-shu",
+      "type": "kin",
+      "note": "同出虢氏，季子白为王季之后，虢叔为王季之弟支庶，皆为周室卿士"
+    },
+    {
+      "source": "ji-jing",
+      "target": "qin-ying",
+      "type": "ruler-subject",
+      "note": "周孝王召非子主马于汧渭之间，马大蕃息，乃邑之秦，号曰秦嬴，使续嬴氏祀"
+    },
+    {
+      "source": "qin-ying",
+      "target": "qin-zhong",
+      "type": "kin",
+      "note": "同出嬴姓，非子为秦之始封，其后仲、庄、襄相承，以救周功列为诸侯"
+    },
+    {
+      "source": "lu-ligong",
+      "target": "ji-jing",
+      "type": "ruler-subject",
+      "note": "鲁为周公之后，厉公之世周室中兴，鲁以望国从王事"
+    },
+    {
+      "source": "wei-zhenbo",
+      "target": "ji-jing",
+      "type": "ruler-subject",
+      "note": "卫以康叔之后为周东藩，贞伯之世值宣王中兴"
+    },
+    {
+      "source": "song-ligong",
+      "target": "ji-jing",
+      "type": "ruler-subject",
+      "note": "宋以殷后为周之宾，得郊祀先王，厉公之世从王东迁"
+    },
+    {
+      "source": "ji-hu",
+      "target": "e-hou-yufang",
+      "type": "ruler-subject",
+      "note": "厉王世鄂侯驭方率南淮夷、东夷内犯，王命武公之臣禹讨之，鄂遂不竞"
     }
   ],
   "events": [
@@ -1903,7 +1975,10 @@
         "shao-hu",
         "zhou-dinggong",
         "rui-liangfu",
-        "ji-jing"
+        "ji-jing",
+        "qin-ying",
+        "lu-ligong",
+        "song-ligong"
       ],
       "events": [
         "guoren-baodong",
@@ -1925,7 +2000,8 @@
         "zhong-shanfu",
         "yin-jifu",
         "ji-you",
-        "ji-hu"
+        "ji-hu",
+        "guo-jizibai"
       ],
       "events": [
         "xuanwang-jiwei",
@@ -1951,7 +2027,8 @@
         "shen-hou",
         "ji-yijiu",
         "ji-you",
-        "bo-yangfu"
+        "bo-yangfu",
+        "e-hou-yufang"
       ],
       "events": [
         "xuanwang-beng",

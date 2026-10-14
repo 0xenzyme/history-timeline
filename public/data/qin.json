@@ -1095,6 +1095,81 @@
         "qin"
       ],
       "gender": "male"
+    },
+    {
+      "id": "wang-ben",
+      "name": "王贲",
+      "display": "王贲",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -221,
+      "deathNote": "生卒无明文。《史记·秦始皇本纪》记王翦子贲从平燕、荆、江南地，又虏齐王建；取灭齐之年（公元前221年）为活动下限，非寿数。lane用已存在的qin-official。",
+      "title": "翦之子，灭齐而秦以并六国",
+      "bio": "王翦之子。秦之取六国也，其子贲与有力焉。从李信攻燕，追燕丹于辽东；又从王翦定荆，降荆君；后别将定江南地，降百越之君。始皇既灭五国，独齐未下，齐王建守即墨以距秦。贲以大兵自燕南袭，绝齐之后，齐不战而降，虏王建于共，天下始一。王氏父子俱以武功为秦重。",
+      "tags": [
+        "秦",
+        "统一",
+        "名将"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-jian",
+      "name": "王翦",
+      "display": "王翦",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -220,
+      "deathNote": "卒年不详。始皇二十四年灭楚，其后少记载，取统一前后为活动下限。",
+      "title": "秦将，灭赵、灭楚",
+      "bio": "频阳人。与秦王政议兵，六十万灭楚。灭六国的武将条里，白起开了头，他收了尾。",
+      "tags": [
+        "秦国",
+        "灭六国"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-liao",
+      "name": "尉缭",
+      "display": "尉缭",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -237,
+      "deathNote": "生卒无明文。《史记·秦始皇本纪》记大梁人尉缭来说秦王政，事在公元前237年。取-237为活动年，非寿数。lane用已存在的qin-official。",
+      "title": "尉缭子，以兵术说秦王",
+      "bio": "大梁人，著书号《尉缭子》，言兵以「武表文里」为本，重号令、明赏罚，以为「兵者，凶器也；战者，逆德也；争者，事之末也」，又察地形之便、士卒之用。来游于秦，说秦王曰：「以秦之强，诸侯譬如郡县之君，臣但恐诸侯合从，翕而出不意，此乃智伯、夫差、湣王之所以亡也。愿大王毋爱财物，赂其豪臣，以乱其谋，不过亡三十万金，则诸侯可尽。」秦王从其计，见尉缭抗礼，衣服食饮与缭同，而缭度秦王为人，不可与久游，亡去，秦王固止，以为秦国尉，因用其策。",
+      "tags": [
+        "秦",
+        "兵家",
+        "统一"
+      ],
+      "categories": [
+        "scholar",
+        "military-theory"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -1321,6 +1396,36 @@
       "target": "feng-quji",
       "type": "peer",
       "note": "同为丞相。二世二年同谏停阿房，去疾自杀，李斯下狱"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wang-ben",
+      "type": "ruler-subject",
+      "note": "王翦之子贲从定荆、江南地，又从灭燕；始皇乃别使贲攻齐，虏王建于共，天下始一"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wei-liao",
+      "type": "ruler-subject",
+      "note": "大梁人尉缭来说秦王，以为诸侯合从则不可轻，请赂其豪臣以乱其谋；秦王以为秦国尉"
+    },
+    {
+      "source": "wang-ben",
+      "target": "wang-jian",
+      "type": "kin",
+      "note": "父子，俱为秦将；翦灭楚、定楚地，贲灭齐、虏王建，王氏之功为秦最"
+    },
+    {
+      "source": "wang-jian",
+      "target": "wei-liao",
+      "type": "peer",
+      "note": "同事于秦：一主兵事，一主兵术"
+    },
+    {
+      "source": "wei-liao",
+      "target": "li-si",
+      "type": "peer",
+      "note": "同预秦之帝业：缭主兵术、赂诸侯以孤纵，斯主吏治、一天下而归一法度"
     }
   ],
   "events": [
@@ -1454,7 +1559,9 @@
         "li-si",
         "zhao-gao",
         "meng-tian",
-        "meng-yi"
+        "meng-yi",
+        "wang-ben",
+        "wei-liao"
       ],
       "events": [
         "qin-chengdi",

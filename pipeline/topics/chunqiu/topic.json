@@ -1056,6 +1056,38 @@
     {
       "id": "yan-hui",
       "lane": "shi"
+    },
+    {
+      "id": "zhu-zhiwu",
+      "lane": "minister"
+    },
+    {
+      "id": "shen-baoxu",
+      "lane": "minister"
+    },
+    {
+      "id": "ji-zha",
+      "lane": "lord"
+    },
+    {
+      "id": "xi-shi",
+      "lane": "south"
+    },
+    {
+      "id": "jian-shu",
+      "lane": "minister"
+    },
+    {
+      "id": "shi-que",
+      "lane": "minister"
+    },
+    {
+      "id": "xi-ke",
+      "lane": "minister"
+    },
+    {
+      "id": "shi-kuang",
+      "lane": "shi"
     }
   ],
   "relationTypes": [
@@ -1245,6 +1277,54 @@
       "target": "zi-zifu",
       "type": "rival",
       "note": "泓之战射伤宋襄公，襄公病创而死"
+    },
+    {
+      "source": "zheng-wengong",
+      "target": "zhu-zhiwu",
+      "type": "ruler-subject",
+      "note": "晋秦围郑，佚之狐言使烛之武见秦君，夜缒城而出说秦穆公，秦师乃退"
+    },
+    {
+      "source": "xiong-zhen",
+      "target": "shen-baoxu",
+      "type": "ruler-subject",
+      "note": "吴入郢，昭王奔随；包胥如秦乞师，哭于秦庭七日，秦哀公赋《无衣》而出师，楚以复国"
+    },
+    {
+      "source": "wu-shoumeng",
+      "target": "ji-zha",
+      "type": "kin",
+      "note": "父子。寿梦欲立季札，札以次及辞，诸兄弟以次相承"
+    },
+    {
+      "source": "si-goujian",
+      "target": "xi-shi",
+      "type": "ruler-subject",
+      "note": "越困于会稽，用范蠡之谋，得西施以献吴；吴王夫差嬖之，由是疏忠黩武，越以灭吴"
+    },
+    {
+      "source": "jin-xianggong",
+      "target": "jian-shu",
+      "type": "rival",
+      "note": "秦师袭郑过晋境，蹇叔哭送而秦穆公不纳；襄公败秦师于殽，三将见获"
+    },
+    {
+      "source": "wei-huangong",
+      "target": "shi-que",
+      "type": "ruler-subject",
+      "note": "州吁弑桓公而自立，石碏承陈侯图之，杀州吁于濮，又使其宰獳羊肩杀其子石厚于陈"
+    },
+    {
+      "source": "qi-jiangong",
+      "target": "xi-ke",
+      "type": "rival",
+      "note": "郤克使齐见笑，请伐而晋景公不答；明年齐侵鲁，郤克战于鞌，齐师大败，顷公乃请盟"
+    },
+    {
+      "source": "jin-pinggong",
+      "target": "shi-kuang",
+      "type": "ruler-subject",
+      "note": "晋平公铸大钟，乐工皆谓善，师旷独曰不调，请验之于民；又引琴以谏君言之莫违"
     }
   ],
   "events": [
@@ -1459,7 +1539,8 @@
       "brief": "平王东迁后，周王泳道只剩他一条。郑庄公克段于鄢——王室管不住的第一笔，写在畿内诸侯自己家里。",
       "people": [
         "ji-yijiu",
-        "ji-wusheng"
+        "ji-wusheng",
+        "shi-que"
       ],
       "events": [
         "dongqian",
@@ -1484,7 +1565,9 @@
         "xian-zhen",
         "ying-renhao",
         "bai-lixi",
-        "zi-zifu"
+        "zi-zifu",
+        "zhu-zhiwu",
+        "jian-shu"
       ],
       "events": [
         "huan-guan",
@@ -1512,7 +1595,12 @@
         "ji-fucha",
         "si-goujian",
         "fan-li",
-        "wen-zhong"
+        "wen-zhong",
+        "ji-zha",
+        "xi-shi",
+        "shen-baoxu",
+        "xi-ke",
+        "shi-kuang"
       ],
       "events": [
         "bizhan",

@@ -1,0 +1,34 @@
+---
+id: zhou-yafu
+name: 周亚夫
+display: 周亚夫
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - chancellor
+  - general
+primary: chancellor
+birthAccuracy: unknown
+birthNote: 生年不详
+death: -143
+deathAccuracy: exact
+deathNote: 本传称其下廷尉，「不食五日，呕血而死」，事在景帝后元年（前143）。
+title: 西汉太尉、丞相，三月而定吴楚
+tags:
+  - 细柳营
+  - 七国之乱
+  - 条侯
+aliases:
+  - 条侯
+sources:
+  - work: 汉书
+    part: 张陈王周传
+    kind: classic
+  - work: 史记
+    part: 绛侯周勃世家
+    kind: classic
+---
+
+绛侯周勃之子，兄胜之嗣侯坐罪国除，文帝择勃子贤者而封之于条。初为河内守，文帝后六年以将军屯细柳，天子亲劳军而不得驰入，帝叹为「真将军」。景帝三年吴楚七国反，以太尉东出，壁昌邑、绝吴楚粮道，三月而定。后为丞相，以争外戚封侯、匈奴降者封侯事数忤上意，谢病免；子私买工官尚方甲楯五百被为葬具事发，下廷尉，不食五日呕血死。

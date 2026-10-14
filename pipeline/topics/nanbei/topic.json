@@ -647,6 +647,30 @@
     {
       "id": "lu-xun-yuxian",
       "lane": "nan"
+    },
+    {
+      "id": "fan-ye",
+      "lane": "wen"
+    },
+    {
+      "id": "pei-songzhi",
+      "lane": "wen"
+    },
+    {
+      "id": "liu-yiqing",
+      "lane": "wen"
+    },
+    {
+      "id": "zhong-rong",
+      "lane": "wen"
+    },
+    {
+      "id": "wei-shou",
+      "lane": "bei"
+    },
+    {
+      "id": "jia-si-xie",
+      "lane": "bei"
     }
   ],
   "relationTypes": [
@@ -1070,6 +1094,72 @@
       "target": "wang-zhenfeng",
       "type": "kin",
       "note": "顺帝禅位，太后与帝同逊东邸。建元元年薨"
+    },
+    {
+      "source": "liu-yu",
+      "target": "fan-ye",
+      "type": "ruler-subject",
+      "note": "高祖初为相国掾、彭城王义康冠军参军"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "fan-ye",
+      "type": "ruler-subject",
+      "note": "元嘉中为尚书吏部郎、左卫将军、太子詹事；元嘉二十二年以与谢综、孔熙先谋逆被诛，年四十八"
+    },
+    {
+      "source": "liu-yilong",
+      "target": "pei-songzhi",
+      "type": "ruler-subject",
+      "note": "宋初诏注陈寿《三国志》，元嘉六年奏上注六十五卷"
+    },
+    {
+      "source": "pei-songzhi",
+      "target": "fan-ye",
+      "type": "peer",
+      "note": "元嘉朝并纂述史事：松之注《三国志》，晔撰《后汉书》九十卷"
+    },
+    {
+      "source": "liu-yifu",
+      "target": "liu-yiqing",
+      "type": "kin",
+      "note": "兄弟。长沙景王刘道怜之子，义符为宋少帝，义庆出继临川烈武王刘道规"
+    },
+    {
+      "source": "liu-yu",
+      "target": "liu-yiqing",
+      "type": "ruler-subject",
+      "note": "幼为高祖所知，永初元年袭封临川王"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "zhong-rong",
+      "type": "ruler-subject",
+      "note": "天监初制度革新，嵘上言革除买爵之弊，敕付尚书行之"
+    },
+    {
+      "source": "zhong-rong",
+      "target": "liu-xie",
+      "type": "peer",
+      "note": "南朝文论并峙：《诗品》品五言诗，《文心雕龙》论文体"
+    },
+    {
+      "source": "gao-yang",
+      "target": "wei-shou",
+      "type": "ruler-subject",
+      "note": "天保二年诏撰魏史，收兼著作郎专其任，天保五年奏上《魏书》百三十卷"
+    },
+    {
+      "source": "cui-hao",
+      "target": "wei-shou",
+      "type": "peer",
+      "note": "皆奉敕撰国史：崔浩修国书获罪，魏收撰魏书专一家之言"
+    },
+    {
+      "source": "li-daoyuan",
+      "target": "jia-si-xie",
+      "type": "peer",
+      "note": "北魏格物之作并峙：道元注《水经》穷地理，思勰撰《齐民要术》究农事"
     }
   ],
   "events": [
@@ -1223,7 +1313,8 @@
         "yuwen-yong",
         "hulv-guang",
         "gao-changgong",
-        "su-chuo"
+        "su-chuo",
+        "wei-shou"
       ],
       "events": [
         "nb-tuoba",
@@ -1249,7 +1340,10 @@
         "xiao-yan",
         "xiao-tong",
         "chen-ba-xian",
-        "chen-shubao"
+        "chen-shubao",
+        "fan-ye",
+        "pei-songzhi",
+        "liu-yiqing"
       ],
       "events": [
         "nb-song",
@@ -1273,7 +1367,9 @@
         "xiao-tong",
         "xie-lingyun",
         "tao-hongjing",
-        "li-daoyuan"
+        "li-daoyuan",
+        "zhong-rong",
+        "jia-si-xie"
       ],
       "events": [
         "nb-xiao"

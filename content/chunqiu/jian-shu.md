@@ -1,0 +1,33 @@
+---
+id: jian-shu
+name: 蹇叔
+display: 蹇叔
+profile: full
+gender: male
+polity:
+  - qin
+categories:
+  - minister
+  - strategist
+primary: strategist
+birthAccuracy: unknown
+death: -628
+deathAccuracy: approx
+deathNote: 生卒无明文。《左传·僖公三十二年》记孟明、西乞、白乙将兵越晋境，蹇叔哭送，即公元前628年。取-628为活动年，非寿数。
+title: 哭送秦师，知殽之不可袭
+tags:
+  - 春秋
+  - 秦
+  - 远识
+aliases:
+  - 蹇叔
+sources:
+  - work: 左传
+    part: 僖公三十二年
+    kind: classic
+  - work: 史记
+    part: 秦本纪
+    kind: classic
+---
+
+秦之老臣。穆公之世，秦欲袭郑，过晋之境。蹇叔曰：「劳师以袭远，非所闻也。师劳力竭，远主备之，无乃不可乎！」公不听，使孟明视、西乞术、白乙丙将兵东出。蹇叔哭送其子，曰：「晋人御师必于殽，殽有二陵焉，其南陵，夏后皋之墓也，尔何知？」师果败于殽，三将见获。自是秦人知晋之可忧，乃西伐诸戎，益国十二，开地千里。

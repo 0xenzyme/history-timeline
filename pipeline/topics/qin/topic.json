@@ -252,6 +252,18 @@
     {
       "id": "han-guang",
       "lane": "opp"
+    },
+    {
+      "id": "wang-ben",
+      "lane": "qin-official"
+    },
+    {
+      "id": "wang-jian",
+      "lane": "qin-official"
+    },
+    {
+      "id": "wei-liao",
+      "lane": "qin-official"
     }
   ],
   "relationTypes": [
@@ -478,6 +490,36 @@
       "target": "feng-quji",
       "type": "peer",
       "note": "同为丞相。二世二年同谏停阿房，去疾自杀，李斯下狱"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wang-ben",
+      "type": "ruler-subject",
+      "note": "王翦之子贲从定荆、江南地，又从灭燕；始皇乃别使贲攻齐，虏王建于共，天下始一"
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wei-liao",
+      "type": "ruler-subject",
+      "note": "大梁人尉缭来说秦王，以为诸侯合从则不可轻，请赂其豪臣以乱其谋；秦王以为秦国尉"
+    },
+    {
+      "source": "wang-ben",
+      "target": "wang-jian",
+      "type": "kin",
+      "note": "父子，俱为秦将；翦灭楚、定楚地，贲灭齐、虏王建，王氏之功为秦最"
+    },
+    {
+      "source": "wang-jian",
+      "target": "wei-liao",
+      "type": "peer",
+      "note": "同事于秦：一主兵事，一主兵术"
+    },
+    {
+      "source": "wei-liao",
+      "target": "li-si",
+      "type": "peer",
+      "note": "同预秦之帝业：缭主兵术、赂诸侯以孤纵，斯主吏治、一天下而归一法度"
     }
   ],
   "events": [
@@ -611,7 +653,9 @@
         "li-si",
         "zhao-gao",
         "meng-tian",
-        "meng-yi"
+        "meng-yi",
+        "wang-ben",
+        "wei-liao"
       ],
       "events": [
         "qin-chengdi",

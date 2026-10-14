@@ -1035,6 +1035,55 @@
         "sui"
       ],
       "gender": "male"
+    },
+    {
+      "id": "zhang-xu-tuo",
+      "name": "张须陀",
+      "display": "张须陀",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 616,
+      "deathNote": "隋书·诚节传载其溃围复入力战而死，未系年号，传内最末纪年止于大业十年；大业十二年（616）荥阳大海寺之败见资治通鉴·隋纪，卒年以此为准。",
+      "title": "隋末劲将，破王薄诸部而殁于大海寺",
+      "bio": "弘农阌乡人。性刚烈，有勇略而能得士卒心，大业中累破王薄、左孝友、卢明月之众，以功迁齐郡通守，领河南道十二郡黜陟讨捕大使，号为隋末劲将，秦琼尝属其麾下。后转荥阳通守，大业十二年（616）拒李密、翟让于荥阳大海寺，中伏，溃围复入救其部众，力战而死，所部昼夜号哭，山东之势遂不可收拾。",
+      "tags": [
+        "隋末",
+        "名将"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-bo",
+      "name": "王薄",
+      "display": "王薄",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 622,
+      "deathNote": "资治通鉴·唐纪武德五年三月戊戌（十七日）：时以齐州总管从宋州总管盛彦师攻须昌，还过潭州，为刺史李义满兄子武意所杀。隋末首义，卒于唐武德五年（622）。",
+      "title": "长白山首义，作《无向辽东浪死歌》",
+      "bio": "邹平人。大业七年（611）据长白山聚众，自称知世郎，作《无向辽东浪死歌》相号召，避征辽之役者争归之，为隋末举义旗之最先者。转战山东，数为张须陀所败，散而复聚。武德中降唐，授齐州总管；五年（622）从宋州总管盛彦师攻须昌，还过潭州，为刺史李义满兄子武意所杀。",
+      "tags": [
+        "隋末",
+        "首义",
+        "长白山"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -1273,6 +1322,32 @@
       "target": "yuwen-chan",
       "type": "rival",
       "note": "大定元年杨坚称帝，静帝逊于别宫。开皇元年五月崩，年九岁"
+    },
+    {
+      "source": "yang-guang",
+      "target": "zhang-xu-tuo",
+      "type": "ruler-subject",
+      "note": "大业中须陀累破王薄、左孝友、卢明月之众，迁齐郡通守，领河南道十二郡讨捕大使"
+    },
+    {
+      "source": "li-mi",
+      "target": "zhang-xu-tuo",
+      "type": "rival",
+      "since": 616,
+      "note": "大业十二年密与翟让邀击须陀于荥阳大海寺，须陀溃围复入力战而死"
+    },
+    {
+      "source": "yang-guang",
+      "target": "wang-bo",
+      "type": "rival",
+      "since": 611,
+      "note": "大业七年薄据长白山首义，作《无向辽东浪死歌》，避征辽之役者争归之"
+    },
+    {
+      "source": "zhang-xu-tuo",
+      "target": "wang-bo",
+      "type": "rival",
+      "note": "大业中须陀数破薄军于山东，薄散而复聚"
     }
   ],
   "events": [
@@ -1416,7 +1491,9 @@
         "yang-you",
         "gao-jiong",
         "yang-su",
-        "yu-wen-kai"
+        "yu-wen-kai",
+        "zhang-xu-tuo",
+        "wang-bo"
       ],
       "events": [
         "sui-keju",

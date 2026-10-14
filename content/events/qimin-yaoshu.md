@@ -12,6 +12,8 @@ yearAccuracy: approx
 yearNote: 贾思勰撰于北魏末，确年无考，通作 533—544 年间。
 polity:
   - bei
+people:
+  - jia-si-xie
 result: 现存最早最完整的农书，集六世纪以前北方农业技术之大成
 aliases:
   - 齐民要术

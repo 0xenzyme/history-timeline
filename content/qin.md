@@ -51,3 +51,5 @@
 | [tian-heng](qin/tian-heng.md) | 田横 | 田横 | brief |
 | [wei-bao](qin/wei-bao.md) | 魏豹 | 魏豹 | brief |
 | [han-guang](qin/han-guang.md) | 韩广 | 韩广 | brief |
+| [wang-ben](qin/wang-ben.md) | 王贲 | 王贲 | full |
+| [wei-liao](qin/wei-liao.md) | 尉缭 | 尉缭 | full |

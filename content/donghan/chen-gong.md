@@ -1,0 +1,29 @@
+---
+id: chen-gong
+name: 陈宫
+display: 陈宫
+profile: full
+gender: male
+polity:
+  - han
+categories:
+  - strategist
+primary: strategist
+birthAccuracy: unknown
+death: 199
+deathAccuracy: exact
+deathNote: 建安三年曹操围下邳，城破之日已在公元 199 年，宫与吕布同被擒杀；《三国志·魏书·吕布传》未单书其卒日，旧说或系于 196，误。
+title: 迎操入兖又叛操，终与吕布同死
+tags:
+  - 东汉
+  - 群雄
+aliases:
+  - 陈宫
+  - 陈公台
+sources:
+  - work: 三国志
+    part: 魏书·吕布传
+    kind: classic
+---
+
+东郡人，字公台。天下乱，始随曹操。初平三年（192）说兖州别驾、治中以下迎操领兖州牧。兴平元年（194）操东征陶谦，使宫将兵留屯东郡；宫因说陈留太守张邈及其弟张超叛操，迎吕布据兖州，郡县多响应，操还与之攻守逾年，卒复兖州。建安三年（198）操攻布于下邳，引沂泗灌城，城陷之日已入公元 199 年，宫与布同见擒。操欲生之，宫请就刑以明军法，遂死。操养其母终其身，嫁其女，抚视其家厚于初。

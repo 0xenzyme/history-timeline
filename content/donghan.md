@@ -136,3 +136,11 @@
 | [liu-ying-donghan](donghan/liu-ying-donghan.md) | 刘英 | 楚王刘英 | full |
 | [liu-qing](donghan/liu-qing.md) | 刘庆 | 清河孝王刘庆 | full |
 | [liu-suan](donghan/liu-suan.md) | 刘蒜 | 清河王刘蒜 | full |
+| [zhang-bao](donghan/zhang-bao.md) | 张宝 | 张宝 | full |
+| [zhang-liang-donghan](donghan/zhang-liang-donghan.md) | 张梁 | 张梁（黄巾） | full |
+| [mi-heng](donghan/mi-heng.md) | 祢衡 | 祢衡 | full |
+| [dong-cheng](donghan/dong-cheng.md) | 董承 | 董承 | full |
+| [zhang-lu](donghan/zhang-lu.md) | 张鲁 | 张鲁 | full |
+| [chen-gong](donghan/chen-gong.md) | 陈宫 | 陈宫 | full |
+| [gao-shun](donghan/gao-shun.md) | 高顺 | 高顺 | full |
+| [gan-ying](donghan/gan-ying.md) | 甘英 | 甘英 | full |

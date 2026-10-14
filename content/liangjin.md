@@ -130,3 +130,6 @@
 | [sima-yong](liangjin/sima-yong.md) | 司马颙 | 河间王司马颙 | full |
 | [sima-yu-minhuai](liangjin/sima-yu-minhuai.md) | 司马遹 | 愍怀太子司马遹 | full |
 | [sima-daozi](liangjin/sima-daozi.md) | 司马道子 | 会稽王司马道子 | full |
+| [dao-an](liangjin/dao-an.md) | 道安 | 道安 | full |
+| [fa-xian](liangjin/fa-xian.md) | 法显 | 法显 | full |
+| [zhi-dun](liangjin/zhi-dun.md) | 支遁 | 支遁 | full |

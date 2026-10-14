@@ -1049,6 +1049,42 @@
     {
       "id": "duan-xingzhi",
       "lane": "dali"
+    },
+    {
+      "id": "wanyan-yong",
+      "lane": "rival"
+    },
+    {
+      "id": "wanyan-dan",
+      "lane": "rival"
+    },
+    {
+      "id": "yelv-dashi",
+      "lane": "rival"
+    },
+    {
+      "id": "li-renxiao",
+      "lane": "rival"
+    },
+    {
+      "id": "su-song",
+      "lane": "literati"
+    },
+    {
+      "id": "fan-chunren",
+      "lane": "chancellor"
+    },
+    {
+      "id": "chao-buzhi",
+      "lane": "literati"
+    },
+    {
+      "id": "bi-zaiyu",
+      "lane": "general"
+    },
+    {
+      "id": "qu-duan",
+      "lane": "general"
     }
   ],
   "relationTypes": [
@@ -1343,6 +1379,72 @@
       "target": "zhang-shijie",
       "type": "ruler-subject",
       "note": "世杰扈二王入海，在崖山以千舰结寨自守"
+    },
+    {
+      "source": "wanyan-liang",
+      "target": "wanyan-yong",
+      "type": "kin",
+      "note": "从祖孙。亮弑熙宗自立，海陵南伐而东京变作，雍因之即位"
+    },
+    {
+      "source": "wanyan-yong",
+      "target": "wanyan-dan",
+      "type": "kin",
+      "note": "熙宗为世宗之从祖；世宗立，降封之号，后追复帝谥"
+    },
+    {
+      "source": "yelv-dashi",
+      "target": "wanyan-dan",
+      "type": "rival",
+      "note": "西辽居西域、金据中原，两不相涉；金人不能西略，大石因得西走"
+    },
+    {
+      "source": "li-renxiao",
+      "target": "wanyan-yong",
+      "type": "rival",
+      "note": "夏之西鄙与金接壤，仁宗事金以藩礼，通使聘问不绝"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "su-song",
+      "type": "ruler-subject",
+      "note": "元祐间拜尚书右仆射兼中书侍郎，为相；水运仪象台亦成于元祐"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fan-chunren",
+      "type": "ruler-subject",
+      "note": "同知枢密院，进拜宰相，以宽厚为政"
+    },
+    {
+      "source": "su-shi",
+      "target": "chao-buzhi",
+      "type": "mentor",
+      "note": "补之以《七述》见苏轼，遂为苏门四学士之一"
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "bi-zaiyu",
+      "type": "ruler-subject",
+      "note": "开禧北伐，韩侂胄以再遇为东路前锋，泗州之役以少击众"
+    },
+    {
+      "source": "zhang-jun",
+      "target": "qu-duan",
+      "type": "ruler-subject",
+      "note": "张浚开府川陕，以端为都统制；富平之役议不合，终以疑忌就诛"
+    },
+    {
+      "source": "qu-duan",
+      "target": "han-shizhong",
+      "type": "peer",
+      "note": "川陕与江淮两路名将，其才略互为南北倚重"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "wanyan-yong",
+      "type": "rival",
+      "note": "大定之世金不轻言南牧，宋得息肩于淮汉之间"
     }
   ],
   "events": [
@@ -1516,7 +1618,10 @@
         "su-shi",
         "shen-kuo",
         "cheng-hao",
-        "cheng-yi"
+        "cheng-yi",
+        "su-song",
+        "fan-chunren",
+        "chao-buzhi"
       ],
       "events": [
         "song-chenqiao",
@@ -1569,7 +1674,13 @@
         "lu-you",
         "xin-qiji",
         "wen-tianxiang",
-        "jia-sidao"
+        "jia-sidao",
+        "qu-duan",
+        "bi-zaiyu",
+        "wanyan-yong",
+        "wanyan-dan",
+        "yelv-dashi",
+        "li-renxiao"
       ],
       "events": [
         "song-jingkang",

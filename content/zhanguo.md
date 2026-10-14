@@ -98,3 +98,11 @@
 | [qi-jie](zhanguo/qi-jie.md) | 骑劫 | 骑劫 | full |
 | [ju-xin](zhanguo/ju-xin.md) | 剧辛 | 剧辛 | full |
 | [junwanghou](zhanguo/junwanghou.md) | 君王后 | 君王后 | full |
+| [li-kui-wei](zhanguo/li-kui-wei.md) | 李悝 | 李悝 | full |
+| [tian-ji](zhanguo/tian-ji.md) | 田忌 | 田忌 | full |
+| [li-bing](zhanguo/li-bing.md) | 李冰 | 李冰 | full |
+| [zheng-guo](zhanguo/zheng-guo.md) | 郑国 | 郑国 | full |
+| [zou-yan](zhanguo/zou-yan.md) | 邹衍 | 邹衍 | full |
+| [fan-ju](zhanguo/fan-ju.md) | 范雎 | 范雎 | full |
+| [gongsun-yan](zhanguo/gongsun-yan.md) | 公孙衍 | 公孙衍 | full |
+| [mengchang-jun](zhanguo/mengchang-jun.md) | 田文 | 孟尝君 | full |

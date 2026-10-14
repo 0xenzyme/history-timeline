@@ -96,3 +96,9 @@
 | [zhai-yi](han/zhai-yi.md) | 翟义 | 翟义 | full |
 | [zhi-zhi](han/zhi-zhi.md) | 郅支单于 | 郅支单于 | full |
 | [hu-han-xie](han/hu-han-xie.md) | 呼韩邪单于 | 呼韩邪单于 | full |
+| [zhou-yafu](han/zhou-yafu.md) | 周亚夫 | 周亚夫 | full |
+| [jiang-chong](han/jiang-chong.md) | 江充 | 江充 | full |
+| [dongfang-shuo](han/dongfang-shuo.md) | 东方朔 | 东方朔 | full |
+| [li-furen](han/li-furen.md) | 李夫人 | 孝武李皇后 | full |
+| [zheng-ji](han/zheng-ji.md) | 郑吉 | 郑吉 | full |
+| [chen-tang](han/chen-tang.md) | 陈汤 | 陈汤 | full |

@@ -149,3 +149,6 @@
 | [wang-ling](sanguo/wang-ling.md) | 王凌 | 王凌 | full |
 | [guanqiu-jian](sanguo/guanqiu-jian.md) | 毌丘俭 | 毌丘俭 | full |
 | [zhuge-dan](sanguo/zhuge-dan.md) | 诸葛诞 | 诸葛诞 | full |
+| [cui-yan](sanguo/cui-yan.md) | 崔琰 | 崔琰 | full |
+| [xu-shu](sanguo/xu-shu.md) | 徐庶 | 徐庶 | full |
+| [zhuge-zhan](sanguo/zhuge-zhan.md) | 诸葛瞻 | 诸葛瞻 | full |

@@ -1,0 +1,30 @@
+---
+id: dayunhe-kaozhuo
+status: published
+name: 隋炀帝开凿大运河
+display: 开凿大运河
+type: cultural
+catalogs:
+  - history
+importance: 3
+year: 605
+yearAccuracy: exact
+yearNote: 大业元年（605）营东都并开通济渠，四年（608）开永济渠，六年（610）开江南河。轴年取首役通济渠之年，全工跨度不另立实体。
+polity:
+  - sui
+people:
+  - yang-guang
+result: 通济渠、永济渠、江南河相继成，以洛阳为中心贯通南北水运
+aliases:
+  - 隋唐大运河
+  - 通济渠
+sources:
+  - work: 隋书
+    part: 炀帝纪上
+    kind: classic
+  - work: 通典
+    part: 州郡典·河南府、古荆河州
+    kind: classic
+---
+
+大业元年（605）隋炀帝营东都洛阳，并发河南、淮北诸郡民开通济渠，自西苑引谷、洛水入黄河，又自板渚引河入汴、经泗达淮；四年开永济渠北通涿郡，六年开江南河至余杭。数年间以洛阳为中心、北抵涿郡、南达余杭的水运干线成形，河畔筑御道、树以柳。运河把东南财赋与北方边防连成一体，唐宋赖以转运；役急民困亦使之成为隋亡的近因之一。

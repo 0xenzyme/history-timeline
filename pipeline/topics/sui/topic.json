@@ -232,6 +232,14 @@
     {
       "id": "yang-jian-585",
       "lane": "kin"
+    },
+    {
+      "id": "zhang-xu-tuo",
+      "lane": "general"
+    },
+    {
+      "id": "wang-bo",
+      "lane": "mowei"
     }
   ],
   "relationTypes": [
@@ -470,6 +478,32 @@
       "target": "yuwen-chan",
       "type": "rival",
       "note": "大定元年杨坚称帝，静帝逊于别宫。开皇元年五月崩，年九岁"
+    },
+    {
+      "source": "yang-guang",
+      "target": "zhang-xu-tuo",
+      "type": "ruler-subject",
+      "note": "大业中须陀累破王薄、左孝友、卢明月之众，迁齐郡通守，领河南道十二郡讨捕大使"
+    },
+    {
+      "source": "li-mi",
+      "target": "zhang-xu-tuo",
+      "type": "rival",
+      "since": 616,
+      "note": "大业十二年密与翟让邀击须陀于荥阳大海寺，须陀溃围复入力战而死"
+    },
+    {
+      "source": "yang-guang",
+      "target": "wang-bo",
+      "type": "rival",
+      "since": 611,
+      "note": "大业七年薄据长白山首义，作《无向辽东浪死歌》，避征辽之役者争归之"
+    },
+    {
+      "source": "zhang-xu-tuo",
+      "target": "wang-bo",
+      "type": "rival",
+      "note": "大业中须陀数破薄军于山东，薄散而复聚"
     }
   ],
   "events": [
@@ -613,7 +647,9 @@
         "yang-you",
         "gao-jiong",
         "yang-su",
-        "yu-wen-kai"
+        "yu-wen-kai",
+        "zhang-xu-tuo",
+        "wang-bo"
       ],
       "events": [
         "sui-keju",

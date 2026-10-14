@@ -3739,6 +3739,80 @@
         "wei"
       ],
       "gender": "male"
+    },
+    {
+      "id": "cui-yan",
+      "name": "崔琰",
+      "display": "崔琰",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 216,
+      "deathNote": "本传不系年，只记琰之赐死在「太祖为魏王」之后；武帝纪建安二十一年（216）夏五月进公爵为魏王，今通行年表皆系琰之死于该年。裴注引《魏略》作琰收付狱、髡刑输徒后自杀，与本传「赐琰死」记法不同，年份无异说。",
+      "title": "曹魏尚书、中尉，答书被诬赐死",
+      "bio": "清河东武城人，字季珪。少尚武好剑，年二十三始读《论语》《韩诗》，后就郑玄受学。袁绍辟为骑都尉；绍死，曹操领冀州，辟为别驾从事，以校计甲兵之谏折操，操改容谢之。太祖为丞相，琰典选举，所擢多清正之士，时论归重；魏国既建，拜尚书，迁中尉。建安二十一年曹操为魏王，杨训上表颂德，琰答书语涉讥讽，被指为谤讪，赐死（裴注引《魏略》作自杀）。从弟崔林亦仕魏，官至司空。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-shu",
+      "name": "徐庶",
+      "display": "徐庶",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 231,
+      "deathNote": "卒年不详。裴注引《魏略》载大和中诸葛亮出陇右时庶尚为右中郎将、御史中丞，亮叹其才未尽用；亮出陇右以 228、231 两次为最著，取其中较晚的 231 年作活动下限，非寿数。《魏略》又云「庶后数年病卒」，故知卒于是年之后数年。",
+      "title": "荐诸葛于先主，长坂之别北归",
+      "bio": "字元直，初名福，本单家子。建安十二年刘备屯新野，庶往见之，深为器重，遂以诸葛亮进于先主。建安十三年曹操南下，庶以母落于曹军，指心辞先主而北，遂不得还。入魏后至右中郎将、御史中丞，诸葛亮出陇右时闻其位不过如此，叹魏之多士。《魏略》称其后数年病卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhuge-zhan",
+      "name": "诸葛瞻",
+      "display": "诸葛瞻",
+      "lane": "shuhan",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 227,
+      "death": 263,
+      "birthNote": "生年不详。本传载亮出武功时与兄瑾书称瞻年八岁，时在 234 年，据此上推约生于 227 年，非逐年明文。",
+      "title": "诸葛亮长子，绵竹拒降战殁",
+      "bio": "诸葛亮长子，字思远。年十七尚公主，拜骑都尉，累迁侍中、尚书仆射，加军师将军；蜀人追思武侯，朝廷每有善政多以归于瞻。炎兴元年魏将邓艾自阴平袭入，瞻督诸军拒战于绵竹，辞其所诱之降，与子诸葛尚俱没于阵，年三十七。蜀汉随之而亡。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -4042,6 +4116,44 @@
       "target": "guo-hou-mingyuan",
       "type": "kin",
       "note": "齐王即位尊为皇太后。景元四年崩"
+    },
+    {
+      "source": "cao-cao",
+      "target": "cui-yan",
+      "type": "ruler-subject",
+      "note": "操领冀州辟琰为别驾从事，魏国既建拜尚书迁中尉；建安二十一年以答书被诬赐死"
+    },
+    {
+      "source": "cui-yan",
+      "target": "cui-lin",
+      "type": "kin",
+      "note": "从弟。林亦仕魏，官至司空"
+    },
+    {
+      "source": "liu-bei",
+      "target": "xu-shu",
+      "type": "ruler-subject",
+      "since": 207,
+      "note": "建安十二年备屯新野，庶往见而见器重；十三年长坂之别，以母辞备北归"
+    },
+    {
+      "source": "xu-shu",
+      "target": "zhuge-liang",
+      "type": "peer",
+      "note": "庶以亮进于先主，亮后为蜀汉丞相"
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "zhuge-zhan",
+      "type": "kin",
+      "note": "父子。瞻为亮长子，炎兴元年与子尚战殁绵竹"
+    },
+    {
+      "source": "deng-ai",
+      "target": "zhuge-zhan",
+      "type": "rival",
+      "since": 263,
+      "note": "艾自阴平袭入，瞻督诸军拒于绵竹，辞其诱降而战殁"
     }
   ],
   "events": [
@@ -4230,7 +4342,8 @@
         "sun-quan",
         "lv-meng",
         "lu-xun",
-        "zhou-yu"
+        "zhou-yu",
+        "cui-yan"
       ],
       "events": [
         "sg-chibi",
@@ -4262,7 +4375,9 @@
         "cao-huan",
         "sun-liang",
         "sun-xiu",
-        "sun-hao"
+        "sun-hao",
+        "xu-shu",
+        "zhuge-zhan"
       ],
       "events": [
         "sg-qibu",

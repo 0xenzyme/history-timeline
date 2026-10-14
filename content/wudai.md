@@ -74,3 +74,15 @@
 | [duan-sushun](wudai/duan-sushun.md) | 段素顺 | 段素顺 | full |
 | [li-yun](wudai/li-yun.md) | 李筠 | 李筠 | full |
 | [li-chongjin](wudai/li-chongjin.md) | 李重进 | 李重进 | full |
+| [wang-yanzhang](wudai/wang-yanzhang.md) | 王彦章 | 王彦章 | full |
+| [fu-yanqing](wudai/fu-yanqing.md) | 符彦卿 | 符彦卿 | full |
+| [sang-weihan](wudai/sang-weihan.md) | 桑维翰 | 桑维翰 | full |
+| [guo-chongtao](wudai/guo-chongtao.md) | 郭崇韬 | 郭崇韬 | full |
+| [yang-ningshi](wudai/yang-ningshi.md) | 杨凝式 | 杨凝式 | full |
+| [wang-yan-qianshu](wudai/wang-yan-qianshu.md) | 王衍 | 王衍 | full |
+| [wei-zhuang](wudai/wei-zhuang.md) | 韦庄 | 韦庄 | full |
+| [li-jianxun](wudai/li-jianxun.md) | 李建勋 | 李建勋 | full |
+| [gao-jichong](wudai/gao-jichong.md) | 高继冲 | 高继冲 | full |
+| [an-chongrong](wudai/an-chongrong.md) | 安重荣 | 安重荣 | full |
+| [shi-hongzhao](wudai/shi-hongzhao.md) | 史弘肇 | 史弘肇 | full |
+| [li-song-houjin](wudai/li-song-houjin.md) | 李崧 | 李崧 | full |

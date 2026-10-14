@@ -532,6 +532,30 @@
     {
       "id": "hu-han-xie",
       "lane": "xiongnu"
+    },
+    {
+      "id": "zhou-yafu",
+      "lane": "chancellor"
+    },
+    {
+      "id": "jiang-chong",
+      "lane": "scholar"
+    },
+    {
+      "id": "dongfang-shuo",
+      "lane": "scholar"
+    },
+    {
+      "id": "li-furen",
+      "lane": "consort"
+    },
+    {
+      "id": "zheng-ji",
+      "lane": "general"
+    },
+    {
+      "id": "chen-tang",
+      "lane": "general"
     }
   ],
   "relationTypes": [
@@ -1408,6 +1432,80 @@
       "target": "zhai-yi",
       "type": "rival",
       "note": "东郡太守勒兵讨莽，众至十余万"
+    },
+    {
+      "source": "liu-qi",
+      "target": "zhou-yafu",
+      "type": "ruler-subject",
+      "since": -154,
+      "note": "吴楚七国反，拜太尉，绝其粮道三月而破之；后为丞相"
+    },
+    {
+      "source": "zhou-yafu",
+      "target": "liu-pi",
+      "type": "rival",
+      "note": "细柳屯兵，坚守不战而绝吴楚粮道"
+    },
+    {
+      "source": "liu-che",
+      "target": "dongfang-shuo",
+      "type": "ruler-subject",
+      "note": "待诏公车、常侍郎，以诙谐行讽谏"
+    },
+    {
+      "source": "liu-che",
+      "target": "li-furen",
+      "type": "kin",
+      "note": "夫人有宠，生昌邑哀王髆；霍光追尊为孝武皇后"
+    },
+    {
+      "source": "li-guang-li",
+      "target": "li-furen",
+      "type": "kin",
+      "note": "兄妹；武帝欲侯李氏，乃拜广利为贰师将军"
+    },
+    {
+      "source": "liu-che",
+      "target": "jiang-chong",
+      "type": "ruler-subject",
+      "note": "拜直指绣衣使者，后治巫蛊之狱"
+    },
+    {
+      "source": "jiang-chong",
+      "target": "liu-ju",
+      "type": "rival",
+      "note": "掘蛊太子宫，太子斩充而起兵，父子相战"
+    },
+    {
+      "source": "liu-shi",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "note": "元帝时郅支单于杀汉使、困辱使者，汉遣兵诛之"
+    },
+    {
+      "source": "liu-xun",
+      "target": "zheng-ji",
+      "type": "ruler-subject",
+      "since": -60,
+      "note": "神爵二年日逐王先贤掸来降，吉发兵迎之；汉因使并护北道，号曰都护，自吉始"
+    },
+    {
+      "source": "zheng-ji",
+      "target": "chen-tang",
+      "type": "peer",
+      "note": "西汉经营西域先后相接：吉首任都护定官制，汤西逾葱岭诛郅支"
+    },
+    {
+      "source": "liu-shi",
+      "target": "chen-tang",
+      "type": "ruler-subject",
+      "note": "元帝遣西域副校尉陈汤与都护甘延寿矫制发兵，斩郅支首，封关内侯"
+    },
+    {
+      "source": "zhi-zhi",
+      "target": "chen-tang",
+      "type": "rival",
+      "note": "郅支杀汉使谷吉、困辱汉廷，汤矫制发兵四万余人攻都赖水，斩其首传诣京师"
     }
   ],
   "events": [
@@ -1772,7 +1870,8 @@
         "liu-qi",
         "jia-yi",
         "chao-cuo",
-        "dou-ying"
+        "dou-ying",
+        "zhou-yafu"
       ],
       "events": [
         "qian202-chengdi",
@@ -1806,7 +1905,10 @@
         "zhang-qian",
         "li-ling",
         "jun-chen",
-        "yi-zhi-xie"
+        "yi-zhi-xie",
+        "dongfang-shuo",
+        "li-furen",
+        "jiang-chong"
       ],
       "events": [
         "qian141-jingdi-beng",
@@ -1838,7 +1940,8 @@
         "huo-guang",
         "sang-hongyang",
         "zhao-chongguo",
-        "li-ling"
+        "li-ling",
+        "zheng-ji"
       ],
       "events": [
         "qian87-wudi-beng",
@@ -1863,7 +1966,8 @@
         "liu-kan",
         "liu-ying-ruzi",
         "wang-zhengjun",
-        "wang-mang"
+        "wang-mang",
+        "chen-tang"
       ],
       "events": [
         "han-yuan-di",

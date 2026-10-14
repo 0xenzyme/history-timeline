@@ -3245,6 +3245,201 @@
         "han"
       ],
       "gender": "male"
+    },
+    {
+      "id": "zhang-bao",
+      "name": "张宝",
+      "display": "张宝",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 184,
+      "title": "地公将军，下曲阳被斩",
+      "bio": "钜鹿人，张角之弟。中平元年（184）随兄起事，众号地公将军。是年十月皇甫嵩破角弟张梁于广宗，十一月左中郎将皇甫嵩复攻宝于下曲阳，宝战败见斩，获首十余万，嵩筑京观于城南。黄巾之主力自此悉平，而州郡拥兵之局已成。",
+      "tags": [
+        "东汉",
+        "黄巾"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-liang-donghan",
+      "name": "张梁",
+      "display": "张梁（黄巾）",
+      "lane": "end",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 184,
+      "title": "人公将军，广宗败死",
+      "bio": "钜鹿人，张角之弟，起事后号人公将军。中平元年（184）十月，左中郎将皇甫嵩与梁相持于广宗，梁众精勇，嵩不能克，乃闭营休士，伺其意懈，夜勒兵晨驰其阵，至晡时大破之。梁战死，获首三万级，赴河死者五万许；十一月嵩遂移兵下曲阳斩张宝，筑京观于城南。",
+      "tags": [
+        "东汉",
+        "黄巾"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "mi-heng",
+      "name": "祢衡",
+      "display": "祢衡",
+      "lane": "scholar",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": 173,
+      "death": 198,
+      "birthNote": "史无生年明载；本传止记被杀时「年二十六」，卒年据《资治通鉴》建安三年（198）系年，据此上推生年约在 173 年。",
+      "deathNote": "《后汉书·文苑列传》记以言辞不逊为江夏太守黄祖所杀，时年二十六，传未书卒年；建安三年（198）出自《资治通鉴》系年。",
+      "title": "击鼓骂操，客死于黄祖之手",
+      "bio": "平原般人，字正平，少有才辩而尚气刚傲，独与孔融相善。建安初融上疏荐之，曹操欲见，衡称狂病不往。操录为鼓史，衡至坐中裸身更衣，作《渔阳参挝》挝打而去，当面数操。操惮杀贤之名，遣送荆州刘表，表亦不能容，转送江夏太守黄祖。建安三年（198）于祖席上出言不逊，遂被杀，时年二十六。今存《鹦鹉赋》一篇。",
+      "tags": [
+        "东汉",
+        "建安"
+      ],
+      "categories": [
+        "literature"
+      ],
+      "primary": "literature",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dong-cheng",
+      "name": "董承",
+      "display": "董承",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 200,
+      "deathNote": "《后汉书·献帝纪》建安五年正月壬午曹操杀董承等、夷三族；《三国志·魏书·武帝纪》同年书其事于操备构兵之前。",
+      "title": "受密诏图操，事泄夷三族",
+      "bio": "汉室外戚，献帝董贵人之父，累官至车骑将军。兴平二年（195）帝自长安东归，承与杨奉引兵拒李傕、郭汜之追，护帝渡河至安邑。建安元年（196）还都洛阳，旋迁于许，政归曹操而承常自危。建安五年（200）承与偏将军王服、长水校尉种辑、将军吴子兰等称受帝密诏（后世所谓衣带诏），阴结刘备谋诛操。事泄，操杀承及同谋，并夷三族，董贵人亦被害。",
+      "tags": [
+        "东汉",
+        "衣带诏"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "primary": "consort-kin",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-lu",
+      "name": "张鲁",
+      "display": "张鲁",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 216,
+      "deathNote": "《三国志·魏书·张鲁传》止记「鲁薨，谥之曰原侯」，未书卒年，《资治通鉴》系于建安二十一年（216）。又其出降在建安二十年（215）曹操平汉中之役，非建安十六年。",
+      "title": "五斗米道师君，据汉中三十年",
+      "bio": "沛国丰人，祖陵创五斗米道于蜀，父衡继之，鲁因而得众。初为益州牧刘焉督义司马，击杀汉中张修而并其众，遂据汉中，自号师君。以鬼道教民，置「奸令」「祭酒」，诸祭酒作义舍于道，行路者量腹取足；犯法者三原然后行刑，民夷便之，雄据巴、汉垂三十年。建安二十年（215）曹操征汉中，弟卫守阳平关败没，鲁不欲焚府库，封藏而去，旋出降，拜镇南将军，封阆中侯，邑万户，五子皆为列侯。明年卒，谥曰原侯。",
+      "tags": [
+        "东汉",
+        "五斗米道"
+      ],
+      "categories": [
+        "warlord",
+        "daoism"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-gong",
+      "name": "陈宫",
+      "display": "陈宫",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 199,
+      "deathNote": "建安三年曹操围下邳，城破之日已在公元 199 年，宫与吕布同被擒杀；《三国志·魏书·吕布传》未单书其卒日，旧说或系于 196，误。",
+      "title": "迎操入兖又叛操，终与吕布同死",
+      "bio": "东郡人，字公台。天下乱，始随曹操。初平三年（192）说兖州别驾、治中以下迎操领兖州牧。兴平元年（194）操东征陶谦，使宫将兵留屯东郡；宫因说陈留太守张邈及其弟张超叛操，迎吕布据兖州，郡县多响应，操还与之攻守逾年，卒复兖州。建安三年（198）操攻布于下邳，引沂泗灌城，城陷之日已入公元 199 年，宫与布同见擒。操欲生之，宫请就刑以明军法，遂死。操养其母终其身，嫁其女，抚视其家厚于初。",
+      "tags": [
+        "东汉",
+        "群雄"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-shun",
+      "name": "高顺",
+      "display": "高顺",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 199,
+      "deathNote": "建安三年冬曹操围下邳，城破之日已在公元 199 年，顺与吕布、陈宫同被擒杀；《三国志·魏书·吕布传》未单书其卒日。",
+      "title": "陷阵营之将，与布同死",
+      "bio": "吕布帐下督将，为人清白有威严，不饮酒，不受馈遗。所将七百余兵，铠甲斗具皆精练齐整，每所攻击无不破者，号为「陷阵营」。建安三年（198）布遣顺攻刘备于沛，破之，又败夏侯惇之救；曹操乃自征布，围下邳。城陷，顺与布、陈宫俱被擒，同时见杀。旧记顺尝数谏布，布知其忠而不能用。",
+      "tags": [
+        "东汉",
+        "群雄"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gan-ying",
+      "name": "甘英",
+      "display": "甘英",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 97,
+      "deathNote": "卒年不详。永元九年（97）奉都护班超命使大秦，抵条支、临大海而止，是其行迹可考之年，此外无闻。取永元九年为活动下限，非确凿卒年。",
+      "title": "奉使大秦，抵条支临西海而还",
+      "bio": "东汉西域使者，职里史无明文。和帝永元九年（97），都护班超遣甘英使大秦，英抵条支，临大海欲度。安息西界船人告以海水广大、往来者逢善风三月乃得度，若遇迟风亦有二岁者，故入海者皆赍三岁粮；海中善使人思土恋慕，数有死亡者。英闻之乃止，未西渡而还。此行虽未达大秦，然汉使足迹至于西海，中西交通所至之远，此为西汉通西域以来最著的一程；其所闻海道风信、安息西界情形，亦赖班勇《西域列传》诸书而存。",
+      "tags": [
+        "东汉",
+        "西域",
+        "探险"
+      ],
+      "categories": [
+        "explorer",
+        "diplomat"
+      ],
+      "primary": "explorer",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
@@ -3520,6 +3715,84 @@
       "target": "cao-jie",
       "type": "kin",
       "note": "献帝皇后，曹操中女。景初元年薨"
+    },
+    {
+      "source": "zhang-jiao",
+      "target": "zhang-bao",
+      "type": "kin",
+      "note": "兄弟并起为黄巾三帅，宝号地公将军"
+    },
+    {
+      "source": "zhang-jiao",
+      "target": "zhang-liang-donghan",
+      "type": "kin",
+      "note": "兄弟并起为黄巾三帅，梁号人公将军"
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-liang-donghan",
+      "type": "rival",
+      "since": 184,
+      "note": "十月破广宗，斩梁，获三万级"
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-bao",
+      "type": "rival",
+      "since": 184,
+      "note": "十一月破下曲阳，斩宝，筑京观于城南"
+    },
+    {
+      "source": "cao-cao",
+      "target": "mi-heng",
+      "type": "rival",
+      "note": "衡数轻操，裸身击鼓而骂；操送之刘表，卒为黄祖所杀"
+    },
+    {
+      "source": "liu-xie-xiandi",
+      "target": "dong-cheng",
+      "type": "ruler-subject",
+      "note": "董贵人之父，受衣带密诏图操"
+    },
+    {
+      "source": "dong-cheng",
+      "target": "cao-cao",
+      "type": "rival",
+      "since": 200,
+      "note": "建安五年事泄，操杀承等，夷三族"
+    },
+    {
+      "source": "cao-cao",
+      "target": "chen-gong",
+      "type": "rival",
+      "since": 194,
+      "note": "兴平元年叛操迎布据兖；建安三年下邳城破，俱被杀"
+    },
+    {
+      "source": "lv-bu",
+      "target": "chen-gong",
+      "type": "ruler-subject",
+      "note": "为布谋主而布多不从其计"
+    },
+    {
+      "source": "lv-bu",
+      "target": "gao-shun",
+      "type": "ruler-subject",
+      "note": "将陷阵营，所攻必破；布知其忠而不能用"
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-lu",
+      "type": "ruler-subject",
+      "since": 215,
+      "note": "建安二十年征汉中，鲁出降，拜镇南将军"
+    },
+    {
+      "source": "ban-chao",
+      "target": "gan-ying",
+      "type": "ruler-subject",
+      "since": 97,
+      "note": "永元九年都护班超遣英使大秦，抵条支，临大海而止"
     }
   ],
   "events": [
@@ -3684,7 +3957,8 @@
         "cai-lun",
         "ma-rong",
         "zheng-xuan",
-        "wang-chong"
+        "wang-chong",
+        "gan-ying"
       ],
       "events": [
         "dh-banchao",
@@ -3715,7 +3989,14 @@
         "huangfu-song",
         "dong-zhuo",
         "wang-yun",
-        "kong-rong"
+        "kong-rong",
+        "zhang-bao",
+        "zhang-liang-donghan",
+        "mi-heng",
+        "dong-cheng",
+        "zhang-lu",
+        "chen-gong",
+        "gao-shun"
       ],
       "events": [
         "dh-danggu",

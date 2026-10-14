@@ -583,6 +583,38 @@
     {
       "id": "liu-suan",
       "lane": "kin"
+    },
+    {
+      "id": "zhang-bao",
+      "lane": "end"
+    },
+    {
+      "id": "zhang-liang-donghan",
+      "lane": "end"
+    },
+    {
+      "id": "mi-heng",
+      "lane": "scholar"
+    },
+    {
+      "id": "dong-cheng",
+      "lane": "consort"
+    },
+    {
+      "id": "zhang-lu",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "chen-gong",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "gao-shun",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "gan-ying",
+      "lane": "general"
     }
   ],
   "relationTypes": [
@@ -858,6 +890,84 @@
       "target": "cao-jie",
       "type": "kin",
       "note": "献帝皇后，曹操中女。景初元年薨"
+    },
+    {
+      "source": "zhang-jiao",
+      "target": "zhang-bao",
+      "type": "kin",
+      "note": "兄弟并起为黄巾三帅，宝号地公将军"
+    },
+    {
+      "source": "zhang-jiao",
+      "target": "zhang-liang-donghan",
+      "type": "kin",
+      "note": "兄弟并起为黄巾三帅，梁号人公将军"
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-liang-donghan",
+      "type": "rival",
+      "since": 184,
+      "note": "十月破广宗，斩梁，获三万级"
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-bao",
+      "type": "rival",
+      "since": 184,
+      "note": "十一月破下曲阳，斩宝，筑京观于城南"
+    },
+    {
+      "source": "cao-cao",
+      "target": "mi-heng",
+      "type": "rival",
+      "note": "衡数轻操，裸身击鼓而骂；操送之刘表，卒为黄祖所杀"
+    },
+    {
+      "source": "liu-xie-xiandi",
+      "target": "dong-cheng",
+      "type": "ruler-subject",
+      "note": "董贵人之父，受衣带密诏图操"
+    },
+    {
+      "source": "dong-cheng",
+      "target": "cao-cao",
+      "type": "rival",
+      "since": 200,
+      "note": "建安五年事泄，操杀承等，夷三族"
+    },
+    {
+      "source": "cao-cao",
+      "target": "chen-gong",
+      "type": "rival",
+      "since": 194,
+      "note": "兴平元年叛操迎布据兖；建安三年下邳城破，俱被杀"
+    },
+    {
+      "source": "lv-bu",
+      "target": "chen-gong",
+      "type": "ruler-subject",
+      "note": "为布谋主而布多不从其计"
+    },
+    {
+      "source": "lv-bu",
+      "target": "gao-shun",
+      "type": "ruler-subject",
+      "note": "将陷阵营，所攻必破；布知其忠而不能用"
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-lu",
+      "type": "ruler-subject",
+      "since": 215,
+      "note": "建安二十年征汉中，鲁出降，拜镇南将军"
+    },
+    {
+      "source": "ban-chao",
+      "target": "gan-ying",
+      "type": "ruler-subject",
+      "since": 97,
+      "note": "永元九年都护班超遣英使大秦，抵条支，临大海而止"
     }
   ],
   "events": [
@@ -1022,7 +1132,8 @@
         "cai-lun",
         "ma-rong",
         "zheng-xuan",
-        "wang-chong"
+        "wang-chong",
+        "gan-ying"
       ],
       "events": [
         "dh-banchao",
@@ -1053,7 +1164,14 @@
         "huangfu-song",
         "dong-zhuo",
         "wang-yun",
-        "kong-rong"
+        "kong-rong",
+        "zhang-bao",
+        "zhang-liang-donghan",
+        "mi-heng",
+        "dong-cheng",
+        "zhang-lu",
+        "chen-gong",
+        "gao-shun"
       ],
       "events": [
         "dh-danggu",

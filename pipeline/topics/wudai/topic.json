@@ -364,6 +364,54 @@
     {
       "id": "li-chongjin",
       "lane": "end"
+    },
+    {
+      "id": "wang-yanzhang",
+      "lane": "general"
+    },
+    {
+      "id": "fu-yanqing",
+      "lane": "general"
+    },
+    {
+      "id": "sang-weihan",
+      "lane": "chancellor"
+    },
+    {
+      "id": "guo-chongtao",
+      "lane": "chancellor"
+    },
+    {
+      "id": "yang-ningshi",
+      "lane": "literati"
+    },
+    {
+      "id": "wang-yan-qianshu",
+      "lane": "shiguo"
+    },
+    {
+      "id": "wei-zhuang",
+      "lane": "literati"
+    },
+    {
+      "id": "li-jianxun",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-jichong",
+      "lane": "end"
+    },
+    {
+      "id": "an-chongrong",
+      "lane": "general"
+    },
+    {
+      "id": "shi-hongzhao",
+      "lane": "general"
+    },
+    {
+      "id": "li-song-houjin",
+      "lane": "chancellor"
     }
   ],
   "relationTypes": [
@@ -931,6 +979,96 @@
       "target": "wang-du",
       "type": "rival",
       "note": "王都据定州反，晋王李存勖遣兵围之，契丹援败而城破"
+    },
+    {
+      "source": "zhu-zhen",
+      "target": "wang-yanzhang",
+      "type": "ruler-subject",
+      "note": "末帝倚为干城，拜招讨使；中都之败而梁祚移"
+    },
+    {
+      "source": "chai-rong",
+      "target": "fu-yanqing",
+      "type": "kin",
+      "note": "世宗之后，彦卿长女也，故以后父处之"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "sang-weihan",
+      "type": "ruler-subject",
+      "note": "敬瑭之谋主，割幽蓟、输岁帛以易契丹之援，晋由是立"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "guo-chongtao",
+      "type": "ruler-subject",
+      "note": "庄宗用崇韬为枢密，袭汴灭梁及平蜀，皆其谋；后以谗见诛"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "wang-yan-qianshu",
+      "type": "rival",
+      "note": "同光三年遣郭崇韬伐蜀，衍出降，前蜀亡"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "wei-zhuang",
+      "type": "ruler-subject",
+      "note": "以掌书记从建入蜀，开国制度文告多出其手，后至宰相"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "wang-yan-qianshu",
+      "type": "kin",
+      "note": "父子；建暮年立为太子，及立而为后主"
+    },
+    {
+      "source": "li-yu-937",
+      "target": "li-jianxun",
+      "type": "ruler-subject",
+      "note": "烈祖受禅，建勋与宋齐丘同心佐命，遂相"
+    },
+    {
+      "source": "chai-rong",
+      "target": "yang-ningshi",
+      "type": "ruler-subject",
+      "note": "显德初以太子太保致仕，岁时存问，不烦以事"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "gao-jichong",
+      "type": "ruler-subject",
+      "note": "乾德元年宋师假道江陵，继冲奉版籍内附，荆南亡"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "an-chongrong",
+      "type": "ruler-subject",
+      "note": "重荣为成德军节度使，恃功浸骄，卒举兵叛"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "shi-hongzhao",
+      "type": "ruler-subject",
+      "note": "高祖寝疾，以弘肇与杨邠、王章、郭威同受顾命辅隐帝"
+    },
+    {
+      "source": "liu-chengyou",
+      "target": "shi-hongzhao",
+      "type": "rival",
+      "note": "隐帝厌大臣之制，与李业等谋，十一月诛弘肇及杨邠、王章"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "li-song-houjin",
+      "type": "ruler-subject",
+      "note": "敬瑭称帝，崧预其谋，后与桑维翰同相"
+    },
+    {
+      "source": "sang-weihan",
+      "target": "li-song-houjin",
+      "type": "peer",
+      "note": "同相于晋，议和战、务安静，其后皆不得其死"
     }
   ],
   "events": [
@@ -1141,7 +1279,9 @@
         "qian-liu",
         "guan-xiu",
         "liu-ren-gong",
-        "liu-shou-guang"
+        "liu-shou-guang",
+        "wang-yanzhang",
+        "guo-chongtao"
       ],
       "events": [
         "wudai-907",
@@ -1165,7 +1305,11 @@
         "yelv-deguang",
         "yelv-ruan",
         "he-ning",
-        "liu-xu"
+        "liu-xu",
+        "sang-weihan",
+        "an-chongrong",
+        "li-song-houjin",
+        "shi-hongzhao"
       ],
       "events": [
         "wudai-936",
@@ -1244,6 +1388,7 @@
         "li-yun",
         "li-chongjin",
         "chai-zongxun",
+        "gao-jichong",
         "meng-chang",
         "liu-chang",
         "li-yu-937",

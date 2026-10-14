@@ -116,3 +116,9 @@
 | [zhong-xue](xizhou/zhong-xue.md) | 仲雪 | 楚仲雪 | full |
 | [zhong-yun](xizhou/zhong-yun.md) | 仲允 | 仲允 | full |
 | [zou-zi](xizhou/zou-zi.md) | 棸子 | 棸子 | full |
+| [qin-ying](xizhou/qin-ying.md) | 秦嬴 | 秦嬴 | full |
+| [lu-ligong](xizhou/lu-ligong.md) | 鲁厉公 | 鲁厉公 | full |
+| [song-ligong](xizhou/song-ligong.md) | 宋厉公 | 宋厉公 | full |
+| [wei-zhenbo](xizhou/wei-zhenbo.md) | 卫贞伯 | 卫贞伯 | full |
+| [guo-jizibai](xizhou/guo-jizibai.md) | 虢季子白 | 虢季子白 | full |
+| [e-hou-yufang](xizhou/e-hou-yufang.md) | 鄂侯驭方 | 鄂侯驭方 | full |

@@ -153,3 +153,9 @@
 | [xiao-cha](nanbei/xiao-cha.md) | 萧詧 | 萧詧 | brief |
 | [wang-lin](nanbei/wang-lin.md) | 王琳 | 王琳 | brief |
 | [xiao-zhengde](nanbei/xiao-zhengde.md) | 萧正德 | 萧正德 | brief |
+| [fan-ye](nanbei/fan-ye.md) | 范晔 | 范晔 | full |
+| [pei-songzhi](nanbei/pei-songzhi.md) | 裴松之 | 裴松之 | full |
+| [liu-yiqing](nanbei/liu-yiqing.md) | 刘义庆 | 临川王刘义庆 | full |
+| [zhong-rong](nanbei/zhong-rong.md) | 钟嵘 | 钟嵘 | full |
+| [wei-shou](nanbei/wei-shou.md) | 魏收 | 魏收 | full |
+| [jia-si-xie](nanbei/jia-si-xie.md) | 贾思勰 | 贾思勰 | full |

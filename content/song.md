@@ -240,3 +240,12 @@
 | [duan-zhilian](song/duan-zhilian.md) | 段智廉 | 段智廉 | brief |
 | [duan-xiangxing](song/duan-xiangxing.md) | 段祥兴 | 段祥兴 | brief |
 | [duan-xingzhi](song/duan-xingzhi.md) | 段兴智 | 段兴智 | brief |
+| [wanyan-yong](song/wanyan-yong.md) | 完颜雍 | 完颜雍 | full |
+| [wanyan-dan](song/wanyan-dan.md) | 完颜亶 | 完颜亶 | full |
+| [yelv-dashi](song/yelv-dashi.md) | 耶律大石 | 耶律大石 | full |
+| [li-renxiao](song/li-renxiao.md) | 李仁孝 | 李仁孝 | full |
+| [su-song](song/su-song.md) | 苏颂 | 苏颂 | full |
+| [fan-chunren](song/fan-chunren.md) | 范纯仁 | 范纯仁 | full |
+| [chao-buzhi](song/chao-buzhi.md) | 晁补之 | 晁补之 | full |
+| [bi-zaiyu](song/bi-zaiyu.md) | 毕再遇 | 毕再遇 | full |
+| [qu-duan](song/qu-duan.md) | 曲端 | 曲端 | full |
