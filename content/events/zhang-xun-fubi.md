@@ -13,10 +13,11 @@ place: 北京
 placeNow: 今北京
 polity:
   - minguo
+  - qing
 people:
   - kang-youwei
   - xuan-tong
-result: 复辟十二日而败，府院之争收场
+result: 复辟十二日而败，溥仪再废，府院之争收场
 aliases:
   - 丁巳复辟
   - 清帝复辟
