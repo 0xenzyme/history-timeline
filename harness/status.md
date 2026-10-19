@@ -4,14 +4,14 @@ harness-rule:bounded-status-snapshot: this file is a bounded current-state snaps
 
 ## Focus
 
-- Current focus: 全站 review 的修复批次（2026-10-19）。四组闸门与文档纠偏已 commit（730b38c、5d2f94b、fdc76e3、5ddb71b）；工作区尚有未提交的一批：`src/` 五处交互修复、事件出处本机路径清洗、`[*_SOURCE_LOCAL_PATH]` 闸门、`docs/前端重设计.md` 第二节改写。
+- Current focus: 全站 review 的修复批次已提交并推送。两批共九个 commit：730b38c、5d2f94b、fdc76e3、5ddb71b（闸门与文档纠偏）与 4a15bc3、306dafe、d3b464a、bf8826c、4335fa1（`src/` 五处交互修复、事件出处本机路径清洗、`[*_SOURCE_LOCAL_PATH]` 闸门、`docs/前端重设计.md` 第二节改写）。origin/main 与本地 main 一致。
 - 内容生产（详表关系、存量 44 条 polity、夏商西周事件空缺、事件 result/display 补齐）保持 deferred，等口径裁决与史料工作批次。
 
 ## State
 
-- Current phase: in-review
+- Current phase: completed
 - Authoritative Task/Goal: harness/tasks.md《Now》2026-10-19 修复批次（无独立 Goal 文件，随线程直接执行）
-- Projection updated: 2026-10-19
+- Projection updated: 2026-10-20
 
 ## Verification
 

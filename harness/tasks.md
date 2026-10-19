@@ -4,11 +4,11 @@ Priority uses P0, P1, P2, or P3 only.
 
 ## Now
 
-- [ ] P1 全站 review 修复批次（2026-10-19，未 commit）
+- [x] P1 全站 review 修复批次（2026-10-19）
   - Type: development
-  - Status: in-review
+  - Status: pushed
   - Spec: docs/前端重设计.md
-  - Acceptance: 闸门与文档纠偏已 commit（730b38c、5d2f94b、fdc76e3、5ddb71b）；`src/` 五处交互修复、事件出处本机路径清洗、`[*_SOURCE_LOCAL_PATH]` 闸门与 `docs/前端重设计.md` 第二节改写须通过 `npm run build`。
+  - Acceptance: 闸门与文档纠偏 commit 为 730b38c、5d2f94b、fdc76e3、5ddb71b；`src/` 五处交互修复、事件出处本机路径清洗、`[*_SOURCE_LOCAL_PATH]` 闸门与 `docs/前端重设计.md` 第二节改写 commit 为 4a15bc3、306dafe、d3b464a、bf8826c、4335fa1，`npm run build` exit 0，已推送 origin/main。
   - Notes: 五处交互修复只有 `decodeHash` 有可执行验证（esbuild bundle + Node 冒烟，17 条断言全过）；章节 URL、事件条命中、事件条开关、跨专题跳转四项要 In-app Browser 可见窗口复验，本机该窗口 `innerWidth=0`、`visibilityState=hidden`，`requestAnimationFrame` 不触发，画布尺寸恒为 0。出处清洗实测：`raw/` 与 `file:///` 103 处、抽取文件名 110 处，产物里 `file:///` 从 50 处降到 0。
 
 - [ ] P2 事件人物引用的口径裁决
