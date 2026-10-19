@@ -4,8 +4,6 @@ name: 待填
 display: 待填
 profile: full
 gender: male
-polity:
-  - han
 categories:
   - general
 birthAccuracy: unknown

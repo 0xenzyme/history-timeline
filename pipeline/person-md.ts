@@ -39,14 +39,13 @@ export class PersonMarkdownError extends Error {
   }
 }
 
-/** 简表骨架。没有年份，不能直接上轴。 */
+/** 简表骨架。没有年份，不能直接上轴。polity 留空：归属要对着史料填，不能由模板代填。 */
 export const BRIEF_TEMPLATE: RegistryPerson = {
   id: 'example-person',
   name: '待填',
   display: '待填',
   birthAccuracy: 'unknown',
   deathAccuracy: 'unknown',
-  polity: ['han'],
   gender: 'male',
   profile: 'brief',
   sources: [{ work: '待填', part: '待填', kind: 'classic' }],
@@ -60,7 +59,6 @@ export const FULL_TEMPLATE: RegistryPerson = {
   birthAccuracy: 'unknown',
   deathAccuracy: 'unknown',
   categories: ['general'],
-  polity: ['han'],
   gender: 'male',
   profile: 'full',
   title: '待填',

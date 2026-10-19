@@ -9,7 +9,7 @@ import {
   type SearchRecord,
   type Topic,
 } from '../src/types';
-import { validateCatalog, validateTopic } from '../src/contract';
+import { validateCatalog, validateEventLine, validateTopic } from '../src/contract';
 import { buildSegments } from './segments';
 import type { PersonOverlay, PipelineData, RegistryEvent, RegistryPerson } from './types';
 
@@ -275,6 +275,8 @@ export function compileAll(data: PipelineData): {
   const problems = [
     ...validateCatalog(catalog).map((item) => `目录：${item}`),
     ...topics.flatMap((topic) => validateTopic(topic, topic.meta.id).map((item) => `${topic.meta.id}：${item}`)),
+    // 事件线产物是前端直接读取的独立 JSON，不能只靠运行时 loader 把关。
+    ...lines.flatMap((line) => validateEventLine(line, line.id).map((item) => `${line.id}：${item}`)),
   ];
   if (problems.length > 0) {
     throw new Error(`编译校验未通过（${problems.length} 项）：\n${problems.join('\n')}`);

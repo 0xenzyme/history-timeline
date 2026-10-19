@@ -287,6 +287,35 @@ export function lintRegistryPerson(
       messages.push({ level: 'error', path, message: '卒年约略必须写 deathNote' });
     }
   }
+  // 与事件线 [EVENT_PLACEHOLDER] 同一口径：骨架占位不能编进产物。
+  const placeholderFields: Array<[string, unknown]> = [
+    ['name', person.name],
+    ['display', person.display],
+    ['title', person.title],
+    ['birthNote', person.birthNote],
+    ['deathNote', person.deathNote],
+    ['bio', person.bio],
+  ];
+  for (const [field, value] of placeholderFields) {
+    if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
+      messages.push({ level: 'error', path, message: `[PERSON_PLACEHOLDER] ${field} 仍包含占位符` });
+    }
+  }
+  for (const [field, values] of [['tags', person.tags ?? []], ['aliases', person.aliases ?? []]] as const) {
+    for (const value of values) {
+      if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
+        messages.push({ level: 'error', path, message: `[PERSON_PLACEHOLDER] ${field} 仍包含占位符` });
+      }
+    }
+  }
+  for (const [index, source] of (person.sources ?? []).entries()) {
+    for (const field of ['work', 'part', 'note'] as const) {
+      const value = source[field];
+      if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
+        messages.push({ level: 'error', path, message: `[PERSON_PLACEHOLDER] sources[${index}].${field} 仍包含占位符` });
+      }
+    }
+  }
   return messages;
 }
 
