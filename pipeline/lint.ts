@@ -186,6 +186,36 @@ function hasReliableSource(sources: SourceRef[] | undefined): boolean {
   );
 }
 
+/** 出处只写书目定位（书名 + 卷次/篇目）。抽取库 raw/ 不在仓库里，本机路径、文件名和行号锚对读者没有定位价值。 */
+function localArtifact(value: string): string | null {
+  if (value.includes('file://')) return '本机绝对路径';
+  if (/(?:^|[^A-Za-z0-9])[A-Za-z]:[\\/]/.test(value)) return '本机绝对路径';
+  if (/[\\/](?:Users|home)[\\/]/.test(value)) return '本机绝对路径';
+  if (/(^|[\s(（])raw\//.test(value)) return 'raw/ 抽取目录路径';
+  if (/\.(?:md|txt)(?:$|[\s)）(（])/.test(value)) return '抽取文件名';
+  if (!value.includes('://') && /:\d+(?:[-,]\d+)*/.test(value)) return '抽取文本的行号锚';
+  return null;
+}
+
+function checkSourcePaths(
+  messages: LintMessage[],
+  path: string,
+  tag: string,
+  sources: SourceRef[] | undefined,
+): void {
+  for (const [index, source] of (sources ?? []).entries()) {
+    if (source === null || typeof source !== 'object') continue;
+    for (const field of ['work', 'part', 'note'] as const) {
+      const value = source[field];
+      if (typeof value !== 'string') continue;
+      const hit = localArtifact(value);
+      if (hit) {
+        messages.push({ level: 'error', path, message: `[${tag}] sources[${index}].${field} 含${hit}；出处写书名与卷次篇目` });
+      }
+    }
+  }
+}
+
 export interface RosterReport {
   brief: number;
   full: number;
@@ -323,6 +353,7 @@ export function lintRegistryPerson(
       }
     }
   }
+  checkSourcePaths(messages, path, 'PERSON_SOURCE_LOCAL_PATH', person.sources);
   return messages;
 }
 
@@ -469,6 +500,7 @@ export function lintRegistryEvent(
       }
     }
   }
+  checkSourcePaths(messages, path, 'EVENT_SOURCE_LOCAL_PATH', event.sources);
 
   const belligerents = Array.isArray(event.belligerents) ? event.belligerents : [];
   const polities = Array.isArray(event.polity) ? event.polity : [];
