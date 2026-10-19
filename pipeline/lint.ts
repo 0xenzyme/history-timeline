@@ -319,8 +319,8 @@ export function lintRegistryPerson(
   return messages;
 }
 
-/** 事件线的收录范围。含夏商，止于民国结束。 */
-export const EVENT_YEAR_MIN = -1600;
+/** 事件线的收录范围。含夏，止于民国结束。与 compile.ts 的 EVENT_RANGE 同步。 */
+export const EVENT_YEAR_MIN = -2070;
 export const EVENT_YEAR_MAX = 1949;
 
 export interface EventLintContext {

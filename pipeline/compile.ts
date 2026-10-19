@@ -13,8 +13,8 @@ import { validateCatalog, validateEventLine, validateTopic } from '../src/contra
 import { buildSegments } from './segments';
 import type { PersonOverlay, PipelineData, RegistryEvent, RegistryPerson } from './types';
 
-/** 两条时间线的收录范围。含夏商，止于民国结束。 */
-export const EVENT_RANGE: [number, number] = [-1600, 1949];
+/** 两条时间线的收录范围。含夏，止于民国结束。起点跟 vocab/dynasties.json 的 xia 对齐。 */
+export const EVENT_RANGE: [number, number] = [-2070, 1949];
 
 const LINES: CatalogLine[] = [
   { id: 'people', title: '人物', subtitle: '按朝代专题编排', axis: 'topic' },
