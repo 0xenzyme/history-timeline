@@ -28,8 +28,8 @@ aliases:
   - 鞍之战
   - 齐晋鞌之战
 sources:
-  - work: 春秋左傳正義卷25（成公元年至二年經傳）
-    part: raw/春秋/春秋左傳正義/卷25.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷25.md）
+  - work: 春秋左傳正義
+    part: 卷25（成公元年至二年經傳）
     kind: classic
 ---
 

@@ -24,7 +24,7 @@ aliases:
   - 红军
 sources:
   - work: 元史
-    part: 卷四十二 顺帝本纪
+    part: 卷四十二·顺帝本纪
     note: 五月刘福通陷颍州，韩山童就擒，十月徐寿辉称天完
     kind: classic
   - work: 续资治通鉴

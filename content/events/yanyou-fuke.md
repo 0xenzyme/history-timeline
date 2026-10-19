@@ -19,7 +19,7 @@ aliases:
   - 皇庆科举
 sources:
   - work: 元史
-    part: 卷二十四 仁宗本纪
+    part: 卷二十四·仁宗本纪
     note: 皇庆二年十一月甲辰行科举
     kind: classic
   - work: 续资治通鉴

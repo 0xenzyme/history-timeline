@@ -25,11 +25,11 @@ commanders:
   - id: xiong-shen
     side: chu
 sources:
-  - work: 春秋左傳正義卷28（成公十六年經傳）
-    part: raw/春秋/春秋左傳正義/卷28.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷28.md）
+  - work: 春秋左傳正義
+    part: 卷28（成公十六年經傳）
     kind: classic
-  - work: 史記卷039-晉世家
-    part: raw/先秦-西汉/史記/卷039-晉世家.md
+  - work: 史記
+    part: 卷039·晉世家
     kind: classic
 ---
 

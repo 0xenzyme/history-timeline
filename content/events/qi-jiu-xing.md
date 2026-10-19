@@ -25,11 +25,11 @@ people:
   - jiang-xiaobai
   - guan-zhong
 sources:
-  - work: 春秋左傳正義卷10
-    part: raw/春秋/春秋左傳正義/卷10.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷10.md）
+  - work: 春秋左傳正義
+    part: 卷10
     kind: classic
-  - work: 春秋左傳正義卷11
-    part: raw/春秋/春秋左傳正義/卷11.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷11.md）
+  - work: 春秋左傳正義
+    part: 卷11
     kind: classic
 ---
 

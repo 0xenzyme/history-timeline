@@ -20,13 +20,13 @@ aliases:
   - 九品中正
 sources:
   - work: 三国志
-    part: 卷022·陈群传.md
+    part: 卷022·陈群传
     kind: classic
   - work: 宋书
-    part: 卷094·恩幸传序.md
+    part: 卷094·恩幸传序
     kind: classic
   - work: 资治通鉴
-    part: 卷069.md
+    part: 卷069
     kind: classic
 ---
 

@@ -25,7 +25,7 @@ aliases:
   - 忽必烈征大理
 sources:
   - work: 元史
-    part: 卷三 宪宗本纪
+    part: 卷三·宪宗本纪
     note: 二年秋七月命忽必烈征大理，三年十二月大理平
     kind: classic
 ---

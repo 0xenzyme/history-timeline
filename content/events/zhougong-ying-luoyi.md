@@ -20,7 +20,7 @@ aliases:
   - 周公作洛
 sources:
   - work: 史记
-    part: 鲁周公世家.md
+    part: 鲁周公世家
     kind: classic
   - work: 尚书
     part: 洛诰

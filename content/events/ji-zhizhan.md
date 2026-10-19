@@ -21,8 +21,8 @@ commanders:
   - id: xian-zhen
     side: jin-guo
 sources:
-  - work: 春秋左傳正義卷16
-    part: raw/春秋/春秋左傳正義/卷16.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷16.md）
+  - work: 春秋左傳正義
+    part: 卷16
     kind: classic
 ---
 

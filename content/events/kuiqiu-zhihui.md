@@ -24,11 +24,11 @@ aliases:
   - 宰孔赐齐侯胙
   - 齐桓公霸业顶点
 sources:
-  - work: 春秋左傳正義卷12
-    part: raw/春秋/春秋左傳正義/卷12.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷12.md）
+  - work: 春秋左傳正義
+    part: 卷12
     kind: classic
-  - work: 史記卷032-齊太公世家
-    part: raw/先秦-西汉/史記/卷032-齊太公世家.md
+  - work: 史記
+    part: 卷032·齊太公世家
     kind: classic
   - work: 春秋左傳正義 卷12（僖公九年）
     part: 僖公九年傳

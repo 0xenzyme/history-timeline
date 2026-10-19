@@ -22,8 +22,8 @@ aliases:
   - 晋文公称霸
   - 策命晋侯为侯伯
 sources:
-  - work: 春秋左傳正義卷15
-    part: raw/春秋/春秋左傳正義/卷15.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷15.md）
+  - work: 春秋左傳正義
+    part: 卷15
     kind: classic
   - work: 春秋左傳正義 卷15（僖公二十八年）
     part: 僖公二十八年經傳

@@ -19,8 +19,8 @@ belligerents:
   - zhou
   - xirong
 sources:
-  - work: 今本竹書紀年疏證卷下
-    part: raw/先秦/今本竹書紀年疏證/卷下.md:265-311
+  - work: 今本竹書紀年疏證
+    part: 卷下
     kind: classic
   - work: 金文“驭方”考
     part: 中华文化论坛 2023年第4期，37-46、188；摘要与相关论证

@@ -23,8 +23,8 @@ commanders:
   - id: ji-guang
     side: wu-guo
 sources:
-  - work: 春秋左傳正義卷50（昭公二十三年經傳）
-    part: raw/春秋/春秋左傳正義/卷50.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷50.md）
+  - work: 春秋左傳正義
+    part: 卷50（昭公二十三年經傳）
     kind: classic
   - work: 维基百科：鸡父之战
     part: https://zh.wikipedia.org/wiki/雞父之戰

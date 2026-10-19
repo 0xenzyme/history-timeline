@@ -27,7 +27,7 @@ aliases:
   - 中都陷落
 sources:
   - work: 元史
-    part: 卷一 太祖本纪
+    part: 卷一·太祖本纪
     note: 九年五月金主迁汴，十年五月完颜福兴仰药死
     kind: classic
 ---

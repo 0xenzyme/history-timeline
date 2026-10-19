@@ -20,8 +20,8 @@ commanders:
   - id: ji-fucha
     side: wu-guo
 sources:
-  - work: 春秋左傳正義卷58（哀公十一年經傳）
-    part: raw/春秋/春秋左傳正義/卷58.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷58.md）
+  - work: 春秋左傳正義
+    part: 卷58（哀公十一年經傳）
     kind: classic
 ---
 

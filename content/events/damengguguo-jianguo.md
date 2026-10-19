@@ -21,7 +21,7 @@ aliases:
   - 青吉斯称帝
 sources:
   - work: 元史
-    part: 卷一 太祖本纪
+    part: 卷一·太祖本纪
     note: 元年丙寅即皇帝位于斡难河之源，上尊号成吉思皇帝
     kind: classic
   - work: 续资治通鉴
@@ -33,7 +33,7 @@ sources:
     note: 大蒙古国见于传记，不见于元年即位句
     kind: classic
   - work: 元史
-    part: 卷二百八 日本传
+    part: 卷二百八·日本传
     note: 国书作大蒙古国皇帝奉书日本国王
     kind: classic
 ---

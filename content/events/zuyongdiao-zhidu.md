@@ -20,13 +20,13 @@ aliases:
   - 租庸调法
 sources:
   - work: 旧唐书
-    part: 卷048·食货志上.md
+    part: 卷048·食货志上
     kind: classic
   - work: 旧唐书
-    part: 卷001·高祖纪.md
+    part: 卷001·高祖纪
     kind: classic
   - work: 资治通鉴
-    part: 卷190.md
+    part: 卷190
     kind: classic
 ---
 

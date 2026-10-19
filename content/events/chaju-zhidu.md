@@ -21,13 +21,13 @@ aliases:
   - 举孝廉
 sources:
   - work: 汉书
-    part: 卷006-武帝纪.md
+    part: 卷006·武帝纪
     kind: classic
   - work: 汉书
-    part: 卷056-董仲舒传.md
+    part: 卷056·董仲舒传
     kind: classic
   - work: 资治通鉴
-    part: 卷017.md
+    part: 卷017
     kind: classic
 ---
 

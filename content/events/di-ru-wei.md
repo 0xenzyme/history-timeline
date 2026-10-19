@@ -20,8 +20,8 @@ people:
   - wei-yigong
   - wei-wengong
 sources:
-  - work: 春秋左傳正義卷10
-    part: raw/春秋/春秋左傳正義/卷10.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷10.md）
+  - work: 春秋左傳正義
+    part: 卷10
     kind: classic
 ---
 

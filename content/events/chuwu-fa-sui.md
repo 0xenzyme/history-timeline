@@ -29,17 +29,17 @@ aliases:
   - 楚国僭王号
   - 楚武王称王
 sources:
-  - work: 春秋左傳正義卷05
-    part: raw/春秋/春秋左傳正義/卷05.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷05.md）
+  - work: 春秋左傳正義
+    part: 卷05
     kind: classic
-  - work: 史記卷040-楚世家
-    part: raw/先秦-西汉/史記/卷040-楚世家.md
+  - work: 史記
+    part: 卷040·楚世家
     kind: classic
-  - work: 春秋左傳正義卷06
-    part: raw/春秋/春秋左傳正義/卷06.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷06.md）
+  - work: 春秋左傳正義
+    part: 卷06
     kind: classic
-  - work: 春秋左傳正義卷07
-    part: raw/春秋/春秋左傳正義/卷07.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷07.md）
+  - work: 春秋左傳正義
+    part: 卷07
     kind: classic
   - work: 史記·楚世家
     part: 武王三十五至三十七年

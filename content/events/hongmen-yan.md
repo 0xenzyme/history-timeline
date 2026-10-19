@@ -22,7 +22,7 @@ aliases:
   - 鸿门会
 sources:
   - work: 史记
-    part: 项羽本纪.md
+    part: 项羽本纪
     kind: classic
 ---
 

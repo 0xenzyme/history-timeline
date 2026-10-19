@@ -27,11 +27,11 @@ aliases:
   - 蔡州破
 sources:
   - work: 元史
-    part: 卷二 太宗本纪
+    part: 卷二·太宗本纪
     note: 六年正月金主传位于承麟后自经，城拔，金亡
     kind: classic
   - work: 金史
-    part: 卷十八 哀宗下
+    part: 卷十八·哀宗下
     note: 宋将孟珙献粮助攻，哀宗传位后自缢于幽兰轩
     kind: classic
 ---

@@ -20,13 +20,13 @@ aliases:
   - 杨炎两税法
 sources:
   - work: 旧唐书
-    part: 卷118·杨炎传.md
+    part: 卷118·杨炎传
     kind: classic
   - work: 旧唐书
-    part: 卷048·食货志上.md
+    part: 卷048·食货志上
     kind: classic
   - work: 旧唐书
-    part: 卷012·德宗纪上.md
+    part: 卷012·德宗纪上
     kind: classic
 ---
 

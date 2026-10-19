@@ -26,11 +26,11 @@ aliases:
   - 钧州三峰山之战
 sources:
   - work: 元史
-    part: 卷二 太宗本纪
+    part: 卷二·太宗本纪
     note: 四年正月拖雷败金师于钧州三峰，获蒲阿，克钧州获合达
     kind: classic
   - work: 金史
-    part: 卷十七 哀宗本纪
+    part: 卷十七·哀宗本纪
     note: 三峰山金军大溃，合达、陈和尚城破而死，蒲阿被执
     kind: classic
 ---

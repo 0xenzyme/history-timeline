@@ -35,17 +35,17 @@ people:
 aliases:
   - 吴越战争
 sources:
-  - work: 春秋左傳正義卷56（定公十三、十四年經傳）
-    part: raw/春秋/春秋左傳正義/卷56.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷56.md）
+  - work: 春秋左傳正義
+    part: 卷56（定公十三、十四年經傳）
     kind: classic
-  - work: 春秋左傳正義卷60（哀公十七、二十二年經傳）
-    part: raw/春秋/春秋左傳正義/卷60.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷60.md）
+  - work: 春秋左傳正義
+    part: 卷60（哀公十七、二十二年經傳）
     kind: classic
-  - work: 史記卷031-吳太伯世家
-    part: raw/先秦-西汉/史記/卷031-吳太伯世家.md
+  - work: 史記
+    part: 卷031·吳太伯世家
     kind: classic
-  - work: 史記卷041-越王句踐世家
-    part: raw/先秦-西汉/史記/卷041-越王句踐世家.md
+  - work: 史記
+    part: 卷041·越王句踐世家
     kind: classic
 ---
 

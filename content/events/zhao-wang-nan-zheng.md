@@ -19,8 +19,8 @@ belligerents:
   - zhou
   - chu
 sources:
-  - work: 今本竹書紀年疏證卷下
-    part: raw/先秦/今本竹書紀年疏證/卷下.md:233-241
+  - work: 今本竹書紀年疏證
+    part: 卷下
     kind: classic
   - work: 西周早期南征青铜器群及相关问题
     part: 清华大学中国古典学研究中心论文

@@ -19,7 +19,7 @@ aliases:
   - 宪宗即位
 sources:
   - work: 元史
-    part: 卷三 宪宗本纪
+    part: 卷三·宪宗本纪
     note: 元年六月即皇帝位于斡难河，命忽必烈领治蒙古、汉地民户
     kind: classic
   - work: 续资治通鉴

@@ -28,11 +28,11 @@ aliases:
   - 明军入大都
 sources:
   - work: 元史
-    part: 卷四十七 顺帝本纪
+    part: 卷四十七·顺帝本纪
     note: 闰七月丙寅开健德门北奔，八月庚午大明兵入京城
     kind: classic
   - work: 明史
-    part: 卷二 太祖本纪
+    part: 卷二·太祖本纪
     note: 八月庚午徐达入元都
     kind: classic
 ---

@@ -26,11 +26,11 @@ aliases:
   - 宋主降元
 sources:
   - work: 元史
-    part: 卷九 世祖本纪
+    part: 卷九·世祖本纪
     note: 至元十三年正月宋主送传国玺和降表，五月封瀛国公
     kind: classic
   - work: 宋史
-    part: 卷四十七 瀛国公
+    part: 卷四十七·瀛国公
     note: 德祐二年正月甲申元军至皋亭山，宋上传国玺
     kind: classic
 ---

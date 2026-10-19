@@ -28,11 +28,11 @@ aliases:
   - 崖山之战
 sources:
   - work: 元史
-    part: 卷十 世祖本纪
+    part: 卷十·世祖本纪
     note: 正月甲戌张弘范至崖山，广王与官属赴海死
     kind: classic
   - work: 宋史
-    part: 卷四十七 瀛国公
+    part: 卷四十七·瀛国公
     note: 二月陆秀夫负赵昺投海
     kind: classic
 ---

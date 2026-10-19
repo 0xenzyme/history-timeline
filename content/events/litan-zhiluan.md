@@ -22,7 +22,7 @@ aliases:
   - 益都之变
 sources:
   - work: 元史
-    part: 卷五 世祖本纪
+    part: 卷五·世祖本纪
     note: 二月李璮以三城献于宋，王文统同月伏诛，七月入大明湖被获
     kind: classic
   - work: 续资治通鉴

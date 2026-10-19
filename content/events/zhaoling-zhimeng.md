@@ -23,14 +23,14 @@ aliases:
   - 屈完及诸侯盟
   - 包茅之贡
 sources:
-  - work: 春秋左傳正義卷11
-    part: raw/春秋/春秋左傳正義/卷11.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷11.md）
+  - work: 春秋左傳正義
+    part: 卷11
     kind: classic
-  - work: 史記卷005-秦本紀
-    part: raw/先秦-西汉/史記/卷005-秦本紀.md
+  - work: 史記
+    part: 卷005·秦本紀
     kind: classic
-  - work: 史記卷032-齊太公世家
-    part: raw/先秦-西汉/史記/卷032-齊太公世家.md
+  - work: 史記
+    part: 卷032·齊太公世家
     kind: classic
   - work: 春秋左傳正義 卷11（僖公四年）
     part: 僖公四年經傳

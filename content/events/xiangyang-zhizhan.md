@@ -30,11 +30,11 @@ aliases:
   - 襄樊之战
 sources:
   - work: 元史
-    part: 卷六 世祖本纪
+    part: 卷六·世祖本纪
     note: 至元五年九月阿术围樊城。至元六年正月敕史天泽董师襄阳
     kind: classic
   - work: 元史
-    part: 卷八 世祖本纪
+    part: 卷八·世祖本纪
     note: 至元十年正月拔樊城，二月吕文焕以襄阳降
     kind: classic
 ---

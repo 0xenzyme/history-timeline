@@ -20,13 +20,13 @@ aliases:
   - 盐铁论
 sources:
   - work: 汉书
-    part: 卷007·昭帝纪.md
+    part: 卷007·昭帝纪
     kind: classic
   - work: 汉书
-    part: 卷024·食货志.md
+    part: 卷024·食货志
     kind: classic
   - work: 盐铁论
-    part: 卷一·本议.md
+    part: 卷一·本议
     kind: classic
 ---
 

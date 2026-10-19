@@ -22,16 +22,16 @@ aliases:
   - qian138-zhangqian
 sources:
   - work: 汉书
-    part: 卷061·张骞李广利传.md
+    part: 卷061·张骞李广利传
     kind: classic
   - work: 史记
-    part: 卷123·大宛列传.md
+    part: 卷123·大宛列传
     kind: classic
   - work: 汉书
-    part: 卷096上·西域传.md
+    part: 卷096上·西域传
     kind: classic
   - work: 资治通鉴
-    part: 卷018.md
+    part: 卷018
     kind: classic
 ---
 

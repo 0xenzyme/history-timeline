@@ -18,10 +18,10 @@ aliases:
   - 徙都咸阳
 sources:
   - work: 史记
-    part: 秦本纪.md
+    part: 秦本纪
     kind: classic
   - work: 史记
-    part: 商君列传.md
+    part: 商君列传
     kind: classic
 ---
 

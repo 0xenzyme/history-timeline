@@ -24,7 +24,7 @@ aliases:
   - 蒙古攻西夏
 sources:
   - work: 元史
-    part: 卷一 太祖本纪
+    part: 卷一·太祖本纪
     note: 二十一年自将伐夏，二十二年六月李晛降，七月己丑崩于萨里川
     kind: classic
 ---

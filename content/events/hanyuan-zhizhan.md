@@ -22,14 +22,14 @@ commanders:
   - id: jin-huigong
     side: jin-guo
 sources:
-  - work: 春秋左傳正義卷13
-    part: raw/春秋/春秋左傳正義/卷13.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷13.md）
+  - work: 春秋左傳正義
+    part: 卷13
     kind: classic
-  - work: 史記卷005-秦本紀
-    part: raw/先秦-西汉/史記/卷005-秦本紀.md
+  - work: 史記
+    part: 卷005·秦本紀
     kind: classic
-  - work: 史記卷039-晉世家
-    part: raw/先秦-西汉/史記/卷039-晉世家.md
+  - work: 史記
+    part: 卷039·晉世家
     kind: classic
 ---
 

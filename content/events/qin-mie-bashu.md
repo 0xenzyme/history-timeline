@@ -22,7 +22,7 @@ aliases:
   - 司马错伐蜀
 sources:
   - work: 史记
-    part: 秦本纪.md
+    part: 秦本纪
     kind: classic
   - work: 华阳国志
     part: 蜀志

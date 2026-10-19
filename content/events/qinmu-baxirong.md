@@ -22,11 +22,11 @@ commanders:
 people:
   - bai-lixi
 sources:
-  - work: 史記卷005-秦本紀
-    part: raw/先秦-西汉/史記/卷005-秦本紀.md
+  - work: 史記
+    part: 卷005·秦本紀
     kind: classic
-  - work: 春秋左傳正義卷17
-    part: raw/春秋/春秋左傳正義/卷17.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷17.md）
+  - work: 春秋左傳正義
+    part: 卷17
     kind: classic
 ---
 

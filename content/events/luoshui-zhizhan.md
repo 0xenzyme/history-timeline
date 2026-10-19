@@ -28,7 +28,7 @@ sources:
     part: 器铭
     kind: classic
   - work: 史记
-    part: 卷004-周本纪.md
+    part: 卷004·周本纪
     kind: classic
 ---
 

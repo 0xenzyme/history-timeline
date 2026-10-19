@@ -20,11 +20,11 @@ aliases:
   - 乃颜叛
 sources:
   - work: 元史
-    part: 卷十四 世祖本纪
+    part: 卷十四·世祖本纪
     note: 至元二十四年夏四月诸王乃颜反
     kind: classic
   - work: 元史
-    part: 卷十八 成宗本纪
+    part: 卷十八·成宗本纪
     note: 二十四年乃颜反，世祖自将讨平之
     kind: classic
   - work: 续资治通鉴

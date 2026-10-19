@@ -21,7 +21,7 @@ aliases:
   - 英宗遇弑
 sources:
   - work: 元史
-    part: 卷二十八 英宗本纪
+    part: 卷二十八·英宗本纪
     note: 八月癸亥驻跸南坡，铁失杀拜住并弑帝
     kind: classic
   - work: 续资治通鉴

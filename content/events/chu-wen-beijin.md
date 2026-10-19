@@ -30,14 +30,14 @@ aliases:
   - 荆伐郑
   - 楚灭息
 sources:
-  - work: 春秋左傳正義卷60（哀公十七、二十二年經傳）
-    part: raw/春秋/春秋左傳正義/卷60.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷60.md）
+  - work: 春秋左傳正義
+    part: 卷60（哀公十七、二十二年經傳）
     kind: classic
-  - work: 春秋左傳正義卷08
-    part: raw/春秋/春秋左傳正義/卷08.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷08.md）
+  - work: 春秋左傳正義
+    part: 卷08
     kind: classic
-  - work: 史記卷040-楚世家
-    part: raw/先秦-西汉/史記/卷040-楚世家.md
+  - work: 史記
+    part: 卷040·楚世家
     kind: classic
 ---
 

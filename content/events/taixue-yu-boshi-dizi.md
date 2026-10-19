@@ -22,13 +22,13 @@ aliases:
   - 兴太学
 sources:
   - work: 汉书
-    part: 卷006-武帝纪.md
+    part: 卷006·武帝纪
     kind: classic
   - work: 汉书
-    part: 卷088-儒林传.md
+    part: 卷088·儒林传
     kind: classic
   - work: 汉书
-    part: 卷058-公孙弘卜式儿宽传.md
+    part: 卷058·公孙弘卜式儿宽传
     kind: classic
 ---
 

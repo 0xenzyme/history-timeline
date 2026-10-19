@@ -31,11 +31,11 @@ aliases:
   - 宋陈蔡卫伐郑
   - 围郑东门
 sources:
-  - work: 春秋左傳正義卷02
-    part: raw/春秋/春秋左傳正義/卷02.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷02.md）
+  - work: 春秋左傳正義
+    part: 卷02
     kind: classic
-  - work: 史記卷042-鄭世家
-    part: raw/先秦-西汉/史記/卷042-鄭世家.md
+  - work: 史記
+    part: 卷042·鄭世家
     kind: classic
 ---
 

@@ -20,7 +20,7 @@ aliases:
   - 大都定名
 sources:
   - work: 元史
-    part: 卷七 世祖本纪
+    part: 卷七·世祖本纪
     note: 至元九年二月壬辰改中都为大都
     kind: classic
   - work: 续资治通鉴

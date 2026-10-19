@@ -25,14 +25,14 @@ parent: wuyue-zhanzheng
 aliases:
   - 越入吴（哀公十三年）
 sources:
-  - work: 春秋左傳正義卷59（哀公十三年經傳）
-    part: raw/春秋/春秋左傳正義/卷59.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷59.md）
+  - work: 春秋左傳正義
+    part: 卷59（哀公十三年經傳）
     kind: classic
-  - work: 國語卷19-吳語
-    part: raw/西周-春秋/國語/卷19-吳語.md
+  - work: 國語
+    part: 卷19·吳語
     kind: classic
-  - work: 吳越春秋·夫差內傳
-    part: raw/春秋/吳越春秋/夫差內傳.md
+  - work: 吳越春秋
+    part: 夫差內傳
     kind: classic
 ---
 

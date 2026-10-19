@@ -20,8 +20,8 @@ aliases:
   - 商汤伐夏
   - 汤灭夏
 sources:
-  - work: 今本竹書紀年疏證卷上
-    part: raw/先秦/今本竹書紀年疏證/卷上.md:466-478
+  - work: 今本竹書紀年疏證
+    part: 卷上
     kind: classic
   - work: 史記·殷本紀
     part: 商汤伐夏段

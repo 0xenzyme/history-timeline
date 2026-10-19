@@ -25,8 +25,8 @@ people:
   - wen-zhong
 parent: wuyue-zhanzheng
 sources:
-  - work: 春秋左傳正義卷60（哀公十七、二十二年經傳）
-    part: raw/春秋/春秋左傳正義/卷60.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷60.md）
+  - work: 春秋左傳正義
+    part: 卷60（哀公十七、二十二年經傳）
     kind: classic
   - work: 维基百科：笠泽之战
     part: https://zh.wikipedia.org/wiki/笠澤之戰

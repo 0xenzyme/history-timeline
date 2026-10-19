@@ -18,8 +18,8 @@ aliases:
   - 周召共和
   - 共和元年
 sources:
-  - work: 今本竹書紀年疏證卷下
-    part: raw/先秦/今本竹書紀年疏證/卷下.md:405-443
+  - work: 今本竹書紀年疏證
+    part: 卷下
     kind: classic
   - work: 史記·周本紀
     part: 共和与宣王即位段

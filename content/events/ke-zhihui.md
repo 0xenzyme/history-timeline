@@ -23,10 +23,10 @@ aliases:
   - 柯之盟
 sources:
   - work: 史记
-    part: 刺客列传.md
+    part: 刺客列传
     kind: classic
   - work: 史记
-    part: 齐太公世家.md
+    part: 齐太公世家
     kind: classic
 ---
 

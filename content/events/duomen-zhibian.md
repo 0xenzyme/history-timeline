@@ -20,7 +20,7 @@ sources:
     part: 于谦传
     kind: classic
   - work: 明史纪事本末
-    part: 卷三十五 · 南宫复辟
+    part: 卷三十五·南宫复辟
     kind: classic
 ---
 

@@ -18,7 +18,7 @@ polity:
 people:
   - kong-zi
   - lu-dinggong
-  - jiang-xiaobai
+  - qi-chunqiu-jinggong
 result: 孔子赞礼却莱兵，齐归鲁汶阳之田，鲁之分乃正
 aliases:
   - 夹谷之会
@@ -27,7 +27,7 @@ sources:
     part: 定公十年
     kind: classic
   - work: 史记
-    part: 孔子世家.md
+    part: 孔子世家
     kind: classic
 ---
 

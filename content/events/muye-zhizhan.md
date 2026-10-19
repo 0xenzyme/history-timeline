@@ -20,11 +20,11 @@ aliases:
   - 武王伐纣
   - 武王克商
 sources:
-  - work: 尚書·牧誓
-    part: raw/西周/尚書/牧誓.md
+  - work: 尚書
+    part: 牧誓
     kind: classic
-  - work: 逸周書·世俘
-    part: raw/西周/逸周書/卷四.md:19-22
+  - work: 逸周書
+    part: 卷四·世俘
     kind: classic
 ---
 

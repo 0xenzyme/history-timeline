@@ -33,14 +33,14 @@ people:
 aliases:
   - 吴破楚入郢
 sources:
-  - work: 春秋左傳正義卷54（定公四年經傳）
-    part: raw/春秋/春秋左傳正義/卷54.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷54.md）
+  - work: 春秋左傳正義
+    part: 卷54（定公四年經傳）
     kind: classic
-  - work: 史記卷031-吳太伯世家
-    part: raw/先秦-西汉/史記/卷031-吳太伯世家.md
+  - work: 史記
+    part: 卷031·吳太伯世家
     kind: classic
-  - work: 國語卷19-吳語
-    part: raw/西周-春秋/國語/卷19-吳語.md
+  - work: 國語
+    part: 卷19·吳語
     kind: classic
 ---
 

@@ -21,7 +21,7 @@ aliases:
   - 指鹿为马
 sources:
   - work: 史记
-    part: 秦始皇本纪.md
+    part: 秦始皇本纪
     kind: classic
 ---
 

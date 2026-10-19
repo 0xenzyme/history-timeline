@@ -21,11 +21,11 @@ aliases:
   - 大元
 sources:
   - work: 元史
-    part: 卷七 世祖本纪
+    part: 卷七·世祖本纪
     note: 至元八年十一月建国号曰大元，取易经乾元之义
     kind: classic
   - work: 元史
-    part: 卷一百五十七 刘秉忠传
+    part: 卷一百五十七·刘秉忠传
     note: 八年奏建国号曰大元
     kind: classic
   - work: 续资治通鉴

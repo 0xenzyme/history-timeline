@@ -20,8 +20,8 @@ commanders:
   - id: lu-zhuanggong
     side: lu
 sources:
-  - work: 春秋左傳正義卷07
-    part: raw/春秋/春秋左傳正義/卷07.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷07.md）
+  - work: 春秋左傳正義
+    part: 卷07
     kind: classic
 ---
 

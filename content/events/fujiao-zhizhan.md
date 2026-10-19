@@ -27,11 +27,11 @@ people:
   - tai-zai-pi
 parent: wuyue-zhanzheng
 sources:
-  - work: 春秋左傳正義卷57（哀公元、二、五年經傳）
-    part: raw/春秋/春秋左傳正義/卷57.md（file:///Users/liuyj/project/sites/history-timeline/raw/春秋/春秋左傳正義/卷57.md）
+  - work: 春秋左傳正義
+    part: 卷57（哀公元、二、五年經傳）
     kind: classic
-  - work: 史記卷041-越王句踐世家
-    part: raw/先秦-西汉/史記/卷041-越王句踐世家.md
+  - work: 史記
+    part: 卷041·越王句踐世家
     kind: classic
 ---
 

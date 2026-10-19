@@ -21,11 +21,11 @@ aliases:
   - 宋元战争
 sources:
   - work: 元史
-    part: 卷二 太宗本纪
+    part: 卷二·太宗本纪
     note: 七年乙未曲出、胡土虎伐宋
     kind: classic
   - work: 元史
-    part: 卷十 世祖本纪
+    part: 卷十·世祖本纪
     note: 至元十六年崖山，广王赴海死
     kind: classic
 ---

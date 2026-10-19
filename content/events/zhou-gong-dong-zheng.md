@@ -23,8 +23,8 @@ aliases:
   - 管蔡之乱
   - 武庚之乱
 sources:
-  - work: 尚書·金縢
-    part: raw/西周/尚書/金縢.md:13-21
+  - work: 尚書
+    part: 金縢
     kind: classic
   - work: 史記·周本紀
     part: 周公摄政与东征段
