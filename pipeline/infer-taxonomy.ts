@@ -11,13 +11,13 @@ const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 
 interface LaneRule {
   categories?: string[];
+  /** lane-map 里的 polity 是人工登记的参考值；本工具不做 polity 推断，也不回填 polity。 */
   polity?: string[];
   confidence?: 'high' | 'medium' | 'low';
 }
 
 interface Suggestion {
   categories: string[];
-  polity: string[];
   gender?: Gender;
 }
 
@@ -77,59 +77,6 @@ const TAG_CATEGORY_RULES: Array<{ hints: string[]; category: string }> = [
   { hints: ['史学', '太史', '史记'], category: 'historian' },
   { hints: ['戏曲', '杂剧'], category: 'drama' },
   { hints: ['小说'], category: 'novel' },
-];
-
-/**
- * tags 里的地名/政权名 → polity。
- * 与 categories 不同，这里用精确匹配（tag === 词），避免 '楚' 误吃 '楚国'、'汉' 误吃 '汉初' 之类的包含性误伤。
- * 只用于补当前没有 polity 的人；已有 polity 的一律保留原值（applySuggestion 也会跳过）。
- */
-const TAG_POLITY_RULES: Array<{ tags: string[]; polity: string }> = [
-  { tags: ['秦国', '秦朝', '秦'], polity: 'qin' },
-
-  { tags: ['晋国'], polity: 'jin-guo' },
-  { tags: ['韩国', '韩'], polity: 'han-guo' },
-  { tags: ['曹国', '曹'], polity: 'cao-guo' },
-  { tags: ['楚国', '楚'], polity: 'chu' },
-  { tags: ['齐国', '齐'], polity: 'qi' },
-  { tags: ['鲁'], polity: 'lu' },
-  { tags: ['赵国', '赵'], polity: 'zhao' },
-  { tags: ['燕国', '燕'], polity: 'yan' },
-  { tags: ['韩国'], polity: 'han-guo' },
-  { tags: ['魏国'], polity: 'wei-zhanguo' },
-  { tags: ['卫'], polity: 'wei-guo' },
-  { tags: ['陈'], polity: 'chen' },
-  { tags: ['蔡'], polity: 'cai' },
-  { tags: ['郑国', '郑'], polity: 'zheng' },
-  { tags: ['越国', '越'], polity: 'yue' },
-  { tags: ['宋国'], polity: 'song-guo' },
-  { tags: ['中山'], polity: 'zhongshan' },
-
-  { tags: ['楚汉'], polity: 'chu-han' },
-  { tags: ['西汉', '东汉', '汉初', '汉'], polity: 'han' },
-  { tags: ['新莽'], polity: 'xin' },
-  { tags: ['曹魏'], polity: 'wei' },
-  { tags: ['蜀汉', '蜀'], polity: 'shu' },
-  { tags: ['孙吴', '吴国', '吴'], polity: 'wu' },
-  { tags: ['西晋', '东晋', '晋'], polity: 'jin' },
-  { tags: ['北朝', '北魏', '东魏', '西魏', '北齐', '北周'], polity: 'bei' },
-  { tags: ['南朝', '刘宋', '南齐', '萧梁', '南陈'], polity: 'nan' },
-  { tags: ['十六国', '前秦', '后赵', '后燕'], polity: 'shiliuguo' },
-
-  { tags: ['隋'], polity: 'sui' },
-  { tags: ['唐'], polity: 'tang' },
-  { tags: ['辽金'], polity: 'liao-jin' },
-  // 注意：裸 '宋' 不映射 —— 西周宋国诸侯（song-aigong 等）的 tags 只有 '宋'，
-  // 与宋朝 '宋' 冲突，宁可留白进 todo.json，也不要标错朝代。
-  { tags: ['北宋', '南宋'], polity: 'song' },
-  { tags: ['元'], polity: 'yuan' },
-  { tags: ['明'], polity: 'ming' },
-  { tags: ['清'], polity: 'qing' },
-
-  { tags: ['西域'], polity: 'xiyu' },
-  { tags: ['吐蕃'], polity: 'tubo' },
-  { tags: ['匈奴'], polity: 'xiongnu' },
-  { tags: ['民变'], polity: 'minbian' },
 ];
 
 const FEMALE_HINTS = ['皇后', '皇太后', '太后', '贵妃', '妃', '婕妤', '夫人', '公主', '郡主', '才人'];
@@ -212,15 +159,6 @@ function tagCategories(person: RegistryPerson): string[] {
   return found;
 }
 
-function tagPolities(person: RegistryPerson): string[] {
-  const tags = person.tags ?? [];
-  const found: string[] = [];
-  for (const rule of TAG_POLITY_RULES) {
-    if (rule.tags.some((tag) => tags.includes(tag)) && !found.includes(rule.polity)) found.push(rule.polity);
-  }
-  return found;
-}
-
 function collectSuggestions(
   data: PipelineData,
   laneMap: Map<string, LaneRule>,
@@ -233,13 +171,10 @@ function collectSuggestions(
     for (const overlay of draft.people) {
       const person = data.people.get(overlay.id);
       if (!person) continue;
-      const entry = suggestions.get(overlay.id) ?? { categories: [], polity: [] };
+      const entry = suggestions.get(overlay.id) ?? { categories: [] };
       const rule = laneMap.get(`${draft.meta.id}:${overlay.lane}`);
       for (const category of [...(rule?.categories ?? []), ...tagCategories(person)]) {
         if (!entry.categories.includes(category)) entry.categories.push(category);
-      }
-      for (const polity of [...(rule?.polity ?? []), ...tagPolities(person)]) {
-        if (!entry.polity.includes(polity)) entry.polity.push(polity);
       }
       if (!entry.gender) entry.gender = guessGender(person);
       // overrides 是最终值，覆盖整份 categories，不做并集
@@ -251,7 +186,7 @@ function collectSuggestions(
   return suggestions;
 }
 
-/** 只插入原本缺失的字段，插在 sources 之前以保持字段语义顺序，避免大范围 diff；overrides 则是覆盖式。 */
+/** 只插入原本缺失的 categories/gender，插在 sources 之前以保持字段语义顺序，避免大范围 diff；overrides 则是覆盖式。polity 一律不写。 */
 function applySuggestion(person: RegistryPerson, suggestion: Suggestion, override?: Override): boolean {
   const markdown = findPersonMarkdown(join(pipelineRoot, '..', 'content'), person.id);
   if (markdown) {
@@ -264,7 +199,7 @@ function applySuggestion(person: RegistryPerson, suggestion: Suggestion, overrid
   const updates: Array<[string, unknown]> = [];
   // primary 不自动写，留给编译层按词表 rank 推导；只有 overrides 显式给出才落盘
   if (suggestion.categories.length > 0 && parsed.categories === undefined) updates.push(['categories', suggestion.categories]);
-  if (suggestion.polity.length > 0 && parsed.polity === undefined) updates.push(['polity', suggestion.polity]);
+  // polity 不回填：polity 是叙事归属，不能由专题泳道或 tags 并集推导，缺失时交人工判定并留在报表里
   if (suggestion.gender && parsed.gender === undefined) updates.push(['gender', suggestion.gender]);
   if (override?.categories && JSON.stringify(parsed.categories) !== JSON.stringify(override.categories)) {
     updates.push(['categories', override.categories]);
@@ -305,6 +240,7 @@ function main(): void {
   const suggestions = collectSuggestions(data, laneMap, overrides, onlyTopic);
 
   const todo: Record<string, TodoEntry> = {};
+  const polityTodos: string[] = [];
   let written = 0;
   let categoryTotal = 0;
   let polityTotal = 0;
@@ -316,14 +252,15 @@ function main(): void {
 
     const override = overrides.get(id);
     const existingCategories = person.categories ?? [];
-    const existingPolity = person.polity ?? [];
+    // polity 只认登记里的原值；缺了就报给人工，不用泳道或 tags 的并集补上
+    const finalPolity = person.polity ?? [];
     const finalCategories = override?.categories ?? (existingCategories.length > 0 ? existingCategories : suggestion.categories);
-    const finalPolity = existingPolity.length > 0 ? existingPolity : suggestion.polity;
     const finalGender = person.gender ?? suggestion.gender;
 
     if (finalCategories.length > 0) categoryTotal += 1;
     if (finalPolity.length > 0) polityTotal += 1;
     if (finalGender) genderTotal += 1;
+    if (finalPolity.length === 0) polityTodos.push(id);
 
     if (write) {
       if (applySuggestion(person, suggestion, override)) written += 1;
@@ -344,8 +281,13 @@ function main(): void {
   const pct = (value: number): string => (total === 0 ? '0.0%' : `${((value / total) * 100).toFixed(1)}%`);
   console.log(`推断范围：${onlyTopic ?? '全部专题'}，涉及人物 ${total} 位`);
   console.log(`categories 覆盖 ${categoryTotal} / ${total}（${pct(categoryTotal)}）`);
-  console.log(`polity     覆盖 ${polityTotal} / ${total}（${pct(polityTotal)}）`);
+  console.log(`polity     已归属 ${polityTotal} / ${total}（${pct(polityTotal)}，只统计登记原值，本工具不回填）`);
   console.log(`gender     覆盖 ${genderTotal} / ${total}（${pct(genderTotal)}）`);
+
+  if (polityTodos.length > 0) {
+    polityTodos.sort((a, b) => a.localeCompare(b));
+    console.warn(`polity 待人工归属（${polityTodos.length} 人，口径见 pipeline/PLAYBOOK.md《polity 的归属口径》）：${polityTodos.join(' ')}`);
+  }
 
   const todoTopics = Object.keys(todo).sort();
   if (todoTopics.length > 0) {
@@ -358,7 +300,7 @@ function main(): void {
 
   if (write) {
     writeFileSync(join(pipelineRoot, 'taxonomy', 'todo.json'), `${JSON.stringify(todo, null, 2)}\n`);
-    console.log(`已写入 ${written} 个人物文件；待补清单见 pipeline/taxonomy/todo.json`);
+    console.log(`已写入 ${written} 个人物文件（只回填 categories/gender 与 overrides 的 primary，不含 polity）；待补清单见 pipeline/taxonomy/todo.json`);
   } else {
     console.log('dry-run：未改动任何文件，加 --write 落地，加 --topic=<id> 限定专题');
   }
