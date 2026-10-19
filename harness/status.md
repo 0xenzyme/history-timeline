@@ -4,35 +4,34 @@ harness-rule:bounded-status-snapshot: this file is a bounded current-state snaps
 
 ## Focus
 
-- Current focus: 南北朝事件 Run `nanbeichao-events-20261004` 已发布完成（52 条事件 status: published，publish gate 已批准，manifest/checkpoint revision 5）；东汉 Run `donghan-events-20261004` 仍 publish-ready，待其发布 gate；宋代并发 Run 不在本 Run 范围。旧 inline 输入保持冻结。
-- 前端：`prototype/1008/dual` 双皮肤方案已移植进 `src/`，成为站点唯一前端；`src/timeline/`、`src/ui/` 旧渲染器已删除。
+- Current focus: 全站 review 的修复批次（2026-10-19）。四组闸门与文档纠偏已 commit（730b38c、5d2f94b、fdc76e3、5ddb71b）；工作区尚有未提交的一批：`src/` 五处交互修复、事件出处本机路径清洗、`[*_SOURCE_LOCAL_PATH]` 闸门、`docs/前端重设计.md` 第二节改写。
+- 内容生产（详表关系、存量 44 条 polity、夏商西周事件空缺、事件 result/display 补齐）保持 deferred，等口径裁决与史料工作批次。
 
 ## State
 
-- Current phase: completed
-- Authoritative Task/Goal: harness/goals/2026-10-04-event-agent-production.md
-- Projection updated: 2026-10-09
+- Current phase: in-review
+- Authoritative Task/Goal: harness/tasks.md《Now》2026-10-19 修复批次（无独立 Goal 文件，随线程直接执行）
+- Projection updated: 2026-10-19
 
 ## Verification
 
 - Last command: npm run build
-- 前端移植后 `npm run build` 通过（tsc、people/events/content check、vite build 全 exit 0）；vite 产物 `dist/assets/index-*.js` 约 58 kB。
-- Result: 南北朝 Run 发布批次通过——npm run content（编译收敛，wrote 22 files）、npm run events:check（213 事件）、npm run content:check（17 专题，index.json 一致）、npm run build 全部 exit 0。source-to-output 比对：52/52 id 在 events.json/military.json/history.json 中均为 published 且 catalogs 归属正确，parent 引用全部可解析。存量 warning（人物详表关系、旧事件两出处建议）保持非阻塞。
+- Result: exit 0 ——`tsc --noEmit`（app 与 pipeline）、people check（模板 2、索引 16、待编译人物 2139）、events check（609 条）、content check（17 专题）、vite build 全通过。
+- 出处清洗对账：`content/events/` 里 `raw/`、`file:///`、行号锚 103 处 + 抽取文件名（`.md`）与分隔符 110 处已改写为书名与卷次篇目；`grep -c 'file:///' public/data/events.json` 从 50 降到 0。
+- 新增闸门自证：临时 draft 探针 `part: raw/春秋/左传/卷01.md:12-20` 报出 `[EVENT_SOURCE_LOCAL_PATH]`，探针已删除；`https://` 网页出处不误报（首轮曾误报 2 条，已收紧判据）。
+- 路由冒烟：`.tmp-verify/routing-smoke.ts` 经 esbuild bundle 后在 Node 跑 17 条断言全过，覆盖畸形 `#%zz` 不崩、旧链规范化、稳定事件链接与 push/replace/skip 去重。
+- 界面核对未完成：In-app Browser 窗口 `innerWidth=0`、`visibilityState=hidden`，`requestAnimationFrame` 不触发，`#chart` 尺寸恒为 0、泳道面板无章节按钮；dev server 仍在 `http://localhost:5181/`。
 
 ## Evidence
 
-- `harness/specs/event-agent-production.md` and `harness/goals/2026-10-04-event-agent-production.md` record the new controller subagent ownership, four checkpoint stages, gate boundaries and deferred content production; Run evidence is `.harness/runs/20261004-024911-event-agent-production`.
-- `harness/specs/event-workflow-implementation.md` remains the foundational event entity contract and now points agent-driven production to the new spec.
-- `pipeline/events-migration-manifest.json` freezes 258 legacy inline snapshots, source digest, inventory and primary duplicate groups; `npm run events:migration:check` passes.
-- `content/events/` has one canonical file per currently published event; `events:new` now creates draft-only records and `events:check` passes.
-- 南北朝 Run `nanbeichao-events-20261004`：revision 5、stage publish、status completed；52 条事件已发布（含词表扩展 rouran/dongwei/xiwei/beiqi/beizhou/houliang，11 组 legacy duplicate 以 aliases 保留）；Run 证据见 `.harness/runs/nanbeichao-events-20261004/`（gates/、evidence/、candidate-ledger.jsonl、draft-manifest.json）。
-- 东汉 Run `donghan-events-20261004` 仍为 publish-ready（8 个 draft），待其发布 gate，与本 Run 无关。
-- 宋代并发 Run 的 draft 文件不在本 Run 范围，未触碰。
-- `src/contract.ts`, `src/loader.ts` and `src/routing.ts` cover event-line validation, safe fallback and stable event-id links; `npm run build` passes.
-- Browser smoke on the local Vite build confirmed stable event deep links, old-link canonicalization, invalid-event route miss and dual-catalog card navigation; console had no errors or warnings.
-- 前端移植的浏览器核对（localhost:5180，In-app Browser）：首屏 `#han/overview`、旧链 `#wudi`、`#history/event/chibi-zhizhan` 均在 `hashchange` 后正确切换内容线与卡片；搜索命中人物后自动切专题并聚焦；章节按钮、事件条展开、泳道面板、皮肤切换、PNG 与 SVG 导出均执行且无控制台报错（导出下载被 In-app Browser 取消，属环境限制）。
+- `src/app/app.ts` 五处修复：`state.viewId` 让章节进地址（`writeTopicHash` + 点击章节 + `applyRoute`）、`hitTest` 事件条按 `chipMatchEvent` 同口径过滤、事件条开关补 `rebuildLayout()`、`selectAndReveal` 不再把当前专题里的人跳走、`syncHash` 用 `decodeHash`。`src/routing.ts` 新增导出 `decodeHash`。
+- `pipeline/lint.ts` 新增 `localArtifact` + `checkSourcePaths`，对人物与事件的 `sources[*].work|part|note` 拒绝本机绝对路径、`raw/`、抽取文件名与行号锚；全仓当前零命中，闸门以 error 上线。
+- `content/events/` 86 个文件改写；`content/events/jiagu-zhihui.md` 人物引用由 `jiang-xiaobai`（齐桓公，卒 -643）改为 `qi-chunqiu-jinggong`（齐景公，卒 -490），`jin-wengong-qinwang.md` 删掉 `shu-dai`（赵叔带，卒 -771，与太叔带同名字不同人）。
+- `docs/前端重设计.md` 第二节按代码改写：G1/G4 关闭，G2/G3/G5/G7/G9 部分兑现，G6/G8 仍缺，新增 G10–G12；死代码事实为 `src/contract.ts` 的 `filterTopics`/`filtersActive`、`src/types.ts` 的 `TopicFilters`、`Topic.events` 在 `src/` 内无调用者。
+- 历史批次证据仍在各自 Run 目录（`.harness/runs/`），本快照不再重复：南北朝 Run `nanbeichao-events-20261004` 已发布 52 条，东汉 Run `donghan-events-20261004` 仍 publish-ready。
 
 ## Blockers
 
-- No implementation blocker recorded.
-- Next migration work is gated on evidence, canonical identity and reviewer decision; do not infer historical fields from the old inline shape.
+- 界面四项修复需用户把 In-app Browser 窗口置为可见后复验；本机该窗口尺寸为 0，任何截图与布局探针都拿不到真实渲染。
+- 事件人物引用的 143 条 polity / 11 条 date 告警需口径裁决（见 harness/tasks.md《Now》P2 项），其中 48 条属 `pipeline/lint.ts` 判据与 PLAYBOOK 归属口径互相矛盾，不能靠改数据消警。
+- `raw/` 抽取库存在本机但被 `.gitignore` 排除（5709 文件，维基文库 dump `20260901`），任何仍指向 `raw/` 的引用对他人不可解析——出处字段清洗后已无此类引用。

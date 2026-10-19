@@ -4,6 +4,20 @@ Priority uses P0, P1, P2, or P3 only.
 
 ## Now
 
+- [ ] P1 全站 review 修复批次（2026-10-19，未 commit）
+  - Type: development
+  - Status: in-review
+  - Spec: docs/前端重设计.md
+  - Acceptance: 闸门与文档纠偏已 commit（730b38c、5d2f94b、fdc76e3、5ddb71b）；`src/` 五处交互修复、事件出处本机路径清洗、`[*_SOURCE_LOCAL_PATH]` 闸门与 `docs/前端重设计.md` 第二节改写须通过 `npm run build`。
+  - Notes: 五处交互修复只有 `decodeHash` 有可执行验证（esbuild bundle + Node 冒烟，17 条断言全过）；章节 URL、事件条命中、事件条开关、跨专题跳转四项要 In-app Browser 可见窗口复验，本机该窗口 `innerWidth=0`、`visibilityState=hidden`，`requestAnimationFrame` 不触发，画布尺寸恒为 0。出处清洗实测：`raw/` 与 `file:///` 103 处、抽取文件名 110 处，产物里 `file:///` 从 50 处降到 0。
+
+- [ ] P2 事件人物引用的口径裁决
+  - Type: review
+  - Status: need-user
+  - Spec: docs/事件线规则.md
+  - Acceptance: 对 `[EVENT_PERSON_POLITY]` 143 条与 `[EVENT_PERSON_DATE]` 11 条给出「降噪」或「改数据」的裁决；判据本身冲突时改 `pipeline/lint.ts`，不改数据。
+  - Notes: 143 条分解为 48（`lint.ts:516` 用 `commanders.side` 比人物 `polity`，而 `lint.ts:480-490` 只允许 `side` 取 `belligerents` id，军事事件上两者不可能同时满足）+ 65（兴起期与伞形词条，PLAYBOOK 已规定）+ 16（事件 `polity` 少写涉事方，取决于 `docs/事件线规则.md:72`「所属政权」的读法）+ 8（`minbian` 能否进非军事事件 `polity`）+ 3（词表无复合 id `chu-han`）+ 2（确属标错，本批已修）。11 条 date 中 8 条是「过程事件只锚终点」与「`death` 被当可见年份」的口径产物。
+
 - [x] P1 实施 Agent-driven 历史事件生产线
   - Type: development
   - Status: completed
