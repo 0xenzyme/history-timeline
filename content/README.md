@@ -4,7 +4,7 @@
 
 `content/_template.md` 和 `content/_template-full.md` 是模板，不进编译。不要把模板放进朝代目录。
 
-各专题目录都已有人物文件。同一个人不能两处都有。还有 61 人留在 `pipeline/registry/people/*.json`，因为缺 `polity`，或约略年份没有 note。专题、泳道、关系、事件、章节和 `candidates.json` 仍是 JSON。
+各专题目录都已有人物文件。同一个人不能两处都有。还有 44 人留在 `pipeline/registry/people/*.json`，因为缺 `polity`，或约略年份没有 note。专题、泳道、关系、事件、章节和 `candidates.json` 仍是 JSON。
 
 ```bash
 npm run people:new -- qin <id>   # 在该专题目录按简表模板建文件，并更新索引

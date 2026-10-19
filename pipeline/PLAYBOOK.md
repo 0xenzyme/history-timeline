@@ -1,6 +1,6 @@
 # 内容体例
 
-站点只渲染。人物按专题分目录，例如 `content/qin/ying-zheng.md`。`content/<topic>.md` 是该目录的索引，由 `people:format` 重写，不要手改。同一个人只有一份文件。已经在 `content/qin/` 的人留在那里，包括同时出现在战国、西汉的人。后来迁入的跨专题人物，若 `polity` 里有他所属专题的 id，文件放在其中最晚的专题；否则放在最早的专题，有朝代专题时不放进 `rujia`。还有 61 人留在 `pipeline/registry/people/*.json`：缺 `polity`，或约略年份没有 note。显式 `profile` 过不了校验。不要为了搬迁编造这些字段。专题、泳道、关系、事件、章节和候选台账仍是 JSON。`npm run content` 把两边编译成 `public/data/`。**不要手改 `public/data`。**
+站点只渲染。人物按专题分目录，例如 `content/qin/ying-zheng.md`。`content/<topic>.md` 是该目录的索引，由 `people:format` 重写，不要手改。同一个人只有一份文件。已经在 `content/qin/` 的人留在那里，包括同时出现在战国、西汉的人。后来迁入的跨专题人物，若 `polity` 里有他所属专题的 id，文件放在其中最晚的专题；否则放在最早的专题，有朝代专题时不放进 `rujia`。还有 44 人留在 `pipeline/registry/people/*.json`：缺 `polity`，或约略年份没有 note。显式 `profile` 过不了校验。不要为了搬迁编造这些字段。专题、泳道、关系、事件、章节和候选台账仍是 JSON。`npm run content` 把两边编译成 `public/data/`。**不要手改 `public/data`。**
 
 ```bash
 npm run people:new -- qin <id>   # 在该专题目录按简表模板建一个人，并更新索引
@@ -30,7 +30,7 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 只出人物和上轴所需的信息：他是谁、哪一年、依据是什么、站在哪条脉络、放在哪条泳道。
 
 1. 在 `pipeline/topics/<id>/candidates.json` 追加一条 `status: "pending"`。必填 `id`、`name`、`seat`（本专题已有泳道）、`anchor`（年份依据，一句话）、`sources`（至少一条 `classic` 或 `modern`）。
-2. 核对锚点和出处后，运行 `npm run people:new -- <topic> <id>`，再改 `content/<topic>/<id>.md`。必填 `id`、`name`、`display`、`gender`、生卒与 accuracy、约略或异说的 note、`sources`（每条写 `kind`）、`polity`。`profile` 写 `brief`。正文先留空。还留在 `pipeline/registry/people/` 里的 61 人继续改那份 JSON，不要另建 Markdown。
+2. 核对锚点和出处后，运行 `npm run people:new -- <topic> <id>`，再改 `content/<topic>/<id>.md`。必填 `id`、`name`、`display`、`gender`、生卒与 accuracy、约略或异说的 note、`sources`（每条写 `kind`）、`polity`。`profile` 写 `brief`。正文先留空。还留在 `pipeline/registry/people/` 里的 44 人继续改那份 JSON，不要另建 Markdown。
 3. 在该专题 `topic.json` 的 `people` 里加入 `{ "id", "lane" }`。`lane` 用候选的 `seat`。
 4. 从 `candidates.json` 删掉这条 pending。确定不收的人改成 `status: "rejected"`，并写 `reason`。
 5. 跑 `npm run content`。
@@ -72,7 +72,7 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 |---|---|
 | `vocab/` | 地区、朝代、主题词表。新词先入表，再给专题挂上 |
 | `content/<topic>/` | 该专题的人物 Markdown。`content/<topic>.md` 是索引。模板在 `content/_template.md` 与 `content/_template-full.md` |
-| `registry/people/` | 还不能进 Markdown 的 61 人。缺 polity，或约略年份没有 note |
+| `registry/people/` | 还不能进 Markdown 的 44 人。缺 polity，或约略年份没有 note |
 | `topics/<id>/candidates.json` | 该专题的待核与不收台账。已进简表的人不要留在这里 |
 | `topics/<id>/topic.json` | 泳道、收录、关系、事件、章节；可覆盖 display / bio |
 | `topics.json` | 专题发布顺序 |

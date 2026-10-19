@@ -1,6 +1,6 @@
 # 人物卡片（草稿层）
 
-从 `raw/` 史料抽出的人物卡。**卡片不是时间轴，也不进编译。** 正式待收名单是 `pipeline/topics/<id>/candidates.json`。新人物写 `content/<topic>/<id>.md`。已经在册的人改他那一份源文件：多数在 `content/<topic>/`，61 人仍在 `pipeline/registry/people/*.json`。卡片审完后，按 `pipeline/PLAYBOOK.md` 的简表流程写入人物文件和候选台账，不从卡片自动提升。
+从 `raw/` 史料抽出的人物卡。**卡片不是时间轴，也不进编译。** 正式待收名单是 `pipeline/topics/<id>/candidates.json`。新人物写 `content/<topic>/<id>.md`。已经在册的人改他那一份源文件：多数在 `content/<topic>/`，44 人仍在 `pipeline/registry/people/*.json`。卡片审完后，按 `pipeline/PLAYBOOK.md` 的简表流程写入人物文件和候选台账，不从卡片自动提升。
 
 ## 目录
 
