@@ -2,7 +2,10 @@ import type { EventScale, EventType, SourceRef } from '../types';
 
 export type SkinId = 'voyage' | 'deepspace';
 
-/** 画布不读 CSS 变量，每种皮肤在这里重复一份绘图配色。 */
+/**
+ * 画布配色。颜色值全部来自 src/styles.css 的自定义属性，这里只声明 token 名，
+ * 运行时由 paletteFor() 读回，画布与外框不可能各画一份。
+ */
 export interface Palette {
   paper: string;
   ink: string;
@@ -17,17 +20,38 @@ export interface Palette {
   ribbonBg: string;
   ribbonText: string;
   density: string;
-  tooltipBg: string;
+  viewportWash: string;
   eventAlpha: number;
   eventAlphaDim: number;
 }
+
+type ColorToken = Exclude<keyof Palette, 'eventAlpha' | 'eventAlphaDim'>;
+
+/** token → styles.css 里的变量名。加 token 必须同时在两套皮肤里补变量。 */
+const PALETTE_VARS: Record<ColorToken, string> = {
+  paper: '--bg',
+  ink: '--ink',
+  ink2: '--ink-2',
+  muted: '--muted',
+  line: '--line',
+  hair: '--hair',
+  accent: '--accent',
+  laneLabel: '--canvas-lane-label',
+  headerBg: '--canvas-header-bg',
+  labelInBar: '--canvas-label-in-bar',
+  ribbonBg: '--ribbon-bg',
+  ribbonText: '--canvas-ribbon-text',
+  density: '--canvas-density',
+  viewportWash: '--canvas-viewport-wash',
+};
 
 export interface Skin {
   glow: boolean;
   inertia: boolean;
   stars: boolean;
   brighten: boolean;
-  palette: Palette;
+  eventAlpha: number;
+  eventAlphaDim: number;
   ribbonBand: (hue: number) => string;
   footerBand: (hue: number) => string;
 }
@@ -38,24 +62,8 @@ export const SKINS: Record<SkinId, Skin> = {
     inertia: false,
     stars: false,
     brighten: false,
-    palette: {
-      paper: '#f8f5ee',
-      ink: '#29241c',
-      ink2: '#57503f',
-      muted: '#8d8271',
-      line: '#ddd5c4',
-      hair: '#e9e3d5',
-      accent: '#a83a2a',
-      laneLabel: '#6b6353',
-      headerBg: '#f8f5ee',
-      labelInBar: '#ffffff',
-      ribbonBg: '#f0ebdf',
-      ribbonText: 'rgba(41,36,28,0.75)',
-      density: 'rgba(41,36,28,0.22)',
-      tooltipBg: '#ffffff',
-      eventAlpha: 0.1,
-      eventAlphaDim: 0.03,
-    },
+    eventAlpha: 0.1,
+    eventAlphaDim: 0.03,
     ribbonBand: (hue) => `hsl(${hue}, 26%, 76%)`,
     footerBand: (hue) => `hsl(${hue}, 48%, 70%)`,
   },
@@ -64,28 +72,50 @@ export const SKINS: Record<SkinId, Skin> = {
     inertia: true,
     stars: true,
     brighten: true,
-    palette: {
-      paper: '#070b16',
-      ink: '#e8e2d4',
-      ink2: '#b8b09c',
-      muted: '#7d8296',
-      line: 'rgba(255,255,255,0.14)',
-      hair: 'rgba(255,255,255,0.05)',
-      accent: '#e0a458',
-      laneLabel: '#7d8296',
-      headerBg: 'rgba(7,11,22,0.88)',
-      labelInBar: 'rgba(7,11,22,0.85)',
-      ribbonBg: '#090d18',
-      ribbonText: 'rgba(232,226,212,0.85)',
-      density: 'rgba(224,164,88,0.4)',
-      tooltipBg: 'rgba(13,19,34,0.95)',
-      eventAlpha: 0.16,
-      eventAlphaDim: 0.04,
-    },
+    eventAlpha: 0.16,
+    eventAlphaDim: 0.04,
     ribbonBand: (hue) => `hsl(${hue}, 42%, 30%)`,
     footerBand: (hue) => `hsl(${hue}, 52%, 40%)`,
   },
 };
+
+const paletteCache = new Map<SkinId, Palette>();
+
+/** 丢弃缓存：切皮肤、开发期样式热更新后重新读变量。 */
+export function invalidatePalette(): void {
+  paletteCache.clear();
+}
+
+/**
+ * 读取当前生效皮肤的画布配色。
+ * 变量必须已经挂在 document.body 上，所以只能在 applySkin() 换完 class 之后调用；
+ * 缺变量直接抛错，不能画出一片空白。
+ */
+export function paletteFor(skin: SkinId): Palette {
+  const cached = paletteCache.get(skin);
+  if (cached) return cached;
+  if (!document.body.classList.contains(`skin-${skin}`)) {
+    throw new Error(`读取 ${skin} 配色时 body 上没有 skin-${skin}，配色会和皮肤错位`);
+  }
+  const style = getComputedStyle(document.body);
+  const colors = {} as Record<ColorToken, string>;
+  const missing: string[] = [];
+  for (const [token, name] of Object.entries(PALETTE_VARS) as Array<[ColorToken, string]>) {
+    const value = style.getPropertyValue(name).trim();
+    if (!value) missing.push(name);
+    colors[token] = value;
+  }
+  if (missing.length > 0) {
+    throw new Error(`styles.css 的 body.skin-${skin} 缺少变量：${missing.join('、')}`);
+  }
+  const next: Palette = {
+    ...colors,
+    eventAlpha: SKINS[skin].eventAlpha,
+    eventAlphaDim: SKINS[skin].eventAlphaDim,
+  };
+  paletteCache.set(skin, next);
+  return next;
+}
 
 export const EVENT_COLORS: Record<EventType, string> = {
   military: '#b0442f',

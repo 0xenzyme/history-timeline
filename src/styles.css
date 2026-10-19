@@ -1,7 +1,9 @@
 /*
   正式版前端样式。两套皮肤共用一套结构：
   巡航（浅色学术出版）/ 深空（深色沉浸）。
-  画布上的配色在 src/app/skins.ts 里另存一份，两者要一起改。
+  这里是客户端配色的唯一来源：DOM 表面直接引用变量，画布通过
+  src/app/skins.ts 的 token → 变量名映射在运行时读取同一批变量。
+  改配色只改这里；skins.ts 里不再写死任何颜色。
 */
 
 :root {
@@ -27,6 +29,13 @@ body.skin-voyage {
   --card-border: 1px solid #ddd5c4;
   --card-shadow: -8px 0 24px rgba(60, 48, 30, 0.08);
   --search-bg: #fff;
+  /* 画布专用：DOM 里没有对应表面，只被 skins.ts 的 PALETTE_VARS 读取。 */
+  --canvas-lane-label: #6b6353;
+  --canvas-header-bg: #f8f5ee;
+  --canvas-label-in-bar: #fff;
+  --canvas-ribbon-text: rgba(41, 36, 28, 0.75);
+  --canvas-density: rgba(41, 36, 28, 0.22);
+  --canvas-viewport-wash: rgba(168, 58, 42, 0.08);
   color-scheme: light;
 }
 
@@ -46,6 +55,12 @@ body.skin-deepspace {
   --card-border: 1px solid rgba(224, 164, 88, 0.35);
   --card-shadow: 0 12px 48px rgba(0, 0, 0, 0.55), 0 0 32px rgba(224, 164, 88, 0.12);
   --search-bg: rgba(255, 255, 255, 0.06);
+  --canvas-lane-label: #7d8296;
+  --canvas-header-bg: rgba(7, 11, 22, 0.88);
+  --canvas-label-in-bar: rgba(7, 11, 22, 0.85);
+  --canvas-ribbon-text: rgba(232, 226, 212, 0.85);
+  --canvas-density: rgba(224, 164, 88, 0.4);
+  --canvas-viewport-wash: rgba(224, 164, 88, 0.08);
   color-scheme: dark;
 }
 
@@ -192,7 +207,7 @@ body.skin-voyage #stars { display: none; }
 
 .line-btn:hover { color: var(--accent); }
 .line-btn.active { background: var(--ink); color: var(--bg); }
-body.skin-deepspace .line-btn.active { background: var(--accent); color: #070b16; }
+body.skin-deepspace .line-btn.active { background: var(--accent); color: var(--bg); }
 
 .island .divider {
   width: 1px;
@@ -331,7 +346,7 @@ body.skin-deepspace .line-btn.active { background: var(--accent); color: #070b16
 }
 
 .skin-switch button.on { background: var(--accent); color: #fff; }
-body.skin-deepspace .skin-switch button.on { color: #070b16; }
+body.skin-deepspace .skin-switch button.on { color: var(--bg); }
 
 /* ---------- 快捷筛选 ---------- */
 
@@ -356,7 +371,7 @@ body.skin-deepspace .skin-switch button.on { color: #070b16; }
 
 .chip:hover { border-color: var(--accent); color: var(--accent); }
 .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
-body.skin-deepspace .chip.on { color: #070b16; }
+body.skin-deepspace .chip.on { color: var(--bg); }
 
 /* ---------- 提示 ---------- */
 
@@ -616,7 +631,7 @@ body.skin-deepspace .card-kicker { color: var(--accent); }
   font-size: 11px;
 }
 
-body.skin-deepspace .badge { color: #070b16; }
+body.skin-deepspace .badge { color: var(--bg); }
 
 /* ---------- 悬浮提示 ---------- */
 

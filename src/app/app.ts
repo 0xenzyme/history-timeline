@@ -32,7 +32,9 @@ import {
   EVENT_COLORS,
   SKINS,
   TYPE_NAMES,
+  invalidatePalette,
   isSkinId,
+  paletteFor,
   skinColor,
   type Palette,
   type SkinId,
@@ -262,7 +264,7 @@ function lineLabel(): string {
 // ---------- 绘制 ----------
 
 function skinPalette(): Palette {
-  return SKINS[state.skin].palette;
+  return paletteFor(state.skin);
 }
 
 function draw(): void {
@@ -272,8 +274,7 @@ function draw(): void {
 }
 
 function renderScene(c: CanvasRenderingContext2D, width: number, height: number): void {
-  const skin = SKINS[state.skin];
-  const C = skin.palette;
+  const C = skinPalette();
   c.clearRect(0, 0, width, height);
   if (state.skin === 'voyage') {
     c.fillStyle = C.paper;
@@ -309,7 +310,7 @@ function drawGridlines(c: CanvasRenderingContext2D): void {
 
 function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): void {
   const skin = SKINS[state.skin];
-  const C = skin.palette;
+  const C = skinPalette();
   c.save();
   c.beginPath();
   c.rect(0, hdrH(), width, height - hdrH());
@@ -668,7 +669,7 @@ function barCenter(id: string): { x: number; y: number } | null {
 
 function drawHeader(c: CanvasRenderingContext2D, width: number): void {
   const skin = SKINS[state.skin];
-  const C = skin.palette;
+  const C = skinPalette();
   c.save();
   c.fillStyle = C.headerBg;
   c.fillRect(0, 0, width, hdrH());
@@ -697,7 +698,6 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
   }
 
   const [d0, d1] = state.domain;
-  c.strokeStyle = skin.glow ? 'rgba(255,255,255,0.35)' : 'rgba(41,36,28,0.35)';
   c.lineWidth = 1;
 
   const step = pickStep((d1 - d0) / 12);
@@ -756,7 +756,7 @@ function dynastyHues(dynasties: DynastyTerm[]): Map<string, number> {
 /** 事件条带：像素距离小于 32 时聚合成计数标记。 */
 function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
   const skin = SKINS[state.skin];
-  const C = skin.palette;
+  const C = skinPalette();
   const [d0, d1] = state.domain;
   const events = state.library.events
     .filter((event) => event.year >= d0 - 5 && event.year <= d1 + 5 && chipMatchEvent(event))
@@ -868,9 +868,13 @@ function densityBuckets(): number[] {
 
 function renderRibbon(c: CanvasRenderingContext2D, x0: number, y0: number, width: number, height: number): void {
   const skin = SKINS[state.skin];
-  const C = skin.palette;
+  const C = skinPalette();
   c.save();
   c.translate(x0, y0);
+  // ribbonBg 是半透明的（外框也用它）。先铺一层不透明的 paper 当底，
+  // 每帧都从同一底色重画，既不会累积上一帧的辉光，导出位图也不会留下透明区。
+  c.fillStyle = C.paper;
+  c.fillRect(0, 0, width, height);
   c.fillStyle = C.ribbonBg;
   c.fillRect(0, 0, width, height);
   if (width <= 0) {
@@ -914,7 +918,7 @@ function renderRibbon(c: CanvasRenderingContext2D, x0: number, y0: number, width
 
   const vx0 = rx(state.domain[0]);
   const vx1 = rx(state.domain[1]);
-  c.fillStyle = skin.glow ? 'rgba(224,164,88,0.08)' : 'rgba(168,58,42,0.08)';
+  c.fillStyle = C.viewportWash;
   c.fillRect(vx0, 2, vx1 - vx0, height - 4);
   c.strokeStyle = C.accent;
   c.lineWidth = 1.5;
@@ -1287,6 +1291,9 @@ function applySkin(skin: SkinId, redraw = true): void {
   document.body.classList.toggle('skin-deepspace', skin === 'deepspace');
   document.getElementById('skin-voyage')?.classList.toggle('on', skin === 'voyage');
   document.getElementById('skin-deepspace')?.classList.toggle('on', skin === 'deepspace');
+  // 画布配色读的是 body 上的变量，class 换完才能取，取不到就当场报错。
+  invalidatePalette();
+  paletteFor(skin);
   nebulaIndex = -1;
   if (redraw) {
     buildLanePanel();
