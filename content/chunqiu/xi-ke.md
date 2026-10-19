@@ -5,7 +5,7 @@ display: 郤克
 profile: full
 gender: male
 polity:
-  - jin
+  - jin-guo
 categories:
   - minister
   - diplomat

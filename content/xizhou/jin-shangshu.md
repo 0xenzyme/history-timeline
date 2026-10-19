@@ -5,7 +5,7 @@ display: 晋殇叔
 profile: full
 gender: unknown
 polity:
-  - jin
+  - jin-guo
 categories:
   - vassal
 birthAccuracy: unknown

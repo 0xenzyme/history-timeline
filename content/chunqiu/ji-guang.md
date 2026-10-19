@@ -5,7 +5,7 @@ display: 吴王阖闾
 profile: full
 gender: male
 polity:
-  - wu
+  - wu-guo
 categories:
   - monarch
 birthAccuracy: unknown

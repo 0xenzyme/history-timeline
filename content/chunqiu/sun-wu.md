@@ -5,7 +5,7 @@ display: 孙武
 profile: full
 gender: male
 polity:
-  - wu
+  - wu-guo
 categories:
   - military-theory
 birthAccuracy: unknown

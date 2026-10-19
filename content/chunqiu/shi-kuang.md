@@ -5,7 +5,7 @@ display: 师旷
 profile: full
 gender: male
 polity:
-  - jin
+  - jin-guo
 categories:
   - scholar-official
 primary: scholar-official

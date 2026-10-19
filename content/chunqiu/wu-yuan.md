@@ -5,7 +5,8 @@ display: 伍子胥
 profile: full
 gender: male
 polity:
-  - wu
+  - chu
+  - wu-guo
 categories:
   - official
 birthAccuracy: unknown

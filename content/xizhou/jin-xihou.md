@@ -5,7 +5,7 @@ display: 晋釐侯
 profile: full
 gender: male
 polity:
-  - jin
+  - jin-guo
 categories:
   - vassal
 birthAccuracy: unknown

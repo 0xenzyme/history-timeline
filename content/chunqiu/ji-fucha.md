@@ -5,7 +5,7 @@ display: 吴王夫差
 profile: full
 gender: male
 polity:
-  - wu
+  - wu-guo
 categories:
   - monarch
 birthAccuracy: unknown

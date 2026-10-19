@@ -5,7 +5,7 @@ display: 信陵君
 profile: full
 gender: male
 polity:
-  - wei
+  - wei-zhanguo
 categories:
   - royal-kin
   - general
