@@ -4,7 +4,7 @@
  */
 
 import type { DynastyTerm, EventRecord, Person, Topic } from '../types';
-import { parseHash, writeHash, writeLineHash, type HistoryMode } from '../routing';
+import { parseHash, writeHash, writeLineHash, decodeHash, type HistoryMode } from '../routing';
 import { renderEventCard, renderPersonCard, type CardContext } from './cards';
 import { exportBasename, exportView } from './exporter';
 import {
@@ -61,6 +61,8 @@ interface AppState {
   line: LineId;
   topicId: string;
   topic: Topic | null;
+  /** 当前章节 id。地址栏写的是它，缩放不算换章节，所以只有切专题和点章节会改。 */
+  viewId: string | null;
   domain: [number, number];
   scrollY: number;
   chip: ChipId;
@@ -116,6 +118,7 @@ export async function boot(): Promise<void> {
       line: initialLine(),
       topicId: initialTopic(library),
       topic: null,
+      viewId: null,
       domain: [0, 0],
       scrollY: 0,
       chip: 'all',
@@ -1017,6 +1020,8 @@ function hitTest(px: number, py: number): Selection | null {
     let best: EventRecord | null = null;
     let bestDistance = 14;
     for (const event of state.library.events) {
+      // 绘制按 chipMatchEvent 过滤，命中测试必须用同一口径，否则筛选掉的事件点不中却仍能命中。
+      if (!chipMatchEvent(event)) continue;
       const x = xOf(event.year);
       const x1 = event.kind === 'span' && event.endYear !== undefined ? xOf(event.endYear) : x;
       const inside = event.kind === 'span' && event.endYear !== undefined
@@ -1096,7 +1101,9 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
   state.selected = selection;
   if (selection.kind === 'person') {
     const record = state.library.personById.get(selection.id);
-    if (record && record.topicId !== state.topicId) {
+    // 人就在当前专题里时不切走：personById 是「首见即存」，跨专题人物会总跳到发布顺序最靠前的那个专题。
+    const inCurrentTopic = state.line === 'people' && Boolean(state.topic?.people.some((item) => item.id === selection.id));
+    if (!inCurrentTopic && record && record.topicId !== state.topicId) {
       await setTopic(record.topicId, false);
     }
     if (state.line !== 'people') setLine('people', false);
@@ -1196,6 +1203,7 @@ async function setTopic(topicId: string, sync = true): Promise<void> {
   loadingTopic = false;
   if (!topic) return;
   state.topic = topic;
+  state.viewId = topic.views[0]?.id ?? null;
   state.domain = state.line === 'people' ? peopleSpan(topic) : defaultDomain();
   state.scrollY = 0;
   hideCardSilent();
@@ -1391,7 +1399,8 @@ function writeTopicHash(mode: HistoryMode): void {
   if (state.line !== 'people') return;
   const topic = state.topic;
   if (!topic) return;
-  writeHash(topic.meta.id, topic.views[0]?.id ?? 'overview', mode);
+  const viewId = topic.views.find((view) => view.id === state.viewId)?.id ?? topic.views[0]?.id ?? 'overview';
+  writeHash(topic.meta.id, viewId, mode);
 }
 
 /** 地址跟着内容线与专题走：人物线写 #专题/章节，事件线写 #线。 */
@@ -1401,7 +1410,7 @@ function syncHash(mode: HistoryMode): void {
     return;
   }
   const next = `#${state.line}`;
-  const current = decodeURIComponent(location.hash);
+  const current = decodeHash(location.hash);
   if (current === next || location.hash === next) return;
   if (mode === 'push') history.pushState(null, '', next);
   else history.replaceState(null, '', next);
@@ -1410,6 +1419,7 @@ function syncHash(mode: HistoryMode): void {
 async function applyRoute(route: ReturnType<typeof parseHash> | null): Promise<void> {
   state.topic = await loadTopicData(state.library, state.topicId);
   if (!state.topic) return;
+  state.viewId = state.topic.views[0]?.id ?? null;
   ensureDomain();
 
   if (!route) {
@@ -1438,6 +1448,7 @@ async function applyRoute(route: ReturnType<typeof parseHash> | null): Promise<v
   if (route.viewId) {
     const view = state.topic?.views.find((item) => item.id === route.viewId);
     if (view) {
+      state.viewId = view.id;
       state.domain = [view.from, view.to];
       const focus = view.focus ?? view.people?.[0];
       if (focus) await selectAndReveal({ kind: 'person', id: focus }, false, true);
@@ -1492,6 +1503,7 @@ function wireEvents(): void {
     const view = state.topic.views.find((item) => item.id === target.dataset.view);
     if (!view) return;
     dom.lanePanel.classList.remove('open');
+    state.viewId = view.id;
     state.domain = [view.from, view.to];
     const focus = view.focus ?? view.people?.[0];
     if (focus) void selectAndReveal({ kind: 'person', id: focus });
@@ -1516,6 +1528,8 @@ function wireEvents(): void {
     state.stripOpen = !state.stripOpen;
     localStorage.setItem(STORAGE.strip, state.stripOpen ? '1' : '0');
     syncStripToggle();
+    // 事件条高度算在 hdrH() 里，rebuildLayout 按它分配行距；不重建就沿用旧行距。
+    rebuildLayout();
     draw();
   });
   dom.topicSelect.addEventListener('change', () => void setTopic(dom.topicSelect.value));

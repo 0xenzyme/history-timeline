@@ -24,6 +24,15 @@ function timeLineIds(catalog: Catalog): Set<string> {
   return new Set((catalog.lines ?? []).filter((line) => line.axis === 'time').map((line) => line.id));
 }
 
+/** 手工拼或截断的地址里可能有畸形百分号（`#%zz`），解码失败就退回原文，不能让启动崩掉。 */
+export function decodeHash(value: string): string {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
 function emptyRoute(catalog: Catalog): Route {
   return {
     axis: 'topic',
@@ -39,7 +48,7 @@ function emptyRoute(catalog: Catalog): Route {
 
 export function parseHash(hash: string, catalog: Catalog): Route {
   const empty = emptyRoute(catalog);
-  const raw = decodeURIComponent(hash.replace(/^#/, '')).trim();
+  const raw = decodeHash(hash.replace(/^#/, '')).trim();
   if (!raw) return empty;
 
   const parts = raw.split('/').filter((part) => part.length > 0);
@@ -102,7 +111,7 @@ export type HistoryMode = 'push' | 'replace' | 'skip';
 
 function commit(next: string, mode: HistoryMode): void {
   if (mode === 'skip') return;
-  const current = decodeURIComponent(location.hash);
+  const current = decodeHash(location.hash);
   if (current === next || location.hash === next) return;
   if (mode === 'push') history.pushState(null, '', next);
   else history.replaceState(null, '', next);
