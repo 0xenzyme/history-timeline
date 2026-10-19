@@ -267,6 +267,13 @@ export function lintRegistryPerson(
   if (person.birth !== undefined && person.death !== undefined && person.birth > person.death) {
     messages.push({ level: 'error', path, message: '生年晚于卒年' });
   }
+  // 与事件线 [EVENT_YEAR_ZERO] 同一口径：有符号年份里没有公元 0 年
+  if (person.birth === 0) {
+    messages.push({ level: 'error', path, message: '[PERSON_BIRTH_YEAR_ZERO] birth 不存在公元 0 年，使用 -1 或 1' });
+  }
+  if (person.death === 0) {
+    messages.push({ level: 'error', path, message: '[PERSON_DEATH_YEAR_ZERO] death 不存在公元 0 年，使用 -1 或 1' });
+  }
   if ((person.birth !== undefined || person.death !== undefined) && !hasReliableSource(person.sources)) {
     messages.push({ level: 'error', path, message: '年份不能只靠 database 出处支撑，需要 classic 或 modern' });
   }
