@@ -10,7 +10,7 @@
 cards/
   README.md
   schema.md
-  西周/                 131 张，已全部 promoted；其余时段尚未建卡（本层目前只有西周）
+  西周/                 128 张，已全部 promoted；其余时段尚未建卡（本层目前只有西周）
     ji-hu.md            周厉王
     ji-jing.md          周宣王
     ji-gongsheng.md     周幽王

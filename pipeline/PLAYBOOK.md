@@ -60,7 +60,7 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 - 同一个人同时出现在 `content/<topic>/<id>.md` 和 `pipeline/registry/people/<id>.json`，或出现在两个专题目录里
 - `content/<topic>.md` 索引和目录里的人物对不上
 
-只告警、不失败的情况：还没标 `profile` 的存量 JSON 里，约略年份缺 note，或缺 `polity`；详表人物没有任何关系；已登记但没进任何专题。终端会另打一行收录进度：简表、详表、候选待核、不收。
+只告警、不失败的情况：还没标 `profile` 的存量 JSON 里，约略年份缺 note，或缺 `polity`；详表人物没有任何关系；已登记但没进任何专题。终端会另打一行收录进度：简表、详表、候选待核、不收、事件条数。
 
 `npm run taxonomy -- --write` 和 `npm run overrides -- --write` 只改存量 JSON。遇到 `content/<topic>/<id>.md` 会跳过，不另写一份 JSON。
 
@@ -70,13 +70,13 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 
 | 路径 | 职责 |
 |---|---|
-| `vocab/` | 地区、朝代、主题词表。新词先入表，再给专题挂上 |
+| `vocab/` | 地区、朝代、时代、主题、分类、政权、角色词表。新词先入表，再给专题挂上 |
 | `content/<topic>/` | 该专题的人物 Markdown。`content/<topic>.md` 是索引。模板在 `content/_template.md` 与 `content/_template-full.md` |
 | `registry/people/` | 还不能进 Markdown 的 44 人。缺 polity，或约略年份没有 note |
 | `topics/<id>/candidates.json` | 该专题的待核与不收台账。已进简表的人不要留在这里 |
 | `topics/<id>/topic.json` | 泳道、收录、关系、事件、章节；可覆盖 display / bio |
 | `topics.json` | 专题发布顺序 |
-| `schema/` | v1 合同、人物登记与候选台账的 JSON Schema |
+| `schema/` | v1 合同、人物登记、候选台账、事件、专题与目录的 JSON Schema |
 
 ## 谁进专题
 
@@ -183,7 +183,7 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 - `eras`：可多值。跨时段主题（儒学）把经过的时代都挂上
 - `themes`：`dynasty`（王朝）、`thought`（思想）等。新主题先加词表
 
-不要做成「国家 → 朝代 → 专题」的死树。站点按三个分面过滤专题列表。
+不要做成「国家 → 朝代 → 专题」的死树。三个分面编译进 `index.json` 的专题行，`eras` 或 `themes` 为空会被校验拒绝。当前站点的专题入口是顶栏专题下拉与快捷筛选，分面尚未做成筛选器（见 `docs/前端重设计.md` 第九节）。
 
 ## polity 的归属口径
 
@@ -198,7 +198,7 @@ polity 记的是「这个人站在哪条叙事脉络里」，不是血统、族�
 
 判定方法：看这个人的功业落在哪条脉络、和谁发生关系。**不是看他被几个专题收录**——专题收录是展示层的事，同一条登记进几个专题都不改 polity，「汉末群雄」这一层由东汉专题的 `qunxiong` 泳道表达，不是靠多写一个 `han`。同一个政权下的藩属与敌国才单独立词条（`xixia`、`liao-jin`、`tujue`）。
 
-`npm run taxonomy`（`infer-taxonomy.ts`）只是**缺失兜底**：从 tags 关键词猜 polity，只补当前为空的人，绝不覆盖已填的值。它猜的是 tags 字面，猜不出叙事脉络，所以自动写入的结果**必须经人审**再入库，审完的人进 `taxonomy/overrides/` 定稿。不要把推断值当成判断依据。
+`npm run taxonomy`（`infer-taxonomy.ts`）**不碰 polity**。它只从 tags 关键词和泳道表回填 `categories` 与 `gender`，再加 `overrides/` 里人工定稿的 `primary`；polity 缺失时它只在报表和 `taxonomy/todo.json` 里列出 id，等人按本节判定后手填。`lane-map.json` 里的 `polity` 是人工登记的参考值，工具不会把它抄进人物文件。`overrides/` 也不写 polity——那里的值一律是人工裁决结果。
 
 ### 跨朝代人物
 

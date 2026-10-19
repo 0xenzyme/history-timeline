@@ -17,6 +17,6 @@ npm run content                  # 编译进 public/data
 
 文首字段顺序以 `content/_template.md` 为准。`bio` 只写在第二个 `---` 之后的正文。新文件必须写 `profile`（`brief` 或 `full`）、`gender`，以及每条出处的 `kind`（`classic`、`modern` 或 `database`）。
 
-模板里的 `polity: [han]`、`gender: male` 和「待填」都是占位，要改成这个人自己的。模板没有年份。缺年份不能编译上轴。
+`_template.md` 与 `_template-full.md` 都不带 `polity`，要自己补上：显式 `profile` 缺 `polity` 会被校验拒绝。模板里的 `gender: male` 和「待填」都是占位，要改成这个人自己的。模板没有年份。缺年份不能编译上轴。
 
 不要手改 `public/data`。卡片 `cards/` 仍是草稿，不参与编译。
