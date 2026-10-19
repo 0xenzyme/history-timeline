@@ -169,7 +169,32 @@ function readHiddenLanes(): Set<string> {
 
 // ---------- 坐标 ----------
 
-const fullSpan = (): [number, number] => state.library.lines.history.range;
+/**
+ * 人物线的可达跨度：专题声明的范围，并覆盖每条人物条形的实际端点。
+ * 专题数据一次载入后不再变，所以按专题 id 缓存。
+ */
+let peopleSpanCache: { topicId: string; span: [number, number] } | null = null;
+
+function peopleSpan(topic: Topic): [number, number] {
+  if (peopleSpanCache && peopleSpanCache.topicId === topic.meta.id) {
+    const cached = peopleSpanCache.span;
+    return [cached[0], cached[1]];
+  }
+  let [lo, hi] = topic.meta.range;
+  for (const person of topic.people) {
+    lo = Math.min(lo, personFrom(person.birth, person.death));
+    hi = Math.max(hi, personTo(person.birth, person.death));
+  }
+  peopleSpanCache = { topicId: topic.meta.id, span: [lo, hi] };
+  return [lo, hi];
+}
+
+/** 视野钳制的完整跨度：人物线跟着当前专题，事件线跟着该条目录自己的范围。 */
+const fullSpan = (): [number, number] => {
+  const line = state.line;
+  if (line === 'people') return state.topic ? peopleSpan(state.topic) : state.library.lines.history.range;
+  return state.library.lines[line].range;
+};
 
 function xOf(year: number): number {
   const [d0, d1] = state.domain;
@@ -1044,6 +1069,8 @@ function showCard(selection: Selection): void {
     if (!event) return;
     dom.cardBody.innerHTML = renderEventCard(context, event);
   }
+  // 卡片与选中态必须同时成立：setTopic / setLine 会清掉 selected，这里重新对齐。
+  state.selected = selection;
   dom.card.classList.add('show');
 }
 
@@ -1165,8 +1192,7 @@ async function setTopic(topicId: string, sync = true): Promise<void> {
   loadingTopic = false;
   if (!topic) return;
   state.topic = topic;
-  state.hiddenLanes = new Set();
-  state.domain = state.line === 'people' ? topic.meta.range.slice() as [number, number] : defaultDomain();
+  state.domain = state.line === 'people' ? peopleSpan(topic) : defaultDomain();
   state.scrollY = 0;
   hideCardSilent();
   buildLanePanel();
@@ -1177,9 +1203,6 @@ async function setTopic(topicId: string, sync = true): Promise<void> {
 }
 
 function defaultDomain(): [number, number] {
-  if (state.line === 'people') {
-    return state.topic ? (state.topic.meta.range.slice() as [number, number]) : fullSpan();
-  }
   return fullSpan();
 }
 
