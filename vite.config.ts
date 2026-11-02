@@ -11,5 +11,8 @@ export default defineConfig({
   server: {
     port: 5180,
     open: false,
+    watch: {
+      ignored: ['**/.playwright-cli/**'],
+    },
   },
 });

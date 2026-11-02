@@ -2,6 +2,25 @@
   "name": "history-timeline",
   "private": true,
   "version": "0.1.0",
+  "description": "四千年中国历史人物与事件交互时间轴",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xenzyme/history-timeline.git"
+  },
+  "homepage": "https://history.0xenzme.dev",
+  "bugs": {
+    "url": "https://github.com/0xenzyme/history-timeline/issues"
+  },
+  "keywords": [
+    "history",
+    "chinese-history",
+    "timeline",
+    "visualization"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

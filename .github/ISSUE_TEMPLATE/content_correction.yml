@@ -1,0 +1,30 @@
+name: 内容订正
+description: 报告人物、事件、年份、归属或出处问题
+labels: [content]
+body:
+  - type: input
+    id: entity
+    attributes:
+      label: 人物或事件 id
+      placeholder: content/events/<id>.md 或 content/<topic>/<id>.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题说明
+      description: 指明具体字段、文案或关系的问题。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可核查出处
+      description: 提供典籍卷篇、现代研究或数据库记录，不要只给搜索结论。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议修改
+      description: 如果已有明确改法，请写出建议内容。

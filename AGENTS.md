@@ -10,7 +10,8 @@
 - `public/data/` contains generated runtime JSON and must not be edited by hand.
 - `cards/` contains research drafts and source-oriented person notes; these are not compiled directly into the site.
 - `pipeline/PLAYBOOK.md` is the content style guide: 收录席位、生卒 accuracy、关系、章节文案、polity 归属口径。Editing anyone's registry file means reading it first.
-- `docs/` contains the product and data-model design specification.
+- `docs/` contains the product and data-model design specification. `docs/内容质量.md` records the warning triage policy.
+- `README.md` and `CONTRIBUTING.md` are the public contributor entry points. Code is MIT-licensed; original historical copy and structured historical content use CC BY-SA 4.0 as described in `LICENSE-CONTENT.md`. Third-party material keeps its original terms.
 
 ## Build, Test, and Development
 

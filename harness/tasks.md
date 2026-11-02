@@ -4,6 +4,12 @@ Priority uses P0, P1, P2, or P3 only.
 
 ## Now
 
+- [x] P1 开源发布准备（2026-11-02）
+  - Type: development
+  - Status: completed-locally
+  - Acceptance: MIT 与 CC BY-SA 4.0 许可边界、README、贡献指南、安全政策、GitHub 模板、CI、依赖升级、跨平台配置、产品截图和真实浏览器验收均完成；Cloudflare 部署不在本批次。
+  - Notes: `npm run build`、`npm audit` 和 `git diff --check` 通过。生产预览的 9 组 Playwright 验收全部通过，控制台无错误。改动尚未 commit 或 push，仓库仍保持私有。
+
 - [x] P1 全站 review 修复批次（2026-10-19）
   - Type: development
   - Status: pushed
