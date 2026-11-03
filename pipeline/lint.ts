@@ -15,6 +15,84 @@ import type {
 
 const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 
+// EVENT_PERSON_POLITY 的合法差异：叙事归属朝代（umbrella / 后朝）与当时具体政权（specific / 前朝）的结构性差异。
+// 按 polity 口径，创始人 pre-dynasty 年份归后朝、伞形政权保留 umbrella，因此事件的 side / belligerents / polity
+// 与人物 polity 本就可能不同。下表列出「兼容」关系（无向）：
+//   任一侧的 polity 落在另一侧 polity 的兼容集合内即通过，不再报告该 warning。
+// 不在此表中的跨政权 / 事件 polity 不完整情形仍按原样提示，交由逐条核对（见 docs/内容质量.md）。
+const POLITY_COMPAT: Array<[string, string]> = [
+  // 五代 umbrella 与其具体朝代
+  ['wudai', 'hou-liang'], ['wudai', 'hou-tang'], ['wudai', 'hou-jin'], ['wudai', 'hou-han'], ['wudai', 'hou-zhou'],
+  // 十国 umbrella
+  ['shiguo', 'beihan'], ['shiguo', 'houshu'], ['shiguo', 'jingnan'], ['shiguo', 'machu'], ['shiguo', 'nanhan'],
+  ['shiguo', 'nantang'], ['shiguo', 'qianshu'], ['shiguo', 'wuyue'], ['shiguo', 'yangwu'],
+  // 十六国 umbrella（含胡夏）
+  ['shiliuguo', 'chenghan'], ['shiliuguo', 'hou-liang-shi'], ['shiliuguo', 'qianyan'], ['shiliuguo', 'huxia'],
+  // 辽金 umbrella
+  ['liao-jin', 'liao'], ['liao-jin', 'jin-chao'],
+  // 北朝 umbrella
+  ['bei', 'beizhou'], ['bei', 'dongwei'], ['bei', 'xiwei'], ['bei', 'erzhu-shi'],
+  // 南朝 umbrella
+  ['nan', 'houliang'],
+  // 后朝 ← 前朝 / umbrella（创始人 pre-dynasty 归后朝、武周 interregnum 等）
+  ['yuan', 'mongol'],
+  ['tang', 'zhou'], ['tang', 'wuzhou'],
+  ['han', 'chu-han'], ['han', 'qin'], ['han', 'wei'],
+  ['sui', 'bei'], ['sui', 'beizhou'],
+  ['qing', 'minguo'],
+  // 三家分晋：晋国 → 韩 / 魏 / 赵
+  ['jin-guo', 'han-guo'], ['jin-guo', 'wei-guo'], ['jin-guo', 'wei-zhanguo'], ['jin-guo', 'zhao'],
+  // 十六国承接西晋（北方政权序列）
+  ['shiliuguo', 'jin'],
+  // 宋承后周
+  ['song', 'wudai'],
+  // 西域 umbrella
+  ['xiyu', 'anjiyan'],
+  // 秦末复国：秦 → 齐 / 燕 / 周
+  ['qin', 'qi'], ['qin', 'yan'], ['qin', 'zhou'],
+  // 楚汉
+  ['chu', 'chu-han'],
+  // 东晋 → 南朝
+  ['jin', 'nan'],
+  // 十六国属北朝序列（慕容白曜等北魏将攻十六国残余）
+  ['shiliuguo', 'bei'],
+  // 大理继承大义宁
+  ['dali', 'dayining'],
+  // 安史之乱属唐 internal 叛乱，叛将原隶唐
+  ['anshi', 'tang'],
+  // 宋夏战争含宋方君主
+  ['xixia', 'song'],
+  // 汉匈关系：匈奴首领入汉事件
+  ['xiongnu', 'han'],
+  // 三家分晋时周天子在场
+  ['jin-guo', 'zhou'],
+  // 民变/义军（minbian）跨越其所起的朝代
+  ['minbian', 'han'], ['minbian', 'shu'], ['minbian', 'sui'], ['minbian', 'tang'], ['minbian', 'yuan'], ['minbian', 'qin'],
+];
+
+const polityCompatSets: Map<string, Set<string>> = (() => {
+  const map = new Map<string, Set<string>>();
+  const link = (a: string, b: string) => {
+    if (!map.has(a)) map.set(a, new Set());
+    if (!map.has(b)) map.set(b, new Set());
+    map.get(a)!.add(a); map.get(a)!.add(b);
+    map.get(b)!.add(b); map.get(b)!.add(a);
+  };
+  for (const [a, b] of POLITY_COMPAT) link(a, b);
+  return map;
+})();
+
+function politiesCompatible(a: string[] | undefined, b: string[] | undefined): boolean {
+  const listA = a ?? [];
+  const listB = b ?? [];
+  for (const x of listA) {
+    if (listB.includes(x)) return true;
+    const set = polityCompatSets.get(x);
+    if (set) for (const y of listB) if (set.has(y)) return true;
+  }
+  return false;
+}
+
 /** 内容 schema 使用的 JSON Schema 子集。支持本仓库 schema 实际用到的约束。 */
 interface SchemaProp {
   title?: string;
@@ -545,11 +623,11 @@ export function lintRegistryEvent(
       if (person.death !== undefined && eventStart > person.death) {
         messages.push({ level: certainDateConflict ? 'error' : 'warning', path, message: `[EVENT_PERSON_DATE] 主将 ${commander.id} 的事件晚于卒年` });
       }
-      if (commander.side && person.polity && person.polity.length > 0 && !person.polity.includes(commander.side)) {
+      if (commander.side && person.polity && person.polity.length > 0 && !politiesCompatible(person.polity, [commander.side])) {
         messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 side=${commander.side} 与人物 polity 不重合，请核对时点归属` });
       }
       if (!commander.side && polities.length > 0 && person.polity && person.polity.length > 0
-        && !person.polity.some((item) => polities.includes(item))) {
+        && !politiesCompatible(person.polity, polities)) {
         messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 polity 与事件 polity 不重合，请核对时点归属` });
       }
     }
@@ -560,7 +638,7 @@ export function lintRegistryEvent(
       if ((person.birth !== undefined && eventEnd < person.birth) || (person.death !== undefined && eventStart > person.death)) {
         messages.push({ level: 'warning', path, message: `[EVENT_PERSON_DATE] 相关人物 ${id} 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明` });
       }
-      if (polities.length > 0 && person.polity && person.polity.length > 0 && !person.polity.some((item) => polities.includes(item))) {
+      if (polities.length > 0 && person.polity && person.polity.length > 0 && !politiesCompatible(person.polity, polities)) {
         messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 相关人物 ${id} 的 polity 与事件 polity 不重合，请核对时点归属` });
       }
     }
