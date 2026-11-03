@@ -11,6 +11,7 @@ yearAccuracy: exact
 yearNote: 魏襄王元年（前334）与诸侯会徐州、相王（《史记·魏世家》「襄王元年，與諸侯會徐州，相王也。追尊父惠王爲王」）。齐方面《史记·田敬仲完世家》系于齐威王时互王。
 polity:
   - wei-zhanguo
+  - qi
 people:
   - wei-huiwang
   - tian-yinqi

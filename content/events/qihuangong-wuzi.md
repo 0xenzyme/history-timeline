@@ -11,6 +11,7 @@ yearAccuracy: exact
 yearNote: 《春秋·僖公十七年》「冬，十有二月，乙亥，齊侯小白卒」（史記齊世家系冬十月乙亥，月分有差）；《史記·齊太公世家》桓公四十三年（前643）。五公子争立延至前642宋襄公伐齐立孝公。
 polity:
   - qi
+  - song-guo
 people:
   - jiang-xiaobai
   - gongzi-wugui

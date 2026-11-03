@@ -11,6 +11,7 @@ yearAccuracy: exact
 yearNote: 通鉴系清泰三年十一月契丹主册敬瑭为帝，约割卢龙、雁门以北；诸州实际入辽至会同初年方竣。
 polity:
   - hou-jin
+  - liao
 people:
   - shi-jingtang
   - yelv-deguang

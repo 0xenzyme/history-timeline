@@ -12,6 +12,7 @@ yearNote: 左传襄公二十七年（前546）：宋向戌合晋楚齐秦于宋�
 polity:
   - jin-guo
   - chu
+  - song-guo
 people:
   - zhao-wu
   - song-pinggong

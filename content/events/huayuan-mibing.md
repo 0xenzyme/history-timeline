@@ -12,6 +12,7 @@ yearNote: 左传成公十二年（前579）：「宋華元克合晉、楚之成�
 polity:
   - jin-guo
   - chu
+  - song-guo
 people:
   - jin-ligong
   - xiong-shen
