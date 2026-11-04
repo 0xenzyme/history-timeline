@@ -55,11 +55,11 @@ registry: pipeline/registry/people/ji-hu.json
 
 生卒与 registry 不一致时，**改卡片或写 note，不覆盖 JSON**。
 
-registry 是唯一事实源，卡片是草稿。卡片里考出来的东西（例如 `deathNote` 的系年依据）要**回填注册表**再标 `promoted`，否则两套正文会分叉——`card/西周/ji-hu.md` 就有一句「共和十四年死于彘」，而 `ji-hu.json` 里没有对应的 `deathNote`。
+卡片是草稿。现行人物事实源是 `content/<topic>/<id>.md`；只有仍留在 `pipeline/registry/people/` 的 44 条旧记录以对应 JSON 为准。卡片里考出来的东西（例如 `deathNote` 的系年依据）要回填现行源文件再标 `promoted`，否则两套正文会分叉——`cards/西周/ji-hu.md` 就有一句「共和十四年死于彘」，而对应的 `ji-hu.json` 里没有 `deathNote`。
 
 ## 正文
 
-- `## 生平纪要`：条目，不写百科。服务读史料，不替代 registry `bio`。
+- `## 生平纪要`：条目，不写百科。服务读史料，不替代 canonical 人物源文件的 `bio`。
 - `## 引文`：已选用的原文。每条先写 `raw/...` 路径和行号，再引用。引文必须能在该文件里搜到（连续子串）。中间省略用 `…`，省略两侧各自仍须能命中。
 - `## 引文候选`：检索脚本的待填输出。定稿后改成 `## 引文`，删掉张冠李戴的段（例如幽王章里追述厉王的句子）。
 

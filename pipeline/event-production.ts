@@ -182,6 +182,38 @@ function manifestErrors(manifest: DraftManifest): LintMessage[] {
   return messages;
 }
 
+function publishSourceErrors(event: RegistryEvent, path: string): LintMessage[] {
+  if (event.type === 'military') return [];
+  const sources = Array.isArray(event.sources) ? event.sources : [];
+  const distinctWorks = new Set(
+    sources
+      .filter((source) => source && typeof source === 'object')
+      .map((source) => (typeof source.work === 'string' ? source.work.trim() : ''))
+      .filter(Boolean),
+  );
+  const messages: LintMessage[] = [];
+  if (distinctWorks.size < 2) {
+    messages.push({
+      level: 'error',
+      path,
+      message: '[EVENT_PUBLISH_SOURCES] 非军事事件发布前必须有两条不同 work 的独立出处',
+    });
+  }
+  const hasClassic = sources.some((source) =>
+    source
+    && typeof source === 'object'
+    && (source.kind ?? 'classic') === 'classic',
+  );
+  if (!hasClassic) {
+    messages.push({
+      level: 'error',
+      path,
+      message: '[EVENT_PUBLISH_CLASSIC] 非军事事件发布前至少需要一条 classic 出处',
+    });
+  }
+  return messages;
+}
+
 function publishProjection(manifest: DraftManifest): PublishCheckResult {
   const manifestMessages = manifestErrors(manifest);
   const files = readEventMarkdown(contentRoot);
@@ -202,6 +234,9 @@ function publishProjection(manifest: DraftManifest): PublishCheckResult {
     if (event.status !== 'draft' || selected.has(event.id)) projected.set(event.id, event);
     if (selected.has(file.event.id) && file.event.status !== 'draft') {
       errors.push({ level: 'error', path: file.path, message: 'publish manifest 只能选择 status: draft 的事件' });
+    }
+    if (selected.has(file.event.id)) {
+      errors.push(...publishSourceErrors(file.event, file.path));
     }
   }
 

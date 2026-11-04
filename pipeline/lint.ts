@@ -15,60 +15,24 @@ import type {
 
 const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 
-// EVENT_PERSON_POLITY 的合法差异：叙事归属朝代（umbrella / 后朝）与当时具体政权（specific / 前朝）的结构性差异。
-// 按 polity 口径，创始人 pre-dynasty 年份归后朝、伞形政权保留 umbrella，因此事件的 side / belligerents / polity
-// 与人物 polity 本就可能不同。下表列出「兼容」关系（无向）：
-//   任一侧的 polity 落在另一侧 polity 的兼容集合内即通过，不再报告该 warning。
-// 不在此表中的跨政权 / 事件 polity 不完整情形仍按原样提示，交由逐条核对（见 docs/内容质量.md）。
-const POLITY_COMPAT: Array<[string, string]> = [
-  // 五代 umbrella 与其具体朝代
-  ['wudai', 'hou-liang'], ['wudai', 'hou-tang'], ['wudai', 'hou-jin'], ['wudai', 'hou-han'], ['wudai', 'hou-zhou'],
-  // 十国 umbrella
-  ['shiguo', 'beihan'], ['shiguo', 'houshu'], ['shiguo', 'jingnan'], ['shiguo', 'machu'], ['shiguo', 'nanhan'],
-  ['shiguo', 'nantang'], ['shiguo', 'qianshu'], ['shiguo', 'wuyue'], ['shiguo', 'yangwu'],
-  // 十六国 umbrella（含胡夏）
-  ['shiliuguo', 'chenghan'], ['shiliuguo', 'hou-liang-shi'], ['shiliuguo', 'qianyan'], ['shiliuguo', 'huxia'],
-  // 辽金 umbrella
-  ['liao-jin', 'liao'], ['liao-jin', 'jin-chao'],
-  // 北朝 umbrella
-  ['bei', 'beizhou'], ['bei', 'dongwei'], ['bei', 'xiwei'], ['bei', 'erzhu-shi'],
-  // 南朝 umbrella
-  ['nan', 'houliang'],
-  // 后朝 ← 前朝 / umbrella（创始人 pre-dynasty 归后朝、武周 interregnum 等）
-  ['yuan', 'mongol'],
-  ['tang', 'zhou'], ['tang', 'wuzhou'],
-  ['han', 'chu-han'], ['han', 'qin'], ['han', 'wei'],
-  ['sui', 'bei'], ['sui', 'beizhou'],
-  ['qing', 'minguo'],
-  // 三家分晋：晋国 → 韩 / 魏 / 赵
-  ['jin-guo', 'han-guo'], ['jin-guo', 'wei-guo'], ['jin-guo', 'wei-zhanguo'], ['jin-guo', 'zhao'],
-  // 十六国承接西晋（北方政权序列）
-  ['shiliuguo', 'jin'],
-  // 宋承后周
-  ['song', 'wudai'],
-  // 西域 umbrella
-  ['xiyu', 'anjiyan'],
-  // 秦末复国：秦 → 齐 / 燕 / 周
-  ['qin', 'qi'], ['qin', 'yan'], ['qin', 'zhou'],
-  // 楚汉
-  ['chu', 'chu-han'],
-  // 东晋 → 南朝
-  ['jin', 'nan'],
-  // 十六国属北朝序列（慕容白曜等北魏将攻十六国残余）
-  ['shiliuguo', 'bei'],
-  // 大理继承大义宁
-  ['dali', 'dayining'],
-  // 安史之乱属唐 internal 叛乱，叛将原隶唐
-  ['anshi', 'tang'],
-  // 宋夏战争含宋方君主
-  ['xixia', 'song'],
-  // 汉匈关系：匈奴首领入汉事件
-  ['xiongnu', 'han'],
-  // 三家分晋时周天子在场
-  ['jin-guo', 'zhou'],
-  // 民变/义军（minbian）跨越其所起的朝代
-  ['minbian', 'han'], ['minbian', 'shu'], ['minbian', 'sui'], ['minbian', 'tang'], ['minbian', 'yuan'], ['minbian', 'qin'],
-];
+// 人物 polity 是叙事归属，事件 side / belligerents / polity 是事件时点政权。
+// 兼容对是跨实体校验的规则数据，集中放在 vocab 文件，避免在代码里形成第二套 polity 口径。
+interface PolityCompatFile {
+  version: number;
+  pairs: Array<{ a: string; b: string; reason: string }>;
+}
+
+const polityCompatPath = join(pipelineRoot, 'vocab', 'polity-compat.json');
+const polityCompatFile = JSON.parse(readFileSync(polityCompatPath, 'utf8')) as PolityCompatFile;
+if (polityCompatFile.version !== 1 || !Array.isArray(polityCompatFile.pairs)) {
+  throw new Error('pipeline/vocab/polity-compat.json 必须是 version 1，并包含 pairs 数组');
+}
+const POLITY_COMPAT: Array<[string, string]> = polityCompatFile.pairs.map((pair) => {
+  if (!pair || typeof pair.a !== 'string' || typeof pair.b !== 'string' || typeof pair.reason !== 'string' || !pair.reason.trim()) {
+    throw new Error('pipeline/vocab/polity-compat.json 的每个 pair 必须有 a、b 和非空 reason');
+  }
+  return [pair.a, pair.b];
+});
 
 const polityCompatSets: Map<string, Set<string>> = (() => {
   const map = new Map<string, Set<string>>();

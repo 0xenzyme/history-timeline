@@ -3,6 +3,8 @@
 Created: 2026-10-04
 Status: accepted
 
+This is an implementation record. Execution follows `.agents/skills/event-production/SKILL.md`; content semantics follow `docs/事件线规则.md`. This spec does not define an alternate lifecycle.
+
 ## Decision
 
 执行步骤以 `.agents/skills/event-production/SKILL.md` 为准。
@@ -42,10 +44,10 @@ Skill 只负责意图路由、规则加载、Run 启动/恢复和结果展示；
 
 ## Lifecycle Contract
 
-- ledger `decision`: `candidate` → `evidence-needed|rejected|held|approved`。
+- ledger `decision`: `candidate` → `evidence-needed|rejected|held|research-approved|publish-approved`。
 - ledger `artifact`: `none` → `draft` → `publish-ready` → `published`。
 - canonical frontmatter 只使用 `status: draft|published`。
-- `approved` 只表示 research gate 已批准，不代表可以发布。
+- `research-approved` 只允许创建 draft，不代表可以发布；`publish-approved` 只允许发布。
 - `published` 只能在 publish gate 明确批准并完成 compile/build 后出现。
 
 ## Pause Conditions

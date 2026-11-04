@@ -100,7 +100,7 @@ Status: accepted
 
 ## State Sync
 
-- Records: harness/tasks.md, harness/status.md, harness/goals
+- Historical execution records: local `.harness/archive/harness/` (not versioned)
 - Evidence: 每完成一个 checklist item 就更新 Goal 与 status。
 
 ## Pause Conditions

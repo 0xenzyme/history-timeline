@@ -198,6 +198,8 @@ polity 记的是「这个人站在哪条叙事脉络里」，不是血统、族�
 
 判定方法：看这个人的功业落在哪条脉络、和谁发生关系。**不是看他被几个专题收录**——专题收录是展示层的事，同一条登记进几个专题都不改 polity，「汉末群雄」这一层由东汉专题的 `qunxiong` 泳道表达，不是靠多写一个 `han`。同一个政权下的藩属与敌国才单独立词条（`xixia`、`liao-jin`、`tujue`）。
 
+事件校验会发现人物叙事 `polity` 与事件时点政权不一致。允许的结构性差异集中写在 `pipeline/vocab/polity-compat.json`；该文件只放宽跨实体 warning，不授权修改人物 `polity`，也不把事件政权写回人物登记。新增兼容对必须写明 `reason`。
+
 `npm run taxonomy`（`infer-taxonomy.ts`）**不碰 polity**。它只从 tags 关键词和泳道表回填 `categories` 与 `gender`，再加 `overrides/` 里人工定稿的 `primary`；polity 缺失时它只在报表和 `taxonomy/todo.json` 里列出 id，等人按本节判定后手填。`lane-map.json` 里的 `polity` 是人工登记的参考值，工具不会把它抄进人物文件。`overrides/` 也不写 polity——那里的值一律是人工裁决结果。
 
 ### 跨朝代人物
@@ -227,4 +229,4 @@ polity 记的是「这个人站在哪条叙事脉络里」，不是血统、族�
 
 人物 PLAYBOOK 不定义事件字段或事件收录口径。事件的 canonical source 是 `content/events/<id>.md`；现有 `topic.json` 的 `events[]` 是冻结的旧 inline 输入，只能用于迁移盘点，不得继续扩写。军事与历史是同一事件库的两个 catalog，不是两套实体。
 
-事件迁移必须先登记 `pipeline/events-migration-manifest.json`，并通过 `npm run events:migration:check` 的逐条冻结比对；经过证据、去重、taxonomy、引用和编译 gates 后再落 canonical 文件。缺年份锚点、主出处或无法判断重复关系的条目保持 `evidence-needed`，不得以猜测补齐 `type`、`catalogs`、`polity`、`belligerents` 或 `sources`。新建事件先保持 `status: draft`，完成审核后才改为 `published`。不要把 `public/data/` 当源文件，也不要手改专题索引。
+事件迁移必须先登记 `pipeline/events-migration-manifest.json`，并通过 `npm run events:migration:check` 的逐条冻结比对；经过证据、去重、taxonomy、引用和编译 gates 后，状态改为 `migration-approved` 才可落 canonical 文件。缺年份锚点、主出处或无法判断重复关系的条目保持 `evidence-needed`，不得以猜测补齐 `type`、`catalogs`、`polity`、`belligerents` 或 `sources`。新建事件先保持 `status: draft`，通过 publish gate 后才改为 `published`。不要把 `public/data/` 当源文件，也不要手改专题索引。

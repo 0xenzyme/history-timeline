@@ -16,7 +16,7 @@
     "legacyEndYear": "number|null",
     "candidateId": "string|null",
     "aliases": "array of legacy ids",
-    "status": "frozen-inline|candidate|evidence-needed|rejected|approved|migrated|verified",
+    "status": "frozen-inline|candidate|evidence-needed|rejected|migration-approved|migrated|verified",
     "duplicateGroup": "string|null",
     "evidence": "array of source pointers",
     "review": "array of reviewer decisions",
@@ -7738,7 +7738,7 @@
     }
   ],
   "batchAcceptance": [
-    "Every legacy entry has an entryKey and remains frozen until approved.",
+    "Every legacy entry has an entryKey and remains frozen until migration-approved.",
     "Every migrated entry has one canonical id, recorded aliases, evidence and reviewer decision.",
     "No candidate is accepted without year anchor, sources, taxonomy and resolved references.",
     "npm run events:check and npm run content:check pass, and generated catalogs reconcile with the manifest.",

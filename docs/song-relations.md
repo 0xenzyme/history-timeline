@@ -1,6 +1,6 @@
 # 宋关系补记
 
-规则见 `pipeline/PLAYBOOK.md` 和 `harness/specs/song-to-qing-readable-registry.md`。只补章节或事件点名、且登记 bio 能支持的叙事边。同时代不入库。
+规则见 `pipeline/PLAYBOOK.md` 和 `docs/decisions/song-to-qing-readable-registry.md`。只补章节或事件点名、且登记 bio 能支持的叙事边。同时代不入库。
 
 ## 这一轮补上的
 

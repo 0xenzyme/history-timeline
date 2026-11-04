@@ -41,8 +41,8 @@ function lineTitle(id: 'military' | 'history'): string {
 }
 
 /**
- * 目录是实体的过滤视图。新记录可以显式声明 catalogs；缺省时保留旧规则，
- * 以便存量实体逐批补齐而不会在迁移期间改变可见范围。
+ * 目录是实体的过滤视图。显式 catalogs 是目录成员资格的唯一来源；
+ * importance 只影响绘制与排序。缺省 catalogs 时保留旧规则，便于存量记录兼容。
  */
 export function inLine(event: EventRecord, line: 'military' | 'history'): boolean {
   if (event.catalogs && event.catalogs.length > 0) return event.catalogs.includes(line);

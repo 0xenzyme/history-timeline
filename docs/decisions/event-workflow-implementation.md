@@ -3,9 +3,11 @@
 Created: 2026-10-03
 Status: accepted
 
+This is an implementation record. Current event semantics live in `docs/事件线规则.md`; this spec must not override that document.
+
 ## Decision
 
-该 spec 记录事件实体工作流的基础实现；当前 thread/Skill 是入口，后续 agent-driven 生产由独立 controller subagent 负责。事件实体的 canonical source 保持为 `content/events/<id>.md`；本 spec 只落实输入生命周期、证据闸门、编译/运行时契约、稳定路由和迁移冻结，不代替历史专家对 258 条旧记录逐条作史料判断。agent-driven 生产线由 `harness/specs/event-agent-production.md` 另行定义。
+该 spec 记录事件实体工作流的基础实现；当前 thread/Skill 是入口，后续 agent-driven 生产由独立 controller subagent 负责。事件实体的 canonical source 保持为 `content/events/<id>.md`；本 spec 只落实输入生命周期、证据闸门、编译/运行时契约、稳定路由和迁移冻结，不代替历史专家对 258 条旧记录逐条作史料判断。agent-driven 生产线由 `docs/decisions/event-agent-production.md` 另行定义。
 
 ## Scope
 
@@ -43,7 +45,7 @@ Status: accepted
 
 ## Pause Conditions
 
-- 需要史料判断才能把 `evidence-needed` 变成 `approved`。
+- 需要史料判断才能把 `evidence-needed` 变成 `migration-approved`。
 - 需要删除/改写冻结输入、生产发布、凭据或其他外部副作用。
 - 运行时 schema 与编译产物无法在不破坏旧链接的情况下兼容。
 

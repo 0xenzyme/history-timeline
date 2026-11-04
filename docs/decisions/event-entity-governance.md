@@ -3,6 +3,8 @@
 Created: 2026-10-03
 Status: accepted
 
+This is a governance record. Current event semantics live in `docs/事件线规则.md`; this spec must not override that document.
+
 ## Decision
 
 事件实体采用 `content/events/<id>.md` 作为唯一 canonical source。现有专题 `topic.json` 的 `events[]` 共 258 条，冻结为只读旧输入；先建立可审计的迁移 ledger，再按批次迁移，不在本目标中凭空补历史资料或改写运行时代码。
@@ -29,7 +31,7 @@ Status: accepted
 ## Pause Conditions
 
 - 需要更改编译器、运行时 schema 或 UI 才能表达规则。
-- 史料不足却要求把 `evidence-needed` 变成 `approved`。
+- 史料不足却要求把 `evidence-needed` 变成 `migration-approved`。
 - 重复 id/名称无法通过年份、人物、描述和出处判定同一性。
 - 需要删除或改写冻结的旧 inline 输入。
 

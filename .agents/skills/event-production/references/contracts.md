@@ -34,6 +34,7 @@
 
 ```json
 {
+  "gate": "research|publish",
   "questionId": "research-approval-1",
   "decision": "approve|exclude|hold|needs-more-evidence",
   "includeIds": [],
@@ -121,7 +122,7 @@ controller 会拒绝 `runId`、`inputHash` 或 `revision` 不匹配的结果。
   "candidateKey": "candidate-key",
   "canonicalId": "optional-kebab-id",
   "aliases": [],
-  "decision": "candidate|evidence-needed|rejected|held|approved",
+  "decision": "candidate|evidence-needed|rejected|held|research-approved|publish-approved",
   "artifact": "none|draft|publish-ready|published",
   "sourceRefs": ["source-001"],
   "claimRefs": ["claim-001"],
@@ -141,6 +142,8 @@ controller 会拒绝 `runId`、`inputHash` 或 `revision` 不匹配的结果。
   "lastError": null
 }
 ```
+
+`research-approved` 允许 `artifact: draft`。`publish-approved` 允许 `artifact: published`。`publish-ready` 只表示 validator 和历史 reviewer 已通过，不等于发布批准。迁移 manifest 的 `migration-approved` 是另一套状态，不得写入本 ledger。
 
 ## Review and validator reports
 

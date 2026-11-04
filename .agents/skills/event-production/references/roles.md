@@ -34,7 +34,7 @@ controller 是角色。它必须能向用户提问，并且能启动 worker。Gr
 
 ## Synthesis worker
 
-读取全部 ResearchPacket、现有 event id、现有人物 id、polity vocab 和 parent 关系。输出 canonical id 建议、alias/duplicate 分组、taxonomy、catalog、source coverage 和 evidence-needed 原因。不得自行把候选变成 approved。
+读取全部 ResearchPacket、现有 event id、现有人物 id、polity vocab 和 parent 关系。输出 canonical id 建议、alias/duplicate 分组、taxonomy、catalog、source coverage 和 evidence-needed 原因。不得自行把候选变成 research-approved 或 publish-approved。
 
 ## Draft worker
 

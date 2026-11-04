@@ -49,7 +49,7 @@ interface LegacyEvent {
 }
 
 const GATE_NAMES = ['identity', 'taxonomy', 'evidence', 'references', 'compile', 'catalog'];
-const MIGRATION_STATUSES = new Set(['frozen-inline', 'candidate', 'evidence-needed', 'rejected', 'approved', 'migrated', 'verified']);
+const MIGRATION_STATUSES = new Set(['frozen-inline', 'candidate', 'evidence-needed', 'rejected', 'migration-approved', 'migrated', 'verified']);
 
 function gateState(): Record<string, 'pending'> {
   return Object.fromEntries(GATE_NAMES.map((name) => [name, 'pending'])) as Record<string, 'pending'>;
@@ -188,7 +188,7 @@ export function buildMigrationManifest(pipelineRoot: string, generatedAt = new D
       legacyEndYear: 'number|null',
       candidateId: 'string|null',
       aliases: 'array of legacy ids',
-      status: 'frozen-inline|candidate|evidence-needed|rejected|approved|migrated|verified',
+      status: 'frozen-inline|candidate|evidence-needed|rejected|migration-approved|migrated|verified',
       duplicateGroup: 'string|null',
       evidence: 'array of source pointers',
       review: 'array of reviewer decisions',
@@ -198,7 +198,7 @@ export function buildMigrationManifest(pipelineRoot: string, generatedAt = new D
     duplicateGroups: collected.duplicateGroups,
     entries: collected.rows,
     batchAcceptance: [
-      'Every legacy entry has an entryKey and remains frozen until approved.',
+      'Every legacy entry has an entryKey and remains frozen until migration-approved.',
       'Every migrated entry has one canonical id, recorded aliases, evidence and reviewer decision.',
       'No candidate is accepted without year anchor, sources, taxonomy and resolved references.',
       'npm run events:check and npm run content:check pass, and generated catalogs reconcile with the manifest.',
@@ -304,6 +304,9 @@ export function checkLegacyEventManifest(pipelineRoot: string): string[] {
     .sort((left, right) => left.id.localeCompare(right.id)));
   if (expectedGroups !== actualGroups) problems.push('manifest duplicateGroups 与当前重复 id/名称盘点不一致');
   for (const entry of validEntries) {
+    if (entry.status === 'approved') {
+      problems.push(`${entry.entryKey} 的旧 status approved 必须改为 migration-approved`);
+    }
     if (!MIGRATION_STATUSES.has(entry.status)) problems.push(`${entry.entryKey} 的迁移 status 无效`);
     if (!Array.isArray(entry.aliases) || !Array.isArray(entry.evidence) || !Array.isArray(entry.review)) {
       problems.push(`${entry.entryKey} 的 aliases/evidence/review 必须是数组`);

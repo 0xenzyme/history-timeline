@@ -9,7 +9,7 @@ metadata:
 
 这个 Skill 是事件生产的唯一执行入口。controller 是一个角色，不是某一个宿主的子 agent 类型。它持有 Run、checkpoint、候选 ledger、人工 gate 和 published 状态。
 
-执行本技能时不读取 `harness/` 文档，不运行 agent-harness。`.harness/runs/` 只是本仓库存放 Run 文件的目录。
+执行本技能时不把本地 `.harness/archive/` 中的历史 Harness 文档当作内容规则源，也不运行 agent-harness。`.harness/runs/` 是本机存放 Run 文件和证据的目录。若宿主同时运行一个显式 Goal，Harness 只负责外层状态与证据同步，不改变本 Skill 的内容边界。
 
 ## 使用前读取
 
@@ -74,14 +74,14 @@ worker 把长证据写入 Run 目录。controller 只读取 synthesis、ledger �
 research -> draft -> validate -> publish
 ```
 
-research 阶段按时期和领域并行调用 research worker，再由 synthesis worker 合并。全任务只有一次 research approval。批准后 draft worker 只创建新的 `content/events/<id>.md`，并写 `status: draft`。validate 阶段同时运行确定性命令和独立历史 reviewer。第二次 publish approval 通过后，controller 才能把 draft 改为 `published` 并编译。
+research 阶段按时期和领域并行调用 research worker，再由 synthesis worker 合并。全任务只有一次 research approval。research approval 通过后，draft worker 只创建新的 `content/events/<id>.md`，并写 `status: draft`。validate 阶段同时运行确定性命令和独立历史 reviewer。第二次 publish approval 通过后，controller 才能把 draft 改为 `published` 并编译。
 
 某个 stage 的暂停条件、以及外部文件或命令结果对不上时如何停止，写在 `references/evidence.md`。
 
 ## 角色边界
 
 - `research`：Web-first 检索，回到 `raw/唐` 等本地原典核对；只返回带 URL、访问时间、claim 和不确定性的 `ResearchPacket`。
-- `synthesis`：去重、canonical id、taxonomy、parent 和证据缺口；不能把未核实候选标为 approved。
+- `synthesis`：去重、canonical id、taxonomy、parent 和证据缺口；不能把未核实候选标为 research-approved。
 - `draft`：只创建不存在的事件文件；不得覆盖文件、创建人物、修改迁移 manifest 或改变 published。
 - `validator`：运行 `npm run events:check`、`npm run content:check`、`npm run build` 和 publish preview；只返回报告。
 - `historian-reviewer`：只读审核收录闸门、史料冲突、分类、重复和人物引用；不改文件、不接受 gate。
@@ -94,8 +94,10 @@ research 阶段按时期和领域并行调用 research worker，再由 synthesis
 
 新的事件生产 ledger 与旧的 258 条迁移 manifest 分离。ledger 同时记录：
 
-- `decision`：`candidate`、`evidence-needed`、`rejected`、`held`、`approved`；
+- `decision`：`candidate`、`evidence-needed`、`rejected`、`held`、`research-approved`、`publish-approved`；
 - `artifact`：`none`、`draft`、`publish-ready`、`published`。
+
+`research-approved` 只允许创建 draft；`publish-approved` 只允许把 draft 改为 published。不得用单独一个 `approved` 表示任一阶段。迁移 manifest 使用单独的 `migration-approved`；它不属于本条生产 ledger。
 
 未知人物只进入 `unresolvedPeople`，不得猜 id 或自动启动人物生产线。已有 event id、alias、parent 或 source 冲突时暂停并记录原因。
 

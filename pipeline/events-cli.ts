@@ -159,7 +159,7 @@ function commandNew(id: string | undefined): void {
   writeFileSync(target, formatEventMarkdown(event));
   rewriteEventIndex();
   console.log(`已写 content/${EVENT_DIR}/${id}.md`);
-  console.log('这是 draft 会战骨架，不会编译上轴。改 name、place、belligerents 和出处，完成后将 status 改为 published；换 type 时同步改 scale 与必填字段。模板里的占位不能发布。');
+  console.log('这是 draft 会战骨架，不会编译上轴。改 name、place、belligerents 和出处，通过 publish gate 后再将 status 改为 published；换 type 时同步改 scale 与必填字段。模板里的占位不能发布。');
 }
 
 const command = process.argv[2];

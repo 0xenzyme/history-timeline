@@ -1,16 +1,31 @@
 # Repository Guidelines
 
+## Rule Precedence
+
+Read the rules in this order. A lower layer cannot weaken a higher layer:
+
+1. **User and system instructions** override this repository.
+2. **This file** defines agent behavior, repository boundaries, validation, and release scope.
+3. **Domain rules** define content semantics:
+   - People: `pipeline/PLAYBOOK.md`.
+   - Events: `docs/事件线规则.md`.
+   - Warning triage: `docs/内容质量.md`, under the two domain guides.
+   - For events, `docs/事件线规则.md` wins over `pipeline/PLAYBOOK.md`.
+4. **Execution contracts** define how a task runs. `.agents/skills/event-production/SKILL.md` may add process gates, but it cannot redefine event fields, admission rules, polity semantics, or catalog membership.
+5. **Durable design** lives in `docs/` and `docs/decisions/`. Harness execution state lives in local `.harness/` storage and is ignored by Git: status, tasks, goals, packets, intake, mental models, checkpoints, and run evidence. It is not a content rulebook or a release artifact.
+6. **Machine gates** in `pipeline/schema/` and `pipeline/lint.ts` enforce layers 2-3. If a gate and a domain rule disagree, treat it as a defect and fix the gate or the rule in the same change.
+
 ## Project Structure
 
 - `src/` contains the Vite + TypeScript application. `src/main.ts` only boots it. `src/app/` holds the canvas timeline: `model.ts` loads the entity library, `layout.ts` packs rows, `app.ts` draws and wires interaction, `cards.ts` renders person and event cards, `skins.ts` maps the canvas color tokens onto the skin variables in `src/styles.css`, `exporter.ts` writes PNG and SVG.
 - Data access stays in `src/types.ts`, `src/contract.ts`, `src/loader.ts` and `src/routing.ts`; the renderer never reads `public/data` directly.
 - `pipeline/` compiles content. People live in `content/<topic>/<id>.md`, with an index at `content/<topic>.md`. One person has one file. People already in `content/qin/` stay there, including those also listed in Zhanguo or Han. A shared person migrated later lives in the latest topic named by `polity` when that id is one of their topics; otherwise in the earliest topic, skipping `rujia` when another topic exists. Topic composition stays in `pipeline/topics/<id>/topic.json`. Forty-four legacy records remain `pipeline/registry/people/*.json` because an explicit profile would fail: they lack `polity`, or an `approx` year has no note. Do not invent those fields to force the move.
-- Events are the second entity type, alongside people. They live in `content/events/<id>.md`, with an index at `content/events.md` and a skeleton at `content/_template-event.md`. One event has one file, and the id is global — not prefixed by topic. One entity library feeds two time-ordered catalogs, `military` and `history`, which are filters over it rather than separate entities. Scope is -2070 to 1949. Rules live in `docs/事件线规则.md`; it wins over `PLAYBOOK.md` (which only covers people).
+- Events are the second entity type, alongside people. They live in `content/events/<id>.md`, with an index at `content/events.md` and a skeleton at `content/_template-event.md`. One event has one file, and the id is global — not prefixed by topic. One entity library feeds two time-ordered catalogs, `military` and `history`, which are filters over it rather than separate entities. `catalogs` decides membership; `importance` only sets display priority. Scope is -2070 to 1949. Rules live in `docs/事件线规则.md`; it wins over `PLAYBOOK.md`, which mainly covers people and only contains the event entry.
 - The three lines share one canvas engine. The skin palette is written down once, as custom properties in `src/styles.css`: the DOM chrome reads them directly, and the canvas reads the same values back through the token-to-variable map in `src/app/skins.ts`, so a chart cannot drift away from its frame. Colors with no CSS counterpart stay as literals where they are defined — the six event-type colors and each skin's ribbon and footer bands in `src/app/skins.ts`, and the lane colors in `pipeline/topics/<id>/topic.json`. A palette token whose variable is missing throws when a skin is applied instead of drawing blank.
 - `public/data/` contains generated runtime JSON and must not be edited by hand.
 - `cards/` contains research drafts and source-oriented person notes; these are not compiled directly into the site.
 - `pipeline/PLAYBOOK.md` is the content style guide: 收录席位、生卒 accuracy、关系、章节文案、polity 归属口径。Editing anyone's registry file means reading it first.
-- `docs/` contains the product and data-model design specification. `docs/内容质量.md` records the warning triage policy.
+- `docs/` contains the product and data-model design specification. `docs/内容质量.md` records the warning triage policy. `docs/decisions/` records accepted design decisions migrated out of the local harness. Files under `docs/review/` are historical snapshots; read `docs/review/README.md` before using them as rules.
 - `README.md` and `CONTRIBUTING.md` are the public contributor entry points. Code is MIT-licensed; original historical copy and structured historical content use CC BY-SA 4.0 as described in `LICENSE-CONTENT.md`. Third-party material keeps its original terms.
 
 ## Build, Test, and Development
@@ -61,4 +76,4 @@ Keep each person’s canonical life dates and sources in one source file. Use si
 
 Content production has two passes and one compile command. The brief pass puts a person on the axis: add them to `pipeline/topics/<id>/candidates.json`, then write `content/<topic>/<id>.md` (`profile: brief`, identity, life dates, accuracy, sources with `kind`, polity) and a topic lane. The 44 people still in `pipeline/registry/people/` stay JSON until their `polity` or approx-year note is filled from sources. The full pass adds `bio` (the Markdown body, or the JSON field for a legacy file) and relations, then sets `profile: full`. Run `npm run people:format` so new Markdown matches `content/_template.md` and `content/<topic>.md` lists the directory. There is no headcount cap for a topic, a seat, or a chapter. Include everyone who holds a seat and has a citable year anchor; when sources disagree, say so in the birth or death note. `docs/seats/` is an archive of old trials, not the intake queue. `cards/` are research drafts and are not compiled.
 
-Dynasty/polity is **not** derived from life dates: `pipeline/vocab/polities.json` has no year ranges and the compiler copies the registry value verbatim, so a wrong attribution passes every check. Read `pipeline/PLAYBOOK.md` (《polity 的归属口径》) before filling it. Polity records narrative affiliation, not birth era — a founder's pre-dynasty years take the later dynasty id (刘邦 → `han`, 铁木真 → `yuan`, 努尔哈赤 → `qing`), and multi-value `polity` is reserved for people who occupy two distinct threads (朱元璋 → `["yuan","ming"]`). Cross-dynasty presence is expressed by one registry entry appearing in several `topic.json` files; topic overlays cannot override `polity` or life dates.
+Dynasty/polity is **not** derived from life dates: `pipeline/vocab/polities.json` has no year ranges and the compiler copies the registry value verbatim, so a wrong attribution passes every check. Read `pipeline/PLAYBOOK.md` (《polity 的归属口径》) before filling it. Polity records narrative affiliation, not birth era — a founder's pre-dynasty years take the later dynasty id (刘邦 → `han`, 铁木真 → `yuan`, 努尔哈赤 → `qing`), and multi-value `polity` is reserved for people who occupy two distinct threads (朱元璋 → `["yuan","ming"]`). Cross-dynasty presence is expressed by one registry entry appearing in several `topic.json` files; topic overlays cannot override `polity` or life dates. Event-person polity checks use the documented `pipeline/vocab/polity-compat.json`; do not add a second compatibility list in code.

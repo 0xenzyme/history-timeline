@@ -13,12 +13,9 @@ Thumbs.db
 # 本地史料工作区（维基文库抽取、dump、检索脚本），不进仓库
 raw/
 
-# 本地工具产物
-.harness/*
-!.harness/config.json
-!.harness/runs/
-.harness/runs/*
-!.harness/runs/.gitkeep
+# 本地 harness 运行态与证据，不进入版本控制
+.harness/
+harness/
 .qoder/
 .zcodeignore
 .tmp-window-check.mjs
