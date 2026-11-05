@@ -1,0 +1,18 @@
+---
+id: chen-zhen
+name: 陈轸
+display: 陈轸
+profile: brief
+gender: male
+polity:
+  - qin
+  - chu
+birthAccuracy: unknown
+death: -311
+deathAccuracy: approx
+deathNote: 生卒不详，取前311年为活动年（非寿数）。据史记·张仪列传（raw/先秦-西汉/史記/卷070-張儀列傳.md:122）「陳軫者，游說之士。與張儀俱事秦惠王」。同节欲去秦之楚。本库秦惠文王前311年卒，取此为下限。
+sources:
+  - work: 史记
+    part: 张仪列传
+    kind: classic
+---

@@ -1,0 +1,19 @@
+---
+id: zhao-she
+name: 赵奢
+display: 赵奢
+profile: brief
+gender: male
+polity:
+  - zhao
+birthAccuracy: unknown
+death: -270
+deathAccuracy: approx
+deathNote: 生卒不详，取前270年为活动年（非寿数）。据史记·廉颇蔺相如列传（raw/先秦-西汉/史記/卷081-廉頗藺相如列傳.md:29）「其明年，趙奢破秦軍閼與下」。阏与之年。列传称长平时赵奢已死，卒年在此年至前260之间，台账取前270，不另取一个卒年。
+aliases:
+  - 马服君
+sources:
+  - work: 史记
+    part: 廉颇蔺相如列传
+    kind: classic
+---

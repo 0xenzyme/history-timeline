@@ -1,0 +1,17 @@
+---
+id: qi-aigong
+name: 齐哀公
+display: 齐哀公
+profile: brief
+gender: male
+polity:
+  - qi
+birthAccuracy: unknown
+death: -858
+deathAccuracy: approx
+deathNote: 卒年不详。今本竹书：周夷王三年「王致諸侯，烹齊哀公於鼎」（周纪:306）。周厉王元年戊申，厉王十二年「王亡奔彘」当共和元年（前 841，周纪:336），上推夷王元年当前 860，夷王三年当前 858。世次推算，非精确年。
+sources:
+  - work: 今本竹书纪年
+    part: 周纪
+    kind: classic
+---

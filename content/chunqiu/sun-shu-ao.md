@@ -1,0 +1,17 @@
+---
+id: sun-shu-ao
+name: 孙叔敖
+display: 孙叔敖
+profile: brief
+gender: male
+polity:
+  - chu
+birthAccuracy: unknown
+death: -597
+deathAccuracy: approx
+deathNote: 卒年不详，取前597年为活动下限（非寿数）。依据春秋左传正义·宣公十二年「蒍敖為宰，擇楚國之令典」（raw/春秋/春秋左傳正義/卷23.md:82）。
+sources:
+  - work: 春秋左传正义
+    part: 宣公十二年
+    kind: classic
+---

@@ -1,0 +1,20 @@
+---
+id: lv-bushu
+name: 吕步舒
+display: 吕步舒
+profile: brief
+gender: male
+polity:
+  - han
+birthAccuracy: unknown
+death: -122
+deathAccuracy: approx
+deathNote: 卒年不详。史记·儒林列传「步舒至長史，持節使決淮南獄」（raw/先秦-西汉/史記/卷121-儒林列傳.md:68）。汉书·武帝纪元狩元年十一月「淮南王安、衡山王賜謀反，誅」（raw/西汉/漢書/卷006-武帝紀.md:173），上一条为「元狩元年冬十月」（同卷:171）。淮南王刘安卒年本库系前122。取此年为决狱活动年，非寿数。
+sources:
+  - work: 史记
+    part: 儒林列传
+    kind: classic
+  - work: 汉书
+    part: 武帝纪
+    kind: classic
+---

@@ -1,0 +1,17 @@
+---
+id: fu-jiezi
+name: 傅介子
+display: 傅介子
+profile: brief
+gender: male
+polity:
+  - han
+birthAccuracy: unknown
+death: -77
+deathAccuracy: approx
+deathNote: 《汉书·西域传上》元凤四年（前77）「傅介子往刺其王……斬王嘗歸首」；以该年为活动下限，非寿数，卒年无载。（原文：raw/西汉/漢書/卷096上-西域傳.md:45）
+sources:
+  - work: 汉书
+    part: 西域传上·卷096上
+    kind: classic
+---

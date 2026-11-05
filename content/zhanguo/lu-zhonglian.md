@@ -1,0 +1,19 @@
+---
+id: lu-zhonglian
+name: 鲁仲连
+display: 鲁仲连
+profile: brief
+gender: male
+polity:
+  - qi
+birth: -259
+birthAccuracy: approx
+birthNote: 生年不详。前259是围邯郸时见新垣衍的活动年（非寿数），不是生年。据史记·鲁仲连邹阳列传「魯連見新垣衍而無言」（raw/先秦-西汉/史記/卷083-魯仲連鄒陽列傳.md:25）。
+death: -250
+deathAccuracy: approx
+deathNote: 卒年不详。同传「其後二十餘年」遗燕将书（raw/先秦-西汉/史記/卷083-魯仲連鄒陽列傳.md:37），后「逃隱於海上」（同卷:45），无卒岁。台账取前250为活动下限（非寿数）。「二十餘年」并不自行得出前250，不另改。
+sources:
+  - work: 史记
+    part: 鲁仲连邹阳列传
+    kind: classic
+---

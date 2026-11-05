@@ -1,0 +1,17 @@
+---
+id: shi-hu-625
+name: 士縠
+display: 士縠
+profile: brief
+gender: male
+polity:
+  - jin-guo
+birthAccuracy: unknown
+death: -619
+deathAccuracy: approx
+deathNote: 卒年不详，取前619年为活动下限（非寿数）。依据春秋左传正义·文公二年「晉司空士縠盟於垂隴」（raw/春秋/春秋左傳正義/卷17.md:138）。
+sources:
+  - work: 春秋左传正义
+    part: 文公二年
+    kind: classic
+---

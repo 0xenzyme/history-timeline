@@ -1,0 +1,17 @@
+---
+id: zi-geng
+name: 子庚
+display: 子庚
+profile: brief
+gender: male
+polity:
+  - chu
+birthAccuracy: unknown
+death: -552
+deathAccuracy: exact
+deathNote: 春秋左传正义·襄公二十一年（前552）「夏，楚子庚卒，楚子使薳子馮為令尹」（raw/春秋/春秋左傳正義/卷34.md:180）。
+sources:
+  - work: 春秋左传正义
+    part: 襄公二十一年
+    kind: classic
+---

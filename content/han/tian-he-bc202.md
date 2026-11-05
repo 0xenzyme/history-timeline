@@ -1,0 +1,22 @@
+---
+id: tian-he-bc202
+name: 田何
+display: 田何
+profile: brief
+gender: male
+polity:
+  - han
+birthAccuracy: unknown
+death: -202
+deathAccuracy: approx
+deathNote: 卒年不详。史记·儒林列传「六世至齊人田何，字子莊，而漢興」（raw/先秦-西汉/史記/卷121-儒林列傳.md:56）；汉书·儒林传「漢興，田何以齊田徙杜陵，號杜田生」（raw/西汉/漢書/卷088-儒林傳.md:33）。汉兴取高祖五年并天下称帝，本库西汉建立系前202。活动年，非寿数。
+aliases:
+  - 田子庄
+sources:
+  - work: 史记
+    part: 儒林列传
+    kind: classic
+  - work: 汉书
+    part: 儒林传
+    kind: classic
+---

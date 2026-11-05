@@ -1,0 +1,17 @@
+---
+id: xie-ye
+name: 泄冶
+display: 泄冶
+profile: brief
+gender: male
+polity:
+  - chen
+birthAccuracy: unknown
+death: -600
+deathAccuracy: exact
+deathNote: 春秋左传正义·宣公九年（前600）「陳殺其大夫洩冶。」（raw/春秋/春秋左傳正義/卷22.md:155）。
+sources:
+  - work: 春秋左传正义
+    part: 宣公九年
+    kind: classic
+---

@@ -1,0 +1,17 @@
+---
+id: mao-sui
+name: 毛遂
+display: 毛遂
+profile: brief
+gender: male
+polity:
+  - zhao
+birthAccuracy: unknown
+death: -259
+deathAccuracy: approx
+deathNote: 生卒不详，取前259年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:23）「門下有毛遂者，前，自贊於平原君」。秦围邯郸、平原君合从于楚。此句无绝对年，年份从台账。
+sources:
+  - work: 史记
+    part: 平原君虞卿列传
+    kind: classic
+---

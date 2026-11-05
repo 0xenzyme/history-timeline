@@ -1,0 +1,17 @@
+---
+id: jia-kui
+name: 贾逵
+display: 贾逵
+profile: brief
+gender: male
+polity:
+  - han
+birthAccuracy: unknown
+death: 101
+deathAccuracy: approx
+deathNote: 传云「永元十三年卒，时年七十二」raw/东汉/後漢書/卷36.md:138；永元十三年当 101，台账取 approx。
+sources:
+  - work: 后汉书
+    part: 郑范陈贾张列传
+    kind: classic
+---

@@ -1,0 +1,17 @@
+---
+id: nan-zi
+name: 南子
+display: 南子
+profile: brief
+gender: female
+polity:
+  - wei-guo
+birthAccuracy: unknown
+death: -496
+deathAccuracy: approx
+deathNote: 卒年不详，取前496年为活动下限（非寿数）。依据春秋左传正义·定公十四年「衛侯為夫人南子召宋朝」（raw/春秋/春秋左傳正義/卷56.md:217）。
+sources:
+  - work: 春秋左传正义
+    part: 定公十四年
+    kind: classic
+---

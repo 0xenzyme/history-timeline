@@ -1,0 +1,17 @@
+---
+id: cai-ze
+name: 蔡泽
+display: 蔡泽
+profile: brief
+gender: male
+polity:
+  - qin
+birthAccuracy: unknown
+death: -232
+deathAccuracy: approx
+deathNote: 生卒不详，取前232年为活动年（非寿数）。据史记·范雎蔡泽列传（raw/先秦-西汉/史記/卷079-范雎蔡澤列傳.md:87）「卒事始皇帝，為秦使於燕」。「卒事」是终于奉事，不是卒年。
+sources:
+  - work: 史记
+    part: 范雎蔡泽列传
+    kind: classic
+---

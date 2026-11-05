@@ -1,0 +1,24 @@
+---
+id: shen-gong
+name: 申公
+display: 申公
+profile: brief
+gender: male
+polity:
+  - han
+birth: -195
+birthAccuracy: approx
+birthNote: 生年不详。史记·儒林列传「高祖過魯，申公以弟子從師入見高祖于魯南宮」（raw/先秦-西汉/史記/卷121-儒林列傳.md:29）。汉书·高帝纪十二年十一月「行自淮南還。過魯，以大牢祠孔子」（raw/西汉/漢書/卷001-高帝紀.md:244）。高祖崩年本库系前195，此过鲁在十二年。取此年为可见活动上限，非寿数。
+death: -140
+deathAccuracy: approx
+deathNote: 卒年不详。同传「今上初即位……天子使使束帛加璧安車駟馬迎申公……申公亦疾免以歸，數年卒」（raw/先秦-西汉/史記/卷121-儒林列傳.md:31）。今上初即位取建元元年，本库注记为前140。「数年卒」无年数，不另取前135。此为被征之年，非寿数。
+aliases:
+  - 申培公
+sources:
+  - work: 史记
+    part: 儒林列传
+    kind: classic
+  - work: 汉书
+    part: 高帝纪
+    kind: classic
+---

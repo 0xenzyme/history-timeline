@@ -1,0 +1,17 @@
+---
+id: zi-nan
+name: 子南
+display: 子南
+profile: brief
+gender: male
+polity:
+  - chu
+birthAccuracy: unknown
+death: -551
+deathAccuracy: exact
+deathNote: 春秋左传正义·襄公二十二年（前551）「王遂殺子南於朝，轘觀起於四竟」（raw/春秋/春秋左傳正義/卷35.md:60）。
+sources:
+  - work: 春秋左传正义
+    part: 襄公二十二年
+    kind: classic
+---

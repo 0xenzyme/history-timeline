@@ -1,0 +1,17 @@
+---
+id: cao-xiaobo
+name: 曹孝伯
+display: 曹孝伯
+profile: brief
+gender: male
+polity:
+  - cao-guo
+birthAccuracy: unknown
+death: -864
+deathAccuracy: approx
+deathNote: 卒年不详。史记：宫伯侯卒，子孝伯云立；孝伯云卒，子夷伯喜立（卷035:76）。夷伯二十三年当周厉王奔彘之年（前 841，卷035:79）。按世次上推，孝伯卒约当前 864，非精确年。
+sources:
+  - work: 史记
+    part: 管蔡世家
+    kind: classic
+---

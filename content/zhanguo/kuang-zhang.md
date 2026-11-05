@@ -1,0 +1,19 @@
+---
+id: kuang-zhang
+name: 匡章
+display: 匡章
+profile: brief
+gender: male
+polity:
+  - qi
+birthAccuracy: unknown
+death: -314
+deathAccuracy: approx
+deathNote: 生卒不详，取前314年为活动年（非寿数）。据史记·燕召公世家（raw/先秦-西汉/史記/卷034-燕召公世家.md:78）「王因令章子將五都之兵，以因北地之衆以伐燕」。史记作章子。
+aliases:
+  - 章子
+sources:
+  - work: 史记
+    part: 燕召公世家
+    kind: classic
+---

@@ -1,0 +1,17 @@
+---
+id: fei-wu-ji
+name: 费无极
+display: 费无极
+profile: brief
+gender: male
+polity:
+  - chu
+birthAccuracy: unknown
+death: -515
+deathAccuracy: approx
+deathNote: 卒年不详，取前515年为活动下限（非寿数）。依据春秋左传正义·昭公二十七年「子常殺費無極與鄢將師」（raw/春秋/春秋左傳正義/卷52.md:251）。
+sources:
+  - work: 春秋左传正义
+    part: 昭公二十七年
+    kind: classic
+---

@@ -1,0 +1,20 @@
+---
+id: kong-anguo
+name: 孔安国
+display: 孔安国
+profile: brief
+gender: male
+polity:
+  - han
+birthAccuracy: unknown
+death: -91
+deathAccuracy: approx
+deathNote: 卒年不详。史记·孔子世家「安國為今皇帝博士，至臨淮太守，蚤卒」（raw/先秦-西汉/史記/卷047-孔子世家.md:190）；汉书·儒林传「遭巫蠱，未立於學官」（raw/西汉/漢書/卷088-儒林傳.md:73）。巫蛊之祸本库系征和二年前91。取此年为可见活动下限，非寿数。刘歆移书另有「天汉之后」，本库未系天汉绝对年，不取无出处的前130。
+sources:
+  - work: 史记
+    part: 孔子世家
+    kind: classic
+  - work: 汉书
+    part: 儒林传
+    kind: classic
+---

@@ -1,0 +1,17 @@
+---
+id: xi-wan
+name: 郤宛
+display: 郤宛
+profile: brief
+gender: male
+polity:
+  - chu
+birthAccuracy: unknown
+death: -515
+deathAccuracy: exact
+deathNote: 春秋左传正义·昭公二十七年（前515）「楚殺其大夫郤宛」（raw/春秋/春秋左傳正義/卷52.md:167）。
+sources:
+  - work: 春秋左传正义
+    part: 昭公二十七年
+    kind: classic
+---

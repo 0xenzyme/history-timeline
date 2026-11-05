@@ -1,0 +1,17 @@
+---
+id: qiguo-mingong
+name: 杞湣公
+display: 杞湣公
+profile: brief
+gender: male
+polity:
+  - qi-guo
+birthAccuracy: unknown
+death: -478
+deathAccuracy: exact
+deathNote: 史记·陈杞世家（前478）「十六年，湣公弟閼路弒湣公代立」（raw/先秦-西汉/史記/卷036-陳杞世家.md:72）。同段「湣公十五年，楚惠王滅陳」。陈世家谓灭陈之岁孔子卒，本库孔子卒年前479，故十六年当为前478。台账作前477，与此差一年，不取。
+sources:
+  - work: 史记
+    part: 陈杞世家
+    kind: classic
+---

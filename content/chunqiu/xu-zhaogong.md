@@ -1,0 +1,17 @@
+---
+id: xu-zhaogong
+name: 许昭公
+display: 许昭公
+profile: brief
+gender: male
+polity:
+  - xu-guo
+birthAccuracy: unknown
+death: -592
+deathAccuracy: exact
+deathNote: 春秋左传·宣公十七年（前592）「夏，葬許昭公」（raw/春秋/春秋左傳正義/卷24.md:217）。同卷宣公十七年经：「十有七年，春，王正月。庚子，许男锡我卒」（raw/春秋/春秋左传正义/卷24.md:213），夏葬许昭公。卒、葬同在宣公十七年，取前592。台账只引葬文。
+sources:
+  - work: 春秋左传
+    part: 宣公十七年
+    kind: classic
+---

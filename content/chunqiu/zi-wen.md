@@ -1,0 +1,17 @@
+---
+id: zi-wen
+name: 子文
+display: 子文
+profile: brief
+gender: male
+polity:
+  - chu
+birthAccuracy: unknown
+death: -664
+deathAccuracy: approx
+deathNote: 卒年不详，取前664年为活动下限（非寿数）。依据春秋左传正义·庄公三十年「鬥穀於菟為令尹，自毀其家，以紓楚國之難」（raw/春秋/春秋左傳正義/卷09.md:334）。
+sources:
+  - work: 春秋左传正义
+    part: 庄公三十年
+    kind: classic
+---

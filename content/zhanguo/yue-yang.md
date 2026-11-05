@@ -1,0 +1,17 @@
+---
+id: yue-yang
+name: 乐羊
+display: 乐羊
+profile: brief
+gender: male
+polity:
+  - wei-zhanguo
+birthAccuracy: unknown
+death: -408
+deathAccuracy: approx
+deathNote: 生卒不详，取前408年为活动年（非寿数）。据史记·乐毅列传（raw/先秦-西汉/史記/卷080-樂毅列傳.md:17）「樂羊為魏文侯將，伐取中山」。同条言乐羊死而葬灵寿，无年。
+sources:
+  - work: 史记
+    part: 乐毅列传
+    kind: classic
+---

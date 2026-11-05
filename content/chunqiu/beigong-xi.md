@@ -1,0 +1,17 @@
+---
+id: beigong-xi
+name: 北宫喜
+display: 北宫喜
+profile: brief
+gender: male
+polity:
+  - wei-guo
+birthAccuracy: unknown
+death: -515
+deathAccuracy: approx
+deathNote: 卒年不详，取前515年为活动下限（非寿数）。依据春秋左传正义·昭公二十七年「秋，晉士鞅、宋樂祁犁、衛北宮喜」（raw/春秋/春秋左傳正義/卷52.md:171）。
+sources:
+  - work: 春秋左传正义
+    part: 昭公二十七年
+    kind: classic
+---
