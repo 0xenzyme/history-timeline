@@ -43,6 +43,10 @@ npm run events:check   # Check event Markdown, the index, and the same event rul
 npm run content        # Compile registry JSON and content Markdown into public/data/
 npm run content:check  # Validate pipeline output without rewriting files
 npm run build          # Type-check app and pipeline, validate content, and build dist/
+npm test               # Run node:test suites (routing, contract, layout, pipeline smoke)
+npm run format         # Rewrite code and config with Prettier
+npm run format:check   # Verify formatting without rewriting
+npm run hooks:install  # Point core.hooksPath at .githooks (local only)
 npm run preview        # Serve the production build locally
 ```
 
@@ -64,7 +68,7 @@ Use TypeScript with two-space indentation, semicolons, single quotes, and explic
 
 ## Testing and Validation
 
-There is no separate test framework. `npm run content:check` is the content/schema validation gate, and `npm run build` is the required full verification. For UI changes, run the dev server and manually check deep links, line and topic switching, chapter buttons, zoom/pan, the event strip, search, person and event cards, the lane panel, and PNG/SVG export.
+`npm test` runs the `node:test` suites in `tests/` under `tsx`; it covers routing, the runtime contract validators, layout packing, and one pipeline smoke test over the real content. `npm run format:check` verifies Prettier formatting; `.prettierignore` keeps `content/`, `docs/`, generated data, and local research directories out of scope. `npm run content:check` is the content/schema validation gate, and `npm run build` is the required full verification. For UI changes, run the dev server and manually check deep links, line and topic switching, chapter buttons, zoom/pan, the event strip, search, person and event cards, the lane panel, and PNG/SVG export.
 
 ## Commits and Pull Requests
 

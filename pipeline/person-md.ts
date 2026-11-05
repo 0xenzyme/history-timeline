@@ -220,7 +220,10 @@ export function formatTopicIndex(topicId: string, title: string, rows: TopicInde
     '',
     '| id | 姓名 | 显示名 | profile |',
     '| --- | --- | --- | --- |',
-    ...rows.map((row) => `| [${row.id}](${topicId}/${row.id}.md) | ${tableCell(row.name)} | ${tableCell(row.display)} | ${row.profile} |`),
+    ...rows.map(
+      (row) =>
+        `| [${row.id}](${topicId}/${row.id}.md) | ${tableCell(row.name)} | ${tableCell(row.display)} | ${row.profile} |`,
+    ),
     '',
   ];
   return lines.join('\n');
@@ -296,15 +299,23 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
       isFile: entry.isFile(),
     }));
   } catch {
-    return [{
-      path: 'content',
-      messages: [{ level: 'error', path: 'content', message: '目录不存在' }],
-    }];
+    return [
+      {
+        path: 'content',
+        messages: [{ level: 'error', path: 'content', message: '目录不存在' }],
+      },
+    ];
   }
 
   const topicIds = new Set(topics.map((topic) => topic.id));
   const files = readTemplateFiles(contentRoot);
-  const rootMarkdown = new Set(['README.md', '_template.md', '_template-full.md', EVENT_INDEX_NAME, EVENT_TEMPLATE_NAME]);
+  const rootMarkdown = new Set([
+    'README.md',
+    '_template.md',
+    '_template-full.md',
+    EVENT_INDEX_NAME,
+    EVENT_TEMPLATE_NAME,
+  ]);
 
   for (const entry of entries) {
     if (entry.isDirectory) {
@@ -331,7 +342,10 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
     const hasIndex = existsSync(join(contentRoot, `${topic.id}.md`));
     if (!hasDirectory) {
       if (hasIndex) {
-        files.push({ path: indexPath, messages: [{ level: 'error', path: indexPath, message: '有索引但没有人物目录' }] });
+        files.push({
+          path: indexPath,
+          messages: [{ level: 'error', path: indexPath, message: '有索引但没有人物目录' }],
+        });
       }
       continue;
     }
@@ -340,17 +354,26 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
     files.push(...people);
     const rows = topicIndexRows(topic.people, people);
     if (!rows) {
-      files.push({ path: indexPath, messages: [{ level: 'error', path: indexPath, message: '人物文件未通过，索引暂不核对' }] });
+      files.push({
+        path: indexPath,
+        messages: [{ level: 'error', path: indexPath, message: '人物文件未通过，索引暂不核对' }],
+      });
       continue;
     }
     const expected = formatTopicIndex(topic.id, topic.title, rows);
     if (!hasIndex) {
-      files.push({ path: indexPath, messages: [{ level: 'error', path: indexPath, message: '缺少索引，运行 npm run people:format' }] });
+      files.push({
+        path: indexPath,
+        messages: [{ level: 'error', path: indexPath, message: '缺少索引，运行 npm run people:format' }],
+      });
       continue;
     }
     const actual = readFileSync(join(contentRoot, `${topic.id}.md`), 'utf8').replace(/\r\n/g, '\n');
     if (actual !== expected) {
-      files.push({ path: indexPath, messages: [{ level: 'error', path: indexPath, message: '索引与人物文件不一致，运行 npm run people:format' }] });
+      files.push({
+        path: indexPath,
+        messages: [{ level: 'error', path: indexPath, message: '索引与人物文件不一致，运行 npm run people:format' }],
+      });
     }
   }
   return files;

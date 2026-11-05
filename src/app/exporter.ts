@@ -4,12 +4,7 @@
  * SVG 目前把同一张位图内嵌进 <svg><image>，保证「导出 SVG」这条路径可用；矢量重绘待做。
  */
 
-export type CanvasRenderer = (
-  ctx: CanvasRenderingContext2D,
-  width: number,
-  height: number,
-  scale: number,
-) => void;
+export type CanvasRenderer = (ctx: CanvasRenderingContext2D, width: number, height: number, scale: number) => void;
 
 export interface ExportOptions {
   render: CanvasRenderer;
@@ -35,12 +30,13 @@ export async function exportView(options: ExportOptions): Promise<void> {
 
   if (options.format === 'svg') {
     const href = canvas.toDataURL('image/png');
-    const markup = `<?xml version="1.0" encoding="UTF-8"?>\n`
-      + `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" `
-      + `width="${options.width}" height="${options.height}" viewBox="0 0 ${options.width} ${options.height}">`
-      + `<rect width="${options.width}" height="${options.height}" fill="${options.paper}"/>`
-      + `<image width="${options.width}" height="${options.height}" href="${href}" xlink:href="${href}"/>`
-      + `</svg>`;
+    const markup =
+      `<?xml version="1.0" encoding="UTF-8"?>\n` +
+      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ` +
+      `width="${options.width}" height="${options.height}" viewBox="0 0 ${options.width} ${options.height}">` +
+      `<rect width="${options.width}" height="${options.height}" fill="${options.paper}"/>` +
+      `<image width="${options.width}" height="${options.height}" href="${href}" xlink:href="${href}"/>` +
+      `</svg>`;
     download(new Blob([markup], { type: 'image/svg+xml;charset=utf-8' }), `${options.basename}.svg`);
     return;
   }

@@ -58,9 +58,14 @@ export function parseHash(hash: string, catalog: Catalog): Route {
     // 新格式把事件 id 作为稳定主键，segment 仅作为旧链接兼容字段。
     if (parts[1] === 'event' && parts[2]) {
       return {
-        axis: 'time', topicId: empty.topicId, viewId: null,
-        lineId: parts[0] as LineId, segmentId: null, eventId: parts[2],
-        unknownTopic: null, canonicalize: false,
+        axis: 'time',
+        topicId: empty.topicId,
+        viewId: null,
+        lineId: parts[0] as LineId,
+        segmentId: null,
+        eventId: parts[2],
+        unknownTopic: null,
+        canonicalize: false,
       };
     }
     return {
@@ -121,12 +126,7 @@ export function writeHash(topicId: string, viewId: string, mode: HistoryMode): v
   commit(formatHash(topicId, viewId), mode);
 }
 
-export function writeLineHash(
-  lineId: LineId,
-  segmentId: string,
-  eventId: string | null,
-  mode: HistoryMode,
-): void {
+export function writeLineHash(lineId: LineId, segmentId: string, eventId: string | null, mode: HistoryMode): void {
   commit(formatLineHash(lineId, segmentId, eventId), mode);
 }
 

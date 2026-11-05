@@ -40,6 +40,16 @@ npm run preview
 
 `npm run build` 会依次执行应用与流水线的 TypeScript 检查、人物校验、事件校验、内容校验和 Vite 构建，输出到 `dist/`。
 
+质量门禁：
+
+```bash
+npm test            # node:test 测试（routing / contract / layout / 流水线冒烟）
+npm run format:check  # Prettier 格式校验
+npm run hooks:install  # 可选：把 .githooks 设为提交前校验
+```
+
+部署步骤见 [部署说明](docs/部署.md)。仓库不含平台配置，`dist/` 可直接上传到任意静态托管。
+
 ## 内容维护
 
 人物源文件位于 `content/<topic>/<id>.md`，事件源文件位于 `content/events/<id>.md`。运行时使用的前端数据由流水线生成，不要手改 `public/data/`。

@@ -49,7 +49,15 @@ interface LegacyEvent {
 }
 
 const GATE_NAMES = ['identity', 'taxonomy', 'evidence', 'references', 'compile', 'catalog'];
-const MIGRATION_STATUSES = new Set(['frozen-inline', 'candidate', 'evidence-needed', 'rejected', 'migration-approved', 'migrated', 'verified']);
+const MIGRATION_STATUSES = new Set([
+  'frozen-inline',
+  'candidate',
+  'evidence-needed',
+  'rejected',
+  'migration-approved',
+  'migrated',
+  'verified',
+]);
 
 function gateState(): Record<string, 'pending'> {
   return Object.fromEntries(GATE_NAMES.map((name) => [name, 'pending'])) as Record<string, 'pending'>;
@@ -60,7 +68,10 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 }
 
 function slug(value: string): string {
-  const ascii = value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const ascii = value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
   if (ascii) return ascii;
   return createHash('sha1').update(value).digest('hex').slice(0, 10);
 }
@@ -144,7 +155,9 @@ export function collectLegacySnapshots(pipelineRoot: string): {
   }
   const groups = [...byGroup.entries()].map(([id, sources]) => ({
     id,
-    reason: id.startsWith('legacy-id-') ? 'same legacy id in multiple topic inputs' : 'same name and year require identity comparison',
+    reason: id.startsWith('legacy-id-')
+      ? 'same legacy id in multiple topic inputs'
+      : 'same name and year require identity comparison',
     sources,
     decision: 'pending',
   }));
@@ -168,7 +181,10 @@ function digestRows(rows: LegacyEventSnapshot[]): string {
   return createHash('sha256').update(JSON.stringify(stable)).digest('hex');
 }
 
-export function buildMigrationManifest(pipelineRoot: string, generatedAt = new Date().toISOString().slice(0, 10)): MigrationManifest {
+export function buildMigrationManifest(
+  pipelineRoot: string,
+  generatedAt = new Date().toISOString().slice(0, 10),
+): MigrationManifest {
   const collected = collectLegacySnapshots(pipelineRoot);
   return {
     version: 2,
@@ -209,7 +225,15 @@ export function buildMigrationManifest(pipelineRoot: string, generatedAt = new D
 
 function compareSnapshot(expected: LegacyEventSnapshot, actual: LegacyEventSnapshot): string[] {
   const problems: string[] = [];
-  for (const key of ['legacyTopic', 'legacyId', 'legacyName', 'legacyKind', 'legacyYear', 'legacyEndYear', 'legacyDesc'] as const) {
+  for (const key of [
+    'legacyTopic',
+    'legacyId',
+    'legacyName',
+    'legacyKind',
+    'legacyYear',
+    'legacyEndYear',
+    'legacyDesc',
+  ] as const) {
     if (expected[key] !== actual[key]) problems.push(`${expected.entryKey} 的 ${key} 已变化`);
   }
   if (JSON.stringify(expected.legacyPeople) !== JSON.stringify(actual.legacyPeople)) {
@@ -230,13 +254,17 @@ export function checkLegacyEventManifest(pipelineRoot: string): string[] {
   const actual = collectLegacySnapshots(pipelineRoot);
   const problems: string[] = [];
   if (manifest.version !== 2) problems.push(`manifest version 应为 2，实际 ${String(manifest.version)}`);
-  if (manifest.canonicalSource !== 'content/events/<id>.md') problems.push('manifest canonicalSource 不符合事件实体入口');
-  if (manifest.legacySource !== 'pipeline/topics/<topic>/topic.json#events[]') problems.push('manifest legacySource 不符合冻结的旧 inline 入口');
+  if (manifest.canonicalSource !== 'content/events/<id>.md')
+    problems.push('manifest canonicalSource 不符合事件实体入口');
+  if (manifest.legacySource !== 'pipeline/topics/<topic>/topic.json#events[]')
+    problems.push('manifest legacySource 不符合冻结的旧 inline 入口');
   if (manifest.entryKey !== '<legacyTopic>/<legacyId>') problems.push('manifest entryKey 规则不一致');
   if (!Array.isArray(manifest.entries)) problems.push('迁移 manifest 缺少 entries 逐条快照');
   const entries = Array.isArray(manifest.entries) ? manifest.entries : [];
-  if (manifest.legacyEntryCount !== actual.rows.length) problems.push(`manifest 记录 ${manifest.legacyEntryCount} 条，实际 ${actual.rows.length} 条`);
-  if (entries.length !== actual.rows.length) problems.push(`manifest entries ${entries.length} 条，实际 ${actual.rows.length} 条`);
+  if (manifest.legacyEntryCount !== actual.rows.length)
+    problems.push(`manifest 记录 ${manifest.legacyEntryCount} 条，实际 ${actual.rows.length} 条`);
+  if (entries.length !== actual.rows.length)
+    problems.push(`manifest entries ${entries.length} 条，实际 ${actual.rows.length} 条`);
   const expectedByKey = new Map<string, LegacyEventSnapshot>();
   const seenEntryKeys = new Set<string>();
   const validEntries: LegacyEventSnapshot[] = [];
@@ -265,8 +293,10 @@ export function checkLegacyEventManifest(pipelineRoot: string): string[] {
       }
     }
   }
-  for (const entry of validEntries) if (!actual.rows.some((row) => row.entryKey === entry.entryKey)) problems.push(`manifest 多出 ${entry.entryKey}`);
-  if (manifest.sourceDigest !== digestRows(actual.rows)) problems.push('sourceDigest 不匹配：旧 inline 输入已变化，需先更新迁移批次');
+  for (const entry of validEntries)
+    if (!actual.rows.some((row) => row.entryKey === entry.entryKey)) problems.push(`manifest 多出 ${entry.entryKey}`);
+  if (manifest.sourceDigest !== digestRows(actual.rows))
+    problems.push('sourceDigest 不匹配：旧 inline 输入已变化，需先更新迁移批次');
   const inventory = JSON.stringify(manifest.inventory ?? []);
   if (inventory !== JSON.stringify(actual.inventory)) problems.push('manifest inventory 与专题事件计数不一致');
   if (manifest.legacyInputPolicy !== 'frozen-inline') problems.push('legacyInputPolicy 必须是 frozen-inline');
@@ -276,11 +306,13 @@ export function checkLegacyEventManifest(pipelineRoot: string): string[] {
   const seenGroupIds = new Set<string>();
   const seenGroupSources = new Set<string>();
   for (const rawGroup of rawGroups as unknown[]) {
-    if (!isRecord(rawGroup)
-      || typeof rawGroup.id !== 'string'
-      || typeof rawGroup.reason !== 'string'
-      || !Array.isArray(rawGroup.sources)
-      || rawGroup.sources.some((source) => typeof source !== 'string')) {
+    if (
+      !isRecord(rawGroup) ||
+      typeof rawGroup.id !== 'string' ||
+      typeof rawGroup.reason !== 'string' ||
+      !Array.isArray(rawGroup.sources) ||
+      rawGroup.sources.some((source) => typeof source !== 'string')
+    ) {
       problems.push('manifest duplicateGroups 含有无效记录');
       continue;
     }
@@ -297,11 +329,12 @@ export function checkLegacyEventManifest(pipelineRoot: string): string[] {
     }
     normalizedGroups.push(group);
   }
-  const expectedGroups = JSON.stringify([...actual.duplicateGroups]
-    .map(({ id, reason, sources }) => ({ id, reason, sources }))
-    .sort((left, right) => left.id.localeCompare(right.id)));
-  const actualGroups = JSON.stringify(normalizedGroups
-    .sort((left, right) => left.id.localeCompare(right.id)));
+  const expectedGroups = JSON.stringify(
+    [...actual.duplicateGroups]
+      .map(({ id, reason, sources }) => ({ id, reason, sources }))
+      .sort((left, right) => left.id.localeCompare(right.id)),
+  );
+  const actualGroups = JSON.stringify(normalizedGroups.sort((left, right) => left.id.localeCompare(right.id)));
   if (expectedGroups !== actualGroups) problems.push('manifest duplicateGroups 与当前重复 id/名称盘点不一致');
   for (const entry of validEntries) {
     if (entry.status === 'approved') {
@@ -326,13 +359,14 @@ export function checkLegacyEventManifest(pipelineRoot: string): string[] {
     if (entry.duplicateGroup !== null && !seenGroupIds.has(entry.duplicateGroup)) {
       problems.push(`${entry.entryKey} 引用了不存在的 duplicateGroup：${entry.duplicateGroup}`);
     }
-    if (entry.status === 'frozen-inline' && (
-      entry.candidateId !== null
-      || (Array.isArray(entry.aliases) && entry.aliases.length > 0)
-      || (Array.isArray(entry.evidence) && entry.evidence.length > 0)
-      || (Array.isArray(entry.review) && entry.review.length > 0)
-      || (isRecord(entry.gates) && Object.values(entry.gates).some((state) => state !== 'pending'))
-    )) {
+    if (
+      entry.status === 'frozen-inline' &&
+      (entry.candidateId !== null ||
+        (Array.isArray(entry.aliases) && entry.aliases.length > 0) ||
+        (Array.isArray(entry.evidence) && entry.evidence.length > 0) ||
+        (Array.isArray(entry.review) && entry.review.length > 0) ||
+        (isRecord(entry.gates) && Object.values(entry.gates).some((state) => state !== 'pending')))
+    ) {
       problems.push(`${entry.entryKey} 冻结状态不应有 candidateId/aliases/evidence/review 或已通过 gate`);
     }
   }
@@ -345,17 +379,20 @@ export function writeMigrationManifest(pipelineRoot: string): MigrationManifest 
     const current = JSON.parse(readFileSync(path, 'utf8')) as Partial<MigrationManifest>;
     const existingEntries = Array.isArray(current.entries) ? current.entries : [];
     const existingGroups = Array.isArray(current.duplicateGroups) ? current.duplicateGroups : [];
-    const progressed = existingEntries.some((rawEntry) => {
-      if (!isRecord(rawEntry)) return true;
-      const entry = rawEntry as Partial<LegacyEventSnapshot>;
-      if (entry.status && entry.status !== 'frozen-inline') return true;
-      if (entry.candidateId !== null && entry.candidateId !== undefined) return true;
-      if ((entry.aliases?.length ?? 0) > 0 || (entry.evidence?.length ?? 0) > 0 || (entry.review?.length ?? 0) > 0) return true;
-      return entry.gates ? Object.values(entry.gates).some((state) => state !== 'pending') : true;
-    }) || existingGroups.some((rawGroup) => {
-      if (!isRecord(rawGroup)) return true;
-      return typeof rawGroup.decision !== 'string' || rawGroup.decision !== 'pending';
-    });
+    const progressed =
+      existingEntries.some((rawEntry) => {
+        if (!isRecord(rawEntry)) return true;
+        const entry = rawEntry as Partial<LegacyEventSnapshot>;
+        if (entry.status && entry.status !== 'frozen-inline') return true;
+        if (entry.candidateId !== null && entry.candidateId !== undefined) return true;
+        if ((entry.aliases?.length ?? 0) > 0 || (entry.evidence?.length ?? 0) > 0 || (entry.review?.length ?? 0) > 0)
+          return true;
+        return entry.gates ? Object.values(entry.gates).some((state) => state !== 'pending') : true;
+      }) ||
+      existingGroups.some((rawGroup) => {
+        if (!isRecord(rawGroup)) return true;
+        return typeof rawGroup.decision !== 'string' || rawGroup.decision !== 'pending';
+      });
     if (progressed) {
       throw new Error('manifest 已有迁移进度；禁止用 write 覆盖，请按批次手工更新并运行 check');
     }

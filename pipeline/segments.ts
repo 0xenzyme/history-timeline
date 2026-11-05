@@ -44,11 +44,7 @@ interface CenturyGroup {
  * 按世纪切段，稀疏段并入相邻段。
  * 段内事件少于 minCount 条时合并，并入相邻段中条数较少者；条数相同并入前一段，保证结果确定。
  */
-export function buildSegments(
-  events: EventRecord[],
-  range: [number, number],
-  minCount = 3,
-): CenturySegment[] {
+export function buildSegments(events: EventRecord[], range: [number, number], minCount = 3): CenturySegment[] {
   const buckets = new Map<number, number>();
   for (const event of events) {
     const century = centuryOf(event.year);
@@ -86,7 +82,10 @@ export function buildSegments(
         const century = centuryOf(event.year);
         return century >= group.from && century <= group.to;
       })
-      .sort((left, right) => left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id))
+      .sort(
+        (left, right) =>
+          left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id),
+      )
       .map((event) => event.id);
     return {
       id: segmentId(group.from, group.to),

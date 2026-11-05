@@ -1,0 +1,19 @@
+# 内容源与生成物不进入格式化，避免改动内容语义和产物哈希
+content/
+docs/
+cards/
+raw/
+.agents/
+.impeccable/
+public/
+dist/
+design/
+prototype/
+pipeline/topics/
+pipeline/registry/
+pipeline/vocab/
+pipeline/events-migration-manifest.json
+node_modules/
+package-lock.json
+*.log
+.DS_Store

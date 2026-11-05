@@ -214,6 +214,11 @@ export function compileLine(data: PipelineData, line: 'military' | 'history'): E
   };
 }
 
+/** 人物瘦索引：卡片与搜索共用字段，但不含事件行，供首屏加载。 */
+export function compilePeopleIndex(topics: Topic[]): SearchRecord[] {
+  return compileSearch(topics, []).filter((row) => row.kind !== 'event');
+}
+
 export function compileSearch(topics: Topic[], events: EventRecord[]): SearchRecord[] {
   const rows: SearchRecord[] = [];
   for (const topic of topics) {

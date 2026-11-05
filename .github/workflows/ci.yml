@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,5 +28,16 @@ jobs:
         run: npm ci
       - name: Check production dependencies
         run: npm audit --omit=dev
+      - name: Check formatting
+        run: npm run format:check
+      - name: Run tests
+        run: npm test
       - name: Validate content and build
         run: npm run build
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
+          if-no-files-found: error
+          retention-days: 14

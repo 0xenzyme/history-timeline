@@ -95,15 +95,17 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
   const categories = (person.categories ?? []).map((item) => library.categoryNames.get(item) ?? item);
   const polities = (person.polity ?? []).map((item) => library.polityNames.get(item) ?? item);
 
-  const relationRows = relationsOf(ctx, id).map((relation) => {
-    const otherId = relation.source === id ? relation.target : relation.source;
-    const label = personLabel(ctx, otherId);
-    if (!label) return null;
-    const type = ctx.topic?.relationTypes.find((item) => item.id === relation.type);
-    const typeText = type ? ` <span class="card-meta">${esc(type.name)}</span>` : '';
-    const note = relation.note ? ` <span class="card-meta">${esc(relation.note)}</span>` : '';
-    return `${link('person', otherId, label)}${typeText}${note}`;
-  }).filter((row): row is string => Boolean(row));
+  const relationRows = relationsOf(ctx, id)
+    .map((relation) => {
+      const otherId = relation.source === id ? relation.target : relation.source;
+      const label = personLabel(ctx, otherId);
+      if (!label) return null;
+      const type = ctx.topic?.relationTypes.find((item) => item.id === relation.type);
+      const typeText = type ? ` <span class="card-meta">${esc(type.name)}</span>` : '';
+      const note = relation.note ? ` <span class="card-meta">${esc(relation.note)}</span>` : '';
+      return `${link('person', otherId, label)}${typeText}${note}`;
+    })
+    .filter((row): row is string => Boolean(row));
 
   const events = (library.eventsByPerson.get(id) ?? []).slice(0, 24);
   const eventRows = events.map((event) => {
@@ -135,15 +137,18 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
 
 export function renderEventCard(ctx: CardContext, event: EventRecord): string {
   const { library, palette: c } = ctx;
-  const time = event.endYear && event.endYear !== event.year
-    ? `${fmtYear(event.year)} — ${fmtYear(event.endYear)}`
-    : fmtYear(event.year);
+  const time =
+    event.endYear && event.endYear !== event.year
+      ? `${fmtYear(event.year)} — ${fmtYear(event.endYear)}`
+      : fmtYear(event.year);
   const notes = [event.yearNote, event.endYearNote].filter(Boolean) as string[];
   const badges = [
     `<span class="badge" style="background:${skinColor(ctx.skin, EVENT_COLORS[event.type])}">${esc(TYPE_NAMES[event.type])}</span>`,
     event.scale ? `<span class="badge" style="background:${c.muted}">${esc(SCALE_NAMES[event.scale])}</span>` : '',
     `<span class="badge" style="background:${c.accent}">${'★'.repeat(event.importance)}</span>`,
-  ].filter(Boolean).join('');
+  ]
+    .filter(Boolean)
+    .join('');
 
   const belligerents = (event.belligerents ?? []).map((id) => library.polityNames.get(id) ?? id);
   const commanders = (event.commanders ?? []).map((commander) => {
@@ -171,7 +176,10 @@ export function renderEventCard(ctx: CardContext, event: EventRecord): string {
     else sources.set(kind, [text]);
   }
   const sourceHtml = [...sources.entries()]
-    .map(([kind, items]) => `<div class="card-src"><span class="card-meta">${esc(kind)}</span>${items.map((item) => `<div>${esc(item)}</div>`).join('')}</div>`)
+    .map(
+      ([kind, items]) =>
+        `<div class="card-src"><span class="card-meta">${esc(kind)}</span>${items.map((item) => `<div>${esc(item)}</div>`).join('')}</div>`,
+    )
     .join('');
 
   return `

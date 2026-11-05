@@ -12,6 +12,13 @@ import type {
   RegistryPerson,
   SourceRef,
 } from './types';
+import {
+  lintCandidatesSchema,
+  lintCatalogSchema,
+  lintEventSchema,
+  lintPersonSchema,
+  lintTopicSchema,
+} from './lint-schema';
 
 const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 
@@ -28,7 +35,13 @@ if (polityCompatFile.version !== 1 || !Array.isArray(polityCompatFile.pairs)) {
   throw new Error('pipeline/vocab/polity-compat.json 必须是 version 1，并包含 pairs 数组');
 }
 const POLITY_COMPAT: Array<[string, string]> = polityCompatFile.pairs.map((pair) => {
-  if (!pair || typeof pair.a !== 'string' || typeof pair.b !== 'string' || typeof pair.reason !== 'string' || !pair.reason.trim()) {
+  if (
+    !pair ||
+    typeof pair.a !== 'string' ||
+    typeof pair.b !== 'string' ||
+    typeof pair.reason !== 'string' ||
+    !pair.reason.trim()
+  ) {
     throw new Error('pipeline/vocab/polity-compat.json 的每个 pair 必须有 a、b 和非空 reason');
   }
   return [pair.a, pair.b];
@@ -39,8 +52,10 @@ const polityCompatSets: Map<string, Set<string>> = (() => {
   const link = (a: string, b: string) => {
     if (!map.has(a)) map.set(a, new Set());
     if (!map.has(b)) map.set(b, new Set());
-    map.get(a)!.add(a); map.get(a)!.add(b);
-    map.get(b)!.add(b); map.get(b)!.add(a);
+    map.get(a)!.add(a);
+    map.get(a)!.add(b);
+    map.get(b)!.add(b);
+    map.get(b)!.add(a);
   };
   for (const [a, b] of POLITY_COMPAT) link(a, b);
   return map;
@@ -55,150 +70,6 @@ function politiesCompatible(a: string[] | undefined, b: string[] | undefined): b
     if (set) for (const y of listB) if (set.has(y)) return true;
   }
   return false;
-}
-
-/** 内容 schema 使用的 JSON Schema 子集。支持本仓库 schema 实际用到的约束。 */
-interface SchemaProp {
-  title?: string;
-  type?: string | string[];
-  enum?: unknown[];
-  const?: unknown;
-  $ref?: string;
-  items?: SchemaProp;
-  required?: string[];
-  properties?: Record<string, SchemaProp>;
-  additionalProperties?: boolean;
-  minLength?: number;
-  minItems?: number;
-  maxItems?: number;
-  pattern?: string;
-  $defs?: Record<string, SchemaProp>;
-}
-
-const personSchema = JSON.parse(
-  readFileSync(join(pipelineRoot, 'schema', 'person.schema.json'), 'utf8'),
-) as SchemaProp;
-
-const eventSchema = JSON.parse(
-  readFileSync(join(pipelineRoot, 'schema', 'event.schema.json'), 'utf8'),
-) as SchemaProp;
-const catalogSchema = JSON.parse(
-  readFileSync(join(pipelineRoot, 'schema', 'catalog.schema.json'), 'utf8'),
-) as SchemaProp;
-const topicSchema = JSON.parse(
-  readFileSync(join(pipelineRoot, 'schema', 'topic.schema.json'), 'utf8'),
-) as SchemaProp;
-const candidateSchema = JSON.parse(
-  readFileSync(join(pipelineRoot, 'schema', 'candidate.schema.json'), 'utf8'),
-) as SchemaProp;
-
-function typeMatches(value: unknown, type: string): boolean {
-  switch (type) {
-    case 'integer':
-      return typeof value === 'number' && Number.isInteger(value);
-    case 'string':
-      return typeof value === 'string';
-    case 'array':
-      return Array.isArray(value);
-    case 'object':
-      return typeof value === 'object' && value !== null && !Array.isArray(value);
-    case 'number':
-      return typeof value === 'number' && Number.isFinite(value);
-    case 'boolean':
-      return typeof value === 'boolean';
-    case 'null':
-      return value === null;
-    default:
-      return true;
-  }
-}
-
-function typeMismatch(value: unknown, rule: SchemaProp | undefined): boolean {
-  if (!rule?.type) return false;
-  const types = Array.isArray(rule.type) ? rule.type : [rule.type];
-  return !types.some((type) => typeMatches(value, type));
-}
-
-function resolveSchema(rule: SchemaProp, root: SchemaProp): SchemaProp {
-  if (!rule.$ref) return rule;
-  const match = /^#\/\$defs\/([^/]+)$/.exec(rule.$ref);
-  return match && root.$defs?.[match[1]] ? root.$defs[match[1]] : rule;
-}
-
-function schemaLabel(root: SchemaProp): string {
-  return root.title ? `${root.title}.schema.json` : 'schema';
-}
-
-function lintSchemaValue(value: unknown, ruleInput: SchemaProp, root: SchemaProp, path: string): LintMessage[] {
-  const messages: LintMessage[] = [];
-  const rule = resolveSchema(ruleInput, root);
-
-  if (typeMismatch(value, rule)) {
-    messages.push({ level: 'error', path, message: `值类型不符合 ${schemaLabel(root)} 的 schema` });
-    return messages;
-  }
-  if (rule.const !== undefined && value !== rule.const) {
-    messages.push({ level: 'error', path, message: `值必须是 ${String(rule.const)}` });
-  }
-  if (rule.enum && !rule.enum.some((item) => Object.is(item, value))) {
-    messages.push({ level: 'error', path, message: `取值 ${String(value)} 不合法` });
-  }
-  if (typeof value === 'string') {
-    if (rule.minLength !== undefined && value.length < rule.minLength) {
-      messages.push({ level: 'error', path, message: `字符串长度不能少于 ${rule.minLength}` });
-    }
-    if (rule.pattern && !new RegExp(rule.pattern).test(value)) {
-      messages.push({ level: 'error', path, message: `字符串不符合格式 ${rule.pattern}` });
-    }
-  }
-  if (Array.isArray(value)) {
-    if (rule.minItems !== undefined && value.length < rule.minItems) {
-      messages.push({ level: 'error', path, message: `数组至少需要 ${rule.minItems} 项` });
-    }
-    if (rule.maxItems !== undefined && value.length > rule.maxItems) {
-      messages.push({ level: 'error', path, message: `数组最多只能有 ${rule.maxItems} 项` });
-    }
-    if (rule.items) {
-      value.forEach((item, index) => messages.push(...lintSchemaValue(item, rule.items!, root, `${path}[${index}]`)));
-    }
-    return messages;
-  }
-  if (typeof value !== 'object' || value === null || Array.isArray(value)) return messages;
-
-  const record = value as Record<string, unknown>;
-  const props = rule.properties ?? {};
-  for (const required of rule.required ?? []) {
-    if (record[required] === undefined) {
-      messages.push({ level: 'error', path, message: `缺少必填字段 ${required}` });
-    }
-  }
-  for (const [key, child] of Object.entries(record)) {
-    const rule = props[key];
-    if (!rule) {
-      if (resolveSchema(ruleInput, root).additionalProperties === false) {
-        messages.push({ level: 'error', path, message: `字段 ${key} 不在 ${schemaLabel(root)} 中` });
-      }
-      continue;
-    }
-    messages.push(...lintSchemaValue(child, rule, root, `${path}.${key}`));
-  }
-  return messages;
-}
-
-function lintPersonSchema(person: RegistryPerson, path: string): LintMessage[] {
-  return lintSchemaValue(person, personSchema, personSchema, path);
-}
-
-function lintEventSchema(event: RegistryEvent, path: string): LintMessage[] {
-  return lintSchemaValue(event, eventSchema, eventSchema, path);
-}
-
-function lintCatalogSchema(catalog: Catalog, path: string): LintMessage[] {
-  return lintSchemaValue(catalog, catalogSchema, catalogSchema, path);
-}
-
-function lintTopicSchema(topic: Topic, path: string): LintMessage[] {
-  return lintSchemaValue(topic, topicSchema, topicSchema, path);
 }
 
 function vocabSet(items: { id: string }[]): Set<string> {
@@ -219,12 +90,13 @@ function sourceKind(source: SourceRef): 'classic' | 'modern' | 'database' {
 
 function hasReliableSource(sources: SourceRef[] | undefined): boolean {
   if (!Array.isArray(sources)) return false;
-  return sources.some((source) =>
-    source !== null &&
-    typeof source === 'object' &&
-    typeof source.work === 'string' &&
-    source.work.trim() !== '' &&
-    sourceKind(source) !== 'database',
+  return sources.some(
+    (source) =>
+      source !== null &&
+      typeof source === 'object' &&
+      typeof source.work === 'string' &&
+      source.work.trim() !== '' &&
+      sourceKind(source) !== 'database',
   );
 }
 
@@ -239,12 +111,7 @@ function localArtifact(value: string): string | null {
   return null;
 }
 
-function checkSourcePaths(
-  messages: LintMessage[],
-  path: string,
-  tag: string,
-  sources: SourceRef[] | undefined,
-): void {
+function checkSourcePaths(messages: LintMessage[], path: string, tag: string, sources: SourceRef[] | undefined): void {
   for (const [index, source] of (sources ?? []).entries()) {
     if (source === null || typeof source !== 'object') continue;
     for (const field of ['work', 'part', 'note'] as const) {
@@ -252,7 +119,11 @@ function checkSourcePaths(
       if (typeof value !== 'string') continue;
       const hit = localArtifact(value);
       if (hit) {
-        messages.push({ level: 'error', path, message: `[${tag}] sources[${index}].${field} 含${hit}；出处写书名与卷次篇目` });
+        messages.push({
+          level: 'error',
+          path,
+          message: `[${tag}] sources[${index}].${field} 含${hit}；出处写书名与卷次篇目`,
+        });
       }
     }
   }
@@ -380,7 +251,10 @@ export function lintRegistryPerson(
       messages.push({ level: 'error', path, message: `[PERSON_PLACEHOLDER] ${field} 仍包含占位符` });
     }
   }
-  for (const [field, values] of [['tags', person.tags ?? []], ['aliases', person.aliases ?? []]] as const) {
+  for (const [field, values] of [
+    ['tags', person.tags ?? []],
+    ['aliases', person.aliases ?? []],
+  ] as const) {
     for (const value of values) {
       if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
         messages.push({ level: 'error', path, message: `[PERSON_PLACEHOLDER] ${field} 仍包含占位符` });
@@ -391,7 +265,11 @@ export function lintRegistryPerson(
     for (const field of ['work', 'part', 'note'] as const) {
       const value = source[field];
       if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
-        messages.push({ level: 'error', path, message: `[PERSON_PLACEHOLDER] sources[${index}].${field} 仍包含占位符` });
+        messages.push({
+          level: 'error',
+          path,
+          message: `[PERSON_PLACEHOLDER] sources[${index}].${field} 仍包含占位符`,
+        });
       }
     }
   }
@@ -439,7 +317,11 @@ export function lintRegistryEvent(
       messages.push({ level: 'error', path, message: '[EVENT_WAR_END_YEAR] war 必须写 endYear' });
     }
     if ((event.scale === 'battle' || event.scale === 'engagement') && event.endYear !== undefined) {
-      messages.push({ level: 'error', path, message: `[EVENT_POINT_SCALE_END_YEAR] ${event.scale} 是点事件，不应写 endYear` });
+      messages.push({
+        level: 'error',
+        path,
+        message: `[EVENT_POINT_SCALE_END_YEAR] ${event.scale} 是点事件，不应写 endYear`,
+      });
     }
   } else {
     if (event.scale) {
@@ -476,7 +358,11 @@ export function lintRegistryEvent(
       messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_UNKNOWN] endYear 不能标 unknown' });
     }
     if ((event.endYearAccuracy === 'approx' || event.endYearAccuracy === 'disputed') && !event.endYearNote?.trim()) {
-      messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_NOTE] endYear 约略或有异说时必须写 endYearNote' });
+      messages.push({
+        level: 'error',
+        path,
+        message: '[EVENT_END_YEAR_NOTE] endYear 约略或有异说时必须写 endYearNote',
+      });
     }
   } else if (event.endYearAccuracy !== undefined || event.endYearNote !== undefined) {
     messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_ORPHAN] 没有 endYear 时不能写端点 accuracy/note' });
@@ -485,10 +371,18 @@ export function lintRegistryEvent(
     messages.push({ level: 'error', path, message: '[EVENT_END_YEAR_ZERO] endYear 不存在公元 0 年，使用 -1 或 1' });
   }
   if (event.year < EVENT_YEAR_MIN || event.year > EVENT_YEAR_MAX) {
-    messages.push({ level: 'error', path, message: `year ${event.year} 超出收录范围 ${EVENT_YEAR_MIN}—${EVENT_YEAR_MAX}` });
+    messages.push({
+      level: 'error',
+      path,
+      message: `year ${event.year} 超出收录范围 ${EVENT_YEAR_MIN}—${EVENT_YEAR_MAX}`,
+    });
   }
   if (event.endYear !== undefined && (event.endYear < EVENT_YEAR_MIN || event.endYear > EVENT_YEAR_MAX)) {
-    messages.push({ level: 'error', path, message: `endYear ${event.endYear} 超出收录范围 ${EVENT_YEAR_MIN}—${EVENT_YEAR_MAX}` });
+    messages.push({
+      level: 'error',
+      path,
+      message: `endYear ${event.endYear} 超出收录范围 ${EVENT_YEAR_MIN}—${EVENT_YEAR_MAX}`,
+    });
   }
   if (!hasReliableSource(event.sources)) {
     messages.push({ level: 'error', path, message: '年份不能只靠 database 出处支撑，需要 classic 或 modern' });
@@ -499,20 +393,33 @@ export function lintRegistryEvent(
     messages.push({
       level: lifecycleStatus === 'published' ? 'error' : 'warning',
       path,
-      message: lifecycleStatus === 'published'
-        ? '[EVENT_CATALOG_REQUIRED] published 事件必须显式声明 catalogs'
-        : '[EVENT_CATALOG_DEFAULT] 未显式声明 catalogs，将暂按旧规则推导；新迁移条目应补齐',
+      message:
+        lifecycleStatus === 'published'
+          ? '[EVENT_CATALOG_REQUIRED] published 事件必须显式声明 catalogs'
+          : '[EVENT_CATALOG_DEFAULT] 未显式声明 catalogs，将暂按旧规则推导；新迁移条目应补齐',
     });
   } else {
     const catalogs = new Set(event.catalogs);
     if (event.type === 'military' && !catalogs.has('military')) {
-      messages.push({ level: 'error', path, message: '[EVENT_CATALOG_MILITARY] type=military 必须进入 military catalog' });
+      messages.push({
+        level: 'error',
+        path,
+        message: '[EVENT_CATALOG_MILITARY] type=military 必须进入 military catalog',
+      });
     }
     if (catalogs.has('military') && event.type !== 'military' && event.type !== 'rebellion') {
-      messages.push({ level: 'error', path, message: '[EVENT_CATALOG_TYPE] 只有 military 或 rebellion 可以进入 military catalog' });
+      messages.push({
+        level: 'error',
+        path,
+        message: '[EVENT_CATALOG_TYPE] 只有 military 或 rebellion 可以进入 military catalog',
+      });
     }
     if (event.type === 'rebellion' && !catalogs.has('history')) {
-      messages.push({ level: 'warning', path, message: '[EVENT_CATALOG_REBELLION] rebellion 通常应进入 history catalog；如有武装行动请同时声明 military' });
+      messages.push({
+        level: 'warning',
+        path,
+        message: '[EVENT_CATALOG_REBELLION] rebellion 通常应进入 history catalog；如有武装行动请同时声明 military',
+      });
     }
   }
 
@@ -537,7 +444,11 @@ export function lintRegistryEvent(
       for (const field of ['work', 'part', 'note'] as const) {
         const value = source[field];
         if (typeof value === 'string' && /待填|TODO|TBD/i.test(value)) {
-          messages.push({ level: 'error', path, message: `[EVENT_PLACEHOLDER] sources[${index}].${field} 仍包含占位符` });
+          messages.push({
+            level: 'error',
+            path,
+            message: `[EVENT_PLACEHOLDER] sources[${index}].${field} 仍包含占位符`,
+          });
         }
       }
     }
@@ -546,7 +457,11 @@ export function lintRegistryEvent(
 
   const belligerents = Array.isArray(event.belligerents) ? event.belligerents : [];
   const polities = Array.isArray(event.polity) ? event.polity : [];
-  for (const [label, values] of [['belligerents', belligerents], ['polity', polities], ['people', event.people ?? []]] as const) {
+  for (const [label, values] of [
+    ['belligerents', belligerents],
+    ['polity', polities],
+    ['people', event.people ?? []],
+  ] as const) {
     if (new Set(values).size !== values.length) {
       messages.push({ level: 'error', path, message: `${label} 不能有重复值` });
     }
@@ -561,7 +476,11 @@ export function lintRegistryEvent(
   const sides = new Set(belligerents);
   for (const commander of commanders) {
     if (commander && typeof commander === 'object' && commander.side && !sides.has(commander.side)) {
-      messages.push({ level: 'error', path, message: `主将 ${commander.id} 的 side ${commander.side} 不在 belligerents 中` });
+      messages.push({
+        level: 'error',
+        path,
+        message: `主将 ${commander.id} 的 side ${commander.side} 不在 belligerents 中`,
+      });
     }
   }
   for (const id of [...commanders.map((item) => item?.id), ...people]) {
@@ -578,32 +497,74 @@ export function lintRegistryEvent(
       const person = ctx.personRecords.get(commander.id);
       if (!person) continue;
       const exactLife = person.birthAccuracy === 'exact' && person.deathAccuracy === 'exact';
-      const exactEvent = event.yearAccuracy === 'exact'
-        && (event.endYear === undefined || event.endYearAccuracy === 'exact');
+      const exactEvent =
+        event.yearAccuracy === 'exact' && (event.endYear === undefined || event.endYearAccuracy === 'exact');
       const certainDateConflict = exactLife && exactEvent;
       if (person.birth !== undefined && eventEnd < person.birth) {
-        messages.push({ level: certainDateConflict ? 'error' : 'warning', path, message: `[EVENT_PERSON_DATE] 主将 ${commander.id} 的事件早于生年` });
+        messages.push({
+          level: certainDateConflict ? 'error' : 'warning',
+          path,
+          message: `[EVENT_PERSON_DATE] 主将 ${commander.id} 的事件早于生年`,
+        });
       }
       if (person.death !== undefined && eventStart > person.death) {
-        messages.push({ level: certainDateConflict ? 'error' : 'warning', path, message: `[EVENT_PERSON_DATE] 主将 ${commander.id} 的事件晚于卒年` });
+        messages.push({
+          level: certainDateConflict ? 'error' : 'warning',
+          path,
+          message: `[EVENT_PERSON_DATE] 主将 ${commander.id} 的事件晚于卒年`,
+        });
       }
-      if (commander.side && person.polity && person.polity.length > 0 && !politiesCompatible(person.polity, [commander.side])) {
-        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 side=${commander.side} 与人物 polity 不重合，请核对时点归属` });
+      if (
+        commander.side &&
+        person.polity &&
+        person.polity.length > 0 &&
+        !politiesCompatible(person.polity, [commander.side])
+      ) {
+        messages.push({
+          level: 'warning',
+          path,
+          message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 side=${commander.side} 与人物 polity 不重合，请核对时点归属`,
+        });
       }
-      if (!commander.side && polities.length > 0 && person.polity && person.polity.length > 0
-        && !politiesCompatible(person.polity, polities)) {
-        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 polity 与事件 polity 不重合，请核对时点归属` });
+      if (
+        !commander.side &&
+        polities.length > 0 &&
+        person.polity &&
+        person.polity.length > 0 &&
+        !politiesCompatible(person.polity, polities)
+      ) {
+        messages.push({
+          level: 'warning',
+          path,
+          message: `[EVENT_PERSON_POLITY] 主将 ${commander.id} 的 polity 与事件 polity 不重合，请核对时点归属`,
+        });
       }
     }
     for (const id of people) {
       if (commanders.some((commander) => commander.id === id)) continue;
       const person = ctx.personRecords.get(id);
       if (!person) continue;
-      if ((person.birth !== undefined && eventEnd < person.birth) || (person.death !== undefined && eventStart > person.death)) {
-        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_DATE] 相关人物 ${id} 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明` });
+      if (
+        (person.birth !== undefined && eventEnd < person.birth) ||
+        (person.death !== undefined && eventStart > person.death)
+      ) {
+        messages.push({
+          level: 'warning',
+          path,
+          message: `[EVENT_PERSON_DATE] 相关人物 ${id} 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明`,
+        });
       }
-      if (polities.length > 0 && person.polity && person.polity.length > 0 && !politiesCompatible(person.polity, polities)) {
-        messages.push({ level: 'warning', path, message: `[EVENT_PERSON_POLITY] 相关人物 ${id} 的 polity 与事件 polity 不重合，请核对时点归属` });
+      if (
+        polities.length > 0 &&
+        person.polity &&
+        person.polity.length > 0 &&
+        !politiesCompatible(person.polity, polities)
+      ) {
+        messages.push({
+          level: 'warning',
+          path,
+          message: `[EVENT_PERSON_POLITY] 相关人物 ${id} 的 polity 与事件 polity 不重合，请核对时点归属`,
+        });
       }
     }
   }
@@ -630,7 +591,11 @@ export function lintRegistryEvent(
         }
         const childEnd = event.endYear ?? event.year;
         if (parent.endYear !== undefined && (event.year < parent.year || childEnd > parent.endYear)) {
-          messages.push({ level: 'error', path, message: `事件时间 ${event.year}—${childEnd} 超出 parent ${event.parent} 的范围 ${parent.year}—${parent.endYear}` });
+          messages.push({
+            level: 'error',
+            path,
+            message: `事件时间 ${event.year}—${childEnd} 超出 parent ${event.parent} 的范围 ${parent.year}—${parent.endYear}`,
+          });
         }
       }
       const seenParents = new Set<string>([event.id]);
@@ -717,7 +682,7 @@ function lintCandidates(data: PipelineData): LintMessage[] {
     const topicId = draft.meta.id;
     const path = `topics/${topicId}/candidates.json`;
     const entries = data.candidates.get(topicId) ?? [];
-    messages.push(...lintSchemaValue({ people: entries }, candidateSchema, candidateSchema, path));
+    messages.push(...lintCandidatesSchema(entries, path));
     const laneIds = new Set(draft.lanes.map((lane) => lane.id));
     const topicPeople = new Set(draft.people.map((person) => person.id));
     const seen = new Set<string>();

@@ -41,21 +41,21 @@ export async function loadTopic(url: string, expectedId?: string): Promise<Topic
 function eventIsUsable(event: EventRecord): boolean {
   return Boolean(
     event &&
-      typeof event.id === 'string' &&
-      event.id.length > 0 &&
-      typeof event.name === 'string' &&
-      typeof event.display === 'string' &&
-      (event.kind === 'point' || event.kind === 'span') &&
-      Number.isFinite(event.year) &&
-      event.year !== 0 &&
-      EVENT_TYPES.has(event.type) &&
-      EVENT_ACCURACIES.has(event.yearAccuracy) &&
-      Number.isInteger(event.importance) &&
-      event.importance >= 1 &&
-      event.importance <= 3 &&
-      (event.endYear === undefined || event.endYear >= event.year) &&
-      (event.endYear === undefined || event.endYear !== 0) &&
-      Array.isArray(event.sources),
+    typeof event.id === 'string' &&
+    event.id.length > 0 &&
+    typeof event.name === 'string' &&
+    typeof event.display === 'string' &&
+    (event.kind === 'point' || event.kind === 'span') &&
+    Number.isFinite(event.year) &&
+    event.year !== 0 &&
+    EVENT_TYPES.has(event.type) &&
+    EVENT_ACCURACIES.has(event.yearAccuracy) &&
+    Number.isInteger(event.importance) &&
+    event.importance >= 1 &&
+    event.importance <= 3 &&
+    (event.endYear === undefined || event.endYear >= event.year) &&
+    (event.endYear === undefined || event.endYear !== 0) &&
+    Array.isArray(event.sources),
   );
 }
 
@@ -69,15 +69,35 @@ function normalizeEventLine(line: EventLineView, expectedId?: string): EventLine
     .map((segment) => ({
       ...segment,
       events: Array.isArray(segment.events) ? segment.events.filter((id) => ids.has(id)) : [],
-    })).filter((segment) => segment.id && typeof segment.label === 'string' && Array.isArray(segment.events)
-      && Number.isFinite(segment.from) && Number.isFinite(segment.to) && segment.from < segment.to);
-  const fallbackRange: [number, number] = Array.isArray(source.range) && source.range.length === 2
-    && source.range.every((year) => Number.isFinite(year)) && source.range[0] < source.range[1]
-    ? source.range
-    : [-2070, 1949];
-  const safeSegments: CenturySegment[] = segments.length > 0 ? segments : [{
-    id: 'seg-empty', label: '暂无事件', from: fallbackRange[0], to: fallbackRange[1], events: [],
-  }];
+    }))
+    .filter(
+      (segment) =>
+        segment.id &&
+        typeof segment.label === 'string' &&
+        Array.isArray(segment.events) &&
+        Number.isFinite(segment.from) &&
+        Number.isFinite(segment.to) &&
+        segment.from < segment.to,
+    );
+  const fallbackRange: [number, number] =
+    Array.isArray(source.range) &&
+    source.range.length === 2 &&
+    source.range.every((year) => Number.isFinite(year)) &&
+    source.range[0] < source.range[1]
+      ? source.range
+      : [-2070, 1949];
+  const safeSegments: CenturySegment[] =
+    segments.length > 0
+      ? segments
+      : [
+          {
+            id: 'seg-empty',
+            label: '暂无事件',
+            from: fallbackRange[0],
+            to: fallbackRange[1],
+            events: [],
+          },
+        ];
   return {
     ...source,
     id: expectedId === 'military' || expectedId === 'history' ? expectedId : source.id,

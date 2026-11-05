@@ -86,9 +86,7 @@ export function buildPeopleLayout(topic: Topic, hiddenLanes: Set<string>, pitch:
     if (hiddenLanes.has(lane.id)) continue;
     const members = topic.people
       .filter((person) => person.lane === lane.id)
-      .sort((a, b) =>
-        personFrom(a.birth, a.death) - personFrom(b.birth, b.death)
-        || (a.order ?? 99) - (b.order ?? 99));
+      .sort((a, b) => personFrom(a.birth, a.death) - personFrom(b.birth, b.death) || (a.order ?? 99) - (b.order ?? 99));
     const packed = pack(
       members,
       (person) => personFrom(person.birth, person.death),
@@ -104,7 +102,16 @@ export function buildPeopleLayout(topic: Topic, hiddenLanes: Set<string>, pitch:
       }),
     );
     const height = laneHeight(packed.rows, pitch);
-    layouts.push({ id: lane.id, name: lane.name, color: lane.color, y, height, rows: packed.rows, pitch, items: packed.items });
+    layouts.push({
+      id: lane.id,
+      name: lane.name,
+      color: lane.color,
+      y,
+      height,
+      rows: packed.rows,
+      pitch,
+      items: packed.items,
+    });
     y += height;
   }
   return layouts;
@@ -121,9 +128,7 @@ export function buildEventLayout(
   let y = 0;
   for (const type of LINE_TYPES[line]) {
     if (hiddenLanes.has(type)) continue;
-    const inRow = events
-      .filter((event) => event.type === type)
-      .sort((a, b) => a.year - b.year);
+    const inRow = events.filter((event) => event.type === type).sort((a, b) => a.year - b.year);
     if (inRow.length === 0) continue;
     const packed = pack(
       inRow,

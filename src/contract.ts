@@ -15,7 +15,12 @@ export function validateEventLine(line: EventLineView, expectedId?: string): str
     problems.push(`事件线 id 为 ${line?.id}，期望 ${expectedId}`);
   }
   if (line?.id !== 'military' && line?.id !== 'history') problems.push('事件线 id 必须是 military 或 history');
-  if (!Array.isArray(line?.range) || line.range.length !== 2 || !line.range.every(Number.isFinite) || line.range[0] >= line.range[1]) {
+  if (
+    !Array.isArray(line?.range) ||
+    line.range.length !== 2 ||
+    !line.range.every(Number.isFinite) ||
+    line.range[0] >= line.range[1]
+  ) {
     problems.push('事件线 range 无效');
   }
   if (!Array.isArray(line?.events)) problems.push('事件线 events 不是数组');
@@ -42,22 +47,31 @@ export function validateEventLine(line: EventLineView, expectedId?: string): str
     if (!Number.isInteger(event.year) || event.year === 0) problems.push(`${tag} year 无效（不能是公元 0 年）`);
     if (eventTypes.has(event.type) === false) problems.push(`${tag} type 无效`);
     if (!accuracies.has(event.yearAccuracy)) problems.push(`${tag} yearAccuracy 无效`);
-    if (event.endYear !== undefined && (!Number.isInteger(event.endYear) || event.endYear === 0 || event.endYear < event.year)) {
+    if (
+      event.endYear !== undefined &&
+      (!Number.isInteger(event.endYear) || event.endYear === 0 || event.endYear < event.year)
+    ) {
       problems.push(`${tag} endYear 无效`);
     }
-    if (event.endYear !== undefined && !accuracies.has(event.endYearAccuracy ?? '')) problems.push(`${tag} endYearAccuracy 无效`);
+    if (event.endYear !== undefined && !accuracies.has(event.endYearAccuracy ?? ''))
+      problems.push(`${tag} endYearAccuracy 无效`);
     if (event.kind === 'span' && event.endYear === undefined) problems.push(`${tag} span 缺少 endYear`);
     if (event.kind === 'point' && event.endYear !== undefined) problems.push(`${tag} point 不应有 endYear`);
     if (![1, 2, 3].includes(event.importance)) problems.push(`${tag} importance 无效`);
     if (!Array.isArray(event.sources) || event.sources.length === 0) problems.push(`${tag} 缺少 sources`);
     if (event.catalogs !== undefined) {
-      if (!Array.isArray(event.catalogs) || event.catalogs.length === 0 || event.catalogs.some((catalog) => catalog !== 'military' && catalog !== 'history')) {
+      if (
+        !Array.isArray(event.catalogs) ||
+        event.catalogs.length === 0 ||
+        event.catalogs.some((catalog) => catalog !== 'military' && catalog !== 'history')
+      ) {
         problems.push(`${tag} catalogs 无效`);
       }
     }
     if (Array.isArray(line.range) && line.range.length === 2) {
       if (event.year < line.range[0] || event.year > line.range[1]) problems.push(`${tag} 超出事件线范围`);
-      if (event.endYear !== undefined && (event.endYear < line.range[0] || event.endYear > line.range[1])) problems.push(`${tag} endYear 超出事件线范围`);
+      if (event.endYear !== undefined && (event.endYear < line.range[0] || event.endYear > line.range[1]))
+        problems.push(`${tag} endYear 超出事件线范围`);
     }
   }
 
@@ -71,7 +85,8 @@ export function validateEventLine(line: EventLineView, expectedId?: string): str
     }
     if (segmentIds.has(segment.id)) problems.push(`${tag} id 重复`);
     segmentIds.add(segment.id);
-    if (!Number.isFinite(segment.from) || !Number.isFinite(segment.to) || segment.from >= segment.to) problems.push(`${tag} 时间范围无效`);
+    if (!Number.isFinite(segment.from) || !Number.isFinite(segment.to) || segment.from >= segment.to)
+      problems.push(`${tag} 时间范围无效`);
     if (!Array.isArray(segment.events)) {
       problems.push(`${tag} events 不是数组`);
       continue;
@@ -85,9 +100,13 @@ export function validateEventLine(line: EventLineView, expectedId?: string): str
     if (!event || typeof event !== 'object' || typeof event.id !== 'string') continue;
     const membership = segmentMembership.get(event.id) ?? 0;
     if (membership !== 1) problems.push(`事件 ${event.id} 应恰好属于一个分段，实际 ${membership}`);
-    const segment = segmentRows.find((candidate) => (
-      candidate && typeof candidate === 'object' && Array.isArray(candidate.events) && candidate.events.includes(event.id)
-    ));
+    const segment = segmentRows.find(
+      (candidate) =>
+        candidate &&
+        typeof candidate === 'object' &&
+        Array.isArray(candidate.events) &&
+        candidate.events.includes(event.id),
+    );
     if (segment && (event.year < segment.from || event.year > segment.to)) {
       problems.push(`事件 ${event.id} 的年份不在所属分段范围内`);
     }
@@ -315,7 +334,10 @@ export function validateCatalog(catalog: Catalog): string[] {
   return problems;
 }
 
-export function filterTopics(catalog: Catalog, filters: { region: string | null; era: string | null; theme: string | null }): Catalog['topics'] {
+export function filterTopics(
+  catalog: Catalog,
+  filters: { region: string | null; era: string | null; theme: string | null },
+): Catalog['topics'] {
   return catalog.topics.filter((item) => {
     if (filters.region && item.region !== filters.region) return false;
     if (filters.era && !item.eras.includes(filters.era)) return false;

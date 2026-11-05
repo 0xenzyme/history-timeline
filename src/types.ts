@@ -44,13 +44,7 @@ export interface SourceRef {
   kind?: 'classic' | 'modern' | 'database';
 }
 
-export type EventType =
-  | 'military'
-  | 'political'
-  | 'rebellion'
-  | 'institutional'
-  | 'diplomatic'
-  | 'cultural';
+export type EventType = 'military' | 'political' | 'rebellion' | 'institutional' | 'diplomatic' | 'cultural';
 
 /** 军事事件的规模。仅 type=military 时有值。 */
 export type EventScale = 'war' | 'campaign' | 'battle' | 'engagement';

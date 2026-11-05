@@ -1,12 +1,5 @@
 import { loadCatalog, loadLine, loadSearchIndex, loadTopic } from '../loader';
-import type {
-  Catalog,
-  CatalogEntry,
-  DynastyTerm,
-  EventRecord,
-  SearchRecord,
-  Topic,
-} from '../types';
+import type { Catalog, CatalogEntry, DynastyTerm, EventRecord, SearchRecord, Topic } from '../types';
 
 export type LineId = 'people' | 'military' | 'history';
 export type TimeLineId = 'military' | 'history';
@@ -31,10 +24,10 @@ export interface Library {
   dynasties: DynastyTerm[];
   categoryNames: Map<string, string>;
   polityNames: Map<string, string>;
-  /** 跨专题人物瘦索引。人物卡与事件卡用它把 id 换成姓名。 */
+  /** 跨专题人物瘦索引。人物卡、事件卡与检索用它把 id 换成姓名。 */
+  people: SearchRecord[];
   personById: Map<string, SearchRecord>;
   topicCache: Map<string, Topic>;
-  search: SearchRecord[] | null;
 }
 
 interface EventLineViewLike {
@@ -47,15 +40,15 @@ interface EventLineViewLike {
 }
 
 export async function createLibrary(): Promise<Library> {
-  const [catalog, military, history, search] = await Promise.all([
+  const [catalog, military, history, people] = await Promise.all([
     loadCatalog(dataUrl('index.json')),
     loadLine(dataUrl('military.json'), 'military'),
     loadLine(dataUrl('history.json'), 'history'),
-    loadSearchIndex(dataUrl('search.json')),
+    loadSearchIndex(dataUrl('people.json')),
   ]);
 
   const personById = new Map<string, SearchRecord>();
-  for (const record of search) {
+  for (const record of people) {
     if (record.kind === 'event') continue;
     if (!personById.has(record.id)) personById.set(record.id, record);
   }
@@ -107,9 +100,9 @@ export async function createLibrary(): Promise<Library> {
     dynasties: history.dynasties.length > 0 ? history.dynasties : military.dynasties,
     categoryNames: new Map(catalog.categories.map((term) => [term.id, term.name])),
     polityNames: new Map((catalog.polities ?? []).map((term) => [term.id, term.name])),
+    people,
     personById,
     topicCache: new Map(),
-    search,
   };
 }
 
@@ -173,9 +166,8 @@ function topicRange(library: Library, entry: CatalogEntry): [number, number] | n
   const eras = eraIds
     .map((eraId) => library.dynasties.find((item) => item.id === eraId))
     .filter((item): item is DynastyTerm => Boolean(item));
-  const range: [number, number] | null = eras.length > 0
-    ? [Math.min(...eras.map((item) => item.from)), Math.max(...eras.map((item) => item.to))]
-    : null;
+  const range: [number, number] | null =
+    eras.length > 0 ? [Math.min(...eras.map((item) => item.from)), Math.max(...eras.map((item) => item.to))] : null;
   rangeCache.set(entry.id, range);
   return range;
 }

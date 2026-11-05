@@ -9,7 +9,8 @@
 1. 使用 Node.js 22 或更高版本。
 2. 安装依赖：`npm ci`。
 3. 启动开发服务器：`npm run dev`。
-4. 提交前运行：`npm run build`。
+4. 可选：运行 `npm run hooks:install`，把 `.githooks` 设为 `core.hooksPath`，提交前自动检查格式。
+5. 提交前运行：`npm test`、`npm run format:check` 和 `npm run build`。
 
 不要手改 `public/data/`、`content/<topic>.md` 或 `content/events.md`。它们由项目命令生成。
 

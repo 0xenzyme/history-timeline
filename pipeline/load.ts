@@ -42,7 +42,11 @@ export function loadPipeline(root: string): PipelineData {
   const personPaths = new Map<string, string>();
   for (const file of listJsonFiles(join(root, 'registry/people'))) {
     const person = readJson<RegistryPerson>(file);
-    const expectedId = file.replace(/\\/g, '/').split('/').pop()?.replace(/\.json$/, '');
+    const expectedId = file
+      .replace(/\\/g, '/')
+      .split('/')
+      .pop()
+      ?.replace(/\.json$/, '');
     if (!person.id) throw new Error(`${file} 缺少 id`);
     if (expectedId && person.id !== expectedId) {
       throw new Error(`${file} 的 id ${person.id} 与文件名不一致`);

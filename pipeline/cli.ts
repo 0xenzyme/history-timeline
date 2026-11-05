@@ -11,8 +11,7 @@ import {
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { CONTRACT_VERSION } from '../src/types';
-import { compileAll, compileSearch, toPrettyJson } from './compile';
+import { compileAll, compilePeopleIndex, toPrettyJson } from './compile';
 import { checkLegacyEventManifest } from './event-migration';
 import { EventMarkdownError } from './event-md';
 import { lintPipeline, summarizeRoster } from './lint';
@@ -28,7 +27,13 @@ const checkOnly = process.argv.includes('--check');
 function reportOrphans(lints: LintMessage[]): void {
   const ids = lints
     .filter((item) => item.message.includes('未被任何专题收录'))
-    .map((item) => item.path.split('/').pop()?.replace(/\.(json|md)$/, '') ?? item.path);
+    .map(
+      (item) =>
+        item.path
+          .split('/')
+          .pop()
+          ?.replace(/\.(json|md)$/, '') ?? item.path,
+    );
   if (ids.length === 0) return;
   console.warn(`已登记但未被任何专题收录（${ids.length} 人）：${ids.join(' ')}`);
 }
@@ -44,7 +49,10 @@ function reportAndExit(errors: string[], warnings: string[]): void {
 function main(): void {
   const migrationProblems = checkLegacyEventManifest(pipelineRoot);
   if (migrationProblems.length > 0) {
-    reportAndExit(migrationProblems.map((problem) => `error pipeline/events-migration-manifest.json: ${problem}`), []);
+    reportAndExit(
+      migrationProblems.map((problem) => `error pipeline/events-migration-manifest.json: ${problem}`),
+      [],
+    );
   }
   let data: PipelineData;
   try {
@@ -70,8 +78,7 @@ function main(): void {
 
   const files: Array<[string, unknown]> = [
     ['index.json', catalog],
-    ['search.json', compileSearch(topics, events)],
-    ['events.json', { contractVersion: CONTRACT_VERSION, events }],
+    ['people.json', compilePeopleIndex(topics)],
     ...lines.map((line) => [`${line.id}.json`, line] as [string, unknown]),
     ...topics.map((topic) => [`${topic.meta.id}.json`, topic] as [string, unknown]),
   ];

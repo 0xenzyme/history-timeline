@@ -80,7 +80,12 @@ function sha256(path: string): string {
 function vocabIds(name: string): Set<string> {
   const rows = readJson(join(pipelineRoot, 'vocab', name));
   if (!Array.isArray(rows)) throw new Error(`词表 ${name} 不是列表`);
-  return new Set(rows.filter(isRecord).map((row) => row.id).filter((id): id is string => typeof id === 'string'));
+  return new Set(
+    rows
+      .filter(isRecord)
+      .map((row) => row.id)
+      .filter((id): id is string => typeof id === 'string'),
+  );
 }
 
 function personIds(): Set<string> {
@@ -109,24 +114,28 @@ function parseManifest(path: string): DraftManifest {
   }
   if (!existsSync(full)) throw new Error(`找不到 manifest：${path}`);
   const raw = readJson(full);
-  if (!isRecord(raw)
-    || raw.schemaVersion !== 1
-    || typeof raw.runId !== 'string'
-    || typeof raw.inputHash !== 'string'
-    || !Number.isInteger(raw.revision)
-    || !Array.isArray(raw.events)
-    || raw.events.length === 0) {
+  if (
+    !isRecord(raw) ||
+    raw.schemaVersion !== 1 ||
+    typeof raw.runId !== 'string' ||
+    typeof raw.inputHash !== 'string' ||
+    !Number.isInteger(raw.revision) ||
+    !Array.isArray(raw.events) ||
+    raw.events.length === 0
+  ) {
     throw new Error('draft manifest 必须包含 schemaVersion=1、runId、inputHash、revision 和非空 events');
   }
   const events: DraftManifestEntry[] = [];
   const seen = new Set<string>();
   for (const item of raw.events) {
-    if (!isRecord(item)
-      || typeof item.id !== 'string'
-      || !EVENT_ID_PATTERN.test(item.id)
-      || typeof item.path !== 'string'
-      || typeof item.sha256 !== 'string'
-      || !/^[a-f0-9]{64}$/.test(item.sha256)) {
+    if (
+      !isRecord(item) ||
+      typeof item.id !== 'string' ||
+      !EVENT_ID_PATTERN.test(item.id) ||
+      typeof item.path !== 'string' ||
+      typeof item.sha256 !== 'string' ||
+      !/^[a-f0-9]{64}$/.test(item.sha256)
+    ) {
       throw new Error('draft manifest 的每一项必须包含合法 id、path 和 sha256');
     }
     if (seen.has(item.id)) throw new Error(`manifest 中事件 id 重复：${item.id}`);
@@ -162,7 +171,11 @@ function manifestErrors(manifest: DraftManifest): LintMessage[] {
     try {
       full = eventPath(entry);
     } catch (error) {
-      messages.push({ level: 'error', path: entry.path, message: error instanceof Error ? error.message : String(error) });
+      messages.push({
+        level: 'error',
+        path: entry.path,
+        message: error instanceof Error ? error.message : String(error),
+      });
       continue;
     }
     if (seenPaths.has(full)) {
@@ -176,7 +189,11 @@ function manifestErrors(manifest: DraftManifest): LintMessage[] {
     }
     const actualHash = sha256(full);
     if (actualHash !== entry.sha256) {
-      messages.push({ level: 'error', path: entry.path, message: `文件 hash 已变化：expected=${entry.sha256} actual=${actualHash}` });
+      messages.push({
+        level: 'error',
+        path: entry.path,
+        message: `文件 hash 已变化：expected=${entry.sha256} actual=${actualHash}`,
+      });
     }
   }
   return messages;
@@ -199,10 +216,8 @@ function publishSourceErrors(event: RegistryEvent, path: string): LintMessage[] 
       message: '[EVENT_PUBLISH_SOURCES] 非军事事件发布前必须有两条不同 work 的独立出处',
     });
   }
-  const hasClassic = sources.some((source) =>
-    source
-    && typeof source === 'object'
-    && (source.kind ?? 'classic') === 'classic',
+  const hasClassic = sources.some(
+    (source) => source && typeof source === 'object' && (source.kind ?? 'classic') === 'classic',
   );
   if (!hasClassic) {
     messages.push({
@@ -223,14 +238,14 @@ function publishProjection(manifest: DraftManifest): PublishCheckResult {
     ...manifestMessages,
     ...files.flatMap((file) => file.messages.filter((message) => message.level === 'error')),
   ];
-  const warnings: LintMessage[] = files.flatMap((file) => file.messages.filter((message) => message.level === 'warning'));
+  const warnings: LintMessage[] = files.flatMap((file) =>
+    file.messages.filter((message) => message.level === 'warning'),
+  );
 
   const projected = new Map<string, RegistryEvent>();
   for (const file of files) {
     if (!file.event) continue;
-    const event = selected.has(file.event.id)
-      ? { ...file.event, status: 'published' as const }
-      : file.event;
+    const event = selected.has(file.event.id) ? { ...file.event, status: 'published' as const } : file.event;
     if (event.status !== 'draft' || selected.has(event.id)) projected.set(event.id, event);
     if (selected.has(file.event.id) && file.event.status !== 'draft') {
       errors.push({ level: 'error', path: file.path, message: 'publish manifest 只能选择 status: draft 的事件' });
@@ -248,9 +263,7 @@ function publishProjection(manifest: DraftManifest): PublishCheckResult {
 
   for (const file of files) {
     if (!file.event) continue;
-    const event = selected.has(file.event.id)
-      ? { ...file.event, status: 'published' as const }
-      : file.event;
+    const event = selected.has(file.event.id) ? { ...file.event, status: 'published' as const } : file.event;
     const messages = lintRegistryEvent(event, ctx, file.path);
     for (const message of messages) {
       if (message.level === 'error') errors.push(message);
@@ -286,7 +299,9 @@ function printResult(result: PublishCheckResult, json: boolean): void {
     console.error(`publish preview failed：${result.selectedIds.length} 个 draft，Run ${result.runId ?? '(unknown)'}`);
     return;
   }
-  console.log(`publish preview passed：${result.selectedIds.length} 个 draft，Run ${result.runId ?? '(unknown)'}，revision ${result.revision ?? '(unknown)'}`);
+  console.log(
+    `publish preview passed：${result.selectedIds.length} 个 draft，Run ${result.runId ?? '(unknown)'}，revision ${result.revision ?? '(unknown)'}`,
+  );
 }
 
 const command = process.argv[2];

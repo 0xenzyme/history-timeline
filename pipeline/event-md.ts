@@ -164,7 +164,11 @@ export function parseEventMarkdown(text: string, path: string): EventMarkdownFil
   }
 
   if (!EVENT_TYPES.has(String(record.type))) {
-    messages.push({ level: 'error', path, message: 'type 必须是 military、political、rebellion、institutional、diplomatic 或 cultural' });
+    messages.push({
+      level: 'error',
+      path,
+      message: 'type 必须是 military、political、rebellion、institutional、diplomatic 或 cultural',
+    });
   }
   if (record.scale !== undefined && !EVENT_SCALES.has(String(record.scale))) {
     messages.push({ level: 'error', path, message: 'scale 必须是 war、campaign、battle 或 engagement' });
@@ -321,7 +325,8 @@ export function coerceEventMarkdown(text: string): CoerceEventMarkdown {
   }
   if (record.commanders !== undefined) {
     const commanders = normalizeCommanders(record.commanders);
-    if (!commanders) return { error: 'commanders 必须是字符串 id 或包含 id、side 的字段表列表', dropped, movedDesc: false };
+    if (!commanders)
+      return { error: 'commanders 必须是字符串 id 或包含 id、side 的字段表列表', dropped, movedDesc: false };
     event.commanders = commanders;
   }
 
@@ -389,7 +394,11 @@ export function readEventMarkdown(contentRoot: string): EventMarkdownFile[] {
     const expected = formatEventMarkdown(EVENT_TEMPLATE);
     const actual = readFileSync(templateFull, 'utf8').replace(/\r\n/g, '\n');
     if (actual !== expected) {
-      parsed.messages.push({ level: 'error', path: TEMPLATE_EVENT_PATH, message: '模板与 pipeline/event-md.ts 不一致' });
+      parsed.messages.push({
+        level: 'error',
+        path: TEMPLATE_EVENT_PATH,
+        message: '模板与 pipeline/event-md.ts 不一致',
+      });
     }
     files.push(parsed);
   }
@@ -403,7 +412,9 @@ export function readEventMarkdown(contentRoot: string): EventMarkdownFile[] {
     return files;
   }
 
-  const names = readdirSync(directory).filter((name) => name.endsWith('.md')).sort();
+  const names = readdirSync(directory)
+    .filter((name) => name.endsWith('.md'))
+    .sort();
   const events = names.map((name) => {
     const path = `content/${EVENT_DIR}/${name}`;
     if (name.startsWith('_')) {

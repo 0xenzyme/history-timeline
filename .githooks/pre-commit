@@ -1,0 +1,4 @@
+#!/bin/sh
+# 提交前只校验已纳入格式化的代码；不修改工作区。
+set -e
+npm run format:check
