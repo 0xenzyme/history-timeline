@@ -50,22 +50,22 @@ Status: accepted
 
 - Item: `song-relations`
   - Acceptance: 宋专题里由章节或事件点名、且材料支持叙事边的人已经写入关系；其余人留在底册并记入 `docs/song-relations.md`。
-  - Evidence: `TBD`
+  - Evidence: 待补（尚未提供可核查证据）
   - Status: `pending`
   - Unblocker: `N/A`
 - Item: `qing-seats`
   - Acceptance: 清席位按 `pipeline/PLAYBOOK.md` 跑完，只收有可引用年份的人，并写入 `docs/qing-seats.md`。
-  - Evidence: `TBD`
+  - Evidence: 待补（尚未提供可核查证据）
   - Status: `pending`
   - Unblocker: `N/A`
 - Item: `tang-ming-chancellors`
   - Acceptance: 唐、明宰辅年表已按现有席位说明对读；新入册的人满足席位和年份规则，两份席位说明已更新。
-  - Evidence: `TBD`
+  - Evidence: 待补（尚未提供可核查证据）
   - Status: `pending`
   - Unblocker: `N/A`
 - Item: `content-gate`
   - Acceptance: `npm run content` 已重写生成数据，`npm run content:check` 通过。
-  - Evidence: `TBD`
+  - Evidence: 待补（尚未提供可核查证据）
   - Status: `pending`
   - Unblocker: `N/A`
 
@@ -73,17 +73,17 @@ Status: accepted
 
 - Gate: `spec`
   - Required: `yes`
-  - Evidence: `TBD`
+  - Evidence: 待补（尚未提供可核查证据）
   - Status: `pending`
   - Unblocker: `N/A`
 - Gate: `execution`
   - Required: `yes`
-  - Evidence: `TBD`
+  - Evidence: 待补（尚未提供可核查证据）
   - Status: `pending`
   - Unblocker: `N/A`
 - Gate: `integration`
   - Required: `yes`
-  - Evidence: `TBD`
+  - Evidence: 待补（尚未提供可核查证据）
   - Status: `pending`
   - Unblocker: `N/A`
 
