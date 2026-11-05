@@ -64,6 +64,12 @@ git diff --stat public/data
 - 插入 SVG 或 HTML 前必须转义数据文本。
 - 界面改动需检查深链、内容线切换、专题、搜索、详情卡、泳道、事件条、缩放平移和 PNG/SVG 导出，并在 PR 中附截图或短录屏。
 
+## 依赖维护
+
+- 依赖采用手动升级：发布新版本前运行 `npm outdated` 与 `npm audit --omit=dev`，评估后集中升级，不在功能 PR 里顺带升主版本。
+- Dependabot 只保留安全告警（见仓库 Security 页），不自动开升级 PR；CI 中 `npm audit --omit=dev --audit-level=moderate` 是生产依赖的门禁。
+- npmmirror 等镜像未实现 npm audit 端点，本地运行 `npm audit` 报错时，请指定官方源：`npm audit --omit=dev --registry=https://registry.npmjs.org`。
+
 ## 内容告警
 
 `npm run build` 是必须通过的门禁，但现有内容仍会产生 warning。warning 不会被自动视为史实错误，常见类型包括：
