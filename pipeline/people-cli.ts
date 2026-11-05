@@ -85,11 +85,12 @@ function commandCheck(): void {
 function rewriteTopicIndex(topic: TopicIndexContext): boolean {
   const directory = join(contentRoot, topic.id);
   if (!existsSync(directory)) return false;
-  const names = readdirSync(directory).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
-  const files = names.map((name) => parsePersonMarkdown(
-    readFileSync(join(directory, name), 'utf8'),
-    `content/${topic.id}/${name}`,
-  ));
+  const names = readdirSync(directory)
+    .filter((name) => name.endsWith('.md') && !name.startsWith('_'))
+    .sort();
+  const files = names.map((name) =>
+    parsePersonMarkdown(readFileSync(join(directory, name), 'utf8'), `content/${topic.id}/${name}`),
+  );
   const rows = topicIndexRows(topic.people, files);
   if (!rows) return false;
   const next = formatTopicIndex(topic.id, topic.title, rows);
@@ -104,12 +105,20 @@ function rewriteTopicIndex(topic: TopicIndexContext): boolean {
 function commandFormat(): void {
   const topics = topicContexts();
   let changed = 0;
-  const plans: Array<{ path: string; full: string; original: string; formatted: string; result: ReturnType<typeof coercePersonMarkdown> }> = [];
+  const plans: Array<{
+    path: string;
+    full: string;
+    original: string;
+    formatted: string;
+    result: ReturnType<typeof coercePersonMarkdown>;
+  }> = [];
   let failed = false;
   for (const topic of topics) {
     const directory = join(contentRoot, topic.id);
     if (!existsSync(directory)) continue;
-    const names = readdirSync(directory).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
+    const names = readdirSync(directory)
+      .filter((name) => name.endsWith('.md') && !name.startsWith('_'))
+      .sort();
     for (const name of names) {
       const path = `content/${topic.id}/${name}`;
       const full = join(directory, name);
@@ -170,8 +179,10 @@ function commandNew(topicId: string | undefined, id: string | undefined): void {
   console.log('这是简表骨架。改 name、display、gender、polity 和出处，并补上至少一个年份。模板里的占位不能编译上轴。');
 }
 
-const command = process.argv[2];
-if (command === 'check') commandCheck();
-else if (command === 'format') commandFormat();
-else if (command === 'new') commandNew(process.argv[3], process.argv[4]);
-else usage();
+export function runPeopleCommand(argv: string[]): void {
+  const command = argv[0];
+  if (command === 'check') commandCheck();
+  else if (command === 'format') commandFormat();
+  else if (command === 'new') commandNew(argv[1], argv[2]);
+  else usage();
+}

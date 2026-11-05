@@ -89,7 +89,9 @@ function commandCheck(): void {
 
 function rewriteEventIndex(): boolean {
   if (!existsSync(eventDir)) return false;
-  const names = readdirSync(eventDir).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
+  const names = readdirSync(eventDir)
+    .filter((name) => name.endsWith('.md') && !name.startsWith('_'))
+    .sort();
   const files = names.map((name) =>
     parseEventMarkdown(readFileSync(join(eventDir, name), 'utf8'), `content/${EVENT_DIR}/${name}`),
   );
@@ -110,8 +112,16 @@ function commandFormat(): void {
     process.exit(1);
   }
   let changed = 0;
-  const plans: Array<{ path: string; full: string; original: string; formatted: string; result: ReturnType<typeof coerceEventMarkdown> }> = [];
-  const names = readdirSync(eventDir).filter((name) => name.endsWith('.md') && !name.startsWith('_')).sort();
+  const plans: Array<{
+    path: string;
+    full: string;
+    original: string;
+    formatted: string;
+    result: ReturnType<typeof coerceEventMarkdown>;
+  }> = [];
+  const names = readdirSync(eventDir)
+    .filter((name) => name.endsWith('.md') && !name.startsWith('_'))
+    .sort();
   let failed = false;
   for (const name of names) {
     const path = `content/${EVENT_DIR}/${name}`;
@@ -159,11 +169,15 @@ function commandNew(id: string | undefined): void {
   writeFileSync(target, formatEventMarkdown(event));
   rewriteEventIndex();
   console.log(`已写 content/${EVENT_DIR}/${id}.md`);
-  console.log('这是 draft 会战骨架，不会编译上轴。改 name、place、belligerents 和出处，通过 publish gate 后再将 status 改为 published；换 type 时同步改 scale 与必填字段。模板里的占位不能发布。');
+  console.log(
+    '这是 draft 会战骨架，不会编译上轴。改 name、place、belligerents 和出处，通过 publish gate 后再将 status 改为 published；换 type 时同步改 scale 与必填字段。模板里的占位不能发布。',
+  );
 }
 
-const command = process.argv[2];
-if (command === 'check') commandCheck();
-else if (command === 'format') commandFormat();
-else if (command === 'new') commandNew(process.argv[3]);
-else usage();
+export function runEventsCommand(argv: string[]): void {
+  const command = argv[0];
+  if (command === 'check') commandCheck();
+  else if (command === 'format') commandFormat();
+  else if (command === 'new') commandNew(argv[1]);
+  else usage();
+}
