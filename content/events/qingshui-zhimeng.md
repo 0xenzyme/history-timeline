@@ -1,0 +1,30 @@
+---
+id: qingshui-zhimeng
+status: published
+name: 清水会盟与平凉劫盟
+type: diplomatic
+catalogs:
+  - history
+importance: 2
+year: 783
+yearAccuracy: exact
+place: 平凉川
+polity:
+  - tang
+result: 唐蕃约定停战和好，但吐蕃随后劫持盟使，和约未能稳定执行
+aliases:
+  - 清水会盟
+  - 平凉会盟
+  - 平凉劫盟
+sources:
+  - work: 旧唐书
+    part: 卷十二·德宗本纪
+    note: 贞元三年五月遣浑瑊赴盟，十月于平凉会盟并遭劫
+    kind: classic
+  - work: 新唐书
+    part: 卷二百一十六下·吐蕃传
+    note: 记贞元三年唐蕃议盟、改盟地及后续关系
+    kind: classic
+---
+
+783 年，唐与吐蕃议定会盟，盟地由清水改至平凉川，唐使浑瑊与吐蕃宰相尚结赞举行盟誓。会盟后吐蕃军劫持唐方将吏，浑瑊逃脱，唐廷遣使责问而未获回应；这次事件显示唐蕃边境和约缺少稳定的执行条件。

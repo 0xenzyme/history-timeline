@@ -1,0 +1,38 @@
+---
+id: zhuge-liang-nanzheng
+status: published
+name: 诸葛亮南征
+type: military
+catalogs:
+  - military
+  - history
+scale: campaign
+importance: 2
+year: 225
+yearAccuracy: exact
+yearNote: 三国志·诸葛亮传「三年春，亮率眾南征……其秋悉平」；通鉴卷70同系225年。出兵月正文无明文，通行系于春；「十二月还成都」出自汉晋春秋系统，正文无。
+place: 南中（越巂、益州、牂柯、永昌）
+placeNow: 今云南中东部、贵州西部及四川西南部
+belligerents:
+  - shu
+  - minbian
+commanders:
+  - id: zhuge-liang
+    side: shu
+people:
+  - zhuge-liang
+  - ma-zhong
+result: 诸葛亮三路入南中，秋平四郡，即其渠率而用之，得金银耕牛战马以给军国，终亮之世夷不复反
+aliases:
+  - 南中平定战
+  - 南征南中
+sources:
+  - work: 三国志
+    part: 蜀书·诸葛亮传
+    kind: classic
+  - work: 资治通鉴
+    part: 卷七十
+    kind: classic
+---
+
+225 年春诸葛亮率众南征，三路入南中：亮由越巂入，斩雍闿、高定；马忠攻牂柯，李恢攻益州郡。其秋四郡悉平，亮收孟获，「七擒七纵」之说出自裴注引《汉晋春秋》，正文无。即其渠率而用之，得金银、耕牛、战马以给军国，国以富饶，自是终亮之世夷不复反，北伐后方由此安定。

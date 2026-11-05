@@ -1,0 +1,34 @@
+---
+id: houdang-mie-qianshu
+status: published
+name: 后唐灭前蜀
+type: military
+catalogs:
+  - military
+  - history
+scale: campaign
+importance: 3
+year: 925
+yearAccuracy: exact
+yearNote: 资治通鉴卷273系议伐蜀于同光三年九月丁酉（925）；旧五代史卷33系十月戊寅西征之师入大散关、十一月丙辰蜀主王衍出降、丁巳大军入成都，自兴师凡七十五日。十一月丙辰已近公历925年末，campaign 取 year 925，不设 endYear。
+place: 成都
+placeNow: 四川省成都市
+belligerents:
+  - hou-tang
+  - shiguo
+result: 同光三年九月议伐蜀、十月入大散关，十一月丙辰王衍出降、丁巳入成都，自兴师凡七十五日，前蜀亡；战后孟知祥镇西川，埋下后蜀之基。
+aliases:
+  - 同光伐蜀
+  - 郭崇韬伐蜀
+sources:
+  - work: 资治通鉴
+    part: 卷二七三 后唐纪二 同光二年—三年
+    note: 同光三年九月丁酉，帝与宰相议伐蜀，以皇子魏王继岌为伐蜀都统
+    kind: classic
+  - work: 旧五代史
+    part: 卷三三 唐书·庄宗纪七 同光三年
+    note: 十月戊寅西征之师入大散关；十一月乙卯魏王至西川城北，丙辰蜀主王衍出降，丁巳大军入成都，自兴师凡七十五日
+    kind: classic
+---
+
+同光三年（925）九月丁酉，后唐庄宗与宰相议伐蜀，以皇子魏王李继岌为都统、郭崇韬为东北面行营都招讨；十月戊寅西征之师入大散关，十一月丙辰蜀主王衍出降，丁巳大军入成都，自兴师凡七十五日，前蜀亡。后唐疆域至此达于极盛。战后孟知祥镇西川，埋下后蜀之基；灭蜀功赏之争激化庄宗末年内乱。

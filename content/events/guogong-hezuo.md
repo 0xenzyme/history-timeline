@@ -1,0 +1,29 @@
+---
+id: guogong-hezuo
+status: published
+name: 第一次国共合作
+type: diplomatic
+catalogs:
+  - history
+importance: 2
+year: 1924
+yearAccuracy: exact
+yearNote: 以1924年1月20日至30日中国国民党第一次全国代表大会召开为正式形成标志；1927年四一二、七一五后合作破裂（破裂另列），本条不设 endYear
+place: 广州
+placeNow: 广东省广州市
+polity:
+  - minguo
+result: 国民党改组，苏联援助与共产党人加入形成国民革命联合阵线，为北伐奠定组织基础
+aliases:
+  - 国共合作
+  - 联俄容共
+sources:
+  - work: 中国大百科全书（第三版网络版）
+    part: 条目「中国国民党第一次全国代表大会」
+    kind: modern
+  - work: The Cambridge History of China, Vol.12 Part 1
+    part: Ch.11 The Nationalist Revolution, from Canton to Nanking, 1923-28, pp.527-720
+    kind: modern
+---
+
+1924年1月20日至30日，中国国民党第一次全国代表大会在广州召开，第一次国共合作正式形成，共产党员以个人身份加入国民党。国民党由此改组，苏联援助与共产党人加入形成国民革命联合阵线，为此后的北伐奠定组织基础。

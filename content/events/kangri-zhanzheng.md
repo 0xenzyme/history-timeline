@@ -1,0 +1,36 @@
+---
+id: kangri-zhanzheng
+status: published
+name: 抗日战争
+type: military
+catalogs:
+  - military
+  - history
+scale: war
+importance: 3
+year: 1937
+yearAccuracy: exact
+yearNote: 全面抗战起点为1937年7月7日卢沟桥事变；1931年起的局部抗战以九一八事变另列；终点1945年（8月15日日本宣布投降，9月2日签署降书）
+endYear: 1945
+endYearAccuracy: exact
+belligerents:
+  - minguo
+  - riben
+result: 1945年日本投降，中国收回台湾，成为联合国创始会员国
+aliases:
+  - 全面抗战
+  - 抗日战争（全面）
+  - 中国抗日战争
+sources:
+  - work: The Cambridge History of China, Vol.13 Part 2
+    part: Ch.11 Nationalist China during the Sino-Japanese War 1937-1945, pp.547-608
+    kind: modern
+  - work: The Cambridge History of China, Vol.13 Part 2
+    part: Ch.10 Japanese aggression and China's international position 1931-1949, pp.492-546
+    kind: modern
+  - work: 中国大百科全书（第三版网络版）
+    part: 条目「七七事变」
+    kind: modern
+---
+
+1937年7月7日，卢沟桥事变爆发，中国进入全面抗战，国民政府领导抗战，国共合作抗日。1945年8月15日，日本宣布投降；9月2日签署降书，战争结束。中国收回台湾，并成为联合国创始会员国。

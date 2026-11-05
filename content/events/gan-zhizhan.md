@@ -1,0 +1,32 @@
+---
+id: gan-zhizhan
+status: published
+name: 甘之战
+type: military
+catalogs:
+  - military
+  - history
+scale: battle
+importance: 2
+year: -2060
+yearAccuracy: approx
+yearNote: 《今本竹书纪年》系于帝启二年前后，《尚书序》记启与有扈氏战于甘之野。夏初无绝对年代锚点，前2060是据断代工程夏始约前2070推算的占位年，无文献明文。
+place: 甘
+placeNow: 今陕西西安鄠邑区一带（有扈在始平鄠县之说；甘之地望另有河南原阳等异说）
+belligerents:
+  - xia
+  - youhu
+result: 启胜，有扈氏被征服；王位世袭制以武力确立，禅让制终结。
+aliases:
+  - 启伐有扈
+  - 甘之野之战
+sources:
+  - work: 今本竹書紀年疏證
+    part: 卷上 帝啓
+    kind: classic
+  - work: 尚書
+    part: 甘誓
+    kind: classic
+---
+
+启帅师伐有扈氏，大战于甘，启胜而有扈氏被征服。此战以武力确立了王位世袭，禅让制随之终结。甘与有扈氏的地望有异说；前2060为推算的占位年，无文献明文，不能当作确年。
