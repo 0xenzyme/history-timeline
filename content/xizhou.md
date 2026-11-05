@@ -122,3 +122,14 @@
 | [wei-zhenbo](xizhou/wei-zhenbo.md) | 卫贞伯 | 卫贞伯 | full |
 | [guo-jizibai](xizhou/guo-jizibai.md) | 虢季子白 | 虢季子白 | full |
 | [e-hou-yufang](xizhou/e-hou-yufang.md) | 鄂侯驭方 | 鄂侯驭方 | full |
+| [cai-daihou](xizhou/cai-daihou.md) | 蔡戴侯 | 蔡戴侯 | brief |
+| [cai-gonghou](xizhou/cai-gonghou.md) | 蔡共侯 | 蔡共侯 | brief |
+| [cao-mugong](xizhou/cao-mugong.md) | 曹缪公 | 曹缪公 | brief |
+| [cao-xiaobo](xizhou/cao-xiaobo.md) | 曹孝伯 | 曹孝伯 | brief |
+| [chen-wengong](xizhou/chen-wengong.md) | 陈文公 | 陈文公 | brief |
+| [gong-bo](xizhou/gong-bo.md) | 公伯 | 公伯 | brief |
+| [qi-aigong](xizhou/qi-aigong.md) | 齐哀公 | 齐哀公 | brief |
+| [qin-fei](xizhou/qin-fei.md) | 非子 | 秦嬴（非子） | brief |
+| [qin-hou](xizhou/qin-hou.md) | 秦侯 | 秦侯 | brief |
+| [song-wugong](xizhou/song-wugong.md) | 宋武公 | 宋武公 | brief |
+| [yan-aihou](xizhou/yan-aihou.md) | 燕哀侯 | 燕哀侯 | brief |
