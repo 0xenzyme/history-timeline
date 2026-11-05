@@ -4,7 +4,7 @@
 
 四千年中国历史人物与事件，放在同一条可缩放、可检索的时间轴上。
 
-在线地址：<https://history.0xenzme.dev>  
+在线地址：<https://history.0xenzyme.dev>  
 代码仓库：<https://github.com/0xenzyme/history-timeline>
 
 ![历史时间轴界面](public/images/history-timeline.png)
