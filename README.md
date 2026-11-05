@@ -86,6 +86,8 @@ npm run content:check              # 校验编译结果，不重写文件
 请先阅读 [贡献指南](CONTRIBUTING.md)。提交前应运行：
 
 ```bash
+npm test
+npm run format:check
 npm run build
 ```
 
