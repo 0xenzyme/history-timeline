@@ -1,3 +1,469 @@
 {
-  "people": []
+  "people": [
+    {
+      "id": "liu-shu",
+      "name": "刘恕",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "活动年 1065，approx。锚点：「司馬光編次《資治通鑒》，英宗命自擇館閣英才共修之」raw/宋/宋史/卷444.md:78",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "文苑六",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xiong-ke",
+      "name": "熊克",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "活动年 1147，approx。锚点：「紹興中進士第」raw/宋/宋史/卷445.md:113",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "文苑七",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "wang-huaiyin",
+      "name": "王怀隐",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "活动年 978，approx。锚点：「賜名曰《太平聖惠方》，仍令鏤板頒行天下」raw/宋/宋史/卷461.md:98",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "方技上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qian-yi",
+      "name": "钱乙",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "活动年 1080，approx。锚点：「乙始以《顱䪿方》著名，至京師視長公主女疾」raw/宋/宋史/卷462.md:63",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "方技下",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhao-biyuan",
+      "name": "赵必愿",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "无王爵，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-shanxiang",
+      "name": "赵善湘",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "无王爵，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-yanyu",
+      "name": "赵彦逾",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "无王爵，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-xun",
+      "name": "赵询",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "纯储君未见争夺，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-qi-kin",
+      "name": "赵愭",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "纯储君未见争夺，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-zichen",
+      "name": "赵谌",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "纯储君未见争夺，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-zisong",
+      "name": "赵子崧",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "非亲王，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-yuanyan",
+      "name": "赵元俨",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "未涉储位/起兵/出镇，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhao-yunrang",
+      "name": "赵允让",
+      "seat": "kin",
+      "status": "rejected",
+      "reason": "未涉储位/起兵/出镇，未占宗室席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "chengmu-guo-huanghou",
+      "name": "成穆郭皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "li-chenfei",
+      "name": "李宸妃",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhangmu-guo-huanghou",
+      "name": "章穆郭皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "xiangong-wang-huanghou",
+      "name": "显恭王皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "gongshu-han-huanghou",
+      "name": "恭淑韩皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "chenggong-xia-huanghou",
+      "name": "成恭夏皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "qincheng-zhu-huanghou",
+      "name": "钦成朱皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "qinci-chen-huanghou",
+      "name": "钦慈陈皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "yuande-li-huanghou",
+      "name": "元德李皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "shude-yin-huanghou",
+      "name": "淑德尹皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "yide-fu-huanghou",
+      "name": "懿德符皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "zhanghuai-pan-huanghou",
+      "name": "章怀潘皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "xiaoming-wang-huanghou",
+      "name": "孝明王皇后",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "追册或早卒，无掌权/废立事迹，未占后妃席位（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "ren-fu",
+      "name": "任福",
+      "seat": "general",
+      "status": "rejected",
+      "reason": "好水川主将，但宋夏三大战未上轴、未改变版图（报告 §4.4）"
+    },
+    {
+      "id": "ge-huaimin",
+      "name": "葛怀敏",
+      "seat": "general",
+      "status": "rejected",
+      "reason": "定川寨主将，未上轴、未改变版图（报告 §4.4）"
+    },
+    {
+      "id": "xu-lie-wu",
+      "name": "旭烈兀",
+      "seat": "rival",
+      "status": "rejected",
+      "reason": "西征对象非宋（报告 §4.4 不收）"
+    },
+    {
+      "id": "shi-liemen",
+      "name": "失烈门",
+      "seat": "rival",
+      "status": "rejected",
+      "reason": "储位之争，未与宋交兵（报告 §4.4 不收）"
+    },
+    {
+      "id": "du-chong",
+      "name": "杜充",
+      "seat": "rival",
+      "status": "rejected",
+      "reason": "降敌留守，无独立政权（报告 §4.4 不收）"
+    },
+    {
+      "id": "yelv-chun",
+      "name": "耶律淳",
+      "seat": "rival",
+      "status": "rejected",
+      "reason": "北辽流亡政权，是否算标准序列待议（报告 §4.4 不收）"
+    },
+    {
+      "id": "xiao-defei",
+      "name": "萧德妃",
+      "seat": "rival",
+      "status": "rejected",
+      "reason": "北辽流亡政权，是否算标准序列待议（报告 §4.4 不收）"
+    },
+    {
+      "id": "wanyan-yongji",
+      "name": "完颜永济",
+      "seat": "rival",
+      "status": "rejected",
+      "reason": "对手为蒙古，非宋方（报告 §4.4 不收）"
+    },
+    {
+      "id": "li-du",
+      "name": "李渎",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "xing-dun",
+      "name": "邢敦",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "gao-yi",
+      "name": "高怿",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "xu-fu-song",
+      "name": "徐复",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "liu-mianzhi",
+      "name": "刘勉之",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "hu-xian",
+      "name": "胡宪",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "sun-shourong",
+      "name": "孙守荣",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "shayi-daoren",
+      "name": "莎衣道人",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "su-chengyin",
+      "name": "苏澄隐",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "ding-shaowei",
+      "name": "丁少微",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "shamen-hongyun",
+      "name": "沙门洪蕴",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "seng-huaibing",
+      "name": "僧怀丙",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "无传世作品门槛（报告 §4.4 席位不足）"
+    },
+    {
+      "id": "shi-hao",
+      "name": "史浩",
+      "seat": "chancellor",
+      "status": "rejected",
+      "anchor": "执政任上无跨三个年头之任：参知政事 1162.8—1163.1、右仆射 1163.1—隆兴元年五月罢，只跨绍兴三十二、隆兴元两个年头；淳熙五年（1178）右丞相一任三月—十一月更短。原文：「己巳，以翰林學士史浩爲參知政事」raw/宋/宋史/卷033.md:29；「五月，史浩罷右僕射」raw/宋/宋史/卷213.md:52；卒 1194（「紹熙五年薨，年八十九」raw/宋/宋史/卷396.md:33）",
+      "reason": "宰执任期不足三个年头：表、本纪只有 1162.8—1163.5（绍兴三十二—隆兴元，两个年头）与 1178.3—11（一个年头）两段，虽有卒年可引，但无单任跨三个年头。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "宰辅四",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "孝宗本纪一",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "列传第一百五十五",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "chen-wenlong",
+      "name": "陈文龙",
+      "seat": "chancellor",
+      "status": "rejected",
+      "anchor": "执政两段：1275.7 签书枢密院事兼权参知政事—1276.1 遁（跨德祐元、二年两个年头）；景炎元年五月复除参知政事（「五月乙未……陳文龍、劉黻爲參知政事」raw/宋/宋史/卷047.md:71），与前一任不相接，宋史无系年卒句（本传只作「械繫送杭州……至杭餓死」）。原文：「七月乙未，陳文龍除簽書樞密院事兼權參知政事」raw/宋/宋史/卷214.md:66；「庚午，同簽書樞密院事黃鏞、參知政事陳文龍遁」raw/宋/宋史/卷047.md:55",
+      "reason": "表系执政任期 1275.7—1276.1 只跨两个年头；景炎复任与前一任相隔，raw 无连续第三个年头可系，且本传无卒年句，补不足「跨三个年头」。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "宰辅五",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "瀛国公本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "忠义六",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jiang-wanli",
+      "name": "江万里",
+      "seat": "chancellor",
+      "status": "rejected",
+      "anchor": "执政三段：1261.8 同签书枢密院事—1261.12 罢；1265.2 进同知枢密院事—1266.1 罢；1269.1 参知政事—1270.1 罢左丞相。卒 1275（德祐元年二月赴水死）。原文：「八月乙巳，江萬里自通奉大夫、守吏部尚書除端明殿學士、同簽書樞密院事」raw/宋/宋史/卷214.md:52；「十二月壬辰，江萬里為光純父所劾」raw/宋/宋史/卷214.md:52；「三月戊辰，江萬里自參知政事進一秩，除左丞相兼樞密使」raw/宋/宋史/卷214.md:60；卒见「故相江萬里赴水死」raw/宋/宋史/卷047.md:31",
+      "reason": "表系三段执政各至多两个年头（1261.8—1261.12；1265.2—1266.1；1269.1—1270.1）。1265 前之签书枢密院事起年 raw 无明文（本纪景定五年十一月只作「召江萬里……赴闕」raw/宋/宋史/卷046.md:19），补不出连续第三个年头。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "宰辅五",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "度宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "瀛国公本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhang-shangying",
+      "name": "张商英",
+      "seat": "chancellor",
+      "status": "rejected",
+      "anchor": "卒 1121（宣和三年），exact；生 1043，approx（据「年七十九」推）。执政两段：尚书右丞 1102.8—尚书左丞 1103.4—1103.8 罢；中书侍郎 1110.2—尚书右仆射 1110.6—1111.8 罢。原文：「張商英自翰林學士、知制誥兼侍讀、修國史、實錄修撰除中大夫、尚書右丞」raw/宋/宋史/卷212.md:32；「八月戊申，張商英自尚書左丞以通議大夫出知亳州」raw/宋/宋史/卷212.md:33；「六月乙亥，張商英自守中書侍郎加通議大夫、守尚書右僕射兼中書侍郎」raw/宋/宋史/卷212.md:40；「宣和三年卒，年七十九」raw/宋/宋史/卷351.md:43",
+      "reason": "两任执政 1102.8—1103.8（崇宁元—二年）、1110.2—1111.8（大观四—政和元年）各只跨两个年头，中间相隔七年，无单任跨三个年头。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "宰辅三",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "列传第一百一十",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "he-li",
+      "name": "何㮚",
+      "seat": "chancellor",
+      "status": "rejected",
+      "anchor": "执政一段：靖康元年三月尚书右丞—八月中书侍郎—十一月罢（提举醴泉观）、同月复除门下侍郎—闰十一月右仆射，至建炎元年陷金。卒 1127，approx（本传「既陷朔庭，㮚仰天大慟，不食而死，年三十九」，靖康二年）。原文：「{上鹵下木}自翰林學士、知制誥除中大夫、尚書右丞」raw/宋/宋史/卷212.md:56；「閏十一月壬辰，{上鹵下木}自守門下侍郎加通奉大夫、右僕射、中書侍郎」raw/宋/宋史/卷212.md:56",
+      "reason": "执政自靖康元年三月至建炎元年只跨靖康元、二两个年头（卷212:56），无第三个年头可系。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "宰辅三",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "列传第一百一十二",
+          "kind": "classic"
+        }
+      ]
+    }
+  ]
 }

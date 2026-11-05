@@ -1,3 +1,256 @@
 {
-  "people": []
+  "people": [
+    {
+      "id": "tu-hu-lu",
+      "name": "禿忽魯",
+      "seat": "chancellor",
+      "status": "rejected",
+      "reason": "宰相表中书右丞相仅皇庆二年正月至十二月（「禿忽魯」raw/元/元史/卷112.md:2645，「（正月至十二月。）」raw/元/元史/卷112.md:2646）至延祐元年正月至二月（「禿忽魯」raw/元/元史/卷112.md:2680，「（正月至二月。）」raw/元/元史/卷112.md:2681），只跨 1313、1314 两个年头。延祐元年十一月已作「以前中書右丞相禿忽魯知樞密院事」（raw/元/元史/卷025.md:41），延祐三年十二月「以知樞密院事禿忽魯為陝西行省左丞相」（raw/元/元史/卷025.md:93），知枢密院事与行省左丞相不在宰相表的中书连续任上。卷134康里禿忽魯「大德七年卒，年四十八」（raw/元/元史/卷134.md:79）未入此表，非此人。"
+    },
+    {
+      "id": "xian-zhen-1263",
+      "name": "線真",
+      "seat": "chancellor",
+      "status": "rejected",
+      "reason": "中書右丞相自中統四年六月拜（「以線真為中書右丞相，塔察兒為中書左丞相」raw/元/元史/卷005.md:56）至至元元年年表列名（raw/元/元史/卷112.md:1133），至元二年年表已列安童等五丞相而無線真（raw/元/元史/卷112.md:1152），卷006:86 亦已作「前中書右丞相」。僅跨 1263、1264 兩個年頭，不足三個年頭；亦無樞密院官等執政職可補（报告 §4.4）"
+    },
+    {
+      "id": "jin-lvxiang",
+      "name": "金履祥",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "约1232–1303，approx。锚点：「大德中卒」raw/元/元史/卷189.md:50",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "儒学一·金履祥",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhang-xu",
+      "name": "张䇓",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "活动年 1270s，approx。锚点：「至元中，行臺中丞呉曼慶聞其名，延致江寧學官」raw/元/元史/卷189.md:33",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "儒学一·张䇓",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "hua-shou",
+      "name": "滑寿",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "卒约1360，approx；生 unknown。锚点：「自滑壽以下五人，皆生於元，至明初始卒」raw/明/明史/卷299.md:38",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "方伎·滑寿",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "liu-yuan-1270",
+      "name": "刘元",
+      "seat": "literati",
+      "status": "pending",
+      "anchor": "活动年 1270s，approx。锚点：「至元中，凡兩都名剎，塑土、範金、摶換為佛像」raw/元/元史/卷203.md:94",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "方技·工艺",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "hu-du-tai",
+      "name": "忽都台",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "宪宗贞节皇后，卷114:28 仅「蚤崩」，无年份锚点（报告 §3.3 不收）"
+    },
+    {
+      "id": "mai-lai-di",
+      "name": "迈来迪",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "明宗贞裕徽圣皇后，卷114:75「生順帝而崩」，无年份锚点（报告 §3.3 不收）"
+    },
+    {
+      "id": "su-ge-shi-li",
+      "name": "速哥失里",
+      "seat": "consort",
+      "status": "rejected",
+      "reason": "武宗后，卷114:55 无年（报告 §3.3 不收）"
+    },
+    {
+      "id": "tian-zhongliang",
+      "name": "田忠良",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "术数无作品门槛（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "jin-dejin",
+      "name": "靳德进",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "术数无作品门槛（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "zhang-kang",
+      "name": "张康",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "术数无作品门槛（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "bi-lan-na-shi-li",
+      "name": "必兰纳识里",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "释老无作品门槛（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "zhang-liusun",
+      "name": "张留孙",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "释老无作品门槛（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "wu-quanjie",
+      "name": "吴全节",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "释老无作品门槛（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "zhao-fu-yuan",
+      "name": "赵复",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "xiao-kuang",
+      "name": "萧𣂏",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "an-xi",
+      "name": "安熙",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "wu-ke",
+      "name": "武恪",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "mu-yinglong",
+      "name": "牟应龙",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "zheng-chusun",
+      "name": "郑滁孙",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "dong-pu",
+      "name": "董朴",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "yuwen-gongliang",
+      "name": "宇文公谅",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "zhang-teli",
+      "name": "张特立",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "wei-fuzhi",
+      "name": "危复之",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "sun-zhe",
+      "name": "孙辙",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "wu-dingweng",
+      "name": "吴定翁",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "cheng-duanli",
+      "name": "程端礼",
+      "seat": "literati",
+      "status": "rejected",
+      "reason": "元史有传但无传世作品门槛，或缺年份锚点（报告 §3.6/§4.4 不收）"
+    },
+    {
+      "id": "peng-yingyu",
+      "name": "彭莹玉",
+      "seat": "end",
+      "status": "rejected",
+      "reason": "元史全无，无行号可追（报告 §4.4 元·群雄不收）"
+    },
+    {
+      "id": "guo-zixing",
+      "name": "郭子兴",
+      "seat": "end",
+      "status": "rejected",
+      "reason": "元史全无，无行号可追（报告 §4.4 元·群雄不收）"
+    },
+    {
+      "id": "he-zhen",
+      "name": "何真",
+      "seat": "end",
+      "status": "rejected",
+      "reason": "元史全无，无行号可追（报告 §4.4 元·群雄不收）"
+    },
+    {
+      "id": "zhang-liangbi",
+      "name": "张良弼",
+      "seat": "end",
+      "status": "rejected",
+      "reason": "仅至正二十一年一任，席位证据薄（报告 §4.4）"
+    }
+  ]
 }
