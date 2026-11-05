@@ -2685,6 +2685,706 @@
         "qi"
       ],
       "gender": "male"
+    },
+    {
+      "id": "jin-jinggong-376",
+      "name": "晋静公",
+      "display": "晋静公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": -376,
+      "deathNote": "两说并列，取前376，不作 exact。赵世家敬侯十一年「魏、韓、趙共滅晉」（raw/先秦-西汉/史記/卷043-趙世家.md:128）；本库赵敬侯前375年卒，十一年即其前一年。晋世家作「靜公二年，魏武侯、韓哀侯、趙敬侯滅晉」（raw/先秦-西汉/史記/卷039-晉世家.md:327），并记孝公九年魏武侯初立、十七年孝公卒而静公立，顺推约前384，与前376差约8年。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lu-qinggong",
+      "name": "鲁顷公",
+      "display": "鲁顷公",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -256,
+      "deathNote": "生卒不详，取前256年为亡国年（非寿数）。据史记·鲁周公世家（raw/先秦-西汉/史記/魯周公世家.md:215）「二十四年，楚考烈王伐滅魯」。同条又言顷公卒于柯，无另年。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "song-kangwang",
+      "name": "宋康王",
+      "display": "宋康王",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -286,
+      "deathNote": "生卒不详，取前286年为被杀之年（非寿数）。据史记·宋微子世家（raw/先秦-西汉/史記/卷038-宋微子世家.md:143）「王偃立四十七年，齊湣王與魏、楚伐宋，殺王偃」。",
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-huaijun",
+      "name": "卫怀君",
+      "display": "卫怀君",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -256,
+      "deathNote": "生卒不详，取前256年为被杀之年（非寿数）。据史记·卫康叔世家（raw/先秦-西汉/史記/卷037-衛康叔世家.md:145）「懷君三十一年，朝魏，魏囚殺懷君」。由元君十四年秦置东郡（本库前242）上推，不另考。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-junjiao",
+      "name": "卫君角",
+      "display": "卫君角",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -209,
+      "deathNote": "生卒不详，取前209年为废黜年（非寿数）。同条先书「君角九年，秦併天下，立爲始皇帝」，继书「二十一年，二世廢君角爲庶人，衞絶祀」（raw/先秦-西汉/史記/卷037-衛康叔世家.md:151）。前209对应二十一年二世废君角，不是九年并天下。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-sijun",
+      "name": "卫嗣君",
+      "display": "卫嗣君",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -287,
+      "deathNote": "生卒不详，取前287年为卒年（非寿数）。据史记·卫康叔世家（raw/先秦-西汉/史記/卷037-衛康叔世家.md:142）「嗣君五年，更貶號曰君，獨有濮陽」。同条「四十二年卒」。绝对年由元君十四年秦置东郡（本库前242）上推，不另考。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wei-yuanjun",
+      "name": "卫元君",
+      "display": "卫元君",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -231,
+      "deathNote": "生卒不详，取前231年为卒年（非寿数）。据史记·卫康叔世家（raw/先秦-西汉/史記/卷037-衛康叔世家.md:148）「二十五年，元君卒，子君角立」。同条元君十四年秦初置东郡，本库系前242，二十五年即前231，不另考。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yue-wuqiang",
+      "name": "越王无彊",
+      "display": "越王无彊",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -333,
+      "deathNote": "生卒不详，取前333年为被杀之年（非寿数）。据史记·越王句践世家（raw/先秦-西汉/史記/卷041-越王句踐世家.md:51）「楚威王興兵而伐之，大敗越，殺王無彊」。楚威王卒年本库前329，此年在其世内；史记无确年。",
+      "polity": [
+        "yue"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-junyi",
+      "name": "郑君乙",
+      "display": "郑君乙",
+      "lane": "ruler",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -375,
+      "deathNote": "生卒不详，取前375年为亡国年（非寿数）。据史记·郑世家（raw/先秦-西汉/史記/卷042-鄭世家.md:148）「二十一年，韓哀侯滅鄭，并其國」。本库韩哀侯前371年卒，灭郑在其世。",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-yuan-mei",
+      "name": "李园妹",
+      "display": "李园妹",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -238,
+      "deathNote": "生卒不详，取前238年为活动年（非寿数）。据史记·春申君列传（raw/先秦-西汉/史記/卷078-春申君列傳.md:57）「李園女弟初幸春申君有身而入之王」。同条考烈王卒、其子立为楚幽王。本库考烈王卒于前238。她本人无卒年。",
+      "polity": [
+        "chu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhao-weihou",
+      "name": "赵威后",
+      "display": "赵威后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -265,
+      "deathNote": "生卒不详，取前265年为活动年（非寿数）。据史记·赵世家（raw/先秦-西汉/史記/卷043-趙世家.md:227）「趙王新立，太后用事，秦急攻之」。同条系孝成王元年。本库赵惠文王前266年卒，次年即前265。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "cai-ze",
+      "name": "蔡泽",
+      "display": "蔡泽",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -232,
+      "deathNote": "生卒不详，取前232年为活动年（非寿数）。据史记·范雎蔡泽列传（raw/先秦-西汉/史記/卷079-范雎蔡澤列傳.md:87）「卒事始皇帝，為秦使於燕」。「卒事」是终于奉事，不是卒年。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gan-mao",
+      "name": "甘茂",
+      "display": "甘茂",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -306,
+      "deathNote": "生卒不详，取前306年为亡去之年（非寿数）。据史记·樗里子甘茂列传（raw/先秦-西汉/史記/卷071-樗里子甘茂列傳.md:42）「茂懼，輟伐魏蒲阪，亡去」。秦本纪昭襄王元年「甘茂出之魏」。本库昭襄王五十六年前251年卒，元年即前306。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-ke-400",
+      "name": "李克",
+      "display": "李克",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -396,
+      "deathNote": "生卒不详，取前396年为活动年（非寿数）。据史记·魏世家（raw/先秦-西汉/史記/卷044-魏世家.md:58）「魏文侯謂李克曰：『先生嘗教寡人曰「家貧則思良妻，國亂則思良相」』」。本库魏文侯卒年作前396，标 disputed。魏世家作李克，不并入李悝。",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-wen",
+      "name": "田文",
+      "display": "田文",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -279,
+      "deathNote": "列传只记「文卒，謚爲孟嘗君。諸子爭立」（raw/先秦-西汉/史記/卷075-孟嘗君列傳.md:43），无年。台账取前279，记 approx，不另考。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-ying",
+      "name": "田婴",
+      "display": "田婴",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -311,
+      "deathNote": "生卒不详，取前311年为任官年（非寿数）。据史记·孟尝君列传（raw/先秦-西汉/史記/卷075-孟嘗君列傳.md:19）「宣王九年，田嬰相齊」。「婴卒」无年。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-qing",
+      "name": "虞卿",
+      "display": "虞卿",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -255,
+      "deathNote": "生卒不详，取前255年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:38）「虞卿者，遊説之士也。躡蹻檐簦説趙孝成王」。此句无绝对年，年份从台账。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yue-yang",
+      "name": "乐羊",
+      "display": "乐羊",
+      "lane": "minister",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -408,
+      "deathNote": "生卒不详，取前408年为活动年（非寿数）。据史记·乐毅列传（raw/先秦-西汉/史記/卷080-樂毅列傳.md:17）「樂羊為魏文侯將，伐取中山」。同条言乐羊死而葬灵寿，无年。",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "bao-yuan",
+      "name": "暴鸢",
+      "display": "暴鸢",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -299,
+      "deathNote": "生卒不详，取前299年为活动年（非寿数）。据史记·秦本纪（raw/先秦-西汉/史記/卷005-秦本紀.md:188）「韓使暴鳶共攻楚方城，取唐眛」。同条在昭襄王八年。本库昭襄王元年前306，八年即前299。",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gongsun-xi",
+      "name": "公孙喜",
+      "display": "公孙喜",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -293,
+      "deathNote": "生卒不详，取前293年为被虏之年（非寿数）。据史记·秦本纪（raw/先秦-西汉/史記/卷005-秦本紀.md:190）「虜公孫喜，拔五城」。同纪昭襄王十四年。本库昭襄王元年前306，十四年即前293。八年条称「魏使公孫喜」，不按韩将改归属。",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huan-yi",
+      "name": "桓齮",
+      "display": "桓齮",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -234,
+      "deathNote": "生卒不详，取前234年为活动年（非寿数）。据史记·秦始皇本纪（raw/先秦-西汉/史記/卷006-秦始皇本紀.md:43）「十三年，桓齮攻趙平陽，殺趙將扈輒」。庄襄王前247年卒，秦王政元年前246，十三年即前234。同条十四年仍在攻赵。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kuang-zhang",
+      "name": "匡章",
+      "display": "匡章",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -314,
+      "deathNote": "生卒不详，取前314年为活动年（非寿数）。据史记·燕召公世家（raw/先秦-西汉/史記/卷034-燕召公世家.md:78）「王因令章子將五都之兵，以因北地之衆以伐燕」。史记作章子。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-xin",
+      "name": "李信",
+      "display": "李信",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -225,
+      "deathNote": "生卒不详，取前225年为活动年（非寿数）。据史记·白起王翦列传（raw/先秦-西汉/史記/卷073-白起王翦列傳.md:38）「嘗以兵數千逐燕太子丹至於衍水中，卒破得丹」。此句无绝对年，年份从台账。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-wu",
+      "name": "蒙武",
+      "display": "蒙武",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -223,
+      "deathNote": "生卒不详，取前223年为活动年（非寿数）。据史记·蒙恬列传（raw/先秦-西汉/史記/卷088-蒙恬列傳.md:19）「二十四年，蒙武攻楚，虜楚王」。秦王政元年前246，二十四年即前223。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "neishi-teng",
+      "name": "内史腾",
+      "display": "内史腾",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -230,
+      "deathNote": "生卒不详，取前230年为活动年（非寿数）。据史记·秦始皇本纪（raw/先秦-西汉/史記/卷006-秦始皇本紀.md:45）「十七年，內史騰攻韓，得韓王安」。秦王政元年前246，十七年即前230。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pang-nuan",
+      "name": "庞煖",
+      "display": "庞煖",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -242,
+      "deathNote": "生卒不详，取前242年为活动年（非寿数）。据史记·赵世家（raw/先秦-西汉/史記/卷043-趙世家.md:260）「三年，龐煖將，攻燕，禽其將劇辛」。同条四年仍将攻秦。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-cuo",
+      "name": "司马错",
+      "display": "司马错",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -291,
+      "deathNote": "生卒不详，取前291年为活动年（非寿数）。引文「九年，司馬錯伐蜀，滅之」（raw/先秦-西汉/史記/卷005-秦本紀.md:180）是惠文王更元九年，本库惠文王元年前337，更元九年当前316，不是前291。同纪昭襄王十六年「左更錯取軹及鄧」（同卷:190）；昭襄王元年前306，十六年即前291。台账取这次为下限，不把伐蜀改记成前291。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-ben",
+      "name": "王贲",
+      "display": "王贲",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -221,
+      "deathNote": "生卒无明文。《史记·秦始皇本纪》记王翦子贲从平燕、荆、江南地，又虏齐王建；取灭齐之年（公元前221年）为活动下限，非寿数。lane用已存在的qin-official。",
+      "title": "翦之子，灭齐而秦以并六国",
+      "bio": "王翦之子。秦之取六国也，其子贲与有力焉。从李信攻燕，追燕丹于辽东；又从王翦定荆，降荆君；后别将定江南地，降百越之君。始皇既灭五国，独齐未下，齐王建守即墨以距秦。贲以大兵自燕南袭，绝齐之后，齐不战而降，虏王建于共，天下始一。王氏父子俱以武功为秦重。",
+      "tags": [
+        "秦",
+        "统一",
+        "名将"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-he",
+      "name": "王龁",
+      "display": "王龁",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -260,
+      "deathNote": "生卒不详，取前260年为活动年（非寿数）。据史记·白起王翦列传（raw/先秦-西汉/史記/卷073-白起王翦列傳.md:25）「四十七年，秦使左庶長王龁攻韓，取上黨」。昭襄王元年前306，四十七年即前260。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-duanhe",
+      "name": "杨端和",
+      "display": "杨端和",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -236,
+      "deathNote": "生卒不详，取前236年为活动年（非寿数）。据史记·秦始皇本纪（raw/先秦-西汉/史記/卷006-秦始皇本紀.md:41）「十一年，王翦、桓齮、楊端和攻鄴」。秦王政元年前246，十一年即前236。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yue-cheng",
+      "name": "乐乘",
+      "display": "乐乘",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -245,
+      "deathNote": "生卒不详，取前245年为活动年（非寿数）。据史记·廉颇蔺相如列传（raw/先秦-西汉/史記/卷081-廉頗藺相如列傳.md:52）「使樂乘代廉頗。廉頗怒，攻樂乘」。此句无绝对年，年份从台账。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhao-she",
+      "name": "赵奢",
+      "display": "赵奢",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -270,
+      "deathNote": "生卒不详，取前270年为活动年（非寿数）。据史记·廉颇蔺相如列传（raw/先秦-西汉/史記/卷081-廉頗藺相如列傳.md:29）「其明年，趙奢破秦軍閼與下」。阏与之年。列传称长平时赵奢已死，卒年在此年至前260之间，台账取前270，不另取一个卒年。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zheng-anping",
+      "name": "郑安平",
+      "display": "郑安平",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -258,
+      "deathNote": "生卒不详，取前258年为降赵之年（非寿数）。据史记·范雎蔡泽列传（raw/先秦-西汉/史記/卷079-范雎蔡澤列傳.md:70）「鄭安平為趙所圍，急，以兵二萬人降趙」。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chen-zhen",
+      "name": "陈轸",
+      "display": "陈轸",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -311,
+      "deathNote": "生卒不详，取前311年为活动年（非寿数）。据史记·张仪列传（raw/先秦-西汉/史記/卷070-張儀列傳.md:122）「陳軫者，游說之士。與張儀俱事秦惠王」。同节欲去秦之楚。本库秦惠文王前311年卒，取此为下限。",
+      "polity": [
+        "qin",
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-xuan",
+      "name": "冯谖",
+      "display": "冯谖",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -298,
+      "deathNote": "生卒不详，取前298年为活动年（非寿数）。据史记·孟尝君列传（raw/先秦-西汉/史記/卷075-孟嘗君列傳.md:45）「初，馮驩聞孟嘗君好客，躡蹻而見之」。史记作冯驩。此句无绝对年，年份从台账。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hou-ying",
+      "name": "侯嬴",
+      "display": "侯嬴",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -257,
+      "deathNote": "魏安釐王二十年窃符，侯生果北乡自刭，取前257为卒，记 approx。「年七十」不回推生年。本库安釐王三十四年前243年卒，二十年即前257。据「魏有隱士曰侯嬴，年七十，家貧」（raw/先秦-西汉/史記/卷077-魏公子列傳.md:25）；二十年见同卷:29，自刭见同卷:35。",
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lou-huan",
+      "name": "楼缓",
+      "display": "楼缓",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -259,
+      "deathNote": "生卒不详，取前259年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:46）「樓緩從秦來，趙王與樓緩計之」。赵人而从秦来。此句无绝对年，年份从台账。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lu-zhonglian",
+      "name": "鲁仲连",
+      "display": "鲁仲连",
+      "lane": "diplomat",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": -259,
+      "death": -250,
+      "birthNote": "生年不详。前259是围邯郸时见新垣衍的活动年（非寿数），不是生年。据史记·鲁仲连邹阳列传「魯連見新垣衍而無言」（raw/先秦-西汉/史記/卷083-魯仲連鄒陽列傳.md:25）。",
+      "deathNote": "卒年不详。同传「其後二十餘年」遗燕将书（raw/先秦-西汉/史記/卷083-魯仲連鄒陽列傳.md:37），后「逃隱於海上」（同卷:45），无卒岁。台账取前250为活动下限（非寿数）。「二十餘年」并不自行得出前250，不另改。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "mao-sui",
+      "name": "毛遂",
+      "display": "毛遂",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -259,
+      "deathNote": "生卒不详，取前259年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:23）「門下有毛遂者，前，自贊於平原君」。秦围邯郸、平原君合从于楚。此句无绝对年，年份从台账。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "su-dai",
+      "name": "苏代",
+      "display": "苏代",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -284,
+      "deathNote": "生卒不详，取前284年为活动年（非寿数）。据史记·苏秦列传（raw/先秦-西汉/史記/卷069-蘇秦列傳.md:124）「乃召蘇代，復善待之，與謀伐齊」。燕昭王召他谋伐齐，齐湣王出走。本库齐湣王前284年卒。",
+      "polity": [
+        "yan"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "su-li",
+      "name": "苏厉",
+      "display": "苏厉",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -314,
+      "deathNote": "生卒不详，取前314年为活动年（非寿数）。据史记·苏秦列传（raw/先秦-西汉/史記/卷069-蘇秦列傳.md:108）「蘇秦之弟曰代，代弟蘇厲」。此句无年。下文是苏秦死后代见燕王。年份从台账。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yao-jia",
+      "name": "姚贾",
+      "display": "姚贾",
+      "lane": "diplomat",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -233,
+      "deathNote": "生卒不详，取前233年为活动年（非寿数）。据史记·老子韩非列传（raw/先秦-西汉/史記/卷063-老子韓非列傳.md:68）「李斯、姚賈害之」。韩非使秦被毁。此句无绝对年，年份从台账。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chunyu-kun",
+      "name": "淳于髡",
+      "display": "淳于髡",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -319,
+      "deathNote": "生卒不详，取前319年为活动年（非寿数）。据史记·孟子荀卿列传（raw/先秦-西汉/史記/卷074-孟子荀卿列傳.md:34）「客有見髡於梁惠王，惠王屏左右」。本库梁惠王卒年前319，两说并存。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gongsun-long",
+      "name": "公孙龙",
+      "display": "公孙龙",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -259,
+      "deathNote": "生卒不详，取前259年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:35）「公孫龍善爲堅白之辯」。平原君客。此句无绝对年，年份从台账。",
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "huan-yuan",
+      "name": "环渊",
+      "display": "环渊",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -301,
+      "deathNote": "生卒不详，取前301年为活动年（非寿数）。据史记·孟子荀卿列传（raw/先秦-西汉/史記/卷074-孟子荀卿列傳.md:36）「慎到，趙人。田駢、接子，齊人。環淵，楚人。」。史记称楚人。叙事在齐宣王稷下，词表无单独楚人游学 id，标齐。此句无绝对年，年份从台账。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "jie-zi",
+      "name": "接子",
+      "display": "接子",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -301,
+      "deathNote": "生卒不详，取前301年为活动年（非寿数）。据史记·孟子荀卿列传（raw/先秦-西汉/史記/卷074-孟子荀卿列傳.md:36）「慎到，趙人。田駢、接子，齊人。環淵，楚人。」。齐人，稷下。此句无绝对年，年份从台账。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-dao",
+      "name": "慎到",
+      "display": "慎到",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -301,
+      "deathNote": "生卒不详，取前301年为活动年（非寿数）。据史记·田敬仲完世家（raw/先秦-西汉/史記/卷046-田敬仲完世家.md:103）「自如騶衍、淳于髡、田駢、接子、愼到、環淵之徒」。史记称赵人。叙事在齐宣王稷下，标齐。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-pian",
+      "name": "田骈",
+      "display": "田骈",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -283,
+      "deathNote": "生卒不详，取前283年为卒年上限（非寿数）。据史记·孟子荀卿列传（raw/先秦-西汉/史記/卷074-孟子荀卿列傳.md:46）「田駢之屬皆已死齊襄王時」。齐襄王时已死，无具体卒岁。台账取前283，是这段的上限，不是寿数。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhuang-zhou",
+      "name": "庄子",
+      "display": "庄子",
+      "lane": "scholar",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -329,
+      "deathNote": "生卒不详，取前329年为活动年（非寿数）。据史记·老子韩非列传（raw/先秦-西汉/史記/卷063-老子韓非列傳.md:38）「楚威王聞莊周賢，使使厚幣迎之」。楚威王卒年本库前329。史记只称蒙人，未写宋；词表无蒙，暂标宋国。",
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [

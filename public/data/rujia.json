@@ -192,6 +192,334 @@
         "han"
       ],
       "gender": "male"
+    },
+    {
+      "id": "zi-gong",
+      "name": "子贡",
+      "display": "子贡",
+      "lane": "ru",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "unknown",
+      "birth": -520,
+      "birthNote": "生年据史记·仲尼弟子列传「少孔子31岁」上推。孔子生年取史记前551，少31岁得前520，为生年约数，非卒年（raw/先秦-西汉/史記/卷067-仲尼弟子列傳.md:94）。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zi-xia",
+      "name": "子夏",
+      "display": "子夏",
+      "lane": "ru",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "unknown",
+      "birth": -507,
+      "birthNote": "生年据史记·仲尼弟子列传「少孔子44岁」上推。孔子生年取史记前551，少44岁得前507，为生年约数，非卒年（raw/先秦-西汉/史記/卷067-仲尼弟子列傳.md:128）。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ran-you",
+      "name": "冉有",
+      "display": "冉有",
+      "lane": "ru",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "unknown",
+      "birth": -522,
+      "birthNote": "生年据史记·仲尼弟子列传「少孔子29岁」上推。孔子生年取史记前551，少29岁得前522，为生年约数，非卒年（raw/先秦-西汉/史記/卷067-仲尼弟子列傳.md:53）。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zai-yu",
+      "name": "宰予",
+      "display": "宰我",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -481,
+      "deathNote": "卒年不详。史记·仲尼弟子列传「宰我爲臨菑大夫，與田常作亂，以夷其族，孔子恥之」（raw/先秦-西汉/史記/卷067-仲尼弟子列傳.md:91）。年份取田常弑简公之年：齐太公世家「甲午，田常弒簡公于俆州」（raw/先秦-西汉/史記/卷032-齊太公世家.md:195），本库田常弑齐简公系前481。此为传文所称被夷族之年，非另有寿数。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "you-ruo",
+      "name": "有若",
+      "display": "有若",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -479,
+      "deathNote": "卒年不详。史记·仲尼弟子列传「孔子既沒，弟子思慕，有若狀似孔子，弟子相與共立爲師」（raw/先秦-西汉/史記/卷067-仲尼弟子列傳.md:239）。孔子卒为鲁哀公十六年，本库系前479。取此年为可见活动年，非寿数。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shang-qu",
+      "name": "商瞿",
+      "display": "商瞿",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -479,
+      "deathNote": "卒年不详。史记·仲尼弟子列传「孔子傳《易》於瞿」（raw/先秦-西汉/史記/卷067-仲尼弟子列傳.md:203）；儒林列传「孔子卒，商瞿傳易，六世至齊人田何」（raw/先秦-西汉/史記/卷121-儒林列傳.md:56）。孔子卒本库系前479。取此年为传易活动年，非寿数。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fan-xu",
+      "name": "樊须",
+      "display": "樊迟",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -484,
+      "deathNote": "卒年不详。春秋左传正义·哀公十一年「冉求帥左師，管周父御，樊遲為右」，行首「十一年，春，齊為鄎故」（raw/春秋/春秋左傳正義/卷58.md:270）。哀公十一年本库艾陵之战系前484。取此年为可见活动年，非寿数。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kong-fu",
+      "name": "孔鲋",
+      "display": "孔鲋",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -208,
+      "deathNote": "史记·孔子世家「子慎生鮒，年五十七，為陳王涉博士，死於陳下」（raw/先秦-西汉/史記/卷047-孔子世家.md:186）；儒林列传「孔甲為陳涉博士，卒與涉俱死」（raw/先秦-西汉/史記/卷121-儒林列傳.md:20）。陈胜卒年本库系前208。取与陈涉俱死之年，作 approx；「年五十七」无生年锚点，不推生年。",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shusun-tong",
+      "name": "叔孙通",
+      "display": "叔孙通",
+      "lane": "ru",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": -209,
+      "death": -195,
+      "birthNote": "生年不详。史记·刘敬叔孙通列传「秦時以文學徵，待詔博士。數歲，陳勝起山東」（raw/先秦-西汉/史記/卷099-劉敬叔孫通列傳.md:34）。陈胜起于大泽乡，本库系前209。取此年为可见活动上限，非寿数。",
+      "deathNote": "卒年不详。同传「漢七年，長樂宮成……乃拜叔孫通為太常」（同卷:46），汉七年与白登之围同年，本库系前200；「高帝崩，孝惠即位……定宗廟儀法」（同卷:52）。高祖崩年本库系前195。取此年为可见活动下限，非寿数。惠帝时复道、献果仍见其名，无更细卒年。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-he-bc202",
+      "name": "田何",
+      "display": "田何",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -202,
+      "deathNote": "卒年不详。史记·儒林列传「六世至齊人田何，字子莊，而漢興」（raw/先秦-西汉/史記/卷121-儒林列傳.md:56）；汉书·儒林传「漢興，田何以齊田徙杜陵，號杜田生」（raw/西汉/漢書/卷088-儒林傳.md:33）。汉兴取高祖五年并天下称帝，本库西汉建立系前202。活动年，非寿数。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-sheng-bc170",
+      "name": "伏生",
+      "display": "伏生",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -157,
+      "deathNote": "卒年不详。史记·儒林列传「孝文帝時，欲求能治尚書者……伏生年九十餘，老，不能行，於是乃詔太常使掌故晁錯往受之」（raw/先秦-西汉/史記/卷121-儒林列傳.md:46）。原文只有文帝之世，无更细年份。文帝卒年本库刘恒系前157，取此年为可见活动下限，非寿数。不取无出处的前170。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-gong",
+      "name": "申公",
+      "display": "申公",
+      "lane": "ru",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": -195,
+      "death": -140,
+      "birthNote": "生年不详。史记·儒林列传「高祖過魯，申公以弟子從師入見高祖于魯南宮」（raw/先秦-西汉/史記/卷121-儒林列傳.md:29）。汉书·高帝纪十二年十一月「行自淮南還。過魯，以大牢祠孔子」（raw/西汉/漢書/卷001-高帝紀.md:244）。高祖崩年本库系前195，此过鲁在十二年。取此年为可见活动上限，非寿数。",
+      "deathNote": "卒年不详。同传「今上初即位……天子使使束帛加璧安車駟馬迎申公……申公亦疾免以歸，數年卒」（raw/先秦-西汉/史記/卷121-儒林列傳.md:31）。今上初即位取建元元年，本库注记为前140。「数年卒」无年数，不另取前135。此为被征之年，非寿数。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-gusheng",
+      "name": "辕固生",
+      "display": "辕固生",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -140,
+      "deathNote": "卒年不详。史记·儒林列传「今上初即位，復以賢良徵固」（raw/先秦-西汉/史記/卷121-儒林列傳.md:40）。今上初即位取建元元年，本库注记为前140。活动年，非寿数。同卷又称孝景时为博士，无更细年份。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-ying",
+      "name": "韩婴",
+      "display": "韩婴",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -140,
+      "deathNote": "卒年不详。史记·儒林列传「孝文帝時為博士，景帝時為常山王太傅」（raw/先秦-西汉/史記/卷121-儒林列傳.md:43）；汉书·儒林传「武帝時，嬰嘗與董仲舒論於上前」（raw/西汉/漢書/卷088-儒林傳.md:88）。文帝、景帝之世无更细年份。取武帝初（建元元年，本库注记前140）为可见活动年，非寿数。不取无出处的前165。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐生",
+      "display": "徐生",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -157,
+      "deathNote": "卒年不详。史记·儒林列传「孝文帝時，徐生以容為禮官大夫」（raw/先秦-西汉/史記/卷121-儒林列傳.md:54）。原文只有文帝之世。文帝卒年本库刘恒系前157，取此年为可见活动下限，非寿数。不取无出处的前170。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "hu-wusheng",
+      "name": "胡毋生",
+      "display": "胡毋生",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -141,
+      "deathNote": "卒年不详。史记·儒林列传「孝景時為博士，以老歸教授」（raw/先秦-西汉/史記/卷121-儒林列傳.md:64）。原文只有景帝之世。景帝卒年本库刘启系前141，取此年为可见活动下限，非寿数。不取无出处的前150。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kong-anguo",
+      "name": "孔安国",
+      "display": "孔安国",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -91,
+      "deathNote": "卒年不详。史记·孔子世家「安國為今皇帝博士，至臨淮太守，蚤卒」（raw/先秦-西汉/史記/卷047-孔子世家.md:190）；汉书·儒林传「遭巫蠱，未立於學官」（raw/西汉/漢書/卷088-儒林傳.md:73）。巫蛊之祸本库系征和二年前91。取此年为可见活动下限，非寿数。刘歆移书另有「天汉之后」，本库未系天汉绝对年，不取无出处的前130。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yang-he",
+      "name": "杨何",
+      "display": "杨何",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -134,
+      "deathNote": "卒年不详。史记·儒林列传「何以易，元光元年徵，官至中大夫」（raw/先秦-西汉/史記/卷121-儒林列傳.md:56）。汉书·儒林传作「元光中徵為太中大夫」（raw/西汉/漢書/卷088-儒林傳.md:33）。元光元年本库《汉书》武帝纪对策注记为前134。两书一年与「中」不同，取元年，作 approx，非寿数。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ding-kuan",
+      "name": "丁宽",
+      "display": "丁宽",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -154,
+      "deathNote": "卒年不详。汉书·儒林传「景帝時，寬為梁孝王將軍距吳、楚，號丁將軍」（raw/西汉/漢書/卷088-儒林傳.md:36）。吴楚七国之乱本库系前154。取此年为可见活动年，非寿数。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiaqiu-jianggong",
+      "name": "瑕丘江公",
+      "display": "瑕丘江公",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -140,
+      "deathNote": "卒年不详。汉书·儒林传「武帝時，江公與董仲舒並」（raw/西汉/漢書/卷088-儒林傳.md:111）；史记·儒林列传「瑕丘江生為穀梁春秋」（raw/先秦-西汉/史記/卷121-儒林列傳.md:66）。传只云武帝时，无更细年份。取武帝初（建元元年，本库注记前140）为可见活动年，非寿数。不取无出处的前130。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lv-bushu",
+      "name": "吕步舒",
+      "display": "吕步舒",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -122,
+      "deathNote": "卒年不详。史记·儒林列传「步舒至長史，持節使決淮南獄」（raw/先秦-西汉/史記/卷121-儒林列傳.md:68）。汉书·武帝纪元狩元年十一月「淮南王安、衡山王賜謀反，誅」（raw/西汉/漢書/卷006-武帝紀.md:173），上一条为「元狩元年冬十月」（同卷:171）。淮南王刘安卒年本库系前122。取此年为决狱活动年，非寿数。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "chu-da",
+      "name": "褚大",
+      "display": "褚大",
+      "lane": "ru",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -110,
+      "deathNote": "卒年不详。汉书·公孙弘卜式儿宽传「及御史大夫缺，徵褚大……至洛陽，聞兒寬為之」（raw/西汉/漢書/卷058-公孫弘卜式兒寬傳.md:83）。儿宽拜御史大夫在元封元年，本库系前110。取此年为被征之年，非寿数。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "mao-gong",
+      "name": "毛公",
+      "display": "毛公",
+      "lane": "ru",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
+      "birth": -155,
+      "death": -130,
+      "birthNote": "生年不详。汉书·儒林传「為河間獻王博士」（raw/西汉/漢書/卷088-儒林傳.md:94）。献王「以孝景前二年立」（raw/西汉/漢書/卷053-景十三王傳.md:19），本库河间献王刘德系前155。取立王之年为可见活动上限，非寿数。汉书此条只称毛公。",
+      "deathNote": "卒年不详。景十三王传「立二十六年薨」（raw/西汉/漢書/卷053-景十三王傳.md:23），本库刘德卒年系前130。取献王薨年为可见活动下限，非寿数。",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [

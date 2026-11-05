@@ -1170,6 +1170,258 @@
         "qin"
       ],
       "gender": "male"
+    },
+    {
+      "id": "gongzi-gao",
+      "name": "公子高",
+      "display": "公子高",
+      "lane": "qin-kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -209,
+      "deathNote": "史记：二世诛诸公子，公子高上书「臣請從死，願葬酈山之足」，胡亥可其书，赐钱十万以葬（李斯列传:57）。二世元年当前 209，此年为赐死之年，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gongzi-jianglu",
+      "name": "公子将闾",
+      "display": "公子将闾",
+      "lane": "qin-kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -209,
+      "deathNote": "史记：二世行诛大臣及诸公子，公子将闾昆弟三人囚于内宫，「昆弟三人皆流涕拔劍自殺」（秦始皇本纪:139）。二世元年当前 209，此年为被杀之年，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wang-wan",
+      "name": "王绾",
+      "display": "王绾",
+      "lane": "qin-official",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -219,
+      "deathNote": "生卒不详。史记：始皇二十六年「丞相綰等言」「請立諸子」（秦始皇本纪:63）；二十八年琅邪刻石从行仍有「丞相王綰」（秦始皇本纪:79）。二十八年当前 219，此为活动下限，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhongli-mo",
+      "name": "钟离眜",
+      "display": "钟离眜",
+      "lane": "chu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -201,
+      "deathNote": "史记：项王亡将钟离眛亡归韩信，汉六年高祖诏楚捕眛，韩信欲斩眛谒上，眛骂信曰「公非長者」，「卒自剄」（淮阴侯列传:56）。汉六年当前 201，此年为自刭之年；传只系其年，不著月分，故不标 exact。",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ge-ying",
+      "name": "葛婴",
+      "display": "葛婴",
+      "lane": "rebel",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -209,
+      "deathNote": "史记：葛婴至东城立襄彊为楚王，后闻陈王已立，因杀襄彊还报，「至陳，陳王誅殺葛嬰」（陈涉世家:26）。陈胜起兵称王于二世元年，当前 209，此年为被杀之年，非寿数。",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qin-jia",
+      "name": "秦嘉",
+      "display": "秦嘉",
+      "lane": "rebel",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -208,
+      "deathNote": "史记：秦嘉立景驹为楚王，项梁进兵击秦嘉，「嘉還戰一日，嘉死，軍降」（项羽本纪:27）。项梁渡江击秦嘉在二世二年，当前 208，此年为战死之年。",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "wu-chen",
+      "name": "武臣",
+      "display": "武臣",
+      "lane": "rebel",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -208,
+      "deathNote": "史记：武臣受陈王命徇赵，至邯郸自立为赵王；李良袭邯郸，「竟殺武臣、邵騷」（张耳陈馀列传:45）。当二世二年，当前 208，此年为被杀之年。",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhou-wen",
+      "name": "周文",
+      "display": "周文",
+      "lane": "rebel",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -209,
+      "deathNote": "史记：陈王与周文将军印，西击秦至戏，章邯破之，「周文自剄，軍遂不戰」（陈涉世家:28）。周文西击秦在二世元年，败死在其后，台账取前 209，此年为自刭之年，非寿数。",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "dong-yi",
+      "name": "董翳",
+      "display": "董翳",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -205,
+      "deathNote": "生卒不详。史记：项羽分关中，立董翳为翟王，都高奴（高祖本纪:69）；汉二年「塞王欣、翟王翳、河南王申陽皆降」（高祖本纪:77）。汉二年当前 205，此年为降汉之年，是活动年下限，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gong-wei",
+      "name": "共尉",
+      "display": "共尉",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -202,
+      "deathNote": "生卒不详。史记：汉五年冬使卢绾别将，「與劉賈擊臨江王共尉，破之」（韩信卢绾列传:36）；「共尉已死，以臨江為南郡」（荆燕世家:21）。汉五年当前 202，此年为破灭之年，是活动下限，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-wang-cheng",
+      "name": "韩王成",
+      "display": "韩王成",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -206,
+      "deathNote": "史记：韩王成无军功，项王不使之国，与俱至彭城，「廢以為侯，已又殺之」（项羽本纪:61）。汉之元年当前 206，此年为被杀之年，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-yang",
+      "name": "申阳",
+      "display": "申阳",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -205,
+      "deathNote": "生卒不详。史记：项羽分立瑕丘申阳为河南王，都洛阳（高祖本纪:69）；汉二年「塞王欣、翟王翳、河南王申陽皆降」（高祖本纪:77）。汉二年当前 205，此年为降汉之年，是活动年下限，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sima-ang",
+      "name": "司马卬",
+      "display": "司马卬",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -205,
+      "deathNote": "生卒不详。史记：项羽立赵将司马卬为殷王，都朝歌（高祖本纪:69）；汉二年汉王「下河內，虜殷王，置河內郡」（高祖本纪:83）。汉二年当前 205，此年为被虏之年，是活动下限，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-an",
+      "name": "田安",
+      "display": "田安",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -206,
+      "deathNote": "史记：田荣以齐反，迎击田都，田都走楚；田荣自立为齐王，「西殺擊濟北王田安，并王三齊」（项羽本纪:63）。当汉之元年，当前 206，此年为被杀之年，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-du",
+      "name": "田都",
+      "display": "田都",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -206,
+      "deathNote": "生卒不详。史记：项羽立齐将田都为齐王；田荣以齐反，迎击田都，「田都走楚」（项羽本纪:63）。当汉之元年，当前 206，此年为奔楚之年，是活动下限，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "tian-shi",
+      "name": "田市",
+      "display": "田市",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -206,
+      "deathNote": "史记：项羽徙齐王田市为胶东王，田市畏项王，亡之胶东就国，「田榮怒，追擊殺之即墨」（项羽本纪:63）。当汉之元年，当前 206，此年为被杀之年，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zang-tu",
+      "name": "臧荼",
+      "display": "臧荼",
+      "lane": "opp",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -202,
+      "deathNote": "史记：汉五年十月「燕王臧荼反，攻下代地。高祖自將擊之，得燕王臧荼」（高祖本纪:135）。汉五年当前 202，此年为被虏之年，其卒即在此年，非寿数。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "kong-fu",
+      "name": "孔鲋",
+      "display": "孔鲋",
+      "lane": "rebel",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": -208,
+      "deathNote": "史记·孔子世家「子慎生鮒，年五十七，為陳王涉博士，死於陳下」（raw/先秦-西汉/史記/卷047-孔子世家.md:186）；儒林列传「孔甲為陳涉博士，卒與涉俱死」（raw/先秦-西汉/史記/卷121-儒林列傳.md:20）。陈胜卒年本库系前208。取与陈涉俱死之年，作 approx；「年五十七」无生年锚点，不推生年。",
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [

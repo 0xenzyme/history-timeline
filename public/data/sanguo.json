@@ -3813,6 +3813,448 @@
         "shu"
       ],
       "gender": "male"
+    },
+    {
+      "id": "cao-zhang",
+      "name": "曹彰",
+      "display": "任城威王曹彰",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 223,
+      "polity": [
+        "wei"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhen-hou-fang",
+      "name": "甄皇后",
+      "display": "甄皇后（曹芳后）",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 251,
+      "polity": [
+        "wei"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhang-hou-fang",
+      "name": "张皇后",
+      "display": "张皇后（曹芳后）",
+      "lane": "caowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 254,
+      "deathNote": "本纪云「（嘉平六年）三月，废皇后张氏」raw/三国/三國志/卷04.md:63；此为废黜之年，非卒年，取 approx 254。",
+      "polity": [
+        "wei"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhang-nan",
+      "name": "张南",
+      "display": "张南",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 222,
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "feng-xi",
+      "name": "冯习",
+      "display": "冯习",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 222,
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-feng",
+      "name": "刘封",
+      "display": "刘封",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 220,
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-xuan-shu",
+      "name": "刘璿",
+      "display": "后主太子刘璿",
+      "lane": "shuhan",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 224,
+      "death": 264,
+      "birthNote": "传云「延熙元年（238）正月策曰……时年十五」，据以推生年约 224。 raw/三国/三國志/卷34.md:38",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gan-hou",
+      "name": "甘夫人",
+      "display": "昭烈甘皇后",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 222,
+      "deathNote": "卒年不详。传云「章武二年，追谥皇思夫人，迁葬于蜀」raw/三国/三國志/卷34.md:16；此为追谥迁葬之年，非卒年，取 approx 222。",
+      "polity": [
+        "shu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "jingai-zhang-hou",
+      "name": "张皇后",
+      "display": "敬哀张皇后",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 237,
+      "polity": [
+        "shu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhang-hou-shu",
+      "name": "张皇后",
+      "display": "张皇后（后主后）",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 264,
+      "deathNote": "卒年不详。传云「咸熙元年，随后主迁于洛阳」raw/三国/三國志/卷34.md:28；取迁洛之年（264）为可见活动上限，非寿数。",
+      "polity": [
+        "shu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "liu-chen",
+      "name": "刘谌",
+      "display": "北地王刘谌",
+      "lane": "shuhan",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 263,
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-deng",
+      "name": "孙登",
+      "display": "吴太子孙登",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 241,
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-lu",
+      "name": "孙虑",
+      "display": "建昌侯孙虑",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 232,
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "sun-fen",
+      "name": "孙奋",
+      "display": "孙奋",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 270,
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "bu-furen",
+      "name": "步夫人",
+      "display": "步夫人（追赠吴皇后）",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 238,
+      "polity": [
+        "wu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "pan-furen",
+      "name": "潘夫人",
+      "display": "潘皇后（孙亮母）",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 252,
+      "polity": [
+        "wu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhu-furen",
+      "name": "朱夫人",
+      "display": "朱皇后（孙休后）",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 265,
+      "polity": [
+        "wu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "wang-furen-langya",
+      "name": "王夫人",
+      "display": "琅邪王夫人（孙和母）",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 245,
+      "deathNote": "卒年有异说（245 / 250）：本传系「夫人以忧死」于全公主谮毁太子、吴主寝疾之际，通鉴系于正始六年（245）；另有作 250 者。两说并存，取 245，不取一为精确。 raw/通代/資治通鑑/卷074.md:170",
+      "polity": [
+        "wu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "teng-furen",
+      "name": "滕夫人",
+      "display": "滕皇后（孙皓后）",
+      "lane": "sunwu",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 280,
+      "deathNote": "卒年不详。传云「天纪四年，随皓迁于洛阳」raw/三国/三國志/卷50.md:56；取天纪四年（280）为可见活动上限，非寿数。",
+      "polity": [
+        "wu"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "zhu-ju",
+      "name": "朱据",
+      "display": "朱据",
+      "lane": "sunwu",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 194,
+      "death": 250,
+      "birthNote": "生年无明文。本传云「追赐死，时年五十七」raw/三国/三國志/卷57.md:104，承嘉平二年（250）系年，据虚岁上推生年约 194。",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gongsun-du",
+      "name": "公孙度",
+      "display": "公孙度",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 204,
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-zhang",
+      "name": "刘璋",
+      "display": "刘璋",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 219,
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "ma-teng",
+      "name": "马腾",
+      "display": "马腾",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 212,
+      "deathNote": "卒年有异说（211 / 212）：通鉴系「夏，五月，癸未，诛卫尉马腾，夷三族」在建安十六、十七年之间。两说并存，取 212，不取一为精确。 raw/通代/資治通鑑/卷066.md:94",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "han-sui",
+      "name": "韩遂",
+      "display": "韩遂",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 215,
+      "deathNote": "卒年有异说（214 / 215）：《武帝纪》系「西平、金城诸将麴演、蒋石等共斩送韩遂首」于建安二十年（215）五月之后。两说并存，取 215，不取一为精确。 raw/三国/三國志/卷01.md:210",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-yang",
+      "name": "张杨",
+      "display": "张杨",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 198,
+      "deathNote": "卒年有异说（198 / 199）：《献帝纪》系「（建安三年）冬十一月，盗杀大司马张杨」。两说并存，取 198，不取一为精确。 raw/东汉/後漢書/卷9.md:42",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-tan",
+      "name": "袁谭",
+      "display": "袁谭",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 205,
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yuan-shang",
+      "name": "袁尚",
+      "display": "袁尚",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 207,
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-gan",
+      "name": "高干",
+      "display": "高干",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 206,
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-lu",
+      "name": "张鲁",
+      "display": "张鲁",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 216,
+      "deathNote": "《三国志·魏书·张鲁传》止记「鲁薨，谥之曰原侯」，未书卒年，《资治通鉴》系于建安二十一年（216）。又其出降在建安二十年（215）曹操平汉中之役，非建安十六年。",
+      "title": "五斗米道师君，据汉中三十年",
+      "bio": "沛国丰人，祖陵创五斗米道于蜀，父衡继之，鲁因而得众。初为益州牧刘焉督义司马，击杀汉中张修而并其众，遂据汉中，自号师君。以鬼道教民，置「奸令」「祭酒」，诸祭酒作义舍于道，行路者量腹取足；犯法者三原然后行刑，民夷便之，雄据巴、汉垂三十年。建安二十年（215）曹操征汉中，弟卫守阳平关败没，鲁不欲焚府库，封藏而去，旋出降，拜镇南将军，封阆中侯，邑万户，五子皆为列侯。明年卒，谥曰原侯。",
+      "tags": [
+        "东汉",
+        "五斗米道"
+      ],
+      "categories": [
+        "warlord",
+        "daoism"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yong-kai",
+      "name": "雍闿",
+      "display": "雍闿",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 225,
+      "deathNote": "卒年有异说：通鉴系「亮由越巂入，斩雍闿及高定」于建兴三年（225）南征之役，他书系年不同。取 225，不取一为精确。 raw/通代/資治通鑑/卷070.md:103",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "meng-huo",
+      "name": "孟获",
+      "display": "孟获",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 225,
+      "deathNote": "卒年不详。通鉴云「七纵七擒而亮犹遣获」raw/通代/資治通鑑/卷070.md:103；取南征之年（225）为活动年，非寿数。",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-ding",
+      "name": "高定",
+      "display": "高定",
+      "lane": "qunxiong",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 225,
+      "polity": [
+        "shu"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [

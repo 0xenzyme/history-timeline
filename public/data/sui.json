@@ -1084,6 +1084,387 @@
         "sui"
       ],
       "gender": "male"
+    },
+    {
+      "id": "xiao-huanghou",
+      "name": "萧皇后",
+      "display": "炀帝萧皇后",
+      "lane": "consort",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 647,
+      "polity": [
+        "sui"
+      ],
+      "gender": "female"
+    },
+    {
+      "id": "yang-liang",
+      "name": "杨谅",
+      "display": "汉王杨谅",
+      "lane": "kin",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "disputed",
+      "death": 604,
+      "deathNote": "資治通鑑·卷180 繫仁壽四年（604）「除名為民，絕其屬籍，竟以幽死」（raw/通代/資治通鑑/卷180.md:70）；隋書·卷45、北史·卷71 只書「竟以幽死」而無年，他書或繫大業初，取 604 一說並存異。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "pei-ju",
+      "name": "裴矩",
+      "display": "裴矩",
+      "lane": "minister",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 548,
+      "death": 627,
+      "birthNote": "新唐書·卷100 作「貞觀元年卒，贈絳州刺史，諡曰敬」而前書「年八十」（raw/唐/新唐書/卷100.md:73），生年由卒年與年數上推，非以年數為壽數；舊唐書·卷63 亦作「貞觀元年卒」。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "su-wei",
+      "name": "苏威",
+      "display": "苏威",
+      "lane": "minister",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 540,
+      "death": 621,
+      "birthNote": "隋書·卷41、北史·卷63 本傳只作「卒於家，時年八十二」而無年號；資治通鑑·卷189 繫武德四年（621）「既老且貧，無復官爵，卒於家，年八十二」（raw/通代/資治通鑑/卷189.md:78）。生年由卒年與年數上推，非以年數為壽數。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xue-daoheng",
+      "name": "薛道衡",
+      "display": "薛道衡",
+      "lane": "minister",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 540,
+      "death": 609,
+      "birthNote": "隋書·卷57 本傳作「縊而殺之，妻子徙且末…時年七十」；資治通鑑·卷181 繫大業五年（609）「憲司重奏，縊而殺之，妻子徙且末」（raw/通代/資治通鑑/卷181.md:91）。生年由卒年與年數上推，非以年數為壽數。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xue-shixiong",
+      "name": "薛世雄",
+      "display": "薛世雄",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 555,
+      "death": 617,
+      "birthNote": "隋書·卷65 本傳作「未幾而卒，時年六十三」；資治通鑑·卷184 繫義寧元年（617）「世雄不能禁，與左右數十騎遁歸涿郡，慚恚發病卒」（raw/通代/資治通鑑/卷184.md:52）。生年由卒年與年數上推，非以年數為壽數。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-juluo",
+      "name": "鱼俱罗",
+      "display": "鱼俱罗",
+      "lane": "general",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 613,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "yu-zhongwen",
+      "name": "于仲文",
+      "display": "于仲文",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "disputed",
+      "birth": 545,
+      "death": 612,
+      "birthNote": "隋書·卷60 本傳作「卒于家，時年六十八」，生年由卒年與年數上推，非以年數為壽數。",
+      "deathNote": "資治通鑑·卷181 繫大業八年（612）「仲文憂恚，發病困篤，乃出之，卒於家」（raw/通代/資治通鑑/卷181.md:182）；隋書·卷60 只作「卒于家，時年六十八」而無年，他書或繫大業九年，取 612 一說並存異。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-xutuo",
+      "name": "张须陀",
+      "display": "张须陀",
+      "lane": "general",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 565,
+      "death": 616,
+      "birthNote": "隋書·卷71 本傳作「乃下馬戰死。時年五十二」；資治通鑑·卷183 繫大業十二年（616）「須阤躍馬復入救之，來往數四，遂戰死」（raw/通代/資治通鑑/卷183.md:64），「須阤」為「須陀」異寫。生年由卒年與年數上推，非以年數為壽數。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "qimin-kehan",
+      "name": "启民可汗",
+      "display": "启民可汗",
+      "lane": "opposite",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 609,
+      "polity": [
+        "tujue"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shibi-kehan",
+      "name": "始毕可汗",
+      "display": "始毕可汗",
+      "lane": "opposite",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 619,
+      "polity": [
+        "tujue"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "du-fuwei",
+      "name": "杜伏威",
+      "display": "杜伏威",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 624,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "fu-gongshi",
+      "name": "辅公祏",
+      "display": "辅公祏",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 624,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "gao-kaidao",
+      "name": "高开道",
+      "display": "高开道",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 624,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-gui",
+      "name": "李轨",
+      "display": "李轨",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 619,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "li-zitong",
+      "name": "李子通",
+      "display": "李子通",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 622,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liang-shidu",
+      "name": "梁师都",
+      "display": "梁师都",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 628,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "lin-shihong",
+      "name": "林士弘",
+      "display": "林士弘",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 622,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-heita",
+      "name": "刘黑闼",
+      "display": "刘黑闼",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 623,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "liu-wuzhou",
+      "name": "刘武周",
+      "display": "刘武周",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 620,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "luo-yi",
+      "name": "罗艺",
+      "display": "燕郡王罗艺",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 627,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "shen-faxing",
+      "name": "沈法兴",
+      "display": "沈法兴",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 620,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xiao-xian-583",
+      "name": "萧铣",
+      "display": "萧铣",
+      "lane": "mowei",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "exact",
+      "birth": 583,
+      "death": 621,
+      "birthNote": "舊唐書·卷56 本傳作「竟斬於都市，年三十九」而無生年，資治通鑑·卷189 繫武德四年（621）斬於都市（raw/通代/資治通鑑/卷189.md:188），生年由卒年與年數上推，非以年數為壽數。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xu-yuanlang",
+      "name": "徐圆朗",
+      "display": "徐圆朗",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 623,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xue-ju",
+      "name": "薛举",
+      "display": "薛举",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 618,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "xue-rengao",
+      "name": "薛仁杲",
+      "display": "薛仁杲",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 618,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhang-shanan",
+      "name": "张善安",
+      "display": "张善安",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
+      "death": 624,
+      "deathNote": "資治通鑑·卷190 繫武德六年十二月「安撫使李大亮誘張善安，執之」（raw/通代/資治通鑑/卷190.md:291），被誅在輔公祏敗後；舊唐書·卷56 作「及公祏敗，搜得其書，與相往復，遂誅之」。被執（623 末）與被誅（624）兩說，取被誅之年 624。",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
+    },
+    {
+      "id": "zhu-can",
+      "name": "朱粲",
+      "display": "朱粲",
+      "lane": "mowei",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "exact",
+      "death": 621,
+      "polity": [
+        "sui"
+      ],
+      "gender": "male"
     }
   ],
   "relationTypes": [
