@@ -1,0 +1,4092 @@
+{
+ "meta": {
+  "generatedAt": "2026-10-10",
+  "sources": [
+   "content/<topic>/*.md (frontmatter)",
+   "pipeline/registry/people/*.json",
+   "pipeline/topics/<id>/topic.json",
+   "pipeline/topics/<id>/candidates.json",
+   "pipeline/topics.json",
+   "content/events/*.md",
+   "pipeline/vocab/polities.json"
+  ],
+  "method": {
+   "gaps": "topic range 内合并全部已收人物生命区间（birth..death；单端缺失用另一端），列出长度 >=50 年且无区间覆盖的空隙",
+   "eventTopic": "事件实体不记录专题；机械口径取 meta.range 与 [year, endYear] 相交的全部专题",
+   "profile": "brief/full 取自人物 frontmatter；无 profile 即 44 份存量 registry JSON",
+   "accuracy": "仅统计带年份的条目；年份缺失计入 birthMissing/deathMissing"
+  },
+  "totals": {
+   "topics": 17,
+   "peopleTotal": 2158,
+   "peopleMarkdown": 2108,
+   "peopleRegistryJson": 50,
+   "uniquePeopleInTopics": 2089,
+   "peopleInMoreThanOneTopic": 69,
+   "markdownRecords": 2045,
+   "registryJsonRecords": 44,
+   "sourceRecordsTotal": 2089,
+   "profileBrief": 407,
+   "profileFull": 1701,
+   "profileNoProfile": 50,
+   "profileOther": 0,
+   "birthMissing": 1127,
+   "deathMissing": 4,
+   "eitherDateMissing": 1131,
+   "bothMissing": 0,
+   "relationsTotal": 1575,
+   "peopleWithRelation": 1269,
+   "peopleWithoutRelation": 889,
+   "gapCount": 2,
+   "danglingRelationEndpoints": 0,
+   "peopleWithoutRecord": 0,
+   "laneNotDefined": 0,
+   "markdownInDirNotInPeople": 0,
+   "candidatesTotal": 11,
+   "candidatesPending": 6,
+   "candidatesRejected": 5,
+   "birthAccuracy": {
+    "unknown": 1127,
+    "disputed": 7,
+    "approx": 310,
+    "exact": 714
+   },
+   "deathAccuracy": {
+    "exact": 1860,
+    "approx": 274,
+    "disputed": 20,
+    "unknown": 4
+   }
+  },
+  "polityGlobal": {
+   "counts": {
+    "han": 263,
+    "song": 213,
+    "tang": 179,
+    "ming": 162,
+    "qing": 151,
+    "jin": 111,
+    "yuan": 107,
+    "nan": 83,
+    "wei": 77,
+    "qin": 71,
+    "zhou": 70,
+    "bei": 67,
+    "chu": 56,
+    "wu": 44,
+    "sui": 44,
+    "wudai": 42,
+    "qi": 41,
+    "jin-guo": 37,
+    "lu": 33,
+    "shiliuguo": 31,
+    "shu": 29,
+    "shiguo": 25,
+    "minbian": 24,
+    "dali": 22,
+    "zheng": 21,
+    "wei-guo": 20,
+    "chen": 19,
+    "liao-jin": 17,
+    "yan": 16,
+    "cai": 13,
+    "zhao": 13,
+    "song-guo": 13,
+    "cao-guo": 12,
+    "han-guo": 12,
+    "wei-zhanguo": 9,
+    "wu-guo": 7,
+    "xiongnu": 5,
+    "yue": 3,
+    "tujue": 3,
+    "dachanghe": 3,
+    "xixia": 3,
+    "mongol": 3,
+    "xin": 2,
+    "nanyue": 2,
+    "dayining": 2,
+    "minyue": 1,
+    "chaoxian": 1,
+    "wuhuan": 1,
+    "xianbei": 1,
+    "tubo": 1,
+    "datianxing": 1,
+    "xiyu": 1
+   },
+   "countsNamed": {
+    "汉": 263,
+    "宋": 213,
+    "唐": 179,
+    "明": 162,
+    "清": 151,
+    "晋": 111,
+    "元": 107,
+    "南朝": 83,
+    "曹魏": 77,
+    "秦": 71,
+    "周": 70,
+    "北朝": 67,
+    "楚": 56,
+    "孙吴": 44,
+    "隋": 44,
+    "五代": 42,
+    "齐": 41,
+    "晋国": 37,
+    "鲁": 33,
+    "十六国": 31,
+    "蜀汉": 29,
+    "十国": 25,
+    "民变军": 24,
+    "大理": 22,
+    "郑": 21,
+    "卫国": 20,
+    "陈": 19,
+    "辽 · 金": 17,
+    "燕": 16,
+    "蔡": 13,
+    "赵": 13,
+    "宋国": 13,
+    "曹国": 12,
+    "韩国": 12,
+    "魏国": 9,
+    "吴国": 7,
+    "匈奴": 5,
+    "越": 3,
+    "突厥": 3,
+    "大长和": 3,
+    "西夏": 3,
+    "蒙古": 3,
+    "新莽": 2,
+    "南越": 2,
+    "大义宁": 2,
+    "闽越": 1,
+    "朝鲜": 1,
+    "乌桓": 1,
+    "鲜卑": 1,
+    "吐蕃": 1,
+    "大天兴": 1,
+    "西域": 1
+   }
+  },
+  "crossTopicPeople": {
+   "ji-yijiu": 2,
+   "kong-zi": 2,
+   "yan-hui": 2,
+   "ying-zheng": 2,
+   "lv-buwei": 2,
+   "meng-zi": 2,
+   "xun-zi": 2,
+   "han-fei": 2,
+   "ying-chengjiao": 2,
+   "huayang-taihou": 2,
+   "di-taihou": 2,
+   "xiang-yu": 2,
+   "liu-bang": 2,
+   "zhang-liang": 2,
+   "han-xin": 2,
+   "peng-yue": 2,
+   "ying-bu": 2,
+   "xiao-he": 2,
+   "cao-can": 2,
+   "chen-ping": 2,
+   "fan-kuai": 2,
+   "zhou-bo": 2,
+   "guan-ying": 2,
+   "li-yi-ji": 2,
+   "dong-zhongshu": 2,
+   "cao-cao": 2,
+   "sun-jian": 2,
+   "sun-ce": 2,
+   "yuan-shao": 2,
+   "yuan-shu": 2,
+   "lv-bu": 2,
+   "liu-biao": 2,
+   "gongsun-zan": 2,
+   "sima-yan": 2,
+   "liu-yu": 2,
+   "chen-qian": 2,
+   "murong-chao": 2,
+   "lu-xun-yuxian": 2,
+   "chen-shubao": 2,
+   "yuwen-chan": 2,
+   "li-mi": 2,
+   "dou-jian-de": 2,
+   "wang-shichong": 2,
+   "zhu-wen": 2,
+   "li-ke-yong": 2,
+   "wang-pu": 2,
+   "fan-zhi": 2,
+   "wei-renpu": 2,
+   "han-tong": 2,
+   "zhao-kuangyin": 2,
+   "zhao-guangyi": 2,
+   "zhao-pu": 2,
+   "li-yun": 2,
+   "li-chongjin": 2,
+   "zhao-xian": 2,
+   "tie-mu-zhen": 2,
+   "meng-ge": 2,
+   "hu-bi-lie": 2,
+   "bo-yan": 2,
+   "zhang-hongfan": 2,
+   "chen-youliang": 2,
+   "zhang-shicheng": 2,
+   "zhu-yuanzhang": 2,
+   "nu-er-ha-chi": 2,
+   "hong-taiji": 2,
+   "li-zicheng": 2,
+   "zhang-xianzhong": 2,
+   "duo-er-gun": 2,
+   "wu-sangui": 2
+  },
+  "eventCrossRef": {
+   "eventFiles": 512,
+   "eventsWithParticipantOutsideEventTopics": 2,
+   "participantRefsOutsideEventTopics": 3,
+   "participantsNotInAnyTopic": [],
+   "detail": [
+    {
+     "event": "jin-wengong-qinwang",
+     "file": "content/events/jin-wengong-qinwang.md",
+     "year": -636,
+     "endYear": -635,
+     "eventTopics": [
+      "chunqiu"
+     ],
+     "participants": [
+      "ji-chonger",
+      "hu-yan",
+      "ji-zheng",
+      "shu-dai",
+      "jin-huigong",
+      "jin-huaigong"
+     ],
+     "missing": [
+      {
+       "id": "shu-dai",
+       "inAnyTopic": true,
+       "record": "md"
+      }
+     ]
+    },
+    {
+     "event": "quwo-daiyi",
+     "file": "content/events/quwo-daiyi.md",
+     "year": -678,
+     "endYear": null,
+     "eventTopics": [
+      "chunqiu"
+     ],
+     "participants": [
+      "jin-zhaohou",
+      "ji-chengshi",
+      "quwo-wugong",
+      "jin-hou-min",
+      "ji-hu-qi",
+      "shi-fu"
+     ],
+     "missing": [
+      {
+       "id": "ji-chengshi",
+       "inAnyTopic": true,
+       "record": "md"
+      },
+      {
+       "id": "shi-fu",
+       "inAnyTopic": true,
+       "record": "md"
+      }
+     ]
+    }
+   ]
+  },
+  "contentCheck": {
+   "exitCode": 0,
+   "progressLine": "收录进度：简表 407 人，详表 1682 人，候选待核 6 人，不收 5 人，事件 512 条",
+   "warningCount": 279,
+   "warnings": [
+    "warning registry/people: 约略年份缺少 note（38 处）：a-he-ma 生年 a-su-ji-ba 生年 chao-cuo 生年 chao-cuo 卒年 dong-zhongshu 卒年 gongsun-hong 生年 gongsun-hong 卒年 guan-hanqing 生年 guan-hanqing 卒年 han-fei 生年 huang-daopo 生年 huang-daopo 卒年 jia-yi 生年 jun-chen 卒年 liu-futong 生年 liu-heng 生年 luo-guanzhong 生年 luo-guanzhong 卒年 lv-zhi 生年 meng-zi 生年 meng-zi 卒年 mo-dun 卒年 sang-hongyang 生年 sima-qian 卒年 wang-shifu 生年 wang-shifu 卒年 wu-chengen 生年 wu-chengen 卒年 xun-zi 生年 xun-zi 卒年 yan-hui 生年 yan-hui 卒年 yi-zhi-xie 卒年 zeng-zi 生年 zeng-zi 卒年 zhao-chongguo 生年 zi-si 生年 zi-si 卒年",
+    "warning registry/people: 登记缺 polity（24 人）：bao-xu guo-changfu guo-han guo-shu han-fei kong-zi kuai-zhong li-ji meng-zi mou-qugong qi-degong qi-gonggong qi-jinggong qi-wugong-qi shen-bo song-aigong song-daigong song-huigong song-xigong xu-nan xun-zi yan-hui zeng-zi zi-si",
+    "warning content/events/agubo-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 a-gu-bai 的 side=anjiyan 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/ailing-zhizhan.md: [EVENT_PERSON_POLITY] 主将 ji-fucha 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/ailing-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/an-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/baimen-heyue.md: 非军事事件建议两条出处",
+    "warning content/events/baixiang-zhizhan.md: [EVENT_PERSON_POLITY] 主将 zhou-dewei 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/baixiang-zhizhan.md: [EVENT_PERSON_POLITY] 主将 li-siyuan 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/baxia-zhiluan.md: 非军事事件建议两条出处",
+    "warning content/events/beihan-jianli.md: [EVENT_PERSON_POLITY] 相关人物 liu-chong 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/beihan-jianli.md: [EVENT_PERSON_POLITY] 相关人物 liu-chengjun 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/beihan-jianli.md: [EVENT_PERSON_POLITY] 相关人物 yelv-ruan 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/beijing-qiandu.md: 非军事事件建议两条出处",
+    "warning content/events/beizhou-mie-beiqi.md: [EVENT_PERSON_POLITY] 主将 yuwen-yong 的 side=beizhou 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/bi-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/boju-zhizhan.md: [EVENT_PERSON_POLITY] 主将 ji-guang 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/boju-zhizhan.md: [EVENT_PERSON_POLITY] 主将 wu-yuan 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/boju-zhizhan.md: [EVENT_PERSON_POLITY] 主将 sun-wu 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/boju-zhizhan.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/boju-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/caizhou-zhizhan.md: [EVENT_PERSON_POLITY] 主将 wo-kuo-tai 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/caocao-feng-tianzi.md: [EVENT_PERSON_POLITY] 相关人物 cao-cao 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caocao-feng-tianzi.md: [EVENT_PERSON_POLITY] 相关人物 xun-yu 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caocao-feng-tianzi.md: [EVENT_PERSON_POLITY] 相关人物 cheng-yu 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caocao-feng-tianzi.md: [EVENT_PERSON_POLITY] 相关人物 dong-zhao 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caocao-jianweiguo.md: [EVENT_PERSON_POLITY] 相关人物 cao-cao 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caocao-jianweiguo.md: [EVENT_PERSON_POLITY] 相关人物 xun-you 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caocao-jianweiguo.md: [EVENT_PERSON_POLITY] 相关人物 dong-zhao 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caopi-shou-chan.md: [EVENT_PERSON_POLITY] 相关人物 liu-xie-xiandi 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/caowei-tuntian.md: [EVENT_PERSON_POLITY] 相关人物 cao-cao 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/changshao-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/chanyuan-zhimeng.md: [EVENT_PERSON_POLITY] 相关人物 xiao-chuo 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/chanyuan-zhimeng.md: [EVENT_PERSON_POLITY] 相关人物 yelv-longxu 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/chengpu-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/chenqiao-bingbian.md: [EVENT_PERSON_POLITY] 相关人物 chai-zongxun 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/chu-wen-beijin.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/chu-wen-beijin.md: 军事事件缺少 result",
+    "warning content/events/chuwu-fa-sui.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/chuwu-fa-sui.md: 军事事件缺少 result",
+    "warning content/events/chuzhuang-weisong.md: 军事事件缺少 result",
+    "warning content/events/daizexiang-qiyi.md: [EVENT_PERSON_POLITY] 相关人物 chen-sheng 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/daizexiang-qiyi.md: [EVENT_PERSON_POLITY] 相关人物 wu-guang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/dali-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 hu-bi-lie 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/damengguguo-jianguo.md: [EVENT_PERSON_POLITY] 相关人物 tie-mu-zhen 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/danggu-zhi-huo.md: 非军事事件建议两条出处",
+    "warning content/events/daqing-jianguo.md: 非军事事件建议两条出处",
+    "warning content/events/dayunhe.md: 非军事事件建议两条出处",
+    "warning content/events/di-ru-wei.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/di-ru-wei.md: 军事事件缺少 result",
+    "warning content/events/dong-zhuo-luan-zheng.md: 非军事事件建议两条出处",
+    "warning content/events/donglin-dangjin.md: 非军事事件建议两条出处",
+    "warning content/events/dongmen-zhiyi.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/dongmen-zhiyi.md: 军事事件缺少 result",
+    "warning content/events/erci-geming.md: [EVENT_PERSON_POLITY] 主将 yuan-shikai 的 side=beiyang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/fang-la-qiyi.md: 非军事事件建议两条出处",
+    "warning content/events/fenshu-kengru.md: 非军事事件建议两条出处",
+    "warning content/events/fujiao-zhizhan.md: [EVENT_PERSON_POLITY] 主将 ji-fucha 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/fujiao-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/gaoping-zhizhan.md: [EVENT_PERSON_POLITY] 主将 zhao-kuangyin 的 side=wudai 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/gaoping-zhizhan.md: [EVENT_PERSON_POLITY] 主将 liu-chong 的 side=beihan 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/guandu-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yuan-shao 的 side=minbian 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/guangwu-dengji.md: 非军事事件建议两条出处",
+    "warning content/events/haishang-zhi-meng.md: [EVENT_PERSON_POLITY] 相关人物 wanyan-aguda 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/han-jian-guo.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/handan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 wei-wuji 的 side=wei-zhanguo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/hanwang-fengjian.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/hanyuan-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/heqiao-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yuwen-tai 的 side=xiwei 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/heqiao-zhizhan.md: [EVENT_PERSON_POLITY] 主将 gao-ang 的 side=dongwei 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/hequ-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/hongjin-qiyi.md: [EVENT_PERSON_POLITY] 相关人物 han-shantong 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/hongjin-qiyi.md: [EVENT_PERSON_POLITY] 相关人物 han-liner 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/hongjin-qiyi.md: [EVENT_PERSON_POLITY] 相关人物 xu-shouhui 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/hongshui-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/hongxian-dizhi.md: [EVENT_PERSON_POLITY] 相关人物 yuan-shikai 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/houdang-mie-houliang.md: [EVENT_PERSON_POLITY] 主将 li-cunxu 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/houdang-mie-houliang.md: [EVENT_PERSON_POLITY] 主将 li-siyuan 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/houdang-mie-yan.md: [EVENT_PERSON_POLITY] 主将 zhou-dewei 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/houdang-mie-yan.md: [EVENT_PERSON_POLITY] 主将 li-siyuan 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/houhan-jianli.md: [EVENT_PERSON_POLITY] 相关人物 yelv-deguang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/houjin-jianguo.md: 非军事事件建议两条出处",
+    "warning content/events/houjin-jianli.md: [EVENT_PERSON_POLITY] 相关人物 yelv-deguang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/huangchi-zhihui.md: [EVENT_PERSON_POLITY] 相关人物 ji-fucha 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/huangjin-zhi-luan.md: 非军事事件建议两条出处",
+    "warning content/events/huayuan-mibing.md: [EVENT_PERSON_POLITY] 相关人物 song-gonggong 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/hufu-qishe.md: 非军事事件建议两条出处",
+    "warning content/events/huguo-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 yuan-shikai 的 side=beiyang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/huhanxie-laichao.md: [EVENT_PERSON_POLITY] 相关人物 hu-han-xie 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/huhanxie-laichao.md: [EVENT_PERSON_POLITY] 相关人物 zhi-zhi 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/hulao-zhizhan.md: [EVENT_PERSON_POLITY] 主将 dou-jian-de 的 side=minbian 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/hulao-zhizhan.md: [EVENT_PERSON_POLITY] 主将 wang-shichong 的 side=minbian 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/huliubei-zhizhan.md: [EVENT_PERSON_POLITY] 主将 li-cunxu 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/huliubei-zhizhan.md: [EVENT_PERSON_POLITY] 主将 zhou-dewei 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/hutuo-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yelv-deguang 的 side=liao 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/ji-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/jiazhai-zhizhan.md: [EVENT_PERSON_POLITY] 主将 li-cunxu 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/jiazhai-zhizhan.md: [EVENT_PERSON_POLITY] 主将 zhou-dewei 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/jiazhai-zhizhan.md: [EVENT_PERSON_POLITY] 主将 li-siyuan 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/jifu-zhizhan.md: [EVENT_PERSON_POLITY] 主将 ji-guang 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/jifu-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/jin-daogong-fuba.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/jin-jian-guo.md: 非军事事件建议两条出处",
+    "warning content/events/jin-mie-guoyu.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/jin-mie-guoyu.md: 军事事件缺少 result",
+    "warning content/events/jin-mie-lushi.md: 军事事件缺少 result",
+    "warning content/events/jin-mie-wu-zhizhan.md: [EVENT_PERSON_DATE] 相关人物 yang-hu 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/jin-wengong-qinwang.md: [EVENT_PERSON_DATE] 相关人物 shu-dai 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/jin-wengong-qinwang.md: [EVENT_PERSON_POLITY] 相关人物 shu-dai 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/jin-wengong-qinwang.md: [EVENT_PERSON_DATE] 相关人物 jin-huigong 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/jingke-ciqin.md: [EVENT_PERSON_POLITY] 相关人物 taizi-dan 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/jingnan-zhiyi.md: 非军事事件建议两条出处",
+    "warning content/events/jingyuan-zhibian.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/jinyang-zhiwei.md: [EVENT_PERSON_POLITY] 主将 yelv-deguang 的 side=liao 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/jinyang-zhizhan.md: [EVENT_PERSON_POLITY] 主将 wei-zhuanggong-hou 的 side=jin-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/jinyang-zhizhan.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/jinyang-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/junjichu-sheli.md: 非军事事件建议两条出处",
+    "warning content/events/junxian-zhi.md: 非军事事件建议两条出处",
+    "warning content/events/kaihuang-lv.md: 非军事事件建议两条出处",
+    "warning content/events/lanyu-an.md: 非军事事件建议两条出处",
+    "warning content/events/li-te-liumin-qiyi.md: [EVENT_PERSON_POLITY] 相关人物 li-te 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/li-te-liumin-qiyi.md: [EVENT_PERSON_POLITY] 相关人物 li-xiong 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/liaoai-zhiluan.md: 非军事事件建议两条出处",
+    "warning content/events/libian-dai-wu.md: [EVENT_PERSON_POLITY] 相关人物 li-bian 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/liji-zhiluan.md: [EVENT_PERSON_DATE] 相关人物 shen-sheng 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/linghu-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/litan-zhiluan.md: [EVENT_PERSON_POLITY] 相关人物 li-tan 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/litan-zhiluan.md: [EVENT_PERSON_POLITY] 相关人物 wang-wentong 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/litan-zhiluan.md: [EVENT_PERSON_POLITY] 相关人物 shi-tianze 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/liu-yu-dai-jin.md: [EVENT_PERSON_POLITY] 相关人物 sima-dewen 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/liuyan-chengdi.md: [EVENT_PERSON_POLITY] 相关人物 liu-yan 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/lize-zhizhan.md: [EVENT_PERSON_POLITY] 主将 ji-fucha 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/lize-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/longxing-heyi.md: [EVENT_PERSON_POLITY] 相关人物 heshilie-zhining 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/lvbuwei-baxiang.md: 非军事事件建议两条出处",
+    "warning content/events/lvshi-chunqiu.md: 非军事事件建议两条出处",
+    "warning content/events/maguan-heyue.md: 非军事事件建议两条出处",
+    "warning content/events/mangshan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 gao-huan 的 side=dongwei 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/mangshan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yuwen-tai 的 side=xiwei 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/mengge-jiwei.md: [EVENT_PERSON_POLITY] 相关人物 meng-ge 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/mengge-jiwei.md: [EVENT_PERSON_POLITY] 相关人物 hu-bi-lie 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/mengjin-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 tie-mu-zhen 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/mengxia-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 tie-mu-zhen 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/mengzhixiang-chengdi.md: [EVENT_PERSON_POLITY] 相关人物 meng-zhixiang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/mengzhixiang-chengdi.md: [EVENT_PERSON_POLITY] 相关人物 meng-chang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/ming-tiao-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/mu-wang-xi-zheng.md: 军事事件缺少 result",
+    "warning content/events/muye-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/nibuchu-heyue.md: 非军事事件建议两条出处",
+    "warning content/events/ningwang-zhiluan.md: 非军事事件建议两条出处",
+    "warning content/events/nongzhigao-qiyi.md: 非军事事件建议两条出处",
+    "warning content/events/pingwang-dongqian.md: [EVENT_PERSON_POLITY] 相关人物 ji-chou 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/pingyang-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yuwen-yong 的 side=beizhou 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/qi-fa-shanrong.md: 军事事件缺少 result",
+    "warning content/events/qi-jiu-xing.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/qi-jiu-xing.md: 军事事件缺少 result",
+    "warning content/events/qi-mie-ji.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/qi-mie-ji.md: 军事事件缺少 result",
+    "warning content/events/qidan-fa-houjin.md: [EVENT_PERSON_POLITY] 主将 yelv-deguang 的 side=liao 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/qidan-gaihao-liao.md: [EVENT_PERSON_POLITY] 相关人物 yelv-deguang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/qidan-gaihao-liao.md: [EVENT_PERSON_POLITY] 相关人物 shi-chonggui 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/qidan-gaihao-liao.md: [EVENT_PERSON_POLITY] 相关人物 feng-dao 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/qihuangong-jiwei.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/qihuangong-wuzi.md: [EVENT_PERSON_POLITY] 相关人物 zi-zifu 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/qihuangong-wuzi.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/qin-jiuchu.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/qin-jiuchu.md: 军事事件缺少 result",
+    "warning content/events/qin-mie-xizhou.md: [EVENT_PERSON_POLITY] 相关人物 zhou-nanwang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/qin-miewang.md: [EVENT_PERSON_POLITY] 相关人物 liu-bang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/qin-miewang.md: 非军事事件建议两条出处",
+    "warning content/events/qin-qi-hudi.md: [EVENT_PERSON_POLITY] 相关人物 tian-di 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/qin-qi-hudi.md: 非军事事件建议两条出处",
+    "warning content/events/qingmo-xinzheng.md: 非军事事件建议两条出处",
+    "warning content/events/qingshui-zhimeng.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/qinmu-baxirong.md: 军事事件缺少 result",
+    "warning content/events/quwo-daiyi.md: [EVENT_PERSON_DATE] 相关人物 jin-zhaohou 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/quwo-daiyi.md: [EVENT_PERSON_DATE] 相关人物 ji-chengshi 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/quwo-daiyi.md: [EVENT_PERSON_POLITY] 相关人物 ji-chengshi 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/quwo-daiyi.md: [EVENT_PERSON_DATE] 相关人物 jin-hou-min 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/quwo-daiyi.md: [EVENT_PERSON_DATE] 相关人物 shi-fu 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/sanfengshan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 tuo-lei 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/sanfengshan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 wo-kuo-tai 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/sanjia-fenjin.md: [EVENT_PERSON_POLITY] 相关人物 zhou-weiliewang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/sanjia-fenjin.md: [EVENT_PERSON_POLITY] 相关人物 wei-wenhou 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/sanjia-fenjin.md: [EVENT_PERSON_POLITY] 相关人物 zhao-liehou 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/sanjia-fenjin.md: [EVENT_PERSON_POLITY] 相关人物 han-jinghou 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/sanpan-zhiluan.md: 非军事事件建议两条出处",
+    "warning content/events/sanxing-liubu.md: 非军事事件建议两条出处",
+    "warning content/events/shaoxing-heyi.md: [EVENT_PERSON_POLITY] 相关人物 wanyan-zongbi 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/shaqiu-gongbian.md: 非军事事件建议两条出处",
+    "warning content/events/shayuan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yuwen-tai 的 side=xiwei 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/shayuan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 gao-huan 的 side=dongwei 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/shen-zhizhan.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/shen-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/shenbuhai-xianghan.md: 非军事事件建议两条出处",
+    "warning content/events/shihuang-cheng-huangdi.md: 非军事事件建议两条出处",
+    "warning content/events/shizong-beifa.md: [EVENT_PERSON_POLITY] 主将 zhao-kuangyin 的 side=wudai 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/shizong-beifa.md: [EVENT_PERSON_DATE] 相关人物 yelv-ruan 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/shutongwen.md: 非军事事件建议两条出处",
+    "warning content/events/sunquan-chengdi.md: [EVENT_PERSON_POLITY] 相关人物 zhuge-liang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/taikang-zhizhi.md: 非军事事件建议两条出处",
+    "warning content/events/tianli-zhibian.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/tianshi-daiqi.md: 非军事事件建议两条出处",
+    "warning content/events/tongguan-zhizhan.md: [EVENT_PERSON_POLITY] 主将 ma-chao 的 side=minbian 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/tulhute-guifu.md: 非军事事件建议两条出处",
+    "warning content/events/wagang-xingluocang.md: 非军事事件建议两条出处",
+    "warning content/events/wangdu-zhizhan.md: [EVENT_PERSON_POLITY] 主将 li-cunxu 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/wangdu-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yelv-abaoji 的 side=liao 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/wangmang-daihan.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/wangyigong-zhibian.md: 非军事事件建议两条出处",
+    "warning content/events/wei-mie-yan.md: [EVENT_PERSON_POLITY] 主将 gongsun-yuan 的 side=minbian 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/weibo-zhibian.md: 非军事事件建议两条出处",
+    "warning content/events/weiqi.md: [EVENT_PERSON_POLITY] 相关人物 liu-yu-1073 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/weiqi.md: [EVENT_PERSON_POLITY] 相关人物 wanyan-zongbi 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/wuchang-qiyi.md: 非军事事件建议两条出处",
+    "warning content/events/wuguo-xiangwang.md: 非军事事件建议两条出处",
+    "warning content/events/wuyue-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 ji-guang 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/wuyue-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 ji-fucha 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/wuyue-zhanzheng.md: [EVENT_PERSON_POLITY] 主将 wu-yuan 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/wuyue-zhanzheng.md: 军事事件缺少 result",
+    "warning content/events/wuzhou-jianli.md: [EVENT_PERSON_POLITY] 相关人物 wu-zetian 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/wuzhou-jianli.md: [EVENT_PERSON_POLITY] 相关人物 li-dan 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/xiangxu-mibing.md: [EVENT_PERSON_POLITY] 相关人物 song-pinggong 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/xiao-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/xiapi-zhizhan.md: [EVENT_PERSON_POLITY] 主将 lv-bu 的 side=minbian 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/xiliang-jianli.md: [EVENT_PERSON_POLITY] 相关人物 xiao-cha 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/xinchou-heyue.md: 非军事事件建议两条出处",
+    "warning content/events/xinlingjun-hezong.md: [EVENT_PERSON_POLITY] 主将 wei-wuji 的 side=wei-zhanguo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/xuge-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/xuzhou-xiangwang.md: [EVENT_PERSON_POLITY] 相关人物 tian-yinqi 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/xuzhou-xiangwang.md: 非军事事件建议两条出处",
+    "warning content/events/yang-jian-dai-zhou.md: [EVENT_PERSON_POLITY] 相关人物 yuwen-chan 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/yangcheng-zhizhan.md: [EVENT_PERSON_POLITY] 主将 yelv-deguang 的 side=liao 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/yangwu-jianli.md: [EVENT_PERSON_DATE] 相关人物 yang-xingmi 的事件年份落在生卒范围之外，请核对是否应改为 people/出处说明",
+    "warning content/events/yanling-zhizhan.md: 军事事件缺少 result",
+    "warning content/events/yanyun-shiliuzhou-gerang.md: [EVENT_PERSON_POLITY] 相关人物 yelv-deguang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/yehuling-zhizhan.md: [EVENT_PERSON_POLITY] 主将 tie-mu-zhen 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/yehuling-zhizhan.md: [EVENT_PERSON_POLITY] 主将 mu-huali 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/yili-heyue.md: 非军事事件建议两条出处",
+    "warning content/events/yingjian-dongdu.md: 非军事事件建议两条出处",
+    "warning content/events/yongbu-jiafu.md: 非军事事件建议两条出处",
+    "warning content/events/youzhou-baowei.md: [EVENT_PERSON_POLITY] 主将 zhou-dewei 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/youzhou-baowei.md: [EVENT_PERSON_POLITY] 主将 li-siyuan 的 side=hou-tang 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/youzhou-baowei.md: [EVENT_PERSON_POLITY] 主将 yelv-abaoji 的 side=liao 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/yuanhao-chengdi.md: [EVENT_PERSON_POLITY] 相关人物 zhao-zhen 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/yuanhao-chengdi.md: 非军事事件建议两条出处",
+    "warning content/events/yuanhe-huaixi.md: [EVENT_PERSON_POLITY] 主将 wu-yuan-ji 的 side=minbian 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/yuanshu-chengdi.md: [EVENT_PERSON_POLITY] 相关人物 cao-cao 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/yubi-zhizhan.md: [EVENT_PERSON_POLITY] 主将 gao-huan 的 side=dongwei 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/yuchijiong-zhiluan.md: [EVENT_PERSON_POLITY] 相关人物 yuchi-jiong 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/yuchijiong-zhiluan.md: [EVENT_PERSON_POLITY] 相关人物 yang-jian 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/yue-mie-wu.md: [EVENT_PERSON_POLITY] 主将 ji-fucha 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/yue-mie-wu.md: 军事事件缺少 result",
+    "warning content/events/yue-xi-wu-482.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/yue-xi-wu-482.md: 军事事件缺少 result",
+    "warning content/events/zhao-wang-nan-zheng.md: 军事事件缺少 result",
+    "warning content/events/zhaodun-zhuanzheng.md: 名称较长但没有 display，轴上标签会挤",
+    "warning content/events/zhehai-jinbo.md: 非军事事件建议两条出处",
+    "warning content/events/zhengguo-qu.md: 非军事事件建议两条出处",
+    "warning content/events/zhongdu-zhiyi.md: [EVENT_PERSON_POLITY] 主将 tie-mu-zhen 的 side=mongol 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/zhonggong-chengli.md: 非军事事件建议两条出处",
+    "warning content/events/zhongshu-feisheng.md: 非军事事件建议两条出处",
+    "warning content/events/zhou-gong-dong-zheng.md: 军事事件缺少 result",
+    "warning content/events/zhu-yougui-shibi.md: 非军事事件建议两条出处",
+    "warning content/events/zhuanzhu-ciwangliao.md: [EVENT_PERSON_POLITY] 相关人物 ji-guang 的 polity 与事件 polity 不重合，请核对时点归属",
+    "warning content/events/zuili-zhizhan.md: [EVENT_PERSON_POLITY] 主将 ji-guang 的 side=wu-guo 与人物 polity 不重合，请核对时点归属",
+    "warning content/events/zuili-zhizhan.md: 军事事件缺少 result",
+    "warning topics/chunqiu: 详表尚未写关系 62 人：ji-lin ji-tuo ji-hu-qi ji-liang ji-zheng ji-ren-chen ji-ban ji-yu ji-yi ji-xie-xin ji-gui ji-meng ji-gai ji-ren mi-lv kong-zi jin-zhaohou jin-xiaohou jin-ehou jin-aihou jin-xiaozihou jin-hou-min quwo-wugong jin-huigong jin-huaigong jin-xianggong jin-linggong jin-chenggong jin-jinggong jin-ligong jin-daogong jin-pinggong jin-zhaogong-2 jin-qinggong jin-dinggong jin-chugong qi-chunqiu-ligong qi-xianggong qi-xiaogong qi-zhaogong qi-yigong qi-huigong qi-qinggong qi-linggong qi-zhuanggong-hou qi-chunqiu-jinggong qi-yanruz qi-daogong qi-jiangong qi-pinggong xiong-mi xiong-tong xiong-zi xiong-xia xiong-shangchen xiong-shen xiong-zhao xiong-yuan xiong-wei xiong-qiji xiong-zhen yan-hui",
+    "warning topics/qin: 详表尚未写关系 2 人：peng-yue li-yi-ji",
+    "warning topics/han: 详表尚未写关系 12 人：jing-fang duan-hui-zong liu-de liu-ci wang-xin cai-yi wei-xuan-cheng wang-shang zhu-bo ping-dang wang-jia kong-guang",
+    "warning topics/donghan: 详表尚未写关系 92 人：liu-long-shangdi jia-fu-junwen kou-xun cen-peng jia-zun jing-dan ge-yan yao-qi geng-chun zang-gong ma-wu ma-cheng wang-liang chen-jun du-mao fu-jun jian-tan wang-ba ren-guang li-zhong liu-zhi-boxian liu-long zhu-you lai-she dou-rong dou-gu geng-bing jia-rong huangfu-gui zhang-huan duan-jian zhu-jun lu-zhi-192 yang-zhen wang-chong zhang-heng cai-yong li-gu kong-rong cai-lun feng-qin mou-rong zhao-xi bao-yu yuan-an zhang-pu zhang-yu du-qiao huang-qiong yang-bing hu-guang qiao-xuan chen-qiu yang-ci he-xiu du-shi fan-pang du-mi liu-tao chen-shi hua-tuo liu-xuan gongsun-shu kui-xiao fan-chao peng-chong liu-yong-donghan li-xian-donghan shan-chao hou-lan wang-fu-donghan cao-jie-eunuch zhang-rang zhao-zhong cao-cao sun-jian sun-ce yuan-shao yuan-shu lv-bu liu-biao gongsun-zan guo-shengtong dou-zhangde yan-ansi dou-wu fu-shou liu-qiang liu-cang liu-ying-donghan liu-qing liu-suan",
+    "warning topics/sanguo: 详表尚未写关系 111 人：cao-mao jia-xu cheng-yu wang-bi sima-yan zhao-yun ma-chao huang-zhong wei-yan pang-tong fa-zheng jiang-wan fei-yi sun-hao lu-kang zhang-zhao taishi-ci liu-biao gongsun-zan mao-hou shu-mu-hou zhong-yao wang-lang hua-xin chen-qun dong-zhao liu-fang sun-zi jiang-ji chen-tai gao-rou wang-guan cui-lin xu-miao lu-yu sun-li fu-gu xu-jing liu-ba li-yan-shu dong-yun lv-yi qiao-zhou gu-yong pan-jun kan-ze bu-zhi lv-dai xue-zong sun-jun sun-lin puyang-xing yue-jin dian-wei pang-de yu-jin cao-ren xiahou-shang xiahou-yuan xu-huang cao-zhen cao-xiu cao-hong man-chong zhang-he guo-huai wang-chang wang-ji hu-zhi huang-quan wang-ping ma-zhong deng-zhi zhang-yi-ni zhang-yi-shu lv-fan zhu-huan pan-zhang zhu-ran quan-cong zhu-yi ding-feng xiahou-xuan sun-yi sun-jiao sun-shao sun-huan sun-ba sun-he ruan-yu wang-can xu-gan chen-lin ying-yang liu-zhen yang-xiu xun-you tao-qian liu-yan-yizhou zhang-ji li-jue guo-si ta-dun zhang-xiu shi-xie meng-da ke-bi-neng gongsun-yuan wang-ling guanqiu-jian zhuge-dan",
+    "warning topics/liangjin: 详表尚未写关系 16 人：sima-ye chen-shou wang-xizhi gu-kaizhi ge-hong he-zeng chen-qian xun-xu wei-shu cai-mo yao-xing lv-guang tufa-wugu qifu-guoren li-gao zhou-chu",
+    "warning topics/nanbei: 详表尚未写关系 6 人：li-daoyuan su-chuo xie-lingyun xiao-zhaowen murong-chao lu-xun-yuxian",
+    "warning topics/tang: 详表尚未写关系 7 人：shangguan-wan-er qin-qiong xu-shi-ji gao-xian-zhi hui-neng sun-si-miao yan-li-ben",
+    "warning topics/wudai: 详表尚未写关系 2 人：duan-sicong duan-sushun",
+    "warning topics/song: 详表尚未写关系 187 人：du-taihou song-huanghou li-huanghou liu-e cao-huanghou gao-taotao xiang-huanghou meng-huanghou wu-huanghou zheng-huanghou li-fengniang xie-daoqing xie-huanghou yang-huanghou yang-shufei zhao-tingmei zhao-yuanzuo zhao-yuanxi shen-yilun fan-zhi wei-renpu xue-juzheng wang-pu li-fang lu-duoxun lv-duan zhang-qixian lv-mengzheng li-hang xiang-minzhong wang-dan wang-qinruo zhang-shixun ding-wei li-di zhang-dexiang lv-yijian chen-zhizhong yan-shu liu-hang jia-changchao bao-zheng zeng-gongliang fu-bi wen-yanbo han-qi lv-gongzhu wang-gui-song wu-chong lv-dafang zhang-zhibai han-zhongyan zhang-dun zeng-bu cai-que he-zhizhong cai-jing lv-yihao wang-fu zhao-ding zhang-jun chen-kangbo zhao-tingzhi yu-yunwen chen-junqing bai-shizhong wang-huai zhou-bida yu-shen zhao-xiong liang-kejia liu-zheng huang-qianshan li-bangyan jing-tang xie-shenfu zhao-ruyu han-tuozhou qiao-xingjian cui-yuzhi tang-situi shi-miyuan zheng-qingzhi shi-songzhi cheng-yuanfeng ye-mengding ma-tingluan li-zongmian fan-zhong xie-fangshu guo-jin pan-mei li-jilong cao-wei chong-shiheng yang-ye di-qing guo-kui zhang-jie chong-e wang-shao chong-shidao tong-guan zong-ze zhang-jun-1086 wu-jie liu-qi-1098 wu-lin yang-cunzhong li-xianzhong chong-shizhong wang-bing meng-gong yu-jie li-tingzhi wang-jian-1264 lv-wende yan-su lin-bu bi-sheng yang-yi mei-yaochen su-xun shao-yong cai-xiang zhou-dunyi wen-tong zeng-gong zhang-zai li-jie yan-jidao su-zhe fan-zuyu huang-tingjian qin-guan li-gonglin mi-fu he-zhu liu-yong chen-shidao yang-shi zhou-bangyan mi-youren hu-anguo chen-yuyi zheng-qiao li-dao fan-chengda yang-wanli yuan-shu-1131 zhang-shi lv-zuqian lu-jiuyuan chen-liang ye-shi huang-gan jiang-kui zhen-dexiu wei-liaoweng liu-kezhuang xiao-chuo han-tong li-jiquan li-yun li-chongjin yelv-longxu li-deming wang-xiaobo li-shun yelv-xiuge li-yuanhao nong-zhigao wanyan-aguda liu-yu-1073 wanyan-zonghan fang-la wanyan-liang wanyan-zongwang wanyan-zongbi tie-mu-zhen heshilie-zhining li-quan meng-ge liu-zheng-1212 hu-bi-lie bo-yan zhang-hongfan",
+    "warning topics/qing: 详表尚未写关系 2 人：li-zicheng zhang-xianzhong"
+   ],
+   "passedLine": "content check passed：17 个专题"
+  }
+ },
+ "xizhou": {
+  "title": "西周",
+  "range": [
+   -890,
+   -740
+  ],
+  "lanes": [
+   {
+    "id": "king",
+    "name": "周王"
+   },
+   {
+    "id": "minister",
+    "name": "卿士 · 史官"
+   },
+   {
+    "id": "kin",
+    "name": "后妃 · 外亲"
+   },
+   {
+    "id": "lord",
+    "name": "诸侯"
+   }
+  ],
+  "people": {
+   "total": 128,
+   "markdown": 112,
+   "registryJson": 16,
+   "byLane": {
+    "king": 5,
+    "minister": 36,
+    "kin": 7,
+    "lord": 80
+   },
+   "byLaneName": {
+    "周王": 5,
+    "卿士 · 史官": 36,
+    "后妃 · 外亲": 7,
+    "诸侯": 80
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 112,
+   "noProfile": 16,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 128,
+   "deathMissing": 0,
+   "eitherMissing": 128,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "unknown": 128
+   },
+   "deathAccuracy": {
+    "exact": 62,
+    "approx": 66
+   },
+   "birthAccuracyWithYear": {},
+   "deathAccuracyWithYear": {
+    "exact": 62,
+    "approx": 66
+   }
+  },
+  "polity": {
+   "counts": {
+    "zhou": 48,
+    "zheng": 2,
+    "lu": 7,
+    "cai": 4,
+    "cao-guo": 4,
+    "chen": 6,
+    "qin": 5,
+    "han-guo": 1,
+    "jin": 7,
+    "qi": 7,
+    "zhao": 1,
+    "chu": 13,
+    "wei-guo": 4,
+    "yan": 3
+   },
+   "countsNamed": {
+    "周": 48,
+    "郑": 2,
+    "鲁": 7,
+    "蔡": 4,
+    "曹国": 4,
+    "陈": 6,
+    "秦": 5,
+    "韩国": 1,
+    "晋": 7,
+    "齐": 7,
+    "赵": 1,
+    "楚": 13,
+    "卫国": 4,
+    "燕": 3
+   },
+   "multiValue": []
+  },
+  "relations": {
+   "total": 187,
+   "peopleCovered": 128,
+   "peopleWithoutAny": 0,
+   "peopleWithoutAnyIds": []
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 112,
+  "views": 4,
+  "legacyEvents": 14
+ },
+ "chunqiu": {
+  "title": "春秋",
+  "range": [
+   -800,
+   -450
+  ],
+  "lanes": [
+   {
+    "id": "zhou",
+    "name": "周王"
+   },
+   {
+    "id": "hegemon",
+    "name": "霸主"
+   },
+   {
+    "id": "minister",
+    "name": "卿大夫"
+   },
+   {
+    "id": "south",
+    "name": "楚吴越"
+   },
+   {
+    "id": "shi",
+    "name": "士人"
+   },
+   {
+    "id": "lord",
+    "name": "诸侯"
+   }
+  ],
+  "people": {
+   "total": 236,
+   "markdown": 233,
+   "registryJson": 3,
+   "byLane": {
+    "zhou": 15,
+    "hegemon": 6,
+    "south": 5,
+    "minister": 57,
+    "shi": 6,
+    "lord": 147
+   },
+   "byLaneName": {
+    "周王": 15,
+    "霸主": 6,
+    "楚吴越": 5,
+    "卿大夫": 57,
+    "士人": 6,
+    "诸侯": 147
+   }
+  },
+  "profile": {
+   "brief": 153,
+   "full": 80,
+   "noProfile": 3,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 233,
+   "deathMissing": 0,
+   "eitherMissing": 233,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "unknown": 233,
+    "disputed": 2,
+    "approx": 1
+   },
+   "deathAccuracy": {
+    "exact": 197,
+    "approx": 38,
+    "disputed": 1
+   },
+   "birthAccuracyWithYear": {
+    "disputed": 2,
+    "approx": 1
+   },
+   "deathAccuracyWithYear": {
+    "exact": 197,
+    "approx": 38,
+    "disputed": 1
+   }
+  },
+  "polity": {
+   "counts": {
+    "zhou": 18,
+    "zheng": 19,
+    "qi": 24,
+    "jin-guo": 36,
+    "qin": 16,
+    "song-guo": 13,
+    "chu": 21,
+    "wu": 4,
+    "yue": 3,
+    "lu": 26,
+    "wei-guo": 16,
+    "chen": 13,
+    "cai": 9,
+    "cao-guo": 8,
+    "wu-guo": 7
+   },
+   "countsNamed": {
+    "周": 18,
+    "郑": 19,
+    "齐": 24,
+    "晋国": 36,
+    "秦": 16,
+    "宋国": 13,
+    "楚": 21,
+    "孙吴": 4,
+    "越": 3,
+    "鲁": 26,
+    "卫国": 16,
+    "陈": 13,
+    "蔡": 9,
+    "曹国": 8,
+    "吴国": 7
+   },
+   "multiValue": []
+  },
+  "relations": {
+   "total": 25,
+   "peopleCovered": 21,
+   "peopleWithoutAny": 215,
+   "peopleWithoutAnyIds": [
+    "ji-lin",
+    "ji-tuo",
+    "ji-hu-qi",
+    "ji-liang",
+    "ji-zheng",
+    "ji-ren-chen",
+    "ji-ban",
+    "ji-yu",
+    "ji-yi",
+    "ji-xie-xin",
+    "ji-gui",
+    "ji-meng",
+    "ji-gai",
+    "ji-ren",
+    "mi-lv",
+    "kong-zi",
+    "jin-zhaohou",
+    "jin-xiaohou",
+    "jin-ehou",
+    "jin-aihou",
+    "jin-xiaozihou",
+    "jin-hou-min",
+    "quwo-wugong",
+    "jin-huigong",
+    "jin-huaigong",
+    "jin-xianggong",
+    "jin-linggong",
+    "jin-chenggong",
+    "jin-jinggong",
+    "jin-ligong",
+    "jin-daogong",
+    "jin-pinggong",
+    "jin-zhaogong-2",
+    "jin-qinggong",
+    "jin-dinggong",
+    "jin-chugong",
+    "qi-chunqiu-ligong",
+    "qi-xianggong",
+    "qi-xiaogong",
+    "qi-zhaogong",
+    "qi-yigong",
+    "qi-huigong",
+    "qi-qinggong",
+    "qi-linggong",
+    "qi-zhuanggong-hou",
+    "qi-chunqiu-jinggong",
+    "qi-yanruz",
+    "qi-daogong",
+    "qi-jiangong",
+    "qi-pinggong",
+    "xiong-mi",
+    "xiong-tong",
+    "xiong-zi",
+    "xiong-xia",
+    "xiong-shangchen",
+    "xiong-shen",
+    "xiong-zhao",
+    "xiong-yuan",
+    "xiong-wei",
+    "xiong-qiji",
+    "xiong-zhen",
+    "lu-yingong",
+    "lu-huangong",
+    "lu-zhuanggong",
+    "lu-ziban",
+    "lu-mingong",
+    "lu-xigong",
+    "lu-wengong",
+    "lu-xuangong",
+    "lu-chenggong",
+    "lu-xianggong",
+    "lu-zhaogong",
+    "lu-dinggong",
+    "lu-aigong",
+    "qin-wengong",
+    "qin-ninggong",
+    "qin-chuzi",
+    "qin-wugong",
+    "qin-degong",
+    "qin-xuangong",
+    "qin-chenggong",
+    "qin-kanggong",
+    "qin-gonggong",
+    "qin-huangong",
+    "qin-jinggong",
+    "qin-aigong",
+    "qin-huigong",
+    "qin-daogong",
+    "zheng-zhaogong",
+    "zheng-ziman",
+    "zheng-ziying",
+    "zheng-ligong",
+    "zheng-wengong",
+    "zheng-miugong",
+    "zheng-linggong",
+    "zheng-xianggong",
+    "zheng-daogong",
+    "zheng-chunqiu-chenggong",
+    "zheng-xigong",
+    "zheng-jiangong",
+    "zheng-dinggong",
+    "zheng-xiangong",
+    "zheng-shenggong",
+    "song-shanggong",
+    "song-zhuanggong",
+    "song-mingong",
+    "song-huangong",
+    "song-chenggong",
+    "song-zhaogong",
+    "song-wengong",
+    "song-gonggong",
+    "song-pinggong",
+    "song-yuangong",
+    "wei-zhuanggong",
+    "wei-huangong",
+    "wei-xuangong",
+    "wei-huigong",
+    "wei-yigong",
+    "wei-daigong",
+    "wei-wengong",
+    "wei-chenggong",
+    "wei-mugong",
+    "wei-dinggong",
+    "wei-shanggong",
+    "wei-xiangong",
+    "wei-xianggong",
+    "wei-linggong",
+    "wei-zhuanggong-hou",
+    "chen-huangong",
+    "chen-ligong",
+    "chen-ligong-2",
+    "chen-zhuanggong",
+    "chen-xuangong",
+    "chen-mugong",
+    "chen-gonggong",
+    "chen-linggong",
+    "chen-chenggong",
+    "chen-aigong",
+    "chen-huigong",
+    "chen-huaigong",
+    "chen-mingong",
+    "cai-aihou",
+    "cai-miuhou",
+    "cai-zhuanghou",
+    "cai-wenhou",
+    "cai-jinghou",
+    "cai-linghou",
+    "cai-daohou",
+    "cai-zhaohou",
+    "cai-chenghou",
+    "cao-gonggong",
+    "cao-wengong",
+    "cao-xuangong",
+    "cao-chenggong",
+    "cao-wugong",
+    "cao-pinggong",
+    "cao-daogong",
+    "cao-boyang",
+    "wu-shoumeng",
+    "wu-zhufan",
+    "wu-yuji",
+    "wu-yumei",
+    "wu-liao",
+    "wen-jiang",
+    "ai-jiang",
+    "mu-jiang",
+    "xun-xi",
+    "li-ke",
+    "yang-chufu",
+    "zhao-wu",
+    "ji-wen-zi",
+    "ji-wu-zi",
+    "ji-ping-zi",
+    "ji-kang-zi",
+    "meng-xi-zi",
+    "shusun-bao",
+    "yan-ying",
+    "cui-zhu",
+    "qing-feng",
+    "zi-pi",
+    "zi-chan",
+    "zi-xi",
+    "zi-yu",
+    "xian-hu",
+    "guo-zuo",
+    "xi-zhi",
+    "xun-yan",
+    "shen-yin-xu",
+    "zi-qi",
+    "chang-hong",
+    "deng-xi",
+    "zi-lu",
+    "wei-zhou-yu",
+    "gongzi-jiu",
+    "gongsun-wuzhi",
+    "shu-ya",
+    "qing-fu",
+    "shen-sheng",
+    "xi-qi",
+    "zhuo-zi",
+    "gongzi-wugui",
+    "wang-zi-bi",
+    "zi-xi-2",
+    "taizi-jian",
+    "bai-gong-sheng",
+    "wang-zi-tui",
+    "hua-du",
+    "nangong-wan",
+    "changdi-qiaoru",
+    "feng-shu",
+    "luan-ying",
+    "zhuan-zhu",
+    "wang-zi-chao",
+    "tai-zai-pi",
+    "yan-hui"
+   ]
+  },
+  "gaps": [
+   {
+    "from": -800,
+    "to": -741,
+    "length": 59,
+    "endpointsInside": []
+   }
+  ],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 232,
+  "views": 4,
+  "legacyEvents": 17
+ },
+ "zhanguo": {
+  "title": "战国",
+  "range": [
+   -435,
+   -190
+  ],
+  "lanes": [
+   {
+    "id": "ruler",
+    "name": "君主"
+   },
+   {
+    "id": "consort",
+    "name": "后妃"
+   },
+   {
+    "id": "minister",
+    "name": "变法 · 谋臣"
+   },
+   {
+    "id": "general",
+    "name": "将"
+   },
+   {
+    "id": "diplomat",
+    "name": "纵横"
+   },
+   {
+    "id": "scholar",
+    "name": "诸子"
+   }
+  ],
+  "people": {
+   "total": 102,
+   "markdown": 99,
+   "registryJson": 3,
+   "byLane": {
+    "ruler": 67,
+    "consort": 4,
+    "minister": 11,
+    "general": 13,
+    "diplomat": 3,
+    "scholar": 4
+   },
+   "byLaneName": {
+    "君主": 67,
+    "后妃": 4,
+    "变法 · 谋臣": 11,
+    "将": 13,
+    "纵横": 3,
+    "诸子": 4
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 99,
+   "noProfile": 3,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 94,
+   "deathMissing": 0,
+   "eitherMissing": 94,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "unknown": 94,
+    "approx": 7,
+    "exact": 1
+   },
+   "deathAccuracy": {
+    "disputed": 4,
+    "exact": 68,
+    "approx": 30
+   },
+   "birthAccuracyWithYear": {
+    "approx": 7,
+    "exact": 1
+   },
+   "deathAccuracyWithYear": {
+    "disputed": 4,
+    "exact": 68,
+    "approx": 30
+   }
+  },
+  "polity": {
+   "counts": {
+    "qin": 26,
+    "qi": 10,
+    "zhao": 12,
+    "chu": 14,
+    "yan": 13,
+    "wei-zhanguo": 9,
+    "wei": 1,
+    "han-guo": 11,
+    "zhou": 4,
+    "jin-guo": 1
+   },
+   "countsNamed": {
+    "秦": 26,
+    "齐": 10,
+    "赵": 12,
+    "楚": 14,
+    "燕": 13,
+    "魏国": 9,
+    "曹魏": 1,
+    "韩国": 11,
+    "周": 4,
+    "晋国": 1
+   },
+   "multiValue": [
+    {
+     "id": "wu-qi",
+     "polity": [
+      "wei-zhanguo",
+      "chu"
+     ]
+    },
+    {
+     "id": "changping-jun",
+     "polity": [
+      "qin",
+      "chu"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 128,
+   "peopleCovered": 102,
+   "peopleWithoutAny": 0,
+   "peopleWithoutAnyIds": []
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 94,
+  "views": 5,
+  "legacyEvents": 27
+ },
+ "qin": {
+  "title": "秦 · 帝国与楚汉",
+  "range": [
+   -250,
+   -195
+  ],
+  "lanes": [
+   {
+    "id": "qin-ruler",
+    "name": "秦君"
+   },
+   {
+    "id": "qin-consort",
+    "name": "后妃"
+   },
+   {
+    "id": "qin-kin",
+    "name": "宗室"
+   },
+   {
+    "id": "qin-official",
+    "name": "秦朝臣僚"
+   },
+   {
+    "id": "chu",
+    "name": "楚军"
+   },
+   {
+    "id": "han",
+    "name": "汉军"
+   },
+   {
+    "id": "rebel",
+    "name": "秦末民变"
+   },
+   {
+    "id": "opp",
+    "name": "对立面"
+   }
+  ],
+  "people": {
+   "total": 48,
+   "markdown": 48,
+   "registryJson": 0,
+   "byLane": {
+    "qin-ruler": 4,
+    "qin-consort": 2,
+    "qin-kin": 1,
+    "qin-official": 9,
+    "chu": 7,
+    "han": 15,
+    "rebel": 2,
+    "opp": 8
+   },
+   "byLaneName": {
+    "秦君": 4,
+    "后妃": 2,
+    "宗室": 1,
+    "秦朝臣僚": 9,
+    "楚军": 7,
+    "汉军": 15,
+    "秦末民变": 2,
+    "对立面": 8
+   }
+  },
+  "profile": {
+   "brief": 16,
+   "full": 32,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 45,
+   "deathMissing": 0,
+   "eitherMissing": 45,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 1,
+    "unknown": 45,
+    "approx": 1,
+    "disputed": 1
+   },
+   "deathAccuracy": {
+    "exact": 38,
+    "approx": 10
+   },
+   "birthAccuracyWithYear": {
+    "exact": 1,
+    "approx": 1,
+    "disputed": 1
+   },
+   "deathAccuracyWithYear": {
+    "exact": 38,
+    "approx": 10
+   }
+  },
+  "polity": {
+   "counts": {
+    "qin": 24,
+    "chu": 7,
+    "han": 15,
+    "minbian": 2
+   },
+   "countsNamed": {
+    "秦": 24,
+    "楚": 7,
+    "汉": 15,
+    "民变军": 2
+   },
+   "multiValue": []
+  },
+  "relations": {
+   "total": 30,
+   "peopleCovered": 30,
+   "peopleWithoutAny": 18,
+   "peopleWithoutAnyIds": [
+    "wang-li",
+    "sima-xin",
+    "song-yi",
+    "long-ju",
+    "cao-jiu",
+    "zhang-er",
+    "peng-yue",
+    "zhou-ke",
+    "ji-xin",
+    "li-yi-ji",
+    "lao-ai",
+    "chen-yu",
+    "zhao-xie",
+    "tian-dan-qiwang",
+    "tian-rong",
+    "tian-heng",
+    "wei-bao",
+    "han-guang"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 47,
+  "views": 4,
+  "legacyEvents": 9
+ },
+ "han": {
+  "title": "汉代",
+  "range": [
+   -260,
+   25
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "consort",
+    "name": "后妃 · 外戚"
+   },
+   {
+    "id": "chancellor",
+    "name": "宰相"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "scholar",
+    "name": "文臣 · 学者"
+   },
+   {
+    "id": "general",
+    "name": "武将"
+   },
+   {
+    "id": "xiongnu",
+    "name": "匈奴"
+   },
+   {
+    "id": "opposite",
+    "name": "对立面"
+   },
+   {
+    "id": "xinmang",
+    "name": "新莽"
+   }
+  ],
+  "people": {
+   "total": 116,
+   "markdown": 104,
+   "registryJson": 12,
+   "byLane": {
+    "emperor": 13,
+    "consort": 19,
+    "scholar": 23,
+    "general": 19,
+    "xiongnu": 5,
+    "xinmang": 1,
+    "opposite": 7,
+    "kin": 8,
+    "chancellor": 21
+   },
+   "byLaneName": {
+    "帝王": 13,
+    "后妃 · 外戚": 19,
+    "文臣 · 学者": 23,
+    "武将": 19,
+    "匈奴": 5,
+    "新莽": 1,
+    "对立面": 7,
+    "宗室": 8,
+    "宰相": 21
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 104,
+   "noProfile": 12,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 90,
+   "deathMissing": 0,
+   "eitherMissing": 90,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "disputed": 2,
+    "exact": 12,
+    "approx": 12,
+    "unknown": 90
+   },
+   "deathAccuracy": {
+    "exact": 101,
+    "approx": 15
+   },
+   "birthAccuracyWithYear": {
+    "disputed": 2,
+    "exact": 12,
+    "approx": 12
+   },
+   "deathAccuracyWithYear": {
+    "exact": 101,
+    "approx": 15
+   }
+  },
+  "polity": {
+   "counts": {
+    "han": 105,
+    "xiongnu": 5,
+    "xin": 2,
+    "chu": 1,
+    "nanyue": 2,
+    "minyue": 1,
+    "chaoxian": 1
+   },
+   "countsNamed": {
+    "汉": 105,
+    "匈奴": 5,
+    "新莽": 2,
+    "楚": 1,
+    "南越": 2,
+    "闽越": 1,
+    "朝鲜": 1
+   },
+   "multiValue": [
+    {
+     "id": "liu-ying-ruzi",
+     "polity": [
+      "han",
+      "xin"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 136,
+   "peopleCovered": 104,
+   "peopleWithoutAny": 12,
+   "peopleWithoutAnyIds": [
+    "jing-fang",
+    "duan-hui-zong",
+    "liu-de",
+    "liu-ci",
+    "wang-xin",
+    "cai-yi",
+    "wei-xuan-cheng",
+    "wang-shang",
+    "zhu-bo",
+    "ping-dang",
+    "wang-jia",
+    "kong-guang"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 92,
+  "views": 5,
+  "legacyEvents": 29
+ },
+ "donghan": {
+  "title": "东汉",
+  "range": [
+   -5,
+   234
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "consort",
+    "name": "后妃 · 外戚"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "scholar",
+    "name": "文臣 · 学者 · 士人"
+   },
+   {
+    "id": "general",
+    "name": "武将"
+   },
+   {
+    "id": "qunxiong",
+    "name": "建安群雄"
+   },
+   {
+    "id": "end",
+    "name": "末世 · 民变"
+   }
+  ],
+  "people": {
+   "total": 132,
+   "markdown": 132,
+   "registryJson": 0,
+   "byLane": {
+    "emperor": 13,
+    "consort": 16,
+    "general": 39,
+    "scholar": 34,
+    "end": 17,
+    "qunxiong": 8,
+    "kin": 5
+   },
+   "byLaneName": {
+    "帝王": 13,
+    "后妃 · 外戚": 16,
+    "武将": 39,
+    "文臣 · 学者 · 士人": 34,
+    "末世 · 民变": 17,
+    "建安群雄": 8,
+    "宗室": 5
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 132,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 83,
+   "deathMissing": 0,
+   "eitherMissing": 83,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 33,
+    "approx": 15,
+    "unknown": 83,
+    "disputed": 1
+   },
+   "deathAccuracy": {
+    "exact": 115,
+    "approx": 16,
+    "disputed": 1
+   },
+   "birthAccuracyWithYear": {
+    "exact": 33,
+    "approx": 15,
+    "disputed": 1
+   },
+   "deathAccuracyWithYear": {
+    "exact": 115,
+    "approx": 16,
+    "disputed": 1
+   }
+  },
+  "polity": {
+   "counts": {
+    "han": 129,
+    "wei": 1,
+    "wu": 2
+   },
+   "countsNamed": {
+    "汉": 129,
+    "曹魏": 1,
+    "孙吴": 2
+   },
+   "multiValue": []
+  },
+  "relations": {
+   "total": 39,
+   "peopleCovered": 40,
+   "peopleWithoutAny": 92,
+   "peopleWithoutAnyIds": [
+    "liu-long-shangdi",
+    "jia-fu-junwen",
+    "kou-xun",
+    "cen-peng",
+    "jia-zun",
+    "jing-dan",
+    "ge-yan",
+    "yao-qi",
+    "geng-chun",
+    "zang-gong",
+    "ma-wu",
+    "ma-cheng",
+    "wang-liang",
+    "chen-jun",
+    "du-mao",
+    "fu-jun",
+    "jian-tan",
+    "wang-ba",
+    "ren-guang",
+    "li-zhong",
+    "liu-zhi-boxian",
+    "liu-long",
+    "zhu-you",
+    "lai-she",
+    "dou-rong",
+    "dou-gu",
+    "geng-bing",
+    "jia-rong",
+    "huangfu-gui",
+    "zhang-huan",
+    "duan-jian",
+    "zhu-jun",
+    "lu-zhi-192",
+    "yang-zhen",
+    "wang-chong",
+    "zhang-heng",
+    "cai-yong",
+    "li-gu",
+    "kong-rong",
+    "cai-lun",
+    "feng-qin",
+    "mou-rong",
+    "zhao-xi",
+    "bao-yu",
+    "yuan-an",
+    "zhang-pu",
+    "zhang-yu",
+    "du-qiao",
+    "huang-qiong",
+    "yang-bing",
+    "hu-guang",
+    "qiao-xuan",
+    "chen-qiu",
+    "yang-ci",
+    "he-xiu",
+    "du-shi",
+    "fan-pang",
+    "du-mi",
+    "liu-tao",
+    "chen-shi",
+    "hua-tuo",
+    "liu-xuan",
+    "gongsun-shu",
+    "kui-xiao",
+    "fan-chao",
+    "peng-chong",
+    "liu-yong-donghan",
+    "li-xian-donghan",
+    "shan-chao",
+    "hou-lan",
+    "wang-fu-donghan",
+    "cao-jie-eunuch",
+    "zhang-rang",
+    "zhao-zhong",
+    "cao-cao",
+    "sun-jian",
+    "sun-ce",
+    "yuan-shao",
+    "yuan-shu",
+    "lv-bu",
+    "liu-biao",
+    "gongsun-zan",
+    "guo-shengtong",
+    "dou-zhangde",
+    "yan-ansi",
+    "dou-wu",
+    "fu-shou",
+    "liu-qiang",
+    "liu-cang",
+    "liu-ying-donghan",
+    "liu-qing",
+    "liu-suan"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 132,
+  "views": 4,
+  "legacyEvents": 10
+ },
+ "sanguo": {
+  "title": "三国",
+  "range": [
+   155,
+   302
+  ],
+  "lanes": [
+   {
+    "id": "caowei",
+    "name": "曹魏"
+   },
+   {
+    "id": "shuhan",
+    "name": "蜀汉"
+   },
+   {
+    "id": "sunwu",
+    "name": "孙吴"
+   },
+   {
+    "id": "qunxiong",
+    "name": "群雄 · 司马"
+   }
+  ],
+  "people": {
+   "total": 153,
+   "markdown": 153,
+   "registryJson": 0,
+   "byLane": {
+    "caowei": 64,
+    "qunxiong": 25,
+    "shuhan": 27,
+    "sunwu": 37
+   },
+   "byLaneName": {
+    "曹魏": 64,
+    "群雄 · 司马": 25,
+    "蜀汉": 27,
+    "孙吴": 37
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 153,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 101,
+   "deathMissing": 0,
+   "eitherMissing": 101,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 43,
+    "unknown": 101,
+    "approx": 9
+   },
+   "deathAccuracy": {
+    "exact": 152,
+    "approx": 1
+   },
+   "birthAccuracyWithYear": {
+    "exact": 43,
+    "approx": 9
+   },
+   "deathAccuracyWithYear": {
+    "exact": 152,
+    "approx": 1
+   }
+  },
+  "polity": {
+   "counts": {
+    "wei": 74,
+    "jin": 1,
+    "shu": 28,
+    "wu": 37,
+    "han": 13,
+    "wuhuan": 1,
+    "xianbei": 1
+   },
+   "countsNamed": {
+    "曹魏": 74,
+    "晋": 1,
+    "蜀汉": 28,
+    "孙吴": 37,
+    "汉": 13,
+    "乌桓": 1,
+    "鲜卑": 1
+   },
+   "multiValue": [
+    {
+     "id": "sima-yan",
+     "polity": [
+      "wei",
+      "jin"
+     ]
+    },
+    {
+     "id": "jiang-wei",
+     "polity": [
+      "wei",
+      "shu"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 43,
+   "peopleCovered": 42,
+   "peopleWithoutAny": 111,
+   "peopleWithoutAnyIds": [
+    "cao-mao",
+    "jia-xu",
+    "cheng-yu",
+    "wang-bi",
+    "sima-yan",
+    "zhao-yun",
+    "ma-chao",
+    "huang-zhong",
+    "wei-yan",
+    "pang-tong",
+    "fa-zheng",
+    "jiang-wan",
+    "fei-yi",
+    "sun-hao",
+    "lu-kang",
+    "zhang-zhao",
+    "taishi-ci",
+    "liu-biao",
+    "gongsun-zan",
+    "mao-hou",
+    "shu-mu-hou",
+    "zhong-yao",
+    "wang-lang",
+    "hua-xin",
+    "chen-qun",
+    "dong-zhao",
+    "liu-fang",
+    "sun-zi",
+    "jiang-ji",
+    "chen-tai",
+    "gao-rou",
+    "wang-guan",
+    "cui-lin",
+    "xu-miao",
+    "lu-yu",
+    "sun-li",
+    "fu-gu",
+    "xu-jing",
+    "liu-ba",
+    "li-yan-shu",
+    "dong-yun",
+    "lv-yi",
+    "qiao-zhou",
+    "gu-yong",
+    "pan-jun",
+    "kan-ze",
+    "bu-zhi",
+    "lv-dai",
+    "xue-zong",
+    "sun-jun",
+    "sun-lin",
+    "puyang-xing",
+    "yue-jin",
+    "dian-wei",
+    "pang-de",
+    "yu-jin",
+    "cao-ren",
+    "xiahou-shang",
+    "xiahou-yuan",
+    "xu-huang",
+    "cao-zhen",
+    "cao-xiu",
+    "cao-hong",
+    "man-chong",
+    "zhang-he",
+    "guo-huai",
+    "wang-chang",
+    "wang-ji",
+    "hu-zhi",
+    "huang-quan",
+    "wang-ping",
+    "ma-zhong",
+    "deng-zhi",
+    "zhang-yi-ni",
+    "zhang-yi-shu",
+    "lv-fan",
+    "zhu-huan",
+    "pan-zhang",
+    "zhu-ran",
+    "quan-cong",
+    "zhu-yi",
+    "ding-feng",
+    "xiahou-xuan",
+    "sun-yi",
+    "sun-jiao",
+    "sun-shao",
+    "sun-huan",
+    "sun-ba",
+    "sun-he",
+    "ruan-yu",
+    "wang-can",
+    "xu-gan",
+    "chen-lin",
+    "ying-yang",
+    "liu-zhen",
+    "yang-xiu",
+    "xun-you",
+    "tao-qian",
+    "liu-yan-yizhou",
+    "zhang-ji",
+    "li-jue",
+    "guo-si",
+    "ta-dun",
+    "zhang-xiu",
+    "shi-xie",
+    "meng-da",
+    "ke-bi-neng",
+    "gongsun-yuan",
+    "wang-ling",
+    "guanqiu-jian",
+    "zhuge-dan"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 145,
+  "views": 4,
+  "legacyEvents": 11
+ },
+ "liangjin": {
+  "title": "两晋 · 十六国",
+  "range": [
+   221,
+   421
+  ],
+  "lanes": [
+   {
+    "id": "xijin",
+    "name": "西晋"
+   },
+   {
+    "id": "dongjin",
+    "name": "东晋"
+   },
+   {
+    "id": "shiliuguo",
+    "name": "十六国"
+   },
+   {
+    "id": "wen",
+    "name": "文士 · 释道"
+   }
+  ],
+  "people": {
+   "total": 127,
+   "markdown": 127,
+   "registryJson": 0,
+   "byLane": {
+    "xijin": 38,
+    "dongjin": 52,
+    "wen": 10,
+    "shiliuguo": 27
+   },
+   "byLaneName": {
+    "西晋": 38,
+    "东晋": 52,
+    "文士 · 释道": 10,
+    "十六国": 27
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 127,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 36,
+   "deathMissing": 0,
+   "eitherMissing": 36,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 35,
+    "unknown": 36,
+    "approx": 56
+   },
+   "deathAccuracy": {
+    "exact": 122,
+    "disputed": 5
+   },
+   "birthAccuracyWithYear": {
+    "exact": 35,
+    "approx": 56
+   },
+   "deathAccuracyWithYear": {
+    "exact": 122,
+    "disputed": 5
+   }
+  },
+  "polity": {
+   "counts": {
+    "wei": 1,
+    "jin": 100,
+    "wu": 1,
+    "shu": 1,
+    "nan": 1,
+    "shiliuguo": 27
+   },
+   "countsNamed": {
+    "曹魏": 1,
+    "晋": 100,
+    "孙吴": 1,
+    "蜀汉": 1,
+    "南朝": 1,
+    "十六国": 27
+   },
+   "multiValue": [
+    {
+     "id": "sima-yan",
+     "polity": [
+      "wei",
+      "jin"
+     ]
+    },
+    {
+     "id": "lu-ji",
+     "polity": [
+      "wu",
+      "jin"
+     ]
+    },
+    {
+     "id": "chen-shou",
+     "polity": [
+      "shu",
+      "jin"
+     ]
+    },
+    {
+     "id": "liu-yu",
+     "polity": [
+      "jin",
+      "nan"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 139,
+   "peopleCovered": 111,
+   "peopleWithoutAny": 16,
+   "peopleWithoutAnyIds": [
+    "sima-ye",
+    "chen-shou",
+    "wang-xizhi",
+    "gu-kaizhi",
+    "ge-hong",
+    "he-zeng",
+    "chen-qian",
+    "xun-xu",
+    "wei-shu",
+    "cai-mo",
+    "yao-xing",
+    "lv-guang",
+    "tufa-wugu",
+    "qifu-guoren",
+    "li-gao",
+    "zhou-chu"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 126,
+  "views": 4,
+  "legacyEvents": 8
+ },
+ "nanbei": {
+  "title": "南北朝",
+  "range": [
+   371,
+   589
+  ],
+  "lanes": [
+   {
+    "id": "bei",
+    "name": "北朝"
+   },
+   {
+    "id": "nan",
+    "name": "南朝"
+   },
+   {
+    "id": "wen",
+    "name": "文士 · 科学 · 释道"
+   }
+  ],
+  "people": {
+   "total": 153,
+   "markdown": 153,
+   "registryJson": 0,
+   "byLane": {
+    "bei": 68,
+    "nan": 67,
+    "wen": 18
+   },
+   "byLaneName": {
+    "北朝": 68,
+    "南朝": 67,
+    "文士 · 科学 · 释道": 18
+   }
+  },
+  "profile": {
+   "brief": 92,
+   "full": 61,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 55,
+   "deathMissing": 0,
+   "eitherMissing": 55,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 34,
+    "unknown": 55,
+    "approx": 64
+   },
+   "deathAccuracy": {
+    "exact": 152,
+    "approx": 1
+   },
+   "birthAccuracyWithYear": {
+    "exact": 34,
+    "approx": 64
+   },
+   "deathAccuracyWithYear": {
+    "exact": 152,
+    "approx": 1
+   }
+  },
+  "polity": {
+   "counts": {
+    "bei": 66,
+    "jin": 3,
+    "nan": 81,
+    "shiliuguo": 4
+   },
+   "countsNamed": {
+    "北朝": 66,
+    "晋": 3,
+    "南朝": 81,
+    "十六国": 4
+   },
+   "multiValue": [
+    {
+     "id": "liu-yu",
+     "polity": [
+      "jin",
+      "nan"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 64,
+   "peopleCovered": 55,
+   "peopleWithoutAny": 98,
+   "peopleWithoutAnyIds": [
+    "li-daoyuan",
+    "su-chuo",
+    "xie-lingyun",
+    "xiao-zhaowen",
+    "yuan-gong",
+    "yuan-baoju",
+    "yuwen-yu",
+    "liu-yifu",
+    "liu-ziye",
+    "liu-yu-xiangdong",
+    "liu-yu-cangwu",
+    "xiao-zhaoye",
+    "xiao-luan",
+    "xiao-baorong",
+    "feng-run",
+    "ding-lingguang",
+    "wang-xianyuan",
+    "xie-hui",
+    "wang-jian-nanchang",
+    "fan-yun",
+    "xu-mian",
+    "zhu-yi-yanhe",
+    "wang-sengbian",
+    "xi-jin",
+    "yuan-yong",
+    "gao-cheng",
+    "yang-yin",
+    "he-shikai",
+    "yuwen-hu",
+    "wang-gui-wuguan",
+    "hulv-jin",
+    "chu-yuan",
+    "li-chong",
+    "yuchi-jiong",
+    "liu-yuanjing",
+    "shen-qingzhi",
+    "shen-youzhi",
+    "chang-yizhi",
+    "hou-andu",
+    "murong-baiyao",
+    "yuan-ying",
+    "li-chong-jichang",
+    "duan-shao",
+    "dugu-xin",
+    "yu-jin-sijing",
+    "yang-zhong",
+    "wei-rui",
+    "pei-sui",
+    "yang-kan",
+    "zhou-wenyu",
+    "erzhu-zhao",
+    "heba-yue",
+    "gao-ang",
+    "murong-shaozong",
+    "liu-yigong",
+    "xiao-yi-yuzhang",
+    "xiao-ziliang",
+    "xiao-yaoguang",
+    "xiao-yi-linxiang",
+    "xiao-hong",
+    "xiao-xiu",
+    "xiao-ji",
+    "yuan-xi",
+    "yuan-yi",
+    "yuwen-zhi",
+    "liu-yikang",
+    "liu-yixuan",
+    "liu-shao",
+    "liu-jun-xiuming",
+    "liu-dan-jingling",
+    "xiao-lun",
+    "chen-chang",
+    "yuwen-xian",
+    "yuan-xie",
+    "xu-ling",
+    "zong-bing",
+    "ruan-xiaoxu",
+    "liu-xiaochuo",
+    "gao-yun",
+    "kou-qianzhi",
+    "yu-xin",
+    "bao-zhao",
+    "xie-tiao",
+    "wang-rong-yuanchang",
+    "jiang-yan",
+    "gu-yewang",
+    "wang-jun-yun",
+    "helian-bobo",
+    "juqu-mengxun",
+    "feng-ba",
+    "a-na-gui",
+    "hou-jing",
+    "xiao-baoyin",
+    "xiao-cha",
+    "wang-lin",
+    "xiao-zhengde",
+    "murong-chao",
+    "lu-xun-yuxian"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 149,
+  "views": 4,
+  "legacyEvents": 11
+ },
+ "sui": {
+  "title": "隋",
+  "range": [
+   541,
+   619
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "consort",
+    "name": "后妃"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "minister",
+    "name": "名相 · 文臣"
+   },
+   {
+    "id": "general",
+    "name": "名将"
+   },
+   {
+    "id": "opposite",
+    "name": "对立"
+   },
+   {
+    "id": "craft",
+    "name": "工程 · 制度"
+   },
+   {
+    "id": "mowei",
+    "name": "隋末群雄"
+   }
+  ],
+  "people": {
+   "total": 43,
+   "markdown": 43,
+   "registryJson": 0,
+   "byLane": {
+    "emperor": 5,
+    "kin": 5,
+    "minister": 10,
+    "general": 13,
+    "craft": 1,
+    "mowei": 6,
+    "consort": 1,
+    "opposite": 2
+   },
+   "byLaneName": {
+    "帝王": 5,
+    "宗室": 5,
+    "名相 · 文臣": 10,
+    "名将": 13,
+    "工程 · 制度": 1,
+    "隋末群雄": 6,
+    "后妃": 1,
+    "对立": 2
+   }
+  },
+  "profile": {
+   "brief": 20,
+   "full": 23,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 21,
+   "deathMissing": 0,
+   "eitherMissing": 21,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 12,
+    "unknown": 21,
+    "approx": 10
+   },
+   "deathAccuracy": {
+    "exact": 38,
+    "approx": 4,
+    "disputed": 1
+   },
+   "birthAccuracyWithYear": {
+    "exact": 12,
+    "approx": 10
+   },
+   "deathAccuracyWithYear": {
+    "exact": 38,
+    "approx": 4,
+    "disputed": 1
+   }
+  },
+  "polity": {
+   "counts": {
+    "sui": 41,
+    "tang": 1,
+    "nan": 1,
+    "bei": 1
+   },
+   "countsNamed": {
+    "隋": 41,
+    "唐": 1,
+    "南朝": 1,
+    "北朝": 1
+   },
+   "multiValue": [
+    {
+     "id": "li-mi",
+     "polity": [
+      "sui",
+      "tang"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 33,
+   "peopleCovered": 23,
+   "peopleWithoutAny": 20,
+   "peopleWithoutAnyIds": [
+    "yang-hao",
+    "yang-dong",
+    "yu-qingze",
+    "yang-xiong-542",
+    "yang-da",
+    "yu-shi-ji",
+    "pei-yun",
+    "yuan-shou",
+    "liu-zhuo",
+    "xu-shanxin",
+    "lai-hu-er",
+    "mai-tie-zhang",
+    "duan-wenzhen",
+    "shen-guang",
+    "du-gu-sheng",
+    "wang-bian",
+    "yu-wen-xie",
+    "yang-jun-600",
+    "yang-xiu-618",
+    "yang-jian-585"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 40,
+  "views": 3,
+  "legacyEvents": 8
+ },
+ "tang": {
+  "title": "唐",
+  "range": [
+   566,
+   907
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "consort",
+    "name": "后妃 · 外戚"
+   },
+   {
+    "id": "chancellor",
+    "name": "名相"
+   },
+   {
+    "id": "general",
+    "name": "名将"
+   },
+   {
+    "id": "literati",
+    "name": "文学 · 艺术"
+   },
+   {
+    "id": "end",
+    "name": "藩镇 · 末世"
+   }
+  ],
+  "people": {
+   "total": 179,
+   "markdown": 179,
+   "registryJson": 0,
+   "byLane": {
+    "emperor": 21,
+    "consort": 10,
+    "chancellor": 88,
+    "general": 20,
+    "end": 15,
+    "literati": 21,
+    "kin": 4
+   },
+   "byLaneName": {
+    "帝王": 21,
+    "后妃 · 外戚": 10,
+    "名相": 88,
+    "名将": 20,
+    "藩镇 · 末世": 15,
+    "文学 · 艺术": 21,
+    "宗室": 4
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 179,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 55,
+   "deathMissing": 0,
+   "eitherMissing": 55,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 120,
+    "unknown": 55,
+    "approx": 4
+   },
+   "deathAccuracy": {
+    "exact": 175,
+    "disputed": 1,
+    "approx": 3
+   },
+   "birthAccuracyWithYear": {
+    "exact": 120,
+    "approx": 4
+   },
+   "deathAccuracyWithYear": {
+    "exact": 175,
+    "disputed": 1,
+    "approx": 3
+   }
+  },
+  "polity": {
+   "counts": {
+    "tang": 174,
+    "sui": 3,
+    "tujue": 3,
+    "wudai": 2,
+    "tubo": 1
+   },
+   "countsNamed": {
+    "唐": 174,
+    "隋": 3,
+    "突厥": 3,
+    "五代": 2,
+    "吐蕃": 1
+   },
+   "multiValue": [
+    {
+     "id": "li-mi",
+     "polity": [
+      "sui",
+      "tang"
+     ]
+    },
+    {
+     "id": "a-shi-na-she-er",
+     "polity": [
+      "tujue",
+      "tang"
+     ]
+    },
+    {
+     "id": "zhu-wen",
+     "polity": [
+      "tang",
+      "wudai"
+     ]
+    },
+    {
+     "id": "li-ke-yong",
+     "polity": [
+      "tang",
+      "wudai"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 168,
+   "peopleCovered": 172,
+   "peopleWithoutAny": 7,
+   "peopleWithoutAnyIds": [
+    "shangguan-wan-er",
+    "qin-qiong",
+    "xu-shi-ji",
+    "gao-xian-zhi",
+    "hui-neng",
+    "sun-si-miao",
+    "yan-li-ben"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 175,
+  "views": 5,
+  "legacyEvents": 11
+ },
+ "wudai": {
+  "title": "五代十国",
+  "range": [
+   907,
+   979
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "五代帝王"
+   },
+   {
+    "id": "shiguo",
+    "name": "十国君主"
+   },
+   {
+    "id": "chancellor",
+    "name": "宰辅 · 文臣"
+   },
+   {
+    "id": "general",
+    "name": "将帅 · 武力"
+   },
+   {
+    "id": "literati",
+    "name": "文学 · 艺术"
+   },
+   {
+    "id": "khitan",
+    "name": "契丹 · 北疆"
+   },
+   {
+    "id": "yunnan",
+    "name": "云南 · 西南"
+   },
+   {
+    "id": "end",
+    "name": "禅代 · 归宋"
+   }
+  ],
+  "people": {
+   "total": 76,
+   "markdown": 76,
+   "registryJson": 0,
+   "byLane": {
+    "emperor": 15,
+    "shiguo": 18,
+    "chancellor": 11,
+    "general": 8,
+    "literati": 3,
+    "khitan": 5,
+    "yunnan": 11,
+    "end": 5
+   },
+   "byLaneName": {
+    "五代帝王": 15,
+    "十国君主": 18,
+    "宰辅 · 文臣": 11,
+    "将帅 · 武力": 8,
+    "文学 · 艺术": 3,
+    "契丹 · 北疆": 5,
+    "云南 · 西南": 11,
+    "禅代 · 归宋": 5
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 76,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 37,
+   "deathMissing": 0,
+   "eitherMissing": 37,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 22,
+    "unknown": 37,
+    "approx": 17
+   },
+   "deathAccuracy": {
+    "exact": 59,
+    "approx": 17
+   },
+   "birthAccuracyWithYear": {
+    "exact": 22,
+    "approx": 17
+   },
+   "deathAccuracyWithYear": {
+    "exact": 59,
+    "approx": 17
+   }
+  },
+  "polity": {
+   "counts": {
+    "tang": 4,
+    "wudai": 33,
+    "shiguo": 25,
+    "song": 6,
+    "liao-jin": 5,
+    "dachanghe": 3,
+    "datianxing": 1,
+    "dayining": 2,
+    "dali": 5
+   },
+   "countsNamed": {
+    "唐": 4,
+    "五代": 33,
+    "十国": 25,
+    "宋": 6,
+    "辽 · 金": 5,
+    "大长和": 3,
+    "大天兴": 1,
+    "大义宁": 2,
+    "大理": 5
+   },
+   "multiValue": [
+    {
+     "id": "zhu-wen",
+     "polity": [
+      "tang",
+      "wudai"
+     ]
+    },
+    {
+     "id": "li-ke-yong",
+     "polity": [
+      "tang",
+      "wudai"
+     ]
+    },
+    {
+     "id": "wang-pu",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    },
+    {
+     "id": "fan-zhi",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    },
+    {
+     "id": "wei-renpu",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    },
+    {
+     "id": "li-cunxiao",
+     "polity": [
+      "tang",
+      "wudai"
+     ]
+    },
+    {
+     "id": "guan-xiu",
+     "polity": [
+      "tang",
+      "shiguo"
+     ]
+    },
+    {
+     "id": "zhao-pu",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 88,
+   "peopleCovered": 74,
+   "peopleWithoutAny": 2,
+   "peopleWithoutAnyIds": [
+    "duan-sicong",
+    "duan-sushun"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 70,
+  "views": 7,
+  "legacyEvents": 15
+ },
+ "song": {
+  "title": "宋",
+  "range": [
+   927,
+   1279
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "consort",
+    "name": "后妃 · 外戚"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "chancellor",
+    "name": "名相 · 文臣"
+   },
+   {
+    "id": "general",
+    "name": "将帅"
+   },
+   {
+    "id": "literati",
+    "name": "文学 · 艺术 · 学术"
+   },
+   {
+    "id": "rival",
+    "name": "对立面 · 外族"
+   },
+   {
+    "id": "end",
+    "name": "权相 · 末世"
+   },
+   {
+    "id": "dali",
+    "name": "大理段氏"
+   }
+  ],
+  "people": {
+   "total": 245,
+   "markdown": 245,
+   "registryJson": 0,
+   "byLane": {
+    "emperor": 18,
+    "consort": 15,
+    "kin": 3,
+    "chancellor": 79,
+    "general": 31,
+    "literati": 51,
+    "rival": 27,
+    "end": 4,
+    "dali": 17
+   },
+   "byLaneName": {
+    "帝王": 18,
+    "后妃 · 外戚": 15,
+    "宗室": 3,
+    "名相 · 文臣": 79,
+    "将帅": 31,
+    "文学 · 艺术 · 学术": 51,
+    "对立面 · 外族": 27,
+    "权相 · 末世": 4,
+    "大理段氏": 17
+   }
+  },
+  "profile": {
+   "brief": 17,
+   "full": 228,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 50,
+   "deathMissing": 0,
+   "eitherMissing": 50,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 188,
+    "approx": 7,
+    "unknown": 50
+   },
+   "deathAccuracy": {
+    "exact": 215,
+    "approx": 28,
+    "disputed": 2
+   },
+   "birthAccuracyWithYear": {
+    "exact": 188,
+    "approx": 7
+   },
+   "deathAccuracyWithYear": {
+    "exact": 215,
+    "approx": 28,
+    "disputed": 2
+   }
+  },
+  "polity": {
+   "counts": {
+    "song": 206,
+    "yuan": 7,
+    "wudai": 7,
+    "liao-jin": 10,
+    "xixia": 3,
+    "dali": 17
+   },
+   "countsNamed": {
+    "宋": 206,
+    "元": 7,
+    "五代": 7,
+    "辽 · 金": 10,
+    "西夏": 3,
+    "大理": 17
+   },
+   "multiValue": [
+    {
+     "id": "zhao-xian",
+     "polity": [
+      "song",
+      "yuan"
+     ]
+    },
+    {
+     "id": "fan-zhi",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    },
+    {
+     "id": "wei-renpu",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    },
+    {
+     "id": "zhao-pu",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    },
+    {
+     "id": "wang-pu",
+     "polity": [
+      "wudai",
+      "song"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 42,
+   "peopleCovered": 41,
+   "peopleWithoutAny": 204,
+   "peopleWithoutAnyIds": [
+    "du-taihou",
+    "song-huanghou",
+    "li-huanghou",
+    "liu-e",
+    "cao-huanghou",
+    "gao-taotao",
+    "xiang-huanghou",
+    "meng-huanghou",
+    "wu-huanghou",
+    "zheng-huanghou",
+    "li-fengniang",
+    "xie-daoqing",
+    "xie-huanghou",
+    "yang-huanghou",
+    "yang-shufei",
+    "zhao-tingmei",
+    "zhao-yuanzuo",
+    "zhao-yuanxi",
+    "shen-yilun",
+    "fan-zhi",
+    "wei-renpu",
+    "xue-juzheng",
+    "wang-pu",
+    "li-fang",
+    "lu-duoxun",
+    "lv-duan",
+    "zhang-qixian",
+    "lv-mengzheng",
+    "li-hang",
+    "xiang-minzhong",
+    "wang-dan",
+    "wang-qinruo",
+    "zhang-shixun",
+    "ding-wei",
+    "li-di",
+    "zhang-dexiang",
+    "lv-yijian",
+    "chen-zhizhong",
+    "yan-shu",
+    "liu-hang",
+    "jia-changchao",
+    "bao-zheng",
+    "zeng-gongliang",
+    "fu-bi",
+    "wen-yanbo",
+    "han-qi",
+    "lv-gongzhu",
+    "wang-gui-song",
+    "wu-chong",
+    "lv-dafang",
+    "zhang-zhibai",
+    "han-zhongyan",
+    "zhang-dun",
+    "zeng-bu",
+    "cai-que",
+    "he-zhizhong",
+    "cai-jing",
+    "lv-yihao",
+    "wang-fu",
+    "zhao-ding",
+    "zhang-jun",
+    "chen-kangbo",
+    "zhao-tingzhi",
+    "yu-yunwen",
+    "chen-junqing",
+    "bai-shizhong",
+    "wang-huai",
+    "zhou-bida",
+    "yu-shen",
+    "zhao-xiong",
+    "liang-kejia",
+    "liu-zheng",
+    "huang-qianshan",
+    "li-bangyan",
+    "jing-tang",
+    "xie-shenfu",
+    "zhao-ruyu",
+    "han-tuozhou",
+    "qiao-xingjian",
+    "cui-yuzhi",
+    "tang-situi",
+    "shi-miyuan",
+    "zheng-qingzhi",
+    "shi-songzhi",
+    "cheng-yuanfeng",
+    "ye-mengding",
+    "ma-tingluan",
+    "li-zongmian",
+    "fan-zhong",
+    "xie-fangshu",
+    "guo-jin",
+    "pan-mei",
+    "li-jilong",
+    "cao-wei",
+    "chong-shiheng",
+    "yang-ye",
+    "di-qing",
+    "guo-kui",
+    "zhang-jie",
+    "chong-e",
+    "wang-shao",
+    "chong-shidao",
+    "tong-guan",
+    "zong-ze",
+    "zhang-jun-1086",
+    "wu-jie",
+    "liu-qi-1098",
+    "wu-lin",
+    "yang-cunzhong",
+    "li-xianzhong",
+    "chong-shizhong",
+    "wang-bing",
+    "meng-gong",
+    "yu-jie",
+    "li-tingzhi",
+    "wang-jian-1264",
+    "lv-wende",
+    "yan-su",
+    "lin-bu",
+    "bi-sheng",
+    "yang-yi",
+    "mei-yaochen",
+    "su-xun",
+    "shao-yong",
+    "cai-xiang",
+    "zhou-dunyi",
+    "wen-tong",
+    "zeng-gong",
+    "zhang-zai",
+    "li-jie",
+    "yan-jidao",
+    "su-zhe",
+    "fan-zuyu",
+    "huang-tingjian",
+    "qin-guan",
+    "li-gonglin",
+    "mi-fu",
+    "he-zhu",
+    "liu-yong",
+    "chen-shidao",
+    "yang-shi",
+    "zhou-bangyan",
+    "mi-youren",
+    "hu-anguo",
+    "chen-yuyi",
+    "zheng-qiao",
+    "li-dao",
+    "fan-chengda",
+    "yang-wanli",
+    "yuan-shu-1131",
+    "zhang-shi",
+    "lv-zuqian",
+    "lu-jiuyuan",
+    "chen-liang",
+    "ye-shi",
+    "huang-gan",
+    "jiang-kui",
+    "zhen-dexiu",
+    "wei-liaoweng",
+    "liu-kezhuang",
+    "xiao-chuo",
+    "han-tong",
+    "li-jiquan",
+    "li-yun",
+    "li-chongjin",
+    "yelv-longxu",
+    "li-deming",
+    "wang-xiaobo",
+    "li-shun",
+    "yelv-xiuge",
+    "li-yuanhao",
+    "nong-zhigao",
+    "wanyan-aguda",
+    "liu-yu-1073",
+    "wanyan-zonghan",
+    "fang-la",
+    "wanyan-liang",
+    "wanyan-zongwang",
+    "wanyan-zongbi",
+    "tie-mu-zhen",
+    "heshilie-zhining",
+    "li-quan",
+    "meng-ge",
+    "liu-zheng-1212",
+    "hu-bi-lie",
+    "bo-yan",
+    "zhang-hongfan",
+    "duan-suying",
+    "duan-sulian",
+    "duan-sulong",
+    "duan-suzhen",
+    "duan-suxing",
+    "duan-silian",
+    "duan-lianyi",
+    "duan-shouhui",
+    "duan-zhengming",
+    "gao-shengtai",
+    "duan-zhengchun",
+    "duan-zhengyan",
+    "duan-zhengxing",
+    "duan-zhixing",
+    "duan-zhilian",
+    "duan-xiangxing",
+    "duan-xingzhi"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 236,
+  "views": 4,
+  "legacyEvents": 12
+ },
+ "yuan": {
+  "title": "元",
+  "range": [
+   1140,
+   1370
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "consort",
+    "name": "后妃"
+   },
+   {
+    "id": "chancellor",
+    "name": "宰辅 · 重臣"
+   },
+   {
+    "id": "general",
+    "name": "名将"
+   },
+   {
+    "id": "literati",
+    "name": "文史 · 技艺"
+   },
+   {
+    "id": "end",
+    "name": "权臣 · 群雄 · 对立"
+   }
+  ],
+  "people": {
+   "total": 101,
+   "markdown": 95,
+   "registryJson": 6,
+   "byLane": {
+    "emperor": 16,
+    "kin": 4,
+    "consort": 4,
+    "chancellor": 25,
+    "general": 11,
+    "literati": 30,
+    "end": 11
+   },
+   "byLaneName": {
+    "帝王": 16,
+    "宗室": 4,
+    "后妃": 4,
+    "宰辅 · 重臣": 25,
+    "名将": 11,
+    "文史 · 技艺": 30,
+    "权臣 · 群雄 · 对立": 11
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 95,
+   "noProfile": 6,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 18,
+   "deathMissing": 0,
+   "eitherMissing": 18,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 60,
+    "approx": 23,
+    "unknown": 18
+   },
+   "deathAccuracy": {
+    "exact": 87,
+    "disputed": 2,
+    "approx": 12
+   },
+   "birthAccuracyWithYear": {
+    "exact": 60,
+    "approx": 23
+   },
+   "deathAccuracyWithYear": {
+    "exact": 87,
+    "disputed": 2,
+    "approx": 12
+   }
+  },
+  "polity": {
+   "counts": {
+    "yuan": 97,
+    "song": 1,
+    "liao-jin": 2,
+    "minbian": 7,
+    "ming": 1
+   },
+   "countsNamed": {
+    "元": 97,
+    "宋": 1,
+    "辽 · 金": 2,
+    "民变军": 7,
+    "明": 1
+   },
+   "multiValue": [
+    {
+     "id": "zhao-xian",
+     "polity": [
+      "song",
+      "yuan"
+     ]
+    },
+    {
+     "id": "qiu-chuji",
+     "polity": [
+      "liao-jin",
+      "yuan"
+     ]
+    },
+    {
+     "id": "yuan-haowen",
+     "polity": [
+      "liao-jin",
+      "yuan"
+     ]
+    },
+    {
+     "id": "liu-futong",
+     "polity": [
+      "yuan",
+      "minbian"
+     ]
+    },
+    {
+     "id": "chen-youliang",
+     "polity": [
+      "yuan",
+      "minbian"
+     ]
+    },
+    {
+     "id": "zhang-shicheng",
+     "polity": [
+      "yuan",
+      "minbian"
+     ]
+    },
+    {
+     "id": "zhu-yuanzhang",
+     "polity": [
+      "yuan",
+      "ming"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 137,
+   "peopleCovered": 101,
+   "peopleWithoutAny": 0,
+   "peopleWithoutAnyIds": []
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 94,
+  "views": 6,
+  "legacyEvents": 20
+ },
+ "ming": {
+  "title": "明",
+  "range": [
+   1320,
+   1680
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "consort",
+    "name": "后妃"
+   },
+   {
+    "id": "chancellor",
+    "name": "宰辅 · 文臣"
+   },
+   {
+    "id": "general",
+    "name": "名将"
+   },
+   {
+    "id": "literati",
+    "name": "文史 · 技艺"
+   },
+   {
+    "id": "end",
+    "name": "权臣 · 群雄 · 对立"
+   }
+  ],
+  "people": {
+   "total": 158,
+   "markdown": 156,
+   "registryJson": 2,
+   "byLane": {
+    "emperor": 17,
+    "kin": 4,
+    "consort": 5,
+    "chancellor": 66,
+    "general": 20,
+    "literati": 23,
+    "end": 23
+   },
+   "byLaneName": {
+    "帝王": 17,
+    "宗室": 4,
+    "后妃": 5,
+    "宰辅 · 文臣": 66,
+    "名将": 20,
+    "文史 · 技艺": 23,
+    "权臣 · 群雄 · 对立": 23
+   }
+  },
+  "profile": {
+   "brief": 26,
+   "full": 130,
+   "noProfile": 2,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 20,
+   "deathMissing": 4,
+   "eitherMissing": 24,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 103,
+    "approx": 35,
+    "unknown": 20
+   },
+   "deathAccuracy": {
+    "exact": 127,
+    "disputed": 2,
+    "approx": 25,
+    "unknown": 4
+   },
+   "birthAccuracyWithYear": {
+    "exact": 103,
+    "approx": 35
+   },
+   "deathAccuracyWithYear": {
+    "exact": 127,
+    "disputed": 2,
+    "approx": 25
+   }
+  },
+  "polity": {
+   "counts": {
+    "yuan": 3,
+    "ming": 151,
+    "minbian": 4,
+    "mongol": 2,
+    "qing": 4
+   },
+   "countsNamed": {
+    "元": 3,
+    "明": 151,
+    "民变军": 4,
+    "蒙古": 2,
+    "清": 4
+   },
+   "multiValue": [
+    {
+     "id": "zhu-yuanzhang",
+     "polity": [
+      "yuan",
+      "ming"
+     ]
+    },
+    {
+     "id": "chen-youliang",
+     "polity": [
+      "yuan",
+      "minbian"
+     ]
+    },
+    {
+     "id": "zhang-shicheng",
+     "polity": [
+      "yuan",
+      "minbian"
+     ]
+    },
+    {
+     "id": "li-zicheng",
+     "polity": [
+      "ming",
+      "minbian"
+     ]
+    },
+    {
+     "id": "zhang-xianzhong",
+     "polity": [
+      "ming",
+      "minbian"
+     ]
+    },
+    {
+     "id": "wu-sangui",
+     "polity": [
+      "ming",
+      "qing"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 186,
+   "peopleCovered": 132,
+   "peopleWithoutAny": 26,
+   "peopleWithoutAnyIds": [
+    "li-chunfang",
+    "chen-yiqin",
+    "lv-tiaoyang",
+    "zhang-siwei",
+    "shen-yiguan",
+    "wu-daonan",
+    "zhu-yanxi",
+    "zhou-daodeng",
+    "qian-longxi",
+    "he-ruchong",
+    "qian-xiangkun",
+    "wu-zongda",
+    "wang-yingxiong",
+    "he-wuzou",
+    "huang-shijun",
+    "kong-zhenyun",
+    "liu-yuliang",
+    "cai-guoyong",
+    "fan-fucui",
+    "zhang-sizhi",
+    "wei-zhaocheng",
+    "gu-bingqian",
+    "wei-guangwei",
+    "huang-liji",
+    "shi-fenglai",
+    "zhang-ruitu"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 150,
+  "views": 7,
+  "legacyEvents": 26
+ },
+ "qing": {
+  "title": "清",
+  "range": [
+   1550,
+   1970
+  ],
+  "lanes": [
+   {
+    "id": "emperor",
+    "name": "帝王"
+   },
+   {
+    "id": "consort",
+    "name": "后妃 · 外戚"
+   },
+   {
+    "id": "kin",
+    "name": "宗室"
+   },
+   {
+    "id": "chancellor",
+    "name": "名相 · 文臣"
+   },
+   {
+    "id": "general",
+    "name": "名将"
+   },
+   {
+    "id": "literati",
+    "name": "文学 · 艺术 · 科技"
+   },
+   {
+    "id": "end",
+    "name": "权臣 · 末世 · 对立"
+   }
+  ],
+  "people": {
+   "total": 153,
+   "markdown": 153,
+   "registryJson": 0,
+   "byLane": {
+    "emperor": 13,
+    "consort": 19,
+    "kin": 8,
+    "chancellor": 36,
+    "general": 34,
+    "literati": 20,
+    "end": 23
+   },
+   "byLaneName": {
+    "帝王": 13,
+    "后妃 · 外戚": 19,
+    "宗室": 8,
+    "名相 · 文臣": 36,
+    "名将": 34,
+    "文学 · 艺术 · 科技": 20,
+    "权臣 · 末世 · 对立": 23
+   }
+  },
+  "profile": {
+   "brief": 83,
+   "full": 70,
+   "noProfile": 0,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 61,
+   "deathMissing": 0,
+   "eitherMissing": 61,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "exact": 50,
+    "approx": 42,
+    "unknown": 61
+   },
+   "deathAccuracy": {
+    "exact": 150,
+    "approx": 2,
+    "disputed": 1
+   },
+   "birthAccuracyWithYear": {
+    "exact": 50,
+    "approx": 42
+   },
+   "deathAccuracyWithYear": {
+    "exact": 150,
+    "approx": 2,
+    "disputed": 1
+   }
+  },
+  "polity": {
+   "counts": {
+    "qing": 147,
+    "ming": 10,
+    "minbian": 11,
+    "mongol": 1,
+    "xiyu": 1
+   },
+   "countsNamed": {
+    "清": 147,
+    "明": 10,
+    "民变军": 11,
+    "蒙古": 1,
+    "西域": 1
+   },
+   "multiValue": [
+    {
+     "id": "shi-lang",
+     "polity": [
+      "ming",
+      "qing"
+     ]
+    },
+    {
+     "id": "gu-yanwu",
+     "polity": [
+      "ming",
+      "qing"
+     ]
+    },
+    {
+     "id": "wang-fuzhi",
+     "polity": [
+      "ming",
+      "qing"
+     ]
+    },
+    {
+     "id": "huang-zongxi",
+     "polity": [
+      "ming",
+      "qing"
+     ]
+    },
+    {
+     "id": "li-zicheng",
+     "polity": [
+      "ming",
+      "minbian"
+     ]
+    },
+    {
+     "id": "zhang-xianzhong",
+     "polity": [
+      "ming",
+      "minbian"
+     ]
+    },
+    {
+     "id": "wu-sangui",
+     "polity": [
+      "ming",
+      "qing"
+     ]
+    },
+    {
+     "id": "wu-shifan",
+     "polity": [
+      "ming",
+      "qing"
+     ]
+    },
+    {
+     "id": "lin-qing",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "xiao-chao-gui",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "yang-xiu-qing",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "chen-yu-cheng",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "shi-da-kai",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "zhang-luo-xing",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "hong-ren-gan",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "hong-xiuquan",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    },
+    {
+     "id": "li-xiu-cheng",
+     "polity": [
+      "qing",
+      "minbian"
+     ]
+    }
+   ]
+  },
+  "relations": {
+   "total": 122,
+   "peopleCovered": 85,
+   "peopleWithoutAny": 68,
+   "peopleWithoutAnyIds": [
+    "xiao-xian-qing",
+    "xiao-cheng-ren",
+    "tong-guo-gang",
+    "tong-guo-wei",
+    "dun-su",
+    "long-ke-duo",
+    "xiao-yi-chun",
+    "shu-erhaqi",
+    "yun-si",
+    "yun-tang",
+    "yun-xiang",
+    "yun-ti",
+    "hong-chengchou",
+    "su-ke-sa-ha",
+    "suo-ni",
+    "e-bi-long",
+    "suo-e-tu",
+    "ming-zhu",
+    "zhang-yushu",
+    "tian-wenjing",
+    "li-wei",
+    "wen-xiang",
+    "shen-baozhen",
+    "shen-guifen",
+    "li-hongzao",
+    "rong-lu",
+    "weng-tonghe",
+    "geng-zhong-ming",
+    "a-ji-ge",
+    "kong-you-de",
+    "tu-hai",
+    "zhao-liang-dong",
+    "yue-zhong-qi",
+    "zhao-hui",
+    "ming-rui",
+    "hai-lan-cha",
+    "li-xu-bin",
+    "peng-yu-lin",
+    "zeng-guoquan",
+    "zuo-bao-gui",
+    "liu-bu-chan",
+    "liu-ming-chuan",
+    "nie-shi-cheng",
+    "dong-fu-xiang",
+    "wu-yeuye",
+    "yan-ruoqu",
+    "wang-shizhen-qing",
+    "fang-bao",
+    "lang-shi-ning",
+    "dai-zhen",
+    "qian-daxin",
+    "duan-yucai",
+    "yao-nai",
+    "wei-yuan",
+    "li-shanlan",
+    "xu-shou",
+    "yan-fu-qing",
+    "li-zicheng",
+    "zhang-xianzhong",
+    "shang-zhi-xin",
+    "wu-shifan",
+    "zheng-jing",
+    "lin-qing",
+    "xiao-chao-gui",
+    "chen-yu-cheng",
+    "zhang-luo-xing",
+    "hong-ren-gan",
+    "a-gu-bai"
+   ]
+  },
+  "gaps": [],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 11,
+   "pending": 6,
+   "rejected": 5,
+   "other": 0
+  },
+  "markdownInDir": 151,
+  "views": 7,
+  "legacyEvents": 24
+ },
+ "rujia": {
+  "title": "儒学传承",
+  "range": [
+   -560,
+   -90
+  ],
+  "lanes": [
+   {
+    "id": "ru",
+    "name": "儒家"
+   },
+   {
+    "id": "fa",
+    "name": "法家"
+   }
+  ],
+  "people": {
+   "total": 8,
+   "markdown": 0,
+   "registryJson": 8,
+   "byLane": {
+    "ru": 7,
+    "fa": 1
+   },
+   "byLaneName": {
+    "儒家": 7,
+    "法家": 1
+   }
+  },
+  "profile": {
+   "brief": 0,
+   "full": 0,
+   "noProfile": 8,
+   "other": 0
+  },
+  "dates": {
+   "birthMissing": 0,
+   "deathMissing": 0,
+   "eitherMissing": 0,
+   "bothMissing": 0,
+   "birthAccuracy": {
+    "disputed": 1,
+    "approx": 7
+   },
+   "deathAccuracy": {
+    "exact": 2,
+    "approx": 6
+   },
+   "birthAccuracyWithYear": {
+    "disputed": 1,
+    "approx": 7
+   },
+   "deathAccuracyWithYear": {
+    "exact": 2,
+    "approx": 6
+   }
+  },
+  "polity": {
+   "counts": {
+    "han": 1
+   },
+   "countsNamed": {
+    "汉": 1
+   },
+   "multiValue": []
+  },
+  "relations": {
+   "total": 8,
+   "peopleCovered": 8,
+   "peopleWithoutAny": 0,
+   "peopleWithoutAnyIds": []
+  },
+  "gaps": [
+   {
+    "from": -233,
+    "to": -179,
+    "length": 54,
+    "endpointsInside": []
+   }
+  ],
+  "danglingRefs": {
+   "relationEndpointsNotInPeople": [],
+   "peopleWithoutRecord": [],
+   "laneNotDefined": [],
+   "markdownInDirNotInPeople": []
+  },
+  "candidates": {
+   "total": 0,
+   "pending": 0,
+   "rejected": 0,
+   "other": 0
+  },
+  "markdownInDir": 0,
+  "views": 2,
+  "legacyEvents": 6
+ }
+}
