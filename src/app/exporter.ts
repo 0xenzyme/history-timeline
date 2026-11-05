@@ -1,8 +1,10 @@
 /**
  * 导出当前视图。
  * PNG 走离屏 canvas 重绘，得到 2 倍像素密度。
- * SVG 目前把同一张位图内嵌进 <svg><image>，保证「导出 SVG」这条路径可用；矢量重绘待做。
+ * SVG 用矢量上下文（svg-context.ts）重跑同一套绘制指令，输出真实矢量文档。
  */
+
+import { renderToSvgMarkup } from './svg-context';
 
 export type CanvasRenderer = (ctx: CanvasRenderingContext2D, width: number, height: number, scale: number) => void;
 
@@ -17,6 +19,12 @@ export interface ExportOptions {
 }
 
 export async function exportView(options: ExportOptions): Promise<void> {
+  if (options.format === 'svg') {
+    const markup = renderToSvgMarkup(options.render, options.width, options.height, options.paper);
+    download(new Blob([markup], { type: 'image/svg+xml;charset=utf-8' }), `${options.basename}.svg`);
+    return;
+  }
+
   const scale = options.scale ?? 2;
   const canvas = document.createElement('canvas');
   canvas.width = Math.max(1, Math.round(options.width * scale));
@@ -27,19 +35,6 @@ export async function exportView(options: ExportOptions): Promise<void> {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.setTransform(scale, 0, 0, scale, 0, 0);
   options.render(ctx, options.width, options.height, scale);
-
-  if (options.format === 'svg') {
-    const href = canvas.toDataURL('image/png');
-    const markup =
-      `<?xml version="1.0" encoding="UTF-8"?>\n` +
-      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ` +
-      `width="${options.width}" height="${options.height}" viewBox="0 0 ${options.width} ${options.height}">` +
-      `<rect width="${options.width}" height="${options.height}" fill="${options.paper}"/>` +
-      `<image width="${options.width}" height="${options.height}" href="${href}" xlink:href="${href}"/>` +
-      `</svg>`;
-    download(new Blob([markup], { type: 'image/svg+xml;charset=utf-8' }), `${options.basename}.svg`);
-    return;
-  }
 
   const blob = await toBlob(canvas);
   download(blob, `${options.basename}.png`);
