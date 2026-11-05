@@ -1,0 +1,17 @@
+---
+id: feng-changqing
+name: 封常清
+display: 封常清
+profile: brief
+gender: male
+polity:
+  - tang
+birthAccuracy: unknown
+death: 756
+deathAccuracy: approx
+deathNote: 天宝十四载（755）守东都败，约十五载（756）正月被诛；本传事在十四载十二月，卒年据事推定。 — raw/唐/舊唐書/卷104.md:37
+sources:
+  - work: 旧唐书
+    part: 卷104·列传第五十四·高仙芝 封常清 哥舒翰
+    kind: classic
+---

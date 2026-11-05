@@ -1,0 +1,19 @@
+---
+id: xu-chi
+name: 徐摛
+display: 徐摛
+profile: brief
+gender: male
+polity:
+  - nan
+birth: 474
+birthAccuracy: approx
+birthNote: 生年无史料直书，由卒年与享年虚岁上推。卒年本身只是活动下限，生年同为约略。据「太宗後被幽閉，摛不獲朝謁，因感氣疾而卒，年七十八」raw/南朝/梁書/卷30.md:54
+death: 551
+deathAccuracy: approx
+deathNote: 简文帝被幽闭在大宝二年（551）。传书幽闭之后感气疾而卒，无月日，作活动下限，非精确卒年。据「太宗後被幽閉，摛不獲朝謁，因感氣疾而卒，年七十八」raw/南朝/梁書/卷30.md:54
+sources:
+  - work: 梁书
+    part: 卷030·徐摛
+    kind: classic
+---

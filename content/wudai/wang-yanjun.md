@@ -1,0 +1,17 @@
+---
+id: wang-yanjun
+name: 王延钧
+display: 闽惠宗
+profile: brief
+gender: male
+polity:
+  - shiguo
+birthAccuracy: unknown
+death: 933
+deathAccuracy: approx
+deathNote: 资治通鉴·卷278 繫于长兴四年（933）「閩王延鈞更命其宅曰龍躍宮」（raw/通代/資治通鑑/卷278.md:84）；是年即皇帝位、改元龙启，今以该年为活动下限系年，非寿数。通鉴作「璘」，旧、新五代史作「鏻」，异说。
+sources:
+  - work: 资治通鉴
+    part: 卷278·后唐纪七
+    kind: classic
+---

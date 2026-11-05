@@ -1,0 +1,17 @@
+---
+id: xianyu-xiuli
+name: 鲜于修礼
+display: 鲜于修礼
+profile: brief
+gender: male
+polity:
+  - bei
+birthAccuracy: unknown
+death: 526
+deathAccuracy: exact
+deathNote: 事在孝昌二年八月癸巳，当 526。据「癸巳，賊帥元洪業斬鮮于脩禮，請降」raw/北朝/魏書/卷9.md:264
+sources:
+  - work: 魏书
+    part: 卷009·肃宗纪
+    kind: classic
+---

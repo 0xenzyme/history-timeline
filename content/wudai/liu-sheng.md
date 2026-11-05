@@ -1,0 +1,20 @@
+---
+id: liu-sheng
+name: 刘晟
+display: 南汉中宗
+profile: brief
+gender: male
+polity:
+  - shiguo
+birthAccuracy: unknown
+death: 958
+deathAccuracy: exact
+deathNote: 新五代史·卷65 作「是秋卒。年三十九」（raw/五代/新五代史/卷65.md:87），乾和十六年即 958；台账以开运元年（944）事为锚，此处取卒年。
+sources:
+  - work: 资治通鉴
+    part: 卷284·后晋纪五
+    kind: classic
+  - work: 新五代史
+    part: 卷65·南汉世家第五
+    kind: classic
+---

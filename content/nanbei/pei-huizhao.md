@@ -1,0 +1,17 @@
+---
+id: pei-huizhao
+name: 裴惠昭
+display: 裴惠昭
+profile: brief
+gender: female
+polity:
+  - nan
+birthAccuracy: unknown
+death: 481
+deathAccuracy: exact
+deathNote: 「建元元年，为皇太子妃。三年，后薨」。三年承建元，即建元三年，当 481。据 raw/南朝/南齊書/卷20.md:35
+sources:
+  - work: 南齐书
+    part: 卷020·皇后
+    kind: classic
+---

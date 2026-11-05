@@ -1,0 +1,17 @@
+---
+id: gao-lian
+name: 高琏（长寿王）
+display: 高琏（长寿王）
+profile: brief
+gender: male
+polity:
+  - goguryeo
+birthAccuracy: unknown
+death: 491
+deathAccuracy: exact
+deathNote: 太和十五年当 491。「年百余岁」不是确定享年，不上推生年。据「太和十五年，璉死，年百餘歲」raw/北朝/魏書/卷100.md:31
+sources:
+  - work: 魏书
+    part: 卷100·高句丽传
+    kind: classic
+---

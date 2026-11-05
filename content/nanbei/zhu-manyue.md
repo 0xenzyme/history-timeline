@@ -1,0 +1,19 @@
+---
+id: zhu-manyue
+name: 朱满月
+display: 朱满月
+profile: brief
+gender: female
+polity:
+  - beizhou
+birth: 547
+birthAccuracy: approx
+birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「隋開皇元年，出俗為尼…六年殂，年四十」raw/北朝/周書/卷09.md:49
+death: 586
+deathAccuracy: exact
+deathNote: 「六年」承开皇元年，即开皇六年，当 586。
+sources:
+  - work: 周书
+    part: 卷009·皇后
+    kind: classic
+---

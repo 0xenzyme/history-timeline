@@ -1,0 +1,17 @@
+---
+id: li-shidao
+name: 李师道
+display: 李师道
+profile: brief
+gender: male
+polity:
+  - tang
+birthAccuracy: unknown
+death: 819
+deathAccuracy: approx
+deathNote: 元和十四年（819）二月戊午伏诛；「十四年」承卷内元和。 — raw/唐/新唐書/卷007.md:679
+sources:
+  - work: 新唐书
+    part: 卷7·本纪第七·德宗 顺宗 宪宗
+    kind: classic
+---

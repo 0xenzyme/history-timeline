@@ -1,0 +1,17 @@
+---
+id: da-tan
+name: 大檀
+display: 大檀
+profile: brief
+gender: male
+polity:
+  - rouran
+birthAccuracy: unknown
+death: 429
+deathAccuracy: approx
+deathNote: 神䴥二年（429）栗水之败后书部落衰弱、发疾而死，下一次纪年是四年（431）吴提朝献。死在此间，不能定月。据「大檀部落衰弱，因發疾而死」raw/北朝/魏書/卷103.md:37
+sources:
+  - work: 魏书
+    part: 卷103·蠕蠕传
+    kind: classic
+---

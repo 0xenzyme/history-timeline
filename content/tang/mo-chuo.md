@@ -1,0 +1,17 @@
+---
+id: mo-chuo
+name: 默啜可汗
+display: 默啜可汗
+profile: brief
+gender: male
+polity:
+  - tujue
+birthAccuracy: unknown
+death: 716
+deathAccuracy: approx
+deathNote: 开元四年（716）为大武军子将郝灵佺所杀；「四年」即开元四年。 — raw/唐/新唐書/卷005.md:135
+sources:
+  - work: 新唐书
+    part: 卷5·本纪第五·睿宗 玄宗
+    kind: classic
+---

@@ -1,0 +1,23 @@
+---
+id: yuan-qin
+name: 元钦
+display: 西魏废帝元钦
+profile: brief
+gender: male
+polity:
+  - bei
+birthAccuracy: unknown
+death: 554
+deathAccuracy: approx
+deathNote: 554 为废黜之年，非寿数；史不载生卒。据「三年春正月，安定公宇文泰廢帝而立齊王廓」raw/南北朝/北史/卷005.md:106
+sources:
+  - work: 北史
+    part: 卷005·魏本纪·废帝钦
+    kind: classic
+  - work: 周书
+    part: 卷002·文帝下
+    kind: classic
+  - work: 资治通鉴
+    part: 卷165
+    kind: classic
+---

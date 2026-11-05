@@ -1,0 +1,17 @@
+---
+id: li-na
+name: 李纳
+display: 李纳
+profile: brief
+gender: male
+polity:
+  - tang
+birthAccuracy: unknown
+death: 781
+deathAccuracy: approx
+deathNote: 建中二年（781）父李正己卒，纳自称留后；本传「死年三十四」不系年，以活动年为锚，非寿数。 — raw/唐/新唐書/卷007.md:65
+sources:
+  - work: 新唐书
+    part: 卷7·本纪第七·德宗 顺宗 宪宗
+    kind: classic
+---

@@ -1,0 +1,20 @@
+---
+id: yu-cheng
+name: 予成
+display: 予成
+profile: brief
+gender: male
+polity:
+  - rouran
+birthAccuracy: unknown
+death: 485
+deathAccuracy: exact
+deathNote: 「九年，予成死」承上文太和元年、二年，即太和九年，当 485。据 raw/南北朝/北史/卷098.md:55
+sources:
+  - work: 北史
+    part: 卷098·蠕蠕传
+    kind: classic
+  - work: 魏书
+    part: 卷103·蠕蠕传
+    kind: classic
+---

@@ -1,0 +1,17 @@
+---
+id: chen-bozhi
+name: 陈伯之
+display: 陈伯之
+profile: brief
+gender: male
+polity:
+  - nan
+birthAccuracy: unknown
+death: 505
+deathAccuracy: approx
+deathNote: 卒年只书「久之，卒于家」，不能定年。末次可系年是天监四年（505）自魏归朝授官，作任官年，非寿数。据「天監四年…伯之乃於壽陽擁衆八千歸…久之，卒於家」raw/南朝/梁書/卷20.md:65
+sources:
+  - work: 梁书
+    part: 卷020·陈伯之传
+    kind: classic
+---

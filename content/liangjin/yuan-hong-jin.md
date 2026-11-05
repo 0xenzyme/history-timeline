@@ -1,0 +1,17 @@
+---
+id: yuan-hong-jin
+name: 袁宏
+display: 袁宏
+profile: brief
+gender: male
+polity:
+  - jin
+birthAccuracy: unknown
+death: 376
+deathAccuracy: approx
+deathNote: 本传作太元初（376）卒于东阳，时年四十九（raw/晋/晉書/卷092.md:210）；「太元初」非确年，故标 approx。
+sources:
+  - work: 晋书
+    part: 卷092·文苑·袁宏
+    kind: classic
+---

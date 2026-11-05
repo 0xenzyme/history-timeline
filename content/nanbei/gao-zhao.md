@@ -1,0 +1,17 @@
+---
+id: gao-zhao
+name: 高肇
+display: 高肇
+profile: brief
+gender: male
+polity:
+  - bei
+birthAccuracy: unknown
+death: 515
+deathAccuracy: exact
+deathNote: 「四年，世宗崩」后入省被拉杀。四年承延昌，即延昌四年，当 515。据「肇入省，壯士搤而拉殺之」raw/北朝/魏書/卷83下.md:29
+sources:
+  - work: 魏书
+    part: 卷083下·外戚下
+    kind: classic
+---

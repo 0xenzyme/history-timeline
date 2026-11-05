@@ -1,0 +1,24 @@
+---
+id: gao-wei
+name: 高纬
+display: 北齐后主高纬
+profile: brief
+gender: male
+polity:
+  - bei
+birth: 556
+birthAccuracy: exact
+death: 577
+deathAccuracy: disputed
+deathNote: 卒年有 577（建德七年）、578 两说，本表并存不取一。据「至建德七年，誣與宜州刺史穆提婆謀反…咸賜死」raw/北朝/北齊書/卷8.md:241
+sources:
+  - work: 北齐书
+    part: 卷008·后主幼主纪
+    kind: classic
+  - work: 北史
+    part: 卷008·齐本纪下
+    kind: classic
+  - work: 资治通鉴
+    part: 卷173
+    kind: classic
+---

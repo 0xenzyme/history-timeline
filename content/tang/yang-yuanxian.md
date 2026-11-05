@@ -1,0 +1,17 @@
+---
+id: yang-yuanxian
+name: 玄宗元献皇后杨氏
+display: 玄宗元献皇后杨氏
+profile: brief
+gender: female
+polity:
+  - tang
+birthAccuracy: unknown
+death: 729
+deathAccuracy: approx
+deathNote: 开元十七年（729）薨，葬细柳原；「开元十七年，后薨，葬细柳原」。 — raw/唐/舊唐書/卷52.md:19
+sources:
+  - work: 旧唐书
+    part: 卷52·后妃下
+    kind: classic
+---

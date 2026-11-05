@@ -1,0 +1,17 @@
+---
+id: sima-wensi
+name: 司马文思
+display: 司马文思
+profile: brief
+gender: male
+polity:
+  - jin
+birthAccuracy: unknown
+death: 415
+deathAccuracy: approx
+deathNote: 义熙十一年（415）与休之同举兵，败而死（raw/晋/晉書/卷037.md:214）；此系活动年，非寿数。
+sources:
+  - work: 晋书
+    part: 卷037·谯忠王尚之附子文思
+    kind: classic
+---
