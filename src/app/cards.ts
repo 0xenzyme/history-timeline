@@ -131,7 +131,7 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
     <div class="card-actions">
       <button type="button" class="tool" data-action="locate" data-kind="person" data-id="${esc(id)}">在时间轴定位</button>
     </div>
-    ${person.bio === undefined && !ctx.topic?.people.some((item) => item.id === id) ? `<div class="card-meta" style="color:${c.muted}">完整条目在它所属的专题里，切换专题后可看简介。</div>` : ''}
+    ${person.bio === undefined && !ctx.topic?.people.some((item) => item.id === id) ? `<div class="card-meta" style="color:${esc(c.muted)}">完整条目在它所属的专题里，切换专题后可看简介。</div>` : ''}
   `;
 }
 
@@ -143,9 +143,9 @@ export function renderEventCard(ctx: CardContext, event: EventRecord): string {
       : fmtYear(event.year);
   const notes = [event.yearNote, event.endYearNote].filter(Boolean) as string[];
   const badges = [
-    `<span class="badge" style="background:${skinColor(ctx.skin, EVENT_COLORS[event.type])}">${esc(TYPE_NAMES[event.type])}</span>`,
-    event.scale ? `<span class="badge" style="background:${c.muted}">${esc(SCALE_NAMES[event.scale])}</span>` : '',
-    `<span class="badge" style="background:${c.accent}">${'★'.repeat(event.importance)}</span>`,
+    `<span class="badge" style="background:${esc(skinColor(ctx.skin, EVENT_COLORS[event.type]))}">${esc(TYPE_NAMES[event.type])}</span>`,
+    event.scale ? `<span class="badge" style="background:${esc(c.muted)}">${esc(SCALE_NAMES[event.scale])}</span>` : '',
+    `<span class="badge" style="background:${esc(c.accent)}">${'★'.repeat(event.importance)}</span>`,
   ]
     .filter(Boolean)
     .join('');
