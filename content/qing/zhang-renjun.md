@@ -1,0 +1,17 @@
+---
+id: zhang-renjun
+name: 张人骏
+display: 张人骏
+profile: brief
+gender: male
+polity:
+  - qing
+birthAccuracy: unknown
+death: 1909
+deathAccuracy: approx
+deathNote: 生卒无考于本库。清史稿卷128作宣统元年（1909）江苏谘议局开，总督张人骏以导淮事列案交议；今以该任官年为活动下限系年，非寿数。raw/清/清史稿/卷128.md:58
+sources:
+  - work: 清史稿
+    part: 卷128·志一百三·河渠三
+    kind: classic
+---

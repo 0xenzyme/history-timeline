@@ -1,0 +1,17 @@
+---
+id: a-mu-er-sa-na
+name: 阿睦尔撒纳
+display: 阿睦尔撒纳
+profile: brief
+gender: male
+polity:
+  - mongol
+birthAccuracy: unknown
+death: 1758
+deathAccuracy: approx
+deathNote: 生年无考。清史稿卷153作乾隆二十三年（1758）春正月俄人献叛人阿睦尔撒纳尸；尸至之年为活动下限，非寿数。raw/清/清史稿/卷153.md:38
+sources:
+  - work: 清史稿
+    part: 卷153·邦交志一·俄罗斯
+    kind: classic
+---

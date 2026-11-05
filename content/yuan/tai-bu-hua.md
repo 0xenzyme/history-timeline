@@ -1,0 +1,17 @@
+---
+id: tai-bu-hua
+name: 太不花
+display: 太不花
+profile: brief
+gender: male
+polity:
+  - yuan
+birthAccuracy: unknown
+death: 1358
+deathAccuracy: approx
+deathNote: 卒年约在1358，不作确年。依据「力薦太不花可大用，召入為中書平章政事」（raw/元/元史/卷141.md:19）
+sources:
+  - work: 元史
+    part: 太不花传
+    kind: classic
+---

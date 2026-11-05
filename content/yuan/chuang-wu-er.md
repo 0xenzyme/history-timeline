@@ -1,0 +1,18 @@
+---
+id: chuang-wu-er
+name: 床兀儿
+display: 床兀儿
+profile: brief
+gender: male
+polity:
+  - yuan
+birth: 1260
+birthAccuracy: approx
+birthNote: 本传享年63，虚岁上推生年1260，非精确生年。依据「至治二年（1322年）卒，年六十三」（raw/元/元史/卷128.md:142）
+death: 1322
+deathAccuracy: exact
+sources:
+  - work: 元史
+    part: 土土哈传附床兀儿
+    kind: classic
+---

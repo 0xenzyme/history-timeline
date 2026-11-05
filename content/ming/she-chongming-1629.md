@@ -1,0 +1,20 @@
+---
+id: she-chongming-1629
+name: 奢崇明
+display: 奢崇明
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1629
+deathAccuracy: exact
+deathNote: 庄烈帝纪崇祯二年八月「擊斬奢崇明、安邦彥於紅土川」`raw/明/明史/卷23.md:69`。起事见「天啟元年……會永寧奢崇明反」`raw/明/明史/卷249.md:19`。生年无考。
+sources:
+  - work: 明史
+    part: 卷23·庄烈帝纪
+    kind: classic
+  - work: 明史
+    part: 卷249·朱燮元传
+    kind: classic
+---

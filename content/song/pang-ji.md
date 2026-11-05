@@ -1,0 +1,17 @@
+---
+id: pang-ji
+name: 庞籍
+display: 庞籍
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1051
+deathAccuracy: approx
+deathNote: 此年为可见活动年（拜相年），非卒年、非寿数：台账无卒年可引，唯《宋史·宰輔二》載皇祐三年（1051）十月庚子龐籍自樞密使、檢校太傅依前戶部侍郎加同平章事、昭文館大學士、監修國史兼譯經使（raw/宋/宋史/卷211.md:34），據此繫 1051 作 approx。
+sources:
+  - work: 宋史
+    part: 宰輔二
+    kind: classic
+---

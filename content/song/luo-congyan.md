@@ -1,0 +1,17 @@
+---
+id: luo-congyan
+name: 罗从彦
+display: 罗从彦
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1127
+deathAccuracy: approx
+deathNote: 此年为可见活动年（活动年），非卒年、非寿数。靖康中拟献《遵尧录》（raw/宋/宋史/卷428.md:115）。本传「绍兴中卒」，无年次。靖康中系二年。
+sources:
+  - work: 宋史
+    part: 道学传二
+    kind: classic
+---

@@ -1,0 +1,18 @@
+---
+id: wei-changhui
+name: 韦昌辉
+display: 韦昌辉
+profile: brief
+gender: male
+polity:
+  - qing
+  - minbian
+birthAccuracy: unknown
+death: 1856
+deathAccuracy: approx
+deathNote: 生年无考。清史稿卷475作「昌辉遁，渡江为逻者所获，缚送金陵磔之」，事在咸丰六年（1856）天京内乱；今以该事件年为活动下限系年，非寿数。raw/清/清史稿/卷475.md:104
+sources:
+  - work: 清史稿
+    part: 卷475·洪秀全传
+    kind: classic
+---

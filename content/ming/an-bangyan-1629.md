@@ -1,0 +1,20 @@
+---
+id: an-bangyan-1629
+name: 安邦彦
+display: 安邦彦
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1629
+deathAccuracy: exact
+deathNote: 庄烈帝纪崇祯二年八月「擊斬奢崇明、安邦彥於紅土川」`raw/明/明史/卷23.md:69`。土司传所引为天启四年合兵`raw/明/明史/卷316.md:119`，非寿数。生年无考。
+sources:
+  - work: 明史
+    part: 卷23·庄烈帝纪
+    kind: classic
+  - work: 明史
+    part: 卷316·贵州土司
+    kind: classic
+---

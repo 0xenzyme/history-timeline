@@ -1,0 +1,17 @@
+---
+id: li-zhi-1090
+name: 李廌
+display: 李廌
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1086
+deathAccuracy: approx
+deathNote: 此年为可见活动年（活动年），非卒年、非寿数。元祐求言，上《忠谏书》《忠厚论》（raw/宋/宋史/卷444.md:67）。元祐无年次，系元年。本传无卒年。台账作 1090，引文无此数，不采。
+sources:
+  - work: 宋史
+    part: 文苑六
+    kind: classic
+---

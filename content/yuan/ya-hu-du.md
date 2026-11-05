@@ -1,0 +1,17 @@
+---
+id: ya-hu-du
+name: 牙忽都
+display: 牙忽都
+profile: brief
+gender: male
+polity:
+  - yuan
+birthAccuracy: unknown
+death: 1307
+deathAccuracy: approx
+deathNote: 卒年不详，取1307年为活动年（非寿数）。依据「牙忽都，至元二十一年封，大德十一年進封楚王」（raw/元/元史/卷108.md:509）
+sources:
+  - work: 元史
+    part: 诸王表
+    kind: classic
+---

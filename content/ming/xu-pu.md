@@ -1,0 +1,17 @@
+---
+id: xu-pu
+name: 徐溥
+display: 徐溥
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1499
+deathAccuracy: approx
+deathNote: 本传作「弘治五年，劉吉罷，溥為首輔」`raw/明/明史/卷181.md:20`；本传不著卒年，约在弘治十二年（1499），此系近似，非本传明载。
+sources:
+  - work: 明史
+    part: 卷181·徐溥传
+    kind: classic
+---

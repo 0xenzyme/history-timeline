@@ -1,0 +1,17 @@
+---
+id: liu-ji-1493
+name: 刘吉
+display: 刘吉
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1493
+deathAccuracy: approx
+deathNote: 本传作「劉吉，字祐之，博野人。正統十三年進士」`raw/明/明史/卷168.md:115`；本传不著卒年，约在弘治六年（1493），此系近似，非本传明载。
+sources:
+  - work: 明史
+    part: 卷168·刘吉传
+    kind: classic
+---

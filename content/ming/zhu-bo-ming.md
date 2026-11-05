@@ -1,0 +1,17 @@
+---
+id: zhu-bo-ming
+name: 朱柏
+display: 湘献王朱柏
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1399
+deathAccuracy: approx
+deathNote: 传作「湘獻王柏，太祖第十二子。洪武十一年封。十八年就藩荊州」`raw/明/明史/卷117.md:28`；传不著卒年，约在建文初削藩之祸（1399），此系近似，非寿数。生年无考。
+sources:
+  - work: 明史
+    part: 卷117·湘献王柏传
+    kind: classic
+---

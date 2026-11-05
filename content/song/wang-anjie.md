@@ -1,0 +1,17 @@
+---
+id: wang-anjie
+name: 王安节
+display: 王安节
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1275
+deathAccuracy: approx
+deathNote: 卒年本傳未繫年月；事在德祐元年（1275）賈似道潰師蕪湖、列城皆降之後，守常州城破被殺（raw/宋/宋史/卷450.md:52）；台账作 approx。
+sources:
+  - work: 宋史
+    part: 忠义五·王安节传
+    kind: classic
+---

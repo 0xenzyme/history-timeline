@@ -1,0 +1,17 @@
+---
+id: duo-er-zhi
+name: 朵儿只
+display: 朵儿只
+profile: brief
+gender: male
+polity:
+  - yuan
+birthAccuracy: unknown
+death: 1347
+deathAccuracy: approx
+deathNote: 卒年不详，取1347年为活动年（非寿数）。依据「秋，拜中書左丞相。冬，陞右丞相、監修國史，而太平為左丞相」（raw/元/元史/卷139.md:41）
+sources:
+  - work: 元史
+    part: 朵儿只传
+    kind: classic
+---

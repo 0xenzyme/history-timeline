@@ -1,0 +1,17 @@
+---
+id: zhang-lei
+name: 张耒
+display: 张耒
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1106
+deathAccuracy: approx
+deathNote: 此年为可见活动年（活动年），非卒年、非寿数。崇宁五年得自便，居陈州（raw/宋/宋史/卷444.md:47）。其后「卒，年六十一」，无卒年。台账活动年作绍圣初，回行见崇宁五年仍在。
+sources:
+  - work: 宋史
+    part: 文苑六
+    kind: classic
+---

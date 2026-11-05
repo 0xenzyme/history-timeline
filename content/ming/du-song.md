@@ -1,0 +1,17 @@
+---
+id: du-song
+name: 杜松
+display: 杜松
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1619
+deathAccuracy: approx
+deathNote: 本传作「四十六年，張承廕戰歿，詔松馳援遼陽」`raw/明/明史/卷239.md:84`；卒于萨尔浒之役（万历四十七年，1619），此系近似。
+sources:
+  - work: 明史
+    part: 卷239·杜松传
+    kind: classic
+---

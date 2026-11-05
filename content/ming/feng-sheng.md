@@ -1,0 +1,17 @@
+---
+id: feng-sheng
+name: 冯胜
+display: 冯胜
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1395
+deathAccuracy: approx
+deathNote: 本传作「二十年命勝為征虜大將軍」`raw/明/明史/卷129.md:35`；卒于洪武二十八年（1395），此系近似。
+sources:
+  - work: 明史
+    part: 卷129·冯胜传
+    kind: classic
+---

@@ -1,0 +1,17 @@
+---
+id: zhao-yi
+name: 赵翼
+display: 赵翼
+profile: brief
+gender: male
+polity:
+  - qing
+birthAccuracy: unknown
+death: 1810
+deathAccuracy: approx
+deathNote: 本传不载生年。清史稿卷485记乾隆十九年（1754）中明通榜、二十六年（1761）复成进士，嘉庆十五年（1810）重宴鹿鸣后「卒，年八十六」；生年与寿数无确载，故卒年标 approx。raw/清/清史稿/卷485.md:228
+sources:
+  - work: 清史稿
+    part: 卷485·文苑传·赵翼
+    kind: classic
+---

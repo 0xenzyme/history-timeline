@@ -1,0 +1,17 @@
+---
+id: wan-an
+name: 万安
+display: 万安
+profile: brief
+gender: male
+polity:
+  - ming
+birthAccuracy: unknown
+death: 1488
+deathAccuracy: approx
+deathNote: 本传作「萬安，安循吉，眉州人……正統十三年進士」`raw/明/明史/卷168.md:81`；本传不著卒年，约在弘治初（1488/1489 两说），姑系 1488 为近似，非本传明载。
+sources:
+  - work: 明史
+    part: 卷168·万安传
+    kind: classic
+---

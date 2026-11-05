@@ -1,0 +1,17 @@
+---
+id: yiketangga
+name: 依克唐阿
+display: 依克唐阿
+profile: brief
+gender: male
+polity:
+  - qing
+birthAccuracy: unknown
+death: 1899
+deathAccuracy: approx
+deathNote: 本传不载生年与寿数。清史稿卷461作「二十五年，卒，谥诚勇，予建祠」；二十五年为光绪二十五年，即 1899，证据只及年，故标 approx。raw/清/清史稿/卷461.md:54
+sources:
+  - work: 清史稿
+    part: 卷461·依克唐阿传
+    kind: classic
+---

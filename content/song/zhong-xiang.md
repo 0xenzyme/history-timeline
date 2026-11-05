@@ -1,0 +1,17 @@
+---
+id: zhong-xiang
+name: 钟相
+display: 钟相
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1130
+deathAccuracy: exact
+deathNote: 建炎四年三月戊辰，孔彦舟击败钟相，禽相及其子子昂，槛送行在（raw/宋/宋史/卷026.md:21）。本纪未别书死日，台账系此年为卒年。
+sources:
+  - work: 宋史
+    part: 高宗本纪三
+    kind: classic
+---

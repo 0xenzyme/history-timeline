@@ -1,0 +1,19 @@
+---
+id: zhao-qu
+name: 赵璩
+display: 赵璩
+profile: brief
+gender: male
+polity:
+  - song
+birth: 1130
+birthAccuracy: approx
+birthNote: 生年無明載；《宋史·卷246》作「高宗崩，奔赴得疾，逾年而薨，年五十九」（raw/宋/宋史/卷246.md:104），據卒年上推約生於 1130 年，非明記。
+death: 1188
+deathAccuracy: approx
+deathNote: 本傳不繫卒年；高宗崩於淳熙十四年（1187），「逾年而薨」約當淳熙十五年（1188）；台账作 approx（raw/宋/宋史/卷246.md:104）。
+sources:
+  - work: 宋史
+    part: 宗室三
+    kind: classic
+---

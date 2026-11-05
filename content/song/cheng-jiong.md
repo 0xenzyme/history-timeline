@@ -1,0 +1,17 @@
+---
+id: cheng-jiong
+name: 程迥
+display: 程迥
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1163
+deathAccuracy: approx
+deathNote: 此年为可见活动年（任官年），非卒年、非寿数。登隆兴元年进士第（raw/宋/宋史/卷437.md:17）。本传「卒官」，无卒年。
+sources:
+  - work: 宋史
+    part: 儒林传七
+    kind: classic
+---

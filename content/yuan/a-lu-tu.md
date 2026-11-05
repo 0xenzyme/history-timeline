@@ -1,0 +1,20 @@
+---
+id: a-lu-tu
+name: 阿魯圖
+display: 阿魯圖
+profile: brief
+gender: male
+polity:
+  - yuan
+birthAccuracy: unknown
+death: 1351
+deathAccuracy: approx
+deathNote: 本传十一年出守和林边，薨不系年。取至正十一年（1351）为活动下限，非寿数。依据「十一年……出守和林邊，薨」（raw/元/元史/卷041.md:54）
+sources:
+  - work: 元史
+    part: 卷113·宰相年表二
+    kind: classic
+  - work: 元史
+    part: 卷139·阿鲁图传
+    kind: classic
+---

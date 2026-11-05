@@ -1,0 +1,17 @@
+---
+id: mu-xiu
+name: 穆修
+display: 穆修
+profile: brief
+gender: male
+polity:
+  - song
+birthAccuracy: unknown
+death: 1032
+deathAccuracy: approx
+deathNote: 明道中卒（raw/宋/宋史/卷442.md:15），无年次。系明道元年，非精确卒年。
+sources:
+  - work: 宋史
+    part: 文苑四
+    kind: classic
+---
