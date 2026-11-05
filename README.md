@@ -5,7 +5,8 @@
 四千年中国历史人物与事件，放在同一条可缩放、可检索的时间轴上。
 
 在线地址：<https://history.0xenzyme.dev>  
-代码仓库：<https://github.com/0xenzyme/history-timeline>
+代码仓库：<https://github.com/0xenzyme/history-timeline>  
+英文说明：[README.en.md](README.en.md)
 
 ![历史时间轴界面](public/images/history-timeline.png)
 
@@ -19,6 +20,27 @@
 - **两套皮肤**：巡航与深空。
 
 事件线的时间范围为公元前 2070 年至 1949 年。历史人物与事件仍在持续补充和校订。
+
+## 项目结构
+
+```text
+content/       人物与事件源文件
+pipeline/      校验、编译与专题配置
+public/data/   编译生成的运行时 JSON（随源文件提交）
+src/           前端应用：加载、布局、画布渲染、交互与导出
+tests/         node:test 测试
+docs/          设计、规则与部署文档
+dist/          构建产物（不提交）
+```
+
+```mermaid
+flowchart LR
+  SRC["源文件 content/ 与 pipeline/"] --> PIPE["流水线校验与编译"]
+  PIPE --> DATA["public/data JSON"]
+  DATA --> APP["src 加载与画布渲染"]
+  APP --> DIST["dist 静态产物"]
+  DIST --> PAGES["GitHub Pages"]
+```
 
 ## 本地运行
 
@@ -48,11 +70,11 @@ npm run format:check  # Prettier 格式校验
 npm run hooks:install  # 可选：把 .githooks 设为提交前校验
 ```
 
-部署步骤见 [部署说明](docs/部署.md)。仓库不含平台配置，`dist/` 可直接上传到任意静态托管。
+部署由 `.github/workflows/pages.yml` 自动完成，步骤见 [部署说明](docs/部署.md)。`dist/` 也可直接上传到任意静态托管。
 
 ## 内容维护
 
-人物源文件位于 `content/<topic>/<id>.md`，事件源文件位于 `content/events/<id>.md`。运行时使用的前端数据由流水线生成，不要手改 `public/data/`。
+人物源文件位于 `content/<topic>/<id>.md`，事件源文件位于 `content/events/<id>.md`。运行时数据由流水线生成，并随源文件一起提交；不要手改 `public/data/`。审查时运行 `npm run content` 后查看 `git diff --stat public/data`，不逐行审 JSON。
 
 常用命令：
 
@@ -73,7 +95,7 @@ npm run content:check              # 校验编译结果，不重写文件
 - [事件线规则](docs/事件线规则.md)：事件实体、时间、出处与引用规则。
 - [内容目录说明](content/README.md)：人物文件和索引的组织方式。
 
-规则冲突时按 [仓库规则](AGENTS.md) 的 Rule Precedence 执行；事件规则优先于人物手册中的事件入口说明。
+规则冲突时按 [仓库规则](AGENTS.md) 的 Rule Precedence 执行；事件规则优先于人物手册中的事件入口说明。根目录 `AGENTS.md` 与 `.agents/skills/` 面向自动化内容生产工具，普通贡献者可以忽略，只需阅读本文件、[贡献指南](CONTRIBUTING.md) 与内容规则。
 
 ## 史料与准确性
 

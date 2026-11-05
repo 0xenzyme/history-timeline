@@ -14,6 +14,19 @@
 
 不要手改 `public/data/`、`content/<topic>.md` 或 `content/events.md`。它们由项目命令生成。
 
+## 生成数据
+
+`public/data/` 继续入库，不改为只在 CI 生成。该目录由 `npm run content` 从源文件产出，应与源文件在同一改动中提交。
+
+审查时只读源文件与生成摘要，不逐行审 JSON：
+
+```bash
+npm run content
+git diff --stat public/data
+```
+
+需要确认细节时，再抽查单个 JSON 文件或具体字段。发现生成结果不对时，回到源文件修改并重新生成，不要手改 JSON。
+
 ## 报告问题
 
 - 界面或功能问题使用 Bug 模板，提供复现步骤、浏览器和可分享的 URL。
@@ -65,7 +78,9 @@
 
 ## 提交与 PR
 
-- 使用简洁的祈使句提交标题，可使用现有 Conventional Commit 风格。
+- 提交标题使用 Conventional Commits，例如 `feat(content): ...`、`fix(events): ...`、`docs: ...`、`ci: ...`。类型与范围用英文，标题用祈使句。
+- 正文可用中文或英文，说明变更原因、用户可见影响与执行过的验证命令。
+- 历史提交中存在中英混排和早期不一致的格式，属于早期遗留，不要求回改历史。
 - 一个 PR 聚焦一个主要目标。
 - 说明用户可见变化、内容或 schema 变化，以及执行过的验证命令。
 - 涉及生成数据时，同时提交源文件和对应的 `public/data/` 变化。
