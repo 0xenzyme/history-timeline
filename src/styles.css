@@ -597,55 +597,41 @@ body.strip-open .strip-toggle {
 
 /* ---------- 详情卡 ---------- */
 
+/* 两种皮肤统一为右侧栏形态，只有配色与模糊度随皮肤变量走。 */
 .card {
   position: absolute;
   z-index: 30;
+  top: var(--topbar-h);
+  right: 0;
+  bottom: var(--ribbon-h);
+  width: 360px;
   padding: 24px 26px 20px;
   border: var(--card-border);
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
+  backdrop-filter: blur(12px);
   overflow-y: auto;
   font-size: 13px;
   line-height: 1.75;
   opacity: 0;
   pointer-events: none;
+  transform: translateX(100%);
   transition:
     opacity 0.26s ease,
     transform 0.26s cubic-bezier(0.2, 0.9, 0.3, 1.1);
 }
 
-body.skin-voyage .card {
-  top: var(--topbar-h);
-  right: 0;
-  bottom: var(--ribbon-h);
-  width: 360px;
-  border-top: none;
-  border-right: none;
-  border-bottom: none;
-  backdrop-filter: blur(12px);
-  transform: translateX(100%);
-}
-
-body.skin-voyage .card.show {
+.card.show {
   opacity: 1;
   pointer-events: auto;
   transform: translateX(0);
 }
 
 body.skin-deepspace .card {
-  left: 50%;
-  bottom: calc(var(--ribbon-h) + 20px);
-  width: 420px;
-  max-height: 56%;
-  border-radius: 16px;
   backdrop-filter: blur(16px);
-  transform: translate(-50%, 26px);
-}
-
-body.skin-deepspace .card.show {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translate(-50%, 0);
 }
 
 .card-close {
@@ -827,8 +813,7 @@ body.skin-deepspace .badge {
     display: none;
   }
 
-  body.skin-voyage .card,
-  body.skin-deepspace .card {
+  .card {
     top: auto;
     left: 0;
     right: 0;
@@ -839,8 +824,7 @@ body.skin-deepspace .badge {
     transform: translateY(100%);
   }
 
-  body.skin-voyage .card.show,
-  body.skin-deepspace .card.show {
+  .card.show {
     transform: translateY(0);
   }
 }
