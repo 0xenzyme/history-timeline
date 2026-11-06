@@ -49,8 +49,8 @@
           <button type="button" class="line-btn" data-line="history">历史事件</button>
         </nav>
         <span class="divider"></span>
-        <label class="sr-only" for="topic-select">专题</label>
-        <select class="topic-select" id="topic-select"></select>
+        <label class="sr-only" for="topic-select">朝代 / 主题</label>
+        <select class="topic-select" id="topic-select" title="选择要浏览的朝代或主题"></select>
         <span class="divider"></span>
         <div class="search">
           <label class="sr-only" for="search">搜索人物或事件</label>
@@ -67,32 +67,52 @@
           <div class="search-results" id="search-results" role="listbox" aria-label="搜索结果" hidden></div>
         </div>
         <span class="divider"></span>
-        <button type="button" class="tool" id="btn-lanes" aria-haspopup="true" aria-expanded="false">泳道</button>
-        <button type="button" class="tool" id="btn-reset">复位</button>
+        <button
+          type="button"
+          class="tool"
+          id="btn-lanes"
+          aria-haspopup="true"
+          aria-expanded="false"
+          title="泳道：选择当前视图要显示的人物或事件分类"
+        >
+          泳道
+        </button>
+        <button type="button" class="tool" id="btn-reset" title="回到当前视图的全览位置">复位</button>
         <div class="export-wrap">
-          <button type="button" class="tool" id="btn-export" aria-haspopup="true" aria-expanded="false">导出</button>
+          <button
+            type="button"
+            class="tool"
+            id="btn-export"
+            aria-haspopup="true"
+            aria-expanded="false"
+            title="把当前视图导出为 PNG 或 SVG 图片"
+          >
+            导出
+          </button>
           <div class="export-menu" id="export-menu" hidden>
             <button type="button" data-export="png">导出 PNG</button>
             <button type="button" data-export="svg">导出 SVG</button>
           </div>
         </div>
         <span class="divider"></span>
-        <div class="skin-switch" role="group" aria-label="皮肤">
-          <button type="button" id="skin-voyage" class="on">巡航</button>
-          <button type="button" id="skin-deepspace">深空</button>
+        <div class="skin-switch" role="group" aria-label="主题">
+          <button type="button" id="skin-voyage" class="on" title="主题：纸本巡航配色">巡航</button>
+          <button type="button" id="skin-deepspace" title="主题：深空星空配色">深空</button>
         </div>
       </div>
 
       <div class="chips" id="chips" role="group" aria-label="快捷筛选">
-        <button type="button" class="chip on" data-filter="all">全部</button>
-        <button type="button" class="chip" data-filter="military">战事</button>
-        <button type="button" class="chip" data-filter="political">朝政</button>
-        <button type="button" class="chip" data-filter="cultural">文化</button>
-        <button type="button" class="chip" data-filter="female">女性</button>
+        <button type="button" class="chip on" data-filter="all" title="显示全部条目">全部</button>
+        <button type="button" class="chip" data-filter="military" title="只高亮战事类事件">战事</button>
+        <button type="button" class="chip" data-filter="political" title="只高亮朝政类事件">朝政</button>
+        <button type="button" class="chip" data-filter="cultural" title="只高亮文化类事件">文化</button>
+        <button type="button" class="chip" data-filter="female" title="只高亮女性人物（仅人物线可用）">女性</button>
       </div>
     </header>
 
-    <button type="button" class="strip-toggle" id="strip-toggle" aria-expanded="false">事件条 ▾</button>
+    <button type="button" class="strip-toggle" id="strip-toggle" aria-expanded="false" title="展开或收起底部事件条">
+      事件条 ▾
+    </button>
 
     <div class="lane-panel" id="lane-panel">
       <div class="lane-panel-head">
