@@ -31,12 +31,14 @@ import {
 } from './view';
 import { canvasPointer, centerDomain, keyboardEvents, ribbonPointer } from './interaction';
 import {
+  chipMatchEvent,
   draw,
   drawStars,
   fullSpan,
   hdrH,
   maxScroll,
   peopleSpan,
+  personDim,
   renderRibbon,
   renderScene,
   skinPalette,
@@ -93,6 +95,7 @@ export async function boot(): Promise<void> {
     });
     buildTopicSelect();
     wireEvents();
+    syncChipAvailability();
     applySkin(state.skin, false);
     setInitial(location.hash.replace('#', '').trim().length > 0 ? parseHash(location.hash, library.catalog) : null);
     await applyRoute(initial);
@@ -187,6 +190,8 @@ function setLine(line: LineId, sync = true): void {
     button.classList.toggle('active', button.dataset.line === line);
   });
   dom.topicSelect.hidden = line !== 'people';
+  dom.search.value = '';
+  syncChipAvailability();
   state.scrollY = 0;
   state.domain = defaultDomain();
   buildLanePanel();
@@ -196,6 +201,27 @@ function setLine(line: LineId, sync = true): void {
   dom.searchResults.hidden = true;
   if (sync) syncHash('replace');
   draw();
+}
+
+/** 「女性」只对人物线有意义，事件线上禁用，避免点了之后整图变暗、像滤镜坏了。 */
+function syncChipAvailability(): void {
+  const femaleChip = document.querySelector<HTMLElement>('.chip[data-filter="female"]');
+  if (femaleChip) femaleChip.toggleAttribute('disabled', state.line !== 'people');
+}
+
+/** 切换筛选芯片后给出结果数；零命中时明说，不让用户猜滤镜是否生效。 */
+function reportChipResult(label: string): void {
+  const count =
+    state.line === 'people'
+      ? (state.topic?.people ?? []).filter((person) => !personDim(person)).length
+      : visibleEvents().filter(chipMatchEvent).length;
+  if (count === 0) {
+    flashHint(`没有命中「${label}」的结果`);
+  } else {
+    const unit = state.line === 'people' ? '人' : '条';
+    flashHint(`已筛选「${label}」：${count} ${unit}`);
+  }
+  announce(`筛选 ${label}，命中 ${count}`);
 }
 
 async function setTopic(topicId: string, sync = true): Promise<void> {
@@ -418,10 +444,12 @@ function wireEvents(): void {
   dom.topicSelect.addEventListener('change', () => void setTopic(dom.topicSelect.value));
   dom.chips.addEventListener('click', (event) => {
     const chip = (event.target as HTMLElement).closest<HTMLElement>('.chip');
-    if (!chip?.dataset.filter) return;
-    state.chip = chip.dataset.filter as ChipId;
+    if (!chip?.dataset.filter || chip.hasAttribute('disabled')) return;
+    const chipId = chip.dataset.filter as ChipId;
+    state.chip = chipId;
     document.querySelectorAll<HTMLElement>('.chip').forEach((item) => item.classList.toggle('on', item === chip));
     draw();
+    if (chipId !== 'all') reportChipResult(chip.textContent?.trim() ?? chipId);
   });
   dom.search.addEventListener('input', () => renderSearchResults(dom.search.value));
   dom.search.addEventListener('keydown', (event) => {

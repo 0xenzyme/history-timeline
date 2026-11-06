@@ -425,6 +425,14 @@ body.skin-deepspace .skin-switch button.on {
   border-color: var(--accent);
   color: var(--accent);
 }
+.chip:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.chip:disabled:hover {
+  border-color: var(--line);
+  color: var(--ink-2);
+}
 .chip.on {
   background: var(--accent);
   border-color: var(--accent);
