@@ -7,6 +7,7 @@
     <meta name="description" content="四千年中国历史人物与事件，同一条可缩放、可检索的时间轴。" />
     <meta name="theme-color" content="#101c2c" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
     <link rel="canonical" href="https://history.0xenzyme.dev/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_CN" />
@@ -15,6 +16,7 @@
     <meta property="og:url" content="https://history.0xenzyme.dev/" />
     <meta property="og:image" content="https://history.0xenzyme.dev/images/history-timeline.png" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://history.0xenzyme.dev/images/history-timeline.png" />
   </head>
   <body class="skin-voyage">
     <div id="nebula" aria-hidden="true"></div>
@@ -22,6 +24,17 @@
 
     <div class="boot" id="boot">正在载入数据…</div>
     <div class="boot is-error" id="boot-error" hidden></div>
+
+    <noscript>
+      <div class="boot">
+        <h1>历史时间轴</h1>
+        <p>
+          收录约 3600 位中国历史人物与 1000+ 条历史事件、战事，画在同一条可缩放的时间轴上，覆盖商周到 1949 年。
+          代表条目：孔子、秦始皇、汉武帝、李白、苏轼；长平之战、安史之乱、靖康之变。
+        </p>
+        <p>本站的缩放、搜索与详情卡需要启用 JavaScript。当前浏览器已禁用 JavaScript，只能看到这段说明。</p>
+      </div>
+    </noscript>
 
     <div id="stage">
       <canvas id="chart" role="img" aria-label="历史时间轴"></canvas>
