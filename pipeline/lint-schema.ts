@@ -2,8 +2,9 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import type { Catalog, Topic } from '../src/types';
+import type { Catalog, DynastyProfile, HomeEditorial, Topic } from '../src/types';
 import type { CandidateEntry, LintMessage, RegistryEvent, RegistryPerson } from './types';
+import type { RegistryCollection } from '../src/types';
 
 const pipelineRoot = dirname(fileURLToPath(new URL(import.meta.url)));
 
@@ -32,6 +33,15 @@ const catalogSchema = JSON.parse(
   readFileSync(join(pipelineRoot, 'schema', 'catalog.schema.json'), 'utf8'),
 ) as SchemaProp;
 const topicSchema = JSON.parse(readFileSync(join(pipelineRoot, 'schema', 'topic.schema.json'), 'utf8')) as SchemaProp;
+const collectionSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'collection.schema.json'), 'utf8'),
+) as SchemaProp;
+const dynastyProfileSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'dynasty-profile.schema.json'), 'utf8'),
+) as SchemaProp;
+const homeEditorialSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'home-editorial.schema.json'), 'utf8'),
+) as SchemaProp;
 const candidateSchema = JSON.parse(
   readFileSync(join(pipelineRoot, 'schema', 'candidate.schema.json'), 'utf8'),
 ) as SchemaProp;
@@ -147,4 +157,16 @@ export function lintTopicSchema(topic: Topic, path: string): LintMessage[] {
 
 export function lintCandidatesSchema(entries: CandidateEntry[], path: string): LintMessage[] {
   return lintSchemaValue({ people: entries }, candidateSchema, candidateSchema, path);
+}
+
+export function lintCollectionSchema(collection: RegistryCollection, path: string): LintMessage[] {
+  return lintSchemaValue(collection, collectionSchema, collectionSchema, path);
+}
+
+export function lintDynastyProfileSchema(profile: DynastyProfile, path: string): LintMessage[] {
+  return lintSchemaValue(profile, dynastyProfileSchema, dynastyProfileSchema, path);
+}
+
+export function lintHomeEditorialSchema(editorial: HomeEditorial, path: string): LintMessage[] {
+  return lintSchemaValue(editorial, homeEditorialSchema, homeEditorialSchema, path);
 }
