@@ -316,7 +316,7 @@ M3 将现有映射扩展为一套语义变量，而不是维护第二份颜色�
 | `/eras/:id`        | 系列／朝代 | `EraHero`、`ViewTabs`、`EraTimeline`、`FeaturedEntities`                                               | M4                       |
 | `/search`          | 搜索结果   | `GlobalSearch`、`EntityTypeTabs`、`SearchResultGroup`                                                  | M3 基础可用，M4 完整四类 |
 
-M4 群像可达状态：`CollectionHero`、策展概览与 `MemberList` 已可用；`MemberTimeline`、`RelationView`、相关纪事和作品视图仍归 M5。目录与首页只链接真实概览和成员列表。
+M5 群像可达状态：`CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`、相关纪事与作品视图已可用。tab 从 Collection 的 `views` 和 `defaultView` 生成；事件／作品尚无真实系列样本，不显示无数据 tab。成员详情按需并行加载，局部失败不覆盖系列正文。
 
 ### M3 交付接口
 
