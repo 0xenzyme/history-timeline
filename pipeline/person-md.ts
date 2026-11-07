@@ -1,9 +1,10 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { parse, stringify } from 'yaml';
+import { stringify } from 'yaml';
 
 import { EVENT_DIR, EVENT_INDEX_NAME, EVENT_TEMPLATE_NAME } from './event-md';
 import type { LintMessage, RegistryPerson, SourceRef } from './types';
+import { SOURCE_KEYS, SOURCE_KINDS, isRecord, normalizeNewlines, parseFrontmatter, splitMarkdown } from './frontmatter';
 
 /** 文首字段的规定顺序。people:format 按这个顺序重写，people:check 拒绝漂移。 */
 export const PERSON_MD_KEYS = [
@@ -25,10 +26,10 @@ export const PERSON_MD_KEYS = [
   'tags',
   'aliases',
   'sources',
+  'works',
+  'experiences',
 ] as const;
 
-const SOURCE_KEYS = ['work', 'part', 'note', 'kind'] as const;
-const SOURCE_KINDS = new Set(['classic', 'modern', 'database']);
 const GENDERS = new Set(['female', 'male', 'unknown']);
 export const PERSON_ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
@@ -116,27 +117,18 @@ export interface TopicIndexRow {
   profile: 'brief' | 'full';
 }
 
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === 'object' && value !== null && !Array.isArray(value);
-}
-
-function normalizeNewlines(text: string): string {
-  return text.replace(/\r\n/g, '\n');
-}
-
 /** 解析一个人的 Markdown。bio 只认正文，不认文首里的 bio。 */
 export function parsePersonMarkdown(text: string, path: string): PersonMarkdownFile {
   const messages: LintMessage[] = [];
   const normalized = normalizeNewlines(text);
-  const matched = /^---\n([\s\S]*?)\n---\n?([\s\S]*)$/.exec(normalized);
-  if (!matched) {
+  const split = splitMarkdown(normalized);
+  if (!split) {
     messages.push({ level: 'error', path, message: '缺少文首：文件要以 --- 开始，并以 --- 结束文首' });
     return { path, messages };
   }
-  const [, front, body] = matched;
   let parsed: unknown;
   try {
-    parsed = parse(front);
+    parsed = parseFrontmatter(split.front);
   } catch (error) {
     const detail = error instanceof Error ? error.message : String(error);
     messages.push({ level: 'error', path, message: `文首无法解析：${detail}` });
@@ -159,7 +151,7 @@ export function parsePersonMarkdown(text: string, path: string): PersonMarkdownF
   }
 
   const person = record as unknown as RegistryPerson;
-  const bio = body.trim();
+  const bio = split.body.trim();
   if (bio) person.bio = bio;
   if (record.profile !== 'brief' && record.profile !== 'full') {
     messages.push({ level: 'error', path, message: 'profile 必须是 brief 或 full' });
@@ -315,12 +307,14 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
     '_template-full.md',
     EVENT_INDEX_NAME,
     EVENT_TEMPLATE_NAME,
+    'collections.md',
+    '_template-collection.md',
   ]);
 
   for (const entry of entries) {
     if (entry.isDirectory) {
       // 事件实体库与人物目录并列，不是专题目录
-      if (entry.name === EVENT_DIR) continue;
+      if (entry.name === EVENT_DIR || entry.name === 'collections') continue;
       if (!topicIds.has(entry.name)) {
         const path = `content/${entry.name}`;
         files.push({ path, messages: [{ level: 'error', path, message: '目录名必须是专题 id' }] });
@@ -383,7 +377,7 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
 export function findPersonMarkdown(contentRoot: string, id: string): string | undefined {
   if (!existsSync(contentRoot)) return undefined;
   for (const entry of readdirSync(contentRoot, { withFileTypes: true })) {
-    if (!entry.isDirectory() || entry.name === EVENT_DIR) continue;
+    if (!entry.isDirectory() || entry.name === EVENT_DIR || entry.name === 'collections') continue;
     if (existsSync(join(contentRoot, entry.name, `${id}.md`))) return `content/${entry.name}/${id}.md`;
   }
   return undefined;
@@ -405,11 +399,11 @@ export interface CoercePersonMarkdown {
 /** 放宽解析，供 people:format 把文首收成规定顺序。解析失败时不返回 formatted。 */
 export function coercePersonMarkdown(text: string): CoercePersonMarkdown {
   const normalized = normalizeNewlines(text);
-  const matched = /^---\n([\s\S]*?)\n---\n?([\s\S]*)$/.exec(normalized);
-  if (!matched) return { error: '缺少文首：文件要以 --- 开始，并以 --- 结束文首', dropped: [], movedBio: false };
+  const split = splitMarkdown(normalized);
+  if (!split) return { error: '缺少文首：文件要以 --- 开始，并以 --- 结束文首', dropped: [], movedBio: false };
   let parsed: unknown;
   try {
-    parsed = parse(matched[1]);
+    parsed = parseFrontmatter(split.front);
   } catch (error) {
     const detail = error instanceof Error ? error.message : String(error);
     return { error: `文首无法解析：${detail}`, dropped: [], movedBio: false };
@@ -453,7 +447,7 @@ export function coercePersonMarkdown(text: string): CoercePersonMarkdown {
     }
     person.sources = sources;
   }
-  const body = matched[2].trim();
+  const body = split.body.trim();
   if (frontBio && body) {
     return { error: '文首 bio 与正文同时存在，无法安全合并；请删除其中一份', dropped, movedBio: false };
   }

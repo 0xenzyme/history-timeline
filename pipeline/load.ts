@@ -1,8 +1,10 @@
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { EventMarkdownError, publishedEventMarkdown, readEventMarkdown } from './event-md';
+import { CollectionMarkdownError, readCollectionMarkdown } from './collection-md';
 import { PersonMarkdownError, publishedPersonMarkdown, readContentMarkdown } from './person-md';
+import type { DynastyProfile, HomeEditorial } from '../src/types';
 import type {
   CandidateFile,
   CategoryFile,
@@ -10,6 +12,7 @@ import type {
   PipelineData,
   RegistryEvent,
   RegistryPerson,
+  RegistryCollection,
   TopicDraft,
   VocabFile,
 } from './types';
@@ -25,7 +28,7 @@ function listJsonFiles(dir: string): string[] {
     .sort();
 }
 
-export function loadPipeline(root: string): PipelineData {
+export function loadPipeline(root: string, options: { allowEventIndexDrift?: boolean } = {}): PipelineData {
   const order = readJson<string[]>(join(root, 'topics.json'));
   if (!Array.isArray(order) || order.length === 0) {
     throw new Error('pipeline/topics.json 必须是非空的专题 id 列表');
@@ -37,6 +40,31 @@ export function loadPipeline(root: string): PipelineData {
   const categories = readJson<CategoryFile[]>(join(root, 'vocab/categories.json'));
   const polities = readJson<VocabFile[]>(join(root, 'vocab/polities.json'));
   const dynasties = readJson<DynastyTerm[]>(join(root, 'vocab/dynasties.json'));
+  const collectionCategories = readJson<VocabFile[]>(join(root, 'vocab/collection-categories.json'));
+  const dynastyProfiles = new Map<string, DynastyProfile>();
+  const dynastyProfilePaths = new Map<string, string>();
+  const profileDir = join(root, 'dynasties');
+  for (const file of existsSync(profileDir) ? listJsonFiles(profileDir) : []) {
+    const profile = readJson<DynastyProfile>(file);
+    if (
+      !profile.id ||
+      profile.id !==
+        file
+          .replace(/\\/g, '/')
+          .split('/')
+          .pop()
+          ?.replace(/\.json$/, '')
+    ) {
+      throw new Error(`${file} 的 DynastyProfile id 与文件名不一致`);
+    }
+    if (dynastyProfiles.has(profile.id)) throw new Error(`DynastyProfile id 重复：${profile.id}`);
+    dynastyProfiles.set(profile.id, profile);
+    dynastyProfilePaths.set(profile.id, `pipeline/dynasties/${profile.id}.json`);
+  }
+  const editorialPath = join(root, 'editorial/home.json');
+  const homeEditorial = existsSync(editorialPath)
+    ? readJson<HomeEditorial>(editorialPath)
+    : { dynasties: [], collections: [] };
 
   const people = new Map<string, RegistryPerson>();
   const personPaths = new Map<string, string>();
@@ -111,6 +139,7 @@ export function loadPipeline(root: string): PipelineData {
   const eventFiles = readEventMarkdown(join(root, '..', 'content'));
   const eventErrors: string[] = [];
   for (const file of eventFiles) {
+    if (options.allowEventIndexDrift && file.path === 'content/events.md') continue;
     for (const message of file.messages) {
       if (message.level === 'error') eventErrors.push(`${message.path}: ${message.message}`);
     }
@@ -130,6 +159,29 @@ export function loadPipeline(root: string): PipelineData {
     eventPaths.set(file.event.id, file.path);
   }
 
+  const collections = new Map<string, RegistryCollection>();
+  const collectionPaths = new Map<string, string>();
+  const draftCollections = new Map<string, RegistryCollection>();
+  const draftCollectionPaths = new Map<string, string>();
+  const collectionFiles = readCollectionMarkdown(join(root, '..', 'content'));
+  const collectionErrors: string[] = [];
+  for (const file of collectionFiles) {
+    for (const message of file.messages) {
+      if (message.level === 'error') collectionErrors.push(`${message.path}: ${message.message}`);
+    }
+  }
+  for (const file of collectionFiles) {
+    const id = file.collection?.id;
+    if (!id || file.path.split('/').pop()?.startsWith('_')) continue;
+    const target = file.collection?.status === 'published' ? collections : draftCollections;
+    const targetPaths = file.collection?.status === 'published' ? collectionPaths : draftCollectionPaths;
+    if (collections.has(id) || draftCollections.has(id)) collectionErrors.push(`Collection id 重复：${id}`);
+    if (target.has(id)) collectionErrors.push(`Collection id 重复：${id}`);
+    target.set(id, file.collection!);
+    targetPaths.set(id, file.path);
+  }
+  if (collectionErrors.length > 0) throw new CollectionMarkdownError(collectionErrors.join('\n'));
+
   return {
     order,
     regions,
@@ -138,10 +190,18 @@ export function loadPipeline(root: string): PipelineData {
     categories,
     polities,
     dynasties,
+    dynastyProfiles,
+    dynastyProfilePaths,
+    homeEditorial,
+    collectionCategories,
     people,
     personPaths,
     events,
     eventPaths,
+    collections,
+    collectionPaths,
+    draftCollections,
+    draftCollectionPaths,
     topics,
     candidates,
   };

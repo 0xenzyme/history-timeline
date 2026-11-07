@@ -2,12 +2,18 @@ import type {
   Accuracy,
   DynastyTerm,
   EventCommander,
+  EventPartRef,
   EventCatalog,
   EventImportance,
   EventScale,
   EventType,
+  DynastyProfile,
   Gender,
+  HomeEditorial,
   Lane,
+  PersonExperience,
+  PersonWork,
+  RegistryCollection,
   Relation,
   RelationType,
   SourceRef,
@@ -16,6 +22,7 @@ import type {
 } from '../src/types';
 
 export type { DynastyTerm, EventCatalog, SourceRef };
+export type { RegistryCollection } from '../src/types';
 
 /** 事件登记。kind 由 endYear 推导，不录入；desc 只从 Markdown 正文来。 */
 export interface RegistryEvent {
@@ -46,6 +53,8 @@ export interface RegistryEvent {
   result?: string;
   /** 父事件 id，只允许两层：战争 → 其下战役 */
   parent?: string;
+  /** 事件组成，成员指向组合；每项独立记录组成说明与出处。 */
+  partOf?: EventPartRef[];
   aliases?: string[];
   tags?: string[];
   sources: SourceRef[];
@@ -79,6 +88,8 @@ export interface RegistryPerson {
    */
   profile?: 'brief' | 'full';
   sources: SourceRef[];
+  works?: PersonWork[];
+  experiences?: PersonExperience[];
 }
 
 /** 专题待收台账。只放还没进简表的人，以及明确不收的人。 */
@@ -152,6 +163,10 @@ export interface PipelineData {
   polities: VocabFile[];
   /** 朝代年份区间表。只用于筛选与分段标签，不用于推导归属。 */
   dynasties: DynastyTerm[];
+  dynastyProfiles: Map<string, DynastyProfile>;
+  dynastyProfilePaths: Map<string, string>;
+  homeEditorial: HomeEditorial;
+  collectionCategories: VocabFile[];
   people: Map<string, RegistryPerson>;
   /** 人物 id → 相对仓库根的源文件。存量 JSON 与新 Markdown 各一条。 */
   personPaths: Map<string, string>;
@@ -159,6 +174,11 @@ export interface PipelineData {
   events: Map<string, RegistryEvent>;
   /** 事件 id → 相对仓库根的源文件。 */
   eventPaths: Map<string, string>;
+  collections: Map<string, RegistryCollection>;
+  collectionPaths: Map<string, string>;
+  /** draft 只参与完整校验，不进入目录、反查或运行时产物。 */
+  draftCollections: Map<string, RegistryCollection>;
+  draftCollectionPaths: Map<string, string>;
   topics: TopicDraft[];
   /** 键是专题 id */
   candidates: Map<string, CandidateEntry[]>;

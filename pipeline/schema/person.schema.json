@@ -24,19 +24,64 @@
     "polity": { "type": "array", "items": { "type": "string" } },
     "gender": { "enum": ["female", "male", "unknown"] },
     "profile": { "enum": ["brief", "full"] },
-    "sources": {
+    "works": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["work"],
+        "required": ["id", "title", "sources"],
         "properties": {
-          "work": { "type": "string", "minLength": 1 },
-          "part": { "type": "string" },
-          "note": { "type": "string" },
-          "kind": { "enum": ["classic", "modern", "database"] }
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "title": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["poetry", "prose", "calligraphy", "painting", "music", "book", "other"] },
+          "year": { "type": "integer" },
+          "yearAccuracy": { "enum": ["exact", "approx", "disputed", "unknown"] },
+          "yearNote": { "type": "string", "minLength": 1 },
+          "note": { "type": "string", "minLength": 1 },
+          "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } }
         }
+      }
+    },
+    "experiences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "yearAccuracy", "note", "sources"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "label": { "type": "string", "minLength": 1 },
+          "year": { "type": "integer" },
+          "yearAccuracy": { "enum": ["exact", "approx", "disputed", "unknown"] },
+          "yearNote": { "type": "string", "minLength": 1 },
+          "endYear": { "type": "integer" },
+          "endYearAccuracy": { "enum": ["exact", "approx", "disputed"] },
+          "endYearNote": { "type": "string", "minLength": 1 },
+          "place": { "type": "string", "minLength": 1 },
+          "note": { "type": "string", "minLength": 1 },
+          "event": { "type": "string", "minLength": 1 },
+          "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["work"],
+      "properties": {
+        "work": { "type": "string", "minLength": 1 },
+        "part": { "type": "string" },
+        "note": { "type": "string" },
+        "kind": { "enum": ["classic", "modern", "database"] }
       }
     }
   }

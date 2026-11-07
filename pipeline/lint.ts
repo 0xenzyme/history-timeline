@@ -3,6 +3,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import type { Catalog, Topic } from '../src/types';
+import { dynastyHits } from './compile';
 import type {
   CandidateEntry,
   DynastyTerm,
@@ -11,11 +12,15 @@ import type {
   RegistryEvent,
   RegistryPerson,
   SourceRef,
+  TopicDraft,
 } from './types';
 import {
   lintCandidatesSchema,
   lintCatalogSchema,
   lintEventSchema,
+  lintCollectionSchema,
+  lintDynastyProfileSchema,
+  lintHomeEditorialSchema,
   lintPersonSchema,
   lintTopicSchema,
 } from './lint-schema';
@@ -82,6 +87,103 @@ const CANDIDATE_KEYS = new Set(['id', 'name', 'display', 'seat', 'status', 'anch
 export function profileOf(person: RegistryPerson): 'brief' | 'full' {
   if (person.profile) return person.profile;
   return person.bio?.trim() ? 'full' : 'brief';
+}
+
+const LOCAL_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const ACCURACIES = new Set(['exact', 'approx', 'disputed', 'unknown']);
+
+function lintSources(sources: SourceRef[] | undefined, path: string, tag: string): LintMessage[] {
+  const messages: LintMessage[] = [];
+  if (!Array.isArray(sources) || sources.length === 0) {
+    return [{ level: 'error', path, message: `${tag} 至少需要一条 sources` }];
+  }
+  const seen = new Set<string>();
+  for (const [index, source] of sources.entries()) {
+    if (!source || typeof source.work !== 'string' || !source.work.trim()) {
+      messages.push({ level: 'error', path, message: `${tag}[${index}] 缺少 work` });
+      continue;
+    }
+    const key = JSON.stringify(source);
+    if (seen.has(key)) messages.push({ level: 'error', path, message: `${tag} 不能有重复出处` });
+    seen.add(key);
+  }
+  checkSourcePaths(messages, path, 'SOURCE_LOCAL_PATH', sources);
+  return messages;
+}
+
+function lintOptionalYear(
+  value: {
+    year?: number;
+    yearAccuracy?: string;
+    yearNote?: string;
+    endYear?: number;
+    endYearAccuracy?: string;
+    endYearNote?: string;
+  },
+  path: string,
+  requireAccuracy: boolean,
+): LintMessage[] {
+  const messages: LintMessage[] = [];
+  if (value.year !== undefined && (!Number.isInteger(value.year) || value.year === 0)) {
+    messages.push({ level: 'error', path, message: 'year 必须是非零整数' });
+  }
+  if (requireAccuracy && value.year === undefined && value.yearAccuracy !== 'unknown') {
+    messages.push({ level: 'error', path, message: '未知年份时 yearAccuracy 必须为 unknown' });
+  }
+  if (value.year !== undefined && requireAccuracy && !ACCURACIES.has(value.yearAccuracy ?? '')) {
+    messages.push({ level: 'error', path, message: 'yearAccuracy 必须是 exact、approx、disputed 或 unknown' });
+  }
+  if (value.yearAccuracy === 'unknown' && value.year !== undefined) {
+    messages.push({ level: 'error', path, message: 'yearAccuracy 为 unknown 时不能写 year' });
+  }
+  if ((value.yearAccuracy === 'approx' || value.yearAccuracy === 'disputed') && !value.yearNote?.trim()) {
+    messages.push({ level: 'error', path, message: 'approx / disputed 必须写 yearNote' });
+  }
+  if (value.endYear !== undefined) {
+    if (!Number.isInteger(value.endYear) || value.endYear === 0) {
+      messages.push({ level: 'error', path, message: 'endYear 必须是非零整数' });
+    }
+    if (value.year !== undefined && value.endYear < value.year) {
+      messages.push({ level: 'error', path, message: 'endYear 不得早于 year' });
+    }
+    if (!ACCURACIES.has(value.endYearAccuracy ?? '') || value.endYearAccuracy === 'unknown') {
+      messages.push({ level: 'error', path, message: '有 endYear 时必须写有效的 endYearAccuracy' });
+    }
+    if ((value.endYearAccuracy === 'approx' || value.endYearAccuracy === 'disputed') && !value.endYearNote?.trim()) {
+      messages.push({ level: 'error', path, message: '结束年 approx / disputed 必须写 endYearNote' });
+    }
+  } else if (value.endYearAccuracy !== undefined || value.endYearNote !== undefined) {
+    messages.push({ level: 'error', path, message: '没有 endYear 时不能写结束精度或说明' });
+  }
+  return messages;
+}
+
+function lintPersonExtensions(person: RegistryPerson, path: string): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const seen = new Set<string>();
+  for (const work of person.works ?? []) {
+    const workPath = `${path}#works/${work.id}`;
+    if (!LOCAL_ID.test(work.id) || seen.has(work.id)) {
+      messages.push({ level: 'error', path: workPath, message: '作品 id 必须是人物内唯一的 kebab-case' });
+    }
+    seen.add(work.id);
+    if (!work.title?.trim()) messages.push({ level: 'error', path: workPath, message: '作品缺少 title' });
+    messages.push(...lintOptionalYear(work, workPath, false));
+    messages.push(...lintSources(work.sources, workPath, 'sources'));
+  }
+  for (const experience of person.experiences ?? []) {
+    const experiencePath = `${path}#experiences/${experience.id}`;
+    if (!LOCAL_ID.test(experience.id) || seen.has(experience.id)) {
+      messages.push({ level: 'error', path: experiencePath, message: '作品与经历共享的人物内 id 必须唯一' });
+    }
+    seen.add(experience.id);
+    if (!experience.label?.trim() || !experience.note?.trim()) {
+      messages.push({ level: 'error', path: experiencePath, message: '经历必须有 label 与 note' });
+    }
+    messages.push(...lintOptionalYear(experience, experiencePath, true));
+    messages.push(...lintSources(experience.sources, experiencePath, 'sources'));
+  }
+  return messages;
 }
 
 function sourceKind(source: SourceRef): 'classic' | 'modern' | 'database' {
@@ -274,6 +376,7 @@ export function lintRegistryPerson(
     }
   }
   checkSourcePaths(messages, path, 'PERSON_SOURCE_LOCAL_PATH', person.sources);
+  messages.push(...lintPersonExtensions(person, path));
   return messages;
 }
 
@@ -287,6 +390,7 @@ export interface EventLintContext {
   /** 完整人物登记；events:check 可只传 people，content:check 传入后启用跨实体门禁。 */
   personRecords?: Map<string, RegistryPerson>;
   events: Map<string, RegistryEvent>;
+  publishedEventIds?: Set<string>;
 }
 
 export function lintRegistryEvent(
@@ -455,6 +559,38 @@ export function lintRegistryEvent(
   }
   checkSourcePaths(messages, path, 'EVENT_SOURCE_LOCAL_PATH', event.sources);
 
+  const partIds = new Set<string>();
+  for (const part of event.partOf ?? []) {
+    partIds.add(part.id);
+    const partPath = `${path}#partOf/${part.id}`;
+    if (part.id === event.id) messages.push({ level: 'error', path: partPath, message: 'partOf 不能指向自己' });
+    if (!part.note?.trim()) messages.push({ level: 'error', path: partPath, message: 'partOf 必须有组成说明 note' });
+    messages.push(...lintSources(part.sources, partPath, 'sources'));
+    const parent = ctx.events.get(part.id);
+    if (!parent || (ctx.publishedEventIds && !ctx.publishedEventIds.has(part.id) && event.status !== 'draft')) {
+      messages.push({ level: 'error', path: partPath, message: `partOf ${part.id} 不存在或不是已发布事件` });
+      continue;
+    }
+    const isComposition =
+      (parent.type === 'rebellion' ||
+        (parent.type === 'military' && (parent.scale === 'war' || parent.scale === 'campaign'))) &&
+      parent.endYear !== undefined;
+    if (!isComposition) {
+      messages.push({ level: 'error', path: partPath, message: `partOf ${part.id} 不是允许的 span 组合事件` });
+    }
+    if (parent.endYear === undefined) {
+      messages.push({ level: 'error', path: partPath, message: `partOf ${part.id} 缺少 endYear，不能作为组合` });
+    }
+    if (parent.endYear !== undefined && (event.endYear ?? event.year) < parent.year) {
+      messages.push({ level: 'error', path: partPath, message: `partOf ${part.id} 与成员时间区间不相交` });
+    }
+    if (parent.endYear !== undefined && event.year > parent.endYear) {
+      messages.push({ level: 'error', path: partPath, message: `partOf ${part.id} 与成员时间区间不相交` });
+    }
+  }
+  if (partIds.size !== (event.partOf ?? []).length) {
+    messages.push({ level: 'error', path, message: 'partOf 不能重复引用同一组合' });
+  }
   const belligerents = Array.isArray(event.belligerents) ? event.belligerents : [];
   const polities = Array.isArray(event.polity) ? event.polity : [];
   for (const [label, values] of [
@@ -626,6 +762,41 @@ export function lintRegistryEvent(
   return messages;
 }
 
+export function isCompositionEvent(event: RegistryEvent): boolean {
+  return (
+    event.endYear !== undefined &&
+    (event.type === 'rebellion' || (event.type === 'military' && (event.scale === 'war' || event.scale === 'campaign')))
+  );
+}
+
+export function lintEventCompositionGraph(events: Map<string, RegistryEvent>): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const finished = new Set<string>();
+  const visiting = new Set<string>();
+  const reported = new Set<string>();
+  const visit = (id: string): void => {
+    if (finished.has(id)) return;
+    if (visiting.has(id)) {
+      if (!reported.has(id))
+        messages.push({ level: 'error', path: `content/events/${id}.md`, message: 'partOf 链存在循环' });
+      reported.add(id);
+      return;
+    }
+    const event = events.get(id);
+    if (!event) return;
+    visiting.add(id);
+    for (const part of event.partOf ?? []) visit(part.id);
+    visiting.delete(id);
+    finished.add(id);
+  };
+  for (const id of events.keys()) {
+    if (!isCompositionEvent(events.get(id)!)) continue;
+    visit(id);
+    for (const part of events.get(id)!.partOf ?? []) visit(part.id);
+  }
+  return messages;
+}
+
 function lintDynasties(dynasties: DynastyTerm[]): LintMessage[] {
   const messages: LintMessage[] = [];
   const path = 'pipeline/vocab/dynasties.json';
@@ -648,6 +819,7 @@ export function lintEvents(data: PipelineData): LintMessage[] {
     people: new Set(data.people.keys()),
     personRecords: data.people,
     events: data.events,
+    publishedEventIds: new Set(data.events.keys()),
   };
   const messages: LintMessage[] = [];
   const aliasOwners = new Map<string, string>();
@@ -673,7 +845,229 @@ export function lintEvents(data: PipelineData): LintMessage[] {
     }
   }
   messages.push(...lintDynasties(data.dynasties));
+  messages.push(...lintEventCompositionGraph(data.events));
   return messages;
+}
+
+interface RelationMerge {
+  key: string;
+  source: string;
+  target: string;
+  type: string;
+  directed: boolean;
+  since?: number;
+  notes: string[];
+  topicIds: string[];
+}
+
+function relationMerge(topic: TopicDraft, relation: TopicDraft['relations'][number]): RelationMerge {
+  const relationType = topic.relationTypes.find((item) => item.id === relation.type);
+  const directed = relationType?.directed ?? false;
+  const [source, target] = directed ? [relation.source, relation.target] : [relation.source, relation.target].sort();
+  return {
+    key: `${source}\0${target}\0${relation.type}`,
+    source,
+    target,
+    type: relation.type,
+    directed,
+    since: relation.since,
+    notes: relation.note ? [relation.note] : [],
+    topicIds: [topic.meta.id],
+  };
+}
+
+export function mergeTopicRelations(topics: TopicDraft[]): { relations: RelationMerge[]; messages: LintMessage[] } {
+  const merges = new Map<string, RelationMerge>();
+  const messages: LintMessage[] = [];
+  for (const topic of topics) {
+    for (const relation of topic.relations) {
+      const incoming = relationMerge(topic, relation);
+      const existing = merges.get(incoming.key);
+      if (!existing) {
+        merges.set(incoming.key, incoming);
+        continue;
+      }
+      const relationPath = `relations/${existing.source}/${existing.target}/${existing.type}`;
+      if (existing.directed !== incoming.directed) {
+        messages.push({ level: 'error', path: relationPath, message: '跨专题 relationType directed 冲突' });
+      }
+      if (existing.since !== undefined && incoming.since !== undefined && existing.since !== incoming.since) {
+        messages.push({ level: 'error', path: relationPath, message: '跨专题关系 since 冲突' });
+      }
+      if (existing.since === undefined) existing.since = incoming.since;
+      for (const note of incoming.notes) if (!existing.notes.includes(note)) existing.notes.push(note);
+      if (!existing.topicIds.includes(topic.meta.id)) existing.topicIds.push(topic.meta.id);
+    }
+  }
+  return { relations: [...merges.values()], messages };
+}
+
+export function lintCollections(data: PipelineData): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const categoryIds = vocabSet(data.collectionCategories);
+  const dynastyIds = vocabSet(data.dynasties);
+  const merged = mergeTopicRelations(data.topics);
+  const conflicts = new Set(merged.messages.map((message) => message.path));
+  const relationKeys = new Set(merged.relations.map((relation) => relation.key));
+  const seenAliases = new Map<string, string>();
+  const collections = [...data.collections.values(), ...data.draftCollections.values()];
+  for (const collection of collections) {
+    const path =
+      data.collectionPaths.get(collection.id) ??
+      data.draftCollectionPaths.get(collection.id) ??
+      `content/collections/${collection.id}.md`;
+    if (new Set(collection.events ?? []).size !== (collection.events ?? []).length) {
+      messages.push({ level: 'error', path, message: 'events 不能有重复引用' });
+    }
+    if (new Set(collection.dynasties ?? []).size !== (collection.dynasties ?? []).length) {
+      messages.push({ level: 'error', path, message: 'dynasties 不能有重复引用' });
+    }
+    messages.push(...lintCollectionSchema(collection, path));
+    messages.push(...lintSources(collection.sources, path, 'sources'));
+    if (!categoryIds.has(collection.category))
+      messages.push({ level: 'error', path, message: `未知 category ${collection.category}` });
+    if (
+      collection.status === 'published' &&
+      /待填|TODO|TBD/i.test(`${collection.name}\n${collection.summary}\n${collection.body ?? ''}`)
+    ) {
+      messages.push({ level: 'error', path, message: 'published Collection 仍有占位文本' });
+    }
+    const memberIds = new Set<string>();
+    const orders = new Set<number>();
+    for (const member of Array.isArray(collection.members) ? collection.members : []) {
+      if (memberIds.has(member.id)) messages.push({ level: 'error', path, message: `重复成员 ${member.id}` });
+      if (orders.has(member.order)) messages.push({ level: 'error', path, message: `重复成员顺序 ${member.order}` });
+      memberIds.add(member.id);
+      orders.add(member.order);
+      if (!data.people.has(member.id)) messages.push({ level: 'error', path, message: `成员不存在 ${member.id}` });
+    }
+    if (memberIds.size < 2) messages.push({ level: 'error', path, message: 'Collection 至少需要两名成员' });
+    for (const relation of collection.relations ?? []) {
+      if (!memberIds.has(relation.source) || !memberIds.has(relation.target)) {
+        messages.push({ level: 'error', path, message: `关系 ${relation.source}→${relation.target} 的端点不全是成员` });
+      }
+      const key = resolveCollectionRelationKey(data.topics, relation);
+      const relationPath = key?.replaceAll('\0', '/');
+      if (!key || !relationKeys.has(key) || (relationPath !== undefined && conflicts.has(relationPath))) {
+        messages.push({
+          level: 'error',
+          path,
+          message: `Collection 关系引用无法解析 ${relation.source}→${relation.target}/${relation.type}`,
+        });
+      }
+    }
+    for (const eventId of collection.events ?? []) {
+      if (!data.events.has(eventId))
+        messages.push({ level: 'error', path, message: `事件引用不存在或未发布 ${eventId}` });
+    }
+    for (const dynastyId of collection.dynasties ?? []) {
+      if (!dynastyIds.has(dynastyId)) messages.push({ level: 'error', path, message: `朝代引用不存在 ${dynastyId}` });
+    }
+    const views = Array.isArray(collection.views) ? collection.views : [];
+    if (new Set(views).size !== views.length) messages.push({ level: 'error', path, message: 'views 不能重复' });
+    for (const view of ['overview', 'members', 'timeline']) {
+      if (!views.includes(view as (typeof collection.views)[number]))
+        messages.push({ level: 'error', path, message: `必须包含 ${view} 视图` });
+    }
+    if (!views.includes(collection.defaultView))
+      messages.push({ level: 'error', path, message: 'defaultView 必须属于 views' });
+    if (views.includes('relations') && (collection.relations ?? []).length === 0)
+      messages.push({ level: 'error', path, message: 'relations 视图需要至少一条关系' });
+    if (views.includes('events') && (collection.events ?? []).length === 0)
+      messages.push({ level: 'error', path, message: 'events 视图需要至少一个事件' });
+    if (views.includes('works') && ![...memberIds].some((id) => (data.people.get(id)?.works ?? []).length > 0)) {
+      messages.push({ level: 'error', path, message: 'works 视图需要至少一名成员有作品' });
+    }
+    for (const step of collection.path ?? []) {
+      if (Number(Boolean(step.person)) + Number(Boolean(step.event)) > 1)
+        messages.push({ level: 'error', path, message: `探索步骤 ${step.label} 至多一个 person 或 event` });
+      if (step.person && !memberIds.has(step.person))
+        messages.push({ level: 'error', path, message: `探索步骤引用非成员 ${step.person}` });
+      if (step.event && !(collection.events ?? []).includes(step.event))
+        messages.push({ level: 'error', path, message: `探索步骤引用未收录事件 ${step.event}` });
+      if (step.view && !views.includes(step.view))
+        messages.push({ level: 'error', path, message: `探索步骤视图不可用 ${step.view}` });
+    }
+    for (const alias of collection.aliases ?? []) {
+      const owner = seenAliases.get(alias);
+      if (owner || data.collections.has(alias))
+        messages.push({ level: 'error', path, message: `alias ${alias} 与其他 Collection 冲突` });
+      seenAliases.set(alias, collection.id);
+    }
+  }
+  return messages;
+}
+
+export function lintDiscovery(data: PipelineData): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const dynastyIds = new Set(data.dynasties.map((item) => item.id));
+  const topicIds = new Set(data.topics.map((item) => item.meta.id));
+  const knownPeople = new Set(data.people.keys());
+  const eventDynasties = new Map(
+    [...data.events.values()].map((event) => [event.id, dynastyHits(data.dynasties, event.year, event.endYear)]),
+  );
+  for (const profile of data.dynastyProfiles.values()) {
+    const path = data.dynastyProfilePaths.get(profile.id) ?? `pipeline/dynasties/${profile.id}.json`;
+    messages.push(...lintDynastyProfileSchema(profile, path), ...lintSources(profile.sources, path, 'sources'));
+    if (!dynastyIds.has(profile.id)) messages.push({ level: 'error', path, message: `朝代区间不存在 ${profile.id}` });
+    for (const field of ['topics', 'featuredPeople', 'featuredEvents', 'collections'] as const) {
+      if (new Set(profile[field] ?? []).size !== (profile[field] ?? []).length)
+        messages.push({ level: 'error', path, message: `${field} 不能有重复引用` });
+    }
+    for (const id of profile.topics ?? [])
+      if (!topicIds.has(id)) messages.push({ level: 'error', path, message: `年表专题不存在 ${id}` });
+    for (const id of profile.founders ?? [])
+      if (!knownPeople.has(id.id)) messages.push({ level: 'error', path, message: `建立者不存在 ${id.id}` });
+    const eligiblePeople = new Set(
+      data.topics
+        .filter((topic) => (profile.topics ?? []).includes(topic.meta.id) || topic.catalog.eras.includes(profile.id))
+        .flatMap((topic) => topic.people.map((person) => person.id)),
+    );
+    for (const id of profile.featuredPeople ?? []) {
+      if (!knownPeople.has(id)) messages.push({ level: 'error', path, message: `推荐人物不存在 ${id}` });
+      else if (!eligiblePeople.has(id))
+        messages.push({ level: 'error', path, message: `推荐人物不在对应专题，需要显式 topics 编排 ${id}` });
+    }
+    for (const id of profile.featuredEvents ?? []) {
+      if (!data.events.has(id)) messages.push({ level: 'error', path, message: `推荐事件不存在 ${id}` });
+      else if (!eventDynasties.get(id)?.includes(profile.id))
+        messages.push({ level: 'error', path, message: `推荐事件未命中朝代区间 ${id}` });
+    }
+    for (const id of profile.collections ?? [])
+      if (!data.collections.has(id)) messages.push({ level: 'error', path, message: `相关群像不存在或未发布 ${id}` });
+  }
+  const editorialPath = 'pipeline/editorial/home.json';
+  messages.push(...lintHomeEditorialSchema(data.homeEditorial, editorialPath));
+  for (const field of ['dynasties', 'collections'] as const) {
+    const ids = data.homeEditorial[field];
+    if (new Set(ids).size !== ids.length)
+      messages.push({ level: 'error', path: editorialPath, message: `${field} 不能有重复推荐` });
+  }
+  for (const id of data.homeEditorial.dynasties)
+    if (!dynastyIds.has(id)) messages.push({ level: 'error', path: editorialPath, message: `推荐朝代不存在 ${id}` });
+  for (const id of data.homeEditorial.collections)
+    if (!data.collections.has(id))
+      messages.push({ level: 'error', path: editorialPath, message: `推荐群像不存在或未发布 ${id}` });
+  return messages;
+}
+
+export function resolveCollectionRelationKey(
+  topics: TopicDraft[],
+  ref: { source: string; target: string; type: string },
+): string | undefined {
+  const candidates = topics.flatMap((topic) =>
+    topic.relations
+      .filter((relation) => relation.type === ref.type)
+      .filter((relation) => {
+        const directed = topic.relationTypes.find((type) => type.id === relation.type)?.directed ?? false;
+        return directed
+          ? relation.source === ref.source && relation.target === ref.target
+          : (relation.source === ref.source && relation.target === ref.target) ||
+              (relation.source === ref.target && relation.target === ref.source);
+      })
+      .map((relation) => relationMerge(topic, relation)),
+  );
+  return candidates[0]?.key;
 }
 
 function lintCandidates(data: PipelineData): LintMessage[] {
@@ -781,6 +1175,36 @@ export function lintPipeline(data: PipelineData, compiled: Topic[], catalog?: Ca
   for (const person of data.people.values()) {
     const path = data.personPaths.get(person.id) ?? `pipeline/registry/people/${person.id}.json`;
     messages.push(...lintRegistryPerson(person, categoryIds, polityIds, path));
+    for (const experience of person.experiences ?? []) {
+      if (!experience.event) continue;
+      const event = data.events.get(experience.event);
+      if (!event) {
+        messages.push({
+          level: 'error',
+          path,
+          message: `经历 ${experience.id} 引用的公共事件不存在或未发布 ${experience.event}`,
+        });
+        continue;
+      }
+      const linked = [...(event.people ?? []), ...(event.commanders ?? []).map((commander) => commander.id)];
+      if (!linked.includes(person.id)) {
+        messages.push({
+          level: 'error',
+          path,
+          message: `经历 ${experience.id} 引用的公共事件没有显式关联人物 ${person.id}`,
+        });
+      }
+      if (
+        experience.event &&
+        (experience.year !== undefined || experience.endYear !== undefined || experience.place !== undefined)
+      ) {
+        messages.push({
+          level: 'error',
+          path,
+          message: `经历 ${experience.id} 使用 event 时不得复制公共事件的 year/endYear/place`,
+        });
+      }
+    }
     if (!person.profile) {
       if (person.birthAccuracy === 'approx' && person.birth !== undefined && !person.birthNote?.trim()) {
         approxGaps.push(`${person.id} 生年`);
@@ -859,6 +1283,19 @@ export function lintPipeline(data: PipelineData, compiled: Topic[], catalog?: Ca
 
   messages.push(...lintCandidates(data));
   messages.push(...lintEvents(data));
+  messages.push(...lintCollections(data));
+  messages.push(...lintDiscovery(data));
+  for (const message of mergeTopicRelations(data.topics).messages) {
+    if (message.message.includes('directed')) {
+      messages.push(message);
+      continue;
+    }
+    messages.push({
+      ...message,
+      level: 'warning',
+      message: `[RELATION_CONFLICT] ${message.message}`,
+    });
+  }
 
   for (const topic of compiled) {
     const linked = connectedPeople(topic);

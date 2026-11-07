@@ -3,15 +3,23 @@ import {
   type Catalog,
   type CatalogLine,
   type DynastyTerm,
+  type EraDetail,
+  type EraSummary,
   type EventLineView,
   type EventRecord,
+  type EventDetail,
   type Person,
+  type PersonDetail,
+  type RegistryCollection,
+  type CollectionDetail,
+  type CollectionSummary,
   type SearchRecord,
   type Topic,
 } from '../src/types';
 import { validateCatalog, validateEventLine, validateTopic } from '../src/contract';
 import { buildSegments } from './segments';
 import type { PersonOverlay, PipelineData, RegistryEvent, RegistryPerson } from './types';
+import { profileOf, mergeTopicRelations, resolveCollectionRelationKey } from './lint';
 
 /** 两条时间线的收录范围。含夏，止于民国结束。起点跟 vocab/dynasties.json 的 xia 对齐。 */
 export const EVENT_RANGE: [number, number] = [-2070, 1949];
@@ -155,7 +163,136 @@ export function compileCatalog(data: PipelineData): Catalog {
       themes: draft.catalog.themes,
     })),
     lines: LINES,
+    collectionCategories: data.collectionCategories,
+    editorial: data.homeEditorial,
   };
+}
+
+const DYNASTY_GROUPS: Record<string, EraSummary['group']> = {
+  xia: 'pre-qin',
+  shang: 'pre-qin',
+  'western-zhou': 'pre-qin',
+  'spring-autumn': 'pre-qin',
+  'warring-states': 'pre-qin',
+  qin: 'qin-han',
+  'western-han': 'qin-han',
+  xin: 'qin-han',
+  'eastern-han': 'qin-han',
+  'three-kingdoms': 'weijin-nanbei',
+  'western-jin': 'weijin-nanbei',
+  'eastern-jin': 'weijin-nanbei',
+  shiliuguo: 'weijin-nanbei',
+  'northern-southern': 'weijin-nanbei',
+  sui: 'sui-tang-wudai',
+  tang: 'sui-tang-wudai',
+  wudai: 'sui-tang-wudai',
+  liao: 'song-liao-jin-yuan',
+  song: 'song-liao-jin-yuan',
+  xixia: 'song-liao-jin-yuan',
+  'jin-chao': 'song-liao-jin-yuan',
+  mongol: 'song-liao-jin-yuan',
+  yuan: 'song-liao-jin-yuan',
+  ming: 'ming-qing',
+  qing: 'ming-qing',
+  minguo: 'minguo',
+};
+
+function dynastyTopics(data: PipelineData, dynastyId: string): string[] {
+  const profileTopics = data.dynastyProfiles.get(dynastyId)?.topics ?? [];
+  return data.topics
+    .filter((topic) => profileTopics.includes(topic.meta.id) || topic.catalog.eras.includes(dynastyId))
+    .map((topic) => topic.meta.id);
+}
+
+function eraPeople(data: PipelineData, topics: Topic[], dynastyId: string): Person[] {
+  const topicIds = new Set(dynastyTopics(data, dynastyId));
+  const seen = new Set<string>();
+  const people: Person[] = [];
+  for (const topic of topics) {
+    if (!topicIds.has(topic.meta.id)) continue;
+    for (const person of topic.people) {
+      if (seen.has(person.id)) continue;
+      seen.add(person.id);
+      people.push(personCard(data.people.get(person.id)!));
+    }
+  }
+  return people;
+}
+
+export function compileEraSummaries(data: PipelineData, topics: Topic[], events: EventRecord[]): EraSummary[] {
+  return data.dynasties.map((dynasty) => {
+    const profile = data.dynastyProfiles.get(dynasty.id);
+    return {
+      ...dynasty,
+      contractVersion: CONTRACT_VERSION,
+      aliases: profile?.aliases,
+      summary: profile?.summary,
+      group: profile?.group ?? DYNASTY_GROUPS[dynasty.id] ?? 'ming-qing',
+      personCount: eraPeople(data, topics, dynasty.id).length,
+      eventCount: events.filter((event) => event.dynasties?.includes(dynasty.id)).length,
+    };
+  });
+}
+
+export function compileEraDetails(data: PipelineData, topics: Topic[], events: EventRecord[]): EraDetail[] {
+  const summaries = new Map(compileEraSummaries(data, topics, events).map((summary) => [summary.id, summary]));
+  const collectionSummaries = compileCollectionSummaries(data);
+  return data.dynasties.map((dynasty) => {
+    const profile = data.dynastyProfiles.get(dynasty.id);
+    const allPeople = eraPeople(data, topics, dynasty.id);
+    const peopleById = new Map(allPeople.map((person) => [person.id, person]));
+    const matchingEvents = events.filter((event) => event.dynasties?.includes(dynasty.id));
+    const eventsById = new Map(matchingEvents.map((event) => [event.id, event]));
+    const people = (
+      profile?.featuredPeople?.length
+        ? profile.featuredPeople.flatMap((id) => {
+            const person = peopleById.get(id);
+            return person ? [person] : [];
+          })
+        : allPeople.slice(0, 6)
+    ).slice(0, 6);
+    const eraEvents = (
+      profile?.featuredEvents?.length
+        ? profile.featuredEvents.flatMap((id) => {
+            const event = eventsById.get(id);
+            return event ? [event] : [];
+          })
+        : matchingEvents
+            .slice()
+            .sort(
+              (left, right) =>
+                right.importance - left.importance || left.year - right.year || left.id.localeCompare(right.id),
+            )
+            .slice(0, 6)
+    ).sort(
+      (left, right) => left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id),
+    );
+    const collectionIds = [
+      ...new Set([
+        ...(profile?.collections ?? []),
+        ...[...data.collections.values()]
+          .filter((collection) => (collection.dynasties ?? []).includes(dynasty.id))
+          .map((collection) => collection.id),
+      ]),
+    ];
+    return {
+      ...summaries.get(dynasty.id)!,
+      body: profile?.body,
+      note: profile?.note,
+      capitals: profile?.capitals,
+      founderRecords: (profile?.founders ?? []).flatMap((founder) => {
+        const person = data.people.get(founder.id);
+        return person ? [personCard(person)] : [];
+      }),
+      topics: dynastyTopics(data, dynasty.id),
+      people,
+      events: eraEvents,
+      collections: collectionIds,
+      collectionRecords: collectionSummaries.filter((collection) => collectionIds.includes(collection.id)),
+      cover: profile?.cover,
+      sources: profile?.sources ?? [],
+    };
+  });
 }
 
 /** 事件实体编译。kind 由 endYear 推导，display 回退 name。 */
@@ -183,6 +320,7 @@ export function compileEvent(registry: RegistryEvent, dynasties: DynastyTerm[]):
     people: registry.people,
     result: registry.result,
     parent: registry.parent,
+    partOf: registry.partOf,
     aliases: registry.aliases,
     tags: registry.tags,
     dynasties: dynastyHits(dynasties, registry.year, registry.endYear),
@@ -217,6 +355,193 @@ export function compileLine(data: PipelineData, line: 'military' | 'history'): E
 /** 人物瘦索引：卡片与搜索共用字段，但不含事件行，供首屏加载。 */
 export function compilePeopleIndex(topics: Topic[]): SearchRecord[] {
   return compileSearch(topics, []).filter((row) => row.kind !== 'event');
+}
+
+export function compilePeopleSearch(data: PipelineData, topics: Topic[]): SearchRecord[] {
+  const rows = compilePeopleIndex(topics);
+  for (const row of rows) {
+    const registry = data.people.get(row.id);
+    if (!registry) continue;
+    if (registry.aliases?.length) row.aliases = registry.aliases;
+    if (registry.bio) row.bio = registry.bio;
+  }
+  return rows;
+}
+
+function personBase(registry: RegistryPerson): Omit<Person, 'lane'> {
+  return {
+    id: registry.id,
+    name: registry.name,
+    display: registry.display,
+    birth: registry.birth,
+    birthAccuracy: registry.birthAccuracy,
+    death: registry.death,
+    deathAccuracy: registry.deathAccuracy,
+    birthNote: registry.birthNote,
+    deathNote: registry.deathNote,
+    title: registry.title,
+    bio: registry.bio,
+    tags: registry.tags,
+    categories: registry.categories,
+    primary: registry.primary,
+    polity: registry.polity,
+    gender: registry.gender,
+  };
+}
+
+function personCard(registry: RegistryPerson): Person {
+  return { ...personBase(registry), lane: '' };
+}
+
+function collectionIds(data: PipelineData, predicate: (collection: RegistryCollection) => boolean): string[] {
+  return [...data.collections.values()]
+    .filter(predicate)
+    .sort(
+      (left, right) =>
+        (left.featuredOrder ?? Number.MAX_SAFE_INTEGER) - (right.featuredOrder ?? Number.MAX_SAFE_INTEGER) ||
+        left.id.localeCompare(right.id),
+    )
+    .map((collection) => collection.id);
+}
+
+export function compilePersonDetails(data: PipelineData, events: EventRecord[]): PersonDetail[] {
+  const mergedRelations = mergeTopicRelations(data.topics).relations;
+  return [...data.people.values()]
+    .sort((left, right) => left.id.localeCompare(right.id))
+    .map((registry) => {
+      const detail: PersonDetail = {
+        ...personBase(registry),
+        contractVersion: CONTRACT_VERSION,
+        id: registry.id,
+        profile: profileOf(registry),
+        topics: data.topics
+          .filter((topic) => topic.people.some((person) => person.id === registry.id))
+          .map((topic) => ({
+            id: topic.meta.id,
+            title: topic.meta.title,
+            lane: topic.people.find((person) => person.id === registry.id)!.lane,
+          })),
+        relations: mergedRelations
+          .filter((relation) => relation.source === registry.id || relation.target === registry.id)
+          .map((relation) => ({
+            source: relation.source,
+            target: relation.target,
+            type: relation.type,
+            directed: relation.directed,
+            since: relation.since,
+            notes: relation.notes,
+            topicIds: relation.topicIds,
+          })),
+        events: events
+          .filter(
+            (event) =>
+              (event.people ?? []).includes(registry.id) ||
+              (event.commanders ?? []).some((commander) => commander.id === registry.id),
+          )
+          .map((event) => ({
+            id: event.id,
+            roles: [
+              ...((event.people ?? []).includes(registry.id) ? (['person'] as const) : []),
+              ...((event.commanders ?? []).some((commander) => commander.id === registry.id)
+                ? (['commander'] as const)
+                : []),
+            ],
+          })),
+        collections: collectionIds(data, (collection) =>
+          collection.members.some((member) => member.id === registry.id),
+        ),
+        aliases: registry.aliases,
+        works: registry.works,
+        experiences: registry.experiences,
+        sources: registry.sources,
+      };
+      return detail;
+    });
+}
+
+export function compileEventDetails(data: PipelineData, events: EventRecord[]): EventDetail[] {
+  return events.map((event) => ({
+    ...event,
+    contractVersion: CONTRACT_VERSION,
+    children: events
+      .filter((candidate) => candidate.parent === event.id)
+      .sort(
+        (left, right) =>
+          left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id),
+      )
+      .map((candidate) => candidate.id),
+    components: events
+      .flatMap((candidate) =>
+        (candidate.partOf ?? []).filter((part) => part.id === event.id).map((part) => ({ ...part, event: candidate })),
+      )
+      .sort((left, right) => left.event.year - right.event.year || left.event.id.localeCompare(right.event.id)),
+    personRecords: [...new Set([...(event.people ?? []), ...(event.commanders ?? []).map((commander) => commander.id)])]
+      .map((id) => data.people.get(id))
+      .filter((person): person is RegistryPerson => person !== undefined)
+      .map(personCard),
+    collections: collectionIds(data, (collection) => (collection.events ?? []).includes(event.id)),
+  }));
+}
+
+export function compileCollectionSummaries(data: PipelineData): CollectionSummary[] {
+  return [...data.collections.values()].map((collection) => ({
+    contractVersion: CONTRACT_VERSION,
+    id: collection.id,
+    name: collection.name,
+    aliases: collection.aliases,
+    category: collection.category,
+    summary: collection.summary,
+    tags: collection.tags,
+    featuredOrder: collection.featuredOrder,
+    cover: collection.cover,
+    memberCount: collection.members.length,
+    featuredMembers: collection.members
+      .filter((member) => member.featured)
+      .sort((left, right) => left.order - right.order)
+      .map((member) => {
+        const registry = data.people.get(member.id);
+        if (!registry) throw new Error(`Collection ${collection.id} 的成员不存在 ${member.id}`);
+        return personCard(registry);
+      }),
+  }));
+}
+
+export function compileCollectionDetails(data: PipelineData, events: EventRecord[]): CollectionDetail[] {
+  const relations = mergeTopicRelations(data.topics).relations;
+  return [...data.collections.values()].map((collection) => {
+    for (const member of collection.members) {
+      if (!data.people.has(member.id)) throw new Error(`Collection ${collection.id} 的成员不存在 ${member.id}`);
+    }
+    for (const eventId of collection.events ?? []) {
+      if (!events.some((event) => event.id === eventId))
+        throw new Error(`Collection ${collection.id} 的事件不存在 ${eventId}`);
+    }
+    const memberIds = new Set(collection.members.map((member) => member.id));
+    const eventIds = new Set(collection.events ?? []);
+    return {
+      ...collection,
+      contractVersion: CONTRACT_VERSION,
+      people: collection.members
+        .slice()
+        .sort((left, right) => left.order - right.order)
+        .map((member) => personCard(data.people.get(member.id)!)),
+      resolvedRelations: relations
+        .filter((relation) => memberIds.has(relation.source) && memberIds.has(relation.target))
+        .filter((relation) =>
+          (collection.relations ?? []).some((ref) => resolveCollectionRelationKey(data.topics, ref) === relation.key),
+        )
+        .map((relation) => ({
+          source: relation.source,
+          target: relation.target,
+          type: relation.type,
+          directed: relation.directed,
+          since: relation.since,
+          notes: relation.notes,
+          topicIds: relation.topicIds,
+        })),
+      eventRecords: events.filter((event) => eventIds.has(event.id)),
+    };
+  });
 }
 
 export function compileSearch(topics: Topic[], events: EventRecord[]): SearchRecord[] {

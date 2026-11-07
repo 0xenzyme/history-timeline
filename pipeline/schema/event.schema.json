@@ -50,6 +50,34 @@
     "people": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "result": { "type": "string", "minLength": 1 },
     "parent": { "type": "string", "minLength": 1 },
+    "partOf": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "note", "sources"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "note": { "type": "string", "minLength": 1 },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["work"],
+              "properties": {
+                "work": { "type": "string", "minLength": 1 },
+                "part": { "type": "string", "minLength": 1 },
+                "note": { "type": "string", "minLength": 1 },
+                "kind": { "type": "string", "enum": ["classic", "modern", "database"] }
+              }
+            }
+          }
+        }
+      }
+    },
     "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "sources": {

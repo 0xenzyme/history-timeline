@@ -1,5 +1,6 @@
 import { runEventsCommand } from './events-cli';
 import { runPeopleCommand } from './people-cli';
+import { runCollectionsCommand } from './collections-cli';
 
 function usage(): void {
   console.error(`用法：
@@ -8,11 +9,15 @@ function usage(): void {
   npm run people:new -- <topic> <id>
   npm run events:check
   npm run events:format
-  npm run events:new -- <id>`);
+  npm run events:new -- <id>
+  npm run collections:check
+  npm run collections:format
+  npm run collections:new -- <id>`);
   process.exit(1);
 }
 
 const [domain, ...rest] = process.argv.slice(2);
 if (domain === 'people') runPeopleCommand(rest);
 else if (domain === 'events') runEventsCommand(rest);
+else if (domain === 'collections') runCollectionsCommand(rest);
 else usage();

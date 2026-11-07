@@ -46,6 +46,16 @@
           "range": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "integer" } }
         }
       }
+    },
+    "collectionCategories": { "type": "array", "items": { "$ref": "#/$defs/vocabTerm" } },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dynasties", "collections"],
+      "properties": {
+        "dynasties": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1 } },
+        "collections": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
     }
   },
   "$defs": {

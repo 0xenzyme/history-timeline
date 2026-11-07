@@ -38,6 +38,7 @@ export const EVENT_MD_KEYS = [
   'people',
   'result',
   'parent',
+  'partOf',
   'tags',
   'aliases',
   'sources',

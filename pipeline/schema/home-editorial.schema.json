@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history-timeline.local/schema/home-editorial.schema.json",
+  "title": "HomeEditorial",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["dynasties", "collections"],
+  "properties": {
+    "dynasties": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1 } },
+    "collections": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+  }
+}

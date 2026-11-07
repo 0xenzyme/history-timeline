@@ -1,0 +1,19 @@
+{
+  "id": "tang",
+  "aliases": ["唐朝"],
+  "summary": "从唐高祖建国到唐亡，人物生命与政治、军事和文化事件在 618—907 年的时间坐标中交织。",
+  "body": "本页按现有收录组织唐代阅读。关键人物来自唐代专题的编辑选取，重要事件按朝代区间与显式推荐确定；人物叙事归属、事件时点政权与朝代筛选分别保留各自语义。",
+  "capitals": [
+    { "name": "长安", "note": "唐朝主要都城。" },
+    { "name": "洛阳", "note": "唐高宗以后与长安并列为两京。" }
+  ],
+  "founders": [{ "id": "li-yuan", "note": "618 年受禅建国，国号唐。" }],
+  "topics": ["tang"],
+  "group": "sui-tang-wudai",
+  "featuredPeople": ["li-yuan", "li-shimin", "wu-zetian", "li-bai", "du-fu"],
+  "featuredEvents": ["xuanwu-zhibian", "zhenguan-zhizhi", "kaiyuan-shengshi", "anshi-zhiluan", "huangchao-zhi-luan"],
+  "sources": [
+    { "work": "旧唐书", "part": "高祖纪、地理志", "kind": "classic" },
+    { "work": "新唐书", "part": "高祖纪、地理志", "kind": "classic" }
+  ]
+}

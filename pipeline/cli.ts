@@ -11,9 +11,20 @@ import {
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { compileAll, compilePeopleIndex, toPrettyJson } from './compile';
+import {
+  compileAll,
+  compileCollectionDetails,
+  compileCollectionSummaries,
+  compileEraDetails,
+  compileEraSummaries,
+  compileEventDetails,
+  compilePeopleSearch,
+  compilePersonDetails,
+  toPrettyJson,
+} from './compile';
 import { checkLegacyEventManifest } from './event-migration';
 import { EventMarkdownError } from './event-md';
+import { CollectionMarkdownError } from './collection-md';
 import { lintPipeline, summarizeRoster } from './lint';
 import { loadPipeline } from './load';
 import { PersonMarkdownError } from './person-md';
@@ -58,7 +69,11 @@ function main(): void {
   try {
     data = loadPipeline(pipelineRoot);
   } catch (error) {
-    if (error instanceof PersonMarkdownError || error instanceof EventMarkdownError) {
+    if (
+      error instanceof PersonMarkdownError ||
+      error instanceof EventMarkdownError ||
+      error instanceof CollectionMarkdownError
+    ) {
       console.error(error.message);
       process.exit(1);
     }
@@ -78,9 +93,17 @@ function main(): void {
 
   const files: Array<[string, unknown]> = [
     ['index.json', catalog],
-    ['people.json', compilePeopleIndex(topics)],
+    ['people.json', compilePeopleSearch(data, topics)],
+    ['collections.json', compileCollectionSummaries(data)],
+    ['eras.json', compileEraSummaries(data, topics, events)],
     ...lines.map((line) => [`${line.id}.json`, line] as [string, unknown]),
     ...topics.map((topic) => [`${topic.meta.id}.json`, topic] as [string, unknown]),
+    ...compilePersonDetails(data, events).map((detail) => [`people/${detail.id}.json`, detail] as [string, unknown]),
+    ...compileEventDetails(data, events).map((detail) => [`events/${detail.id}.json`, detail] as [string, unknown]),
+    ...compileCollectionDetails(data, events).map(
+      (detail) => [`collections/${detail.id}.json`, detail] as [string, unknown],
+    ),
+    ...compileEraDetails(data, topics, events).map((detail) => [`eras/${detail.id}.json`, detail] as [string, unknown]),
   ];
 
   if (checkOnly) {
@@ -98,9 +121,14 @@ function main(): void {
       if (actual !== expected) mismatches.push(`public/data/${name} 与管线输出不一致`);
     }
     if (existsSync(outDir)) {
-      for (const entry of readdirSync(outDir, { withFileTypes: true })) {
-        if (!expectedNames.has(entry.name)) mismatches.push(`public/data/${entry.name} 是多余的 stale 产物`);
-      }
+      const visit = (directory: string, prefix: string): void => {
+        for (const entry of readdirSync(directory, { withFileTypes: true })) {
+          const name = `${prefix}${entry.name}`;
+          if (entry.isDirectory()) visit(join(directory, entry.name), `${name}/`);
+          else if (!expectedNames.has(name)) mismatches.push(`public/data/${name} 是多余的 stale 产物`);
+        }
+      };
+      visit(outDir, '');
     }
     reportAndExit([...errors, ...mismatches], warnings);
     console.log(`content check passed：${topics.length} 个专题`);
@@ -113,7 +141,9 @@ function main(): void {
   const tempDir = mkdtempSync(join(outputParent, '.data-tmp-'));
   try {
     for (const [name, value] of files) {
-      writeFileSync(join(tempDir, name), toPrettyJson(value), 'utf8');
+      const target = join(tempDir, name);
+      mkdirSync(dirname(target), { recursive: true });
+      writeFileSync(target, toPrettyJson(value), 'utf8');
     }
   } catch (error) {
     rmSync(tempDir, { recursive: true, force: true });
