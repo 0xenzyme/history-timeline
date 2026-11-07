@@ -53,13 +53,30 @@ export function wireSiteMenu(root: ParentNode = document): void {
       const open = menu.hidden;
       menu.hidden = !open;
       toggles.forEach((item) => item.setAttribute('aria-expanded', String(open)));
-      if (open) menu.querySelector<HTMLElement>('a')?.focus();
+      if (open)
+        (menu.querySelector<HTMLElement>('a[aria-current="page"]') ?? menu.querySelector<HTMLElement>('a'))?.focus();
       else button.focus();
     });
   }
   root.addEventListener('keydown', (event) => {
+    if (menu !== root.querySelector('#lt-site-menu') || menu.hidden) return;
     if (!(event instanceof KeyboardEvent)) return;
-    if (event.key !== 'Escape' || menu.hidden) return;
+    if (event.key === 'Tab') {
+      const links = [...menu.querySelectorAll<HTMLAnchorElement>('a[href]')];
+      const first = toggles[0];
+      const last = links.at(-1);
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+      return;
+    }
+    if (event.key !== 'Escape') return;
+    event.stopImmediatePropagation();
     menu.hidden = true;
     toggles.forEach((item) => item.setAttribute('aria-expanded', 'false'));
     toggles[0]?.focus();
