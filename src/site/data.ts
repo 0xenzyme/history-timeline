@@ -1,5 +1,6 @@
 import {
   loadCatalog,
+  loadCollectionDetail,
   loadCollectionIndex,
   loadEventDetail,
   loadEraDetail,
@@ -11,6 +12,7 @@ import {
 import type {
   Catalog,
   CollectionSummary,
+  CollectionDetail,
   EraDetail,
   EraSummary,
   EventDetail,
@@ -37,6 +39,8 @@ let sitePeople: Promise<SearchRecord[]> | undefined;
 const siteEras = new Map<string, Promise<EraSummary[]>>();
 const siteCollections = new Map<string, Promise<CollectionSummary[]>>();
 const siteLines = new Map<string, Promise<EventLineView>>();
+const collectionDetails = new Map<string, Promise<CollectionDetail>>();
+const collectionPeople = new Map<string, Promise<PersonDetail>>();
 
 function reset(): void {
   siteLibrary = undefined;
@@ -45,6 +49,8 @@ function reset(): void {
   siteEras.clear();
   siteCollections.clear();
   siteLines.clear();
+  collectionDetails.clear();
+  collectionPeople.clear();
 }
 
 export function retrySiteData(key?: SiteDataKey): void {
@@ -138,6 +144,34 @@ export function loadEra(id: string): Promise<EraDetail> {
 
 export function loadPerson(id: string): Promise<PersonDetail> {
   return loadPersonDetail(`/data/people/${encodeURIComponent(id)}.json`, id);
+}
+
+export function loadCollection(id: string): Promise<CollectionDetail> {
+  return cached(collectionDetails, id, () =>
+    loadCollectionDetail(`/data/collections/${encodeURIComponent(id)}.json`, id),
+  );
+}
+
+export function retryCollection(id: string): void {
+  collectionDetails.delete(id);
+}
+
+export async function loadCollectionPeople(ids: string[]): Promise<{ people: PersonDetail[]; failedIds: string[] }> {
+  const results = await Promise.all(
+    ids.map(async (id) => {
+      try {
+        const person = await cached(collectionPeople, id, () => loadPerson(id));
+        return { person };
+      } catch (error) {
+        console.warn(`[Collection 成员 ${id} 局部加载失败]`, error);
+        return { failedId: id };
+      }
+    }),
+  );
+  return {
+    people: results.flatMap((result) => ('person' in result && result.person ? [result.person] : [])),
+    failedIds: results.flatMap((result) => ('failedId' in result && result.failedId ? [result.failedId] : [])),
+  };
 }
 
 export function loadEvent(id: string): Promise<EventDetail> {
