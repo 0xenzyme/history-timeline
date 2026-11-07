@@ -1,0 +1,71 @@
+{
+  "id": "li-cheng-qian",
+  "name": "李承乾",
+  "display": "李承乾",
+  "birth": 619,
+  "birthAccuracy": "exact",
+  "death": 645,
+  "deathAccuracy": "exact",
+  "title": "太宗长子，贞观十七年废",
+  "bio": "生于承乾殿，因以为名。太宗即位时年八岁，立为皇太子。后与魏王泰争储，连侯君集谋反。贞观十七年齐王祐反，事发，废为庶人，徙黔州。十九年卒于徙所。",
+  "tags": [
+    "唐",
+    "贞观"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-cheng-qian",
+      "target": "li-shimin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长子，贞观十七年废为庶人"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-cheng-qian",
+      "target": "li-tai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "争储，各树朋党"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李承乾",
+    "恒山王承乾"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "恒山王承乾传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "zhen-jin",
+  "name": "真金",
+  "display": "真金",
+  "birth": 1243,
+  "birthAccuracy": "exact",
+  "death": 1285,
+  "deathAccuracy": "exact",
+  "title": "皇太子真金，追尊裕宗",
+  "bio": "忽必烈嫡子，中统三年立为皇太子，预闻国政、亲近汉儒。1285 年有人上书请世祖禅位，事寝而太子旋卒，年四十三。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "zhen-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，中统三年立为皇太子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "zhen-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，真金第三子铁穆耳嗣位"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "裕宗传",
+      "kind": "classic"
+    }
+  ]
+}

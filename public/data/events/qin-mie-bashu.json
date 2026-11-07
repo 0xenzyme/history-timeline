@@ -1,0 +1,48 @@
+{
+  "id": "qin-mie-bashu",
+  "name": "秦灭巴蜀",
+  "display": "秦灭巴蜀",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -316,
+  "yearAccuracy": "exact",
+  "yearNote": "《史记·秦本纪》惠文王更元九年，司马错伐蜀，灭之，封公子通于蜀；华阳国志同其事。更元九年即公元前316年。",
+  "place": "蜀",
+  "placeNow": "今四川成都一带",
+  "belligerents": [
+    "qin",
+    "shu-guo",
+    "ba-guo"
+  ],
+  "result": "蜀入秦为郡县，秦控江源，得蜀以饶、得其地以并楚",
+  "aliases": [
+    "司马错伐蜀"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "巴蜀数相攻伐，蜀王伐苴侯，苴侯奔巴，巴子求救于秦。秦惠文王欲先伐韩，司马错曰：「蜀有桀、纣之乱，其国富饶，得其布帛金银足以给军用；水通于楚，有巴之劲卒，浮大舶船以东向楚，楚地可得也。得蜀则得楚，楚亡而天下并矣。」王从之。十月，错与张仪、都尉墨俱将兵伐蜀，蜀王败走至武阳，为错所杀，蜀遂灭；公子通封于蜀。秦自是益强富厚，轻诸侯。后世李冰因之治水，成都为陆海，皆基于此。司马错、张仪、都尉墨未入人物库，故本条不设 people。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "华阳国志",
+      "part": "蜀志",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [],
+  "collections": []
+}

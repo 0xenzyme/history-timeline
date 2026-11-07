@@ -1,0 +1,94 @@
+{
+  "id": "yesun-temur",
+  "name": "也孙铁木儿",
+  "display": "元泰定帝也孙铁木儿",
+  "birth": 1293,
+  "birthAccuracy": "exact",
+  "death": 1328,
+  "deathAccuracy": "exact",
+  "title": "守成之君",
+  "bio": "晋王甘麻剌之子，显宗兄。致和元年于上都即位，任宰相、缓征敛，天历初卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yesun-temur",
+      "target": "ying-zong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宗室继统，英宗遇弑，泰定帝立"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-su-ji-ba",
+      "target": "yesun-temur",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，泰定帝传天顺帝"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-shi",
+      "target": "yesun-temur",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "泰定帝即位，旋诛铁失及其党"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "yesun-temur",
+      "target": "yang-weizhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "泰定四年进士，元季文章宗主"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "也孙铁木儿",
+    "元泰定帝"
+  ],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "泰定帝本纪",
+      "kind": "classic"
+    }
+  ]
+}

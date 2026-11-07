@@ -1,0 +1,64 @@
+{
+  "id": "zheng-he",
+  "name": "郑和",
+  "display": "郑和",
+  "birth": 1371,
+  "birthAccuracy": "exact",
+  "death": 1433,
+  "deathAccuracy": "exact",
+  "title": "三宝太监，七下西洋",
+  "bio": "云南回族，世_job宦官。成祖命通使西洋，凡七下，历三十余国，最远抵非洲东岸，舟师之盛前古未有。",
+  "tags": [
+    "明",
+    "航海"
+  ],
+  "categories": [
+    "eunuch",
+    "general",
+    "explorer"
+  ],
+  "primary": "explorer",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-di",
+      "target": "zheng-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "遣郑和七下西洋"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhenghe-xiayang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "宦官传",
+      "kind": "classic"
+    }
+  ]
+}

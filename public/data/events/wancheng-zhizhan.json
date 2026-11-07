@@ -1,0 +1,137 @@
+{
+  "id": "wancheng-zhizhan",
+  "name": "宛城之战",
+  "display": "宛城之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 197,
+  "yearAccuracy": "exact",
+  "place": "宛城",
+  "placeNow": "今河南南阳",
+  "belligerents": [
+    "wei",
+    "han"
+  ],
+  "commanders": [
+    {
+      "id": "cao-cao",
+      "side": "wei"
+    },
+    {
+      "id": "zhang-xiu",
+      "side": "han"
+    }
+  ],
+  "people": [
+    "dian-wei"
+  ],
+  "result": "张绣先降复叛，曹军仓促应战，曹操长子曹昂、侄曹安民与典韦战死，曹操退还",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "建安二年（197）曹操南征，张绣举众请降；曹操纳张济遗孀，张绣怨而复叛，夜袭曹营。曹军无备大乱，典韦据营门力战而死，曹操长子曹昂、侄曹安民俱没，曹操中流矢退走。此战是曹操起兵以来最惨重的挫败之一，其立嗣之争与张绣后来复降（199）均以此为转折。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·张绣传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·典韦传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "dian-wei",
+      "name": "典韦",
+      "display": "典韦",
+      "birthAccuracy": "unknown",
+      "death": 197,
+      "deathAccuracy": "exact",
+      "deathNote": "卒句承建安二年宛城之变叙事系年。",
+      "title": "曹操帐前都尉，宛城死战",
+      "bio": "陈留己吾人。形貌魁梧，膂力过人，为曹操帐前都尉，领亲兵绕大帐；建安二年张绣夜叛袭营，韦据门死战，掩护曹操得脱，遂战死。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-xiu",
+      "name": "张绣",
+      "display": "张绣",
+      "birthAccuracy": "unknown",
+      "death": 207,
+      "deathAccuracy": "exact",
+      "deathNote": "从征乌丸于柳城，未至，薨，承建安十二年北征叙事系年。",
+      "title": "宛城割据，两降两叛，终再降封侯",
+      "bio": "武威祖厉人，张济族子。济死，绣统其众屯宛，与刘表合。建安二年降曹操而悔之，袭杀曹操长子昂、侄安民，典韦死之，据宛拒守；后用贾诩计于官渡前夕再降，操执其手与欢宴，为子均娶绣女。从征有功，迁破羌将军。建安十二年从征乌丸，未至柳城薨。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

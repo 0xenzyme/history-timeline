@@ -1,0 +1,141 @@
+{
+  "id": "yingjian-dongdu",
+  "name": "营建东都洛阳",
+  "display": "营建东都洛阳",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 605,
+  "yearAccuracy": "exact",
+  "yearNote": "大业元年（605）三月丁未诏营建东京，据《隋書》卷三 煬帝紀上。",
+  "endYear": 606,
+  "endYearAccuracy": "exact",
+  "endYearNote": "大业二年（606）正月辛酉东京成，据《隋書》卷三 煬帝紀上。",
+  "place": "东京洛阳",
+  "placeNow": "今河南洛阳",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-guang",
+    "yang-su",
+    "yang-da",
+    "yu-wen-kai"
+  ],
+  "result": "东京成，隋行两都制，政治重心东移",
+  "aliases": [
+    "营建东京",
+    "建东都"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "大业元年（605）三月丁未，炀帝诏尚书令杨素、纳言杨达、将作大匠宇文恺营建东京，并徙天下富商大贾数万家于东京；二年（606）正月辛酉东京成。隋行两都制，政治重心东移。大业五年改东京为东都。",
+  "sources": [
+    {
+      "work": "隋書",
+      "part": "卷三 煬帝紀上",
+      "note": "大业元年三月丁未诏营建东京、二年正月辛酉东京成",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "birth": 569,
+      "birthAccuracy": "exact",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-su",
+      "name": "杨素",
+      "display": "杨素",
+      "birth": 544,
+      "birthAccuracy": "exact",
+      "death": 606,
+      "deathAccuracy": "exact",
+      "title": "尚书令，平陈水战，为炀帝所忌",
+      "bio": "弘农华阴人，性疏辩，善属文，与杨坚同族。开皇八年为行军元帅，出三峡，以五牙大舰破陈，江南遂定。数与突厥战，皆大克获。后附晋王广，助之夺宗，既而威权日盛，炀帝外示殊礼而内甚忌之。大业二年疾笃，帝日遣医问，然密问其死期，卒年六十三。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-da",
+      "name": "杨达",
+      "display": "杨达",
+      "birth": 551,
+      "birthAccuracy": "approx",
+      "death": 612,
+      "deathAccuracy": "approx",
+      "birthNote": "卒于师时年六十二，自卒年逆推；卒年系辽东之役，生年随之约略。",
+      "deathNote": "大业八年辽东之役，领右武卫将军，进位左光禄大夫，卒于师，时年六十二（隋书·观德王雄传附弟达）。传文系于辽东之役而不书年号月日，作约略。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-wen-kai",
+      "name": "宇文恺",
+      "display": "宇文恺",
+      "birth": 555,
+      "birthAccuracy": "exact",
+      "death": 612,
+      "deathAccuracy": "exact",
+      "title": "将作大匠，大兴城与东都洛阳",
+      "bio": "朔方夏州人，本出鲜卑，宇文忻之弟。好学，多技艺，有巧思。开皇二年营大兴城，规制宏大，为隋唐长安之始；炀帝即位营东都洛阳，凿通济渠，又造大帐、观风行殿、六合城。著《东都图记》《明堂图议》。大业八年卒，年五十八。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "craft"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

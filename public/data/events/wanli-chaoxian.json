@@ -1,0 +1,81 @@
+{
+  "id": "wanli-chaoxian",
+  "name": "万历朝鲜之役",
+  "display": "万历朝鲜之役",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 1592,
+  "yearAccuracy": "exact",
+  "yearNote": "万历二十年，日本丰臣秀吉发兵侵朝鲜，明遣李如松等援之；二十五年秀吉死，倭大溃，役平。前后七年，见《明史·神宗本纪》《日本传》《朝鲜传》。",
+  "endYear": 1598,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "ming",
+    "riben"
+  ],
+  "commanders": [
+    {
+      "id": "zhu-yijun",
+      "side": "ming"
+    }
+  ],
+  "people": [
+    "zhu-yijun"
+  ],
+  "result": "明日议和，日本尽还所陷，朝鲜复其社稷；明之兵力财力大耗，辽左诸部因之寖强",
+  "aliases": [
+    "壬辰倭乱",
+    "丁酉再乱"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "万历二十年，日本关白丰臣秀吉既平其国，欲假道于朝鲜以窥中国，先遣使乞封贡，廷议不许，遂大发兵涉海袭之。朝鲜承平日久，兵不习战，王京陷，宣祖出奔义州，八道尽没。明廷命经略宋应昌、提督李如松援之，碧蹄馆之战，如松轻进遇伏，几败；已而拔平壤、复开城，倭退守王京。其后议和数反复，二十五年秀吉死，倭大溃，明将陈璘与朝鲜将李舜臣夹击破之，李、陈所部皆多战死。役凡七年，明之兵力、财力大耗，而辽左诸部因之寖强。论者谓明之亡不始于辽，而始于东事。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "神宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "朝鲜传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-yijun",
+      "name": "朱翊钧",
+      "display": "明神宗朱翊钧",
+      "birth": 1563,
+      "birthAccuracy": "exact",
+      "death": 1620,
+      "deathAccuracy": "exact",
+      "title": "万历皇帝",
+      "bio": "十岁即位，初倚张居正厉行新政；亲政后怠荒，二十余年不朝，党争与矿税之弊浸深，明衰自此始。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

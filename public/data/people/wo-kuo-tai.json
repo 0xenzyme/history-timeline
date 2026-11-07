@@ -1,0 +1,104 @@
+{
+  "id": "wo-kuo-tai",
+  "name": "窝阔台",
+  "display": "窝阔台",
+  "birth": 1186,
+  "birthAccuracy": "exact",
+  "death": 1241,
+  "deathAccuracy": "exact",
+  "title": "元太宗，1229—1241 年在位",
+  "bio": "成吉思汗第三子。太宗时联宋灭金、置站赤与燕京行省，定中原赋调，遣拔都等长子西征；1241 年冬卒于鈋铁钴胡兰山。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tie-mu-zhen",
+      "target": "wo-kuo-tai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，太祖定窝阔台嗣位"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "gui-you",
+      "target": "wo-kuo-tai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "wo-kuo-tai",
+      "target": "su-butai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从其西征诸部，并定中原之役"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caizhou-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "duanping-rulu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sanfengshan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "wokuotai-jiwei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "太宗纪",
+      "kind": "classic"
+    }
+  ]
+}

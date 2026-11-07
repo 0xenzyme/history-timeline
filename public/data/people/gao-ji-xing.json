@@ -1,0 +1,106 @@
+{
+  "id": "gao-ji-xing",
+  "name": "高季兴",
+  "display": "南平武信王",
+  "birthAccuracy": "unknown",
+  "death": 928,
+  "deathAccuracy": "exact",
+  "title": "高季兴\"高赖子\"，扼十国往来",
+  "bio": "硖石人，本名季昌，避庄宗祖讳改兴。少从朱温，温使主荆南。梁、唐与南方诸国之间，往来称臣、乘间掠其贡使，诸国侧目，号\"高赖子\"。庄宗平蜀因请自效，仍领三州，同光末受南平王封，阖门自守而终。",
+  "tags": [
+    "十国",
+    "南平"
+  ],
+  "categories": [
+    "warlord",
+    "monarch",
+    "vassal"
+  ],
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "shiguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-ji-xing",
+      "target": "ma-yin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "澧朗之争，马殷不能南制"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "gao-ji-xing",
+      "target": "li-jing-916",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "岳州一役，荆南尽收楚地"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "sun-guangxian",
+      "target": "gao-ji-xing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世掌荆南记室，劝其臣中国"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "gao-baoxu",
+      "target": "gao-ji-xing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙相继，仅守三州"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jingnan-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "高季昌"
+  ],
+  "sources": [
+    {
+      "work": "十国春秋",
+      "part": "荆南",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "荆南世家",
+      "kind": "classic"
+    }
+  ]
+}

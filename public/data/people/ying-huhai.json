@@ -1,0 +1,87 @@
+{
+  "id": "ying-huhai",
+  "name": "嬴胡亥",
+  "display": "秦二世",
+  "birthAccuracy": "unknown",
+  "death": -207,
+  "deathAccuracy": "exact",
+  "title": "秦二世皇帝，赵高所立，三年而亡",
+  "bio": "始皇少子。沙丘之谋后即位，杀扶苏、蒙恬，诛诸公子与公主，续修阿房、骊山。三年后赵高指鹿为马，望夷之变中被逼自杀。条短，却是秦从统一到崩塌的全部时间。",
+  "tags": [
+    "秦朝",
+    "亡秦"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-huhai",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "zhao-gao",
+      "target": "ying-huhai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "矫诏立胡亥，自任郎中令"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wangyigong-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhilu-weima",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "秦二世",
+    "胡亥"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "李斯列传",
+      "kind": "classic"
+    }
+  ]
+}

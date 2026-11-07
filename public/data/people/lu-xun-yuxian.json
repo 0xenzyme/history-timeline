@@ -1,0 +1,91 @@
+{
+  "id": "lu-xun-yuxian",
+  "name": "卢循",
+  "display": "卢循",
+  "birthAccuracy": "unknown",
+  "death": 411,
+  "deathAccuracy": "exact",
+  "birthNote": "传无岁数，不编生年。",
+  "title": "孙恩之继，兵逼建康的海寇之主",
+  "bio": "字於先，小名元龙，卢谌曾孙，双眸冏彻，瞳子四转，善草隶弈棋。娶孙恩妹，恩死后为余众所推。泛海取番禺，受晋征虏将军、广州刺史之命。义熙六年乘刘裕北伐南燕，与徐道覆北出，败何无忌、刘毅，直逼建康。裕回师相拒，循屡败，走交州，义熙七年为刺史杜慧度所斩，传首京都。",
+  "tags": [
+    "晋",
+    "东晋",
+    "叛乱"
+  ],
+  "categories": [
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    },
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yu",
+      "target": "lu-xun-yuxian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "循直逼建康，裕回师破之",
+        "义熙六年乘刘裕北伐北出，兵逼建康；刘裕回师破之，走交州被杀"
+      ],
+      "topicIds": [
+        "liangjin",
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yi",
+      "target": "lu-xun-yuxian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "桑落洲之战毅军大败"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sunen-luxun-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "卢循",
+    "卢于先"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卢循传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "安帝纪",
+      "kind": "classic"
+    }
+  ]
+}

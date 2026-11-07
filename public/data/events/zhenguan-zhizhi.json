@@ -1,0 +1,173 @@
+{
+  "id": "zhenguan-zhizhi",
+  "name": "贞观之治",
+  "display": "贞观之治",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 627,
+  "yearAccuracy": "exact",
+  "endYear": 649,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-shimin",
+    "wei-zheng",
+    "fang-xuan-ling",
+    "du-ru-hui",
+    "li-jing"
+  ],
+  "result": "太宗一朝制度重建与吏治规范定型，唐开国基业在此底定",
+  "aliases": [
+    "tang-zhenghuan"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "627 至 649 年太宗在位期间，任贤纳谏、轻徭薄赋、整修制度，四夷来朝，史称贞观之治。隋末战后的制度重建与政治规范在此定型，门阀政治、府兵均田与官僚考课的面貌为高宗以后唐朝基业所本。本实体记录时代总体，具体政令与战役另行由各事件记载，不在本实体中拆录。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "太宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一百九十二至一百九十九",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-shimin",
+      "name": "李世民",
+      "display": "唐太宗李世民",
+      "birth": 598,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "唐太宗，天可汗，贞观之治",
+      "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-zheng",
+      "name": "魏征",
+      "display": "魏征",
+      "birth": 580,
+      "birthAccuracy": "exact",
+      "death": 643,
+      "deathAccuracy": "exact",
+      "title": "侍中，犯颜直谏，以人为镜",
+      "bio": "钜鹿曲成人，少孤贫，落拓有大志，好读书。初事李密，后归唐为太子洗马，玄武门后太宗引为詹事主簿。前后陈谏二百余事，凡二百余万言，言辞切直，太宗或怒而终听之。贞观十七年薨，年六十四，太宗临哭曰「以铜为镜，可以正衣冠；以古为镜，可以知兴替；以人为镜，可以明得失」。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fang-xuan-ling",
+      "name": "房玄龄",
+      "display": "房玄龄",
+      "birth": 579,
+      "birthAccuracy": "exact",
+      "death": 648,
+      "deathAccuracy": "exact",
+      "title": "尚书左仆射，房谋杜断，贞观之相",
+      "bio": "齐州临淄人，年十八举进士，李世民一见如旧识，从征各处，收人物致之幕府。为相十五年，定制度、定律令，与杜如晦同心，时人语曰「房谋杜断」。闻人善若己有，不以己长格物。贞观二十二年薨于长安，年七十，陪葬昭陵。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "du-ru-hui",
+      "name": "杜如晦",
+      "display": "杜如晦",
+      "birth": 585,
+      "birthAccuracy": "exact",
+      "death": 630,
+      "deathAccuracy": "exact",
+      "title": "尚书右仆射，善断而早卒",
+      "bio": "京兆万年人，少聪悟，好谈文史，隋末为滏阳尉而弃官归。秦王府兵曹，常参谋帷幄，军国多事，剖断如流。贞观三年为右仆射，与房玄龄共掌朝政，台阁规模皆二人所定。四年以疾解职，太宗手诏存问，薨年四十六。太宗每言及之必流涕，谓「今独见公，不见如晦矣」。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-jing",
+      "name": "李靖",
+      "display": "李靖",
+      "birth": 571,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "卫国公，破萧铣、灭突厥，出将入相",
+      "bio": "京兆三原人，姿貌魁秀，通书史，其舅韩擒虎谓之「可与论孙吴者，唯此子」。武德四年平萧铣、辅公祏；贞观四年以三千骁骑夜袭阴山，俘颉利可汗，突厥遂亡；九年破吐谷浑。位至尚书右仆射，阖门自守，不预宾客。贞观二十三年薨，年七十九。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "general",
+        "founding",
+        "military-theory"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

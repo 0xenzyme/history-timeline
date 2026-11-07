@@ -1,0 +1,58 @@
+{
+  "id": "wang-shenai",
+  "name": "王神爱",
+  "display": "安僖王皇后",
+  "birth": 384,
+  "birthAccuracy": "approx",
+  "death": 412,
+  "deathAccuracy": "exact",
+  "birthNote": "义熙八年崩，年二十九，上推生年。",
+  "title": "晋安帝皇后，王献之女",
+  "bio": "琅邪临沂人，父王献之。太元二十一年纳为太子妃，安帝即位立为皇后。义熙八年崩于徽音殿，年二十九。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-dezong",
+      "target": "wang-shenai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "王献之女。安帝皇后，义熙八年崩"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王神爱"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "后妃传·安僖王皇后",
+      "kind": "classic"
+    }
+  ]
+}

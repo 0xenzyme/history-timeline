@@ -1,0 +1,109 @@
+{
+  "id": "wang-jian-918",
+  "name": "王建",
+  "display": "前蜀高祖",
+  "birthAccuracy": "unknown",
+  "death": 918,
+  "deathAccuracy": "exact",
+  "title": "前蜀高祖，起于无赖而有两川",
+  "bio": "许州舞阳人。唐末无赖，以屠牛盗驴为业，黥面配忠武军；随军入蜀，累功为将。光启中乘乱进据阆州，攻顾彦朗兄弟并东川，乾宁中拜西川节度使，两川有全。唐亡不受梁命，天祐四年称帝，国号蜀，都成都。天汉元年殂，子衍立，同光三年后唐灭前蜀。",
+  "tags": [
+    "十国",
+    "前蜀"
+  ],
+  "categories": [
+    "warlord",
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "shiguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-jian-918",
+      "target": "zheng-renmin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "乾化四年寇黎州，为蜀兵所破"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "guan-xiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晚节依蜀，禅月之号所由显"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "wei-zhuang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以掌书记从建入蜀，开国制度文告多出其手，后至宰相"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "wang-yan-qianshu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；建暮年立为太子，及立而为后主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qianshu-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wangjian-chengdi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "新五代史",
+      "part": "前蜀世家",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "前蜀",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ji-yijiu-jinghou",
+  "name": "姬宜臼",
+  "display": "晋靖侯",
+  "birthAccuracy": "unknown",
+  "death": -840,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：靖侯十七年厉王奔彘，十八年卒。共和元年取前 841 年，十八年当 -840。",
+  "title": "晋靖侯",
+  "bio": "名宜臼，与周平王同名不同人。十七年厉王奔彘，十八年卒。",
+  "tags": [
+    "晋"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-yijiu-jinghou",
+      "target": "jin-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "ji-yijiu-jinghou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "靖侯十七年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "晋靖侯",
+    "靖侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    }
+  ]
+}

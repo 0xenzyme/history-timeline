@@ -1,0 +1,100 @@
+{
+  "id": "liu-yao",
+  "name": "刘曜",
+  "display": "刘曜",
+  "birthAccuracy": "unknown",
+  "death": 328,
+  "deathAccuracy": "disputed",
+  "birthNote": "载记无生年，不编。",
+  "deathNote": "见杀句无年号：洛阳兵败被执系咸和三年十二月，通鉴卷九四于三年段内书杀之，载记称前赵以咸和四年灭，公历已跨三二九年初，今或作329，两说并注。",
+  "title": "前赵末主，洛阳坠马而被执",
+  "bio": "匈奴人，刘渊族子，字永明。灭靳准迎惠帝旧后羊氏为后，徙都长安，改汉号曰赵，史称前赵。与石生、石勒相攻不息。咸和三年洛阳决战，饮酒数斗出战，马陷石渠坠于冰上被执，戒其子与诸大臣守社稷勿以己易意，为石勒所杀，前赵随之而灭。",
+  "tags": [
+    "十六国",
+    "汉赵",
+    "匈奴"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yao",
+      "target": "shi-le",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "洛阳决战，曜坠马被执，前赵由此而灭"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yao",
+      "target": "liu-yuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "族子。渊开汉号，曜徙都长安改称赵"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "shile-jian-houzhao",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xijin-miwang",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yongjia-zhiluan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘曜",
+    "刘永明"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "刘曜载记",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷九十四",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "jinyang-zhizhan",
+  "name": "晋阳之战（范氏、中行氏之乱）",
+  "display": "晋阳之战（范氏、中行氏之乱）",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": -497,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·定公十三年》「晉趙鞅入于晉陽以叛」；《左傳》秋七月范氏、中行氏伐趙氏之宮，趙鞅奔晉陽，晉人圍之。定公十三年＝前497。《史記·晉世家》系定公十五年/二十二年（晉世家年数错乱，common-rules 已知系统性差异），不取。",
+  "endYear": -490,
+  "endYearAccuracy": "exact",
+  "endYearNote": "《左傳·哀公五年》「晉圍柏人，荀寅、士吉射奔齊」——范氏中行氏出奔为战争终点。哀公五年＝前490。",
+  "belligerents": [
+    "jin-guo",
+    "zheng"
+  ],
+  "commanders": [
+    {
+      "id": "wei-zhuanggong-hou",
+      "side": "jin-guo"
+    }
+  ],
+  "people": [
+    "jin-dinggong"
+  ],
+  "aliases": [
+    "范中行之乱",
+    "赵鞅围晋阳之役"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "赵鞅索卫贡五百家于邯郸、杀邯郸午，范吉射、荀寅（中行寅）围赵氏之宫，赵鞅奔晋阳、晋人围之；韩不信、魏曼多与智跞以晋侯命反攻，范中行奔朝歌。此后四年晋国内战：哀公二年（前493）齐输范氏之粟、郑罕达送之，赵鞅御之，八月甲戌战于铁（铁丘，今河南濮阳西北），郑师败绩，卫太子蒯聩在晋军中；鲜虞纳荀寅于柏人；哀公五年（前490）晋围柏人，荀寅、士吉射奔齐，六卿遂为四卿（智赵韩魏），三家分晋的格局由此一步定形。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷56（定公十三、十四年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義",
+      "part": "卷57（哀公元、二、五年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jin-dinggong",
+      "name": "晋定公",
+      "display": "晋定公",
+      "birthAccuracy": "unknown",
+      "death": -475,
+      "deathAccuracy": "approx",
+      "deathNote": "今本竹书纪年·晋纪止于贞定王，未记定公卒。现以顷公卒（前512，敬王八年）为起点，按史记·晋世家「三十七年，定公卒，子出公凿立」在位三十七年顺推，得前475。作约年。",
+      "title": "四十年而卒，晋室至是益微",
+      "bio": "顷公之子。前497年范氏、中行氏反，赵鞅保晋阳，晋君击之；后赵鞅复位，晋分其地。前489年与吴王夫差会于黄池，争长而赵鞅卒长吴。前475年卒，在位三十七年。晋之政尽归六卿。",
+      "tags": [
+        "黄池会吴",
+        "范中行之乱",
+        "赵鞅保晋阳"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-zhuanggong-hou",
+      "name": "姬蒯聩",
+      "display": "卫后庄公",
+      "birthAccuracy": "unknown",
+      "death": -478,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·哀公十七年（前478）卫庄公（蒯聩）入戎州，为己氏所杀；史记·卫康叔世家「莊公懼……入己氏，己氏殺之」。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

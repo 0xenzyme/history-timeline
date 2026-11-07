@@ -1,0 +1,131 @@
+{
+  "id": "li-ke-yong",
+  "name": "李克用",
+  "display": "李克用",
+  "birth": 856,
+  "birthAccuracy": "exact",
+  "death": 908,
+  "deathAccuracy": "exact",
+  "title": "河东节度使，沙陀鸦儿军，晋王",
+  "bio": "本姓朱耶，沙陀人，父朱邪赤心赐姓李。一目微眇，时号独眼龙，所将鸦儿军皆衣黑。中和三年率沙陀兵入关中，破黄巢于梁田陂，为收复京师第一功，授河东节度使。与朱温为仇，终身不解。天祐五年卒于太原，年五十三，子存勖后灭梁建唐。",
+  "tags": [
+    "唐",
+    "五代",
+    "沙陀"
+  ],
+  "categories": [
+    "general",
+    "warlord"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang",
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    },
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ke-yong",
+      "target": "zhu-wen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "沙陀李克用与朱温世仇，梁晋相争",
+        "上源驿之祸，梁晋世仇"
+      ],
+      "topicIds": [
+        "tang",
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "li-ke-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，晋王之位与三矢之誓所传"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxiao",
+      "target": "li-ke-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养子，十三太保之勇，终以叛诛"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "yelv-abaoji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "云州会盟约为兄弟，已而契丹附梁"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "liu-ren-gong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "借晋兵而有卢龙，已而背之"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huangchao-zhi-luan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李克用",
+    "朱耶克用",
+    "独眼龙",
+    "晋王"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "唐书·武皇纪",
+      "kind": "classic"
+    },
+    {
+      "work": "旧唐书",
+      "part": "黄巢传",
+      "kind": "classic"
+    }
+  ]
+}

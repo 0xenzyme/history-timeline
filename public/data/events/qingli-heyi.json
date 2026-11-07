@@ -1,0 +1,126 @@
+{
+  "id": "qingli-heyi",
+  "name": "庆历和议",
+  "display": "庆历和议",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1044,
+  "yearAccuracy": "exact",
+  "yearNote": "十月庚寅赐誓诏为 1044-10-25。十二月乙未封夏国主为 1044-12-29。十二月后半月才进入 1045，这两个干支日都还在 1044。",
+  "polity": [
+    "song",
+    "xixia"
+  ],
+  "people": [
+    "li-yuanhao",
+    "zhao-zhen",
+    "fan-zhongyan"
+  ],
+  "result": "元昊称臣，宋册为夏国主；岁赐银、绢、茶、彩二十五万五千；沿边开榷场，宋夏战争停止。",
+  "aliases": [
+    "宋夏庆历和约",
+    "册夏国主"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "庆历四年十月，宋赐夏誓诏，十二月封元昊为夏国主，岁赐银、绢、茶、彩二十五万五千。元昊称臣，沿边开榷场，宋夏战争停止。和议把战果写成长期岁赐和册封，宋夏边界与名分由此定型。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十一",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷四百八十五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-yuanhao",
+      "name": "李元昊",
+      "display": "李元昊",
+      "birth": 1003,
+      "birthAccuracy": "exact",
+      "death": 1048,
+      "deathAccuracy": "exact",
+      "title": "称帝建夏、三川口好水川之祸源",
+      "bio": "德明之子，继立后去唐宋赐姓，创蕃书，定官制。宝元元年称帝，国号夏；三川口、好水川、定川寨三败宋军，庆历和议成，宋岁赐银绢。后被太子宁令哥所弑。",
+      "tags": [
+        "西夏"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "xixia"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-zhen",
+      "name": "赵祯",
+      "display": "赵祯",
+      "birth": 1010,
+      "birthAccuracy": "exact",
+      "death": 1063,
+      "deathAccuracy": "exact",
+      "title": "宋仁宗，庆历之治",
+      "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fan-zhongyan",
+      "name": "范仲淹",
+      "display": "范仲淹",
+      "birth": 989,
+      "birthAccuracy": "exact",
+      "death": 1052,
+      "deathAccuracy": "exact",
+      "title": "先忧后乐，庆历新政",
+      "bio": "吴县（祖籍邠州）人，苦学登第。镇守西夏，名重边陲；推行庆历新政，条陈十事。名句「先天下之忧而忧，后天下之乐而乐」。",
+      "tags": [
+        "宋",
+        "北宋",
+        "改革"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "poetry"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

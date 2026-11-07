@@ -1,0 +1,67 @@
+{
+  "id": "sun-chengzong",
+  "name": "孙承宗",
+  "display": "孙承宗",
+  "birth": 1563,
+  "birthAccuracy": "exact",
+  "death": 1638,
+  "deathAccuracy": "exact",
+  "title": "以大学士督师蓟辽",
+  "bio": "字稚绳，高阳人。以大学士出督蓟辽，练车营、复四城，用袁崇焕辈守宁远; 1638 年清兵陷高阳，阖家死之。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general",
+    "minister"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "sun-chengzong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以大学士督师蓟辽，练车营、复四城"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "sun-chengzong",
+      "target": "yuan-chonghuan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "经略辽事之日，崇焕为其属将"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "孙承宗传",
+      "kind": "classic"
+    }
+  ]
+}

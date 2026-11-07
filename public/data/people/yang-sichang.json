@@ -1,0 +1,104 @@
+{
+  "id": "yang-sichang",
+  "name": "杨嗣昌",
+  "display": "杨嗣昌",
+  "birth": 1588,
+  "birthAccuracy": "exact",
+  "death": 1641,
+  "deathAccuracy": "exact",
+  "title": "四正六隅之策",
+  "bio": "字文弱，湖广武陵人。崇祯朝兵部尚书，创十面之网、议增剿饷; 督师讨张献忠，屡被败而忧惧以死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "minister",
+    "falling"
+  ],
+  "primary": "minister",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "yang-sichang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以兵部尚书督师剿寇，创十面之网"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "yang-sichang",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "directed": false,
+      "since": 1640,
+      "notes": [
+        "玛瑙山之捷后为其所乘"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "lu-xiangsheng",
+      "target": "yang-sichang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为崇祯朝督师剿寇之臣"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "huang-daozhou",
+      "target": "yang-sichang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "疏论嗣昌夺情，廷杖削籍，直声震于一时"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xue-guoguan",
+      "target": "yang-sichang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为崇祯朝承旨之臣，嗣昌死而国观继之赐缢"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "杨嗣昌传",
+      "kind": "classic"
+    }
+  ]
+}

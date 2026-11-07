@@ -1,0 +1,127 @@
+{
+  "id": "houjin-jianli",
+  "name": "后晋建立",
+  "display": "后晋建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 936,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷280系丙申（936）十一月：契丹主作册书命敬瑭为大晋皇帝，筑坛柳林，是日即皇帝位，己亥改长兴七年为天福元年；旧五代史卷75载册文\"天显九年岁次丙申十一月丙戌朔十二日丁酉\"，新五代史卷8书\"十一月丁酉，皇帝即位，国号晋\"。三书系日一致。军事经过（张敬达围太原、晋安寨、团柏谷、唐亡）归军事线，本条只写政治面（册立、称帝、改元）。",
+  "polity": [
+    "wudai",
+    "liao"
+  ],
+  "people": [
+    "shi-jingtang",
+    "yelv-deguang",
+    "liu-zhiyuan"
+  ],
+  "result": "石敬瑭受契丹册立称帝于晋阳，国号晋、改元天福，年内后唐亡。",
+  "aliases": [
+    "石敬瑭称帝建立后晋",
+    "后晋建国"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "936 年七月，石敬瑭遣使向契丹求援，桑维翰草表称臣、请以父礼事之，约定割地借兵。十一月丁酉，契丹主作册书命石敬瑭为大晋皇帝，筑坛柳林，是日即皇帝位，国号晋，己亥改元天福。年内后唐亡；割让十六州另见「割让幽云十六州」，围城军事经过归军事线「晋阳之围」。",
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "卷75",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷280",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷8",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shi-jingtang",
+      "name": "石敬瑭",
+      "display": "后晋高祖",
+      "birth": 892,
+      "birthAccuracy": "exact",
+      "death": 942,
+      "deathAccuracy": "exact",
+      "title": "后晋高祖，割燕云称儿皇帝",
+      "bio": "沙陀人，事明宗为子婿，谨愿善骑射，佐唐伐梁，位至河东节度使、中书令。废帝疑之，举兵太原，表称臣于契丹，请割卢龙雁门以北，德光自将来援，天显十一年立晋，迁都汴。六年之中仰事契丹，疽发背而殂。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zhiyuan",
+      "name": "刘知远",
+      "display": "后汉高祖",
+      "birthAccuracy": "unknown",
+      "death": 948,
+      "deathAccuracy": "exact",
+      "title": "后汉高祖，乘契丹北归取中原",
+      "bio": "本名暠，沙陀部人，与石敬瑭同为明宗腹心，位至河东节度使、北京留守。契丹迁德光北去，中原无主，知远据太原称汉，乘隙入汴，悉收故地。在位一年而崩。",
+      "tags": [
+        "五代",
+        "后汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,189 @@
+{
+  "id": "sujun-zhiluan",
+  "name": "苏峻之乱",
+  "display": "苏峻之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 327,
+  "yearAccuracy": "exact",
+  "yearNote": "《晋书·成帝纪》：咸和二年（327）十一月，豫州刺史祖约、历阳太守苏峻等反。year 取中国纪年 327（咸和二年）。",
+  "endYear": 329,
+  "endYearAccuracy": "exact",
+  "endYearNote": "咸和四年（329）二月丙戌，诸军攻石头，苏逸大败，滕含奉成帝于温峤舟；丁亥大赦，乱平；三月陶侃为太尉、郗鉴为司空、温峤为骠骑将军，庾亮出镇芜湖。",
+  "place": "历阳、建康（台城、石头城）",
+  "placeNow": "今安徽和县、江苏南京",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "su-jun",
+    "yu-liang",
+    "tao-kan",
+    "wen-qiao",
+    "sima-yan-cheng"
+  ],
+  "result": "苏峻战死，咸和四年二月余党败灭，成帝反正；台城宫阙焚毁，陶侃、郗鉴、温峤论功分镇，庾亮外镇芜湖",
+  "aliases": [
+    "苏峻祖约之乱",
+    "苏峻之叛"
+  ],
+  "tags": [
+    "revolt",
+    "gate-clan",
+    "warlord"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "咸和二年（327）十一月，历阳内史苏峻怨庾亮征其入朝，联结豫州刺史祖约，以讨庾亮为名起兵；次年二月攻陷台城，纵兵大掠，宫省荡然，太后庾氏崩，成帝被逼迁石头城。温峤、陶侃、庾亮等联舟军四万勤王，九月苏峻轻骑突阵坠马被斩；咸和四年（329）二月余党苏逸等败灭，成帝反正。建康宫阙焚毁，乱后庾亮出镇芜湖、庾冰代王导渐执政柄，方镇与中枢格局重整，门阀政治进入庾氏当国阶段。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷七",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷一百",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "su-jun",
+      "name": "苏峻",
+      "display": "苏峻",
+      "birthAccuracy": "unknown",
+      "death": 328,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "title": "流民帅之乱，陷京都而焚骨",
+      "bio": "字子高，长广掖人。永嘉之乱纠合数千家结垒自保，率众南渡，仕为兰陵相，转临淮内史。庾亮欲夺其兵，徵为大司农，峻不应命，遂与祖约举兵反。咸和三年二月攻陷京都，矫诏自为骠骑将军录尚书事，迁天子于石头。九月攻白石垒，轻骑出战坠马，彭世、李千投矛斩之，焚其骨，三军称万岁。",
+      "tags": [
+        "晋",
+        "东晋",
+        "叛乱"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-liang",
+      "name": "庾亮",
+      "display": "庾亮",
+      "birth": 289,
+      "birthAccuracy": "exact",
+      "death": 340,
+      "deathAccuracy": "exact",
+      "title": "征西将军，苏峻之乱由之而发",
+      "bio": "颍川鄢陵人，庾亮妹为明帝皇后。明帝崩，与王导同受遗诏辅政，任法裁物，颇失人心。咸和二年征苏峻为大司农以释其兵，峻遂与祖约举兵，入建康，迁帝于石头。乱平后出镇武昌，谋北伐不果，咸康六年卒于武昌，年五十二。",
+      "tags": [
+        "东晋",
+        "颍川庾氏"
+      ],
+      "categories": [
+        "consort-kin",
+        "official",
+        "general"
+      ],
+      "primary": "official",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tao-kan",
+      "name": "陶侃",
+      "display": "陶侃",
+      "birth": 259,
+      "birthAccuracy": "exact",
+      "death": 334,
+      "deathAccuracy": "exact",
+      "title": "太尉，平苏峻，运甓习劳",
+      "bio": "鄱阳人，后徙庐江寻阳。少孤贫，为县吏。以军功至荆州刺史、太尉，都督八州诸军事。平张昌、杜弢、苏峻之乱，为东晋第一支柱。在州无事，辄朝运百甓于斋外，暮运于斋内，人问其故，曰「吾方致力中原，过尔优逸，恐不堪事」。咸和九年卒，年七十六。",
+      "tags": [
+        "东晋",
+        "寒门"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wen-qiao",
+      "name": "温峤",
+      "display": "温峤",
+      "birth": 288,
+      "birthAccuracy": "approx",
+      "death": 329,
+      "deathAccuracy": "exact",
+      "birthNote": "咸和四年（329）卒，年四十二，虚岁上推生年。",
+      "title": "东晋江州刺史，图敦讨峻",
+      "bio": "太原祁人。初从刘琨镇并州，奉表南渡，为朝野所重。明帝时阳附王敦而密图之，敦平为江州刺史。苏峻之乱，与庾亮推陶侃为盟主，同复京师。咸和四年四月卒于镇，时年四十二。",
+      "tags": [
+        "晋",
+        "东晋"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-yan-cheng",
+      "name": "司马衍",
+      "display": "晋成帝司马衍",
+      "birth": 321,
+      "birthAccuracy": "approx",
+      "death": 342,
+      "deathAccuracy": "exact",
+      "birthNote": "咸康八年崩，年二十二，上推生年。",
+      "title": "东晋成帝，咸康八年崩",
+      "bio": "明帝长子。太宁三年明帝崩，太子即位，庾太后临朝。咸康八年崩于西堂，年二十二。",
+      "tags": [
+        "晋",
+        "东晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

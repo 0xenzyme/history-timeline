@@ -1,0 +1,169 @@
+{
+  "id": "yongxi-beifa",
+  "name": "雍熙北伐",
+  "display": "雍熙北伐",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 986,
+  "yearAccuracy": "exact",
+  "yearNote": "雍熙三年正月庚寅出师，二月潘美、杨业出雁门，五月庚午岐沟关溃败，同月杨业被擒。都在986。同年结束，不写 endYear。辽史记杨继业死于七月，不改年。",
+  "place": "幽州",
+  "belligerents": [
+    "song",
+    "liao"
+  ],
+  "people": [
+    "zhao-guangyi",
+    "cao-bin",
+    "pan-mei",
+    "yang-ye",
+    "yelv-xiuge"
+  ],
+  "result": "曹彬东路大败于岐沟关。潘美一路所得云、应等州不守，杨业被擒死。宋再次未能取得燕蓟。",
+  "aliases": [
+    "雍熙三年北伐"
+  ],
+  "dynasties": [
+    "liao",
+    "song"
+  ],
+  "desc": "雍熙三年正月，宋军三路并进，东路溃于岐沟关，五月庚午曹彬之师大败，收众夜渡拒马河，退屯易州。潘美一路所得云、应等州不守，杨业被擒死。宋再次未能取得燕蓟，收复燕云的进攻路线中断。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷5",
+      "kind": "classic"
+    },
+    {
+      "work": "辽史",
+      "part": "卷11",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-guangyi",
+      "name": "赵光义",
+      "display": "赵光义",
+      "birth": 939,
+      "birthAccuracy": "exact",
+      "death": 997,
+      "deathAccuracy": "exact",
+      "title": "宋太宗，完成一统",
+      "bio": "太祖之弟，即位后灭北汉，结束五代十国分裂；两度北伐契丹失利，自此守内虚外。留心文治，扩大科举。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-bin",
+      "name": "曹彬",
+      "display": "曹彬",
+      "birth": 931,
+      "birthAccuracy": "exact",
+      "death": 999,
+      "deathAccuracy": "exact",
+      "title": "北宋开国第一名将",
+      "bio": "真定灵寿人，性仁厚，太祖倚为心膂。灭后蜀、征太原、统师伐江南，克金陵而秋毫无犯，位兼将相。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "pan-mei",
+      "name": "潘美",
+      "display": "潘美",
+      "birth": 925,
+      "birthAccuracy": "exact",
+      "death": 991,
+      "deathAccuracy": "exact",
+      "title": "从平岭南江南的开国元戎",
+      "bio": "从太祖平岭南、下江南，太宗朝为北路都部署攻太原。雍熙北伐独拔寰朔云应四州，陈家谷失利，坐削秩。淳化二年卒，年六十七，谥武惠。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-ye",
+      "name": "杨业",
+      "display": "杨业",
+      "birthAccuracy": "unknown",
+      "death": 986,
+      "deathAccuracy": "exact",
+      "title": "「杨无敌」，陈家谷殉国",
+      "bio": "本北汉骁将，号「无敌」，归宋后守雁门，大破辽兵。雍熙北伐为潘美副将，监军王侁逼战，陈家谷口力战被执，不食三日死。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-xiuge",
+      "name": "耶律休哥",
+      "display": "耶律休哥",
+      "birthAccuracy": "unknown",
+      "death": 998,
+      "deathAccuracy": "exact",
+      "title": "高梁河、岐沟关的辽军统帅",
+      "bio": "高梁河之战救辽主败宋太宗，岐沟关大破曹彬，宋人欲止小儿夜啼，称「于越至矣」。统和十六年卒。",
+      "tags": [
+        "辽"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

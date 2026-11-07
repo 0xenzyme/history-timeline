@@ -1,0 +1,72 @@
+{
+  "id": "lou-zhaojun",
+  "name": "娄昭君",
+  "display": "神武明皇后娄昭君",
+  "birth": 501,
+  "birthAccuracy": "approx",
+  "death": 562,
+  "deathAccuracy": "exact",
+  "birthNote": "大宁二年崩，年六十二，上推生年。",
+  "title": "高欢之妻，两度下诏定帝",
+  "bio": "高欢的渤海王妃，密谋常参预。孝昭帝崩，她下诏立武成帝。大宁二年四月崩于北宫，年六十二。",
+  "tags": [
+    "南北朝",
+    "北齐"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-huan",
+      "target": "lou-zhaojun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "神武明皇后。密谋常参预，大宁二年崩"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-zhan",
+      "target": "lou-zhaojun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝昭帝崩，娄太后下诏立武成帝"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "娄昭君",
+    "娄太后"
+  ],
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "神武娄后传",
+      "kind": "classic"
+    }
+  ]
+}

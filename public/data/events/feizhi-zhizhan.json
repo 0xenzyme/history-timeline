@@ -1,0 +1,100 @@
+{
+  "id": "feizhi-zhizhan",
+  "name": "肥之战",
+  "display": "肥之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -233,
+  "yearAccuracy": "exact",
+  "yearNote": "《史記·趙世家》幽繆王遷三年（前233）：「秦攻赤麗、宜安，李牧率師與戰肥下，卻之。封牧爲武安君」；《資治通鑑》卷6始皇十四年（前233）：李牧戰於宜安、肥下，「秦師敗績，桓齮奔還」。",
+  "place": "肥下（宜安附近）",
+  "belligerents": [
+    "qin",
+    "zhao"
+  ],
+  "commanders": [
+    {
+      "id": "li-mu",
+      "side": "zhao"
+    }
+  ],
+  "people": [
+    "li-mu",
+    "ying-zheng"
+  ],
+  "result": "李牧大破秦军于肥下，秦东出受挫",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "秦攻赤丽、宜安，赵将李牧迎战于肥下，大破秦军，赵封李牧为武安君。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷四十三·卷043）",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-mu",
+      "name": "李牧",
+      "display": "李牧",
+      "birthAccuracy": "unknown",
+      "death": -229,
+      "deathAccuracy": "exact",
+      "deathNote": "廉颇蔺相如列传：赵王迁七年被斩。赵世家：孝成王二十年秦王政初立，二十一年孝成王卒；悼襄王九年卒，子迁立。由此王迁七年是前229年。",
+      "title": "赵将，王迁七年被斩",
+      "bio": "赵北边守将，后封武安君。赵王迁七年，王翦攻赵，李牧被郭开所谗，不受代将被斩。三个月后赵王被俘。",
+      "tags": [
+        "赵国",
+        "武安君"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

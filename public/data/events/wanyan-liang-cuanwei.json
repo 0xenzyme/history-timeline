@@ -1,0 +1,72 @@
+{
+  "id": "wanyan-liang-cuanwei",
+  "name": "完颜亮篡位",
+  "display": "海陵篡位",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1149,
+  "yearAccuracy": "exact",
+  "yearNote": "金史熙宗本纪系皇统九年（1149）十二月丁巳，亮弑熙宗于寝殿，即皇帝位，改元天德；月日依中国纪年，公历已入 1150 年。",
+  "polity": [
+    "jin-chao"
+  ],
+  "people": [
+    "wanyan-liang"
+  ],
+  "result": "海陵王完颜亮自立，金之皇权转入太祖庶孙一支",
+  "tags": [
+    "coup",
+    "succession"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "熙宗末年刑杀无常，宗室大臣人人自危。皇统九年（1149）十二月初九，完颜亮约同秉德、唐括辩、大兴国等夜入寝殿，弑熙宗；明日即皇帝位，大赦，改元天德。亮为太祖庶孙，既自立，大诛太宗子孙与异己者，金之皇统由熙宗一系转入亮支。海陵柄政，迁都燕京、更张汉制，志在混一，而举国南伐之役亦自此始。",
+  "sources": [
+    {
+      "work": "金史",
+      "part": "熙宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "海陵本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wanyan-liang",
+      "name": "完颜亮",
+      "display": "完颜亮",
+      "birth": 1122,
+      "birthAccuracy": "exact",
+      "death": 1161,
+      "deathAccuracy": "exact",
+      "title": "海陵王，南侵采石而殒",
+      "bio": "弑熙宗自立，迁都燕京、再迁汴。正隆六年大举南侵，誓「立马吴山第一峰」，采石为虞允文所败，瓜洲军中为部下所杀。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,108 @@
+{
+  "id": "xuge-zhizhan",
+  "name": "繻葛之战",
+  "display": "繻葛之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -707,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·桓公五年》「秋，蔡人、衛人、陳人從王伐鄭」（杜注：王師敗不書，不以告）；《左傳》战于繻葛、祝聃射王中肩；《史記·周本紀》桓王十三年、《鄭世家》莊公三十七年互证。桓公五年＝前707。",
+  "place": "繻葛",
+  "placeNow": "今河南省长葛市北（一说东北；杜注仅言「繻葛，鄭地」）",
+  "belligerents": [
+    "zheng",
+    "zhou"
+  ],
+  "commanders": [
+    {
+      "id": "ji-wusheng",
+      "side": "zheng"
+    },
+    {
+      "id": "ji-lin",
+      "side": "zhou"
+    }
+  ],
+  "aliases": [
+    "繻葛之役",
+    "郑败王师"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "周桓王夺郑伯政，郑伯不朝；桓王亲率中军，虢公林父将右军（蔡、卫属焉），周公黑肩将左军（陈人属焉）伐郑。郑子元请先攻两翼（陈乱无斗志），曼伯为右拒、祭仲足为左拒、原繁高渠弥以中军奉公，为「鱼丽之陈」；战于繻葛，蔡卫陈皆奔，王卒乱，郑师合攻，王师大败，祝聃射王中肩。祝聃请追，庄公以「君子不欲多上人，况敢陵天子乎」止之，夜使祭足劳王。王师败于诸侯、天子中箭，周王室威信扫地。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷05",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷004·周本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷042·鄭世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-wusheng",
+      "name": "姬寤生",
+      "display": "郑庄公",
+      "birthAccuracy": "unknown",
+      "death": -701,
+      "deathAccuracy": "exact",
+      "title": "春秋初年郑国国君，小霸中原",
+      "bio": "武公子。母武姜爱叔段，他克段于鄢，把兄弟之争写成隐公元年第一条。周室东迁后，郑是最先敢与王室抗衡的诸侯。",
+      "tags": [
+        "郑国",
+        "克段于鄢"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-lin",
+      "name": "姬林",
+      "display": "周桓王",
+      "birthAccuracy": "unknown",
+      "death": -697,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「桓王二十三年 三月乙未，王陟」。按平王元年前 770 逐王推得。",
+      "title": "在位二十三年，郑师射伤于繻葛",
+      "bio": "平王之孙。平王五十一年前 720 崩，立其子泄之父蚤死，遂立桓王。即位三年郑庄公来朝，不与礼；遂与郑交恶。前 707 繻葛之战为郑将祝聃射中肩，王师大败。这是周天子第一次在战场上受伤，王室的兵权与威信一同下落。",
+      "tags": [
+        "繻葛之战",
+        "郑庄公"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

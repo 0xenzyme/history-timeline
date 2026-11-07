@@ -1,0 +1,70 @@
+{
+  "id": "zhou-anwang",
+  "name": "周安王",
+  "display": "周安王",
+  "birthAccuracy": "unknown",
+  "death": -376,
+  "deathAccuracy": "exact",
+  "deathNote": "周本纪、年表：安王骄，在位二十六年，卒于前376年。",
+  "title": "周王，晋祀遂绝",
+  "bio": "他在位时田和列为诸侯、三家又分残晋而晋祀绝——周的印玺只是追认已成之势。前376年卒。",
+  "tags": [
+    "周室"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-anwang",
+      "target": "zhou-weiliewang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "安王骄嗣威烈王之位——田和请命、晋祀断绝都在他这一世"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhou-anwang",
+      "target": "tian-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -386,
+      "notes": [
+        "安王命田和列为诸侯——三晋之后又一家受命"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "安王（周）",
+    "王骄"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

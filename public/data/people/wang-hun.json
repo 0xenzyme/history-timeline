@@ -1,0 +1,74 @@
+{
+  "id": "wang-hun",
+  "name": "王浑",
+  "display": "王浑",
+  "birth": 223,
+  "birthAccuracy": "approx",
+  "death": 297,
+  "deathAccuracy": "exact",
+  "birthNote": "元康七年（297）薨，年七十五，虚岁上推生年。",
+  "title": "灭吴之将，与王濬争功",
+  "bio": "字玄冲，太原晋阳人，王昶之子。伐吴之役以安东将军都督扬州诸军，出横江，遣周浚击破吴丞相张悌，临阵斩之。自以先据江上案甲不进，致在王濬之后，频奏濬罪状，时人讥之。晚年居台辅，声望日减。元康七年薨，时年七十五，谥曰元。子王济以马癖闻。",
+  "tags": [
+    "晋",
+    "西晋",
+    "太原王氏"
+  ],
+  "categories": [
+    "general",
+    "official"
+  ],
+  "primary": "general",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "wang-hun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "都督扬州，击破吴丞相张悌"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "wang-hun",
+      "target": "wang-jun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "争平吴之功，王濬楼船先入建业"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王浑",
+    "王玄冲"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "王浑传",
+      "kind": "classic"
+    }
+  ]
+}

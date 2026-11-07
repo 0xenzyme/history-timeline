@@ -1,0 +1,88 @@
+{
+  "id": "sima-ying",
+  "name": "司马颖",
+  "display": "成都王司马颖",
+  "birth": 279,
+  "birthAccuracy": "approx",
+  "death": 306,
+  "deathAccuracy": "exact",
+  "birthNote": "光熙元年（306）赐死，年二十八，虚岁上推生年。",
+  "deathNote": "传卒句无年号，通鉴卷八十六系光熙元年十月，范阳王虓薨后刘舆称诏夜赐颖死。",
+  "title": "成都王颖，邺中之望而终自缢",
+  "bio": "字章度，武帝第十六子。讨伦有功，镇邺，甚得邺中之望。与颙连兵攻长沙王乂，旋立为皇太弟而旋废。兵败奔朝歌，为冯嵩所执，范阳王虓幽之。虓暴薨，长史刘舆虑为后患，称诏夜赐颖死，颖散发东首卧，命缢之，时年二十八。",
+  "tags": [
+    "晋",
+    "西晋",
+    "八王之乱"
+  ],
+  "categories": [
+    "royal-kin",
+    "regent"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yi-changsha",
+      "target": "sima-ying",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与颙连兵攻洛，乂力拒之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-ying",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越迎大驾，颖败废被缢"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baxia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马颖",
+    "成都王颖",
+    "司马章度"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "成都王颖传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷八十六",
+      "kind": "classic"
+    }
+  ]
+}

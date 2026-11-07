@@ -1,0 +1,88 @@
+{
+  "id": "ji-bi",
+  "name": "姬濞",
+  "display": "鲁真公",
+  "birthAccuracy": "unknown",
+  "death": -826,
+  "deathAccuracy": "approx",
+  "deathNote": "史记不著卒年。今本竹书宣王二年「鲁慎公薨」，慎、真通，取前 826 年为卒年下限。",
+  "title": "鲁真公，当共和",
+  "bio": "献公之子。十四年厉王奔彘、共和行政，二十九年宣王即位。竹书宣王二年鲁慎公薨。",
+  "tags": [
+    "鲁"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-bi",
+      "target": "ji-ju",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-ao",
+      "target": "ji-bi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "世家：真公之后武公朝周"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "ji-bi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "真公十四年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "鲁真公",
+    "姬濞",
+    "鲁慎公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "鲁周公世家",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "note": "鲁慎公即世家鲁真公。",
+      "kind": "classic"
+    }
+  ]
+}

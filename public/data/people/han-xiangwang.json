@@ -1,0 +1,69 @@
+{
+  "id": "han-xiangwang",
+  "name": "韩襄王",
+  "display": "韩襄王",
+  "birthAccuracy": "unknown",
+  "death": -296,
+  "deathAccuracy": "approx",
+  "deathNote": "韩世家在位年系年，约前296年卒，记approx。",
+  "title": "韩王，雍氏两围之世",
+  "bio": "楚围雍氏、秦兵东视，韩的坚城被轮番攻打。约前296年卒；垂棘、襄陵之盟的余波都在他的条上。",
+  "tags": [
+    "韩国",
+    "雍氏"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-xiangwang",
+      "target": "han-xuanhuiwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣惠卒，襄王嗣；雍氏之围连岁不解"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "han-xiangwang",
+      "target": "han-xiwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "襄王卒，釐王嗣，秦取韩城岁有之"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "襄王（韩）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "韩世家",
+      "kind": "classic"
+    }
+  ]
+}

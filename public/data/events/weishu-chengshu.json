@@ -1,0 +1,74 @@
+{
+  "id": "weishu-chengshu",
+  "name": "魏收撰《魏书》",
+  "display": "魏书成书",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 554,
+  "yearAccuracy": "exact",
+  "yearNote": "北齐文宣帝天保五年（554），魏收奏上所撰《魏书》一百三十卷。《北齐书》《北史》魏收传均系于天保五年，诏修之年为天保二年（551）。",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "wei-shou"
+  ],
+  "result": "北魏一朝始有纪传体正史，与《北齐书》《周书》同为北朝三史",
+  "aliases": [
+    "魏书成书",
+    "北齐魏书"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "北齐天保二年（551），诏撰魏史，魏收以中书令兼著作郎主之。天保五年（554），奏上《魏书》，记魏道武帝至孝静帝一朝之事，并以《序纪》追叙拓跋先世。书成后，时人于其叙次、褒贬聚讼不已，后经敕令改修，行于世者一百三十卷，即今本。《魏书》与《北齐书》《周书》并称北朝三史，为北魏一代信史。",
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "魏收传",
+      "kind": "classic"
+    },
+    {
+      "work": "北史",
+      "part": "魏收传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wei-shou",
+      "name": "魏收",
+      "display": "魏收",
+      "birth": 507,
+      "birthAccuracy": "approx",
+      "death": 572,
+      "deathAccuracy": "exact",
+      "birthNote": "《北史·魏收传》未书生年，通行系于 507 年，记约。",
+      "deathNote": "《北史·魏收传》载「武平三年薨，贈司空、尚書左僕射，諡文貞」，即 572 年。",
+      "title": "北齐奉敕撰《魏书》百三十卷，天保五年奏上",
+      "bio": "钜鹿下曲阳人，字伯起，小字佛助。天保二年诏撰魏史，收兼著作郎专其任，考正群书，辨明得失，天保五年奏上，凡一百三十卷，纪北魏一代。后主时掌诏诰，除尚书右仆射，寻除开府、中书监。诸家修史多与收为讥，或讥其初受敕专任而未极史才，或讥其党附权门、褒贬失当；然诸书记载互有详略，多赖其考订。齐亡之岁，收冢被发，弃骨于外。武平三年薨，谥文贞。",
+      "tags": [
+        "南北朝",
+        "北齐"
+      ],
+      "categories": [
+        "official",
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

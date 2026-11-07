@@ -1,0 +1,98 @@
+{
+  "id": "bozhou-zhiluan",
+  "name": "播州之乱",
+  "display": "播州之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 1599,
+  "yearAccuracy": "exact",
+  "yearNote": "万历二十七年三月受命，二十八年二月出师，六月丁丑克海龙囤。百十四日从出师算起。",
+  "endYear": 1600,
+  "endYearAccuracy": "exact",
+  "place": "播州",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "liu-ting",
+    "zhu-yijun"
+  ],
+  "result": "播州平，改设遵义、平越二府",
+  "aliases": [
+    "平播"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "万历二十七年三月，李化龙受命总督湖广、川、贵军务，讨播州杨应龙。明年二月分道进兵。六月破海龙囤，杨应龙自缢，自出师至灭贼一百十四日。其地置遵义、平越二府。杨应龙、李化龙无人物 id，不写入。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二十一",
+      "note": "万历二十八年六月丁丑克海龙囤，杨应龙自缢，播州平",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "卷二百二十八",
+      "note": "万历二十七年三月李化龙受命讨杨应龙。明年二月分道进兵。六月破囤，自出师至灭贼百十四日，置遵义、平越二府",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-ting",
+      "name": "刘綎",
+      "display": "刘綎",
+      "birthAccuracy": "unknown",
+      "death": 1619,
+      "deathAccuracy": "exact",
+      "title": "刘大刀，死于萨尔浒",
+      "bio": "字省吾，南昌人。所用镔铁刀重百二十斤，军中称为刘大刀; 朝鲜之役、播州之役皆有功，1619 年萨尔浒孤军深入而战没。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-yijun",
+      "name": "朱翊钧",
+      "display": "明神宗朱翊钧",
+      "birth": 1563,
+      "birthAccuracy": "exact",
+      "death": 1620,
+      "deathAccuracy": "exact",
+      "title": "万历皇帝",
+      "bio": "十岁即位，初倚张居正厉行新政；亲政后怠荒，二十余年不朝，党争与矿税之弊浸深，明衰自此始。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

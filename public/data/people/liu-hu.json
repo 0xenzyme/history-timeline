@@ -1,0 +1,70 @@
+{
+  "id": "liu-hu",
+  "name": "刘祜",
+  "display": "汉安帝",
+  "birth": 94,
+  "birthAccuracy": "exact",
+  "death": 125,
+  "deathAccuracy": "exact",
+  "title": "东汉安帝，邓太后所立",
+  "bio": "章帝之孙，邓太后所立。太后临朝的那些年，权不在皇帝这一条上。建光以后才亲政，条收到公元 125 年。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "deng-sui",
+      "target": "liu-hu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "和帝崩，邓太后立章帝孙祜"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-bao",
+      "target": "liu-hu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "安帝子，阎后曾废而复立"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘祜",
+    "汉安帝"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "孝安帝纪",
+      "kind": "classic"
+    }
+  ]
+}

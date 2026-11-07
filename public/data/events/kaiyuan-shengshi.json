@@ -1,0 +1,121 @@
+{
+  "id": "kaiyuan-shengshi",
+  "name": "开元盛世",
+  "display": "开元盛世",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 713,
+  "yearAccuracy": "exact",
+  "endYear": 741,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-long-ji",
+    "yao-chong",
+    "song-jing"
+  ],
+  "result": "玄宗前期国力达到顶点，制度与财赋基业臻于极盛",
+  "aliases": [
+    "tang-kaiyuan"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "713 至 741 年玄宗在位前期，姚崇、宋璟相继为相，整肃吏治、抑制奢靡，户口增殖而府库充盈，典章制度趋于完备，唐朝国力达到顶点，史称开元盛世。盛世的具体指标与局限不在本实体中评价；天宝以后的转折由安史之乱及其前后事件接续记载。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "玄宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百一十至二百一十四",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-long-ji",
+      "name": "李隆基",
+      "display": "唐玄宗李隆基",
+      "birth": 685,
+      "birthAccuracy": "exact",
+      "death": 762,
+      "deathAccuracy": "exact",
+      "title": "唐玄宗，开元盛世与天宝之乱",
+      "bio": "李旦第三子，神龙后为临淄王，与太平公主合谋诛韦后，先天二年又诛太平公主，始专朝政。开元之世用姚崇、宋璟、张说、张九龄，海内富实，号为开元盛世。天宝以后宠杨贵妃，任李林甫、杨国忠，安禄山反，京师陷，奔蜀而禅位肃宗。宝应元年崩于西内神龙殿，年七十八。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yao-chong",
+      "name": "姚崇",
+      "display": "姚崇",
+      "birth": 650,
+      "birthAccuracy": "exact",
+      "death": 721,
+      "deathAccuracy": "exact",
+      "title": "紫微令，开元第一相，十事要说",
+      "bio": "陕州硖石人，本名元崇，后改崇。少倜傥尚气节，以挽郎入仕，武周、睿宗时为相，先天二年以十事要说于玄宗，皆纳之，遂为开元首辅。抑权幸、爱节用、罢冗职、禁宦官预政，号为救时之相。开元九年卒于洛阳，年七十二，遗令薄葬，子孙遵之。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "song-jing",
+      "name": "宋璟",
+      "display": "宋璟",
+      "birth": 663,
+      "birthAccuracy": "exact",
+      "death": 737,
+      "deathAccuracy": "exact",
+      "title": "尚书右丞相，守法持正，与姚崇并称",
+      "bio": "邢州南和人，耿介有大节，博学工文。武周时为御史中丞，张易之、昌宗尝欲陷之而不能。开元四年代姚崇为相，务在择人，刑赏无私，敢犯颜直谏，玄宗甚敬惮之。前后为相四年，开元之政由姚、宋而成。开元二十五年卒于洛阳，年七十五。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

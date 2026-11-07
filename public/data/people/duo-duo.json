@@ -1,0 +1,80 @@
+{
+  "id": "duo-duo",
+  "name": "多铎",
+  "display": "多铎",
+  "birth": 1614,
+  "birthAccuracy": "approx",
+  "death": 1649,
+  "deathAccuracy": "exact",
+  "birthNote": "顺治六年薨，年三十六，上推生年。",
+  "title": "豫亲王，定江南",
+  "bio": "太祖第十五子，多尔衮同母弟。入关后下江南，定南京。顺治六年三月以痘薨。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "general",
+    "royal-kin"
+  ],
+  "primary": "general",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "da-fei",
+      "target": "duo-duo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。多铎为太祖第十五子，多尔衮同母弟"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "duo-duo",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟。多铎下江南，定南京"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "fu-lin",
+      "target": "duo-duo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入关后授扬威大将军，定南京，顺治六年以痘薨"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "多铎传",
+      "kind": "classic"
+    }
+  ]
+}

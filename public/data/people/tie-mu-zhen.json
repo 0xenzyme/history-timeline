@@ -1,0 +1,165 @@
+{
+  "id": "tie-mu-zhen",
+  "name": "铁木真",
+  "display": "铁木真",
+  "birth": 1162,
+  "birthAccuracy": "exact",
+  "death": 1227,
+  "deathAccuracy": "exact",
+  "title": "成吉思汗，蒙古帝国的缔造者",
+  "bio": "孛儿只斤氏，统一漠北诸部，1206 年称成吉思汗，建大蒙古国；西征花剌子模，破西夏，覆金半壁。丁亥年七月卒于六盘山，后追尊为元太祖。",
+  "tags": [
+    "元",
+    "蒙古"
+  ],
+  "categories": [
+    "outsider",
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    },
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "tie-mu-zhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，成吉思汗之孙忽必烈嗣位建元"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-mu-zhen",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，拖雷为幼子守灶而握漠北精锐"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-mu-zhen",
+      "target": "wo-kuo-tai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，太祖定窝阔台嗣位"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-mu-zhen",
+      "target": "mu-huali",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "四杰之首，封太师国王，受命专征中原"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-mu-zhen",
+      "target": "su-butai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "四狗之一，追敌万里而为灭金前锋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-mu-zhen",
+      "target": "qiu-chuji",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1222,
+      "notes": [
+        "雪山之对：以敬天爱民、戒杀为请"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "damengguguo-jianguo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mengjin-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "mengxia-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "tie-mu-zhen-xi-zheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yehuling-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "zhongdu-zhiyi",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "铁木真",
+    "元太祖",
+    "成吉思汗"
+  ],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

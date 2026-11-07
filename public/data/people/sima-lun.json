@@ -1,0 +1,99 @@
+{
+  "id": "sima-lun",
+  "name": "司马伦",
+  "display": "赵王司马伦",
+  "birthAccuracy": "unknown",
+  "death": 301,
+  "deathAccuracy": "exact",
+  "birthNote": "传无岁数，不编生年。",
+  "title": "赵王伦，八王之中唯一篡位者",
+  "bio": "字子彝，宣帝第九子。用孙秀谋废贾后，诛之而专朝政，寻废惠帝自立，改元建武。齐王冏、成都王颖、河间王颙三王起兵讨之，伦兵败，帝反正，赐死，饮以金屑苦酒。庸闇无谋，秀为谋主，篡位数月而身死族灭，诸王相屠自此不可止。",
+  "tags": [
+    "晋",
+    "西晋",
+    "八王之乱"
+  ],
+  "categories": [
+    "royal-kin",
+    "rebel",
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-lun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "用孙秀谋废后杀之，寻篡位"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-lun",
+      "target": "sima-zhong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废帝自僭位，改元建武"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-jiong",
+      "target": "sima-lun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "首倡三王之兵，讨伦而反正"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baxia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马伦",
+    "赵王伦",
+    "司马子彝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "赵王伦传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "惠帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "linan-xiangbiao",
+  "name": "临安降元",
+  "display": "临安降元",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 1276,
+  "yearAccuracy": "exact",
+  "place": "皋亭山",
+  "belligerents": [
+    "yuan",
+    "song"
+  ],
+  "commanders": [
+    {
+      "id": "bo-yan",
+      "side": "yuan"
+    }
+  ],
+  "people": [
+    "wen-tianxiang"
+  ],
+  "result": "宋廷降元，朝廷中心结束",
+  "parent": "mengsong-zhanzheng",
+  "aliases": [
+    "皋亭降表",
+    "宋主降元"
+  ],
+  "dynasties": [
+    "song",
+    "yuan"
+  ],
+  "desc": "1276年正月，元军至皋亭山，宋廷送上传国玺和降表。五月，元封宋主赵㬎为瀛国公。临安降后，宋的朝廷中心结束，残余势力转向闽广。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷九·世祖本纪",
+      "note": "至元十三年正月宋主送传国玺和降表，五月封瀛国公",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷四十七·瀛国公",
+      "note": "德祐二年正月甲申元军至皋亭山，宋上传国玺",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wen-tianxiang",
+      "name": "文天祥",
+      "display": "文天祥",
+      "birth": 1236,
+      "birthAccuracy": "exact",
+      "death": 1283,
+      "deathAccuracy": "exact",
+      "title": "忠烈，正气歌",
+      "bio": "吉水人，宝祐状元。元兵南下，散家财起兵勤王，兵败被执，拘燕三年，作《正气歌》不屈，从容就义。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗元"
+      ],
+      "categories": [
+        "chancellor",
+        "poetry",
+        "falling"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bo-yan",
+      "name": "伯颜",
+      "display": "伯颜",
+      "birth": 1236,
+      "birthAccuracy": "exact",
+      "death": 1295,
+      "deathAccuracy": "exact",
+      "deathNote": "身世见《元史》本传，这里只取「伐宋统帅」事实。",
+      "title": "下临安的元军统帅",
+      "bio": "蒙古八邻部人，深沉有智略。至元十一年总二十万大军伐宋，下襄阳、渡长江，会师临安，掳谢太后、恭帝北去；旋平内乱，位望倾朝。元贞元年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

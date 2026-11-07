@@ -1,0 +1,119 @@
+{
+  "id": "tandaoji-zhisi",
+  "name": "檀道济之死",
+  "display": "檀道济之死",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": 436,
+  "yearAccuracy": "exact",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "tan-daoji",
+    "liu-yikang",
+    "liu-yilong"
+  ],
+  "result": "名将冤死，宋廷自毁干城，北魏闻之喜曰“道济已死，吴子辈不足复惮”",
+  "aliases": [
+    "自毁长城",
+    "檀道济被诛"
+  ],
+  "dynasties": [
+    "shiliuguo",
+    "northern-southern"
+  ],
+  "desc": "436 年（元嘉十三年）文帝久疾，彭城王刘义康虑宫车晏驾后檀道济不可复制，矫诏收道济付廷尉，与其子八人同时遇害。道济临刑脱帻投地曰：“乃复坏汝万里之长城！”魏人闻之相庆。此事与后来元嘉北伐失利互为注脚，成为南朝杀戮功臣的典型。",
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "檀道济传",
+      "kind": "classic"
+    },
+    {
+      "work": "南史",
+      "part": "宋本纪上",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tan-daoji",
+      "name": "檀道济",
+      "display": "檀道济",
+      "birthAccuracy": "unknown",
+      "death": 436,
+      "deathAccuracy": "exact",
+      "title": "征南大将军，唱筹量沙，死于自坏长城",
+      "bio": "高平金乡人，世居京口。从刘裕征伐，为前锋，所至望风降。元嘉八年北伐，粮尽而夜唱筹量沙，全军而还，魏人不敢追。进位司空，威名甚重，朝廷疑之。元嘉十三年文帝疾笃，召入见而收付廷尉，诛之，临刑愤怒叱曰「乃坏汝万里长城」。",
+      "tags": [
+        "南朝",
+        "刘宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yikang",
+      "name": "刘义康",
+      "display": "刘义康",
+      "birthAccuracy": "unknown",
+      "death": 451,
+      "deathAccuracy": "exact",
+      "deathNote": "「義康不肯服藥，曰：『佛教自殺不復得人身』」（宋书·彭城王义康传），承元嘉二十八年安成郡纪传系年。",
+      "title": "彭城王，宋文帝弟，主相之争而贬死安成",
+      "tags": [
+        "南北朝",
+        "刘宋"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yilong",
+      "name": "刘义隆",
+      "display": "宋文帝刘义隆",
+      "birth": 407,
+      "birthAccuracy": "exact",
+      "death": 453,
+      "deathAccuracy": "exact",
+      "title": "宋文帝，元嘉之治，北伐三败",
+      "bio": "刘裕第三子，义熙十四年封彭城公，元嘉元年即位。在位三十年，劝农桑、轻徭薄赋，江左风俗于斯为美，号元嘉之治。然性好猜忌，檀道济、裴方明皆以疑见杀；三次北伐皆败，元嘉二十七年魏军至瓜步，江左震动。三十年欲废太子，为太子劭所弑，年四十七。",
+      "tags": [
+        "南朝",
+        "刘宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

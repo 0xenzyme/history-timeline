@@ -1,0 +1,98 @@
+{
+  "id": "chen-tang",
+  "name": "陈汤",
+  "display": "陈汤",
+  "birthAccuracy": "unknown",
+  "death": -36,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。建昭三年（前 36）矫制发兵斩郅支首，是其行迹可考之年；此后虽免为庶人、徙敦煌而仍见《汉书·陈汤传》，年寿不复可见。取建昭三年为活动下限，非确凿卒年。",
+  "title": "矫制发兵诛郅支，「明犯强汉者虽远必诛」",
+  "bio": "山阳瑕丘人，字子公。少好书，博达善属文；家贫无节，州里遗之。以荐为郎，数求使外国，久困不得。宣帝末，解万年与汤谋以谷口可徙民实之，事下有司，皆以为不便，汤以妄言下狱，流徙敦煌。元帝时，为西域副校尉，与都护甘延寿善。建昭三年，郅支单于杀汉使、困辱谷吉，三败西域。汤与延寿谋发兵诛之，延寿欲奏请，汤曰「国家与公卿议，大策非凡所见，事必不从」；会延寿病卧，汤独矫制发城郭诸国兵及戊己校尉屯田吏士，合四万余人，别为六校逾葱岭而西，攻郅支城于都赖水上，单于被创死，斩其首传诣长安，县蛮夷邸门。匈奴西支瓦解，呼韩邪单于内附之势由此不可动摇。以功封关内侯，食邑三百户，迁射声校尉。成帝时，坐事免为庶人，复徙敦煌，后归于长安，卒年史无明文。",
+  "tags": [
+    "西汉",
+    "西域",
+    "名将"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-tang",
+      "target": "zheng-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "西汉经营西域先后相接：吉首任都护定官制，汤西逾葱岭诛郅支"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "chen-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元帝遣西域副校尉陈汤与都护甘延寿矫制发兵，斩郅支首，封关内侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chen-tang",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "郅支杀汉使谷吉、困辱汉廷，汤矫制发兵四万余人攻都赖水，斩其首传诣京师"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chen-tang-gong-zhizhi",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "陈汤",
+    "陈子公"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "傅常郑甘陈段传",
+      "note": "字子公、山阳瑕丘人、少学属文、数求使外国、矫制发兵、封关内侯迁射声校尉、后免为庶人徙敦煌据此",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "元帝纪",
+      "note": "建昭三年使甘延寿、陈汤攻郅支单于、斩首传诣京师据此",
+      "kind": "classic"
+    }
+  ]
+}

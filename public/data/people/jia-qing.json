@@ -1,0 +1,132 @@
+{
+  "id": "jia-qing",
+  "name": "颙琰",
+  "display": "嘉庆",
+  "birth": 1760,
+  "birthAccuracy": "exact",
+  "death": 1820,
+  "deathAccuracy": "exact",
+  "title": "亲政诛和珅",
+  "bio": "乾隆第十五子，受禅即位，改元嘉庆。亲政即赐和珅死、籍其家，欲挽颓风；白莲、天理教相继起，禁鸦片之初议自此始。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-qing",
+      "target": "qian-long",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，乾隆传嘉庆"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "jia-qing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，嘉庆传道光"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "jia-qing",
+      "target": "xiao-he-rui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。仁宗崩于热河，她传旨令宣宗嗣位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "jia-qing",
+      "target": "chang-ling",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "白莲教与回疆两役宿将，嘉庆朝统兵大员"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "jia-qing",
+      "target": "yang-yu-chun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平川楚白莲教、定回疆，提督起家至陕甘总督"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "jia-qing",
+      "target": "cao-zhenyong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "嘉道两朝承旨久直军机"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chuanchu-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tianlijiao-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "颙琰",
+    "清仁宗",
+    "嘉庆"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "仁宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

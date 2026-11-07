@@ -1,0 +1,78 @@
+{
+  "id": "gongsun-hong",
+  "name": "公孙弘",
+  "display": "公孙丞相",
+  "birth": -200,
+  "birthAccuracy": "approx",
+  "death": -121,
+  "deathAccuracy": "approx",
+  "title": "西汉首位以儒生拜相封侯者",
+  "bio": "六十岁始以贤良征为博士，官至丞相封平津侯，开汉代「以儒术取卿相」的先例。",
+  "tags": [
+    "布衣丞相"
+  ],
+  "categories": [
+    "confucian"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "gongsun-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -130,
+      "notes": [
+        "对策第一，官至丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "gongsun-hong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以儒学进"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chaju-zhidu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "taixue-yu-boshi-dizi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "平津侯主父列传"
+    }
+  ]
+}

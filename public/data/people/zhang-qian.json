@@ -1,0 +1,62 @@
+{
+  "id": "zhang-qian",
+  "name": "张骞",
+  "display": "博望侯",
+  "birthAccuracy": "unknown",
+  "death": -114,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "西汉外交家，丝绸之路开拓者",
+  "bio": "前 138 年奉武帝命出使大月氏，中途被匈奴扣留十年，前后十三年方归，凿空西域。前 119 年二次出使乌孙。",
+  "tags": [
+    "凿空西域",
+    "丝绸之路"
+  ],
+  "categories": [
+    "general",
+    "explorer"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "zhang-qian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "两次奉使西域"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhangqian-tong-xiyu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "大宛列传",
+      "kind": "classic"
+    }
+  ]
+}

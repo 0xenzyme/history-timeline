@@ -1,0 +1,125 @@
+{
+  "id": "wen-qiao",
+  "name": "温峤",
+  "display": "温峤",
+  "birth": 288,
+  "birthAccuracy": "approx",
+  "death": 329,
+  "deathAccuracy": "exact",
+  "birthNote": "咸和四年（329）卒，年四十二，虚岁上推生年。",
+  "title": "东晋江州刺史，图敦讨峻",
+  "bio": "太原祁人。初从刘琨镇并州，奉表南渡，为朝野所重。明帝时阳附王敦而密图之，敦平为江州刺史。苏峻之乱，与庾亮推陶侃为盟主，同复京师。咸和四年四月卒于镇，时年四十二。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-shao",
+      "target": "wen-qiao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "密图王敦，受遗辅政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "wen-qiao",
+      "target": "yu-liang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同讨苏峻"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "tao-kan",
+      "target": "wen-qiao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "推侃为盟主"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "su-jun",
+      "target": "wen-qiao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "攻白石垒，轻骑出阵坠马被斩"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "guo-pu",
+      "target": "wen-qiao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "峤亮谋讨王敦，使璞筮之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sujun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wangdun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "温峤"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "温峤传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "成帝纪",
+      "kind": "classic"
+    }
+  ]
+}

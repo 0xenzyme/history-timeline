@@ -1,0 +1,79 @@
+{
+  "id": "wanyan-liang",
+  "name": "完颜亮",
+  "display": "完颜亮",
+  "birth": 1122,
+  "birthAccuracy": "exact",
+  "death": 1161,
+  "deathAccuracy": "exact",
+  "title": "海陵王，南侵采石而殒",
+  "bio": "弑熙宗自立，迁都燕京、再迁汴。正隆六年大举南侵，誓「立马吴山第一峰」，采石为虞允文所败，瓜洲军中为部下所杀。",
+  "tags": [
+    "金"
+  ],
+  "categories": [
+    "outsider",
+    "monarch"
+  ],
+  "polity": [
+    "liao-jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wanyan-liang",
+      "target": "wanyan-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从祖孙。亮弑熙宗自立，海陵南伐而东京变作，雍因之即位"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caishi-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jin-qian-du-zhongdu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jin-shizong-jiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wanyan-liang-cuanwei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "金史",
+      "part": "海陵本纪",
+      "kind": "classic"
+    }
+  ]
+}

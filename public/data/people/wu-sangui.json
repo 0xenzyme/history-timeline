@@ -1,0 +1,117 @@
+{
+  "id": "wu-sangui",
+  "name": "吴三桂",
+  "display": "吴三桂",
+  "birth": 1612,
+  "birthAccuracy": "exact",
+  "death": 1678,
+  "deathAccuracy": "exact",
+  "title": "引清兵入关 · 平西王",
+  "bio": "辽东将家子，镇山海关。崇祯自缢后降清，乞师入关破李自成；后为平西王镇云南，三藩之乱举兵败亡。",
+  "tags": [
+    "明",
+    "清"
+  ],
+  "categories": [
+    "vassal",
+    "warlord",
+    "rebel",
+    "general",
+    "falling"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming",
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    },
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zicheng",
+      "target": "wu-sangui",
+      "type": "rival",
+      "directed": false,
+      "since": 1644,
+      "notes": [
+        "降清乞师，山海关破闯"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "wu-sangui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "纳其降表，山海关一战入北京",
+        "纳降封平西王，借兵入关"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "wu-sangui",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "三藩之乱，康熙平之"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "geng-jing-zhong",
+      "target": "wu-sangui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为三藩，耿、尚之叛皆与吴相首尾"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sanfan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongli-zhongjie",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "吴三桂传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "xiong-e",
+  "name": "熊咢",
+  "display": "楚熊咢",
+  "birthAccuracy": "unknown",
+  "death": -792,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：熊咢九年卒。熊徇二十二年当 -800，下推九年当 -792。",
+  "title": "楚熊咢",
+  "bio": "熊徇之子。九年卒，子熊仪立，是为若敖。",
+  "tags": [
+    "楚"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-e",
+      "target": "xiong-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-e",
+      "target": "xiong-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "熊咢"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

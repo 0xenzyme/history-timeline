@@ -1,0 +1,102 @@
+{
+  "id": "chen-youliang",
+  "name": "陈友谅",
+  "display": "陈友谅",
+  "birth": 1320,
+  "birthAccuracy": "exact",
+  "death": 1363,
+  "deathAccuracy": "exact",
+  "title": "江汉割据",
+  "bio": "沔阳渔家子，袭杀徐寿辉自立，国号汉，据江州。与朱元璋争锋，鄱阳湖中流矢死。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "yuan",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    },
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-youliang",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1360,
+      "notes": [
+        "鄱阳湖决战，友谅中流矢死",
+        "鄱阳湖一战，友谅中流矢死"
+      ],
+      "topicIds": [
+        "yuan",
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-shouhui",
+      "target": "chen-youliang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "其部将，1360 年弑寿辉于采石而自立"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "chen-youliang",
+      "target": "zhang-shicheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "江汉与江浙两处割据，皆先太祖而灭"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "panyanghu-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yuanmo-qunxiong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "陈友谅传",
+      "kind": "classic"
+    }
+  ]
+}

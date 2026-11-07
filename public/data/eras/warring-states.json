@@ -1,0 +1,598 @@
+{
+  "id": "warring-states",
+  "name": "战国",
+  "from": -475,
+  "to": -221,
+  "contractVersion": 1,
+  "group": "pre-qin",
+  "personCount": 187,
+  "eventCount": 64,
+  "founderRecords": [],
+  "topics": [
+    "zhanguo",
+    "rujia"
+  ],
+  "people": [
+    {
+      "id": "ying-shixi",
+      "name": "嬴师隰",
+      "display": "秦献公",
+      "birthAccuracy": "unknown",
+      "death": -362,
+      "deathAccuracy": "disputed",
+      "deathNote": "《秦本纪》作二十四年卒，《六国年表》作二十三年。今从年表，卒于前 362 年。",
+      "title": "秦君，止从死，徙都栎阳",
+      "bio": "灵公之子，出子被杀后自河西迎立。废人殉，迁都栎阳，东伐复河西。孝公元年那道求贤令里，秦要找回的就是他这一段。生年无载，条只从卒年往回画。",
+      "tags": [
+        "秦国",
+        "变法前夜"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-quliang",
+      "name": "嬴渠梁",
+      "display": "秦孝公",
+      "birthAccuracy": "unknown",
+      "death": -338,
+      "deathAccuracy": "exact",
+      "title": "秦国国君，用商鞅变法",
+      "bio": "发愤令国中求贤。卫鞅入秦，变法十年，秦富强。他一卒，商鞅车裂——国君条与变法者条在前 338 年一起截断。",
+      "tags": [
+        "秦国",
+        "变法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-si",
+      "name": "嬴驷",
+      "display": "秦惠文王",
+      "birth": -356,
+      "birthAccuracy": "approx",
+      "death": -311,
+      "deathAccuracy": "exact",
+      "birthNote": "《秦本纪》：惠文君三年王冠，正义引《礼记》二十行冠礼。元年为前 337 年，据此推算生于前 356 年前后，史无明载。",
+      "title": "秦王，车裂商鞅，用张仪取河西",
+      "bio": "孝公之子。即位当年车裂商鞅，法存而人亡。用张仪行连横，用司马错灭蜀，丹阳败楚取汉中。条从商鞅之死开始，铺到张仪连横之前。",
+      "tags": [
+        "秦国",
+        "连横"
+      ],
+      "categories": [
+        "monarch",
+        "diplomat"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-dang",
+      "name": "嬴荡",
+      "display": "秦武王",
+      "birthAccuracy": "unknown",
+      "death": -307,
+      "deathAccuracy": "exact",
+      "title": "秦王，四年而绝膑",
+      "bio": "惠文王之子。拔宜阳、通三川，窥周室而与孟说举鼎，绝膑而死。无子，异母弟稷自燕归，是为昭襄王。战国最短的一条秦王条，正好把孝公与昭襄王之间的空档补上。",
+      "tags": [
+        "秦国",
+        "短命"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tian-yinqi",
+      "name": "田因齐",
+      "display": "齐威王",
+      "birthAccuracy": "unknown",
+      "death": -320,
+      "deathAccuracy": "exact",
+      "title": "田齐国君，稷下与桂陵、马陵",
+      "bio": "用邹忌、孙膑。桂陵、马陵败魏，齐最强。稷下学宫在他的条里铺开，孟子稍后才走进同一条齐国线。",
+      "tags": [
+        "齐国",
+        "稷下"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-yong",
+      "name": "赵雍",
+      "display": "赵武灵王",
+      "birthAccuracy": "unknown",
+      "death": -295,
+      "deathAccuracy": "exact",
+      "title": "赵王，胡服骑射",
+      "bio": "胡服骑射，北破林胡、楼烦。传位惠文王，沙丘宫被围饿死。改革发生在条的中段，死亡在自己让出的王位之后。",
+      "tags": [
+        "赵国",
+        "胡服骑射"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "wuyue-zhanzheng",
+      "name": "吴越争霸",
+      "display": "吴越争霸",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": -496,
+      "yearAccuracy": "exact",
+      "yearNote": "以槜李之战（定公十四年＝前496，勾践新立与阖闾第一次正面交战）为起点；终点越灭吴（哀公二十二年＝前473）。区间内节点：夫椒（前494）、黄池之年越袭吴都（前482）、笠泽（前478）、围吴三年（约前475—前473）。",
+      "endYear": -473,
+      "endYearAccuracy": "exact",
+      "endYearNote": "《春秋·哀公二十二年》「冬，十一月，丁卯，越滅吳」；史記吳太伯世家夫差二十三年十一月丁卯越敗吳——两系一致。",
+      "belligerents": [
+        "yue",
+        "wu-guo"
+      ],
+      "commanders": [
+        {
+          "id": "si-goujian",
+          "side": "yue"
+        },
+        {
+          "id": "ji-guang",
+          "side": "wu-guo"
+        },
+        {
+          "id": "ji-fucha",
+          "side": "wu-guo"
+        },
+        {
+          "id": "wu-yuan",
+          "side": "wu-guo"
+        },
+        {
+          "id": "fan-li",
+          "side": "yue"
+        },
+        {
+          "id": "wen-zhong",
+          "side": "yue"
+        }
+      ],
+      "people": [
+        "tai-zai-pi"
+      ],
+      "aliases": [
+        "吴越战争"
+      ],
+      "dynasties": [
+        "spring-autumn",
+        "warring-states"
+      ],
+      "desc": "吴越两代争霸的全程：前496槜李勾践以罪人自剄乱吴阵、阖闾伤指死；前494夫椒夫差报仇、勾践五千保栖会稽而入臣于吴；勾践归国生聚教训二十余年；前484夫差胜齐于艾陵、赐死伍子胥；前482黄池会盟之顷越袭入吴都获太子友；前478笠泽决战吴师大乱；越再围吴三年，前473十一月丁卯吴亡，夫差自缢，勾践北上会齐晋、号称霸王。战争起于吴强越弱而终于吴亡越霸，东南格局完全倒转。",
+      "sources": [
+        {
+          "work": "春秋左傳正義",
+          "part": "卷56（定公十三、十四年經傳）",
+          "kind": "classic"
+        },
+        {
+          "work": "春秋左傳正義",
+          "part": "卷60（哀公十七、二十二年經傳）",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷031·吳太伯世家",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷041·越王句踐世家",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yue-mie-wu",
+      "name": "越灭吴",
+      "display": "越灭吴",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": -473,
+      "yearAccuracy": "exact",
+      "yearNote": "《春秋·哀公二十二年》「冬，十一月，丁卯，越滅吳」；《左傳》請使吳王居甬東、乃縊；《史記·吳太伯世家》夫差二十三年十一月丁卯越敗吳、遂自剄死——经传两系一致，争议小。围城战起于约前475（越世家「留圍之三年」）。",
+      "place": "吳都（姑蘇）",
+      "placeNow": "今江苏省苏州市",
+      "belligerents": [
+        "yue",
+        "wu-guo"
+      ],
+      "commanders": [
+        {
+          "id": "si-goujian",
+          "side": "yue"
+        },
+        {
+          "id": "ji-fucha",
+          "side": "wu-guo"
+        }
+      ],
+      "people": [
+        "fan-li",
+        "wen-zhong",
+        "tai-zai-pi"
+      ],
+      "parent": "wuyue-zhanzheng",
+      "aliases": [
+        "吴国灭亡"
+      ],
+      "dynasties": [
+        "warring-states"
+      ],
+      "desc": "笠泽之败后越围吴都三年，吴民疲敝。越复攻破吴师，栖吴王于姑苏之山；夫差使公孙雄肉袒膝行请成（愿如会稽之赦），范蠡曰「天以吴赐越，越其可逆天乎」，鼓进兵不许。越请使吴王居甬东、君百家，夫差辞「孤老矣，焉能事君」，自缢死，蔽面曰吾无面见子胥；吴亡，勾践诛太宰嚭。勾践遂北上会齐晋诸侯于徐州、致贡于周，周元王使人赐胙、命为伯，号令中原。",
+      "sources": [
+        {
+          "work": "春秋左傳正義",
+          "part": "卷60（哀公十七、二十二年經傳）",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷031·吳太伯世家",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷041·越王句踐世家",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "sanjia-fenjin",
+      "name": "三家分晋",
+      "display": "三家分晋",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -403,
+      "yearAccuracy": "exact",
+      "yearNote": "主锚取周威烈王二十三年（前403）初命晋大夫魏斯、赵籍、韩虔为诸侯（《资治通鉴》开篇）；另一常用开端为前453三家灭智氏、三分其地（通鉴卷一追叙），前376晋静公被废、晋绝不祀（《史记·晋世家》）为叙事终点，均入 aliases/备注。",
+      "polity": [
+        "jin-guo"
+      ],
+      "people": [
+        "zhou-weiliewang",
+        "wei-wenhou",
+        "zhao-liehou",
+        "han-jinghou"
+      ],
+      "aliases": [
+        "三家分晋（前453灭智氏）",
+        "初命晋大夫魏斯赵籍韩虔为诸侯",
+        "魏赵韩建国"
+      ],
+      "dynasties": [
+        "warring-states"
+      ],
+      "desc": "晋国政归六卿后，赵、韩、魏三家于前453年灭智氏而三分其地。前403年周威烈王初命魏斯、赵籍、韩虔为诸侯，三家建国获王室追认；前376年废晋静公，晋绝不祀。战国七雄格局由此展开，《资治通鉴》即以此事开篇。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "卷一",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷三十九·晋世家",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "shangyang-bianfa",
+      "name": "商鞅变法",
+      "display": "商鞅变法",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -359,
+      "yearAccuracy": "disputed",
+      "yearNote": "初令系年三说并存：《通鉴》卷二系于显王十年（前359，即孝公三年议法后颁令），《史记·秦本纪》孝公三年（前359）议法「卒用鞅法」，教科书与杨宽《战国史》通取孝公六年（前356）为初令之年。本条取通鉴前359为主锚、标 disputed。二次变法（迁都咸阳、并诸小乡聚为县、开阡陌）在前350（approx）。",
+      "endYear": -350,
+      "endYearAccuracy": "approx",
+      "endYearNote": "终年据：初令系年三说并存：《通鉴》卷二系于显王十年（前359，即孝公三年议法后颁令），《史记·秦本纪》孝公三年（前359）议法「",
+      "polity": [
+        "qin"
+      ],
+      "people": [
+        "shang-yang",
+        "ying-quliang"
+      ],
+      "aliases": [
+        "商鞅两次变法",
+        "徙木立信",
+        "废井田开阡陌",
+        "推行县制"
+      ],
+      "dynasties": [
+        "warring-states"
+      ],
+      "desc": "秦孝公以求贤令得卫鞅，先后颁令变法：编什伍、行连坐、奖军功、重耕织，宗室非有军功不得属籍；前350年迁都咸阳、并小乡聚为县、开阡陌封疆。秦国骤强，为日后并六国奠基；孝公卒后商鞅被车裂，而秦法不改。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "卷二",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷五·秦本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷六十八·商君列传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "guiling-zhizhan",
+      "name": "桂陵之战",
+      "display": "桂陵之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -353,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴卷002显王十六年(前353)齐田忌孙膑救赵、十月邯郸降魏、齐败魏于桂陵(本地已核);古本竹书纪年(水经·济水注引)『梁惠成王十七年,齐田期伐我东鄙,战于桂阳,我师败逋。亦曰桂陵』,惠成王元年前369计即前353,两系统互证为 exact。史记·魏世家系于惠王十八年(以惠王元年前370计,恰为前353),合。",
+      "place": "桂陵",
+      "placeNow": "河南长垣一带(一说山东菏泽东北,存疑)",
+      "belligerents": [
+        "qi",
+        "wei-zhanguo"
+      ],
+      "commanders": [
+        {
+          "id": "sun-bin",
+          "side": "qi"
+        },
+        {
+          "id": "pang-juan",
+          "side": "wei-zhanguo"
+        }
+      ],
+      "result": "齐以孙膑「围魏救赵」于桂陵设伏大破魏军，庞涓被擒（《史记》系其死于马陵）",
+      "aliases": [
+        "围魏救赵",
+        "齐魏桂陵之战"
+      ],
+      "dynasties": [
+        "warring-states"
+      ],
+      "desc": "魏围赵都邯郸,齐威王以田忌为将、孙膑为师救赵,孙膑『批亢捣虚』疾走大梁,魏军回师,齐军于桂陵设伏大破魏军。围魏救赵成为中国军事史经典战例;1972年银雀山汉简《孙膑兵法·擒庞涓》证实此役,且载庞涓于桂陵被擒(《史记》则记其死于马陵)。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "卷002·周纪二",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷065·孙子吴起列传",
+          "kind": "classic"
+        },
+        {
+          "work": "古本竹书纪年",
+          "part": "惠成王十七年",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "maling-zhizhan",
+      "name": "马陵之战",
+      "display": "马陵之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -341,
+      "yearAccuracy": "disputed",
+      "yearNote": "史记·魏世家系惠王三十年、通鉴系显王二十八年,皆为前341(本地已核两处);古本竹书纪年佚文(史记索隐引)作『惠成王二十七年十二月,齐田肦败梁马陵』,另引作二十八年——因古当年首/魏惠王改元换算,主前342年说(钱穆系年框架、知乎《魏惠王纪年》等)与前341年说(杨宽战国史:前342魏攻韩南梁之难起、前341马陵决战)并存。取决战年-341,标 disputed。",
+      "place": "马陵",
+      "placeNow": "山东莘县西南(一说山东郯城马陵山,存疑)",
+      "belligerents": [
+        "qi",
+        "wei-zhanguo"
+      ],
+      "commanders": [
+        {
+          "id": "sun-bin",
+          "side": "qi"
+        },
+        {
+          "id": "pang-juan",
+          "side": "wei-zhanguo"
+        }
+      ],
+      "result": "孙膑减灶诱敌，魏太子申、庞涓全军覆没于马陵，魏霸权坠落",
+      "aliases": [
+        "齐魏马陵之战"
+      ],
+      "dynasties": [
+        "warring-states"
+      ],
+      "desc": "魏攻韩(南梁之难),韩求救于齐,齐以田忌为将、孙膑为师,直走大梁后减灶诱敌,魏将庞涓率轻锐追击,于马陵道中伏;庞涓兵败自杀,魏太子申被俘,魏军主力覆没。魏国经此役丧失霸权,齐取代魏成为东方最强,为战国格局转折点之一。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "卷065·孙子吴起列传",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷044·魏世家",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷002·周纪二",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    "rujia-chuancheng"
+  ],
+  "collectionRecords": [
+    {
+      "contractVersion": 1,
+      "id": "rujia-chuancheng",
+      "name": "儒家传承",
+      "category": "thought",
+      "summary": "从孔门授受到宋代儒学，按编辑选取的代表人物观察经典解释与学术脉络；成员顺序不是连续师承谱系。",
+      "tags": [
+        "儒学",
+        "经典"
+      ],
+      "featuredOrder": 1,
+      "memberCount": 5,
+      "featuredMembers": [
+        {
+          "id": "kong-zi",
+          "name": "孔丘",
+          "display": "孔子",
+          "birth": -551,
+          "birthAccuracy": "disputed",
+          "death": -479,
+          "deathAccuracy": "exact",
+          "birthNote": "生年取《史记》前 551 年说",
+          "title": "儒家创始人",
+          "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+          "tags": [
+            "儒家",
+            "六经",
+            "论语"
+          ],
+          "categories": [
+            "scholar-official",
+            "confucian"
+          ],
+          "lane": ""
+        },
+        {
+          "id": "meng-zi",
+          "name": "孟轲",
+          "display": "孟子",
+          "birth": -372,
+          "birthAccuracy": "approx",
+          "death": -289,
+          "deathAccuracy": "approx",
+          "title": "战国儒家，倡性善、仁政",
+          "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
+          "tags": [
+            "性善",
+            "仁政",
+            "亚圣"
+          ],
+          "categories": [
+            "scholar",
+            "confucian"
+          ],
+          "lane": ""
+        },
+        {
+          "id": "zhu-xi",
+          "name": "朱熹",
+          "display": "朱熹",
+          "birth": 1130,
+          "birthAccuracy": "exact",
+          "death": 1200,
+          "deathAccuracy": "exact",
+          "title": "晦庵，集理学之大成",
+          "bio": "婺源人，承二程而集理学大成，主「存天理、灭人欲」，编《四书章句集注》立为科举准的。讲学武夷、白鹿洞，泽被后世。",
+          "tags": [
+            "宋",
+            "南宋"
+          ],
+          "categories": [
+            "neo-confucian",
+            "classics"
+          ],
+          "primary": "neo-confucian",
+          "polity": [
+            "song"
+          ],
+          "gender": "male",
+          "lane": ""
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

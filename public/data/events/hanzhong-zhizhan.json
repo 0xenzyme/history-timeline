@@ -1,0 +1,224 @@
+{
+  "id": "hanzhong-zhizhan",
+  "name": "汉中之战",
+  "display": "汉中之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 217,
+  "yearAccuracy": "exact",
+  "yearNote": "建安二十二年（217）刘备进兵汉中，建安二十四年（219）夏侯渊败亡、曹操引军还，刘备遂有汉中。",
+  "endYear": 219,
+  "endYearAccuracy": "exact",
+  "place": "汉中",
+  "placeNow": "今陕西汉中一带",
+  "belligerents": [
+    "shu",
+    "wei"
+  ],
+  "commanders": [
+    {
+      "id": "liu-bei",
+      "side": "shu"
+    },
+    {
+      "id": "huang-zhong",
+      "side": "shu"
+    },
+    {
+      "id": "fa-zheng",
+      "side": "shu"
+    },
+    {
+      "id": "cao-cao",
+      "side": "wei"
+    },
+    {
+      "id": "xiahou-yuan",
+      "side": "wei"
+    },
+    {
+      "id": "zhang-he",
+      "side": "wei"
+    }
+  ],
+  "result": "刘备据有汉中，进位汉中王，曹刘以秦岭为界对峙",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "建安二十二年（217）刘备用法正之谋进兵汉中，与夏侯渊相持于阳平关；二十四年（219）黄忠自高鼓噪而下，一战斩夏侯渊于定军山，张郃收散卒拒守。曹操自长安入汉中而不能进，遂引军还，弃守汉中。刘备据汉中后进位汉中王，蜀汉北面门户与疆域至此时鼎盛，曹、刘以秦岭一线长期对峙。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·先主传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "蜀书·黄忠传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "蜀书·法正传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "display": "汉昭烈帝刘备",
+      "birth": 161,
+      "birthAccuracy": "exact",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "蜀汉先主，织席贩履而起",
+      "bio": "涿郡涿人，中山靖王之后，少孤，与母贩履织席。起兵讨黄巾，历依公孙瓒、陶谦、曹操、袁绍、刘表，赤壁后据荆州，西取益州，遂有汉中。章武元年称帝，三年败于猇亭，崩于白帝城永安宫，年六十三。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huang-zhong",
+      "name": "黄忠",
+      "display": "黄忠",
+      "birthAccuracy": "unknown",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "后将军，定军山斩夏侯渊",
+      "bio": "南阳人，初属刘表，守长沙。归先主后常先登陷阵，勇毅冠三军。建安二十四年于定军山一战斩夏侯渊，汉中遂定。同年先主为汉中王，拜后将军，明年卒，追谥刚侯。老而益壮，条在蜀汉诸将末尾。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fa-zheng",
+      "name": "法正",
+      "display": "法正",
+      "birth": 176,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "蜀郡太守，汉中之谋出于其手",
+      "bio": "右扶风郿人，建安初入蜀依刘璋，久不得志。与张松谋迎先主，遂为谋主，画策取益州。建安二十二年说先主取汉中，定军山之役从旁决策。明年先主为汉中王，以正为尚书令、护军将军，同年卒，年四十五。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "strategist",
+        "official"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiahou-yuan",
+      "name": "夏侯渊",
+      "display": "夏侯渊",
+      "birthAccuracy": "unknown",
+      "death": 219,
+      "deathAccuracy": "exact",
+      "title": "魏征西将军，定军山阵殁",
+      "bio": "沛国谯人，字妙才，夏侯惇族弟。以急行军见长，军中语「三日五百，六日一千」；讨灭陇右叛乱，都督汉中；建安二十四年定军山之役，为刘备将黄忠所斩，谥愍侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "display": "张郃",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，街亭破马谡",
+      "bio": "河间鄚人，字儁乂。本袁绍部将，官渡之役来归；识变量，善处营阵，料地势战阵无不精；街亭之役破马谡，平陇右；太和五年追击诸葛亮于木门，中飞矢卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

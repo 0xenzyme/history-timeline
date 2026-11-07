@@ -1,0 +1,93 @@
+{
+  "id": "qian-du-xu",
+  "name": "曹操迎献帝迁都许",
+  "display": "曹操迎献帝迁都许",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 196,
+  "yearAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "cao-cao",
+    "liu-xie-xiandi"
+  ],
+  "result": "曹操迎汉献帝于洛阳并迁都许县，自此以朝廷名义号令四方诸侯",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "建安元年（196）曹操遣将迎自长安东归、困于洛阳的汉献帝，迁都于许县，改元建安，自为大将军、封武平侯。献帝朝廷自此在曹操掌握之中，曹操得以挟天子以令诸侯：以朝廷名义任免方镇、讨伐袁绍与吕布诸雄，名分与兵赋两端兼得。迁都许是汉末格局定型的关键一步——汉室名号尚存而实权归曹，此后二十余年北方政局均由此展开。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "献帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-xie-xiandi",
+      "name": "刘协",
+      "display": "汉献帝",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "东汉献帝，禅于曹丕，青龙二年卒",
+      "bio": "董卓所立。延康元年禅于曹丕，帝位先断在公元 220 年。魏青龙二年卒，条收到公元 234 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "yuan-ziyou",
+  "name": "元子攸",
+  "display": "孝庄帝元子攸",
+  "birth": 507,
+  "birthAccuracy": "approx",
+  "death": 530,
+  "deathAccuracy": "exact",
+  "birthNote": "永安三年崩，年二十四，上推生年。",
+  "title": "北魏孝庄帝，尔朱兆迁杀于晋阳",
+  "bio": "彭城王勰第三子。幼侍孝明帝，长直禁中。永安三年十二月，尔朱兆迁帝于晋阳，崩于三级佛寺，年二十四。",
+  "tags": [
+    "南北朝",
+    "北魏"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yuan-xu",
+      "target": "yuan-ziyou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "子攸幼侍肃宗，长直禁中，为孝明所亲待"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "heyin-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "元子攸",
+    "孝庄帝"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "孝庄纪",
+      "kind": "classic"
+    }
+  ]
+}

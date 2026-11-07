@@ -1,0 +1,134 @@
+{
+  "id": "li-siyuan",
+  "name": "李嗣源",
+  "display": "后唐明宗",
+  "birth": 867,
+  "birthAccuracy": "approx",
+  "death": 933,
+  "deathAccuracy": "exact",
+  "birthNote": "长兴四年十一月崩于洛阳，年六十七，上推生年。",
+  "title": "后唐明宗，起于乱军，粗致小康",
+  "bio": "沙陀人，事李克用为骑将，斗绝一隅，战功居最，庄宗以为蕃汉内外马步副总管。同光四年从思乱之兵入洛监国，旋即位。性俭素不识字，每登殿祝曰\"某蕃人，中原不可理，愿天生圣人，为百姓主子\"；诛聚敛之臣，省事息兵，年谷粗登，中土小安。末年秦王争立，忧愤而崩。",
+  "tags": [
+    "五代",
+    "后唐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-cunxu",
+      "target": "li-siyuan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "从马直之乱，兄弟兵争而得位"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-conghou",
+      "target": "li-siyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，闵帝立而失驭"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-congke",
+      "target": "li-siyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养子，反戈相向而覆其家"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-siyuan",
+      "target": "shi-jingtang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "子婿与腹心，晋阳之变由此起"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "feng-dao",
+      "target": "li-siyuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "事明宗为相，号称长者"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houdang-mie-houliang",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "houdang-mie-yan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "jiazhai-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xingjiaomen-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "youzhou-baowei",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "明宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

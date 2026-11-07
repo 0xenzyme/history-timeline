@@ -1,0 +1,74 @@
+{
+  "id": "lu-ji",
+  "name": "陆机",
+  "display": "陆机",
+  "birth": 261,
+  "birthAccuracy": "exact",
+  "death": 303,
+  "deathAccuracy": "exact",
+  "title": "平原内史，《文赋》作者，死于八王之乱",
+  "bio": "吴郡吴人，陆逊之孙，陆抗之子。吴亡与弟云退居旧里，闭门勤学十年，后入洛，张华谓之「伐吴之役，利获二俊」。文章冠世，作《文赋》《辨亡论》，为太康之英。成都王颖以为平原内史、后将军，河桥之败被谮，与弟云俱诛，年四十三。",
+  "tags": [
+    "西晋",
+    "江东士族"
+  ],
+  "categories": [
+    "literature",
+    "poetry",
+    "official"
+  ],
+  "primary": "literature",
+  "polity": [
+    "wu",
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhang-hua",
+      "target": "lu-ji",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "陆机入洛，张华荐之于诸公，称为二俊"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "lu-ji",
+      "target": "lu-yun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。云间二陆，与兄同诛"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陆机",
+    "陆士衡"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "陆机传",
+      "kind": "classic"
+    }
+  ]
+}

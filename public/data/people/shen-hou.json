@@ -1,0 +1,85 @@
+{
+  "id": "shen-hou",
+  "name": "申侯",
+  "display": "申侯",
+  "birthAccuracy": "unknown",
+  "death": -770,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。前 771 年联合犬戎攻杀幽王，前 770 年拥立平王东迁，取东迁年为最后可考活动，非确凿卒年。",
+  "title": "申后之父，平王外祖",
+  "bio": "西申之君。女为幽后，外孙为宜臼。幽王废申后，他引犬戎入镐，又与诸侯立平王。敌对与亲族叠在同一条姻亲上。",
+  "tags": [
+    "申国",
+    "犬戎"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-yijiu",
+      "target": "shen-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "外孙与外祖"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shen-hou",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废申后，申侯后来引犬戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "shen-hou",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "quanrong-gong-youwang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

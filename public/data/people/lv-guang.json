@@ -1,0 +1,82 @@
+{
+  "id": "lv-guang",
+  "name": "吕光",
+  "display": "吕光",
+  "birth": 337,
+  "birthAccuracy": "approx",
+  "death": 399,
+  "deathAccuracy": "exact",
+  "birthNote": "隆安三年（399）死，年六十三，虚岁上推生年。",
+  "title": "后凉之主，西征而归据姑臧",
+  "bio": "略阳氐人，吕婆楼之子，字世明。为苻坚将，率七万众西征西域，降者三十余国，归途闻坚败，遂据凉州，都姑臧。僭称三河王，既而即天王位，改元龙飞，国号大凉，史称后凉。以安帝隆安三年死，时年六十三，在位十年，诸子相残，后凉速亡。",
+  "tags": [
+    "十六国",
+    "后凉",
+    "氐"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "lv-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "苻坚遣光征西域，还师据凉州，建后凉"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "lv-guang",
+      "target": "tufa-wugu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "吕光据凉，秃发乌孤初附后叛，建南凉"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houliang-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "吕光",
+    "吕世明"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "吕光载记",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "id": "ying-zheng",
+  "name": "嬴政",
+  "display": "秦王政",
+  "birth": -259,
+  "birthAccuracy": "exact",
+  "death": -210,
+  "deathAccuracy": "exact",
+  "title": "秦王，灭六国，后称始皇帝",
+  "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+  "tags": [
+    "秦国",
+    "统一"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    },
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-zheng",
+      "target": "lv-buwei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仲父，亲政前为相",
+        "年少时委国事于相国，十年免相，十二年死"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "qin"
+      ]
+    },
+    {
+      "source": "lv-buwei",
+      "target": "ying-zheng",
+      "type": "rival",
+      "directed": false,
+      "since": -237,
+      "notes": [
+        "免相迁蜀"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wang-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "六十万灭楚"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "han-fei",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -233,
+      "notes": [
+        "悦其书，韩非使秦而死"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-zichu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "庄襄王三年卒，子政立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "taizi-dan",
+      "target": "ying-zheng",
+      "type": "rival",
+      "directed": false,
+      "since": -227,
+      "notes": [
+        "恐秦并天下而祸至燕，遣荆轲奉督亢图——图穷匕见，事不成"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-chengjiao",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长安君成蟜，秦王弟也",
+        "兄弟。八年成蟜击赵反，死于屯留"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-chengjiao",
+      "target": "ying-zheng",
+      "type": "rival",
+      "directed": false,
+      "since": -239,
+      "notes": [
+        "成蟜将卒而畔屯留，秦兵诛之——亲弟之反是轴上秦国内乱的最后一笔"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "changping-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昌平君故在秦，吕不韦免相之岁代其国事，仕秦为相"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "changping-jun",
+      "target": "ying-zheng",
+      "type": "rival",
+      "directed": false,
+      "since": -223,
+      "notes": [
+        "秦灭楚急，项燕立为荆王于淮南，起兵反秦；兵败而死，楚随之亡"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "zheng-guo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "韩使水工郑国来说秦凿泾渠以疲之；渠成而关中为沃野，秦卒就其利"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-fusu",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-huhai",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "li-si",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "用为廷尉、丞相，定郡县与焚书之策"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "meng-tian",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -214,
+      "notes": [
+        "北筑长城、逐匈奴"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "huayang-taihou",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "华阳太后是庄襄王的嗣母，始皇十七年卒"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "di-taihou",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。始皇十九年帝太后崩"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wang-ben",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王翦之子贲从定荆、江南地，又从灭燕；始皇乃别使贲攻齐，虏王建于共，天下始一"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wei-liao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大梁人尉缭来说秦王，以为诸侯合从则不可轻，请赂其豪臣以乱其谋；秦王以为秦国尉"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fanwu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "feizhi-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jingke-ciqin",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "junxian-zhi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liaoai-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "lvbuwei-baxiang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mengtian-beiji-xiongnu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-mie-chu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-mie-han",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-mie-liuguo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-mie-wei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-mie-yan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-mie-zhao",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-nanzheng-baiyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-po-yan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-yitong",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shihuang-cheng-huangdi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shutongwen",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhengguo-qu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "秦始皇",
+    "秦王政"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "kind": "classic"
+    }
+  ]
+}

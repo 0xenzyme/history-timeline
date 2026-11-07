@@ -1,0 +1,107 @@
+{
+  "id": "yuanhe-huaixi",
+  "name": "元和淮西之战",
+  "display": "元和淮西之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 815,
+  "yearAccuracy": "exact",
+  "endYear": 817,
+  "endYearAccuracy": "exact",
+  "place": "淮西",
+  "belligerents": [
+    "tang",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "pei-du",
+      "side": "tang"
+    },
+    {
+      "id": "wu-yuan-ji",
+      "side": "minbian"
+    }
+  ],
+  "result": "吴元济败亡，唐廷暂时恢复对淮西的直接控制",
+  "aliases": [
+    "元和削藩（淮西）"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "815 至 817 年，唐宪宗调集多道兵力讨伐淮西吴元济，最终攻破蔡州并擒杀吴元济。战事显示中央在安史之后仍能集中资源削平强藩，但成效具有阶段性；李愬雪夜入蔡州作为战役节点暂不另立实体。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "宪宗本纪、吴元济传",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "宪宗本纪、裴度传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "pei-du",
+      "name": "裴度",
+      "display": "裴度",
+      "birth": 765,
+      "birthAccuracy": "exact",
+      "death": 839,
+      "deathAccuracy": "exact",
+      "title": "晋国公，主淮西之役，四朝元老",
+      "bio": "河东闻喜人，贞元进士。元和十年拜相，力主讨淮西，宰相武元衡既被贼刺杀，度亦遇刺于通化坊，三日后再入朝，宪宗曰「吾用度一人，足破此贼」。十二年督师，李愬雪夜入蔡州，淮西遂平。历事宪、穆、敬、文四朝，威望德业侔于郭子仪。开成四年卒于长安，年七十六。",
+      "tags": [
+        "唐",
+        "元和中兴"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-yuan-ji",
+      "name": "吴元济",
+      "display": "吴元济",
+      "birth": 783,
+      "birthAccuracy": "exact",
+      "death": 817,
+      "deathAccuracy": "exact",
+      "title": "元和十二年斩于独柳，年三十五",
+      "bio": "淮西吴少阳之子，据蔡州拒命。元和十二年十一月李愬入蔡，俘至京师斩于独柳，年三十五。",
+      "tags": [
+        "唐",
+        "藩镇"
+      ],
+      "categories": [
+        "rebel",
+        "warlord"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

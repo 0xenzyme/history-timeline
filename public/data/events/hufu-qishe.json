@@ -1,0 +1,62 @@
+{
+  "id": "hufu-qishe",
+  "name": "胡服骑射",
+  "display": "胡服骑射",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -307,
+  "yearAccuracy": "exact",
+  "yearNote": "赵武灵王十九年（前307）春正月大朝信宫议胡服，「今吾將胡服騎射以教百姓」（《史记·赵世家》）；《通鉴》卷三同系此年。",
+  "polity": [
+    "zhao"
+  ],
+  "people": [
+    "zhao-yong"
+  ],
+  "aliases": [
+    "赵武灵王胡服骑射"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "赵武灵王十九年（前307）春正月大朝信宫，力排众议令将士胡服、习骑射，北略中山、西略胡地。华夏政权首次系统性改穿胡服建立骑兵，赵国由此跃升为军事强国，为灭中山、拓北疆奠基。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷四十三·赵世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-yong",
+      "name": "赵雍",
+      "display": "赵武灵王",
+      "birthAccuracy": "unknown",
+      "death": -295,
+      "deathAccuracy": "exact",
+      "title": "赵王，胡服骑射",
+      "bio": "胡服骑射，北破林胡、楼烦。传位惠文王，沙丘宫被围饿死。改革发生在条的中段，死亡在自己让出的王位之后。",
+      "tags": [
+        "赵国",
+        "胡服骑射"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

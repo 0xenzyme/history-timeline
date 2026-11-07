@@ -1,0 +1,48 @@
+{
+  "id": "muye-zhizhan",
+  "name": "牧野之战",
+  "display": "牧野之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -1046,
+  "yearAccuracy": "disputed",
+  "yearNote": "主流断代工程取前1046，另有前1045、前1044及前1027等方案。",
+  "place": "牧野",
+  "placeNow": "今河南新乡、淇县一带",
+  "belligerents": [
+    "zhou",
+    "shang"
+  ],
+  "aliases": [
+    "武王伐纣",
+    "武王克商"
+  ],
+  "dynasties": [
+    "shang",
+    "western-zhou"
+  ],
+  "desc": "周武王联军在牧野击败商纣军，商王朝终结，周取得天下。牧野年代依历法换算存在争议，古书中的兵力数字带有夸张成分。",
+  "sources": [
+    {
+      "work": "尚書",
+      "part": "牧誓",
+      "kind": "classic"
+    },
+    {
+      "work": "逸周書",
+      "part": "卷四·世俘",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [],
+  "collections": []
+}

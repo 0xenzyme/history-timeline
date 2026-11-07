@@ -1,0 +1,81 @@
+{
+  "id": "meng-zhixiang",
+  "name": "孟知祥",
+  "display": "后蜀高祖",
+  "birth": 874,
+  "birthAccuracy": "approx",
+  "death": 934,
+  "deathAccuracy": "exact",
+  "birthNote": "明德元年七月崩于成都，年六十一，上推生年。",
+  "title": "后蜀高祖，以留后而帝西川",
+  "bio": "邢州龙冈人，李克用之婿。庄宗灭蜀，以为西川行营招抚使，既入蜀，收用故将，恩威并行，渐成割据。同光之乱不复问中原，明宗不能制，累封蜀王。长兴末即皇帝位，未几而崩。",
+  "tags": [
+    "十国",
+    "后蜀"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "shiguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "meng-chang",
+      "target": "meng-zhixiang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，后蜀二主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houshu-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "houtang-mie-qianshu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mengzhixiang-chengdi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "新五代史",
+      "part": "后蜀世家",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "后蜀",
+      "kind": "classic"
+    }
+  ]
+}

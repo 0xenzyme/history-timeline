@@ -1,0 +1,108 @@
+{
+  "id": "yehuling-zhizhan",
+  "name": "野狐岭之战",
+  "display": "野狐岭之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1211,
+  "yearAccuracy": "exact",
+  "place": "野狐岭",
+  "placeNow": "今河北张家口张北县境",
+  "belligerents": [
+    "jin-chao",
+    "mongol"
+  ],
+  "commanders": [
+    {
+      "id": "tie-mu-zhen",
+      "side": "mongol"
+    },
+    {
+      "id": "mu-huali",
+      "side": "mongol"
+    }
+  ],
+  "result": "蒙古大破金军，金朝精锐尽失，自此由攻转守",
+  "parent": "mengjin-zhanzheng",
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "1211 年八月，成吉思汗率蒙古军南下，金以完颜承裕统兵拒战于野狐岭。蒙古军集中兵力突破一点，金军主力溃败，死者蔽野，河北以北遂无险可守。此战是蒙金战争的第一场决定性会战：金朝的野战力量一朝丧尽，此后只能婴城自守，中都震动，迁都之议遂起。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卫绍王本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tie-mu-zhen",
+      "name": "铁木真",
+      "display": "铁木真",
+      "birth": 1162,
+      "birthAccuracy": "exact",
+      "death": 1227,
+      "deathAccuracy": "exact",
+      "title": "成吉思汗，蒙古帝国的缔造者",
+      "bio": "孛儿只斤氏，统一漠北诸部，1206 年称成吉思汗，建大蒙古国；西征花剌子模，破西夏，覆金半壁。丁亥年七月卒于六盘山，后追尊为元太祖。",
+      "tags": [
+        "元",
+        "蒙古"
+      ],
+      "categories": [
+        "outsider",
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "mu-huali",
+      "name": "木华黎",
+      "display": "木华黎",
+      "birth": 1170,
+      "birthAccuracy": "exact",
+      "death": 1223,
+      "deathAccuracy": "exact",
+      "title": "太师国王，专征中原",
+      "bio": "札剌儿氏，成吉思汗四杰之首。封太师国王，受命专征，用降将、行汉法而略定河北河东；1223 年卒于闻喜，年五十四。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

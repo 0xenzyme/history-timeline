@@ -1,0 +1,58 @@
+{
+  "id": "hao-chu-jun",
+  "name": "郝处俊",
+  "display": "郝处俊",
+  "birth": 607,
+  "birthAccuracy": "exact",
+  "death": 681,
+  "deathAccuracy": "exact",
+  "title": "开耀元年薨，年七十五",
+  "bio": "高宗朝为相，后迁太子少保。开耀元年薨，年七十五。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "hao-chu-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载675至681年在任，开耀元年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郝处俊"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "郝处俊传",
+      "kind": "classic"
+    }
+  ]
+}

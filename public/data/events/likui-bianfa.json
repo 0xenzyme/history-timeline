@@ -1,0 +1,73 @@
+{
+  "id": "likui-bianfa",
+  "name": "李悝变法",
+  "display": "李悝变法",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -445,
+  "yearAccuracy": "approx",
+  "yearNote": "变法起讫史无明文：学界通说以魏文侯即位（前445）任用李悝为起点，约前400渐次定型；《史记·平準書》作「魏用李克，盡地力，為彊君」，李克/李悝名称之辨是学术公案。《法经》为成文法典之祖。",
+  "endYear": -400,
+  "endYearAccuracy": "approx",
+  "endYearNote": "终年据：变法起讫史无明文：学界通说以魏文侯即位（前445）任用李悝为起点，约前400渐次定型；《史记·平準書》作「魏用李克，盡地",
+  "polity": [
+    "wei-zhanguo"
+  ],
+  "people": [
+    "wei-wenhou"
+  ],
+  "aliases": [
+    "李悝变法（魏）",
+    "李克变法",
+    "著《法经》"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "魏文侯任李悝为相，推行「食有劳而禄有功」、尽地力之教与平籴法，并著《法经》六篇，为成文法典之祖。魏国由此首强于诸侯，其法后来经商鞅携入秦，成为秦律蓝本。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷三十·平准书",
+      "kind": "classic"
+    },
+    {
+      "work": "通识读本：李悝变法条目",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wei-wenhou",
+      "name": "魏文侯",
+      "display": "魏文侯",
+      "birthAccuracy": "unknown",
+      "death": -396,
+      "deathAccuracy": "disputed",
+      "deathNote": "文侯卒年内证矛盾：魏世家在位年与六国年表有出入。年份从通行说前396年，标disputed。",
+      "title": "魏侯，三家受命之首",
+      "bio": "三家之首：礼贤下士，用李悝、翟璜，乐羊伐中山，吴起守西河，前403与韩赵同受周威烈王命为诸侯——轴上的三家分晋系在他受命。魏最先强，变法、合纵两章都能回溯到他的朝廷。",
+      "tags": [
+        "魏国",
+        "礼贤",
+        "变法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

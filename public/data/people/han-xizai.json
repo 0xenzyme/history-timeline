@@ -1,0 +1,74 @@
+{
+  "id": "han-xizai",
+  "name": "韩熙载",
+  "display": "韩熙载",
+  "birth": 902,
+  "birthAccuracy": "approx",
+  "death": 970,
+  "deathAccuracy": "exact",
+  "birthNote": "开宝三年七月卒于金陵，年六十九，上推生年。",
+  "title": "夜宴图里的北望人",
+  "bio": "潍州北海人，字叔通。少负才名，北人南奔者推为冠，献策请取中原，元宗不能用。久掌诰命，屡历大任而坐党；后主朝纵酒自晦，帝欲相之，遣顾闳中夜宴图察其放达，卒不予相。开宝三年卒。",
+  "tags": [
+    "十国",
+    "南唐"
+  ],
+  "categories": [
+    "minister",
+    "literature"
+  ],
+  "primary": "minister",
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu-937",
+      "target": "han-xizai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "欲相之而遣夜宴图察其放达"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "feng-yansi",
+      "target": "han-xizai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "江左词坛两雄"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "十国春秋",
+      "part": "南唐",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "南唐世家",
+      "kind": "classic"
+    }
+  ]
+}

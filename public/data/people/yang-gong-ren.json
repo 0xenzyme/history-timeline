@@ -1,0 +1,57 @@
+{
+  "id": "yang-gong-ren",
+  "name": "杨恭仁",
+  "display": "杨恭仁",
+  "birthAccuracy": "unknown",
+  "death": 639,
+  "deathAccuracy": "exact",
+  "title": "贞观十三年卒",
+  "bio": "武德初遥领纳言。后以老病乞骸骨，贞观十三年卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "yang-gong-ren",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武德初遥领纳言，贞观十三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杨恭仁"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "杨恭仁传",
+      "kind": "classic"
+    }
+  ]
+}

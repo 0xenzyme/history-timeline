@@ -1,0 +1,91 @@
+{
+  "id": "qu-yuan",
+  "name": "屈平",
+  "display": "屈原",
+  "birth": -340,
+  "birthAccuracy": "approx",
+  "death": -278,
+  "deathAccuracy": "approx",
+  "birthNote": "生卒皆为后人所系，约怀王、顷襄王之世。",
+  "deathNote": "传统系于顷襄王时投汨罗，约前 278 年。",
+  "title": "楚三闾大夫，《离骚》作者",
+  "bio": "楚贵族。联齐抗秦，被谗见疏。怀王入秦不返，他作《离骚》，后投汨罗。士人泳道上，这条文学的条对着张仪的连横。",
+  "tags": [
+    "楚国",
+    "离骚"
+  ],
+  "categories": [
+    "scholar"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qu-yuan",
+      "target": "zhang-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "欺楚绝齐，屈原主联齐"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "qu-yuan",
+      "target": "xiong-huai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "怀王左徒，主联齐被疏，放逐江南而投汨罗"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-qingxiangwang",
+      "target": "qu-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顷襄王复放屈原于江南；前278年郢亡，屈原投汨罗"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "quyuan-chenjiang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "屈原",
+    "正则"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "屈原贾生列传",
+      "kind": "classic"
+    }
+  ]
+}

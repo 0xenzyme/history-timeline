@@ -1,0 +1,138 @@
+{
+  "id": "dongtujue-zhanzheng",
+  "name": "唐灭东突厥之战",
+  "display": "灭东突厥",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 629,
+  "yearAccuracy": "exact",
+  "endYear": 630,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "tang",
+    "tujue"
+  ],
+  "commanders": [
+    {
+      "id": "li-jing",
+      "side": "tang"
+    },
+    {
+      "id": "xu-shi-ji",
+      "side": "tang"
+    },
+    {
+      "id": "jie-li",
+      "side": "tujue"
+    }
+  ],
+  "people": [
+    "li-jing",
+    "xu-shi-ji",
+    "jie-li"
+  ],
+  "result": "唐军击溃东突厥汗国并俘获颉利可汗，北方边界秩序改组",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "629 至 630 年，唐太宗分遣李靖、李世勣等多路进击东突厥，最终俘获颉利可汗，东突厥汗国覆亡。唐将其核心地域纳入羁縻治理，北方草原与长城之间的政治军事格局由此改变；定襄等具体会战不在本实体中重复拆录。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "太宗本纪上",
+      "kind": "classic"
+    },
+    {
+      "work": "Cambridge History of China",
+      "part": "唐初北方战争相关章节",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-jing",
+      "name": "李靖",
+      "display": "李靖",
+      "birth": 571,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "卫国公，破萧铣、灭突厥，出将入相",
+      "bio": "京兆三原人，姿貌魁秀，通书史，其舅韩擒虎谓之「可与论孙吴者，唯此子」。武德四年平萧铣、辅公祏；贞观四年以三千骁骑夜袭阴山，俘颉利可汗，突厥遂亡；九年破吐谷浑。位至尚书右仆射，阖门自守，不预宾客。贞观二十三年薨，年七十九。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "general",
+        "founding",
+        "military-theory"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xu-shi-ji",
+      "name": "徐世勣",
+      "display": "李勣",
+      "birth": 594,
+      "birthAccuracy": "exact",
+      "death": 669,
+      "deathAccuracy": "exact",
+      "title": "英国公，本姓徐，赐姓李，灭高句丽",
+      "bio": "曹州离狐人，本姓徐，名世勣，字懋功。初从翟让、李密，归唐后赐姓李，避太宗讳单名勣。从平王世充、窦建德、刘黑闼，破薛延陀、高句丽，总章元年拔平壤，高句丽遂亡。为将善抚御，得金帛尽散之士卒。总章二年薨，年七十六，陪葬昭陵。",
+      "tags": [
+        "唐",
+        "高句丽"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jie-li",
+      "name": "颉利可汗",
+      "display": "颉利可汗",
+      "birthAccuracy": "unknown",
+      "death": 634,
+      "deathAccuracy": "exact",
+      "title": "东突厥可汗，贞观八年卒",
+      "bio": "启民可汗之子。贞观四年李靖夜袭定襄，张宝相生擒颉利送长安。太宗授右卫大将军。八年卒，国人焚于灞水之东，谥曰荒。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tujue"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "zhang-xing-cheng",
+  "name": "张行成",
+  "display": "张行成",
+  "birth": 587,
+  "birthAccuracy": "exact",
+  "death": 653,
+  "deathAccuracy": "exact",
+  "title": "永徽四年卒，年六十七",
+  "bio": "高宗朝尚书左仆射。永徽四年九月卒于尚书省，年六十七。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "zhang-xing-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗朝为仆射，永徽四年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "张行成"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "张行成传",
+      "kind": "classic"
+    }
+  ]
+}

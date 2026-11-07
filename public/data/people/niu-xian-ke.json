@@ -1,0 +1,61 @@
+{
+  "id": "niu-xian-ke",
+  "name": "牛仙客",
+  "display": "牛仙客",
+  "birth": 675,
+  "birthAccuracy": "approx",
+  "death": 742,
+  "deathAccuracy": "approx",
+  "birthNote": "卒年六十八。卒年依天宝元年改官名、其年七月卒约取，生年随卒年约计。",
+  "deathNote": "旧唐书作天宝中改官名拜左相，其年七月卒。左相之号始於天宝元年。",
+  "title": "天宝元年七月卒，年六十八",
+  "bio": "以河西节度入相，谨身唯诺。天宝中改官名，拜左相，其年七月卒，年六十八。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor",
+    "general"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "niu-xian-ke",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载736至742年在任，天宝元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "牛仙客"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "牛仙客传",
+      "kind": "classic"
+    }
+  ]
+}

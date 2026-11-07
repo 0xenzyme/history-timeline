@@ -1,0 +1,80 @@
+{
+  "id": "hu-lin-yi",
+  "name": "胡林翼",
+  "display": "胡林翼",
+  "birth": 1812,
+  "birthAccuracy": "exact",
+  "death": 1861,
+  "deathAccuracy": "exact",
+  "title": "抚鄂援湘，与曾并称",
+  "bio": "字贶生，号润芝，湖南益阳人，道光十六年进士。官湖北巡抚，整饬吏治、裕湘军饷源，与曾国藩并称曾胡。1861 年安庆既下，以劳卒于武昌。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "minister",
+    "official",
+    "general"
+  ],
+  "primary": "minister",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xian-feng",
+      "target": "hu-lin-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "湖北巡抚，整饬吏治而裕湘军饷源"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hu-lin-yi",
+      "target": "zeng-guofan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与曾国藩并称曾胡，共定湖北而援湘军"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "hu-lin-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与太平军争武昌、九江"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "胡林翼传",
+      "kind": "classic"
+    }
+  ]
+}

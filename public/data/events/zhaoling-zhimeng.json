@@ -1,0 +1,133 @@
+{
+  "id": "zhaoling-zhimeng",
+  "name": "召陵之盟",
+  "display": "召陵之盟",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -656,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·僖公四年》諸侯侵蔡蔡潰、遂伐楚次於陘，「楚屈完來盟於師，盟於召陵」；《史記·秦本紀》繆公四年「其歲，齊桓公伐楚，至邵陵」。僖公四年＝前656。",
+  "place": "召陵",
+  "placeNow": "今河南省漯河市召陵区（郾城东）",
+  "polity": [
+    "qi",
+    "chu"
+  ],
+  "people": [
+    "jiang-xiaobai",
+    "guan-zhong",
+    "xiong-yun"
+  ],
+  "aliases": [
+    "齐桓公伐楚盟于召陵",
+    "屈完及诸侯盟",
+    "包茅之贡"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "齐率鲁宋陈卫郑许曹八国之师侵蔡伐楚，次于陉；楚使问「君处北海，寡人处南海」，管仲以「包茅不入，王祭不共」对；齐侯陈诸侯之师，屈完对「楚国方城以为城，汉水以为池」，齐退舍礼楚，与楚盟于召陵。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷11",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷005·秦本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷032·齊太公世家",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義 卷11（僖公四年）",
+      "part": "僖公四年經傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·齊太公世家",
+      "part": "桓公三十年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jiang-xiaobai",
+      "name": "姜小白",
+      "display": "齐桓公",
+      "birthAccuracy": "unknown",
+      "death": -643,
+      "deathAccuracy": "exact",
+      "title": "春秋首霸",
+      "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
+      "tags": [
+        "齐国"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guan-zhong",
+      "name": "管夷吾",
+      "display": "管仲",
+      "birthAccuracy": "unknown",
+      "death": -645,
+      "deathAccuracy": "exact",
+      "title": "齐桓公相",
+      "bio": "颍上人。鲍叔牙囚中荐之。相齐四十年，富国强兵，尊王攘夷。桓公的条有多长，他的条几乎就有多长。",
+      "tags": [
+        "齐国",
+        "改革"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiong-yun",
+      "name": "熊恽",
+      "display": "楚成王",
+      "birthAccuracy": "unknown",
+      "death": -626,
+      "deathAccuracy": "exact",
+      "deathNote": "楚世家：四十六年冬十月丁未，成王自绞杀。同篇把泓之战写在三十四年。专题此战为前638年，四十六年即前626年。",
+      "title": "泓之战败宋，四十六年自缢",
+      "bio": "楚成王。三十四年在泓击败宋襄公。城濮战败后诛子玉。四十六年冬十月被太子商臣围困，自缢。",
+      "tags": [
+        "楚国",
+        "泓之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

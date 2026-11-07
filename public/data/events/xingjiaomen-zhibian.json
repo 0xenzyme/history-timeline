@@ -1,0 +1,126 @@
+{
+  "id": "xingjiaomen-zhibian",
+  "name": "兴教门之变",
+  "display": "兴教门之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 926,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系同光四年四月，从马直军乱，郭从谦焚兴教门，庄宗中流矢殂；公历926。",
+  "place": "洛阳",
+  "polity": [
+    "hou-tang"
+  ],
+  "people": [
+    "li-cunxu",
+    "guo-congqian",
+    "li-siyuan"
+  ],
+  "result": "庄宗死于兴教门，李嗣源入洛继位；后唐自盛而衰之转。",
+  "aliases": [
+    "wudai-926"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "同光四年四月，从马直指挥使郭从谦因军乱，焚兴教门，庄宗李存勖中流矢，崩于绛霄殿。初，庄宗擅乐律，宠伶人，伶人以次踞节度之贵，宿将皆切齿；又属诸军将校，虑祸及己，人人莫能自固。李嗣源时典亲军，为军众所推，入洛称监国，寻即帝位。欧阳修作伶官传，以一夫夜呼、乱者四应记之，以为忧劳可以兴国、逸豫可以亡身之戒。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后唐纪·同光四年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "庄宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "伶官传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "birth": 885,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guo-congqian",
+      "name": "郭从谦",
+      "display": "郭从谦",
+      "birthAccuracy": "unknown",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "兴教门之变的伶人",
+      "bio": "幼隶伶官，艺名镜新，事庄宗为行城使，所部号从马直。庄宗末，从谦与其党谋乱，兴教门一夕纵火行弑。明宗入立，族诛之。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-siyuan",
+      "name": "李嗣源",
+      "display": "后唐明宗",
+      "birth": 867,
+      "birthAccuracy": "approx",
+      "death": 933,
+      "deathAccuracy": "exact",
+      "birthNote": "长兴四年十一月崩于洛阳，年六十七，上推生年。",
+      "title": "后唐明宗，起于乱军，粗致小康",
+      "bio": "沙陀人，事李克用为骑将，斗绝一隅，战功居最，庄宗以为蕃汉内外马步副总管。同光四年从思乱之兵入洛监国，旋即位。性俭素不识字，每登殿祝曰\"某蕃人，中原不可理，愿天生圣人，为百姓主子\"；诛聚敛之臣，省事息兵，年谷粗登，中土小安。末年秦王争立，忧愤而崩。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

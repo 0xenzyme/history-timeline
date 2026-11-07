@@ -1,0 +1,58 @@
+{
+  "id": "gao-zhi-zhou",
+  "name": "高智周",
+  "display": "高智周",
+  "birth": 602,
+  "birthAccuracy": "exact",
+  "death": 683,
+  "deathAccuracy": "exact",
+  "title": "永淳二年卒，年八十二",
+  "bio": "高宗朝同中书门下三品，后请致仕。永淳二年十月卒于家，年八十二。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "gao-zhi-zhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载676至679年在任，永淳二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高智周"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高智周传",
+      "kind": "classic"
+    }
+  ]
+}

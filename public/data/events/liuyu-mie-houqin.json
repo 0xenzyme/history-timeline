@@ -1,0 +1,153 @@
+{
+  "id": "liuyu-mie-houqin",
+  "name": "刘裕灭后秦之战",
+  "display": "刘裕灭后秦之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": 416,
+  "yearAccuracy": "exact",
+  "yearNote": "东晋义熙十二年（416）秋八月刘裕出师伐后秦（《晋书·安帝纪》）；《十六国春秋·后秦录》记晋相刘裕总大军伐泓次彭城。中国纪年口径。",
+  "endYear": 417,
+  "endYearAccuracy": "exact",
+  "endYearNote": "义熙十三年（417）秋七月刘裕克长安、执姚泓（《晋书·安帝纪》）；《十六国春秋·后秦录》九月记送泓于建康市戮之。克长安月分纪录七月与《后秦录》/通鉴系统八月小异，年份417无异。",
+  "belligerents": [
+    "jin",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "liu-yu",
+      "side": "jin"
+    },
+    {
+      "id": "yao-hong",
+      "side": "shiliuguo"
+    }
+  ],
+  "people": [
+    "liu-yu",
+    "yao-xing",
+    "yao-hong"
+  ],
+  "result": "后秦灭亡，姚泓被执送建康；次年关中旋失于赫连勃勃，刘裕威望大增，为其代晋张本",
+  "aliases": [
+    "刘裕伐后秦",
+    "义熙北伐（后秦之役）"
+  ],
+  "tags": [
+    "war",
+    "北伐",
+    "灭国"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "义熙十二年（416）八月刘裕自建康誓师伐后秦，先取洛阳；王镇恶、檀道济入自淮肥，次年三月破姚绍于潼关，七月克长安，执后秦主姚泓送建康斩之。后秦灭亡，但刘裕南归后关中即失于赫连勃勃；此役为刘裕代晋铺平道路。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷十",
+      "kind": "classic"
+    },
+    {
+      "work": "十六国春秋",
+      "part": "卷五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-yu",
+      "name": "刘裕",
+      "display": "宋武帝刘裕",
+      "birth": 363,
+      "birthAccuracy": "exact",
+      "death": 422,
+      "deathAccuracy": "exact",
+      "title": "北府将出身，灭南燕后秦，代晋建宋",
+      "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+      "tags": [
+        "东晋",
+        "南朝"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin",
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yao-xing",
+      "name": "姚兴",
+      "display": "姚兴",
+      "birth": 366,
+      "birthAccuracy": "approx",
+      "death": 416,
+      "deathAccuracy": "exact",
+      "birthNote": "义熙十二年（416）死，年五十一，虚岁上推生年。",
+      "title": "后秦之主，弘法译经而守成",
+      "bio": "姚苌太子，字子略。秘苌之丧而先灭苻登，取洛阳，诸郡县降附，后秦之盛极于此时。迎高僧译经长安，兴立学官。义熙十二年寝疾，幼子弼作乱攻端门，兴力疾临前殿赐弼死，数日而崩，时年五十一。明年泓为刘裕所灭。",
+      "tags": [
+        "十六国",
+        "后秦",
+        "羌"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yao-hong",
+      "name": "姚泓",
+      "display": "姚泓",
+      "birth": 388,
+      "birthAccuracy": "approx",
+      "death": 417,
+      "deathAccuracy": "exact",
+      "birthNote": "义熙十三年（417）送建康市斩之，时年三十，虚岁上推生年。",
+      "title": "后秦末主，长安城破送建康市",
+      "bio": "姚兴长子。仁弱而无断，亲任姚绍，抚诸弟以恩，然赫连勃勃内侵，晋军西讨，诸子相疑。义熙十三年刘裕克长安，泓计无所出，欲降，其子佛念年十一劝自裁而不从，遂将妻子诣垒门降，送建康市斩之，时年三十，在位二年，后秦亡。",
+      "tags": [
+        "十六国",
+        "后秦",
+        "羌"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

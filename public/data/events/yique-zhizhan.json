@@ -1,0 +1,84 @@
+{
+  "id": "yique-zhizhan",
+  "name": "伊阙之战",
+  "display": "伊阙之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -293,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷4赧王二十二年（前293）；史记·秦本纪昭王十四年、白起列传『其明年』、韩世家釐王三年互证，三处同年。",
+  "place": "伊阙",
+  "placeNow": "今河南省洛阳市洛龙区龙门（伊阙故地）",
+  "belligerents": [
+    "qin",
+    "han-guo",
+    "wei-zhanguo",
+    "zhou"
+  ],
+  "commanders": [
+    {
+      "id": "bai-qi",
+      "side": "qin"
+    }
+  ],
+  "result": "白起大破韩魏联军，斩首二十四万，魏将公孙喜被俘",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "韩魏（韩世家明言『率周、魏攻秦』，即东周军亦在联军）攻秦，穰侯魏冉荐白起代向寿为将。白起以少胜多，于伊阙破韩魏联军，斩首二十四万，虏公孙喜，拔五城，白起迁国尉。韩材士、魏武卒精锐尽丧，韩魏自此不能单独抗秦。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷五·秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷四十五·韩世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷七十三·白起王翦列传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "bai-qi",
+      "name": "白起",
+      "display": "白起",
+      "birthAccuracy": "unknown",
+      "death": -257,
+      "deathAccuracy": "exact",
+      "title": "秦将，武安君，坑杀长平",
+      "bio": "郿人。拔郢、烧夷陵，长平坑赵卒。不肯再将围邯郸，昭王赐死。战国最陡的一条武将条，停在邯郸未下之年。",
+      "tags": [
+        "秦国",
+        "长平"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

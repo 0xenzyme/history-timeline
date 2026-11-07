@@ -1,0 +1,67 @@
+{
+  "id": "wang-meng",
+  "name": "王猛",
+  "display": "王猛",
+  "birth": 325,
+  "birthAccuracy": "exact",
+  "death": 375,
+  "deathAccuracy": "exact",
+  "title": "前秦丞相，一岁五迁，临终止伐晋",
+  "bio": "北海剧人，少贫贱，鬻畚为业，博学好兵书。与苻坚一见若旧，一岁五迁，为丞相、中书监、尚书令。治秦二十余年，国富兵强，史称关陇清晏，百姓丰乐。宁康三年卒，年五十一，临终言晋不可伐，鲜卑、羌宜渐除，坚不能用而败。",
+  "tags": [
+    "十六国",
+    "前秦"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "wang-meng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王猛辅坚，治前秦近乎小康"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huanwen-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "王猛",
+    "王景略"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "王猛载记",
+      "kind": "classic"
+    }
+  ]
+}

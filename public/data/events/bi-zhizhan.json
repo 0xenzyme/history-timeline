@@ -1,0 +1,90 @@
+{
+  "id": "bi-zhizhan",
+  "name": "邲之战",
+  "display": "邲之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -597,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·宣公十二年》「夏，六月，乙卯，晉荀林父帥師及楚子戰於邲，晉師敗績」；《史記·晉世家》景公三年（前597）。宣公十二年＝前597。",
+  "place": "邲",
+  "placeNow": "今河南荥阳市东北（郑州北，杜注「邲，鄭地」）",
+  "belligerents": [
+    "jin-guo",
+    "chu"
+  ],
+  "commanders": [
+    {
+      "id": "mi-lv",
+      "side": "chu"
+    },
+    {
+      "id": "xian-hu",
+      "side": "jin-guo"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "楚庄王围郑，郑降（郑伯肉袒）；晋荀林父帅三军救郑，先縠违命度河，楚遂战于邲，晋军大败，争舟渡河、中指可掬；楚庄王不肯为京观，言「止戈为武」，由此称霸。晋将智罃被楚俘。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷23",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "mi-lv",
+      "name": "芈侣",
+      "display": "楚庄王",
+      "birthAccuracy": "unknown",
+      "death": -591,
+      "deathAccuracy": "exact",
+      "title": "楚国霸主，问鼎中原",
+      "bio": "即位三年不出，后一鸣惊人。邲之战败晋，观兵周疆、问鼎之轻。春秋霸业从齐晋转到南楚，他的条是转折点。",
+      "tags": [
+        "楚国",
+        "邲之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xian-hu",
+      "name": "先縠",
+      "display": "先縠",
+      "birthAccuracy": "unknown",
+      "death": -596,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经·宣公十三年「晉殺其大夫先縠」（前596）。邲之败后晋讨其罪，尽灭其族。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

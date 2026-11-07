@@ -1,0 +1,36 @@
+{
+  "id": "lao-di-sha",
+  "name": "老的沙",
+  "display": "老的沙",
+  "birthAccuracy": "unknown",
+  "death": 1365,
+  "deathAccuracy": "exact",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷113·宰相年表二",
+      "kind": "classic"
+    },
+    {
+      "work": "元史",
+      "part": "卷045·顺帝八；卷046·顺帝九",
+      "kind": "classic"
+    }
+  ]
+}

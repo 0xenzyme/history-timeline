@@ -1,0 +1,57 @@
+{
+  "id": "wu-han",
+  "name": "吴汉",
+  "display": "吴汉",
+  "birthAccuracy": "unknown",
+  "death": 44,
+  "deathAccuracy": "exact",
+  "title": "云台将，广阿突骑，平蜀而还",
+  "bio": "南阳宛人，以贩马为业，亡命渔阳。说彭宠以突骑归光武，遂为征战之冠。北定幽州，西破公孙述于成都。质性厚重，临战勃勃，光武称其「差强人意」。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "general",
+    "founding"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xiu",
+      "target": "wu-han",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "云台将，战功居首"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "吴汉",
+    "广平侯"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "吴盖陈臧列传",
+      "kind": "classic"
+    }
+  ]
+}

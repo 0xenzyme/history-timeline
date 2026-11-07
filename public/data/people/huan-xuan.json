@@ -1,0 +1,154 @@
+{
+  "id": "huan-xuan",
+  "name": "桓玄",
+  "display": "桓玄",
+  "birth": 369,
+  "birthAccuracy": "exact",
+  "death": 404,
+  "deathAccuracy": "exact",
+  "title": "桓温之子，篡晋建楚，为刘裕所败",
+  "bio": "谯国龙亢人，桓温少子。以父威据荆州，元兴元年举兵入建康，杀司马道子父子，明年废安帝自立，国号楚。性贪鄙好奇异，好书画珠玉不离手。刘裕与刘毅、何无忌起京口，玄西奔江陵，为益州督护冯迁所斩，年三十六。晋室因之复，而政归刘裕。",
+  "tags": [
+    "东晋",
+    "篡晋"
+  ],
+  "categories": [
+    "monarch",
+    "rebel",
+    "regent"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huan-wen",
+      "target": "huan-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，玄篡晋建楚"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "liu-yu",
+      "type": "rival",
+      "directed": false,
+      "since": 404,
+      "notes": [
+        "起兵诛玄，复晋室"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "sima-dezong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元兴二年玄废安帝自立，次年裕起兵迎帝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "liu-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "峥嵘洲纵火破玄"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "wang-gong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "两次连兵向阙，推恭为盟主"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "yin-zhongkan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "玄袭江陵，仲堪被执逼死柞溪"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "liu-laozhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "一人三反，终缢于新洲"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "sima-daozi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "玄入建康，徙之安成而鸩杀"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huanxuan-cuanwei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "桓玄",
+    "桓敬道",
+    "桓灵宝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "桓玄传",
+      "kind": "classic"
+    }
+  ]
+}

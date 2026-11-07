@@ -1,0 +1,75 @@
+{
+  "id": "murong-de",
+  "name": "慕容德",
+  "display": "慕容德",
+  "birth": 336,
+  "birthAccuracy": "approx",
+  "death": 405,
+  "deathAccuracy": "exact",
+  "birthNote": "义熙元年（405）死，年七十，虚岁上推生年。",
+  "title": "南燕之祖，潜葬山谷的献武帝",
+  "bio": "慕容皝少子，字玄明。魏军南下，邺城不守，率户四万南徙滑台称燕王，遂据青齐，都广固，僭即皇帝位，史称南燕。讲武于城西，立学官。义熙元年梦其父戒立超为太子，其月而死，时年七十，夜为十余棺分出四门，潜葬山谷，竟不知尸之所在。",
+  "tags": [
+    "十六国",
+    "南燕",
+    "慕容"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "murong-de",
+      "target": "murong-huang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。德南徙广固建南燕"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "murong-chao",
+      "target": "murong-de",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄。德无子，立超为太子"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "慕容德",
+    "慕容玄明"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "慕容德载记",
+      "kind": "classic"
+    }
+  ]
+}

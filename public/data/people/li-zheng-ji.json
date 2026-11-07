@@ -1,0 +1,58 @@
+{
+  "id": "li-zheng-ji",
+  "name": "李正己",
+  "display": "李正己",
+  "birthAccuracy": "unknown",
+  "death": 781,
+  "deathAccuracy": "exact",
+  "title": "淄青节度，建中二年卒",
+  "bio": "高丽人，本名怀玉，生于平卢。建中初与田悦、梁崇义同反。二年卒，子纳秘不发丧，仍统其众。",
+  "tags": [
+    "唐",
+    "藩镇"
+  ],
+  "categories": [
+    "warlord"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "li-zheng-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "建中二年卒，子纳秘不发丧"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李正己",
+    "李怀玉"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李正己传",
+      "kind": "classic"
+    }
+  ]
+}

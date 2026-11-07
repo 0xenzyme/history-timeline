@@ -1,0 +1,60 @@
+{
+  "id": "ge-hong",
+  "name": "葛洪",
+  "display": "葛洪",
+  "birth": 283,
+  "birthAccuracy": "exact",
+  "death": 363,
+  "deathAccuracy": "exact",
+  "title": "句漏令，抱朴子，炼丹与医药",
+  "bio": "丹阳句容人，葛玄从孙。少好学，家贫，伐薪以贸纸笔，兼综练医术。以军功封关内侯，闻交趾出丹，求为句漏令，止罗浮山炼丹，著《抱朴子》内外篇、《肘后备急方》，言神仙方药、鬼怪变化、养生延年。卒年八十一。",
+  "tags": [
+    "东晋"
+  ],
+  "categories": [
+    "daoism",
+    "medicine"
+  ],
+  "primary": "daoism",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "wen"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-rui",
+      "target": "ge-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元帝时以功赐爵关内侯；后隐居罗浮山，著《抱朴子》"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "葛洪",
+    "葛稚川",
+    "抱朴子"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "葛洪传",
+      "kind": "classic"
+    }
+  ]
+}

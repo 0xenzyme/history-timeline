@@ -1,0 +1,124 @@
+{
+  "id": "fengxiang-zhibian",
+  "name": "凤翔之变",
+  "display": "凤翔之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": 934,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷279系应顺元年（934）：二月己卯徙潞王从珂镇河东激变，三月五镇合兵围凤翔、潞王登城泣诉、诸军倒戈；四月癸酉太后废少帝为鄂王、甲戌令潞王即位、乙亥即位于柩前；旧五代史卷46同（\"乙亥，监国赴西宫，柩前告奠即位\"）。事件跨二至四月，用单年 point（year=934），跨月折叠于此。",
+  "polity": [
+    "wudai"
+  ],
+  "people": [
+    "li-congke",
+    "li-conghou",
+    "shi-jingtang"
+  ],
+  "result": "李从珂以凤翔起兵废闵帝自立为后唐末帝，后唐朝廷权威崩解，直接引发次年石敬瑭举兵引契丹南下。",
+  "aliases": [
+    "潞王夺位",
+    "李从珂即位",
+    "末帝入洛"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "934 年二月己卯，后唐徙潞王李从珂镇河东，激成兵变；三月五镇合兵围凤翔，讨伐军倒戈。四月癸酉太后废闵帝李从厚为鄂王，甲戌令潞王即位，乙亥李从珂柩前即位，是为末帝。后唐朝廷权威崩解，直接引发次年石敬瑭举兵引契丹南下。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷279",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷46",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-congke",
+      "name": "李从珂",
+      "display": "唐废帝",
+      "birthAccuracy": "unknown",
+      "death": 937,
+      "deathAccuracy": "exact",
+      "title": "后唐废帝，玄武楼自焚",
+      "bio": "镇州所掠孺子，本姓王，明宗爱之以为子，从征伐有勇名。闵帝立，惧不见容，起兵入洛自立。以石敬瑭肘腋之患致兵河东，契丹主德光来援，晋阳兵入洛，从珂携传国宝登玄武楼自焚，后唐亡。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-conghou",
+      "name": "李从厚",
+      "display": "唐闵帝",
+      "birth": 914,
+      "birthAccuracy": "approx",
+      "death": 934,
+      "deathAccuracy": "exact",
+      "birthNote": "应顺元年遇弑于卫州，年二十一，上推生年。",
+      "title": "闵帝少年立位，五月而奔",
+      "bio": "明宗第三子，长兴四年即位，柄在枢近。应顺元年疑李从珂，移镇不成，凤翔兵起，东奔卫州，为从珂所执，寻遇弑。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-jingtang",
+      "name": "石敬瑭",
+      "display": "后晋高祖",
+      "birth": 892,
+      "birthAccuracy": "exact",
+      "death": 942,
+      "deathAccuracy": "exact",
+      "title": "后晋高祖，割燕云称儿皇帝",
+      "bio": "沙陀人，事明宗为子婿，谨愿善骑射，佐唐伐梁，位至河东节度使、中书令。废帝疑之，举兵太原，表称臣于契丹，请割卢龙雁门以北，德光自将来援，天显十一年立晋，迁都汴。六年之中仰事契丹，疽发背而殂。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

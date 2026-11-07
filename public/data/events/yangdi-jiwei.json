@@ -1,0 +1,94 @@
+{
+  "id": "yangdi-jiwei",
+  "name": "隋炀帝即位",
+  "display": "隋炀帝即位",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 604,
+  "yearAccuracy": "exact",
+  "yearNote": "仁寿四年七月，文帝崩于大宝殿，杨广即皇帝位；七月折公历为 604 年 8 月。旧说作同年十一月，误，轴年以七月即位为准。",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-guang",
+    "yang-jian"
+  ],
+  "result": "杨广即位，次年改元大业，隋由开皇之治转入大业之役",
+  "aliases": [
+    "杨广即位",
+    "仁寿四年即位"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "仁寿四年（604）七月，隋文帝崩于大宝殿，太子杨广即皇帝位，是为隋炀帝，次年改元大业。即位后旋即营东都、开运河、修长城、通西域，又连年征高句丽，规模远超开皇之世。隋由开皇的积储转向大业的耗用，十余年间财政与民力俱竭，此即由盛转衰的起点。",
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "炀帝纪上",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "高祖纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "birth": 569,
+      "birthAccuracy": "exact",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

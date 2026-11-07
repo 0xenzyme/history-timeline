@@ -1,0 +1,39 @@
+{
+  "id": "qin-aigong",
+  "name": "秦哀公",
+  "display": "秦哀公",
+  "birthAccuracy": "unknown",
+  "death": -501,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·秦本纪「哀公立三十六年卒」。景公卒前537，三十六年得前501。",
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "qin-jiuchu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

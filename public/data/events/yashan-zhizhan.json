@@ -1,0 +1,131 @@
+{
+  "id": "yashan-zhizhan",
+  "name": "崖山海战",
+  "display": "崖山海战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1279,
+  "yearAccuracy": "exact",
+  "yearNote": "年份都是1279。元史把抵达和赴海系于至元十六年正月甲戌。宋史写正月抵达、二月陆秀夫负帝赴海。",
+  "place": "崖山",
+  "belligerents": [
+    "yuan",
+    "song"
+  ],
+  "commanders": [
+    {
+      "id": "zhang-hongfan",
+      "side": "yuan"
+    },
+    {
+      "id": "zhang-shijie",
+      "side": "song"
+    },
+    {
+      "id": "lu-xiufu",
+      "side": "song"
+    }
+  ],
+  "result": "宋末帝赴海，残余朝廷灭亡",
+  "parent": "mengsong-zhanzheng",
+  "aliases": [
+    "崖山之战"
+  ],
+  "dynasties": [
+    "song",
+    "yuan"
+  ],
+  "desc": "1279年，张弘范军至崖山，张世杰来拒，兵败后遁去。陆秀夫负宋末帝赵昺赴海，宋代残余朝廷灭亡。元史把抵达和赴海都系于正月，宋史则写二月赴海。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷十·世祖本纪",
+      "note": "正月甲戌张弘范至崖山，广王与官属赴海死",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷四十七·瀛国公",
+      "note": "二月陆秀夫负赵昺投海",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-hongfan",
+      "name": "张弘范",
+      "display": "张弘范",
+      "birth": 1238,
+      "birthAccuracy": "exact",
+      "death": 1280,
+      "deathAccuracy": "exact",
+      "title": "崖山海战的元军都元帅",
+      "bio": "金降将张柔之子。至元十五年都元帅，破文天祥于五坡岭，崖山一战灭宋，勒石「镇国大将军张弘范灭宋于此」。至元十七年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-shijie",
+      "name": "张世杰",
+      "display": "张世杰",
+      "birthAccuracy": "unknown",
+      "death": 1279,
+      "deathAccuracy": "exact",
+      "title": "崖山结寨的末世都统",
+      "bio": "行伍起家，焦山之战败后扈二王入海。崖山以千舰结寨自守，纵火独走，飓风坏舟，溺死于平章山下。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lu-xiufu",
+      "name": "陆秀夫",
+      "display": "陆秀夫",
+      "birth": 1236,
+      "birthAccuracy": "exact",
+      "death": 1279,
+      "deathAccuracy": "exact",
+      "title": "负帝蹈海的末代左相",
+      "bio": "与文天祥同榜进士。行朝流转海上，犹日书《大学》以励群臣。崖山兵败，以左相负幼帝昺赴海，十万军民从死，年四十四。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "falling"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

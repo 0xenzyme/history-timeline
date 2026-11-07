@@ -1,0 +1,58 @@
+{
+  "id": "quan-de-yu",
+  "name": "权德舆",
+  "display": "权德舆",
+  "birth": 759,
+  "birthAccuracy": "exact",
+  "death": 818,
+  "deathAccuracy": "exact",
+  "title": "元和十三年卒，年六十",
+  "bio": "宪宗朝同平章事。元和十三年八月道卒，年六十。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-chun",
+      "target": "quan-de-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宪宗朝为相，元和十三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "权德舆"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "权德舆传",
+      "kind": "classic"
+    }
+  ]
+}

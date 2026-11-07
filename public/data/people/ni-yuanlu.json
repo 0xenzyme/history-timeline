@@ -1,0 +1,67 @@
+{
+  "id": "ni-yuanlu",
+  "name": "倪元璐",
+  "display": "倪元璐",
+  "birth": 1593,
+  "birthAccuracy": "exact",
+  "death": 1644,
+  "deathAccuracy": "exact",
+  "title": "户部尚书，甲申殉国",
+  "bio": "字玉汝，号鸿宝，浙江上虞人。天启二年进士，崇祯末以户部尚书掌度支，帑藏已尽而征调不已。1644 年大顺军破外城，整衣冠北向再拜，自缢而死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "official",
+    "falling"
+  ],
+  "primary": "official",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "ni-yuanlu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯末以户部尚书掌度支，帑藏已尽而征调不已"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-zicheng",
+      "target": "ni-yuanlu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "大顺军破外城，元璐整衣冠北向再拜而自缢"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "倪元璐传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "hutuo-zhizhan",
+  "name": "滹沱之战",
+  "display": "滹沱之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 946,
+  "yearAccuracy": "exact",
+  "yearNote": "开运三年十一月甲寅晋军至中渡桥与契丹夹滹沱对峙、十二月丙寅杜威举军降（通鉴卷285，通鉴作「中度桥」）；辽史·太宗纪卷4系十一月丙申断河桥、十二月丙寅降，称「率所部二十万众来降」。丙寅降日当公历947年1月上旬，折叠入 yearNote；battle 为 point，不写 endYear。",
+  "place": "中渡桥（滹沱河）",
+  "placeNow": "河北正定一带",
+  "belligerents": [
+    "wudai",
+    "liao"
+  ],
+  "commanders": [
+    {
+      "id": "du-chongwei",
+      "side": "wudai"
+    },
+    {
+      "id": "yelv-deguang",
+      "side": "liao"
+    }
+  ],
+  "result": "杜重威、李守贞率二十万众降契丹，后晋北面主力覆灭，张彦泽旋入汴。",
+  "parent": "qidan-fa-houjin",
+  "aliases": [
+    "中渡桥之战",
+    "滹沱河之战"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "开运三年十一月甲寅，晋军至中渡桥与契丹夹滹沱对峙，通鉴作「中度桥」。十二月丙寅杜重威、李守贞举军降，辽史·太宗纪称「率所部二十万众来降」，此兵数仅见辽史。后晋北面主力覆灭，张彦泽旋入汴，契丹灭晋由此成为定局。张彦泽入汴、晋帝出降的后续归政治线条目。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷285",
+      "kind": "classic"
+    },
+    {
+      "work": "辽史",
+      "part": "卷4",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "du-chongwei",
+      "name": "杜重威",
+      "display": "杜重威",
+      "birthAccuracy": "unknown",
+      "death": 950,
+      "deathAccuracy": "exact",
+      "title": "中渡之降，倾晋二十万之众",
+      "bio": "石氏之甥婿，故位将相。开运末总大军御契丹，顿军都林，粮尽先遣请和，至中渡，举军而降，引德光入汴，晋亡由成。汉初归命，寻以邠州叛，伏诛。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

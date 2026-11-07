@@ -1,0 +1,57 @@
+{
+  "id": "han-hong",
+  "name": "韩弘",
+  "display": "韩弘",
+  "birthAccuracy": "unknown",
+  "death": 823,
+  "deathAccuracy": "exact",
+  "title": "长庆三年卒",
+  "bio": "宣武节度使，元和中入朝为相。长庆三年四月卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-heng-mu",
+      "target": "han-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宪宗朝入朝为相，长庆三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "韩弘"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "韩弘传",
+      "kind": "classic"
+    }
+  ]
+}

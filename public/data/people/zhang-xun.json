@@ -1,0 +1,85 @@
+{
+  "id": "zhang-xun",
+  "name": "张巡",
+  "display": "张巡",
+  "birth": 708,
+  "birthAccuracy": "exact",
+  "death": 757,
+  "deathAccuracy": "exact",
+  "title": "御史中丞，守睢阳十月，城陷而死",
+  "bio": "邓州南阳人，博通群书，晓战阵法。至德二年与许远守睢阳，以六千八百人当尹子琦十余万，大小四百战，粮尽食马，马尽罗雀掘鼠，继以人、以妇孺。凡十月，江、淮赖以保全，而城遂陷。与姚誾、南霁云等三十六人同日遇害，年四十九。",
+  "tags": [
+    "唐",
+    "安史之乱"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "an-lu-shan",
+      "target": "zhang-xun",
+      "type": "rival",
+      "directed": false,
+      "since": 757,
+      "notes": [
+        "睢阳死守，屏障江淮"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "xu-yuan",
+      "target": "zhang-xun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "分城共守睢阳，远让巡主军事"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "anshi-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "suiyang-baowei-zhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "张巡"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "张巡传",
+      "kind": "classic"
+    }
+  ]
+}

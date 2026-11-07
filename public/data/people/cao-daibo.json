@@ -1,0 +1,86 @@
+{
+  "id": "cao-daibo",
+  "name": "姬苏",
+  "display": "曹戴伯",
+  "birthAccuracy": "unknown",
+  "death": -796,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：戴伯元年周宣王已立三岁，三十年卒。元年当 -825，三十年当 -796。",
+  "title": "曹戴伯",
+  "bio": "幽伯之弟。杀幽伯代立。元年周宣王已立三岁。三十年卒。",
+  "tags": [
+    "曹"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "cao-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-daibo",
+      "target": "cao-youbo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。戴伯苏杀幽伯代立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "cao-daibo",
+      "target": "cao-youbo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "弟苏杀幽伯代立，是为戴伯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "cao-daibo",
+      "target": "cao-huibo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "曹戴伯",
+    "公子苏"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管蔡世家",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "kind": "classic"
+    }
+  ]
+}

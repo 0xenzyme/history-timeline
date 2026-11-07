@@ -1,0 +1,103 @@
+{
+  "id": "simazhao-shijun",
+  "name": "司马昭弑帝曹髦",
+  "display": "司马昭弑帝曹髦",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 260,
+  "yearAccuracy": "exact",
+  "yearNote": "三国志·三少帝纪「五月己丑，高貴鄉公卒，年二十」；通鉴卷77系景元元年（260）五月己丑条下载其事，通鉴以六月改元后的景元元年纪年系事。",
+  "place": "洛阳（南阙）",
+  "placeNow": "今河南洛阳",
+  "polity": [
+    "wei"
+  ],
+  "people": [
+    "sima-zhao",
+    "cao-mao"
+  ],
+  "result": "曹髦率殿中宿卫讨司马昭，贾充指使成济弑帝于南阙下；司马昭夷成济三族、立曹奂，弑君之名自此难洗",
+  "aliases": [
+    "甘露之变（260）",
+    "高贵乡公之变",
+    "司马昭弑君"
+  ],
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "260 年五月己丑，魏帝曹髦见威权日去，称「司马昭之心，路人所知也」，率殿中宿卫、苍头官僮讨司马昭。中护军贾充使太子舍人成济抽戈刺帝，殒于南阙下车下。事后太后令废帝为庶人、以民礼葬之，司马昭夷成济三族、更立曹奂。权臣当众弑帝为魏晋禅代叙事的关键节点，弑君之名自此难洗。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷七十七",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·三少帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-zhao",
+      "name": "司马昭",
+      "display": "司马昭",
+      "birth": 211,
+      "birthAccuracy": "exact",
+      "death": 265,
+      "deathAccuracy": "exact",
+      "title": "晋王，弑高贵乡公，灭蜀",
+      "bio": "司马懿次子。继兄专魏政，甘露五年曹髦率兵攻之，贾充使成济抽戈犯跸，髦崩于车下。景元四年遣钟会、邓艾伐蜀，刘禅出降，遂封晋王。咸熙二年薨，年五十五；子炎遂代魏。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "monarch",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-mao",
+      "name": "曹髦",
+      "display": "高贵乡公曹髦",
+      "birth": 241,
+      "birthAccuracy": "exact",
+      "death": 260,
+      "deathAccuracy": "exact",
+      "title": "魏帝，不甘为傀儡而死于车下",
+      "bio": "曹丕孙，东海定王霖之子。司马师废曹芳后立之，年十四。在位而政在司马氏，甘露五年率殿中宿卫出攻司马昭，为贾充所使成济刺死于南阙。死后被废为庶人，高贵乡公之号仍存于史。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

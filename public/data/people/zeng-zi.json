@@ -1,0 +1,63 @@
+{
+  "id": "zeng-zi",
+  "name": "曾参",
+  "display": "曾子",
+  "birth": -505,
+  "birthAccuracy": "approx",
+  "death": -435,
+  "deathAccuracy": "approx",
+  "title": "孔门弟子，以孝著称",
+  "bio": "字子舆。相传《孝经》出其门，并下传子思。宋以后列四配，称宗圣。",
+  "tags": [
+    "孝经",
+    "宗圣"
+  ],
+  "categories": [
+    "confucian"
+  ],
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "zeng-zi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孔门弟子"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    },
+    {
+      "source": "zeng-zi",
+      "target": "zi-si",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "传统道统所记"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [
+    "rujia-chuancheng"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "仲尼弟子列传"
+    }
+  ]
+}

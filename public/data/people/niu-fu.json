@@ -1,0 +1,31 @@
+{
+  "id": "niu-fu",
+  "name": "牛富",
+  "display": "牛富",
+  "birthAccuracy": "unknown",
+  "death": 1273,
+  "deathAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "general"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "度宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

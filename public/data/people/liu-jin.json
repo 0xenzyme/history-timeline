@@ -1,0 +1,67 @@
+{
+  "id": "liu-jin",
+  "name": "刘瑾",
+  "display": "刘瑾",
+  "birth": 1451,
+  "birthAccuracy": "exact",
+  "death": 1510,
+  "deathAccuracy": "exact",
+  "title": "八虎之首",
+  "bio": "陕西兴平人，本姓谈。掌司礼监，号为立皇帝，正德初政出其门; 1510 年张永奏其谋叛，籍没磔于市。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "eunuch"
+  ],
+  "primary": "eunuch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houzhao",
+      "target": "liu-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "八虎之首，正德初政出其门"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "liu-jin",
+      "target": "yang-yiqing",
+      "type": "rival",
+      "directed": false,
+      "since": 1510,
+      "notes": [
+        "与张永共谋，卒诛刘瑾"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "宦官传",
+      "kind": "classic"
+    }
+  ]
+}

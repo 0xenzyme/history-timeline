@@ -1,0 +1,60 @@
+{
+  "id": "gao-changgong",
+  "name": "高长恭",
+  "display": "兰陵王高长恭",
+  "birthAccuracy": "unknown",
+  "death": 573,
+  "deathAccuracy": "exact",
+  "title": "兰陵王，邙山破周军，饮鸩而死",
+  "bio": "渤海蓨人，高澄第四子，封兰陵王。貌柔心壮，音容兼美，常著假面对敌。河清三年邙山之战，以五百骑突入周军，至金墉城下，免胄示面，城中乃出兵夹击，周师大败，武士作《兰陵王入阵曲》歌之。后主忌其威声，武平四年遣使赐鸩，曰「我忠以事上，何辜于天」，遂饮药而卒。",
+  "tags": [
+    "北朝",
+    "北齐"
+  ],
+  "categories": [
+    "royal-kin",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-changgong",
+      "target": "yuwen-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "赐死兰陵王"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高长恭",
+    "高孝瓘",
+    "兰陵王"
+  ],
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "文襄六王传",
+      "kind": "classic"
+    }
+  ]
+}

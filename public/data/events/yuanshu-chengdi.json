@@ -1,0 +1,101 @@
+{
+  "id": "yuanshu-chengdi",
+  "name": "袁术称帝建仲家",
+  "display": "袁术称帝建仲家",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 197,
+  "yearAccuracy": "exact",
+  "yearNote": "后汉书·袁术传系建安二年「因河內張炯符命，遂果僭號，自稱仲家」；通鉴卷62「袁術稱帝於壽春，自稱仲家」。",
+  "place": "寿春",
+  "placeNow": "今安徽寿县",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "yuan-shu",
+    "cao-cao"
+  ],
+  "result": "袁术在寿春僭号称帝置百官，旋即众叛亲离（吕布绝婚、孙策绝交），199年穷亡呕血死",
+  "aliases": [
+    "袁术僭号",
+    "仲家",
+    "仲氏"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "197 年袁术因河内张炯符命，在寿春僭号称帝，自称仲家（各书一作仲氏），以九江太守为淮南尹，置公卿百官、郊祀天地。汉命诸侯多不与通，吕布绝婚、孙策绝交，术旋即众叛亲离。199 年穷途呕血而死；汉末第一个公开称帝者至此出局，各诸侯的政治表态以此为试金石。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "袁术传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuan-shu",
+      "name": "袁术",
+      "display": "袁术",
+      "birthAccuracy": "unknown",
+      "death": 199,
+      "deathAccuracy": "exact",
+      "title": "后将军，僭号仲氏，呕血而死",
+      "bio": "汝南汝阳人，袁绍之弟。据南阳，得孙坚之众，兼有江淮。建安二年得传国玺，僭号于寿春，自称仲家，置公卿百官，郊祀天地。奢侈无度，百姓相食，遂为曹操、吕布、孙策所败，欲归帝号于绍而道绝，愤慨呕血死。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "monarch"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

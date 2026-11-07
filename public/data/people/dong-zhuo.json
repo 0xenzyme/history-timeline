@@ -1,0 +1,112 @@
+{
+  "id": "dong-zhuo",
+  "name": "董卓",
+  "display": "董卓",
+  "birthAccuracy": "unknown",
+  "death": 192,
+  "deathAccuracy": "exact",
+  "title": "相国，废立天子，焚洛阳",
+  "bio": "陇西临洮人，以六郡良家子起。何进召之入京，遂废少帝立献帝，鸩何太后，焚烧洛阳，迁都长安，号为尚父。初平三年为王允、吕布所诛，暴尸于市，脐为灯。汉室的实亡画在这一条上。",
+  "tags": [
+    "东汉",
+    "军阀"
+  ],
+  "categories": [
+    "falling"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dong-zhuo",
+      "target": "he-jin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "何进召卓入京，旋为卓所并"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "liu-bian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "董卓废少帝辩为弘农王，旋鸩杀"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "liu-xie-xiandi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "废辩而立陈留王协"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "wang-yun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "王允密构吕布诛卓"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "he-hou-ling",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "董卓迁她于永安宫，进鸩弑崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dong-zhuo-luan-zheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "董卓",
+    "董太师"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "董卓列传",
+      "kind": "classic"
+    }
+  ]
+}

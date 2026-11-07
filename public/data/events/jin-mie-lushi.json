@@ -1,0 +1,88 @@
+{
+  "id": "jin-mie-lushi",
+  "name": "晋灭赤狄潞氏",
+  "display": "晋灭赤狄潞氏",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -594,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·宣公十五年》「六月，癸卯，晉師滅赤狄潞氏，以潞子嬰兒歸」；《史記·晉世家》景公七年（前593）「晉使隨會滅赤狄」（對應宣公十六年士會滅甲氏、留吁、鐸辰）。宣公十五年＝前594。",
+  "place": "潞氏、曲梁",
+  "placeNow": "今山西潞城市东北（潞）一带",
+  "belligerents": [
+    "jin-guo",
+    "chidi"
+  ],
+  "people": [
+    "jin-jinggong",
+    "feng-shu"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "潞相酆舒杀潞子婴儿之夫人（晋景公之姊），晋景公使荀林父帅师败赤狄于曲梁、灭潞氏，执潞子婴儿归；次年（前593）士会复灭甲氏、留吁、铎辰，赤狄余种尽灭，晋拓地太行东西。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷24",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jin-jinggong",
+      "name": "晋景公",
+      "display": "晋景公",
+      "birthAccuracy": "unknown",
+      "death": -581,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「简王五年，晋景公卒」。",
+      "title": "下宫之难，郤氏族灭",
+      "bio": "成公之子。在位三十年。前587年郤氏三郤为栾盈所杀，晋平公遂诛灭郤氏，族党尽死。景公不君，公室益弱，六卿之势成。",
+      "tags": [
+        "下宫之难",
+        "栾盈之乱",
+        "郤氏族灭"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "feng-shu",
+      "name": "酆舒",
+      "display": "酆舒",
+      "birthAccuracy": "unknown",
+      "death": -594,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·宣公十五年（前594）晋灭赤狄潞氏，酆舒奔卫，卫人归诸晋，晋人杀之。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

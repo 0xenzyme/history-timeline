@@ -1,0 +1,98 @@
+{
+  "id": "qinmu-baxirong",
+  "name": "秦穆公霸西戎",
+  "display": "秦穆公霸西戎",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -623,
+  "yearAccuracy": "disputed",
+  "yearNote": "《史記·秦本紀》繆公三十七年（前623）「秦用由余謀伐戎王，益國十二，開地千里，遂霸西戎。天子使召公過賀繆公以金鼓」；《左傳·文公三年》（前624）秦濟河焚舟取王官、封殽屍而還即書「遂霸西戎」。兩口径並陳（common-rules 争议点），主錨取史記前623（伐戎王之年）。",
+  "place": "西戎（戎王地）",
+  "placeNow": "今陇山（六盘山）以西戎地，益国十二、开地千里，约今甘肃东部一带",
+  "belligerents": [
+    "qin",
+    "xirong"
+  ],
+  "commanders": [
+    {
+      "id": "ying-renhao",
+      "side": "qin"
+    }
+  ],
+  "people": [
+    "bai-lixi"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "由余自戎使秦为穆公所用；崤败后秦弃东向，用由余谋伐戎王，益国十二、开地千里，遂霸西戎；周天子使召公过贺以金鼓。此前一年秦济河焚舟取王官及郊、自茅津济封崤尸（《左传》即于是年书遂霸西戎）。",
+  "sources": [
+    {
+      "work": "史記",
+      "part": "卷005·秦本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義",
+      "part": "卷17",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "bai-lixi",
+      "name": "百里奚",
+      "display": "百里奚",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。相秦穆公，与穆公相始终的记载居多，取穆公卒年为活动下限。",
+      "title": "秦穆公大夫，五羖大夫",
+      "bio": "虞人。晋灭虞，辗转入秦。穆公闻其贤，以五张羊皮赎之。他的条几乎是穆公条的影子，东进与西霸都经他手。",
+      "tags": [
+        "秦国",
+        "五羖大夫"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-renhao",
+      "name": "嬴任好",
+      "display": "秦穆公",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "exact",
+      "title": "秦国霸西戎之君",
+      "bio": "用百里奚、蹇叔。三置晋君，殽之败后悔过。东向受阻于晋，转而霸西戎。他的条与晋文公大半重叠，争的是同一代中原。",
+      "tags": [
+        "秦国",
+        "霸西戎"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

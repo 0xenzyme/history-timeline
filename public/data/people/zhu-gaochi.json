@@ -1,0 +1,82 @@
+{
+  "id": "zhu-gaochi",
+  "name": "朱高炽",
+  "display": "明仁宗朱高炽",
+  "birth": 1378,
+  "birthAccuracy": "exact",
+  "death": 1425,
+  "deathAccuracy": "exact",
+  "title": "洪熙守成",
+  "bio": "成祖长子，体肥多病而仁厚。永乐二十二年即位，平反冤狱、轻徭薄赋，在位仅十月，开辟仁宣之治。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-di",
+      "target": "zhu-gaochi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，成祖传仁宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-gaochi",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，仁宗传宣宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhang-taihu",
+      "target": "zhu-gaochi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，宣宗之母"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "朱高炽",
+    "明仁宗"
+  ],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "仁宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

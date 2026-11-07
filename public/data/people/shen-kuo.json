@@ -1,0 +1,71 @@
+{
+  "id": "shen-kuo",
+  "name": "沈括",
+  "display": "沈括",
+  "birth": 1031,
+  "birthAccuracy": "exact",
+  "death": 1095,
+  "deathAccuracy": "exact",
+  "title": "科学家，《梦溪笔谈》",
+  "bio": "杭州钱塘人，博通天文、历算、地理、工艺。使辽划界、论治边；晚年居润州梦溪园，成《梦溪笔谈》，记活字印刷、磁针诸事，为古代科技奇书。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "official",
+    "science",
+    "astronomy",
+    "craft"
+  ],
+  "primary": "science",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shen-kuo",
+      "target": "wang-anshi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "熙宁中提举司天监、参预新法，后贬筠州"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yongle-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanfeng-songxia-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "沈括传",
+      "kind": "classic"
+    }
+  ]
+}

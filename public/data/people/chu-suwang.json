@@ -1,0 +1,68 @@
+{
+  "id": "chu-suwang",
+  "name": "楚肃王",
+  "display": "楚肃王",
+  "birthAccuracy": "unknown",
+  "death": -370,
+  "deathAccuracy": "exact",
+  "deathNote": "楚世家：肃王立，由世家在位年与年表系前370年卒。",
+  "title": "楚王，吴起之后",
+  "bio": "悼王嗣绝、肃王立——坐射尸之罪族诛既毕，楚法弛而复旧。前370年卒，楚复为一个大而不治的国，宣威两世与齐魏争强，其后怀王之祸。",
+  "tags": [
+    "楚国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chu-daowang",
+      "target": "chu-suwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "射尸之狱既行，肃王嗣立——楚法弛而复旧"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-suwang",
+      "target": "chu-xuanwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "肃王卒，宣王嗣"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "肃王（楚）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

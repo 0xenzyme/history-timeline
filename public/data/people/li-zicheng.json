@@ -1,0 +1,135 @@
+{
+  "id": "li-zicheng",
+  "name": "李自成",
+  "display": "李自成",
+  "birth": 1606,
+  "birthAccuracy": "exact",
+  "death": 1645,
+  "deathAccuracy": "exact",
+  "title": "闯王，灭明",
+  "bio": "米脂驿卒，从闯王高迎祥起事，迎祥死后代领其众。均田免赋，众至百万；1644 破北京，旋为吴三桂引清兵败于山海关。",
+  "tags": [
+    "明",
+    "民变"
+  ],
+  "categories": [
+    "rebel",
+    "warlord",
+    "falling"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "ming",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    },
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zicheng",
+      "target": "zhu-youjian",
+      "type": "rival",
+      "directed": false,
+      "since": 1644,
+      "notes": [
+        "破北京，崇祯自缢煤山"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-zicheng",
+      "target": "zhang-xianzhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并起陕北，分流南北",
+        "同为明末起义军首领，崇祯间并起；后各据一方，自成陷北京、献忠建大西于蜀"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "li-zicheng",
+      "target": "wu-sangui",
+      "type": "rival",
+      "directed": false,
+      "since": 1644,
+      "notes": [
+        "降清乞师，山海关破闯"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-zicheng",
+      "target": "sun-chuanting",
+      "type": "rival",
+      "directed": false,
+      "since": 1643,
+      "notes": [
+        "潼关军溃而死，自成遂长驱入关"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-zicheng",
+      "target": "ni-yuanlu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "大顺军破外城，元璐整衣冠北向再拜而自缢"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiashen-zhibian",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "mingmo-minbian",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "shanhaiguan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "流贼传",
+      "kind": "classic"
+    }
+  ]
+}

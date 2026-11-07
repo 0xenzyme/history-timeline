@@ -1,0 +1,54 @@
+{
+  "id": "si-ren-mengzi",
+  "name": "孟子",
+  "display": "寺人孟子",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《巷伯》，毛序刺幽王，取镐京之年为可见下限。",
+  "title": "《巷伯》寺人孟子",
+  "bio": "《巷伯》「寺人孟子，作为此诗」。毛序刺幽王。仅见此篇。",
+  "categories": [
+    "poetry"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "si-ren-mengzi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《巷伯》寺人孟子，毛序刺幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "寺人孟子",
+    "孟子"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "小雅·巷伯",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "bohai-jianguo",
+  "name": "渤海国建立",
+  "display": "渤海国建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 698,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang",
+    "bohai"
+  ],
+  "people": [
+    "da-zu-rong"
+  ],
+  "result": "大祚荣据东牟山建国，后受唐册封为渤海郡王",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "圣历元年（698）粟末靺鞨首领大祚荣据东牟山建国，自称震国王，后受唐册封为渤海郡王，史称渤海。渤海立国于唐东北，与唐保持册封朝贡，制度仿唐而建，是东北亚格局的重要一极。渤海五京建制等后续沿革不在本实体中展开。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "渤海靺鞨传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "da-zu-rong",
+      "name": "大祚荣",
+      "display": "大祚荣",
+      "birthAccuracy": "unknown",
+      "death": 719,
+      "deathAccuracy": "exact",
+      "title": "渤海建国者，受唐册封渤海郡王",
+      "bio": "粟末靺鞨首领乞乞仲象之子，本名祚荣，无姓。武周万岁通天中，契丹李尽忠反，营州残破，靺鞨部东渡辽水。圣历元年，据东牟山建国，自称震国王，别称振国。后受唐招抚册封，为渤海郡王，遂以渤海为国号，制度仿唐，通使朝贡，有海东盛国之称。开元七年卒，子大武艺立。",
+      "tags": [
+        "渤海"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bohai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

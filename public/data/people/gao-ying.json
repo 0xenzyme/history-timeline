@@ -1,0 +1,58 @@
+{
+  "id": "gao-ying",
+  "name": "高郢",
+  "display": "高郢",
+  "birth": 740,
+  "birthAccuracy": "exact",
+  "death": 811,
+  "deathAccuracy": "exact",
+  "title": "元和六年卒，年七十二",
+  "bio": "顺宗、宪宗朝为相。元和六年七月卒，年七十二。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-chun",
+      "target": "gao-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宪宗朝致仕，元和六年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高郢"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高郢传",
+      "kind": "classic"
+    }
+  ]
+}

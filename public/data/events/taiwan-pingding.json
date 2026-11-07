@@ -1,0 +1,97 @@
+{
+  "id": "taiwan-pingding",
+  "name": "清平台湾",
+  "display": "清平台湾",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 1683,
+  "yearAccuracy": "exact",
+  "yearNote": "康熙二十二年郑克塽迎降，台湾平。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "shi-lang",
+    "kang-xi"
+  ],
+  "result": "郑克塽迎降，台湾平",
+  "aliases": [
+    "施琅入台"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "康熙二十二年，施琅疏报郑克塽率刘国轩等迎降，台湾平。郑氏不是另立的政权，这一条记清朝收束台湾。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷七",
+      "note": "施琅疏報師入台灣，鄭克塽率其屬劉國軒等迎降，台灣平",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷七",
+      "note": "設台灣府縣官",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shi-lang",
+      "name": "施琅",
+      "display": "施琅",
+      "birth": 1621,
+      "birthAccuracy": "exact",
+      "death": 1696,
+      "deathAccuracy": "exact",
+      "title": "水师提督",
+      "bio": "原郑氏部将，降清后任水师提督，1683 年攻取台湾，郑克塽降，台入版图。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "kang-xi",
+      "name": "玄烨",
+      "display": "康熙",
+      "birth": 1654,
+      "birthAccuracy": "exact",
+      "death": 1722,
+      "deathAccuracy": "exact",
+      "title": "康乾盛世之始",
+      "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

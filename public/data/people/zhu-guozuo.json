@@ -1,0 +1,67 @@
+{
+  "id": "zhu-guozuo",
+  "name": "朱国祚",
+  "display": "朱国祚",
+  "birthAccuracy": "unknown",
+  "death": 1632,
+  "deathAccuracy": "exact",
+  "deathNote": "崇祯五年卒。",
+  "title": "天启首辅",
+  "bio": "叶向高、韩爌之后为首辅。被劾归里。崇祯五年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youxiao",
+      "target": "zhu-guozuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天启中为首辅，崇祯五年卒"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ye-xianggao",
+      "target": "zhu-guozuo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为光宗即位后所起之旧臣，向高去而国祚继为首辅"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "朱国祚传",
+      "kind": "classic"
+    }
+  ]
+}

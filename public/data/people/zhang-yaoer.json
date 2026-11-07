@@ -1,0 +1,85 @@
+{
+  "id": "zhang-yaoer",
+  "name": "章要儿",
+  "display": "陈宣皇后章要儿",
+  "birth": 506,
+  "birthAccuracy": "approx",
+  "death": 570,
+  "deathAccuracy": "exact",
+  "birthNote": "太建二年崩，年六十五，上推生年。",
+  "deathNote": "传文先书太建元年尊为皇太后，接着书二年三月崩，依同年号。",
+  "title": "陈霸先皇后，废临海王立宣帝",
+  "bio": "吴兴乌程人，陈霸先聘为妻。光大二年她下令黜废帝为临海王，命高宗嗣位。太建二年三月崩于紫极殿，年六十五。",
+  "tags": [
+    "南北朝",
+    "陈"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-ba-xian",
+      "target": "zhang-yaoer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "霸先聘为皇后。光大二年她黜废帝、立高宗"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-bozong",
+      "target": "zhang-yaoer",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "光大二年下令黜伯宗为临海王"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-xu",
+      "target": "zhang-yaoer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同诏命高宗陈顼嗣位"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "章要儿",
+    "章皇后"
+  ],
+  "sources": [
+    {
+      "work": "陈书",
+      "part": "高祖皇后章要儿传",
+      "kind": "classic"
+    }
+  ]
+}

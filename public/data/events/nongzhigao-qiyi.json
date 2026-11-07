@@ -1,0 +1,118 @@
+{
+  "id": "nongzhigao-qiyi",
+  "name": "侬智高起义",
+  "display": "侬智高起义",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 1052,
+  "yearAccuracy": "exact",
+  "yearNote": "皇祐四年四月起事，五年正月戊午狄青败之于邕州。两月都不跨年。皇祐元年九月已有寇邕州，大规模建号进兵在四年。",
+  "endYear": 1053,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "nong-zhigao",
+    "di-qing",
+    "zhao-zhen"
+  ],
+  "result": "侬智高一度攻入邕州并东向，皇祐五年正月被狄青击破，遁走。",
+  "aliases": [
+    "广源州之乱",
+    "邕州之役"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "皇祐四年四月，广源州蛮侬智高反，一度攻入邕州并东向。皇祐五年正月，狄青败之于邕州，智高遁走。这是仁宗朝最大的南方战事，短时间打断广南西路的州城控制，镇压后宋的疆域恢复。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "nong-zhigao",
+      "name": "侬智高",
+      "display": "侬智高",
+      "birthAccuracy": "unknown",
+      "death": 1055,
+      "deathAccuracy": "disputed",
+      "deathNote": "兵败走大理后卒年异说并存，姑系至和二年（1055）。",
+      "title": "建国南天的广源州首领",
+      "bio": "广源州蛮酋，求内附不得，皇祐四年起兵，陷邕州称仁惠皇帝，连下九州，围广州。狄青昆仑关一役败之，走大理，其后不知所终，或云大理函首来献。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "rebel",
+        "outsider"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "di-qing",
+      "name": "狄青",
+      "display": "狄青",
+      "birth": 1008,
+      "birthAccuracy": "exact",
+      "death": 1057,
+      "deathAccuracy": "exact",
+      "title": "面涅将军，以上功至枢密",
+      "bio": "行伍出身，面留涅字。夜袭昆仑关，平侬智高之乱，以战功至枢密使，为文臣所侧目。以功高被疑出判陈州，嘉祐二年疽发卒，年五十。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-zhen",
+      "name": "赵祯",
+      "display": "赵祯",
+      "birth": 1010,
+      "birthAccuracy": "exact",
+      "death": 1063,
+      "deathAccuracy": "exact",
+      "title": "宋仁宗，庆历之治",
+      "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

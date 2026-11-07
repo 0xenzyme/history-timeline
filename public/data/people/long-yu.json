@@ -1,0 +1,86 @@
+{
+  "id": "long-yu",
+  "name": "隆裕",
+  "display": "隆裕太后",
+  "birth": 1868,
+  "birthAccuracy": "approx",
+  "death": 1913,
+  "deathAccuracy": "exact",
+  "birthNote": "崩年四十六，上推生年。",
+  "deathNote": "宣统三年十二月逊位，越二年正月甲戌崩。",
+  "title": "德宗皇后，宣布逊位",
+  "bio": "叶赫那拉氏，孝钦侄女。光绪十五年立为皇后。宣统即位尊为隆裕皇太后。宣统三年十二月以太后命逊位，越二年正月崩。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "guang-xu",
+      "target": "long-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。宣统三年十二月以太后命逊位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "long-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姑侄。隆裕为孝钦侄女"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "long-yu",
+      "target": "xuan-tong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣统即位，隆裕以太后听政而颁逊位之诏"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "隆裕",
+    "叶赫那拉氏",
+    "孝定景皇后"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·孝定景皇后",
+      "kind": "classic"
+    }
+  ]
+}

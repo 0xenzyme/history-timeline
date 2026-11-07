@@ -1,0 +1,108 @@
+{
+  "id": "yang-su",
+  "name": "杨素",
+  "display": "杨素",
+  "birth": 544,
+  "birthAccuracy": "exact",
+  "death": 606,
+  "deathAccuracy": "exact",
+  "title": "尚书令，平陈水战，为炀帝所忌",
+  "bio": "弘农华阴人，性疏辩，善属文，与杨坚同族。开皇八年为行军元帅，出三峡，以五牙大舰破陈，江南遂定。数与突厥战，皆大克获。后附晋王广，助之夺宗，既而威权日盛，炀帝外示殊礼而内甚忌之。大业二年疾笃，帝日遣医问，然密问其死期，卒年六十三。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "regent",
+    "general"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "yang-su",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "杨素将兵平陈，后渐骄恣"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-su",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "素有功而见疏忌"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "shi-wansui",
+      "target": "yang-su",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "素谮其功，又以谒东宫激怒文帝"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kaihuang-lv",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "renshou-gongbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sui-mie-chen",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yingjian-dongdu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "杨素",
+    "杨处道"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "杨素传",
+      "kind": "classic"
+    }
+  ]
+}

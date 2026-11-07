@@ -1,0 +1,81 @@
+{
+  "id": "huayang-taihou",
+  "name": "华阳太后",
+  "display": "华阳太后",
+  "birthAccuracy": "unknown",
+  "death": -230,
+  "deathAccuracy": "exact",
+  "deathNote": "秦始皇本纪：十七年，华阳太后卒。",
+  "title": "孝文王后，立子楚",
+  "bio": "安国君的正夫人。她自己无子，把在赵国做人质的子楚立为继承人。庄襄王尊她为华阳太后。始皇十七年卒。",
+  "tags": [
+    "秦国",
+    "太后"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "consort"
+    },
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huayang-taihou",
+      "target": "ying-zhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝文王太子夫人，楚族也；子楚立，号华阳夫人——所生之子不得名位"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "huayang-taihou",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "华阳太后是庄襄王的嗣母，始皇十七年卒"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "华阳夫人",
+    "华阳后",
+    "华阳太后"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "吕不韦列传",
+      "kind": "classic"
+    }
+  ]
+}

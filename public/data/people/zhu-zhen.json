@@ -1,0 +1,105 @@
+{
+  "id": "zhu-zhen",
+  "name": "朱瑱",
+  "display": "后梁末帝",
+  "birthAccuracy": "unknown",
+  "death": 923,
+  "deathAccuracy": "exact",
+  "title": "后梁末帝，汴城死社稷",
+  "bio": "朱温第四子，初名友贞，后单名瑱。乾化二年合禁军诛友珪自立，宠信赵岩、张汉杰，疏远宗室，大将疑贰。龙德三年唐师压境，汴州援绝，谓皇甫麟曰\"吾不为唐俘\"，令其杀己，梁亡。",
+  "tags": [
+    "五代",
+    "后梁"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yougui",
+      "target": "zhu-zhen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "兄弟相图，宣武兵入而珪死"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "zhu-zhen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "夹河决战十余年，存勖灭朱"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhu-zhen",
+      "target": "wang-yanzhang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "末帝倚为干城，拜招讨使；中都之败而梁祚移"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houdang-mie-houliang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "houtang-mie-liang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liangjin-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "朱友贞"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "末帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "梁本纪下",
+      "kind": "classic"
+    }
+  ]
+}

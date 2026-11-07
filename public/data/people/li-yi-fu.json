@@ -1,0 +1,57 @@
+{
+  "id": "li-yi-fu",
+  "name": "李义府",
+  "display": "李义府",
+  "birthAccuracy": "unknown",
+  "death": 666,
+  "deathAccuracy": "exact",
+  "title": "乾封元年卒于流所",
+  "bio": "高宗朝为相。乾封元年大赦，长流人不许还，忧愤发疾卒，年五十余。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "li-yi-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载655至659年在任，乾封元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李义府"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李义府传",
+      "kind": "classic"
+    }
+  ]
+}

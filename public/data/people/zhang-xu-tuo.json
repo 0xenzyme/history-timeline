@@ -1,0 +1,88 @@
+{
+  "id": "zhang-xu-tuo",
+  "name": "张须陀",
+  "display": "张须陀",
+  "birthAccuracy": "unknown",
+  "death": 616,
+  "deathAccuracy": "exact",
+  "deathNote": "隋书·诚节传载其溃围复入力战而死，未系年号，传内最末纪年止于大业十年；大业十二年（616）荥阳大海寺之败见资治通鉴·隋纪，卒年以此为准。",
+  "title": "隋末劲将，破王薄诸部而殁于大海寺",
+  "bio": "弘农阌乡人。性刚烈，有勇略而能得士卒心，大业中累破王薄、左孝友、卢明月之众，以功迁齐郡通守，领河南道十二郡黜陟讨捕大使，号为隋末劲将，秦琼尝属其麾下。后转荥阳通守，大业十二年（616）拒李密、翟让于荥阳大海寺，中伏，溃围复入救其部众，力战而死，所部昼夜号哭，山东之势遂不可收拾。",
+  "tags": [
+    "隋末",
+    "名将"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-guang",
+      "target": "zhang-xu-tuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大业中须陀累破王薄、左孝友、卢明月之众，迁齐郡通守，领河南道十二郡讨捕大使"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "li-mi",
+      "target": "zhang-xu-tuo",
+      "type": "rival",
+      "directed": false,
+      "since": 616,
+      "notes": [
+        "大业十二年密与翟让邀击须陀于荥阳大海寺，须陀溃围复入力战而死"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "wang-bo",
+      "target": "zhang-xu-tuo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "大业中须陀数破薄军于山东，薄散而复聚"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "张须陀"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "诚节传·张须陀",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "隋纪·大业十二年",
+      "kind": "classic"
+    }
+  ]
+}

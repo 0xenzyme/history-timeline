@@ -1,0 +1,56 @@
+{
+  "id": "yang-yiqing",
+  "name": "杨一清",
+  "display": "杨一清",
+  "birth": 1454,
+  "birthAccuracy": "exact",
+  "death": 1530,
+  "deathAccuracy": "exact",
+  "title": "三边总制，诛刘瑾之谋",
+  "bio": "字应宁，云南安宁人。三任陕西三边总制，熟谙边事; 与张永共谋诛瑾。后以内阁忤张璁而削籍，1530 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "minister",
+    "general"
+  ],
+  "primary": "minister",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-jin",
+      "target": "yang-yiqing",
+      "type": "rival",
+      "directed": false,
+      "since": 1510,
+      "notes": [
+        "与张永共谋，卒诛刘瑾"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "杨一清传",
+      "kind": "classic"
+    }
+  ]
+}

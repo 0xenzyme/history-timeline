@@ -1,0 +1,58 @@
+{
+  "id": "zhao-zong-ru",
+  "name": "赵宗儒",
+  "display": "赵宗儒",
+  "birth": 746,
+  "birthAccuracy": "exact",
+  "death": 832,
+  "deathAccuracy": "exact",
+  "title": "大和六年卒，年八十七",
+  "bio": "德宗朝一度为相。大和六年以司空致仕，是岁九月卒，年八十七。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ang",
+      "target": "zhao-zong-ru",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载796至798年在任，大和六年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "赵宗儒"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "赵宗儒传",
+      "kind": "classic"
+    }
+  ]
+}

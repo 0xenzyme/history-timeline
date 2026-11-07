@@ -1,0 +1,119 @@
+{
+  "id": "yuan-shikai",
+  "name": "袁世凯",
+  "display": "袁世凯",
+  "birth": 1859,
+  "birthAccuracy": "exact",
+  "death": 1916,
+  "deathAccuracy": "exact",
+  "title": "北洋领袖",
+  "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "warlord",
+    "regent",
+    "official",
+    "general",
+    "falling"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xuan-tong",
+      "target": "yuan-shikai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "逼清帝退位，终结帝制"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baolu-yundong",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "erci-geming",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "ershiyi-tiao",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "feikeju",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "hongxian-dizhi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huguo-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingdi-tuiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wuxu-bianfa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yihetuan-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhonghua-minguo-chengli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "袁世凯传",
+      "kind": "classic"
+    }
+  ]
+}

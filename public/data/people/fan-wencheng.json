@@ -1,0 +1,68 @@
+{
+  "id": "fan-wencheng",
+  "name": "范文程",
+  "display": "范文程",
+  "birth": 1597,
+  "birthAccuracy": "exact",
+  "death": 1666,
+  "deathAccuracy": "exact",
+  "title": "开国谋臣",
+  "bio": "辽东汉人，投努尔哈赤，历事四朝，定典制、谋入关，为清开国第一文臣。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "official",
+    "strategist",
+    "founding"
+  ],
+  "primary": "official",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hong-taiji",
+      "target": "fan-wencheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开国谋臣，定官制典章而历事四朝"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "fu-lin",
+      "target": "fan-wencheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入关之策多出其谋，为清开国第一文臣"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "范文程传",
+      "kind": "classic"
+    }
+  ]
+}

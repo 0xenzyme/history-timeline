@@ -1,0 +1,232 @@
+{
+  "id": "zhu-youjian",
+  "name": "朱由检",
+  "display": "明思宗朱由检",
+  "birth": 1611,
+  "birthAccuracy": "exact",
+  "death": 1644,
+  "deathAccuracy": "exact",
+  "title": "崇祯皇帝，明亡之君",
+  "bio": "兄熹宗崩嗣位，诛魏忠贤，勤于政事而刚愎多疑，频换阁部、自毁长城。1644 年李自成破京，自缢煤山。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-zhongxian",
+      "target": "zhu-youjian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "即位即逮治魏忠贤"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "yuan-chonghuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1626,
+      "notes": [
+        "任为督师，旋中反间冤杀"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-zicheng",
+      "target": "zhu-youjian",
+      "type": "rival",
+      "directed": false,
+      "since": 1644,
+      "notes": [
+        "破北京，崇祯自缢煤山"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhu-youxiao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，熹宗崩，弟思宗继"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "wen-tiren",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯朝为首辅，为政刻深"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "yang-sichang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以兵部尚书督师剿寇，创十面之网"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "sun-chuanting",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总督陕西，练秦兵而剿寇最有声"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "qin-liangyu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "率白杆兵勤王，加封一品夫人"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhu-yousong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宗亲，煤山之后南京奉其为弘光帝"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhou-yanru",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯二年入阁，十四年起复为首辅，十六年十二月勒令自尽"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "he-fengsheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯十四年再入阁，十六年五月武昌陷后投湖"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "xue-guoguan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯十年入阁，十四年八月赐缢"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhang-zhifa",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯八年入阁，后为首辅，十五年七月病殁"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "liu-zongzhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯初起为顺天府尹，累迁左都御史，又以论救言官见斥"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "ni-yuanlu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯末以户部尚书掌度支，帑藏已尽而征调不已"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiashen-zhibian",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "庄烈帝本纪",
+      "kind": "classic"
+    }
+  ]
+}

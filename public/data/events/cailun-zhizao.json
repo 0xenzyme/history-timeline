@@ -1,0 +1,88 @@
+{
+  "id": "cailun-zhizao",
+  "name": "蔡伦改进造纸术",
+  "display": "蔡伦改进造纸术",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 105,
+  "yearAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "cai-lun",
+    "liu-zhao"
+  ],
+  "result": "蔡伦以树皮、麻头、敝布、鱼网造纸奏上，纸取代简帛成为通用书写材料，世称蔡侯纸",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "元兴元年（105）尚方令蔡伦用树皮、麻头、敝布、鱼网为原料改进造纸工艺，制成后奏上和帝，天下称蔡侯纸。此前书写或用竹简或用缣帛，简重而帛贵，纸在成本与重量两端兼有优势，使官府文书与书籍传抄得以大幅扩展。蔡伦是把造纸术定型并推广至官府制造的关键人物，而非纸的最初发明者——西汉已有麻质纤维纸的考古实物。纸张由此成为后世印刷术与知识传播的物资前提。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "宦者列传·蔡伦",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "汉纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cai-lun",
+      "name": "蔡伦",
+      "display": "蔡伦",
+      "birthAccuracy": "unknown",
+      "death": 121,
+      "deathAccuracy": "exact",
+      "title": "宦官，尚方令，造纸",
+      "bio": "桂阳人，永平末入宫。为尚方令，造作秘剑及诸器械，莫不精工。元兴元年奏上以树肤、麻头、敝布、鱼网造纸之术，天下称蔡侯纸。后为长乐太仆，建光元年坐事自杀。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "eunuch",
+        "craft"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zhao",
+      "name": "刘肇",
+      "display": "汉和帝",
+      "birth": 79,
+      "birthAccuracy": "exact",
+      "death": 105,
+      "deathAccuracy": "exact",
+      "title": "东汉和帝，十四岁诛窦宪",
+      "bio": "章帝第四子，梁贵人所生，为窦后所养。十岁即位，窦太后临朝，窦宪专权。永元四年与宦官郑众谋，收宪印绶，迫之自杀，汉始用宦官。元兴元年崩，年二十七。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

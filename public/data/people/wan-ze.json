@@ -1,0 +1,53 @@
+{
+  "id": "wan-ze",
+  "name": "完泽",
+  "display": "完泽",
+  "birthAccuracy": "unknown",
+  "death": 1303,
+  "deathAccuracy": "exact",
+  "title": "成宗朝右丞相",
+  "bio": "土别燕氏。世祖末入相，成宗即位为中书右丞相，性宽厚、能持大体，与不忽木同在政府；1303 年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cheng-zong",
+      "target": "wan-ze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "成宗朝右丞相，与不忽木同在政府"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "完泽传",
+      "kind": "classic"
+    }
+  ]
+}

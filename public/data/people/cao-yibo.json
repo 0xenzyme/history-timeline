@@ -1,0 +1,69 @@
+{
+  "id": "cao-yibo",
+  "name": "姬喜",
+  "display": "曹夷伯",
+  "birthAccuracy": "unknown",
+  "death": -834,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：夷伯二十三年厉王奔彘，三十年卒。二十三年当 -841，三十年当 -834。",
+  "title": "曹夷伯",
+  "bio": "宫伯之子。二十三年厉王奔彘，三十年卒。",
+  "tags": [
+    "曹"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "cao-guo"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-yibo",
+      "target": "cao-youbo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。夷伯卒，弟幽伯立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "cao-yibo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "夷伯二十三年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "曹夷伯",
+    "夷伯喜"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管蔡世家",
+      "kind": "classic"
+    }
+  ]
+}

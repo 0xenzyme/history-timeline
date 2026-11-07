@@ -1,0 +1,173 @@
+{
+  "id": "sunquan-chengdi",
+  "name": "孙权称帝，建号吴",
+  "display": "孙权称帝，建号吴",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 229,
+  "yearAccuracy": "exact",
+  "place": "武昌",
+  "placeNow": "今湖北鄂州",
+  "polity": [
+    "wu"
+  ],
+  "people": [
+    "sun-quan",
+    "zhang-zhao",
+    "gu-yong",
+    "zhuge-jin",
+    "bu-zhi"
+  ],
+  "result": "孙权即皇帝位，国号吴，改元黄龙，三国鼎立的法统序列至此齐备",
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "229 年（黄龙元年）孙权于武昌即皇帝位，国号吴，改元黄龙，追尊父兄，以顾雍为丞相、陆逊为上大将军，随后迁都建业。孙权此前长期称吴王、受魏封号，至此与魏、汉并称帝，三分之局在名实两面同时确立。此后吴蜀重申盟约，中分天下之说虽虚，而三国并立的格局维持近半个世纪。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·吴主传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "蜀书·陈震传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sun-quan",
+      "name": "孙权",
+      "display": "吴大帝孙权",
+      "birth": 182,
+      "birthAccuracy": "exact",
+      "death": 252,
+      "deathAccuracy": "exact",
+      "title": "吴大帝，赤壁抗曹，晚年昏悖",
+      "bio": "孙坚次子，孙策之弟。年十五为阳羡长，兄死受事，举贤任能，赤壁用周瑜破曹操，遂据江东。建安二十四年袭荆州取关羽，黄武元年称吴王，黄龙元年称帝。晚年二子争宠、吕壹用事，赤乌十三年崩，年七十一。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-zhao",
+      "name": "张昭",
+      "display": "张昭",
+      "birth": 156,
+      "birthAccuracy": "exact",
+      "death": 236,
+      "deathAccuracy": "exact",
+      "title": "辅吴将军，江东文臣之首",
+      "bio": "彭城人，少好学，博览众书。汉末避难江东，孙策以为长史、抚军中郎将，文武之事一以委之。策死，与周瑜共辅孙权。赤壁前主降，遂不得为相。性刚直，权尝以土塞其门，昭亦以土封其内。嘉禾五年卒，年八十一。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "gu-yong",
+      "name": "顾雍",
+      "display": "顾雍",
+      "birth": 168,
+      "birthAccuracy": "approx",
+      "death": 243,
+      "deathAccuracy": "exact",
+      "birthNote": "传云「为相十九年，年七十六」，据赤乌六年卒上推。",
+      "title": "吴丞相，为相十九年",
+      "bio": "吴郡吴人，字元叹。少从蔡邕学琴书；黄武四年代孙邵为丞相，平尚书事，为相十九年，权尝叹「顾君不言，言必有中」。赤乌六年卒，年七十六，谥肃侯。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuge-jin",
+      "name": "诸葛瑾",
+      "display": "诸葛瑾",
+      "birth": 174,
+      "birthAccuracy": "exact",
+      "death": 241,
+      "deathAccuracy": "exact",
+      "title": "大将军，诸葛亮之兄，守吴不改其度",
+      "bio": "琅邪阳都人，汉末避乱江东。为孙权长史，后从吕蒙取荆州，封宛陵侯，官至大将军、左都护。与弟亮各事其主，公会相见，无私面。弘缓而能得士，与权谈说谏喻，未尝切谔。赤乌四年卒，年六十八。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "official",
+        "general"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bu-zhi",
+      "name": "步骘",
+      "display": "步骘",
+      "birthAccuracy": "unknown",
+      "death": 248,
+      "deathAccuracy": "approx",
+      "deathNote": "本传作「十（一）年卒」，承前「赤乌九年代陆逊为丞相」；「十年」「十一年」两读，分繫247、248，点校本补「一」字取十一年，故作248。",
+      "title": "吴丞相，定交州",
+      "bio": "临淮淮阴人，字子山。避难江东，与卫旌种瓜自给；建安十五年领交州刺史，斩苍梧太守吴巨，士燮兄弟相率供命，南土之宾自此始；权称帝拜骠骑将军，都督西陵；赤乌九年代陆逊为丞相。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

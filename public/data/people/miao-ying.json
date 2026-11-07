@@ -1,0 +1,68 @@
+{
+  "id": "miao-ying",
+  "name": "缪嬴",
+  "display": "缪嬴",
+  "birthAccuracy": "unknown",
+  "death": -777,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见秦襄公元年以其为丰王妻，取襄公元年为可见下限。",
+  "title": "秦襄公女弟",
+  "bio": "襄公元年以其为丰王妻。仅此一见。",
+  "tags": [
+    "秦"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "miao-ying",
+      "target": "qin-xianggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄妹。襄公元年以女弟为丰王妻"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "feng-wang",
+      "target": "miao-ying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "缪嬴"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

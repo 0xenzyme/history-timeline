@@ -1,0 +1,55 @@
+{
+  "id": "yan-hui",
+  "name": "颜回",
+  "display": "颜回",
+  "birth": -521,
+  "birthAccuracy": "approx",
+  "death": -481,
+  "deathAccuracy": "approx",
+  "title": "孔门德行第一",
+  "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
+  "tags": [
+    "复圣"
+  ],
+  "categories": [
+    "confucian"
+  ],
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "shi"
+    },
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "yan-hui",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孔门德行科"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [
+    "rujia-chuancheng"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "仲尼弟子列传"
+    }
+  ]
+}

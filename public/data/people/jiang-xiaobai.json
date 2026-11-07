@@ -1,0 +1,140 @@
+{
+  "id": "jiang-xiaobai",
+  "name": "姜小白",
+  "display": "齐桓公",
+  "birthAccuracy": "unknown",
+  "death": -643,
+  "deathAccuracy": "exact",
+  "title": "春秋首霸",
+  "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
+  "tags": [
+    "齐国"
+  ],
+  "categories": [
+    "hegemon"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "hegemon"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jiang-xiaobai",
+      "target": "guan-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -685,
+      "notes": [
+        "鲍叔所荐，相齐四十年"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "jiang-xiaobai",
+      "target": "bao-shuya",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从亡之臣，力荐管仲"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "jiang-xiaobai",
+      "target": "zi-zifu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "襄公欲继齐桓为盟主"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "cheng-chuqiu-feng-wei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "guanzhong-gaige",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "ke-zhihui",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "kuiqiu-zhihui",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qi-fa-shanrong",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qi-jiu-xing",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qihuangong-jiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qihuangong-wuzi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhaoling-zhimeng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "齐桓公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "齐太公世家",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "庄公九年",
+      "kind": "classic"
+    }
+  ]
+}

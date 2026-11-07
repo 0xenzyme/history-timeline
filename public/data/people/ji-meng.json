@@ -1,0 +1,61 @@
+{
+  "id": "ji-meng",
+  "name": "姬猛",
+  "display": "周悼王",
+  "birthAccuracy": "unknown",
+  "death": -520,
+  "deathAccuracy": "approx",
+  "deathNote": "竹书纪年、史记均未记其在位年数（竹书景王二十五年下直接接敬王元年）。年份依左传·昭公二十二年传「十一月乙酉，王子猛卒……虽未即位，周人谥曰悼王……己丑，敬王即位」，与景王崩、敬王即位同在一年；此年与逐王「崩年 + 1 为次王元年」的算法在景王、悼王、敬王之间不合，故作约年。",
+  "title": "未及正式即位即为子朝所杀",
+  "bio": "景王长子。景王崩，子朝与丐争立，国人立猛为王；子朝攻杀之。虽未即位，周人仍谥曰悼王；同母弟匄得晋国之力即位为敬王后，才追谥之。在位不足数月，是周室名号最薄的一页。",
+  "tags": [
+    "王子朝之乱",
+    "未即位"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "zhou"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "wangzichao-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "周悼王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "晋纪",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左传",
+      "part": "昭公二十二年传",
+      "kind": "classic"
+    }
+  ]
+}

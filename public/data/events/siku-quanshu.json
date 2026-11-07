@@ -1,0 +1,95 @@
+{
+  "id": "siku-quanshu",
+  "name": "《四库全书》纂修",
+  "display": "《四库全书》纂修",
+  "kind": "span",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1773,
+  "yearAccuracy": "exact",
+  "yearNote": "乾隆三十八年开馆纂修《四库全书》，四十七年第一分告成，五十八年缮竣；禁毁之书亦同时饬行。见《清高宗实录》。",
+  "endYear": 1782,
+  "endYearAccuracy": "exact",
+  "endYearNote": "通指其缮写告成之世，约以四十七年初成为限；禁毁则逾此后不止。",
+  "place": "北京",
+  "placeNow": "今北京",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "qian-long",
+    "he-shen"
+  ],
+  "result": "中国古书汇为一编，凡七万九千余卷；而禁毁之书亦数千种，文献因之大损",
+  "aliases": [
+    "四库全书",
+    "办理四库全书档案"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "高宗励精文治，谓「稽古右文，超越前代」。乾隆三十七年，下诏求遗书，谕「孤立于世，不如集于朝」，许士民进献。三十八年，开四库馆，以皇六子永瑢、大学士于敏中等为总裁，纪昀、陆锡熊、孙士毅为总纂，征天下藏书，择其精要，汇为一编。分经、史、子、集四部，部有总序，类有解题，皆考其源流得失；凡书三千四百六十余种、七万九千余卷，分缮七部，藏京师文渊、文源，承德文津，奉天文溯，谓之北四阁；又扬州文汇、镇江文宗、杭州文澜三分，谓之南三阁，许士子入览。馆臣又为《四库全书总目》二百卷，著录其书而辨其得失，为中国目录学之大成。然诏求遗书，亦寓检查违碍之意；自三十九年至四十七年，销禁之书至数千种，明季野史，尤在所必毁。「寓禁于征」，论者以为功罪不相掩云。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "艺文志",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "qian-long",
+      "name": "弘历",
+      "display": "乾隆",
+      "birth": 1711,
+      "birthAccuracy": "exact",
+      "death": 1799,
+      "deathAccuracy": "exact",
+      "title": "十全武功",
+      "bio": "雍正第四子，在位六十年，自称十全老人；武功极盛而晚年宠和珅，盛世转衰。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "he-shen",
+      "name": "和珅",
+      "display": "和珅",
+      "birth": 1750,
+      "birthAccuracy": "exact",
+      "death": 1799,
+      "deathAccuracy": "exact",
+      "title": "巨贪权相",
+      "bio": "乾隆晚年宠臣，揽权纳贿，富可敌国；嘉庆即位即赐死抄家，家产巨万。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,91 @@
+{
+  "id": "qin-zhong",
+  "name": "秦仲",
+  "display": "秦仲",
+  "birthAccuracy": "unknown",
+  "death": -822,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：立二十三年，死于戎。竹书系于宣王六年西戎杀秦仲。",
+  "title": "秦仲，死于西戎",
+  "bio": "宣王以秦仲为大夫，诛西戎。西戎杀秦仲。庄公昆弟五人破戎，居西犬丘。",
+  "tags": [
+    "秦",
+    "西戎"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "qin-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王以秦仲为大夫，诛西戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qin-zhong",
+      "target": "qin-zhuanggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qin-ying",
+      "target": "qin-zhong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同出嬴姓，非子为秦之始封，其后仲、庄、襄相承，以救周功列为诸侯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "秦仲"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    }
+  ]
+}

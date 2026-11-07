@@ -1,0 +1,70 @@
+{
+  "id": "he-shila",
+  "name": "和世㻋",
+  "display": "元明宗和世㻋",
+  "birth": 1300,
+  "birthAccuracy": "exact",
+  "death": 1329,
+  "deathAccuracy": "exact",
+  "title": "武宗长子，谪边而召还",
+  "bio": "武宗长子，文宗之兄。流落漠北，天历二年南还即位，甫八月暴崩于中都，史称明宗。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "he-shila",
+      "target": "tu-tiemuer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，文宗让位明宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "he-shila",
+      "target": "yi-linzhiban",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，明宗传宁宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "和世㻋",
+    "元明宗"
+  ],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "明宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

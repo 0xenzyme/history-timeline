@@ -1,0 +1,111 @@
+{
+  "id": "huangtiandang-zhizhan",
+  "name": "黄天荡之战",
+  "display": "黄天荡之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1130,
+  "yearAccuracy": "exact",
+  "yearNote": "宋建炎四年金天会八年。通鉴系三月金师渡江而北，韩世忠以舟师扼江，相持于黄天荡者四十八日；公历1130。",
+  "place": "黄天荡",
+  "placeNow": "今江苏南京东北，长江中的塘汊水道，地望诸说不一",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "commanders": [
+    {
+      "id": "han-shizhong",
+      "side": "song"
+    },
+    {
+      "id": "wanyan-zongbi",
+      "side": "jin-chao"
+    }
+  ],
+  "people": [
+    "han-shizhong",
+    "wanyan-zongbi"
+  ],
+  "result": "金师不得渡江，几为所困；世忠以八千人拒十万之众，江上自是知金可御",
+  "aliases": [
+    "黄天荡之役"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "建炎四年，金兀术（完颜宗弼）陷临安、蹈明越，大掠而北，至镇江欲济江。韩世忠以所部海船扼京口，兀术不得渡，就世忠约日战，世忠妻梁氏亲执枹鼓。金人穷窘，募士献策，循黄天荡故道，老鹳河水塞，乃就君山凿河以通江，为世忠所觉而止。相持四十八日，兀术用闽人策，乘风纵火箭射宋舟篷，宋舟灰烬，世忠提余兵登南岸，还镇江。是役也，金以十万之众困于八千人者久，兀术自是知江上不可径行，而南渡君臣之气少振。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷三百六十四",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷七十七",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "han-shizhong",
+      "name": "韩世忠",
+      "display": "韩世忠",
+      "birth": 1089,
+      "birthAccuracy": "exact",
+      "death": 1151,
+      "deathAccuracy": "exact",
+      "title": "蕲王，黄天荡阻金",
+      "bio": "延安人，行伍起家，扈从高宗南渡。黄天荡以八千邀击兀术十万，几擒之；后与岳飞同遭抑，纵酒终老。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zongbi",
+      "name": "完颜宗弼",
+      "display": "完颜宗弼",
+      "birthAccuracy": "unknown",
+      "death": 1148,
+      "deathAccuracy": "exact",
+      "title": "金兀术，搜山检海捉赵构",
+      "bio": "阿骨打第四子。追高宗入海，富平、和尚原诸役与宋血战，黄天荡几不得脱。后主国政，都元帅，绍兴和议金方主持人。皇统八年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

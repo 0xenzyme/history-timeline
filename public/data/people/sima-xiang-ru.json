@@ -1,0 +1,54 @@
+{
+  "id": "sima-xiang-ru",
+  "name": "司马相如",
+  "display": "司马相如",
+  "birthAccuracy": "unknown",
+  "death": -118,
+  "deathAccuracy": "approx",
+  "deathNote": "本传不书卒年；据「相如既卒五岁，上始祭后土」（元鼎四年，前113）上推，通行即前118年。",
+  "title": "辞赋之宗，《子虚》《上林》",
+  "bio": "蜀郡成都人，字长卿。以《子虚赋》为武帝所知，奏《上林赋》颂而讽之；奉使西南夷，邛筰君长内附。病免居茂陵，卒后武帝遣所忠就家取书，得言封禅事。",
+  "tags": [
+    "汉赋",
+    "封禅文"
+  ],
+  "categories": [
+    "literature"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "sima-xiang-ru",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "读《子虚赋》而叹「独不得与此人同时」"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "司马相如传",
+      "kind": "classic"
+    }
+  ]
+}

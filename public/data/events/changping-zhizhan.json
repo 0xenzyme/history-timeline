@@ -1,0 +1,187 @@
+{
+  "id": "changping-zhizhan",
+  "name": "长平之战",
+  "display": "长平之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -260,
+  "yearAccuracy": "exact",
+  "yearNote": "《史記·白起王翦列傳》昭王四十七年（前260）四月王齕攻趙、秦陰使武安君白起為上將軍，大破趙軍；《史記·秦本紀》四十七年「大破趙於長平，四十餘萬盡殺之」；《資治通鑑》卷5赧王五十五年（前260）同。《呂氏春秋·卷18》「秦雖大勝於長平，三年然後決」——自前262上黨降趙起對峙約三年，主錨取決戰之年。",
+  "place": "長平",
+  "placeNow": "山西省晋城市高平市西北（长平之战遗址）",
+  "belligerents": [
+    "qin",
+    "zhao"
+  ],
+  "commanders": [
+    {
+      "id": "bai-qi",
+      "side": "qin"
+    },
+    {
+      "id": "lian-po",
+      "side": "zhao"
+    },
+    {
+      "id": "zhao-kuo-changping",
+      "side": "zhao"
+    }
+  ],
+  "people": [
+    "ying-ji",
+    "zhao-xiaochengwang"
+  ],
+  "result": "白起全歼赵军四十余万（载），赵括战死，六国再无力单独抗秦",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "秦攻韩上党，上党降赵引发秦赵会战；廉颇坚壁相持，秦行反间以赵括代将，白起包抄断粮，赵军四十余万（载）被歼，赵括战死。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷七十三·卷073）",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷五",
+      "kind": "classic"
+    },
+    {
+      "work": "吕氏春秋",
+      "part": "卷十八",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷四十三·卷043）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-ji",
+      "name": "嬴稷",
+      "display": "秦昭襄王",
+      "birthAccuracy": "unknown",
+      "death": -251,
+      "deathAccuracy": "exact",
+      "title": "秦王，在位五十六年，长平之主",
+      "bio": "用魏冉、范雎、白起。远交近攻，破长平、围邯郸、灭东周。战国后半他的条最长，六国的败象都画在这条下面。",
+      "tags": [
+        "秦国",
+        "长平"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xiaochengwang",
+      "name": "赵孝成王",
+      "display": "赵孝成王",
+      "birthAccuracy": "unknown",
+      "death": -245,
+      "deathAccuracy": "exact",
+      "deathNote": "赵世家：孝成王二十一年卒；由世家\"二十年秦王政初立\"与秦王政元年（前246）逆推，卒于前245。与落库记录中李牧、平原君条同推。",
+      "title": "赵王，长平邯郸之主",
+      "bio": "长平的赵王：以赵括代廉颇，四十余万坑；随即坚壁邯郸，赖平原君告急、信陵君窃符解围。轴上changping、handan两点的焦点人物。前245年卒，其后三世而赵亡。",
+      "tags": [
+        "赵国",
+        "长平",
+        "邯郸"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bai-qi",
+      "name": "白起",
+      "display": "白起",
+      "birthAccuracy": "unknown",
+      "death": -257,
+      "deathAccuracy": "exact",
+      "title": "秦将，武安君，坑杀长平",
+      "bio": "郿人。拔郢、烧夷陵，长平坑赵卒。不肯再将围邯郸，昭王赐死。战国最陡的一条武将条，停在邯郸未下之年。",
+      "tags": [
+        "秦国",
+        "长平"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lian-po",
+      "name": "廉颇",
+      "display": "廉颇",
+      "birthAccuracy": "unknown",
+      "death": -243,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。奔魏后入楚，终老寿春，约楚迁都寿春前后。",
+      "title": "赵将，与蔺相如将相和",
+      "bio": "长平前主赵军，后为赵括所代。负荆于蔺相如。晚岁奔魏、楚，赵终不能用。他的条拖过长平，拖不过秦的东进。",
+      "tags": [
+        "赵国",
+        "长平"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-kuo-changping",
+      "name": "赵括",
+      "display": "赵括",
+      "birthAccuracy": "unknown",
+      "death": -260,
+      "deathAccuracy": "exact",
+      "deathNote": "白起王翦列传在昭王四十七年段写秦军射杀赵括。昭襄王五十六年是前251年，四十七年即前260年。",
+      "title": "长平代将，被射杀",
+      "bio": "赵奢之子。长平之战代廉颇为将，被秦军射杀。赵军四十万降后被坑。",
+      "tags": [
+        "赵国",
+        "长平"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

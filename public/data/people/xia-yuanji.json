@@ -1,0 +1,66 @@
+{
+  "id": "xia-yuanji",
+  "name": "夏原吉",
+  "display": "夏原吉",
+  "birth": 1366,
+  "birthAccuracy": "exact",
+  "death": 1430,
+  "deathAccuracy": "exact",
+  "title": "掌户部三十年",
+  "bio": "字维喆，湘阴人。掌户部几三十年，理财不尚聚敛;谏阻北征而系狱，仁宗即位复任。1430 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-zhanji",
+      "target": "xia-yuanji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "掌户部三十年，理财而不事聚敛"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "xia-yuanji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永乐北征与迁都之费尽出户部调度，历事五朝而无咎"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "夏原吉传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "id": "cao-pi",
+  "name": "曹丕",
+  "display": "魏文帝曹丕",
+  "birth": 187,
+  "birthAccuracy": "exact",
+  "death": 226,
+  "deathAccuracy": "exact",
+  "title": "魏文帝，受汉禅，立九品",
+  "bio": "曹操次子，与曹植争嗣而胜。延康元年受献帝禅，改元黄初，都洛阳。行九品官人之法，收宗室而抑宦官，在位七年而崩，年四十。好文学，著《典论》，建安文士多出其幕。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "monarch",
+    "poetry",
+    "literature"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "cao-pi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，丕代汉称帝"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "cao-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，七步之逼"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "bian-hou",
+      "target": "cao-pi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。卞皇后是文帝之母"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "zhen-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹丕之妻。黄初二年六月赐死"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "guo-hou-wende",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹丕皇后。青龙三年崩于许昌"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-mao",
+      "target": "cao-pi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹丕之孙（东海王霖之子），正元元年即位，甘露五年讨司马昭被杀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "chen-qun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝时尚书，创九品中正制"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "liu-fang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝中书监，掌机密"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "sun-zi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝中书令，与刘放并掌机密"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "wang-chang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝时为散骑侍郎，官至司空"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "wang-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝时为中书侍郎，后为征南将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "wang-guan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝时为尚书郎，官至司空"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "lu-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "卢植之子，魏文帝时为吏部尚书"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "sun-li",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝时为司隶校尉，官至并州刺史"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "fu-gu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝时为尚书，后为司马氏谋主"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-pi",
+      "target": "meng-da",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "蜀降魏，魏文帝以为新城太守"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caopi-fawu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "caopi-shou-chan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jiupin-zhongzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "曹丕",
+    "曹子桓",
+    "魏文帝"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·文帝纪",
+      "kind": "classic"
+    }
+  ]
+}

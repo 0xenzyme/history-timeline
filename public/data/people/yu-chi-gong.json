@@ -1,0 +1,69 @@
+{
+  "id": "yu-chi-gong",
+  "name": "尉迟恭",
+  "display": "尉迟敬德",
+  "birth": 585,
+  "birthAccuracy": "exact",
+  "death": 658,
+  "deathAccuracy": "exact",
+  "title": "鄂国公，玄武门之功，晚年闭门",
+  "bio": "朔州善阳人，本出鲜卑尉迟部。骁勇善避槊，每单骑入敌阵，人不能伤。武德九年六月四日从秦王于玄武门，射元吉坠马，又擐甲持矛入见高祖，请立秦王。贞观中数以功高忤人，为廷尉所劾，遂谢宾客，晚年穿筑池台，奏清商乐以自奉。显庆三年薨，年七十四。",
+  "tags": [
+    "唐",
+    "玄武门"
+  ],
+  "categories": [
+    "general",
+    "founding"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "yu-chi-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "玄武门救驾，功第一"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xuanwu-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "尉迟恭",
+    "尉迟敬德",
+    "尉迟融",
+    "鄂国公"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "尉迟敬德传",
+      "kind": "classic"
+    }
+  ]
+}

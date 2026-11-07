@@ -1,0 +1,104 @@
+{
+  "id": "zhu-zhanji",
+  "name": "朱瞻基",
+  "display": "明宣宗朱瞻基",
+  "birth": 1399,
+  "birthAccuracy": "exact",
+  "death": 1435,
+  "deathAccuracy": "exact",
+  "title": "仁宣之治",
+  "bio": "成祖孙，即位守成，重用三杨，与父仁宗并称仁宣之治；亦擅绘事，好促织之戏。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch",
+    "painting"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-gaochi",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，仁宗传宣宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，宣宗传英宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-gaoxu",
+      "target": "zhu-zhanji",
+      "type": "rival",
+      "directed": false,
+      "since": 1426,
+      "notes": [
+        "汉王举兵，宣宗亲征而擒之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhang-taihu",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，太后委政于三杨"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-zhanji",
+      "target": "xia-yuanji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "掌户部三十年，理财而不事聚敛"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "宣宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

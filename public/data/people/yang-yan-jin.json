@@ -1,0 +1,71 @@
+{
+  "id": "yang-yan-jin",
+  "name": "杨艳",
+  "display": "武元杨皇后",
+  "birth": 238,
+  "birthAccuracy": "approx",
+  "death": 274,
+  "deathAccuracy": "exact",
+  "birthNote": "泰始十年崩，年三十七，上推生年。",
+  "title": "晋武帝皇后，惠帝之母",
+  "bio": "弘农华阴人。文帝为世子时聘她。生惠帝司马衷。泰始十年崩于明光殿，绝于武帝膝上，年三十七。",
+  "tags": [
+    "晋",
+    "西晋"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "yang-yan-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武帝皇后。泰始十年崩于明光殿，年三十七"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-zhong",
+      "target": "yang-yan-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。杨艳生惠帝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杨艳",
+    "武元皇后"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "后妃传·武元杨皇后",
+      "kind": "classic"
+    }
+  ]
+}

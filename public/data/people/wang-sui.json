@@ -1,0 +1,36 @@
+{
+  "id": "wang-sui",
+  "name": "王随",
+  "display": "王随",
+  "birthAccuracy": "unknown",
+  "death": 1039,
+  "deathAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "宰辅二",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "仁宗本纪二",
+      "kind": "classic"
+    }
+  ]
+}

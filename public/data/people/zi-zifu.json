@@ -1,0 +1,98 @@
+{
+  "id": "zi-zifu",
+  "name": "子兹甫",
+  "display": "宋襄公",
+  "birthAccuracy": "unknown",
+  "death": -637,
+  "deathAccuracy": "exact",
+  "title": "宋国国君，泓之战的败者",
+  "bio": "欲继齐桓为盟主。泓水之战不击半渡，伤股而卒。轴上他与齐桓、晋文同时，短条提醒：霸主不是自称的。",
+  "tags": [
+    "宋国",
+    "泓之战"
+  ],
+  "categories": [
+    "hegemon"
+  ],
+  "polity": [
+    "song-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "hegemon"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jiang-xiaobai",
+      "target": "zi-zifu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "襄公欲继齐桓为盟主"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "zi-zifu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "襄公争盟失败后，文公城濮定霸"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "xiong-yun",
+      "target": "zi-zifu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "泓之战射伤宋襄公，襄公病创而死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hongshui-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qihuangong-wuzi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "宋襄公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "宋微子世家",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "僖公二十二年",
+      "kind": "classic"
+    }
+  ]
+}

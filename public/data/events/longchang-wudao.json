@@ -1,0 +1,74 @@
+{
+  "id": "longchang-wudao",
+  "name": "龙场悟道",
+  "display": "龙场悟道",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1508,
+  "yearAccuracy": "exact",
+  "yearNote": "正德三年，王守仁谪贵州龙场驿驿丞，悟「格物致知」之旨。其年在正德戊辰，为1508年；《明史·王守仁传》《年谱》并载之。",
+  "place": "龙场驿",
+  "placeNow": "今贵州修文",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "wang-shouren"
+  ],
+  "result": "阳明悟「心即理」，其后倡致良知、知行合一，别立一宗",
+  "aliases": [
+    "王阳明悟道"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "守仁字伯安，学者称阳明，其学凡三变。始也，泛滥词章，遍读考亭之书，思格物以致知，格竹七日而病，疑圣人之道不可以求之物。继而出入于二氏，又以为役于物；及谪龙场，居夷处困，万死千难，忽悟「格物致知」当自求诸心，不当求诸事物，曰「始知圣人之道，吾性自足，向之求理于事物者误也」。于是屏去枝叶，一意本心，其后教人以致良知为标的，以知行合一为工夫，又以无善无恶心之体、有善有恶意之动、知善知恶是良知、为善去恶是格物为四句。阳明之学，排抵旧说，简易直捷，故学者靡然从之，不仅革明中叶之习，而及于东亚诸国。其用兵料敌，亦以良知之发为断，破宸濠、平思田，动合机宜。儒者谓其「真三不朽」者，非溢美也。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "王守仁传",
+      "kind": "classic"
+    },
+    {
+      "work": "王阳明年谱",
+      "part": "正德三年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-shouren",
+      "name": "王守仁",
+      "display": "王阳明",
+      "birth": 1472,
+      "birthAccuracy": "exact",
+      "death": 1529,
+      "deathAccuracy": "exact",
+      "title": "心学集大成者",
+      "bio": "余姚人，龙场悟道，倡「致良知」「知行合一」。平宁王宸濠之乱，事功与学术并峙，世称阳明先生。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "minister",
+        "neo-confucian",
+        "general"
+      ],
+      "primary": "neo-confucian",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

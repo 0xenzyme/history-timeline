@@ -1,0 +1,88 @@
+{
+  "id": "liu-ju",
+  "name": "刘据",
+  "display": "戾太子刘据",
+  "birthAccuracy": "unknown",
+  "death": -91,
+  "deathAccuracy": "exact",
+  "title": "戾太子，巫蛊之祸自经",
+  "bio": "武帝长子，母卫皇后子夫。征和二年巫蛊之祸起，江充穷治太子宫掘得桐木人，太子惧不能自明，矫节收捕江充，与丞相刘屈氂战长安中，兵败亡匿湖县，自经死。其孙病已后即位，是为宣帝。",
+  "tags": [
+    "巫蛊之祸",
+    "太子"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "liu-ju",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；巫蛊之祸兵败自经"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ju",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子；巫蛊之祸中母子俱亡"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "jiang-chong",
+      "target": "liu-ju",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "掘蛊太子宫，太子斩充而起兵，父子相战"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wugu-zhihuo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "戾太子",
+    "卫太子"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "武五子传",
+      "kind": "classic"
+    }
+  ]
+}

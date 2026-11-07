@@ -1,0 +1,57 @@
+{
+  "id": "tai-ping-gong-zhu",
+  "name": "太平公主",
+  "display": "太平公主",
+  "birthAccuracy": "unknown",
+  "death": 713,
+  "deathAccuracy": "exact",
+  "title": "先天二年赐死",
+  "bio": "高宗女，预诛韦后，后谋废玄宗。先天二年七月赐死于家。",
+  "tags": [
+    "唐",
+    "外戚"
+  ],
+  "categories": [
+    "consort-kin"
+  ],
+  "primary": "consort-kin",
+  "polity": [
+    "tang"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "tai-ping-gong-zhu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "先天二年谋废玄宗，赐死于家"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "太平公主"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "外戚传",
+      "kind": "classic"
+    }
+  ]
+}

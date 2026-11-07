@@ -1,0 +1,312 @@
+{
+  "id": "liao",
+  "name": "辽",
+  "from": 916,
+  "to": 1125,
+  "contractVersion": 1,
+  "group": "song-liao-jin-yuan",
+  "personCount": 0,
+  "eventCount": 88,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "liangjin-zhanzheng",
+      "name": "梁晋战争",
+      "display": "梁晋",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 908,
+      "yearAccuracy": "exact",
+      "yearNote": "起开平二年（908）李克用卒、李存勖嗣晋王，梁晋交兵；止同光元年（923）汴州陷落。907年朱温代唐后河东已与梁绝，通鉴以908年为战端。",
+      "endYear": 923,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "hou-tang",
+        "hou-liang"
+      ],
+      "people": [
+        "li-cunxu",
+        "zhu-wen",
+        "zhu-zhen"
+      ],
+      "result": "梁晋夹河十余年，柏乡决胜负；923年汴州陷，后梁亡，河东入定中原。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "开平二年，李克用卒，李存勖嗣晋王，梁晋兵连不解。朱温据汴洛，挟中原之众；存勖保太原，以沙陀骑逐燕。柏乡一战，梁军歼于河北，攻守势易。夹河之守十余年，存勖称帝魏州，袭汴州，朱友贞死，梁亡。河东政权自晋而唐，得河北、并、汴、洛之地，五代第一大战由此定。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后梁纪·开平二年、后唐纪·同光元年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "庄宗本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qidan-jianguo",
+      "name": "契丹建国",
+      "display": "契丹建国",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 916,
+      "yearAccuracy": "exact",
+      "yearNote": "辽史太祖本纪系神册元年正月丙戌建国号契丹；通鉴系贞明二年，同是916。",
+      "polity": [
+        "liao"
+      ],
+      "people": [
+        "yelv-abaoji"
+      ],
+      "result": "耶律阿保机称帝，建元神册，国号契丹；北族王朝与五代、十国并立。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "梁贞明二年，耶律阿保机称帝，建元神册，国号契丹，都西楼。阿保机自唐末为迭剌部夷离堇，削平七部，至是立国。契丹之兴与五代相终始：南得燕云则俯临河朔，西并渤海则控扼辽东，北族王朝自兹与中原分庭。",
+      "sources": [
+        {
+          "work": "辽史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "后梁纪·贞明二年",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "houdang-mie-houliang",
+      "name": "后唐灭后梁",
+      "display": "后唐灭后梁",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 923,
+      "yearAccuracy": "exact",
+      "yearNote": "袭取郓州：资治通鉴卷272、旧五代史卷29同系同光元年闰四月壬寅—癸卯（923）。灭梁：旧五代史卷30系十月辛未朔、壬申大军自杨刘济河、癸酉至郓州、甲戌破中都擒王彦章；通鉴卷272载戊寅（初八）梁末帝朱友贞自尽、己卯（初九）旦李嗣源入大梁、庄宗入梁门。全役在同光元年（923）之内，campaign 不设 endYear。",
+      "place": "郓州—汴州",
+      "placeNow": "山东东平—河南开封",
+      "belligerents": [
+        "hou-liang",
+        "hou-tang"
+      ],
+      "commanders": [
+        {
+          "id": "li-cunxu",
+          "side": "hou-tang"
+        },
+        {
+          "id": "li-siyuan",
+          "side": "hou-tang"
+        }
+      ],
+      "people": [
+        "zhu-zhen"
+      ],
+      "result": "闰四月李嗣源袭取郓州楔入梁腹地；十月唐军自郓州兼程直趋大梁，中都破王彦章，戊寅夜梁末帝朱友贞自尽，己卯李嗣源先入汴，后梁亡；李存勖旋定都洛阳。",
+      "aliases": [
+        "汴州之战",
+        "同光灭梁",
+        "郓州-汴州之役"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "同光元年（923）四月己巳，晋王李存勖在魏州即皇帝位，国号大唐，改元同光。闰四月壬寅，李嗣源率精兵袭取郓州，楔入梁腹地；十月唐军自杨刘济河，甲戌破中都擒王彦章，兼程直趋大梁，戊寅夜梁末帝朱友贞自尽，己卯旦李嗣源先入汴州，后梁灭亡。庄宗旋定都洛阳。这是五代第一次政权更替，黄河流域主导权自此归于后唐。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "卷二七二 后唐纪一 同光元年",
+          "note": "四月己巳帝即皇帝位于魏州，国号大唐；十月壬申帝以大军自杨刘济河，己卯旦李嗣源军至大梁攻封丘门，王瓒开门出降",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "卷二九 唐书·庄宗纪三 同光元年",
+          "note": "闰月壬寅命嗣源率步骑五千箝枚自河趋郓，是夜阴雨至城下，郓人不觉，乘城而入，郓州平",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "卷三十 唐书·庄宗纪四 同光元年",
+          "note": "十月辛未朔壬申帝御大军自杨刘济河，癸酉至郓州，甲戌攻中都（时王彦章守中都）",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "houtang-mie-liang",
+      "name": "后唐灭梁",
+      "display": "后唐灭梁",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 923,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系同光元年四月存勖即皇帝位于魏州，十月袭汴州，朱友贞死；公历并在923。同年事，不写 endYear。",
+      "place": "汴州",
+      "placeNow": "今河南开封",
+      "belligerents": [
+        "hou-tang",
+        "hou-liang"
+      ],
+      "commanders": [
+        {
+          "id": "li-cunxu",
+          "side": "hou-tang"
+        }
+      ],
+      "people": [
+        "zhu-zhen"
+      ],
+      "result": "汴州陷，朱友贞死，后梁亡；李存勖定汴，国号唐，改元同光。",
+      "parent": "liangjin-zhanzheng",
+      "aliases": [
+        "wudai-923",
+        "李存勖灭梁"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "同光元年四月，李存勖即皇帝位于魏州，国号唐。梁以段凝悉锐阵于河上，汴州空虚；存勖用李嗣源策，轻骑倍道袭汴。十月，汴城开，朱友贞使皇甫麟杀己，后梁亡。存勖入汴，河东之业至此极。沙陀李氏自晋而唐，据中原之号，五代第一朝易主。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后唐纪·同光元年",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "庄宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "新五代史",
+          "part": "唐本纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "houdang-mie-qianshu",
+      "name": "后唐灭前蜀",
+      "display": "后唐灭前蜀",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 925,
+      "yearAccuracy": "exact",
+      "yearNote": "资治通鉴卷273系议伐蜀于同光三年九月丁酉（925）；旧五代史卷33系十月戊寅西征之师入大散关、十一月丙辰蜀主王衍出降、丁巳大军入成都，自兴师凡七十五日。十一月丙辰已近公历925年末，campaign 取 year 925，不设 endYear。",
+      "place": "成都",
+      "placeNow": "四川省成都市",
+      "belligerents": [
+        "hou-tang",
+        "shiguo"
+      ],
+      "result": "同光三年九月议伐蜀、十月入大散关，十一月丙辰王衍出降、丁巳入成都，自兴师凡七十五日，前蜀亡；战后孟知祥镇西川，埋下后蜀之基。",
+      "aliases": [
+        "同光伐蜀",
+        "郭崇韬伐蜀"
+      ],
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "同光三年（925）九月丁酉，后唐庄宗与宰相议伐蜀，以皇子魏王李继岌为都统、郭崇韬为东北面行营都招讨；十月戊寅西征之师入大散关，十一月丙辰蜀主王衍出降，丁巳大军入成都，自兴师凡七十五日，前蜀亡。后唐疆域至此达于极盛。战后孟知祥镇西川，埋下后蜀之基；灭蜀功赏之争激化庄宗末年内乱。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "卷二七三 后唐纪二 同光二年—三年",
+          "note": "同光三年九月丁酉，帝与宰相议伐蜀，以皇子魏王继岌为伐蜀都统",
+          "kind": "classic"
+        },
+        {
+          "work": "旧五代史",
+          "part": "卷三三 唐书·庄宗纪七 同光三年",
+          "note": "十月戊寅西征之师入大散关；十一月乙卯魏王至西川城北，丙辰蜀主王衍出降，丁巳大军入成都，自兴师凡七十五日",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "ge-yanyun-shi-liu-zhou",
+      "name": "割燕云十六州",
+      "display": "割燕云十六州",
+      "kind": "point",
+      "type": "diplomatic",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 936,
+      "yearAccuracy": "exact",
+      "yearNote": "通鉴系清泰三年十一月契丹主册敬瑭为帝，约割卢龙、雁门以北；诸州实际入辽至会同初年方竣。",
+      "polity": [
+        "hou-jin",
+        "liao"
+      ],
+      "people": [
+        "shi-jingtang",
+        "yelv-deguang"
+      ],
+      "result": "卢龙、雁门以北十六州入契丹，河北失险，中原北门洞开。",
+      "dynasties": [
+        "wudai",
+        "liao"
+      ],
+      "desc": "清泰三年十一月，契丹主耶律德光册石敬瑭为晋皇帝，敬瑭约割卢龙道及雁门以北诸州，岁输帛三十万匹。所割即燕云十六州：幽、蓟、瀛、莫、涿、檀、顺、新、妫、儒、武、蔚、应、寰、朔、云。其地负山带河，限以长城，蔽河朔而当戎冲；既入契丹，河北列郡无复藩篱。石敬瑭以一身之利易中原二百年之患，宋初志在收复而不能，高梁河、岐沟之役皆承其弊。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "后唐纪·清泰三年",
+          "kind": "classic"
+        },
+        {
+          "work": "辽史",
+          "part": "太宗本纪",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

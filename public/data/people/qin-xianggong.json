@@ -1,0 +1,105 @@
+{
+  "id": "qin-xianggong",
+  "name": "秦襄公",
+  "display": "秦襄公",
+  "birthAccuracy": "unknown",
+  "death": -766,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：襄公十二年伐戎而至岐，卒。七年当镐京之年。",
+  "title": "秦始列为诸侯",
+  "bio": "犬戎杀幽王，襄公将兵救周、以兵送平王。平王封为诸侯，赐岐以西，秦始国。",
+  "tags": [
+    "秦",
+    "始封"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qin-xianggong",
+      "target": "qin-zhuanggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qin-shifu",
+      "target": "qin-xianggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。世父让国击戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "miao-ying",
+      "target": "qin-xianggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄妹。襄公元年以女弟为丰王妻"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "qin-xianggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "襄公以兵送平王，始列为诸侯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "pingwang-dongqian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "秦襄公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    }
+  ]
+}

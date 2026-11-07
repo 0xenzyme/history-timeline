@@ -1,0 +1,75 @@
+{
+  "id": "taikang-zhizhi",
+  "name": "太康之治",
+  "display": "太康之治",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 280,
+  "yearAccuracy": "exact",
+  "yearNote": "太康元年（280）灭吴统一、改元大赦起；「太康」纪元本身即锚点。",
+  "endYear": 289,
+  "endYearAccuracy": "approx",
+  "endYearNote": "下限取武帝末年（289/290 太熙之际），无明确事件节点，故 approx。",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "sima-yan"
+  ],
+  "result": "统一后近十年轻徭薄赋、社会安定、人口回升，为西晋唯一承平盛世",
+  "aliases": [
+    "太康盛世"
+  ],
+  "tags": [
+    "golden-age",
+    "governance"
+  ],
+  "dynasties": [
+    "three-kingdoms",
+    "western-jin"
+  ],
+  "desc": "280 年灭吴统一后，晋武帝改元太康，减免江东将吏百姓赋役，劝课农桑；史称太康年间「民和俗静，家给人足」，是西晋唯一一段承平盛世。同期武帝大封宗室诸王、外戚擅权渐起，盛世之下已伏八王之乱隐患。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷三·帝纪第三",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-yan",
+      "name": "司马炎",
+      "display": "晋武帝司马炎",
+      "birth": 236,
+      "birthAccuracy": "exact",
+      "death": 290,
+      "deathAccuracy": "exact",
+      "title": "晋武帝，受魏禅，灭吴一天下",
+      "bio": "司马昭长子。咸熙二年受魏禅，改元泰始，都洛阳。太康元年灭吴，三国归晋，天下户二百四十五万。罢州郡兵，大封宗室，晚年骄怠，贾后与外戚之祸伏于此。太熙元年崩，年五十五。",
+      "tags": [
+        "三国",
+        "西晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei",
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

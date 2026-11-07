@@ -1,0 +1,81 @@
+{
+  "id": "qi-wugong",
+  "name": "姜寿",
+  "display": "齐武公",
+  "birthAccuracy": "unknown",
+  "death": -825,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：武公二十四年周宣王初立，二十六年卒。宣王元年取前 827 年，二十六年当 -825。",
+  "title": "齐武公",
+  "bio": "献公之子。九年厉王出奔，十年共和，二十四年宣王初立，二十六年卒。",
+  "tags": [
+    "齐"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qi-wugong",
+      "target": "qi-xiangong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qi-ligong",
+      "target": "qi-wugong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "qi-wugong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武公九年厉王出奔"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "齐武公",
+    "武公寿"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "齐太公世家",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "qihuangong-wuzi",
+  "name": "齐桓公卒与五公子争立",
+  "display": "齐桓公卒与五公子争立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -643,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·僖公十七年》「冬，十有二月，乙亥，齊侯小白卒」（史記齊世家系冬十月乙亥，月分有差）；《史記·齊太公世家》桓公四十三年（前643）。五公子争立延至前642宋襄公伐齐立孝公。",
+  "polity": [
+    "qi",
+    "song-guo"
+  ],
+  "people": [
+    "jiang-xiaobai",
+    "gongzi-wugui",
+    "qi-xiaogong",
+    "zi-zifu"
+  ],
+  "aliases": [
+    "五公子争立",
+    "桓公尸虫出于户",
+    "齐霸中衰",
+    "齐桓公卒、五公子争立"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "齐桓公卒，易牙、竖刁因内宠杀群吏立公子无诡，太子昭奔宋；五公子各树党相攻，尸六十七日虫出于户。宋襄公率诸侯兵送太子昭，齐人杀无诡，四公子之徒攻太子，宋败四公子师立齐孝公。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷13",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷032·齊太公世家",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義 卷13（僖公十七年）",
+      "part": "僖公十七年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·齊太公世家",
+      "part": "桓公四十三年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jiang-xiaobai",
+      "name": "姜小白",
+      "display": "齐桓公",
+      "birthAccuracy": "unknown",
+      "death": -643,
+      "deathAccuracy": "exact",
+      "title": "春秋首霸",
+      "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
+      "tags": [
+        "齐国"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "gongzi-wugui",
+      "name": "公子无诡",
+      "display": "公子无诡",
+      "birthAccuracy": "unknown",
+      "death": -643,
+      "deathAccuracy": "approx",
+      "deathNote": "史记·齐太公世家：桓公卒，五公子争立，易牙立无诡；宋襄公伐齐，齐人杀无诡。左传·僖公十八年（前642）「齊人殺無虧」，试跑名单取前643，作约年。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "qi-xiaogong",
+      "name": "姜昭",
+      "display": "齐孝公",
+      "birthAccuracy": "unknown",
+      "death": -633,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·齐太公世家「十年，孝公卒，孝公弟潘因卫公子开方杀孝公子而立潘，是为昭公」记在位十年。",
+      "title": "五公子争立之一，在位十年",
+      "bio": "桓公之子，母郑姬。桓公死后无诡立三月被杀，继立者争之，孝公与昭公、懿公、惠公皆桓公之子。宋败齐四公子师而立太子昭，是为孝公。十年卒。",
+      "tags": [
+        "桓公之子",
+        "五公子争立"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zi-zifu",
+      "name": "子兹甫",
+      "display": "宋襄公",
+      "birthAccuracy": "unknown",
+      "death": -637,
+      "deathAccuracy": "exact",
+      "title": "宋国国君，泓之战的败者",
+      "bio": "欲继齐桓为盟主。泓水之战不击半渡，伤股而卒。轴上他与齐桓、晋文同时，短条提醒：霸主不是自称的。",
+      "tags": [
+        "宋国",
+        "泓之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

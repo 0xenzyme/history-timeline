@@ -1,0 +1,134 @@
+{
+  "id": "liu-shan",
+  "name": "刘禅",
+  "display": "后主刘禅",
+  "birth": 207,
+  "birthAccuracy": "exact",
+  "death": 271,
+  "deathAccuracy": "exact",
+  "title": "蜀汉后主，出降而乐不思蜀",
+  "bio": "刘备长子，甘夫人之出。十七岁即位，事无大小皆决于亮；亮卒后蒋琬、费祎相继，晚年任黄皓。景耀六年邓艾至成都，出降，蜀汉亡，迁洛阳封安乐公。泰始七年卒，年六十五。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bei",
+      "target": "liu-shan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-shan",
+      "target": "dong-yun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "后主时为侍中，领虎贲中郎将"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-shan",
+      "target": "lv-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "后主时为尚书令"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-shan",
+      "target": "qiao-zhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "后主时劝降邓艾，蜀亡"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-shan",
+      "target": "zhang-yi-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "后主时为征西大将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baidi-tuogu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liubei-chengdi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wei-mie-shu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhonghui-dengai-mieshu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘禅",
+    "刘公嗣",
+    "安乐公"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·后主传",
+      "kind": "classic"
+    }
+  ]
+}

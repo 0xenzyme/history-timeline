@@ -1,0 +1,69 @@
+{
+  "id": "jin-zhuxingding",
+  "name": "晋铸刑鼎",
+  "display": "晋铸刑鼎",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -513,
+  "yearAccuracy": "exact",
+  "yearNote": "左传昭公二十九年（前513）冬「晉趙鞅、荀寅帥師城汝濱，遂賦晉國一鼓鐵，以鑄刑鼎，著范宣子所為刑書焉」，仲尼曰「晉其亡乎！失其度矣」；维基百科（引左传）同系前513。",
+  "polity": [
+    "jin-guo"
+  ],
+  "people": [
+    "kong-zi"
+  ],
+  "aliases": [
+    "赵鞅荀寅铸刑鼎",
+    "著范宣子刑书",
+    "孔子曰晋其亡乎"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "晋赵鞅、荀寅因军役赋晋国一鼓铁，铸范宣子所为刑书于铁鼎，公之于国。仲尼评曰：晋其亡乎！失其度矣——贵贱之序一决于鼎，民将不尊其贵。晋国卿族擅政之局愈深。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷53（昭公二十九年）",
+      "part": "昭公二十九年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "維基百科：趙鞅",
+      "part": "生平",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "kong-zi",
+      "name": "孔丘",
+      "display": "孔子",
+      "birth": -551,
+      "birthAccuracy": "disputed",
+      "death": -479,
+      "deathAccuracy": "exact",
+      "birthNote": "生年取《史记》前 551 年说",
+      "title": "儒家创始人",
+      "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+      "tags": [
+        "儒家",
+        "六经",
+        "论语"
+      ],
+      "categories": [
+        "scholar-official",
+        "confucian"
+      ],
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

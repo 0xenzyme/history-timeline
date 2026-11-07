@@ -1,0 +1,109 @@
+{
+  "id": "li-ling",
+  "name": "李陵",
+  "display": "李都尉",
+  "birthAccuracy": "unknown",
+  "death": -74,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "李广之孙，西汉都尉",
+  "bio": "前 99 年以五千步兵深入浚稽山，力战匈奴八日，矢尽援绝而降。司马迁因替他辩护而受宫刑，其家族被族灭。",
+  "tags": [
+    "降匈奴",
+    "李陵之祸"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-guang",
+      "target": "li-ling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "li-ling",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "拜骑都尉，后降匈奴"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-ling",
+      "target": "sima-qian",
+      "type": "peer",
+      "directed": false,
+      "since": -99,
+      "notes": [
+        "司马迁为其力辩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-ling",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "since": -99,
+      "notes": [
+        "李陵降匈奴，族其家"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-ling",
+      "target": "su-wu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "降匈奴后置酒诀别，泣下数行"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "李将军列传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "李广苏建传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "keju-kaishi",
+  "name": "隋文帝设科举",
+  "display": "隋文帝设科举",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 587,
+  "yearAccuracy": "disputed",
+  "yearNote": "隋书·高祖纪载开皇七年（587）正月制诸州岁贡三人，为分科举人的通行起点。进士科之设另有大业元年（605）、大业三年（607）诸说，唐以后始成定制。轴年取开皇七年，异说见注。",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-jian"
+  ],
+  "result": "诸州岁贡与二科举人并行，选官权自中正收归中央",
+  "aliases": [
+    "科举之始",
+    "分科举人"
+  ],
+  "dynasties": [
+    "northern-southern",
+    "sui"
+  ],
+  "desc": "开皇年间隋文帝罢九品中正之弊，开皇七年（587）制诸州岁贡三人，其后又诏京官五品以上及总管、刺史以志行修谨、清平干济二科举人。此举把选官权从州郡中正收归中央，以科目考试取代门第品评。隋制本身仍属初创，科目与常举之法并无定式；唐以后进士、明经诸科渐盛，科举遂成此后一千三百年选官的主干。",
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "高祖纪",
+      "kind": "classic"
+    },
+    {
+      "work": "通典",
+      "part": "选举",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

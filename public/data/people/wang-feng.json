@@ -1,0 +1,70 @@
+{
+  "id": "wang-feng",
+  "name": "王凤",
+  "display": "王凤",
+  "birthAccuracy": "unknown",
+  "death": -22,
+  "deathAccuracy": "exact",
+  "title": "元后长兄，大司马大将军，开王氏专权",
+  "bio": "王政君同母长兄。成帝即位，以元舅为大司马大将军领尚书事，辅政十一年，诸王谭、商等分据要职，王氏专权自此始。阳朔三年秋病笃，固荐御史大夫王音自代，八月丁巳薨。",
+  "tags": [
+    "王氏专权",
+    "外戚"
+  ],
+  "categories": [
+    "consort-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-feng",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长兄为大司马辅政，王氏专权自此始"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wang-feng",
+      "target": "wang-shang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "成帝时同以外戚辅政，王凤专权，王商与之争"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "元后传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "成帝纪",
+      "kind": "classic"
+    }
+  ]
+}

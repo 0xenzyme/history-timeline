@@ -1,0 +1,63 @@
+{
+  "id": "gongsun-zan",
+  "name": "公孙瓒",
+  "display": "公孙瓒",
+  "birthAccuracy": "unknown",
+  "death": 199,
+  "deathAccuracy": "exact",
+  "title": "前将军，白马义从，困于易京",
+  "bio": "辽西令支人，以孝廉为涿令，数与鲜卑战，号白马义从。杀刘虞而有幽州，与袁绍连年相攻。筑易京楼橹千重，谓天下事可坐定。建安四年绍凿地道破之，瓒知必败，尽杀其妻子，引火自焚，年未五十。",
+  "tags": [
+    "三国"
+  ],
+  "categories": [
+    "warlord",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gongsun-zan",
+      "target": "liu-bei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "刘备少时与瓒同师卢植，后依瓒"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "公孙瓒",
+    "公孙伯珪"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·二公孙陶四张传",
+      "kind": "classic"
+    }
+  ]
+}

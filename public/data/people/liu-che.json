@@ -1,0 +1,538 @@
+{
+  "id": "liu-che",
+  "name": "刘彻",
+  "display": "汉武帝",
+  "birth": -156,
+  "birthAccuracy": "disputed",
+  "death": -87,
+  "deathAccuracy": "exact",
+  "birthNote": "生年有前 156、前 157 两说",
+  "title": "西汉第七位皇帝，在位 54 年",
+  "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+  "tags": [
+    "开疆",
+    "独尊儒术",
+    "在位54年"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-fuling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-che",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖母与孙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "dong-zhongshu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -134,
+      "notes": [
+        "天人三策"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "gongsun-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -130,
+      "notes": [
+        "对策第一，官至丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "sang-hongyang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -119,
+      "notes": [
+        "盐铁官营、均输平准"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "wei-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "车骑将军至大司马大将军"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "huo-qubing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "骠骑将军，封冠军侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "li-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "历右北平太守等"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "zhang-qian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "两次奉使西域"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "sima-qian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太史令，李陵之祸受宫刑"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "li-ling",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "拜骑都尉，后降匈奴"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -87,
+      "notes": [
+        "遗诏托孤"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-ling",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "since": -99,
+      "notes": [
+        "李陵降匈奴，族其家"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "jun-chen",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "since": -133,
+      "notes": [
+        "马邑之谋，汉匈全面开战"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "wang-hou-jing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。元朔三年崩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "zhu-fu-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -128,
+      "notes": [
+        "岁中四迁中大夫，倡推恩令"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "yan-zhu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中大夫，闽越之役与淮南王往复议兵"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "sima-xiang-ru",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "读《子虚赋》而叹「独不得与此人同时」"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "zhang-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "御史大夫，定律令、造皮币"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "wang-hui",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -133,
+      "notes": [
+        "首倡马邑之谋，单于觉遁，下狱自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "jin-mi-di",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "休屠王子入侍，遗诏封秺侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "li-guang-li",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贰师将军，伐大宛得善马"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-an",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "淮南谋反事泄，自刑杀，国除"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-ju",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；巫蛊之祸兵败自经"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "gongsun-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太仆至丞相，卒于巫蛊狱中"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "che-qian-qiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "上书讼戾太子冤，感悟武帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "lv-jia",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "南越相吕嘉抗命，元鼎六年国灭"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "yu-shan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "东越反，元封元年平定"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "wei-you-qu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "朝鲜杀汉使拒命，元封三年置四郡"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "dongfang-shuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "待诏公车、常侍郎，以诙谐行讽谏"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-furen",
+      "target": "liu-che",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫人有宠，生昌邑哀王髆；霍光追尊为孝武皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "jiang-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "拜直指绣衣使者，后治巫蛊之狱"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bachu-baijia",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "chaju-zhidu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "cishi-zhidu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "han-ping-nanyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "henan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mayi-zhimou",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "taixue-yu-boshi-dizi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tuien-ling",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tuienling",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wudi-tuogu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wugu-zhihuo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhangqian-tong-xiyu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孝武本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

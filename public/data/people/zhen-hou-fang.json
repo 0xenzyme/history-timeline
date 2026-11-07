@@ -1,0 +1,31 @@
+{
+  "id": "zhen-hou-fang",
+  "name": "甄皇后",
+  "display": "甄皇后（曹芳后）",
+  "birthAccuracy": "unknown",
+  "death": 251,
+  "deathAccuracy": "exact",
+  "polity": [
+    "wei"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书四 三少帝纪",
+      "kind": "classic"
+    }
+  ]
+}

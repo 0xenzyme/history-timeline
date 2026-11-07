@@ -1,0 +1,77 @@
+{
+  "id": "wen-tianxiang",
+  "name": "文天祥",
+  "display": "文天祥",
+  "birth": 1236,
+  "birthAccuracy": "exact",
+  "death": 1283,
+  "deathAccuracy": "exact",
+  "title": "忠烈，正气歌",
+  "bio": "吉水人，宝祐状元。元兵南下，散家财起兵勤王，兵败被执，拘燕三年，作《正气歌》不屈，从容就义。",
+  "tags": [
+    "宋",
+    "南宋",
+    "抗元"
+  ],
+  "categories": [
+    "chancellor",
+    "poetry",
+    "falling"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-sidao",
+      "target": "wen-tianxiang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "似道误国速亡，天祥起兵续残局"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "lu-xiufu",
+      "target": "wen-tianxiang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同榜进士。秀夫后来负幼帝蹈海，天祥被执不屈"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "linan-xiangbiao",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "文天祥传",
+      "kind": "classic"
+    }
+  ]
+}

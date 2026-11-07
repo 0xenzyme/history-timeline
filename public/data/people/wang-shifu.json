@@ -1,0 +1,60 @@
+{
+  "id": "wang-shifu",
+  "name": "王实甫",
+  "display": "王实甫",
+  "birth": 1250,
+  "birthAccuracy": "approx",
+  "death": 1330,
+  "deathAccuracy": "approx",
+  "title": "西厢记作者",
+  "bio": "大都人，约活动于元贞、大德间。所撰《西厢记》五本二十一折，辞采艳发，为元杂剧之绝唱。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "drama"
+  ],
+  "primary": "drama",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ma-zhiyuan",
+      "target": "wang-shifu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为大都杂剧名手，一作汉宫秋一作西厢记"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yuanqu-zaju",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "录鬼簿",
+      "part": "王实甫"
+    }
+  ]
+}

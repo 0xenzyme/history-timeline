@@ -1,0 +1,94 @@
+{
+  "id": "li-xuan",
+  "name": "李儇",
+  "display": "唐僖宗李儇",
+  "birth": 862,
+  "birthAccuracy": "exact",
+  "death": 888,
+  "deathAccuracy": "exact",
+  "title": "黄巢乱起，奔蜀播迁",
+  "bio": "懿宗第五子，十二岁即位，宠田令孜。乾符间黄巢陷两京，奔蜀；还京后藩镇割据，僖宗再播，唐祚已倾。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-cui",
+      "target": "li-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，懿宗传僖宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xuan",
+      "target": "li-ye",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，僖宗传昭宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xuan",
+      "target": "wang-duo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "僖宗朝督师讨黄巢，中和四年遇害"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xuan",
+      "target": "zheng-tian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "僖宗朝为相，中和二年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李儇",
+    "唐僖宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "僖宗纪",
+      "kind": "classic"
+    }
+  ]
+}

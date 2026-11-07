@@ -1,0 +1,127 @@
+{
+  "id": "cheng-zong",
+  "name": "铁穆耳",
+  "display": "元成宗铁穆耳",
+  "birth": 1265,
+  "birthAccuracy": "exact",
+  "death": 1307,
+  "deathAccuracy": "exact",
+  "title": "守成之君",
+  "bio": "世祖孙，即位守世祖成法，行宽政、罢征日本安南之役，号为治平；晚年多病，政出宫闱。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cheng-zong",
+      "target": "hu-bi-lie",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，世祖传成宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "hai-shan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，成宗崩无嗣，武宗入继"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "zhen-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，真金第三子铁穆耳嗣位"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "hai-du",
+      "type": "rival",
+      "directed": false,
+      "since": 1294,
+      "notes": [
+        "成宗朝连岁北征，海都败后道卒"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "bu-humu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "成宗即位授中书平章，持大体"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "wan-ze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "成宗朝右丞相，与不忽木同在政府"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "ha-la-ha-sun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为右丞相，成宗崩后闭府定议"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "成宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

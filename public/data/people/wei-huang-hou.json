@@ -1,0 +1,64 @@
+{
+  "id": "wei-huang-hou",
+  "name": "韦皇后",
+  "display": "韦皇后",
+  "birthAccuracy": "unknown",
+  "death": 710,
+  "deathAccuracy": "exact",
+  "title": "唐隆元年为乱兵所杀",
+  "bio": "中宗皇后，临朝摄政。景龙四年临淄王起兵，为乱兵所杀。",
+  "tags": [
+    "唐",
+    "后妃"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "tang"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-xian",
+      "target": "wei-huang-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "中宗皇后，景龙四年临淄王起兵时被杀"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "tanglong-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "韦皇后"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "后妃传·韦庶人",
+      "kind": "classic"
+    }
+  ]
+}

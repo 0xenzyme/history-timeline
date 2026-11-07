@@ -1,0 +1,121 @@
+{
+  "id": "jingyuan-bingbian",
+  "name": "泾原兵变",
+  "display": "泾原兵变",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 783,
+  "yearAccuracy": "exact",
+  "endYear": 784,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-kuo",
+    "li-sheng",
+    "zhu-ci"
+  ],
+  "result": "泾原军哗变拥朱泚称帝，德宗出亡奉天，李晟收复长安",
+  "aliases": [
+    "朱泚之乱"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "建中四年（783），泾原军过长安哗变，德宗出奔奉天，太尉朱泚被推为主、称帝据长安。次年李晟等军收复京城，朱泚败死。兵变重创削藩中的德宗朝，中央对河北藩镇的压制自此转为姑息；奉天解围与收复长安的战经过在军事史中另有专题，本实体只记权力更迭主线。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "德宗本纪、李晟传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百二十八至二百三十",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-kuo",
+      "name": "李适",
+      "display": "唐德宗李适",
+      "birth": 742,
+      "birthAccuracy": "exact",
+      "death": 805,
+      "deathAccuracy": "exact",
+      "title": "唐德宗，两税法，奉天之难",
+      "bio": "唐代宗长子，大历十四年即位，明年改元建中。用杨炎行两税法，废租庸调，赋役之制自此一变。性猜忌，信谗而黜陆贽，用裴延龄。建中四年朱泚乱，出奔奉天，兴元元年李怀光又叛，再奔梁州。晚年姑息藩镇，宦官益亲。贞元二十一年崩于会宁殿，年六十四。",
+      "tags": [
+        "唐",
+        "两税法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-sheng",
+      "name": "李晟",
+      "display": "李晟",
+      "birth": 727,
+      "birthAccuracy": "exact",
+      "death": 793,
+      "deathAccuracy": "exact",
+      "title": "收长安，贞元九年薨",
+      "bio": "陇右临洮人。德宗奔奉天，晟率孤军收复长安。贞元三年册太尉、中书令，奉朝请。九年八月薨，时年六十七。",
+      "tags": [
+        "唐",
+        "泾师之变"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-ci",
+      "name": "朱泚",
+      "display": "朱泚",
+      "birthAccuracy": "unknown",
+      "death": 784,
+      "deathAccuracy": "exact",
+      "title": "泾原乱兵所立，僭号称帝，败死",
+      "bio": "幽州昌平人。少从军，以敢战积功，为士卒所附，后以勋旧进位太尉，闲居京师。建中四年，泾原兵过长安哗变，德宗出奔奉天，乱兵无主，推泚为帅，遂僭号称帝，国号秦，改元应天，据长安。李晟、浑瑊等进讨，兴元元年李晟复京师，泚西走败死。",
+      "tags": [
+        "唐",
+        "藩镇"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

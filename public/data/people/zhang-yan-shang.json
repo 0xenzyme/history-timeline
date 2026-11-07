@@ -1,0 +1,58 @@
+{
+  "id": "zhang-yan-shang",
+  "name": "张延赏",
+  "display": "张延赏",
+  "birth": 727,
+  "birthAccuracy": "exact",
+  "death": 787,
+  "deathAccuracy": "exact",
+  "title": "贞元三年薨，年六十一",
+  "bio": "德宗朝为相，请减官收怨。贞元三年七月薨，年六十一。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "zhang-yan-shang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载785至787年在任，贞元三年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "张延赏"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "张延赏传",
+      "kind": "classic"
+    }
+  ]
+}

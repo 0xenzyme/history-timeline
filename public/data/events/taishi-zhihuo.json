@@ -1,0 +1,49 @@
+{
+  "id": "taishi-zhihuo",
+  "name": "泰始之祸",
+  "display": "泰始之祸",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 466,
+  "yearAccuracy": "exact",
+  "endYear": 469,
+  "endYearAccuracy": "exact",
+  "place": "彭城",
+  "placeNow": "今江苏徐州",
+  "belligerents": [
+    "nan",
+    "bei"
+  ],
+  "result": "宋失淮北四州及豫州淮西，南北防线由黄河退至淮河",
+  "aliases": [
+    "宋失淮北",
+    "泰始失淮北"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "466 年（泰始二年）晋安王刘子勋之乱平定后，徐州刺史薛安都惧诛，举彭城引魏军入援，张永、沈攸之北伐军惨败；此后数年魏军南下，469 年青州东阳陷落，淮北徐、兖、青、冀四州及豫州淮西尽入于魏。刘宋疆域自黄河一线退守淮河，南朝再无恢复之势。",
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "明帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "宋书",
+      "part": "薛安都传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [],
+  "collections": []
+}

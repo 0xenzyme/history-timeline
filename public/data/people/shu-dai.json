@@ -1,0 +1,80 @@
+{
+  "id": "shu-dai",
+  "name": "叔带",
+  "display": "赵叔带",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。史记：叔带之时周幽王无道，去周如晋，取镐京之年为可见下限。",
+  "title": "赵叔带，去周如晋",
+  "bio": "奄父之子。幽王无道，去周如晋，事晋文侯。赵人由此始章。",
+  "tags": [
+    "赵"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shu-dai",
+      "target": "yan-fu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shu-dai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "幽王无道，叔带去周如晋"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chou",
+      "target": "shu-dai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "叔带事晋文侯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "叔带"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "赵世家",
+      "kind": "classic"
+    }
+  ]
+}

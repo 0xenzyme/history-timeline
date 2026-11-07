@@ -1,0 +1,123 @@
+{
+  "id": "yuanyou-genghua",
+  "name": "元祐更化",
+  "display": "元祐更化",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1086,
+  "yearAccuracy": "disputed",
+  "yearNote": "高太后垂帘、神宗之死在元丰八年三月戊戌（1085-04-01），司马光同月后入朝，十月已罢方田。年号元祐与司马光任左仆射、八月罢青苗都在 1086。终点元祐八年九月戊寅太皇太后崩，为 1093-09-26。起点可系 1085 或 1086，不单取一边。",
+  "endYear": 1093,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "sima-guang",
+    "lv-gongzhu",
+    "zhao-xu-zhe"
+  ],
+  "result": "宣仁垂帘，旧党主政，青苗等新法被罢，熙丰班底退出政府。",
+  "aliases": [
+    "元祐复辟旧法"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "元丰八年三月神宗崩后太皇太后垂帘，元祐元年司马光执政，罢青苗钱，复常平法。宣仁垂帘期间旧党主政，熙丰班底退出，新法成套被罢，至元祐八年九月太皇太后崩。起点可系 1085 或 1086；这是宰相、言路和法度一起换边，不是一次人事调动。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十七",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷三百三十六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-guang",
+      "name": "司马光",
+      "display": "司马光",
+      "birth": 1019,
+      "birthAccuracy": "exact",
+      "death": 1086,
+      "deathAccuracy": "exact",
+      "title": "旧党领袖，《资治通鉴》",
+      "bio": "陕州夏县人，宝元进士。反对新法，退居洛阳十五年，主编《资治通鉴》二百九十四卷。哲宗初拜相，尽废新法。",
+      "tags": [
+        "宋",
+        "北宋",
+        "旧党"
+      ],
+      "categories": [
+        "chancellor",
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-gongzhu",
+      "name": "吕公著",
+      "display": "吕公著",
+      "birth": 1018,
+      "birthAccuracy": "exact",
+      "death": 1089,
+      "deathAccuracy": "exact",
+      "title": "元祐更化主谋之一",
+      "bio": "吕夷简之子，与司马光同辅元祐更化，拜司空同平章军国事。元祐四年卒，年七十二。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xu-zhe",
+      "name": "赵煦",
+      "display": "宋哲宗赵煦",
+      "birth": 1077,
+      "birthAccuracy": "exact",
+      "death": 1100,
+      "deathAccuracy": "exact",
+      "title": "元祐更化与绍圣绍述",
+      "bio": "神宗第六子，十岁即位，太皇太后高氏听政，行元祐旧法；亲政后改元绍圣，复新法、逐旧臣。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

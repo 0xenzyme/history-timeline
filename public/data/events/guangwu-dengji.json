@@ -1,0 +1,87 @@
+{
+  "id": "guangwu-dengji",
+  "name": "光武称帝，东汉建立",
+  "display": "建东汉",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 25,
+  "yearAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "liu-xiu",
+    "deng-yu"
+  ],
+  "result": "刘秀在鄗南即皇帝位，东汉政权建立",
+  "aliases": [
+    "dh-chengdi"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "25年六月，刘秀在鄗南即皇帝位，改元建武。此举使汉室复立，随后以洛阳为都并逐步平定各地割据。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "光武帝纪上",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-xiu",
+      "name": "刘秀",
+      "display": "汉光武帝",
+      "birth": -5,
+      "birthAccuracy": "exact",
+      "death": 57,
+      "deathAccuracy": "exact",
+      "title": "东汉光武帝，布衣起兵，重建汉室",
+      "bio": "南阳蔡阳人，高祖九世孙，起于舂陵。昆阳以数千破莽军数十万，河北收铜马，遂定洛阳。罢兵偃武，退功臣而进文吏，释奴婢、度田。东汉全部镜头从他这条开始。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "deng-yu",
+      "name": "邓禹",
+      "display": "邓禹",
+      "birth": 2,
+      "birthAccuracy": "exact",
+      "death": 58,
+      "deathAccuracy": "exact",
+      "title": "云台之首，佐光武定河北",
+      "bio": "南阳新野人，年十三游学长安，与刘秀同舍。杖策北渡，说秀以「延揽英雄，务悦民心」。二十四岁拜大司徒，后知时务而退，明帝时图画云台，居首。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

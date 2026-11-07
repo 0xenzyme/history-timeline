@@ -1,0 +1,152 @@
+{
+  "id": "mie-nantang",
+  "name": "灭南唐",
+  "display": "灭南唐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 974,
+  "yearAccuracy": "exact",
+  "yearNote": "开宝七年九月癸亥命曹彬伐江南，该月在 974-09-19 至 974-10-17，癸亥是 974-10-06。开宝八年十一月乙未克昇州。十一月己巳朔是 975-12-06，乙未是第二十七日，为 976-01-01。下一朔戊戌是 976-01-04。开宝八年常被标成 975，终点取克城日的公历年，故 endYearAccuracy 为 disputed。推算用今人历表，不是原典里的公历。",
+  "endYear": 976,
+  "endYearAccuracy": "disputed",
+  "endYearNote": "开宝八年十一月乙未克昇州，合朔推算约在公历 976 年初；开宝八年常被标成 975。",
+  "place": "昇州",
+  "belligerents": [
+    "song",
+    "nantang"
+  ],
+  "people": [
+    "zhao-kuangyin",
+    "cao-bin",
+    "pan-mei",
+    "li-yu-937"
+  ],
+  "result": "曹彬克昇州，俘李煜，南唐亡。宋得十九州、三军、一百八十县。",
+  "parent": "beisong-tongyi",
+  "aliases": [
+    "宋平江南",
+    "伐江南",
+    "wudai-975"
+  ],
+  "dynasties": [
+    "liao",
+    "song"
+  ],
+  "desc": "开宝七年九月曹彬伐江南，开宝八年十一月乙未克昇州，俘李煜，南唐亡。宋得十九州、三军、一百八十县。江南并入宋。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷3",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-bin",
+      "name": "曹彬",
+      "display": "曹彬",
+      "birth": 931,
+      "birthAccuracy": "exact",
+      "death": 999,
+      "deathAccuracy": "exact",
+      "title": "北宋开国第一名将",
+      "bio": "真定灵寿人，性仁厚，太祖倚为心膂。灭后蜀、征太原、统师伐江南，克金陵而秋毫无犯，位兼将相。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "pan-mei",
+      "name": "潘美",
+      "display": "潘美",
+      "birth": 925,
+      "birthAccuracy": "exact",
+      "death": 991,
+      "deathAccuracy": "exact",
+      "title": "从平岭南江南的开国元戎",
+      "bio": "从太祖平岭南、下江南，太宗朝为北路都部署攻太原。雍熙北伐独拔寰朔云应四州，陈家谷失利，坐削秩。淳化二年卒，年六十七，谥武惠。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-yu-937",
+      "name": "李煜",
+      "display": "南唐后主",
+      "birth": 937,
+      "birthAccuracy": "exact",
+      "death": 978,
+      "deathAccuracy": "exact",
+      "title": "词帝李后主，问君能有几多愁",
+      "bio": "元宗之子，字重光，号钟隐。以兄竞立得嗣位。奉宋正朔而不时遣，宋师围金陵三年，城陷被执，至汴封违命侯。书画文辞风流直前，以困厄而词境始大，\"问君能有几多愁\"之叹传千古。太平兴国三年七夕卒。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "monarch",
+        "poetry",
+        "literature"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

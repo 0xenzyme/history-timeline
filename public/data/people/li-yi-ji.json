@@ -1,0 +1,65 @@
+{
+  "id": "li-yi-ji",
+  "name": "郦食其",
+  "display": "郦食其",
+  "birthAccuracy": "unknown",
+  "death": -204,
+  "deathAccuracy": "exact",
+  "title": "辩士，凭轼下齐七十余城",
+  "bio": "陈留高阳人，自号「高阳酒徒」。说沛公下陈留，转饷有功。楚汉相持时请使齐，说齐王田广罢守兵下七十余城；韩信袭齐，齐王以为卖己，烹之。",
+  "tags": [
+    "汉初",
+    "说客"
+  ],
+  "categories": [
+    "strategist"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "li-yi-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高阳酒徒，为汉说齐下七十余城，为齐王田广所烹",
+        "请使说齐，下七十余城；韩信袭齐后被烹"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "郦陆朱刘叔孙传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "高帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "jian-zhen",
+  "name": "鉴真",
+  "display": "鉴真",
+  "birth": 688,
+  "birthAccuracy": "exact",
+  "death": 763,
+  "deathAccuracy": "exact",
+  "title": "扬州大明寺僧，六次东渡，日本律宗之祖",
+  "bio": "扬州江阳县人，俗姓淳于，十四岁出家，后归扬州大明寺，讲律疏四十余遍。日本留学僧荣叡、普照请之东渡，自天宝元年至十二载，前后六次启行，五度失败，遂至双目失明，而志不改。天宝十二载抵日本，于奈良东大寺设坛授戒，建唐招提寺。广德元年卒于日本，年七十六。",
+  "tags": [
+    "唐",
+    "东渡"
+  ],
+  "categories": [
+    "buddhism"
+  ],
+  "primary": "buddhism",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jian-zhen",
+      "target": "li-long-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "六次东渡赴日，玄宗时成行"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "jian-zhen",
+      "target": "xuan-zang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "一西行取经，一东渡传戒，并为弘法巨擘"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jianzhen-dongdu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "鉴真",
+    "过海大师"
+  ],
+  "sources": [
+    {
+      "work": "宋高僧传",
+      "part": "唐扬州大云寺鉴真传",
+      "kind": "classic"
+    }
+  ]
+}

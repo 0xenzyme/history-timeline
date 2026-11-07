@@ -1,0 +1,57 @@
+{
+  "id": "pei-yan",
+  "name": "裴炎",
+  "display": "裴炎",
+  "birthAccuracy": "unknown",
+  "death": 684,
+  "deathAccuracy": "exact",
+  "title": "光宅元年斩于都亭驿",
+  "bio": "高宗遗诏顾命。光宅元年十月斩于都亭驿。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wu-zetian",
+      "target": "pei-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗顾命宰相，光宅元年被斩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "裴炎"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "裴炎传",
+      "kind": "classic"
+    }
+  ]
+}

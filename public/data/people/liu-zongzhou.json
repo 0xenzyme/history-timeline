@@ -1,0 +1,103 @@
+{
+  "id": "liu-zongzhou",
+  "name": "刘宗周",
+  "display": "刘宗周",
+  "birth": 1578,
+  "birthAccuracy": "exact",
+  "death": 1645,
+  "deathAccuracy": "exact",
+  "title": "蕺山之学，绝食而死",
+  "bio": "字起东，号念台，山阴人。万历二十九年进士，官至左都御史，以疏劾魏忠贤削籍归讲学于蕺山，主诚意慎独之旨。1645 年清兵陷杭州，绝食二十三日而卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "official",
+    "scholar"
+  ],
+  "primary": "scholar",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-zongzhou",
+      "target": "wei-zhongxian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "疏劾魏忠贤而被停俸削籍，归里讲学遂成蕺山之学"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "liu-zongzhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯初起为顺天府尹，累迁左都御史，又以论救言官见斥"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yousong",
+      "target": "liu-zongzhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘光既立，起故官而以疏攻马阮求去"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "liu-zongzhou",
+      "target": "ma-shiying",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "目马阮为乱政之原，数与力争，既去而南都旋覆"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "huang-daozhou",
+      "target": "liu-zongzhou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以直谏名于世，晚皆殉国，学者并称其节义"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "刘宗周传",
+      "kind": "classic"
+    }
+  ]
+}

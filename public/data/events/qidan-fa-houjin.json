@@ -1,0 +1,155 @@
+{
+  "id": "qidan-fa-houjin",
+  "name": "契丹伐后晋",
+  "display": "契丹伐后晋",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 944,
+  "yearAccuracy": "exact",
+  "yearNote": "起兵系于天福八年十二月（通鉴卷283：十二月乙巳朔前后杨光远密告契丹，契丹以赵延寿将五万为前锋，公历943/944年之交），大举入寇系于开运元年正月乙亥逼贝州（通鉴卷283，公历944年1-2月）；军事终结系于开运三年十二月丙寅杜威举军降、癸酉张彦泽入大梁（通鉴卷285，公历947年1月）。耶律德光入汴改号大辽（开运四年正月，通鉴卷286）属政治线。故取公历口径944-947；若按农历纪年则为943-946，yearNote 两说并存。",
+  "endYear": 947,
+  "endYearAccuracy": "exact",
+  "endYearNote": "军事终结：开运三年十二月丙寅杜威举军降、癸酉张彦泽入大梁（通鉴卷285），当公历947年1月；德光入汴（947年正月）归政治线。",
+  "belligerents": [
+    "wudai",
+    "liao"
+  ],
+  "commanders": [
+    {
+      "id": "du-chongwei",
+      "side": "wudai"
+    },
+    {
+      "id": "yelv-deguang",
+      "side": "liao"
+    }
+  ],
+  "people": [
+    "shi-chonggui"
+  ],
+  "result": "契丹三次南侵终灭后晋：杜重威全军降、张彦泽入汴，中原王朝首次整体为北族政权征服。",
+  "aliases": [
+    "契丹灭后晋",
+    "契丹灭晋"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "契丹伐后晋起于943年十二月杨光远据青州叛、契丹集兵五万以赵延寿为前锋，944年正月大举入寇逼贝州。第一次南侵围戚城、进逼澶州不克北还；945年三月晋军在阳城白团卫村逆风大战，大破契丹（见阳城之战）。946年秋冬契丹第三次大举入寇，滹沱一战杜重威举军降、张彦泽入汴，后晋军事主力覆灭，中原王朝首次整体为北族政权征服（见滹沱之战）。耶律德光自述「举国南征，五年不解甲，仅能得之」，本条按连续战争立目；德光入汴改号归政治线。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷283",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷284",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷285",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷286",
+      "kind": "classic"
+    },
+    {
+      "work": "辽史",
+      "part": "卷4",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "yangcheng-zhizhan",
+    "hutuo-zhizhan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shi-chonggui",
+      "name": "石重贵",
+      "display": "晋出帝",
+      "birth": 914,
+      "birthAccuracy": "approx",
+      "death": 974,
+      "deathAccuracy": "exact",
+      "birthNote": "北迁之后，辽保宁六年（974）卒，年六十一，上推生年。",
+      "title": "出帝北迁，封负义侯",
+      "bio": "敬瑭兄子，养以为子。天福七年即位，用景延广议，与契丹称孙而不称臣，德光大怒，三度南攻。开运三年杜重威举大军降，德光入汴，晋亡；举族北迁黄龙府，封负义侯，在虏庭二十七年而卒。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "du-chongwei",
+      "name": "杜重威",
+      "display": "杜重威",
+      "birthAccuracy": "unknown",
+      "death": 950,
+      "deathAccuracy": "exact",
+      "title": "中渡之降，倾晋二十万之众",
+      "bio": "石氏之甥婿，故位将相。开运末总大军御契丹，顿军都林，粮尽先遣请和，至中渡，举军而降，引德光入汴，晋亡由成。汉初归命，寻以邠州叛，伏诛。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

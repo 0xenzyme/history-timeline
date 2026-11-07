@@ -1,0 +1,234 @@
+{
+  "id": "zhuge-liang",
+  "name": "诸葛亮",
+  "display": "诸葛亮",
+  "birth": 181,
+  "birthAccuracy": "exact",
+  "death": 234,
+  "deathAccuracy": "exact",
+  "title": "蜀汉丞相，隆中对，五出祁山",
+  "bio": "琅邪阳都人，早孤，随叔父玄避乱荆州，躬耕隆中。建安十二年三顾而出，遂定三分之策。受托辅政，南征四郡，五次北伐，制木牛流马，作八阵图。建兴十二年卒于五丈原军中，年五十四，谥忠武侯。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "chancellor",
+    "general",
+    "strategist"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bei",
+      "target": "zhuge-liang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 207,
+      "notes": [
+        "三顾茅庐，托孤白帝"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "jiang-wei",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "亮卒后以维为北伐主将"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhuge-liang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "隆中对以曹为敌"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhuge-jin",
+      "target": "zhuge-liang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，分仕吴蜀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "xu-shu",
+      "target": "zhuge-liang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "庶以亮进于先主，亮后为蜀汉丞相"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "zhuge-zhan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。瞻为亮长子，炎兴元年与子尚战殁绵竹"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "jiang-wan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诸葛亮称其社稷之器，亮卒后主持蜀政"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "fei-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诸葛亮器重，亮卒后与蒋琬共掌蜀政"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "deng-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诸葛亮遣使吴，重修盟好"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhuge-liang",
+      "target": "zhang-yi-ni",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诸葛亮以为长史，后为射声校尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baidi-tuogu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "chibi-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jieting-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liubei-chengdi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "nanzheng-menghuo",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yizhou-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhongfen-tianxia-zhimeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhuge-liang-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhuge-liang-nanzheng",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhugeliang-beifa",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "诸葛亮",
+    "诸葛孔明",
+    "武侯"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·诸葛亮传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "chu-kaoliewang",
+  "name": "楚考烈王",
+  "display": "楚考烈王",
+  "birthAccuracy": "unknown",
+  "death": -238,
+  "deathAccuracy": "exact",
+  "deathNote": "楚世家、春申君列传：考完以春申君力归立，元年以歇为相；卒于始皇九年（前238），春申君亦是岁死。与落库记录同推。",
+  "title": "楚王，春申所立",
+  "bio": "太子完尝质于秦，黄歇设谋得归而立——相国于歇二十余年，东徙寿春，与诸侯合从攻秦不克。前238年卒；同年李园杀春申君，楚的把柄换了人家。",
+  "tags": [
+    "楚国",
+    "春申君"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chu-kaoliewang",
+      "target": "chu-qingxiangwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "考烈王完，顷襄王之子，尝质于秦，黄歇设谋得归而立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "huang-xie",
+      "target": "chu-kaoliewang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "考烈元年以歇为相，委国二十余年，东徙寿春"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-aiwang",
+      "target": "chu-kaoliewang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "太子悍即位两月余，李园伏斧施杀之——春申君同岁死于棘门"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "考烈王",
+    "公子完"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "春申君列传",
+      "kind": "classic"
+    }
+  ]
+}

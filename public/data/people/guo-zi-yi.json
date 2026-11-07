@@ -1,0 +1,93 @@
+{
+  "id": "guo-zi-yi",
+  "name": "郭子仪",
+  "display": "郭子仪",
+  "birth": 697,
+  "birthAccuracy": "exact",
+  "death": 781,
+  "deathAccuracy": "exact",
+  "title": "汾阳郡王，再造唐室，功高而主不疑",
+  "bio": "华州郑县人，以武举高等起。天宝十四载为朔方节度使，与李光弼同讨安史，收复两京，功居第一。广德元年吐蕃入寇，京师再陷，子仪以二十骑复长安。单骑说回纥而下之，破吐蕃于灵台。以身系天下安危者三十年，位极人臣而朝不忌，建中二年薨，年八十五。",
+  "tags": [
+    "唐",
+    "安史之乱"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-heng",
+      "target": "guo-zi-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃宗倚郭子仪收两京"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "guo-zi-yi",
+      "target": "li-guang-bi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "中兴二将，克复河北"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "anshi-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tubo-ru-changan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "xiangjisi-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "郭子仪",
+    "郭令公",
+    "汾阳王"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "郭子仪传",
+      "kind": "classic"
+    }
+  ]
+}

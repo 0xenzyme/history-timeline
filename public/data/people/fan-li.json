@@ -1,0 +1,88 @@
+{
+  "id": "fan-li",
+  "name": "范蠡",
+  "display": "范蠡",
+  "birthAccuracy": "unknown",
+  "death": -460,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。灭吴后浮海去越，取前 460 年左右为活动下限。",
+  "title": "越大夫，灭吴后去越",
+  "bio": "字少伯。与文种谋会稽之计。吴亡，他致书文种「飞鸟尽，良弓藏」，自去为陶朱公。谋臣条在胜利之后主动断开。",
+  "tags": [
+    "越国",
+    "去越"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "yue"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "si-goujian",
+      "target": "fan-li",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "会稽之计，灭吴后范蠡去越"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "fan-li",
+      "target": "wen-zhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同事于越，一去一留"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wuyue-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yue-mie-wu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yue-xi-wu-482",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "陶朱公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "越王勾践世家",
+      "kind": "classic"
+    }
+  ]
+}

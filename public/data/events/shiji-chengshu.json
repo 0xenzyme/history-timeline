@@ -1,0 +1,43 @@
+{
+  "id": "shiji-chengshu",
+  "name": "司马迁著《史记》成书",
+  "display": "史记成书",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -91,
+  "yearAccuracy": "approx",
+  "yearNote": "成书年份无定论，诸说自太初末（前104–前101）下及征和（前92–前89）不等。《史记·太史公自序》自述记事讫于太初，书中实有太初以后事，故只能推得大致下限；本条取通行的征和二年说，标 approx。",
+  "polity": [
+    "han"
+  ],
+  "result": "纪传体通史成书，正史体例由此定型",
+  "aliases": [
+    "太史公书成",
+    "史记成书"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "司马迁继父司马谈之志为太史令，据石室金匮之书与二十岁以后南游江淮、北涉汶泗的见闻，撰自上古黄帝下讫太初的通史，凡十二本纪、十表、八书、三十世家、七十列传，百三十篇。全书创纪传体，以人物为经、制度为纬，取代编年独行的旧格局。迁死后其书稍出，宣帝时其外孙杨恽祖述其书，遂宣布于世；此后二千年正史皆沿用其体例。司马迁本人暂无 canonical 人物条目，其父司马谈（sima-tan）卒于元封元年（前110），早于成书，故本条不列 people。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "太史公自序",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "司马迁传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [],
+  "collections": []
+}

@@ -1,0 +1,140 @@
+{
+  "id": "xiangyang-zhizhan",
+  "name": "襄阳之战",
+  "display": "襄阳之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 1268,
+  "yearAccuracy": "exact",
+  "yearNote": "至元五年九月阿术围樊城，早于1271年改国号。至元六年正月史天泽董师襄阳。至元十年正月拔樊城，二月吕文焕以襄阳降。交战方按结局写作元与宋。",
+  "endYear": 1273,
+  "endYearAccuracy": "exact",
+  "place": "襄阳",
+  "belligerents": [
+    "yuan",
+    "song"
+  ],
+  "commanders": [
+    {
+      "id": "a-shu",
+      "side": "yuan"
+    },
+    {
+      "id": "liu-zheng-1212",
+      "side": "yuan"
+    },
+    {
+      "id": "shi-tianze",
+      "side": "yuan"
+    }
+  ],
+  "result": "襄阳、樊城失守，元军打通入江门户",
+  "parent": "mengsong-zhanzheng",
+  "aliases": [
+    "襄樊之战"
+  ],
+  "dynasties": [
+    "song",
+    "mongol",
+    "yuan"
+  ],
+  "desc": "至元五年九月，阿术围樊城，这时尚未建国号。至元十年正月樊城被攻破，二月丁未吕文焕以襄阳降。襄阳、樊城失守后，元军取得进入长江的门户。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷六·世祖本纪",
+      "note": "至元五年九月阿术围樊城。至元六年正月敕史天泽董师襄阳",
+      "kind": "classic"
+    },
+    {
+      "work": "元史",
+      "part": "卷八·世祖本纪",
+      "note": "至元十年正月拔樊城，二月吕文焕以襄阳降",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "a-shu",
+      "name": "阿术",
+      "display": "阿术",
+      "birth": 1234,
+      "birthAccuracy": "approx",
+      "death": 1287,
+      "deathAccuracy": "exact",
+      "birthNote": "本传记卒时年五十四，上推生年约一二三四年。",
+      "title": "襄阳之役的主将",
+      "bio": "兀良合台之子、速不台之孙。与刘整围襄阳五年而下之，遂顺汉水东进，江南之役多当其锋；官至中书左丞相。1287 年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zheng-1212",
+      "name": "刘整",
+      "display": "刘整",
+      "birth": 1212,
+      "birthAccuracy": "exact",
+      "death": 1275,
+      "deathAccuracy": "exact",
+      "title": "以泸州十五郡降元的宋将",
+      "bio": "本宋京湖名将，为同僚所忌，中统二年以泸州十五郡降蒙古，献先取襄阳之策，练水军造战舰，实亡宋之肇。至元十二年卒。",
+      "tags": [
+        "宋",
+        "元"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-tianze",
+      "name": "史天泽",
+      "display": "史天泽",
+      "birth": 1202,
+      "birthAccuracy": "exact",
+      "death": 1275,
+      "deathAccuracy": "exact",
+      "title": "汉人世侯之首",
+      "bio": "永清人，归蒙古后累世将相，镇真定、平李璮，从伯颜伐宋。沉毅知大体，为世祖所重。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "minister",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

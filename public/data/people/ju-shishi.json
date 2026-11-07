@@ -1,0 +1,57 @@
+{
+  "id": "ju-shishi",
+  "name": "楀",
+  "display": "楀师氏",
+  "birthAccuracy": "unknown",
+  "death": -773,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《十月之交》「楀维师氏」，取幽王五年为可见下限。",
+  "title": "《十月之交》楀师氏",
+  "bio": "诗「楀维师氏」。仅见官名。",
+  "tags": [
+    "十月之交"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "ju-shishi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》楀维师氏"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "楀",
+    "楀师氏"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "小雅·十月之交",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "zichan-zhuxingshu",
+  "name": "子产铸刑书",
+  "display": "子产铸刑书",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -536,
+  "yearAccuracy": "exact",
+  "yearNote": "左传昭公六年（前536）「三月，鄭人鑄刑書」，杜注铸于鼎以为国之常法；维基百科（引左传）同系前536。年份无争议。子产先此作封洫（襄公三十年，前543）、作丘赋（昭公四年，前538），改革序列入desc。",
+  "polity": [
+    "zheng"
+  ],
+  "people": [
+    "zi-chan",
+    "zi-pi"
+  ],
+  "aliases": [
+    "郑人铸刑书",
+    "公布成文法之始",
+    "叔向诒子产书"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "子产执政，作封洫、立谤政、制参辟，三月铸刑书于鼎，把刑法公之于众。叔向诒书警告「民知有辟，则不忌于上」，子产答以「不承命，敢忘其赐」而行之。郑国由此治，成文法时代开启。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷43（昭公六年）",
+      "part": "昭公六年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "維基百科：子產",
+      "part": "铸刑书条目",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zi-chan",
+      "name": "公孙侨",
+      "display": "子产",
+      "birthAccuracy": "unknown",
+      "death": -522,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·昭公二十年（前522）「及子產卒，仲尼聞之，出涕曰：古之遺愛也」。史记·郑世家误系于声公五年，从经传。",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zi-pi",
+      "name": "罕虎",
+      "display": "子皮",
+      "birthAccuracy": "unknown",
+      "death": -529,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·昭公十三年（前529）子产自平丘之会归，「未至，聞子皮卒」。授政子产的上卿。",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

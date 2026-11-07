@@ -1,0 +1,58 @@
+{
+  "id": "mao-hou",
+  "name": "毛皇后",
+  "display": "明悼毛皇后",
+  "birthAccuracy": "unknown",
+  "death": 237,
+  "deathAccuracy": "exact",
+  "title": "魏明帝皇后，景初元年赐死",
+  "bio": "河内人，史失其名。黄初中选入平原王曹叡府，叡即位为贵嫔，太和元年立为皇后。明帝宠郭夫人，景初元年游后园召才人，毛后坐是赐死，谥曰悼。其弟毛曾以外戚封侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "wei"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "mao-hou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "典选举，倡奉天子以令不臣"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "毛皇后",
+    "明悼毛皇后"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·后妃传·明悼毛皇后",
+      "kind": "classic"
+    }
+  ]
+}

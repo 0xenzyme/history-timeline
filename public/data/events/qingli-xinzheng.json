@@ -1,0 +1,179 @@
+{
+  "id": "qingli-xinzheng",
+  "name": "庆历新政",
+  "display": "庆历新政",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1043,
+  "yearAccuracy": "exact",
+  "yearNote": "庆历三年九月开天章阁，范仲淹上十事；五年正月乙酉范仲淹、富弼罢，为 1045-02-17。",
+  "endYear": 1045,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "fan-zhongyan",
+    "fu-bi",
+    "han-qi",
+    "ou-yangxiu",
+    "zhao-zhen"
+  ],
+  "result": "十事大多颁行，府兵法未行；主持者于庆历五年正月罢职，新法停废。",
+  "aliases": [
+    "庆历革新",
+    "song-qingli"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "庆历三年九月，仁宗开天章阁，范仲淹上十事。十事大多颁行，府兵法未行；庆历五年正月范仲淹、富弼罢职，新法停废。改革以考课、荫补、贡举和按察重组官僚任用，失败也标出北宋前期的改革上限。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷三百十四",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷十一",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "fan-zhongyan",
+      "name": "范仲淹",
+      "display": "范仲淹",
+      "birth": 989,
+      "birthAccuracy": "exact",
+      "death": 1052,
+      "deathAccuracy": "exact",
+      "title": "先忧后乐，庆历新政",
+      "bio": "吴县（祖籍邠州）人，苦学登第。镇守西夏，名重边陲；推行庆历新政，条陈十事。名句「先天下之忧而忧，后天下之乐而乐」。",
+      "tags": [
+        "宋",
+        "北宋",
+        "改革"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "poetry"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fu-bi",
+      "name": "富弼",
+      "display": "富弼",
+      "birth": 1004,
+      "birthAccuracy": "exact",
+      "death": 1083,
+      "deathAccuracy": "exact",
+      "title": "使辽定盟、与韩琦并称贤相",
+      "bio": "庆历使辽折冲，增币而息兵；与范仲淹同领庆历新政。至和间与文彦博并相，天下称「富公」。元丰六年卒，年八十。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "diplomat"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "han-qi",
+      "name": "韩琦",
+      "display": "韩琦",
+      "birth": 1008,
+      "birthAccuracy": "exact",
+      "death": 1075,
+      "deathAccuracy": "exact",
+      "title": "两朝顾命定策元勋",
+      "bio": "与范仲淹同御西夏，军中谣曰「军中有一韩」。庆历新政主将之一；相三朝，立英宗、神宗两帝。熙宁中与王安石争新法而出。熙宁八年薨，年六十八。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ou-yangxiu",
+      "name": "欧阳修",
+      "display": "欧阳修",
+      "birth": 1007,
+      "birthAccuracy": "exact",
+      "death": 1072,
+      "deathAccuracy": "exact",
+      "title": "古文运动领袖，六一居士",
+      "bio": "庐陵人，举进士，奖掖后进，与尹洙、梅尧臣倡古文，排斥险怪时文。主修《新唐书》《新五代史》，为北宋文宗。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "poetry",
+        "historian"
+      ],
+      "primary": "literature",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-zhen",
+      "name": "赵祯",
+      "display": "赵祯",
+      "birth": 1010,
+      "birthAccuracy": "exact",
+      "death": 1063,
+      "deathAccuracy": "exact",
+      "title": "宋仁宗，庆历之治",
+      "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

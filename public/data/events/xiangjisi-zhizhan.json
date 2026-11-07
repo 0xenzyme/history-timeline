@@ -1,0 +1,125 @@
+{
+  "id": "xiangjisi-zhizhan",
+  "name": "香积寺之战",
+  "display": "香积寺",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 757,
+  "yearAccuracy": "exact",
+  "place": "香积寺",
+  "placeNow": "今陕西西安南",
+  "belligerents": [
+    "tang",
+    "anshi"
+  ],
+  "commanders": [
+    {
+      "id": "guo-zi-yi",
+      "side": "tang"
+    }
+  ],
+  "people": [
+    "guo-zi-yi",
+    "an-qing-xu"
+  ],
+  "result": "唐军大破叛军，次日收复长安",
+  "partOf": [
+    {
+      "id": "anshi-zhiluan",
+      "note": "香积寺之战是安史之乱中唐军反攻并收复长安的组成会战。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百二十",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "至德二载（757）九月，唐军十五万（号二十万，回纥叶护太子率四千骑助战）由元帅广平王俶统领东进，阵于香积寺北，与安庆绪叛军十万决战；郭子仪为中军，李嗣业前军奋击，回纥奇兵出贼阵后夹攻，自午至酉大破叛军，斩首六万级。叛将张通儒弃长安夜走陕郡，次日唐军收复长安。此役是安史之乱中唐军转守为攻的决定性会战，两京收复由此开端。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "郭子仪传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百二十",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "郭子仪传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guo-zi-yi",
+      "name": "郭子仪",
+      "display": "郭子仪",
+      "birth": 697,
+      "birthAccuracy": "exact",
+      "death": 781,
+      "deathAccuracy": "exact",
+      "title": "汾阳郡王，再造唐室，功高而主不疑",
+      "bio": "华州郑县人，以武举高等起。天宝十四载为朔方节度使，与李光弼同讨安史，收复两京，功居第一。广德元年吐蕃入寇，京师再陷，子仪以二十骑复长安。单骑说回纥而下之，破吐蕃于灵台。以身系天下安危者三十年，位极人臣而朝不忌，建中二年薨，年八十五。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "an-qing-xu",
+      "name": "安庆绪",
+      "display": "安庆绪",
+      "birthAccuracy": "unknown",
+      "death": 759,
+      "deathAccuracy": "exact",
+      "title": "弑父自立，伪燕第二位皇帝，为史思明所杀",
+      "bio": "字仁执，营州柳城人，安禄山次子。天宝十四载从父起兵，徇河北。禄山僭号，封晋王。至德二年，与严庄等弑禄山于洛阳，自立为帝，改元载初。唐军复两京，乃退出洛阳，走保邺郡。乾元二年，史思明败九节度使之师，进次相州，庆绪出见，为思明所诛，并其诸弟及高尚、孙孝哲、崔乾祐。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "rebel",
+        "monarch"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

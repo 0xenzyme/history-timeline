@@ -1,0 +1,83 @@
+{
+  "id": "zhao-bing",
+  "name": "赵昺",
+  "display": "宋卫王赵昺",
+  "birth": 1272,
+  "birthAccuracy": "exact",
+  "death": 1279,
+  "deathAccuracy": "exact",
+  "title": "宋末帝，崖山蹈海",
+  "bio": "度宗少子，卫王。端宗崩后继立于厓山，祥兴二年陆秀夫负之投海，宋亡。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-bing",
+      "target": "zhao-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，度宗传卫王"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-bing",
+      "target": "lu-xiufu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崖山兵败，秀夫以左相负幼帝昺赴海"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-bing",
+      "target": "zhang-shijie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世杰扈二王入海，在崖山以千舰结寨自守"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "赵昺",
+    "宋卫王"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卫王本纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ying-huai",
+  "name": "秦怀公",
+  "display": "秦怀公",
+  "birthAccuracy": "unknown",
+  "death": -425,
+  "deathAccuracy": "exact",
+  "deathNote": "秦本纪在位年系年，前425年卒。",
+  "title": "秦公，君统错出之世",
+  "bio": "躁公、怀公、灵公交迭而立，君统在本纪里本就自相错出。怀公之后经简公、惠公转到出子——献公之前的这条短乱尾巴，全补在轴上。",
+  "tags": [
+    "秦国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-huai",
+      "target": "ying-ling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "怀公至灵公，君统在本纪里自相错出"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-huai",
+      "target": "ying-zao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "躁、怀、灵迭而立，君统在本纪里自相错出——献公以前的短乱从此数起"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "怀公（秦）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "lv-fan",
+  "name": "吕范",
+  "display": "吕范",
+  "birthAccuracy": "unknown",
+  "death": 228,
+  "deathAccuracy": "exact",
+  "title": "吴大司马，印绶未下而卒",
+  "bio": "汝南细阳人，字子衡。少为县吏，避难寿春，率私客百人从孙策定江东；策使典主财计，权执政后倚为宿将，屡督舟师御敌；迁大司马，印绶未下，疾卒。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "general",
+    "official"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "lv-fan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权掌事，吕范典财计"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "吕范",
+    "吕子衡"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·朱治朱然吕范朱桓传",
+      "kind": "classic"
+    }
+  ]
+}

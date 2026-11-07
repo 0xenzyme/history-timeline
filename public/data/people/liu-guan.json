@@ -1,0 +1,55 @@
+{
+  "id": "liu-guan",
+  "name": "柳贯",
+  "display": "柳贯",
+  "birth": 1270,
+  "birthAccuracy": "exact",
+  "death": 1342,
+  "deathAccuracy": "exact",
+  "title": "浦江之学",
+  "bio": "字道传，婺州浦江人。历翰林待制，为文长于议论，与黄溍同乡同业，时称黄柳；1342 年卒，年七十三。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "literature",
+    "scholar"
+  ],
+  "primary": "literature",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huang-jin",
+      "target": "liu-guan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同出婺州之门，并称儒林四杰"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "柳贯传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "xie-an",
+  "name": "谢安",
+  "display": "谢安",
+  "birth": 320,
+  "birthAccuracy": "exact",
+  "death": 385,
+  "deathAccuracy": "exact",
+  "title": "太保，围棋赌墅，淝水之主",
+  "bio": "陈郡阳夏人，少有重名，累辟不起，隐居东山，与王羲之、支遁游，年四十余始出。为宰相，以静镇之，桓温死而晋室安。太元八年苻坚南下，安以谢石、谢玄八万拒之，围棋赌墅以示不惊，既捷而过户限，不觉屐齿之折。太元十年卒，年六十六。",
+  "tags": [
+    "东晋",
+    "淝水",
+    "陈郡谢氏"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xie-an",
+      "target": "xie-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，安举玄为将"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "xie-an",
+      "type": "rival",
+      "directed": false,
+      "since": 383,
+      "notes": [
+        "淝水之战，以少破前秦"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-chong",
+      "target": "xie-an",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "自以德望不逮谢安，委之内相"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "xie-an",
+      "target": "xie-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。琰与玄共破苻坚"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "xie-an",
+      "target": "zhi-dun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "遁讲肆善标宗会，谢安闻而善之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "feishui-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wangxizhi-lanting",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiexuan-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "谢安",
+    "谢安石",
+    "谢太傅"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "谢安传",
+      "kind": "classic"
+    }
+  ]
+}

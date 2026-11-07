@@ -1,0 +1,67 @@
+{
+  "id": "xia-wanchun",
+  "name": "夏完淳",
+  "display": "夏完淳",
+  "birth": 1631,
+  "birthAccuracy": "exact",
+  "death": 1647,
+  "deathAccuracy": "exact",
+  "title": "十七岁就义的少年诗人",
+  "bio": "原名复，字存古，松江华亭人，允彝之子。十四岁从父与师陈子龙起兵，太湖之师败后犹通表鲁王，1647 年事泄被执，狱中作《上母书》，就义于南京，年十七。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "poetry",
+    "falling"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-zilong",
+      "target": "xia-wanchun",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "完淳十二从之为师，文章气节皆出其门"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "shi-kefa",
+      "target": "xia-wanchun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "一同殉于江南，完淳年止十七，传其《狱中上母书》"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "夏允彝传",
+      "kind": "classic"
+    }
+  ]
+}

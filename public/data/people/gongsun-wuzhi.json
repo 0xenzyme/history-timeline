@@ -1,0 +1,44 @@
+{
+  "id": "gongsun-wuzhi",
+  "name": "公孙无知",
+  "display": "公孙无知",
+  "birthAccuracy": "unknown",
+  "death": -685,
+  "deathAccuracy": "exact",
+  "deathNote": "左传·庄公九年（前685）雍廪杀无知；史记·齐太公世家「雍林人殺無知」。弑齐襄公自立者。",
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "qihuangong-jiwei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "庄公九年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "齐太公世家",
+      "kind": "classic"
+    }
+  ]
+}

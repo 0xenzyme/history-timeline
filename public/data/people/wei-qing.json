@@ -1,0 +1,111 @@
+{
+  "id": "wei-qing",
+  "name": "卫青",
+  "display": "卫大将军",
+  "birthAccuracy": "unknown",
+  "death": -106,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "西汉大司马大将军，长平侯",
+  "bio": "卫子夫之弟，骑奴出身。前 127 年收复河南地置朔方郡，前 119 年漠北之战击溃单于主力。为将仁厚，不养士不结党。",
+  "tags": [
+    "河南地",
+    "漠北之战"
+  ],
+  "categories": [
+    "consort-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-qing",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姐弟"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-qubing",
+      "target": "wei-qing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "舅甥"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "wei-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "车骑将军至大司马大将军"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-guang",
+      "target": "wei-qing",
+      "type": "rival",
+      "directed": false,
+      "since": -119,
+      "notes": [
+        "漠北之战调度失道之嫌隙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wei-qing",
+      "target": "yi-zhi-xie",
+      "type": "rival",
+      "directed": false,
+      "since": -119,
+      "notes": [
+        "漠北之战直捣单于本部，单于仅以身免"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "henan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卫将军骠骑列传",
+      "kind": "classic"
+    }
+  ]
+}

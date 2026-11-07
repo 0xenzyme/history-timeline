@@ -1,0 +1,447 @@
+{
+  "id": "qin",
+  "name": "秦",
+  "from": -221,
+  "to": -207,
+  "contractVersion": 1,
+  "group": "qin-han",
+  "personCount": 69,
+  "eventCount": 14,
+  "founderRecords": [],
+  "topics": [
+    "qin"
+  ],
+  "people": [
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-fusu",
+      "name": "嬴扶苏",
+      "display": "扶苏",
+      "birthAccuracy": "unknown",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "始皇长子，监军上郡，矫诏赐死",
+      "bio": "谏坑术士而外出监蒙恬军。始皇崩于沙丘，赵高、李斯矫诏，赐死于上郡。他的死把秦的继承线切断，陈胜起兵时还打着他的名号。",
+      "tags": [
+        "秦朝"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-huhai",
+      "name": "嬴胡亥",
+      "display": "秦二世",
+      "birthAccuracy": "unknown",
+      "death": -207,
+      "deathAccuracy": "exact",
+      "title": "秦二世皇帝，赵高所立，三年而亡",
+      "bio": "始皇少子。沙丘之谋后即位，杀扶苏、蒙恬，诛诸公子与公主，续修阿房、骊山。三年后赵高指鹿为马，望夷之变中被逼自杀。条短，却是秦从统一到崩塌的全部时间。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-ziying",
+      "name": "嬴子婴",
+      "display": "秦王子婴",
+      "birthAccuracy": "unknown",
+      "death": -206,
+      "deathAccuracy": "exact",
+      "deathNote": "在位仅四十六日，降刘邦；项羽入关后被杀。年份从前 206 年。",
+      "title": "秦末代君主，降刘邦",
+      "bio": "赵高立之。诛赵高，在位四十六日，素车白马出降于轵道。项羽入咸阳后被杀。秦的条到他这里结束，之后是楚汉。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huayang-taihou",
+      "name": "华阳太后",
+      "display": "华阳太后",
+      "birthAccuracy": "unknown",
+      "death": -230,
+      "deathAccuracy": "exact",
+      "deathNote": "秦始皇本纪：十七年，华阳太后卒。",
+      "title": "孝文王后，立子楚",
+      "bio": "安国君的正夫人。她自己无子，把在赵国做人质的子楚立为继承人。庄襄王尊她为华阳太后。始皇十七年卒。",
+      "tags": [
+        "秦国",
+        "太后"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "di-taihou",
+      "name": "帝太后",
+      "display": "帝太后",
+      "birthAccuracy": "unknown",
+      "death": -228,
+      "deathAccuracy": "exact",
+      "deathNote": "秦始皇本纪在十九年段写始皇帝母太后崩。吕不韦列传：始皇十九年太后薨，谥为帝太后。",
+      "title": "始皇母，谥帝太后",
+      "bio": "庄襄王夫人，始皇的母亲。嫪毐作乱时用过她的玺。始皇十九年崩，谥帝太后。",
+      "tags": [
+        "秦国",
+        "太后"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "female",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "qin-mie-liuguo",
+      "name": "秦灭六国战争",
+      "display": "秦灭六国战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": -236,
+      "yearAccuracy": "exact",
+      "yearNote": "起锚取《資治通鑑》卷6始皇十一年（前236）：「將軍王翦、桓齮、楊端和伐趙，攻鄴，取九城。王翦攻閼與、轑陽」——秦统一大攻势之始；另一常用起锚为始皇十七年（前230）內史騰滅韓（六国之首亡）。终锚始皇二十六年（前221）王賁入臨淄、齊王建降。两口径均已核于本地原典。",
+      "endYear": -221,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "qin",
+        "zhao",
+        "han-guo",
+        "wei-zhanguo",
+        "chu",
+        "yan",
+        "qi"
+      ],
+      "commanders": [
+        {
+          "id": "wang-jian",
+          "side": "qin"
+        }
+      ],
+      "people": [
+        "ying-zheng"
+      ],
+      "result": "十年之间六国次第而亡，秦并天下、海内为郡县",
+      "dynasties": [
+        "warring-states",
+        "qin"
+      ],
+      "desc": "秦王政亲政后启动统一战争：前230年（秦王政十七）内史腾灭韩、虏韩王安；前229—前228年王翦破赵，李牧遭谗被杀，虏赵王迁，公子嘉走代自立；前226年破燕拔蓟，燕王喜走辽东；前225年王贲引河沟灌大梁，魏王假降；前224—前223年王翦率六十万大破楚军、杀项燕、虏楚王负刍；前222年破辽东虏燕王喜，并代；前221年王贲入临淄，齐王建不战而降。十年之间六国次第而亡，海内归于一统。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "卷六",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷七",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷六·卷006）",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "junxian-zhi",
+      "name": "废分封，行郡县",
+      "display": "郡县制",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -221,
+      "yearAccuracy": "exact",
+      "place": "咸阳",
+      "placeNow": "今陕西咸阳",
+      "polity": [
+        "qin"
+      ],
+      "people": [
+        "ying-zheng",
+        "li-si"
+      ],
+      "result": "廷尉李斯议胜，不立诸子为王，分天下为三十六郡，郡置守、尉、监。",
+      "aliases": [
+        "郡县制",
+        "分天下为三十六郡"
+      ],
+      "dynasties": [
+        "warring-states",
+        "qin"
+      ],
+      "desc": "始皇二十六年，丞相王绾等请立诸子为王，廷尉李斯议胜，秦不立封国，分天下为三十六郡，郡置守、尉、监。废除封建、改行郡县使地方由中央任官管辖，郡县制由此成为帝国基本政体。王绾的 canonical id 不在人物库，其姓名只作正文提及。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷006 秦始皇本紀",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qin-yitong",
+      "name": "秦统一六国",
+      "display": "秦统一六国",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -221,
+      "yearAccuracy": "exact",
+      "yearNote": "《史記·秦始皇本紀》二十六年（前221）：「齊王建與其相后勝發兵守其西界，不通秦。秦使將軍王賁從燕南攻齊，得齊王建」；《資治通鑑》卷7始皇二十六年（前221）：「王賁自燕南攻齊，卒入臨淄，民莫敢格者……齊王遂降，秦遷之共」。",
+      "polity": [
+        "qin"
+      ],
+      "people": [
+        "ying-zheng"
+      ],
+      "dynasties": [
+        "warring-states",
+        "qin"
+      ],
+      "desc": "前221年王贲自燕南下灭齐，齐王建不战而降，六国尽并于秦。秦王政称「皇帝」，分天下为三十六郡，海内为郡县、书同文、车同轨，战国时代终结。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "卷六·卷006）",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷七",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "shihuang-cheng-huangdi",
+      "name": "秦始皇称皇帝，创皇帝制度",
+      "display": "秦始皇称帝",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -221,
+      "yearAccuracy": "exact",
+      "place": "咸阳",
+      "placeNow": "今陕西咸阳",
+      "polity": [
+        "qin"
+      ],
+      "people": [
+        "ying-zheng",
+        "li-si"
+      ],
+      "result": "王号改称皇帝，确立制、诏、朕等帝制名物，此后帝制沿用两千年。",
+      "aliases": [
+        "议帝号",
+        "自称朕",
+        "命为制令为诏",
+        "除谥法",
+        "始皇帝"
+      ],
+      "dynasties": [
+        "warring-states",
+        "qin"
+      ],
+      "desc": "始皇二十六年，秦议帝号，去「泰」著「皇」，采上古「帝」位号，号曰皇帝；命为制、令为诏，天子自称朕，又除谥法，自称始皇帝。皇帝名号与制、诏、朕等帝制名物由此确立，此后沿用两千年。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷006 秦始皇本紀",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "mengtian-beiji-xiongnu",
+      "name": "蒙恬北击匈奴与修筑长城",
+      "display": "蒙恬北击匈奴",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": -215,
+      "yearAccuracy": "exact",
+      "yearNote": "始皇三十二年（前215）发兵三十万北击胡、略取河南地；三十三年（前214）渡河取高阙、阳山、北假中，筑亭障，故记 -215 至 -214 的 span。卷088 不系年，年份以卷006 为本证。",
+      "endYear": -214,
+      "endYearAccuracy": "exact",
+      "place": "河南地、阴山至辽东（长城沿线）",
+      "placeNow": "今内蒙古河套地区及阴山一线",
+      "belligerents": [
+        "qin",
+        "xiongnu"
+      ],
+      "commanders": [
+        {
+          "id": "meng-tian",
+          "side": "qin"
+        }
+      ],
+      "people": [
+        "ying-zheng"
+      ],
+      "result": "秦取河南地并渡河筑亭障，匈奴北却；因河为塞，长城起临洮至辽东，延袤万余里。",
+      "aliases": [
+        "北击胡",
+        "略取河南地",
+        "却匈奴七百余里",
+        "万里长城"
+      ],
+      "dynasties": [
+        "qin"
+      ],
+      "desc": "始皇三十二年，蒙恬发兵三十万北击胡，略取河南地；次年渡河取高阙、阳山、北假中，筑亭障。秦因河为塞，长城起临洮至辽东，延袤万余里，匈奴北却。秦北疆由此推进至河套与阴山一线，长城成为此后北疆防线的基准。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷006 秦始皇本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷088 蒙恬列傳",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "julu-zhizhan",
+      "name": "巨鹿之战",
+      "display": "巨鹿之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -207,
+      "yearAccuracy": "exact",
+      "yearNote": "项羽渡河会战、虏王离系于二世三年（前207），据卷006「三年，章邯等将其卒围钜鹿」；围城始于二世二年冬（前208），故不取 -208 为起点。",
+      "place": "钜鹿",
+      "placeNow": "今河北省邢台市平乡县西南",
+      "belligerents": [
+        "qin",
+        "chu",
+        "zhao"
+      ],
+      "commanders": [
+        {
+          "id": "xiang-yu",
+          "side": "chu"
+        },
+        {
+          "id": "zhang-han",
+          "side": "qin"
+        },
+        {
+          "id": "wang-li",
+          "side": "qin"
+        }
+      ],
+      "result": "项羽破釜沉舟九战绝甬道，杀苏角、虏王离，涉间自焚；章邯寻降，秦军主力覆灭。",
+      "aliases": [
+        "鉅鹿之战",
+        "破釜沉舟"
+      ],
+      "dynasties": [
+        "qin"
+      ],
+      "desc": "二世三年，章邯等围钜鹿，楚上将军项羽杀宋义夺军，悉引兵渡河，沉船破釜、持三日粮，九战绝甬道，大破秦军，杀苏角、虏王离，涉间自焚。章邯寻以兵降诸侯，秦军主力覆灭。围城始于二世二年冬（前208），会战与虏王离系于前207，本条取会战之年。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷006 秦始皇本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷007 項羽本紀",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

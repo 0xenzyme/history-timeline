@@ -1,0 +1,59 @@
+{
+  "id": "hu-zhi",
+  "name": "胡质",
+  "display": "胡质",
+  "birthAccuracy": "unknown",
+  "death": 250,
+  "deathAccuracy": "exact",
+  "title": "魏征东将军，清素无声色",
+  "bio": "楚国寿春人，字文德。历荆州刺史，迁征东将军，假节都督青、徐诸军；不营产业，身没之后家无余财，子胡威亦以清慎称。嘉平二年卒。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general",
+    "official"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "hu-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操时为东莞太守，魏初为征东将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "胡质",
+    "胡文德"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·徐胡二王传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "yancheng-zhizhan",
+  "name": "郾城之战",
+  "display": "郾城之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1140,
+  "yearAccuracy": "exact",
+  "yearNote": "绍兴十年七月己酉。同月壬戌班师。battle 不写 endYear。不与十二月赐死合成一条。",
+  "place": "郾城",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "yue-fei",
+    "wanyan-zongbi"
+  ],
+  "result": "岳飞在郾城击败兀术，随即奉诏从郾城班师，颍昌、蔡、郑复为金有。",
+  "aliases": [
+    "郾城大捷"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "绍兴十年七月己酉，岳飞与兀术战于郾城，败之；同月壬戌奉诏班师，颍昌、蔡、郑复为金有。这是1140年宋军打得最深的一场会战。班师后州城复失，持久疆界由绍兴和议写定。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷29",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷123",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yue-fei",
+      "name": "岳飞",
+      "display": "岳飞",
+      "birth": 1103,
+      "birthAccuracy": "exact",
+      "death": 1142,
+      "deathAccuracy": "exact",
+      "title": "武穆，精忠报国",
+      "bio": "相州汤阴人，农家子，从军抗金，组建岳家军，郾城大捷。力主恢复，累官至枢密副使。为秦桧所构，以「莫须有」冤死风波亭。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zongbi",
+      "name": "完颜宗弼",
+      "display": "完颜宗弼",
+      "birthAccuracy": "unknown",
+      "death": 1148,
+      "deathAccuracy": "exact",
+      "title": "金兀术，搜山检海捉赵构",
+      "bio": "阿骨打第四子。追高宗入海，富平、和尚原诸役与宋血战，黄天荡几不得脱。后主国政，都元帅，绍兴和议金方主持人。皇统八年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

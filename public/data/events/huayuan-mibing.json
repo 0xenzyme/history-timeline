@@ -1,0 +1,127 @@
+{
+  "id": "huayuan-mibing",
+  "name": "华元弭兵",
+  "display": "华元弭兵",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -579,
+  "yearAccuracy": "exact",
+  "yearNote": "左传成公十二年（前579）：「宋華元克合晉、楚之成。夏，五月，晉士燮會楚公子罷、許偃。癸亥，盟於宋西門之外」；史记宋微子世家系宋共公十年（前579）「華元善楚將子重，又善晉將欒書，兩盟晉楚」，与左传同年；维基百科列四国纪年对照（鲁成公十二年、晋厉公二年、宋共公十年、楚共王十二年＝前579）。春秋经成公十二年不书西门之盟，经之「夏，公會晉侯、衛侯於瑣澤」传释「成故也」。先声在成公十一年（前580）华元如楚遂如晋合二国之成。",
+  "polity": [
+    "jin-guo",
+    "chu",
+    "song-guo"
+  ],
+  "people": [
+    "jin-ligong",
+    "xiong-shen",
+    "song-gonggong"
+  ],
+  "aliases": [
+    "第一次弭兵之盟",
+    "宋西门之盟（前579）",
+    "华元合晋楚之成",
+    "晋楚西门之盟"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "宋右师华元与楚令尹子重、晋栾书皆有旧，成公十一年冬（前580）如楚、遂如晋合二国之成。次年夏五月，晋士燮（范文子）会楚公子罢、许偃，盟于宋西门之外，盟辞曰「凡晋楚无相加戎，好恶同之；若有害楚，则晋伐之；在晋，楚亦如之」；冬楚公子罢如晋莅盟，十二月晋厉公与之盟于赤棘。晋楚首次以盟约相安，然郑旋贰晋、晋使吕相绝秦（前578），前575鄢陵之战起，第一次弭兵告破；此「两主之约」的框架至前546向戌弭兵方告重拾。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷27（成公十一年、十二年）",
+      "part": "成公十一年傳、十二年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左氏傳·成公（維基文庫）",
+      "part": "成公十二年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·宋微子世家",
+      "part": "宋共公",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋經·成公（維基文庫）",
+      "part": "成公十二年經",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jin-ligong",
+      "name": "晋厉公",
+      "display": "晋厉公",
+      "birthAccuracy": "unknown",
+      "death": -573,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「简王十三年，晋厉公卒」。",
+      "title": "七年，为栾盈所弑",
+      "bio": "景公之子。三年纳栾盈而容其居郤氏故邑。前573年栾盈、范鞅起兵，厉公杀之，栾盈又反；栾书、中行偃攻厉公，获之于鄢陵，栾书请杀之而止，迎周王而囚之。明年使囚于卫，终身不赦。",
+      "tags": [
+        "栾盈之乱",
+        "下鄢陵",
+        "囚于卫"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiong-shen",
+      "name": "熊审",
+      "display": "楚共王",
+      "birthAccuracy": "unknown",
+      "death": -560,
+      "deathAccuracy": "approx",
+      "deathNote": "史记·楚世家「三十一年，共王卒，子康王招立」记在位三十一年，但与楚庄王前591（在册 exact）至试跑文档之前560仅隔约八年相冲突。鄢陵之战为前575，共王十六年即前575，反推共王元年前590左右，与庄王前591相衔接。故「三十一年」不取，卒年暂从试跑文档之前560，作约年。",
+      "title": "鄢陵之战中楚，为晋厉公所射",
+      "bio": "庄王之子。十六年晋伐郑，共王救郑，战于鄢陵，晋败楚，射中共王目。共王召将军子反，子反醉而不能见，申舟视师而退。共王在位约八年。",
+      "tags": [
+        "鄢陵之战",
+        "申舟自杀"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "song-gonggong",
+      "name": "子瑕",
+      "display": "宋共公",
+      "birthAccuracy": "unknown",
+      "death": -576,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·宋微子世家「十三年，共公卒」。共公元年前588，十三年得前576。",
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

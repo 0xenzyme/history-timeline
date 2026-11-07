@@ -1,0 +1,74 @@
+{
+  "id": "shang-kexi",
+  "name": "尚可喜",
+  "display": "尚可喜",
+  "birthAccuracy": "unknown",
+  "death": 1676,
+  "deathAccuracy": "exact",
+  "deathNote": "康熙十五年十月卒。子之信已叛。",
+  "title": "平南亲王",
+  "bio": "辽东人。康熙十四年进封平南亲王。十五年二月子之信叛，可喜卧疾不能制，十月卒。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "general",
+    "vassal"
+  ],
+  "primary": "general",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kang-xi",
+      "target": "shang-kexi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平南亲王。三藩乱中病卒，子之信已先叛"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "geng-jing-zhong",
+      "target": "shang-kexi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同封闽粤二藩，耿反而可喜不与"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sanfan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "尚可喜传",
+      "kind": "classic"
+    }
+  ]
+}

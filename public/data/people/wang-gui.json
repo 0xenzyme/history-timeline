@@ -1,0 +1,57 @@
+{
+  "id": "wang-gui",
+  "name": "王珪",
+  "display": "王珪",
+  "birth": 571,
+  "birthAccuracy": "exact",
+  "death": 639,
+  "deathAccuracy": "exact",
+  "title": "贞观十三年卒，年六十九",
+  "bio": "太宗朝侍中。贞观十三年遇疾，寻卒，年六十九。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "wang-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝为侍中，贞观十三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王珪"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "王珪传",
+      "kind": "classic"
+    }
+  ]
+}

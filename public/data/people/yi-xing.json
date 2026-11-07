@@ -1,0 +1,60 @@
+{
+  "id": "yi-xing",
+  "name": "张遂",
+  "display": "一行",
+  "birth": 683,
+  "birthAccuracy": "exact",
+  "death": 727,
+  "deathAccuracy": "exact",
+  "title": "僧一行，大衍历与子午线实测",
+  "bio": "魏州昌乐人，本姓张，名遂，张公谨之孙。少聪敏，博览经史，尤精历象阴阳五行之学，武三思请结交而遁去，出家为僧。开元九年受诏造新历，作《大衍历》，又与梁令瓒造黄道游仪、水运浑天。十二年发太史监南宫说等于河南、河北实地测量，为世界子午线实测之始。开元十五年卒，年四十五。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "astronomy",
+    "buddhism"
+  ],
+  "primary": "astronomy",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yi-xing",
+      "target": "li-long-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "僧一行修《大衍历》，玄宗时测子午线"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "一行",
+    "张遂",
+    "僧一行"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "一行传",
+      "kind": "classic"
+    }
+  ]
+}

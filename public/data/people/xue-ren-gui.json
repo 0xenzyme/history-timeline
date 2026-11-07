@@ -1,0 +1,72 @@
+{
+  "id": "xue-ren-gui",
+  "name": "薛仁贵",
+  "display": "薛仁贵",
+  "birth": 612,
+  "birthAccuracy": "exact",
+  "death": 681,
+  "deathAccuracy": "exact",
+  "title": "开耀元年再起，其年病卒",
+  "bio": "绛州龙门人。乾封中援泉男生，破高丽于金山，拔扶余，与李勣会于平壤。开耀元年高宗复起之，击突厥元珍于云州，其年病卒，年七十。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "xue-ren-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开耀元年复起，其年病卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dafeichuan-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "tang-mie-gaogouli",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "薛仁贵"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "薛仁贵传",
+      "kind": "classic"
+    }
+  ]
+}

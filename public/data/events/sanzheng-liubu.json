@@ -1,0 +1,71 @@
+{
+  "id": "sanzheng-liubu",
+  "name": "三省六部制确立",
+  "display": "三省六部制确立",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 583,
+  "yearAccuracy": "disputed",
+  "yearNote": "隋书·百官志下记开皇初废北周六官而置尚书、门下、内史三省与尚书省六部。旧说或系于开皇元年（581）改官之始，或系于开皇三年（583）罢郡存州、改度支为民部之后。轴年取开皇三年，异说见注。",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-jian"
+  ],
+  "result": "尚书、门下、内史三省与尚书省六曹定型，同年四月改都官为刑部、度支为民部",
+  "aliases": [
+    "五省六部",
+    "隋三省制"
+  ],
+  "dynasties": [
+    "northern-southern",
+    "sui"
+  ],
+  "desc": "开皇初隋文帝废北周六官，改置尚书、门下、内史三省与尚书省六部。三省分掌出令、审议与执行，六部分理吏、礼、兵、刑、民、工诸务，寺监与州县之制亦同时归并。此制为唐所直承，历宋元明清不改其大端，是中国中央官制定型的标志，也是隋对后世影响最久的一项制度建设。",
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "百官志下",
+      "kind": "classic"
+    },
+    {
+      "work": "通典",
+      "part": "职官",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

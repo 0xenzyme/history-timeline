@@ -1,0 +1,107 @@
+{
+  "id": "yiguan-nandu",
+  "name": "衣冠南渡",
+  "display": "衣冠南渡",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 317,
+  "yearAccuracy": "approx",
+  "yearNote": "以建武元年（317）晋室立足建康、南渡大局底定为叙事锚点（中国纪年口径）。南渡本为持续数年的过程：永嘉元年（307）司马睿移镇建康后士民陆续南渡，永嘉五年（311）洛京倾覆后成高潮，至 317 前后大局底定，非一日之事。",
+  "place": "中原→江左",
+  "placeNow": "黄河中下游至长江中下游（建康今江苏南京）",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "sima-rui",
+    "wang-dao"
+  ],
+  "result": "中原士族与流民大规模迁居江左，东晋以侨姓士族为立国骨干，经济文化重心开始南移",
+  "aliases": [
+    "永嘉南渡",
+    "中州士女避乱江左",
+    "南渡"
+  ],
+  "tags": [
+    "migration",
+    "gate-clan",
+    "southward-shift"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "永嘉之乱（311）洛京倾覆，中州士女避乱江左者十六七，琅邪王司马睿用王导之计镇建邺，宾礼名贤、收南渡贤俊而存问吴土风俗。士民携宗族部曲、典章文物相随南渡，史称衣冠南渡。至 317 晋室立足建康，南渡侨姓与江东土著共构新政权；人口、文化与经济重心自此南移，侨置郡县与土断等制度因应而生，奠定此后近三百年南北并立的深层格局。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷六十五",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-rui",
+      "name": "司马睿",
+      "display": "晋元帝司马睿",
+      "birth": 276,
+      "birthAccuracy": "exact",
+      "death": 323,
+      "deathAccuracy": "exact",
+      "title": "东晋元帝，王与马共天下",
+      "bio": "司马懿曾孙，琅邪王觐之子。永嘉之乱后以安东将军镇建康，用王导之谋，收江东士族之心。建武元年即晋王位，明年称帝，都建康。政出王氏，导内而敦外，时人语曰「王与马，共天下」。永昌元年忧愤成疾而崩，年四十七。",
+      "tags": [
+        "东晋",
+        "衣冠南渡"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-dao",
+      "name": "王导",
+      "display": "王导",
+      "birth": 276,
+      "birthAccuracy": "exact",
+      "death": 339,
+      "deathAccuracy": "exact",
+      "title": "丞相，江东衣冠之主，愦愦之政",
+      "bio": "琅邪临沂人，王览之孙。与元帝素相亲善，倾心推奉，为之定江东之计，招顾荣、贺循以收吴士。历事元、明、成三帝，为相二十余年，务在清静，每劝帝克己励节。晚年尤简素，自言「人言我愦愦，后人当思此愦愦」。咸康五年卒，年六十四。",
+      "tags": [
+        "东晋",
+        "琅邪王氏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

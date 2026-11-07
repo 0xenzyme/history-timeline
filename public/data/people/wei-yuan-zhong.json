@@ -1,0 +1,57 @@
+{
+  "id": "wei-yuan-zhong",
+  "name": "魏元忠",
+  "display": "魏元忠",
+  "birthAccuracy": "unknown",
+  "death": 707,
+  "deathAccuracy": "exact",
+  "title": "神龙中卒于涪陵，年七十余",
+  "bio": "武后、中宗朝为相。流涪陵，神龙三年卒，年七十余。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-xian",
+      "target": "wei-yuan-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中宗朝为相，神龙三年卒于涪陵"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "魏元忠"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "魏元忠传",
+      "kind": "classic"
+    }
+  ]
+}

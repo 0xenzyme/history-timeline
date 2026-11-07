@@ -1,0 +1,61 @@
+{
+  "id": "liu-yifu",
+  "name": "刘义符",
+  "display": "宋少帝刘义符",
+  "birth": 406,
+  "birthAccuracy": "approx",
+  "death": 424,
+  "deathAccuracy": "exact",
+  "birthNote": "景平二年遇害，年十九，上推生年。",
+  "deathNote": "「六月癸丑，徐羨之等使中書舍人邢安泰弒帝於金昌亭……致殞，時年十九」（宋书·少帝纪），系景平二年。",
+  "title": "宋少帝，景平二年为徐羡之等所弑",
+  "tags": [
+    "南北朝",
+    "刘宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yifu",
+      "target": "liu-yiqing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。长沙景王刘道怜之子，义符为宋少帝，义庆出继临川烈武王刘道规"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘义符",
+    "营阳王",
+    "宋少帝"
+  ],
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "少帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "ruan-dacheng",
+  "name": "阮大铖",
+  "display": "阮大铖",
+  "birth": 1587,
+  "birthAccuracy": "exact",
+  "death": 1646,
+  "deathAccuracy": "exact",
+  "title": "逆案余孽，燕子笺之笔",
+  "bio": "字集之，号圆海，安徽桐城人。天启间投依阉党，崇祯初坐逆案削籍，居南京以《燕子笺》诸曲自饰。弘光立，马士英引为兵部尚书，1646 年从清兵南下，死于仙霞岭。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "regent",
+    "drama"
+  ],
+  "primary": "regent",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ma-shiying",
+      "target": "ruan-dacheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同年相引，士英举之再起，兵部一席遂为逆案之归"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ruan-dacheng",
+      "target": "wei-zhongxian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天启间投依阉党，崇祯初坐逆案削籍，居南京以戏曲自饰"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "chen-zilong",
+      "target": "ruan-dacheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "复社群起发《留都防乱公揭》，逆案余孽之名由此胶固"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "阮大铖传",
+      "kind": "classic"
+    }
+  ]
+}

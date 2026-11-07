@@ -1,0 +1,68 @@
+{
+  "id": "qi-wugong-qi",
+  "name": "杞武公",
+  "display": "杞武公",
+  "birthAccuracy": "unknown",
+  "death": -829,
+  "deathAccuracy": "exact",
+  "deathNote": "今本竹书厉王二十四年杞武公薨。厉王十二年奔彘当 -841，二十四年当 -829。史记记武公立四十七年卒，不与竹书强合。",
+  "title": "杞武公",
+  "bio": "谋娶公之子。今本竹书厉王二十四年杞武公薨。史记记立四十七年卒，不与竹书强合。",
+  "tags": [
+    "杞"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "mou-qugong",
+      "target": "qi-wugong-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qi-jinggong",
+      "target": "qi-wugong-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杞武公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪"
+    }
+  ]
+}

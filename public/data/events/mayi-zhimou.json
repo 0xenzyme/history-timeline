@@ -1,0 +1,129 @@
+{
+  "id": "mayi-zhimou",
+  "name": "马邑之谋",
+  "display": "马邑之谋",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": -133,
+  "yearAccuracy": "exact",
+  "yearNote": "元光二年（前 133 年）六月，本纪纪年直接可查。",
+  "place": "马邑",
+  "placeNow": "今山西朔州",
+  "belligerents": [
+    "han",
+    "xiongnu"
+  ],
+  "commanders": [
+    {
+      "id": "wang-hui",
+      "side": "han"
+    }
+  ],
+  "people": [
+    "liu-che",
+    "li-guang"
+  ],
+  "result": "单于察觉伏击退走，汉军无功而返；汉匈自此绝和亲，转入全面战争",
+  "aliases": [
+    "马邑之围"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "元光二年六月，汉发兵三十万伏于马邑谷中，诱致单于欲袭击之；单于入塞后察觉退走，汉军无功而返。此役伏击未成，并无实际会战，王恢坐首谋不进下狱死。自此匈奴绝和亲，攻当路塞，汉匈全面战争由此始。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷六 武帝紀",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷百十 匈奴列傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-guang",
+      "name": "李广",
+      "display": "飞将军",
+      "birthAccuracy": "unknown",
+      "death": -119,
+      "deathAccuracy": "exact",
+      "birthNote": "生年不详",
+      "title": "西汉名将，人称「飞将军」",
+      "bio": "历文、景、武三朝，与匈奴七十余战未尝不大捷者言过其实，却始终未能封侯。漠北之战受卫青调度走东路失道，不愿受刀笔吏之辱，引刀自刎。",
+      "tags": [
+        "飞将军",
+        "难封",
+        "漠北之战"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-hui",
+      "name": "王恢",
+      "display": "王恢",
+      "birthAccuracy": "unknown",
+      "death": -133,
+      "deathAccuracy": "exact",
+      "title": "大行令，马邑之谋首倡者",
+      "bio": "燕人，数为边吏，习匈奴事。元光二年因马邑豪聂壹之策首倡击匈奴，汉伏兵三十余万于马邑谷中诱单于；单于入塞觉之退走，恢不击其辎重，下狱自杀。马邑之谋自此开启武帝对匈奴的大规模用兵。",
+      "tags": [
+        "马邑之谋",
+        "匈奴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

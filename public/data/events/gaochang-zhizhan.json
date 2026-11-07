@@ -1,0 +1,73 @@
+{
+  "id": "gaochang-zhizhan",
+  "name": "唐灭高昌之战",
+  "display": "高昌之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 640,
+  "yearAccuracy": "exact",
+  "place": "高昌",
+  "placeNow": "今新疆吐鲁番一带",
+  "belligerents": [
+    "tang",
+    "xiyu"
+  ],
+  "commanders": [
+    {
+      "id": "hou-jun-ji",
+      "side": "tang"
+    }
+  ],
+  "result": "高昌王国灭亡，唐置西州并确立天山南路东端的直接据点",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "640 年，唐军以交河道行军总管侯君集率军征讨高昌，高昌王国覆亡，唐随后在其地置西州。研究所用词表没有更细的高昌政权 id，因此 `xiyu` 仅作为西域交战方的现有词表粒度；两份研究包中的高昌候选已合并为一个实体。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "太宗本纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "The Tang’s conquest of the Western Regions",
+      "part": "ANU open research chapter",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hou-jun-ji",
+      "name": "侯君集",
+      "display": "侯君集",
+      "birthAccuracy": "unknown",
+      "death": 643,
+      "deathAccuracy": "exact",
+      "title": "灭高昌，承乾事发被斩",
+      "bio": "玄武门之谋，君集之策居多。贞观中副李靖破吐谷浑，后为交河道行军大总管，灭高昌。怨望，与太子承乾通谋。贞观十七年事发，斩于市。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

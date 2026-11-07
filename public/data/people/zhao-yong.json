@@ -1,0 +1,99 @@
+{
+  "id": "zhao-yong",
+  "name": "赵雍",
+  "display": "赵武灵王",
+  "birthAccuracy": "unknown",
+  "death": -295,
+  "deathAccuracy": "exact",
+  "title": "赵王，胡服骑射",
+  "bio": "胡服骑射，北破林胡、楼烦。传位惠文王，沙丘宫被围饿死。改革发生在条的中段，死亡在自己让出的王位之后。",
+  "tags": [
+    "赵国",
+    "胡服骑射"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-ji",
+      "target": "zhao-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "胡服之后的秦赵对峙，下启长平"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-he",
+      "target": "zhao-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武灵王二十七年传国于少子何，自号主父"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-chenghou",
+      "target": "zhao-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "胡服骑射之政成于武灵王，烈侯、敬侯、成侯三世守邯郸之基"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hufu-qishe",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shaqiu-gongbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhao-mie-zhongshan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "赵武灵王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "赵世家",
+      "kind": "classic"
+    }
+  ]
+}

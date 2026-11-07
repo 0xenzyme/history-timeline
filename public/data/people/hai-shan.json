@@ -1,0 +1,94 @@
+{
+  "id": "hai-shan",
+  "name": "海山",
+  "display": "元武宗海山",
+  "birth": 1281,
+  "birthAccuracy": "exact",
+  "death": 1311,
+  "deathAccuracy": "exact",
+  "title": "历钞法、行科举",
+  "bio": "顺宗答剌麻八剌长子，成宗之侄。大德十一年继立，用尚书省理财，复行科举，在位仅四年。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cheng-zong",
+      "target": "hai-shan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，成宗崩无嗣，武宗入继"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hai-shan",
+      "target": "ren-zong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，武宗传弟仁宗（武仁授受）"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "da-ji",
+      "target": "hai-shan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "ha-la-ha-sun",
+      "target": "hai-shan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "遣使北迎海山即位，挫皇后之谋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "海山",
+    "元武宗"
+  ],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "武宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

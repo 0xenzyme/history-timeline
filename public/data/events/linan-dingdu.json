@@ -1,0 +1,74 @@
+{
+  "id": "linan-dingdu",
+  "name": "定都临安",
+  "display": "定都临安",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1138,
+  "yearAccuracy": "exact",
+  "yearNote": "绍兴八年二月戊寅至临安，本纪于是岁书始定都于杭，没有单独的定都诏日。点事件。",
+  "place": "临安府",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "zhao-gou"
+  ],
+  "result": "高宗至临安，本纪书始定都于杭，行在从此稳定在临安。",
+  "aliases": [
+    "绍兴定都"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "绍兴八年二月戊寅，高宗至临安府，本纪于是岁书始定都于杭，没有单独的定都诏日。行在从此稳定在临安，南宋的政治中心由此确定。政权存亡已由1127年即位承担。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷29",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷120",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-gou",
+      "name": "赵构",
+      "display": "赵构",
+      "birth": 1107,
+      "birthAccuracy": "exact",
+      "death": 1187,
+      "deathAccuracy": "exact",
+      "title": "宋高宗，南宋开国",
+      "bio": "徽宗第九子，靖康后于南京应天府即位，南渡定都临安。任秦桧主和，杀岳飞，与金定绍兴和议，偏安江南。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "zhang-xiu",
+  "name": "张绣",
+  "display": "张绣",
+  "birthAccuracy": "unknown",
+  "death": 207,
+  "deathAccuracy": "exact",
+  "deathNote": "从征乌丸于柳城，未至，薨，承建安十二年北征叙事系年。",
+  "title": "宛城割据，两降两叛，终再降封侯",
+  "bio": "武威祖厉人，张济族子。济死，绣统其众屯宛，与刘表合。建安二年降曹操而悔之，袭杀曹操长子昂、侄安民，典韦死之，据宛拒守；后用贾诩计于官渡前夕再降，操执其手与欢宴，为子均娶绣女。从征有功，迁破羌将军。建安十二年从征乌丸，未至柳城薨。",
+  "tags": [
+    "三国"
+  ],
+  "categories": [
+    "warlord",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "zhang-xiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "张济之侄，宛城降曹"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wancheng-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "张绣"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·二公孙陶四张传",
+      "kind": "classic"
+    }
+  ]
+}

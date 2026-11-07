@@ -1,0 +1,94 @@
+{
+  "id": "dugu-huanghou",
+  "name": "独孤皇后",
+  "display": "文献皇后独孤氏",
+  "birth": 553,
+  "birthAccuracy": "approx",
+  "death": 602,
+  "deathAccuracy": "exact",
+  "birthNote": "仁寿二年崩，年五十，上推生年。",
+  "title": "隋文帝皇后，废勇立广皆出其谋",
+  "bio": "河南洛阳人，周大司马独孤信之女。文帝受禅后立为皇后，临朝多与同辇，政有所失随即匡谏。废太子勇、立晋王广，皆后之谋。仁寿二年八月崩于永安宫，年五十。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "独孤信以女妻坚。受禅立为皇后，废勇立广皆后之谋"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。后意太子妃暴薨，讽文帝废勇"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-guang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。竟废太子而立广，皆后之谋"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "gao-jiong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "后讽文帝黜高颎"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "独孤皇后",
+    "文献皇后"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "后妃传·文献独孤皇后",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "xie-qian",
+  "name": "谢迁",
+  "display": "谢迁",
+  "birth": 1449,
+  "birthAccuracy": "approx",
+  "death": 1531,
+  "deathAccuracy": "exact",
+  "birthNote": "嘉靖六年年七十九，上推生年。",
+  "deathNote": "嘉靖十年三月前辞归，是年卒于家，年八十三。",
+  "title": "孝宗辅臣",
+  "bio": "余姚人。与刘健同辅孝宗。刘瑾矫旨除名。嘉靖六年家居起用，数月求去，十年卒，年八十三。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-jian",
+      "target": "xie-qian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同辅孝宗，刘瑾矫旨把二人一起除名"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-dongyang",
+      "target": "xie-qian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同辅孝宗，时称李公谋、刘公断、谢公尤侃侃"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "谢迁传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "contractVersion": 1,
+    "id": "rujia-chuancheng",
+    "name": "儒家传承",
+    "category": "thought",
+    "summary": "从孔门授受到宋代儒学，按编辑选取的代表人物观察经典解释与学术脉络；成员顺序不是连续师承谱系。",
+    "tags": [
+      "儒学",
+      "经典"
+    ],
+    "featuredOrder": 1,
+    "memberCount": 5,
+    "featuredMembers": [
+      {
+        "id": "kong-zi",
+        "name": "孔丘",
+        "display": "孔子",
+        "birth": -551,
+        "birthAccuracy": "disputed",
+        "death": -479,
+        "deathAccuracy": "exact",
+        "birthNote": "生年取《史记》前 551 年说",
+        "title": "儒家创始人",
+        "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+        "tags": [
+          "儒家",
+          "六经",
+          "论语"
+        ],
+        "categories": [
+          "scholar-official",
+          "confucian"
+        ],
+        "lane": ""
+      },
+      {
+        "id": "meng-zi",
+        "name": "孟轲",
+        "display": "孟子",
+        "birth": -372,
+        "birthAccuracy": "approx",
+        "death": -289,
+        "deathAccuracy": "approx",
+        "title": "战国儒家，倡性善、仁政",
+        "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
+        "tags": [
+          "性善",
+          "仁政",
+          "亚圣"
+        ],
+        "categories": [
+          "scholar",
+          "confucian"
+        ],
+        "lane": ""
+      },
+      {
+        "id": "zhu-xi",
+        "name": "朱熹",
+        "display": "朱熹",
+        "birth": 1130,
+        "birthAccuracy": "exact",
+        "death": 1200,
+        "deathAccuracy": "exact",
+        "title": "晦庵，集理学之大成",
+        "bio": "婺源人，承二程而集理学大成，主「存天理、灭人欲」，编《四书章句集注》立为科举准的。讲学武夷、白鹿洞，泽被后世。",
+        "tags": [
+          "宋",
+          "南宋"
+        ],
+        "categories": [
+          "neo-confucian",
+          "classics"
+        ],
+        "primary": "neo-confucian",
+        "polity": [
+          "song"
+        ],
+        "gender": "male",
+        "lane": ""
+      }
+    ]
+  }
+]

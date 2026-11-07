@@ -1,0 +1,52 @@
+{
+  "id": "qi-degong",
+  "name": "杞德公",
+  "display": "杞德公",
+  "birthAccuracy": "unknown",
+  "death": -780,
+  "deathAccuracy": "exact",
+  "deathNote": "共公卒当 -798，史记德公十八年卒，下推当 -780，当幽王元年前后。",
+  "title": "杞德公",
+  "bio": "共公之子。十八年卒。弟桓公姑容已入春秋。",
+  "tags": [
+    "杞"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qi-degong",
+      "target": "qi-gonggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杞德公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家"
+    }
+  ]
+}

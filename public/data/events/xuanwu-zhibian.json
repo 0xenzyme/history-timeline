@@ -1,0 +1,174 @@
+{
+  "id": "xuanwu-zhibian",
+  "name": "玄武门之变",
+  "display": "玄武门之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 626,
+  "yearAccuracy": "exact",
+  "place": "长安玄武门",
+  "placeNow": "今西安城内唐长安宫城北门一带",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-shimin",
+    "li-jian-cheng",
+    "li-yuan-ji",
+    "li-yuan",
+    "yu-chi-gong"
+  ],
+  "result": "李建成、李元吉被杀，李世民成为皇太子并继位为太宗",
+  "aliases": [
+    "tang-xuanwu"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "626 年六月，李世民在玄武门发动宫廷武装政变，杀李建成、李元吉，随后被立为皇太子；八月李渊传位，李世民即位为唐太宗。它重组了唐初最高权力结构，直接开启贞观政治。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "太宗本纪上",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "唐纪七",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-shimin",
+      "name": "李世民",
+      "display": "唐太宗李世民",
+      "birth": 598,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "唐太宗，天可汗，贞观之治",
+      "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-jian-cheng",
+      "name": "李建成",
+      "display": "隐太子李建成",
+      "birth": 589,
+      "birthAccuracy": "exact",
+      "death": 626,
+      "deathAccuracy": "exact",
+      "title": "皇太子，玄武门被杀，追谥隐",
+      "bio": "李渊长子，武德元年立为皇太子。性宽简，数将兵讨刘黑闼、辅公祏，亦能听得魏征、王珪之言。秦王功高而名位已定，建成与元吉谋削之。武德九年六月四日，秦王伏兵玄武门，射杀建成于临湖殿，年三十八。既而元吉亦死，世民遂即位。",
+      "tags": [
+        "唐",
+        "玄武门"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-yuan-ji",
+      "name": "李元吉",
+      "display": "巢王李元吉",
+      "birth": 603,
+      "birthAccuracy": "exact",
+      "death": 626,
+      "deathAccuracy": "exact",
+      "title": "齐王，助太子而死于玄武门",
+      "bio": "李渊第四子，封齐王，性猜鸷，好兵。太原留守时弃城而走，为刘武周所败，其后与太子建成合谋倾秦王。武德九年欲刺世民于昆明池，谋泄，六月四日与建成同入玄武门，为尉迟敬德所射杀，年二十四，五子皆诛。",
+      "tags": [
+        "唐",
+        "玄武门"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-yuan",
+      "name": "李渊",
+      "display": "唐高祖李渊",
+      "birth": 566,
+      "birthAccuracy": "exact",
+      "death": 635,
+      "deathAccuracy": "exact",
+      "title": "唐高祖，太原起兵，五年定天下",
+      "bio": "陇西成纪人，其祖虎为西魏八柱国之一。隋末为太原留守，大业十三年举兵，入长安，立代王侑，明年受禅，国号唐。在位九年，武德七年天下始定，然太子与秦王之争已不可解。贞观九年崩于垂拱前殿，年七十。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-chi-gong",
+      "name": "尉迟恭",
+      "display": "尉迟敬德",
+      "birth": 585,
+      "birthAccuracy": "exact",
+      "death": 658,
+      "deathAccuracy": "exact",
+      "title": "鄂国公，玄武门之功，晚年闭门",
+      "bio": "朔州善阳人，本出鲜卑尉迟部。骁勇善避槊，每单骑入敌阵，人不能伤。武德九年六月四日从秦王于玄武门，射元吉坠马，又擐甲持矛入见高祖，请立秦王。贞观中数以功高忤人，为廷尉所劾，遂谢宾客，晚年穿筑池台，奏清商乐以自奉。显庆三年薨，年七十四。",
+      "tags": [
+        "唐",
+        "玄武门"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

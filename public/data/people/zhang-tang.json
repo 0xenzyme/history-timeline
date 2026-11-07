@@ -1,0 +1,82 @@
+{
+  "id": "zhang-tang",
+  "name": "张汤",
+  "display": "张汤",
+  "birthAccuracy": "unknown",
+  "death": -115,
+  "deathAccuracy": "exact",
+  "title": "御史大夫，深文之吏",
+  "bio": "父为长安丞，起刀笔吏，为御史大夫，与赵禹更定律令，倡白鹿皮币。被三长史构陷，武帝责让，作书谢曰「谋陷汤者，三长史也」，遂自杀；家产直不过五百金，载以牛车，有棺而无椁。",
+  "tags": [
+    "律令",
+    "武帝"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yan-zhu",
+      "target": "zhang-tang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "淮南案争杀严助：「弗诛，后不可治」"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "zhang-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "御史大夫，定律令、造皮币"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "zhang-an-shi",
+      "target": "zhang-tang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；安世为麒麟阁十一功臣之首"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "张汤传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "han-xin",
+  "name": "韩信",
+  "display": "韩信",
+  "birthAccuracy": "unknown",
+  "death": -196,
+  "deathAccuracy": "exact",
+  "title": "齐王、楚王，淮阴侯，死于长乐宫",
+  "bio": "淮阴人，胯下之辱起家。萧何追之，遂拜大将。破魏、代、赵、齐，垓下十面埋伏。先王齐、徙楚，再贬淮阴侯，终为吕后所杀。条只到汉初，死在最功高处。",
+  "tags": [
+    "楚汉",
+    "汉初"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "han-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -206,
+      "notes": [
+        "拜大将，统兵定诸侯",
+        "登坛拜将，破魏赵燕齐；后贬淮阴侯"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "xiang-yu",
+      "type": "rival",
+      "directed": false,
+      "since": -202,
+      "notes": [
+        "垓下合围，四面楚歌",
+        "垓下之战，韩信将三十万为主力"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "ying-bu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同列异姓王，皆叛楚归汉"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "lv-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与萧何诱杀韩信于长乐宫钟室"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "lvhou-sha-hanxin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "韩信",
+    "淮阴侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "淮阴侯列传",
+      "kind": "classic"
+    }
+  ]
+}

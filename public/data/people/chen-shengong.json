@@ -1,0 +1,69 @@
+{
+  "id": "chen-shengong",
+  "name": "妫圉戎",
+  "display": "陈慎公",
+  "birthAccuracy": "unknown",
+  "death": -853,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。当周厉王时；子幽公十二年当 -841，幽公元年当 -852，慎公卒取前一年为下限。",
+  "title": "陈慎公，当厉王时",
+  "bio": "孝公之子。当周厉王时。卒，子幽公宁立。",
+  "tags": [
+    "陈"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chen"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-shengong",
+      "target": "chen-yougong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "chen-shengong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "慎公当周厉王时"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈慎公",
+    "慎公圉戎"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家",
+      "kind": "classic"
+    }
+  ]
+}

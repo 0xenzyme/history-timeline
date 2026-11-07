@@ -1,0 +1,44 @@
+{
+  "id": "wei-zhuanggong-hou",
+  "name": "姬蒯聩",
+  "display": "卫后庄公",
+  "birthAccuracy": "unknown",
+  "death": -478,
+  "deathAccuracy": "exact",
+  "deathNote": "左传·哀公十七年（前478）卫庄公（蒯聩）入戎州，为己氏所杀；史记·卫康叔世家「莊公懼……入己氏，己氏殺之」。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "jinyang-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "哀公十七年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "jia-lu",
+  "name": "贾鲁",
+  "display": "贾鲁",
+  "birth": 1297,
+  "birthAccuracy": "approx",
+  "death": 1353,
+  "deathAccuracy": "approx",
+  "birthNote": "本传不载生年，据登第与任官之年推得，约一二九七年。",
+  "deathNote": "本传系其卒于至正十三年。",
+  "title": "总治河防使",
+  "bio": "河东高平人。至正间以工部尚书总治黄河，疏塞并行使河复故道，工成而民力已竭；旋受命讨徐州红巾，1353 年卒于军。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister",
+    "craft"
+  ],
+  "primary": "minister",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shun-di",
+      "target": "jia-lu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命总治黄河，工成而役繁，次年红巾遂起"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "jia-lu",
+      "target": "liu-futong",
+      "type": "rival",
+      "directed": false,
+      "since": 1351,
+      "notes": [
+        "河役方兴，白莲教徒凿石人埋于黄陵冈，颍上遂举红巾"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "贾鲁传",
+      "kind": "classic"
+    }
+  ]
+}

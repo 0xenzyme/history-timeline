@@ -1,0 +1,66 @@
+{
+  "id": "wu-yuan-ji",
+  "name": "吴元济",
+  "display": "吴元济",
+  "birth": 783,
+  "birthAccuracy": "exact",
+  "death": 817,
+  "deathAccuracy": "exact",
+  "title": "元和十二年斩于独柳，年三十五",
+  "bio": "淮西吴少阳之子，据蔡州拒命。元和十二年十一月李愬入蔡，俘至京师斩于独柳，年三十五。",
+  "tags": [
+    "唐",
+    "藩镇"
+  ],
+  "categories": [
+    "rebel",
+    "warlord"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-chun",
+      "target": "wu-yuan-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "据蔡州拒命，元和十二年被俘斩于独柳"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yuanhe-huaixi",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "吴元济"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "吴少诚传附吴元济",
+      "kind": "classic"
+    }
+  ]
+}

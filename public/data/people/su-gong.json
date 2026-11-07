@@ -1,0 +1,68 @@
+{
+  "id": "su-gong",
+  "name": "苏公",
+  "display": "苏公",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《何人斯》毛序，与刺幽王诸篇同组，取镐京之年为可见下限。",
+  "title": "《何人斯》苏公",
+  "bio": "毛序：苏公刺暴公也。暴公为卿士而谮苏公。序不系王世。",
+  "tags": [
+    "诗序"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bao-gong",
+      "target": "su-gong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "《何人斯》序：暴公谮苏公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "su-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诗在节南山之什，与刺幽王诸篇同组"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "苏公"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "小雅·何人斯",
+      "kind": "classic"
+    }
+  ]
+}

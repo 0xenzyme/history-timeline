@@ -1,0 +1,75 @@
+{
+  "id": "ying-bu",
+  "name": "英布",
+  "display": "英布",
+  "birthAccuracy": "unknown",
+  "death": -196,
+  "deathAccuracy": "exact",
+  "title": "九江王、淮南王，黥面之刑出身",
+  "bio": "六人，坐法黥面，故称黥布。随项梁、项羽，常为先锋，封九江王。楚汉间归汉，封淮南王。韩信、彭越死后惧而反，兵败为番阳人所杀。异姓王的收尾画在这几条上。",
+  "tags": [
+    "楚汉",
+    "汉初"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-xin",
+      "target": "ying-bu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同列异姓王，皆叛楚归汉"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "ying-bu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "淮南王举兵反，帝亲击破之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "英布",
+    "黥布",
+    "淮南王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "黥布列传",
+      "kind": "classic"
+    }
+  ]
+}

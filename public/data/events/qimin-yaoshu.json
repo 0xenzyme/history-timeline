@@ -1,0 +1,70 @@
+{
+  "id": "qimin-yaoshu",
+  "name": "齐民要术成书",
+  "display": "齐民要术",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 544,
+  "yearAccuracy": "approx",
+  "yearNote": "贾思勰撰于北魏末，确年无考，通作 533—544 年间。",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "jia-si-xie"
+  ],
+  "result": "现存最早最完整的农书，集六世纪以前北方农业技术之大成",
+  "aliases": [
+    "齐民要术"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "贾思勰仕北魏，为高阳太守，「采捃经传，爰及歌谣，询之老成，验之行事」，撰《齐民要术》十卷九十二篇，为我国现存最早最完整的农书。举凡耕稼、园圃、林木、畜牧、酿造、加工之法无不备载，所记防旱保墒、轮作养地之术集六世纪以前北方农业之大成。后世农书率以此为宗，其重农贵本之言亦为治术所采。",
+  "sources": [
+    {
+      "work": "齐民要术",
+      "part": "序",
+      "kind": "classic"
+    },
+    {
+      "work": "百度百科：齐民要术",
+      "kind": "database"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jia-si-xie",
+      "name": "贾思勰",
+      "display": "贾思勰",
+      "birthAccuracy": "unknown",
+      "death": 544,
+      "deathAccuracy": "approx",
+      "deathNote": "生卒史无明文。《齐民要术》撰于北魏末，确年无考，通作 533—544 年间成书；思勰自署高阳太守，此后行迹不复可见。取成书上限 544 年作活动下限，非寿数。",
+      "title": "高阳太守，撰《齐民要术》十卷九十二篇",
+      "bio": "仕北魏，为高阳太守，里贯史无明文。博通农事，「采捃经传，爰及歌谣，询之老成，验之行事」，撰《齐民要术》十卷九十二篇，起自耕农，终于醯醢，资生之业靡不毕书。举凡耕稼、园圃、林木、畜牧、酿造、加工之法无不备载，所记防旱保墒、轮作养地之术集六世纪以前北方农业技术之大成。其书为我国现存最早最完整的农书，后世农书率以此为宗；其重农贵本之言，亦为治术所采。",
+      "tags": [
+        "南北朝",
+        "北朝",
+        "农学"
+      ],
+      "categories": [
+        "agronomy"
+      ],
+      "primary": "agronomy",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

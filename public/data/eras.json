@@ -1,0 +1,266 @@
+[
+  {
+    "id": "xia",
+    "name": "夏",
+    "from": -2070,
+    "to": -1600,
+    "contractVersion": 1,
+    "group": "pre-qin",
+    "personCount": 0,
+    "eventCount": 3
+  },
+  {
+    "id": "shang",
+    "name": "商",
+    "from": -1600,
+    "to": -1046,
+    "contractVersion": 1,
+    "group": "pre-qin",
+    "personCount": 0,
+    "eventCount": 5
+  },
+  {
+    "id": "western-zhou",
+    "name": "西周",
+    "from": -1046,
+    "to": -771,
+    "contractVersion": 1,
+    "group": "pre-qin",
+    "personCount": 145,
+    "eventCount": 13
+  },
+  {
+    "id": "spring-autumn",
+    "name": "春秋",
+    "from": -770,
+    "to": -476,
+    "contractVersion": 1,
+    "group": "pre-qin",
+    "personCount": 490,
+    "eventCount": 65
+  },
+  {
+    "id": "warring-states",
+    "name": "战国",
+    "from": -475,
+    "to": -221,
+    "contractVersion": 1,
+    "group": "pre-qin",
+    "personCount": 187,
+    "eventCount": 64
+  },
+  {
+    "id": "qin",
+    "name": "秦",
+    "from": -221,
+    "to": -207,
+    "contractVersion": 1,
+    "group": "qin-han",
+    "personCount": 69,
+    "eventCount": 14
+  },
+  {
+    "id": "western-han",
+    "name": "西汉",
+    "from": -202,
+    "to": 8,
+    "contractVersion": 1,
+    "group": "qin-han",
+    "personCount": 211,
+    "eventCount": 28
+  },
+  {
+    "id": "xin",
+    "name": "新",
+    "from": 8,
+    "to": 23,
+    "contractVersion": 1,
+    "group": "qin-han",
+    "personCount": 0,
+    "eventCount": 4
+  },
+  {
+    "id": "eastern-han",
+    "name": "东汉",
+    "from": 25,
+    "to": 220,
+    "contractVersion": 1,
+    "group": "qin-han",
+    "personCount": 178,
+    "eventCount": 36
+  },
+  {
+    "id": "three-kingdoms",
+    "name": "三国",
+    "from": 220,
+    "to": 280,
+    "contractVersion": 1,
+    "group": "weijin-nanbei",
+    "personCount": 188,
+    "eventCount": 27
+  },
+  {
+    "id": "western-jin",
+    "name": "西晋",
+    "from": 265,
+    "to": 316,
+    "contractVersion": 1,
+    "group": "weijin-nanbei",
+    "personCount": 0,
+    "eventCount": 10
+  },
+  {
+    "id": "eastern-jin",
+    "name": "东晋",
+    "from": 317,
+    "to": 420,
+    "contractVersion": 1,
+    "group": "weijin-nanbei",
+    "personCount": 0,
+    "eventCount": 28
+  },
+  {
+    "id": "shiliuguo",
+    "name": "十六国",
+    "from": 304,
+    "to": 439,
+    "contractVersion": 1,
+    "group": "weijin-nanbei",
+    "personCount": 0,
+    "eventCount": 41
+  },
+  {
+    "id": "northern-southern",
+    "name": "南北朝",
+    "from": 420,
+    "to": 589,
+    "contractVersion": 1,
+    "group": "weijin-nanbei",
+    "personCount": 269,
+    "eventCount": 69
+  },
+  {
+    "id": "sui",
+    "name": "隋",
+    "from": 581,
+    "to": 618,
+    "contractVersion": 1,
+    "group": "sui-tang-wudai",
+    "personCount": 73,
+    "eventCount": 20
+  },
+  {
+    "id": "tang",
+    "name": "唐",
+    "from": 618,
+    "to": 907,
+    "contractVersion": 1,
+    "aliases": [
+      "唐朝"
+    ],
+    "summary": "从唐高祖建国到唐亡，人物生命与政治、军事和文化事件在 618—907 年的时间坐标中交织。",
+    "group": "sui-tang-wudai",
+    "personCount": 281,
+    "eventCount": 59
+  },
+  {
+    "id": "wudai",
+    "name": "五代十国",
+    "from": 907,
+    "to": 960,
+    "contractVersion": 1,
+    "group": "sui-tang-wudai",
+    "personCount": 125,
+    "eventCount": 62
+  },
+  {
+    "id": "liao",
+    "name": "辽",
+    "from": 916,
+    "to": 1125,
+    "contractVersion": 1,
+    "group": "song-liao-jin-yuan",
+    "personCount": 0,
+    "eventCount": 88
+  },
+  {
+    "id": "song",
+    "name": "宋",
+    "from": 960,
+    "to": 1279,
+    "contractVersion": 1,
+    "group": "song-liao-jin-yuan",
+    "personCount": 413,
+    "eventCount": 98
+  },
+  {
+    "id": "xixia",
+    "name": "西夏",
+    "from": 1038,
+    "to": 1227,
+    "contractVersion": 1,
+    "group": "song-liao-jin-yuan",
+    "personCount": 0,
+    "eventCount": 57
+  },
+  {
+    "id": "jin-chao",
+    "name": "金",
+    "from": 1115,
+    "to": 1234,
+    "contractVersion": 1,
+    "group": "song-liao-jin-yuan",
+    "personCount": 0,
+    "eventCount": 44
+  },
+  {
+    "id": "mongol",
+    "name": "大蒙古国",
+    "from": 1206,
+    "to": 1271,
+    "contractVersion": 1,
+    "group": "song-liao-jin-yuan",
+    "personCount": 0,
+    "eventCount": 30
+  },
+  {
+    "id": "yuan",
+    "name": "元",
+    "from": 1271,
+    "to": 1368,
+    "contractVersion": 1,
+    "group": "song-liao-jin-yuan",
+    "personCount": 218,
+    "eventCount": 26
+  },
+  {
+    "id": "ming",
+    "name": "明",
+    "from": 1368,
+    "to": 1644,
+    "contractVersion": 1,
+    "group": "ming-qing",
+    "personCount": 258,
+    "eventCount": 39
+  },
+  {
+    "id": "qing",
+    "name": "清",
+    "from": 1644,
+    "to": 1912,
+    "contractVersion": 1,
+    "group": "ming-qing",
+    "personCount": 282,
+    "eventCount": 56
+  },
+  {
+    "id": "minguo",
+    "name": "民国",
+    "from": 1912,
+    "to": 1949,
+    "contractVersion": 1,
+    "group": "minguo",
+    "personCount": 0,
+    "eventCount": 34
+  }
+]

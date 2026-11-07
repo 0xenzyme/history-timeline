@@ -1,0 +1,100 @@
+{
+  "id": "huitong-tonghui-he",
+  "name": "会通河成",
+  "display": "会通河成",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1289,
+  "yearAccuracy": "exact",
+  "yearNote": "至元二十六年开会通河，二十九年通惠河成，江淮之粟始可由海运入直沽、由内河入大都。详见《元史·河渠志》《世祖本纪》。",
+  "endYear": 1293,
+  "endYearAccuracy": "exact",
+  "place": "会通河",
+  "placeNow": "今山东临清至东平，南以北接泗、北以南接卫",
+  "polity": [
+    "yuan"
+  ],
+  "people": [
+    "guo-shoujing",
+    "hu-bi-lie"
+  ],
+  "result": "京杭大运河截弯取直，漕运不由海运，京师之粟始有常经",
+  "aliases": [
+    "开会通河",
+    "通惠河"
+  ],
+  "dynasties": [
+    "yuan"
+  ],
+  "desc": "元都于燕，而东南之粟自江淮来，一由海运，风波不测；一由河、渭、沁、泗故道，迂回数千里。世祖命科学者郭守敬措置水利，守敬乃陈水利十有一事。至元二十六年，断山东南旺、沽头诸陂之旧，开会通河，引汶水绝河，南接济州之漕，北至于临清，长二百五十里，间设闸三十有一，以节水势。二十九年，复开通惠河，引白浮、瓮山诸水入大都，注通州，置闸七，岁运粟一百五十二万石。自是海运、内河并行，而内河为大宗；漕舟直达积水潭，舳舻蔽水，大都之盛称极。后之运河河道，大抵因元之旧而不改。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "河渠志",
+      "kind": "classic"
+    },
+    {
+      "work": "元史",
+      "part": "世祖本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guo-shoujing",
+      "name": "郭守敬",
+      "display": "郭守敬",
+      "birth": 1231,
+      "birthAccuracy": "exact",
+      "death": 1316,
+      "deathAccuracy": "exact",
+      "title": "天文学家，授时历",
+      "bio": "邢台人，师事刘秉忠。制简仪、高表，行四海测验；依实测修《授时历》，岁实密近今测，行用三百余年。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "official",
+        "science",
+        "astronomy"
+      ],
+      "primary": "astronomy",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hu-bi-lie",
+      "name": "忽必烈",
+      "display": "元世祖忽必烈",
+      "birth": 1215,
+      "birthAccuracy": "exact",
+      "death": 1294,
+      "deathAccuracy": "exact",
+      "title": "元世祖，灭宋建元的大汗",
+      "bio": "拖雷次子，1260年即汗位，建元中统，定都燕京。襄阳围六年而克，伯颜下临安，崖山灭宋，混一天下。至元三十一年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

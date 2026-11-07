@@ -1,0 +1,379 @@
+{
+  "id": "liu-bei",
+  "name": "刘备",
+  "display": "汉昭烈帝刘备",
+  "birth": 161,
+  "birthAccuracy": "exact",
+  "death": 223,
+  "deathAccuracy": "exact",
+  "title": "蜀汉先主，织席贩履而起",
+  "bio": "涿郡涿人，中山靖王之后，少孤，与母贩履织席。起兵讨黄巾，历依公孙瓒、陶谦、曹操、袁绍、刘表，赤壁后据荆州，西取益州，遂有汉中。章武元年称帝，三年败于猇亭，崩于白帝城永安宫，年六十三。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "liu-bei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "煮酒论英雄，终成鼎足"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "zhuge-liang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 207,
+      "notes": [
+        "三顾茅庐，托孤白帝"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "guan-yu",
+      "target": "liu-bei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "义兄弟"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "zhang-fei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "义兄弟"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "liu-shan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "lu-xun",
+      "type": "rival",
+      "directed": false,
+      "since": 222,
+      "notes": [
+        "夷陵火烧连营"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "xu-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 207,
+      "notes": [
+        "建安十二年备屯新野，庶往见而见器重；十三年长坂之别，以母辞备北归"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "zhao-yun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "长坂救阿斗，号虎威将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "ma-chao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "潼关败后归刘备，为骠骑将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "huang-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "定军山斩夏侯渊，为后将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "wei-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以部曲随刘备入蜀，镇汉中"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "pang-tong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "号凤雏，劝刘备取益州，中流矢卒"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "fa-zheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备取蜀之谋主，为蜀郡太守"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "xu-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备定蜀，法正劝厚待之，章武元年拜司徒"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "liu-ba",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备定蜀，辟为左将军西曹掾"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "li-yan-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备托孤，与诸葛亮并受遗诏"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "huang-quan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "蜀将，夷陵败后降魏"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "wang-ping",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "蜀将，街亭谏马谡"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "ma-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备称为贤才，后为庲降都督"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "shu-mu-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻；刘备定蜀后聘为夫人，章武元年立为皇后"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "liu-bei",
+      "target": "liu-biao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "刘备依附荆州，表以上宾之礼"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "gongsun-zan",
+      "target": "liu-bei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "刘备少时与瓒同师卢植，后依瓒"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "tao-qian",
+      "target": "liu-bei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "徐州牧，表刘备为豫州刺史，临终让徐州"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baidi-tuogu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "changban-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "chibi-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "hanzhong-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "liubei-chengdi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiangshui-huajie",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yiling-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yizhou-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘备",
+    "刘玄德",
+    "汉昭烈帝"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·先主传",
+      "kind": "classic"
+    }
+  ]
+}

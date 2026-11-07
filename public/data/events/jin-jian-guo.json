@@ -1,0 +1,108 @@
+{
+  "id": "jin-jian-guo",
+  "name": "司马炎代魏建晋",
+  "display": "司马炎代魏建晋",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 265,
+  "yearAccuracy": "exact",
+  "yearNote": "《晋书·武帝纪》：泰始元年（即咸熙二年）冬十二月丙寅设坛南郊、升坛受禅。按中国纪年口径为 265 年（泰始元年，本地原典旁注亦作 265 年），换算儒略历为 266 年 2 月 8 日。year 取中国纪年口径 265，与 run 窗口「西晋 265–316」一致；approval gate 如统一取公历口径可改 266。",
+  "place": "洛阳",
+  "placeNow": "今河南洛阳",
+  "polity": [
+    "wei",
+    "jin"
+  ],
+  "people": [
+    "sima-yan",
+    "sima-zhao"
+  ],
+  "result": "曹魏禅让，司马炎即皇帝位，国号晋，改元泰始，定都洛阳；西晋开始",
+  "aliases": [
+    "晋朝建立",
+    "西晋建立",
+    "司马炎受禅",
+    "晋武帝代魏"
+  ],
+  "tags": [
+    "dynasty-change",
+    "abdication",
+    "usurpation"
+  ],
+  "dynasties": [
+    "three-kingdoms",
+    "western-jin"
+  ],
+  "desc": "咸熙二年十二月丙寅（266 年 2 月 8 日，时纪年已改泰始元年），晋王司马炎效尧舜禅让故事，设坛于洛阳南郊，接受魏元帝曹奂禅让称帝，国号晋，改元泰始；曹奂降封陈留王。曹魏亡，西晋立；280 年灭吴后汉末以来的分裂局面重归统一。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷三·帝纪第三",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-yan",
+      "name": "司马炎",
+      "display": "晋武帝司马炎",
+      "birth": 236,
+      "birthAccuracy": "exact",
+      "death": 290,
+      "deathAccuracy": "exact",
+      "title": "晋武帝，受魏禅，灭吴一天下",
+      "bio": "司马昭长子。咸熙二年受魏禅，改元泰始，都洛阳。太康元年灭吴，三国归晋，天下户二百四十五万。罢州郡兵，大封宗室，晚年骄怠，贾后与外戚之祸伏于此。太熙元年崩，年五十五。",
+      "tags": [
+        "三国",
+        "西晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei",
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-zhao",
+      "name": "司马昭",
+      "display": "司马昭",
+      "birth": 211,
+      "birthAccuracy": "exact",
+      "death": 265,
+      "deathAccuracy": "exact",
+      "title": "晋王，弑高贵乡公，灭蜀",
+      "bio": "司马懿次子。继兄专魏政，甘露五年曹髦率兵攻之，贾充使成济抽戈犯跸，髦崩于车下。景元四年遣钟会、邓艾伐蜀，刘禅出降，遂封晋王。咸熙二年薨，年五十五；子炎遂代魏。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "monarch",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

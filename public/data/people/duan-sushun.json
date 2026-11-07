@@ -1,0 +1,56 @@
+{
+  "id": "duan-sushun",
+  "name": "段素顺",
+  "display": "段素顺",
+  "birthAccuracy": "unknown",
+  "death": 985,
+  "deathAccuracy": "approx",
+  "deathNote": "在位十七年而卒，卒年约系在位终止之年；生年无载。",
+  "title": "石城会盟，与宋初相终始",
+  "bio": "思聪之子，嗣立。开宝四年（971）与滇东三十七部会盟于石城，碑今存曲靖，大理与诸部之约自此益固。979 年宋平北汉，海内归一之局既成，大理独存于西南，不朝不通兵，与宋初相终始。",
+  "tags": [
+    "云南",
+    "大理"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "dali"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "yunnan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "duan-sicong",
+      "target": "duan-sushun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；段思聪卒，段素顺继为大理王"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "南诏野史",
+      "part": "大理国",
+      "kind": "classic"
+    }
+  ]
+}

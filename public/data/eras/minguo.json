@@ -1,0 +1,280 @@
+{
+  "id": "minguo",
+  "name": "民国",
+  "from": 1912,
+  "to": 1949,
+  "contractVersion": 1,
+  "group": "minguo",
+  "personCount": 0,
+  "eventCount": 34,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "qingdi-tuiwei",
+      "name": "清帝逊位",
+      "display": "清帝逊位",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1912,
+      "yearAccuracy": "approx",
+      "yearNote": "宣统三年十二月诏书遂逊位。十二月已入1912。",
+      "polity": [
+        "qing"
+      ],
+      "people": [
+        "xuan-tong",
+        "yuan-shikai"
+      ],
+      "result": "清帝遂逊位",
+      "aliases": [
+        "清帝退位"
+      ],
+      "dynasties": [
+        "qing",
+        "minguo"
+      ],
+      "desc": "宣统三年十二月，诏书称皇帝但卸政权，不废尊号，遂逊位。同月皇太后懿旨以袁世凯公忠体国，封一等侯。帝制政权在这道诏书里卸下。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷二十五",
+          "note": "皇帝但卸政權，不廢尊號",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷二十五",
+          "note": "遂遜位",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷二十五",
+          "note": "皇太后懿旨，以袁世凱公忠體國，封一等侯爵",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhonghua-minguo-chengli",
+      "name": "中华民国临时政府成立",
+      "display": "中华民国成立",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1912,
+      "yearAccuracy": "exact",
+      "yearNote": "公元1912年1月1日孙中山在南京就任中华民国临时大总统，临时政府成立，改用阳历。",
+      "place": "南京",
+      "placeNow": "今江苏南京",
+      "polity": [
+        "minguo"
+      ],
+      "people": [
+        "yuan-shikai"
+      ],
+      "result": "中华民国成立于南京，两千余年帝制告终",
+      "aliases": [
+        "中华民国成立",
+        "南京临时政府",
+        "民国肇建"
+      ],
+      "dynasties": [
+        "qing",
+        "minguo"
+      ],
+      "desc": "公元1912年1月1日，孙中山在南京就任中华民国临时大总统，中华民国临时政府成立，是年改用阳历。各省都督府代表与临时参议院先后运作，3月11日中华民国临时约法公布。2月12日清帝逊位，2月15日参议院选袁世凯为临时大总统，3月10日袁世凯在北京就职，4月临时政府迁北京。政体由帝制转入共和，是近代中国的第一个拐点。孙中山、黄兴、宋教仁未入人物库，本条不设其人物引用；袁世凯由清入民国，已在人物库中，故列于 people。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1912年1月1日",
+          "note": "孙中山在南京就任中华民国临时大总统，中华民国成立",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "中华民国建立相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "hongxian-dizhi",
+      "name": "洪宪帝制",
+      "display": "洪宪帝制",
+      "kind": "span",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1915,
+      "yearAccuracy": "exact",
+      "yearNote": "1915年12月袁世凯下令以1916年为洪宪元年，1916年3月22日取消帝制；称帝与取消帝制的具体日期为通史口径，《中国大百科全书》条目元数据仅见1915年",
+      "endYear": 1916,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "minguo"
+      ],
+      "people": [
+        "yuan-shikai"
+      ],
+      "result": "帝制失败，共和政体名义恢复，中央权威崩解进入军阀时期",
+      "aliases": [
+        "袁世凯称帝",
+        "护国运动之帝制"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1915年12月，袁世凯下令以1916年为洪宪元年，帝制自为。1916年3月22日，帝制取消。帝制失败后，共和政体名义恢复，中央权威崩解，中国进入军阀时期。",
+      "sources": [
+        {
+          "work": "中国大百科全书（第三版网络版）",
+          "part": "条目「洪宪帝制」",
+          "kind": "modern"
+        },
+        {
+          "work": "The Cambridge History of China, Vol.12 Part 1",
+          "part": "Ch.4 Politics in the aftermath of revolution, pp.208-255",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "xinwenhua-yundong",
+      "name": "新文化运动",
+      "display": "新文化运动",
+      "kind": "span",
+      "type": "cultural",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1915,
+      "yearAccuracy": "exact",
+      "yearNote": "1915年9月陈独秀在上海创青年杂志，后改名新青年，运动以民主与科学为口号。",
+      "endYear": 1923,
+      "endYearAccuracy": "approx",
+      "endYearNote": "终止年代无定说，一说五四以后转入政治运动，一说以1923年人生观论战为收束。",
+      "place": "北京",
+      "placeNow": "今北京",
+      "polity": [
+        "minguo"
+      ],
+      "result": "文学革命与思想启蒙，为马克思主义传播开门",
+      "aliases": [
+        "文学革命"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1915年9月，陈独秀在上海创青年杂志，后改名新青年，主张文学革命与思想革新。1917年，胡适、陈独秀先后倡文学改良与文学革命，白话文进入报刊与教科书；蔡元培主北京大学，兼容并包，独秀、适之、李大钊、鲁迅、钱玄同诸人聚于一地。五四之后，十月革命的消息传入，新文化运动由启蒙转向社会改造与主义之争。1923年人生观论战之后，运动大抵收束。此一段的思想解放，直接准备了中国的政党政治与马克思主义传播。陈独秀、胡适、鲁迅、李大钊、蔡元培未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1915年9月15日",
+          "note": "陈独秀在上海创青年杂志，后改名新青年",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "新文化运动相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "wusi-yundong",
+      "name": "五四运动",
+      "display": "五四运动",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1919,
+      "yearAccuracy": "exact",
+      "yearNote": "1919年5月4日北京学生游行示威，6月28日中国代表拒签凡尔赛和约。",
+      "place": "北京",
+      "placeNow": "今北京",
+      "polity": [
+        "minguo"
+      ],
+      "result": "拒签和约，曹汝霖、陆宗舆等免职",
+      "aliases": [
+        "五四爱国运动"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1919年，巴黎和会讨论山东问题，列强把德国在山东的权益交日本。5月4日，北京学生集会游行，火烧赵家楼，要求拒签和约、惩办国贼，北洋政府捕去数十人。6月3日以后上海等地罢工罢市响应，运动由学生扩于工商界。6月10日曹汝霖、章宗祥、陆宗舆免职，6月28日中国代表团拒签凡尔赛和约。五四以后，新思潮与救国、改造社会的议题合流，中国革命的知识基础与组织结构都因此改变。陈独秀、李大钊、胡适、傅斯年未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中华民国史事日志",
+          "part": "1919年5月4日",
+          "note": "北京学生集会游行，拒签和约之议始于此时",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "五四运动相关章节",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "gongchandang-chengli",
+      "name": "中国共产党成立",
+      "display": "中国共产党成立",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1921,
+      "yearAccuracy": "exact",
+      "yearNote": "1921年7月23日第一次全国代表大会在上海开幕，末次会议移至浙江嘉兴南湖；7月1日系后来确定的建党纪念日。",
+      "place": "上海",
+      "placeNow": "今上海",
+      "polity": [
+        "minguo"
+      ],
+      "result": "中国共产党成立，中国革命有了新纲领",
+      "aliases": [
+        "中共一大",
+        "中国共产党第一次全国代表大会"
+      ],
+      "dynasties": [
+        "minguo"
+      ],
+      "desc": "1921年7月23日，中国共产党第一次全国代表大会在上海开幕，代表全国五十余名党员，会议因租界巡捕搜查移至浙江嘉兴南湖的游船闭幕。大会通过党纲与决议，确定党的名称为中国共产党，推举领导机构。其成立在五四之后、在马克思主义与工人运动结合之后，是当时各派救国方案里最有组织的一支。7月1日系后来确定的建党纪念日，与大会实际会期不同。陈独秀、李大钊、毛泽东未入人物库，本条不设人物引用。",
+      "sources": [
+        {
+          "work": "中国共产党历史",
+          "part": "第一卷（1921—1949）中国共产党成立相关章节",
+          "kind": "modern"
+        },
+        {
+          "work": "中华民国史",
+          "part": "中国共产党成立相关章节",
+          "kind": "modern"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

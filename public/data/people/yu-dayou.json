@@ -1,0 +1,66 @@
+{
+  "id": "yu-dayou",
+  "name": "俞大猷",
+  "display": "俞大猷",
+  "birth": 1503,
+  "birthAccuracy": "exact",
+  "death": 1580,
+  "deathAccuracy": "exact",
+  "title": "俞家军，与戚齐名",
+  "bio": "字志辅，福建晋江人。善舟师与阵法，转战东南，抗倭之功与戚继光相亚，时称俞龙戚虎；老而不衰，1580 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-zongxian",
+      "target": "yu-dayou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "幕府用之，俞家军屡立水战之功"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "qi-jiguang",
+      "target": "yu-dayou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为抗倭名将，时称俞龙戚虎"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "俞大猷传",
+      "kind": "classic"
+    }
+  ]
+}

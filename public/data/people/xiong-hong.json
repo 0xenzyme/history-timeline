@@ -1,0 +1,69 @@
+{
+  "id": "xiong-hong",
+  "name": "熊挚红",
+  "display": "楚鄂王",
+  "birthAccuracy": "unknown",
+  "death": -847,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。挚红卒，其弟弑而代立曰熊延；熊勇元年当 -846，挚红卒取前一年为下限。",
+  "title": "楚鄂王",
+  "bio": "熊渠中子。夷王时立为鄂王。熊渠卒，挚红立；卒，其弟弑而代立曰熊延。",
+  "tags": [
+    "楚"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-hong",
+      "target": "xiong-qu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。立中子红为鄂王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-hong",
+      "target": "xiong-yan-yan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "挚红卒，其弟弑而代立曰熊延"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "鄂王",
+    "熊挚红"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

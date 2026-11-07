@@ -1,0 +1,66 @@
+{
+  "id": "su-song",
+  "name": "苏颂",
+  "display": "苏颂",
+  "birth": 1020,
+  "birthAccuracy": "exact",
+  "death": 1101,
+  "deathAccuracy": "exact",
+  "title": "元祐宰相，造水运仪象台",
+  "bio": "字子容，泉州南安人。举进士，历馆阁、州郡。元祐间拜尚书右仆射兼中书侍郎，为相。颂博学于书无所不读，尤明于制度、天文、历数、朝章典故。尝奉诏督造水运仪象台，以水激轮，浑仪、浑象、司辰合而为一，昼夜自运，其图文制度皆具载《新仪象法要》三卷，为今知最早之机械天文仪器记录。建中靖国元年卒，年八十二。",
+  "tags": [
+    "北宋",
+    "科学",
+    "天文"
+  ],
+  "categories": [
+    "science",
+    "astronomy"
+  ],
+  "primary": "science",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-zhen",
+      "target": "su-song",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元祐间拜尚书右仆射兼中书侍郎，为相；水运仪象台亦成于元祐"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "苏颂",
+    "苏子容"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "苏颂传",
+      "kind": "classic"
+    },
+    {
+      "work": "新仪象法要",
+      "part": "进仪象状",
+      "kind": "classic"
+    }
+  ]
+}

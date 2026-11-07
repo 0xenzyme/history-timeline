@@ -1,0 +1,32 @@
+{
+  "id": "yue-cheng",
+  "name": "乐乘",
+  "display": "乐乘",
+  "birthAccuracy": "unknown",
+  "death": -245,
+  "deathAccuracy": "approx",
+  "deathNote": "生卒不详，取前245年为活动年（非寿数）。据史记·廉颇蔺相如列传（raw/先秦-西汉/史記/卷081-廉頗藺相如列傳.md:52）「使樂乘代廉頗。廉頗怒，攻樂乘」。此句无绝对年，年份从台账。",
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "廉颇蔺相如列传",
+      "kind": "classic"
+    }
+  ]
+}

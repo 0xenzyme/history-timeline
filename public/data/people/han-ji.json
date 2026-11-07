@@ -1,0 +1,68 @@
+{
+  "id": "han-ji",
+  "name": "韩姞",
+  "display": "韩姞",
+  "birthAccuracy": "unknown",
+  "death": -824,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《韩奕》韩侯所娶，竹书宣王四年韩侯来朝，取此年为可见下限。",
+  "title": "韩侯夫人",
+  "bio": "《韩奕》韩侯取妻，汾王之甥，蹶父之子韩姞。",
+  "tags": [
+    "韩"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-ji",
+      "target": "jue-fu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "han-hou",
+      "target": "han-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "韩姞"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "大雅·韩奕",
+      "kind": "classic"
+    }
+  ]
+}

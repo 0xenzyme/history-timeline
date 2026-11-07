@@ -1,0 +1,162 @@
+{
+  "id": "dao-guang",
+  "name": "旻宁",
+  "display": "道光",
+  "birth": 1782,
+  "birthAccuracy": "exact",
+  "death": 1850,
+  "deathAccuracy": "exact",
+  "title": "鸦片战火开国门",
+  "bio": "嘉庆次子，在位节俭而遇三千年未有之变局，鸦片战争战败，签南京条约。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dao-guang",
+      "target": "lin-zexu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "任为钦差，赴粤禁烟"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "jia-qing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，嘉庆传道光"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "xian-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，道光传咸丰"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "xiao-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后，文宗生母。道光二十年正月崩"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "chen-huacheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "江南提督。道光二十二年五月守吴淞，中弹死"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "mu-zhang-a",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "久任军机，门生故吏遍于朝列"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "guan-tianpei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "广东水师提督，虎门炮台陷而力战死"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "xiao-he-rui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "继母，仁宗暴崩热河，她传旨定宣宗嗣位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baimen-heyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yapian-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhanggeer-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "旻宁",
+    "清宣宗",
+    "道光"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "宣宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

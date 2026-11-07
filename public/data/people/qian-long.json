@@ -1,0 +1,234 @@
+{
+  "id": "qian-long",
+  "name": "弘历",
+  "display": "乾隆",
+  "birth": 1711,
+  "birthAccuracy": "exact",
+  "death": 1799,
+  "deathAccuracy": "exact",
+  "title": "十全武功",
+  "bio": "雍正第四子，在位六十年，自称十全老人；武功极盛而晚年宠和珅，盛世转衰。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qian-long",
+      "target": "he-shen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晚年宠信和珅，权倾朝野"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "jia-qing",
+      "target": "qian-long",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，乾隆传嘉庆"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "xiao-sheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。康熙五十年生高宗，后以皇太后养于慈宁宫"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "xiao-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。乾隆十三年东巡还，崩于德州舟次"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "e-er-tai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世宗顾命大臣，高宗初为军机大臣"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "fu-heng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "军机大臣。乾隆三十三年自请经略征缅"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "liu-tongxun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾隆二十六年拜东阁大学士，三十八年卒于入朝途中"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "a-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武英殿大学士，定金川、定伊犁、征缅甸皆总其师"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "cao-xueqin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹氏自康熙朝三世为江宁织造，雍正朝抄家败落；雪芹生于乾隆初"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "yu-minzhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "状元入军机，傅恒之后领班"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "fu-kang-an",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "领班军机大臣八年"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ga-er-dan",
+      "target": "qian-long",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "准噶尔东犯，三驾亲征与乌兰布通之役"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "daxiaojinchuan-zhizhi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "magani-shituan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "siku-quanshu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tulhute-guifu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wenziyu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhehai-jinbo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhungeer-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "弘历",
+    "清高宗",
+    "乾隆"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "高宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

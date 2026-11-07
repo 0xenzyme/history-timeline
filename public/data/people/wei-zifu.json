@@ -1,0 +1,108 @@
+{
+  "id": "wei-zifu",
+  "name": "卫子夫",
+  "display": "孝武卫皇后",
+  "birthAccuracy": "unknown",
+  "death": -91,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "汉武帝第二任皇后",
+  "bio": "出身平阳侯府歌女，弟卫青、甥霍去病皆以军功显。巫蛊之祸中太子刘据起兵失败，她以皇后玺绶助子，事败自杀。",
+  "tags": [
+    "巫蛊之祸"
+  ],
+  "categories": [
+    "consort-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wei-qing",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姐弟"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-qubing",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姨甥"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ju",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子；巫蛊之祸中母子俱亡"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "gongsun-he",
+      "target": "wei-zifu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "妻卫君孺为卫皇后长姊"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wugu-zhihuo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "外戚世家",
+      "kind": "classic"
+    }
+  ]
+}

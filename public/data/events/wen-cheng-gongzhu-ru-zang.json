@@ -1,0 +1,148 @@
+{
+  "id": "wen-cheng-gongzhu-ru-zang",
+  "name": "文成公主入藏",
+  "display": "文成公主入藏",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 641,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang",
+    "tubo"
+  ],
+  "people": [
+    "wen-cheng-gongzhu",
+    "li-shimin",
+    "li-dao-zong",
+    "songzan-ganbu"
+  ],
+  "result": "唐蕃和亲，甥舅名分与近两百年交往框架自此确立",
+  "aliases": [
+    "文成公主和亲"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "贞观十五年（641），唐太宗以文成公主妻吐蕃赞普松赞干布，礼部尚书、江夏王李道宗主婚，持节送亲入蕃。和亲之后唐蕃以甥舅相称，使问往来与会盟立碑的制度性交往延续近两百年，唐蕃关系的基本名分由此确立。陪嫁的工艺、佛经与种子对吐蕃社会的影响属长期过程，不在本实体中铺陈。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "吐蕃传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一百九十六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wen-cheng-gongzhu",
+      "name": "文成公主",
+      "display": "文成公主",
+      "birthAccuracy": "unknown",
+      "death": 680,
+      "deathAccuracy": "exact",
+      "title": "唐宗室女，贞观十五年入藏和亲",
+      "bio": "唐宗室女。贞观十五年，太宗以为文成公主，妻吐蕃赞普松赞干布，礼部尚书、江夏王李道宗主婚，持节送于吐蕃。赞普于柏海亲迎，为筑城邑以居之。自贞观十五年至永隆元年，居吐蕃三十九年；松赞干布卒后寡居，唐蕃使问相继，甥舅之称自此始。永隆元年病逝于逻些，唐遣使吊祭。",
+      "tags": [
+        "唐",
+        "吐蕃"
+      ],
+      "categories": [
+        "royal-kin",
+        "consort"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "tang",
+        "tubo"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "li-shimin",
+      "name": "李世民",
+      "display": "唐太宗李世民",
+      "birth": 598,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "唐太宗，天可汗，贞观之治",
+      "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-dao-zong",
+      "name": "李道宗",
+      "display": "李道宗",
+      "birth": 600,
+      "birthAccuracy": "exact",
+      "death": 653,
+      "deathAccuracy": "exact",
+      "title": "宗室名将，江夏王，送文成公主入蕃",
+      "bio": "字承范，高祖从子，陇西成纪人。从李孝恭平萧铣，又从侯君集击吐谷浑，破伏允，积功封江夏王。贞观中为礼部尚书，十五年持节送文成公主入吐蕃，赞普亲迎于柏海。永徽四年，坐房遗爱案，流象州，道卒。",
+      "tags": [
+        "唐",
+        "宗室"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "songzan-ganbu",
+      "name": "松赞干布",
+      "display": "松赞干布",
+      "birthAccuracy": "unknown",
+      "death": 650,
+      "deathAccuracy": "exact",
+      "title": "吐蕃赞普，统一高原，迎文成公主",
+      "bio": "吐蕃赞普，年十三嗣位，平定内乱，迁都逻些，定官制、立法度、创文字，高原诸部遂为一国。贞观八年遣使入唐求婚，十五年太宗以文成公主妻之，筑布达拉宫于红山。唐蕃自此甥舅相称，会盟立碑。永徽元年卒，唐遣使吊祭。",
+      "tags": [
+        "唐",
+        "吐蕃",
+        "和亲"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tubo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

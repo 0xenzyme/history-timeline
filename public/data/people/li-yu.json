@@ -1,0 +1,185 @@
+{
+  "id": "li-yu",
+  "name": "李豫",
+  "display": "唐代宗李豫",
+  "birth": 726,
+  "birthAccuracy": "exact",
+  "death": 779,
+  "deathAccuracy": "exact",
+  "title": "安史之乱后中兴之主",
+  "bio": "肃宗长子，宝应元年即位。任用郭子仪等平安史余孽，藩镇之势自此成；崇奉释道，河朔渐离。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-heng",
+      "target": "li-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，肃宗传代宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-song",
+      "target": "li-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，代宗传顺宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "tian-cheng-si",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "大历中魏博不奉诏"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以适代崔光远为西川节度，永泰元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "wei-jian-su",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载754至757年在任，宝应元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "cui-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃宗朝为相，大历三年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "miao-jin-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃代朝为相，永泰元年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "pei-zun-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，大历十年薨于位"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "yuan-zai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，大历十二年赐自尽"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "du-hong-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，大历四年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-yu",
+      "target": "fang-guan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃宗朝为相，广德元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "tubo-ru-changan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李豫",
+    "唐代宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "代宗纪",
+      "kind": "classic"
+    }
+  ]
+}

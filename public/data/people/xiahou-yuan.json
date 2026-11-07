@@ -1,0 +1,77 @@
+{
+  "id": "xiahou-yuan",
+  "name": "夏侯渊",
+  "display": "夏侯渊",
+  "birthAccuracy": "unknown",
+  "death": 219,
+  "deathAccuracy": "exact",
+  "title": "魏征西将军，定军山阵殁",
+  "bio": "沛国谯人，字妙才，夏侯惇族弟。以急行军见长，军中语「三日五百，六日一千」；讨灭陇右叛乱，都督汉中；建安二十四年定军山之役，为刘备将黄忠所斩，谥愍侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "xiahou-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操起兵即从，镇汉中，定军山为黄忠所斩"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "xiahou-shang",
+      "target": "xiahou-yuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄；夏侯渊从子，魏文帝时为征南大将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hanzhong-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "夏侯渊",
+    "夏侯妙才"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·诸夏侯曹传",
+      "kind": "classic"
+    }
+  ]
+}

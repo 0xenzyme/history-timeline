@@ -1,0 +1,132 @@
+{
+  "id": "zhu-wen",
+  "name": "朱温",
+  "display": "朱温",
+  "birth": 852,
+  "birthAccuracy": "exact",
+  "death": 912,
+  "deathAccuracy": "exact",
+  "title": "后梁太祖，本黄巢将，代唐而建梁",
+  "bio": "宋州砀山午沟里人，父诚为经学教授。少孤贫，佣食萧县，后从黄巢，巢势衰遂降唐，赐名全忠，为宣武节度使，据汴州。天祐元年挟昭宗迁洛，弑之而立哀帝，四年受禅，国号梁，改名晃。既而猜忌日甚，乾化二年为其子友珪所弑于寝殿，年六十一。唐祚二百八十九年，亡于其手。",
+  "tags": [
+    "唐",
+    "五代",
+    "亡唐"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "tang",
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    },
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huang-chao",
+      "target": "zhu-wen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "黄巢部将朱温降唐，后篡唐"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-chu",
+      "target": "zhu-wen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "朱温逼迁昭宗，篡唐建梁，寻鸩杀哀帝"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "zhu-wen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "沙陀李克用与朱温世仇，梁晋相争",
+        "上源驿之祸，梁晋世仇"
+      ],
+      "topicIds": [
+        "tang",
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhu-wen",
+      "target": "zhu-yougui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，寝殿之变所由生"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baima-yi-zhi-huo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huangchao-zhi-luan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liangjin-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhu-yougui-shibi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "朱温",
+    "朱全忠",
+    "朱晃",
+    "后梁太祖"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "梁书·太祖纪",
+      "kind": "classic"
+    }
+  ]
+}

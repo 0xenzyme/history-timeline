@@ -1,0 +1,152 @@
+{
+  "id": "taiping-qiyi",
+  "name": "金田起事",
+  "display": "金田起事",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 1850,
+  "yearAccuracy": "exact",
+  "yearNote": "道光三十年金田起事，同治三年克复江宁。",
+  "endYear": 1864,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "hong-xiuquan",
+    "li-xiu-cheng",
+    "xian-feng",
+    "tong-zhi"
+  ],
+  "result": "克复江宁，江南平",
+  "aliases": [
+    "太平天国"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "道光三十年，洪秀全在广西桂平县金田起事。同治三年官军克复江宁，洪秀全先自尽，李秀成被获，江南平。长江下游的对立政权到这一年结束。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十",
+      "note": "廣東花縣人洪秀全在廣西桂平縣金田起事",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十一",
+      "note": "官軍克復江寧，洪秀全先自盡，其子福瑱遁，獲賊酋洪仁達、李秀成，江南平",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hong-xiuquan",
+      "name": "洪秀全",
+      "display": "洪秀全",
+      "birth": 1814,
+      "birthAccuracy": "exact",
+      "death": 1864,
+      "deathAccuracy": "exact",
+      "title": "太平天国",
+      "bio": "科举失意而创拜上帝会，1851 年建太平天国，席卷半壁，1864 年天京陷身死。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "rebel",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-xiu-cheng",
+      "name": "李秀成",
+      "display": "李秀成",
+      "birth": 1823,
+      "birthAccuracy": "exact",
+      "death": 1864,
+      "deathAccuracy": "exact",
+      "deathNote": "天京陷后护幼主出城，被执，作供词数万言而就义。",
+      "title": "忠王，后期之支柱",
+      "bio": "广西藤县人，太平军后期支柱，封忠王，二破江北大营而经营苏福省。1864 年天京陷，护幼主出城被俘，供词数万言，就义于南京。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xian-feng",
+      "name": "奕詝",
+      "display": "咸丰",
+      "birth": 1831,
+      "birthAccuracy": "exact",
+      "death": 1861,
+      "deathAccuracy": "exact",
+      "title": "内忧外患",
+      "bio": "道光第四子，在位遭太平天国、第二次鸦片战争，英法联军火烧圆明园。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tong-zhi",
+      "name": "载淳",
+      "display": "同治",
+      "birth": 1856,
+      "birthAccuracy": "exact",
+      "death": 1875,
+      "deathAccuracy": "exact",
+      "title": "两宫垂帘，同治中兴",
+      "bio": "咸丰长子，冲龄即位，慈禧、慈安两宫垂帘。用曾左李平太平、捻回，号为中兴；亲政未久而崩，无嗣。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

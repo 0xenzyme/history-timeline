@@ -1,0 +1,162 @@
+{
+  "id": "xiapi-zhizhan",
+  "name": "下邳之战",
+  "display": "下邳之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 198,
+  "yearAccuracy": "exact",
+  "yearNote": "三国志·魏书·武帝纪系建安三年（198）：九月东征、冬十月围下邳、决泗沂灌城，月余城破；通鉴卷62系白门楼于建安三年十二月癸酉。公历换算城破或入199年初，年份取198。",
+  "place": "下邳",
+  "placeNow": "今江苏邳州南",
+  "belligerents": [
+    "wei",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "cao-cao",
+      "side": "wei"
+    },
+    {
+      "id": "lv-bu",
+      "side": "minbian"
+    }
+  ],
+  "people": [
+    "cao-cao",
+    "lv-bu",
+    "guan-yu",
+    "zhang-liao"
+  ],
+  "result": "曹操决泗沂灌城围下邳月余，吕布部将缚陈宫出降，吕布登白门楼出降被缢杀；曹操并徐州、收张辽，关羽被俘归曹",
+  "aliases": [
+    "白门楼",
+    "曹操擒吕布"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "198 年九月曹操东征吕布，冬十月围下邳，决泗、沂水灌城。围城月余，吕布部将缚陈宫出降，吕布缢杀于白门楼；曹操并徐州、收张辽，关羽被俘归曹。吕布势力覆灭，曹操消除官渡之战前的东线之患。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-bu",
+      "name": "吕布",
+      "display": "吕布",
+      "birthAccuracy": "unknown",
+      "death": 199,
+      "deathAccuracy": "exact",
+      "title": "左将军，辕门射戟，白门楼被缢",
+      "bio": "五原九原人，便弓马，膂力过人，号为飞将。初事丁原而杀之归董卓，又与王允谋诛卓。辕门射戟解刘备之围，旋夺徐州。建安三年曹操围下邳，布为部下所执，请为操将，刘备一言而缢之于白门楼。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guan-yu",
+      "name": "关羽",
+      "display": "关羽",
+      "birthAccuracy": "unknown",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "汉寿亭侯，水淹七军而走麦城",
+      "bio": "河东解人，亡命奔涿郡。与刘备、张飞寝则同床，恩若兄弟。白马之围刺颜良于万众之中，遂解围。镇荆州，建安二十四年攻樊城，水淹七军，威震华夏；旋为吕蒙所袭，败走麦城，与其子平俱被斩。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-liao",
+      "name": "张辽",
+      "display": "张辽",
+      "birth": 169,
+      "birthAccuracy": "exact",
+      "death": 222,
+      "deathAccuracy": "exact",
+      "title": "魏征东将军，逍遥津八百破十万",
+      "bio": "雁门马邑人，本聂壹之后，避怨改姓。历事丁原、董卓、吕布，后归曹操。建安二十年守合肥，率八百死士直冲孙权大军，几获权，江东小儿闻其名不敢夜啼。黄初三年卒于江都，年五十四。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

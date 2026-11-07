@@ -1,0 +1,55 @@
+{
+  "id": "dai-zhide",
+  "name": "戴至德",
+  "display": "戴至德",
+  "birthAccuracy": "unknown",
+  "death": 679,
+  "deathAccuracy": "exact",
+  "deathNote": "调露元年正月薨。",
+  "title": "高宗宰相",
+  "bio": "乾封二年同东西台三品，后为右仆射。调露元年正月薨。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "dai-zhide",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾封二年同三品，调露元年正月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "新唐书",
+      "part": "宰相表上",
+      "kind": "classic"
+    }
+  ]
+}

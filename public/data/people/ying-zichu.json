@@ -1,0 +1,77 @@
+{
+  "id": "ying-zichu",
+  "name": "嬴子楚",
+  "display": "秦庄襄王",
+  "birth": -281,
+  "birthAccuracy": "approx",
+  "death": -247,
+  "deathAccuracy": "exact",
+  "birthNote": "《秦本纪》索隐：三十二而立，立三年卒。前 249 年即位，据此推算生于前 281 年前后。",
+  "title": "秦王，灭东周，初置三川郡",
+  "bio": "孝文王之子，吕不韦所立。使蒙骜伐韩魏、定太原，秦界至大梁。条短，但填上昭襄王到政之间最后一段空白，灭东周也画在这一条上。",
+  "tags": [
+    "秦国",
+    "灭周"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-zhu",
+      "target": "ying-zichu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝文王即位三日而卒，子子楚立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "ying-zichu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "庄襄王三年卒，子政立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "秦庄襄王",
+    "异人",
+    "子楚"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "吕不韦列传",
+      "kind": "classic"
+    }
+  ]
+}

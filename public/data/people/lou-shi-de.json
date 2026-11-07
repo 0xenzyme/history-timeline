@@ -1,0 +1,58 @@
+{
+  "id": "lou-shi-de",
+  "name": "娄师德",
+  "display": "娄师德",
+  "birthAccuracy": "unknown",
+  "death": 699,
+  "deathAccuracy": "exact",
+  "title": "圣历二年卒",
+  "bio": "武周时为相，仍检校河西营田、天兵军大总管。圣历二年九月卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor",
+    "general"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wu-zetian",
+      "target": "lou-shi-de",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载693至699年在任，圣历二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "娄师德"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "娄师德传",
+      "kind": "classic"
+    }
+  ]
+}

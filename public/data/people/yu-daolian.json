@@ -1,0 +1,71 @@
+{
+  "id": "yu-daolian",
+  "name": "庾道怜",
+  "display": "废帝孝庾皇后",
+  "birthAccuracy": "unknown",
+  "death": 366,
+  "deathAccuracy": "disputed",
+  "birthNote": "传无岁数，不编生年。",
+  "deathNote": "传作「太和六年崩」；废帝纪系太和元年五月戊寅崩、七月癸酉葬敬平陵，通鉴卷一百一同系太和元年，从纪文系年，两说并注。",
+  "title": "废帝孝庾皇后，帝废之后追贬海西公夫人",
+  "bio": "颍川鄢陵人，庾冰之女。初为东海王妃，帝即位立为皇后。崩葬敬平陵；帝废为海西公，追贬后曰海西公夫人。太元十一年海西公薨于吴，又以后合葬于吴陵。崩年传作太和六年，纪与通鉴系太和元年，两证并存。",
+  "tags": [
+    "晋",
+    "东晋",
+    "颍川庾氏"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yi-haixi",
+      "target": "yu-daolian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "废帝皇后。帝废后追贬曰海西公夫人"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "庾道怜",
+    "孝皇后",
+    "废帝孝庾皇后"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "后妃传·废帝孝庾皇后",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "海西公纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一百一",
+      "kind": "classic"
+    }
+  ]
+}

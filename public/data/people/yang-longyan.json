@@ -1,0 +1,37 @@
+{
+  "id": "yang-longyan",
+  "name": "杨隆演",
+  "display": "吴宣帝杨隆演",
+  "birthAccuracy": "unknown",
+  "death": 920,
+  "deathAccuracy": "exact",
+  "deathNote": "新五代史·卷61 吴世家作「二年五月，隆演卒…年二十四，謚曰宣」（raw/五代/新五代史/卷61.md:71），武义二年即 920；台账以开平二年（908）即位年为锚，此处取卒年。",
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "shiguo"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷266·后梁纪一",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷61·吴世家第一",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "cao-ren",
+  "name": "曹仁",
+  "display": "曹仁",
+  "birthAccuracy": "unknown",
+  "death": 223,
+  "deathAccuracy": "exact",
+  "title": "魏大司马，守樊拒关羽",
+  "bio": "沛国谯人，字子孝，曹操从弟。从曹操起兵，以守御见长；樊城被关羽围困，激励将士坚守待援，徐晃至而围解；文帝时为大司马。黄初四年卒，谥忠侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "cao-ren",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操从弟，官至大司马，守樊城拒关羽"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caopi-fawu",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "fancheng-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "nanjun-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "shuiyan-qijun",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "曹仁",
+    "曹子孝"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·诸夏侯曹传",
+      "kind": "classic"
+    }
+  ]
+}

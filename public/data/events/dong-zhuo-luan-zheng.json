@@ -1,0 +1,183 @@
+{
+  "id": "dong-zhuo-luan-zheng",
+  "name": "董卓乱政与迁都",
+  "display": "董卓乱政与迁都",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 189,
+  "yearAccuracy": "exact",
+  "endYear": 192,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "he-jin",
+    "dong-zhuo",
+    "liu-bian",
+    "liu-xie-xiandi",
+    "wang-yun",
+    "lv-bu"
+  ],
+  "result": "董卓废立并迁都长安，洛阳焚毁，汉末军阀政治公开化",
+  "aliases": [
+    "dh-dongzhuo"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "189年何进召外兵诛宦官而死，董卓率军入洛阳，废少帝、立献帝并迁都长安。192年王允、吕布诛董卓，但中央权威已被军阀争夺取代。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "董卓列传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "he-jin",
+      "name": "何进",
+      "display": "何进",
+      "birthAccuracy": "unknown",
+      "death": 189,
+      "deathAccuracy": "exact",
+      "title": "大将军，谋诛宦官而召外兵",
+      "bio": "南阳宛人，屠羊出身，妹为灵帝皇后。灵帝崩，立少帝，与袁绍谋诛宦官，不听曹操之谏而召董卓入京。谋泄，为张让等斩于嘉德殿前。卓未至而京师已乱，东汉由此不可收拾。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "consort-kin",
+        "falling"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "dong-zhuo",
+      "name": "董卓",
+      "display": "董卓",
+      "birthAccuracy": "unknown",
+      "death": 192,
+      "deathAccuracy": "exact",
+      "title": "相国，废立天子，焚洛阳",
+      "bio": "陇西临洮人，以六郡良家子起。何进召之入京，遂废少帝立献帝，鸩何太后，焚烧洛阳，迁都长安，号为尚父。初平三年为王允、吕布所诛，暴尸于市，脐为灯。汉室的实亡画在这一条上。",
+      "tags": [
+        "东汉",
+        "军阀"
+      ],
+      "categories": [
+        "falling"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-bian",
+      "name": "刘辩",
+      "display": "汉少帝刘辩",
+      "birth": 176,
+      "birthAccuracy": "exact",
+      "death": 190,
+      "deathAccuracy": "exact",
+      "title": "东汉少帝，董卓废为弘农王",
+      "bio": "灵帝子。董卓废为弘农王，旋被鸩。少帝的条止于公元 190 年，献帝从这里接上。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-xie-xiandi",
+      "name": "刘协",
+      "display": "汉献帝",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "东汉献帝，禅于曹丕，青龙二年卒",
+      "bio": "董卓所立。延康元年禅于曹丕，帝位先断在公元 220 年。魏青龙二年卒，条收到公元 234 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-yun",
+      "name": "王允",
+      "display": "王允",
+      "birth": 137,
+      "birthAccuracy": "exact",
+      "death": 192,
+      "deathAccuracy": "exact",
+      "title": "司徒，连环之计诛董卓",
+      "bio": "太原祁人，少好大节，有名于州郡。因吕布而间董卓，初平三年于未央殿前诛之，遂录尚书事。既而性刚棱疾恶，不肯赦卓部曲，李傕、郭汜反攻长安，允被诛，汉廷再陷。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "scholar-official",
+        "falling"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-bu",
+      "name": "吕布",
+      "display": "吕布",
+      "birthAccuracy": "unknown",
+      "death": 199,
+      "deathAccuracy": "exact",
+      "title": "左将军，辕门射戟，白门楼被缢",
+      "bio": "五原九原人，便弓马，膂力过人，号为飞将。初事丁原而杀之归董卓，又与王允谋诛卓。辕门射戟解刘备之围，旋夺徐州。建安三年曹操围下邳，布为部下所执，请为操将，刘备一言而缢之于白门楼。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

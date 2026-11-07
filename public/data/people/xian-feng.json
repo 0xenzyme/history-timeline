@@ -1,0 +1,162 @@
+{
+  "id": "xian-feng",
+  "name": "奕詝",
+  "display": "咸丰",
+  "birth": 1831,
+  "birthAccuracy": "exact",
+  "death": 1861,
+  "deathAccuracy": "exact",
+  "title": "内忧外患",
+  "bio": "道光第四子，在位遭太平天国、第二次鸦片战争，英法联军火烧圆明园。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dao-guang",
+      "target": "xian-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，道光传咸丰"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "tong-zhi",
+      "target": "xian-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，咸丰传同治"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-an",
+      "target": "xian-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。文宗崩后称母后皇太后，与慈禧并垂帘"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xian-feng",
+      "target": "xiao-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，文宗生母，道光二十年崩"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xian-feng",
+      "target": "su-shun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顾命八大臣之首，赞襄政务而严于理财"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xian-feng",
+      "target": "seng-ge-lin-qin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "统满蒙马队，破太平军北伐之师于连镇"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xian-feng",
+      "target": "hu-lin-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "湖北巡抚，整饬吏治而裕湘军饷源"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "taiping-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tianjin-heyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xinyou-zhengbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yapian-zhanzheng-xianfeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zongliyamen-sheli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "奕詝",
+    "清文宗",
+    "咸丰"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "文宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

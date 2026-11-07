@@ -1,0 +1,62 @@
+{
+  "id": "wei-jie",
+  "name": "卫玠",
+  "display": "卫玠",
+  "birth": 286,
+  "birthAccuracy": "approx",
+  "death": 312,
+  "deathAccuracy": "exact",
+  "birthNote": "永嘉六年（312）卒，年二十七，虚岁上推生年。",
+  "title": "璧人渡江，看杀卫玠",
+  "bio": "字叔宝，河东安邑人，卫瓘之孙。风神秀异，总角乘羊车入市，见者皆以为玉人。善谈玄理，体素羸弱，母不恒听其语。以王敦好居物上恐非忠臣，求向建邺。京师人士闻其姿容，观者如堵，玠劳疾遂甚。永嘉六年卒，时年二十七，时人谓被看杀。",
+  "tags": [
+    "晋",
+    "西晋",
+    "名士"
+  ],
+  "categories": [
+    "metaphysics",
+    "gentry"
+  ],
+  "primary": "metaphysics",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "wen"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-guan",
+      "target": "wei-jie",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙。玠风神秀异，看杀卫玠"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "卫玠",
+    "卫叔宝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卫玠传",
+      "kind": "classic"
+    }
+  ]
+}

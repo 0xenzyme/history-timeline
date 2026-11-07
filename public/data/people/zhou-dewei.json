@@ -1,0 +1,89 @@
+{
+  "id": "zhou-dewei",
+  "name": "周德威",
+  "display": "周德威",
+  "birthAccuracy": "unknown",
+  "death": 926,
+  "deathAccuracy": "exact",
+  "title": "柏乡却梁，多计持重",
+  "bio": "朔州马邑人，事晋王为骑将，沉勇多计。柏乡之战以逸待劳破梁将王景仁，数谏庄宗缓河北之师。将二十年燕地之谋，胡柳之败几危晋阳。同光四年镇州兵变中为乱军所害。",
+  "tags": [
+    "五代",
+    "后唐"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-cunxu",
+      "target": "zhou-dewei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "柏乡却梁，唐之宿将"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baixiang-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "houdang-mie-yan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "huliubei-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "jiazhai-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "youzhou-baowei",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "周德威传",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "唐本纪",
+      "kind": "classic"
+    }
+  ]
+}

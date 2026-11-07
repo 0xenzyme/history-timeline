@@ -1,0 +1,81 @@
+{
+  "id": "yang-xiu-qing",
+  "name": "杨秀清",
+  "display": "杨秀清",
+  "birth": 1823,
+  "birthAccuracy": "exact",
+  "death": 1856,
+  "deathAccuracy": "exact",
+  "deathNote": "天京事变，韦昌辉夜攻东王府，秀清及其部众皆被杀。",
+  "title": "东王，总理天国军政",
+  "bio": "广西桂平人，耕山烧炭为业，托天父下凡之说起事。金田起事后封东王，节制诸王而总理军政，号令出于东府。1856 年逼封万岁，天京事变中为韦昌辉所杀。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "qing",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hong-xiuquan",
+      "target": "yang-xiu-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "封东王，节制诸王而总理天国军政"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "yang-xiu-qing",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "逼封万岁，天京事变中被杀"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "shi-da-kai",
+      "target": "yang-xiu-qing",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为金田首事诸王，天京事变后率部出走"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "洪秀全传",
+      "kind": "classic"
+    }
+  ]
+}

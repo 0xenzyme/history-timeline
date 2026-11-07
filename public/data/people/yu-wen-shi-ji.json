@@ -1,0 +1,57 @@
+{
+  "id": "yu-wen-shi-ji",
+  "name": "宇文士及",
+  "display": "宇文士及",
+  "birthAccuracy": "unknown",
+  "death": 642,
+  "deathAccuracy": "exact",
+  "title": "贞观十六年卒",
+  "bio": "武德八年权检校侍中。贞观十六年卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "yu-wen-shi-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武德末检校侍中，贞观十六年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "宇文士及"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "宇文士及传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "xu-jing",
+  "name": "许靖",
+  "display": "许靖",
+  "birthAccuracy": "unknown",
+  "death": 222,
+  "deathAccuracy": "exact",
+  "title": "蜀司徒，一时人望",
+  "bio": "汝南平舆人，字文休，许劭从兄。以臧否人物知名，避乱交州，后入蜀依刘璋；成都将破逾城出降，备薄其为人，法正劝厚待之；章武元年拜司徒，虽年逾七十，爱乐人物，诱纳后进。章武二年卒。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bei",
+      "target": "xu-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备定蜀，法正劝厚待之，章武元年拜司徒"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "许靖",
+    "许文休"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·许麋孙简伊秦传",
+      "kind": "classic"
+    }
+  ]
+}

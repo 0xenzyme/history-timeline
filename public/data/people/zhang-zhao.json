@@ -1,0 +1,72 @@
+{
+  "id": "zhang-zhao",
+  "name": "张昭",
+  "display": "张昭",
+  "birth": 156,
+  "birthAccuracy": "exact",
+  "death": 236,
+  "deathAccuracy": "exact",
+  "title": "辅吴将军，江东文臣之首",
+  "bio": "彭城人，少好学，博览众书。汉末避难江东，孙策以为长史、抚军中郎将，文武之事一以委之。策死，与周瑜共辅孙权。赤壁前主降，遂不得为相。性刚直，权尝以土塞其门，昭亦以土封其内。嘉禾五年卒，年八十一。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "official"
+  ],
+  "primary": "official",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "zhang-zhao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙策托孤，孙权尊为仲父"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sunce-ping-jiangdong",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sunquan-chengdi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "张昭",
+    "张子布"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·张顾诸葛步传",
+      "kind": "classic"
+    }
+  ]
+}

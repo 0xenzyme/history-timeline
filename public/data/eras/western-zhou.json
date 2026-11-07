@@ -1,0 +1,413 @@
+{
+  "id": "western-zhou",
+  "name": "西周",
+  "from": -1046,
+  "to": -771,
+  "contractVersion": 1,
+  "group": "pre-qin",
+  "personCount": 145,
+  "eventCount": 13,
+  "founderRecords": [],
+  "topics": [
+    "xizhou"
+  ],
+  "people": [
+    {
+      "id": "ji-hu",
+      "name": "姬胡",
+      "display": "周厉王",
+      "birthAccuracy": "unknown",
+      "death": -828,
+      "deathAccuracy": "exact",
+      "title": "西周夷王之子，共和行政前的周王",
+      "bio": "好专利，用荣夷公。国人谤王，召穆公谏而不听，前 841 年出奔于彘。共和十四年死于彘，太子静赖召公得免。",
+      "tags": [
+        "国人暴动",
+        "专利"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-jing",
+      "name": "姬静",
+      "display": "周宣王",
+      "birthAccuracy": "unknown",
+      "death": -782,
+      "deathAccuracy": "exact",
+      "title": "西周中兴之王，在位四十六年",
+      "bio": "厉王太子。国人暴动时匿于召公家。共和罢，即位。用仲山甫、尹吉甫，史称宣王中兴。即位不行籍田之礼；晚年千亩之战，王师败绩。",
+      "tags": [
+        "宣王中兴"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-gongsheng",
+      "name": "姬宫湦",
+      "display": "周幽王",
+      "birthAccuracy": "unknown",
+      "death": -771,
+      "deathAccuracy": "exact",
+      "title": "西周末代天子",
+      "bio": "宣王子。嬖褒姒、用虢石父，废申后与太子宜臼。前 771 年申侯联合犬戎破镐京，死于骊山，西周亡。",
+      "tags": [
+        "镐京陷落"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-yijiu",
+      "name": "姬宜臼",
+      "display": "周平王",
+      "birthAccuracy": "unknown",
+      "death": -720,
+      "deathAccuracy": "exact",
+      "title": "东周第一位天子",
+      "bio": "幽王太子，申后所生。被废后奔申。犬戎破镐，诸侯迎立，东迁洛邑。王室从此徒拥共主空名，诸侯力政。",
+      "tags": [
+        "平王东迁"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shao-hu",
+      "name": "召虎",
+      "display": "召穆公",
+      "birthAccuracy": "unknown",
+      "death": -823,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。国人暴动时藏太子；宣王前期金文与《诗经》仍见召伯，取宣王五年前后为活动下限，非确凿卒年。",
+      "title": "召公奭之后，共和行政的关键卿士",
+      "bio": "厉王时谏谤，以子代太子静。共和期内与周定公行政。宣王初年仍见其名，是把厉王、宣王两条接上的人。",
+      "tags": [
+        "共和"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhou-dinggong",
+      "name": "周定公",
+      "display": "周定公",
+      "birthAccuracy": "unknown",
+      "death": -828,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。仅见共和行政，《史记》与召穆公共相王室；共和十四年后事迹不见，取厉王死年为活动下限。",
+      "title": "周公旦之后，共和二相之一",
+      "bio": "《史记》记周、召二相行政，号曰共和。《竹书纪年》别作共伯和摄政。本图从《史记》，把他和召穆公画成并列的两条。",
+      "tags": [
+        "共和"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "muye-zhizhan",
+      "name": "牧野之战",
+      "display": "牧野之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -1046,
+      "yearAccuracy": "disputed",
+      "yearNote": "主流断代工程取前1046，另有前1045、前1044及前1027等方案。",
+      "place": "牧野",
+      "placeNow": "今河南新乡、淇县一带",
+      "belligerents": [
+        "zhou",
+        "shang"
+      ],
+      "aliases": [
+        "武王伐纣",
+        "武王克商"
+      ],
+      "dynasties": [
+        "shang",
+        "western-zhou"
+      ],
+      "desc": "周武王联军在牧野击败商纣军，商王朝终结，周取得天下。牧野年代依历法换算存在争议，古书中的兵力数字带有夸张成分。",
+      "sources": [
+        {
+          "work": "尚書",
+          "part": "牧誓",
+          "kind": "classic"
+        },
+        {
+          "work": "逸周書",
+          "part": "卷四·世俘",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhou-fenfeng",
+      "name": "周初分封",
+      "display": "周初分封",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -1046,
+      "yearAccuracy": "disputed",
+      "yearNote": "《史记·周本纪》载武王克商后封诸侯。克商年主流断代工程取前1046，另有前1045、前1044及前1027等方案（与牧野之战条同口径）。武王初封与周公东征后再封是两个阶段，各国始封具体年史无明文，故系于克商之年。",
+      "polity": [
+        "zhou"
+      ],
+      "result": "封尚父于齐、周公旦于鲁、召公奭于燕等；封邦建国制度确立，「封建亲戚，以蕃屏周」的权力结构成型。",
+      "aliases": [
+        "封邦建国",
+        "大分封",
+        "武王封诸侯"
+      ],
+      "dynasties": [
+        "shang",
+        "western-zhou"
+      ],
+      "desc": "武王克商后封诸侯、班赐宗彝，尚父封于营丘为齐，周公旦封于曲阜为鲁，召公奭封于燕，叔鲜、叔度分别封于管、蔡。封邦建国由此确立，以亲戚功臣藩屏周室。武王初封与周公东征后再封是两个阶段，各国始封的具体年史无明文；克商年取断代工程前1046，旧说并存。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷004 周本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "夏商周断代工程",
+          "part": "夏商周年表",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "zhou-gong-dong-zheng",
+      "name": "周公东征",
+      "display": "周公东征",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": -1042,
+      "yearAccuracy": "approx",
+      "yearNote": "传统重建约前1042—前1039，绝对年随牧野纪年方案变化。",
+      "endYear": -1039,
+      "endYearAccuracy": "approx",
+      "endYearNote": "周初纪年重建值，具体持续时间有异说。",
+      "place": "殷东部与东方诸国",
+      "belligerents": [
+        "zhou",
+        "shang"
+      ],
+      "aliases": [
+        "三监之乱",
+        "管蔡之乱",
+        "武庚之乱"
+      ],
+      "dynasties": [
+        "western-zhou"
+      ],
+      "desc": "武王死后，管叔、蔡叔与武庚势力叛乱，周公东征平定。此次行动重组周初宗室与商遗民秩序，巩固了周的统治；具体战点和绝对年仍待进一步考证。",
+      "sources": [
+        {
+          "work": "尚書",
+          "part": "金縢",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·周本紀",
+          "part": "周公摄政与东征段",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "gonghe-xingzheng",
+      "name": "共和行政",
+      "display": "共和行政",
+      "kind": "span",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -841,
+      "yearAccuracy": "disputed",
+      "yearNote": "传统以共和元年为前841；共伯和摄政、周公召公共行政及是否即位存在异说。",
+      "endYear": -828,
+      "endYearAccuracy": "disputed",
+      "endYearNote": "共和十四年厉王死、太子静即位，绝对年随纪年方案有差异。",
+      "polity": [
+        "zhou"
+      ],
+      "aliases": [
+        "周召共和",
+        "共和元年"
+      ],
+      "dynasties": [
+        "western-zhou"
+      ],
+      "desc": "周厉王出奔彘后，周王室进入共和行政时期；传统叙事有周公、召公共同执政与共伯和摄政两种解释。共和元年常被用作中国有确切纪年传统的起点之一。",
+      "sources": [
+        {
+          "work": "今本竹書紀年疏證",
+          "part": "卷下",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·周本紀",
+          "part": "共和与宣王即位段",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "guoren-baodong",
+      "name": "国人暴动",
+      "display": "国人暴动",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": -841,
+      "yearAccuracy": "exact",
+      "yearNote": "厉王奔彘与共和元年同为前841，《史记·周本纪》与《竹书纪年》一致，为中国确切纪年之始。",
+      "place": "镐京（宗周）",
+      "placeNow": "今陕西西安西南（沣镐遗址一带）",
+      "polity": [
+        "zhou"
+      ],
+      "people": [
+        "ji-hu",
+        "shao-hu"
+      ],
+      "result": "国人逐厉王奔彘，王权中断十四年；此后周天子权威大减。",
+      "aliases": [
+        "厉王奔彘",
+        "彘之乱"
+      ],
+      "dynasties": [
+        "western-zhou"
+      ],
+      "desc": "厉王弭谤，国人相与畔袭王宫，厉王出奔于彘，时为前841年。此后王权中断十四年，周天子权威大减。共和行政的主体有周召二相行政（《史记》）与共伯和摄行（《竹书纪年》）两说，本条只取暴动与奔彘的事实层。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷004 周本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "今本竹書紀年疏證",
+          "part": "卷下 厲王八年、十三年",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "quanrong-gong-youwang",
+      "name": "犬戎攻幽王",
+      "display": "犬戎攻幽王",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -771,
+      "yearAccuracy": "exact",
+      "yearNote": "幽王十一年；《史记·周本纪》《竹书纪年》一致，西周灭亡于前771为定说。",
+      "place": "骊山（宗周镐京）",
+      "placeNow": "今陕西西安市临潼区骊山北麓",
+      "belligerents": [
+        "zhou",
+        "quanrong"
+      ],
+      "people": [
+        "ji-gongsheng",
+        "bao-si",
+        "shen-hou",
+        "ji-you"
+      ],
+      "result": "申侯联合缯、犬戎攻破宗周，幽王与郑桓公被杀于骊山下；西周灭亡。",
+      "aliases": [
+        "西周灭亡",
+        "犬戎之祸",
+        "幽王亡于骊山"
+      ],
+      "dynasties": [
+        "western-zhou"
+      ],
+      "desc": "幽王十一年，申侯与缯、西夷犬戎攻幽王，入宗周，幽王及郑桓公被杀于骊山下，西周灭亡。诸侯其后立太子宜臼为平王。《史记》所载烽火徵兵情节清华简《系年》不载，本条只取攻杀的事实层。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷004 周本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "今本竹書紀年疏證",
+          "part": "卷下 幽王十一年",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

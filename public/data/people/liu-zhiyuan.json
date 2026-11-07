@@ -1,0 +1,117 @@
+{
+  "id": "liu-zhiyuan",
+  "name": "刘知远",
+  "display": "后汉高祖",
+  "birthAccuracy": "unknown",
+  "death": 948,
+  "deathAccuracy": "exact",
+  "title": "后汉高祖，乘契丹北归取中原",
+  "bio": "本名暠，沙陀部人，与石敬瑭同为明宗腹心，位至河东节度使、北京留守。契丹迁德光北去，中原无主，知远据太原称汉，乘隙入汴，悉收故地。在位一年而崩。",
+  "tags": [
+    "五代",
+    "后汉"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-chengyou",
+      "target": "liu-zhiyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，隐帝急于除大臣"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "liu-chong",
+      "target": "liu-zhiyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，汉祚一在汴、一在太原"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "shi-hongzhao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高祖寝疾，以弘肇与杨邠、王章、郭威同受顾命辅隐帝"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houhan-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "houjin-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jinyang-zhiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liu-zhiyuan-jian-han",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qidan-mie-houjin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘暠"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "高祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "汉本纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "du-hong-jian",
+  "name": "杜鸿渐",
+  "display": "杜鸿渐",
+  "birthAccuracy": "unknown",
+  "death": 769,
+  "deathAccuracy": "exact",
+  "title": "大历四年卒",
+  "bio": "代宗朝同平章事。大历四年卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu",
+      "target": "du-hong-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，大历四年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杜鸿渐"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "杜鸿渐传",
+      "kind": "classic"
+    }
+  ]
+}

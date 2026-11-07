@@ -1,0 +1,73 @@
+{
+  "id": "nantang-mie-min",
+  "name": "南唐灭闽",
+  "display": "南唐灭闽",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 945,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系后晋开运二年、南唐保大三年，唐师取建州，王延政降；公历945。",
+  "place": "建州",
+  "placeNow": "今福建建瓯",
+  "belligerents": [
+    "nantang",
+    "min"
+  ],
+  "people": [
+    "li-jing-916"
+  ],
+  "result": "王延政降，闽亡；建、汀、泉、漳入南唐，福州寻附吴越。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "南唐保大三年，闽之诸王自相屠，建州王延政与福王延羲交兵不已。南唐乘其敝，遣将攻建州，延政降，闽亡。建、汀、泉、漳之地入于南唐，福州寻附吴越。王氏据闽数十年，瓦解于骨肉之内乱。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后晋纪·开运二年",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "闽",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-jing-916",
+      "name": "李璟",
+      "display": "南唐元宗",
+      "birth": 916,
+      "birthAccuracy": "exact",
+      "death": 961,
+      "deathAccuracy": "exact",
+      "title": "南唐中主，失淮南，徙洪京",
+      "bio": "初名景通，烈祖长子。升元七年即位，改璟。乘闽楚之乱拓地数千里，旋复尽失；显德中周世宗三征淮南，紫金山一战丧师，尽献江北十四州，去帝号称国主，岁奉金帛巨万。内不能用韩熙载、林仁肇之谋，郁郁徙都洪州，交泰元年殂。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "monarch",
+        "literature"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

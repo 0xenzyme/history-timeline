@@ -1,0 +1,60 @@
+{
+  "id": "li-bi",
+  "name": "李泌",
+  "display": "李泌",
+  "birth": 722,
+  "birthAccuracy": "exact",
+  "death": 789,
+  "deathAccuracy": "exact",
+  "title": "肃宗谋臣，德宗朝宰相",
+  "bio": "安史乱中在灵武为肃宗谋收复两京，后数次出入。贞元中为相，封邺侯。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "strategist",
+    "chancellor"
+  ],
+  "primary": "strategist",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-heng",
+      "target": "li-bi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃宗倚李泌谋议，收复两京"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李泌",
+    "李长源",
+    "李邺侯"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李泌传",
+      "kind": "classic"
+    }
+  ]
+}

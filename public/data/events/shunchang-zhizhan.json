@@ -1,0 +1,97 @@
+{
+  "id": "shunchang-zhizhan",
+  "name": "顺昌之战",
+  "display": "顺昌之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1140,
+  "yearAccuracy": "exact",
+  "yearNote": "绍兴十年五月壬寅围城，六月壬子大败，乙卯围解。battle 不写 endYear。",
+  "place": "顺昌",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "liu-qi-1098",
+    "wanyan-zongbi"
+  ],
+  "result": "刘锜以顺昌守军大败兀术，围解，金军退走。淮西这一路没有被打穿。",
+  "aliases": [
+    "顺昌大捷"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "绍兴十年五月，金军围顺昌；六月壬子，刘锜大败兀术十余万众，乙卯围解。淮西这一路没有被打穿。这是当年金败盟南下后，第一场挡住主力的会战。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷29",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷123",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-qi-1098",
+      "name": "刘锜",
+      "display": "刘锜",
+      "birth": 1098,
+      "birthAccuracy": "exact",
+      "death": 1162,
+      "deathAccuracy": "exact",
+      "title": "顺昌大捷破铁浮图",
+      "bio": "泾原名将刘仲武之子。绍兴十年以八字军守顺昌，两万破兀术十万，铁浮图拐子马至此丧胆。后遭排挤，绍兴三十二年病卒。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zongbi",
+      "name": "完颜宗弼",
+      "display": "完颜宗弼",
+      "birthAccuracy": "unknown",
+      "death": 1148,
+      "deathAccuracy": "exact",
+      "title": "金兀术，搜山检海捉赵构",
+      "bio": "阿骨打第四子。追高宗入海，富平、和尚原诸役与宋血战，黄天荡几不得脱。后主国政，都元帅，绍兴和议金方主持人。皇统八年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

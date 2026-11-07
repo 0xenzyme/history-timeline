@@ -1,0 +1,70 @@
+{
+  "id": "daming-li",
+  "name": "祖冲之上大明历",
+  "display": "大明历",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": 462,
+  "yearAccuracy": "exact",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "zu-chongzhi"
+  ],
+  "result": "历法因驳难未行，至梁天监九年（510）始颁行",
+  "aliases": [
+    "大明历",
+    "大明历之争"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "462 年（大明六年）南徐州从事史祖冲之上《大明历》，引入岁差修正回归年、改革置闰之法，精度远迈前历。宠臣戴法兴斥其“诬天背经”，祖冲之著《驳议》力辩“愿闻显据，以核理实”。新历迟至梁天监九年（510）方颁行，为中国历法史上的精度突破。",
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "律历志下",
+      "kind": "classic"
+    },
+    {
+      "work": "百度百科：大明历",
+      "kind": "database"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zu-chongzhi",
+      "name": "祖冲之",
+      "display": "祖冲之",
+      "birth": 429,
+      "birthAccuracy": "exact",
+      "death": 500,
+      "deathAccuracy": "exact",
+      "title": "历算大家，圆周率与《大明历》",
+      "bio": "范阳遒人。作《大明历》，首次引入岁差，定一回归年之日数，与今测相差仅五十余秒。推圆周率在三点一四一五九二六与二七之间，早于西方近千年。又造指南车、千里船、水碓磨、欹器。大明六年上历而朝议未行，至梁天监中乃用。永元二年卒，年七十二。",
+      "tags": [
+        "南朝"
+      ],
+      "categories": [
+        "science",
+        "astronomy",
+        "craft"
+      ],
+      "primary": "astronomy",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

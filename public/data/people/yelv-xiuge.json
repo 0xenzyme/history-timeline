@@ -1,0 +1,53 @@
+{
+  "id": "yelv-xiuge",
+  "name": "耶律休哥",
+  "display": "耶律休哥",
+  "birthAccuracy": "unknown",
+  "death": 998,
+  "deathAccuracy": "exact",
+  "title": "高梁河、岐沟关的辽军统帅",
+  "bio": "高梁河之战救辽主败宋太宗，岐沟关大破曹彬，宋人欲止小儿夜啼，称「于越至矣」。统和十六年卒。",
+  "tags": [
+    "辽"
+  ],
+  "categories": [
+    "outsider",
+    "general"
+  ],
+  "polity": [
+    "liao-jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "gaolianghe-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongxi-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "耶律休哥传",
+      "kind": "classic"
+    }
+  ]
+}

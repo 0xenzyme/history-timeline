@@ -1,0 +1,59 @@
+{
+  "id": "wang-pu",
+  "name": "王溥",
+  "display": "王溥",
+  "birth": 922,
+  "birthAccuracy": "exact",
+  "death": 982,
+  "deathAccuracy": "exact",
+  "title": "周宋之际的枢相，《五代会要》作者",
+  "bio": "后周宰相，入宋留任十二年，监修国史。撰《五代会要》《唐会要》，存五代典章。太平兴国七年卒，年六十一。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "wudai",
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-pu",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "周之宰相，入宋撰《五代会要》"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "王溥传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "xiantian-zhibian",
+  "name": "先天政变",
+  "display": "先天政变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 713,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-long-ji"
+  ],
+  "result": "太平公主集团被清除，唐玄宗取得实际最高权力",
+  "aliases": [
+    "先天之变"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "713 年，李隆基发动先天政变，清除太平公主及其党羽，唐睿宗随后传位。太平公主未进入现有人物 canonical id，故只作为叙事背景，不写入 people 字段。政变结束了唐隆政变后的权力竞争，为开元政治奠定前提。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "玄宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "玄宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-long-ji",
+      "name": "李隆基",
+      "display": "唐玄宗李隆基",
+      "birth": 685,
+      "birthAccuracy": "exact",
+      "death": 762,
+      "deathAccuracy": "exact",
+      "title": "唐玄宗，开元盛世与天宝之乱",
+      "bio": "李旦第三子，神龙后为临淄王，与太平公主合谋诛韦后，先天二年又诛太平公主，始专朝政。开元之世用姚崇、宋璟、张说、张九龄，海内富实，号为开元盛世。天宝以后宠杨贵妃，任李林甫、杨国忠，安禄山反，京师陷，奔蜀而禅位肃宗。宝应元年崩于西内神龙殿，年七十八。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

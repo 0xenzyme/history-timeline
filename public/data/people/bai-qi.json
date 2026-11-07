@@ -1,0 +1,125 @@
+{
+  "id": "bai-qi",
+  "name": "白起",
+  "display": "白起",
+  "birthAccuracy": "unknown",
+  "death": -257,
+  "deathAccuracy": "exact",
+  "title": "秦将，武安君，坑杀长平",
+  "bio": "郿人。拔郢、烧夷陵，长平坑赵卒。不肯再将围邯郸，昭王赐死。战国最陡的一条武将条，停在邯郸未下之年。",
+  "tags": [
+    "秦国",
+    "长平"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-ji",
+      "target": "bai-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武安君，长平、拔郢"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "bai-qi",
+      "target": "ying-ji",
+      "type": "rival",
+      "directed": false,
+      "since": -257,
+      "notes": [
+        "不肯再将围邯郸，赐死"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "bai-qi",
+      "target": "lian-po",
+      "type": "rival",
+      "directed": false,
+      "since": -260,
+      "notes": [
+        "长平前主赵军，后为赵括所代"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "bai-qi",
+      "target": "zhao-kuo-changping",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "长平之战射杀赵括"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "changping-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huayang-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yanying-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yique-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "武安君"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "白起王翦列传",
+      "kind": "classic"
+    }
+  ]
+}

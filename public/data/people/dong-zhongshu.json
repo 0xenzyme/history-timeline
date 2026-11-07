@@ -1,0 +1,116 @@
+{
+  "id": "dong-zhongshu",
+  "name": "董仲舒",
+  "display": "董仲舒",
+  "birth": -179,
+  "birthAccuracy": "approx",
+  "death": -104,
+  "deathAccuracy": "approx",
+  "birthNote": "生卒皆为约数",
+  "title": "西汉儒家学者，倡天人三策",
+  "bio": "广川人。以公羊学应对武帝，提出「诸不在六艺之科孔子之术者，皆绝其道」，儒学由此成为汉家官学。著《春秋繁露》。",
+  "tags": [
+    "天人三策",
+    "春秋繁露"
+  ],
+  "categories": [
+    "confucian"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    },
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "dong-zhongshu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -134,
+      "notes": [
+        "天人三策"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "sima-qian",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "司马迁从董仲舒学《春秋》"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "gongsun-hong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以儒学进"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "xun-zi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "礼法与天人，皆为汉儒所资"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chaju-zhidu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "taixue-yu-boshi-dizi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "董子"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "儒林列传"
+    },
+    {
+      "work": "汉书",
+      "part": "董仲舒传"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "wang-sengbian",
+  "name": "王僧辩",
+  "display": "王僧辩",
+  "birthAccuracy": "unknown",
+  "death": 555,
+  "deathAccuracy": "exact",
+  "deathNote": "陈霸先夜袭石头城，「爾夜斬之」（梁书·王僧辩传），事在承圣四年。",
+  "title": "平侯景之乱的主帅，为陈霸先夜袭所杀",
+  "tags": [
+    "南北朝",
+    "梁"
+  ],
+  "categories": [
+    "general",
+    "chancellor"
+  ],
+  "primary": "general",
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "houjing-zhi-luan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wang-sengbian-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "王僧辩",
+    "王君才"
+  ],
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "王僧辩传",
+      "kind": "classic"
+    }
+  ]
+}

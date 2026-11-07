@@ -1,0 +1,76 @@
+{
+  "id": "xi-jian",
+  "name": "郗鉴",
+  "display": "郗鉴",
+  "birth": 269,
+  "birthAccuracy": "approx",
+  "death": 339,
+  "deathAccuracy": "exact",
+  "birthNote": "咸康五年（339）薨，年七十一，虚岁上推生年。",
+  "title": "东晋太尉，京口之基",
+  "bio": "高平金乡人。永嘉乱中为乡人推守峄山，聚流民自保。元帝时受任兖州刺史，帅众南附。苏峻之乱帅众守京口，与陶侃、温峤同讨峻，遂为北府之基。咸康五年八月薨，时年七十一。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-rui",
+      "target": "xi-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "流民帅受任兖州"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "tao-kan",
+      "target": "xi-jian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同讨苏峻，鉴守京口"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郗鉴"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "郗鉴传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "成帝纪",
+      "kind": "classic"
+    }
+  ]
+}

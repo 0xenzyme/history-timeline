@@ -1,0 +1,90 @@
+{
+  "id": "fan-zhongyan",
+  "name": "范仲淹",
+  "display": "范仲淹",
+  "birth": 989,
+  "birthAccuracy": "exact",
+  "death": 1052,
+  "deathAccuracy": "exact",
+  "title": "先忧后乐，庆历新政",
+  "bio": "吴县（祖籍邠州）人，苦学登第。镇守西夏，名重边陲；推行庆历新政，条陈十事。名句「先天下之忧而忧，后天下之乐而乐」。",
+  "tags": [
+    "宋",
+    "北宋",
+    "改革"
+  ],
+  "categories": [
+    "chancellor",
+    "literature",
+    "poetry"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-zhen",
+      "target": "fan-zhongyan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1043,
+      "notes": [
+        "用范仲淹行庆历新政"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同倡革新，奖掖士风"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qingli-heyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingli-songxia-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingli-xinzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "范仲淹传",
+      "kind": "classic"
+    }
+  ]
+}

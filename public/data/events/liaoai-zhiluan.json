@@ -1,0 +1,109 @@
+{
+  "id": "liaoai-zhiluan",
+  "name": "嫪毐之乱",
+  "display": "嫪毐之乱",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": -238,
+  "yearAccuracy": "exact",
+  "yearNote": "秦王政九年（前238）四月己酉王冠带剑，长信侯嫪毐矫御玺及太后玺发县卒卫卒官骑攻蕲年宫，昌平君、昌文君发卒攻毐，战咸阳，毐败走，车裂灭宗（《史记·秦始皇本纪》）。",
+  "polity": [
+    "qin"
+  ],
+  "people": [
+    "lao-ai",
+    "ying-zheng",
+    "changping-jun"
+  ],
+  "aliases": [
+    "蕲年宫之变",
+    "长信侯毐作乱"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "秦王政九年（前238）四月己酉，王冠带剑于雍。长信侯嫪毐矫王御玺及太后玺，发县卒卫卒官骑攻蕲年宫作乱；王令昌平君、昌文君发卒击之，战于咸阳，嫪毐败走被诛、车裂灭宗，舍人夺爵迁蜀四千余家。秦王政由此亲掌大权。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷六·秦始皇本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "lao-ai",
+      "name": "嫪毐",
+      "display": "嫪毐",
+      "birthAccuracy": "unknown",
+      "death": -238,
+      "deathAccuracy": "exact",
+      "deathNote": "秦始皇本纪九年：长信侯毐作乱而觉，矫王御玺及太后玺发县卒卫卒攻蕲年宫，王令相国昌平君、昌文君发卒攻毐，战咸阳，尽得毐等，车裂以徇，灭其宗。始皇九年是前 238 年。",
+      "categories": [
+        "eunuch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "changping-jun",
+      "name": "昌平君",
+      "display": "昌平君",
+      "birthAccuracy": "unknown",
+      "death": -223,
+      "deathAccuracy": "exact",
+      "deathNote": "秦始皇本纪：二十三年王翦蒙武大破荆兵，昌平君死、项燕自杀——前223年，楚亡之岁。",
+      "title": "秦相而末代楚王",
+      "bio": "楚公子之在秦者，吕不韦免相之岁代其国事，仕秦为相；及秦灭楚急，项燕立为荆王，起兵淮南反秦。一人两身，是轴上秦与楚两条线的接点：前223年兵败而死，楚随之亡。被虏无卒年者例不收，他在秦楚之季战死有年，独入。",
+      "tags": [
+        "秦国",
+        "楚国"
+      ],
+      "categories": [
+        "royal-kin",
+        "minister"
+      ],
+      "polity": [
+        "qin",
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

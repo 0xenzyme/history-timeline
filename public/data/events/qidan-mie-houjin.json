@@ -1,0 +1,167 @@
+{
+  "id": "qidan-mie-houjin",
+  "name": "契丹灭后晋",
+  "display": "契丹灭晋",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 946,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系开运三年（946）契丹大举南伐，杜重威全军降；明年正月入汴，废晋主。跨946、947两年。",
+  "endYear": 947,
+  "endYearAccuracy": "exact",
+  "place": "汴州",
+  "placeNow": "今河南开封",
+  "belligerents": [
+    "liao",
+    "hou-jin"
+  ],
+  "commanders": [
+    {
+      "id": "yelv-deguang",
+      "side": "liao"
+    },
+    {
+      "id": "du-chongwei",
+      "side": "hou-jin"
+    }
+  ],
+  "people": [
+    "shi-chonggui",
+    "liu-zhiyuan"
+  ],
+  "result": "杜重威全军降，德光入汴废晋主，改号大辽；北还，卒于杀胡林。",
+  "aliases": [
+    "wudai-947",
+    "契丹入汴"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "开运三年，晋出帝耻于称孙不称臣，契丹三伐，至是三举大入。晋以杜重威将大军御之，壁于恒州，为契丹所绝粮道，军中饥疲。重威怯不敢决，日与亲信饮博；偏将请战，皆抑而下之。十二月，重威与众降，河北州县望风款附。明年正月，耶律德光入汴，俘出帝，废其国，改元大同，建国号大辽。德光不习中原之治，纵兵剽掠，京畿萧然；四月北还，卒于杀胡林。河东刘知远因虚入汴，汉祚代之而兴。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后晋纪·开运三年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "少帝本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "辽史",
+      "part": "太宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shi-chonggui",
+      "name": "石重贵",
+      "display": "晋出帝",
+      "birth": 914,
+      "birthAccuracy": "approx",
+      "death": 974,
+      "deathAccuracy": "exact",
+      "birthNote": "北迁之后，辽保宁六年（974）卒，年六十一，上推生年。",
+      "title": "出帝北迁，封负义侯",
+      "bio": "敬瑭兄子，养以为子。天福七年即位，用景延广议，与契丹称孙而不称臣，德光大怒，三度南攻。开运三年杜重威举大军降，德光入汴，晋亡；举族北迁黄龙府，封负义侯，在虏庭二十七年而卒。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zhiyuan",
+      "name": "刘知远",
+      "display": "后汉高祖",
+      "birthAccuracy": "unknown",
+      "death": 948,
+      "deathAccuracy": "exact",
+      "title": "后汉高祖，乘契丹北归取中原",
+      "bio": "本名暠，沙陀部人，与石敬瑭同为明宗腹心，位至河东节度使、北京留守。契丹迁德光北去，中原无主，知远据太原称汉，乘隙入汴，悉收故地。在位一年而崩。",
+      "tags": [
+        "五代",
+        "后汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "du-chongwei",
+      "name": "杜重威",
+      "display": "杜重威",
+      "birthAccuracy": "unknown",
+      "death": 950,
+      "deathAccuracy": "exact",
+      "title": "中渡之降，倾晋二十万之众",
+      "bio": "石氏之甥婿，故位将相。开运末总大军御契丹，顿军都林，粮尽先遣请和，至中渡，举军而降，引德光入汴，晋亡由成。汉初归命，寻以邠州叛，伏诛。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

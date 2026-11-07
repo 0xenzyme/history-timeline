@@ -1,0 +1,67 @@
+{
+  "id": "xu-jie",
+  "name": "徐阶",
+  "display": "徐阶",
+  "birth": 1503,
+  "birthAccuracy": "exact",
+  "death": 1583,
+  "deathAccuracy": "exact",
+  "title": "严嵩之后的首辅",
+  "bio": "字子升，华亭人。承严嵩之后为首辅，请罢方士、宽言路，务为安静之政; 高拱既起，遂请致仕。1583 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houcong",
+      "target": "xu-jie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "承严嵩之后为首辅，务为安静"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-jie",
+      "target": "yan-song",
+      "type": "rival",
+      "directed": false,
+      "since": 1562,
+      "notes": [
+        "以方术事世宗，终为徐阶所攻去"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "徐阶传",
+      "kind": "classic"
+    }
+  ]
+}

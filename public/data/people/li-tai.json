@@ -1,0 +1,72 @@
+{
+  "id": "li-tai",
+  "name": "李泰",
+  "display": "李泰",
+  "birth": 618,
+  "birthAccuracy": "exact",
+  "death": 652,
+  "deathAccuracy": "exact",
+  "title": "濮王，与承乾争储",
+  "bio": "太宗第四子，善属文。太宗爱重，与太子承乾各树朋党。承乾废后不得立，徙均州。永徽三年薨于郧乡，年三十五。",
+  "tags": [
+    "唐",
+    "贞观"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "li-tai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "第四子，与承乾争储"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-cheng-qian",
+      "target": "li-tai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "争储，各树朋党"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李泰",
+    "濮王泰",
+    "魏王泰"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "濮王泰传",
+      "kind": "classic"
+    }
+  ]
+}

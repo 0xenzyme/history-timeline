@@ -1,0 +1,90 @@
+{
+  "id": "zhang-rou",
+  "name": "张柔",
+  "display": "张柔",
+  "birth": 1190,
+  "birthAccuracy": "exact",
+  "death": 1268,
+  "deathAccuracy": "exact",
+  "title": "河北世侯之首",
+  "bio": "易州定兴人。初为金将，蒙古南下后降，遂为河北世侯，重筑保州、聚书教士，隶忽必烈麾下；子弘范为其第九子。1268 年卒，年七十九。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shi-tianze",
+      "target": "zhang-rou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为河北汉军世侯，并从忽必烈"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "dong-wenbing",
+      "target": "zhang-rou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为汉军世侯之后，同隶南征诸军"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "zhang-rou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "河北世侯，重筑保州而聚书养士"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "zhang-hongfan",
+      "target": "zhang-rou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，弘范为第九子，总水军灭宋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "张柔传",
+      "kind": "classic"
+    }
+  ]
+}

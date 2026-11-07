@@ -1,0 +1,89 @@
+{
+  "id": "suo-lu-he-tie-ni",
+  "name": "唆鲁禾帖尼",
+  "display": "唆鲁禾帖尼",
+  "birthAccuracy": "unknown",
+  "death": 1252,
+  "deathAccuracy": "exact",
+  "title": "睿宗皇后唆鲁禾帖尼",
+  "bio": "克烈氏，拖雷之妻。抚教四子，善接诸王大臣，拖雷系得汗位实赖其经营；1252 年崩，后追谥显懿庄圣皇后。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "suo-lu-he-tie-ni",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，四子皆出一门"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "meng-ge",
+      "target": "suo-lu-he-tie-ni",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，拖雷系得以嗣立多赖其经营"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "suo-lu-he-tie-ni",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-li-bu-ge",
+      "target": "suo-lu-he-tie-ni",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "后妃传",
+      "kind": "classic"
+    }
+  ]
+}

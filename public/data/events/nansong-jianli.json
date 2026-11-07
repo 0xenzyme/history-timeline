@@ -1,0 +1,125 @@
+{
+  "id": "nansong-jianli",
+  "name": "南宋建立",
+  "display": "南宋建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1127,
+  "yearAccuracy": "exact",
+  "yearNote": "建炎元年五月庚寅朔。续资卷098标题作建炎元年、金天会五年，未印公元。1127是这一年的通行纪年。点事件，不写 endYear。",
+  "place": "应天府",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "zhao-gou",
+    "li-gang",
+    "zong-ze"
+  ],
+  "result": "赵构即位于南京应天府，改元建炎，宋政权在南方延续。",
+  "aliases": [
+    "赵构即位",
+    "建炎即位",
+    "song-nanidu"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "建炎元年五月庚寅朔，赵构在南京应天府即位，改元建炎。宋政权在靖康之变后由此延续，法统在此重建，是南宋的起点。定都临安是十一年后的另一件事。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷24",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷98",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-gou",
+      "name": "赵构",
+      "display": "赵构",
+      "birth": 1107,
+      "birthAccuracy": "exact",
+      "death": 1187,
+      "deathAccuracy": "exact",
+      "title": "宋高宗，南宋开国",
+      "bio": "徽宗第九子，靖康后于南京应天府即位，南渡定都临安。任秦桧主和，杀岳飞，与金定绍兴和议，偏安江南。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-gang",
+      "name": "李纲",
+      "display": "李纲",
+      "birth": 1083,
+      "birthAccuracy": "exact",
+      "death": 1140,
+      "deathAccuracy": "exact",
+      "title": "抗金首相，守汴主战",
+      "bio": "邵武人，靖康初力主固守汴京、抗金迎驾。高宗即位首拜相，旬日而罢；一生主战，数起数黜。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zong-ze",
+      "name": "宗泽",
+      "display": "宗泽",
+      "birth": 1060,
+      "birthAccuracy": "exact",
+      "death": 1128,
+      "deathAccuracy": "exact",
+      "title": "东京留守，连呼「过河」而卒",
+      "bio": "高宗初以老将留守东京，联络两河义军，二十余疏请还都北伐，皆不报。忧愤成疾，建炎二年疽发于背，三呼「过河」而卒。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

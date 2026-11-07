@@ -1,0 +1,79 @@
+{
+  "id": "hongwu-chengdi",
+  "name": "洪武称帝",
+  "display": "洪武称帝",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1368,
+  "yearAccuracy": "exact",
+  "yearNote": "至正二十八年、洪武元年正月乙亥。续资标题写一三六八年。八月徐达入大都已发布为 dadu-xianluo，不并入本条。",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zhu-yuanzhang"
+  ],
+  "result": "定国号曰明，建元洪武",
+  "aliases": [
+    "朱元璋称帝",
+    "建国号明"
+  ],
+  "dynasties": [
+    "yuan",
+    "ming"
+  ],
+  "desc": "至正二十八年正月乙亥，朱元璋即皇帝位，定国号曰明，建元洪武。明朝从这一天开始。大都陷落另有已发布条目，不并入本条。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二",
+      "note": "洪武元年正月乙亥即皇帝位，定号曰明，建元洪武",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷二百二十",
+      "note": "至正二十八年正月乙亥即皇帝位，定国号曰明，建元洪武",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-yuanzhang",
+      "name": "朱元璋",
+      "display": "明太祖朱元璋",
+      "birth": 1328,
+      "birthAccuracy": "exact",
+      "death": 1398,
+      "deathAccuracy": "exact",
+      "title": "驱元建明",
+      "bio": "濠州孤穷，入郭子兴红巾军，收淮西渡江取集庆。削平陈友谅、张士诚，1368 年称帝建明，北伐克大都，元亡。",
+      "tags": [
+        "元",
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "warlord",
+        "rebel",
+        "founding",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan",
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

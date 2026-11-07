@@ -1,0 +1,31 @@
+{
+  "id": "hua-yue",
+  "name": "华阅",
+  "display": "华阅",
+  "birthAccuracy": "unknown",
+  "death": -556,
+  "deathAccuracy": "exact",
+  "polity": [
+    "song-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传正义",
+      "part": "襄公十七年",
+      "kind": "classic"
+    }
+  ]
+}

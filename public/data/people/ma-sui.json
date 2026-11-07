@@ -1,0 +1,57 @@
+{
+  "id": "ma-sui",
+  "name": "马燧",
+  "display": "马燧",
+  "birth": 726,
+  "birthAccuracy": "exact",
+  "death": 795,
+  "deathAccuracy": "exact",
+  "title": "与李晟同图凌烟阁",
+  "bio": "汝州郏城人。建中间破田悦。贞元五年与李晟同图凌烟阁。十一年八月薨，时年七十。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "ma-sui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "与李晟同图凌烟阁，贞元十一年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "马燧"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "马燧传",
+      "kind": "classic"
+    }
+  ]
+}

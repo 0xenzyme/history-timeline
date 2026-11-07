@@ -1,0 +1,116 @@
+{
+  "id": "yapian-zhanzheng",
+  "name": "鸦片战争",
+  "display": "鸦片战争",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 1840,
+  "yearAccuracy": "exact",
+  "yearNote": "道光二十年英人陷定海，二十二年白门条约。",
+  "endYear": 1842,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "qing",
+    "yingjili"
+  ],
+  "commanders": [
+    {
+      "id": "lin-zexu",
+      "side": "qing"
+    }
+  ],
+  "people": [
+    "lin-zexu",
+    "dao-guang"
+  ],
+  "result": "英人陷定海，白门条约成",
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "道光二十年，林则徐击毁载烟洋艇，英人陷定海县。二十一年英人寇广东虎门，副将陈连陛及其子举鹏死之。道光二十二年画诺于静海寺，是为白门条约。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷十八",
+      "note": "林則徐等奏擊毀載煙洋艇",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷十八",
+      "note": "英人陷定海縣",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷十九",
+      "note": "英人寇廣東虎門，副將陳連陛及其子舉鵬死之",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷一百五十四",
+      "note": "畫諾於靜海寺，是為白門條約",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "lin-zexu",
+      "name": "林则徐",
+      "display": "林则徐",
+      "birth": 1785,
+      "birthAccuracy": "exact",
+      "death": 1850,
+      "deathAccuracy": "exact",
+      "title": "禁烟大臣",
+      "bio": "湖广总督，1839 年虎门销烟，主持禁烟；后遣戍伊犁，近代开眼看世界之先。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "dao-guang",
+      "name": "旻宁",
+      "display": "道光",
+      "birth": 1782,
+      "birthAccuracy": "exact",
+      "death": 1850,
+      "deathAccuracy": "exact",
+      "title": "鸦片战火开国门",
+      "bio": "嘉庆次子，在位节俭而遇三千年未有之变局，鸦片战争战败，签南京条约。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

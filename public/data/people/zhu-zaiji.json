@@ -1,0 +1,89 @@
+{
+  "id": "zhu-zaiji",
+  "name": "朱载坖",
+  "display": "明穆宗朱载坖",
+  "birth": 1537,
+  "birthAccuracy": "exact",
+  "death": 1572,
+  "deathAccuracy": "exact",
+  "title": "隆庆开关",
+  "bio": "世宗第三子，嘉靖四十五年即位。平反冤狱、弛海禁开互市，俺答封贡，北边稍安。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houcong",
+      "target": "zhu-zaiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，世宗传穆宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhu-zaiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，穆宗传神宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-zaiji",
+      "target": "gao-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "藩邸旧臣，主俺答封贡与考绩之法"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "anda-fenggong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "朱载坖",
+    "明穆宗"
+  ],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "穆宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

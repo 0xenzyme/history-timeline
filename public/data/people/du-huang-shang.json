@@ -1,0 +1,58 @@
+{
+  "id": "du-huang-shang",
+  "name": "杜黄裳",
+  "display": "杜黄裳",
+  "birth": 739,
+  "birthAccuracy": "exact",
+  "death": 808,
+  "deathAccuracy": "exact",
+  "title": "元和三年卒，年七十",
+  "bio": "宪宗初为相，主征刘辟、以法度收藩镇。元和二年出为河中节度，明年卒，年七十。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-chun",
+      "target": "du-huang-shang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载805至807年在任，元和三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杜黄裳"
+  ],
+  "sources": [
+    {
+      "work": "新唐书",
+      "part": "杜黄裳传",
+      "kind": "classic"
+    }
+  ]
+}

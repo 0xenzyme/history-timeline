@@ -1,0 +1,78 @@
+{
+  "id": "liu-bian",
+  "name": "刘辩",
+  "display": "汉少帝刘辩",
+  "birth": 176,
+  "birthAccuracy": "exact",
+  "death": 190,
+  "deathAccuracy": "exact",
+  "title": "东汉少帝，董卓废为弘农王",
+  "bio": "灵帝子。董卓废为弘农王，旋被鸩。少帝的条止于公元 190 年，献帝从这里接上。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dong-zhuo",
+      "target": "liu-bian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "董卓废少帝辩为弘农王，旋鸩杀"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "he-hou-ling",
+      "target": "liu-bian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。中平六年她临朝，董卓废辩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dong-zhuo-luan-zheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘辩",
+    "汉少帝",
+    "弘农王"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "yang-shiqi",
+  "name": "杨士奇",
+  "display": "杨士奇",
+  "birth": 1366,
+  "birthAccuracy": "exact",
+  "death": 1444,
+  "deathAccuracy": "exact",
+  "title": "三杨之首",
+  "bio": "泰和人，历仕四朝，与杨荣、杨溥并称三杨。仁宣之治，士奇赞襄为多；晚年子稷横暴，清议少之。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "official",
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-di",
+      "target": "yang-shiqi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "靖难后入阁，开仁宣之治"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "yang-rong",
+      "target": "yang-shiqi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为三杨，历事四朝"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "yang-pu",
+      "target": "yang-shiqi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为三杨，共成仁宣之治"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "杨士奇传",
+      "kind": "classic"
+    }
+  ]
+}

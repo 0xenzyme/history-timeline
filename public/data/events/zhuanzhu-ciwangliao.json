@@ -1,0 +1,99 @@
+{
+  "id": "zhuanzhu-ciwangliao",
+  "name": "专诸刺吴王僚",
+  "display": "专诸刺吴王僚",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -515,
+  "yearAccuracy": "exact",
+  "yearNote": "左传昭公二十七年（前515）四月，鱄设诸（专诸）刺王僚；史记吴太伯世家系王僚十三年四月丙子，一致。季札复命「先人之道」一节两书互证。",
+  "polity": [
+    "wu-guo"
+  ],
+  "people": [
+    "zhuan-zhu",
+    "wu-liao",
+    "ji-guang"
+  ],
+  "aliases": [
+    "公子光弑王僚",
+    "鱼肠剑",
+    "阖闾即位"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "吴王僚乘楚丧伐楚、两公子被围于外，公子光谓「此时不可失」，使专诸置匕首于炙鱼中进餐刺杀王僚；光遂立，是为阖闾。季札归，曰「苟先君无废祀……乃吾君也」，复命哭墓而待。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷52（昭公二十七年）",
+      "part": "昭公二十七年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·吳太伯世家",
+      "part": "王僚十三年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhuan-zhu",
+      "name": "专诸",
+      "display": "专诸",
+      "birthAccuracy": "unknown",
+      "death": -515,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·昭公二十七年（前515）公子光宴王僚，鱄设诸抽剑刺王，铍交于胸而死；史记·吴太伯世家「遂弒王僚」。",
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-liao",
+      "name": "吴僚",
+      "display": "吴王僚",
+      "birthAccuracy": "unknown",
+      "death": -515,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·吴太伯世家：公子光使专诸「遂弒王僚」；左传·昭公二十七年（前515）鱄设诸刺王僚。余眛卒前527，僚立后十三年得前515。",
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-guang",
+      "name": "姬光",
+      "display": "吴王阖闾",
+      "birthAccuracy": "unknown",
+      "death": -496,
+      "deathAccuracy": "exact",
+      "title": "吴王，破楚入郢",
+      "bio": "公子光弑王僚自立。用伍子胥、孙武，柏举之战入郢。檇李之役伤于越，还卒。吴的条从此交给夫差。",
+      "tags": [
+        "吴国",
+        "柏举"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

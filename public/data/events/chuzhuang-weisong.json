@@ -1,0 +1,97 @@
+{
+  "id": "chuzhuang-weisong",
+  "name": "楚庄王围宋",
+  "display": "楚庄王围宋",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -595,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·宣公十四年》「秋，九月，楚子圍宋」（前595起），《宣公十五年》「夏，五月，宋人及楚人平」（前594解）；《史記·宋微子世家》文公十六年（前595）九月圍宋，《楚世家》系莊王二十年（前594，圍解年）。圍城九閱月。",
+  "endYear": -594,
+  "endYearAccuracy": "exact",
+  "endYearNote": "《春秋·宣公十五年》「夏，五月，宋人及楚人平」，围解之年。",
+  "place": "宋都（商丘）",
+  "placeNow": "今河南商丘",
+  "belligerents": [
+    "chu",
+    "song-guo"
+  ],
+  "commanders": [
+    {
+      "id": "mi-lv",
+      "side": "chu"
+    }
+  ],
+  "people": [
+    "song-wengong"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "楚使申舟过宋不假道被杀，楚庄王投袂而起围宋；围九阅月，宋「易子而食，析骸以爨」，华元夜入楚师告实情，楚军亦止二日粮，退三十里而盟，宋及楚平。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷24",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷038·宋微子世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷040·楚世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "song-wengong",
+      "name": "子鮑",
+      "display": "宋文公",
+      "birthAccuracy": "unknown",
+      "death": -589,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·宋微子世家「二十二年，文公卒，子共公瑕立」。文公元年前610，二十二年得前589。",
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "mi-lv",
+      "name": "芈侣",
+      "display": "楚庄王",
+      "birthAccuracy": "unknown",
+      "death": -591,
+      "deathAccuracy": "exact",
+      "title": "楚国霸主，问鼎中原",
+      "bio": "即位三年不出，后一鸣惊人。邲之战败晋，观兵周疆、问鼎之轻。春秋霸业从齐晋转到南楚，他的条是转折点。",
+      "tags": [
+        "楚国",
+        "邲之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

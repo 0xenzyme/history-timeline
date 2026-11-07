@@ -1,0 +1,76 @@
+{
+  "id": "li-xiu-cheng",
+  "name": "李秀成",
+  "display": "李秀成",
+  "birth": 1823,
+  "birthAccuracy": "exact",
+  "death": 1864,
+  "deathAccuracy": "exact",
+  "deathNote": "天京陷后护幼主出城，被执，作供词数万言而就义。",
+  "title": "忠王，后期之支柱",
+  "bio": "广西藤县人，太平军后期支柱，封忠王，二破江北大营而经营苏福省。1864 年天京陷，护幼主出城被俘，供词数万言，就义于南京。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "qing",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hong-xiuquan",
+      "target": "li-xiu-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "封忠王，后期支柱，经营苏福省"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "li-xiu-cheng",
+      "target": "zeng-guofan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "天京之役为其所破，城陷护幼主出走被俘"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "taiping-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "洪秀全传",
+      "kind": "classic"
+    }
+  ]
+}

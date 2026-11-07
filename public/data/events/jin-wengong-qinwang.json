@@ -1,0 +1,197 @@
+{
+  "id": "jin-wengong-qinwang",
+  "name": "晋文公即位与勤王",
+  "display": "晋文公即位与勤王",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -636,
+  "yearAccuracy": "exact",
+  "yearNote": "即位：左传僖公二十四年（前636）壬寅入于晋师、丙午入于曲沃、丁未朝于武宫，史记晋世家文公元年同；勤王：僖公二十五年（前635）秦伯师于河上、晋辞秦师而下，入襄王于周、杀叔带。两事经传史记一致。",
+  "endYear": -635,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "jin-guo",
+    "zhou"
+  ],
+  "people": [
+    "ji-chonger",
+    "hu-yan",
+    "ji-zheng",
+    "jin-huigong",
+    "jin-huaigong"
+  ],
+  "aliases": [
+    "重耳归国即位",
+    "晋文公勤王",
+    "杀太叔带、纳周襄王",
+    "晋纳王"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "重耳历十九年流亡归国即位（前636）；次年周襄王为弟太叔带与狄师所逐、出居郑氾，晋文公用狐偃之谋辞秦师而独纳王，杀带，襄王赐河内阳樊之地。尊王既成，霸业之资已具。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷15",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義 卷14（僖公二十四年）",
+      "part": "僖公二十四年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·晉世家",
+      "part": "文公元年",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義 卷15（僖公二十五年）",
+      "part": "僖公二十五年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·晉世家",
+      "part": "文公二年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-chonger",
+      "name": "姬重耳",
+      "display": "晋文公",
+      "birth": -697,
+      "birthAccuracy": "disputed",
+      "death": -628,
+      "deathAccuracy": "exact",
+      "birthNote": "《晋世家》记奔狄时年四十三，则生年约前 697；或疑年岁偏长。",
+      "title": "春秋第二位公认霸主",
+      "bio": "献公子。在外十九年，秦纳之。城濮败楚、践土会盟。出亡的长条几乎空着，即位后的九年才把霸业画完。",
+      "tags": [
+        "晋国",
+        "城濮"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hu-yan",
+      "name": "狐偃",
+      "display": "狐偃",
+      "birthAccuracy": "unknown",
+      "death": -628,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。从亡十九年，文公即位后为谋主；取文公卒年为活动下限。",
+      "title": "晋文公舅，从亡谋主",
+      "bio": "字子犯。劝重耳勿怀安于齐，城濮之谋多出其口。他的条贴着文公出亡那一段——没有这条，十九年只是流浪。",
+      "tags": [
+        "晋国",
+        "从亡"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-zheng",
+      "name": "姬郑",
+      "display": "周襄王",
+      "birthAccuracy": "unknown",
+      "death": -619,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王三十三年 王陟」；史记·周本纪作「三十二年，襄王崩」，早一年，此处取竹书。",
+      "title": "借晋文公之力复位，践土受诸侯朝",
+      "bio": "惠王崩而立。惠后与叔带之乱逼得襄王出奔郑、居氾，子带自立为王。前 636 晋文公纳襄王而诛叔带，天子赐珪鬯弓矢为伯。二十年河阳、践土之会，诸侯毕朝而书「天王狩于河阳」——书法的避讳本身就是权威的证明。",
+      "tags": [
+        "晋文公纳王",
+        "践土之会",
+        "叔带之乱"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jin-huigong",
+      "name": "姬夷吾",
+      "display": "晋惠公",
+      "birthAccuracy": "unknown",
+      "death": -637,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王十五年，晋惠公卒，子怀公圉立」。",
+      "title": "骊姬之乱后即位十四年，为秦所立",
+      "bio": "献公之子，骊姬所生。献公卒，骊姬使里克杀奚齐、卓子而立夷吾，惠公既立而诛里克等三郤，晋国内乱。前637年卒，十四年在位。子怀公圉立。",
+      "tags": [
+        "骊姬之乱",
+        "三郤之乱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jin-huaigong",
+      "name": "姬圉",
+      "display": "晋怀公",
+      "birthAccuracy": "unknown",
+      "death": -636,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王十六年，晋杀子圉」。试跑文档原作前637，与其父惠公同年，竹书则记惠公卒（前637）后一年被杀，故改正为前636。",
+      "title": "在位一年，为秦送重耳归国所杀",
+      "bio": "惠公太子。前637年惠公卒而立，即位后诛狐突，杀狐毛、偃之父，晋人怨毒。明年秦穆公送公子重耳归国，遂杀怀公于高梁，迎重耳立，是为文公。惠公一系复绝。",
+      "tags": [
+        "秦纳重耳",
+        "被杀",
+        "高梁之战"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

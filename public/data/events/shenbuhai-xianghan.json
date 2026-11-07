@@ -1,0 +1,93 @@
+{
+  "id": "shenbuhai-xianghan",
+  "name": "申不害相韩",
+  "display": "申不害相韩",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": -351,
+  "yearAccuracy": "approx",
+  "yearNote": "《史记·老子韩非列传》载「昭侯用为相，内修政教，外应诸侯，十五年，终申子之身，国治兵彊」但未系绝对年份；学界通取申不害相韩约前351—前337。",
+  "endYear": -337,
+  "endYearAccuracy": "approx",
+  "endYearNote": "终年据：《史记·老子韩非列传》载「昭侯用为相，内修政教，外应诸侯，十五年，终申子之身，国治兵彊」但未系绝对年份；学界通取申不害相",
+  "polity": [
+    "han-guo"
+  ],
+  "people": [
+    "shen-buhai",
+    "han-zhaohou"
+  ],
+  "aliases": [
+    "申不害变法",
+    "内修政教"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "韩昭侯用申不害为相，「內修政教，外應諸侯」，以术御臣十五年，终申子之身国治兵彊，无侵韩者。术治与商鞅之法、慎到之势并称于世，然人亡政息，韩终为七雄之最弱。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷六十三·老子韩非列传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shen-buhai",
+      "name": "申不害",
+      "display": "申不害",
+      "birthAccuracy": "unknown",
+      "death": -337,
+      "deathAccuracy": "exact",
+      "deathNote": "老子韩非列传、韩世家：申子卒、韩国不复振；由昭侯纪元与年表系前337年卒。",
+      "title": "韩相，主术的法家",
+      "bio": "故郑之贱臣，学黄老刑名以术干韩昭侯，昭侯使相韩：内修政教、外应诸侯，国治兵强十五年，终申子之身诸侯不敢侵。法家称\"商君之法、申子之术\"，创始两人同在轴上；他死后四年昭侯亦卒，韩不复振。",
+      "tags": [
+        "韩国",
+        "变法",
+        "术"
+      ],
+      "categories": [
+        "minister"
+      ],
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "han-zhaohou",
+      "name": "韩昭侯",
+      "display": "韩昭侯",
+      "birthAccuracy": "unknown",
+      "death": -333,
+      "deathAccuracy": "exact",
+      "deathNote": "韩世家在位年与年表系定，前333年卒；申不害卒在其任内（老子韩非列传）。",
+      "title": "韩侯，用申不害之主",
+      "bio": "任申不害相韩，国治兵强，终申子之身诸侯不敢侵；敛席藏弊的俭核之政出名。前333年卒——韩的最后一轮振作收在这条上，其后韩不复振。",
+      "tags": [
+        "韩国",
+        "申不害",
+        "变法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

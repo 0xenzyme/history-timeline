@@ -1,0 +1,85 @@
+{
+  "id": "su-ding-fang",
+  "name": "苏定方",
+  "display": "苏定方",
+  "birth": 592,
+  "birthAccuracy": "exact",
+  "death": 667,
+  "deathAccuracy": "exact",
+  "title": "擒贺鲁，乾封二年卒",
+  "bio": "冀州武邑人。贞观四年从李靖袭颉利，率二百骑为前锋。显庆中于碎叶水破西突厥沙钵罗可汗贺鲁，俘至京师。乾封二年卒，年七十六。",
+  "tags": [
+    "唐",
+    "突厥"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-jing",
+      "target": "su-ding-fang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "靖用定方为前锋，夜袭颉利"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "a-shi-na-he-lu",
+      "target": "su-ding-fang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "显庆二年破贺鲁于碎叶水"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "tang-mie-baiji",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "xitu-jue-zhanzheng",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "苏定方"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "苏定方传",
+      "kind": "classic"
+    }
+  ]
+}

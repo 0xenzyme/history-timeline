@@ -1,0 +1,85 @@
+{
+  "id": "bo-yu",
+  "name": "伯御",
+  "display": "伯御",
+  "birthAccuracy": "unknown",
+  "death": -796,
+  "deathAccuracy": "exact",
+  "deathNote": "国语：宣王三十二年春伐鲁，立孝公。史记：伯御即位十一年，宣王伐鲁杀之。",
+  "title": "鲁伯御，宣王所杀",
+  "bio": "武公长子括之子。攻弑懿公而自立。即位十一年，宣王伐鲁杀之，改立孝公。国语谓诸侯从是而不睦。",
+  "tags": [
+    "鲁"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bo-yu",
+      "target": "ji-kuo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。史记：伯御为括之子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "bo-yu",
+      "target": "ji-xi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "伯御与鲁人攻弑懿公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "bo-yu",
+      "target": "ji-jing",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "宣王伐鲁，杀伯御"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "伯御"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "鲁周公世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "周语上",
+      "kind": "classic"
+    }
+  ]
+}

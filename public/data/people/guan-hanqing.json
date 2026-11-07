@@ -1,0 +1,60 @@
+{
+  "id": "guan-hanqing",
+  "name": "关汉卿",
+  "display": "关汉卿",
+  "birth": 1220,
+  "birthAccuracy": "approx",
+  "death": 1300,
+  "deathAccuracy": "approx",
+  "title": "元曲大家",
+  "bio": "大都人，号已斋叟，生卒约当十三世纪。撰杂剧六十余种，《窦娥冤》最著；为元曲本色当行之冠。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "drama"
+  ],
+  "primary": "drama",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bai-pu",
+      "target": "guan-hanqing",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为元曲前期大家，杂剧行于大都"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yuanqu-zaju",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "录鬼簿",
+      "part": "关汉卿"
+    }
+  ]
+}

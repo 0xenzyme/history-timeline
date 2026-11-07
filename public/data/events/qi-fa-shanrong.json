@@ -1,0 +1,99 @@
+{
+  "id": "qi-fa-shanrong",
+  "name": "齐伐山戎救燕",
+  "display": "齐伐山戎救燕",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -664,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·莊公三十年》冬「齊人伐山戎」（前664）、三十一年「齊侯來獻戎捷」（前663）；《史記·齊太公世家》系桓公二十三年（前663）。战役跨前664冬至前663年，取经系始年。",
+  "endYear": -663,
+  "endYearAccuracy": "exact",
+  "endYearNote": "《春秋·莊公三十一年》「夏，齊侯來獻戎捷」，为北征归国献捷之年。",
+  "place": "山戎、孤竹",
+  "placeNow": "今河北北部燕山地带，深入至孤竹（今河北卢龙一带）",
+  "belligerents": [
+    "qi",
+    "shanrong"
+  ],
+  "commanders": [
+    {
+      "id": "jiang-xiaobai",
+      "side": "qi"
+    }
+  ],
+  "people": [
+    "guan-zhong"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "山戎病燕，齐桓公应燕告急北伐山戎至于孤竹；燕庄公送桓公入齐境，桓公割地规燕、命燕复修召公之政纳贡于周。齐霸「北伐山戎、南伐楚」格局的北方半边。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷09",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷032·齊太公世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guan-zhong",
+      "name": "管夷吾",
+      "display": "管仲",
+      "birthAccuracy": "unknown",
+      "death": -645,
+      "deathAccuracy": "exact",
+      "title": "齐桓公相",
+      "bio": "颍上人。鲍叔牙囚中荐之。相齐四十年，富国强兵，尊王攘夷。桓公的条有多长，他的条几乎就有多长。",
+      "tags": [
+        "齐国",
+        "改革"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jiang-xiaobai",
+      "name": "姜小白",
+      "display": "齐桓公",
+      "birthAccuracy": "unknown",
+      "death": -643,
+      "deathAccuracy": "exact",
+      "title": "春秋首霸",
+      "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
+      "tags": [
+        "齐国"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

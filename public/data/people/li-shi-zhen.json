@@ -1,0 +1,55 @@
+{
+  "id": "li-shi-zhen",
+  "name": "李时珍",
+  "display": "李时珍",
+  "birth": 1518,
+  "birthAccuracy": "exact",
+  "death": 1593,
+  "deathAccuracy": "exact",
+  "title": "《本草纲目》",
+  "bio": "蕲州人，世医。历三十载遍尝百草、订讹补阙，成《本草纲目》五十二卷，集药物学之大成。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "medicine",
+    "science"
+  ],
+  "primary": "medicine",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shi-zhen",
+      "target": "xu-guangqi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "晚明实学，医农并重"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "方技传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "chen-yubi",
+  "name": "陈于陛",
+  "display": "陈于陛",
+  "birthAccuracy": "unknown",
+  "death": 1596,
+  "deathAccuracy": "exact",
+  "deathNote": "万历二十四年冬病卒于位。",
+  "title": "卒于阁直",
+  "bio": "与赵志皋、张位、沈一贯同在内阁。万历二十四年冬病卒于位。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "chen-yubi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "与赵志皋等同在内阁，万历二十四年冬卒于位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "chen-yubi",
+      "target": "zhao-zhigao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与赵志皋、张位、沈一贯同在内阁，悉心受过而早卒于位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "陈于陛传",
+      "kind": "classic"
+    }
+  ]
+}

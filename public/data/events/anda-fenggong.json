@@ -1,0 +1,99 @@
+{
+  "id": "anda-fenggong",
+  "name": "俺答封贡",
+  "display": "俺答封贡",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1571,
+  "yearAccuracy": "exact",
+  "yearNote": "隆庆五年三月己丑。把汉那吉降在前一年冬，不单独立条。",
+  "polity": [
+    "ming",
+    "mongol"
+  ],
+  "people": [
+    "anda-han",
+    "zhu-zaiji"
+  ],
+  "result": "俺答受封顺义王",
+  "aliases": [
+    "隆庆和议",
+    "封顺义王"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "隆庆五年三月己丑，封俺答为顺义王。鞑靼传记诏封顺义王。把汉那吉来降不单独立条。俺答是蒙古部酋，政权用 mongol，不写作元朝。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷十九",
+      "note": "隆庆五年三月己丑封俺答为顺义王",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "卷三百二十七",
+      "note": "诏封俺答为顺义王。同书不同篇，不是第二部独立经典",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "anda-han",
+      "name": "俺答汗",
+      "display": "俺答汗",
+      "birth": 1507,
+      "birthAccuracy": "exact",
+      "death": 1582,
+      "deathAccuracy": "exact",
+      "title": "庚戌之变与顺义王",
+      "bio": "蒙古土默特部首领，达延汗之孙。屡寇北边，1550 年薄都城，焚掠近畿，是为庚戌之变; 1571 年受封顺义王，开互市。",
+      "tags": [
+        "明",
+        "漠北"
+      ],
+      "categories": [
+        "outsider",
+        "warlord"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "mongol"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-zaiji",
+      "name": "朱载坖",
+      "display": "明穆宗朱载坖",
+      "birth": 1537,
+      "birthAccuracy": "exact",
+      "death": 1572,
+      "deathAccuracy": "exact",
+      "title": "隆庆开关",
+      "bio": "世宗第三子，嘉靖四十五年即位。平反冤狱、弛海禁开互市，俺答封贡，北边稍安。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

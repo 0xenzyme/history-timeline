@@ -1,0 +1,57 @@
+{
+  "id": "li-congbai",
+  "name": "李从善",
+  "display": "李从善",
+  "birthAccuracy": "unknown",
+  "death": 978,
+  "deathAccuracy": "exact",
+  "title": "江南之弟，入宋不遣",
+  "bio": "元宗之子，后主母弟。开宝中奉使入宋，留不遣，遥领泰平军节度、丹阳郡开国公。金陵城破，兄弟复相见于汴，郁郁而卒。",
+  "tags": [
+    "十国",
+    "南唐"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-congbai",
+      "target": "li-yu-937",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，从善入宋不返"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "南唐",
+      "kind": "classic"
+    }
+  ]
+}

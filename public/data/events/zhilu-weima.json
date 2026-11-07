@@ -1,0 +1,88 @@
+{
+  "id": "zhilu-weima",
+  "name": "指鹿为马",
+  "display": "指鹿为马",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": -207,
+  "yearAccuracy": "exact",
+  "yearNote": "二世时赵高专权，以鹿为马试群臣。见《史记·秦始皇本纪》赵高事，系于二世末年，即公元前207年。此非史之纪年，而其事在秦亡之前夕。",
+  "place": "咸阳",
+  "placeNow": "今陕西咸阳",
+  "polity": [
+    "qin"
+  ],
+  "people": [
+    "zhao-gao",
+    "ying-huhai"
+  ],
+  "result": "群臣畏高，不直言鹿者；二世之世，权去公室而亡形已成",
+  "aliases": [
+    "指鹿为马"
+  ],
+  "dynasties": [
+    "qin"
+  ],
+  "desc": "二世之世，赵高为郎中令，任用私人为宦者，诛杀宗室大臣。高欲专秦政，恐群臣不听，乃先设验。持鹿献于二世，曰：「马也。」二世笑曰：「丞相误邪？谓鹿为马。」问左右，左右或默，或言鹿以阿顺赵高。高因阴中诸言鹿者以法，群臣皆畏高，莫敢正言。其后高遂弑二世于望夷宫，立子婴，而秦亡。指鹿之试，非为戏也，以示威福在己，而人莫予毒已。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-gao",
+      "name": "赵高",
+      "display": "赵高",
+      "birthAccuracy": "unknown",
+      "death": -207,
+      "deathAccuracy": "exact",
+      "title": "秦中车府令、丞相，指鹿为马",
+      "bio": "沙丘矫诏，杀扶苏与蒙氏，构陷李斯，遂为丞相。指鹿为马以测群臣。二世三年被子婴所杀。亡秦这条线从他起，也到他止。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-huhai",
+      "name": "嬴胡亥",
+      "display": "秦二世",
+      "birthAccuracy": "unknown",
+      "death": -207,
+      "deathAccuracy": "exact",
+      "title": "秦二世皇帝，赵高所立，三年而亡",
+      "bio": "始皇少子。沙丘之谋后即位，杀扶苏、蒙恬，诛诸公子与公主，续修阿房、骊山。三年后赵高指鹿为马，望夷之变中被逼自杀。条短，却是秦从统一到崩塌的全部时间。",
+      "tags": [
+        "秦朝",
+        "亡秦"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

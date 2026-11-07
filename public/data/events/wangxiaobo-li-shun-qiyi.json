@@ -1,0 +1,97 @@
+{
+  "id": "wangxiaobo-li-shun-qiyi",
+  "name": "王小波李顺起义",
+  "display": "王小波李顺起义",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 993,
+  "yearAccuracy": "exact",
+  "yearNote": "宋淳化四年二月王小波起于青城。至道元年（995）成都陷，义军败散，通作993—995。",
+  "endYear": 995,
+  "endYearAccuracy": "exact",
+  "place": "青城",
+  "placeNow": "今四川都江堰东南",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "wang-xiaobo",
+    "li-shun"
+  ],
+  "result": "川蜀大震，宋廷遣重兵剿抚，蜀地经此残破",
+  "aliases": [
+    "王小波李顺之乱"
+  ],
+  "dynasties": [
+    "liao",
+    "song"
+  ],
+  "desc": "淳化四年，王小波聚众起于青城，谓众曰：「吾疾贫富不均，今为汝均之。」从者至数万。攻彭山，县令齐元振以贪暴著，义军诛之。俄而王小波中流矢，创重而卒，众推李顺为帅，众至数十万。五年正月，李顺攻成都，官吏逾城遁，城陷，李顺据之，号大蜀王，建元应运；宋遣王继恩等分两道讨之。至道元年二月，官军复成都，义军败散，李顺被执死。蜀地自是残破，朝廷于益州置官抚绥，岁调两川之粟以给关中。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷五",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "宋纪·淳化四年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-xiaobo",
+      "name": "王小波",
+      "display": "王小波",
+      "birthAccuracy": "unknown",
+      "death": 994,
+      "deathAccuracy": "approx",
+      "deathNote": "淳化四年十二月战死，公历已入994年。",
+      "title": "「均贫富」口号的发起者",
+      "bio": "青城茶贩，以「吾疾贫富不均，今为汝均之」号召，众至数万，攻下青城彭山。淳化四年十二月战死于江原。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-shun",
+      "name": "李顺",
+      "display": "李顺",
+      "birthAccuracy": "unknown",
+      "death": 995,
+      "deathAccuracy": "disputed",
+      "deathNote": "卒年异说并存，姑系于995年（至道二年官军复成都前后）。",
+      "title": "大蜀政权的建立者",
+      "bio": "王小波妻弟，继领其众，攻下成都，建国大蜀，年号应运。至道二年官军复成都，其下落诸说不一：俘杀、遁去莫知所终，皆见记载。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

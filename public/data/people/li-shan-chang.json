@@ -1,0 +1,67 @@
+{
+  "id": "li-shan-chang",
+  "name": "李善长",
+  "display": "李善长",
+  "birth": 1314,
+  "birthAccuracy": "exact",
+  "death": 1390,
+  "deathAccuracy": "exact",
+  "title": "开国第一文臣",
+  "bio": "定远人。太祖起兵即掌书记、给军食，建国后为中书左丞相，封韩国公; 1390 年坐胡惟庸之党赐死，牵连甚众。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "founding"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yuanzhang",
+      "target": "li-shan-chang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "掌书记、给军食，开国第一文臣"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hu-wei-yong",
+      "target": "li-shan-chang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "善长荐之入相，后皆坐其党"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "李善长传",
+      "kind": "classic"
+    }
+  ]
+}

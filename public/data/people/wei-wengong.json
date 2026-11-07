@@ -1,0 +1,45 @@
+{
+  "id": "wei-wengong",
+  "name": "姬燬",
+  "display": "卫文公",
+  "birthAccuracy": "unknown",
+  "death": -635,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·卫康叔世家「二十五年，文公卒，子成公鄭立」。戴公卒后文公立前659，二十五年得前635。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "cheng-chuqiu-feng-wei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "di-ru-wei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

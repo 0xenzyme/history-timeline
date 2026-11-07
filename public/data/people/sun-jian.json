@@ -1,0 +1,65 @@
+{
+  "id": "sun-jian",
+  "name": "孙坚",
+  "display": "孙坚",
+  "birthAccuracy": "unknown",
+  "death": 191,
+  "deathAccuracy": "exact",
+  "title": "破虏将军，讨董卓先入洛阳",
+  "bio": "吴郡富春人，少为县吏，以勇烈显。讨黄巾、平区星，长沙太守。初平元年举兵讨董，斩华雄、都尉叶雄，先诸侯入洛阳，得传国玺于井中。二年与刘表战于襄阳，为黄祖部曲射杀，年三十七。江东基业自此始。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "general",
+    "founding"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-ce",
+      "target": "sun-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孙坚",
+    "孙文台",
+    "破虏将军"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·孙破虏讨逆传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "song-daigong",
+  "name": "宋戴公",
+  "display": "宋戴公",
+  "birthAccuracy": "unknown",
+  "death": -766,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：戴公二十九年犬戎杀幽王，三十四年卒。二十九年当 -771，三十四年当 -766。",
+  "title": "宋戴公",
+  "bio": "哀公之子。二十九年犬戎杀幽王，三十四年卒。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "song-aigong",
+      "target": "song-daigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "song-daigong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "戴公二十九年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "宋戴公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "宋微子世家"
+    }
+  ]
+}

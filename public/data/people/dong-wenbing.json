@@ -1,0 +1,66 @@
+{
+  "id": "dong-wenbing",
+  "name": "董文炳",
+  "display": "董文炳",
+  "birth": 1217,
+  "birthAccuracy": "exact",
+  "death": 1278,
+  "deathAccuracy": "exact",
+  "title": "藁城董氏，江南之役",
+  "bio": "真定藁城人，世侯董俊之子。从忽必烈征，以轻骑收沿江诸郡，禁杀掠而人心归；1278 年卒，年六十二。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dong-wenbing",
+      "target": "zhang-rou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为汉军世侯之后，同隶南征诸军"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "dong-wenbing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "收沿江诸郡而禁杀掠，人心遂附"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "董文炳传",
+      "kind": "classic"
+    }
+  ]
+}

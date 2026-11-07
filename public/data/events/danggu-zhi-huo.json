@@ -1,0 +1,137 @@
+{
+  "id": "danggu-zhi-huo",
+  "name": "党锢之祸",
+  "display": "党锢之祸",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 166,
+  "yearAccuracy": "approx",
+  "yearNote": "两次党禁及其后续禁锢，起止按166—184年概括",
+  "endYear": 184,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "li-ying",
+    "chen-fan",
+    "guo-tai",
+    "liu-zhi"
+  ],
+  "result": "清流士人遭禁锢，宦官与外戚主导的权力结构进一步固化",
+  "aliases": [
+    "dh-danggu"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "桓帝、灵帝时期，宦官以党人罪名逮捕李膺、陈蕃等士人，禁锢牵连门生故吏。184年黄巾起事前后虽一度赦党，党锢造成的政治撕裂已难以恢复。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "党锢列传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-ying",
+      "name": "李膺",
+      "display": "李膺",
+      "birth": 110,
+      "birthAccuracy": "exact",
+      "death": 169,
+      "deathAccuracy": "exact",
+      "title": "党锢领袖，天下模楷李元礼",
+      "bio": "颍川襄城人，性简亢，不交接宾客，见之者以为登龙门。为河南尹、司隶校尉，诛宦官张让之弟，风裁振朝。延熹九年党锢起，下狱免官；建宁二年再起党狱，死于狱中。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "chen-fan",
+      "name": "陈蕃",
+      "display": "陈蕃",
+      "birthAccuracy": "unknown",
+      "death": 168,
+      "deathAccuracy": "exact",
+      "title": "太傅，言事不避，与窦武同死",
+      "bio": "汝南平舆人，少有大志，一室不扫而欲扫除天下。为太尉、太傅，与李膺齐名，号为「不畏强御陈仲举」。建宁元年以上疏诛宦官，与窦武谋泄，率官属突入承明门，被执而死。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "guo-tai",
+      "name": "郭泰",
+      "display": "郭泰",
+      "birth": 128,
+      "birthAccuracy": "exact",
+      "death": 169,
+      "deathAccuracy": "exact",
+      "title": "太学生之首，人伦之鉴，不仕",
+      "bio": "太原界休人，家世贫贱。就学于屈伯彦，三年业毕，博通坟籍。游洛阳，与李膺相友善，名震京师，然闭门教授，弟子千数，终不应征辟。党锢既起，独免于难，建宁二年卒，四方会葬者千余人。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "scholar-official"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "liu-zhi",
+      "name": "刘志",
+      "display": "汉桓帝",
+      "birth": 132,
+      "birthAccuracy": "exact",
+      "death": 167,
+      "deathAccuracy": "exact",
+      "title": "东汉桓帝，诛梁冀而用五侯，党锢之始",
+      "bio": "章帝曾孙，蠡吾侯之子，梁冀所立。延熹二年与单超等五宦官诛冀，同日封侯，朝政遂归宦官。延熹九年兴党锢，李膺等二百余人下狱。一条帝条上，外戚与党人两番倾覆。",
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

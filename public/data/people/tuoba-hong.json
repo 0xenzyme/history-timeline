@@ -1,0 +1,70 @@
+{
+  "id": "tuoba-hong",
+  "name": "拓跋弘",
+  "display": "献文帝拓跋弘",
+  "birth": 454,
+  "birthAccuracy": "exact",
+  "death": 476,
+  "deathAccuracy": "exact",
+  "title": "北魏献文帝，传位后崩",
+  "bio": "文成帝长子，兴光元年七月生于阴山之北。和平六年即位，后传位于子，自为太上皇帝。承明元年崩于永安殿，年二十三。",
+  "tags": [
+    "南北朝",
+    "北魏"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tuoba-hong",
+      "target": "tuoba-jun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。显祖为高宗文成皇帝长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "tuoba-hong",
+      "target": "yuan-hong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。高祖纪称宏为显祖献文皇帝长子。献文传位后，承明元年崩"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "拓跋弘",
+    "献文帝"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "显祖纪",
+      "kind": "classic"
+    }
+  ]
+}

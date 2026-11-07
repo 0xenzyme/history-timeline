@@ -1,0 +1,72 @@
+{
+  "id": "xiao-quan",
+  "name": "全妃钮祜禄氏",
+  "display": "全妃钮祜禄氏",
+  "birth": 1808,
+  "birthAccuracy": "approx",
+  "death": 1840,
+  "deathAccuracy": "exact",
+  "birthNote": "道光二十年崩，年三十三，上推生年。",
+  "title": "文宗生母",
+  "bio": "钮祜禄氏。道光十一年生文宗，十四年立为皇后。二十年正月崩。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dao-guang",
+      "target": "xiao-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后，文宗生母。道光二十年正月崩"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xian-feng",
+      "target": "xiao-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，文宗生母，道光二十年崩"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "钮祜禄氏",
+    "全妃",
+    "孝全成皇后"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·孝全成皇后",
+      "kind": "classic"
+    }
+  ]
+}

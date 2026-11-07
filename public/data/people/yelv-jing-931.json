@@ -1,0 +1,110 @@
+{
+  "id": "yelv-jing-931",
+  "name": "耶律璟",
+  "display": "辽穆宗",
+  "birth": 931,
+  "birthAccuracy": "approx",
+  "death": 969,
+  "deathAccuracy": "exact",
+  "birthNote": "生年史无明文，据卒年（应历十九年，969）与行历约略推定，今从公元 931 年。",
+  "title": "辽穆宗，国人谓之睡王",
+  "bio": "小字述律，太宗长子。察割弑世宗，帝率寿安王讨平乱党，即位，改元应历。嗜酒畋猎，不恤政事，赏罚无章，国人谓之\"睡王\"；然北汉乞师，应援不力，高平之败、世宗北取三关，皆在其世，曰\"此本汉地，今以还主\"，亦不为边备。应历十九年二月，为近侍小哥等所弑，在位十九年。",
+  "tags": [
+    "契丹",
+    "辽"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "liao-jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "khitan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yelv-jing-931",
+      "target": "yelv-ruan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从兄弟，察割之变，寿安王讨平乱党而即位"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "yelv-jing-931",
+      "target": "yelv-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从叔侄，穆宗遇弑无嗣，世宗次子入继"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "yelv-jing-931",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "北伐下三关，睡王不设备，曰此本汉地今以还主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "liu-chengjun",
+      "target": "yelv-jing-931",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "称男事辽，乞师以存"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "liu-chong",
+      "target": "yelv-jing-931",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "称侄乞师，辽册为大汉神武皇帝，恃以抗周"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "穆宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "四夷附录",
+      "kind": "classic"
+    }
+  ]
+}

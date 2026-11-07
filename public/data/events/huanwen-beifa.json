@@ -1,0 +1,209 @@
+{
+  "id": "huanwen-beifa",
+  "name": "桓温北伐",
+  "display": "桓温北伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 354,
+  "yearAccuracy": "exact",
+  "yearNote": "永和十年（354）二月己丑桓温帅师伐关中（《晋书·穆帝纪》），为三次北伐之始。中国纪年口径。",
+  "endYear": 369,
+  "endYearAccuracy": "exact",
+  "endYearNote": "太和四年（369）第三次北伐：夏四月庚戌出师伐慕容暐，九月戊子至枋头、丙申焚舟而归，辛丑慕容垂追败温后军于襄邑（《晋书·海西公纪》）。",
+  "place": "中原（关洛至枋头一线）",
+  "placeNow": "今陕西关中及河南中北部一带",
+  "belligerents": [
+    "jin",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "huan-wen",
+      "side": "jin"
+    },
+    {
+      "id": "fu-sheng",
+      "side": "shiliuguo"
+    },
+    {
+      "id": "murong-chui",
+      "side": "shiliuguo"
+    }
+  ],
+  "people": [
+    "huan-wen",
+    "wang-meng",
+    "fu-sheng",
+    "murong-chui",
+    "fu-jian"
+  ],
+  "result": "三次皆未定中原：354年入关中粮尽退，356年一度收复洛阳（旋复失），369年枋头大败；桓温威望受挫后转谋废立",
+  "aliases": [
+    "桓温三次北伐"
+  ],
+  "tags": [
+    "campaign",
+    "北伐"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "桓温三次北伐：永和十年（354）伐前秦入关中，进至霸上而粮尽退；永和十二年（356）败姚襄于伊水、收复洛阳；太和四年（369）伐前燕，破慕容垂于林渚、进至枋头，粮运不继焚舟南退，被慕容垂追败于襄邑，死者三万。三役皆未能定中原，枋头之败后桓温转以废立自固。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷八",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷九十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "huan-wen",
+      "name": "桓温",
+      "display": "桓温",
+      "birth": 312,
+      "birthAccuracy": "exact",
+      "death": 373,
+      "deathAccuracy": "exact",
+      "title": "大司马，灭成汉、三伐北方，欲加九锡",
+      "bio": "谯国龙亢人，宣城太守彝之子，尚南康长公主。永和三年灭成汉，由是威名日盛，前后北伐三度，一度至灞上、枋头，终以粮尽而还。尝抚枕叹曰「既不能流芳后世，不足复遗臭万载邪」。太和六年废帝奕，立简文，谋加九锡未成。宁康元年卒，年六十二。",
+      "tags": [
+        "东晋",
+        "北伐"
+      ],
+      "categories": [
+        "regent",
+        "general",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-meng",
+      "name": "王猛",
+      "display": "王猛",
+      "birth": 325,
+      "birthAccuracy": "exact",
+      "death": 375,
+      "deathAccuracy": "exact",
+      "title": "前秦丞相，一岁五迁，临终止伐晋",
+      "bio": "北海剧人，少贫贱，鬻畚为业，博学好兵书。与苻坚一见若旧，一岁五迁，为丞相、中书监、尚书令。治秦二十余年，国富兵强，史称关陇清晏，百姓丰乐。宁康三年卒，年五十一，临终言晋不可伐，鲜卑、羌宜渐除，坚不能用而败。",
+      "tags": [
+        "十六国",
+        "前秦"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fu-sheng",
+      "name": "苻生",
+      "display": "苻生",
+      "birthAccuracy": "unknown",
+      "death": 357,
+      "deathAccuracy": "exact",
+      "birthNote": "载记无岁数，不编生年。",
+      "deathNote": "传卒句无年号；通鉴卷一百系升平元年（357）废为越王，「寻杀之」，载记称坚以升平元年僭号而诛生。",
+      "title": "独眼暴主，谏者辄死",
+      "bio": "苻健第三子，字长生，生而无一目。力举千钧，雄勇好杀，手格猛兽，走及奔马。嗣位后荒耽淫虐，弯弓露刃以见朝臣，诛杀勋旧殆尽，谚所谓民不堪命。升平元年六月东海王苻坚率壮士入宫废为越王，寻杀之，谥曰厉王。",
+      "tags": [
+        "十六国",
+        "前秦",
+        "暴君"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "murong-chui",
+      "name": "慕容垂",
+      "display": "慕容垂",
+      "birth": 326,
+      "birthAccuracy": "exact",
+      "death": 396,
+      "deathAccuracy": "exact",
+      "title": "后燕之主，枋头却桓温，复国而卒于军",
+      "bio": "昌黎棘城鲜卑人，前燕慕容皝第五子。枋头之战大败桓温，威名振于南北。为慕容评所忌，奔秦依苻坚；淝水败后复国，称燕王于中山。建兴十年伐魏，过参合陂见积骸如山，惭愤呕血，卒于上谷，年七十一。后燕随之一蹶不振。",
+      "tags": [
+        "十六国",
+        "后燕",
+        "慕容"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fu-jian",
+      "name": "苻坚",
+      "display": "前秦苻坚",
+      "birth": 338,
+      "birthAccuracy": "exact",
+      "death": 385,
+      "deathAccuracy": "exact",
+      "title": "前秦天王，一统北方而败于淝水",
+      "bio": "略阳临渭氐人，苻雄之子。用王猛治国，劝农桑、修学校，并灭前燕、前凉、代，统一北方。建元十九年发九十万众伐晋，淝水一败而风声鹤唳，鲜卑、羌乘之而起。太安元年为姚苌所缢于新平佛寺，年四十八。北方一统只此一次，也只此十五年。",
+      "tags": [
+        "十六国",
+        "前秦",
+        "淝水"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

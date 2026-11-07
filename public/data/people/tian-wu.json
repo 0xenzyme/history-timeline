@@ -1,0 +1,58 @@
+{
+  "id": "tian-wu",
+  "name": "田午",
+  "display": "田齐桓公",
+  "birthAccuracy": "unknown",
+  "death": -357,
+  "deathAccuracy": "approx",
+  "deathNote": "桓公武卒年世家与年表有出入，逆推约前357年，记approx。",
+  "title": "田齐过渡之君",
+  "bio": "太公、威王之间的齐君。开稷下置大夫之制相传在田齐早段，扁鹊见桓侯而望走的故事也系在他这一世（异说并存）。约前357年卒，其后因齐立，齐最强一段开始。",
+  "tags": [
+    "齐国",
+    "稷下"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tian-wu",
+      "target": "tian-yinqi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "桓武卒，因齐立——齐最强的一段在田氏旗下"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "齐桓公（田齐）",
+    "桓公武"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "田敬仲完世家",
+      "kind": "classic"
+    }
+  ]
+}

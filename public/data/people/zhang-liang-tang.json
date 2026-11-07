@@ -1,0 +1,57 @@
+{
+  "id": "zhang-liang-tang",
+  "name": "张亮",
+  "display": "张亮",
+  "birthAccuracy": "unknown",
+  "death": 646,
+  "deathAccuracy": "exact",
+  "title": "贞观二十年斩于市",
+  "bio": "太宗朝刑部尚书，参豫朝政。贞观二十年斩于市。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "zhang-liang-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝参豫朝政，贞观二十年被斩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "张亮"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "张亮传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "sima-zhong",
+  "name": "司马衷",
+  "display": "晋惠帝司马衷",
+  "birth": 259,
+  "birthAccuracy": "exact",
+  "death": 307,
+  "deathAccuracy": "exact",
+  "title": "晋惠帝，何不食肉糜，八王之乱",
+  "bio": "司马炎第二子，九岁立为太子。即位后政出贾后，诸王争政，赵王伦篡位，齐王冏、成都王颖、河间王颙、东海王越相继兴兵，史称八王之乱。天下饥馑，帝闻百姓无粟，曰「何不食肉糜」。光熙元年食饼中毒而崩，年四十八。",
+  "tags": [
+    "西晋",
+    "八王之乱"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "sima-zhong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，惠帝愚钝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-zhong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，贾后专政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-zhong",
+      "target": "yang-yan-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。杨艳生惠帝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yu-minhuai",
+      "target": "sima-zhong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。愍怀太子"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-lun",
+      "target": "sima-zhong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废帝自僭位，改元建武"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baxia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马衷",
+    "晋惠帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "惠帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "ma-hou-mingde",
+  "name": "马皇后",
+  "display": "明德马皇后",
+  "birthAccuracy": "unknown",
+  "death": 79,
+  "deathAccuracy": "exact",
+  "deathNote": "传文建初元年之后书四年封三舅，其年六月崩。记建初四年。年四十余，不编生年。",
+  "title": "明帝皇后，马援之女",
+  "bio": "伏波将军马援的小女。史失其名。明帝皇后，章帝时为太后。建初四年六月崩，在位二十三年。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ma-hou-mingde",
+      "target": "ma-yuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "明德马皇后是马援的小女"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-zhuang",
+      "target": "ma-hou-mingde",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "明帝皇后。建初四年为太后时崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-da",
+      "target": "ma-hou-mingde",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "章帝时她为太后，建初四年六月崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "马皇后",
+    "明德马皇后"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪·明德马皇后",
+      "kind": "classic"
+    }
+  ]
+}

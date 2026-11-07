@@ -1,0 +1,57 @@
+{
+  "id": "liu-wu",
+  "name": "刘武",
+  "display": "梁孝王刘武",
+  "birthAccuracy": "unknown",
+  "death": -144,
+  "deathAccuracy": "exact",
+  "title": "梁孝王，景帝同母弟",
+  "bio": "文帝次子，与景帝同母，窦太后爱之。七国之乱中坚守梁地，扼吴楚西进之路，其功独多；恃宠营建拟于天子，求为景帝储嗣不得，意忽忽不乐，立三十五年六月病热薨。",
+  "tags": [
+    "七国之乱",
+    "梁国"
+  ],
+  "categories": [
+    "royal-kin",
+    "vassal"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-qi",
+      "target": "liu-wu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母弟，梁孝王拒吴楚有功"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "梁孝王"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "文三王传",
+      "kind": "classic"
+    }
+  ]
+}

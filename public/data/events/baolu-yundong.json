@@ -1,0 +1,91 @@
+{
+  "id": "baolu-yundong",
+  "name": "保路运动",
+  "display": "保路运动",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1911,
+  "yearAccuracy": "exact",
+  "yearNote": "宣统三年四月诏收铁路为国有，退还商股，川鄂湘粤争之；四川争路尤烈，成都遂有血案，武昌乘之而起。见《清史稿·宣统本纪》。",
+  "place": "成都",
+  "placeNow": "今四川成都",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "zai-feng",
+    "yuan-shikai"
+  ],
+  "result": "川乱作而鄂军入蜀，武汉空虚；八月武昌新军之变，清社之屋由此决",
+  "aliases": [
+    "铁路风潮",
+    "四川保路同志会"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "清之末造，国帑内空，重以外债，乃有借款筑路之议。川汉、粤汉铁路本归商办，川人以租股敛之，岁得数百万；而所集之资又为上海钱号侵蚀，款存而路未筑。宣统三年四月，邮传部尚书盛宣怀请收铁路为国有，督办大臣端方派员入川查账，以四国银行团之款赎路。川人谓前日之款既还，而以国家之路抵借外债，大愤。六月，蒲殿俊、罗纶等立保路同志会，集者数十万。川督赵尔丰捕蒲殿俊、罗纶等九人，成都士民赴督署请命，兵开枪，死者数十，全城罢市。鄂督瑞澂率兵入川，武汉空虚。八月十九日，武昌新军之变作，而清以亡。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "宣统本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zai-feng",
+      "name": "载沣",
+      "display": "载沣",
+      "birth": 1883,
+      "birthAccuracy": "approx",
+      "death": 1951,
+      "deathAccuracy": "exact",
+      "birthNote": "自日记与行谱系为光绪九年十月，合公历约 1883（通行生日常折为 2 月 12 日，未复核干支折日，故记 approx）。",
+      "deathNote": "卒于北京，modern 年谱口径系为民国四十年十二月十八日，折公历 1951 年 2 月 3 日；清史稿无传不载。",
+      "categories": [
+        "royal-kin"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-shikai",
+      "name": "袁世凯",
+      "display": "袁世凯",
+      "birth": 1859,
+      "birthAccuracy": "exact",
+      "death": 1916,
+      "deathAccuracy": "exact",
+      "title": "北洋领袖",
+      "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "regent",
+        "official",
+        "general",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

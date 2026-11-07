@@ -1,0 +1,107 @@
+{
+  "id": "dayuan-jianguo",
+  "name": "建国号大元",
+  "display": "建大元",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1271,
+  "yearAccuracy": "exact",
+  "yearNote": "本纪系于至元八年十一月，不是至元七年或九年。改大都是下一年二月的另一件事。",
+  "polity": [
+    "yuan"
+  ],
+  "people": [
+    "hu-bi-lie",
+    "liu-bingzhong"
+  ],
+  "result": "国号定为大元",
+  "aliases": [
+    "至元建号",
+    "大元"
+  ],
+  "dynasties": [
+    "song",
+    "mongol",
+    "yuan"
+  ],
+  "desc": "至元八年十一月，忽必烈建国号曰大元，诏书说取《易》乾元之义。刘秉忠传记他于八年奏上这个国号。政权名称和正统表述由此定为大元。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷七·世祖本纪",
+      "note": "至元八年十一月建国号曰大元，取易经乾元之义",
+      "kind": "classic"
+    },
+    {
+      "work": "元史",
+      "part": "卷一百五十七·刘秉忠传",
+      "note": "八年奏建国号曰大元",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷一百七十九",
+      "note": "建国号曰大元，从刘秉忠请",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hu-bi-lie",
+      "name": "忽必烈",
+      "display": "元世祖忽必烈",
+      "birth": 1215,
+      "birthAccuracy": "exact",
+      "death": 1294,
+      "deathAccuracy": "exact",
+      "title": "元世祖，灭宋建元的大汗",
+      "bio": "拖雷次子，1260年即汗位，建元中统，定都燕京。襄阳围六年而克，伯颜下临安，崖山灭宋，混一天下。至元三十一年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-bingzhong",
+      "name": "刘秉忠",
+      "display": "刘秉忠",
+      "birth": 1216,
+      "birthAccuracy": "exact",
+      "death": 1274,
+      "deathAccuracy": "exact",
+      "title": "忽必烈谋主，设计大都",
+      "bio": "邢州人，出家为僧而学兼儒释，忽必烈召置幕府。建国号、定官制、筑大都、制朝仪，一代典章多出其手。",
+      "tags": [
+        "元",
+        "汉法"
+      ],
+      "categories": [
+        "chancellor",
+        "strategist",
+        "buddhism"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,91 @@
+{
+  "id": "ji-bofu",
+  "name": "姬伯服",
+  "display": "伯服",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "exact",
+  "deathNote": "今本竹书：犬戎杀王子伯服。史记只记立为太子，不记其死。",
+  "title": "幽王与褒姒之子",
+  "bio": "褒姒所生。幽王废申后、去太子宜臼，立伯服为太子。竹书谓犬戎杀王子伯服。",
+  "tags": [
+    "废嫡"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-bofu",
+      "target": "ji-gongsheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。褒姒所生，后立为太子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "bao-si",
+      "target": "ji-bofu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-bofu",
+      "target": "ji-yijiu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废嫡立庶，伯服取代宜臼"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "伯服",
+    "姬伯服"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "kind": "classic"
+    }
+  ]
+}

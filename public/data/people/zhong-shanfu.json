@@ -1,0 +1,86 @@
+{
+  "id": "zhong-shanfu",
+  "name": "仲山甫",
+  "display": "仲山甫",
+  "birthAccuracy": "unknown",
+  "death": -782,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。宣王之世为樊侯、辅政，《烝民》颂之，取宣王卒年为活动下限。",
+  "title": "宣王卿士，樊侯",
+  "bio": "宣王时补缺、柔远。尹吉甫作《烝民》美之。他的条几乎与宣王中兴重叠，是中兴在卿士泳道上的对应物。",
+  "tags": [
+    "宣王中兴"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "zhong-shanfu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "樊侯辅政，尹吉甫作《烝民》美之"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "yin-jifu",
+      "target": "zhong-shanfu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为宣王中兴的卿士"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-cheng",
+      "target": "zhong-shanfu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "樊穆仲谓称肃恭明神，宣王乃立孝公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "樊仲山甫",
+    "樊穆仲"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "大雅·烝民",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

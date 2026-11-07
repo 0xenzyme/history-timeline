@@ -1,0 +1,80 @@
+{
+  "id": "qi-mie-ji",
+  "name": "齐灭纪（纪侯大去其国）",
+  "display": "齐灭纪（纪侯大去其国）",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -690,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋》：莊公元年「齊師遷紀郱、鄑、郚」（前693）、三年「紀季以酅入於齊」（前691）、四年「紀侯大去其國」（前690），《左傳》「違齊難也」；《史記·齊太公世家》襄公八年「伐紀，紀遷去其邑」互证。取亡国完成之年＝前690。",
+  "place": "紀（郱、鄑、郚；酅）",
+  "placeNow": "纪都故城在今山东省寿光市南纪台镇一带（人民网/省保通说）；酅为纪季入齐之邑，纪都以西近齐",
+  "belligerents": [
+    "qi",
+    "ji-guo"
+  ],
+  "commanders": [
+    {
+      "id": "qi-xianggong",
+      "side": "qi"
+    }
+  ],
+  "aliases": [
+    "齐襄公灭纪",
+    "齐师迁纪郱鄑郚"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "齐襄公借齐纪世仇（纪侯谮哀公于周、周烹哀公，见《齐太公世家》）吞并纪国，三步完成：前693齐师迁纪郱、鄑、郚三邑；前691纪侯弟纪季以酅邑入齐为附庸，纪于是始判；前690纪侯大去其国，纪亡。齐地由此东拓至淄潍流域，吞并侯爵邻国以壮根基，为齐桓公称霸铺路。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷07",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷032·齊太公世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "qi-xianggong",
+      "name": "姜诸儿",
+      "display": "齐襄公",
+      "birthAccuracy": "unknown",
+      "death": -686,
+      "deathAccuracy": "approx",
+      "deathNote": "史记未记襄公在位年数。卒年前686，系据其父釐公卒（前698）与子孝公卒（前633）之间的次序及桓公卒前685推定，作约年。左传·桓公十八年（前704）载齐侯使管至父戍葵丘、瓜时往而不代，即襄公末年之事。",
+      "title": "醉杀鲁桓公，为公孙无知所弑",
+      "bio": "釐公太子。父卒立为君，丝绌无知秩服，无知怨。通桓公夫人，醉而使力士彭生抱鲁桓公上车以杀之，桓公下车而死。诸弟惧祸及己，公子纠奔鲁。襄公后为公孙无知所弑，雍林人又袭杀无知。",
+      "tags": [
+        "杀鲁桓公",
+        "公孙无知之乱",
+        "公子纠奔鲁"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

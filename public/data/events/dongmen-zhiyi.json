@@ -1,0 +1,108 @@
+{
+  "id": "dongmen-zhiyi",
+  "name": "东门之役（卫州吁联合伐郑）",
+  "display": "东门之役（卫州吁联合伐郑）",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -719,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·隱公四年》夏书「宋公、陳侯、蔡人、衛人伐鄭」、秋书「翬帥師會宋公、陳侯、蔡人、衛人伐鄭」，九月「衛人殺州吁于濮」；《史記·鄭世家》莊公二十五年（前719）「衞州吁弒其君桓公自立，與宋伐鄭」。隱公四年＝前719。",
+  "place": "鄭都東門",
+  "placeNow": "今河南省新郑市（郑韩故城）",
+  "belligerents": [
+    "zheng",
+    "wei-guo",
+    "song-guo",
+    "chen",
+    "cai",
+    "lu"
+  ],
+  "commanders": [
+    {
+      "id": "wei-zhou-yu",
+      "side": "wei-guo"
+    },
+    {
+      "id": "song-shanggong",
+      "side": "song-guo"
+    },
+    {
+      "id": "chen-huangong",
+      "side": "chen"
+    }
+  ],
+  "aliases": [
+    "宋陈蔡卫伐郑",
+    "围郑东门"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "卫州吁弑桓公而立，为「和其民」而修先君之怨于郑，说宋殇公以「除君害」（公子冯在郑），联合陈、蔡伐郑，围郑东门五日而还；秋，鲁公子翚未经隐公之命帅师会伐。众仲评州吁「阻兵无众，安忍无亲，众叛亲离」「夫兵，犹火也，弗戢，将自焚也」；九月卫人杀州吁于濮。此役开启此后郑与宋、卫、陈、蔡的连环相攻。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷02",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷042·鄭世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wei-zhou-yu",
+      "name": "州吁",
+      "display": "州吁",
+      "birthAccuracy": "unknown",
+      "death": -719,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经·隐公四年「九月，衞人殺州吁于濮」（前719），石碏大义灭亲。弑桓公自立者。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "song-shanggong",
+      "name": "子與夷",
+      "display": "宋殇公",
+      "birthAccuracy": "unknown",
+      "death": -710,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经·桓公二年「宋督弑其君與夷及其大夫孔父」（前710）；史记·宋微子世家「殤公怒，遂弒殤公，而迎穆公子馮於鄭而立之」。",
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chen-huangong",
+      "name": "媯鮑",
+      "display": "陈桓公",
+      "birthAccuracy": "unknown",
+      "death": -707,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·陈杞世家「三十八年正月甲戌己丑，桓公鮑卒」。桓公元年前745，三十八年得前707，与春秋经·桓公五年「陳侯鮑卒」同。",
+      "polity": [
+        "chen"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

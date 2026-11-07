@@ -1,0 +1,94 @@
+{
+  "id": "zhu-youxiao",
+  "name": "朱由校",
+  "display": "明熹宗朱由校",
+  "birth": 1605,
+  "birthAccuracy": "exact",
+  "death": 1627,
+  "deathAccuracy": "exact",
+  "title": "天启木工，魏阉乱政",
+  "bio": "光宗长子，泰昌元年嗣位。好木工，委政魏忠贤，阉祸炽烈；无嗣，弟信王由检继。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-changluo",
+      "target": "zhu-youxiao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，光宗传熹宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhu-youxiao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，熹宗崩，弟思宗继"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youxiao",
+      "target": "he-zongyan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天启元年还朝，四年正月卒于官"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youxiao",
+      "target": "zhu-guozuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天启中为首辅，崇祯五年卒"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "朱由校",
+    "明熹宗"
+  ],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "熹宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

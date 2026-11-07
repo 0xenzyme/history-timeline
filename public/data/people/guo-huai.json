@@ -1,0 +1,65 @@
+{
+  "id": "guo-huai",
+  "name": "郭淮",
+  "display": "郭淮",
+  "birthAccuracy": "unknown",
+  "death": 255,
+  "deathAccuracy": "exact",
+  "title": "魏征西将军，屡拒姜维",
+  "bio": "太原阳曲人，字伯济。历雍州刺史、征西将军，都督雍凉诸军事，屡拒姜维北伐，抚御羌胡得法。正元二年卒，追赠大将军，谥贞侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yi",
+      "target": "guo-huai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏雍州刺史，拒蜀汉，后从司马懿"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhugeliang-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "郭淮",
+    "郭伯济"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·满田牵郭传",
+      "kind": "classic"
+    }
+  ]
+}

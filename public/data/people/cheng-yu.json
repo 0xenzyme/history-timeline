@@ -1,0 +1,67 @@
+{
+  "id": "cheng-yu",
+  "name": "程昱",
+  "display": "程昱",
+  "birth": 141,
+  "birthAccuracy": "exact",
+  "death": 220,
+  "deathAccuracy": "exact",
+  "title": "曹操谋臣，守鄄城，性刚戾",
+  "bio": "东郡东阿人，本名立，梦登泰山捧日而改名昱。吕布袭兖州时与荀彧守鄄城、范、东阿三县，操赖以还。屡画奇策，然性刚戾，人多惮之。文帝即位为卫尉，黄初元年卒，年八十。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "official",
+    "strategist"
+  ],
+  "primary": "strategist",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "cheng-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操谋士，守鄄城、范、东阿三城"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caocao-feng-tianzi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "程昱",
+    "程仲德"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·程郭董刘蒋刘传",
+      "kind": "classic"
+    }
+  ]
+}

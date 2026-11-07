@@ -1,0 +1,65 @@
+{
+  "id": "xian-fu",
+  "name": "显父",
+  "display": "显父",
+  "birthAccuracy": "unknown",
+  "death": -824,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《韩奕》饯韩侯，竹书宣王四年韩侯来朝，取此年为可见下限。",
+  "title": "《韩奕》饯韩侯",
+  "bio": "《韩奕》显父饯之。或是职名，未必私名。",
+  "categories": [
+    "poetry"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "xian-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《韩奕》显父饯韩侯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "han-hou",
+      "target": "xian-fu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "饯韩侯于宣王所命之朝"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "显父"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "大雅·韩奕",
+      "kind": "classic"
+    }
+  ]
+}

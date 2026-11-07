@@ -1,0 +1,84 @@
+{
+  "id": "sun-en",
+  "name": "孙恩",
+  "display": "孙恩",
+  "birthAccuracy": "unknown",
+  "death": 402,
+  "deathAccuracy": "exact",
+  "birthNote": "传无岁数，不编生年。",
+  "title": "五斗米道之乱，海上的妖贼",
+  "bio": "琅邪人，世奉五斗米道。司马元显发东土诸郡免奴为客者充兵役，东土骚动，恩遂率众攻陷会稽，杀内史王凝之，众数十万，三吴骚动。谢琰、袁山松先后败死。刘牢之、刘裕屡破之，恩退入海岛。元兴元年复寇临海，败于太守辛景，穷戚赴海自沉，妖党谓之水仙，余众推其妹夫卢循为主。",
+  "tags": [
+    "晋",
+    "东晋",
+    "叛乱",
+    "五斗米道"
+  ],
+  "categories": [
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yu",
+      "target": "sun-en",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "裕起于讨恩，南山郁洲屡破其众"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sun-en",
+      "target": "xie-yan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "隆安四年为孙恩所败，死之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sunen-luxun-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "孙恩"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "孙恩传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "安帝纪",
+      "kind": "classic"
+    }
+  ]
+}

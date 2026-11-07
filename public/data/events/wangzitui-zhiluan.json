@@ -1,0 +1,103 @@
+{
+  "id": "wangzitui-zhiluan",
+  "name": "王子颓之乱",
+  "display": "王子颓之乱",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": -675,
+  "yearAccuracy": "exact",
+  "yearNote": "左传庄公十九至二十一年（前675—前673）：庄公十九年五大夫奉子颓伐惠王不克、子颓居王所，庄公二十一年郑伯与虢叔纳王、杀子颓及五大夫；史记周本纪系惠王二年至四年，两者一致。",
+  "endYear": -673,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "zhou",
+    "zheng"
+  ],
+  "people": [
+    "wang-zi-tui",
+    "ji-liang",
+    "zheng-ligong"
+  ],
+  "aliases": [
+    "五大夫作乱立子颓",
+    "郑厉公与虢公纳惠王",
+    "周惠王复辟"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "周惠王夺五大夫之田以为囿，边伯等五人奉王子颓伐王，王出居栎、子颓僭立；三年后郑厉公与虢叔入杀子颓及五大夫，复纳惠王。周室再衰，而郑虢以勤王得地得器。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷08（莊公）",
+      "part": "莊公二十至二十一年",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·周本紀",
+      "part": "惠王二年至四年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-zi-tui",
+      "name": "姬頹",
+      "display": "王子颓",
+      "birthAccuracy": "unknown",
+      "death": -673,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·庄公二十一年（前673）郑厉公与虢叔杀王子颓、五大夫，惠王复入。逐周惠王自立者。",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-liang",
+      "name": "姬閬",
+      "display": "周惠王",
+      "birthAccuracy": "unknown",
+      "death": -652,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「惠王二十五年 春正月，狄人伐晋。王陟」。",
+      "title": "为王子頽所逐，赖郑虢复国",
+      "bio": "釐王崩而立。即位二年，宠弟王子頽联合五大夫作乱，惠王奔郑、居櫟，王位被王頽夺去四年；郑厉公与虢公伐杀王頽，惠王得以复位。十年赐齐桓公为伯，「尊王攘夷」的名号由天子亲口授受。二十五年崩。",
+      "tags": [
+        "王子颓之乱",
+        "赐齐桓公为伯"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zheng-ligong",
+      "name": "姬突",
+      "display": "郑厉公",
+      "birthAccuracy": "unknown",
+      "death": -673,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·郑世家「秋，厲公卒，子文公踕立」。厉公前680复入，据文公元年前672上推，卒于前673。",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

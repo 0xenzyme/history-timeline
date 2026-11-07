@@ -1,0 +1,123 @@
+{
+  "id": "zhao-xu",
+  "name": "赵顼",
+  "display": "赵顼",
+  "birth": 1048,
+  "birthAccuracy": "exact",
+  "death": 1085,
+  "deathAccuracy": "exact",
+  "title": "宋神宗，熙宁变法",
+  "bio": "英宗子，即位旋用王安石变法，图强御夏。新法行之利弊相半，元丰改制官制；晚年新党内部亦生龃龉。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-xu",
+      "target": "wang-anshi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1069,
+      "notes": [
+        "熙宁变法，任为宰相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-shu",
+      "target": "zhao-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，英宗传神宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "zhao-xu-zhe",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，神宗传哲宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-ji",
+      "target": "zhao-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，神宗传徽宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xihe-kaibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xining-bianfa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongle-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanfeng-songxia-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zizhi-tongjian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "神宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

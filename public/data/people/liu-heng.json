@@ -1,0 +1,151 @@
+{
+  "id": "liu-heng",
+  "name": "刘恒",
+  "display": "汉文帝",
+  "birth": -203,
+  "birthAccuracy": "approx",
+  "death": -157,
+  "deathAccuracy": "exact",
+  "title": "西汉第五位皇帝",
+  "bio": "代王入继大统。轻徭薄赋、废除肉刑，与景帝两朝合称「文景之治」，是汉初休养生息的顶点。",
+  "tags": [
+    "文景之治",
+    "无为而治"
+  ],
+  "categories": [
+    "monarch",
+    "huanglao"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "liu-heng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-heng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "jia-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -178,
+      "notes": [
+        "召为博士，后谪长沙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "chao-cuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为太子家令，辅导景帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "lv-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "吕后残害刘氏诸子，文帝因在代地得免"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "bo-ji",
+      "target": "liu-heng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。薄姬生文帝。景帝前二年崩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "zhou-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诸吕既平，迎立代王，拜右丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "zhao-tuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "陆贾再使南越，佗去帝号称臣"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孝文本纪"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "chen-xu",
+  "name": "陈顼",
+  "display": "陈宣帝陈顼",
+  "birth": 530,
+  "birthAccuracy": "exact",
+  "death": 582,
+  "deathAccuracy": "exact",
+  "title": "陈宣帝，太建十四年崩",
+  "bio": "始兴昭烈王第二子，梁中大通二年七月生。废帝之后嗣位。太建十四年正月崩于宣福殿，年五十三。",
+  "tags": [
+    "南北朝",
+    "陈"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-qian",
+      "target": "chen-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。二人同为始兴昭烈王之子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-shubao",
+      "target": "chen-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。太建十四年宣帝崩，太子叔宝即位"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-xu",
+      "target": "zhang-yaoer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同诏命高宗陈顼嗣位"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-qian-wendi",
+      "target": "chen-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。二人同为始兴昭烈王之子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "taijian-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "陈顼",
+    "陈宣帝"
+  ],
+  "sources": [
+    {
+      "work": "陈书",
+      "part": "宣帝纪",
+      "kind": "classic"
+    }
+  ]
+}

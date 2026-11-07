@@ -1,0 +1,58 @@
+{
+  "id": "wei-an-shi",
+  "name": "韦安石",
+  "display": "韦安石",
+  "birth": 651,
+  "birthAccuracy": "exact",
+  "death": 714,
+  "deathAccuracy": "exact",
+  "title": "开元二年卒于贬所，年六十四",
+  "bio": "中宗、睿宗朝为相。开元二年贬沔州别驾，既至，愤激而卒，年六十四。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "wei-an-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载700至706年在任，开元二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "韦安石"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "韦安石传",
+      "kind": "classic"
+    }
+  ]
+}

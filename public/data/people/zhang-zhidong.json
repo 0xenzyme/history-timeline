@@ -1,0 +1,62 @@
+{
+  "id": "zhang-zhidong",
+  "name": "张之洞",
+  "display": "张之洞",
+  "birth": 1837,
+  "birthAccuracy": "exact",
+  "death": 1909,
+  "deathAccuracy": "exact",
+  "title": "中体西用",
+  "bio": "洋务后期重臣，办汉阳铁厂、新式学堂，倡“中学为体、西学为用”。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "minister",
+    "official"
+  ],
+  "primary": "minister",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-hongzhang",
+      "target": "zhang-zhidong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同办洋务，南北呼应"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "feikeju",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "张之洞传",
+      "kind": "classic"
+    }
+  ]
+}

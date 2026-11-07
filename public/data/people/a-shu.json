@@ -1,0 +1,74 @@
+{
+  "id": "a-shu",
+  "name": "阿术",
+  "display": "阿术",
+  "birth": 1234,
+  "birthAccuracy": "approx",
+  "death": 1287,
+  "deathAccuracy": "exact",
+  "birthNote": "本传记卒时年五十四，上推生年约一二三四年。",
+  "title": "襄阳之役的主将",
+  "bio": "兀良合台之子、速不台之孙。与刘整围襄阳五年而下之，遂顺汉水东进，江南之役多当其锋；官至中书左丞相。1287 年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "a-shu",
+      "target": "bo-yan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同总南征之军，伯颜居上而阿术当其锋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "a-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "围襄阳五年而下之，遂顺汉水东进"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xiangyang-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "阿术传",
+      "kind": "classic"
+    }
+  ]
+}

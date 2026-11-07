@@ -1,0 +1,68 @@
+{
+  "id": "linghu-zhizhan",
+  "name": "令狐之战",
+  "display": "令狐之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": -620,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·文公七年》「戊子，晉人及秦人戰於令狐」；《左傳》秦康公送公子雍、趙盾背約夜襲，「戊子，敗秦師於令狐，至於刳首」；《史記·晉世家》靈公元年（前620）。文公七年＝前620。",
+  "place": "令狐",
+  "placeNow": "今山西临猗县西（令狐故城，杜注令狐为晋地）",
+  "belligerents": [
+    "jin-guo",
+    "qin"
+  ],
+  "commanders": [
+    {
+      "id": "qin-kanggong",
+      "side": "qin"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "晋襄公卒，赵盾初议立公子雍、先蔑如秦；秦康公以师送雍至令狐，晋旋立灵公发兵潜师夜起，败秦师于令狐，先蔑、士会奔秦。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷18",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷005·秦本紀",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "qin-kanggong",
+      "name": "嬴罃",
+      "display": "秦康公",
+      "birthAccuracy": "unknown",
+      "death": -609,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·秦本纪「康公立十二年卒，子共公立」。穆公卒前621，康公立前620，十二年得前609。",
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

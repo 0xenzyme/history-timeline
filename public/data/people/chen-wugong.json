@@ -1,0 +1,81 @@
+{
+  "id": "chen-wugong",
+  "name": "妫灵",
+  "display": "陈武公",
+  "birthAccuracy": "unknown",
+  "death": -783,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：武公十五年卒。釐公卒当 -797，下推十五年当 -783。",
+  "title": "陈武公",
+  "bio": "釐公之子。十五年卒，子夷公说立。",
+  "tags": [
+    "陈"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chen"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-wugong",
+      "target": "chen-xigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "chen-wugong",
+      "target": "chen-yigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "chen-pinggong",
+      "target": "chen-wugong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。夷公卒，弟平公立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈武公",
+    "武公灵"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家",
+      "kind": "classic"
+    }
+  ]
+}

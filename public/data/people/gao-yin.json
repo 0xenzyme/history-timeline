@@ -1,0 +1,72 @@
+{
+  "id": "gao-yin",
+  "name": "高殷",
+  "display": "废帝高殷",
+  "birth": 545,
+  "birthAccuracy": "approx",
+  "death": 561,
+  "deathAccuracy": "exact",
+  "birthNote": "天保元年立为太子，时年六岁，上推生年。皇建二年殂，年十七，与此相合。",
+  "title": "北齐废帝，济南王",
+  "bio": "文宣帝长子。天保元年立为太子，时年六岁。乾明元年被废为济南王。皇建二年九月殂于晋阳，年十七。",
+  "tags": [
+    "南北朝",
+    "北齐"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-yang",
+      "target": "gao-yin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。废帝为文宣长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yan",
+      "target": "gao-yin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "孝昭废殷为济南王，皇建二年九月使人杀之"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高殷",
+    "济南王"
+  ],
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "废帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "zi-pi",
+  "name": "罕虎",
+  "display": "子皮",
+  "birthAccuracy": "unknown",
+  "death": -529,
+  "deathAccuracy": "exact",
+  "deathNote": "左传·昭公十三年（前529）子产自平丘之会归，「未至，聞子皮卒」。授政子产的上卿。",
+  "polity": [
+    "zheng"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "zichan-zhuxingshu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "昭公十三年",
+      "kind": "classic"
+    }
+  ]
+}

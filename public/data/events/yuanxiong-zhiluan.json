@@ -1,0 +1,119 @@
+{
+  "id": "yuanxiong-zhiluan",
+  "name": "元凶之乱",
+  "display": "元凶之乱",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": 453,
+  "yearAccuracy": "exact",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "liu-shao",
+    "liu-yilong",
+    "liu-jun"
+  ],
+  "result": "刘劭弑逆旋被讨灭，孝武帝刘骏即位，元嘉之治终结",
+  "aliases": [
+    "刘劭弑逆",
+    "太子劭之乱"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "453 年（元嘉三十年）太子刘劭与东阳公主家巫严道育事发，惧诛，遂弑文帝于含章殿，自立为帝，改元太初。江州刺史刘骏起兵讨逆，四月克建康，劭与濬伏诛。史称元凶之乱，刘宋宗室相残自此愈演愈烈。",
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "二凶传",
+      "kind": "classic"
+    },
+    {
+      "work": "宋书",
+      "part": "文帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-shao",
+      "name": "刘劭",
+      "display": "元凶刘劭",
+      "birthAccuracy": "unknown",
+      "death": 453,
+      "deathAccuracy": "exact",
+      "deathNote": "「劭、濬及劭四子……並梟首大航，暴尸於市」（宋书·二凶传），承元嘉三十年台城之陷纪传系年。",
+      "title": "弑父自立之元凶，在位三月，枭首大航",
+      "tags": [
+        "南北朝",
+        "刘宋"
+      ],
+      "categories": [
+        "royal-kin",
+        "rebel"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yilong",
+      "name": "刘义隆",
+      "display": "宋文帝刘义隆",
+      "birth": 407,
+      "birthAccuracy": "exact",
+      "death": 453,
+      "deathAccuracy": "exact",
+      "title": "宋文帝，元嘉之治，北伐三败",
+      "bio": "刘裕第三子，义熙十四年封彭城公，元嘉元年即位。在位三十年，劝农桑、轻徭薄赋，江左风俗于斯为美，号元嘉之治。然性好猜忌，檀道济、裴方明皆以疑见杀；三次北伐皆败，元嘉二十七年魏军至瓜步，江左震动。三十年欲废太子，为太子劭所弑，年四十七。",
+      "tags": [
+        "南朝",
+        "刘宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-jun",
+      "name": "刘骏",
+      "display": "宋孝武帝刘骏",
+      "birth": 430,
+      "birthAccuracy": "exact",
+      "death": 464,
+      "deathAccuracy": "exact",
+      "title": "刘宋孝武帝，大明八年崩",
+      "bio": "文帝第三子，元嘉七年八月生。大明八年闰五月崩于玉烛殿，年三十五。",
+      "tags": [
+        "南北朝",
+        "刘宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

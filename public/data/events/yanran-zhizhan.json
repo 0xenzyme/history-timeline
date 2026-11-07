@@ -1,0 +1,123 @@
+{
+  "id": "yanran-zhizhan",
+  "name": "燕然之战",
+  "display": "燕然之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 89,
+  "yearAccuracy": "exact",
+  "place": "稽落山",
+  "placeNow": "今蒙古高原一带",
+  "belligerents": [
+    "han",
+    "xiongnu"
+  ],
+  "commanders": [
+    {
+      "id": "dou-xian",
+      "side": "han"
+    },
+    {
+      "id": "ban-gu",
+      "side": "han"
+    }
+  ],
+  "people": [
+    "liu-zhao"
+  ],
+  "result": "汉军大破北匈奴，窦宪登燕然山刻石纪功",
+  "aliases": [
+    "dh-yanran"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "89年，窦宪等在稽落山大破北匈奴，追击至和渠北鞮海，并登燕然山刻石勒功。北匈奴势力由此退却，北疆格局发生转折。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "和帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-zhao",
+      "name": "刘肇",
+      "display": "汉和帝",
+      "birth": 79,
+      "birthAccuracy": "exact",
+      "death": 105,
+      "deathAccuracy": "exact",
+      "title": "东汉和帝，十四岁诛窦宪",
+      "bio": "章帝第四子，梁贵人所生，为窦后所养。十岁即位，窦太后临朝，窦宪专权。永元四年与宦官郑众谋，收宪印绶，迫之自杀，汉始用宦官。元兴元年崩，年二十七。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "dou-xian",
+      "name": "窦宪",
+      "display": "窦宪",
+      "birthAccuracy": "unknown",
+      "death": 92,
+      "deathAccuracy": "exact",
+      "title": "大将军，燕然勒功，旋即赐死",
+      "bio": "窦融曾孙，和帝舅。以罪请击匈奴赎死，遂与耿秉出塞，登燕然山，刻石纪功而还，匈奴北庭遂空。兄弟并据权要，和帝与郑众谋，收其大将军印绶，迫令自杀。东汉外戚之祸自此例始。",
+      "tags": [
+        "东汉",
+        "北匈奴"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ban-gu",
+      "name": "班固",
+      "display": "班固",
+      "birth": 32,
+      "birthAccuracy": "exact",
+      "death": 92,
+      "deathAccuracy": "exact",
+      "title": "《汉书》作者，兰台令史",
+      "bio": "扶风安陵人，班彪之子，班昭之兄。续父志作《汉书》，历二十余年。从窦宪击匈奴，为中护军；宪败，受牵连死于狱中，《汉书》未成部分由妹昭续作。",
+      "tags": [
+        "东汉",
+        "兰台"
+      ],
+      "categories": [
+        "historian"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

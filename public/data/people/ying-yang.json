@@ -1,0 +1,60 @@
+{
+  "id": "ying-yang",
+  "name": "应玚",
+  "display": "应玚",
+  "birthAccuracy": "unknown",
+  "death": 217,
+  "deathAccuracy": "exact",
+  "title": "建安七子之一，五官将文学",
+  "bio": "汝南南顿人，字德琏，应劭之从子。为司空军谋祭酒，为五官将文学。曹丕与吴质书称其才学足以著书，而美志不遂，良可痛惜。建安二十二年卒。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "literature",
+    "official"
+  ],
+  "primary": "literature",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "ying-yang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，曹操丞相掾"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "应玚",
+    "应德琏",
+    "應瑒"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·王卫二刘傅传",
+      "kind": "classic"
+    }
+  ]
+}

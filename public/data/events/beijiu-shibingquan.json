@@ -1,0 +1,99 @@
+{
+  "id": "beijiu-shibingquan",
+  "name": "杯酒释兵权",
+  "display": "杯酒释兵权",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 961,
+  "yearAccuracy": "disputed",
+  "yearNote": "续资治通鉴把宴饮和庚午罢军职写在建隆二年秋七月之后。宋史建隆二年七月有壬戌、辛未、壬申，庚午可以落在这一月，但本纪不书罢军职。石守信传作乾德初。轴年取建隆二年，即961。乾德初不另立一条。",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "zhao-kuangyin",
+    "zhao-pu"
+  ],
+  "result": "石守信、高怀德、王审琦、张令铎罢领禁军，改授节度使。石守信仍挂侍卫都指挥使，兵权已不在。殿前副都点检不再除人。",
+  "aliases": [
+    "释兵权"
+  ],
+  "dynasties": [
+    "liao",
+    "song"
+  ],
+  "desc": "建隆二年秋七月庚午，石守信、高怀德、王审琦、张令铎罢领禁军，改授节度使；石守信仍挂侍卫都指挥使，兵权已不在，殿前副都点检不再除人。石守信传把同一次宴饮系于乾德初。禁军主将退出统兵，宋初军事权力从宿将手里收到皇帝。",
+  "sources": [
+    {
+      "work": "续资治通鉴",
+      "part": "卷2",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷250",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-pu",
+      "name": "赵普",
+      "display": "赵普",
+      "birth": 922,
+      "birthAccuracy": "exact",
+      "death": 992,
+      "deathAccuracy": "exact",
+      "title": "开国首相，半部论语治天下",
+      "bio": "幽州蓟人，佐太祖定天下，谋陈桥、定杯酒释兵权。三入中书，言「以半部《论语》佐太祖定天下」，为宋初典制奠基。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor",
+        "founding"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai",
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

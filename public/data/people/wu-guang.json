@@ -1,0 +1,63 @@
+{
+  "id": "wu-guang",
+  "name": "吴广",
+  "display": "吴广",
+  "birthAccuracy": "unknown",
+  "death": -208,
+  "deathAccuracy": "exact",
+  "title": "大泽乡同起，假王，为田臧所杀",
+  "bio": "与陈胜同举事，为假王，监诸将西击荥阳。围城不下，部将田臧矫陈胜令杀之。起事两个月就断，张楚内部分裂从这条开始。",
+  "tags": [
+    "秦末",
+    "首事"
+  ],
+  "categories": [
+    "rebel"
+  ],
+  "polity": [
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "rebel"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-sheng",
+      "target": "wu-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "大泽乡首义，王侯将相宁有种乎"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "daizexiang-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "吴广"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈涉世家",
+      "kind": "classic"
+    }
+  ]
+}

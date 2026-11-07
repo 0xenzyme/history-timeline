@@ -1,0 +1,347 @@
+{
+  "id": "eastern-jin",
+  "name": "东晋",
+  "from": 317,
+  "to": 420,
+  "contractVersion": 1,
+  "group": "weijin-nanbei",
+  "personCount": 0,
+  "eventCount": 28,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "simarui-dengji",
+      "name": "司马睿即位建东晋",
+      "display": "司马睿即位建东晋",
+      "kind": "span",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 317,
+      "yearAccuracy": "exact",
+      "yearNote": "《晋书·元帝纪》：建武元年（317）三月辛卯，即晋王位，大赦改元，备百官、立宗庙社稷于建康。即位分两步：317 即晋王位、318 即皇帝位（见 endYear）；year 取政权成立之 317（中国纪年口径）。通行换算即晋王位日在 317-04-06。",
+      "endYear": 318,
+      "endYearAccuracy": "exact",
+      "endYearNote": "大兴元年（318）三月丙辰，百僚上尊号，是日即皇帝位，改元大兴（通行换算约 318-04-26），东晋帝统正式确立。《恭帝纪》追叙「元帝以丁丑岁称晋王」，丁丑即 317，与纪文互证。",
+      "place": "建康",
+      "placeNow": "今江苏南京",
+      "polity": [
+        "jin"
+      ],
+      "people": [
+        "sima-rui",
+        "wang-dao"
+      ],
+      "result": "西晋亡后晋室在江左重建，东晋立（317/318–420），司马睿为元帝，王导辅政",
+      "aliases": [
+        "东晋建立",
+        "司马睿即晋王位",
+        "司马睿称帝",
+        "晋室中兴",
+        "建武改元"
+      ],
+      "tags": [
+        "dynasty-change",
+        "gate-clan",
+        "regime-founding"
+      ],
+      "dynasties": [
+        "eastern-jin",
+        "shiliuguo"
+      ],
+      "desc": "建武元年（317）三月，中原板荡、愍帝被执，琅邪王司马睿依魏晋故事即晋王位，改元建武，立宗庙社稷于建康；大兴元年（318）三月愍帝崩问至，遂即皇帝位，改元大兴，是为东晋。睿以王导为腹心，倚侨姓士族而联络江东大族，时人语曰「王与马，共天下」。晋祚自此续于江左百余年，中国政治重心首次永久南移。",
+      "sources": [
+        {
+          "work": "晋书",
+          "part": "卷九十八",
+          "kind": "classic"
+        },
+        {
+          "work": "晋书",
+          "part": "卷六",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "gengxu-tuduan",
+      "name": "庚戌土断",
+      "display": "庚戌土断",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 364,
+      "yearAccuracy": "exact",
+      "yearNote": "《晋书·哀帝纪》：兴宁二年（364）三月庚戌朔，大阅户人，严法禁，称为庚戌制。year 取中国纪年 364（兴宁二年）。",
+      "place": "东晋全境（侨州郡县所在）",
+      "placeNow": "东晋辖境（长江中下游为主）",
+      "polity": [
+        "jin"
+      ],
+      "people": [
+        "huan-wen"
+      ],
+      "result": "侨户就地编入所在郡县实籍（废挟注本郡），国家户籍与赋役体系重整，扩大财赋兵源",
+      "aliases": [
+        "庚戌制",
+        "兴宁土断"
+      ],
+      "tags": [
+        "institutional",
+        "land-system",
+        "household-registration"
+      ],
+      "dynasties": [
+        "eastern-jin",
+        "shiliuguo"
+      ],
+      "desc": "兴宁二年（364）三月庚戌朔，东晋大阅户人、严明法禁，推行土断，史称庚戌制。永嘉南渡以来朝廷许侨人「挟注本郡」以系还乡之望，侨置郡县与白籍使户籍赋役紊乱；庚戌土断清检流寓户口、就地编入实籍，取消侨姓免调特权，扩大国家财赋与兵源，通说由大司马桓温主持，为东晋历次土断中最著名者（其后义熙土断踵行之）。",
+      "sources": [
+        {
+          "work": "晋书",
+          "part": "卷八",
+          "kind": "classic"
+        },
+        {
+          "work": "晋书",
+          "part": "卷七十五",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "mogaoku-kaizhuo",
+      "name": "敦煌莫高窟开凿",
+      "display": "敦煌莫高窟开凿",
+      "kind": "point",
+      "type": "cultural",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 366,
+      "yearAccuracy": "exact",
+      "yearNote": "武周圣历元年（698）《李克让重修莫高窟佛龛碑》记前秦建元二年沙门乐僔至敦煌鸣沙山造窟一龛，建元二年即 366 年。366 年敦煌名义上属前凉张天锡，碑文记年用前秦年号。",
+      "place": "莫高窟",
+      "placeNow": "今甘肃敦煌东南鸣沙山东麓",
+      "polity": [
+        "shiliuguo"
+      ],
+      "result": "戈壁崖壁上的石窟群自此发端，丝路佛教艺术在河西落地生根",
+      "aliases": [
+        "莫高窟",
+        "敦煌石窟",
+        "千佛洞"
+      ],
+      "tags": [
+        "佛教",
+        "石窟",
+        "丝路"
+      ],
+      "dynasties": [
+        "eastern-jin",
+        "shiliuguo"
+      ],
+      "desc": "前秦建元二年（366）沙门乐僔杖锡西行，至敦煌鸣沙山，见金光状有千佛显现，乃于崖面凿窟一龛，禅修其中；其后法良禅师自东而至，于乐僔窟侧更即营建，后世碑记称「伽蓝之起，滥觞于二僧」。崖面自此不断有新窟凿出，历十六国、北朝、隋唐而续建千余年，塑绘累增至七百余窟。敦煌地接西域、道俗交得，其地早有塔寺之设（《魏书·释老志》），莫高窟起后成为丝路上规模最大、保存最完整的一处佛教石窟群。乐僔、法良生卒无考，全库暂无 canonical 人物条目，故本条只记事件。",
+      "sources": [
+        {
+          "work": "李克让重修莫高窟佛龛碑",
+          "part": "碑文",
+          "kind": "classic"
+        },
+        {
+          "work": "魏书",
+          "part": "释老志",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "feishui-zhizhan",
+      "name": "淝水之战",
+      "display": "淝水之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 383,
+      "yearAccuracy": "exact",
+      "yearNote": "东晋太元八年、前秦建元十九年（383）。《晋书·孝武帝纪》系冬十月乙亥战于肥水，《十六国春秋·前秦录》系建元十九年；通鉴系统十一月，月内小异而年份无异。中国纪年口径，跨公历年界无涉。",
+      "place": "淝水",
+      "placeNow": "今安徽寿县东南一带",
+      "belligerents": [
+        "shiliuguo",
+        "jin"
+      ],
+      "commanders": [
+        {
+          "id": "fu-jian",
+          "side": "shiliuguo"
+        },
+        {
+          "id": "fu-rong",
+          "side": "shiliuguo"
+        },
+        {
+          "id": "xie-xuan",
+          "side": "jin"
+        },
+        {
+          "id": "xie-yan",
+          "side": "jin"
+        },
+        {
+          "id": "liu-laozhi",
+          "side": "jin"
+        }
+      ],
+      "people": [
+        "fu-jian",
+        "fu-rong",
+        "xie-an",
+        "xie-xuan",
+        "xie-yan",
+        "liu-laozhi"
+      ],
+      "result": "东晋以少胜多，前秦瓦解、北方复乱，南北对峙延续至刘宋代晋",
+      "aliases": [
+        "肥水之战"
+      ],
+      "tags": [
+        "battle",
+        "南北对峙",
+        "以少胜多"
+      ],
+      "dynasties": [
+        "eastern-jin",
+        "shiliuguo"
+      ],
+      "desc": "太元八年（383）苻坚号称百万大军南征，前锋苻融围寿春，谢石、谢玄率八万北府兵迎战。刘牢之夜袭洛涧斩梁成后，晋军渡肥水决战，秦军一退而溃，苻融马倒被杀，苻坚中流矢单骑走淮北。前秦随之瓦解，北方重新分裂，南北对峙自此定格，是两晋军事史的顶点。",
+      "sources": [
+        {
+          "work": "晋书",
+          "part": "卷一百十四",
+          "kind": "classic"
+        },
+        {
+          "work": "晋书",
+          "part": "卷九",
+          "kind": "classic"
+        },
+        {
+          "work": "晋书",
+          "part": "卷七十九",
+          "kind": "classic"
+        },
+        {
+          "work": "十六国春秋",
+          "part": "卷四",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "beiwei-jianli",
+      "name": "北魏立国",
+      "display": "北魏立国",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 386,
+      "yearAccuracy": "exact",
+      "yearNote": "386 年（登国元年）拓跋珪复国称代王；改国号魏、称皇帝、都平城在 398 年（天兴元年），通史以 386 为北朝起点。",
+      "place": "盛乐",
+      "placeNow": "今内蒙古和林格尔北",
+      "polity": [
+        "bei"
+      ],
+      "people": [
+        "tuoba-gui"
+      ],
+      "result": "拓跋氏复国建魏，北朝一百六十余年之业自此始",
+      "aliases": [
+        "nb-tuoba",
+        "拓跋珪建魏"
+      ],
+      "dynasties": [
+        "eastern-jin",
+        "shiliuguo"
+      ],
+      "desc": "386 年（登国元年）拓跋珪即代王位，都会盛乐，连破窟咄、刘显与柔然，离散部落稍稍归附。398 年（天兴元年）称皇帝，迁都平城，定国号为魏，置百官、定律令、劝课农桑。北魏自此与南朝东西对峙百六十年，均田、府兵、汉化诸大政皆由此启，是为北朝之首。",
+      "sources": [
+        {
+          "work": "魏书",
+          "part": "太祖纪",
+          "kind": "classic"
+        },
+        {
+          "work": "北史",
+          "part": "魏本纪一",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "liu-yu-dai-jin",
+      "name": "刘裕代晋",
+      "display": "刘裕代晋",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 420,
+      "yearAccuracy": "exact",
+      "polity": [
+        "nan"
+      ],
+      "people": [
+        "liu-yu",
+        "sima-dewen"
+      ],
+      "result": "刘裕受禅称帝，国号宋，南朝开始",
+      "aliases": [
+        "刘裕建宋",
+        "刘宋代晋",
+        "nb-song",
+        "lj-liuyu"
+      ],
+      "dynasties": [
+        "eastern-jin",
+        "shiliuguo",
+        "northern-southern"
+      ],
+      "desc": "420 年（永初元年）六月，刘裕设坛南郊受晋恭帝司马德文禅让，即皇帝位，国号宋，东晋亡。晋室自渡江以来门阀与皇权共治的格局就此终结，历史进入南朝时代。",
+      "sources": [
+        {
+          "work": "宋书",
+          "part": "武帝纪",
+          "kind": "classic"
+        },
+        {
+          "work": "南史",
+          "part": "宋本纪",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

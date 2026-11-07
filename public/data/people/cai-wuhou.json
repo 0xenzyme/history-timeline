@@ -1,0 +1,80 @@
+{
+  "id": "cai-wuhou",
+  "name": "蔡武侯",
+  "display": "蔡武侯",
+  "birthAccuracy": "unknown",
+  "death": -838,
+  "deathAccuracy": "approx",
+  "deathNote": "史记不著武侯在位年数。夷侯十一年周宣王即位，上推夷侯元年当 -837，武侯卒取前一年为下限。",
+  "title": "蔡武侯，当共和",
+  "bio": "厉侯之子。武侯之时厉王奔彘、共和行政。卒，子夷侯立。",
+  "tags": [
+    "蔡"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "cai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cai-lihou",
+      "target": "cai-wuhou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "cai-wuhou",
+      "target": "cai-yihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "cai-wuhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武侯之时厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "蔡武侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管蔡世家",
+      "kind": "classic"
+    }
+  ]
+}

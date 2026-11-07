@@ -1,0 +1,79 @@
+{
+  "id": "jia-chong",
+  "name": "贾充",
+  "display": "贾充",
+  "birth": 217,
+  "birthAccuracy": "approx",
+  "death": 282,
+  "deathAccuracy": "exact",
+  "birthNote": "太康三年（282）薨，年六十六，虚岁上推生年。",
+  "title": "西晋权臣，弑君之谋主",
+  "bio": "平阳襄陵人。魏时为司马氏腹心，成济弑高贵乡公，充实使之。晋世定律令，历司空、太尉。女南风为太子妃，宠信终身。太康三年四月薨，年六十六。",
+  "tags": [
+    "晋",
+    "西晋"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "jia-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "禅代谋主，定律令"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-chong",
+      "target": "jia-nanfeng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女，专权之根"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jin-mie-wu-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "贾充"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "贾充传",
+      "kind": "classic"
+    }
+  ]
+}

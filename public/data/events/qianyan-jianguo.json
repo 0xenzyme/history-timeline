@@ -1,0 +1,81 @@
+{
+  "id": "qianyan-jianguo",
+  "name": "慕容皝建前燕",
+  "display": "慕容皝建前燕",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 337,
+  "yearAccuracy": "exact",
+  "yearNote": "咸康三年（337）慕容皝即燕王位，始置百官，为前燕立国之始；正式称帝在 352 年（元玺元年），皝追尊文明皇帝。",
+  "place": "龙城",
+  "placeNow": "今辽宁朝阳",
+  "polity": [
+    "qianyan"
+  ],
+  "people": [
+    "murong-huang"
+  ],
+  "result": "慕容氏据辽东称燕王、始置百官，前燕立国，开鲜卑入主中原之业",
+  "aliases": [
+    "慕容皝称燕王",
+    "前燕建国"
+  ],
+  "tags": [
+    "state-founding",
+    "十六国"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "慕容廆以鲜卑据棘城，通贡于晋，封辽东公。子皝嗣位，讨平段氏、宇文之侵与叛弟慕容仁（未入人物库）之乱，又却石虎来侵之众，辽东大定。咸康三年（337）皝即燕王位，始置百官，刑政修明，境内安业。旋东破高句丽丸都、北灭宇文逸豆归，辽海之滨皆为所并。子儁、子恪继之，乘石赵之乱南下，廉台擒冉闵，克邺城，352 年称帝，前燕与秦、晋鼎峙，为十六国中历世最久之鲜卑国家。370 年苻坚灭燕，淝水败后慕容垂复国称燕王，是为后燕。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷一百九·载记第九·慕容皝",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "murong-huang",
+      "name": "慕容皝",
+      "display": "慕容皝",
+      "birth": 297,
+      "birthAccuracy": "approx",
+      "death": 348,
+      "deathAccuracy": "exact",
+      "birthNote": "永和四年（348）死，年五十二，虚岁上推生年。",
+      "title": "前燕之主，迁都龙城而称王",
+      "bio": "慕容廆第三子，字元真。嗣辽东公位，平内乱，破宇文逸豆归，击败石虎来侵之众，晋封燕王。徙都龙城，立东庠，亲临考课。永和四年猎于西鄙，马倒被伤而卒，在位十五年，时年五十二。",
+      "tags": [
+        "十六国",
+        "前燕",
+        "慕容"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

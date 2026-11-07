@@ -1,0 +1,104 @@
+{
+  "id": "zhu-yousong",
+  "name": "朱由崧",
+  "display": "弘光帝朱由崧",
+  "birth": 1607,
+  "birthAccuracy": "approx",
+  "death": 1646,
+  "deathAccuracy": "exact",
+  "birthNote": "本传不载生年，据其袭封、即位之年推得，约一六〇七年。",
+  "title": "弘光帝，南明之始",
+  "bio": "神宗之孙、福王常洵长子。1644 年马士英等奉立于南京，改元弘光；清兵南下后出奔芜湖，次年四月被执北去，旋死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shi-kefa",
+      "target": "zhu-yousong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘光立于南京，可法督师江北"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youjian",
+      "target": "zhu-yousong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宗亲，煤山之后南京奉其为弘光帝"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yousong",
+      "target": "liu-zongzhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘光既立，起故官而以疏攻马阮求去"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yousong",
+      "target": "ma-shiying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以凤督拥立弘光，遂为首辅，专国政而斥诸正人"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yousong",
+      "target": "chen-zilong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "起为兵科给事中，屡疏不合其意而辞归"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "诸王传",
+      "kind": "classic"
+    }
+  ]
+}

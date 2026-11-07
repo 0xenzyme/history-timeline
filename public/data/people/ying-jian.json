@@ -1,0 +1,69 @@
+{
+  "id": "ying-jian",
+  "name": "秦简公",
+  "display": "秦简公",
+  "birthAccuracy": "unknown",
+  "death": -400,
+  "deathAccuracy": "approx",
+  "deathNote": "本纪无卒句，据其卒后惠公元年及献公即位的系年逆推，约前400年，记approx。",
+  "title": "秦公，初租禾",
+  "bio": "简公令吏初带剑、初租禾，秦走向租赋县制的中间一步落在他这一世。约前400年卒，正当三家受命前后。",
+  "tags": [
+    "秦国",
+    "初租禾"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-wenhou",
+      "target": "ying-jian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "吴起守西河，连夺秦西河之地，简惠之世秦人不敢东出"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-jian",
+      "target": "ying-ling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "灵公卒后君位连转，简公、惠公、出子相继而立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "简公（秦）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

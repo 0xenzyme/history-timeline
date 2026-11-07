@@ -1157,5 +1157,39 @@
         1949
       ]
     }
-  ]
+  ],
+  "collectionCategories": [
+    {
+      "id": "thought",
+      "name": "思想与学术"
+    },
+    {
+      "id": "literature",
+      "name": "文学与艺术"
+    },
+    {
+      "id": "politics",
+      "name": "政治与制度"
+    },
+    {
+      "id": "military",
+      "name": "战争与军事"
+    },
+    {
+      "id": "era",
+      "name": "时代群像"
+    }
+  ],
+  "editorial": {
+    "dynasties": [
+      "qin",
+      "western-han",
+      "tang",
+      "song",
+      "ming"
+    ],
+    "collections": [
+      "rujia-chuancheng"
+    ]
+  }
 }

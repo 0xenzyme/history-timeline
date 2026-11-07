@@ -1,0 +1,131 @@
+{
+  "id": "qidan-gaihao-liao",
+  "name": "契丹入汴改号大辽",
+  "display": "契丹入汴改号大辽",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 947,
+  "yearAccuracy": "exact",
+  "yearNote": "辽史卷4：大同元年（947）正月丁亥朔备法驾入汴御崇元殿受百官贺；二月丁巳朔\"建国号大辽，大赦，改元大同\"，升镇州为中京；旧五代史卷99同（\"二月丁巳朔……制改晋国为大辽国，大赦天下，号会同十年\"）；通鉴卷286系正月入汴、二月受朝。四月丙子北返卒于杀胡林（通鉴卷286；辽史卷4作崩于栾城）。注意：新五代史卷72将\"更其国号大辽\"系于会同元年（938），与辽史/旧五代史/通鉴之 947 说并存，取 947。",
+  "polity": [
+    "liao",
+    "hou-jin"
+  ],
+  "people": [
+    "yelv-deguang",
+    "shi-chonggui",
+    "feng-dao"
+  ],
+  "result": "耶律德光入汴受朝、降石重贵为负义侯，改国号大辽、改元大同；旋因打草谷激变北返，卒于杀胡林，中原入后汉之手。",
+  "aliases": [
+    "契丹改国号大辽",
+    "耶律德光入汴",
+    "大同改元",
+    "契丹灭晋建国"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "947 年正月丁亥朔，耶律德光灭晋后备法驾入汴，御崇元殿受百官贺，降石重贵为负义侯；二月丁巳朔建国号大辽、改元大同。旋因打草谷激变中原，被迫北返，四月卒于杀胡林（辽史作栾城）。中原出现权力空窗，刘知远随即称帝建后汉。",
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "卷4",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷99",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷286",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-chonggui",
+      "name": "石重贵",
+      "display": "晋出帝",
+      "birth": 914,
+      "birthAccuracy": "approx",
+      "death": 974,
+      "deathAccuracy": "exact",
+      "birthNote": "北迁之后，辽保宁六年（974）卒，年六十一，上推生年。",
+      "title": "出帝北迁，封负义侯",
+      "bio": "敬瑭兄子，养以为子。天福七年即位，用景延广议，与契丹称孙而不称臣，德光大怒，三度南攻。开运三年杜重威举大军降，德光入汴，晋亡；举族北迁黄龙府，封负义侯，在虏庭二十七年而卒。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "feng-dao",
+      "name": "冯道",
+      "display": "冯道",
+      "birth": 882,
+      "birthAccuracy": "exact",
+      "death": 954,
+      "deathAccuracy": "exact",
+      "title": "相五朝之长乐老",
+      "bio": "景城人，自号长乐老。少纯俭，历唐晋汉周四朝、相五代君主，出入三十余年，未尝以易姓为耻。契丹入汴，道在行在，德光礼之。主刻九经于国子监，板本经籍自此始。著《长乐老自叙》，欧阳修讥其\"不知廉耻\"。周世宗以佐命宿德加殊礼，显德元年卒。",
+      "tags": [
+        "五代"
+      ],
+      "categories": [
+        "chancellor",
+        "minister"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

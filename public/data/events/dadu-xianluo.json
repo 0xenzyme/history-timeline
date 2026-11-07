@@ -1,0 +1,141 @@
+{
+  "id": "dadu-xianluo",
+  "name": "大都陷落",
+  "display": "大都陷落",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1368,
+  "yearAccuracy": "exact",
+  "yearNote": "闰七月丙寅夜半北奔，八月庚午明军入城。元史八月原作庚申，校记改午，与明史庚午一致。应昌之死不并入。",
+  "place": "大都",
+  "belligerents": [
+    "yuan",
+    "ming"
+  ],
+  "commanders": [
+    {
+      "id": "xu-da",
+      "side": "ming"
+    },
+    {
+      "id": "shun-di",
+      "side": "yuan"
+    }
+  ],
+  "people": [
+    "zhu-yuanzhang"
+  ],
+  "result": "元廷退出大都，中原朝廷结束",
+  "aliases": [
+    "元顺帝北走",
+    "明军入大都"
+  ],
+  "dynasties": [
+    "yuan",
+    "ming"
+  ],
+  "desc": "至正二十八年闰七月丙寅夜半，元顺帝开健德门北奔。八月庚午，徐达率明军进入大都，元史称国亡。元朝在中原的朝廷由此结束。应昌之死在此后，不并入本条。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷四十七·顺帝本纪",
+      "note": "闰七月丙寅开健德门北奔，八月庚午大明兵入京城",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "卷二·太祖本纪",
+      "note": "八月庚午徐达入元都",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-yuanzhang",
+      "name": "朱元璋",
+      "display": "明太祖朱元璋",
+      "birth": 1328,
+      "birthAccuracy": "exact",
+      "death": 1398,
+      "deathAccuracy": "exact",
+      "title": "驱元建明",
+      "bio": "濠州孤穷，入郭子兴红巾军，收淮西渡江取集庆。削平陈友谅、张士诚，1368 年称帝建明，北伐克大都，元亡。",
+      "tags": [
+        "元",
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "warlord",
+        "rebel",
+        "founding",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan",
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xu-da",
+      "name": "徐达",
+      "display": "徐达",
+      "birth": 1332,
+      "birthAccuracy": "exact",
+      "death": 1385,
+      "deathAccuracy": "exact",
+      "title": "开国第一将",
+      "bio": "凤阳人，朱元璋同乡。统师平陈友谅、张士诚，北伐克大都，功为诸将冠，持重廉谨。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shun-di",
+      "name": "妥懽帖睦尔",
+      "display": "元顺帝妥懽帖睦尔",
+      "birth": 1320,
+      "birthAccuracy": "exact",
+      "death": 1370,
+      "deathAccuracy": "exact",
+      "title": "元朝末帝",
+      "bio": "明宗子，即位初用脱脱更张弊政；后期怠荒，红巾遍起。1368 年明军克大都，北奔上都，元亡而北元继。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,128 @@
+{
+  "id": "jingyuan-zhibian",
+  "name": "泾原兵变与奉天之难",
+  "display": "泾原兵变与奉天之难",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 783,
+  "yearAccuracy": "exact",
+  "endYear": 784,
+  "endYearAccuracy": "approx",
+  "endYearNote": "784 年奉天危局缓解并收复长安，作为事件收束年份",
+  "place": "泾原、长安、奉天",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-kuo",
+    "hun-jian",
+    "li-sheng"
+  ],
+  "result": "泾原军入长安并拥立朱泚，唐德宗出奔奉天；援军解围后唐廷暂时恢复关中控制",
+  "aliases": [
+    "泾原兵变",
+    "奉天之难"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "783 年，泾原军奉诏赴关中平乱，因待遇和粮饷问题在长安倒戈，拥立朱泚，唐德宗逃往奉天。叛军围城，浑瑊等援军抵抗并解围，李晟随后收复长安。兵变暴露了中央军政控制的脆弱性，德宗朝的藩镇和宦官政治由此进一步重组。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "卷十二·德宗本纪",
+      "note": "建中四年十月泾原军变、德宗幸奉天及奉天解围",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "卷七·德宗本纪",
+      "note": "记朱泚据长安、围奉天及李晟等平乱",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-kuo",
+      "name": "李适",
+      "display": "唐德宗李适",
+      "birth": 742,
+      "birthAccuracy": "exact",
+      "death": 805,
+      "deathAccuracy": "exact",
+      "title": "唐德宗，两税法，奉天之难",
+      "bio": "唐代宗长子，大历十四年即位，明年改元建中。用杨炎行两税法，废租庸调，赋役之制自此一变。性猜忌，信谗而黜陆贽，用裴延龄。建中四年朱泚乱，出奔奉天，兴元元年李怀光又叛，再奔梁州。晚年姑息藩镇，宦官益亲。贞元二十一年崩于会宁殿，年六十四。",
+      "tags": [
+        "唐",
+        "两税法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hun-jian",
+      "name": "浑瑊",
+      "display": "浑瑊",
+      "birth": 736,
+      "birthAccuracy": "exact",
+      "death": 799,
+      "deathAccuracy": "exact",
+      "title": "平凉劫盟，仅以身免",
+      "bio": "铁勒浑部。德宗朝与李晟、马燧同被吐蕃忌惮。贞元三年平凉会盟，吐蕃劫盟，单骑得免。十五年十二月二日薨于镇，年六十四。",
+      "tags": [
+        "唐",
+        "吐蕃"
+      ],
+      "categories": [
+        "general",
+        "outsider"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-sheng",
+      "name": "李晟",
+      "display": "李晟",
+      "birth": 727,
+      "birthAccuracy": "exact",
+      "death": 793,
+      "deathAccuracy": "exact",
+      "title": "收长安，贞元九年薨",
+      "bio": "陇右临洮人。德宗奔奉天，晟率孤军收复长安。贞元三年册太尉、中书令，奉朝请。九年八月薨，时年六十七。",
+      "tags": [
+        "唐",
+        "泾师之变"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

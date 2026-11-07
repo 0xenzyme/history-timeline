@@ -1,0 +1,87 @@
+{
+  "id": "liu-ying",
+  "name": "刘盈",
+  "display": "汉惠帝",
+  "birth": -210,
+  "birthAccuracy": "exact",
+  "death": -188,
+  "deathAccuracy": "exact",
+  "title": "西汉第二位皇帝",
+  "bio": "高祖太子，前 195 年即位。吕后实际掌权，在位七年。惠帝的条很短，权在吕后那一条上。",
+  "tags": [
+    "汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "liu-ying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "高祖崩，太子盈即位"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ying",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠帝在位七年，吕后实际掌权"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ying",
+      "target": "zhang-hou-hui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠帝皇后。吕后以鲁元公主女配帝。文帝后元年薨"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘盈",
+    "汉惠帝"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "吕太后本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "惠帝纪",
+      "kind": "classic"
+    }
+  ]
+}

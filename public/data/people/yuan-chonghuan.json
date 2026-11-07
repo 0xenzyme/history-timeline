@@ -1,0 +1,94 @@
+{
+  "id": "yuan-chonghuan",
+  "name": "袁崇焕",
+  "display": "袁崇焕",
+  "birth": 1584,
+  "birthAccuracy": "exact",
+  "death": 1630,
+  "deathAccuracy": "exact",
+  "title": "关宁督师",
+  "bio": "东莞人，督师辽东，宁远、宁锦屡挫后金。崇祯中反间见疑，逮治凌迟。明之长城自毁。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general",
+    "falling"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "yuan-chonghuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1626,
+      "notes": [
+        "任为督师，旋中反间冤杀"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "sun-chengzong",
+      "target": "yuan-chonghuan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "经略辽事之日，崇焕为其属将"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "yuan-chonghuan",
+      "type": "rival",
+      "directed": false,
+      "since": 1626,
+      "notes": [
+        "宁远守战，其役之后汗遂崩"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hong-taiji",
+      "target": "yuan-chonghuan",
+      "type": "rival",
+      "directed": false,
+      "since": 1629,
+      "notes": [
+        "反间既行，崇焕遂逮而见戮"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "袁崇焕传",
+      "kind": "classic"
+    }
+  ]
+}

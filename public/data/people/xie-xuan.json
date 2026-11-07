@@ -1,0 +1,87 @@
+{
+  "id": "xie-xuan",
+  "name": "谢玄",
+  "display": "谢玄",
+  "birth": 343,
+  "birthAccuracy": "exact",
+  "death": 388,
+  "deathAccuracy": "exact",
+  "title": "前将军，北府兵之帅，淝水前锋",
+  "bio": "陈郡阳夏人，谢安之侄。为兖州刺史，募京口劲勇，号北府兵，刘牢之、何谦皆其部。太元八年淝水之战为前锋，以八千破前秦十数万，风声鹤唳、草木皆兵。后乘胜北伐至邺，以叔父安卒、朝廷掣肘而还。太元十三年卒，年四十六。",
+  "tags": [
+    "东晋",
+    "淝水",
+    "北府兵"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xie-an",
+      "target": "xie-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，安举玄为将"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-laozhi",
+      "target": "xie-xuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "北府精兵，洛涧先登斩梁成"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "feishui-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "xiexuan-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "谢玄",
+    "谢幼度"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "谢玄传",
+      "kind": "classic"
+    }
+  ]
+}

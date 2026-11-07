@@ -1,0 +1,132 @@
+{
+  "id": "saerhu-zhizhan",
+  "name": "萨尔浒之战",
+  "display": "萨尔浒之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1619,
+  "yearAccuracy": "exact",
+  "yearNote": "万历四十七年、天命四年三月。",
+  "place": "萨尔浒",
+  "belligerents": [
+    "ming",
+    "qing"
+  ],
+  "commanders": [
+    {
+      "id": "nu-er-ha-chi",
+      "side": "qing"
+    },
+    {
+      "id": "liu-ting",
+      "side": "ming"
+    }
+  ],
+  "people": [
+    "zhu-yijun"
+  ],
+  "result": "明军三路溃败",
+  "parent": "mingqing-zhanzheng",
+  "aliases": [
+    "萨尔浒"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "万历四十七年三月，杜松、马林、刘綎兵败战死。清史稿记杜松军出抚顺、萨尔浒，四日破三路明兵。明史称大清兵，是后出追称。杨镐无人物 id，不写入。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二十一",
+      "note": "万历四十七年三月杜松、马林、刘綎败死。明史称大清兵，是后出追称",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷一",
+      "note": "天命四年杜松军出抚顺、萨尔浒，四日破三路明兵",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-yijun",
+      "name": "朱翊钧",
+      "display": "明神宗朱翊钧",
+      "birth": 1563,
+      "birthAccuracy": "exact",
+      "death": 1620,
+      "deathAccuracy": "exact",
+      "title": "万历皇帝",
+      "bio": "十岁即位，初倚张居正厉行新政；亲政后怠荒，二十余年不朝，党争与矿税之弊浸深，明衰自此始。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "nu-er-ha-chi",
+      "name": "努尔哈赤",
+      "display": "努尔哈赤",
+      "birth": 1559,
+      "birthAccuracy": "exact",
+      "death": 1626,
+      "deathAccuracy": "exact",
+      "title": "后金大汗",
+      "bio": "建州女真酋长，统一诸部，1616 年建后金称汗，创八旗、定满文，奠定清之基。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-ting",
+      "name": "刘綎",
+      "display": "刘綎",
+      "birthAccuracy": "unknown",
+      "death": 1619,
+      "deathAccuracy": "exact",
+      "title": "刘大刀，死于萨尔浒",
+      "bio": "字省吾，南昌人。所用镔铁刀重百二十斤，军中称为刘大刀; 朝鲜之役、播州之役皆有功，1619 年萨尔浒孤军深入而战没。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

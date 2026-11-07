@@ -1,0 +1,65 @@
+{
+  "id": "yongbu-jiafu",
+  "name": "永不加赋",
+  "display": "永不加赋",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1712,
+  "yearAccuracy": "exact",
+  "yearNote": "康熙五十一年滋生人丁永不加赋。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "kang-xi"
+  ],
+  "result": "滋生人丁永不加赋",
+  "aliases": [
+    "滋生人丁永不加赋"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "康熙五十一年谕后，滋生人丁称为盛世滋生人丁，永不加赋。丁银不再随人丁增长。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷一百二十一",
+      "note": "謂之盛世滋生人丁，永不加賦",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "kang-xi",
+      "name": "玄烨",
+      "display": "康熙",
+      "birth": 1654,
+      "birthAccuracy": "exact",
+      "death": 1722,
+      "deathAccuracy": "exact",
+      "title": "康乾盛世之始",
+      "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

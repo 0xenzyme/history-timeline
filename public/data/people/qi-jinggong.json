@@ -1,0 +1,69 @@
+{
+  "id": "qi-jinggong",
+  "name": "杞靖公",
+  "display": "杞靖公",
+  "birthAccuracy": "unknown",
+  "death": -806,
+  "deathAccuracy": "exact",
+  "deathNote": "竹书厉王二十四年杞武公薨当 -829；史记靖公二十三年卒，下推当 -806。世家不著其名。",
+  "title": "杞靖公",
+  "bio": "武公之子。二十三年卒。卒年由竹书武公薨年下推。",
+  "tags": [
+    "杞"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qi-jinggong",
+      "target": "qi-wugong-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qi-gonggong",
+      "target": "qi-jinggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杞靖公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "note": "武公卒年用竹书，靖公在位年数用世家。"
+    }
+  ]
+}

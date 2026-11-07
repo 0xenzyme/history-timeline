@@ -1,0 +1,57 @@
+{
+  "id": "zheng-qi",
+  "name": "郑綮",
+  "display": "郑綮",
+  "birthAccuracy": "unknown",
+  "death": 899,
+  "deathAccuracy": "exact",
+  "title": "光化二年卒",
+  "bio": "昭宗朝同平章事。光化二年卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ye",
+      "target": "zheng-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昭宗朝为相，光化二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郑綮"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "郑綮传",
+      "kind": "classic"
+    }
+  ]
+}

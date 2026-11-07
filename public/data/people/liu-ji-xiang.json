@@ -1,0 +1,57 @@
+{
+  "id": "liu-ji-xiang",
+  "name": "刘洎",
+  "display": "刘洎",
+  "birthAccuracy": "unknown",
+  "death": 645,
+  "deathAccuracy": "exact",
+  "title": "贞观十九年赐自尽",
+  "bio": "太宗朝黄门侍郎，参知政事。贞观十九年赐自尽。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "liu-ji-xiang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝参知政事，贞观十九年赐自尽"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘洎"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "刘洎传",
+      "kind": "classic"
+    }
+  ]
+}

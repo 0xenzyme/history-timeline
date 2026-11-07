@@ -1,0 +1,113 @@
+{
+  "id": "xijin-miwang",
+  "name": "西晋灭亡",
+  "display": "西晋灭亡",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 316,
+  "yearAccuracy": "exact",
+  "yearNote": "建兴四年十一月乙未（公历 316 年 12 月 11 日）愍帝司马邺乘羊车、肉袒衔壁、舆榇出降于刘曜；辛丑蒙尘平阳。",
+  "place": "长安",
+  "placeNow": "今陕西西安",
+  "belligerents": [
+    "jin",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "liu-yao",
+      "side": "shiliuguo"
+    }
+  ],
+  "people": [
+    "sima-ye",
+    "liu-yao"
+  ],
+  "result": "长安粮尽，愍帝出降送平阳，西晋立国五十二年而亡；北方进入十六国割据，江南由琅邪王司马睿延续晋祚",
+  "aliases": [
+    "长安陷落",
+    "愍帝出降",
+    "西晋亡"
+  ],
+  "tags": [
+    "war",
+    "siege",
+    "fall-of-dynasty"
+  ],
+  "dynasties": [
+    "western-jin",
+    "shiliuguo"
+  ],
+  "desc": "建兴四年（316）汉赵刘曜连陷北地、泾阳，八月进逼长安，城中内外断绝、饥窘人相食。十一月乙未愍帝司马邺乘羊车、肉袒衔壁、舆榇出降，御史中丞吉朗自杀殉国，帝被送平阳——西晋亡。此后北方进入十六国长期割据，317 年司马睿在建康续建晋政权（东晋）。与 311 年永嘉之乱（洛阳陷落、怀帝被俘）为前后两都、两帝的两个阶段，分立两条不重复。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷五·帝纪第五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-ye",
+      "name": "司马邺",
+      "display": "晋愍帝司马邺",
+      "birth": 300,
+      "birthAccuracy": "exact",
+      "death": 318,
+      "deathAccuracy": "exact",
+      "title": "西晋末帝，长安出降，青衣行酒而死",
+      "bio": "司马炎之孙，吴王晏之子，怀帝被虏后即位于长安。时关中残破，户不盈百，公私车乘仅四乘。建兴四年刘曜围长安，帝乘羊车、肉袒衔璧出降，迁平阳，聪使之行酒洗爵、执盖执戟，晋臣号哭。次年被害，年十八，西晋亡。",
+      "tags": [
+        "西晋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yao",
+      "name": "刘曜",
+      "display": "刘曜",
+      "birthAccuracy": "unknown",
+      "death": 328,
+      "deathAccuracy": "disputed",
+      "birthNote": "载记无生年，不编。",
+      "deathNote": "见杀句无年号：洛阳兵败被执系咸和三年十二月，通鉴卷九四于三年段内书杀之，载记称前赵以咸和四年灭，公历已跨三二九年初，今或作329，两说并注。",
+      "title": "前赵末主，洛阳坠马而被执",
+      "bio": "匈奴人，刘渊族子，字永明。灭靳准迎惠帝旧后羊氏为后，徙都长安，改汉号曰赵，史称前赵。与石生、石勒相攻不息。咸和三年洛阳决战，饮酒数斗出战，马陷石渠坠于冰上被执，戒其子与诸大臣守社稷勿以己易意，为石勒所杀，前赵随之而灭。",
+      "tags": [
+        "十六国",
+        "汉赵",
+        "匈奴"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

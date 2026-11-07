@@ -1,0 +1,53 @@
+{
+  "id": "guo-han",
+  "name": "虢公翰",
+  "display": "虢公翰",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见竹书镐京之年立王子余臣于携。",
+  "title": "立携王于携",
+  "bio": "竹书镐京之年，虢公翰立王子余臣于携，与申侯所立宜臼并立。史记不载。",
+  "tags": [
+    "虢",
+    "二王并立"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "guo-han",
+      "target": "ji-yuchen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "虢公翰立王子余臣于携"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "虢公翰"
+  ],
+  "sources": [
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪"
+    }
+  ]
+}

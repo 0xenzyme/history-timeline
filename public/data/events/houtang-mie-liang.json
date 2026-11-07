@@ -1,0 +1,112 @@
+{
+  "id": "houtang-mie-liang",
+  "name": "后唐灭梁",
+  "display": "后唐灭梁",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 923,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系同光元年四月存勖即皇帝位于魏州，十月袭汴州，朱友贞死；公历并在923。同年事，不写 endYear。",
+  "place": "汴州",
+  "placeNow": "今河南开封",
+  "belligerents": [
+    "hou-tang",
+    "hou-liang"
+  ],
+  "commanders": [
+    {
+      "id": "li-cunxu",
+      "side": "hou-tang"
+    }
+  ],
+  "people": [
+    "zhu-zhen"
+  ],
+  "result": "汴州陷，朱友贞死，后梁亡；李存勖定汴，国号唐，改元同光。",
+  "parent": "liangjin-zhanzheng",
+  "aliases": [
+    "wudai-923",
+    "李存勖灭梁"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "同光元年四月，李存勖即皇帝位于魏州，国号唐。梁以段凝悉锐阵于河上，汴州空虚；存勖用李嗣源策，轻骑倍道袭汴。十月，汴城开，朱友贞使皇甫麟杀己，后梁亡。存勖入汴，河东之业至此极。沙陀李氏自晋而唐，据中原之号，五代第一朝易主。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后唐纪·同光元年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "庄宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "唐本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-zhen",
+      "name": "朱瑱",
+      "display": "后梁末帝",
+      "birthAccuracy": "unknown",
+      "death": 923,
+      "deathAccuracy": "exact",
+      "title": "后梁末帝，汴城死社稷",
+      "bio": "朱温第四子，初名友贞，后单名瑱。乾化二年合禁军诛友珪自立，宠信赵岩、张汉杰，疏远宗室，大将疑贰。龙德三年唐师压境，汴州援绝，谓皇甫麟曰\"吾不为唐俘\"，令其杀己，梁亡。",
+      "tags": [
+        "五代",
+        "后梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "birth": 885,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

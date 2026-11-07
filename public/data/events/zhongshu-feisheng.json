@@ -1,0 +1,95 @@
+{
+  "id": "zhongshu-feisheng",
+  "name": "废除中书省",
+  "display": "废除中书省",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1380,
+  "yearAccuracy": "exact",
+  "yearNote": "洪武十三年正月戊戌。胡惟庸伏诛与废相是同一月的一件事，不拆成两条。",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zhu-yuanzhang",
+    "hu-wei-yong"
+  ],
+  "result": "罢中书省，废丞相，改五军都督府",
+  "aliases": [
+    "胡惟庸案",
+    "废丞相"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "洪武十三年正月戊戌，左丞相胡惟庸伏诛。同月罢中书省，废丞相，更定六部官秩，改大都督府为五军都督府。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二",
+      "note": "洪武十三年正月戊戌胡惟庸伏诛，罢中书省，废丞相，改五军都督府",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-yuanzhang",
+      "name": "朱元璋",
+      "display": "明太祖朱元璋",
+      "birth": 1328,
+      "birthAccuracy": "exact",
+      "death": 1398,
+      "deathAccuracy": "exact",
+      "title": "驱元建明",
+      "bio": "濠州孤穷，入郭子兴红巾军，收淮西渡江取集庆。削平陈友谅、张士诚，1368 年称帝建明，北伐克大都，元亡。",
+      "tags": [
+        "元",
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "warlord",
+        "rebel",
+        "founding",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan",
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hu-wei-yong",
+      "name": "胡惟庸",
+      "display": "胡惟庸",
+      "birthAccuracy": "unknown",
+      "death": 1380,
+      "deathAccuracy": "exact",
+      "title": "最后一位丞相",
+      "bio": "定远人，李善长所荐而独相数年，威权震主; 1380 年以谋逆诛，牵连三万余人。太祖遂罢中书省，不复置丞相。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

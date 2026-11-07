@@ -1,0 +1,98 @@
+{
+  "id": "ji-xi",
+  "name": "姬戏",
+  "display": "鲁懿公",
+  "birthAccuracy": "unknown",
+  "death": -807,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：懿公九年，伯御攻弑懿公。武公九年卒即立戏。",
+  "title": "鲁懿公，宣王所立",
+  "bio": "武公少子。宣王爱戏，立为鲁太子。九年，兄括之子伯御与鲁人攻弑懿公。",
+  "tags": [
+    "鲁"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-ao",
+      "target": "ji-xi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。少子戏，宣王所立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-kuo",
+      "target": "ji-xi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。宣王废长立幼"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "bo-yu",
+      "target": "ji-xi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "伯御与鲁人攻弑懿公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-cheng",
+      "target": "ji-xi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "鲁懿公",
+    "姬戏"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "鲁周公世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "周语上",
+      "kind": "classic"
+    }
+  ]
+}

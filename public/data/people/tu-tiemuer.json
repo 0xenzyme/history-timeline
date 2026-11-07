@@ -1,0 +1,82 @@
+{
+  "id": "tu-tiemuer",
+  "name": "图帖睦尔",
+  "display": "元文宗图帖睦尔",
+  "birth": 1304,
+  "birthAccuracy": "exact",
+  "death": 1332,
+  "deathAccuracy": "exact",
+  "title": "两都之战即位，倡文治",
+  "bio": "武宗次子，天历元年于大都称帝，败上都天顺帝；尝让位其兄明宗，明宗暴崩复践祚，建奎章阁。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "a-su-ji-ba",
+      "target": "tu-tiemuer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宗室夺立，文宗废天顺自立"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "he-shila",
+      "target": "tu-tiemuer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，文宗让位明宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "yan-tiemuer",
+      "target": "tu-tiemuer",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "拥立于大都，两都之战主兵"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "图帖睦尔",
+    "元文宗"
+  ],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "文宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

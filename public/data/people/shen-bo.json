@@ -1,0 +1,56 @@
+{
+  "id": "shen-bo",
+  "name": "申伯",
+  "display": "申伯",
+  "birthAccuracy": "unknown",
+  "death": -821,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。竹书宣王七年锡申伯命，《崧高》美之，取此年为活动下限。",
+  "title": "宣王所锡申国之君",
+  "bio": "《崧高》尹吉甫美宣王褒赏申伯，于邑于谢。竹书宣王七年锡申伯命。与幽王时攻周的申侯不自动视为同一人。",
+  "tags": [
+    "申国"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "shen-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王七年锡申伯命，《崧高》美之"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "申伯"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "大雅·崧高"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪"
+    }
+  ]
+}

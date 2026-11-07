@@ -1,0 +1,136 @@
+{
+  "id": "shi-le",
+  "name": "石勒",
+  "display": "石勒",
+  "birth": 274,
+  "birthAccuracy": "exact",
+  "death": 333,
+  "deathAccuracy": "exact",
+  "title": "后赵之主，起自奴隶而兼河北",
+  "bio": "上党武乡羯人，少行贩洛阳，为人力耕，后为汲桑之党，遂附刘渊。转战河北，并王浚、刘曜，据襄国称赵王，后称帝。不识字而听人读史，闻郦食其劝立六国后而惊，闻留侯谏乃曰「赖此耳」。咸和八年卒，年六十。",
+  "tags": [
+    "十六国",
+    "后赵",
+    "羯"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shi-hu",
+      "target": "shi-le",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从父子，虎继勒后虐政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "shi-le",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越薨于项后，石勒焚其柩，说此人乱天下"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "shi-le",
+      "target": "wang-yan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "苦县覆军，排墙而杀"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yao",
+      "target": "shi-le",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "洛阳决战，曜坠马被执，前赵由此而灭"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "shi-le",
+      "target": "wang-mi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "忌其骁勇，伏兵袭杀并其众"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "liu-yuan-jian-han",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shile-jian-houzhao",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongjia-zhiluan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zuti-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "石勒",
+    "石世龙"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "石勒载记",
+      "kind": "classic"
+    }
+  ]
+}

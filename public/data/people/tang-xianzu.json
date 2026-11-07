@@ -1,0 +1,67 @@
+{
+  "id": "tang-xianzu",
+  "name": "汤显祖",
+  "display": "汤显祖",
+  "birth": 1550,
+  "birthAccuracy": "exact",
+  "death": 1616,
+  "deathAccuracy": "exact",
+  "title": "临川四梦",
+  "bio": "临川人，万历进士。以《牡丹亭》名世，情至之说动人；与沈璟争律，世称临川派。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "literature",
+    "drama"
+  ],
+  "primary": "drama",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "luo-guanzhong",
+      "target": "tang-xianzu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并峙明小说戏曲之林"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "tang-xianzu",
+      "target": "wu-chengen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为明代戏曲小说之林的两家"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "文苑传",
+      "kind": "classic"
+    }
+  ]
+}

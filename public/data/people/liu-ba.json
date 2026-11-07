@@ -1,0 +1,58 @@
+{
+  "id": "liu-ba",
+  "name": "刘巴",
+  "display": "刘巴",
+  "birthAccuracy": "unknown",
+  "death": 222,
+  "deathAccuracy": "exact",
+  "title": "蜀尚书令，铸直百钱以济军需",
+  "bio": "零陵烝阳人，字子初。先附曹操，奉命南徇长沙、零陵、桂阳，为刘备所阻不得北还，辗转交趾入蜀；备定益州，委以尚书，代法正为尚书令，与诸葛亮等共撰《蜀科》。章武二年卒。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "official"
+  ],
+  "primary": "official",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bei",
+      "target": "liu-ba",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备定蜀，辟为左将军西曹掾"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘巴",
+    "刘子初"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·董刘马陈董吕传",
+      "kind": "classic"
+    }
+  ]
+}

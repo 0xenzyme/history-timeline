@@ -1,0 +1,88 @@
+{
+  "id": "yi-xin",
+  "name": "奕䜣",
+  "display": "奕䜣",
+  "birth": 1833,
+  "birthAccuracy": "exact",
+  "death": 1898,
+  "deathAccuracy": "exact",
+  "title": "总理衙门",
+  "bio": "道光第六子，咸丰之弟；主持总理衙门，倡洋务，为同光新政中枢。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "royal-kin",
+    "minister",
+    "official",
+    "diplomat"
+  ],
+  "primary": "official",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-hongzhang",
+      "target": "yi-xin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "总理衙门主洋务，倚李主持"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "su-shun",
+      "target": "yi-xin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "咸丰末同在热河，政变后一诛一用"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xinyou-zhengbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yapian-zhanzheng-xianfeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zongliyamen-sheli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "恭亲王奕䜣传",
+      "kind": "classic"
+    }
+  ]
+}

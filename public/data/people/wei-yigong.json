@@ -1,0 +1,44 @@
+{
+  "id": "wei-yigong",
+  "name": "姬赤",
+  "display": "卫懿公",
+  "birthAccuracy": "unknown",
+  "death": -660,
+  "deathAccuracy": "exact",
+  "deathNote": "左传·闵公二年（前660）狄人入卫；史记·卫康叔世家「翟於是遂入，殺懿公」。惠公卒前669，懿公立前668，在位九年。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "di-ru-wei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "闵公二年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "cao-fang",
+  "name": "曹芳",
+  "display": "魏少帝曹芳",
+  "birth": 232,
+  "birthAccuracy": "exact",
+  "death": 274,
+  "deathAccuracy": "exact",
+  "title": "魏少帝，司马师废为齐王",
+  "bio": "明帝无子，养以为嗣，景初三年即帝位，年八岁，曹爽与司马懿辅政。嘉平六年司马师废帝为齐王，别立高贵乡公髦。晋受禅，封邵陵县公，泰始十年薨。",
+  "tags": [
+    "魏"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-fang",
+      "target": "sima-shi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "司马师废帝芳，立高贵乡公髦"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-fang",
+      "target": "cao-shuang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "齐王在位，曹爽为大将军。嘉平元年被诛"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-fang",
+      "target": "guo-hou-mingyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "齐王即位尊为皇太后。景元四年崩"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gaopingling-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "曹芳",
+    "曹兰卿",
+    "齐王"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·三少帝纪",
+      "kind": "classic"
+    }
+  ]
+}

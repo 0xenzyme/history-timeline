@@ -1,0 +1,74 @@
+{
+  "id": "jin-shangshu",
+  "name": "晋殇叔",
+  "display": "晋殇叔",
+  "birthAccuracy": "unknown",
+  "death": -781,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：殇叔四年，太子仇袭杀之。竹书系于幽王元年。",
+  "title": "晋殇叔，自立四年被杀",
+  "bio": "穆侯卒，弟殇叔自立，太子仇出奔。四年，仇袭杀殇叔而立，是为文侯。",
+  "tags": [
+    "晋"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jin-muhou",
+      "target": "jin-shangshu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。穆侯卒，殇叔自立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chou",
+      "target": "jin-shangshu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太子仇袭杀殇叔而立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "殇叔",
+    "晋殇叔"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "kind": "classic"
+    }
+  ]
+}

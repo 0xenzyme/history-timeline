@@ -1,0 +1,65 @@
+{
+  "id": "shen-baoxu",
+  "name": "申包胥",
+  "display": "申包胥",
+  "birthAccuracy": "unknown",
+  "death": -506,
+  "deathAccuracy": "approx",
+  "deathNote": "生卒无明文。《左传·定公四年》记吴入郢、包胥如秦乞师，事在定公五年，即公元前506年。取-506为活动年，非寿数。",
+  "title": "哭秦庭七日，乞师而复楚",
+  "bio": "楚之大夫。昭王之世，吴子阖闾用伍子胥、孙武伐楚，五战入郢，昭王奔随。包胥之秦乞师，立依于庭墙而哭，日夜不绝声，勺饮不入口者七日。秦哀公为之赋《无衣》，九顿首而坐，秦师乃出。包胥因之以却吴，昭王复国。初子胥之亡也，谓包胥曰「我必覆楚」，包胥曰「子能覆之，我必兴之」，后卒皆如其言。",
+  "tags": [
+    "春秋",
+    "楚",
+    "复国"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-zhen",
+      "target": "shen-baoxu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "吴入郢，昭王奔随；包胥如秦乞师，哭于秦庭七日，秦哀公赋《无衣》而出师，楚以复国"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "申包胥",
+    "包胥"
+  ],
+  "sources": [
+    {
+      "work": "左传",
+      "part": "定公四年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "yanyou-fuke",
+  "name": "延祐复科举",
+  "display": "复科举",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1313,
+  "yearAccuracy": "exact",
+  "yearNote": "元史在皇庆二年十月先令中书议行，十一月甲辰行科举。诏内次年乡试、会试是日后安排。续资括注的1314年是编订者所加。",
+  "polity": [
+    "yuan"
+  ],
+  "people": [
+    "ren-zong"
+  ],
+  "result": "科举恢复，汉地入仕路径重开",
+  "aliases": [
+    "皇庆科举"
+  ],
+  "dynasties": [
+    "yuan"
+  ],
+  "desc": "皇庆二年十一月甲辰，仁宗下诏行科举。诏里的皇庆三年八月乡试和次年二月会试是日后安排，不作为本条的结束年。元廷由此重开汉地文官的科举路径。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷二十四·仁宗本纪",
+      "note": "皇庆二年十一月甲辰行科举",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷一百九十八",
+      "note": "甲辰行科举，并记皇庆三年八月乡试",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ren-zong",
+      "name": "爱育黎拔力八达",
+      "display": "元仁宗爱育黎拔力八达",
+      "birth": 1285,
+      "birthAccuracy": "exact",
+      "death": 1320,
+      "deathAccuracy": "exact",
+      "title": "复兴科举",
+      "bio": "武宗弟，好儒术，即位后力行汉法，皇庆二年开科举，以程朱书取士，儒生柄用。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "wuyue-jianli",
+  "name": "吴越建立",
+  "display": "吴越建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 907,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系后梁开平元年钱镠进封吴越王。开平元年公历907。",
+  "place": "杭州",
+  "polity": [
+    "wuyue"
+  ],
+  "people": [
+    "qian-liu"
+  ],
+  "result": "钱镠进封吴越王，都杭州；两浙之别为一国，史称吴越。",
+  "dynasties": [
+    "tang",
+    "wudai"
+  ],
+  "desc": "后梁开平元年，钱镠以平定两浙之功，进封吴越王，都杭州。镠起于临安，讨刘汉宏于浙东，平董昌于越地，由是据有两浙。吴越一姓五主，世受中原册命，守「善事中国」之家法，与杨吴相持于宣、润之间而不启边衅；又筑捍海塘、浚湖溉田，苏杭之阜基于此。传至孙钱俶，太平兴国三年纳土归宋。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后梁纪·开平元年",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "吴越",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "qian-liu",
+      "name": "钱镠",
+      "display": "吴越武肃王",
+      "birth": 852,
+      "birthAccuracy": "exact",
+      "death": 932,
+      "deathAccuracy": "exact",
+      "title": "吴越武肃王，善事中原",
+      "bio": "杭州临安人，字具美，少贩私盐，拳勇有气。从董昌破刘汉宏，代镇两浙，唐赐越王，梁封吴王、吴越王。筑罗城、立捍海塘，射潮之说传焉；保境息民，累世尊奉中国。临终以\"善事中国\"为遗训，龙启元年卒，年八十一。",
+      "tags": [
+        "十国",
+        "吴越"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "vassal"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "zhu-chenhao",
+  "name": "朱宸濠",
+  "display": "宁王朱宸濠",
+  "birthAccuracy": "unknown",
+  "death": 1521,
+  "deathAccuracy": "exact",
+  "title": "袭宁王而举兵",
+  "bio": "宁王一系，正德间袭封南昌。畜死士、结宸贵，1519 年举兵略九江、攻安庆，四十三日为王守仁所擒，次年被诛。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "royal-kin",
+    "rebel"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-chenhao",
+      "target": "zhu-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同出宁王一系，袭封南昌而举事"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wang-shouren",
+      "target": "zhu-chenhao",
+      "type": "rival",
+      "directed": false,
+      "since": 1519,
+      "notes": [
+        "四十三日平其乱，擒宸濠于樵舍"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-chenhao",
+      "target": "zhu-houzhao",
+      "type": "rival",
+      "directed": false,
+      "since": 1519,
+      "notes": [
+        "宁藩之叛起于正德十四年"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ningwang-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "诸王传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "gao-qi",
+  "name": "高启",
+  "display": "高启",
+  "birth": 1336,
+  "birthAccuracy": "exact",
+  "death": 1374,
+  "deathAccuracy": "exact",
+  "title": "吴中四杰之首",
+  "bio": "字季迪，长洲人。博学工诗，召修《元史》授翰林编修，辞户部侍郎而归居吴淞江之青丘; 1374 年以魏观之狱连坐，腰斩，年三十九。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "poetry",
+    "literature"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-qi",
+      "target": "song-lian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以文章受知于太祖，皆不得终于乡里"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "文苑传",
+      "kind": "classic"
+    }
+  ]
+}

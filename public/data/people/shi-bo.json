@@ -1,0 +1,87 @@
+{
+  "id": "shi-bo",
+  "name": "史伯",
+  "display": "史伯",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。郑桓公为司徒时问逃死之地，取桓公死年为可见下限。与伯阳父不是同一人。",
+  "title": "周太史，劝郑桓公寄孥虢郐",
+  "bio": "桓公为司徒，问王室多故逃死何处。史伯劝寄孥与贿于虢、郐。与论三川震的伯阳父不是同一人。",
+  "tags": [
+    "太史"
+  ],
+  "categories": [
+    "qingshi",
+    "historian"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-you",
+      "target": "shi-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "桓公问逃死，太史伯劝寄孥虢郐"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "guo-shu",
+      "target": "shi-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯论虢叔恃势"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "kuai-zhong",
+      "target": "shi-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯论郐仲恃险"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "史伯",
+    "太史伯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "郑世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "mayin-jian-chu",
+  "name": "楚建国",
+  "display": "楚建国",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": 907,
+  "yearAccuracy": "exact",
+  "yearNote": "口径：取 907 年四月辛未后梁封马殷楚王为主锚点（通鉴卷266；新五代史卷66\"梁太祖即位……封楚王\"），与吴越（907 封王）口径统一；927 年六月丙申后唐封楚国王，仪制始备（通鉴卷275）。若采\"封国王年\"口径可改 year=927，两步均已核验在案。",
+  "polity": [
+    "shiguo"
+  ],
+  "people": [
+    "ma-yin"
+  ],
+  "result": "马殷受梁封楚王，奉中原正朔、通商养兵，楚政权成形，至 951 年亡于南唐。",
+  "aliases": [
+    "马殷封楚王",
+    "楚国建立",
+    "马殷建国"
+  ],
+  "dynasties": [
+    "tang",
+    "wudai"
+  ],
+  "desc": "907 年四月辛未，后梁以武安节度使马殷为楚王，楚政权成形。马楚奉中原正朔、通商养兵；927 年六月丙申后唐又封马殷为楚国王，仪制始备。楚至 951 年亡于南唐。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷266",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷66",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷275",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ma-yin",
+      "name": "马殷",
+      "display": "楚武穆王",
+      "birth": 852,
+      "birthAccuracy": "approx",
+      "death": 930,
+      "deathAccuracy": "exact",
+      "birthNote": "长兴元年十一月卒于潭州，年七十九，上推生年。",
+      "title": "楚王马殷，听高郁之策而富一境",
+      "bio": "许州鄢陵人。少为牙兵，从孙儒；儒败，与刘建锋收残卒入湖南，建锋为部下所杀，众推殷权军府。北奉中原、西和荆蜀、东拒杨吴，据潭州累封楚王。用高郁策，听民市茶于西北以易战马，铸铅铁钱行于境内，国用富饶。晚年诸子交争，郁郁而殂。",
+      "tags": [
+        "十国",
+        "楚"
+      ],
+      "categories": [
+        "warlord",
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

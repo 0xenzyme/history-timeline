@@ -1,0 +1,59 @@
+{
+  "id": "wu-zhen",
+  "name": "吴镇",
+  "display": "吴镇",
+  "birth": 1280,
+  "birthAccuracy": "approx",
+  "death": 1354,
+  "deathAccuracy": "approx",
+  "birthNote": "生年无明文，近人考订约在一二八〇年前后。",
+  "deathNote": "卒年常见系于一三五四年前后。",
+  "title": "梅花道人，隐于卖卜",
+  "bio": "字仲圭，号梅花道人，嘉兴魏塘人。隐居不仕，卖卜为业，墨竹山水萧散沉着，与黄公望、倪瓒、王蒙并称元四家。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "painting"
+  ],
+  "primary": "painting",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huang-gongwang",
+      "target": "wu-zhen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同列元四家，隐于江湖、不事王侯"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "图绘宝鉴",
+      "kind": "classic"
+    },
+    {
+      "work": "梅花道人遗墨",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "qin-shifu",
+  "name": "秦世父",
+  "display": "秦世父",
+  "birthAccuracy": "unknown",
+  "death": -776,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。襄公二年戎围犬丘，世父为戎所虏、岁余复归。襄公元年当 -777，二年当 -776。",
+  "title": "秦庄公长男，让国击戎",
+  "bio": "曰戎杀我大父仲，非杀戎王则不敢入邑，遂让弟襄公为太子。襄公二年为戎所虏，岁余复归。",
+  "tags": [
+    "秦",
+    "西戎"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qin-shifu",
+      "target": "qin-zhuanggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。世父让弟襄公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qin-shifu",
+      "target": "qin-xianggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。世父让国击戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "世父",
+    "秦世父"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "reng-shu",
+  "name": "仍叔",
+  "display": "仍叔",
+  "birthAccuracy": "unknown",
+  "death": -827,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《云汉》毛序美宣王，取宣王即位年为可见下限。",
+  "title": "毛诗序称《云汉》作者",
+  "bio": "《云汉》序：仍叔美宣王，遇灾而惧、侧身修行。诗本文无「仍叔」二字。",
+  "tags": [
+    "诗序"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "reng-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《云汉》序：仍叔美宣王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "仍叔"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "大雅·云汉",
+      "kind": "classic"
+    }
+  ]
+}

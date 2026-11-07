@@ -1,0 +1,110 @@
+{
+  "id": "bo-yan",
+  "name": "伯颜",
+  "display": "伯颜",
+  "birth": 1236,
+  "birthAccuracy": "exact",
+  "death": 1295,
+  "deathAccuracy": "exact",
+  "deathNote": "身世见《元史》本传，这里只取「伐宋统帅」事实。",
+  "title": "下临安的元军统帅",
+  "bio": "蒙古八邻部人，深沉有智略。至元十一年总二十万大军伐宋，下襄阳、渡长江，会师临安，掳谢太后、恭帝北去；旋平内乱，位望倾朝。元贞元年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "outsider",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    },
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "bo-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚为灭宋统帅，总二十万军下临安"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bo-yan",
+      "target": "zhang-hongfan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘范为其前部，崖山尽灭南宋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-shu",
+      "target": "bo-yan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同总南征之军，伯颜居上而阿术当其锋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-li-hai-ya",
+      "target": "bo-yan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "荆湖一路并进，江陵潭州之役当其任"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dingjiazhou-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "linan-xiangbiao",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "伯颜传",
+      "kind": "classic"
+    }
+  ]
+}

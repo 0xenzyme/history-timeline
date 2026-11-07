@@ -1,0 +1,58 @@
+{
+  "id": "yu-shi-nan",
+  "name": "虞世南",
+  "display": "虞世南",
+  "birth": 558,
+  "birthAccuracy": "exact",
+  "death": 638,
+  "deathAccuracy": "exact",
+  "title": "贞观十二年卒，年八十一",
+  "bio": "越州余姚人。太宗朝弘文馆学士，书名与欧阳询并称。贞观十二年卒，年八十一。",
+  "tags": [
+    "唐",
+    "书法"
+  ],
+  "categories": [
+    "calligraphy"
+  ],
+  "primary": "calligraphy",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "yu-shi-nan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝弘文馆学士，贞观十二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "虞世南"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "虞世南传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "han-tong",
+  "name": "韩通",
+  "display": "韩通",
+  "birthAccuracy": "unknown",
+  "death": 960,
+  "deathAccuracy": "exact",
+  "title": "陈桥之变中殉周的侍卫副帅",
+  "bio": "后周侍卫马步军副都指挥使。陈桥兵变，通自内奔出欲拒，为王彦升所杀，满门同殉。太祖赠中书令，以葬礼旌其忠。",
+  "tags": [
+    "后周"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "general"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-tong",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "禁军旧恩，变起而死于扈从"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houzhou-gong-houshu",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "周三臣传",
+      "kind": "classic"
+    }
+  ]
+}

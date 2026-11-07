@@ -1,0 +1,83 @@
+{
+  "id": "zhao-kuo",
+  "name": "赵扩",
+  "display": "宋宁宗赵扩",
+  "birth": 1168,
+  "birthAccuracy": "exact",
+  "death": 1224,
+  "deathAccuracy": "exact",
+  "title": "庆元党禁与开禧北伐",
+  "bio": "光宗长子，绍熙内禅即位。庆元党籍禁道学，开禧北伐败于金，嘉定和议称侄。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-dun",
+      "target": "zhao-kuo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，光宗传宁宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-zong",
+      "target": "zhao-kuo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养父子，宁宗传理宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiading-heyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "kaixi-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "赵扩",
+    "宋宁宗"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "宁宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

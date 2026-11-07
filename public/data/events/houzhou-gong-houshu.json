@@ -1,0 +1,98 @@
+{
+  "id": "houzhou-gong-houshu",
+  "name": "后周攻后蜀",
+  "display": "后周攻后蜀",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 955,
+  "yearAccuracy": "exact",
+  "yearNote": "显德二年五月戊辰朔王景自散关趣秦州（通鉴卷292），闰九月黄花谷破蜀兵、秦阶成相继降，十一月戊申克凤州，四州皆下；首尾均在显德二年，公历亦在955年内，故不写 endYear。",
+  "place": "秦州",
+  "placeNow": "甘肃天水",
+  "belligerents": [
+    "wudai",
+    "houshu"
+  ],
+  "commanders": [
+    {
+      "id": "han-tong",
+      "side": "wudai"
+    }
+  ],
+  "people": [
+    "meng-chang"
+  ],
+  "result": "周取秦、凤、阶、成四州，蜀军退保剑门；后周西线侧翼巩固，为专力淮南创造条件。",
+  "aliases": [
+    "周取秦凤"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "显德二年五月戊辰朔，王景自散关出兵攻秦州，闰九月黄花谷一役破蜀兵。秦、阶、成相继降，十一月戊申克凤州，秦、凤、阶、成四州尽入后周，蜀军退保剑门。后周西线侧翼由此巩固，为世宗专力淮南创造条件。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷292",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "meng-chang",
+      "name": "孟昶",
+      "display": "后蜀后主",
+      "birth": 919,
+      "birthAccuracy": "exact",
+      "death": 965,
+      "deathAccuracy": "exact",
+      "title": "后蜀后主，芙蓉锦城，桃符留句",
+      "bio": "知祥之子，嗣位逾四十年。初政恭俭，有小国之治；后期奢纵，罗城尽种芙蓉，七宝楼船之盛甲于诸国，亲书桃符\"新年纳余庆，嘉节号长春\"，为后世春联之祖。广政二十七年宋师入，不战而降，至汴七日而卒。",
+      "tags": [
+        "十国",
+        "后蜀"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "han-tong",
+      "name": "韩通",
+      "display": "韩通",
+      "birthAccuracy": "unknown",
+      "death": 960,
+      "deathAccuracy": "exact",
+      "title": "陈桥之变中殉周的侍卫副帅",
+      "bio": "后周侍卫马步军副都指挥使。陈桥兵变，通自内奔出欲拒，为王彦升所杀，满门同殉。太祖赠中书令，以葬礼旌其忠。",
+      "tags": [
+        "后周"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

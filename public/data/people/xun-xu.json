@@ -1,0 +1,58 @@
+{
+  "id": "xun-xu",
+  "name": "荀勖",
+  "display": "荀勖",
+  "birthAccuracy": "unknown",
+  "death": 289,
+  "deathAccuracy": "exact",
+  "birthNote": "传无卒年岁数，不编生年。",
+  "title": "西晋尚书令，校正音律",
+  "bio": "颍川人。起家魏大将军掾，预禅代之谋。晋世领秘书监、尚书令，与贾充同定律令。妙解音律，修《中经新簿》。太康十年卒，赠司徒。",
+  "tags": [
+    "晋",
+    "西晋"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "xun-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋初领中书监，掌机密，修定律令、乐律"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "荀勖"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "荀勖传",
+      "kind": "classic"
+    }
+  ]
+}

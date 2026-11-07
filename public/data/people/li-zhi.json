@@ -1,0 +1,271 @@
+{
+  "id": "li-zhi",
+  "name": "李治",
+  "display": "唐高宗李治",
+  "birth": 628,
+  "birthAccuracy": "exact",
+  "death": 683,
+  "deathAccuracy": "exact",
+  "title": "唐高宗，永徽之治，政归武后",
+  "bio": "李世民第九子，长孙皇后所出。即位初仍贞观之政，用长孙无忌、褚遂良，天下乂安，户数滋殖，史称永徽之治。显庆以后风疾日重，百司奏事皆委武后，号曰二圣。弘道元年崩于贞观殿，年五十六，李唐之政遂入武氏之手。",
+  "tags": [
+    "唐",
+    "永徽"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "wu-zetian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，武后柄政"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "li-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，高宗嫡子，嗣位为中宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "pei-xing-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永淳元年再起为金牙道大总管，未行而卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "xue-ren-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开耀元年复起，其年病卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "qi-bi-he-li",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "与李勣拔平壤，仪凤二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "a-shi-na-she-er",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "右卫大将军，永徽六年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "li-yi-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载655至659年在任，乾封元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhang-wenguan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾封二年参知政事，宰相表载 667—669 年在任；薨年旧唐书作仪凤二年、新唐书作仪凤三年九月。"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "li-jing-xuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载675至680年在任，永淳元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "hao-chu-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载675至681年在任，开耀元年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "gao-zhi-zhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载676至679年在任，永淳二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhang-xing-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗朝为仆射，永徽四年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "chu-sui-liang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗朝为中书令，显庆三年卒于爱州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "han-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗朝为侍中，显庆四年卒于贬所"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "liu-ren-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "麟德二年十月知政事，后又同中书门下三品"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "dai-zhide",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾封二年同三品，调露元年正月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "xu-jingzong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗朝长期知政事，咸亨三年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "lai-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永徽中同三品，谏立武后，龙朔二年阵没"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fei-wang-li-wu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李治",
+    "李为善",
+    "唐高宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高宗纪",
+      "kind": "classic"
+    }
+  ]
+}

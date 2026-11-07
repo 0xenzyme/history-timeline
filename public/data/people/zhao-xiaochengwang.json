@@ -1,0 +1,107 @@
+{
+  "id": "zhao-xiaochengwang",
+  "name": "赵孝成王",
+  "display": "赵孝成王",
+  "birthAccuracy": "unknown",
+  "death": -245,
+  "deathAccuracy": "exact",
+  "deathNote": "赵世家：孝成王二十一年卒；由世家\"二十年秦王政初立\"与秦王政元年（前246）逆推，卒于前245。与落库记录中李牧、平原君条同推。",
+  "title": "赵王，长平邯郸之主",
+  "bio": "长平的赵王：以赵括代廉颇，四十余万坑；随即坚壁邯郸，赖平原君告急、信陵君窃符解围。轴上changping、handan两点的焦点人物。前245年卒，其后三世而赵亡。",
+  "tags": [
+    "赵国",
+    "长平",
+    "邯郸"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-he",
+      "target": "zhao-xiaochengwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠文王卒，子丹嗣，是为孝成王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-daoxiangwang",
+      "target": "zhao-xiaochengwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝成王二十一年卒，悼襄王嗣；其后三世而赵亡"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-xiaochengwang",
+      "target": "zhao-kuo-changping",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "长平之主：中秦反间，以括代颇，一军尽坑"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-xiaochengwang",
+      "target": "zhao-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平原君相孝成王，邯郸急时告救楚魏——遂有窃符"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "changping-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "孝成王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "赵世家",
+      "kind": "classic"
+    }
+  ]
+}

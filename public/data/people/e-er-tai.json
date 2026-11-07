@@ -1,0 +1,92 @@
+{
+  "id": "e-er-tai",
+  "name": "鄂尔泰",
+  "display": "鄂尔泰",
+  "birthAccuracy": "unknown",
+  "death": 1745,
+  "deathAccuracy": "exact",
+  "deathNote": "乾隆十年，以疾乞解任，加太傅，旋卒。",
+  "title": "世宗顾命，高宗军机",
+  "bio": "西林觉罗氏。世宗末与张廷玉同受顾命。高宗初总理事务，后为军机大臣。乾隆十年卒，遗诏曾令配享太庙。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qian-long",
+      "target": "e-er-tai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世宗顾命大臣，高宗初为军机大臣"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "e-er-tai",
+      "target": "zhang-tingyu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同受世宗顾命，高宗初并相"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "yong-zheng",
+      "target": "e-er-tai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世宗末与张廷玉同受顾命，督云贵而奏改土归流"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gaitu-guiliu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tanding-ruimu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "鄂尔泰传",
+      "kind": "classic"
+    }
+  ]
+}

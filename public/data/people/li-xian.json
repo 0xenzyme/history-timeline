@@ -1,0 +1,137 @@
+{
+  "id": "li-xian",
+  "name": "李显",
+  "display": "唐中宗李显",
+  "birth": 656,
+  "birthAccuracy": "exact",
+  "death": 710,
+  "deathAccuracy": "exact",
+  "title": "高宗嫡子，两度为帝",
+  "bio": "高宗第七子，武后所生。弘道元年嗣位，次年为武后所废；神龙元年张柬之反正，复辟复位，景龙四年被韦后毒弑。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-xian",
+      "target": "li-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，高宗嫡子，嗣位为中宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-dan",
+      "target": "li-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，中宗被废，睿宗继立"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "wu-zetian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，武后废中宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "dou-lu-qin-wang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载693至700年在任，景龙三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "yang-zai-si",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中宗朝为中书令，景龙三年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "wei-yuan-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中宗朝为相，神龙三年卒于涪陵"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "wei-huang-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "中宗皇后，景龙四年临淄王起兵时被杀"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "shenlong-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李显",
+    "唐中宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "中宗纪",
+      "kind": "classic"
+    }
+  ]
+}

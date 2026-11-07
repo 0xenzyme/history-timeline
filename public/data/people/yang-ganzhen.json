@@ -1,0 +1,81 @@
+{
+  "id": "yang-ganzhen",
+  "name": "杨干贞",
+  "display": "杨干贞",
+  "birthAccuracy": "unknown",
+  "death": 937,
+  "deathAccuracy": "approx",
+  "deathNote": "国亡之际先已废黜，卒年诸说不一，约系大义宁亡之年；生年无载。",
+  "title": "弑主拥立复自代，大义宁之暴",
+  "bio": "大长和东川节度使。弑郑隆亶，拥立赵善政而改号大天兴；逾年废之，遂自立，国号大义宁。性贪虐，中外咸怨，旋为弟杨诏所废；段思平起兵，国亡，寻卒。",
+  "tags": [
+    "云南",
+    "大义宁"
+  ],
+  "categories": [
+    "monarch",
+    "founding",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "dayining"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "yunnan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-ganzhen",
+      "target": "zheng-longdan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "东川节度使弑主，大长和亡"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "yang-ganzhen",
+      "target": "zhao-shanzheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "拥立复废之，十月而移国祚"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "yang-ganzhen",
+      "target": "yang-zhao-yining",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟相废，杨氏二主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "南诏野史",
+      "part": "大义宁",
+      "kind": "classic"
+    }
+  ]
+}

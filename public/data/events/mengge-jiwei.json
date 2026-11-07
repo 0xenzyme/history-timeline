@@ -1,0 +1,99 @@
+{
+  "id": "mengge-jiwei",
+  "name": "蒙哥即位",
+  "display": "蒙哥即位",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1251,
+  "yearAccuracy": "exact",
+  "yearNote": "元史作六月即位于斡难河，大会之地又作阔帖兀阿阑。续资作莽赉扣即位于库腾敖拉。年份没有异说。",
+  "polity": [
+    "mongol"
+  ],
+  "people": [
+    "meng-ge",
+    "hu-bi-lie"
+  ],
+  "result": "汗位转入拖雷系",
+  "aliases": [
+    "宪宗即位"
+  ],
+  "dynasties": [
+    "song",
+    "mongol"
+  ],
+  "desc": "1251年六月，诸王大将共推蒙哥即皇帝位于斡难河，汗位从窝阔台系转到拖雷系。元史同时写下大会之地阔帖兀阿阑，续资则作即位于库腾敖拉。忽必烈接着受命治理蒙古、汉地民户。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷三·宪宗本纪",
+      "note": "元年六月即皇帝位于斡难河，命忽必烈领治蒙古、汉地民户",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷一百七十三",
+      "note": "莽赉扣即位于库腾敖拉",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "meng-ge",
+      "name": "蒙哥",
+      "display": "蒙哥",
+      "birth": 1209,
+      "birthAccuracy": "exact",
+      "death": 1259,
+      "deathAccuracy": "exact",
+      "birthNote": "本纪记宪宗己未年崩、年五十二，折生年在一二〇八年前后，此处采常见的一二〇九年系年。",
+      "title": "元宪宗，1251—1259 年在位",
+      "bio": "拖雷长子。1251 年即汗位，诛锄诸王异己，命忽必烈总漠南汉地、旭烈兀西征。1259 年亲征南宋，久顿合州钓鱼城下，七月卒于军中，蒙古西征自此敛兵。",
+      "tags": [
+        "元",
+        "蒙古"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hu-bi-lie",
+      "name": "忽必烈",
+      "display": "元世祖忽必烈",
+      "birth": 1215,
+      "birthAccuracy": "exact",
+      "death": 1294,
+      "deathAccuracy": "exact",
+      "title": "元世祖，灭宋建元的大汗",
+      "bio": "拖雷次子，1260年即汗位，建元中统，定都燕京。襄阳围六年而克，伯颜下临安，崖山灭宋，混一天下。至元三十一年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

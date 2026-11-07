@@ -1,0 +1,93 @@
+{
+  "id": "zhao-daoxiangwang",
+  "name": "赵悼襄王",
+  "display": "赵悼襄王",
+  "birthAccuracy": "unknown",
+  "death": -236,
+  "deathAccuracy": "approx",
+  "deathNote": "赵世家：悼襄王九年卒，子迁立；由王迁七年（前229，李牧被斩）逆推，卒于前236年。纪年有出入，记approx。",
+  "title": "赵王，逐廉颇之世",
+  "bio": "廉颇被谗去魏、终身不复入赵；庞煖却燕取武遂，赵的将帅一线在他手里拆散。约前236年卒；其后王迁立，李牧死、邯郸降。",
+  "tags": [
+    "赵国",
+    "廉颇"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-daoxiangwang",
+      "target": "zhao-xiaochengwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝成王二十一年卒，悼襄王嗣；其后三世而赵亡"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-daoxiangwang",
+      "target": "lian-po",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "廉颇见谗去赵，将军买马于邯郸而不用；终身不复入赵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-daoxiangwang",
+      "target": "li-mu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "悼襄世李牧击燕破秦，赵之北边恃之；就斩于王迁之世"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ju-xin",
+      "target": "zhao-daoxiangwang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "燕将寇赵，赵使庞煖擒剧辛而杀之——赵的晚年尚有此一战"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "悼襄王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "赵世家",
+      "kind": "classic"
+    }
+  ]
+}

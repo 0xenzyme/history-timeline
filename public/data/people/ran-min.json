@@ -1,0 +1,62 @@
+{
+  "id": "ran-min",
+  "name": "冉闵",
+  "display": "冉闵",
+  "birthAccuracy": "unknown",
+  "death": 352,
+  "deathAccuracy": "exact",
+  "birthNote": "载记无生年，不编。",
+  "title": "杀胡令颁行者，冉魏一年而亡",
+  "bio": "石虎养孙，本姓冉，字永曾。虎死诸子相屠，闵废杀石鉴自立，国号魏，史称冉魏。知胡之不为己用，班令内外赵人斩胡首，一日之中斩首数万，死者二十余万。永和八年慕容恪以铁锁连马围之于廉台，被执送龙城，斩于遏陉山，谥曰武悼天王。",
+  "tags": [
+    "十六国",
+    "冉魏",
+    "杀胡令"
+  ],
+  "categories": [
+    "monarch",
+    "rebel"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "murong-ke",
+      "target": "ran-min",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "廉台之战擒闵，送龙城斩之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "冉闵",
+    "石闵",
+    "武悼天王"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "石季龙载记下",
+      "kind": "classic"
+    }
+  ]
+}

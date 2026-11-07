@@ -1,0 +1,142 @@
+{
+  "id": "xia",
+  "name": "夏",
+  "from": -2070,
+  "to": -1600,
+  "contractVersion": 1,
+  "group": "pre-qin",
+  "personCount": 0,
+  "eventCount": 3,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "xia-jian-guo",
+      "name": "夏朝建立",
+      "display": "夏朝建立",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -2070,
+      "yearAccuracy": "approx",
+      "yearNote": "夏商周断代工程《夏商周年表》定夏代约始于前2070，为文献与碳十四结合的考古学推定值，夏代是否属信史学界仍有讨论。",
+      "polity": [
+        "xia"
+      ],
+      "result": "禹受诸侯拥戴即天子位，建立夏后氏政权；启继位后王位世袭取代禅让，开「家天下」格局。",
+      "aliases": [
+        "禹建立夏朝",
+        "夏后氏立国"
+      ],
+      "dynasties": [
+        "xia"
+      ],
+      "desc": "禹受诸侯拥戴即天子位，国号夏后，夏代约始于前2070。禹之后启继位，不再禅让，王位世袭由此取代禅让制。建元节点有取禹即位与取启继位两说，本条取禹即位的断代工程口径。夏代是否属信史学界仍有讨论，前2070只是考古学推定值，不是确切纪年。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷002 夏本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "夏商周断代工程",
+          "part": "夏商周年表",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "gan-zhizhan",
+      "name": "甘之战",
+      "display": "甘之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 2,
+      "year": -2060,
+      "yearAccuracy": "approx",
+      "yearNote": "《今本竹书纪年》系于帝启二年前后，《尚书序》记启与有扈氏战于甘之野。夏初无绝对年代锚点，前2060是据断代工程夏始约前2070推算的占位年，无文献明文。",
+      "place": "甘",
+      "placeNow": "今陕西西安鄠邑区一带（有扈在始平鄠县之说；甘之地望另有河南原阳等异说）",
+      "belligerents": [
+        "xia",
+        "youhu"
+      ],
+      "result": "启胜，有扈氏被征服；王位世袭制以武力确立，禅让制终结。",
+      "aliases": [
+        "启伐有扈",
+        "甘之野之战"
+      ],
+      "dynasties": [
+        "xia"
+      ],
+      "desc": "启帅师伐有扈氏，大战于甘，启胜而有扈氏被征服。此战以武力确立了王位世袭，禅让制随之终结。甘与有扈氏的地望有异说；前2060为推算的占位年，无文献明文，不能当作确年。",
+      "sources": [
+        {
+          "work": "今本竹書紀年疏證",
+          "part": "卷上 帝啓",
+          "kind": "classic"
+        },
+        {
+          "work": "尚書",
+          "part": "甘誓",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "ming-tiao-zhizhan",
+      "name": "鸣条之战",
+      "display": "鸣条之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -1600,
+      "yearAccuracy": "approx",
+      "yearNote": "夏商周断代工程通常置商灭夏约前1600；《竹书纪年》仅记夏桀三十一年，绝对年仍有争议。",
+      "place": "鸣条",
+      "placeNow": "今山西运城夏县一带，地望有异说",
+      "belligerents": [
+        "shang",
+        "xia"
+      ],
+      "aliases": [
+        "商汤伐夏",
+        "汤灭夏"
+      ],
+      "dynasties": [
+        "xia",
+        "shang"
+      ],
+      "desc": "商汤在鸣条击败夏桀，随后追击并放逐桀，夏政权由此终结、商建立。鸣条具体位置和绝对年代仍有争议，兵力数字不据传说填写。",
+      "sources": [
+        {
+          "work": "今本竹書紀年疏證",
+          "part": "卷上",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·殷本紀",
+          "part": "商汤伐夏段",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

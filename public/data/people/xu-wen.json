@@ -1,0 +1,78 @@
+{
+  "id": "xu-wen",
+  "name": "徐温",
+  "display": "徐温",
+  "birthAccuracy": "unknown",
+  "death": 927,
+  "deathAccuracy": "exact",
+  "title": "吴国之真主，知诰因之以有国",
+  "bio": "海州人，与杨行密同里起兵。行密晚年猜诛旧将，温与张颢矫命诛朱瑾，已而斩颢，独秉吴政，自号都知兵马使，出镇金陵而养子知诰居内用事。立行密诸子为傀儡，年号顺义皆其所建，天成二年卒于升州。",
+  "tags": [
+    "十国",
+    "吴"
+  ],
+  "categories": [
+    "regent",
+    "warlord"
+  ],
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-xingmi",
+      "target": "xu-wen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "同里起兵，吴之权卒归于温"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-bian",
+      "target": "xu-wen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养子秉政，齐王因之受禅"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yangwu-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "十国春秋",
+      "part": "吴",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "吴世家",
+      "kind": "classic"
+    }
+  ]
+}

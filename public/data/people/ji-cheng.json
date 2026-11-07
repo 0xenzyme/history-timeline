@@ -1,0 +1,110 @@
+{
+  "id": "ji-cheng",
+  "name": "姬称",
+  "display": "鲁孝公",
+  "birthAccuracy": "unknown",
+  "death": -769,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：孝公二十五年犬戎杀幽王，二十七年卒。",
+  "title": "鲁孝公，宣王所立",
+  "bio": "懿公之弟。宣王杀伯御，樊穆仲谓称肃恭明神，立于夷宫。自是后诸侯多畔王命。",
+  "tags": [
+    "鲁"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-ao",
+      "target": "ji-cheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。孝公称，懿公之弟"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-cheng",
+      "target": "ji-xi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "杀伯御，立孝公于夷宫"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-cheng",
+      "target": "zhong-shanfu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "樊穆仲谓称肃恭明神，宣王乃立孝公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-cheng",
+      "target": "ji-yijiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书镐京之年鲁侯与立宜臼"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "鲁孝公",
+    "姬称"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "鲁周公世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "周语上",
+      "kind": "classic"
+    }
+  ]
+}

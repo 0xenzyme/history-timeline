@@ -1,0 +1,117 @@
+{
+  "id": "tuo-lei",
+  "name": "拖雷",
+  "display": "拖雷",
+  "birth": 1192,
+  "birthAccuracy": "exact",
+  "death": 1232,
+  "deathAccuracy": "exact",
+  "birthNote": "本传不载生年，依壬辰年薨时年四十上下推得。",
+  "title": "睿宗拖雷，成吉思汗幼子",
+  "bio": "成吉思汗幼子、守灶子，监国二年，握漠北精锐。四子蒙哥、忽必烈、旭烈兀、阿里不哥皆出一门，后世追尊睿宗。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "royal-kin",
+    "general"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tie-mu-zhen",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，拖雷为幼子守灶而握漠北精锐"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "suo-lu-he-tie-ni",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，四子皆出一门"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "meng-ge",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，拖雷长子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-li-bu-ge",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sanfengshan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "tie-mu-zhen-xi-zheng",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "睿宗传",
+      "kind": "classic"
+    }
+  ]
+}

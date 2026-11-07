@@ -1,0 +1,73 @@
+{
+  "id": "talas-zhizhan",
+  "name": "怛罗斯之战",
+  "display": "怛罗斯",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 751,
+  "yearAccuracy": "exact",
+  "place": "怛罗斯",
+  "placeNow": "今哈萨克斯坦江布尔附近",
+  "belligerents": [
+    "tang",
+    "xiyu"
+  ],
+  "commanders": [
+    {
+      "id": "gao-xian-zhi",
+      "side": "tang"
+    }
+  ],
+  "result": "唐军败于阿拔斯势力，唐在中亚的军事推进受到遏制",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "751 年，高仙芝率唐军在怛罗斯与阿拔斯势力交战，唐军败退。交战兵力、俘虏数量及造纸术传播说法存在争议，均不在本实体中写入；事件仅记录可核的年份、地点、交战双方与战略转折。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高仙芝传",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "高仙芝传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "gao-xian-zhi",
+      "name": "高仙芝",
+      "display": "高仙芝",
+      "birthAccuracy": "unknown",
+      "death": 755,
+      "deathAccuracy": "exact",
+      "title": "安西节度使，越帕米尔征小勃律，死于谗",
+      "bio": "高丽人，随父入安西，以骑射补游击将军。天宝六载将万余骑自安西行百余日，越帕米尔，破小勃律，虏其王及吐蕃公主，由是诸胡七十二国皆震慑降附。天宝十四载安禄山反，仙芝与封常清守陕，退保潼关，为监军边令诚诬以盗减军粮，与常清同日被斩于潼关。",
+      "tags": [
+        "唐",
+        "西域"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

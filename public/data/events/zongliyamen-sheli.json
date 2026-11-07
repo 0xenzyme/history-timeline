@@ -1,0 +1,116 @@
+{
+  "id": "zongliyamen-sheli",
+  "name": "总理衙门设立",
+  "display": "总理衙门设立",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1860,
+  "yearAccuracy": "exact",
+  "yearNote": "咸丰十年冬设总理各国事务衙门。传记在十二月，仍属咸丰十年。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "yi-xin",
+    "wen-xiang",
+    "xian-feng"
+  ],
+  "result": "设总理各国事务衙门",
+  "aliases": [
+    "总理各国事务衙门"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "咸丰十年文宗北狩，其冬设总理各国事务衙门，命恭亲王奕䜣领之。奕䜣传记初设时与大学士桂良、侍郎文祥同领。外交从临时抚局变成专官。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷一百一十九",
+      "note": "十年，文宗北狩，特置專官辦理撫局。其冬，設總理各國事務衙門，命恭親王奕訢領之",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二百二十一",
+      "note": "初設總理各國事務衙門，命王與大學士桂良、侍郎文祥領其事",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yi-xin",
+      "name": "奕䜣",
+      "display": "奕䜣",
+      "birth": 1833,
+      "birthAccuracy": "exact",
+      "death": 1898,
+      "deathAccuracy": "exact",
+      "title": "总理衙门",
+      "bio": "道光第六子，咸丰之弟；主持总理衙门，倡洋务，为同光新政中枢。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "royal-kin",
+        "minister",
+        "official",
+        "diplomat"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wen-xiang",
+      "name": "文祥",
+      "display": "文祥",
+      "birthAccuracy": "unknown",
+      "death": 1876,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷386·文祥传：光绪二年上自强密疏，\"疏上，未几卒\"，年号承上文系光绪二年；卷177·军机大臣年表：光绪二年丙子条 文祥（五月甲午卒），谥文忠。体仁阁大学士、军机大臣，总理衙门创设者之一。",
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xian-feng",
+      "name": "奕詝",
+      "display": "咸丰",
+      "birth": 1831,
+      "birthAccuracy": "exact",
+      "death": 1861,
+      "deathAccuracy": "exact",
+      "title": "内忧外患",
+      "bio": "道光第四子，在位遭太平天国、第二次鸦片战争，英法联军火烧圆明园。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

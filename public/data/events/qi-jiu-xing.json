@@ -1,0 +1,96 @@
+{
+  "id": "qi-jiu-xing",
+  "name": "齐人救邢、诸侯城邢",
+  "display": "齐人救邢、诸侯城邢",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -661,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·閔公元年》「元年，春，王正月。齊人救邢」（前661）；《僖公元年》「齊師、宋師、曹師城邢」（前659），邢遷于夷儀。管敬仲「戎狄豺狼……諸夏親暱，不可棄也」。",
+  "endYear": -659,
+  "endYearAccuracy": "exact",
+  "endYearNote": "《春秋·僖公元年》「齊師、宋師、曹師城邢」，为城邢迁夷仪之年。",
+  "place": "邢、夷儀",
+  "placeNow": "邢在今河北邢台一带；夷仪地望一说今山东聊城西南（一说邢台西）",
+  "belligerents": [
+    "qi",
+    "song-guo",
+    "cao-guo",
+    "di"
+  ],
+  "people": [
+    "jiang-xiaobai",
+    "guan-zhong"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "狄人伐邢，齐率宋、曹之师救邢，次年迁邢于夷仪并为之筑城；与随后存卫连为「存亡继绝」攘夷主线。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷10",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義",
+      "part": "卷11",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jiang-xiaobai",
+      "name": "姜小白",
+      "display": "齐桓公",
+      "birthAccuracy": "unknown",
+      "death": -643,
+      "deathAccuracy": "exact",
+      "title": "春秋首霸",
+      "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
+      "tags": [
+        "齐国"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guan-zhong",
+      "name": "管夷吾",
+      "display": "管仲",
+      "birthAccuracy": "unknown",
+      "death": -645,
+      "deathAccuracy": "exact",
+      "title": "齐桓公相",
+      "bio": "颍上人。鲍叔牙囚中荐之。相齐四十年，富国强兵，尊王攘夷。桓公的条有多长，他的条几乎就有多长。",
+      "tags": [
+        "齐国",
+        "改革"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,120 @@
+{
+  "id": "fang-la-qiyi",
+  "name": "方腊起义",
+  "display": "方腊起义",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 1120,
+  "yearAccuracy": "exact",
+  "yearNote": "宣和二年十月方腊反，三年四月庚寅被擒，八月丙辰伏诛。十月初一为 1120-10-24。",
+  "endYear": 1121,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "fang-la",
+    "tong-guan",
+    "zhao-ji"
+  ],
+  "result": "起义占睦、杭等州，宣和三年被童贯军扑灭，方腊伏诛。",
+  "aliases": [
+    "青溪方腊"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "宣和二年十月，青溪方腊反，起义占睦、杭等州。宣和三年四月被擒，八月伏诛，童贯军扑灭起义。东南一度失守，并抽走准备北上的西军；政权未倒，疆域随后恢复。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷二十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "fang-la",
+      "name": "方腊",
+      "display": "方腊",
+      "birthAccuracy": "unknown",
+      "death": 1121,
+      "deathAccuracy": "exact",
+      "title": "借摩尼教起事的睦州民变",
+      "bio": "青溪漆园主，以诛朱勔相号召，连陷睦歙杭婺诸州，东南震动。宣和三年为童贯所败，被俘，磔于汴京。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tong-guan",
+      "name": "童贯",
+      "display": "童贯",
+      "birth": 1054,
+      "birthAccuracy": "exact",
+      "death": 1126,
+      "deathAccuracy": "exact",
+      "title": "握兵二十年的宦官封王",
+      "bio": "以供奉官投西北，握兵权二十年，收青唐、主燕云之役，以宦官封广阳郡王。金兵南下弃军而归，钦宗即位伏诛。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "eunuch",
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-ji",
+      "name": "赵佶",
+      "display": "赵佶",
+      "birth": 1082,
+      "birthAccuracy": "exact",
+      "death": 1135,
+      "deathAccuracy": "exact",
+      "title": "宋徽宗，书画皇帝",
+      "bio": "神宗子，工书画、创瘦金体，宠蔡京等倡花石纲，朝政日非。宣和末金兵南下，传位钦宗；靖康被掳，卒于五国城。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "calligraphy",
+        "painting",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

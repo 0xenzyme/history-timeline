@@ -1,0 +1,320 @@
+{
+  "id": "ji-hu",
+  "name": "姬胡",
+  "display": "周厉王",
+  "birthAccuracy": "unknown",
+  "death": -828,
+  "deathAccuracy": "exact",
+  "title": "西周夷王之子，共和行政前的周王",
+  "bio": "好专利，用荣夷公。国人谤王，召穆公谏而不听，前 841 年出奔于彘。共和十四年死于彘，太子静赖召公得免。",
+  "tags": [
+    "国人暴动",
+    "专利"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "king"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-hu",
+      "target": "ji-jing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。太子静即后来的宣王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "shao-hu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召穆公谏谤，后藏太子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "zhou-dinggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "周公之后，共和二相之一"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "rui-liangfu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "谏厉王专利"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "rong-yigong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厉王近荣夷公、专山泽之利"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "gong-bo-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书：厉王在彘，共伯和摄行天子事"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "guo-changfu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厉王三年命虢公长父伐淮夷不克"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "fan-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《板》序：凡伯刺厉王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "ji-yijiu-jinghou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "靖侯十七年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "wei-xihou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "釐侯十三年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "ji-bi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "真公十四年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "qi-wugong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武公九年厉王出奔"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "yan-huihou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "惠侯当厉王奔彘、共和之时"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "chen-shengong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "慎公当周厉王时"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "chen-yougong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "幽公十二年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "mou-qugong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "谋娶公当周厉王时"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "song-xigong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "釐公十七年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "cai-wuhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武侯之时厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "cao-yibo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "夷伯二十三年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "xiong-qu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厉王暴虐，熊渠去王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "xiong-yong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "熊勇六年厉王奔彘"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "e-hou-yufang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厉王世鄂侯驭方率南淮夷、东夷内犯，王命武公之臣禹讨之，鄂遂不竞"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "guoren-baodong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "周厉王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "周语上",
+      "kind": "classic"
+    }
+  ]
+}

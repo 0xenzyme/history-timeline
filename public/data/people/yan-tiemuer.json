@@ -1,0 +1,74 @@
+{
+  "id": "yan-tiemuer",
+  "name": "燕铁木儿",
+  "display": "燕铁木儿",
+  "birthAccuracy": "unknown",
+  "death": 1333,
+  "deathAccuracy": "exact",
+  "title": "两都之战的造立者",
+  "bio": "钦察氏。1328 年泰定帝崩，于大都拥图帖睦尔即位，破上都天顺帝之众，爵封答剌罕、权侔人主；1333 年卒，旋败。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "regent",
+    "general"
+  ],
+  "primary": "regent",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yan-tiemuer",
+      "target": "tu-tiemuer",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "拥立于大都，两都之战主兵"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-su-ji-ba",
+      "target": "yan-tiemuer",
+      "type": "rival",
+      "directed": false,
+      "since": 1328,
+      "notes": [
+        "上都天顺帝之众为其所破"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yuanshundi-jiwei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "燕铁木儿传",
+      "kind": "classic"
+    }
+  ]
+}

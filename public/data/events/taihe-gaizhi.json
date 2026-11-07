@@ -1,0 +1,128 @@
+{
+  "id": "taihe-gaizhi",
+  "name": "太和改制",
+  "display": "太和改制",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 484,
+  "yearAccuracy": "exact",
+  "yearNote": "班俸禄（太和八年 484）→均田令（九年 485）→立三长（十年 486），三步成套。",
+  "endYear": 486,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "feng-taihou",
+    "yuan-hong",
+    "li-chong"
+  ],
+  "result": "俸禄制、均田制、三长制相继确立，中古田制与户籍体系定型",
+  "aliases": [
+    "冯太后改革",
+    "均田制",
+    "三长制"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "冯太后临朝主政期间，太和八年下诏“始班俸禄”，以增调充官禄并严惩贪赃；九年遣使者与牧守均给天下民田，颁均田令；十年采纳李冲之议立党、里、邻三长，定民户籍。均田—租调—三长体系上承汉魏、下启隋唐，是中古制度史的定型事件。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "高祖纪上",
+      "kind": "classic"
+    },
+    {
+      "work": "魏书",
+      "part": "食货志",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "feng-taihou",
+      "name": "冯氏",
+      "display": "文明太后冯氏",
+      "birth": 442,
+      "birthAccuracy": "exact",
+      "death": 490,
+      "deathAccuracy": "exact",
+      "title": "文明太后，临朝十四年，行均田",
+      "bio": "长乐信都人，北燕冯氏之后，文成帝皇后。献文、孝文两朝临朝听政，前后十四年，诛乙浑、平内难，颁俸禄、行均田、立三长，北魏之制多定于此时。性严明而能得人，尝于宰人进食中得虫，笑而恕之。太和十四年崩，年四十九，谥文明。",
+      "tags": [
+        "北朝",
+        "北魏",
+        "临朝"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "bei"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "yuan-hong",
+      "name": "元宏",
+      "display": "孝文帝元宏",
+      "birth": 467,
+      "birthAccuracy": "exact",
+      "death": 499,
+      "deathAccuracy": "exact",
+      "title": "北魏孝文帝，改汉姓、迁洛阳",
+      "bio": "鲜卑拓跋部人，本姓拓跋，献文帝长子。太和十四年亲政，十七年以南伐为名迁都洛阳，禁胡语胡服，改拓跋为元，定姓族、通婚姻、改制度，鲜卑尽化于汉。又数亲征南齐，不得志而还。太和二十三年崩于谷塘原，年三十三，太子恪立。",
+      "tags": [
+        "北朝",
+        "北魏",
+        "汉化"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-chong",
+      "name": "李冲",
+      "display": "李冲",
+      "birth": 450,
+      "birthAccuracy": "approx",
+      "death": 498,
+      "deathAccuracy": "exact",
+      "birthNote": "太和二十二年卒，年四十九，上推生年。",
+      "deathNote": "「旬有餘日而卒，時年四十九。高祖為舉哀於懸瓠」（魏书·李冲传），承太和二十二年南征纪传系年。",
+      "title": "孝文改制股肱，佐定迁都之议，忧恚而卒于悬瓠",
+      "tags": [
+        "南北朝",
+        "北魏"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

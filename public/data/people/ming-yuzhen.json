@@ -1,0 +1,74 @@
+{
+  "id": "ming-yuzhen",
+  "name": "明玉珍",
+  "display": "明玉珍",
+  "birth": 1331,
+  "birthAccuracy": "exact",
+  "death": 1366,
+  "deathAccuracy": "exact",
+  "title": "大夏之主",
+  "bio": "随州人。从徐寿辉起兵，入蜀取重庆后自称陇蜀王，1363 年称帝，国号大夏；1366 年卒，年三十六，子昇嗣。",
+  "tags": [
+    "元",
+    "群雄"
+  ],
+  "categories": [
+    "warlord"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ming-yuzhen",
+      "target": "xu-shouhui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天完部将，入蜀后自立为大夏"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "ming-yuzhen",
+      "target": "zhu-yuanzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同起于南方群雄之间，各据一方而通使往来"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yuanmo-qunxiong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "明玉珍传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "xiao-yan-dai-qi",
+  "name": "萧衍代齐建梁",
+  "display": "萧衍代齐建梁",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 502,
+  "yearAccuracy": "exact",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "xiao-yan",
+    "shen-yue"
+  ],
+  "result": "萧衍受禅称帝，国号梁，梁武帝时代开启",
+  "aliases": [
+    "萧衍建梁",
+    "梁代齐",
+    "nb-xiao"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "齐明帝身后宗室相残，永元中东昏侯肆虐，雍州刺史萧衍自襄阳起兵，501 年破建康杀东昏侯，502 年（天监元年）四月受齐禅即皇帝位，国号梁。沈约、范云佐命草禅代之礼。梁武帝在位近五十年，南朝文物制度至此极盛。",
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "南史",
+      "part": "梁本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xiao-yan",
+      "name": "萧衍",
+      "display": "梁武帝萧衍",
+      "birth": 464,
+      "birthAccuracy": "exact",
+      "death": 549,
+      "deathAccuracy": "exact",
+      "title": "梁武帝，在位四十八年，饿死台城",
+      "bio": "南兰陵中都里人，萧顺之之子，与萧道成同族。起兵襄阳，中兴二年受齐和帝禅，改国号梁。在位四十八年，礼佛断酒肉，立国学、修五礼，江左文物之盛，南朝第一。晚年佞佛，侯景之乱起，太清三年台城陷，幽于净居殿，所求不供，忧愤寝疾而崩，年八十六。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shen-yue",
+      "name": "沈约",
+      "display": "沈约",
+      "birth": 441,
+      "birthAccuracy": "exact",
+      "death": 513,
+      "deathAccuracy": "exact",
+      "title": "尚书令，四声八病，撰《宋书》",
+      "bio": "吴兴武康人，家世仕宦，少孤贫而笃志好学，昼夜不释卷。历仕宋齐梁三朝，为梁开国之佐。作四声谱，以平上去入制韵，遂开永明体。撰《宋书》百卷，又著《晋书》《齐纪》。天监十二年卒，年七十三，谥隐。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "official",
+        "literature",
+        "poetry",
+        "historian"
+      ],
+      "primary": "literature",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

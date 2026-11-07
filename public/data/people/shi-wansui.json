@@ -1,0 +1,74 @@
+{
+  "id": "shi-wansui",
+  "name": "史万岁",
+  "display": "史万岁",
+  "birthAccuracy": "unknown",
+  "death": 600,
+  "deathAccuracy": "exact",
+  "deathNote": "高祖纪：开皇二十年十月，废太子勇同日杀太平县公史万岁。",
+  "title": "开皇名将，废太子同日被杀",
+  "bio": "京兆杜陵人。开皇十七年击西宁羌，平之。会废皇太子，杨素称其谒东宫以激怒文帝，文帝令左右杀之。高祖纪系于开皇二十年十月，与杨勇废为庶人同日。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "shi-wansui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇十七年平西宁羌。二十年废太子，同日杀万岁"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "shi-wansui",
+      "target": "yang-su",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "素谮其功，又以谒东宫激怒文帝"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "史万岁",
+    "太平公"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "史万岁传",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "高祖纪",
+      "kind": "classic"
+    }
+  ]
+}

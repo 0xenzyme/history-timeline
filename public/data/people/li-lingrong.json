@@ -1,0 +1,83 @@
+{
+  "id": "li-lingrong",
+  "name": "李陵容",
+  "display": "孝武文李太后",
+  "birthAccuracy": "unknown",
+  "death": 400,
+  "deathAccuracy": "exact",
+  "birthNote": "传无岁数，不编生年。",
+  "title": "孝武文李太后，织坊出身的太皇太后",
+  "bio": "本出微贱，简文帝为会稽王时在织坊供役，形长而色黑，宫人谓之昆仑。相者惊为贵人，遂侍寝，生孝武帝及会稽文孝王道子。太元十九年以母贵尊为皇太后，安帝即位尊太皇太后。隆安四年崩于含章殿，葬修平陵。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-lingrong",
+      "target": "sima-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "会稽王时织坊宫人纳之，生孝武帝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "li-lingrong",
+      "target": "sima-yao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。太元十九年以母贵尊为皇太后"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "li-lingrong",
+      "target": "sima-daozi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。会稽文孝王"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李陵容",
+    "文李太后",
+    "孝武文李太后"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "后妃传·孝武文李太后",
+      "kind": "classic"
+    }
+  ]
+}

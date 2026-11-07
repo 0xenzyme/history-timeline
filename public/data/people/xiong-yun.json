@@ -1,0 +1,77 @@
+{
+  "id": "xiong-yun",
+  "name": "熊恽",
+  "display": "楚成王",
+  "birthAccuracy": "unknown",
+  "death": -626,
+  "deathAccuracy": "exact",
+  "deathNote": "楚世家：四十六年冬十月丁未，成王自绞杀。同篇把泓之战写在三十四年。专题此战为前638年，四十六年即前626年。",
+  "title": "泓之战败宋，四十六年自缢",
+  "bio": "楚成王。三十四年在泓击败宋襄公。城濮战败后诛子玉。四十六年冬十月被太子商臣围困，自缢。",
+  "tags": [
+    "楚国",
+    "泓之战"
+  ],
+  "categories": [
+    "hegemon"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "south"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-yun",
+      "target": "zi-zifu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "泓之战射伤宋襄公，襄公病创而死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chengpu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "hongshui-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "zhaoling-zhimeng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "楚成王",
+    "熊恽"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

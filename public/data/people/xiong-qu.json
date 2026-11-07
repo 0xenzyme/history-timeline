@@ -1,0 +1,104 @@
+{
+  "id": "xiong-qu",
+  "name": "熊渠",
+  "display": "楚熊渠",
+  "birthAccuracy": "unknown",
+  "death": -841,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。夷王时兴兵、厉王时去王，取厉王奔彘年为可见下限。",
+  "title": "楚熊渠，夷王时兴兵",
+  "bio": "当周夷王之时兴兵至于鄂，立三子为王。及厉王暴虐，熊渠畏伐，亦去其王。",
+  "tags": [
+    "楚"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-kang",
+      "target": "xiong-qu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。立长子康为句亶王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-hong",
+      "target": "xiong-qu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。立中子红为鄂王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-qu",
+      "target": "xiong-zhici",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。立少子执疵为越章王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-qu",
+      "target": "xiong-yan-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "熊延为挚红之弟，同出熊渠"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-hu",
+      "target": "xiong-qu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厉王暴虐，熊渠去王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "熊渠"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

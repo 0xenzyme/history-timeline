@@ -1,0 +1,74 @@
+{
+  "id": "fan-kuai",
+  "name": "樊哙",
+  "display": "樊哙",
+  "birthAccuracy": "unknown",
+  "death": -189,
+  "deathAccuracy": "exact",
+  "title": "汉舞阳侯，鸿门闯帐",
+  "bio": "沛人，屠狗为业，吕后妹夫。鸿门之宴带剑拥盾入，项羽赐之卮酒彘肩。从定天下，封舞阳侯。高祖末年几被诛，卒于前 189 年。",
+  "tags": [
+    "汉初",
+    "功臣"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fan-kuai",
+      "target": "liu-bang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "沛县故人，鸿门卫士"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "fan-kuai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "沛县从起兵，鸿门瞋目解危"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "樊哙",
+    "舞阳侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "樊郦滕灌列传",
+      "kind": "classic"
+    }
+  ]
+}

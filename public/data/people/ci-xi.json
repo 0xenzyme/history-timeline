@@ -1,0 +1,140 @@
+{
+  "id": "ci-xi",
+  "name": "慈禧",
+  "display": "慈禧太后",
+  "birth": 1835,
+  "birthAccuracy": "exact",
+  "death": 1908,
+  "deathAccuracy": "exact",
+  "title": "垂帘听政",
+  "bio": "咸丰懿贵妃，同治生母；同治、光绪两朝垂帘训政，实为晚清最高掌权者。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ci-xi",
+      "target": "guang-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姨侄，慈禧垂帘训政"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "guang-xu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "甲午后母子猜忌，戊戌囚帝"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "tan-sitong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "戊戌政变，杀六君子"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-an",
+      "target": "ci-xi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "两宫并尊。同治、光绪两度垂帘"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "long-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姑侄。隆裕为孝钦侄女"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "su-shun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "辛酉政变，两宫与奕䜣捕肃顺，斩于菜市口"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "zai-feng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "慈禧命其为军机大臣兼摄政，旋于宣统三年被迫辞职"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wuxu-bianfa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xinyou-zhengbian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·孝钦显皇后",
+      "kind": "classic"
+    }
+  ]
+}

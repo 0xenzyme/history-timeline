@@ -1,0 +1,68 @@
+{
+  "id": "yan-qinghou",
+  "name": "燕顷侯",
+  "display": "燕顷侯",
+  "birthAccuracy": "unknown",
+  "death": -767,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：顷侯二十年犬戎杀幽王，二十四年卒。二十年当 -771，二十四年当 -767。",
+  "title": "燕顷侯",
+  "bio": "釐侯之子。二十年犬戎杀幽王，二十四年卒。",
+  "tags": [
+    "燕"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yan-qinghou",
+      "target": "yan-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "yan-qinghou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顷侯二十年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "燕顷侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

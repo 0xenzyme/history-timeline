@@ -1,0 +1,114 @@
+{
+  "id": "hongmen-yan",
+  "name": "鸿门宴",
+  "display": "鸿门宴",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -206,
+  "yearAccuracy": "exact",
+  "yearNote": "《史记·项羽本纪》系于汉元年十二月，即公元前206年。项伯、项庄、樊哙、范增之事并见本纪。",
+  "place": "鸿门",
+  "placeNow": "今陕西西安临潼东北",
+  "polity": [
+    "chu-han"
+  ],
+  "people": [
+    "xiang-yu",
+    "fan-zeng",
+    "liu-bang"
+  ],
+  "result": "项羽不听范增之谋，纵刘邦使去；楚汉之局自此定",
+  "aliases": [
+    "鸿门会"
+  ],
+  "dynasties": [],
+  "desc": "沛公先入关破秦，闭关拒诸侯；项羽大怒，期旦日击其军。项伯夜告张良，沛公因与项伯约为婚姻，旦日从百余骑至鸿门谢。项王留沛公与饮。范增数目项王，举所佩玉玦示之者三，项王默然不应；增出召项庄，使以剑舞因击沛公，项伯亦拔剑舞，以身翼蔽，庄不得击。张良召樊哙入，哙带剑拥盾，瞋目视项王；项王赐之卮酒与生彘肩，哙陈「臣死且不避，卮酒安足辞」之勇。沛公起如厕，招樊哙出，间至军中，令张良留谢。项羽受白璧，范增拔剑碎玉斗，曰：「竖子不足与谋！夺项王天下者，必沛公也。」楚汉之势，由此定矣。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "项羽本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xiang-yu",
+      "name": "项籍",
+      "display": "项羽",
+      "birth": -232,
+      "birthAccuracy": "approx",
+      "death": -202,
+      "deathAccuracy": "exact",
+      "birthNote": "《项羽本纪》：初起时年二十四。起兵在前 209 年，据此推生于前 232 年前后，史无明载。",
+      "title": "西楚霸王，巨鹿破秦，垓下自刎",
+      "bio": "下相人，字羽。巨鹿之战破釜沉舟，坑秦卒二十万，分封十八王而自称西楚霸王。楚汉四年，垓下兵败，自刎乌江。条只三十一年，压过整个秦汉之间。",
+      "tags": [
+        "秦末",
+        "楚汉",
+        "霸王"
+      ],
+      "categories": [
+        "general",
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fan-zeng",
+      "name": "范增",
+      "display": "范增",
+      "birthAccuracy": "unknown",
+      "death": -204,
+      "deathAccuracy": "exact",
+      "title": "项羽谋士，亚父，疽发背死",
+      "bio": "居巢人，年七十说项梁立楚后，遂为项羽谋主。鸿门之宴劝杀刘邦不听。陈平反问之，项羽疑之，愤而归彭城，疽发背死。他一走，楚的一条就只剩下项羽自己。",
+      "tags": [
+        "秦末",
+        "楚汉"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-bang",
+      "name": "刘邦",
+      "display": "汉高祖",
+      "birth": -256,
+      "birthAccuracy": "disputed",
+      "death": -195,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 256、前 247 两说",
+      "title": "西汉开国皇帝",
+      "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
+      "tags": [
+        "布衣天子"
+      ],
+      "categories": [
+        "founding"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

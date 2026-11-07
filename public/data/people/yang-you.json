@@ -1,0 +1,70 @@
+{
+  "id": "yang-you",
+  "name": "杨侑",
+  "display": "隋恭帝杨侑",
+  "birth": 605,
+  "birthAccuracy": "exact",
+  "death": 619,
+  "deathAccuracy": "exact",
+  "title": "代王，禅唐后被杀",
+  "bio": "炀帝之孙。大业十三年被立于长安，次年禅于李渊。武德二年被杀。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-guang",
+      "target": "yang-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "炀帝之孙，代王。江都被立于长安，次年禅唐"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-you",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。韦妃生恭帝侑"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杨侑",
+    "隋恭帝"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "恭帝纪",
+      "kind": "classic"
+    }
+  ]
+}

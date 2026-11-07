@@ -1,0 +1,73 @@
+{
+  "id": "dadu-gaiming",
+  "name": "改中都为大都",
+  "display": "改大都",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1272,
+  "yearAccuracy": "exact",
+  "yearNote": "至元九年二月壬辰。刘秉忠传把改大都并进八年，本纪和续资都系于九年二月。",
+  "place": "大都",
+  "polity": [
+    "yuan"
+  ],
+  "people": [
+    "hu-bi-lie"
+  ],
+  "result": "燕京一线的都城定名大都",
+  "aliases": [
+    "大都定名"
+  ],
+  "dynasties": [
+    "song",
+    "yuan"
+  ],
+  "desc": "至元九年二月壬辰，元改中都为大都。燕京一线的都城名称由此确定，与前一年建国号分开。刘秉忠传把改大都并进八年，纪年仍从本纪。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷七·世祖本纪",
+      "note": "至元九年二月壬辰改中都为大都",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷一百七十九",
+      "note": "壬辰改中都为大都",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hu-bi-lie",
+      "name": "忽必烈",
+      "display": "元世祖忽必烈",
+      "birth": 1215,
+      "birthAccuracy": "exact",
+      "death": 1294,
+      "deathAccuracy": "exact",
+      "title": "元世祖，灭宋建元的大汗",
+      "bio": "拖雷次子，1260年即汗位，建元中统，定都燕京。襄阳围六年而克，伯颜下临安，崖山灭宋，混一天下。至元三十一年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

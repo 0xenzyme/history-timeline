@@ -1,0 +1,58 @@
+{
+  "id": "zhou-xianwang",
+  "name": "周显王",
+  "display": "周显王",
+  "birthAccuracy": "unknown",
+  "death": -321,
+  "deathAccuracy": "exact",
+  "deathNote": "周本纪、年表：显王扁，在位四十八年，卒于前321年。",
+  "title": "周王，秦称王之世",
+  "bio": "商君封商、惠文称王，秦致伯诸侯——他四十八年的位在位里，天子名分被一步步抽空。前321年卒，孙赧王延接之。",
+  "tags": [
+    "周室",
+    "商鞅"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-nanwang",
+      "target": "zhou-xianwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "赧王延，显王之后；五十九年之位是周王最后、也是最长的一条"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "显王",
+    "王扁"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

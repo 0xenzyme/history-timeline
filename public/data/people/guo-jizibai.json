@@ -1,0 +1,85 @@
+{
+  "id": "guo-jizibai",
+  "name": "虢季子白",
+  "display": "虢季子白",
+  "birthAccuracy": "unknown",
+  "death": -816,
+  "deathAccuracy": "exact",
+  "deathNote": "虢季子白盘铭文系于周宣王十二年，即公元前816年；此为其征猃狁、献俘、作盘之年，生卒无其他明文。",
+  "title": "宣王世虢君，伐猃狁而作盘",
+  "bio": "周宣王之世虢君。十二年，王命伐猃狁，子白身执前驱，至于洛水之北，斩首五百、执讯五十，献俘于王；王亲格于周庙宣榭，爰飨之，曰「白父，孔显又光」，因锡以乘马、弓矢、大钺，用征蛮方。子白乃作宝盘，以纪王赐。其盘铭百十一字，为西周金文之冠，今藏中国国家博物馆。宣王之世，周室中兴，而伐猃狁、平淮夷，皆虢、尹之徒任之。",
+  "tags": [
+    "西周",
+    "虢",
+    "金文"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "guo-jizibai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王十二年命虢季子白伐猃狁，至于洛水之北，斩首五百、执讯五十，王飨于周庙宣榭，锡以弓矢大钺"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "guo-jizibai",
+      "target": "guo-shu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同出虢氏，季子白为王季之后，虢叔为王季之弟支庶，皆为周室卿士"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "luoshui-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "虢季子白",
+    "虢季子白盘"
+  ],
+  "sources": [
+    {
+      "work": "虢季子白盘铭文",
+      "part": "器铭",
+      "note": "王命伐猃狁、斩首五百、执讯五十、执俘于王、锡用钺、作盘纪功皆据此",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

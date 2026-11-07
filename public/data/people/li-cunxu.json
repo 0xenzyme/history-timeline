@@ -1,0 +1,214 @@
+{
+  "id": "li-cunxu",
+  "name": "李存勖",
+  "display": "后唐庄宗",
+  "birth": 885,
+  "birthAccuracy": "exact",
+  "death": 926,
+  "deathAccuracy": "exact",
+  "title": "后唐庄宗，三矢雪耻而亡于伶人",
+  "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+  "tags": [
+    "五代",
+    "后唐"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-cunxu",
+      "target": "li-ke-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，晋王之位与三矢之誓所传"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "zhu-zhen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "夹河决战十余年，存勖灭朱"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "zhou-dewei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "柏乡却梁，唐之宿将"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "guo-congqian",
+      "target": "li-cunxu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "伶人宠将，兴教门弑逆"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "li-siyuan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "从马直之乱，兄弟兵争而得位"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "liu-shou-guang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "晋兵围幽州，桀燕擒斩"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "wang-du",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "王都据定州反，晋王李存勖遣兵围之，契丹援败而城破"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "guo-chongtao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "庄宗用崇韬为枢密，袭汴灭梁及平蜀，皆其谋；后以谗见诛"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "wang-yan-qianshu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "同光三年遣郭崇韬伐蜀，衍出降，前蜀亡"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baixiang-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "houdang-mie-houliang",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "houtang-mie-liang",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "houtang-mie-qianshu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huliubei-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "jiazhai-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "liangjin-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wangdu-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xingjiaomen-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "亚子"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "庄宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "唐本纪",
+      "kind": "classic"
+    }
+  ]
+}

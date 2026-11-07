@@ -1,0 +1,71 @@
+{
+  "id": "quyuan-chenjiang",
+  "name": "屈原沉江",
+  "display": "屈原沉江",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": -278,
+  "yearAccuracy": "approx",
+  "yearNote": "屈原自沉本传未系年（《史记·屈原贾生列传》「於是懷石遂自沈汨羅以死」）；传统系于白起拔郢、郢都陷落之顷襄王二十一年（前278，见《史记·楚世家》），从之。",
+  "polity": [
+    "chu"
+  ],
+  "people": [
+    "qu-yuan"
+  ],
+  "aliases": [
+    "屈原自沉汨罗",
+    "怀石沉江"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "前278年白起拔郢、烧先王墓夷陵，楚都陷落；相传屈原闻之，怀石自沉汨罗以死。其《离骚》《九章》开楚辞一脉，后世端午节俗由此而来。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷八十四·屈原贾生列传",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷四十·楚世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "qu-yuan",
+      "name": "屈平",
+      "display": "屈原",
+      "birth": -340,
+      "birthAccuracy": "approx",
+      "death": -278,
+      "deathAccuracy": "approx",
+      "birthNote": "生卒皆为后人所系，约怀王、顷襄王之世。",
+      "deathNote": "传统系于顷襄王时投汨罗，约前 278 年。",
+      "title": "楚三闾大夫，《离骚》作者",
+      "bio": "楚贵族。联齐抗秦，被谗见疏。怀王入秦不返，他作《离骚》，后投汨罗。士人泳道上，这条文学的条对着张仪的连横。",
+      "tags": [
+        "楚国",
+        "离骚"
+      ],
+      "categories": [
+        "scholar"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

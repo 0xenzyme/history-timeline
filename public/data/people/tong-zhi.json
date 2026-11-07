@@ -1,0 +1,108 @@
+{
+  "id": "tong-zhi",
+  "name": "载淳",
+  "display": "同治",
+  "birth": 1856,
+  "birthAccuracy": "exact",
+  "death": 1875,
+  "deathAccuracy": "exact",
+  "title": "两宫垂帘，同治中兴",
+  "bio": "咸丰长子，冲龄即位，慈禧、慈安两宫垂帘。用曾左李平太平、捻回，号为中兴；亲政未久而崩，无嗣。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tong-zhi",
+      "target": "xian-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，咸丰传同治"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "tong-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "堂兄弟叔侄，同治无嗣，慈禧立醇亲王之子载湉为光绪"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "tong-zhi",
+      "target": "xiao-zhe",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。同治十一年立，光绪元年二月崩"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "tong-zhi",
+      "target": "seng-ge-lin-qin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "督剿捻军，1865 年战殁于曹州高楼寨"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "taiping-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xinyou-zhengbian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "载淳",
+    "清穆宗",
+    "同治"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "穆宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "yuanhe-zhongxing",
+  "name": "元和中兴",
+  "display": "元和中兴",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 817,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-chun",
+    "pei-du"
+  ],
+  "result": "淮西平定、河朔诸镇归顺，宪宗朝削藩达到顶点",
+  "aliases": [
+    "tang-yuanhe"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "元和十二年（817）裴度督师平淮西，李愬雪夜入蔡州擒吴元济，河朔诸镇相继归顺，宪宗朝削藩达到顶点，史称元和中兴。中兴依赖宪宗一朝的军事与财政集中，穆宗即位后河朔复叛，格局并未持久。本实体记录政治节点，战役经过由元和淮西之战记载，不在本实体中重复。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "宪宗本纪、裴度传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百四十",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-chun",
+      "name": "李纯",
+      "display": "唐宪宗李纯",
+      "birth": 778,
+      "birthAccuracy": "exact",
+      "death": 820,
+      "deathAccuracy": "exact",
+      "title": "唐宪宗，元和中兴，藩镇暂服",
+      "bio": "李诵长子，永贞元年即位。用杜黄裳、裴度、李绛、武元衡，平西川刘辟、镇海李锜，元和十二年雪夜入蔡州擒吴元济，淄青、成德相继听命，河南北三十余州复为朝廷所有，史称元和中兴。晚年服饵求长生，性躁而多内宠，元和十五年为宦官陈弘志等所弑于中和殿，年四十三。",
+      "tags": [
+        "唐",
+        "元和中兴"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "pei-du",
+      "name": "裴度",
+      "display": "裴度",
+      "birth": 765,
+      "birthAccuracy": "exact",
+      "death": 839,
+      "deathAccuracy": "exact",
+      "title": "晋国公，主淮西之役，四朝元老",
+      "bio": "河东闻喜人，贞元进士。元和十年拜相，力主讨淮西，宰相武元衡既被贼刺杀，度亦遇刺于通化坊，三日后再入朝，宪宗曰「吾用度一人，足破此贼」。十二年督师，李愬雪夜入蔡州，淮西遂平。历事宪、穆、敬、文四朝，威望德业侔于郭子仪。开成四年卒于长安，年七十六。",
+      "tags": [
+        "唐",
+        "元和中兴"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

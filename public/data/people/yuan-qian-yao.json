@@ -1,0 +1,57 @@
+{
+  "id": "yuan-qian-yao",
+  "name": "源乾曜",
+  "display": "源乾曜",
+  "birthAccuracy": "unknown",
+  "death": 731,
+  "deathAccuracy": "exact",
+  "title": "开元十九年卒",
+  "bio": "玄宗朝侍中。开元十九年冬卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "yuan-qian-yao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "玄宗朝为侍中，开元十九年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "源乾曜"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "源乾曜传",
+      "kind": "classic"
+    }
+  ]
+}

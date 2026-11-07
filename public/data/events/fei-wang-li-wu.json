@@ -1,0 +1,117 @@
+{
+  "id": "fei-wang-li-wu",
+  "name": "废王立武",
+  "display": "废王立武",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 655,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-zhi",
+    "wu-zetian",
+    "zhangsun-wu-ji"
+  ],
+  "result": "武昭仪立为皇后，长孙无忌等顾命大臣失势",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "永徽六年（655）高宗废王皇后，立武昭仪为皇后。武后入主中宫后清除长孙无忌、褚遂良等顾命大臣，关陇元老重臣失势，高宗朝权力结构重组。册立本身是后宫名分之争，实际后果是相权重构，为武后临朝称帝铺路；宫闱细节不在本实体中展开。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高宗本纪、后妃传、长孙无忌传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-zhi",
+      "name": "李治",
+      "display": "唐高宗李治",
+      "birth": 628,
+      "birthAccuracy": "exact",
+      "death": 683,
+      "deathAccuracy": "exact",
+      "title": "唐高宗，永徽之治，政归武后",
+      "bio": "李世民第九子，长孙皇后所出。即位初仍贞观之政，用长孙无忌、褚遂良，天下乂安，户数滋殖，史称永徽之治。显庆以后风疾日重，百司奏事皆委武后，号曰二圣。弘道元年崩于贞观殿，年五十六，李唐之政遂入武氏之手。",
+      "tags": [
+        "唐",
+        "永徽"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-zetian",
+      "name": "武曌",
+      "display": "武则天",
+      "birth": 624,
+      "birthAccuracy": "exact",
+      "death": 705,
+      "deathAccuracy": "exact",
+      "title": "则天大圣皇帝，中国唯一女皇帝",
+      "bio": "并州文水人，武士彟之女，太宗才人，高宗皇后。与上同称二圣，高宗崩后临朝，废中宗、睿宗，天授元年改国号周，自称圣神皇帝。用酷吏而能擢拔人才，狄仁杰、姚崇、宋璟皆出其朝。神龙元年张柬之等反正，是岁崩于上阳宫，年八十二，遗制去帝号，称则天大圣皇后。",
+      "tags": [
+        "唐",
+        "武周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "zhangsun-wu-ji",
+      "name": "长孙无忌",
+      "display": "长孙无忌",
+      "birth": 594,
+      "birthAccuracy": "exact",
+      "death": 659,
+      "deathAccuracy": "exact",
+      "title": "太尉，凌烟功臣第一，死于武后之立",
+      "bio": "河南洛阳人，其先出拓跋氏，长孙皇后之兄。自太原起兵即从秦王，玄武门之变首谋，图形凌烟阁居第一。高宗即位，以太尉同中书门下三品，主定《唐律疏议》。显庆四年许敬宗承武后旨诬其谋反，削爵流黔州，寻被逼自缢。",
+      "tags": [
+        "唐",
+        "凌烟阁"
+      ],
+      "categories": [
+        "consort-kin",
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

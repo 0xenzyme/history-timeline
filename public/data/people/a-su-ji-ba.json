@@ -1,0 +1,83 @@
+{
+  "id": "a-su-ji-ba",
+  "name": "阿速吉八",
+  "display": "元天顺帝阿速吉八",
+  "birth": 1320,
+  "birthAccuracy": "approx",
+  "death": 1328,
+  "deathAccuracy": "disputed",
+  "deathNote": "上都兵败后不知所终。1328 是天顺兵败之年，不是确凿卒年。",
+  "title": "两都之战中的幼主",
+  "bio": "泰定帝之子，致和元年泰定崩后于上都立，年号天顺；旋为大都文宗兵败，不知所终。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "a-su-ji-ba",
+      "target": "yesun-temur",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，泰定帝传天顺帝"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-su-ji-ba",
+      "target": "tu-tiemuer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宗室夺立，文宗废天顺自立"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-su-ji-ba",
+      "target": "yan-tiemuer",
+      "type": "rival",
+      "directed": false,
+      "since": 1328,
+      "notes": [
+        "上都天顺帝之众为其所破"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "阿速吉八",
+    "元天顺帝"
+  ],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "天顺帝本纪"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "wang-wentong",
+  "name": "王文统",
+  "display": "王文统",
+  "birthAccuracy": "unknown",
+  "death": 1262,
+  "deathAccuracy": "exact",
+  "title": "中书平章王文统",
+  "bio": "益都人，忽必烈初年以中书平章定条约、理财赋，制度多出其手。1262 年李璮举事，坐尝以姻书相通，与李璮同诛。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "chancellor",
+    "rebel"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "wang-wentong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中统初为中书平章，制度多出其手，后坐李璮之狱诛"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "li-tan",
+      "target": "wang-wentong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "坐尝以姻书相通，1262 年与李璮同诛"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "litan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "叛臣传",
+      "kind": "classic"
+    }
+  ]
+}

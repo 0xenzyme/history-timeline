@@ -1,0 +1,79 @@
+{
+  "id": "shi-si-ming",
+  "name": "史思明",
+  "display": "史思明",
+  "birthAccuracy": "unknown",
+  "death": 761,
+  "deathAccuracy": "exact",
+  "title": "安禄山之将，继称大燕，为子所杀",
+  "bio": "营州宁夷州突厥杂胡，与安禄山同乡里，同为互市牙郎。禄山反，思明为前锋，下河北诸郡。禄山死，降唐而复叛，乾元二年称大燕皇帝于范阳，改元顺天，陷洛阳。上元二年为其子朝义与部将所执，缢杀于柳泉驿。安史之乱首尾八年，至朝义而尽。",
+  "tags": [
+    "唐",
+    "安史之乱",
+    "藩镇"
+  ],
+  "categories": [
+    "rebel",
+    "general"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "an-lu-shan",
+      "target": "shi-si-ming",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同乡里，同起范阳，继为乱"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-qing-xu",
+      "target": "shi-si-ming",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "思明败九节度使，杀庆绪并其诸弟"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "anshi-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "史思明",
+    "史窣干"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "史思明传",
+      "kind": "classic"
+    }
+  ]
+}

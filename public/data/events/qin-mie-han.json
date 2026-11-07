@@ -1,0 +1,71 @@
+{
+  "id": "qin-mie-han",
+  "name": "秦灭韩",
+  "display": "秦灭韩",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": -230,
+  "yearAccuracy": "exact",
+  "yearNote": "《史記·秦始皇本紀》十七年（前230）：「內史騰攻韓，得韓王安，盡納其地，以其地為郡，命曰潁川」；《資治通鑑》卷6始皇十七年（前230）同。",
+  "place": "新鄭",
+  "placeNow": "河南省郑州市新郑市",
+  "belligerents": [
+    "qin",
+    "han-guo"
+  ],
+  "people": [
+    "ying-zheng"
+  ],
+  "result": "内史腾虏韩王安，以韩地为颍川郡，六国第一个出局",
+  "parent": "qin-mie-liuguo",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "秦将内史腾攻韩，俘韩王安，以其地为颍川郡，韩亡。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷六·卷006）",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "wuqi-bianfa",
+  "name": "吴起变法",
+  "display": "吴起变法",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -386,
+  "yearAccuracy": "approx",
+  "yearNote": "《史记·孙子吴起列传》载吴起相楚行「明法審令，捐不急之官，廢公族疏遠者」但未系年；《通鉴》系吴起奔楚相楚于安王年间（约前387—386）。楚悼王卒于前381，宗室作乱、吴起被杀，变法随之而废。取约前386—前381。",
+  "endYear": -381,
+  "endYearAccuracy": "approx",
+  "endYearNote": "终年据：《史记·孙子吴起列传》载吴起相楚行「明法審令，捐不急之官，廢公族疏遠者」但未系年；《通鉴》系吴起奔楚相楚于安王年间（约前",
+  "polity": [
+    "chu"
+  ],
+  "people": [
+    "wu-qi"
+  ],
+  "aliases": [
+    "吴起相楚",
+    "楚悼王用吴起"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "吴起自魏奔楚，楚悼王任之为相，「明法審令，捐不急之官，廢公族疏遠者，以撫養戰鬬之士」。楚于是南平百越、北却三晋；前381年悼王卒，宗室作乱射杀吴起，变法随人而废，楚国旧族政治延续至亡国。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷六十五·孙子吴起列传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wu-qi",
+      "name": "吴起",
+      "display": "吴起",
+      "birthAccuracy": "unknown",
+      "death": -381,
+      "deathAccuracy": "exact",
+      "deathNote": "孙子吴起列传：楚之贵族恶吴起；悼王卒，宗室大臣设伏射吴起并中王尸。新王坐射王尸之罪，夷宗死者七十余家。悼王卒岁即前381年。",
+      "title": "魏守西河，楚行变法",
+      "bio": "以兵法并用名世：魏文侯使守西河，秦人不敢东向；去魏入楚，为悼王令尹，损禄秩、实兵权，南收杨越、北却三晋。悼王死，伏弩射起并中王尸，新王坐罪夷宗室七十余家——楚的变法随他一起结账。一条横贯魏楚两个朝廷，是变法席位上代价最重的人。",
+      "tags": [
+        "魏国",
+        "楚国",
+        "西河",
+        "变法"
+      ],
+      "categories": [
+        "minister",
+        "general"
+      ],
+      "polity": [
+        "wei-zhanguo",
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

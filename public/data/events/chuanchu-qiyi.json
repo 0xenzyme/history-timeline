@@ -1,0 +1,74 @@
+{
+  "id": "chuanchu-qiyi",
+  "name": "川楚教匪",
+  "display": "川楚教匪",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 1796,
+  "yearAccuracy": "exact",
+  "yearNote": "嘉庆元年宜都教匪起，九年三省余匪净尽。",
+  "endYear": 1804,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "jia-qing"
+  ],
+  "result": "三省余匪净尽",
+  "aliases": [
+    "白莲教"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "嘉庆元年，湖北枝江、宜都教匪起。嘉庆九年，以搜捕三省余匪净尽，甄叙额勒登保。这场起事打过四川、湖北、陕西，九年才算收束。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷十六",
+      "note": "湖北枝江、宜都教匪起",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷十六",
+      "note": "以搜捕三省餘匪淨盡，甄敘額勒登保",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jia-qing",
+      "name": "颙琰",
+      "display": "嘉庆",
+      "birth": 1760,
+      "birthAccuracy": "exact",
+      "death": 1820,
+      "deathAccuracy": "exact",
+      "title": "亲政诛和珅",
+      "bio": "乾隆第十五子，受禅即位，改元嘉庆。亲政即赐和珅死、籍其家，欲挽颓风；白莲、天理教相继起，禁鸦片之初议自此始。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

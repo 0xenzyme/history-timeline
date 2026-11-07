@@ -1,0 +1,430 @@
+{
+  "id": "tang",
+  "name": "唐",
+  "from": 618,
+  "to": 907,
+  "contractVersion": 1,
+  "aliases": [
+    "唐朝"
+  ],
+  "summary": "从唐高祖建国到唐亡，人物生命与政治、军事和文化事件在 618—907 年的时间坐标中交织。",
+  "group": "sui-tang-wudai",
+  "personCount": 281,
+  "eventCount": 59,
+  "body": "本页按现有收录组织唐代阅读。关键人物来自唐代专题的编辑选取，重要事件按朝代区间与显式推荐确定；人物叙事归属、事件时点政权与朝代筛选分别保留各自语义。",
+  "capitals": [
+    {
+      "name": "长安",
+      "note": "唐朝主要都城。"
+    },
+    {
+      "name": "洛阳",
+      "note": "唐高宗以后与长安并列为两京。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "li-yuan",
+      "name": "李渊",
+      "display": "唐高祖李渊",
+      "birth": 566,
+      "birthAccuracy": "exact",
+      "death": 635,
+      "deathAccuracy": "exact",
+      "title": "唐高祖，太原起兵，五年定天下",
+      "bio": "陇西成纪人，其祖虎为西魏八柱国之一。隋末为太原留守，大业十三年举兵，入长安，立代王侑，明年受禅，国号唐。在位九年，武德七年天下始定，然太子与秦王之争已不可解。贞观九年崩于垂拱前殿，年七十。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "topics": [
+    "tang"
+  ],
+  "people": [
+    {
+      "id": "li-yuan",
+      "name": "李渊",
+      "display": "唐高祖李渊",
+      "birth": 566,
+      "birthAccuracy": "exact",
+      "death": 635,
+      "deathAccuracy": "exact",
+      "title": "唐高祖，太原起兵，五年定天下",
+      "bio": "陇西成纪人，其祖虎为西魏八柱国之一。隋末为太原留守，大业十三年举兵，入长安，立代王侑，明年受禅，国号唐。在位九年，武德七年天下始定，然太子与秦王之争已不可解。贞观九年崩于垂拱前殿，年七十。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-shimin",
+      "name": "李世民",
+      "display": "唐太宗李世民",
+      "birth": 598,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "唐太宗，天可汗，贞观之治",
+      "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-zetian",
+      "name": "武曌",
+      "display": "武则天",
+      "birth": 624,
+      "birthAccuracy": "exact",
+      "death": 705,
+      "deathAccuracy": "exact",
+      "title": "则天大圣皇帝，中国唯一女皇帝",
+      "bio": "并州文水人，武士彟之女，太宗才人，高宗皇后。与上同称二圣，高宗崩后临朝，废中宗、睿宗，天授元年改国号周，自称圣神皇帝。用酷吏而能擢拔人才，狄仁杰、姚崇、宋璟皆出其朝。神龙元年张柬之等反正，是岁崩于上阳宫，年八十二，遗制去帝号，称则天大圣皇后。",
+      "tags": [
+        "唐",
+        "武周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "li-bai",
+      "name": "李白",
+      "display": "李白",
+      "birth": 701,
+      "birthAccuracy": "exact",
+      "death": 762,
+      "deathAccuracy": "exact",
+      "title": "诗仙，供奉翰林，赐金放还",
+      "bio": "绵州昌隆人，隋末其先流寓碎叶，故亦自称陇西成纪人。十岁通诗书，既长隐岷山，好剑任侠。天宝初至长安，贺知章见其文，叹为谪仙人，玄宗召见金銮殿，命为翰林供奉。性放旷，与贺知章等为饮中八仙，赐金放还。后坐永王璘事流夜郎，赦还，宝应元年卒于当涂，年六十二。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "poetry",
+        "official"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "du-fu",
+      "name": "杜甫",
+      "display": "杜甫",
+      "birth": 712,
+      "birthAccuracy": "exact",
+      "death": 770,
+      "deathAccuracy": "exact",
+      "title": "诗圣，漂泊西南，卒于湘江舟中",
+      "bio": "河南巩县人，杜审言之孙。举进士不第，天宝末献《三大礼赋》，玄宗使待制集贤院。安史乱起，陷贼中，后奔凤翔行在，拜左拾遗，旋贬华州司功。弃官入蜀，依严武于成都，筑草堂。晚岁漂泊湖南，大历五年卒于耒阳，年五十九。其诗善陈时事，世号诗史。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "poetry",
+        "official"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "xuanwu-zhibian",
+      "name": "玄武门之变",
+      "display": "玄武门之变",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 626,
+      "yearAccuracy": "exact",
+      "place": "长安玄武门",
+      "placeNow": "今西安城内唐长安宫城北门一带",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "li-shimin",
+        "li-jian-cheng",
+        "li-yuan-ji",
+        "li-yuan",
+        "yu-chi-gong"
+      ],
+      "result": "李建成、李元吉被杀，李世民成为皇太子并继位为太宗",
+      "aliases": [
+        "tang-xuanwu"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "626 年六月，李世民在玄武门发动宫廷武装政变，杀李建成、李元吉，随后被立为皇太子；八月李渊传位，李世民即位为唐太宗。它重组了唐初最高权力结构，直接开启贞观政治。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "太宗本纪上",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "唐纪七",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhenguan-zhizhi",
+      "name": "贞观之治",
+      "display": "贞观之治",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 627,
+      "yearAccuracy": "exact",
+      "endYear": 649,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "li-shimin",
+        "wei-zheng",
+        "fang-xuan-ling",
+        "du-ru-hui",
+        "li-jing"
+      ],
+      "result": "太宗一朝制度重建与吏治规范定型，唐开国基业在此底定",
+      "aliases": [
+        "tang-zhenghuan"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "627 至 649 年太宗在位期间，任贤纳谏、轻徭薄赋、整修制度，四夷来朝，史称贞观之治。隋末战后的制度重建与政治规范在此定型，门阀政治、府兵均田与官僚考课的面貌为高宗以后唐朝基业所本。本实体记录时代总体，具体政令与战役另行由各事件记载，不在本实体中拆录。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "太宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷一百九十二至一百九十九",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "kaiyuan-shengshi",
+      "name": "开元盛世",
+      "display": "开元盛世",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 713,
+      "yearAccuracy": "exact",
+      "endYear": 741,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "li-long-ji",
+        "yao-chong",
+        "song-jing"
+      ],
+      "result": "玄宗前期国力达到顶点，制度与财赋基业臻于极盛",
+      "aliases": [
+        "tang-kaiyuan"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "713 至 741 年玄宗在位前期，姚崇、宋璟相继为相，整肃吏治、抑制奢靡，户口增殖而府库充盈，典章制度趋于完备，唐朝国力达到顶点，史称开元盛世。盛世的具体指标与局限不在本实体中评价；天宝以后的转折由安史之乱及其前后事件接续记载。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "玄宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一十至二百一十四",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "anshi-zhiluan",
+      "name": "安史之乱",
+      "display": "安史之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 755,
+      "yearAccuracy": "exact",
+      "endYear": 763,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "an-lu-shan",
+        "shi-si-ming",
+        "li-long-ji",
+        "yang-yu-huan",
+        "ge-shu-han",
+        "guo-zi-yi",
+        "li-guang-bi",
+        "zhang-xun"
+      ],
+      "result": "唐廷平定叛乱但中央财政、兵制与藩镇关系长期改组",
+      "aliases": [
+        "安禄山史思明之乱",
+        "tang-tianbao"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "755 年十一月，安禄山以讨杨国忠为名起兵范阳，率十五万众南下。次年六月哥舒翰败于灵宝，潼关失守，玄宗奔蜀，马嵬驿兵变后太子即位灵武，是为肃宗。757 年唐军借回纥援兵反攻，先后收复西京长安与东都洛阳，其间张巡死守睢阳。安禄山死后安庆绪、史思明相继统领叛军，与唐廷相持至 763 年史朝义败死，叛乱平定。战后朝廷以安史降将分帅河北，藩镇割据格局由此形成，唐朝由盛转衰。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "肃宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "旧唐书",
+          "part": "郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一十七至二百二十三",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "huangchao-zhi-luan",
+      "name": "黄巢之乱",
+      "display": "黄巢之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 875,
+      "yearAccuracy": "exact",
+      "endYear": 884,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "huang-chao",
+        "zhu-wen",
+        "li-ke-yong"
+      ],
+      "result": "黄巢军攻入长安后败亡，唐朝财政、军政与藩镇结构进一步崩解",
+      "aliases": [
+        "黄巢起义",
+        "tang-huangchao"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "875 至 884 年，黄巢起兵并转战全国，攻入长安建立大齐；唐廷借助朱温、李克用等藩镇力量最终平乱。战乱加速中央财政与军政体系崩解，并为朱温代唐铺路。伤亡与破坏规模缺乏统一可靠数字，不在实体中量化。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "僖宗本纪、黄巢传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "僖宗本纪、黄巢传",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高祖纪、地理志",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "高祖纪、地理志",
+      "kind": "classic"
+    }
+  ]
+}

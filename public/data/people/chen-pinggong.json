@@ -1,0 +1,69 @@
+{
+  "id": "chen-pinggong",
+  "name": "妫燮",
+  "display": "陈平公",
+  "birthAccuracy": "unknown",
+  "death": -755,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：平公七年犬戎杀幽王，二十三年卒。七年当 -771，二十三年当 -755。",
+  "title": "陈平公",
+  "bio": "夷公之弟。七年犬戎杀幽王，二十三年卒。",
+  "tags": [
+    "陈"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chen"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-pinggong",
+      "target": "chen-wugong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。夷公卒，弟平公立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "chen-pinggong",
+      "target": "chen-yigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈平公",
+    "平公燮"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家",
+      "kind": "classic"
+    }
+  ]
+}

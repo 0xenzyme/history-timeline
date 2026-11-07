@@ -1,0 +1,79 @@
+{
+  "id": "yuan-shanjian",
+  "name": "元善见",
+  "display": "孝静帝元善见",
+  "birth": 524,
+  "birthAccuracy": "approx",
+  "death": 551,
+  "deathAccuracy": "exact",
+  "birthNote": "天保二年殂，年二十八，上推生年。即位时年十一，与此相合。",
+  "title": "东魏孝静帝，禅齐后被杀",
+  "bio": "清河王亶世子。出帝入关，高欢与百僚推他奉孝明之后，永熙三年即位，时年十一。天保元年逊位，封中山王。二年十二月殂，年二十八。",
+  "tags": [
+    "南北朝",
+    "东魏"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-huan",
+      "target": "yuan-shanjian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "出帝入关，齐献武王与百僚推善见为帝"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yang",
+      "target": "yuan-shanjian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "天保元年孝静逊位，高洋受禅"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beiwei-fenlie",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "元善见",
+    "孝静帝"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "孝静纪",
+      "kind": "classic"
+    }
+  ]
+}

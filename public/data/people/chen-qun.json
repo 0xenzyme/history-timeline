@@ -1,0 +1,78 @@
+{
+  "id": "chen-qun",
+  "name": "陈群",
+  "display": "陈群",
+  "birthAccuracy": "unknown",
+  "death": 236,
+  "deathAccuracy": "exact",
+  "title": "魏司空，创九品官人法",
+  "bio": "颍川许昌人，字长文，陈寔之孙。刘备领豫州时辟为别驾，后归曹操，历侍中、尚书；文帝时为吏部尚书，立九品官人之法；明帝时为司空，录尚书事。青龙四年薨，谥靖侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-pi",
+      "target": "chen-qun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝时尚书，创九品中正制"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "chen-qun",
+      "target": "chen-tai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；陈泰为陈群之子，魏末雍州刺史"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiupin-zhongzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "陈群",
+    "陈长文"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·桓二陈徐卫卢传",
+      "kind": "classic"
+    }
+  ]
+}

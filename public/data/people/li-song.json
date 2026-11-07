@@ -1,0 +1,107 @@
+{
+  "id": "li-song",
+  "name": "李诵",
+  "display": "唐顺宗李诵",
+  "birth": 761,
+  "birthAccuracy": "exact",
+  "death": 806,
+  "deathAccuracy": "exact",
+  "title": "永贞革新",
+  "bio": "德宗长子，即位即病风喑，任用王叔文等行永贞革新，旋为俱文珍等所迫内禅，贬逐革新诸人。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-song",
+      "target": "li-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，代宗传顺宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-chun",
+      "target": "li-song",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，顺宗传宪宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-song",
+      "target": "jia-dan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，永贞元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-song",
+      "target": "wang-shu-wen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "叔文侍读东宫，顺宗即位委以政事"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yongzhen-gaige",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongzhen-gexin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李诵",
+    "唐顺宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "顺宗纪",
+      "kind": "classic"
+    }
+  ]
+}

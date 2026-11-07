@@ -1,0 +1,66 @@
+{
+  "id": "zhou-yanru",
+  "name": "周延儒",
+  "display": "周延儒",
+  "birthAccuracy": "unknown",
+  "death": 1643,
+  "deathAccuracy": "exact",
+  "deathNote": "崇祯十六年冬十二月，勒令自尽。",
+  "title": "崇祯再相，勒令自尽",
+  "bio": "宜兴人，万历四十一年廷试第一。崇祯二年入阁，六年罢。十四年起复为首辅。十六年十二月与吴昌时同日赐死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "regent"
+  ],
+  "primary": "regent",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "zhou-yanru",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯二年入阁，十四年起复为首辅，十六年十二月勒令自尽"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wen-tiren",
+      "target": "zhou-yanru",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "同在崇祯朝，体仁欲倾延儒"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "周延儒传",
+      "kind": "classic"
+    }
+  ]
+}

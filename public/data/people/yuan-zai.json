@@ -1,0 +1,57 @@
+{
+  "id": "yuan-zai",
+  "name": "元载",
+  "display": "元载",
+  "birthAccuracy": "unknown",
+  "death": 777,
+  "deathAccuracy": "exact",
+  "title": "大历十二年赐自尽",
+  "bio": "代宗朝中书侍郎同平章事。大历十二年三月赐自尽。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu",
+      "target": "yuan-zai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，大历十二年赐自尽"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "元载"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "元载传",
+      "kind": "classic"
+    }
+  ]
+}

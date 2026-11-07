@@ -1,0 +1,121 @@
+{
+  "id": "caopi-shou-chan",
+  "name": "曹丕受禅代汉",
+  "display": "曹丕受禅代汉",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 220,
+  "yearAccuracy": "exact",
+  "polity": [
+    "wei"
+  ],
+  "people": [
+    "cao-pi",
+    "liu-xie-xiandi",
+    "cao-cao"
+  ],
+  "result": "曹丕接受汉献帝禅让，魏代汉，东汉政权终结",
+  "dynasties": [
+    "eastern-han",
+    "three-kingdoms"
+  ],
+  "desc": "220年，汉献帝逊位，曹丕受禅称帝，改国号魏。自刘秀称帝以来延续近两百年的东汉政权至此结束。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·文帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "后汉书",
+      "part": "献帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-pi",
+      "name": "曹丕",
+      "display": "魏文帝曹丕",
+      "birth": 187,
+      "birthAccuracy": "exact",
+      "death": 226,
+      "deathAccuracy": "exact",
+      "title": "魏文帝，受汉禅，立九品",
+      "bio": "曹操次子，与曹植争嗣而胜。延康元年受献帝禅，改元黄初，都洛阳。行九品官人之法，收宗室而抑宦官，在位七年而崩，年四十。好文学，著《典论》，建安文士多出其幕。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "poetry",
+        "literature"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-xie-xiandi",
+      "name": "刘协",
+      "display": "汉献帝",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "东汉献帝，禅于曹丕，青龙二年卒",
+      "bio": "董卓所立。延康元年禅于曹丕，帝位先断在公元 220 年。魏青龙二年卒，条收到公元 234 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

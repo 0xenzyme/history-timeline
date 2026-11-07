@@ -1,0 +1,37 @@
+{
+  "id": "qin-fei",
+  "name": "非子",
+  "display": "秦嬴（非子）",
+  "birthAccuracy": "unknown",
+  "death": -858,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。史记：非子居犬丘，周孝王邑之秦，使复续嬴氏祀，号曰秦嬴（卷005:26）；秦嬴生秦侯，秦侯立十年卒（卷005:29）。秦仲立二十三年死于戎，今本竹书系于周宣王六年（前 822，周纪:385）。按世次上推，秦嬴卒当在秦侯元年之前一年，约当前 858，非精确年。",
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "kind": "classic"
+    }
+  ]
+}

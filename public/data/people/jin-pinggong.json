@@ -1,0 +1,65 @@
+{
+  "id": "jin-pinggong",
+  "name": "晋平公",
+  "display": "晋平公",
+  "birthAccuracy": "unknown",
+  "death": -532,
+  "deathAccuracy": "exact",
+  "deathNote": "今本竹书纪年·晋纪「景王十三年，十月，晋平公卒」。",
+  "title": "二十四载，齐晋鞀之战",
+  "bio": "悼公之子。即位之初，韩不信、魏不信等兴乱，后渐定。前589年齐晋战于鞀，齐败归汶阳之田。前582年平丘之会，晋人疑齐，宋华元居间会诸侯于新城。前532年卒。",
+  "tags": [
+    "鞀之战",
+    "平丘之会",
+    "韩魏兴乱"
+  ],
+  "categories": [
+    "monarch",
+    "vassal"
+  ],
+  "primary": "vassal",
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jin-pinggong",
+      "target": "shi-kuang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋平公铸大钟，乐工皆谓善，师旷独曰不调，请验之于民；又引琴以谏君言之莫违"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "晋平公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ]
+}

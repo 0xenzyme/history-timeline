@@ -1,0 +1,138 @@
+{
+  "id": "yong-zheng",
+  "name": "胤禛",
+  "display": "雍正",
+  "birth": 1678,
+  "birthAccuracy": "exact",
+  "death": 1735,
+  "deathAccuracy": "exact",
+  "title": "肃政集权",
+  "bio": "康熙第四子，即位后行摊丁入亩、设军机处、清查亏空，承前启后。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yong-zheng",
+      "target": "nian-gengyao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚为抚远大将军平青海"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "nian-gengyao",
+      "target": "yong-zheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "功高见忌，赐令自尽"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "yong-zheng",
+      "target": "zhang-tingyu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "信任元辅，配享太庙"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xiao-gong",
+      "target": "yong-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。康熙十七年生世宗"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "yong-zheng",
+      "target": "e-er-tai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世宗末与张廷玉同受顾命，督云贵而奏改土归流"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gaitu-guiliu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "junjichu-sheli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tanding-ruimu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wenziyu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhuzang-dachen",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "胤禛",
+    "清世宗",
+    "雍正"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "世宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

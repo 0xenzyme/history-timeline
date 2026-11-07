@@ -1,0 +1,78 @@
+{
+  "id": "shen-shixing",
+  "name": "申时行",
+  "display": "申时行",
+  "birth": 1535,
+  "birthAccuracy": "exact",
+  "death": 1614,
+  "deathAccuracy": "exact",
+  "title": "居正之后的宽静之政",
+  "bio": "字汝默，长洲人。继张居正为首辅，请罢考成法之烦苛，务为宽静; 以争国本不去而为人所论，遂乞归。1614 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "shen-shixing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "继居正之后为首辅，务为宽静"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "shen-shixing",
+      "target": "zhang-juzheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为万历初政的内阁重臣"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "shen-shixing",
+      "target": "wang-xijue",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "相继辅政，同以争国本为事而力请建储"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "申时行传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "zuti-beifa",
+  "name": "祖逖北伐",
+  "display": "祖逖北伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 313,
+  "yearAccuracy": "exact",
+  "yearNote": "建兴元年（313）祖逖拜奋威将军、豫州刺史，率部曲百余家渡江，中流击楫而誓。《晋书·祖逖传》未系年，起兵年份据《资治通鉴》卷八十八建兴元年（已核 wikisource 原文），中国纪年口径。",
+  "endYear": 321,
+  "endYearAccuracy": "exact",
+  "endYearNote": "大兴四年（321）九月壬寅，镇西将军、豫州刺史祖逖卒（《晋书·元帝纪》）；本传云'俄卒于雍丘，时年五十六'，北伐随之中止。",
+  "place": "谯城",
+  "placeNow": "今安徽亳州一带",
+  "belligerents": [
+    "jin",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "zu-ti",
+      "side": "jin"
+    },
+    {
+      "id": "shi-hu",
+      "side": "shiliuguo"
+    }
+  ],
+  "people": [
+    "zu-ti",
+    "sima-rui",
+    "liu-kun",
+    "shi-le",
+    "shi-hu"
+  ],
+  "result": "黄河以南尽为晋土，与后赵隔河对峙；祖逖卒后成果尽失",
+  "tags": [
+    "campaign",
+    "北伐"
+  ],
+  "dynasties": [
+    "western-jin",
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "建兴元年（313）祖逖率部曲百余家渡江，中流击楫而誓；经谯城、雍丘诸役连挫后赵石虎、桃豹，大兴三年（320）前后黄河以南尽为晋土，石勒不敢窥兵河南、求通使交市。大兴四年（321）祖逖卒于雍丘，北伐遂止，收复之地相继复失。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷六",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷六十二",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷八十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zu-ti",
+      "name": "祖逖",
+      "display": "祖逖",
+      "birth": 266,
+      "birthAccuracy": "exact",
+      "death": 321,
+      "deathAccuracy": "exact",
+      "title": "奋威将军，闻鸡起舞，中流击楫",
+      "bio": "范阳遒人，与刘琨俱为司州主簿，同寝中夜闻鸡鸣而起舞。建兴元年请兵北伐，渡江中流击楫而誓曰「祖逖不能清中原而复济者，有如大江」。募兵铸冶，数年尽复河南，石勒不敢窥兵。大兴四年以朝廷掣肘，忧愤发病卒于雍丘，年五十六。",
+      "tags": [
+        "东晋",
+        "北伐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-rui",
+      "name": "司马睿",
+      "display": "晋元帝司马睿",
+      "birth": 276,
+      "birthAccuracy": "exact",
+      "death": 323,
+      "deathAccuracy": "exact",
+      "title": "东晋元帝，王与马共天下",
+      "bio": "司马懿曾孙，琅邪王觐之子。永嘉之乱后以安东将军镇建康，用王导之谋，收江东士族之心。建武元年即晋王位，明年称帝，都建康。政出王氏，导内而敦外，时人语曰「王与马，共天下」。永昌元年忧愤成疾而崩，年四十七。",
+      "tags": [
+        "东晋",
+        "衣冠南渡"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-kun",
+      "name": "刘琨",
+      "display": "刘琨",
+      "birth": 270,
+      "birthAccuracy": "exact",
+      "death": 318,
+      "deathAccuracy": "exact",
+      "title": "并州刺史，闻鸡起舞，孤守晋阳",
+      "bio": "中山魏昌人，汉中山靖王之后，与祖逖为友，共被同寝，中夜闻荒鸡鸣而共起舞。永嘉元年为并州刺史，赴晋阳，翦除荆棘，抚循劳徕，前后十年孤悬河北。既败于石勒，奔鲜卑段匹磾，为所疑而缢杀，年四十八。",
+      "tags": [
+        "西晋",
+        "北边"
+      ],
+      "categories": [
+        "general",
+        "poetry"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-le",
+      "name": "石勒",
+      "display": "石勒",
+      "birth": 274,
+      "birthAccuracy": "exact",
+      "death": 333,
+      "deathAccuracy": "exact",
+      "title": "后赵之主，起自奴隶而兼河北",
+      "bio": "上党武乡羯人，少行贩洛阳，为人力耕，后为汲桑之党，遂附刘渊。转战河北，并王浚、刘曜，据襄国称赵王，后称帝。不识字而听人读史，闻郦食其劝立六国后而惊，闻留侯谏乃曰「赖此耳」。咸和八年卒，年六十。",
+      "tags": [
+        "十六国",
+        "后赵",
+        "羯"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-hu",
+      "name": "石虎",
+      "display": "石虎",
+      "birth": 295,
+      "birthAccuracy": "exact",
+      "death": 349,
+      "deathAccuracy": "exact",
+      "title": "后赵之主，暴虐甲于十六国",
+      "bio": "上党武乡羯人，石勒从子。性残虐，勒死废其子弘而自立，迁都邺，大发男女十六万营洛阳、长安宫室。猎则列人为围，驱兽使奔，死者相枕。晚年诸子相残，太子宣杀弟韬，虎杀宣而杀其妻子。太宁元年卒，后赵三年而亡。",
+      "tags": [
+        "十六国",
+        "后赵",
+        "暴君"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

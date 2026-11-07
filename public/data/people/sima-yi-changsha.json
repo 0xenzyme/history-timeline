@@ -1,0 +1,99 @@
+{
+  "id": "sima-yi-changsha",
+  "name": "司马乂",
+  "display": "长沙王司马乂",
+  "birthAccuracy": "unknown",
+  "death": 303,
+  "deathAccuracy": "exact",
+  "birthNote": "传无岁数，不编生年。",
+  "title": "长沙王乂，力拒二王而见害于张方",
+  "bio": "字士度，武帝第六子。攻杀齐王冏，以太尉都督中外辅政。成都王颖、河间王颙连兵二十余万攻洛阳，乂力战拒之，屡挫其锋。东海王越虑战久不决，夜执乂幽于金墉城，寻为张方所害，时人冤之。纪系太安二年。",
+  "tags": [
+    "晋",
+    "西晋",
+    "八王之乱"
+  ],
+  "categories": [
+    "royal-kin",
+    "regent",
+    "general"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-jiong",
+      "target": "sima-yi-changsha",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "奉乘舆攻冏，杀之而代辅政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yi-changsha",
+      "target": "sima-ying",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与颙连兵攻洛，乂力拒之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yi-changsha",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越夜执乂送张方所害"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baxia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马乂",
+    "长沙王乂",
+    "司马士度"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "长沙王乂传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "惠帝纪",
+      "kind": "classic"
+    }
+  ]
+}

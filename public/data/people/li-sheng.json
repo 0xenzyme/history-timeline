@@ -1,0 +1,71 @@
+{
+  "id": "li-sheng",
+  "name": "李晟",
+  "display": "李晟",
+  "birth": 727,
+  "birthAccuracy": "exact",
+  "death": 793,
+  "deathAccuracy": "exact",
+  "title": "收长安，贞元九年薨",
+  "bio": "陇右临洮人。德宗奔奉天，晟率孤军收复长安。贞元三年册太尉、中书令，奉朝请。九年八月薨，时年六十七。",
+  "tags": [
+    "唐",
+    "泾师之变"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "li-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "奉天之难收长安，贞元九年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jingyuan-bingbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jingyuan-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李晟"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李晟传",
+      "kind": "classic"
+    }
+  ]
+}

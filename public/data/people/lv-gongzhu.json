@@ -1,0 +1,47 @@
+{
+  "id": "lv-gongzhu",
+  "name": "吕公著",
+  "display": "吕公著",
+  "birth": 1018,
+  "birthAccuracy": "exact",
+  "death": 1089,
+  "deathAccuracy": "exact",
+  "title": "元祐更化主谋之一",
+  "bio": "吕夷简之子，与司马光同辅元祐更化，拜司空同平章军国事。元祐四年卒，年七十二。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "yuanyou-genghua",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "吕公著传",
+      "kind": "classic"
+    }
+  ]
+}

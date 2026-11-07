@@ -1,0 +1,61 @@
+{
+  "id": "xu-xiake",
+  "name": "徐霞客",
+  "display": "徐霞客",
+  "birth": 1587,
+  "birthAccuracy": "approx",
+  "death": 1641,
+  "deathAccuracy": "approx",
+  "birthNote": "《明史》无传。陈函辉《霞客徐先生墓志铭》记其卒年五十有六，上推生年在一五八七年前后。",
+  "deathNote": "墓志铭与后人整理的游记跋语均系其卒于崇祯十四年正月（一六四一）。",
+  "title": "三十年游记",
+  "bio": "名弘祖，字振之，江阴人。弃科举而事游历，三十年足迹遍南北荒远之区，日有所记，成《徐霞客游记》。1641 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "explorer"
+  ],
+  "primary": "explorer",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xu-guangqi",
+      "target": "xu-xiake",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为晚明以行历与实验求知者"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "徐霞客游记",
+      "part": "游天台山日记",
+      "kind": "classic"
+    },
+    {
+      "work": "霞客徐先生墓志铭",
+      "part": "陈函辉撰",
+      "kind": "classic"
+    }
+  ]
+}

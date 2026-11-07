@@ -1,0 +1,102 @@
+{
+  "id": "lv-bu",
+  "name": "吕布",
+  "display": "吕布",
+  "birthAccuracy": "unknown",
+  "death": 199,
+  "deathAccuracy": "exact",
+  "title": "左将军，辕门射戟，白门楼被缢",
+  "bio": "五原九原人，便弓马，膂力过人，号为飞将。初事丁原而杀之归董卓，又与王允谋诛卓。辕门射戟解刘备之围，旋夺徐州。建安三年曹操围下邳，布为部下所执，请为操将，刘备一言而缢之于白门楼。",
+  "tags": [
+    "三国"
+  ],
+  "categories": [
+    "warlord",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lv-bu",
+      "target": "chen-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为布谋主而布多不从其计"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "lv-bu",
+      "target": "gao-shun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "将陷阵营，所攻必破；布知其忠而不能用"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "lv-bu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "下邳擒杀布"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dong-zhuo-luan-zheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiapi-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "吕布",
+    "吕奉先",
+    "飞将"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·吕布臧洪传",
+      "kind": "classic"
+    }
+  ]
+}

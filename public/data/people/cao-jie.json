@@ -1,0 +1,56 @@
+{
+  "id": "cao-jie",
+  "name": "曹节",
+  "display": "献穆曹皇后",
+  "birthAccuracy": "unknown",
+  "death": 237,
+  "deathAccuracy": "exact",
+  "title": "献帝皇后，曹操之女",
+  "bio": "曹操的中女。建安十八年与姊妹一起入宫。献帝禅位后为山阳公夫人。魏景初元年薨。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-jie",
+      "target": "liu-xie-xiandi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "献帝皇后，曹操中女。景初元年薨"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "曹节",
+    "献穆曹皇后"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪·献穆曹皇后",
+      "kind": "classic"
+    }
+  ]
+}

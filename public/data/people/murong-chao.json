@@ -1,0 +1,95 @@
+{
+  "id": "murong-chao",
+  "name": "慕容超",
+  "display": "慕容超",
+  "birth": 385,
+  "birthAccuracy": "approx",
+  "death": 410,
+  "deathAccuracy": "exact",
+  "birthNote": "义熙六年（410）送建康市斩之，时年二十六，虚岁上推生年。",
+  "title": "南燕末主，广固城破而族灭",
+  "bio": "慕容德兄北海王慕容纳之子。德无子，梦父戒而立超为太子。即位后信用公孙五楼，诛戮勋臣，游猎无度。义熙六年刘裕北伐，围广固，超宁奋剑决死不肯衔璧求生，城破突围被执，神色自若，惟以母托刘敬宣，送建康市斩之，时年二十六，南燕亡。",
+  "tags": [
+    "十六国",
+    "南燕",
+    "慕容"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    },
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "murong-chao",
+      "target": "murong-de",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄。德无子，立超为太子"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "murong-chao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "义熙六年北伐，斩超于建康市",
+        "刘裕北伐南燕，破广固，俘慕容超送建康斩之"
+      ],
+      "topicIds": [
+        "liangjin",
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "liuyu-mie-nanyan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "慕容超",
+    "慕容祖明"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "慕容超载记",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "安帝纪",
+      "kind": "classic"
+    }
+  ]
+}

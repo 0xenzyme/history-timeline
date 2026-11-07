@@ -1,0 +1,118 @@
+{
+  "id": "qin-mie-liuguo",
+  "name": "秦灭六国战争",
+  "display": "秦灭六国战争",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": -236,
+  "yearAccuracy": "exact",
+  "yearNote": "起锚取《資治通鑑》卷6始皇十一年（前236）：「將軍王翦、桓齮、楊端和伐趙，攻鄴，取九城。王翦攻閼與、轑陽」——秦统一大攻势之始；另一常用起锚为始皇十七年（前230）內史騰滅韓（六国之首亡）。终锚始皇二十六年（前221）王賁入臨淄、齊王建降。两口径均已核于本地原典。",
+  "endYear": -221,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "qin",
+    "zhao",
+    "han-guo",
+    "wei-zhanguo",
+    "chu",
+    "yan",
+    "qi"
+  ],
+  "commanders": [
+    {
+      "id": "wang-jian",
+      "side": "qin"
+    }
+  ],
+  "people": [
+    "ying-zheng"
+  ],
+  "result": "十年之间六国次第而亡，秦并天下、海内为郡县",
+  "dynasties": [
+    "warring-states",
+    "qin"
+  ],
+  "desc": "秦王政亲政后启动统一战争：前230年（秦王政十七）内史腾灭韩、虏韩王安；前229—前228年王翦破赵，李牧遭谗被杀，虏赵王迁，公子嘉走代自立；前226年破燕拔蓟，燕王喜走辽东；前225年王贲引河沟灌大梁，魏王假降；前224—前223年王翦率六十万大破楚军、杀项燕、虏楚王负刍；前222年破辽东虏燕王喜，并代；前221年王贲入临淄，齐王建不战而降。十年之间六国次第而亡，海内归于一统。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷六",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷七",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷六·卷006）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "qin-mie-han",
+    "qin-mie-zhao",
+    "qin-po-yan",
+    "qin-mie-wei",
+    "qin-mie-chu",
+    "qin-mie-yan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-jian",
+      "name": "王翦",
+      "display": "王翦",
+      "birthAccuracy": "unknown",
+      "death": -220,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。始皇二十四年灭楚，其后少记载，取统一前后为活动下限。",
+      "title": "秦将，灭赵、灭楚",
+      "bio": "频阳人。与秦王政议兵，六十万灭楚。灭六国的武将条里，白起开了头，他收了尾。",
+      "tags": [
+        "秦国",
+        "灭六国"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

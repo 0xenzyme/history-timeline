@@ -1,0 +1,78 @@
+{
+  "id": "baijiangkou-zhizhan",
+  "name": "白江口之战",
+  "display": "白江口",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 663,
+  "yearAccuracy": "exact",
+  "place": "白江口",
+  "placeNow": "今韩国锦江入海口一带",
+  "belligerents": [
+    "tang",
+    "baiji",
+    "riben"
+  ],
+  "commanders": [
+    {
+      "id": "liu-ren-gui",
+      "side": "tang"
+    }
+  ],
+  "people": [
+    "liu-ren-gui"
+  ],
+  "result": "唐军大破百济复国军与倭国援军，百济复国势力覆灭",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "龙朔三年（663），刘仁轨率唐军与新罗兵会师，于白江口大破百济复国军及其倭国援军，焚其舟舰。百济复国势力自此覆灭，倭国势力退出朝鲜半岛，唐在东亚的秩序推进到高句丽城下。日本文献称此战为白村江之战；双方兵力与舟数各书记载不一，不在本实体中取单一数字。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "刘仁轨传、百济传",
+      "kind": "classic"
+    },
+    {
+      "work": "日本书纪",
+      "part": "齐明天皇纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-ren-gui",
+      "name": "刘仁轨",
+      "display": "刘仁轨",
+      "birthAccuracy": "unknown",
+      "death": 685,
+      "deathAccuracy": "exact",
+      "deathNote": "垂拱元年正月薨。",
+      "title": "高宗宰相",
+      "bio": "麟德二年十月以带方州刺史知政事，后又同中书门下三品。垂拱元年正月薨。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

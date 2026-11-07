@@ -1,0 +1,126 @@
+{
+  "id": "kaixi-beifa",
+  "name": "开禧北伐",
+  "display": "开禧北伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 1206,
+  "yearAccuracy": "exact",
+  "yearNote": "开战取开禧二年五月丁亥宋诏伐金，与金泰和六年五月出师同年。结束取开禧三年十一月韩侂胄被杀、宋已转入求和。1208年是嘉定和议，不并入本役。",
+  "endYear": 1207,
+  "endYearAccuracy": "exact",
+  "place": "两淮",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "zhao-kuo",
+    "han-tuozhou",
+    "shi-miyuan"
+  ],
+  "result": "宋军多路溃败，吴曦叛而旋灭，韩侂胄被杀，宋转而求和。",
+  "aliases": [
+    "开禧用兵"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "开禧二年五月丁亥，宋下诏伐金，金亦以宋叛盟出师。宋军多路溃败，吴曦叛而旋灭，开禧三年十一月韩侂胄被杀，宋转入求和。此役打破隆兴和议后约四十年的宋金和平，战败直接引出嘉定和议。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷三十八",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-kuo",
+      "name": "赵扩",
+      "display": "宋宁宗赵扩",
+      "birth": 1168,
+      "birthAccuracy": "exact",
+      "death": 1224,
+      "deathAccuracy": "exact",
+      "title": "庆元党禁与开禧北伐",
+      "bio": "光宗长子，绍熙内禅即位。庆元党籍禁道学，开禧北伐败于金，嘉定和议称侄。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "han-tuozhou",
+      "name": "韩侂胄",
+      "display": "韩侂胄",
+      "birth": 1152,
+      "birthAccuracy": "exact",
+      "death": 1207,
+      "deathAccuracy": "exact",
+      "title": "定策专权的平章军国事",
+      "bio": "外戚而以定策之劳专国政十四年，禁伪学、斥赵汝愚。开禧北伐败，金人以首级为议和条件。嘉定元年被诛于玉津园，函首送金。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-miyuan",
+      "name": "史弥远",
+      "display": "史弥远",
+      "birth": 1164,
+      "birthAccuracy": "exact",
+      "death": 1233,
+      "deathAccuracy": "exact",
+      "title": "两朝擅权的济王之谋",
+      "bio": "与杨皇后同诛韩侂胄而代之，矫诏废济王竑、立理宗，擅权二十六年。嘉定和议成，朝政萎靡。绍定六年卒，追封卫王。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

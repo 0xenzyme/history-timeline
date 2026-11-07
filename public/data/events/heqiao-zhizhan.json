@@ -1,0 +1,140 @@
+{
+  "id": "heqiao-zhizhan",
+  "name": "河桥之战",
+  "display": "河桥之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": 538,
+  "yearAccuracy": "exact",
+  "place": "河桥",
+  "placeNow": "今河南孟州西（黄河孟津段）",
+  "belligerents": [
+    "dongwei",
+    "xiwei"
+  ],
+  "commanders": [
+    {
+      "id": "yuwen-tai",
+      "side": "xiwei"
+    },
+    {
+      "id": "gao-ang",
+      "side": "dongwei"
+    }
+  ],
+  "people": [
+    "yuwen-tai",
+    "gao-huan",
+    "gao-ang"
+  ],
+  "result": "西魏先胜后挫，东魏大将高敖曹战死",
+  "aliases": [
+    "河桥邙山之战"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "大统四年西魏围攻洛阳，东魏侯景、高敖曹来援，两军会战于河桥、邙山之间，昼夜混战，阵势屡散屡聚。西魏大捷，阵斩东魏猛将高敖曹，虏甲士一万五千；而宇文泰坐骑中矢惊逸，军中几溃，赖李穆授马得免。双方主力俱损，此后连年相攻。",
+  "sources": [
+    {
+      "work": "周书",
+      "part": "文帝纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "北齐书",
+      "part": "神武纪下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuwen-tai",
+      "name": "宇文泰",
+      "display": "宇文泰",
+      "birth": 507,
+      "birthAccuracy": "exact",
+      "death": 556,
+      "deathAccuracy": "exact",
+      "title": "西魏权臣，府兵之制，北周之基",
+      "bio": "代武川鲜卑人，随父肱徙武川。从贺拔岳入关，岳死，遂统其众，奉孝武帝西迁长安，是为西魏。用苏绰定官制、行均田，创府兵之制，置八柱国十二大将军，关陇集团由此成形。大统十七年北巡至牵屯山而疾，卒于云阳，年五十，子觉篡魏建周。",
+      "tags": [
+        "北朝",
+        "西魏",
+        "北周之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "gao-huan",
+      "name": "高欢",
+      "display": "高欢",
+      "birth": 496,
+      "birthAccuracy": "exact",
+      "death": 547,
+      "deathAccuracy": "exact",
+      "title": "东魏权臣，北齐之基，玉壁折戟",
+      "bio": "渤海蓨人，本出怀朔镇兵户。从尔朱荣，后得六镇余众，讨灭尔朱氏，立孝静帝，迁都邺，自居晋阳，东魏政皆出之。天平四年围玉壁，攻城五十余日，士卒死者七万，疾作而退。武定五年卒于晋阳，年五十二，子澄、洋相继，遂建北齐。",
+      "tags": [
+        "北朝",
+        "东魏",
+        "北齐之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "gao-ang",
+      "name": "高昂",
+      "display": "高昂",
+      "birth": 491,
+      "birthAccuracy": "approx",
+      "death": 538,
+      "deathAccuracy": "exact",
+      "birthNote": "元象元年战殁，年四十八，上推生年。",
+      "deathNote": "「戰於邙陰，昂所部失利……遂為西軍所害，時年四十八」（北齐书·高昂传），系元象元年。",
+      "title": "东魏第一骁将，汉人部曲独成一军，邙阴战殁",
+      "tags": [
+        "南北朝",
+        "东魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

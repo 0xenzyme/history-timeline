@@ -1,0 +1,88 @@
+{
+  "id": "dou-jian-de",
+  "name": "窦建德",
+  "display": "窦建德",
+  "birth": 573,
+  "birthAccuracy": "exact",
+  "death": 621,
+  "deathAccuracy": "exact",
+  "title": "夏王，河北义军之主，斩于长安",
+  "bio": "贝州漳南人，世为农，为里长，以侠气闻。大业七年聚众入高鸡泊，渐据河北，自称夏王，都乐寿。不杀士人，所得资财悉分将士，境内劝课农桑，商旅野宿。武德四年虎牢一战，为李世民所擒，斩于长安市，年四十九，河北之人久而不忘。",
+  "tags": [
+    "隋末"
+  ],
+  "categories": [
+    "warlord"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "mowei"
+    },
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dou-jian-de",
+      "target": "wang-shichong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "河北窦建德与东都王世充相持，俱为唐所灭"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "li-shimin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "河北夏王，武德四年虎牢之役被俘，斩于长安"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hulao-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "suimo-nongmin-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "窦建德",
+    "夏王"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "窦建德传",
+      "kind": "classic"
+    }
+  ]
+}

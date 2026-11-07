@@ -1,0 +1,540 @@
+{
+  "id": "hu-bi-lie",
+  "name": "忽必烈",
+  "display": "元世祖忽必烈",
+  "birth": 1215,
+  "birthAccuracy": "exact",
+  "death": 1294,
+  "deathAccuracy": "exact",
+  "title": "元世祖，灭宋建元的大汗",
+  "bio": "拖雷次子，1260年即汗位，建元中统，定都燕京。襄阳围六年而克，伯颜下临安，崖山灭宋，混一天下。至元三十一年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "outsider",
+    "monarch"
+  ],
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    },
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "yelv-chucai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "楚材定中原制度，虽早卒而规制垂后"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "liu-bingzhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "潜邸谋主，建国号、筑大都皆出其画"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "bo-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚为灭宋统帅，总二十万军下临安"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "ba-si-ba",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "尊为帝师，命制蒙古新字"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "a-he-ma",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宠任总理财赋，后伏诛"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "tie-mu-zhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，成吉思汗之孙忽必烈嗣位建元"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "hu-bi-lie",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，世祖传成宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "suo-lu-he-tie-ni",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "meng-ge",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，宪宗命忽必烈总漠南汉地"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cha-bi",
+      "target": "hu-bi-lie",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，世祖皇后察必屡救护汉臣"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "zhen-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，中统三年立为皇太子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-li-bu-ge",
+      "target": "hu-bi-lie",
+      "type": "rival",
+      "directed": false,
+      "since": 1260,
+      "notes": [
+        "兄弟争位，两汗并立四年而后定"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "nai-yan",
+      "type": "rival",
+      "directed": false,
+      "since": 1287,
+      "notes": [
+        "东道诸王连兵，世祖扶病亲征擒之"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hai-du",
+      "target": "hu-bi-lie",
+      "type": "rival",
+      "directed": false,
+      "since": 1268,
+      "notes": [
+        "西北诸王拒命，相持逾三十年"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "wang-wentong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中统初为中书平章，制度多出其手，后坐李璮之狱诛"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "li-tan",
+      "type": "rival",
+      "directed": false,
+      "since": 1262,
+      "notes": [
+        "据济南而反，城破被擒"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "lian-xixian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "藩邸旧臣，镇关中、请立御史台"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "shang-ting",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "藩府谋士，历参知政事、枢密副使"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "zhao-bi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "通译之臣，奉使征聘江南遗逸"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "dou-mo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召为翰林侍讲，与姚枢、许衡共讲程朱"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "zhang-wenqian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "邢州幕府之旧，劝农桑、董水利"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "an-tong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "十八岁拜右丞相，推重汉法、独阻阿合马"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "lu-shirong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以理财进，行钞法立平准，二年而诛"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "sang-ge",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总理财赋，钩考钱谷而上下交怨"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "shi-tianze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "河北世侯之首，中统间位至丞相"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "zhang-rou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "河北世侯，重筑保州而聚书养士"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "dong-wenbing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "收沿江诸郡而禁杀掠，人心遂附"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "a-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "围襄阳五年而下之，遂顺汉水东进"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "a-li-hai-ya",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "经略荆湖南北，广南随之而定"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "li-heng-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从征江南，别将追二王入广"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "dan-ba",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "尊为国师，佛法之事多以咨之"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "wang-yun-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "历监察御史，论列无所回避"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "a-nige",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "监建大都白塔，累官将作院使"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "zhao-xian",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1276,
+      "notes": [
+        "临安出降后送至大都，后徙居于吐蕃"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dadu-gaiming",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "dali-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "dayuan-jianguo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huitong-tonghui-he",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "makepoluo-laihua",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mengge-jiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "menggu-hanwei-zhi-zheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "naiyan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sidai-hanguo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanri-zhanzheng",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yuanzheng-zhaowa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "世祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

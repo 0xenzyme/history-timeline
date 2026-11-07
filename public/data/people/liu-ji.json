@@ -1,0 +1,58 @@
+{
+  "id": "liu-ji",
+  "name": "刘基",
+  "display": "刘基",
+  "birth": 1311,
+  "birthAccuracy": "exact",
+  "death": 1375,
+  "deathAccuracy": "exact",
+  "title": "刘伯温，开国谋主",
+  "bio": "青田人，佐朱元璋定天下，料事如神，与宋濂、章溢并称浙东四先生；封诚意伯。《郁离子》寓讽谏。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "official",
+    "minister",
+    "strategist",
+    "literature",
+    "founding"
+  ],
+  "primary": "strategist",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yuanzhang",
+      "target": "liu-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "谋主，定开国方略"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "刘基传",
+      "kind": "classic"
+    }
+  ]
+}

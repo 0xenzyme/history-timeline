@@ -1,0 +1,66 @@
+{
+  "id": "niu-seng-ru",
+  "name": "牛僧孺",
+  "display": "牛僧孺",
+  "birth": 779,
+  "birthAccuracy": "exact",
+  "death": 848,
+  "deathAccuracy": "exact",
+  "title": "太子少师，牛党之首，对策切直得罪权贵",
+  "bio": "安定鹑觚人，隋仆射牛弘之后。元和三年应贤良方正科，指陈时政之失，不避权幸，考官皆不敢取，遂为李吉甫所忌，久之不调。长庆、大和中数度为相，与李德裕相攻，凡四十年。开成中为东都留守，筑第归仁园，与白居易吟咏其间。大中二年卒，年六十九。",
+  "tags": [
+    "唐",
+    "牛李党争"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-de-yu",
+      "target": "niu-seng-ru",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "牛李党争，相互排抑数十年"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "niu-li-dangzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "牛僧孺",
+    "牛思黯"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "牛僧孺传",
+      "kind": "classic"
+    }
+  ]
+}

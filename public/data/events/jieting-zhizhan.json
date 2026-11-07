@@ -1,0 +1,132 @@
+{
+  "id": "jieting-zhizhan",
+  "name": "街亭之战",
+  "display": "街亭之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 228,
+  "yearAccuracy": "exact",
+  "yearNote": "228年（蜀建兴六年春、魏太和二年）无异说：三国志卷35「與郃戰于街亭」、通鉴卷71同系228年。与同年魏吴石亭之战为两线。",
+  "place": "街亭",
+  "placeNow": "今甘肃秦安县东北（一说张家川回族自治县境）",
+  "belligerents": [
+    "shu",
+    "wei"
+  ],
+  "commanders": [
+    {
+      "id": "zhang-he",
+      "side": "wei"
+    }
+  ],
+  "people": [
+    "zhang-he",
+    "wang-ping",
+    "zhuge-liang"
+  ],
+  "result": "马谡违亮节度、舍水上山，被张郃断汲道大破；蜀军退汉中，诸葛亮斩马谡并自贬三等，第一次北伐功败垂成",
+  "parent": "zhuge-liang-beifa",
+  "aliases": [
+    "街亭之败"
+  ],
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "228 年春诸葛亮首出祁山，南安、天水、安定三郡响应，亮以马谡督诸军在前、据守街亭拒张郃。谡违亮节度、舍水上山，被郃断绝汲道大破，王平独收残兵而还；陇右得而复失，蜀军退回汉中。诸葛亮斩马谡并自贬三等，第一次北伐功败垂成。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·诸葛亮传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷七十一",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "display": "张郃",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，街亭破马谡",
+      "bio": "河间鄚人，字儁乂。本袁绍部将，官渡之役来归；识变量，善处营阵，料地势战阵无不精；街亭之役破马谡，平陇右；太和五年追击诸葛亮于木门，中飞矢卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-ping",
+      "name": "王平",
+      "display": "王平",
+      "birthAccuracy": "unknown",
+      "death": 248,
+      "deathAccuracy": "exact",
+      "title": "蜀镇北大将军，据兴势却曹爽",
+      "bio": "宕渠人，字子均。少养于外家，本姓何，后复姓王；街亭之役独领千人鸣鼓自守，张郃不敢逼；后镇汉中，曹爽大举入寇，平据兴势以拒，援军至而爽退。延熙十一年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "display": "诸葛亮",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "蜀汉丞相，隆中对，五出祁山",
+      "bio": "琅邪阳都人，早孤，随叔父玄避乱荆州，躬耕隆中。建安十二年三顾而出，遂定三分之策。受托辅政，南征四郡，五次北伐，制木牛流马，作八阵图。建兴十二年卒于五丈原军中，年五十四，谥忠武侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "chancellor",
+        "general",
+        "strategist"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

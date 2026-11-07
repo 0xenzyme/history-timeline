@@ -1,0 +1,112 @@
+{
+  "id": "xu-guangqi",
+  "name": "徐光启",
+  "display": "徐光启",
+  "birth": 1562,
+  "birthAccuracy": "exact",
+  "death": 1633,
+  "deathAccuracy": "exact",
+  "title": "农政与西学先驱",
+  "bio": "上海人，从利玛窦学天算，译《几何原本》。著《农政全书》，倡务实用、重水利荒政，开中西会通之风。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "official",
+    "science",
+    "astronomy",
+    "agronomy"
+  ],
+  "primary": "science",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shi-zhen",
+      "target": "xu-guangqi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "晚明实学，医农并重"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-guangqi",
+      "target": "li-madou",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "共译《几何原本》，西学由此入历局"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "song-yingxing",
+      "target": "xu-guangqi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为晚明实学之士：一重历算，一重工技"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-guangqi",
+      "target": "xu-xiake",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为晚明以行历与实验求知者"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-guangqi",
+      "target": "zhu-zaiyu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同精律历之学，皆有推步之书"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "limadou-xixue",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "徐光启传",
+      "kind": "classic"
+    }
+  ]
+}

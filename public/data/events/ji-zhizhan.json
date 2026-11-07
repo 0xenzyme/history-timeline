@@ -1,0 +1,96 @@
+{
+  "id": "ji-zhizhan",
+  "name": "箕之战",
+  "display": "箕之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": -627,
+  "yearAccuracy": "exact",
+  "yearNote": "《左傳·僖公三十三年》「狄伐晉，及箕。八月，戊子，晉侯敗狄於箕。郤缺獲白狄子」，先軫免胄入狄師死焉。僖公三十三年＝前627。",
+  "place": "箕",
+  "placeNow": "今山西蒲县东北（一说太谷东）",
+  "belligerents": [
+    "jin-guo",
+    "di"
+  ],
+  "commanders": [
+    {
+      "id": "jin-xianggong",
+      "side": "jin-guo"
+    },
+    {
+      "id": "xian-zhen",
+      "side": "jin-guo"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "狄乘晋有丧伐晋至箕，晋襄公亲征败狄于箕，郤缺获白狄子；中军将先轸以「匹夫逞志于君而无讨，敢不自讨乎」免胄入狄师战死。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷16",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jin-xianggong",
+      "name": "晋襄公",
+      "display": "晋襄公",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王三十一年，晋襄公卒」。史记·晋世家未记其卒年。",
+      "title": "文公之子，守成七年",
+      "bio": "文公之子。文公殽之战后归国即位，七年。前621年卒。此后晋国进入栾书、郤缺、孙伯懋主政的时期。",
+      "tags": [
+        "文公之后",
+        "守成之君"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xian-zhen",
+      "name": "先轸",
+      "display": "先轸",
+      "birthAccuracy": "unknown",
+      "death": -627,
+      "deathAccuracy": "exact",
+      "title": "晋中军将，城濮主谋",
+      "bio": "城濮原轸之谋。文公卒，他力主击秦于殽，胜而不礼；狄伐晋，免胄入狄师而死。霸主死后一年，这条武将条就截住了。",
+      "tags": [
+        "晋国",
+        "城濮",
+        "殽之战"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

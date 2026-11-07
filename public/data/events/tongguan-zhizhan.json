@@ -1,0 +1,164 @@
+{
+  "id": "tongguan-zhizhan",
+  "name": "潼关之战",
+  "display": "潼关之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 211,
+  "yearAccuracy": "exact",
+  "yearNote": "三国志·魏书·武帝纪系建安十六年：秋七月公西征，与超等夹关而军，九月进军渡渭大破之；通鉴卷66系三月十部皆反屯据潼关、八月操至潼关、九月悉渡渭决战。起兵至决战同年内，battle 取 point。",
+  "place": "潼关、渭南",
+  "placeNow": "今陕西潼关县北，决战在渭水南岸（今渭南市境）",
+  "belligerents": [
+    "wei",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "cao-cao",
+      "side": "wei"
+    },
+    {
+      "id": "ma-chao",
+      "side": "minbian"
+    }
+  ],
+  "people": [
+    "cao-cao",
+    "ma-chao",
+    "jia-xu",
+    "xu-huang"
+  ],
+  "result": "曹操佯攻关中、潜渡蒲阪，用贾诩离间计大破关中十部十万联军，马超韩遂奔凉州，关中平定",
+  "aliases": [
+    "渭南之战",
+    "潼关之役"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "211 年曹操遣钟繇向汉中，马超与韩遂等十部十万之众疑而皆反，屯据潼关。曹操佯攻关中、潜渡蒲阪，继用贾诩离间计疑败马韩，九月渡渭决战大破之，斩成宜、李堪，马超韩遂奔凉州，关中平定。此役肃清西线，为其后取汉中铺路，蒲阪渡河与离间计为经典战例。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ma-chao",
+      "name": "马超",
+      "display": "马超",
+      "birth": 176,
+      "birthAccuracy": "exact",
+      "death": 222,
+      "deathAccuracy": "exact",
+      "title": "骠骑将军，潼关战曹操，威著西凉",
+      "bio": "扶风茂陵人，马腾之子。建安十六年与韩遂据潼关抗曹，几擒曹操于河上，旋败走凉州。后归先主，助定汉中。章武二年卒，年四十七，临没上疏托从弟岱。羌胡畏服，陇上之条最重的一位。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jia-xu",
+      "name": "贾诩",
+      "display": "贾诩",
+      "birth": 147,
+      "birthAccuracy": "exact",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "毒士，乱长安、劝张绣、定曹丕",
+      "bio": "武威姑臧人。董卓死后说李傕、郭汜反攻长安，一言而汉廷再乱；后依张绣，宛城之败出于其谋，再劝绣归操。官渡、潼关皆与谋，晚年杜门自守，文帝即位拜太尉。黄初四年卒，年七十七，三国谋士中最长寿。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xu-huang",
+      "name": "徐晃",
+      "display": "徐晃",
+      "birthAccuracy": "unknown",
+      "death": 227,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，解樊城之围",
+      "bio": "河东杨人，字公明。本杨奉部将，归曹操后以治军严整称；樊城之役长驱直入，连破围堑，解樊城之围，曹操案行诸军谓其「有周亚夫之风」。太和元年卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

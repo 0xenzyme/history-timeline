@@ -1,0 +1,91 @@
+{
+  "id": "zhang-yi",
+  "name": "张仪",
+  "display": "张仪",
+  "birthAccuracy": "unknown",
+  "death": -309,
+  "deathAccuracy": "approx",
+  "deathNote": "秦武王元年去秦相魏，不久卒于魏，取前 309 年。",
+  "title": "连横家，秦惠文王相",
+  "bio": "魏人。相秦，破合纵。欺楚绝齐，取汉中。惠文王卒，他失去靠山。连横画成向秦倾斜的线，他是节点。",
+  "tags": [
+    "秦国",
+    "连横"
+  ],
+  "categories": [
+    "diplomat"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "diplomat"
+    }
+  ],
+  "relations": [
+    {
+      "source": "su-qin",
+      "target": "zhang-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "连横与合纵。苏秦年代从出土文献后置，两条仍画敌对"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "qu-yuan",
+      "target": "zhang-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "欺楚绝齐，屈原主联齐"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "xiong-huai",
+      "target": "zhang-yi",
+      "type": "rival",
+      "directed": false,
+      "since": -313,
+      "notes": [
+        "许商於六百里，怀王绝齐；丹阳、蓝田两败"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "gongsun-yan",
+      "target": "zhang-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "一主连横、一主合纵，秦、魏相轧数十年，纵约屡解而诸侯愈困"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "张仪列传",
+      "kind": "classic"
+    }
+  ]
+}

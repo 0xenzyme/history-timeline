@@ -1,0 +1,81 @@
+{
+  "id": "zhongdu-zhiyi",
+  "name": "蒙金中都之役",
+  "display": "中都",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 1214,
+  "yearAccuracy": "exact",
+  "yearNote": "迁汴在太祖九年甲戌五月，城陷在十年乙亥五月。",
+  "endYear": 1215,
+  "endYearAccuracy": "exact",
+  "place": "中都",
+  "belligerents": [
+    "mongol",
+    "jin-chao"
+  ],
+  "commanders": [
+    {
+      "id": "tie-mu-zhen",
+      "side": "mongol"
+    }
+  ],
+  "result": "中都陷落，金廷已迁汴",
+  "parent": "mengjin-zhanzheng",
+  "aliases": [
+    "中都陷落"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "1214年五月，金宣宗迁汴，完颜福兴留守中都，蒙古军随后围城。1215年五月庚申，完颜福兴仰药死，蒙古军入城。中都失守后，蒙金战争从边境攻防转入黄河以南。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷一·太祖本纪",
+      "note": "九年五月金主迁汴，十年五月完颜福兴仰药死",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tie-mu-zhen",
+      "name": "铁木真",
+      "display": "铁木真",
+      "birth": 1162,
+      "birthAccuracy": "exact",
+      "death": 1227,
+      "deathAccuracy": "exact",
+      "title": "成吉思汗，蒙古帝国的缔造者",
+      "bio": "孛儿只斤氏，统一漠北诸部，1206 年称成吉思汗，建大蒙古国；西征花剌子模，破西夏，覆金半壁。丁亥年七月卒于六盘山，后追尊为元太祖。",
+      "tags": [
+        "元",
+        "蒙古"
+      ],
+      "categories": [
+        "outsider",
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

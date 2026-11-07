@@ -1,0 +1,95 @@
+{
+  "id": "ban-gu",
+  "name": "班固",
+  "display": "班固",
+  "birth": 32,
+  "birthAccuracy": "exact",
+  "death": 92,
+  "deathAccuracy": "exact",
+  "title": "《汉书》作者，兰台令史",
+  "bio": "扶风安陵人，班彪之子，班昭之兄。续父志作《汉书》，历二十余年。从窦宪击匈奴，为中护军；宪败，受牵连死于狱中，《汉书》未成部分由妹昭续作。",
+  "tags": [
+    "东汉",
+    "兰台"
+  ],
+  "categories": [
+    "historian"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dou-xian",
+      "target": "ban-gu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "窦宪佐命，班固为中护军从征"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "ban-chao",
+      "target": "ban-gu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，一修史一安边"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "ban-gu",
+      "target": "ban-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄妹，昭续成《汉书》"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baihu-xian-huiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yanran-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "班固",
+    "孟坚"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "班彪列传",
+      "kind": "classic"
+    }
+  ]
+}

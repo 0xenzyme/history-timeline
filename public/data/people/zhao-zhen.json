@@ -1,0 +1,147 @@
+{
+  "id": "zhao-zhen",
+  "name": "赵祯",
+  "display": "赵祯",
+  "birth": 1010,
+  "birthAccuracy": "exact",
+  "death": 1063,
+  "deathAccuracy": "exact",
+  "title": "宋仁宗，庆历之治",
+  "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-zhen",
+      "target": "fan-zhongyan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1043,
+      "notes": [
+        "用范仲淹行庆历新政"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "zhao-zhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，真宗传仁宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-shu",
+      "target": "zhao-zhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养父子，仁宗无嗣，英宗入继"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "su-song",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元祐间拜尚书右仆射兼中书侍郎，为相；水运仪象台亦成于元祐"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fan-chunren",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "同知枢密院，进拜宰相，以宽厚为政"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "nongzhigao-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingli-heyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingli-songxia-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingli-xinzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingli-zengbi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yizhou-jiaozi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanhao-chengdi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "仁宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

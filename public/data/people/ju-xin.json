@@ -1,0 +1,93 @@
+{
+  "id": "ju-xin",
+  "name": "剧辛",
+  "display": "剧辛",
+  "birthAccuracy": "unknown",
+  "death": -242,
+  "deathAccuracy": "approx",
+  "deathNote": "赵世家：赵使庞煖拒燕，擒剧辛杀之；由悼襄纪年与王迁七年（前229）逆推，约前242年，记approx。",
+  "title": "燕之老将，丧于轻赵",
+  "bio": "赵人，燕昭王卑身厚币招贤，剧辛自赵往——邹衍、剧辛之徒聚燕，黄金台的实名。历事两朝，晚年断言赵将庞煖易与，自请将兵击赵，果为煖所擒杀（约前242）。燕自昭王之盛到太子丹之亡，他一人盖住中段。",
+  "tags": [
+    "燕国",
+    "招贤"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ju-xin",
+      "target": "zhao-daoxiangwang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "燕将寇赵，赵使庞煖擒剧辛而杀之——赵的晚年尚有此一战"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-zhi",
+      "target": "ju-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "卑身厚币以招贤者，剧辛自赵往、乐毅自魏往——黄金台的实名"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ju-xin",
+      "target": "taizi-dan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "老臣辛言人主一遇败不复仇，谏太子毋轻以秦为仇；丹不用，辛西丧于赵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "leyifa-qi",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "剧辛（燕将）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "赵世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

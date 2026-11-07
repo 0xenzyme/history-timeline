@@ -1,0 +1,149 @@
+{
+  "id": "longxing-heyi",
+  "name": "隆兴和议",
+  "display": "隆兴和议",
+  "kind": "span",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1164,
+  "yearAccuracy": "exact",
+  "yearNote": "隆兴二年十一月王抃议条款，十二月丙申制书叔侄与岁币。金大定五年正月己未受魏杞国书，诏中外。宋乾道元年正月辛酉魏杞至燕山。不把1164和1165收成一年。",
+  "endYear": 1165,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "zhao-shen",
+    "tang-situi",
+    "chen-kangbo",
+    "heshilie-zhining"
+  ],
+  "result": "宋不再称臣，改为叔侄之国；地界如绍兴之时。岁币金史作二十万，宋制书作减十万。",
+  "aliases": [
+    "乾道和议",
+    "大定和议"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "隆兴二年十二月，宋制正皇帝号，为叔侄之国，岁币减十万，地界如绍兴之时。乾道元年正月，金受魏杞国书，称侄宋皇帝，岁币二十万。和议改了绍兴的名分和岁币，地界仍如绍兴之旧，没有新的领土格局。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷33",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷6",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷139",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-shen",
+      "name": "赵昚",
+      "display": "赵昚",
+      "birth": 1127,
+      "birthAccuracy": "exact",
+      "death": 1194,
+      "deathAccuracy": "exact",
+      "title": "宋孝宗，隆兴恢复",
+      "bio": "太祖七世孙，高宗养子。即位锐意恢复，起用张浚北伐，败于符离；旋定隆兴和议。为岳飞平反，号称小元祐。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tang-situi",
+      "name": "汤思退",
+      "display": "汤思退",
+      "birthAccuracy": "unknown",
+      "death": 1164,
+      "deathAccuracy": "exact",
+      "title": "主和误国，符离后再相",
+      "bio": "秦桧党羽，隆兴间主和再相，符离败后力主和议，尽撤边备。太学生群起攻之，隆兴二年忧惧而死。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chen-kangbo",
+      "name": "陈康伯",
+      "display": "陈康伯",
+      "birth": 1098,
+      "birthAccuracy": "exact",
+      "death": 1165,
+      "deathAccuracy": "exact",
+      "title": "采石之役定高宗传位",
+      "bio": "完颜亮南侵，康伯力劝高宗亲征，家用书壁曰「以此身听命于天」。虞允文采石之捷，遂安。孝宗立，乾道元年薨于位。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "heshilie-zhining",
+      "name": "纥石烈志宁",
+      "display": "纥石烈志宁",
+      "birthAccuracy": "unknown",
+      "death": 1172,
+      "deathAccuracy": "exact",
+      "title": "隆兴议和前的金军统帅",
+      "bio": "宿将，大定间主对宋军事，符离之败后以十万众压淮，促成隆兴和议。大定十二年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

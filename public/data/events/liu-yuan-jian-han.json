@@ -1,0 +1,143 @@
+{
+  "id": "liu-yuan-jian-han",
+  "name": "刘渊建汉",
+  "display": "刘渊建汉",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 304,
+  "yearAccuracy": "exact",
+  "yearNote": "永兴元年（304）。《晋书·刘元海载记》：「永興元年，元海乃為壇於南郊，僭即漢王位……年號元熙」；《惠帝纪》系于冬十一月，《十六国春秋》作十月，月份小异而年份无异。国号汉，史家后称汉赵/前赵（319 年刘曜徙都长安改号赵），polity 按 brief 用 shiliuguo。",
+  "place": "左国城",
+  "placeNow": "今山西离石北",
+  "polity": [
+    "shiliuguo"
+  ],
+  "people": [
+    "liu-yuan",
+    "wang-mi",
+    "shi-le"
+  ],
+  "result": "匈奴刘渊据离石、左国城称汉王，建国号汉（史称汉赵/前赵），成为此后覆灭西晋的主力，十六国之局自此开启",
+  "aliases": [
+    "刘渊称汉王",
+    "汉（汉赵/前赵）建国",
+    "刘渊起兵"
+  ],
+  "tags": [
+    "state-founding",
+    "xiongnu",
+    "sixteen-kingdoms"
+  ],
+  "dynasties": [
+    "western-jin",
+    "shiliuguo"
+  ],
+  "desc": "八王之乱中，匈奴左部帅、五部大都督刘渊被五部贵族密推为大单于。304 年自邺还并州，都离石、迁左国城，众至五万；十月（一说十一月）为坛南郊即汉王位，国号汉，建元元熙，以「汉氏之甥、兄亡弟绍」相号召，追尊刘禅。此后王弥、石勒相继来附，汉赵东出攻洛、西入长安，终灭西晋；史家以之为十六国之始。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷四·帝纪第四",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷一百一·载记第一",
+      "kind": "classic"
+    },
+    {
+      "work": "十六国春秋",
+      "part": "卷一·前赵录",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-yuan",
+      "name": "刘渊",
+      "display": "刘渊",
+      "birthAccuracy": "unknown",
+      "death": 310,
+      "deathAccuracy": "exact",
+      "title": "汉赵之主，匈奴称汉，开十六国之局",
+      "bio": "新兴匈奴人，冒顿之后，冒姓刘氏。少好学，习《毛诗》《京氏易》《春秋左氏传》，孙吴兵法皆诵之。八王乱起，说成都王颖归匈奴，遂于左国城即汉王位，追尊刘禅，用汉号以争正朔。永嘉四年卒，子和与聪相继，十六国自此始。",
+      "tags": [
+        "十六国",
+        "汉赵",
+        "匈奴"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-mi",
+      "name": "王弥",
+      "display": "王弥",
+      "birthAccuracy": "unknown",
+      "death": 311,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "deathNote": "传卒句无年号；破洛阳系永嘉五年，勒旋以伏兵袭杀之，通鉴卷八十七、八十八皆系永嘉五年。",
+      "title": "飞豹之乱，助汉破洛而死于石勒",
+      "bio": "东莱人，家世二千石。有才干博涉书记，弓马迅捷膂力过人，青土号为飞豹。惠帝末从刘柏根起兵，亡入长广山为群贼，进兵寇青徐兖豫，众数万。归刘渊为征东大将军，与刘曜、石勒共破洛阳，劝曜徙都平阳不听。勒忌其骁勇，伏兵袭杀之，并其众。",
+      "tags": [
+        "十六国",
+        "汉赵",
+        "叛乱"
+      ],
+      "categories": [
+        "rebel",
+        "warlord"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-le",
+      "name": "石勒",
+      "display": "石勒",
+      "birth": 274,
+      "birthAccuracy": "exact",
+      "death": 333,
+      "deathAccuracy": "exact",
+      "title": "后赵之主，起自奴隶而兼河北",
+      "bio": "上党武乡羯人，少行贩洛阳，为人力耕，后为汲桑之党，遂附刘渊。转战河北，并王浚、刘曜，据襄国称赵王，后称帝。不识字而听人读史，闻郦食其劝立六国后而惊，闻留侯谏乃曰「赖此耳」。咸和八年卒，年六十。",
+      "tags": [
+        "十六国",
+        "后赵",
+        "羯"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

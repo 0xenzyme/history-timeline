@@ -1,0 +1,77 @@
+{
+  "id": "yanmen-zhiwei",
+  "name": "雁门之围",
+  "display": "雁门之围",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 615,
+  "yearAccuracy": "exact",
+  "place": "雁门",
+  "placeNow": "今山西代县",
+  "belligerents": [
+    "sui",
+    "tujue"
+  ],
+  "commanders": [
+    {
+      "id": "yang-guang",
+      "side": "sui"
+    }
+  ],
+  "result": "突厥解围北去，隋对突厥由攻势转为守势",
+  "aliases": [
+    "始毕围雁门",
+    "雁门被围"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "大业十一年（615）八月，隋炀帝北巡，始毕可汗率数十万骑突袭，围帝于雁门，雁门郡四十一城破其三十九，唯雁门、崞两城不下。炀帝诏天下募兵勤王，又遣使求救于义成公主，公主诈称北边有急，始毕遂解围北去。此役之后隋不再能对突厥用兵，北边形势逆转，炀帝自此不复北巡而终走江都。始毕可汗暂无 canonical 人物条目。",
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "炀帝纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "突厥传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "birth": 569,
+      "birthAccuracy": "exact",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

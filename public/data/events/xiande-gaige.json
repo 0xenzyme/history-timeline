@@ -1,0 +1,101 @@
+{
+  "id": "xiande-gaige",
+  "name": "显德改革",
+  "display": "显德改革",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 955,
+  "yearAccuracy": "exact",
+  "yearNote": "端点口径：主锚点 955——显德二年五月世宗颁敕废非敕额寺院、禁私度僧尼（通鉴卷292；旧五代史卷115存敕全文，岁末存寺 2694、废寺 30336、僧尼系籍 61200），同年九月丙寅朔立监采铜铸钱、民间铜器佛像限期输官（通鉴卷292）；前奏为高平之战后（954）大简禁军（通鉴卷292）。改革整体延至显德末，endYear=959（世宗卒年）。institutional 用 span（955—959）；若控制者只收单年点事件，可拆出\"显德毁佛\"（955）单条。",
+  "endYear": 959,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "wudai"
+  ],
+  "people": [
+    "chai-rong",
+    "wang-pu-915"
+  ],
+  "result": "世宗以毁佛省寺、销像铸钱、整军理财振饬内政，后周国力大振，为北宋统一与制度奠定基础。",
+  "aliases": [
+    "周世宗改革",
+    "显德毁佛",
+    "世宗新政"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "955 年五月，周世宗颁敕废非敕额寺院、禁私度僧尼，是岁存寺二千六百九十四、废寺三万三百三十六；九月丙寅朔立监采铜铸钱，民间铜器佛像限期输官。此前高平之战后（954）大简诸军，择精锐为禁军。世宗以毁佛省寺、销像铸钱、整军理财振饬内政，后周国力大振，为北宋统一与制度奠定基础。改革延至显德末（959，世宗卒年）。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷292",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷115",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "chai-rong",
+      "name": "柴荣",
+      "display": "周世宗",
+      "birth": 921,
+      "birthAccuracy": "exact",
+      "death": 959,
+      "deathAccuracy": "exact",
+      "title": "周世宗，以十年开拓天下",
+      "bio": "邢州龙冈人，姑婿郭威无子，以为后，初名郭荣。显德元年即位，高平亲犯矢石破北汉。自期\"以十年开拓天下，十年养百姓，十年致太平\"：疏汴渠、均田赋、简练禁军；三征南唐取淮南十四州，北征四十日下燕南三关三州。六年病殂，年三十九，宋太祖受其成。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-pu-915",
+      "name": "王朴",
+      "display": "王朴（后周）",
+      "birth": 915,
+      "birthAccuracy": "approx",
+      "death": 959,
+      "deathAccuracy": "exact",
+      "birthNote": "显德六年三月卒，时年四十五，上推生年。",
+      "title": "《平边策》定一统之序",
+      "bio": "东平人，字文伯。举汉乾祐进士，仕汉不偶，世宗镇澶渊辟掌书记。及即位擢枢密使，上《平边策》：先取江南，次并南汉南蜀，而燕云传檄可定，一天下之序具焉。东京罗郭、雅乐乐律多出其手。显德六年访李谷第中疾作，舁归一夕而卒，世宗痛惜之。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "chancellor",
+        "strategist"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "yang-jian-dai-zhou",
+  "name": "杨坚代周",
+  "display": "杨坚代周",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 581,
+  "yearAccuracy": "exact",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-jian",
+    "yuwen-chan"
+  ],
+  "result": "杨坚受禅称帝，国号隋，北周亡，大一统重启",
+  "aliases": [
+    "杨坚代周称帝",
+    "隋代北周",
+    "sui-jian"
+  ],
+  "dynasties": [
+    "northern-southern",
+    "sui"
+  ],
+  "desc": "580 年周宣帝崩，外戚杨坚以左大丞相辅政，平定尉迟迥等三方之乱；581 年（开皇元年）二月，周静帝宇文阐下诏禅位，杨坚即皇帝位于临光殿，国号隋，改元开皇。北周亡而隋立，结束北方分裂后的统一战争由此展开。",
+  "sources": [
+    {
+      "work": "北史",
+      "part": "隋本纪上",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "高祖纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuwen-chan",
+      "name": "宇文阐",
+      "display": "周静帝宇文阐",
+      "birth": 573,
+      "birthAccuracy": "exact",
+      "death": 581,
+      "deathAccuracy": "exact",
+      "title": "北周静帝，禅隋后崩",
+      "bio": "宣帝长子，本名衍，后改阐。建德二年六月生于东宫。大定元年杨坚称帝，静帝逊于别宫。开皇元年五月崩，年九岁。",
+      "tags": [
+        "南北朝",
+        "北周"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

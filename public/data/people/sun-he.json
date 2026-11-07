@@ -1,0 +1,73 @@
+{
+  "id": "sun-he",
+  "name": "孙和",
+  "display": "孙和",
+  "birth": 224,
+  "birthAccuracy": "approx",
+  "death": 253,
+  "deathAccuracy": "exact",
+  "birthNote": "传云赤乌五年立为太子时年十九，据以推生年。",
+  "deathNote": "诸葛恪被诛后，孙峻夺和玺绶，徙新都，遣使赐死，承建兴二年叙事系年。",
+  "title": "吴废太子，南阳王，赐死",
+  "bio": "孙权三子，字子孝，好学下士，甚见称述。赤乌五年立为太子，与鲁王霸构争累年，朝臣各有所附。十三年被废，徙故鄣；太元二年封南阳王，遣之长沙。权崩后诸葛恪秉政，恪诛，孙峻夺和玺绶，徙新都，遣使赐死，妃张氏亦自杀。子皓后即帝位。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-he",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；孙权子，立为太子，后废"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-hao",
+      "target": "sun-he",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；孙皓为孙和之子，吴末帝"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孙和",
+    "孙子孝"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·吴主五子传",
+      "kind": "classic"
+    }
+  ]
+}

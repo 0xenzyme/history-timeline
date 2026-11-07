@@ -1,0 +1,67 @@
+{
+  "id": "xue-guoguan",
+  "name": "薛国观",
+  "display": "薛国观",
+  "birthAccuracy": "unknown",
+  "death": 1641,
+  "deathAccuracy": "exact",
+  "deathNote": "崇祯十四年八月初八被缢。",
+  "title": "崇祯首辅，赐缢",
+  "bio": "韩城人。崇祯十年入阁。十四年七月入都待命，八月初八夜被缢。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "regent"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "xue-guoguan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯十年入阁，十四年八月赐缢"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xue-guoguan",
+      "target": "yang-sichang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为崇祯朝承旨之臣，嗣昌死而国观继之赐缢"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "薛国观传",
+      "kind": "classic"
+    }
+  ]
+}

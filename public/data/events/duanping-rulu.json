@@ -1,0 +1,103 @@
+{
+  "id": "duanping-rulu",
+  "name": "端平入洛",
+  "display": "端平入洛",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 1234,
+  "yearAccuracy": "exact",
+  "yearNote": "端平元年夏入汴、洛，八月自洛阳退师，九月朝廷确认败绩。与同年正月金亡不是同一事件。",
+  "endYear": 1234,
+  "endYearAccuracy": "exact",
+  "place": "洛阳",
+  "belligerents": [
+    "song",
+    "mongol"
+  ],
+  "people": [
+    "li-zong",
+    "wo-kuo-tai"
+  ],
+  "result": "宋军一度进入汴、洛，粮尽兵溃，退回，宋蒙随即转入战争。",
+  "aliases": [
+    "端平北伐",
+    "三京之役"
+  ],
+  "dynasties": [
+    "song",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "端平元年夏，宋军入汴、洛，徐敏子入洛阳之次日军食已竭，八月自洛阳退师。九月，朝廷确认赵葵、全子才轻遣偏师复西京，师退无律，后阵败覆。金亡后自行收复三京失败，撕开宋与蒙古的短暂合作，成为宋蒙战争的直接前奏。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷四十一",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷一百六十七",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-zong",
+      "name": "赵昀",
+      "display": "宋理宗赵昀",
+      "birth": 1205,
+      "birthAccuracy": "exact",
+      "death": 1264,
+      "deathAccuracy": "exact",
+      "title": "端平入洛，晚宋之主",
+      "bio": "太祖十世孙，宁宗养子。宝庆即位，端平入洛失利；后期权移贾似道，国势日蹙。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wo-kuo-tai",
+      "name": "窝阔台",
+      "display": "窝阔台",
+      "birth": 1186,
+      "birthAccuracy": "exact",
+      "death": 1241,
+      "deathAccuracy": "exact",
+      "title": "元太宗，1229—1241 年在位",
+      "bio": "成吉思汗第三子。太宗时联宋灭金、置站赤与燕京行省，定中原赋调，遣拔都等长子西征；1241 年冬卒于鈋铁钴胡兰山。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

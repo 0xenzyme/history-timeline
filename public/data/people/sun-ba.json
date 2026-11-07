@@ -1,0 +1,59 @@
+{
+  "id": "sun-ba",
+  "name": "孙霸",
+  "display": "孙霸",
+  "birthAccuracy": "unknown",
+  "death": 250,
+  "deathAccuracy": "exact",
+  "deathNote": "二宫构争，太子和既废，霸亦赐死，承赤乌十三年废太子叙事系年。",
+  "title": "吴鲁王，二宫构争赐死",
+  "bio": "孙和之弟，字子威。和立为太子，霸为鲁王，宠爱崇特与和无殊，遂有二宫构争，全寄、吴安、孙奇、杨竺等阴附霸图危太子。权禁断二宫往来不能止，谮毁既行，太子以败，霸亦赐死，党附者并诛。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-ba",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；孙权子，封鲁王，与孙和争储"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孙霸",
+    "孙子威"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·吴主五子传",
+      "kind": "classic"
+    }
+  ]
+}

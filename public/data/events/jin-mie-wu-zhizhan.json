@@ -1,0 +1,233 @@
+{
+  "id": "jin-mie-wu-zhizhan",
+  "name": "晋灭吴之战",
+  "display": "晋灭吴之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 279,
+  "yearAccuracy": "exact",
+  "yearNote": "《晋书·武帝纪》：咸宁五年十一月大举伐吴，遣六路大军二十余万；十一月约当公历 279 年 12 月前后（通史口径作 279 年 11 月出令）。",
+  "endYear": 280,
+  "endYearAccuracy": "exact",
+  "endYearNote": "太康元年三月壬寅（280 年 5 月 1 日）王濬舟师入建邺石头，孙皓面缚舆榇出降，吴亡，改元太康大赦。",
+  "belligerents": [
+    "jin",
+    "wu"
+  ],
+  "commanders": [
+    {
+      "id": "wang-jun",
+      "side": "jin"
+    },
+    {
+      "id": "du-yu",
+      "side": "jin"
+    },
+    {
+      "id": "jia-chong",
+      "side": "jin"
+    }
+  ],
+  "people": [
+    "wang-jun",
+    "du-yu",
+    "jia-chong",
+    "yang-hu",
+    "zhang-hua",
+    "wang-rong"
+  ],
+  "result": "六路并进，王濬水军先入石头受降，孙皓出降，吴亡；三国鼎立终结，汉末以来近百年的分裂重归统一",
+  "aliases": [
+    "西晋灭吴",
+    "六路伐吴",
+    "太康平吴"
+  ],
+  "tags": [
+    "war",
+    "unification",
+    "naval"
+  ],
+  "dynasties": [
+    "three-kingdoms",
+    "western-jin"
+  ],
+  "desc": "咸宁五年十一月（279），晋武帝发六路大军二十余万伐吴，太尉贾充总统诸军。太康元年（280）杜预克江陵、平定上流，王濬率巴蜀楼船破铁锁顺流而下，取夏口武昌直逼建邺；三月壬寅王濬舟师入石头，孙皓面缚舆榇出降，吴亡。自汉末董卓之乱以来的分裂至此重归统一。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷三十四·列传第四",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷三·帝纪第三",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷四十二·列传第十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-jun",
+      "name": "王濬",
+      "display": "王濬",
+      "birth": 206,
+      "birthAccuracy": "exact",
+      "death": 286,
+      "deathAccuracy": "exact",
+      "title": "龙骧将军，楼船下益州，先入建业",
+      "bio": "弘农湖人，博涉坟典，恢廓有大志。为益州刺史，作大船连舫，方百二十步，上起楼橹。太康元年自成都顺流而下，破丹阳、西陵，直抵石头，孙皓面缚舆榇降于军门。与王浑争功而不得，太康六年卒，年八十。",
+      "tags": [
+        "西晋",
+        "灭吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "du-yu",
+      "name": "杜预",
+      "display": "杜预",
+      "birth": 222,
+      "birthAccuracy": "exact",
+      "death": 285,
+      "deathAccuracy": "exact",
+      "title": "镇南大将军，灭吴统帅，作《春秋左氏传集解》",
+      "bio": "京兆杜陵人，司马昭妹夫，博学多通，朝野号曰杜武库，言其无所不有。太康元年统军南下，一举灭吴。作《春秋左氏经传集解》，又修水利、造欹器，尝言「立德不可企，立功立言可庶几」。太康五年卒，年六十三。",
+      "tags": [
+        "西晋"
+      ],
+      "categories": [
+        "general",
+        "classics"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jia-chong",
+      "name": "贾充",
+      "display": "贾充",
+      "birth": 217,
+      "birthAccuracy": "approx",
+      "death": 282,
+      "deathAccuracy": "exact",
+      "birthNote": "太康三年（282）薨，年六十六，虚岁上推生年。",
+      "title": "西晋权臣，弑君之谋主",
+      "bio": "平阳襄陵人。魏时为司马氏腹心，成济弑高贵乡公，充实使之。晋世定律令，历司空、太尉。女南风为太子妃，宠信终身。太康三年四月薨，年六十六。",
+      "tags": [
+        "晋",
+        "西晋"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-hu",
+      "name": "羊祜",
+      "display": "羊祜",
+      "birth": 221,
+      "birthAccuracy": "exact",
+      "death": 278,
+      "deathAccuracy": "exact",
+      "title": "征南大将军，与陆抗对境而各保其民",
+      "bio": "泰山南城人，蔡邕外孙。都督荆州十年，开屯田、修学校，与吴将陆抗对境，各保分界，抗遗之酒，祜饮之不疑。上疏请伐吴，未及行而卒，年五十八。南州人闻之罢市巷哭，襄阳百姓为立碑，望其碑者莫不流涕，谓之堕泪碑。",
+      "tags": [
+        "西晋",
+        "灭吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-hua",
+      "name": "张华",
+      "display": "张华",
+      "birth": 232,
+      "birthAccuracy": "exact",
+      "death": 300,
+      "deathAccuracy": "exact",
+      "title": "司空，博物洽闻，死于赵王伦之难",
+      "bio": "范阳方城人，少孤贫，牧羊而好学，学业优博，图纬方伎莫不详览，作《博物志》。力主伐吴，为之度支。贾后时用事，海内晏然。永康元年赵王伦废贾后，华以不屈被害，夷三族，年六十九。西晋最后一位能持局的人。",
+      "tags": [
+        "西晋",
+        "八王之乱"
+      ],
+      "categories": [
+        "official",
+        "literature"
+      ],
+      "primary": "official",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-rong",
+      "name": "王戎",
+      "display": "王戎",
+      "birth": 234,
+      "birthAccuracy": "approx",
+      "death": 305,
+      "deathAccuracy": "exact",
+      "birthNote": "永兴二年（305）薨，年七十二，虚岁上推生年。",
+      "title": "竹林七贤，西晋司徒",
+      "bio": "琅邪临沂人。幼颖悟，七岁观猛虎不惧。为竹林七贤之一。晋世累迁司徒，从惠帝北征，乱中奔逃。性吝啬，每自执牙筹。永兴二年薨于郏县，时年七十二。",
+      "tags": [
+        "晋",
+        "西晋",
+        "琅邪王氏",
+        "竹林七贤"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

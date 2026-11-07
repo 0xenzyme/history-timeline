@@ -1,0 +1,69 @@
+{
+  "id": "han-yigong",
+  "name": "韩懿侯",
+  "display": "韩懿侯",
+  "birthAccuracy": "unknown",
+  "death": -359,
+  "deathAccuracy": "approx",
+  "deathNote": "韩世家在位年系年，约前359年卒，记approx。",
+  "title": "韩侯，浊泽之役",
+  "bio": "赵乱、韩赵交恶，浊泽一役几乎分裂赵国——三晋同盟松动在懿侯之世。约前359年卒，次年代号为昭侯，得申不害。",
+  "tags": [
+    "韩国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-yigong",
+      "target": "han-zhaohou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "懿侯卒，次年昭侯代立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "han-aigong",
+      "target": "han-yigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "哀侯死于大夫之难，懿侯代立——灭郑之年与易代之际挤在同一条尾"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "懿侯",
+    "庄侯（韩）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "韩世家",
+      "kind": "classic"
+    }
+  ]
+}

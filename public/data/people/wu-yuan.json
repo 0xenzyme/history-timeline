@@ -1,0 +1,119 @@
+{
+  "id": "wu-yuan",
+  "name": "伍员",
+  "display": "伍子胥",
+  "birthAccuracy": "unknown",
+  "death": -484,
+  "deathAccuracy": "exact",
+  "title": "吴国行人，破楚鞭平王尸",
+  "bio": "楚人。父奢、兄尚被杀，奔吴。佐阖闾入郢。夫差许越成，他屡谏，赐属镂以死。吴越两条的仇恨线都经过他。",
+  "tags": [
+    "吴国",
+    "破楚"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "chu",
+    "wu-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-guang",
+      "target": "wu-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "伍员佐阖闾入郢"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "sun-wu",
+      "target": "wu-yuan",
+      "type": "peer",
+      "directed": false,
+      "since": -506,
+      "notes": [
+        "同事于吴，破楚入郢"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-fucha",
+      "target": "wu-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "子胥屡谏赦越，后赐属镂"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-fucha",
+      "target": "wu-yuan",
+      "type": "rival",
+      "directed": false,
+      "since": -484,
+      "notes": [
+        "不听谏而赐死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "boju-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "fujiao-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wuyue-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "伍子胥"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "伍子胥列传",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "哀公十一年",
+      "kind": "classic"
+    }
+  ]
+}

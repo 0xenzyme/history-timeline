@@ -1,0 +1,101 @@
+{
+  "id": "feng-yansi",
+  "name": "冯延巳",
+  "display": "冯延巳",
+  "birth": 903,
+  "birthAccuracy": "approx",
+  "death": 960,
+  "deathAccuracy": "exact",
+  "birthNote": "建隆元年卒于金陵，年五十八，上推生年。",
+  "title": "吹皱一池春水，开北宋一代风气",
+  "bio": "广陵人，字正中。少与元宗游处，及即位累拜右仆射同平章事，出镇洪州、再入相。辩说纵横，竞权于宋齐丘之党。其词深婉开宕，中主戏曰\"吹皱一池春水，干卿何事\"；晏殊、欧阳修辈皆祖其体。建隆初卒。",
+  "tags": [
+    "十国",
+    "南唐"
+  ],
+  "categories": [
+    "literature",
+    "poetry",
+    "minister"
+  ],
+  "primary": "literature",
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chai-rong",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "江南词臣，奉表称国主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-yu-937",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "词臣之知，\"吹皱一池春水\""
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "feng-yansi",
+      "target": "han-xizai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "江左词坛两雄"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "feng-yansi",
+      "target": "song-qi-qiu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "五鬼之党更相倾附"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "冯延嗣"
+  ],
+  "sources": [
+    {
+      "work": "十国春秋",
+      "part": "南唐",
+      "kind": "classic"
+    },
+    {
+      "work": "马书",
+      "kind": "classic"
+    }
+  ]
+}

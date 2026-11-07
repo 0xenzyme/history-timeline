@@ -1,0 +1,222 @@
+{
+  "id": "ji-yijiu",
+  "name": "姬宜臼",
+  "display": "周平王",
+  "birthAccuracy": "unknown",
+  "death": -720,
+  "deathAccuracy": "exact",
+  "title": "东周第一位天子",
+  "bio": "幽王太子，申后所生。被废后奔申。犬戎破镐，诸侯迎立，东迁洛邑。王室从此徒拥共主空名，诸侯力政。",
+  "tags": [
+    "平王东迁"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "king"
+    },
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "zhou"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yijiu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。后废嫡立伯服"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "shen-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "外孙与外祖"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yijiu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废太子，改立褒姒之子伯服"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "bao-si",
+      "target": "ji-yijiu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "伯服之立，直接取代宜臼"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-bofu",
+      "target": "ji-yijiu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废嫡立庶，伯服取代宜臼"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-yuchen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "镐京之后二王并立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "qin-xianggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "襄公以兵送平王，始列为诸侯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-chou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文侯迎送平王东迁"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "wei-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武公将兵平戎，平王命为公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xu-nan",
+      "target": "ji-yijiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书：许男与申侯等立宜臼于申"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-cheng",
+      "target": "ji-yijiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书镐京之年鲁侯与立宜臼"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-wusheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王室东迁后，郑庄公最先坐大"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "pingwang-dongqian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhouzheng-jiaozhi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "周平王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "十二诸侯年表",
+      "kind": "classic"
+    }
+  ]
+}

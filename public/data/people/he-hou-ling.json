@@ -1,0 +1,82 @@
+{
+  "id": "he-hou-ling",
+  "name": "何皇后",
+  "display": "灵思何皇后",
+  "birthAccuracy": "unknown",
+  "death": 189,
+  "deathAccuracy": "exact",
+  "deathNote": "传文中平六年灵帝崩后，董卓进鸩，未另书年号。其后才书明年。",
+  "title": "灵帝皇后，少帝之母，被董卓鸩杀",
+  "bio": "南阳宛人，史失其名。生刘辩。中平六年灵帝崩，她临朝。董卓废少帝、立献帝，把她迁到永安宫，进鸩弑崩。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "he-hou-ling",
+      "target": "liu-hong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "灵帝皇后，生少帝辩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "he-hou-ling",
+      "target": "liu-bian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。中平六年她临朝，董卓废辩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "dong-zhuo",
+      "target": "he-hou-ling",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "董卓迁她于永安宫，进鸩弑崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "何皇后",
+    "灵思何皇后"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪·灵思何皇后",
+      "kind": "classic"
+    }
+  ]
+}

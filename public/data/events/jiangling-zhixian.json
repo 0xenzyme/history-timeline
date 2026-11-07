@@ -1,0 +1,131 @@
+{
+  "id": "jiangling-zhixian",
+  "name": "江陵之陷",
+  "display": "江陵之陷",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 554,
+  "yearAccuracy": "exact",
+  "place": "江陵",
+  "placeNow": "今湖北荆州",
+  "belligerents": [
+    "bei",
+    "nan"
+  ],
+  "commanders": [
+    {
+      "id": "yu-jin-sijing",
+      "side": "bei"
+    }
+  ],
+  "people": [
+    "xiao-yi",
+    "yu-jin-sijing",
+    "xiao-cha"
+  ],
+  "result": "江陵城陷，梁元帝被杀，江南图籍焚毁，西魏立萧詧为梁主",
+  "aliases": [
+    "西魏破江陵",
+    "江陵焚书"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "承圣三年西魏应萧詧之请，命于谨、宇文护、杨忠率军五万南攻江陵，十一月城陷，梁元帝萧绎被杀；元帝降城之前尽焚古今图书十四万卷，曰“文武之道，今夜尽矣”。西魏取雍州之地，立萧詧为梁主居江陵，梁室名存实亡。",
+  "sources": [
+    {
+      "work": "周书",
+      "part": "于谨传",
+      "kind": "classic"
+    },
+    {
+      "work": "梁书",
+      "part": "元帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xiao-yi",
+      "name": "萧绎",
+      "display": "梁元帝萧绎",
+      "birth": 508,
+      "birthAccuracy": "exact",
+      "death": 554,
+      "deathAccuracy": "exact",
+      "title": "梁元帝，江陵陷后被杀",
+      "bio": "梁武帝第七子，天监七年八月生。承圣三年西魏陷江陵，十二月被害，年四十七。",
+      "tags": [
+        "南北朝",
+        "梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-jin-sijing",
+      "name": "于谨",
+      "display": "于谨",
+      "birth": 493,
+      "birthAccuracy": "approx",
+      "death": 568,
+      "deathAccuracy": "exact",
+      "birthNote": "天和三年薨，年七十六，上推生年。",
+      "deathNote": "「三年，薨于位，年七十六。高祖親臨」（周书·于谨传），系天和三年。",
+      "title": "西魏北周元老，八柱国之亚，武帝尊为三老",
+      "tags": [
+        "南北朝",
+        "北周"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiao-cha",
+      "name": "萧詧",
+      "display": "萧詧",
+      "birthAccuracy": "unknown",
+      "death": 562,
+      "deathAccuracy": "exact",
+      "deathNote": "「遂以憂憤發背而殂」（周书·萧詧传），承保定二年江陵稱帝后纪传系年。",
+      "title": "后梁宣帝，萧统之子，引魏兵破江陵，称帝于江陵为附庸",
+      "tags": [
+        "南北朝",
+        "梁"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

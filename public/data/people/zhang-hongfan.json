@@ -1,0 +1,95 @@
+{
+  "id": "zhang-hongfan",
+  "name": "张弘范",
+  "display": "张弘范",
+  "birth": 1238,
+  "birthAccuracy": "exact",
+  "death": 1280,
+  "deathAccuracy": "exact",
+  "title": "崖山海战的元军都元帅",
+  "bio": "金降将张柔之子。至元十五年都元帅，破文天祥于五坡岭，崖山一战灭宋，勒石「镇国大将军张弘范灭宋于此」。至元十七年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    },
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bo-yan",
+      "target": "zhang-hongfan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘范为其前部，崖山尽灭南宋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "zhang-hongfan",
+      "target": "zhang-rou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，弘范为第九子，总水军灭宋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "zhang-gui",
+      "target": "zhang-hongfan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，弘范之子珪历事四朝"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dingjiazhou-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yashan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "张弘范传",
+      "kind": "classic"
+    }
+  ]
+}

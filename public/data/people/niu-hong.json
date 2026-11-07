@@ -1,0 +1,78 @@
+{
+  "id": "niu-hong",
+  "name": "牛弘",
+  "display": "牛弘",
+  "birth": 545,
+  "birthAccuracy": "approx",
+  "death": 610,
+  "deathAccuracy": "exact",
+  "birthNote": "大业六年卒，年六十六，上推生年。",
+  "title": "修五礼，定献后丧仪",
+  "bio": "安定鹑觚人。开皇三年拜礼部尚书，奉敕修五礼，勒成百卷。献皇后崩，公卿不能定仪注，杨素说决在于弘。炀帝时任职吏部，大业六年十一月卒于江都，年六十六。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "minister",
+    "classics"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "niu-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇三年拜礼部尚书，修五礼百卷。献后崩，仪注决之于弘"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "niu-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大业中礼遇亲重，六年十一月卒于江都"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kaihuang-lv",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "牛弘",
+    "奇章公"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "牛弘传",
+      "kind": "classic"
+    }
+  ]
+}

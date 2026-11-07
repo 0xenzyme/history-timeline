@@ -1,0 +1,70 @@
+{
+  "id": "feng-quji",
+  "name": "冯去疾",
+  "display": "冯去疾",
+  "birthAccuracy": "unknown",
+  "death": -208,
+  "deathAccuracy": "exact",
+  "deathNote": "秦始皇本纪在二世二年段写右丞相去疾与冯劫说将相不辱而自杀，三年才另起。集解徐广曰姓冯。六国年表把诛去疾系在前208年。",
+  "title": "右丞相，二世二年自杀",
+  "bio": "始皇三十七年已是右丞相，始皇出游时留守咸阳。二世二年与李斯请停阿房宫，下吏后说将相不辱，自杀。",
+  "tags": [
+    "秦朝",
+    "丞相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-official"
+    }
+  ],
+  "relations": [
+    {
+      "source": "feng-quji",
+      "target": "li-si",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为丞相。二世二年同谏停阿房，去疾自杀，李斯下狱"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "去疾",
+    "右丞相去疾",
+    "冯去疾"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "note": "集解徐广曰：去疾姓冯。",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "六国年表",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "冯奉世传",
+      "kind": "classic"
+    }
+  ]
+}

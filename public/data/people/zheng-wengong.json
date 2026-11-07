@@ -1,0 +1,45 @@
+{
+  "id": "zheng-wengong",
+  "name": "姬踕",
+  "display": "郑文公",
+  "birthAccuracy": "unknown",
+  "death": -628,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·郑世家「四十五年，文公卒，子蘭立，是爲繆公」。文公元年前672，四十五年得前628。",
+  "polity": [
+    "zheng"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zheng-wengong",
+      "target": "zhu-zhiwu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋秦围郑，佚之狐言使烛之武见秦君，夜缒城而出说秦穆公，秦师乃退"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "郑世家",
+      "kind": "classic"
+    }
+  ]
+}

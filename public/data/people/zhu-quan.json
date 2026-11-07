@@ -1,0 +1,66 @@
+{
+  "id": "zhu-quan",
+  "name": "朱权",
+  "display": "宁王朱权",
+  "birth": 1378,
+  "birthAccuracy": "exact",
+  "death": 1448,
+  "deathAccuracy": "exact",
+  "title": "宁王，带甲八万而改封南昌",
+  "bio": "太祖第十七子，封宁王镇大宁，甲兵最盛。靖难之际部众为燕王所并，事后改封南昌，遂寄意琴书道教，作《神奇秘谱》。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-di",
+      "target": "zhu-quan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "宁王之甲兵为其所并，事后改封南昌"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-chenhao",
+      "target": "zhu-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同出宁王一系，袭封南昌而举事"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "诸王传",
+      "kind": "classic"
+    }
+  ]
+}

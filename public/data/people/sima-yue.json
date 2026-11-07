@@ -1,0 +1,107 @@
+{
+  "id": "sima-yue",
+  "name": "司马岳",
+  "display": "晋康帝司马岳",
+  "birth": 322,
+  "birthAccuracy": "approx",
+  "death": 344,
+  "deathAccuracy": "exact",
+  "birthNote": "建元二年崩，年二十三，上推生年。",
+  "title": "东晋康帝，建元二年崩",
+  "bio": "成帝母弟。咸康八年成帝崩，以琅邪王入嗣。建元二年崩于式乾殿，年二十三。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan-cheng",
+      "target": "sima-yue",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。康帝为成帝母弟，咸康八年入嗣"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-dan",
+      "target": "sima-yue",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。穆帝为康帝子，建元二年即位，时年二岁"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "chu-suanzi",
+      "target": "sima-yue",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "康帝皇后。穆帝幼冲，她以太后临朝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yue",
+      "target": "yu-bing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "立长君之议"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yue",
+      "target": "he-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "同受顾命"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "司马岳",
+    "晋康帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "康帝纪",
+      "kind": "classic"
+    }
+  ]
+}

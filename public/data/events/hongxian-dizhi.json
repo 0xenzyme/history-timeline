@@ -1,0 +1,76 @@
+{
+  "id": "hongxian-dizhi",
+  "name": "洪宪帝制",
+  "display": "洪宪帝制",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1915,
+  "yearAccuracy": "exact",
+  "yearNote": "1915年12月袁世凯下令以1916年为洪宪元年，1916年3月22日取消帝制；称帝与取消帝制的具体日期为通史口径，《中国大百科全书》条目元数据仅见1915年",
+  "endYear": 1916,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "minguo"
+  ],
+  "people": [
+    "yuan-shikai"
+  ],
+  "result": "帝制失败，共和政体名义恢复，中央权威崩解进入军阀时期",
+  "aliases": [
+    "袁世凯称帝",
+    "护国运动之帝制"
+  ],
+  "dynasties": [
+    "minguo"
+  ],
+  "desc": "1915年12月，袁世凯下令以1916年为洪宪元年，帝制自为。1916年3月22日，帝制取消。帝制失败后，共和政体名义恢复，中央权威崩解，中国进入军阀时期。",
+  "sources": [
+    {
+      "work": "中国大百科全书（第三版网络版）",
+      "part": "条目「洪宪帝制」",
+      "kind": "modern"
+    },
+    {
+      "work": "The Cambridge History of China, Vol.12 Part 1",
+      "part": "Ch.4 Politics in the aftermath of revolution, pp.208-255",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuan-shikai",
+      "name": "袁世凯",
+      "display": "袁世凯",
+      "birth": 1859,
+      "birthAccuracy": "exact",
+      "death": 1916,
+      "deathAccuracy": "exact",
+      "title": "北洋领袖",
+      "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "regent",
+        "official",
+        "general",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "murong-ke",
+  "name": "慕容恪",
+  "display": "慕容恪",
+  "birthAccuracy": "unknown",
+  "death": 367,
+  "deathAccuracy": "exact",
+  "birthNote": "载记无岁数，不编生年。",
+  "deathNote": "传卒句无年号；通鉴卷一百一系太和二年（＝建熙八年，367）恪卒，二月以中山王冲代为大司马。",
+  "title": "前燕太宰，行周公事而摄幼主",
+  "bio": "慕容皝第四子，字玄恭。廉台之战以铁锁连马破冉闵。暐以幼冲嗣位，恪为太宰录尚书，行周公事，总摄朝权而不失臣节。围吕护于野王，谓十旬其毙必矣，不战而屈人。临终荐慕容垂自代，评不能用。太和二年卒，桓温曰「慕容恪尚存，所忧方为大耳」，燕政自此衰。",
+  "tags": [
+    "十六国",
+    "前燕",
+    "慕容"
+  ],
+  "categories": [
+    "general",
+    "minister",
+    "royal-kin"
+  ],
+  "primary": "general",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "murong-jun",
+      "target": "murong-ke",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。恪辅幼主行周公事"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "murong-ke",
+      "target": "ran-min",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "廉台之战擒闵，送龙城斩之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "慕容恪",
+    "慕容玄恭"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "慕容恪载记",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一百一",
+      "kind": "classic"
+    }
+  ]
+}

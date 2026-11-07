@@ -1,0 +1,73 @@
+{
+  "id": "bao-shuya",
+  "name": "鲍叔牙",
+  "display": "鲍叔牙",
+  "birthAccuracy": "unknown",
+  "death": -644,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。荐管仲后仍为齐大夫，管仲死前仍在；取桓公晚年作活动下限。",
+  "title": "齐大夫，荐管仲",
+  "bio": "与管仲分财、知管仲。桓公欲杀管仲，他力请释以为相。轴上这条短于管仲，关系却是「管鲍」之所以能画出来的那一笔。",
+  "tags": [
+    "齐国",
+    "荐贤"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jiang-xiaobai",
+      "target": "bao-shuya",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从亡之臣，力荐管仲"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "bao-shuya",
+      "target": "guan-zhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "管鲍之交，囚中荐相"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qihuangong-jiwei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管晏列传",
+      "kind": "classic"
+    }
+  ]
+}

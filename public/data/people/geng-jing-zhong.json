@@ -1,0 +1,86 @@
+{
+  "id": "geng-jing-zhong",
+  "name": "耿精忠",
+  "display": "耿精忠",
+  "birthAccuracy": "unknown",
+  "death": 1682,
+  "deathAccuracy": "exact",
+  "deathNote": "三藩既平，康熙二十一年磔诛于市。",
+  "title": "靖南王，三藩之叛",
+  "bio": "耿仲明之孙，袭靖南王而镇福建。康熙十二年与吴三桂并举兵，据闽而犯浙赣；十五年势穷复降，二十一年三藩既平，磔诛于市。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "vassal",
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kang-xi",
+      "target": "geng-jing-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "袭靖南王而镇闽，康熙十二年反，十五年降"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "geng-jing-zhong",
+      "target": "shang-kexi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同封闽粤二藩，耿反而可喜不与"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "geng-jing-zhong",
+      "target": "wu-sangui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为三藩，耿、尚之叛皆与吴相首尾"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sanfan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "耿精忠传",
+      "kind": "classic"
+    }
+  ]
+}

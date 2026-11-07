@@ -1,0 +1,32 @@
+{
+  "id": "ding-zhu",
+  "name": "定住",
+  "display": "定住",
+  "birthAccuracy": "unknown",
+  "death": 1355,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详，取1355年为活动年（非寿数）。依据「中書平章政事定住為左丞相，詔天下」（raw/元/元史/卷044.md:22）",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "顺帝七",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "chen-shubao",
+  "name": "陈叔宝",
+  "display": "陈后主陈叔宝",
+  "birth": 553,
+  "birthAccuracy": "exact",
+  "death": 604,
+  "deathAccuracy": "exact",
+  "title": "陈后主，玉树后庭花，为隋所灭",
+  "bio": "陈顼长子，太建十四年即位。不问政事，与张丽华、孔贵嫔及狎客赋诗，作《玉树后庭花》，君臣酣歌自夕达旦。隋师将渡，犹奏伎行乐。祯明三年韩擒虎入朱雀门，与妃嫔匿于井中，被执送长安。仁寿四年卒，年五十二，南朝至此亡。",
+  "tags": [
+    "南朝",
+    "南陈",
+    "亡国"
+  ],
+  "categories": [
+    "monarch",
+    "falling",
+    "poetry"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    },
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "opposite"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-shubao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，霸先开陈、后主亡国"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-shubao",
+      "target": "chen-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。太建十四年宣帝崩，太子叔宝即位"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-shubao",
+      "target": "yang-jian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "开皇九年灭陈，后主就擒"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "chen-shubao",
+      "target": "han-qinhu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "平陈之役，韩擒虎先入建康，后主就擒"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sui-mie-chen",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "陈叔宝",
+    "陈后主",
+    "陈元秀"
+  ],
+  "sources": [
+    {
+      "work": "陈书",
+      "part": "后主纪",
+      "kind": "classic"
+    }
+  ]
+}

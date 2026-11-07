@@ -1,0 +1,244 @@
+{
+  "id": "wuyue-zhanzheng",
+  "name": "吴越争霸",
+  "display": "吴越争霸",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": -496,
+  "yearAccuracy": "exact",
+  "yearNote": "以槜李之战（定公十四年＝前496，勾践新立与阖闾第一次正面交战）为起点；终点越灭吴（哀公二十二年＝前473）。区间内节点：夫椒（前494）、黄池之年越袭吴都（前482）、笠泽（前478）、围吴三年（约前475—前473）。",
+  "endYear": -473,
+  "endYearAccuracy": "exact",
+  "endYearNote": "《春秋·哀公二十二年》「冬，十一月，丁卯，越滅吳」；史記吳太伯世家夫差二十三年十一月丁卯越敗吳——两系一致。",
+  "belligerents": [
+    "yue",
+    "wu-guo"
+  ],
+  "commanders": [
+    {
+      "id": "si-goujian",
+      "side": "yue"
+    },
+    {
+      "id": "ji-guang",
+      "side": "wu-guo"
+    },
+    {
+      "id": "ji-fucha",
+      "side": "wu-guo"
+    },
+    {
+      "id": "wu-yuan",
+      "side": "wu-guo"
+    },
+    {
+      "id": "fan-li",
+      "side": "yue"
+    },
+    {
+      "id": "wen-zhong",
+      "side": "yue"
+    }
+  ],
+  "people": [
+    "tai-zai-pi"
+  ],
+  "aliases": [
+    "吴越战争"
+  ],
+  "dynasties": [
+    "spring-autumn",
+    "warring-states"
+  ],
+  "desc": "吴越两代争霸的全程：前496槜李勾践以罪人自剄乱吴阵、阖闾伤指死；前494夫椒夫差报仇、勾践五千保栖会稽而入臣于吴；勾践归国生聚教训二十余年；前484夫差胜齐于艾陵、赐死伍子胥；前482黄池会盟之顷越袭入吴都获太子友；前478笠泽决战吴师大乱；越再围吴三年，前473十一月丁卯吴亡，夫差自缢，勾践北上会齐晋、号称霸王。战争起于吴强越弱而终于吴亡越霸，东南格局完全倒转。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷56（定公十三、十四年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義",
+      "part": "卷60（哀公十七、二十二年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷031·吳太伯世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷041·越王句踐世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "zuili-zhizhan",
+    "fujiao-zhizhan",
+    "yue-xi-wu-482",
+    "lize-zhizhan",
+    "yue-mie-wu"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tai-zai-pi",
+      "name": "伯嚭",
+      "display": "太宰嚭",
+      "birthAccuracy": "unknown",
+      "death": -473,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·吴太伯世家「越王滅吳，誅太宰嚭，以爲不忠」（前473）。谮杀伍子胥的吴太宰。",
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "si-goujian",
+      "name": "姒勾践",
+      "display": "越王勾践",
+      "birthAccuracy": "unknown",
+      "death": -465,
+      "deathAccuracy": "approx",
+      "deathNote": "《史记》未著绝对卒年，旧谱多系于句践三十三年、前 465 年。",
+      "title": "越王，灭吴",
+      "bio": "会稽之耻后，卧薪尝胆，用范蠡、文种。二十四年灭吴。他的条从夫差的阴影里穿出来，春秋的南线在此收束。",
+      "tags": [
+        "越国",
+        "灭吴"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-guang",
+      "name": "姬光",
+      "display": "吴王阖闾",
+      "birthAccuracy": "unknown",
+      "death": -496,
+      "deathAccuracy": "exact",
+      "title": "吴王，破楚入郢",
+      "bio": "公子光弑王僚自立。用伍子胥、孙武，柏举之战入郢。檇李之役伤于越，还卒。吴的条从此交给夫差。",
+      "tags": [
+        "吴国",
+        "柏举"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-fucha",
+      "name": "姬夫差",
+      "display": "吴王夫差",
+      "birthAccuracy": "unknown",
+      "death": -473,
+      "deathAccuracy": "exact",
+      "title": "吴末代之王",
+      "bio": "报檇李，败越于夫椒，许勾践成。北上争霸，不听子胥。黄池之后，越入吴，他自杀。短于勾践的那一截，是灭国。",
+      "tags": [
+        "吴国",
+        "黄池"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-yuan",
+      "name": "伍员",
+      "display": "伍子胥",
+      "birthAccuracy": "unknown",
+      "death": -484,
+      "deathAccuracy": "exact",
+      "title": "吴国行人，破楚鞭平王尸",
+      "bio": "楚人。父奢、兄尚被杀，奔吴。佐阖闾入郢。夫差许越成，他屡谏，赐属镂以死。吴越两条的仇恨线都经过他。",
+      "tags": [
+        "吴国",
+        "破楚"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "chu",
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fan-li",
+      "name": "范蠡",
+      "display": "范蠡",
+      "birthAccuracy": "unknown",
+      "death": -460,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。灭吴后浮海去越，取前 460 年左右为活动下限。",
+      "title": "越大夫，灭吴后去越",
+      "bio": "字少伯。与文种谋会稽之计。吴亡，他致书文种「飞鸟尽，良弓藏」，自去为陶朱公。谋臣条在胜利之后主动断开。",
+      "tags": [
+        "越国",
+        "去越"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wen-zhong",
+      "name": "文种",
+      "display": "文种",
+      "birthAccuracy": "unknown",
+      "death": -472,
+      "deathAccuracy": "approx",
+      "deathNote": "灭吴后不久，勾践赐死。取前 472 年前后。",
+      "title": "越大夫，守国之臣",
+      "bio": "字少禽。勾践入吴为质时，他守国。吴亡，不听范蠡之劝，赐死。与范蠡同谋不同终，两条在灭吴后分叉。",
+      "tags": [
+        "越国",
+        "赐死"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

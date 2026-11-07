@@ -1,0 +1,153 @@
+{
+  "id": "zhao-gou",
+  "name": "赵构",
+  "display": "赵构",
+  "birth": 1107,
+  "birthAccuracy": "exact",
+  "death": 1187,
+  "deathAccuracy": "exact",
+  "title": "宋高宗，南宋开国",
+  "bio": "徽宗第九子，靖康后于南京应天府即位，南渡定都临安。任秦桧主和，杀岳飞，与金定绍兴和议，偏安江南。",
+  "tags": [
+    "宋",
+    "南宋"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-gou",
+      "target": "li-gang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "即位首相，旬日而罢"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "yue-fei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "重用又疑忌，终成冤狱"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "qin-hui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "委以和议，专权十余年"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zhao-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，徽宗传高宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zhao-shen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养父子，高宗传孝宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "wanyan-yong",
+      "target": "zhao-gou",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "大定之世金不轻言南牧，宋得息肩于淮汉之间"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caishi-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jinjun-dujiang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "linan-dingdu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "nansong-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shaoxing-heyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shaoxing-shoubing",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "高宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

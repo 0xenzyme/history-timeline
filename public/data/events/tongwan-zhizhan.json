@@ -1,0 +1,76 @@
+{
+  "id": "tongwan-zhizhan",
+  "name": "统万之战",
+  "display": "统万之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": 427,
+  "yearAccuracy": "exact",
+  "place": "统万",
+  "placeNow": "今陕西靖边白城子",
+  "belligerents": [
+    "bei",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "tuoba-tao",
+      "side": "bei"
+    }
+  ],
+  "people": [
+    "tuoba-tao"
+  ],
+  "result": "魏军破夏都统万，夏主赫连昌奔上邽，夏国自此衰亡",
+  "parent": "beiwei-tongyi-beifang",
+  "aliases": [
+    "魏克统万"
+  ],
+  "dynasties": [
+    "shiliuguo",
+    "northern-southern"
+  ],
+  "desc": "427 年（始光四年）魏军乘夏军不备分路进攻，太武帝亲至城下，诱赫连昌出城会战，大破之，乘胜入统万，俘夏王公后妃及府库珍宝不可胜计。夏都一破，夏国一蹶不振，此为北魏统一北方的决定性会战。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "世祖纪上",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tuoba-tao",
+      "name": "拓跋焘",
+      "display": "太武帝拓跋焘",
+      "birth": 408,
+      "birthAccuracy": "exact",
+      "death": 452,
+      "deathAccuracy": "exact",
+      "title": "北魏太武帝，统一北方，灭佛",
+      "bio": "鲜卑拓跋部人，明元帝长子。在位连灭夏、北燕、北凉，击柔然、通西域，北方一统。太延中征江南，至瓜步而还，江左震动。太平真君七年诏尽诛沙门、毁诸佛像塔寺，为中国佛教三武之祸之始。正平二年为中常侍宗爱所弑，年四十五。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,95 @@
+{
+  "id": "zhi-zhi",
+  "name": "郅支单于",
+  "display": "郅支单于",
+  "birthAccuracy": "unknown",
+  "death": -36,
+  "deathAccuracy": "exact",
+  "title": "匈奴单于，远遁康居，被陈汤袭斩",
+  "bio": "呼韩邪单于之兄，五单于争立后据东边自立，攻杀闰振单于并其众。怨汉拥护呼韩邪，杀使者谷吉，西走康居，都坚昆，数击乌孙，威凌西域。建昭三年，西域都护甘延寿与副校尉陈汤矫制发兵，攻其城于都赖水上，郅支被创死，斩首传诣京师，县蛮夷邸门。",
+  "tags": [
+    "匈奴",
+    "陈汤"
+  ],
+  "categories": [
+    "outsider"
+  ],
+  "polity": [
+    "xiongnu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "xiongnu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-han-xie",
+      "target": "zhi-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟争国，郅支西走康居"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元帝时郅支单于杀汉使、困辱使者，汉遣兵诛之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chen-tang",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "郅支杀汉使谷吉、困辱汉廷，汤矫制发兵四万余人攻都赖水，斩其首传诣京师"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chen-tang-gong-zhizhi",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "huhanxie-laichao",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "傅常郑甘陈段传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "元帝纪",
+      "kind": "classic"
+    }
+  ]
+}

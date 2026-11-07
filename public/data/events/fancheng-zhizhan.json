@@ -1,0 +1,191 @@
+{
+  "id": "fancheng-zhizhan",
+  "name": "樊城之战",
+  "display": "樊城之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 219,
+  "yearAccuracy": "exact",
+  "yearNote": "三国志·蜀书·关羽传系建安二十四年「羽率眾攻曹仁於樊……秋，大霖雨，漢水汎溢，禁所督七軍皆沒。禁降羽，羽又斬將軍龐德」；通鉴卷68同年八月大霖雨。围樊起于七月、徐晃破围均在年内，battle 取 point 219。",
+  "place": "樊城",
+  "placeNow": "今湖北襄阳樊城区",
+  "belligerents": [
+    "shu",
+    "wei"
+  ],
+  "commanders": [
+    {
+      "id": "guan-yu",
+      "side": "shu"
+    },
+    {
+      "id": "cao-ren",
+      "side": "wei"
+    },
+    {
+      "id": "yu-jin",
+      "side": "wei"
+    },
+    {
+      "id": "xu-huang",
+      "side": "wei"
+    }
+  ],
+  "people": [
+    "guan-yu",
+    "cao-ren",
+    "yu-jin",
+    "pang-de",
+    "xu-huang"
+  ],
+  "result": "关羽围樊，汉水泛溢没于禁七军，降于禁斩庞德，威震华夏，曹操议徙许都；徐晃破围救樊，羽退军后荆州已失",
+  "aliases": [
+    "关羽围樊",
+    "水淹七军",
+    "襄樊之战（樊城段）"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "219 年关羽率众攻曹仁于樊，曹操遣于禁助守。秋大霖雨、汉水泛溢，于禁所督七军皆没，禁降羽，庞德不屈被杀；梁郏、陆浑诸军遥受羽印号，羽威震华夏，曹操议徙许都以避其锐。曹操用司马懿、蒋济之策联结孙权袭羽之后，徐晃随破围救樊；羽退军时荆州已失，此役与吕蒙袭荆州为同一战局的两役。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·关羽传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guan-yu",
+      "name": "关羽",
+      "display": "关羽",
+      "birthAccuracy": "unknown",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "汉寿亭侯，水淹七军而走麦城",
+      "bio": "河东解人，亡命奔涿郡。与刘备、张飞寝则同床，恩若兄弟。白马之围刺颜良于万众之中，遂解围。镇荆州，建安二十四年攻樊城，水淹七军，威震华夏；旋为吕蒙所袭，败走麦城，与其子平俱被斩。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "display": "曹仁",
+      "birthAccuracy": "unknown",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，守樊拒关羽",
+      "bio": "沛国谯人，字子孝，曹操从弟。从曹操起兵，以守御见长；樊城被关羽围困，激励将士坚守待援，徐晃至而围解；文帝时为大司马。黄初四年卒，谥忠侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-jin",
+      "name": "于禁",
+      "display": "于禁",
+      "birthAccuracy": "unknown",
+      "death": 221,
+      "deathAccuracy": "exact",
+      "title": "魏左将军，晚节一跌",
+      "bio": "泰山钜平人，字文则。以法御军，最号毅重；樊城之役督七军援曹仁，汉水暴溢，全军覆没降羽；孙权袭荆州后送还魏，文帝拜安远将军，使谒高陵，豫画陵屋其困降之状，惭恚发病薨。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "pang-de",
+      "name": "庞德",
+      "display": "庞德",
+      "birthAccuracy": "unknown",
+      "death": 219,
+      "deathAccuracy": "exact",
+      "deathNote": "卒句承建安二十四年樊城之围叙事系年。",
+      "title": "魏立义将军，亲搏关羽",
+      "bio": "南安狟道人，字令明。初为马超部将，随张鲁归曹操；樊城之役亲搏关羽，射羽中额；汉水泛涨后乘小船接战，箭尽被擒，骂不绝口，为关羽所杀，曹操为之流涕，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xu-huang",
+      "name": "徐晃",
+      "display": "徐晃",
+      "birthAccuracy": "unknown",
+      "death": 227,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，解樊城之围",
+      "bio": "河东杨人，字公明。本杨奉部将，归曹操后以治军严整称；樊城之役长驱直入，连破围堑，解樊城之围，曹操案行诸军谓其「有周亚夫之风」。太和元年卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

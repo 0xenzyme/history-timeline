@@ -1,0 +1,69 @@
+{
+  "id": "wang-xijue",
+  "name": "王锡爵",
+  "display": "王锡爵",
+  "birth": 1534,
+  "birthAccuracy": "approx",
+  "death": 1610,
+  "deathAccuracy": "exact",
+  "birthNote": "卒年七十七，上推生年。",
+  "deathNote": "万历三十五年辞召，又三年卒于家。",
+  "title": "万历辅臣，争册立",
+  "bio": "太仓人。万历中入阁，力请出阁礼。三十五年召起，三辞不赴，又三年卒于家，年七十七。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "wang-xijue",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历中入阁，力请建储。三十五年召，辞不赴"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "shen-shixing",
+      "target": "wang-xijue",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "相继辅政，同以争国本为事而力请建储"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "王锡爵传",
+      "kind": "classic"
+    }
+  ]
+}

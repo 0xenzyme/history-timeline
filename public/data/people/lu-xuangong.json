@@ -1,0 +1,39 @@
+{
+  "id": "lu-xuangong",
+  "name": "姬俀",
+  "display": "鲁宣公",
+  "birthAccuracy": "unknown",
+  "death": -591,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·鲁周公世家「十八年，宣公卒，子成公黑肱立」。宣公元年前608，十八年得前591。",
+  "polity": [
+    "lu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "chushuimu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "鲁周公世家",
+      "kind": "classic"
+    }
+  ]
+}

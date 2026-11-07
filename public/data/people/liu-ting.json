@@ -1,0 +1,79 @@
+{
+  "id": "liu-ting",
+  "name": "刘綎",
+  "display": "刘綎",
+  "birthAccuracy": "unknown",
+  "death": 1619,
+  "deathAccuracy": "exact",
+  "title": "刘大刀，死于萨尔浒",
+  "bio": "字省吾，南昌人。所用镔铁刀重百二十斤，军中称为刘大刀; 朝鲜之役、播州之役皆有功，1619 年萨尔浒孤军深入而战没。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "liu-ting",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "朝鲜、播州之役皆当其锋"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "liu-ting",
+      "target": "nu-er-ha-chi",
+      "type": "rival",
+      "directed": false,
+      "since": 1619,
+      "notes": [
+        "萨尔浒三路败没，綖以孤军战死"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bozhou-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "saerhu-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "刘綎传",
+      "kind": "classic"
+    }
+  ]
+}

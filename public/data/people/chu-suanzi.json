@@ -1,0 +1,96 @@
+{
+  "id": "chu-suanzi",
+  "name": "褚蒜子",
+  "display": "康献褚皇后",
+  "birth": 324,
+  "birthAccuracy": "approx",
+  "death": 384,
+  "deathAccuracy": "exact",
+  "birthNote": "太元九年崩，年六十一，上推生年。",
+  "title": "东晋太后，临朝四十年",
+  "bio": "河南阳翟人。康帝皇后。穆帝幼冲，她以皇太后临朝。太元九年崩于显阳殿，年六十一，在位四十年。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chu-suanzi",
+      "target": "sima-yue",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "康帝皇后。穆帝幼冲，她以太后临朝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "chu-suanzi",
+      "target": "sima-dan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "穆帝即位尊为皇太后，未亲国政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "chu-suanzi",
+      "target": "yin-hao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太后倚任，受命北伐"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "chu-pou",
+      "target": "chu-suanzi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女。以国姥不臣之礼，固请居籓镇京口"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "褚蒜子",
+    "褚太后"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "后妃传·康献褚皇后",
+      "kind": "classic"
+    }
+  ]
+}

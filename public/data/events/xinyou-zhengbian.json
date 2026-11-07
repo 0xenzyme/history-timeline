@@ -1,0 +1,206 @@
+{
+  "id": "xinyou-zhengbian",
+  "name": "辛酉政变",
+  "display": "辛酉政变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1861,
+  "yearAccuracy": "exact",
+  "yearNote": "咸丰十一年肃顺处斩，养心殿垂帘听政。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "ci-xi",
+    "ci-an",
+    "yi-xin",
+    "su-shun",
+    "tong-zhi",
+    "xian-feng"
+  ],
+  "result": "肃顺处斩，垂帘听政",
+  "aliases": [
+    "祺祥政变",
+    "垂帘听政"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "咸丰十一年文宗崩后，诏赐载垣、端华自尽，肃顺处斩，恭亲王奕䜣为议政王。两宫皇太后御养心殿垂帘听政，改明年为同治元年。皇权从顾命大臣转到两宫和议政王。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十一",
+      "note": "詔賜載垣、端華自盡，肅順處斬",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十一",
+      "note": "恭親王奕訢為議政王",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十一",
+      "note": "上奉慈安皇太后、慈禧皇太后御養心殿垂簾聽政",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ci-xi",
+      "name": "慈禧",
+      "display": "慈禧太后",
+      "birth": 1835,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "垂帘听政",
+      "bio": "咸丰懿贵妃，同治生母；同治、光绪两朝垂帘训政，实为晚清最高掌权者。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "ci-an",
+      "name": "慈安",
+      "display": "慈安太后",
+      "birth": 1837,
+      "birthAccuracy": "approx",
+      "death": 1881,
+      "deathAccuracy": "exact",
+      "birthNote": "光绪七年崩，年四十五，上推生年。",
+      "title": "母后皇太后，与慈禧并垂帘",
+      "bio": "钮祜禄氏，咸丰皇后。文宗崩后与孝钦并尊，诏旨称母后皇太后。同治、光绪两度垂帘。光绪七年三月崩。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "yi-xin",
+      "name": "奕䜣",
+      "display": "奕䜣",
+      "birth": 1833,
+      "birthAccuracy": "exact",
+      "death": 1898,
+      "deathAccuracy": "exact",
+      "title": "总理衙门",
+      "bio": "道光第六子，咸丰之弟；主持总理衙门，倡洋务，为同光新政中枢。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "royal-kin",
+        "minister",
+        "official",
+        "diplomat"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "su-shun",
+      "name": "肃顺",
+      "display": "肃顺",
+      "birth": 1816,
+      "birthAccuracy": "exact",
+      "death": 1861,
+      "deathAccuracy": "exact",
+      "deathNote": "辛酉政变后与载垣、端华同被诛，斩于菜市口。",
+      "title": "咸丰顾命，辛酉被诛",
+      "bio": "爱新觉罗氏，郑献亲王济尔哈朗之后裔。咸丰朝官至协办大学士、户部尚书，主重用曾国藩、左宗棠诸汉臣而严于理财；文宗崩，与载垣等同受顾命，为两宫与奕䜣所捕，1861 年斩于菜市口。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "official",
+        "falling"
+      ],
+      "primary": "official",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tong-zhi",
+      "name": "载淳",
+      "display": "同治",
+      "birth": 1856,
+      "birthAccuracy": "exact",
+      "death": 1875,
+      "deathAccuracy": "exact",
+      "title": "两宫垂帘，同治中兴",
+      "bio": "咸丰长子，冲龄即位，慈禧、慈安两宫垂帘。用曾左李平太平、捻回，号为中兴；亲政未久而崩，无嗣。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xian-feng",
+      "name": "奕詝",
+      "display": "咸丰",
+      "birth": 1831,
+      "birthAccuracy": "exact",
+      "death": 1861,
+      "deathAccuracy": "exact",
+      "title": "内忧外患",
+      "bio": "道光第四子，在位遭太平天国、第二次鸦片战争，英法联军火烧圆明园。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

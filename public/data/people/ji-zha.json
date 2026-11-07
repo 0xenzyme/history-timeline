@@ -1,0 +1,67 @@
+{
+  "id": "ji-zha",
+  "name": "季札",
+  "display": "季札",
+  "birth": -557,
+  "birthAccuracy": "approx",
+  "death": -547,
+  "deathAccuracy": "approx",
+  "birthNote": "生年无明文，《史记》但记寿梦少子、诸樊之弟；通作约-557。",
+  "deathNote": "卒年无明文，通作约-547。史不详其后事。",
+  "title": "吴季札，让国而观周乐",
+  "bio": "吴王寿梦之少子，诸樊、余祭、余昧之弟。寿梦欲立之，札让不可，诸兄弟以次相承，迄札而犹复逊，国人立王僚。札尝北适鲁，观周乐，为之歌，尽知其德；使于齐、郑、卫，皆以知礼见重。初札过徐，徐君好其剑，札心许之；及还而徐君已亡，乃解剑系其冢树而去，其信如此。",
+  "tags": [
+    "春秋",
+    "吴",
+    "公子"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "wu-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-zha",
+      "target": "wu-shoumeng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。寿梦欲立季札，札以次及辞，诸兄弟以次相承"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "季札",
+    "季子",
+    "延陵季子"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "吴太伯世家",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "襄公二十九年",
+      "kind": "classic"
+    }
+  ]
+}

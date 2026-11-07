@@ -1,0 +1,130 @@
+{
+  "id": "li-yu-937",
+  "name": "李煜",
+  "display": "南唐后主",
+  "birth": 937,
+  "birthAccuracy": "exact",
+  "death": 978,
+  "deathAccuracy": "exact",
+  "title": "词帝李后主，问君能有几多愁",
+  "bio": "元宗之子，字重光，号钟隐。以兄竞立得嗣位。奉宋正朔而不时遣，宋师围金陵三年，城陷被执，至汴封违命侯。书画文辞风流直前，以困厄而词境始大，\"问君能有几多愁\"之叹传千古。太平兴国三年七夕卒。",
+  "tags": [
+    "十国",
+    "南唐"
+  ],
+  "categories": [
+    "monarch",
+    "poetry",
+    "literature"
+  ],
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "shiguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu-937",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "称臣之邦，围城三载而陷"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-jing-916",
+      "target": "li-yu-937",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，中主传后主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-congbai",
+      "target": "li-yu-937",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，从善入宋不返"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-yu-937",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "词臣之知，\"吹皱一池春水\""
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-yu-937",
+      "target": "han-xizai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "欲相之而遣夜宴图察其放达"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-yu-937",
+      "target": "li-jianxun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "烈祖受禅，建勋与宋齐丘同心佐命，遂相"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mie-nantang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李从嘉"
+  ],
+  "sources": [
+    {
+      "work": "新五代史",
+      "part": "南唐世家",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "kind": "classic"
+    }
+  ]
+}

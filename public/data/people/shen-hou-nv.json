@@ -1,0 +1,85 @@
+{
+  "id": "shen-hou-nv",
+  "name": "申后",
+  "display": "申后",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。幽王废后，镐京陷落后不见，取前 771 年为可见下限。",
+  "title": "幽王后，平王之母",
+  "bio": "申侯之女，太子宜臼之母。幽王嬖褒姒，废申后、去太子。废后之后无记载。",
+  "tags": [
+    "废嫡"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻。后废申后"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "shen-hou",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "申后"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    }
+  ]
+}

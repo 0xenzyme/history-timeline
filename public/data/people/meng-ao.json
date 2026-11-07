@@ -1,0 +1,70 @@
+{
+  "id": "meng-ao",
+  "name": "蒙骜",
+  "display": "蒙骜",
+  "birthAccuracy": "unknown",
+  "death": -240,
+  "deathAccuracy": "exact",
+  "deathNote": "白起王翦列传、秦始皇本纪：蒙骜将兵取成皋、荥阳置三川郡，攻魏取二十余城；始皇七年卒（前240）。",
+  "title": "秦将，蒙氏三世之祖",
+  "bio": "自齐入秦，历昭王至始皇世将兵：定成皋荥阳为三川郡，又上党之后定太原——轴上灭六国之前半段取地多出其手，郡县的版图先由他画。蒙武继之，蒙恬其孙，秦将门三世之条自他起。前240年卒。",
+  "tags": [
+    "秦国",
+    "蒙氏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-ji",
+      "target": "meng-ao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "蒙骜自齐入秦，昭王世将兵取成皋荥阳——秦将门三世之条自此起"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xinlingjun-hezong",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "蒙傲"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "白起王翦列传",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "kind": "classic"
+    }
+  ]
+}

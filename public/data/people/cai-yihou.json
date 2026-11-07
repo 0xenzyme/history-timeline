@@ -1,0 +1,68 @@
+{
+  "id": "cai-yihou",
+  "name": "蔡夷侯",
+  "display": "蔡夷侯",
+  "birthAccuracy": "unknown",
+  "death": -810,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：夷侯十一年周宣王即位，二十八年卒。十一年当 -827，二十八年当 -810。",
+  "title": "蔡夷侯",
+  "bio": "武侯之子。十一年周宣王即位，二十八年卒。",
+  "tags": [
+    "蔡"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "cai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cai-wuhou",
+      "target": "cai-yihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "cai-xihou",
+      "target": "cai-yihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "蔡夷侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管蔡世家",
+      "kind": "classic"
+    }
+  ]
+}

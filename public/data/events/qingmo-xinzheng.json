@@ -1,0 +1,65 @@
+{
+  "id": "qingmo-xinzheng",
+  "name": "诏议变法",
+  "display": "诏议变法",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1901,
+  "yearAccuracy": "approx",
+  "yearNote": "光绪二十六年十二月丁未诏议变法。十二月已入次年，取1901。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "guang-xu"
+  ],
+  "result": "诏议变法",
+  "aliases": [
+    "清末新政"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "光绪二十六年十二月丁未，诏议变法。新政从这道诏书起算。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "十二月甲辰，詔免明年元旦禮節。丁未，詔議變法",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guang-xu",
+      "name": "载湉",
+      "display": "光绪",
+      "birth": 1871,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

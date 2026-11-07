@@ -1,0 +1,66 @@
+{
+  "id": "zhao-huan",
+  "name": "赵桓",
+  "display": "宋钦宗赵桓",
+  "birth": 1100,
+  "birthAccuracy": "exact",
+  "death": 1156,
+  "deathAccuracy": "exact",
+  "title": "靖康之祸，北宋亡",
+  "bio": "徽宗长子，宣和七年受禅。靖康元年金兵两度围汴，父子被俘北去，北宋亡，后卒于五国城。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-huan",
+      "target": "zhao-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，徽宗传钦宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jingkang-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "赵桓",
+    "宋钦宗"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "钦宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

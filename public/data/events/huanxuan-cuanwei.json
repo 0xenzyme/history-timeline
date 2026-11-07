@@ -1,0 +1,190 @@
+{
+  "id": "huanxuan-cuanwei",
+  "name": "桓玄篡位",
+  "display": "桓玄篡位",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 403,
+  "yearAccuracy": "exact",
+  "yearNote": "《晋书·安帝纪》：元兴二年十一月壬午玄迁帝于永安宫，十二月壬辰玄篡位、以帝为平固王；《桓玄传》载登坛改元永始、国号楚（传中有「建國于楚」「大楚之祭」语）。十二月壬辰折算儒略历为 404-01-01，跨公历年界；year 按切片统一口径取中国纪年（元兴二年）403。桓楚不在 polity 词表，polity 用 [\"jin\"] 并在此说明。",
+  "endYear": 404,
+  "endYearAccuracy": "exact",
+  "endYearNote": "元兴三年（404）二月乙卯，刘裕帅刘毅、何无忌等举义兵于京口，斩桓修、桓弘；三月玄众溃西逃；五月壬午督护冯迁斩桓玄于貊盘洲，乘舆反正于江陵。桓楚自篡至败凡八旬。",
+  "place": "建康、姑孰",
+  "placeNow": "今江苏南京、安徽当涂",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "huan-xuan",
+    "liu-yu",
+    "sima-dezong",
+    "sima-dewen",
+    "liu-yi"
+  ],
+  "result": "桓楚旋灭（自篡至败八旬），安帝反正，朝权尽归刘裕，为晋宋易代之始",
+  "aliases": [
+    "桓玄之篡",
+    "桓玄篡晋",
+    "桓楚代晋",
+    "桓玄之乱"
+  ],
+  "tags": [
+    "usurpation",
+    "dynasty-change",
+    "gate-clan"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "元兴二年（403）十二月（壬辰，儒略历已入 404 年初），桓玄逼安帝禅位，于姑孰城南七里登坛称帝，国号楚，改元永始，贬安帝为平固王。次年二月刘裕自京口举义兵，广陵响应，江乘、罗落桥连破玄军，覆舟山一战玄众溃败西逃；五月桓玄被斩于貊盘洲，晋室反正。桓楚仅存数月而亡；门阀政治经此一击由盛转衰，朝权尽归刘裕，二十年后晋宋禅代，实肇于此。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷十",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷九十九",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "huan-xuan",
+      "name": "桓玄",
+      "display": "桓玄",
+      "birth": 369,
+      "birthAccuracy": "exact",
+      "death": 404,
+      "deathAccuracy": "exact",
+      "title": "桓温之子，篡晋建楚，为刘裕所败",
+      "bio": "谯国龙亢人，桓温少子。以父威据荆州，元兴元年举兵入建康，杀司马道子父子，明年废安帝自立，国号楚。性贪鄙好奇异，好书画珠玉不离手。刘裕与刘毅、何无忌起京口，玄西奔江陵，为益州督护冯迁所斩，年三十六。晋室因之复，而政归刘裕。",
+      "tags": [
+        "东晋",
+        "篡晋"
+      ],
+      "categories": [
+        "monarch",
+        "rebel",
+        "regent"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yu",
+      "name": "刘裕",
+      "display": "宋武帝刘裕",
+      "birth": 363,
+      "birthAccuracy": "exact",
+      "death": 422,
+      "deathAccuracy": "exact",
+      "title": "北府将出身，灭南燕后秦，代晋建宋",
+      "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+      "tags": [
+        "东晋",
+        "南朝"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin",
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-dezong",
+      "name": "司马德宗",
+      "display": "晋安帝",
+      "birth": 382,
+      "birthAccuracy": "exact",
+      "death": 419,
+      "deathAccuracy": "exact",
+      "title": "东晋安帝，桓玄废而刘裕迎还",
+      "bio": "孝武帝长子，太元二十一年即位，自少口不能言。元兴二年桓玄废帝自立，明年刘裕起兵，玄败，帝复位。义熙十四年被缢于东堂。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-dewen",
+      "name": "司马德文",
+      "display": "晋恭帝",
+      "birth": 386,
+      "birthAccuracy": "exact",
+      "death": 421,
+      "deathAccuracy": "exact",
+      "title": "东晋恭帝，禅宋之明年被杀",
+      "bio": "安帝同母弟。安帝崩，刘裕立之；元熙二年裕废帝受禅，封零陵王。明年被杀。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yi",
+      "name": "刘毅",
+      "display": "刘毅",
+      "birthAccuracy": "unknown",
+      "death": 412,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "title": "京口义军的第二人，败于刘裕之权",
+      "bio": "字希乐，彭城沛人。京口举义讨桓玄，与刘裕同为盟主之选，峥嵘洲纵火破玄。累迁豫州、荆州刺史，负其才气，与裕不睦，欲据荆州以图之。义熙八年与谢混等结党，裕先发，矫诏讨毅，王镇恶陷江陵城，毅自北门单骑而走，去江陵二十里自缢，居人以告，斩于市。",
+      "tags": [
+        "晋",
+        "东晋",
+        "叛乱"
+      ],
+      "categories": [
+        "rebel",
+        "general",
+        "official"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

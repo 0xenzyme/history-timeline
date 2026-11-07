@@ -1,0 +1,93 @@
+{
+  "id": "kang-youwei",
+  "name": "康有为",
+  "display": "康有为",
+  "birth": 1858,
+  "birthAccuracy": "exact",
+  "death": 1927,
+  "deathAccuracy": "exact",
+  "title": "维新领袖",
+  "bio": "今文经学家，公车上书、倡变法，戊戌年辅光绪行新政，失败后流亡。",
+  "tags": [
+    "清",
+    "维新"
+  ],
+  "categories": [
+    "scholar",
+    "classics"
+  ],
+  "primary": "scholar",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "guang-xu",
+      "target": "kang-youwei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召见维新，推行变法"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-youwei",
+      "target": "liang-qichao",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "梁启超师事康有为"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-youwei",
+      "target": "tan-sitong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "维新同志，同列新政"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wuxu-bianfa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhang-xun-fubi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "康有为传",
+      "kind": "classic"
+    }
+  ]
+}

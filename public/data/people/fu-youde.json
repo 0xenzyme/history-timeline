@@ -1,0 +1,53 @@
+{
+  "id": "fu-youde",
+  "name": "傅友德",
+  "display": "傅友德",
+  "birthAccuracy": "unknown",
+  "death": 1394,
+  "deathAccuracy": "exact",
+  "title": "征蜀征滇之将",
+  "bio": "其先宿州人，徙砀山。初从陈友谅，后降太祖; 征夏取蜀、平云南皆有其功，封颍国公。1394 年以请田被责，自杀。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-youde",
+      "target": "lan-yu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为洪武末被诛的开国功臣"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "傅友德传",
+      "kind": "classic"
+    }
+  ]
+}

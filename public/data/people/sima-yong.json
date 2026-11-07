@@ -1,0 +1,75 @@
+{
+  "id": "sima-yong",
+  "name": "司马颙",
+  "display": "河间王司马颙",
+  "birthAccuracy": "unknown",
+  "death": 306,
+  "deathAccuracy": "disputed",
+  "birthNote": "传无岁数，不编生年。",
+  "deathNote": "传作「永嘉初」就征司徒，为南阳王模遣梁臣扼杀于雍谷车中；通鉴卷八十六系光熙元年（306），两证异年，从编年并注。",
+  "title": "河间王颙，关中之主而死于车上",
+  "bio": "字文载，宣帝弟安平王孚之孙。以关中为资，镇长安，与成都王颖连兵，倚张方之暴，劫帝西迁，废立由己。东海王越兵起，颙杀张方请和不得，帝还洛。就征司徒，南阳王模遣梁臣邀之于新安，扼杀于雍谷车中，并其三子。",
+  "tags": [
+    "晋",
+    "西晋",
+    "八王之乱"
+  ],
+  "categories": [
+    "royal-kin",
+    "warlord"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yong",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越西征破颙，帝还洛阳"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baxia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马颙",
+    "河间王颙",
+    "司马文载"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "河间王颙传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷八十六",
+      "kind": "classic"
+    }
+  ]
+}

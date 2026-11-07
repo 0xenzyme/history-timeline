@@ -1,0 +1,99 @@
+{
+  "id": "yongle-dadian",
+  "name": "《永乐大典》纂修",
+  "display": "《永乐大典》纂修",
+  "kind": "span",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1403,
+  "yearAccuracy": "exact",
+  "yearNote": "永乐元年七月，成祖命解缙等纂修，类为一书；至六年告成，凡二万二千八百七十七卷、目录六十卷，更名《永乐大典》。见《明史·成祖本纪》《解缙传》。",
+  "endYear": 1408,
+  "endYearAccuracy": "exact",
+  "place": "南京",
+  "placeNow": "今江苏南京",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zhu-di",
+    "xie-jin"
+  ],
+  "result": "古今图书汇为一编，为类书之最；存于文渊阁，正本毁于明亡之际",
+  "aliases": [
+    "永乐大典",
+    "文献大成"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "成祖入践大位，欲以文治饰太平。洪武中既命修《永乐志》，未就；至是更诏重修，谓「天下古今事物，散载诸书，篇帙浩穰，不易检阅」，欲合而为一。以解缙、姚广孝、刘季篪、李庆等为总裁，都总裁则太子少师姚广孝与礼部尚书郑赐，发东宫所储书，及南京文渊阁所藏，旁及郡邑之所购、四方之所献，凡书七八千种，命文学之士悉力编录。其体例：以《洪武正韵》为纲，以韵统字，以字系事，凡天文、地理、人伦、国统、道德、政治制度、名物、奇闻、杂艺之属，皆以类从。用韵以统字，用字以系事，便于检寻，与他类书分门别类者异。六年冬成，名曰《永乐大典》，凡二万二千八百七十七卷，为一万一千九十五册，藏之文渊阁。嘉靖、隆庆间别摹一部，所谓副本也。明社既屋，正本之存亡，聚讼数百年；副本则散亡于兵火，今存者仅百分之三四，而历代佚书多赖之以存。神州文献，一线之延，实赖此书。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "艺文志",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "解缙传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-di",
+      "name": "朱棣",
+      "display": "明成祖朱棣",
+      "birth": 1360,
+      "birthAccuracy": "exact",
+      "death": 1424,
+      "deathAccuracy": "exact",
+      "title": "永乐大帝，迁都北京",
+      "bio": "太祖第四子，封燕王。靖难之役入南京，即位后迁都北京、营紫禁城，遣郑和下西洋，修《永乐大典》，国势鼎盛。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xie-jin",
+      "name": "解缙",
+      "display": "解缙",
+      "birth": 1369,
+      "birthAccuracy": "exact",
+      "death": 1415,
+      "deathAccuracy": "exact",
+      "title": "总纂《永乐大典》",
+      "bio": "字大绅，吉水人。才高气锐，总纂《永乐大典》; 以建储之议得罪汉王高煦，1415 年死在诏狱。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "minister",
+        "literature"
+      ],
+      "primary": "minister",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

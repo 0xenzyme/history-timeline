@@ -1,0 +1,154 @@
+{
+  "id": "haishang-zhi-meng",
+  "name": "海上之盟",
+  "display": "海上之盟",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1120,
+  "yearAccuracy": "exact",
+  "yearNote": "接触始自重和元年二月庚午马政约夹攻，为 1118。盟议的代表年取宣和二年二月赵良嗣使金，金史天辅四年二月记其来议燕京、西京地。燕京誓书和交割在 1123，见收复燕云，不当作本条终点。",
+  "polity": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "zhao-ji",
+    "tong-guan",
+    "cai-jing",
+    "wanyan-aguda"
+  ],
+  "result": "宋金约定夹攻辽，并讨论燕京、西京地归宋；辽亡后宋金变为邻国。",
+  "aliases": [
+    "宋金海上之盟"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "重和元年二月，宋遣马政由海道使女真，约夹攻辽。宣和二年二月赵良嗣使金，金史记其来议燕京、西京地。宋金约定夹攻，打破宋辽百年边界，把金引入长城以南。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷二十一",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷二十二",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-ji",
+      "name": "赵佶",
+      "display": "赵佶",
+      "birth": 1082,
+      "birthAccuracy": "exact",
+      "death": 1135,
+      "deathAccuracy": "exact",
+      "title": "宋徽宗，书画皇帝",
+      "bio": "神宗子，工书画、创瘦金体，宠蔡京等倡花石纲，朝政日非。宣和末金兵南下，传位钦宗；靖康被掳，卒于五国城。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "calligraphy",
+        "painting",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tong-guan",
+      "name": "童贯",
+      "display": "童贯",
+      "birth": 1054,
+      "birthAccuracy": "exact",
+      "death": 1126,
+      "deathAccuracy": "exact",
+      "title": "握兵二十年的宦官封王",
+      "bio": "以供奉官投西北，握兵权二十年，收青唐、主燕云之役，以宦官封广阳郡王。金兵南下弃军而归，钦宗即位伏诛。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "eunuch",
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cai-jing",
+      "name": "蔡京",
+      "display": "蔡京",
+      "birth": 1047,
+      "birthAccuracy": "exact",
+      "death": 1126,
+      "deathAccuracy": "exact",
+      "title": "四度当国的「六贼」之首",
+      "bio": "以绍述为名四度当国十七年，兴应奉局、置西城括田，丰亨豫大耗竭国本；立元祐党人碑锢君子。书法自成一家而名节扫地。靖康元年贬潭州卒，年八十。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "calligraphy"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-aguda",
+      "name": "完颜阿骨打",
+      "display": "完颜阿骨打",
+      "birth": 1068,
+      "birthAccuracy": "exact",
+      "death": 1123,
+      "deathAccuracy": "exact",
+      "title": "金太祖，起兵反辽建大金",
+      "bio": "女真完颜部首领，以二千五百人起兵，出河店、护步答冈以少胜多，称帝建国大金。与宋约海上之盟夹攻辽，未及灭辽而卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

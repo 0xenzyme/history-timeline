@@ -1,0 +1,134 @@
+{
+  "id": "tang-mie-gaogouli",
+  "name": "唐灭高句丽",
+  "display": "唐灭高句丽",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 668,
+  "yearAccuracy": "exact",
+  "place": "平壤",
+  "placeNow": "今朝鲜平壤",
+  "belligerents": [
+    "tang",
+    "gaogouli"
+  ],
+  "commanders": [
+    {
+      "id": "xu-shi-ji",
+      "side": "tang"
+    },
+    {
+      "id": "xue-ren-gui",
+      "side": "tang"
+    },
+    {
+      "id": "qi-bi-he-li",
+      "side": "tang"
+    }
+  ],
+  "people": [
+    "xu-shi-ji",
+    "xue-ren-gui",
+    "qi-bi-he-li"
+  ],
+  "result": "李世勣围平壤，高句丽王出降，高句丽亡",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "总章元年（668），李世勣率唐军合围平壤，高句丽王高藏出降，高句丽亡。唐分其地置九都督府、安东都护府，势力进入朝鲜半岛北部。高句丽既灭，唐在半岛的对手只剩新罗，次年唐新关系转向对峙。高句丽降主名与各都督府分置细节以两《唐书》高丽传为准，不在本实体中展开。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高宗本纪、李勣传、高丽传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百一",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xu-shi-ji",
+      "name": "徐世勣",
+      "display": "李勣",
+      "birth": 594,
+      "birthAccuracy": "exact",
+      "death": 669,
+      "deathAccuracy": "exact",
+      "title": "英国公，本姓徐，赐姓李，灭高句丽",
+      "bio": "曹州离狐人，本姓徐，名世勣，字懋功。初从翟让、李密，归唐后赐姓李，避太宗讳单名勣。从平王世充、窦建德、刘黑闼，破薛延陀、高句丽，总章元年拔平壤，高句丽遂亡。为将善抚御，得金帛尽散之士卒。总章二年薨，年七十六，陪葬昭陵。",
+      "tags": [
+        "唐",
+        "高句丽"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xue-ren-gui",
+      "name": "薛仁贵",
+      "display": "薛仁贵",
+      "birth": 612,
+      "birthAccuracy": "exact",
+      "death": 681,
+      "deathAccuracy": "exact",
+      "title": "开耀元年再起，其年病卒",
+      "bio": "绛州龙门人。乾封中援泉男生，破高丽于金山，拔扶余，与李勣会于平壤。开耀元年高宗复起之，击突厥元珍于云州，其年病卒，年七十。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "qi-bi-he-li",
+      "name": "契苾何力",
+      "display": "契苾何力",
+      "birthAccuracy": "unknown",
+      "death": 677,
+      "deathAccuracy": "exact",
+      "title": "铁勒归唐，仪凤二年卒",
+      "bio": "铁勒莫贺可汗之孙，贞观中率部内属。龙朔、乾封间为辽东道行军大总管，与李勣拔平壤。仪凤二年卒，陪葬昭陵。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "general",
+        "outsider"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

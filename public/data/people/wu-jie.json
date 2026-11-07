@@ -1,0 +1,53 @@
+{
+  "id": "wu-jie",
+  "name": "吴玠",
+  "display": "吴玠",
+  "birth": 1093,
+  "birthAccuracy": "exact",
+  "death": 1139,
+  "deathAccuracy": "exact",
+  "title": "和尚原、仙人关保蜀口",
+  "bio": "与弟璘守秦凤，富平败后收散卒，和尚原大破金军，兀术中流矢仅免；仙人关再却之，蜀口得全。绍兴九年卒，年四十七。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "general"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "heshangyuan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xianrenguan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "吴玠传",
+      "kind": "classic"
+    }
+  ]
+}

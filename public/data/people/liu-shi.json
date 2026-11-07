@@ -1,0 +1,116 @@
+{
+  "id": "liu-shi",
+  "name": "刘奭",
+  "display": "汉元帝",
+  "birth": -75,
+  "birthAccuracy": "exact",
+  "death": -33,
+  "deathAccuracy": "exact",
+  "title": "西汉元帝，柔仁好儒，西汉由盛转衰",
+  "bio": "宣帝太子。即位后多用儒生，委政宦官石显，遂开宦官用事之端。昭宣中兴到他这里收尾，外戚王氏自此起。",
+  "tags": [
+    "西汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-ao",
+      "target": "liu-shi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，元帝皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "xiao-wang-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太子太傅，即位以师傅见任"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元帝时郅支单于杀汉使、困辱使者，汉遣兵诛之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "chen-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元帝遣西域副校尉陈汤与都护甘延寿矫制发兵，斩郅支首，封关内侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "jing-fang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元帝时以易学待诏，屡言灾异，为石显所忌，竟下狱死"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "汉元帝"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "元帝纪",
+      "kind": "classic"
+    }
+  ]
+}

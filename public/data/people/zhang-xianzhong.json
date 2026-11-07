@@ -1,0 +1,116 @@
+{
+  "id": "zhang-xianzhong",
+  "name": "张献忠",
+  "display": "张献忠",
+  "birth": 1606,
+  "birthAccuracy": "exact",
+  "death": 1647,
+  "deathAccuracy": "exact",
+  "title": "八大王",
+  "bio": "延安人，与李自成并起陕北，转战豫楚川陕。1644 入蜀称帝，国号大西；性残暴，清军入川被杀。",
+  "tags": [
+    "明",
+    "民变"
+  ],
+  "categories": [
+    "rebel",
+    "warlord",
+    "falling"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "ming",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    },
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zicheng",
+      "target": "zhang-xianzhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并起陕北，分流南北",
+        "同为明末起义军首领，崇祯间并起；后各据一方，自成陷北京、献忠建大西于蜀"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "yang-sichang",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "directed": false,
+      "since": 1640,
+      "notes": [
+        "玛瑙山之捷后为其所乘"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "qin-liangyu",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "directed": false,
+      "since": 1640,
+      "notes": [
+        "守石砫而拒其一军不得入蜀"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "he-fengsheng",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "张献忠陷武昌，逢圣投墩子湖死"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mingmo-minbian",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "zhangxianzhong-daxi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "流贼传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "meng-li-zhanzheng",
+  "name": "蒙丽战争",
+  "display": "蒙丽",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": 1231,
+  "yearAccuracy": "exact",
+  "yearNote": "元史太宗本纪系八年（1231）遣撒礼塔征高丽；至元十年（1273）三别抄平，高丽尽为元属。其间九举大兵，数叛数服。",
+  "endYear": 1273,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "mongol",
+    "gaoli"
+  ],
+  "result": "高丽数降数叛，终为元驸马国，元置征东行省领其地",
+  "dynasties": [
+    "song",
+    "jin-chao",
+    "mongol",
+    "yuan"
+  ],
+  "desc": "太宗八年（1231），蒙古遣撒礼塔伐高丽，高丽不能御而请成；明年，崔氏挟迁江华岛以避其锋。自是数叛数征，大举者九，国中蹂躏，生业荡尽。1258 年以后高丽奉表入朝，武人专政亦替；1270 年三别抄据珍岛、济州抗元，1273 年元丽联军平之。高丽自是称驸马国，元置征东行省，国王入觐尚主；高丽二百余年武人政治由此而终，蒙古之兵锋亦遂及于朝鲜半岛。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "太宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "高丽史",
+      "part": "世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [],
+  "collections": []
+}

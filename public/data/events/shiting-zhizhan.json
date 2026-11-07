@@ -1,0 +1,163 @@
+{
+  "id": "shiting-zhizhan",
+  "name": "石亭之战",
+  "display": "石亭之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 228,
+  "yearAccuracy": "exact",
+  "yearNote": "吴黄武七年（魏太和二年），即公元 228 年；纪年以吴之黄武为准。",
+  "place": "石亭",
+  "placeNow": "今安徽潜山一带，一说桐城",
+  "belligerents": [
+    "wu",
+    "wei"
+  ],
+  "commanders": [
+    {
+      "id": "lu-xun",
+      "side": "wu"
+    },
+    {
+      "id": "zhu-huan",
+      "side": "wu"
+    },
+    {
+      "id": "quan-cong",
+      "side": "wu"
+    },
+    {
+      "id": "cao-xiu",
+      "side": "wei"
+    }
+  ],
+  "result": "陆逊诱曹休深入，大破魏军于石亭，魏此后二十余年不敢大举南攻",
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "吴黄武七年（魏太和二年，228）孙权使鄱阳太守周鲂伪降以诱魏，大司马曹休率步骑十万入皖；吴以陆逊为大都督，朱桓、全琮分道并进，夹击于石亭，魏军大败，辎重尽弃，曹休惭恨发病而卒。此役使魏在江淮方向长期转为守势，保障了孙权次年称帝的外部条件。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·吴主传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "吴书·陆逊传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·曹休传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "lu-xun",
+      "name": "陆逊",
+      "display": "陆逊",
+      "birth": 183,
+      "birthAccuracy": "exact",
+      "death": 245,
+      "deathAccuracy": "exact",
+      "title": "丞相，夷陵烧营，石亭破魏",
+      "bio": "吴郡吴人，本名议，世为江东大族。黄武元年刘备东征，逊为大都督，坚守不出，至夏暑移营林中，遂以火攻破之，蜀军土崩。七年石亭大破曹休。赤乌七年为丞相，以二宫之争数上疏，为孙权责让，愤恚而卒，年六十三。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "chancellor",
+        "general",
+        "official"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-huan",
+      "name": "朱桓",
+      "display": "朱桓",
+      "birthAccuracy": "unknown",
+      "death": 238,
+      "deathAccuracy": "exact",
+      "title": "吴前将军，大破曹仁",
+      "bio": "吴郡吴人，字休穆。轻财贵义，兼有胆智；为余姚长平定山越，濡须之役拒魏大司马曹仁，破其军，得士卒心。赤乌元年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "quan-cong",
+      "name": "全琮",
+      "display": "全琮",
+      "birthAccuracy": "unknown",
+      "death": 249,
+      "deathAccuracy": "exact",
+      "title": "吴右大司马，散米振赡",
+      "bio": "吴郡钱唐人，字子璜。少以父命运米数千斛赴吴，悉散以振赡灾民，不先白其父；后为将，屡任方面，官至右大司马、左军师。赤乌十二年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-xiu",
+      "name": "曹休",
+      "display": "曹休",
+      "birthAccuracy": "unknown",
+      "death": 228,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，石亭之败",
+      "bio": "沛国谯人，字文烈，曹操族子，操谓「此吾家千里驹」。久都督扬州，石亭之役中吴将周鲂诈降诱击，陆逊断其归路，大败而还，痈发背薨。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

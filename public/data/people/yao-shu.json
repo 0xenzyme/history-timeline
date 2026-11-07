@@ -1,0 +1,81 @@
+{
+  "id": "yao-shu",
+  "name": "姚枢",
+  "display": "姚枢",
+  "birth": 1203,
+  "birthAccuracy": "exact",
+  "death": 1280,
+  "deathAccuracy": "exact",
+  "title": "理学名臣",
+  "bio": "伐宋得理学遗书，与许衡、窦默讲明圣贤之学；佐忽必烈于潜邸，陈帝王之道，兴学校、劝农桑。",
+  "tags": [
+    "元",
+    "汉法"
+  ],
+  "categories": [
+    "minister",
+    "scholar",
+    "neo-confucian"
+  ],
+  "primary": "neo-confucian",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bingzhong",
+      "target": "yao-shu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同出忽必烈幕府，共倡汉法"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "yao-shu",
+      "target": "xu-heng",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "姚枢传程朱之学，许衡承之兴国学"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "dou-mo",
+      "target": "yao-shu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同避地讲学于苏门，共倡程朱之学"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "姚枢传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "sima-dewen",
+  "name": "司马德文",
+  "display": "晋恭帝",
+  "birth": 386,
+  "birthAccuracy": "exact",
+  "death": 421,
+  "deathAccuracy": "exact",
+  "title": "东晋恭帝，禅宋之明年被杀",
+  "bio": "安帝同母弟。安帝崩，刘裕立之；元熙二年裕废帝受禅，封零陵王。明年被杀。",
+  "tags": [
+    "东晋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yu",
+      "target": "sima-dewen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "裕废恭帝受禅，明年弑之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "chu-lingyuan",
+      "target": "sima-dewen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "恭帝皇后。禅宋后降为零陵王妃"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huanxuan-cuanwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liu-yu-dai-jin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马德文",
+    "晋恭帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "恭帝纪",
+      "kind": "classic"
+    }
+  ]
+}

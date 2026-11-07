@@ -1,0 +1,92 @@
+{
+  "id": "zhao-shen",
+  "name": "赵昚",
+  "display": "赵昚",
+  "birth": 1127,
+  "birthAccuracy": "exact",
+  "death": 1194,
+  "deathAccuracy": "exact",
+  "title": "宋孝宗，隆兴恢复",
+  "bio": "太祖七世孙，高宗养子。即位锐意恢复，起用张浚北伐，败于符离；旋定隆兴和议。为岳飞平反，号称小元祐。",
+  "tags": [
+    "宋",
+    "南宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-shen",
+      "target": "yue-fei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孝宗即位即为岳飞平反追封"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zhao-shen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养父子，高宗传孝宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-dun",
+      "target": "zhao-shen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，孝宗传光宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "longxing-beifa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "longxing-heyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "孝宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

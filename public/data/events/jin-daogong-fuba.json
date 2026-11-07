@@ -1,0 +1,110 @@
+{
+  "id": "jin-daogong-fuba",
+  "name": "晋悼公复霸（三分四军、三驾疲楚）",
+  "display": "晋悼公复霸（三分四军、三驾疲楚）",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -573,
+  "yearAccuracy": "approx",
+  "yearNote": "悼公即位于成公十八年（前573，《史記·晉世家》欒書中行偃迎立公子周），卒于襄公十五年（前558，卷33 杜注「悼公卒，不克會」）；复霸为跨年在位期进程，起讫取在位年，故标 approx。参考资料（百度百科晋悼公兴复霸业之战）同取前573—前558。",
+  "endYear": -558,
+  "endYearAccuracy": "approx",
+  "endYearNote": "悼公卒于前558（见 yearNote）；区间内关键节点：前571戚之会城虎牢、前564—前562三驾之役、前562萧鱼之会（经文明书「會於蕭魚」，杜注：鄭服而諸侯會）。",
+  "polity": [
+    "jin-guo"
+  ],
+  "people": [
+    "jin-daogong",
+    "xun-yan",
+    "zhao-wu"
+  ],
+  "aliases": [
+    "晋国复霸",
+    "三驾疲楚"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "晋厉公被弑后，十四岁的公子周（悼公）入立，整顿内政、命百官、和戎狄（魏绛）、三分四军轮番出动：襄公九年至十一年三度率诸侯伐郑，楚三救而疲于奔命，前562年郑服、会于萧鱼（不战不盟），楚不敢争。晋霸复兴而中原战事转入低强度，为前546年向戌弭兵铺路。",
+  "sources": [
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義",
+      "part": "卷31（襄公十一年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義",
+      "part": "卷33（襄公十六年經傳）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jin-daogong",
+      "name": "晋悼公",
+      "display": "晋悼公",
+      "birthAccuracy": "unknown",
+      "death": -558,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「灵王十四年，晋悼公卒」。",
+      "title": "复霸之君，二十六年",
+      "bio": "厉公之子，周乱入晋而得立。即位诛不忠者，罢军、治政、释囚、纡赦，禄于戚、旧亲、故人；用士会、魏绛、栾书、荀罃、叔向。在位二十六年，会诸侯于戚，平公室，尊王攘夷。卒时晋之政始复整。",
+      "tags": [
+        "复霸",
+        "用士会",
+        "尊王攘夷"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xun-yan",
+      "name": "荀偃",
+      "display": "荀偃",
+      "birthAccuracy": "unknown",
+      "death": -554,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·襄公十九年（前554）「荀偃癉疽，生瘍於頭」，二月甲寅卒。中军将，复霸之役的主将。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-wu",
+      "name": "赵武",
+      "display": "赵武",
+      "birthAccuracy": "unknown",
+      "death": -541,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·昭公元年（前541）「趙孟庚戌卒」。赵氏孤儿之正主，晋平公时代执政。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

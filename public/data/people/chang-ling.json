@@ -1,0 +1,62 @@
+{
+  "id": "chang-ling",
+  "name": "长龄",
+  "display": "长龄",
+  "birth": 1758,
+  "birthAccuracy": "approx",
+  "death": 1838,
+  "deathAccuracy": "exact",
+  "birthNote": "清史稿·卷367·长龄传：道光十七年（1837）「以八十寿」晋一等公，据虚岁八十上推约生于1758年。",
+  "deathNote": "清史稿·卷367·长龄传：道光十七年（1837）以病乞休、以八十寿晋一等公爵，「次年，卒」，即道光十八年（1838），谥文襄。卒年系由传文「道光十七年」下文「次年」回溯得出，待复核。",
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-qing",
+      "target": "chang-ling",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "白莲教与回疆两役宿将，嘉庆朝统兵大员"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhanggeer-zhiluan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "懋亭",
+    "文襄"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷367·长龄传",
+      "kind": "classic"
+    }
+  ]
+}

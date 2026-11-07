@@ -1,0 +1,69 @@
+{
+  "id": "jin-xihou",
+  "name": "姬司徒",
+  "display": "晋釐侯",
+  "birthAccuracy": "unknown",
+  "death": -823,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：釐侯十四年周宣王初立，十八年卒。宣王元年取前 827 年，十八年当 -823。",
+  "title": "晋釐侯",
+  "bio": "靖侯之子。十四年周宣王初立，十八年卒。",
+  "tags": [
+    "晋"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-yijiu-jinghou",
+      "target": "jin-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "jin-xianhou",
+      "target": "jin-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "晋釐侯",
+    "釐侯司徒"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    }
+  ]
+}

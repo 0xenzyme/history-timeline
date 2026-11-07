@@ -1,0 +1,58 @@
+{
+  "id": "qi-kang",
+  "name": "齐抗",
+  "display": "齐抗",
+  "birth": 740,
+  "birthAccuracy": "exact",
+  "death": 804,
+  "deathAccuracy": "exact",
+  "title": "贞元二十年卒，年六十五",
+  "bio": "德宗朝同平章事。贞元二十年卒，年六十五。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "qi-kang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，贞元二十年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "齐抗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "齐抗传",
+      "kind": "classic"
+    }
+  ]
+}

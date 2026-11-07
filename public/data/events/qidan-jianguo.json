@@ -1,0 +1,69 @@
+{
+  "id": "qidan-jianguo",
+  "name": "契丹建国",
+  "display": "契丹建国",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 916,
+  "yearAccuracy": "exact",
+  "yearNote": "辽史太祖本纪系神册元年正月丙戌建国号契丹；通鉴系贞明二年，同是916。",
+  "polity": [
+    "liao"
+  ],
+  "people": [
+    "yelv-abaoji"
+  ],
+  "result": "耶律阿保机称帝，建元神册，国号契丹；北族王朝与五代、十国并立。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "梁贞明二年，耶律阿保机称帝，建元神册，国号契丹，都西楼。阿保机自唐末为迭剌部夷离堇，削平七部，至是立国。契丹之兴与五代相终始：南得燕云则俯临河朔，西并渤海则控扼辽东，北族王朝自兹与中原分庭。",
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "后梁纪·贞明二年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yelv-abaoji",
+      "name": "耶律阿保机",
+      "display": "辽太祖",
+      "birth": 872,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "契丹之君，并八部而建辽基",
+      "bio": "契丹迭剌部酋裔。唐末八部争立，阿保机并兼之，筑城置邑，用韩延徽、康默记辈正君臣、定耦耕，制契丹大字。东灭渤海，西服奚霫；与晋王李克用云州会盟约为兄弟，已而背盟取山北，与梁联好。天显元年建国号契丹，旋殂于扶余城。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

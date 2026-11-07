@@ -1,0 +1,59 @@
+{
+  "id": "li-bao-chen",
+  "name": "李宝臣",
+  "display": "李宝臣",
+  "birth": 718,
+  "birthAccuracy": "exact",
+  "death": 781,
+  "deathAccuracy": "exact",
+  "title": "成德节度，建中二年卒",
+  "bio": "范阳城旁奚人，安史降将，后赐姓李，据成德。建中初与田悦、李正己同反。二年春卒，时年六十四。",
+  "tags": [
+    "唐",
+    "藩镇"
+  ],
+  "categories": [
+    "warlord",
+    "general"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-bao-chen",
+      "target": "li-kuo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "建中初成德同反，二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李宝臣"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李宝臣传",
+      "kind": "classic"
+    }
+  ]
+}

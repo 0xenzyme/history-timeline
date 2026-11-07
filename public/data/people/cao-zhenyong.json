@@ -1,0 +1,55 @@
+{
+  "id": "cao-zhenyong",
+  "name": "曹振镛",
+  "display": "曹振镛",
+  "birth": 1755,
+  "birthAccuracy": "approx",
+  "death": 1835,
+  "deathAccuracy": "exact",
+  "birthNote": "传载年八十有一（虚岁），自卒年1835上推。",
+  "deathNote": "清史稿·卷363·曹振镛传：道光十五年卒，年八十有一，谥文正；卷177·军机大臣年表：道光十五年乙未条 曹振镛（正月癸亥卒）。体仁阁/武英殿大学士、军机大臣。",
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-qing",
+      "target": "cao-zhenyong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "嘉道两朝承旨久直军机"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷363·曹振镛传",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷177·军机大臣年表",
+      "kind": "classic"
+    }
+  ]
+}

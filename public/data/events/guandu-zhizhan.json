@@ -1,0 +1,129 @@
+{
+  "id": "guandu-zhizhan",
+  "name": "官渡之战",
+  "display": "官渡之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 200,
+  "yearAccuracy": "exact",
+  "place": "官渡",
+  "placeNow": "今河南中牟一带",
+  "belligerents": [
+    "wei",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "cao-cao",
+      "side": "wei"
+    },
+    {
+      "id": "yuan-shao",
+      "side": "minbian"
+    },
+    {
+      "id": "xun-you",
+      "side": "wei"
+    }
+  ],
+  "result": "曹操以少胜多击败袁绍，北方统一趋势形成",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "200年曹操与袁绍相拒于官渡，曹操袭破乌巢粮道，袁绍军溃败。此战削弱河北最大势力，使曹操得以继续统一北方。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-shao",
+      "name": "袁绍",
+      "display": "袁绍",
+      "birthAccuracy": "unknown",
+      "death": 202,
+      "deathAccuracy": "exact",
+      "title": "大将军，四世三公，败于官渡",
+      "bio": "汝南汝阳人，袁逢之子，四世居三公位。诛十常侍，为关东联军盟主讨董。取冀州，北并公孙瓒，据四州之地，号令河北。建安五年与曹操战于官渡，谋士不和、粮草被烧，大败而归。七年忧愤发病，呕血而死。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xun-you",
+      "name": "荀攸",
+      "display": "荀攸",
+      "birth": 157,
+      "birthAccuracy": "approx",
+      "death": 214,
+      "deathAccuracy": "exact",
+      "birthNote": "裴注引《魏书》云建安十九年攸年五十八，据卒年上推。",
+      "title": "魏尚书令，曹操谋主，画策十二奇",
+      "bio": "颍川颍阴人，字公达，荀彧从子。董卓乱中谋归而系狱，后为曹操军师，从征吕布、官渡、河北，白马解围、延津诱敌之策皆出其手，又画策定四州。迁中军师，魏国既建为尚书令。操每称公达外愚内智、外怯内勇，与之周游二十余年自无毫毛可非者。建安十九年从征孙权，道薨。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "strategist",
+        "official"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

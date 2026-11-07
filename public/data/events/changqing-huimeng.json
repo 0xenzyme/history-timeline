@@ -1,0 +1,70 @@
+{
+  "id": "changqing-huimeng",
+  "name": "长庆会盟",
+  "display": "长庆会盟",
+  "kind": "span",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 821,
+  "yearAccuracy": "exact",
+  "endYear": 823,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang",
+    "tubo"
+  ],
+  "people": [
+    "chi-zu-de-zan"
+  ],
+  "result": "唐蕃约以各守境、停征战，逻些立唐蕃会盟碑",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "长庆元年至三年（821—823）唐蕃两度会盟：元年盟于长安，二年盟于逻些，三年立碑于逻些，约定各守现有边境、不相征伐。长庆会盟结束唐蕃百年大规模争战，边境名分由此定型，碑文至今存于拉萨。会盟时吐蕃赞普为赤祖德赞（汉籍称可黎可足）；唐使刘元鼎与吐蕃主盟僧相钵阐布生卒无考，不入人物库。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "吐蕃传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百四十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "chi-zu-de-zan",
+      "name": "赤祖德赞",
+      "display": "赤祖德赞",
+      "birth": 802,
+      "birthAccuracy": "disputed",
+      "death": 838,
+      "deathAccuracy": "exact",
+      "birthNote": "生年两说，或系贞元十八年（802），或系元和元年（806）",
+      "title": "吐蕃赞普，长庆会盟时在位，汉籍称可黎可足",
+      "bio": "吐蕃赞普，汉文史籍称可黎可足，又作彝泰赞普，赤德松赞之子。元和十年（815）继位，崇信佛教，师事钵阐布，定崇佛之政。长庆元年、二年（821—822）与唐两度会盟，三年（823）于逻些立唐蕃会盟碑。开成三年（838）为臣下所弑，吐蕃内乱由此始。",
+      "tags": [
+        "吐蕃"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tubo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

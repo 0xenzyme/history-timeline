@@ -1,0 +1,31 @@
+{
+  "id": "song-hou-lingdi",
+  "name": "宋皇后",
+  "display": "灵帝宋皇后",
+  "birthAccuracy": "unknown",
+  "death": 178,
+  "deathAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "卷10下 皇后纪下",
+      "kind": "classic"
+    }
+  ]
+}

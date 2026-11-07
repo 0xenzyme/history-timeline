@@ -1,0 +1,78 @@
+{
+  "id": "zhao-xian",
+  "name": "赵㬎",
+  "display": "宋恭帝赵㬎",
+  "birth": 1271,
+  "birthAccuracy": "exact",
+  "death": 1323,
+  "deathAccuracy": "exact",
+  "title": "宋恭帝，临安出降",
+  "bio": "度宗长子，咸淳十年四岁即位。德祐二年临安陷，奉表降元，宋室播迁南海。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song",
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    },
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-qi",
+      "target": "zhao-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，度宗传恭帝"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "zhao-xian",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1276,
+      "notes": [
+        "临安出降后送至大都，后徙居于吐蕃"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "赵㬎",
+    "宋恭帝"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "恭帝本纪",
+      "kind": "classic"
+    }
+  ]
+}

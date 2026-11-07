@@ -1,0 +1,95 @@
+{
+  "id": "jingke-ciqin",
+  "name": "荆轲刺秦王",
+  "display": "荆轲刺秦王",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -227,
+  "yearAccuracy": "exact",
+  "yearNote": "《史記·秦始皇本紀》二十年（前227）：「燕太子丹患秦兵至國……使荊軻刺秦王。秦王覺之，體解軻以徇，而使王翦、辛勝攻燕」；《資治通鑑》卷7始皇二十年（前227）荊軻至咸陽條；《史記·刺客列傳》叙事最详但无独立纪年——系年依秦纪。",
+  "polity": [
+    "qin"
+  ],
+  "people": [
+    "taizi-dan",
+    "ying-zheng"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "燕太子丹遣荆轲以樊於期首级与督亢地图入献秦王，「图穷匕见」而刺秦王于咸阳殿，不中被杀。秦怒，前226年使王翦破燕拔蓟，燕王喜走辽东。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷八十六·卷086）",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷七",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷六·卷006）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "taizi-dan",
+      "name": "燕太子丹",
+      "display": "燕太子丹",
+      "birthAccuracy": "unknown",
+      "death": -226,
+      "deathAccuracy": "approx",
+      "deathNote": "刺客列传、燕世家：秦破燕，王喜徙保辽东，使人斩太子丹欲以献秦——系始皇二十一年（前226）破蓟之岁，记approx。",
+      "title": "燕太子，督亢之图",
+      "bio": "少时与嬴政俱质于赵，政立而丹质于秦，不得意亡归：恐秦尽并天下而祸至燕，卑身厚币养士，终遣荆轲奉督亢图、图穷匕见于咸阳殿上。事不成，秦兵东下，丹被斩犹不能缓燕亡（约前226）——轴上对秦最后一次主动出击，出自他。",
+      "tags": [
+        "燕国",
+        "荆轲",
+        "刺秦"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "polity": [
+        "yan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

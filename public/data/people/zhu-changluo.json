@@ -1,0 +1,82 @@
+{
+  "id": "zhu-changluo",
+  "name": "朱常洛",
+  "display": "明光宗朱常洛",
+  "birth": 1582,
+  "birthAccuracy": "exact",
+  "death": 1620,
+  "deathAccuracy": "exact",
+  "title": "一月天子，红丸疑案",
+  "bio": "神宗长子，国本之争久而后立。泰昌元年即位，不旬日病，服红丸而崩，朝野哗然。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-changluo",
+      "target": "zhu-yijun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，神宗传光宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-changluo",
+      "target": "zhu-youxiao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，光宗传熹宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zheng-guifei",
+      "target": "zhu-changluo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "挺击、红丸二案皆以贵妃为疑，一月之祚遂成讼局"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "朱常洛",
+    "明光宗"
+  ],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "光宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

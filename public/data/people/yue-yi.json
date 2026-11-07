@@ -1,0 +1,100 @@
+{
+  "id": "yue-yi",
+  "name": "乐毅",
+  "display": "乐毅",
+  "birthAccuracy": "unknown",
+  "death": -270,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。昭王死后奔赵，惠文王时仍在，取破齐之后数年为活动下限。",
+  "title": "燕将，破齐七十余城",
+  "bio": "魏人。为燕上将军，连赵楚韩魏伐齐，下七十余城。骑劫代将，他留赵。破齐的时段带画在昭王条的末尾。",
+  "tags": [
+    "燕国",
+    "破齐"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-zhi",
+      "target": "yue-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "上将军，连五国伐齐"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-dan",
+      "target": "yue-yi",
+      "type": "rival",
+      "directed": false,
+      "since": -284,
+      "notes": [
+        "破齐与即墨复国的两端"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-huiwang",
+      "target": "yue-yi",
+      "type": "rival",
+      "directed": false,
+      "since": -279,
+      "notes": [
+        "为太子时已有隙，即位使骑劫代将，乐毅亡走赵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "qi-jie",
+      "target": "yue-yi",
+      "type": "rival",
+      "directed": false,
+      "since": -279,
+      "notes": [
+        "以谗代乐毅围即墨；火牛一奔，身死军覆，齐七十余城尽复"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "leyifa-qi",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "乐毅列传",
+      "kind": "classic"
+    }
+  ]
+}

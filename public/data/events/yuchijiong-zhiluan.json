@@ -1,0 +1,96 @@
+{
+  "id": "yuchijiong-zhiluan",
+  "name": "尉迟迥之乱",
+  "display": "尉迟迥之乱",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 580,
+  "yearAccuracy": "exact",
+  "place": "邺城",
+  "placeNow": "今河北临漳",
+  "polity": [
+    "beizhou"
+  ],
+  "people": [
+    "yuchi-jiong",
+    "yang-jian"
+  ],
+  "result": "尉迟迥兵败自杀，三方之乱平定，杨坚代周再无阻碍",
+  "aliases": [
+    "三方之乱",
+    "相州起兵"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "580 年（大象二年）周宣帝崩，杨坚以外戚辅政，相州总管尉迟迥以周室重臣自居，恐杨坚图篡，遂举兵邺城，郧州司马消难、益州王谦相继响应。杨坚命韦孝宽率军东讨，迥兵败自杀，自起兵至败六十八日。三方既平，杨坚代周的最后一道障碍扫除。",
+  "sources": [
+    {
+      "work": "周书",
+      "part": "尉迟迥传",
+      "kind": "classic"
+    },
+    {
+      "work": "周书",
+      "part": "静帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuchi-jiong",
+      "name": "尉迟迥",
+      "display": "尉迟迥",
+      "birthAccuracy": "unknown",
+      "death": 580,
+      "deathAccuracy": "exact",
+      "deathNote": "「迥上樓，射殺數人，乃自殺」（周书·尉迟迥传），承大象二年讨杨坚之役纪传系年。",
+      "title": "北周宿将，大象二年举兵讨杨坚，兵败自殁",
+      "tags": [
+        "南北朝",
+        "北周"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

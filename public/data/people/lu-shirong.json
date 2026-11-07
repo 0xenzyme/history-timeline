@@ -1,0 +1,65 @@
+{
+  "id": "lu-shirong",
+  "name": "卢世荣",
+  "display": "卢世荣",
+  "birthAccuracy": "unknown",
+  "death": 1285,
+  "deathAccuracy": "exact",
+  "title": "言利之臣",
+  "bio": "以理财进，行钞法、立平准周行库，权出一时；汉臣交章论劾，1285 年被诛，阿合马之后其法亦罢。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "lu-shirong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以理财进，行钞法立平准，二年而诛"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "lu-shirong",
+      "target": "sang-ge",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为言利之臣，先后败亡"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "奸臣传",
+      "kind": "classic"
+    }
+  ]
+}

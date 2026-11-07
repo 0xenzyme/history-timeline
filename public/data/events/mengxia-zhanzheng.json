@@ -1,0 +1,78 @@
+{
+  "id": "mengxia-zhanzheng",
+  "name": "蒙古灭夏",
+  "display": "灭夏",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 1226,
+  "yearAccuracy": "exact",
+  "endYear": 1227,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "mongol",
+    "xixia"
+  ],
+  "commanders": [
+    {
+      "id": "tie-mu-zhen",
+      "side": "mongol"
+    }
+  ],
+  "result": "西夏灭亡，成吉思汗崩于萨里川",
+  "aliases": [
+    "蒙古攻西夏"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "1226年，成吉思汗因西夏纳仇人、不遣质子，自将伐夏。1227年六月夏主李晛降，七月己丑成吉思汗崩于萨里川哈老徒之行宫。西夏灭亡，蒙古清除了西侧政权。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷一·太祖本纪",
+      "note": "二十一年自将伐夏，二十二年六月李晛降，七月己丑崩于萨里川",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tie-mu-zhen",
+      "name": "铁木真",
+      "display": "铁木真",
+      "birth": 1162,
+      "birthAccuracy": "exact",
+      "death": 1227,
+      "deathAccuracy": "exact",
+      "title": "成吉思汗，蒙古帝国的缔造者",
+      "bio": "孛儿只斤氏，统一漠北诸部，1206 年称成吉思汗，建大蒙古国；西征花剌子模，破西夏，覆金半壁。丁亥年七月卒于六盘山，后追尊为元太祖。",
+      "tags": [
+        "元",
+        "蒙古"
+      ],
+      "categories": [
+        "outsider",
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

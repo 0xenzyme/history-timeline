@@ -1,0 +1,58 @@
+{
+  "id": "du-jing-quan",
+  "name": "杜景佺",
+  "display": "杜景佺",
+  "birthAccuracy": "unknown",
+  "death": 698,
+  "deathAccuracy": "approx",
+  "deathNote": "武后朝凤阁侍郎同平章事。出为并州长史，道病卒。",
+  "title": "圣历中道病卒",
+  "bio": "武后朝凤阁侍郎同平章事。出为并州长史，道病卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wu-zetian",
+      "target": "du-jing-quan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武后朝为相，圣历中道病卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杜景佺"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "杜景佺传",
+      "kind": "classic"
+    }
+  ]
+}

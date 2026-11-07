@@ -1,0 +1,203 @@
+{
+  "id": "xiangshui-huajie",
+  "name": "湘水划界",
+  "display": "湘水划界",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 215,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷67：建安二十年吕蒙取长沙零陵桂阳三郡，关羽与鲁肃益阳对峙，会曹操将攻汉中，刘备求和，「遂分荊州，以湘水為界」；三国志·吴主传「備懼失益州，使使求和」。同年和议，point 年。",
+  "place": "湘水一线（对峙于益阳）",
+  "placeNow": "今湖南益阳及湘江流域",
+  "polity": [
+    "shu",
+    "wu"
+  ],
+  "people": [
+    "liu-bei",
+    "sun-quan",
+    "guan-yu",
+    "lu-su",
+    "lv-meng",
+    "zhuge-jin"
+  ],
+  "result": "孙刘以湘水为界分荆州：长沙、江夏、桂阳以东属孙权，南郡、零陵、武陵以西属刘备，孙刘联盟得以维持",
+  "aliases": [
+    "湘水之盟",
+    "分荆州"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "215 年刘备已定蜀，孙权索还荆州不得，遣吕蒙袭取长沙、零陵、桂阳三郡，关羽与鲁肃益阳对峙。会曹操将攻汉中，刘备惧失益州，使使求和，双方遂分荆州、以湘水为界：长沙、江夏、桂阳以东属孙权，南郡、零陵、武陵以西属刘备。孙刘联盟得以维持，也埋下 219 年吕蒙袭荆州的伏笔。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷六十七",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "吴书·吴主传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "display": "汉昭烈帝刘备",
+      "birth": 161,
+      "birthAccuracy": "exact",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "蜀汉先主，织席贩履而起",
+      "bio": "涿郡涿人，中山靖王之后，少孤，与母贩履织席。起兵讨黄巾，历依公孙瓒、陶谦、曹操、袁绍、刘表，赤壁后据荆州，西取益州，遂有汉中。章武元年称帝，三年败于猇亭，崩于白帝城永安宫，年六十三。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sun-quan",
+      "name": "孙权",
+      "display": "吴大帝孙权",
+      "birth": 182,
+      "birthAccuracy": "exact",
+      "death": 252,
+      "deathAccuracy": "exact",
+      "title": "吴大帝，赤壁抗曹，晚年昏悖",
+      "bio": "孙坚次子，孙策之弟。年十五为阳羡长，兄死受事，举贤任能，赤壁用周瑜破曹操，遂据江东。建安二十四年袭荆州取关羽，黄武元年称吴王，黄龙元年称帝。晚年二子争宠、吕壹用事，赤乌十三年崩，年七十一。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guan-yu",
+      "name": "关羽",
+      "display": "关羽",
+      "birthAccuracy": "unknown",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "汉寿亭侯，水淹七军而走麦城",
+      "bio": "河东解人，亡命奔涿郡。与刘备、张飞寝则同床，恩若兄弟。白马之围刺颜良于万众之中，遂解围。镇荆州，建安二十四年攻樊城，水淹七军，威震华夏；旋为吕蒙所袭，败走麦城，与其子平俱被斩。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lu-su",
+      "name": "鲁肃",
+      "display": "鲁肃",
+      "birth": 172,
+      "birthAccuracy": "exact",
+      "death": 217,
+      "deathAccuracy": "exact",
+      "title": "横江将军，榻上策，力主联刘",
+      "bio": "临淮东城人，家富于财，好施与。初见孙权，即陈「鼎足江东，以观天下之衅」之策。曹操南下，众皆劝降，独肃与主合谋，召周瑜破之。继瑜领兵，主借荆州与刘备以共抗曹。建安二十二年卒，年四十六。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "strategist",
+        "general",
+        "official"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-meng",
+      "name": "吕蒙",
+      "display": "吕蒙",
+      "birth": 178,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "南郡太守，白衣渡江取荆州",
+      "bio": "汝南富陂人，少依姐夫邓当，果敢有胆。孙权劝学，笃志不倦，鲁肃过其屯，叹曰「非复吴下阿蒙」。建安二十四年称病还建业，使白衣摇橹作商贾，袭取荆州，遂擒关羽。既克而疾作，卒于公安，年四十二。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuge-jin",
+      "name": "诸葛瑾",
+      "display": "诸葛瑾",
+      "birth": 174,
+      "birthAccuracy": "exact",
+      "death": 241,
+      "deathAccuracy": "exact",
+      "title": "大将军，诸葛亮之兄，守吴不改其度",
+      "bio": "琅邪阳都人，汉末避乱江东。为孙权长史，后从吕蒙取荆州，封宛陵侯，官至大将军、左都护。与弟亮各事其主，公会相见，无私面。弘缓而能得士，与权谈说谏喻，未尝切谔。赤乌四年卒，年六十八。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "official",
+        "general"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

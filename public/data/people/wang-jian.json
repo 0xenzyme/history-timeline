@@ -1,0 +1,125 @@
+{
+  "id": "wang-jian",
+  "name": "王翦",
+  "display": "王翦",
+  "birthAccuracy": "unknown",
+  "death": -220,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。始皇二十四年灭楚，其后少记载，取统一前后为活动下限。",
+  "title": "秦将，灭赵、灭楚",
+  "bio": "频阳人。与秦王政议兵，六十万灭楚。灭六国的武将条里，白起开了头，他收了尾。",
+  "tags": [
+    "秦国",
+    "灭六国"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    },
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-official"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-zheng",
+      "target": "wang-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "六十万灭楚"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "li-mu",
+      "target": "wang-jian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "赵王迁七年王翦攻赵，李牧被斩"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wang-ben",
+      "target": "wang-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，俱为秦将；王翦灭楚，王贲灭齐虏王建",
+        "父子，俱为秦将；翦灭楚、定楚地，贲灭齐、虏王建，王氏之功为秦最"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "qin"
+      ]
+    },
+    {
+      "source": "wang-jian",
+      "target": "wei-liao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同事于秦：一主兵事，一主兵术"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qin-mie-chu",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "qin-mie-liuguo",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qin-mie-zhao",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "qin-po-yan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "白起王翦列传",
+      "kind": "classic"
+    }
+  ]
+}

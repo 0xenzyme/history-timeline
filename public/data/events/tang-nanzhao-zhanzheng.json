@@ -1,0 +1,107 @@
+{
+  "id": "tang-nanzhao-zhanzheng",
+  "name": "唐诏战争",
+  "display": "唐诏战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": 750,
+  "yearAccuracy": "exact",
+  "endYear": 754,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "tang",
+    "nanzhao"
+  ],
+  "commanders": [
+    {
+      "id": "xianyu-zhongtong",
+      "side": "tang"
+    },
+    {
+      "id": "li-mi-tang",
+      "side": "tang"
+    }
+  ],
+  "result": "唐两次征诏大败，南诏附吐蕃独立，西南边防洞开",
+  "aliases": [
+    "天宝之战"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "天宝九载至十三载（750—754），南诏阁逻凤因边吏挑衅反唐，附吐蕃自立；唐遣鲜于仲通、李宓两度大军征讨，先后溃于洱海之滨，全军覆没。南诏自此立国西南，唐剑南防务洞开，天宝末年的军政困局由此加重。两役兵力与伤亡各书出入大，不在本实体中取数。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "南诏蛮传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百一十六至二百一十七",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xianyu-zhongtong",
+      "name": "鲜于仲通",
+      "display": "鲜于仲通",
+      "birth": 693,
+      "birthAccuracy": "disputed",
+      "death": 755,
+      "deathAccuracy": "approx",
+      "birthNote": "生年两说，或系693，或系694",
+      "deathNote": "卒年旧说系于天宝十四载（755），两唐书无系年卒句",
+      "title": "剑南节度使，征南诏大败",
+      "bio": "名向，字仲通，蓟州渔阳人，寄籍于蜀之新政。开元二十年进士，为剑南节度使章仇兼琼所知，因荐杨国忠于朝。天宝十载，将兵八万讨南诏，阁逻凤遣使谢罪，仲通不许，卷甲深入，至洱海，为南诏所败，士卒丧亡数万。杨国忠为掩其败，反荐为京兆尹。天宝十三载李宓再败，西南遂不可问。天宝十四载卒。",
+      "tags": [
+        "唐",
+        "南诏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-mi-tang",
+      "name": "李宓",
+      "display": "李宓",
+      "birthAccuracy": "unknown",
+      "death": 754,
+      "deathAccuracy": "disputed",
+      "deathNote": "天宝十三载征南诏败没；《新唐书》称战死西洱河，《资治通鉴》记为蛮所执，异说并存",
+      "title": "剑南留后，再征南诏全军覆没",
+      "bio": "天宝十三载，以剑南留后将兵七万击南诏。南诏诱其深入，坚壁持久，宓粮尽，士卒瘴疫饥死什七八，乃引还，为蛮追击，全军覆没。其身死，《新唐书》称战死西洱河，《资治通鉴》记为蛮所执，异说并存，本表并存两说，不取一说。南诏为唐军阵亡者起天宝战士冢。",
+      "tags": [
+        "唐",
+        "南诏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

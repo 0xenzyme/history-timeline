@@ -1,0 +1,92 @@
+{
+  "id": "tang-jian-guo",
+  "name": "唐朝建立",
+  "display": "建唐",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 618,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-yuan",
+    "li-shimin"
+  ],
+  "result": "李渊在长安即帝位，隋唐政权完成更替",
+  "dynasties": [
+    "sui",
+    "tang"
+  ],
+  "desc": "618 年，李渊在长安即皇帝位，改隋义宁二年为唐武德元年，唐朝正式建立。事件标志隋末政权竞争转为唐的制度重建；隋末各地战事不在本实体中合并。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "大唐创业起居注",
+      "part": "卷上至卷下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-yuan",
+      "name": "李渊",
+      "display": "唐高祖李渊",
+      "birth": 566,
+      "birthAccuracy": "exact",
+      "death": 635,
+      "deathAccuracy": "exact",
+      "title": "唐高祖，太原起兵，五年定天下",
+      "bio": "陇西成纪人，其祖虎为西魏八柱国之一。隋末为太原留守，大业十三年举兵，入长安，立代王侑，明年受禅，国号唐。在位九年，武德七年天下始定，然太子与秦王之争已不可解。贞观九年崩于垂拱前殿，年七十。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-shimin",
+      "name": "李世民",
+      "display": "唐太宗李世民",
+      "birth": 598,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "唐太宗，天可汗，贞观之治",
+      "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

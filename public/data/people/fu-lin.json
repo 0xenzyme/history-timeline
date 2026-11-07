@@ -1,0 +1,108 @@
+{
+  "id": "fu-lin",
+  "name": "福临",
+  "display": "顺治",
+  "birth": 1638,
+  "birthAccuracy": "exact",
+  "death": 1661,
+  "deathAccuracy": "exact",
+  "title": "入关第一帝",
+  "bio": "皇太极第九子，幼龄即位，多尔衮摄政；清军入关后定鼎北京，为入关首帝。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-lin",
+      "target": "hong-taiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，皇太极第九子嗣位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "fu-lin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "摄政王辅幼主顺治"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "fu-lin",
+      "target": "duo-duo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入关后授扬威大将军，定南京，顺治六年以痘薨"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "fu-lin",
+      "target": "xiao-zhuang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。崇德三年生世祖"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "fu-lin",
+      "target": "fan-wencheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入关之策多出其谋，为清开国第一文臣"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "福临",
+    "清世祖",
+    "顺治"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "世祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

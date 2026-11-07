@@ -1,0 +1,93 @@
+{
+  "id": "qi-jiguang",
+  "name": "戚继光",
+  "display": "戚继光",
+  "birth": 1528,
+  "birthAccuracy": "exact",
+  "death": 1588,
+  "deathAccuracy": "exact",
+  "title": "抗倭名将",
+  "bio": "登州卫人，练义乌兵、创鸳鸯阵，平东南倭患；北镇蓟门，著《纪效新书》《练兵实纪》。",
+  "tags": [
+    "明",
+    "抗倭"
+  ],
+  "categories": [
+    "general",
+    "military-theory"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houcong",
+      "target": "qi-jiguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1555,
+      "notes": [
+        "调继光镇东南，平倭患"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hu-zongxian",
+      "target": "qi-jiguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "调义乌之兵，成节制之师"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "qi-jiguang",
+      "target": "yu-dayou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为抗倭名将，时称俞龙戚虎"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "qi-jiguang",
+      "target": "tang-shunzhi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同在东南海防，一文一武"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "戚继光传",
+      "kind": "classic"
+    }
+  ]
+}

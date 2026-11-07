@@ -1,0 +1,100 @@
+{
+  "id": "li-bian",
+  "name": "李昪",
+  "display": "南唐烈祖",
+  "birth": 888,
+  "birthAccuracy": "exact",
+  "death": 943,
+  "deathAccuracy": "exact",
+  "title": "南唐烈祖，复姓承唐，保境安民",
+  "bio": "徐州人，字正伦。唐末丧乱为行密所掠，行密不养，赐温为子，名徐知诰。温卒代秉吴政，封齐王。升元元年受吴禅，复姓李，托言唐室之后，国号唐，都金陵。性俭惠，辇毂之下军政粗修；晚饵金石，躁疾而殂。",
+  "tags": [
+    "十国",
+    "南唐"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "shiguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-bian",
+      "target": "xu-wen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养子秉政，齐王因之受禅"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-bian",
+      "target": "li-jing-916",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，元宗拓而复失"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "song-qi-qiu",
+      "target": "li-bian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "佐烈祖定国，江左谋主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "libian-dai-wu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "nantang-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "徐知诰"
+  ],
+  "sources": [
+    {
+      "work": "十国春秋",
+      "part": "南唐",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "南唐世家",
+      "kind": "classic"
+    }
+  ]
+}

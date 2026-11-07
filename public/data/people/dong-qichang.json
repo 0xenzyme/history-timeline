@@ -1,0 +1,55 @@
+{
+  "id": "dong-qichang",
+  "name": "董其昌",
+  "display": "董其昌",
+  "birth": 1555,
+  "birthAccuracy": "exact",
+  "death": 1636,
+  "deathAccuracy": "exact",
+  "title": "南北宗之说",
+  "bio": "字玄宰，华亭人。倡画分南北二宗之说，笔致清润; 官至南京礼部尚书，书画为一时所宗。1636 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "calligraphy",
+    "painting"
+  ],
+  "primary": "painting",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dong-qichang",
+      "target": "wen-zhengming",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "吴门之宗与华亭南北宗之说，前后相望"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "文苑传",
+      "kind": "classic"
+    }
+  ]
+}

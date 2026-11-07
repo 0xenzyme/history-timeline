@@ -1,0 +1,94 @@
+{
+  "id": "yan-kuaiwang",
+  "name": "燕王哙",
+  "display": "燕王哙",
+  "birthAccuracy": "unknown",
+  "death": -314,
+  "deathAccuracy": "approx",
+  "deathNote": "燕世家：齐乘燕乱伐之，杀王哙与子之；年份约前314，哙死法与系年异说并存，记approx。",
+  "title": "燕王，让国者",
+  "bio": "让国于相子之、三百石以上之吏皆归焉，三年而燕大乱。齐宣王伐燕，士卒不战、城门不闭，哙与子之俱死（约前314）。燕昭王筑宫招贤，正是在这场奇祸的残局上。",
+  "tags": [
+    "燕国",
+    "子之"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tian-xuanwang",
+      "target": "yan-kuaiwang",
+      "type": "rival",
+      "directed": false,
+      "since": -314,
+      "notes": [
+        "乘燕让国之乱伐燕，士卒不战、城门不闭；二年后燕人畔，齐戍尽出"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "yan-kuaiwang",
+      "target": "yan-yiwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "易王卒，哙嗣——让国之祸起于父子之间"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "yan-kuaiwang",
+      "target": "zi-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "委国于相子之，三百石以上皆归焉；三年而燕大乱，哙与子之俱死于齐"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-zhi",
+      "target": "yan-kuaiwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "燕世家：昭王平为王哙之子——让国奇祸的残局上筑黄金台。异说并存，从世家"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王哙"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

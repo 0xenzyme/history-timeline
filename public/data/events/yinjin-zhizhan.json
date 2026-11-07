@@ -1,0 +1,80 @@
+{
+  "id": "yinjin-zhizhan",
+  "name": "阴晋之战",
+  "display": "阴晋之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": -389,
+  "yearAccuracy": "disputed",
+  "yearNote": "通鉴卷001安王十三年(前389)『秦侵魏阴晋』是唯一编年锚(本地已核);『五万破五十万』数字仅见《吴子·励士》,该篇为后人整理托名之作且篇内语境是魏武侯问对,与通鉴系于文侯末年(前389)相牴;史记·孙子吴起列传仅言『守西河而秦兵不敢东乡』,无此战。真伪存议,故 disputed。",
+  "place": "阴晋",
+  "placeNow": "陕西华阴",
+  "belligerents": [
+    "wei-zhanguo",
+    "qin"
+  ],
+  "commanders": [
+    {
+      "id": "wu-qi",
+      "side": "wei-zhanguo"
+    }
+  ],
+  "result": "吴起以五万魏武卒破秦军（五十万之说出《吴子》，存疑）",
+  "aliases": [
+    "秦侵魏阴晋"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "通鉴记前389年秦侵魏阴晋。后世兵书《吴子·励士》追述吴起以五万未经庆赏的武卒破秦军五十万,为吴起治军『励士』之效的注脚;数字明显夸大,史家多不采信,但秦魏在阴晋一线交兵有通鉴佐证。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷001·周纪一",
+      "kind": "classic"
+    },
+    {
+      "work": "吴子",
+      "part": "励士",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wu-qi",
+      "name": "吴起",
+      "display": "吴起",
+      "birthAccuracy": "unknown",
+      "death": -381,
+      "deathAccuracy": "exact",
+      "deathNote": "孙子吴起列传：楚之贵族恶吴起；悼王卒，宗室大臣设伏射吴起并中王尸。新王坐射王尸之罪，夷宗死者七十余家。悼王卒岁即前381年。",
+      "title": "魏守西河，楚行变法",
+      "bio": "以兵法并用名世：魏文侯使守西河，秦人不敢东向；去魏入楚，为悼王令尹，损禄秩、实兵权，南收杨越、北却三晋。悼王死，伏弩射起并中王尸，新王坐罪夷宗室七十余家——楚的变法随他一起结账。一条横贯魏楚两个朝廷，是变法席位上代价最重的人。",
+      "tags": [
+        "魏国",
+        "楚国",
+        "西河",
+        "变法"
+      ],
+      "categories": [
+        "minister",
+        "general"
+      ],
+      "polity": [
+        "wei-zhanguo",
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

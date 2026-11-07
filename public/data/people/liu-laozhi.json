@@ -1,0 +1,122 @@
+{
+  "id": "liu-laozhi",
+  "name": "刘牢之",
+  "display": "刘牢之",
+  "birthAccuracy": "unknown",
+  "death": 402,
+  "deathAccuracy": "exact",
+  "birthNote": "传无岁数，不编生年。",
+  "deathNote": "传卒句无年号，通鉴卷一百一十二系元兴元年（402）北走新洲，「缢而死」。",
+  "title": "北府之将，一人三反而自缢",
+  "bio": "字道坚，彭城人，世以将显。沉毅多计划。北府兵之勇将，洛涧之役以五千人斩梁成，破苻坚先锋。讨孙恩、倒王恭、应桓玄，一人三反，参军刘袭曰事不可者莫大于反。元兴元年玄夺其兵，欲北据广陵，部曲散走，以为事泄，至新洲自缢而死，玄犹斫棺斩首暴尸于市。",
+  "tags": [
+    "晋",
+    "东晋",
+    "北府兵"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-laozhi",
+      "target": "xie-xuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "北府精兵，洛涧先登斩梁成"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-laozhi",
+      "target": "wang-gong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "受元显之诱反恭，恭败被斩"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-xuan",
+      "target": "liu-laozhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "一人三反，终缢于新洲"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-laozhi",
+      "target": "liu-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "参军刘裕出其麾下"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "feishui-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "sunen-luxun-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiexuan-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘牢之",
+    "刘道坚"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "刘牢之传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一百一十二",
+      "kind": "classic"
+    }
+  ]
+}

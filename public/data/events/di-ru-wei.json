@@ -1,0 +1,71 @@
+{
+  "id": "di-ru-wei",
+  "name": "狄入卫（卫懿公败死）",
+  "display": "狄入卫（卫懿公败死）",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -660,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·閔公二年》「十有二月，狄入衛」；《左傳》「及狄人戰於熒澤，衛師敗績。遂滅衛」，衛懿公死，遺民宵濟渡河。閔公二年＝前660。",
+  "place": "熒澤（荥泽）",
+  "placeNow": "今河南北部古荥泽一带（杜注「此熒澤當在河北」，今郑州北、荥阳境推定）",
+  "belligerents": [
+    "wei-guo",
+    "di"
+  ],
+  "people": [
+    "wei-yigong",
+    "wei-wengong"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "狄人伐卫，卫懿公好鹤失众，战于荥泽大败身死，卫一度亡国；遗民东渡河立戴公于曹邑，为次年齐桓城楚丘封卫的直接背景。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷10",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wei-yigong",
+      "name": "姬赤",
+      "display": "卫懿公",
+      "birthAccuracy": "unknown",
+      "death": -660,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·闵公二年（前660）狄人入卫；史记·卫康叔世家「翟於是遂入，殺懿公」。惠公卒前669，懿公立前668，在位九年。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-wengong",
+      "name": "姬燬",
+      "display": "卫文公",
+      "birthAccuracy": "unknown",
+      "death": -635,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·卫康叔世家「二十五年，文公卒，子成公鄭立」。戴公卒后文公立前659，二十五年得前635。",
+      "polity": [
+        "wei-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

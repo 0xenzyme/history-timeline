@@ -1,0 +1,193 @@
+{
+  "id": "xingshi-zhizhan",
+  "name": "兴势之战",
+  "display": "兴势之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 244,
+  "yearAccuracy": "exact",
+  "yearNote": "正始五年（244）无异说：三月曹爽至长安发卒十余万自骆谷入汉中，五月引军还（通鉴卷74；三国志·王平传系延熙七年春=244）。全程一年内，不设 endYear。",
+  "place": "兴势（兴势山）",
+  "placeNow": "今陕西洋县北",
+  "belligerents": [
+    "wei",
+    "shu"
+  ],
+  "commanders": [
+    {
+      "id": "cao-shuang",
+      "side": "wei"
+    },
+    {
+      "id": "wang-ping",
+      "side": "shu"
+    },
+    {
+      "id": "fei-yi",
+      "side": "shu"
+    }
+  ],
+  "people": [
+    "cao-shuang",
+    "xiahou-xuan",
+    "wang-ping",
+    "fei-yi",
+    "sima-yi"
+  ],
+  "result": "王平据兴势以少拒众，费祎进据三岭截击；魏军失亡甚众而还，关中虚耗，曹爽威望大损",
+  "aliases": [
+    "兴势防御战",
+    "骆谷之役"
+  ],
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "244 年曹爽与夏侯玄发卒十余万，自骆谷入汉中，蜀汉守兵不满三万。王平先遣刘敏据兴势拒守、自为后拒，费祎自成都进援并进据三岭截击，五月魏军引还，牛马死伤、失亡甚众，关中为之虚耗。以少拒众的汉中防御战典型；曹爽威望大损，成为其后权力斗争直至高平陵之变的伏笔。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷七十四",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "蜀书·王平传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-shuang",
+      "name": "曹爽",
+      "display": "曹爽",
+      "birthAccuracy": "unknown",
+      "death": 249,
+      "deathAccuracy": "exact",
+      "deathNote": "齐王纪嘉平元年正月奏免曹爽，随即称其与谋不轨，语在爽传。爽传书收爽等皆伏诛。",
+      "title": "大将军，高平陵之变被诛",
+      "bio": "曹真之子，字昭伯。明帝病重时拜大将军。齐王芳嘉平元年正月，司马懿趁曹芳谒高平陵，奏免曹爽。爽传写他和诸弟都被诛，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "regent"
+      ],
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiahou-xuan",
+      "name": "夏侯玄",
+      "display": "夏侯玄",
+      "birthAccuracy": "unknown",
+      "death": 254,
+      "deathAccuracy": "exact",
+      "deathNote": "李丰、张缉等谋废易大臣，引玄为大将军，事觉，嘉平六年与丰等同伏诛。",
+      "title": "魏征西将军，玄学领袖，诛于司马氏",
+      "bio": "沛国谯人，夏侯尚之子，曹爽表弟。少知名，与何晏、王弼竞为玄学之宗，士林推重。中护军任上选举有法度，后为征西将军都督雍凉，与曹爽同伐蜀无功。懿诛爽后召入朝，位望虽隆而郁郁不得志；嘉平六年与李丰、张缉谋诛司马师，事泄被杀，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "royal-kin",
+        "official"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-ping",
+      "name": "王平",
+      "display": "王平",
+      "birthAccuracy": "unknown",
+      "death": 248,
+      "deathAccuracy": "exact",
+      "title": "蜀镇北大将军，据兴势却曹爽",
+      "bio": "宕渠人，字子均。少养于外家，本姓何，后复姓王；街亭之役独领千人鸣鼓自守，张郃不敢逼；后镇汉中，曹爽大举入寇，平据兴势以拒，援军至而爽退。延熙十一年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fei-yi",
+      "name": "费祎",
+      "display": "费祎",
+      "birthAccuracy": "unknown",
+      "death": 253,
+      "deathAccuracy": "exact",
+      "title": "大将军，和辑内外，为魏降人所刺",
+      "bio": "江夏鄳人，游学入蜀，与董允齐名。诸葛亮南征还，为昭信校尉使吴，孙权叹为「天下淑德」，数饮之酒而不乱。继琬执政，常以保国治民为先，每不给姜维满万之众。延熙十六年岁首大会，为魏降人郭循所刺，谥敬侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-yi",
+      "name": "司马懿",
+      "display": "司马懿",
+      "birth": 179,
+      "birthAccuracy": "exact",
+      "death": 251,
+      "deathAccuracy": "exact",
+      "title": "魏太傅，拒诸葛亮，高平陵夺权",
+      "bio": "河内温人，字仲达。曹操辟为文学掾，历事三世。拒诸葛亮于渭南，坚壁不出，卒使亮星落五丈原。正始十年乘曹爽出谒高平陵，闭城奏诛之，魏之大权归司马氏。嘉平三年薨，年七十三。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

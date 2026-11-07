@@ -1,0 +1,75 @@
+{
+  "id": "murong-jun",
+  "name": "慕容儁",
+  "display": "慕容儁",
+  "birth": 319,
+  "birthAccuracy": "approx",
+  "death": 360,
+  "deathAccuracy": "exact",
+  "birthNote": "昇平四年（360）死，年四十二，虚岁上推生年。",
+  "title": "前燕之帝，灭冉魏而入邺",
+  "bio": "慕容皝第二子，字宣英。乘石赵之乱南下，廉台擒冉闵，克邺灭魏，尽取幽冀诸州，遂僭即皇帝位，自蓟徙都于邺，与秦、晋鼎峙。欲总秦吴为大举，讲武城下而寝疾。昇平四年死，时年四十二，在位十一年。",
+  "tags": [
+    "十六国",
+    "前燕",
+    "慕容"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "murong-huang",
+      "target": "murong-jun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。儁灭冉魏入邺僭帝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "murong-jun",
+      "target": "murong-ke",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。恪辅幼主行周公事"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "慕容儁",
+    "慕容俊",
+    "慕容宣英"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "慕容儁载记",
+      "kind": "classic"
+    }
+  ]
+}

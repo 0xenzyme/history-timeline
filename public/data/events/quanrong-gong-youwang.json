@@ -1,0 +1,145 @@
+{
+  "id": "quanrong-gong-youwang",
+  "name": "犬戎攻幽王",
+  "display": "犬戎攻幽王",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -771,
+  "yearAccuracy": "exact",
+  "yearNote": "幽王十一年；《史记·周本纪》《竹书纪年》一致，西周灭亡于前771为定说。",
+  "place": "骊山（宗周镐京）",
+  "placeNow": "今陕西西安市临潼区骊山北麓",
+  "belligerents": [
+    "zhou",
+    "quanrong"
+  ],
+  "people": [
+    "ji-gongsheng",
+    "bao-si",
+    "shen-hou",
+    "ji-you"
+  ],
+  "result": "申侯联合缯、犬戎攻破宗周，幽王与郑桓公被杀于骊山下；西周灭亡。",
+  "aliases": [
+    "西周灭亡",
+    "犬戎之祸",
+    "幽王亡于骊山"
+  ],
+  "dynasties": [
+    "western-zhou"
+  ],
+  "desc": "幽王十一年，申侯与缯、西夷犬戎攻幽王，入宗周，幽王及郑桓公被杀于骊山下，西周灭亡。诸侯其后立太子宜臼为平王。《史记》所载烽火徵兵情节清华简《系年》不载，本条只取攻杀的事实层。",
+  "sources": [
+    {
+      "work": "史記",
+      "part": "卷004 周本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹書紀年疏證",
+      "part": "卷下 幽王十一年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-gongsheng",
+      "name": "姬宫湦",
+      "display": "周幽王",
+      "birthAccuracy": "unknown",
+      "death": -771,
+      "deathAccuracy": "exact",
+      "title": "西周末代天子",
+      "bio": "宣王子。嬖褒姒、用虢石父，废申后与太子宜臼。前 771 年申侯联合犬戎破镐京，死于骊山，西周亡。",
+      "tags": [
+        "镐京陷落"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bao-si",
+      "name": "褒姒",
+      "display": "褒姒",
+      "birthAccuracy": "unknown",
+      "death": -771,
+      "deathAccuracy": "approx",
+      "deathNote": "生卒无年表。传统记载与幽王同尽于骊山，取镐京陷落年。",
+      "title": "幽王宠妃，伯服之母",
+      "bio": "褒人。幽王三年嬖之，后废申后、逐太子宜臼。烽火戏诸侯出《史记》，后世多疑为传说；可考的是废嫡与镐京之祸。",
+      "tags": [
+        "褒姒",
+        "废嫡"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "shen-hou",
+      "name": "申侯",
+      "display": "申侯",
+      "birthAccuracy": "unknown",
+      "death": -770,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。前 771 年联合犬戎攻杀幽王，前 770 年拥立平王东迁，取东迁年为最后可考活动，非确凿卒年。",
+      "title": "申后之父，平王外祖",
+      "bio": "西申之君。女为幽后，外孙为宜臼。幽王废申后，他引犬戎入镐，又与诸侯立平王。敌对与亲族叠在同一条姻亲上。",
+      "tags": [
+        "申国",
+        "犬戎"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-you",
+      "name": "姬友",
+      "display": "郑桓公",
+      "birthAccuracy": "unknown",
+      "death": -771,
+      "deathAccuracy": "exact",
+      "title": "郑国始封之君，周司徒",
+      "bio": "宣王母弟，宣王二十二年封郑。幽王时为司徒，见王室将乱，寄孥与贿于虢、郐。犬戎之难与幽王同死，郑武公另开春秋。",
+      "tags": [
+        "郑国",
+        "始封"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

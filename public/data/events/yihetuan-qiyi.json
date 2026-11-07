@@ -1,0 +1,125 @@
+{
+  "id": "yihetuan-qiyi",
+  "name": "义和拳会",
+  "display": "义和拳会",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 1900,
+  "yearAccuracy": "exact",
+  "yearNote": "光绪二十六年拳匪起山东，号义和拳会。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "rong-lu",
+    "yuan-shikai",
+    "guang-xu"
+  ],
+  "result": "义和拳会起于山东",
+  "aliases": [
+    "义和团"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "光绪二十六年正月，拳匪起山东，号义和拳会。同年召李鸿章、袁世凯入卫，荣禄以武卫中军护各国使馆。外军攻大沽是另一条，因为联军国名里有这次不能新增的政权。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "拳匪起山東，號「義和拳會」",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "召李鴻章、袁世凱入衛",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "榮祿以武衛中軍護各國使館",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "rong-lu",
+      "name": "荣禄",
+      "display": "荣禄",
+      "birthAccuracy": "unknown",
+      "death": 1903,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷437·荣禄传：光绪二十九年卒，赠太傅，谥文忠，晋一等男爵；卷177·军机大臣年表：光绪二十九年癸卯条 荣禄（三月戊辰卒）。文华殿大学士、军机大臣，节制北洋各军。",
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-shikai",
+      "name": "袁世凯",
+      "display": "袁世凯",
+      "birth": 1859,
+      "birthAccuracy": "exact",
+      "death": 1916,
+      "deathAccuracy": "exact",
+      "title": "北洋领袖",
+      "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "regent",
+        "official",
+        "general",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guang-xu",
+      "name": "载湉",
+      "display": "光绪",
+      "birth": 1871,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,112 @@
+{
+  "id": "zhouzheng-jiaozhi",
+  "name": "周郑交质",
+  "display": "周郑交质",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -720,
+  "yearAccuracy": "exact",
+  "yearNote": "左传隐公三年（前720）：交质在平王末年，同年传文「王崩」（平王卒于隐公三年）；取前720。为军事切片繻葛之战（前707，归military）之前奏。",
+  "polity": [
+    "zhou",
+    "zheng"
+  ],
+  "people": [
+    "ji-wusheng",
+    "ji-yijiu",
+    "zheng-zhaogong"
+  ],
+  "aliases": [
+    "周郑交质交恶",
+    "王子狐质于郑",
+    "郑祭足取温之麦、成周之禾"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "平王贰于虢、欲分郑庄公卿士之权，郑伯怨王，周郑互质太子；平王崩后周人将畀虢公政，郑祭足帅师取温之麦、成周之禾，周郑交恶。天子与列国卿士关系自此失序。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷02（隱公三年）",
+      "part": "隱公三年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左氏傳·隱公（維基文庫）",
+      "part": "隱公元年經、三年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "維基百科：周鄭交質",
+      "part": "正文",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-wusheng",
+      "name": "姬寤生",
+      "display": "郑庄公",
+      "birthAccuracy": "unknown",
+      "death": -701,
+      "deathAccuracy": "exact",
+      "title": "春秋初年郑国国君，小霸中原",
+      "bio": "武公子。母武姜爱叔段，他克段于鄢，把兄弟之争写成隐公元年第一条。周室东迁后，郑是最先敢与王室抗衡的诸侯。",
+      "tags": [
+        "郑国",
+        "克段于鄢"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-yijiu",
+      "name": "姬宜臼",
+      "display": "周平王",
+      "birthAccuracy": "unknown",
+      "death": -720,
+      "deathAccuracy": "exact",
+      "title": "东周第一位天子",
+      "bio": "幽王太子，申后所生。被废后奔申。犬戎破镐，诸侯迎立，东迁洛邑。王室从此徒拥共主空名，诸侯力政。",
+      "tags": [
+        "平王东迁"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zheng-zhaogong",
+      "name": "姬忽",
+      "display": "郑昭公",
+      "birthAccuracy": "unknown",
+      "death": -695,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经传系于鲁桓公十七年（前695）：高渠弥弑昭公而立公子亹；史记·郑世家同载其事。",
+      "polity": [
+        "zheng"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "zizhi-tongjian",
+  "name": "《资治通鉴》成书",
+  "display": "通鉴成书",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1085,
+  "yearAccuracy": "disputed",
+  "yearNote": "神宗本纪与续资治通鉴都作元丰七年十二月戊辰进书。十二月初一丙寅为 1084-12-30，戊辰为 1085-01-01。续资治通鉴卷题括注写 1084，那是年号年。旧专题 song/song-zizhi 也作 1084。",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "sima-guang",
+    "zhao-xu"
+  ],
+  "aliases": [
+    "资治通鉴",
+    "通鉴进呈",
+    "song-zizhi"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "元丰七年十二月戊辰，司马光上《资治通鉴》，神宗以其书成授资政殿学士。书上起周威烈王二十三年，下终五代。呈书当日为 1085 年 1 月 1 日，年号年常被标成 1084；它是编年通史的定本，但不改变国界或官制。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十六",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷七十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-guang",
+      "name": "司马光",
+      "display": "司马光",
+      "birth": 1019,
+      "birthAccuracy": "exact",
+      "death": 1086,
+      "deathAccuracy": "exact",
+      "title": "旧党领袖，《资治通鉴》",
+      "bio": "陕州夏县人，宝元进士。反对新法，退居洛阳十五年，主编《资治通鉴》二百九十四卷。哲宗初拜相，尽废新法。",
+      "tags": [
+        "宋",
+        "北宋",
+        "旧党"
+      ],
+      "categories": [
+        "chancellor",
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xu",
+      "name": "赵顼",
+      "display": "赵顼",
+      "birth": 1048,
+      "birthAccuracy": "exact",
+      "death": 1085,
+      "deathAccuracy": "exact",
+      "title": "宋神宗，熙宁变法",
+      "bio": "英宗子，即位旋用王安石变法，图强御夏。新法行之利弊相半，元丰改制官制；晚年新党内部亦生龃龉。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

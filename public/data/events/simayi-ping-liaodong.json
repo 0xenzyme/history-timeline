@@ -1,0 +1,132 @@
+{
+  "id": "simayi-ping-liaodong",
+  "name": "司马懿平辽东",
+  "display": "司马懿平辽东",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 238,
+  "yearAccuracy": "exact",
+  "place": "襄平",
+  "placeNow": "今辽宁辽阳",
+  "belligerents": [
+    "wei",
+    "han"
+  ],
+  "commanders": [
+    {
+      "id": "sima-yi",
+      "side": "wei"
+    },
+    {
+      "id": "gongsun-yuan",
+      "side": "han"
+    }
+  ],
+  "people": [
+    "cao-rui"
+  ],
+  "result": "魏军破襄平，公孙渊父子被斩，辽东四郡并入魏，北方边患解除",
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "景初元年（237）公孙渊据辽东自立为燕王、绝魏贡使，次年魏明帝遣司马懿率军四万往讨。懿声东击西，渡辽水围襄平，会霖潦而攻益急，城破斩渊父子，屠其城而班师。公孙氏自汉末以来割据辽东近五十年，至此覆亡，辽东、玄菟、乐浪、带方四郡尽入于魏，魏的东北边患与后顾之忧一并解除，司马懿亦以此役积累军功与声望。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "宣帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·公孙度传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-rui",
+      "name": "曹叡",
+      "display": "魏明帝曹叡",
+      "birth": 204,
+      "birthAccuracy": "exact",
+      "death": 239,
+      "deathAccuracy": "exact",
+      "title": "魏明帝，御蜀吴而大兴宫室",
+      "bio": "曹丕长子，母甄氏。在位十三年，诸葛亮五出祁山，使司马懿、曹真拒之；孙权数攻合肥、新城，皆不能入。后期大兴洛阳宫室，广采众女。景初三年崩，年三十六，托孤于司马懿，曹魏从此入司马氏之手。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-yi",
+      "name": "司马懿",
+      "display": "司马懿",
+      "birth": 179,
+      "birthAccuracy": "exact",
+      "death": 251,
+      "deathAccuracy": "exact",
+      "title": "魏太傅，拒诸葛亮，高平陵夺权",
+      "bio": "河内温人，字仲达。曹操辟为文学掾，历事三世。拒诸葛亮于渭南，坚壁不出，卒使亮星落五丈原。正始十年乘曹爽出谒高平陵，闭城奏诛之，魏之大权归司马氏。嘉平三年薨，年七十三。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "gongsun-yuan",
+      "name": "公孙渊",
+      "display": "公孙渊",
+      "birthAccuracy": "unknown",
+      "death": 238,
+      "deathAccuracy": "exact",
+      "deathNote": "景初二年司马懿围襄平，城破斩渊父子。",
+      "title": "割据辽东，称燕王，司马懿平之",
+      "bio": "辽东襄平人，字文懿，公孙度之孙。度以汉末割据辽东，传康；渊长，胁夺叔恭位自立，魏拜扬烈将军、辽东太守。数与吴通，孙权遣张弥、许晏假渊燕王，渊斩使者送首于魏，进大司马、乐浪公。景初二年复叛，自称燕王，改元绍汉；司马懿步骑四万围襄平，城破斩渊父子，辽东平。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "warlord",
+        "official"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

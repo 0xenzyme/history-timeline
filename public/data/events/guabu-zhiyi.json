@@ -1,0 +1,102 @@
+{
+  "id": "guabu-zhiyi",
+  "name": "瓜步之役",
+  "display": "瓜步之役",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "campaign",
+  "importance": 1,
+  "year": 450,
+  "yearAccuracy": "exact",
+  "endYear": 451,
+  "endYearAccuracy": "exact",
+  "place": "瓜步",
+  "placeNow": "今江苏南京六合",
+  "belligerents": [
+    "nan",
+    "bei"
+  ],
+  "commanders": [
+    {
+      "id": "tuoba-tao",
+      "side": "bei"
+    }
+  ],
+  "people": [
+    "tuoba-tao",
+    "liu-yilong"
+  ],
+  "result": "魏军掠民户北还，江淮残破，宋廷经此一蹶不振",
+  "parent": "yuanjia-beifa",
+  "aliases": [
+    "瓜步之战"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "450 年冬魏军大举反攻，十二月拓跋焘自盱眙渡淮直抵瓜步，坏民屋、伐蒹葭造筏，声言渡江，建康大惧，缘江列戍备御。次年正月魏军于瓜步山会群臣后掠民户、烧邑屋北还。魏军饮马长江是南北对峙期最深入的一次南进，江淮诸州经此残破。",
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "索虏传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tuoba-tao",
+      "name": "拓跋焘",
+      "display": "太武帝拓跋焘",
+      "birth": 408,
+      "birthAccuracy": "exact",
+      "death": 452,
+      "deathAccuracy": "exact",
+      "title": "北魏太武帝，统一北方，灭佛",
+      "bio": "鲜卑拓跋部人，明元帝长子。在位连灭夏、北燕、北凉，击柔然、通西域，北方一统。太延中征江南，至瓜步而还，江左震动。太平真君七年诏尽诛沙门、毁诸佛像塔寺，为中国佛教三武之祸之始。正平二年为中常侍宗爱所弑，年四十五。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yilong",
+      "name": "刘义隆",
+      "display": "宋文帝刘义隆",
+      "birth": 407,
+      "birthAccuracy": "exact",
+      "death": 453,
+      "deathAccuracy": "exact",
+      "title": "宋文帝，元嘉之治，北伐三败",
+      "bio": "刘裕第三子，义熙十四年封彭城公，元嘉元年即位。在位三十年，劝农桑、轻徭薄赋，江左风俗于斯为美，号元嘉之治。然性好猜忌，檀道济、裴方明皆以疑见杀；三次北伐皆败，元嘉二十七年魏军至瓜步，江左震动。三十年欲废太子，为太子劭所弑，年四十七。",
+      "tags": [
+        "南朝",
+        "刘宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

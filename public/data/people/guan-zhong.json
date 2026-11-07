@@ -1,0 +1,118 @@
+{
+  "id": "guan-zhong",
+  "name": "管夷吾",
+  "display": "管仲",
+  "birthAccuracy": "unknown",
+  "death": -645,
+  "deathAccuracy": "exact",
+  "title": "齐桓公相",
+  "bio": "颍上人。鲍叔牙囚中荐之。相齐四十年，富国强兵，尊王攘夷。桓公的条有多长，他的条几乎就有多长。",
+  "tags": [
+    "齐国",
+    "改革"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jiang-xiaobai",
+      "target": "guan-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -685,
+      "notes": [
+        "鲍叔所荐，相齐四十年"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "bao-shuya",
+      "target": "guan-zhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "管鲍之交，囚中荐相"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "guanzhong-gaige",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "ke-zhihui",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "kuiqiu-zhihui",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qi-fa-shanrong",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qi-jiu-xing",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qihuangong-jiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhaoling-zhimeng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "管仲",
+    "管夷吾"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管晏列传",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "齐太公世家",
+      "kind": "classic"
+    }
+  ]
+}

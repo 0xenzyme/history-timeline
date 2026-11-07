@@ -1,0 +1,101 @@
+{
+  "id": "zhang-jiao",
+  "name": "张角",
+  "display": "张角",
+  "birthAccuracy": "unknown",
+  "death": 184,
+  "deathAccuracy": "exact",
+  "title": "太平道首领，黄巾起事",
+  "bio": "钜鹿人，奉事黄老，畜养弟子，十余年间徒众数十万，置三十六方。中平元年（甲子）同日俱发，天下响应，京师震动。同年病卒，弟宝、梁相继败亡，然州郡自此握兵。",
+  "tags": [
+    "东汉",
+    "黄巾"
+  ],
+  "categories": [
+    "falling"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huangfu-song",
+      "target": "zhang-jiao",
+      "type": "rival",
+      "directed": false,
+      "since": 184,
+      "notes": [
+        "为左中郎将，破黄巾于长社"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-hong",
+      "target": "zhang-jiao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "灵帝时黄巾大起，八州响应"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "zhang-bao",
+      "target": "zhang-jiao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟并起为黄巾三帅，宝号地公将军"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "zhang-jiao",
+      "target": "zhang-liang-donghan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟并起为黄巾三帅，梁号人公将军"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huangjin-zhi-luan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "张角",
+    "天公将军"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇甫嵩朱儁列传",
+      "kind": "classic"
+    }
+  ]
+}

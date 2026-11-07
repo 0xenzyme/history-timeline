@@ -1,0 +1,69 @@
+{
+  "id": "li-conghou",
+  "name": "李从厚",
+  "display": "唐闵帝",
+  "birth": 914,
+  "birthAccuracy": "approx",
+  "death": 934,
+  "deathAccuracy": "exact",
+  "birthNote": "应顺元年遇弑于卫州，年二十一，上推生年。",
+  "title": "闵帝少年立位，五月而奔",
+  "bio": "明宗第三子，长兴四年即位，柄在枢近。应顺元年疑李从珂，移镇不成，凤翔兵起，东奔卫州，为从珂所执，寻遇弑。",
+  "tags": [
+    "五代",
+    "后唐"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-conghou",
+      "target": "li-siyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，闵帝立而失驭"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fengxiang-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "闵帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "唐本纪下",
+      "kind": "classic"
+    }
+  ]
+}

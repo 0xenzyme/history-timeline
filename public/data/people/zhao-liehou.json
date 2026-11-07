@@ -1,0 +1,77 @@
+{
+  "id": "zhao-liehou",
+  "name": "赵烈侯",
+  "display": "赵烈侯",
+  "birthAccuracy": "unknown",
+  "death": -400,
+  "deathAccuracy": "exact",
+  "deathNote": "赵世家在位年与六国年表系定，前400年卒。",
+  "title": "赵侯，三家受命之一",
+  "bio": "与魏文侯、韩景侯同受命于周威烈王。墨者公仲、牛畜一进退见于世家，赵的初政在守成之间。前400年卒。",
+  "tags": [
+    "赵国",
+    "三家分晋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-weiliewang",
+      "target": "zhao-liehou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -403,
+      "notes": [
+        "赵烈侯同年受命，轴上三家自此成栏"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-jinghou",
+      "target": "zhao-liehou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "烈侯卒，敬侯嗣"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sanjia-fenjin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "烈侯（赵）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "赵世家",
+      "kind": "classic"
+    }
+  ]
+}

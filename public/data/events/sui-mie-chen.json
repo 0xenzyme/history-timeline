@@ -1,0 +1,192 @@
+{
+  "id": "sui-mie-chen",
+  "name": "隋灭陈",
+  "display": "隋灭陈",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 588,
+  "yearAccuracy": "exact",
+  "yearNote": "开皇八年（588）十月誓师多路南下，九年（589）正月贺若弼、韩擒虎渡江入建康；旧专题条目以 589 年为锚。",
+  "endYear": 589,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "sui",
+    "nan"
+  ],
+  "commanders": [
+    {
+      "id": "he-ruo-bi",
+      "side": "sui"
+    },
+    {
+      "id": "han-qinhu",
+      "side": "sui"
+    },
+    {
+      "id": "yang-su",
+      "side": "sui"
+    }
+  ],
+  "people": [
+    "yang-jian",
+    "chen-shubao",
+    "he-ruo-bi",
+    "han-qinhu",
+    "yang-su"
+  ],
+  "result": "韩擒虎入建康，陈后主被擒，陈亡，南北重归一统",
+  "aliases": [
+    "灭陈一统",
+    "后主亡陈",
+    "sui-pingchen",
+    "nb-chenwang"
+  ],
+  "dynasties": [
+    "northern-southern",
+    "sui"
+  ],
+  "desc": "开皇八年（588）十月隋文帝以晋王杨广为元帅、杨素等为行军元帅，五路并进誓师伐陈；九年正月贺若弼自广陵、韩擒虎自横江同时渡江，陈军缘江诸戍望风尽走。韩擒虎率轻骑自朱雀航入建康，陈后主与张贵妃等匿于景阳井，被隋军引出擒获。陈亡，自西晋末近三百年的分裂终告结束。",
+  "sources": [
+    {
+      "work": "南史",
+      "part": "陈本纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "陈书",
+      "part": "后主纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chen-shubao",
+      "name": "陈叔宝",
+      "display": "陈后主陈叔宝",
+      "birth": 553,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "陈后主，玉树后庭花，为隋所灭",
+      "bio": "陈顼长子，太建十四年即位。不问政事，与张丽华、孔贵嫔及狎客赋诗，作《玉树后庭花》，君臣酣歌自夕达旦。隋师将渡，犹奏伎行乐。祯明三年韩擒虎入朱雀门，与妃嫔匿于井中，被执送长安。仁寿四年卒，年五十二，南朝至此亡。",
+      "tags": [
+        "南朝",
+        "南陈",
+        "亡国"
+      ],
+      "categories": [
+        "monarch",
+        "falling",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "he-ruo-bi",
+      "name": "贺若弼",
+      "display": "贺若弼",
+      "birth": 544,
+      "birthAccuracy": "exact",
+      "death": 607,
+      "deathAccuracy": "exact",
+      "title": "上柱国，广陵渡江破陈，以口祸见杀",
+      "bio": "河南洛阳人，父敦以口舌被杀，临刑刺弼舌出血，诫以慎口。开皇八年为行军总管，自广陵济江，破京口，与韩擒虎并进，陈人悉降。自谓功名出群臣之右，每以宰相自许。大业三年与高颎同坐诽谤朝政被诛，年六十四，一如父诫。",
+      "tags": [
+        "隋",
+        "平陈"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "han-qinhu",
+      "name": "韩擒虎",
+      "display": "韩擒虎",
+      "birth": 538,
+      "birthAccuracy": "exact",
+      "death": 592,
+      "deathAccuracy": "exact",
+      "title": "上柱国，夜渡采石，先入建康",
+      "bio": "河南东垣人，本名擒豹，以胆略见称。开皇八年为先锋，率五百人宵济采石，守者皆醉，遂取姑孰，寻入建康，执陈后主于井中。突厥来朝，帝令献俘，使者见其威容不敢仰视。开皇十二年卒于家，年五十五。",
+      "tags": [
+        "隋",
+        "平陈"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "yang-su",
+      "name": "杨素",
+      "display": "杨素",
+      "birth": 544,
+      "birthAccuracy": "exact",
+      "death": 606,
+      "deathAccuracy": "exact",
+      "title": "尚书令，平陈水战，为炀帝所忌",
+      "bio": "弘农华阴人，性疏辩，善属文，与杨坚同族。开皇八年为行军元帅，出三峡，以五牙大舰破陈，江南遂定。数与突厥战，皆大克获。后附晋王广，助之夺宗，既而威权日盛，炀帝外示殊礼而内甚忌之。大业二年疾笃，帝日遣医问，然密问其死期，卒年六十三。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

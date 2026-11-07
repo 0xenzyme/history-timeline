@@ -1,0 +1,240 @@
+{
+  "id": "yang-jian",
+  "name": "杨坚",
+  "display": "隋文帝杨坚",
+  "birth": 541,
+  "birthAccuracy": "exact",
+  "death": 604,
+  "deathAccuracy": "exact",
+  "title": "隋文帝，代周建隋，开皇之治",
+  "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，勇本为太子后废"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，广诡得立，弑父即位"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "gao-jiong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高颎为隋首席谋臣，定制度、平陈方略"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-su",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "杨素将兵平陈，后渐骄恣"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-wen-kai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命宇文恺营大兴、东京"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "独孤信以女妻坚。受禅立为皇后，废勇立广皆后之谋"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "niu-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇三年拜礼部尚书，修五礼百卷。献后崩，仪注决之于弘"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "zhangsun-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇初晟离间摄图与玷厥，又说染干、诱阿波"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "shi-wansui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇十七年平西宁羌。二十年废太子，同日杀万岁"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "chen-shubao",
+      "target": "yang-jian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "开皇九年灭陈，后主就擒"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yuwen-chan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "大定元年杨坚称帝，静帝逊于别宫。开皇元年五月崩，年九岁"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fenke-juren",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "kaihuang-lv",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "keju-kaishi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "renshou-gongbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sanxing-liubu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sanzheng-liubu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sui-mie-chen",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yang-jian-dai-zhou",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yangdi-jiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuchijiong-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "杨坚",
+    "杨那罗延",
+    "隋文帝"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "高祖纪",
+      "kind": "classic"
+    }
+  ]
+}

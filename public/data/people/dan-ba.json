@@ -1,0 +1,67 @@
+{
+  "id": "dan-ba",
+  "name": "胆巴",
+  "display": "胆巴",
+  "birth": 1230,
+  "birthAccuracy": "approx",
+  "death": 1303,
+  "deathAccuracy": "exact",
+  "birthNote": "本传不载生年，据其入元行年推得，约一二三〇年。",
+  "title": "萨斯迦国师",
+  "bio": "吐蕃萨斯迦人，号金刚上师。受世祖、成宗敬礼，为国师领诸释教，教法行事与帝师相亚；1303 年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "buddhism"
+  ],
+  "primary": "buddhism",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ba-si-ba",
+      "target": "dan-ba",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同出萨斯迦，先后为帝师国师而领释教"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "dan-ba",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "尊为国师，佛法之事多以咨之"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "释老传",
+      "kind": "classic"
+    }
+  ]
+}

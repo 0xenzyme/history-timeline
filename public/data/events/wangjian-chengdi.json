@@ -1,0 +1,73 @@
+{
+  "id": "wangjian-chengdi",
+  "name": "前蜀建立",
+  "display": "前蜀建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 907,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷266系天复七年（907）九月：蜀王将佐议称帝，冯涓请以蜀王称制不从，\"己亥，即皇帝位，国号大蜀\"；新五代史卷63同（\"秋九月己亥，建乃即皇帝位\"）。取称帝年 907 为锚点：王建不奉后梁正朔，916 年一度改国号汉、917 年复号蜀（新五代史卷63），写入 desc 不改锚点。",
+  "polity": [
+    "shiguo"
+  ],
+  "people": [
+    "wang-jian-918"
+  ],
+  "result": "王建于成都称帝建大蜀，唐室衣冠之族多避乱入蜀，典章文物有唐之遗风。",
+  "aliases": [
+    "王建称帝",
+    "大蜀建立",
+    "前蜀建国"
+  ],
+  "dynasties": [
+    "tang",
+    "wudai"
+  ],
+  "desc": "907 年九月己亥，王建在成都即皇帝位，国号大蜀，不奉后梁正朔。唐室衣冠之族多避乱入蜀，典章文物有唐之遗风。916 年一度改国号汉，917 年复号蜀。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷266",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷63",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-jian-918",
+      "name": "王建",
+      "display": "前蜀高祖",
+      "birthAccuracy": "unknown",
+      "death": 918,
+      "deathAccuracy": "exact",
+      "title": "前蜀高祖，起于无赖而有两川",
+      "bio": "许州舞阳人。唐末无赖，以屠牛盗驴为业，黥面配忠武军；随军入蜀，累功为将。光启中乘乱进据阆州，攻顾彦朗兄弟并东川，乾宁中拜西川节度使，两川有全。唐亡不受梁命，天祐四年称帝，国号蜀，都成都。天汉元年殂，子衍立，同光三年后唐灭前蜀。",
+      "tags": [
+        "十国",
+        "前蜀"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

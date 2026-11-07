@@ -1,0 +1,56 @@
+{
+  "id": "hai-rui",
+  "name": "海瑞",
+  "display": "海瑞",
+  "birth": 1514,
+  "birthAccuracy": "exact",
+  "death": 1587,
+  "deathAccuracy": "exact",
+  "title": "海青天",
+  "bio": "琼山人，备棺上《治安疏》骂嘉靖，天下称直。历官清苦，摧豪强、平冤狱，卒时仅敝簏数事。",
+  "tags": [
+    "明",
+    "清官"
+  ],
+  "categories": [
+    "official",
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hai-rui",
+      "target": "yan-song",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "海瑞上疏骂嘉靖，严党侧目"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "海瑞传",
+      "kind": "classic"
+    }
+  ]
+}

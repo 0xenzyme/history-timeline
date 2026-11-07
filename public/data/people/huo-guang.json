@@ -1,0 +1,186 @@
+{
+  "id": "huo-guang",
+  "name": "霍光",
+  "display": "霍大将军",
+  "birthAccuracy": "unknown",
+  "death": -68,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "汉武帝托孤重臣，大司马大将军",
+  "bio": "霍去病异母弟。受武帝遗诏辅佐昭帝，前后秉政二十年，行轮台诏后的休养生息之政；废昌邑王、迎立宣帝，权倾一时。死后霍氏以谋反灭族。",
+  "tags": [
+    "辅政",
+    "托孤",
+    "权势"
+  ],
+  "categories": [
+    "official",
+    "regent"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huo-guang",
+      "target": "huo-qubing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "异母兄弟"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -87,
+      "notes": [
+        "遗诏托孤"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "八岁即位，霍光秉政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -74,
+      "notes": [
+        "霍光迎立，前 68 年亲政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "liu-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "霍光立昌邑王贺，二十七日而废"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "sang-hongyang",
+      "type": "rival",
+      "directed": false,
+      "since": -81,
+      "notes": [
+        "盐铁会议上的政见之争，前 80 年被诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "jin-mi-di",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同受顾命辅昭帝，日磾为副"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "shangguan-jie",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元凤元年争权，桀与燕王旦谋反被族诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "liu-dan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "燕王旦与上官桀谋反，事败自绞"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-cheng-jun",
+      "target": "huo-guang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女；霍氏族灭，废后徙馆自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huoguang-fei-changyiwang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wudi-tuogu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yantie-huiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "霍光金日磾传",
+      "kind": "classic"
+    }
+  ]
+}

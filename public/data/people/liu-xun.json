@@ -1,0 +1,202 @@
+{
+  "id": "liu-xun",
+  "name": "刘询",
+  "display": "汉宣帝",
+  "birth": -91,
+  "birthAccuracy": "exact",
+  "death": -48,
+  "deathAccuracy": "exact",
+  "title": "西汉第十位皇帝",
+  "bio": "巫蛊之祸中在襁褓入狱的皇曾孙，由霍光迎立。亲政后整顿吏治、设西域都护，史称「昭宣中兴」。",
+  "tags": [
+    "昭宣中兴",
+    "西域都护"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-fuling",
+      "target": "liu-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔祖与侄孙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -74,
+      "notes": [
+        "霍光迎立，前 68 年亲政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "zhao-chongguo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -61,
+      "notes": [
+        "采其屯田策平西羌"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "wang-hou-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣帝皇后，称邛成太后。永始元年崩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xu-guangling",
+      "target": "liu-xun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "祝诅事发，五凤四年自绞死"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "zhang-an-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大司马车骑将军领尚书事"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "bing-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "郡邸狱中护视皇曾孙，微时知之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "huang-ba",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "颍川治为第一，征为太子太傅至相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "xu-ping-jun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，「微时故剑」；许后为霍显毒杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "hu-han-xie",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "甘露三年入朝称臣，汉匈自此和好"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "zheng-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -60,
+      "notes": [
+        "神爵二年日逐王先贤掸来降，吉发兵迎之；汉因使并护北道，号曰都护，自吉始"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "cai-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昭宣之际由少府拜丞相，封阳平侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huhanxie-laichao",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huoguang-fei-changyiwang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "宣帝纪",
+      "kind": "classic"
+    }
+  ]
+}

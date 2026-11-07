@@ -1,0 +1,54 @@
+{
+  "id": "li-xian-ming",
+  "name": "李贤",
+  "display": "李贤",
+  "birth": 1408,
+  "birthAccuracy": "exact",
+  "death": 1466,
+  "deathAccuracy": "exact",
+  "title": "天顺朝的内阁之望",
+  "bio": "字原德，邓州人。天顺间入阁掌吏部，抑曹石之党而请宽恤建庶人; 成化初年之政多出其手。1466 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-qizhen",
+      "target": "li-xian-ming",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "复位后入阁掌吏部，抑曹石之党"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "李贤传",
+      "kind": "classic"
+    }
+  ]
+}

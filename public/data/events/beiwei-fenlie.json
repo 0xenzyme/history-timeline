@@ -1,0 +1,128 @@
+{
+  "id": "beiwei-fenlie",
+  "name": "北魏分裂",
+  "display": "北魏分裂",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 534,
+  "yearAccuracy": "exact",
+  "yearNote": "孝武帝永熙三年（534）七月西奔长安，十月高欢立元善见迁都邺城，东西对峙形成。",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "gao-huan",
+    "yuwen-tai",
+    "yuan-shanjian"
+  ],
+  "result": "北魏一分为二为东、西魏，对峙三十余年",
+  "aliases": [
+    "东西魏分裂",
+    "nb-dongxi"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "六镇之乱后高欢坐大，永熙三年孝武帝元修不甘受制，七月以斛斯椿为前军总六军十余万西奔长安依宇文泰，高欢入洛另立清河王世子元善见为帝，迁都邺城，是为东魏；元修旋为宇文泰所鸩。北魏一分为二，东西对峙三十年，高氏与宇文氏两大军政集团就此成型。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "出帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "北史",
+      "part": "魏本纪五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "gao-huan",
+      "name": "高欢",
+      "display": "高欢",
+      "birth": 496,
+      "birthAccuracy": "exact",
+      "death": 547,
+      "deathAccuracy": "exact",
+      "title": "东魏权臣，北齐之基，玉壁折戟",
+      "bio": "渤海蓨人，本出怀朔镇兵户。从尔朱荣，后得六镇余众，讨灭尔朱氏，立孝静帝，迁都邺，自居晋阳，东魏政皆出之。天平四年围玉壁，攻城五十余日，士卒死者七万，疾作而退。武定五年卒于晋阳，年五十二，子澄、洋相继，遂建北齐。",
+      "tags": [
+        "北朝",
+        "东魏",
+        "北齐之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuwen-tai",
+      "name": "宇文泰",
+      "display": "宇文泰",
+      "birth": 507,
+      "birthAccuracy": "exact",
+      "death": 556,
+      "deathAccuracy": "exact",
+      "title": "西魏权臣，府兵之制，北周之基",
+      "bio": "代武川鲜卑人，随父肱徙武川。从贺拔岳入关，岳死，遂统其众，奉孝武帝西迁长安，是为西魏。用苏绰定官制、行均田，创府兵之制，置八柱国十二大将军，关陇集团由此成形。大统十七年北巡至牵屯山而疾，卒于云阳，年五十，子觉篡魏建周。",
+      "tags": [
+        "北朝",
+        "西魏",
+        "北周之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-shanjian",
+      "name": "元善见",
+      "display": "孝静帝元善见",
+      "birth": 524,
+      "birthAccuracy": "approx",
+      "death": 551,
+      "deathAccuracy": "exact",
+      "birthNote": "天保二年殂，年二十八，上推生年。即位时年十一，与此相合。",
+      "title": "东魏孝静帝，禅齐后被杀",
+      "bio": "清河王亶世子。出帝入关，高欢与百僚推他奉孝明之后，永熙三年即位，时年十一。天保元年逊位，封中山王。二年十二月殂，年二十八。",
+      "tags": [
+        "南北朝",
+        "东魏"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

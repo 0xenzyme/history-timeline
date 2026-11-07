@@ -1,0 +1,82 @@
+{
+  "id": "fu-jian-jianye",
+  "name": "苻健",
+  "display": "前秦苻健",
+  "birth": 317,
+  "birthAccuracy": "approx",
+  "death": 355,
+  "deathAccuracy": "exact",
+  "birthNote": "永和十一年（355）死，年三十九，虚岁上推生年。",
+  "deathNote": "载记卒句无年号，通鉴卷一百系永和十一年（355）「乙酉，健卒」。",
+  "title": "前秦开国，入长安而拒桓温",
+  "bio": "苻洪第三子，字建业。洪死于石赵内乱，健去秦王之号称晋爵，尽众西行入长安，永和七年僭称天王大单于，建元皇始，前秦自此始。桓温北伐至灞上，健收麦清野以待，温粮尽而还。永和十一年寝疾，诛入东宫作乱之苻菁，数日而死，时年三十九，太子生嗣位。",
+  "tags": [
+    "十六国",
+    "前秦",
+    "氐"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "fu-jian-jianye",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "伯侄。健入长安建前秦，坚终成一统之业"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian-jianye",
+      "target": "fu-sheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。生嗣位而暴虐，为坚所废"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "苻健",
+    "苻建业",
+    "前秦景明帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "苻洪苻健载记",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一百",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "yang-zai-si",
+  "name": "杨再思",
+  "display": "杨再思",
+  "birthAccuracy": "unknown",
+  "death": 709,
+  "deathAccuracy": "exact",
+  "title": "景龙三年薨",
+  "bio": "中宗朝中书令。景龙三年迁尚书右仆射，其年薨。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-xian",
+      "target": "yang-zai-si",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中宗朝为中书令，景龙三年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杨再思"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "杨再思传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "liu-bao",
+  "name": "刘保",
+  "display": "汉顺帝",
+  "birth": 115,
+  "birthAccuracy": "exact",
+  "death": 144,
+  "deathAccuracy": "exact",
+  "title": "东汉顺帝，阎后废而复立",
+  "bio": "安帝子。曾被阎后废为济阴王，安帝崩后复立。条接在安帝之后，收到公元 144 年。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bao",
+      "target": "liu-hu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "安帝子，阎后曾废而复立"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-bao",
+      "target": "liu-bing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "顺帝子，在位一年而崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘保",
+    "汉顺帝"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "孝顺帝纪",
+      "kind": "classic"
+    }
+  ]
+}

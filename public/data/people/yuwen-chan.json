@@ -1,0 +1,84 @@
+{
+  "id": "yuwen-chan",
+  "name": "宇文阐",
+  "display": "周静帝宇文阐",
+  "birth": 573,
+  "birthAccuracy": "exact",
+  "death": 581,
+  "deathAccuracy": "exact",
+  "title": "北周静帝，禅隋后崩",
+  "bio": "宣帝长子，本名衍，后改阐。建德二年六月生于东宫。大定元年杨坚称帝，静帝逊于别宫。开皇元年五月崩，年九岁。",
+  "tags": [
+    "南北朝",
+    "北周"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    },
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "opposite"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yuwen-chan",
+      "target": "yuwen-yun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。静帝为宣帝长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yuwen-chan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "大定元年杨坚称帝，静帝逊于别宫。开皇元年五月崩，年九岁"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yang-jian-dai-zhou",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "宇文阐",
+    "宇文衍",
+    "周静帝"
+  ],
+  "sources": [
+    {
+      "work": "周书",
+      "part": "静帝纪",
+      "kind": "classic"
+    }
+  ]
+}

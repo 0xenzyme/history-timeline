@@ -1,0 +1,54 @@
+{
+  "id": "huang-daopo",
+  "name": "黄道婆",
+  "display": "黄道婆",
+  "birth": 1245,
+  "birthAccuracy": "approx",
+  "death": 1330,
+  "deathAccuracy": "approx",
+  "title": "棉纺革新者",
+  "bio": "松江乌泥泾人，流落崖州得黎族织技，返乡教错纱配色、捍弹纺车，松江布甲天下，民祀为神。",
+  "tags": [
+    "元",
+    "纺织"
+  ],
+  "categories": [
+    "craft"
+  ],
+  "primary": "craft",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huang-daopo",
+      "target": "wang-zhen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为技艺之属：一易织具，一撰农书"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "辍耕录",
+      "part": "黄道婆"
+    }
+  ]
+}

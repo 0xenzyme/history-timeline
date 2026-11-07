@@ -1,0 +1,51 @@
+{
+  "id": "jin-ehou",
+  "name": "姬郤",
+  "display": "晋鄂侯",
+  "birthAccuracy": "unknown",
+  "death": -718,
+  "deathAccuracy": "exact",
+  "deathNote": "今本竹书纪年·晋纪「桓王二年，晋鄂侯卒，曲沃庄伯复攻晋，立鄂侯子光，是为哀侯」。",
+  "title": "六年而卒，曲沃庄伯闻讣即伐",
+  "bio": "孝侯之子。前718年卒，六年在位。曲沃庄伯闻鄂侯卒，兴兵伐晋，庄伯走保曲沃，晋人共立鄂侯子光，是为哀侯。晋国的君位此后几乎全由曲沃方面决定。",
+  "tags": [
+    "曲沃之争",
+    "鄂侯"
+  ],
+  "categories": [
+    "monarch",
+    "vassal"
+  ],
+  "primary": "vassal",
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "晋鄂侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ]
+}

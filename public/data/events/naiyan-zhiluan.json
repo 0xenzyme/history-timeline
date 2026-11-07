@@ -1,0 +1,102 @@
+{
+  "id": "naiyan-zhiluan",
+  "name": "乃颜之乱",
+  "display": "乃颜之乱",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 1287,
+  "yearAccuracy": "exact",
+  "yearNote": "至元二十四年夏四月起兵。世祖自将讨平见于成宗本纪对这一年的追述。续资作纳颜。合丹后事不并入。",
+  "polity": [
+    "yuan"
+  ],
+  "people": [
+    "nai-yan",
+    "hu-bi-lie"
+  ],
+  "result": "乃颜被讨平",
+  "aliases": [
+    "乃颜叛"
+  ],
+  "dynasties": [
+    "yuan"
+  ],
+  "desc": "至元二十四年四月，诸王乃颜反，世祖自将讨平。此后合丹再叛，不并入本条。续资把乃颜译作纳颜。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷十四·世祖本纪",
+      "note": "至元二十四年夏四月诸王乃颜反",
+      "kind": "classic"
+    },
+    {
+      "work": "元史",
+      "part": "卷十八·成宗本纪",
+      "note": "二十四年乃颜反，世祖自将讨平之",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷一百八十八",
+      "note": "至元二十四年宗王纳颜反",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "nai-yan",
+      "name": "乃颜",
+      "display": "乃颜",
+      "birthAccuracy": "unknown",
+      "death": 1287,
+      "deathAccuracy": "exact",
+      "title": "乃颜，东道叛王",
+      "bio": "成吉思汗幼弟铁木哥斡赤斤之后，据辽东而部众最盛。1287 年与西北诸王连兵攻和林，世祖扶病亲征，擒而赐死。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "royal-kin",
+        "rebel"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hu-bi-lie",
+      "name": "忽必烈",
+      "display": "元世祖忽必烈",
+      "birth": 1215,
+      "birthAccuracy": "exact",
+      "death": 1294,
+      "deathAccuracy": "exact",
+      "title": "元世祖，灭宋建元的大汗",
+      "bio": "拖雷次子，1260年即汗位，建元中统，定都燕京。襄阳围六年而克，伯颜下临安，崖山灭宋，混一天下。至元三十一年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

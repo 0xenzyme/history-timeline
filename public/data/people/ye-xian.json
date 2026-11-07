@@ -1,0 +1,96 @@
+{
+  "id": "ye-xian",
+  "name": "也先",
+  "display": "也先",
+  "birthAccuracy": "unknown",
+  "death": 1454,
+  "deathAccuracy": "disputed",
+  "deathNote": "《明史》瓦剌传记其为阿剌知院所攻而死，事在景泰五年（一四五四）前后。",
+  "title": "土木之役的另一方",
+  "bio": "瓦剌脱懽之子。1449 年入寇，土木堡俘明英宗而进围北京；后杀蒙古可汗自立，不数为其部下所杀。",
+  "tags": [
+    "明",
+    "漠北"
+  ],
+  "categories": [
+    "outsider",
+    "warlord"
+  ],
+  "primary": "outsider",
+  "polity": [
+    "mongol"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ye-xian",
+      "target": "zhu-qizhen",
+      "type": "rival",
+      "directed": false,
+      "since": 1449,
+      "notes": [
+        "土木堡之败，帝为其所俘"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wang-zhen-ming",
+      "target": "ye-xian",
+      "type": "rival",
+      "directed": false,
+      "since": 1449,
+      "notes": [
+        "一军俱没于土木，王振死于乱兵"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ye-xian",
+      "target": "yu-qian",
+      "type": "rival",
+      "directed": false,
+      "since": 1449,
+      "notes": [
+        "挟上皇叩京师，谦督九门之兵拒之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beijing-baowei",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "tumu-zhibian",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "瓦剌传",
+      "kind": "classic"
+    }
+  ]
+}

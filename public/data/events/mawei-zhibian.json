@@ -1,0 +1,120 @@
+{
+  "id": "mawei-zhibian",
+  "name": "马嵬之变",
+  "display": "马嵬之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 756,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-long-ji",
+    "yang-guo-zhong",
+    "yang-yu-huan"
+  ],
+  "result": "禁军杀杨国忠并迫玄宗赐死杨贵妃，玄宗入蜀、太子北上灵武",
+  "aliases": [
+    "tang-maiwu",
+    "马嵬驿之变"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "天宝十五载（756）六月，玄宗西逃至马嵬驿，随行禁军哗变，杀宰相杨国忠，又迫使玄宗赐死杨贵妃。玄宗继续入蜀，太子李亨北上灵武并于次月即位，平叛主导权由此转移。兵变有武装胁迫而无战役过程，按政治事件归类；哗变的组织者与细节异说不在本实体中展开。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "玄宗本纪、杨贵妃传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百一十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-long-ji",
+      "name": "李隆基",
+      "display": "唐玄宗李隆基",
+      "birth": 685,
+      "birthAccuracy": "exact",
+      "death": 762,
+      "deathAccuracy": "exact",
+      "title": "唐玄宗，开元盛世与天宝之乱",
+      "bio": "李旦第三子，神龙后为临淄王，与太平公主合谋诛韦后，先天二年又诛太平公主，始专朝政。开元之世用姚崇、宋璟、张说、张九龄，海内富实，号为开元盛世。天宝以后宠杨贵妃，任李林甫、杨国忠，安禄山反，京师陷，奔蜀而禅位肃宗。宝应元年崩于西内神龙殿，年七十八。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-guo-zhong",
+      "name": "杨国忠",
+      "display": "杨国忠",
+      "birthAccuracy": "unknown",
+      "death": 756,
+      "deathAccuracy": "exact",
+      "title": "右相，贵妃从兄，激成安史之乱",
+      "bio": "蒲州永乐人，本名钊，贵妃从祖兄。以椒房之亲领度支，骤迁至右相，兼领四十余使，务为聚敛。数与安禄山相倾，屡言禄山必反，又激之使速反。天宝十五载哥舒翰败，帝奔蜀，至马嵬，禁军大呼「国忠与胡虏谋反」，遂斩之，并杀其子及韩国夫人。",
+      "tags": [
+        "唐",
+        "天宝"
+      ],
+      "categories": [
+        "consort-kin",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-yu-huan",
+      "name": "杨玉环",
+      "display": "杨贵妃",
+      "birth": 719,
+      "birthAccuracy": "exact",
+      "death": 756,
+      "deathAccuracy": "exact",
+      "title": "玄宗贵妃，姊妹承恩，缢死于马嵬",
+      "bio": "蒲州永乐人，初为玄宗子寿王妃，后令出家为女道士，号太真，天宝四载册为贵妃。姿质丰艳，善歌舞，通音律，姊妹韩国、虢国、秦国三夫人并承恩泽，从兄国忠为相。天宝十四载安禄山反，明年帝奔蜀，至马嵬坡，六军不发，赐死于佛堂，年三十八。",
+      "tags": [
+        "唐",
+        "天宝"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

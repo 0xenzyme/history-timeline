@@ -1,0 +1,68 @@
+{
+  "id": "zhu-gaoxu",
+  "name": "朱高煦",
+  "display": "汉王朱高煦",
+  "birth": 1380,
+  "birthAccuracy": "exact",
+  "death": 1426,
+  "deathAccuracy": "exact",
+  "title": "汉王，两度觊觎储位",
+  "bio": "朱棣次子。靖难中屡为前锋，永乐间数谋夺嫡；封汉王就藩乐安，1426 年举兵反，宣宗亲征而降，废为庶人，竟不得其死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "royal-kin",
+    "rebel"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-di",
+      "target": "zhu-gaoxu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，永乐间数有夺嫡之谋"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-gaoxu",
+      "target": "zhu-zhanji",
+      "type": "rival",
+      "directed": false,
+      "since": 1426,
+      "notes": [
+        "汉王举兵，宣宗亲征而擒之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "诸王传",
+      "kind": "classic"
+    }
+  ]
+}

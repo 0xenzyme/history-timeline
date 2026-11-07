@@ -1,0 +1,60 @@
+{
+  "id": "jiang-ji",
+  "name": "蒋济",
+  "display": "蒋济",
+  "birthAccuracy": "unknown",
+  "death": 249,
+  "deathAccuracy": "exact",
+  "deathNote": "承嘉平元年高平陵之变系年，本传「是岁薨」。",
+  "title": "魏太尉，高平陵之变中诱曹爽交权",
+  "bio": "楚国平阿人，字子通。历仕曹操、文帝、明帝，以谋略见称；高平陵之变中为司马懿作书，许曹爽以不失富贵，爽既诛，进封都乡侯，是岁薨，谥景侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "jiang-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操主簿，后为魏太尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "蒋济",
+    "蒋子通"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·程郭董刘蒋刘传",
+      "kind": "classic"
+    }
+  ]
+}

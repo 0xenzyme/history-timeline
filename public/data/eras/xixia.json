@@ -1,0 +1,311 @@
+{
+  "id": "xixia",
+  "name": "西夏",
+  "from": 1038,
+  "to": 1227,
+  "contractVersion": 1,
+  "group": "song-liao-jin-yuan",
+  "personCount": 0,
+  "eventCount": 57,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "yuanhao-chengdi",
+      "name": "元昊称帝",
+      "display": "元昊称帝",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1038,
+      "yearAccuracy": "exact",
+      "yearNote": "夏国传系于宋宝元元年，表文写十月十一日郊坛即皇帝位、国称大夏。该日为 1038-11-10，不跨年。宋廷至宝元元年十二月才记「赵元昊反」，二年正月才收到称帝表。",
+      "polity": [
+        "xixia"
+      ],
+      "people": [
+        "li-yuanhao",
+        "zhao-zhen"
+      ],
+      "aliases": [
+        "西夏建国",
+        "天授礼法延祚"
+      ],
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia"
+      ],
+      "desc": "宋宝元元年十月十一日，李元昊郊坛即皇帝位，国号大夏，年号天授礼法延祚。宋廷到当年十二月才记「赵元昊反」，次年正月才收到称帝表。党项政权由此从封授变为敌国。西夏立国，其后的宋夏战争与和议由此而起。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "卷四百八十五",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qingli-songxia-zhanzheng",
+      "name": "庆历宋夏战争",
+      "display": "庆历宋夏",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1040,
+      "yearAccuracy": "exact",
+      "yearNote": "起于康定元年正月延州三川口。终于庆历四年十月庚寅赐誓诏（1044-10-25）；十二月乙未封夏国主为 1044-12-29，仍在 1044。",
+      "endYear": 1044,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "song",
+        "xixia"
+      ],
+      "people": [
+        "li-yuanhao",
+        "zhao-zhen",
+        "fan-zhongyan",
+        "han-qi"
+      ],
+      "result": "宋军三战皆败，庆历四年宋册元昊为夏国主，岁赐银绢茶彩二十五万五千，战事停止。",
+      "aliases": [
+        "元昊攻宋",
+        "宋夏战争"
+      ],
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia"
+      ],
+      "desc": "康定元年正月，元昊寇延州，宋夏大战起于三川口，其后好水川、定川寨宋军再败。庆历四年宋册元昊为夏国主，岁赐银绢茶彩二十五万五千，战事停止。三场会战同属这一战争，宋夏边界秩序由此改写，并以和议收场。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "卷十",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷十一",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷四百八十五",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qingli-xinzheng",
+      "name": "庆历新政",
+      "display": "庆历新政",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1043,
+      "yearAccuracy": "exact",
+      "yearNote": "庆历三年九月开天章阁，范仲淹上十事；五年正月乙酉范仲淹、富弼罢，为 1045-02-17。",
+      "endYear": 1045,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "song"
+      ],
+      "people": [
+        "fan-zhongyan",
+        "fu-bi",
+        "han-qi",
+        "ou-yangxiu",
+        "zhao-zhen"
+      ],
+      "result": "十事大多颁行，府兵法未行；主持者于庆历五年正月罢职，新法停废。",
+      "aliases": [
+        "庆历革新",
+        "song-qingli"
+      ],
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia"
+      ],
+      "desc": "庆历三年九月，仁宗开天章阁，范仲淹上十事。十事大多颁行，府兵法未行；庆历五年正月范仲淹、富弼罢职，新法停废。改革以考课、荫补、贡举和按察重组官僚任用，失败也标出北宋前期的改革上限。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "卷三百十四",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷十一",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qingli-heyi",
+      "name": "庆历和议",
+      "display": "庆历和议",
+      "kind": "point",
+      "type": "diplomatic",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1044,
+      "yearAccuracy": "exact",
+      "yearNote": "十月庚寅赐誓诏为 1044-10-25。十二月乙未封夏国主为 1044-12-29。十二月后半月才进入 1045，这两个干支日都还在 1044。",
+      "polity": [
+        "song",
+        "xixia"
+      ],
+      "people": [
+        "li-yuanhao",
+        "zhao-zhen",
+        "fan-zhongyan"
+      ],
+      "result": "元昊称臣，宋册为夏国主；岁赐银、绢、茶、彩二十五万五千；沿边开榷场，宋夏战争停止。",
+      "aliases": [
+        "宋夏庆历和约",
+        "册夏国主"
+      ],
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia"
+      ],
+      "desc": "庆历四年十月，宋赐夏誓诏，十二月封元昊为夏国主，岁赐银、绢、茶、彩二十五万五千。元昊称臣，沿边开榷场，宋夏战争停止。和议把战果写成长期岁赐和册封，宋夏边界与名分由此定型。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "卷十一",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷四百八十五",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xining-bianfa",
+      "name": "熙宁变法",
+      "display": "熙宁变法",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1069,
+      "yearAccuracy": "exact",
+      "yearNote": "熙宁二年二月庚子王安石参知政事，同月创置三司条例司。终点取元丰八年三月戊戌神宗崩，为 1085-04-01。新法成批废除在元祐，不放进本条终点。",
+      "endYear": 1085,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "song"
+      ],
+      "people": [
+        "wang-anshi",
+        "zhao-xu",
+        "sima-guang"
+      ],
+      "result": "青苗、免役、保甲、保马、方田、市易等作为一套新法施行，至神宗死仍在；元丰五年改行新官制，仍属同一改革期。",
+      "aliases": [
+        "王安石变法",
+        "熙丰新法",
+        "song-xining"
+      ],
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia"
+      ],
+      "desc": "熙宁二年二月，王安石参知政事，设制置三司条例司，议行新法。青苗、免役、保甲、保马、方田、市易等作为一套施行，元丰五年改行新官制，至神宗死仍在。赋役、兵农和中央财政的抽取方式由此改变，元丰官制仍属同一改革期。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "卷十四",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷三百二十七",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷十六",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷十七",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yuanyou-genghua",
+      "name": "元祐更化",
+      "display": "元祐更化",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1086,
+      "yearAccuracy": "disputed",
+      "yearNote": "高太后垂帘、神宗之死在元丰八年三月戊戌（1085-04-01），司马光同月后入朝，十月已罢方田。年号元祐与司马光任左仆射、八月罢青苗都在 1086。终点元祐八年九月戊寅太皇太后崩，为 1093-09-26。起点可系 1085 或 1086，不单取一边。",
+      "endYear": 1093,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "song"
+      ],
+      "people": [
+        "sima-guang",
+        "lv-gongzhu",
+        "zhao-xu-zhe"
+      ],
+      "result": "宣仁垂帘，旧党主政，青苗等新法被罢，熙丰班底退出政府。",
+      "aliases": [
+        "元祐复辟旧法"
+      ],
+      "dynasties": [
+        "liao",
+        "song",
+        "xixia"
+      ],
+      "desc": "元丰八年三月神宗崩后太皇太后垂帘，元祐元年司马光执政，罢青苗钱，复常平法。宣仁垂帘期间旧党主政，熙丰班底退出，新法成套被罢，至元祐八年九月太皇太后崩。起点可系 1085 或 1086；这是宰相、言路和法度一起换边，不是一次人事调动。",
+      "sources": [
+        {
+          "work": "宋史",
+          "part": "卷十七",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷三百三十六",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

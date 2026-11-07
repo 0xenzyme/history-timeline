@@ -1,0 +1,105 @@
+{
+  "id": "yongle-zhizhan",
+  "name": "永乐城之战",
+  "display": "永乐城之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1082,
+  "yearAccuracy": "exact",
+  "yearNote": "本纪元丰五年九月丁亥围城，戊戌城陷。戊戌为 1082-10-14。",
+  "place": "永乐城",
+  "belligerents": [
+    "song",
+    "xixia"
+  ],
+  "people": [
+    "shen-kuo",
+    "zhao-xu"
+  ],
+  "result": "城陷，徐禧、李舜举、李稷死，宋军丧师。",
+  "parent": "yuanfeng-songxia-zhanzheng",
+  "aliases": [
+    "永乐之败"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "元丰五年九月，夏人围永乐，戊戌城陷，徐禧、李舜举、李稷死，宋军丧师。这是五路伐夏之后的决定性失败，神宗因此停止西讨。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十六",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷四百八十六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shen-kuo",
+      "name": "沈括",
+      "display": "沈括",
+      "birth": 1031,
+      "birthAccuracy": "exact",
+      "death": 1095,
+      "deathAccuracy": "exact",
+      "title": "科学家，《梦溪笔谈》",
+      "bio": "杭州钱塘人，博通天文、历算、地理、工艺。使辽划界、论治边；晚年居润州梦溪园，成《梦溪笔谈》，记活字印刷、磁针诸事，为古代科技奇书。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "official",
+        "science",
+        "astronomy",
+        "craft"
+      ],
+      "primary": "science",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xu",
+      "name": "赵顼",
+      "display": "赵顼",
+      "birth": 1048,
+      "birthAccuracy": "exact",
+      "death": 1085,
+      "deathAccuracy": "exact",
+      "title": "宋神宗，熙宁变法",
+      "bio": "英宗子，即位旋用王安石变法，图强御夏。新法行之利弊相半，元丰改制官制；晚年新党内部亦生龃龉。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

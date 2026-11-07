@@ -1,0 +1,107 @@
+{
+  "id": "wangxizhi-lanting",
+  "name": "王羲之兰亭修禊",
+  "display": "王羲之兰亭修禊",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 353,
+  "yearAccuracy": "exact",
+  "yearNote": "晋穆帝永和九年（353）三月三日，王羲之与谢安、孙绰等四十一人会于会稽山阴之兰亭修禊，王羲之为序，即《兰亭集序》。《晋书》本传载其「群贤毕至，少长咸集」，与序文互证。",
+  "place": "兰亭",
+  "placeNow": "今浙江绍兴兰亭",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "wang-xizhi",
+    "xie-an"
+  ],
+  "result": "修禊雅集成千古文人风流之盛事，《兰亭集序》被尊为「天下第一行书」",
+  "aliases": [
+    "兰亭集序",
+    "兰亭序",
+    "永和九年修禊"
+  ],
+  "tags": [
+    "书法",
+    "雅集"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "永和九年（353）暮春之初，王羲之与谢安、孙绰等四十一人会于会稽山阴之兰亭，修禊事也，群贤毕至，少长咸集。此地有崇山峻岭、茂林修竹，又有清流激湍，王羲之列坐其次，引以为流觞曲水，饮酒赋诗，一觞一咏，畅叙幽情。会中各作诗四言、五言，王羲之择其文笔最佳者编次成集，并自作序——即《兰亭集序》。序中「后之视今，亦犹今之视昔」一语道出生死之叹；其书则变隶为楷、破章为草，被誉为「天下第一行书」，真迹后入唐太宗内府，摹刻传遍南北。修禊之会自此成为文人风流之象征，后世每逢上巳日皆以为节，士人临水修禊之风历代不废。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷八十·王羲之传",
+      "kind": "classic"
+    },
+    {
+      "work": "世说新语",
+      "part": "企羡",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-xizhi",
+      "name": "王羲之",
+      "display": "王羲之",
+      "birth": 303,
+      "birthAccuracy": "exact",
+      "death": 361,
+      "deathAccuracy": "exact",
+      "title": "右军将军，兰亭集序，书圣",
+      "bio": "琅邪临沂人，王导从子。起家秘书郎，为右军将军、会稽内史。永和九年与谢安、孙绰等四十一人会于会稽山阴之兰亭，修禊赋诗，其序三百二十四字，为天下第一行书。骨鲠称疾去郡，与道士许迈共修服食。升平五年卒，年五十九，赠金紫光禄大夫。",
+      "tags": [
+        "东晋",
+        "兰亭"
+      ],
+      "categories": [
+        "calligraphy",
+        "official"
+      ],
+      "primary": "calligraphy",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xie-an",
+      "name": "谢安",
+      "display": "谢安",
+      "birth": 320,
+      "birthAccuracy": "exact",
+      "death": 385,
+      "deathAccuracy": "exact",
+      "title": "太保，围棋赌墅，淝水之主",
+      "bio": "陈郡阳夏人，少有重名，累辟不起，隐居东山，与王羲之、支遁游，年四十余始出。为宰相，以静镇之，桓温死而晋室安。太元八年苻坚南下，安以谢石、谢玄八万拒之，围棋赌墅以示不惊，既捷而过户限，不觉屐齿之折。太元十年卒，年六十六。",
+      "tags": [
+        "东晋",
+        "淝水",
+        "陈郡谢氏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

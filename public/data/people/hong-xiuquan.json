@@ -1,0 +1,136 @@
+{
+  "id": "hong-xiuquan",
+  "name": "洪秀全",
+  "display": "洪秀全",
+  "birth": 1814,
+  "birthAccuracy": "exact",
+  "death": 1864,
+  "deathAccuracy": "exact",
+  "title": "太平天国",
+  "bio": "科举失意而创拜上帝会，1851 年建太平天国，席卷半壁，1864 年天京陷身死。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "warlord",
+    "rebel",
+    "falling"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "qing",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hong-xiuquan",
+      "target": "zeng-guofan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "湘军起兵，剿灭太平天国"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "seng-ge-lin-qin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "林凤祥、李开芳北伐之师为其所破"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "hu-lin-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与太平军争武昌、九江"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "yang-xiu-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "封东王，节制诸王而总理天国军政"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "yang-xiu-qing",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "逼封万岁，天京事变中被杀"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "shi-da-kai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "封翼王，金田首事诸王之一，善用兵"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "li-xiu-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "封忠王，后期支柱，经营苏福省"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "taiping-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "洪秀全传",
+      "kind": "classic"
+    }
+  ]
+}

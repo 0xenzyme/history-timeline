@@ -1,0 +1,59 @@
+{
+  "id": "zhang-shijie",
+  "name": "张世杰",
+  "display": "张世杰",
+  "birthAccuracy": "unknown",
+  "death": 1279,
+  "deathAccuracy": "exact",
+  "title": "崖山结寨的末世都统",
+  "bio": "行伍起家，焦山之战败后扈二王入海。崖山以千舰结寨自守，纵火独走，飓风坏舟，溺死于平章山下。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-bing",
+      "target": "zhang-shijie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世杰扈二王入海，在崖山以千舰结寨自守"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yashan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "张世杰传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "shaoxing-heyi",
+  "name": "绍兴和议",
+  "display": "绍兴和议",
+  "kind": "span",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1141,
+  "yearAccuracy": "exact",
+  "yearNote": "宋绍兴十一年立盟书，续资系于十一月：淮水中流、割唐邓、银绢各二十五万。金皇统二年二月曹勋许同样岁币和画淮，三月册宋帝，四月以臣宋告中外。不把整约收成无说明的1142。",
+  "endYear": 1142,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "zhao-gou",
+    "qin-hui",
+    "wanyan-zongbi"
+  ],
+  "result": "宋金以淮水中流为界，宋割唐、邓，岁奉银二十五万两、绢二十五万匹。金于次年册宋帝，并宣告宋为臣。",
+  "aliases": [
+    "皇统和议",
+    "song-shaoxing"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "绍兴十一年十一月，宋金立盟书，约以淮水中流画疆，割唐、邓，岁奉银二十五万两、绢二十五万匹。皇统二年二月，金收同样的岁币和画淮，三月册宋帝，四月以臣宋告中外。这次和议写定边界、岁币和名分，南北对峙由此稳定到1161年。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷29",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷4",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷77",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷124",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-gou",
+      "name": "赵构",
+      "display": "赵构",
+      "birth": 1107,
+      "birthAccuracy": "exact",
+      "death": 1187,
+      "deathAccuracy": "exact",
+      "title": "宋高宗，南宋开国",
+      "bio": "徽宗第九子，靖康后于南京应天府即位，南渡定都临安。任秦桧主和，杀岳飞，与金定绍兴和议，偏安江南。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "qin-hui",
+      "name": "秦桧",
+      "display": "秦桧",
+      "birth": 1090,
+      "birthAccuracy": "exact",
+      "death": 1155,
+      "deathAccuracy": "exact",
+      "title": "高宗朝权相，主和误国",
+      "bio": "江宁人，靖康被掳北去，南归后两居相位。主和议、构陷岳飞，专权十余年，天下冤之。",
+      "tags": [
+        "宋",
+        "南宋",
+        "主和"
+      ],
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zongbi",
+      "name": "完颜宗弼",
+      "display": "完颜宗弼",
+      "birthAccuracy": "unknown",
+      "death": 1148,
+      "deathAccuracy": "exact",
+      "title": "金兀术，搜山检海捉赵构",
+      "bio": "阿骨打第四子。追高宗入海，富平、和尚原诸役与宋血战，黄天荡几不得脱。后主国政，都元帅，绍兴和议金方主持人。皇统八年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "feng-shu",
+  "name": "酆舒",
+  "display": "酆舒",
+  "birthAccuracy": "unknown",
+  "death": -594,
+  "deathAccuracy": "exact",
+  "deathNote": "左传·宣公十五年（前594）晋灭赤狄潞氏，酆舒奔卫，卫人归诸晋，晋人杀之。",
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "jin-mie-lushi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "宣公十五年",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "mo-dun",
+  "name": "冒顿单于",
+  "display": "冒顿单于",
+  "birthAccuracy": "unknown",
+  "death": -174,
+  "deathAccuracy": "approx",
+  "birthNote": "生年不详",
+  "title": "匈奴单于，鸣镝弑父自立，统一草原",
+  "bio": "头曼单于太子，以鸣镝射杀其父自立。东灭东胡，西逐月氏，南并楼烦、白羊，控弦三十余万。前 200 年围高帝于白登，汉自此以和亲与匈奴相处。",
+  "tags": [
+    "白登之围",
+    "和亲"
+  ],
+  "categories": [
+    "outsider"
+  ],
+  "polity": [
+    "xiongnu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "xiongnu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "mo-dun",
+      "type": "rival",
+      "directed": false,
+      "since": -200,
+      "notes": [
+        "白登之围七日，此后汉匈以和亲相处"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "mo-dun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "冒顿嫚书之辱，汉以宗室女和亲答之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "匈奴列传"
+    }
+  ]
+}

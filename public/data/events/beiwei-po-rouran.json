@@ -1,0 +1,77 @@
+{
+  "id": "beiwei-po-rouran",
+  "name": "北魏破柔然",
+  "display": "北魏破柔然",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "campaign",
+  "importance": 1,
+  "year": 429,
+  "yearAccuracy": "exact",
+  "place": "栗水",
+  "placeNow": "今蒙古国境内（漠北）",
+  "belligerents": [
+    "bei",
+    "rouran"
+  ],
+  "commanders": [
+    {
+      "id": "tuoba-tao",
+      "side": "bei"
+    }
+  ],
+  "people": [
+    "tuoba-tao"
+  ],
+  "result": "柔然部众大溃西走，诸部降魏者数十万落，北边威胁骤减",
+  "parent": "beiwei-tongyi-beifang",
+  "aliases": [
+    "神麚北伐",
+    "太武袭柔然"
+  ],
+  "dynasties": [
+    "shiliuguo",
+    "northern-southern"
+  ],
+  "desc": "429 年（神麚二年）太武帝力排众议，舍辎重、轻骑兼马越大漠西进，至栗水。柔然可汗大檀震怖，焚烧庐舍绝迹西走，部众四散，高车诸部乘势来附。此战解除北魏统一战争的后顾之忧，也奠定此后数十年的北边形势。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "世祖纪上",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tuoba-tao",
+      "name": "拓跋焘",
+      "display": "太武帝拓跋焘",
+      "birth": 408,
+      "birthAccuracy": "exact",
+      "death": 452,
+      "deathAccuracy": "exact",
+      "title": "北魏太武帝，统一北方，灭佛",
+      "bio": "鲜卑拓跋部人，明元帝长子。在位连灭夏、北燕、北凉，击柔然、通西域，北方一统。太延中征江南，至瓜步而还，江左震动。太平真君七年诏尽诛沙门、毁诸佛像塔寺，为中国佛教三武之祸之始。正平二年为中常侍宗爱所弑，年四十五。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,106 @@
+{
+  "id": "hanyuan-zhizhan",
+  "name": "韩原之战",
+  "display": "韩原之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -645,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·僖公十五年》「十有一月壬戌，晉侯及秦伯戰于韓，獲晉侯」；《史記·秦本紀》繆公十五年（前645）九月壬戌合戰韓地、《晉世家》惠公六年同。經系十一月、傳與史記系九月，月分記法有差而同年。",
+  "place": "韓（韩原）",
+  "placeNow": "今山西河津、万荣之间（一说今陕西韩城境）",
+  "belligerents": [
+    "jin-guo",
+    "qin"
+  ],
+  "commanders": [
+    {
+      "id": "ying-renhao",
+      "side": "qin"
+    },
+    {
+      "id": "jin-huigong",
+      "side": "jin-guo"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "晋惠公背秦之约、秦饥不予粟反谋伐秦；秦穆公亲征，战于韩原，晋戎马还泞而止，惠公被虏；穆公夫人（晋女）衰绖涕泣，秦以七牢礼归晋侯，晋献河西之地、太子圉入质。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷13",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷005·秦本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-renhao",
+      "name": "嬴任好",
+      "display": "秦穆公",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "exact",
+      "title": "秦国霸西戎之君",
+      "bio": "用百里奚、蹇叔。三置晋君，殽之败后悔过。东向受阻于晋，转而霸西戎。他的条与晋文公大半重叠，争的是同一代中原。",
+      "tags": [
+        "秦国",
+        "霸西戎"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jin-huigong",
+      "name": "姬夷吾",
+      "display": "晋惠公",
+      "birthAccuracy": "unknown",
+      "death": -637,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王十五年，晋惠公卒，子怀公圉立」。",
+      "title": "骊姬之乱后即位十四年，为秦所立",
+      "bio": "献公之子，骊姬所生。献公卒，骊姬使里克杀奚齐、卓子而立夷吾，惠公既立而诛里克等三郤，晋国内乱。前637年卒，十四年在位。子怀公圉立。",
+      "tags": [
+        "骊姬之乱",
+        "三郤之乱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

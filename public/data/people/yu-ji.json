@@ -1,0 +1,55 @@
+{
+  "id": "yu-ji",
+  "name": "虞集",
+  "display": "虞集",
+  "birth": 1272,
+  "birthAccuracy": "exact",
+  "death": 1348,
+  "deathAccuracy": "exact",
+  "title": "道园先生，一代文章宗匠",
+  "bio": "字伯生，号道园，蜀郡人，宋相虞允文五世孙。官至翰林直学士兼国子祭酒，总裁《经世大典》；1348 年卒，年七十七。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "literature",
+    "scholar"
+  ],
+  "primary": "literature",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jie-xisi",
+      "target": "yu-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为奎章阁词臣，一时文章之冠"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "虞集传",
+      "kind": "classic"
+    }
+  ]
+}

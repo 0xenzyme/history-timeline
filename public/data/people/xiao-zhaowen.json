@@ -1,0 +1,60 @@
+{
+  "id": "xiao-zhaowen",
+  "name": "萧昭文",
+  "display": "海陵王萧昭文",
+  "birth": 480,
+  "birthAccuracy": "approx",
+  "death": 494,
+  "deathAccuracy": "exact",
+  "birthNote": "建武元年殒，年十五，上推生年。",
+  "title": "南齐海陵王，建武元年被杀",
+  "bio": "降封海陵王后，建武元年十一月称有疾，数遣御师占视，随即被害，年十五。",
+  "tags": [
+    "南北朝",
+    "南齐"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiao-ze",
+      "target": "xiao-zhaowen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙；齐武帝萧赜之孙，郁林王弟，即位四月为萧鸾所废"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "萧昭文",
+    "海陵王"
+  ],
+  "sources": [
+    {
+      "work": "南齐书",
+      "part": "海陵王纪",
+      "kind": "classic"
+    }
+  ]
+}

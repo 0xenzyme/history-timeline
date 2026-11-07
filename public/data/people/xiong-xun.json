@@ -1,0 +1,87 @@
+{
+  "id": "xiong-xun",
+  "name": "熊徇",
+  "display": "楚熊徇",
+  "birthAccuracy": "unknown",
+  "death": -800,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：熊徇十六年郑桓公初封，二十二年卒。桓公封当宣王二十二年，下推六年当 -800。",
+  "title": "楚熊徇",
+  "bio": "熊严少子。熊霜卒，少弟季徇立。二十二年卒。",
+  "tags": [
+    "楚"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-xun",
+      "target": "xiong-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。少子季徇"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-shuang",
+      "target": "xiong-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。少弟季徇立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-e",
+      "target": "xiong-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "熊徇",
+    "季徇",
+    "季紃"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    }
+  ]
+}

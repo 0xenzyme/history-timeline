@@ -1,0 +1,58 @@
+{
+  "id": "gao-shi",
+  "name": "高适",
+  "display": "高适",
+  "birthAccuracy": "unknown",
+  "death": 765,
+  "deathAccuracy": "exact",
+  "title": "边塞诗人，永泰元年卒",
+  "bio": "渤海蓨人。代宗时继崔光远为成都尹、剑南西川节度使。寻召还，为刑部侍郎，迁散骑常侍。永泰元年正月卒，谥曰忠。",
+  "tags": [
+    "唐",
+    "诗"
+  ],
+  "categories": [
+    "poetry",
+    "general"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以适代崔光远为西川节度，永泰元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高适"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高适传",
+      "kind": "classic"
+    }
+  ]
+}

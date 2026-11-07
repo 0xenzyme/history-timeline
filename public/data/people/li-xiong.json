@@ -1,0 +1,87 @@
+{
+  "id": "li-xiong",
+  "name": "李雄",
+  "display": "李雄",
+  "birth": 274,
+  "birthAccuracy": "approx",
+  "death": 334,
+  "deathAccuracy": "disputed",
+  "birthNote": "咸和九年（334）卒，年六十一，虚岁上推生年。",
+  "deathNote": "载记系咸和八年（333）；华阳国志、通鉴并系九年六月，胡三省注已辨载记之误，从九年。",
+  "title": "成汉之帝，十六国中的守成之主",
+  "bio": "李特第三子，字仲儁。特败死后与叔父流转战，攻克成都，据蜀僭称成都王，既而即皇帝位，国号大成，史称成汉。性宽厚，简刑法，减赋役，虚己爱人，蜀中大安。咸和九年六月生疡于头而卒，年六十一，子班立而乱作。",
+  "tags": [
+    "十六国",
+    "成汉",
+    "蜀"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-te",
+      "target": "li-xiong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。特败死，雄卒成帝业"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chenghan-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "li-te-liumin-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李雄",
+    "李仲儁"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "李雄载记",
+      "kind": "classic"
+    },
+    {
+      "work": "华阳国志",
+      "part": "卷九·李特雄期寿势志",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷九十五",
+      "kind": "classic"
+    }
+  ]
+}

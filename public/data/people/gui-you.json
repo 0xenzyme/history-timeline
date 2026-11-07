@@ -1,0 +1,66 @@
+{
+  "id": "gui-you",
+  "name": "贵由",
+  "display": "贵由",
+  "birth": 1206,
+  "birthAccuracy": "exact",
+  "death": 1248,
+  "deathAccuracy": "exact",
+  "title": "元定宗，1246—1248 年在位",
+  "bio": "窝阔台长子。定宗在位仅两年而崩，其后由窝阔台系转入拖雷系，蒙哥即位，蒙古汗位从此在拖雷子孙间承袭。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gui-you",
+      "target": "wo-kuo-tai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "gui-you",
+      "target": "meng-ge",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "定宗之后汗位由窝阔台系转入拖雷系"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "定宗纪",
+      "kind": "classic"
+    }
+  ]
+}

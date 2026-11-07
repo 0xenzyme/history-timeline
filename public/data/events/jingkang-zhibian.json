@@ -1,0 +1,211 @@
+{
+  "id": "jingkang-zhibian",
+  "name": "靖康之变",
+  "display": "靖康之变",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 1125,
+  "yearAccuracy": "exact",
+  "yearNote": "金史天会三年十月甲辰诏诸将伐宋，为 1125-11-03。宋纪把分道入攻、禅位写在宣和七年十二月：己酉为 1126-01-07，庚申禅位为 1126-01-18，辛酉钦宗即位为 1126-01-19。起点取金军受诏出兵的 1125，不取已经入 1126 的禅位日。终点靖康二年四月庚申朔二帝北迁，为 1127-05-13。",
+  "endYear": 1127,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "zhao-ji",
+    "zhao-huan",
+    "wanyan-zonghan",
+    "wanyan-zongwang",
+    "li-gang",
+    "chong-shidao"
+  ],
+  "result": "金军两路攻入，开封陷落，徽钦二帝北迁，北宋灭亡。",
+  "aliases": [
+    "靖康之难",
+    "靖康之祸",
+    "金灭北宋",
+    "song-jingkang"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "天会三年十月，金诏诸将伐宋，宗翰、宗望分两路攻入。开封陷落，靖康二年四月庚申朔，金人以徽、钦二帝北归，法驾礼器与府库为一空。北宋灭亡，政权存亡由此改变。",
+  "sources": [
+    {
+      "work": "金史",
+      "part": "卷三",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷二十二",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷二十三",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-ji",
+      "name": "赵佶",
+      "display": "赵佶",
+      "birth": 1082,
+      "birthAccuracy": "exact",
+      "death": 1135,
+      "deathAccuracy": "exact",
+      "title": "宋徽宗，书画皇帝",
+      "bio": "神宗子，工书画、创瘦金体，宠蔡京等倡花石纲，朝政日非。宣和末金兵南下，传位钦宗；靖康被掳，卒于五国城。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "calligraphy",
+        "painting",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-huan",
+      "name": "赵桓",
+      "display": "宋钦宗赵桓",
+      "birth": 1100,
+      "birthAccuracy": "exact",
+      "death": 1156,
+      "deathAccuracy": "exact",
+      "title": "靖康之祸，北宋亡",
+      "bio": "徽宗长子，宣和七年受禅。靖康元年金兵两度围汴，父子被俘北去，北宋亡，后卒于五国城。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zonghan",
+      "name": "完颜宗翰",
+      "display": "完颜宗翰",
+      "birth": 1080,
+      "birthAccuracy": "approx",
+      "death": 1137,
+      "deathAccuracy": "exact",
+      "birthNote": "生年约1080。",
+      "title": "粘罕，靖康之变的西路主帅",
+      "bio": "国相撒改之子，金初军政第一人。西路攻太原、下汴京，掳徽钦二帝；后立刘豫、议礼制度。天会十五年以谋反名下狱死。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zongwang",
+      "name": "完颜宗望",
+      "display": "完颜宗望",
+      "birthAccuracy": "unknown",
+      "death": 1127,
+      "deathAccuracy": "exact",
+      "title": "二太子，东路破汴的主帅",
+      "bio": "阿骨打次子，人称「二太子」。东路军自燕南下，渡河破汴，靖康之变掳二帝北归。次年六月卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-gang",
+      "name": "李纲",
+      "display": "李纲",
+      "birth": 1083,
+      "birthAccuracy": "exact",
+      "death": 1140,
+      "deathAccuracy": "exact",
+      "title": "抗金首相，守汴主战",
+      "bio": "邵武人，靖康初力主固守汴京、抗金迎驾。高宗即位首拜相，旬日而罢；一生主战，数起数黜。",
+      "tags": [
+        "宋",
+        "南宋",
+        "抗金"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chong-shidao",
+      "name": "种师道",
+      "display": "种师道",
+      "birth": 1051,
+      "birthAccuracy": "exact",
+      "death": 1126,
+      "deathAccuracy": "exact",
+      "title": "西军宿将，靖康前的最后屏障",
+      "bio": "种世衡之孙，边功卓著，人称「老种经略」。金人入寇，力主坚守勿轻战，议未行。靖康元年卒，年七十六，金人闻之亦叹。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

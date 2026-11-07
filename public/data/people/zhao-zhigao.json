@@ -1,0 +1,67 @@
+{
+  "id": "zhao-zhigao",
+  "name": "赵志皋",
+  "display": "赵志皋",
+  "birthAccuracy": "unknown",
+  "death": 1601,
+  "deathAccuracy": "exact",
+  "deathNote": "万历二十九年秋卒于邸舍。",
+  "title": "万历首辅",
+  "bio": "兰溪人。万历十九年入阁，次年暂居首辅。在告四年，二十九年秋卒于邸舍。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "zhao-zhigao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历十九年入阁，二十九年卒于邸舍"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "chen-yubi",
+      "target": "zhao-zhigao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与赵志皋、张位、沈一贯同在内阁，悉心受过而早卒于位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "赵志皋传",
+      "kind": "classic"
+    }
+  ]
+}

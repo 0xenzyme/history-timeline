@@ -1,0 +1,107 @@
+{
+  "id": "tumu-zhibian",
+  "name": "土木之变",
+  "display": "土木之变",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1449,
+  "yearAccuracy": "exact",
+  "yearNote": "正统十四年八月壬戌。",
+  "place": "土木堡",
+  "belligerents": [
+    "ming",
+    "mongol"
+  ],
+  "commanders": [
+    {
+      "id": "zhu-qizhen",
+      "side": "ming"
+    },
+    {
+      "id": "ye-xian",
+      "side": "mongol"
+    }
+  ],
+  "result": "明军大溃，英宗被俘",
+  "aliases": [
+    "土木堡"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "正统十四年八月辛酉，明军次土木被围，壬戌师溃，死者数十万，英宗北狩。也先是瓦剌首领，词表没有瓦剌，交战方用 mongol，不写作元朝。北京保卫不并入本条。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷十",
+      "note": "正统十四年八月辛酉次土木被围，壬戌师溃，帝北狩",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "卷三百二十八",
+      "note": "也先追及土木，六军大溃，帝蒙尘",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-qizhen",
+      "name": "朱祁镇",
+      "display": "明英宗朱祁镇",
+      "birth": 1427,
+      "birthAccuracy": "exact",
+      "death": 1464,
+      "deathAccuracy": "exact",
+      "title": "土木堡被俘的皇帝",
+      "bio": "九岁即位，宠王振酿土木堡之变，为瓦剌所俘；归后幽禁南宫，复辟杀于谦。两度在位，命运独奇。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ye-xian",
+      "name": "也先",
+      "display": "也先",
+      "birthAccuracy": "unknown",
+      "death": 1454,
+      "deathAccuracy": "disputed",
+      "deathNote": "《明史》瓦剌传记其为阿剌知院所攻而死，事在景泰五年（一四五四）前后。",
+      "title": "土木之役的另一方",
+      "bio": "瓦剌脱懽之子。1449 年入寇，土木堡俘明英宗而进围北京；后杀蒙古可汗自立，不数为其部下所杀。",
+      "tags": [
+        "明",
+        "漠北"
+      ],
+      "categories": [
+        "outsider",
+        "warlord"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "mongol"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

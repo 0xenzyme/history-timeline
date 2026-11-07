@@ -1,0 +1,118 @@
+{
+  "id": "wei-zhongxian",
+  "name": "魏忠贤",
+  "display": "魏忠贤",
+  "birth": 1568,
+  "birthAccuracy": "exact",
+  "death": 1627,
+  "deathAccuracy": "exact",
+  "title": "天启阉党",
+  "bio": "河间无赖，入宫攀附客氏，得熹宗信，自称九千岁，遍建生祠、罗织东林。崇祯即位，逮治自缢。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "eunuch",
+    "regent",
+    "falling"
+  ],
+  "primary": "eunuch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-zhongxian",
+      "target": "zhu-youjian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "即位即逮治魏忠贤"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wei-zhongxian",
+      "target": "ye-xianggao",
+      "type": "rival",
+      "directed": false,
+      "since": 1624,
+      "notes": [
+        "拂忠贤之意而去位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wei-zhongxian",
+      "target": "yang-lian",
+      "type": "rival",
+      "directed": false,
+      "since": 1624,
+      "notes": [
+        "涟上二十四罪疏，遂死于诏狱"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "gu-xiancheng",
+      "target": "wei-zhongxian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "东林之榜既出，身后仍遭追削"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "liu-zongzhou",
+      "target": "wei-zhongxian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "疏劾魏忠贤而被停俸削籍，归里讲学遂成蕺山之学"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ruan-dacheng",
+      "target": "wei-zhongxian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天启间投依阉党，崇祯初坐逆案削籍，居南京以戏曲自饰"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "宦官传",
+      "kind": "classic"
+    }
+  ]
+}

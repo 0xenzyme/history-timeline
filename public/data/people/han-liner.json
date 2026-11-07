@@ -1,0 +1,85 @@
+{
+  "id": "han-liner",
+  "name": "韩林儿",
+  "display": "韩林儿",
+  "birthAccuracy": "unknown",
+  "death": 1367,
+  "deathAccuracy": "exact",
+  "title": "小明王，龙凤之号",
+  "bio": "自称韩山童之子。1355 年刘福通迎立于亳州，号小明王，国号宋，改元龙凤；朱元璋受其官爵、用其年号十余年。1366 年迎居滁州，次年舟覆死于瓜步。",
+  "tags": [
+    "元",
+    "红巾"
+  ],
+  "categories": [
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-liner",
+      "target": "han-shantong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，山童死后林儿被奉为宋主"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-futong",
+      "target": "han-liner",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "1355 年立林儿为小明王，建号龙凤"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "han-liner",
+      "target": "zhu-yuanzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "朱元璋受其官爵、用其龙凤年号十余年"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hongjin-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "韩林儿传",
+      "kind": "classic"
+    }
+  ]
+}

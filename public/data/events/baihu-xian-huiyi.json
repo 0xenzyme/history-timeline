@@ -1,0 +1,89 @@
+{
+  "id": "baihu-xian-huiyi",
+  "name": "白虎观会议",
+  "display": "白虎观会议",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 79,
+  "yearAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "liu-da",
+    "ban-gu"
+  ],
+  "result": "章帝会诸儒于白虎观议定经义异同，班固编次奏议为《白虎通义》，官定经学与三纲六纪之说自此归一",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "建初四年（79）汉章帝仿西汉石渠阁故事，会诸儒于洛阳白虎观讲议五经同异，章帝亲临裁决其义，命班固等编集奏议为《白虎通义》。会议调和今文经学内部异说并兼采古文经义，把三纲六纪、君臣父子之名分定为官学定本。白虎观会议使经学解释由私家章句转为朝廷裁定，是汉代经学统一与儒术国教化的重要节点。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "章帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "白虎通义",
+      "part": "全书",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-da",
+      "name": "刘炟",
+      "display": "汉章帝",
+      "birth": 57,
+      "birthAccuracy": "exact",
+      "death": 88,
+      "deathAccuracy": "exact",
+      "title": "东汉章帝，宽厚长者，白虎观会议",
+      "bio": "明帝第五子。性宽容，禁苛切之政，罢盐铁之禁。建初四年会诸儒于白虎观，论定五经同异，命班固撰《白虎通义》。明章之治止于此，之后外戚与宦官交替。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "classics"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ban-gu",
+      "name": "班固",
+      "display": "班固",
+      "birth": 32,
+      "birthAccuracy": "exact",
+      "death": 92,
+      "deathAccuracy": "exact",
+      "title": "《汉书》作者，兰台令史",
+      "bio": "扶风安陵人，班彪之子，班昭之兄。续父志作《汉书》，历二十余年。从窦宪击匈奴，为中护军；宪败，受牵连死于狱中，《汉书》未成部分由妹昭续作。",
+      "tags": [
+        "东汉",
+        "兰台"
+      ],
+      "categories": [
+        "historian"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

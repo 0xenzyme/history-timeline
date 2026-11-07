@@ -1,0 +1,78 @@
+{
+  "id": "liu-jian",
+  "name": "刘健",
+  "display": "刘健",
+  "birth": 1433,
+  "birthAccuracy": "exact",
+  "death": 1526,
+  "deathAccuracy": "exact",
+  "title": "李公谋，刘公断",
+  "bio": "字希贤，洛阳人。弘治中与谢迁、李东阳同心辅政，时称李公谋、刘公断; 正德初请诛八虎不遂，致仕归。1526 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youtang",
+      "target": "liu-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘治辅政之臣，时称刘公断"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-dongyang",
+      "target": "liu-jian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为顾命之臣，同心辅政"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "liu-jian",
+      "target": "xie-qian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同辅孝宗，刘瑾矫旨把二人一起除名"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "刘健传",
+      "kind": "classic"
+    }
+  ]
+}

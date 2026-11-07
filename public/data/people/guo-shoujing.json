@@ -1,0 +1,75 @@
+{
+  "id": "guo-shoujing",
+  "name": "郭守敬",
+  "display": "郭守敬",
+  "birth": 1231,
+  "birthAccuracy": "exact",
+  "death": 1316,
+  "deathAccuracy": "exact",
+  "title": "天文学家，授时历",
+  "bio": "邢台人，师事刘秉忠。制简仪、高表，行四海测验；依实测修《授时历》，岁实密近今测，行用三百余年。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "official",
+    "science",
+    "astronomy"
+  ],
+  "primary": "astronomy",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xu-heng",
+      "target": "guo-shoujing",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "衡荐守敬习历算，遂有大业"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "guo-shoujing",
+      "target": "zhang-wenqian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "共董水利之役，荐守敬于朝"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huitong-tonghui-he",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "郭守敬传",
+      "kind": "classic"
+    }
+  ]
+}

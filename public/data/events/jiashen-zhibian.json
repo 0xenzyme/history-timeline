@@ -1,0 +1,113 @@
+{
+  "id": "jiashen-zhibian",
+  "name": "甲申之变",
+  "display": "甲申之变",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1644,
+  "yearAccuracy": "exact",
+  "yearNote": "崇祯十七年三月丁未。",
+  "place": "北京",
+  "belligerents": [
+    "ming",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "li-zicheng",
+      "side": "minbian"
+    },
+    {
+      "id": "zhu-youjian",
+      "side": "ming"
+    }
+  ],
+  "result": "崇祯死于万岁山，北京的明朝朝廷结束",
+  "parent": "mingmo-minbian",
+  "aliases": [
+    "甲申",
+    "崇祯殉国"
+  ],
+  "dynasties": [
+    "ming",
+    "qing"
+  ],
+  "desc": "崇祯十七年三月丁未，李自成陷北京内城，崇祯帝崩于万岁山，明史写明亡。清史稿记顺治元年三月流贼陷燕京，明帝自经。清军入关另条，不并入。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二十四",
+      "note": "崇祯十七年三月丁未帝崩于万岁山，明亡",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷四",
+      "note": "顺治元年三月李自成陷燕京，明帝自经",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-zicheng",
+      "name": "李自成",
+      "display": "李自成",
+      "birth": 1606,
+      "birthAccuracy": "exact",
+      "death": 1645,
+      "deathAccuracy": "exact",
+      "title": "闯王，灭明",
+      "bio": "米脂驿卒，从闯王高迎祥起事，迎祥死后代领其众。均田免赋，众至百万；1644 破北京，旋为吴三桂引清兵败于山海关。",
+      "tags": [
+        "明",
+        "民变"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "ming",
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-youjian",
+      "name": "朱由检",
+      "display": "明思宗朱由检",
+      "birth": 1611,
+      "birthAccuracy": "exact",
+      "death": 1644,
+      "deathAccuracy": "exact",
+      "title": "崇祯皇帝，明亡之君",
+      "bio": "兄熹宗崩嗣位，诛魏忠贤，勤于政事而刚愎多疑，频换阁部、自毁长城。1644 年李自成破京，自缢煤山。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

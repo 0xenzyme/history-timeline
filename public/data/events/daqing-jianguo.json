@@ -1,0 +1,66 @@
+{
+  "id": "daqing-jianguo",
+  "name": "改国号大清",
+  "display": "改国号大清",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1636,
+  "yearAccuracy": "exact",
+  "yearNote": "崇德元年夏四月乙酉。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "hong-taiji"
+  ],
+  "result": "定国号大清，改元崇德",
+  "aliases": [
+    "崇德改元"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "崇德元年夏四月乙酉，皇太极定有天下之号曰大清，改元崇德。汗号由此改成皇帝名号。这一条只收一六三六年改号，一六一六年建元天命仍是另一事件。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷三",
+      "note": "定有天下之號曰大清，改元崇德",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hong-taiji",
+      "name": "皇太极",
+      "display": "皇太极",
+      "birth": 1592,
+      "birthAccuracy": "exact",
+      "death": 1643,
+      "deathAccuracy": "exact",
+      "title": "改国号为清",
+      "bio": "努尔哈赤第八子，继位后改族名满洲、国号大清，称帝南略，收服漠南蒙古。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

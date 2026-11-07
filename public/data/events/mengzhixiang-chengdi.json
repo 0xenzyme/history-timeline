@@ -1,0 +1,104 @@
+{
+  "id": "mengzhixiang-chengdi",
+  "name": "后蜀建立",
+  "display": "后蜀建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 934,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷278系应顺元年（934）闰正月：蜀将吏劝蜀王知祥称帝，\"己巳，知祥即皇帝位于成都\"；新五代史卷64同（\"十一月，明宗崩。明年闰正月，知祥乃即皇帝位\"）。旧五代史卷46载其致后唐书自称\"以今年四月十二日即皇帝位\"，两说并存，从通鉴/新五代史系闰正月。",
+  "polity": [
+    "houshu"
+  ],
+  "people": [
+    "meng-zhixiang",
+    "meng-chang"
+  ],
+  "result": "孟知祥并东川后称帝建后蜀，同年卒、子孟昶继位，后蜀偏安至 965 年亡于宋。",
+  "aliases": [
+    "孟知祥称帝",
+    "后蜀建国"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "934 年闰正月己巳，孟知祥并东川后即皇帝位于成都，建后蜀。同年孟知祥卒，子孟昶继位，后蜀偏安至 965 年亡于宋。孟知祥致后唐书自称\"以今年四月十二日即皇帝位\"，与闰正月说并存，本条从通鉴、新五代史系闰正月。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷278",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷64",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷46",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "meng-zhixiang",
+      "name": "孟知祥",
+      "display": "后蜀高祖",
+      "birth": 874,
+      "birthAccuracy": "approx",
+      "death": 934,
+      "deathAccuracy": "exact",
+      "birthNote": "明德元年七月崩于成都，年六十一，上推生年。",
+      "title": "后蜀高祖，以留后而帝西川",
+      "bio": "邢州龙冈人，李克用之婿。庄宗灭蜀，以为西川行营招抚使，既入蜀，收用故将，恩威并行，渐成割据。同光之乱不复问中原，明宗不能制，累封蜀王。长兴末即皇帝位，未几而崩。",
+      "tags": [
+        "十国",
+        "后蜀"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "meng-chang",
+      "name": "孟昶",
+      "display": "后蜀后主",
+      "birth": 919,
+      "birthAccuracy": "exact",
+      "death": 965,
+      "deathAccuracy": "exact",
+      "title": "后蜀后主，芙蓉锦城，桃符留句",
+      "bio": "知祥之子，嗣位逾四十年。初政恭俭，有小国之治；后期奢纵，罗城尽种芙蓉，七宝楼船之盛甲于诸国，亲书桃符\"新年纳余庆，嘉节号长春\"，为后世春联之祖。广政二十七年宋师入，不战而降，至汴七日而卒。",
+      "tags": [
+        "十国",
+        "后蜀"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

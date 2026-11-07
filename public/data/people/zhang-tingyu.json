@@ -1,0 +1,79 @@
+{
+  "id": "zhang-tingyu",
+  "name": "张廷玉",
+  "display": "张廷玉",
+  "birth": 1672,
+  "birthAccuracy": "exact",
+  "death": 1755,
+  "deathAccuracy": "exact",
+  "title": "三朝元辅",
+  "bio": "康熙进士，历事康雍乾三朝，掌机要、修典制，配享太庙，汉臣所稀。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "official",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yong-zheng",
+      "target": "zhang-tingyu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "信任元辅，配享太庙"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "e-er-tai",
+      "target": "zhang-tingyu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同受世宗顾命，高宗初并相"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "liu-tongxun",
+      "target": "zhang-tingyu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "相继为军机，廷玉配享太庙而统勋以清节称"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "张廷玉传",
+      "kind": "classic"
+    }
+  ]
+}

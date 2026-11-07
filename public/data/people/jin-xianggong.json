@@ -1,0 +1,77 @@
+{
+  "id": "jin-xianggong",
+  "name": "晋襄公",
+  "display": "晋襄公",
+  "birthAccuracy": "unknown",
+  "death": -621,
+  "deathAccuracy": "exact",
+  "deathNote": "今本竹书纪年·晋纪「襄王三十一年，晋襄公卒」。史记·晋世家未记其卒年。",
+  "title": "文公之子，守成七年",
+  "bio": "文公之子。文公殽之战后归国即位，七年。前621年卒。此后晋国进入栾书、郤缺、孙伯懋主政的时期。",
+  "tags": [
+    "文公之后",
+    "守成之君"
+  ],
+  "categories": [
+    "monarch",
+    "vassal"
+  ],
+  "primary": "vassal",
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jian-shu",
+      "target": "jin-xianggong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "秦师袭郑过晋境，蹇叔哭送而秦穆公不纳；襄公败秦师于殽，三将见获"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ji-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xiao-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "晋襄公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ]
+}

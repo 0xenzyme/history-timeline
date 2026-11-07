@@ -1,0 +1,98 @@
+{
+  "id": "ji-yuchen",
+  "name": "姬余臣",
+  "display": "携王",
+  "birthAccuracy": "unknown",
+  "death": -750,
+  "deathAccuracy": "exact",
+  "deathNote": "今本竹书：晋文侯二十一年杀王子余臣于携。史记不载。",
+  "title": "携王，虢公翰所立",
+  "bio": "幽王子。竹书：申侯等立宜臼于申，虢公翰立王子余臣于携。晋文侯杀余臣于携。史记不载。",
+  "tags": [
+    "二王并立"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "king"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yuchen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。竹书：虢公翰立余臣于携"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-yuchen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "镐京之后二王并立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "guo-han",
+      "target": "ji-yuchen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "虢公翰立王子余臣于携"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chou",
+      "target": "ji-yuchen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "竹书：晋文侯杀王子余臣于携"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王子余臣",
+    "携王"
+  ],
+  "sources": [
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ]
+}

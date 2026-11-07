@@ -1,0 +1,73 @@
+{
+  "id": "bo-yan-quanchen",
+  "name": "伯颜",
+  "display": "伯颜",
+  "birthAccuracy": "unknown",
+  "death": 1340,
+  "deathAccuracy": "exact",
+  "title": "顺帝初专国之相",
+  "bio": "蔑儿乞氏，答剌罕。顺帝即位后独秉国政，请停科举、禁汉人兵器，势焰逼主；1340 年帝与脱脱定计逐之，卒于贬所。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "regent"
+  ],
+  "primary": "regent",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bo-yan-quanchen",
+      "target": "shun-di",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顺帝初独秉国政，请停科举、收南人兵器"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bo-yan-quanchen",
+      "target": "tuo-tuo",
+      "type": "rival",
+      "directed": false,
+      "since": 1340,
+      "notes": [
+        "与帝定计逐伯颜，遂代总中书"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sidai-hanguo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "伯颜传",
+      "kind": "classic"
+    }
+  ]
+}

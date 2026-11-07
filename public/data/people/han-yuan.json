@@ -1,0 +1,58 @@
+{
+  "id": "han-yuan",
+  "name": "韩瑗",
+  "display": "韩瑗",
+  "birth": 606,
+  "birthAccuracy": "exact",
+  "death": 659,
+  "deathAccuracy": "exact",
+  "title": "显庆四年卒官，年五十四",
+  "bio": "高宗朝侍中。显庆二年贬振州，四年卒官，年五十四。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "han-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗朝为侍中，显庆四年卒于贬所"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "韩瑗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "韩瑗传",
+      "kind": "classic"
+    }
+  ]
+}

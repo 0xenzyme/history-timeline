@@ -1,0 +1,58 @@
+{
+  "id": "li-ji-fu",
+  "name": "李吉甫",
+  "display": "李吉甫",
+  "birth": 758,
+  "birthAccuracy": "exact",
+  "death": 814,
+  "deathAccuracy": "exact",
+  "title": "元和九年卒，年五十七",
+  "bio": "宪宗朝中书侍郎同平章事。元和九年冬暴病卒，年五十七。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-chun",
+      "target": "li-ji-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宪宗朝为相，元和九年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李吉甫"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李吉甫传",
+      "kind": "classic"
+    }
+  ]
+}

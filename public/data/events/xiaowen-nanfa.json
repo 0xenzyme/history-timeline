@@ -1,0 +1,76 @@
+{
+  "id": "xiaowen-nanfa",
+  "name": "孝文帝南伐",
+  "display": "孝文南伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "war",
+  "importance": 1,
+  "year": 497,
+  "yearAccuracy": "exact",
+  "yearNote": "以太和二十一年（497）至二十三年（499）沔北—宛城—新野—马圈之役为主体；499 年孝文帝卒于军中。",
+  "endYear": 499,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "bei",
+    "nan"
+  ],
+  "commanders": [
+    {
+      "id": "yuan-hong",
+      "side": "bei"
+    }
+  ],
+  "people": [
+    "yuan-hong"
+  ],
+  "result": "魏取沔北诸郡，孝文帝卒于军中，南征遂止",
+  "aliases": [
+    "太和南征"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "太和二十一年（497）孝文帝亲率大军攻齐，夜袭宛城、围新野，大破齐军于沔北；二十三年再举，破齐将陈显达于马圈，孝文帝病笃北还，卒于途中。魏齐边界战争自此开启，孝文身后北魏政局随之转入动荡。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "高祖纪下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuan-hong",
+      "name": "元宏",
+      "display": "孝文帝元宏",
+      "birth": 467,
+      "birthAccuracy": "exact",
+      "death": 499,
+      "deathAccuracy": "exact",
+      "title": "北魏孝文帝，改汉姓、迁洛阳",
+      "bio": "鲜卑拓跋部人，本姓拓跋，献文帝长子。太和十四年亲政，十七年以南伐为名迁都洛阳，禁胡语胡服，改拓跋为元，定姓族、通婚姻、改制度，鲜卑尽化于汉。又数亲征南齐，不得志而还。太和二十三年崩于谷塘原，年三十三，太子恪立。",
+      "tags": [
+        "北朝",
+        "北魏",
+        "汉化"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

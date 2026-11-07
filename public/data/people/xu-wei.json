@@ -1,0 +1,56 @@
+{
+  "id": "xu-wei",
+  "name": "徐渭",
+  "display": "徐渭",
+  "birth": 1521,
+  "birthAccuracy": "exact",
+  "death": 1593,
+  "deathAccuracy": "exact",
+  "title": "青藤道士，奇崛不偶",
+  "bio": "字文长，山阴人。入胡宗宪幕代草章奏，颇知兵事；幕散后系狱发狂，晚岁鬻书画为生，自谓书第一文次之。1593 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "literature",
+    "painting",
+    "calligraphy"
+  ],
+  "primary": "literature",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xu-wei",
+      "target": "hu-zongxian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入其幕府，代草章奏而亲见倭事"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "文苑传",
+      "kind": "classic"
+    }
+  ]
+}

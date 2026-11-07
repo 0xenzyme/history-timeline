@@ -1,0 +1,70 @@
+{
+  "id": "rui-liangfu",
+  "name": "芮良夫",
+  "display": "芮良夫",
+  "birthAccuracy": "unknown",
+  "death": -841,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。谏厉王专利在国人暴动前，其后无记载，取暴动年为可见下限。",
+  "title": "厉王卿士，谏专利",
+  "bio": "厉王近荣夷公、专山泽之利，芮良夫以荣公专利必败为谏。王不听。国人暴动后其人从轴上消失，只留下这一谏。",
+  "tags": [
+    "谏诤"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-hu",
+      "target": "rui-liangfu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "谏厉王专利"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "rong-yigong",
+      "target": "rui-liangfu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "芮良夫谏荣公专利"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "国语",
+      "part": "周语上",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

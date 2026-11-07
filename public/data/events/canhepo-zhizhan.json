@@ -1,0 +1,106 @@
+{
+  "id": "canhepo-zhizhan",
+  "name": "参合陂之战",
+  "display": "参合陂之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 395,
+  "yearAccuracy": "exact",
+  "place": "参合陂",
+  "placeNow": "今内蒙古凉城东北",
+  "belligerents": [
+    "bei",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "tuoba-gui",
+      "side": "bei"
+    },
+    {
+      "id": "murong-baiyao",
+      "side": "shiliuguo"
+    }
+  ],
+  "result": "后燕精锐尽丧，拓跋珪次年入中山，华北归属遂定",
+  "aliases": [
+    "参合陂之役"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "登国十年（395）后燕主慕容垂遣太子慕容宝将兵八万伐魏，魏主拓跋珪敛兵西走以避其锋，燕军野无所掠，人马疲困。魏军旋邀击于参合陂，纵骑突陈，燕军大溃，赴水死者数万，器甲资粮尽为魏有，慕容宝单骑走归。后燕精锐一朝丧尽，拓跋珪次年入中山，河北诸州次第归魏，华北格局自此大变，为北魏统一北方之张本。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "太祖纪",
+      "kind": "classic"
+    },
+    {
+      "work": "北史",
+      "part": "魏本纪一",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tuoba-gui",
+      "name": "拓跋珪",
+      "display": "道武帝拓跋珪",
+      "birth": 371,
+      "birthAccuracy": "exact",
+      "death": 409,
+      "deathAccuracy": "exact",
+      "title": "北魏道武帝，复代建魏，定都平城",
+      "bio": "鲜卑拓跋部人，什翼犍之孙，代亡后依独孤部，年十五即代王位，改国号魏。破库莫奚、高车、柔然，与后燕战于参合陂，坑降卒数万。天兴元年定都平城，置百官、定律令、营宫室、劝农耕。晚年好药饵而躁扰，为其子绍所弑，年三十九。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "murong-baiyao",
+      "name": "慕容白曜",
+      "display": "慕容白曜",
+      "birthAccuracy": "unknown",
+      "death": 470,
+      "deathAccuracy": "exact",
+      "deathNote": "「四年冬見誅……及將誅也，云謀反叛，時論冤之」（魏书·慕容白曜传），系皇兴四年。",
+      "title": "北魏名将，三年尽取青齐，以冤见诛",
+      "tags": [
+        "南北朝",
+        "北魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

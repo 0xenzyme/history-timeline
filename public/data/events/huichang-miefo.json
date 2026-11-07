@@ -1,0 +1,72 @@
+{
+  "id": "huichang-miefo",
+  "name": "会昌毁佛",
+  "display": "会昌毁佛",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 845,
+  "yearAccuracy": "exact",
+  "endYear": 846,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-de-yu"
+  ],
+  "result": "大规模寺院、僧尼与寺产整顿，唐廷重建部分财政与行政控制",
+  "aliases": [
+    "会昌灭佛",
+    "会昌法难"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "845 至 846 年，会昌毁佛政策达到高峰并在武宗死后停止。它整顿寺院财产与僧尼户籍，影响财政和宗教组织。政策数量与寺院统计存在版本差异，本实体不写争议数字；唐武宗暂无现有人物 canonical id。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "武宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "武宗本纪、食货志",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-de-yu",
+      "name": "李德裕",
+      "display": "李德裕",
+      "birth": 787,
+      "birthAccuracy": "exact",
+      "death": 850,
+      "deathAccuracy": "exact",
+      "title": "太尉，李党之首，会昌之政，贬死崖州",
+      "bio": "赵郡人，李吉甫之子。以荫补官，不喜科试，好学善属文。武宗时为相，平泽潞刘稹，破回鹘乌介，减冗官、抑藩镇，会昌之政号为中兴。与牛僧孺、李宗闵各树朋党，四十年中互相倾轧。宣宗即位，恶其专，贬潮州司马，再贬崖州司户，大中三年卒于贬所，年六十三。牛李党争至此而尽。",
+      "tags": [
+        "唐",
+        "牛李党争"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

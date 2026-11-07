@@ -1,0 +1,49 @@
+{
+  "id": "xiangling-zhizhan",
+  "name": "襄陵之战",
+  "display": "襄陵之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": -352,
+  "yearAccuracy": "approx",
+  "yearNote": "古本竹书纪年佚文『惠成王以韩师败诸侯师于襄陵,齐侯使楚景舍来求成』;佚文所系年份有十七年/十八年/十九年异文(换算约前353–351),现代通史(百度百科·襄陵之战、魏惠王条,维基孙膑条)通行取前352,故 approx。",
+  "place": "襄陵",
+  "placeNow": "河南睢县",
+  "belligerents": [
+    "wei-zhanguo",
+    "han-guo",
+    "qi",
+    "song-guo",
+    "wei-guo"
+  ],
+  "result": "魏以韩师败诸侯之师于襄陵，稳住中原局面",
+  "aliases": [
+    "魏韩败齐宋卫于襄陵"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "桂陵之战并未击溃魏军主力,邯郸仍为魏占;前353年齐联合宋、卫围魏襄陵,前352年魏惠王调韩国军队击败齐、宋、卫联军于襄陵,齐国被迫请楚将景舍调停求成。次年(前351)魏归赵邯郸、与赵盟于漳水,齐魏暂时罢兵。",
+  "sources": [
+    {
+      "work": "古本竹书纪年",
+      "part": "惠成王十八年佚文",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷002·周纪二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [],
+  "collections": []
+}

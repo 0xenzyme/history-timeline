@@ -1,0 +1,140 @@
+{
+  "id": "shi-jingtang-jie-bing",
+  "name": "石敬瑭借兵",
+  "display": "石敬瑭借兵",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 936,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系清泰三年五月敬瑭起兵晋阳，九月契丹自雁门入，十一月废帝自焚；公历并在936。同年事，不写 endYear。",
+  "place": "晋阳",
+  "placeNow": "今山西太原",
+  "belligerents": [
+    "hou-jin",
+    "liao",
+    "hou-tang"
+  ],
+  "commanders": [
+    {
+      "id": "shi-jingtang",
+      "side": "hou-jin"
+    },
+    {
+      "id": "yelv-deguang",
+      "side": "liao"
+    }
+  ],
+  "people": [
+    "li-congke"
+  ],
+  "result": "契丹册立石敬瑭，败唐兵，废帝自焚；石敬瑭入汴，改国号晋。",
+  "aliases": [
+    "wudai-936",
+    "石敬瑭借兵割燕云"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "清泰三年五月，河东节度使石敬瑭举兵，唐以张敬达围晋阳。敬瑭遣使求救于契丹，约割卢龙、雁门以北，岁输帛三十万匹。九月，耶律德光自雁门入，破唐兵，围张敬达于晋安寨；敬达不敢战，为杨光远所杀，余众皆降。十一月，契丹册敬瑭为大晋皇帝；废帝李从珂登玄武楼自焚，后唐亡。敬瑭入汴，改元天福。沙陀李氏十五年至此而绝。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后唐纪·清泰三年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "晋高祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "辽史",
+      "part": "太宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-congke",
+      "name": "李从珂",
+      "display": "唐废帝",
+      "birthAccuracy": "unknown",
+      "death": 937,
+      "deathAccuracy": "exact",
+      "title": "后唐废帝，玄武楼自焚",
+      "bio": "镇州所掠孺子，本姓王，明宗爱之以为子，从征伐有勇名。闵帝立，惧不见容，起兵入洛自立。以石敬瑭肘腋之患致兵河东，契丹主德光来援，晋阳兵入洛，从珂携传国宝登玄武楼自焚，后唐亡。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-jingtang",
+      "name": "石敬瑭",
+      "display": "后晋高祖",
+      "birth": 892,
+      "birthAccuracy": "exact",
+      "death": 942,
+      "deathAccuracy": "exact",
+      "title": "后晋高祖，割燕云称儿皇帝",
+      "bio": "沙陀人，事明宗为子婿，谨愿善骑射，佐唐伐梁，位至河东节度使、中书令。废帝疑之，举兵太原，表称臣于契丹，请割卢龙雁门以北，德光自将来援，天显十一年立晋，迁都汴。六年之中仰事契丹，疽发背而殂。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

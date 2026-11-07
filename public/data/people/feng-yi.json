@@ -1,0 +1,57 @@
+{
+  "id": "feng-yi",
+  "name": "冯异",
+  "display": "冯异",
+  "birthAccuracy": "unknown",
+  "death": 34,
+  "deathAccuracy": "exact",
+  "title": "云台将，大树将军，定关中",
+  "bio": "颍川父城人，好读书，通《左氏春秋》。河北从光武，诸将并坐论功，独屏树下，军中号大树将军。主关中三年，怀来百姓，卒于军。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "general",
+    "founding"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xiu",
+      "target": "feng-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "云台将，征赤眉"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "冯异",
+    "大树将军"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "冯岑贾列传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "cao-mao",
+  "name": "曹髦",
+  "display": "高贵乡公曹髦",
+  "birth": 241,
+  "birthAccuracy": "exact",
+  "death": 260,
+  "deathAccuracy": "exact",
+  "title": "魏帝，不甘为傀儡而死于车下",
+  "bio": "曹丕孙，东海定王霖之子。司马师废曹芳后立之，年十四。在位而政在司马氏，甘露五年率殿中宿卫出攻司马昭，为贾充所使成济刺死于南阙。死后被废为庶人，高贵乡公之号仍存于史。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-mao",
+      "target": "cao-pi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹丕之孙（东海王霖之子），正元元年即位，甘露五年讨司马昭被杀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "simazhao-shijun",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "曹髦",
+    "高贵乡公"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·三少帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "xu-huang",
+  "name": "徐晃",
+  "display": "徐晃",
+  "birthAccuracy": "unknown",
+  "death": 227,
+  "deathAccuracy": "exact",
+  "title": "魏右将军，解樊城之围",
+  "bio": "河东杨人，字公明。本杨奉部将，归曹操后以治军严整称；樊城之役长驱直入，连破围堑，解樊城之围，曹操案行诸军谓其「有周亚夫之风」。太和元年卒，谥壮侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "xu-huang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "五子良将，解樊城之围"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fancheng-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "shuiyan-qijun",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tongguan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "徐晃",
+    "徐公明"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·张乐于张徐传",
+      "kind": "classic"
+    }
+  ]
+}

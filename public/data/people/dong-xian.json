@@ -1,0 +1,58 @@
+{
+  "id": "dong-xian",
+  "name": "董贤",
+  "display": "董贤",
+  "birthAccuracy": "unknown",
+  "death": -1,
+  "deathAccuracy": "exact",
+  "title": "哀帝嬖臣，以美色官至大司马",
+  "bio": "以容貌得幸于哀帝，出入参乘，封高安侯，官至大司马，父子专朝，赐治第宅冢圹放效王制。哀帝一崩，太皇太后即收其大司马印绶，贤不知所为，与妻即日自杀，王莽疑其诈死，发棺验尸。",
+  "tags": [
+    "佞幸",
+    "哀帝"
+  ],
+  "categories": [
+    "consort-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xin",
+      "target": "dong-xian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "嬖幸冠绝，二十二岁拜大司马；帝崩即日自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "佞幸传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "平帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "zhang-liao",
+  "name": "张辽",
+  "display": "张辽",
+  "birth": 169,
+  "birthAccuracy": "exact",
+  "death": 222,
+  "deathAccuracy": "exact",
+  "title": "魏征东将军，逍遥津八百破十万",
+  "bio": "雁门马邑人，本聂壹之后，避怨改姓。历事丁原、董卓、吕布，后归曹操。建安二十年守合肥，率八百死士直冲孙权大军，几获权，江东小儿闻其名不敢夜啼。黄初三年卒于江都，年五十四。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "zhang-liao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "降将而倚为腹心，合肥破孙权"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bailangshan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xiaoyaojin-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "xiapi-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "张辽",
+    "张文远"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·张乐于张徐传",
+      "kind": "classic"
+    }
+  ]
+}

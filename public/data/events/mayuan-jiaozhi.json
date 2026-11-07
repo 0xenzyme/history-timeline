@@ -1,0 +1,73 @@
+{
+  "id": "mayuan-jiaozhi",
+  "name": "马援南征交趾",
+  "display": "马援南征交趾",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 43,
+  "yearAccuracy": "exact",
+  "place": "交趾",
+  "placeNow": "今越南北部红河三角洲一带",
+  "belligerents": [
+    "han",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "ma-yuan",
+      "side": "han"
+    }
+  ],
+  "result": "汉军破征侧、征贰之众，交趾、九真诸郡平定，汉廷重置郡县并申明汉制",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "建武十六年（40）交趾女子征侧与女弟征贰举兵，九真、日南、合浦诸郡应之，征侧自立为王；十七年（41）光武帝拜马援为伏波将军南讨，马援缘海而进、凿山通道，至建武十九年（43）破其众，斩征侧、征贰，岭南悉平。战后马援于所过郡县治城郭、穿渠灌溉以利其民，条奏越律与汉律相异者十余事，与越人申明旧制。此役把交趾诸郡重新纳入汉廷直接治理，是东汉南疆经略的高点。征侧、征贰暂无 canonical 人物条目。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "马援列传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "汉纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ma-yuan",
+      "name": "马援",
+      "display": "马援",
+      "birth": -14,
+      "birthAccuracy": "exact",
+      "death": 49,
+      "deathAccuracy": "exact",
+      "title": "伏波将军，交趾与五溪，死于军中",
+      "bio": "扶风茂陵人，少有大志，「男儿要当死于边野」。北牧陇右，南平交趾，立铜柱。年六十二请征五溪，卒于壶头，死后为梁松所谮，至章帝时始平反。马革裹尸之语出此。",
+      "tags": [
+        "东汉",
+        "南边"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

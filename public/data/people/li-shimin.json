@@ -1,0 +1,490 @@
+{
+  "id": "li-shimin",
+  "name": "李世民",
+  "display": "唐太宗李世民",
+  "birth": 598,
+  "birthAccuracy": "exact",
+  "death": 649,
+  "deathAccuracy": "exact",
+  "title": "唐太宗，天可汗，贞观之治",
+  "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+  "tags": [
+    "唐",
+    "贞观"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "li-yuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，世民佐命开唐"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-jian-cheng",
+      "target": "li-shimin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，玄武门之变"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-yuan-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，同殁玄武门"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "wei-zheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "任为谏议大夫，前后二百余谏"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "fang-xuan-ling",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "房谋杜断，同为贞观名相"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "李靖灭东突厥、破吐谷浑"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-chi-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "玄武门救驾，功第一"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "zhangsun-wu-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "舅甥，无忌佐太宗得位"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "xuan-zang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "玄奘西归，太宗为《大唐三藏圣教序》"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "songzan-ganbu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "吐蕃赞普，文成公主和亲"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "zhangsun-huanghou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "文德皇后，贞观十年崩于立政殿"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-cheng-qian",
+      "target": "li-shimin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长子，贞观十七年废为庶人"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-tai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "第四子，与承乾争储"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "hou-jun-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "灭高昌后又与承乾通谋，十七年被斩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "chen-shu-da",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高祖朝为纳言，贞观九年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "yang-gong-ren",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武德初遥领纳言，贞观十三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-wen-shi-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武德末检校侍中，贞观十六年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "wang-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝为侍中，贞观十三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "liu-ji-xiang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝参知政事，贞观十九年赐自尽"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "zhang-liang-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝参豫朝政，贞观二十年被斩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "ma-zhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝为中书令，贞观二十二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "yu-shi-nan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝弘文馆学士，贞观十二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "li-shimin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "河北夏王，武德四年虎牢之役被俘，斩于长安"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "wang-shichong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "洛阳郑主，武德四年降唐，后为仇人所杀"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "cen-wenben",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞观十六年专典机密，十九年四月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "wen-yanbo-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞观四年为中书令，十一年六月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "gao-jifu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞观十九年同掌机务，永徽四年十二月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "gao-shilian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞观十九年再摄太子太傅，二十一年正月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-dao-zong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宗室名将，贞观十五年持节送文成公主入吐蕃"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "qin-qiong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从秦王征伐，凌烟阁二十四功臣之一"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "xu-shi-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "赐姓李，凌烟阁功臣，后平高丽"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "sun-si-miao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞观初召诣京师，辞不受官，以医名世，著《千金方》"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "yan-li-ben",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞观中为太宗作《步辇图》，官至宰相"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hulao-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "jinyang-qibing",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "tang-jian-guo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tang-taizong-zheng-gaogouli",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "wen-cheng-gongzhu-ru-zang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xuanwu-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhenguan-zhizhi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李世民",
+    "唐太宗",
+    "秦王"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "太宗纪",
+      "kind": "classic"
+    }
+  ]
+}

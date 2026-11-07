@@ -1,0 +1,106 @@
+{
+  "id": "henan-zhizhan",
+  "name": "河南之战",
+  "display": "河南之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": -127,
+  "yearAccuracy": "exact",
+  "yearNote": "元朔二年（前 127 年），本纪纪年直接可查。",
+  "place": "河南地（云中至高阙一线）",
+  "placeNow": "今内蒙古河套地区",
+  "belligerents": [
+    "han",
+    "xiongnu"
+  ],
+  "commanders": [
+    {
+      "id": "wei-qing",
+      "side": "han"
+    }
+  ],
+  "people": [
+    "liu-che"
+  ],
+  "result": "汉取河南地，置朔方、五原郡，因河为固",
+  "aliases": [
+    "卫青收复河南地",
+    "取河南地置朔方"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "元朔二年（前 127 年），卫青、李息出云中至高阙，西至符离，获首虏数千级，取河南地。汉以河南地置朔方、五原郡，复缮故塞，因河为固。此役与元狩二年霍去病的河西之役不是同一战役，两条不合并。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷六 武帝紀",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷百十一 衛將軍驃騎列傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-qing",
+      "name": "卫青",
+      "display": "卫大将军",
+      "birthAccuracy": "unknown",
+      "death": -106,
+      "deathAccuracy": "exact",
+      "birthNote": "生年不详",
+      "title": "西汉大司马大将军，长平侯",
+      "bio": "卫子夫之弟，骑奴出身。前 127 年收复河南地置朔方郡，前 119 年漠北之战击溃单于主力。为将仁厚，不养士不结党。",
+      "tags": [
+        "河南地",
+        "漠北之战"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

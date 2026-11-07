@@ -1,0 +1,59 @@
+{
+  "id": "bi-zaiyu",
+  "name": "毕再遇",
+  "display": "毕再遇",
+  "birthAccuracy": "unknown",
+  "death": 1217,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年史无明载，通作约1217；生年亦无考。",
+  "title": "开禧北伐之名将",
+  "bio": "宋将，以勇略知名。开禧二年（1206）北伐，再遇为东路前锋，常以身先士卒，泗州之役以少击众，时论壮之。北伐既罢，力陈不可轻举者再。后还居乡里，不复为世用。史载其战守之略而不详其生卒，故年岁两存约数。",
+  "tags": [
+    "南宋",
+    "名将",
+    "开禧"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-tuozhou",
+      "target": "bi-zaiyu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开禧北伐，韩侂胄以再遇为东路前锋，泗州之役以少击众"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "毕再遇"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "毕再遇传",
+      "kind": "classic"
+    }
+  ]
+}

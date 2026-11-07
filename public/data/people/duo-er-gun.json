@@ -1,0 +1,163 @@
+{
+  "id": "duo-er-gun",
+  "name": "多尔衮",
+  "display": "多尔衮",
+  "birth": 1612,
+  "birthAccuracy": "exact",
+  "death": 1650,
+  "deathAccuracy": "exact",
+  "title": "摄政王",
+  "bio": "努尔哈赤第十四子，皇太极之弟；顺治幼龄摄政，决策入关定鼎，权倾一时。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "royal-kin",
+    "regent",
+    "official"
+  ],
+  "primary": "regent",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    },
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "duo-er-gun",
+      "target": "hong-taiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，弟为摄政而定鼎北京",
+        "兄弟，多尔衮为太宗之弟"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "wu-sangui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "纳其降表，山海关一战入北京",
+        "纳降封平西王，借兵入关"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "lu-xiangsheng",
+      "type": "rival",
+      "directed": false,
+      "since": 1638,
+      "notes": [
+        "清兵入塞，督师勤王而孤军战没"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "shi-kefa",
+      "type": "rival",
+      "directed": false,
+      "since": 1645,
+      "notes": [
+        "扬州城破，可法被执不屈而死"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "fu-lin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "摄政王辅幼主顺治"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "da-fei",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。大妃纳喇氏生阿济格、多尔衮、多铎"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "duo-duo",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟。多铎下江南，定南京"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "hao-ge",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "皇太极崩后争立，豪格败于多尔衮"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "ji-er-ha-lang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同辅政郑亲王，多尔衮生前受制，1651 反噬议罪"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "多尔衮传",
+      "kind": "classic"
+    }
+  ]
+}

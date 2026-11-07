@@ -1,0 +1,118 @@
+{
+  "id": "sima-yue-donghai",
+  "name": "司马越",
+  "display": "东海王司马越",
+  "birthAccuracy": "unknown",
+  "death": 311,
+  "deathAccuracy": "exact",
+  "title": "八王的收场，永嘉五年薨于项",
+  "bio": "高密王泰次子。永嘉末执朝政，上下崩离，忧惧成疾。永嘉五年薨于项。石勒追上他的灵柩，说此人乱天下，下令焚棺。",
+  "tags": [
+    "晋",
+    "西晋"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shi-le",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越薨于项后，石勒焚其柩，说此人乱天下"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-chi",
+      "target": "sima-yue-donghai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永嘉五年越薨于项，怀帝在位，朝政此前由越执掌"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yi-changsha",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越夜执乂送张方所害"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-ying",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越迎大驾，颖败废被缢"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yong",
+      "target": "sima-yue-donghai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越西征破颙，帝还洛阳"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baxia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongjia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马越",
+    "东海王"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "东海王越传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "yang-da",
+  "name": "杨达",
+  "display": "杨达",
+  "birth": 551,
+  "birthAccuracy": "approx",
+  "death": 612,
+  "deathAccuracy": "approx",
+  "birthNote": "卒于师时年六十二，自卒年逆推；卒年系辽东之役，生年随之约略。",
+  "deathNote": "大业八年辽东之役，领右武卫将军，进位左光禄大夫，卒于师，时年六十二（隋书·观德王雄传附弟达）。传文系于辽东之役而不书年号月日，作约略。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "yingjian-dongdu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "杨达"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "观德王雄传附弟达",
+      "kind": "classic"
+    }
+  ]
+}

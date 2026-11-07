@@ -1,0 +1,36 @@
+{
+  "id": "du-xian",
+  "name": "杜暹",
+  "display": "杜暹",
+  "birthAccuracy": "unknown",
+  "death": 740,
+  "deathAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "新唐书",
+      "part": "卷62·表第二 宰相中",
+      "kind": "classic"
+    },
+    {
+      "work": "旧唐书",
+      "part": "卷9·本纪第九 玄宗下",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "liu-zong-yuan",
+  "name": "柳宗元",
+  "display": "柳宗元",
+  "birth": 773,
+  "birthAccuracy": "exact",
+  "death": 819,
+  "deathAccuracy": "exact",
+  "title": "柳州刺史，永州八记，死于贬所",
+  "bio": "河东解人，后徙于吴，少精敏绝伦，为文卓伟精致。贞元进士，与韩愈同为古文之倡。永贞元年坐王叔文党，贬永州司马，居十年，作《永州八记》。元和十年徙柳州刺史，州人信巫鬼而杀牛，为设教禁，又赎男女奴婢。元和十四年卒于柳州，年四十七。",
+  "tags": [
+    "唐",
+    "古文运动"
+  ],
+  "categories": [
+    "literature",
+    "confucian",
+    "official"
+  ],
+  "primary": "literature",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-yu",
+      "target": "liu-zong-yuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "古文运动，韩柳并举"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yongzhen-gaige",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "柳宗元",
+    "柳子厚",
+    "柳柳州"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "柳宗元传",
+      "kind": "classic"
+    }
+  ]
+}

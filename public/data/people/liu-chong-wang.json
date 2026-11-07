@@ -1,0 +1,58 @@
+{
+  "id": "liu-chong-wang",
+  "name": "刘崇望",
+  "display": "刘崇望",
+  "birth": 838,
+  "birthAccuracy": "exact",
+  "death": 899,
+  "deathAccuracy": "exact",
+  "title": "光化二年卒，年六十二",
+  "bio": "昭宗朝同平章事。光化二年卒，年六十二。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ye",
+      "target": "liu-chong-wang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昭宗朝为相，光化二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘崇望"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "刘崇望传",
+      "kind": "classic"
+    }
+  ]
+}

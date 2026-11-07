@@ -1,0 +1,110 @@
+{
+  "id": "sanfengshan-zhizhan",
+  "name": "三峰山之战",
+  "display": "三峰山",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1232,
+  "yearAccuracy": "exact",
+  "place": "钧州三峰山",
+  "belligerents": [
+    "mongol",
+    "jin-chao"
+  ],
+  "commanders": [
+    {
+      "id": "tuo-lei",
+      "side": "mongol"
+    },
+    {
+      "id": "wo-kuo-tai",
+      "side": "mongol"
+    }
+  ],
+  "result": "金军野战主力崩溃",
+  "parent": "mengjin-zhanzheng",
+  "aliases": [
+    "钧州三峰山之战"
+  ],
+  "dynasties": [
+    "song",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "1232年正月，拖雷在钧州三峰山击败金军，获蒲阿。窝阔台随即攻破钧州。元史记获合达，金史记合达、陈和尚城破而死。金朝野战主力由此崩溃，灭金转入围城。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷二·太宗本纪",
+      "note": "四年正月拖雷败金师于钧州三峰，获蒲阿，克钧州获合达",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷十七·哀宗本纪",
+      "note": "三峰山金军大溃，合达、陈和尚城破而死，蒲阿被执",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tuo-lei",
+      "name": "拖雷",
+      "display": "拖雷",
+      "birth": 1192,
+      "birthAccuracy": "exact",
+      "death": 1232,
+      "deathAccuracy": "exact",
+      "birthNote": "本传不载生年，依壬辰年薨时年四十上下推得。",
+      "title": "睿宗拖雷，成吉思汗幼子",
+      "bio": "成吉思汗幼子、守灶子，监国二年，握漠北精锐。四子蒙哥、忽必烈、旭烈兀、阿里不哥皆出一门，后世追尊睿宗。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wo-kuo-tai",
+      "name": "窝阔台",
+      "display": "窝阔台",
+      "birth": 1186,
+      "birthAccuracy": "exact",
+      "death": 1241,
+      "deathAccuracy": "exact",
+      "title": "元太宗，1229—1241 年在位",
+      "bio": "成吉思汗第三子。太宗时联宋灭金、置站赤与燕京行省，定中原赋调，遣拔都等长子西征；1241 年冬卒于鈋铁钴胡兰山。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

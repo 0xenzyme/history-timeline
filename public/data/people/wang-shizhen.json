@@ -1,0 +1,66 @@
+{
+  "id": "wang-shizhen",
+  "name": "王世贞",
+  "display": "王世贞",
+  "birth": 1526,
+  "birthAccuracy": "exact",
+  "death": 1590,
+  "deathAccuracy": "exact",
+  "title": "后七子之领袖",
+  "bio": "字元美，太仓人。主文必秦汉、诗必盛唐，为后七子之首; 官至南京刑部尚书，著述甚富。1590 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "literature"
+  ],
+  "primary": "literature",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gui-youguang",
+      "target": "wang-shizhen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以文辞名世，一主唐宋一主秦汉"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wang-shizhen",
+      "target": "yan-song",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "父忬死于严嵩之手，世贞伏阙讼冤而不能白"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "文苑传",
+      "kind": "classic"
+    }
+  ]
+}

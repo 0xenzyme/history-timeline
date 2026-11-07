@@ -1,0 +1,72 @@
+{
+  "id": "wang-bi",
+  "name": "王弼",
+  "display": "王弼",
+  "birth": 226,
+  "birthAccuracy": "exact",
+  "death": 249,
+  "deathAccuracy": "exact",
+  "title": "少年玄学家，注《老》《易》",
+  "bio": "山阳高平人，王粲族孙。十余岁即好老氏，通辩能言，与何晏论道，一座屈服。注《老子》《周易》，扫汉代象数而专主义理，开魏晋玄学之宗。正始十年遭疠疾亡，年二十四。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "metaphysics",
+    "classics"
+  ],
+  "primary": "metaphysics",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "he-yan",
+      "target": "wang-bi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "正始玄学同调，何晏叹其天才；王弼注《老》《易》"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "wang-bi",
+      "target": "wang-can",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "族孙；王弼为王粲族孙"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王弼",
+    "王辅嗣"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·钟会传",
+      "kind": "classic"
+    }
+  ]
+}

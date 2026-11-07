@@ -1,0 +1,71 @@
+{
+  "id": "qin-nanzheng-baiyue",
+  "name": "秦南征百越，置岭南三郡",
+  "display": "秦南征百越",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -214,
+  "yearAccuracy": "exact",
+  "yearNote": "置郡系于始皇三十三年（前214）；初次用兵《史记》无确年，不采《淮南子》屠睢故事的系年。",
+  "place": "陆梁地（岭南）",
+  "placeNow": "今广东、广西及越南北部",
+  "belligerents": [
+    "qin",
+    "baiyue"
+  ],
+  "people": [
+    "ying-zheng"
+  ],
+  "result": "略取陆梁地，置桂林、象郡、南海三郡，以逋亡人、赘婿、贾人适戍。",
+  "aliases": [
+    "南平百越",
+    "略取陆梁地",
+    "置桂林象郡南海"
+  ],
+  "dynasties": [
+    "qin"
+  ],
+  "desc": "始皇三十三年，秦发逋亡人、赘婿、贾人略取陆梁地，置桂林、象郡、南海三郡，以适遣戍。岭南首次纳入中原政权的郡县体系。百越是南方族系的泛称；屠睢等初次用兵的年代《史记》不载，本条只收置郡的结果，不补传说系年。",
+  "sources": [
+    {
+      "work": "史記",
+      "part": "卷006 秦始皇本紀",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

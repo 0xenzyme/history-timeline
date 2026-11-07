@@ -1,0 +1,70 @@
+{
+  "id": "yi-linzhiban",
+  "name": "懿璘质班",
+  "display": "元宁宗懿璘质班",
+  "birth": 1326,
+  "birthAccuracy": "exact",
+  "death": 1332,
+  "deathAccuracy": "exact",
+  "title": "幼立旋崩",
+  "bio": "明宗次子，文宗崩后立，年仅七岁，在位仅月余而崩。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "he-shila",
+      "target": "yi-linzhiban",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，明宗传宁宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "shun-di",
+      "target": "yi-linzhiban",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，宁宗崩，顺帝（明宗长子）立"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "懿璘质班",
+    "元宁宗"
+  ],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "宁宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

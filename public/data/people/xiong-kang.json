@@ -1,0 +1,58 @@
+{
+  "id": "xiong-kang",
+  "name": "熊康",
+  "display": "楚句亶王",
+  "birthAccuracy": "unknown",
+  "death": -841,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。夷王时立为句亶王，厉王时熊渠去王，毋康蚤死，取厉王奔彘年为可见下限。",
+  "title": "楚句亶王，蚤死",
+  "bio": "熊渠长子。夷王时立为句亶王。后为熊毋康，蚤死，未接熊渠之位。",
+  "tags": [
+    "楚"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-kang",
+      "target": "xiong-qu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。立长子康为句亶王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "句亶王",
+    "熊毋康",
+    "熊康"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

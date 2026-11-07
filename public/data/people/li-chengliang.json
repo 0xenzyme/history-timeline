@@ -1,0 +1,67 @@
+{
+  "id": "li-chengliang",
+  "name": "李成梁",
+  "display": "李成梁",
+  "birth": 1526,
+  "birthAccuracy": "exact",
+  "death": 1615,
+  "deathAccuracy": "exact",
+  "title": "镇辽东三十年",
+  "bio": "字汝契，铁岭卫人。先后镇辽东几三十年，大小百余战，捷书屡上; 晚岁贵极而骄，边事自此隳。1615 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "li-chengliang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "镇辽东三十年，边事一以委之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-chengliang",
+      "target": "nu-er-ha-chi",
+      "type": "rival",
+      "directed": false,
+      "since": 1583,
+      "notes": [
+        "其祖父死于古勒之役，衅由此起"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "李成梁传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sun-shao",
+  "name": "孙韶",
+  "display": "孙韶",
+  "birthAccuracy": "unknown",
+  "death": 241,
+  "deathAccuracy": "exact",
+  "title": "吴镇北将军，京下督",
+  "bio": "孙河之侄，本姓俞，孙策爱之，赐姓列属。年十七收河余众缮治京城，权试攻不能下，甚器之，拜承烈校尉统其部曲。为边将数十年，常置远斥候，先知敌情而为之备，青、徐、汝、沛之民颇来归附，魏淮南滨江屯候皆彻兵远徙。官至镇北将军，加领幽州牧、假节，赤乌四年卒。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "royal-kin",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "sun-shao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙策族子，孙权时为镇北将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孙韶",
+    "孙公礼"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·宗室传",
+      "kind": "classic"
+    }
+  ]
+}

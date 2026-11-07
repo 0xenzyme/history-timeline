@@ -1,0 +1,104 @@
+{
+  "id": "han-ping-nanyue",
+  "name": "汉平南越",
+  "display": "汉平南越",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -112,
+  "yearAccuracy": "exact",
+  "yearNote": "元鼎五年（前 112 年）夏四月吕嘉反、汉发兵，本纪纪年直接可查。",
+  "endYear": -111,
+  "endYearAccuracy": "exact",
+  "endYearNote": "元鼎六年（前 111 年）得吕嘉首、定越地置九郡，本纪纪年直接可查。",
+  "place": "番禺",
+  "placeNow": "今广东广州",
+  "belligerents": [
+    "han",
+    "nanyue"
+  ],
+  "commanders": [
+    {
+      "id": "lv-jia",
+      "side": "nanyue"
+    }
+  ],
+  "people": [
+    "liu-che"
+  ],
+  "result": "南越国亡，汉以其地置南海、苍梧、郁林、合浦、交趾、九真、日南、珠崖、儋耳九郡",
+  "aliases": [
+    "南越国灭亡",
+    "吕嘉之乱"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "元鼎五年（前 112 年）夏四月，南越相吕嘉反，杀汉使者及其王、王太后；汉遣路博德、杨仆等出桂阳、豫章，咸会番禺。元鼎六年（前 111 年）汉军得吕嘉首，遂定越地，以其地置南海、苍梧、郁林、合浦、交趾、九真、日南、珠崖、儋耳九郡，南越国亡。元鼎六年冬十月起点有历法换算约差一年的风险，本条以吕嘉反与得吕嘉首两端锚定。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷六 武帝紀",
+      "note": "元鼎五年四月吕嘉反、六年得吕嘉首定越地置九郡",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-jia",
+      "name": "吕嘉",
+      "display": "吕嘉",
+      "birthAccuracy": "unknown",
+      "death": -111,
+      "deathAccuracy": "exact",
+      "title": "南越国相，相三王，抗汉而国灭",
+      "bio": "南越国相，历相三王，宗族为长吏者七十余人，得越人心。元鼎四年谏止王与王太后内属，明年遂反，攻杀王、王太后及汉使，立建德为王。汉遣楼船、伏波两将军十万人往讨，六年冬破番禺，吕嘉亡入海，为越郎都稽所擒，南越遂定九郡。",
+      "tags": [
+        "南越",
+        "汉平南越"
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "polity": [
+        "nanyue"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

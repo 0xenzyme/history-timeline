@@ -1,0 +1,77 @@
+{
+  "id": "dou-yifang",
+  "name": "窦漪房",
+  "display": "窦太后",
+  "birthAccuracy": "unknown",
+  "death": -135,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "汉文帝皇后，景帝之母，武帝之祖母",
+  "bio": "历文、景、武三朝，好黄老之术。武帝初年她仍在世，儒臣赵绾、王臧因此下狱，独尊儒术要等她去世后才真正推行。",
+  "tags": [
+    "三朝"
+  ],
+  "categories": [
+    "huanglao"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dou-yifang",
+      "target": "liu-heng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-che",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖母与孙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-yifang",
+      "target": "dou-ying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "堂姑侄"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "外戚世家",
+      "kind": "classic"
+    }
+  ]
+}

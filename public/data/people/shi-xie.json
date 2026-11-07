@@ -1,0 +1,60 @@
+{
+  "id": "shi-xie",
+  "name": "士燮",
+  "display": "士燮",
+  "birth": 137,
+  "birthAccuracy": "approx",
+  "death": 226,
+  "deathAccuracy": "exact",
+  "birthNote": "传云黄武五年卒时年九十，据卒年上推。",
+  "title": "汉交趾太守四十年，南土之宾",
+  "bio": "苍梧广信人，字威彦，先本鲁国汶阳人。少游学京师治左氏春秋，举茂才，除交趾太守，在郡四十余年。中原丧乱，独交州安然，中国士人往依避难者以百数。道路隔绝而职贡不废，汉特下诏拜绥南中郎将、董督七郡，又拜安远将军、封龙度亭侯；孙权抚有江东，加左将军，遣步骘定交州，燮兄弟相率供命，南土之宾自此始。黄武五年卒，年九十。",
+  "tags": [
+    "三国"
+  ],
+  "categories": [
+    "warlord",
+    "official"
+  ],
+  "primary": "official",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "shi-xie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "交州牧，附孙权，为卫将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "士燮",
+    "士威彦"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·刘繇太史慈士燮传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "chang-gun",
+  "name": "常衮",
+  "display": "常衮",
+  "birth": 729,
+  "birthAccuracy": "exact",
+  "death": 783,
+  "deathAccuracy": "exact",
+  "title": "建中四年卒，年五十五",
+  "bio": "代宗朝门下侍郎同平章事。建中四年正月卒，年五十五。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "chang-gun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，建中四年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "常衮"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "常衮传",
+      "kind": "classic"
+    }
+  ]
+}

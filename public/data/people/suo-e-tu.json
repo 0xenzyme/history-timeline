@@ -1,0 +1,43 @@
+{
+  "id": "suo-e-tu",
+  "name": "索额图",
+  "display": "索额图",
+  "birthAccuracy": "unknown",
+  "death": 1703,
+  "deathAccuracy": "exact",
+  "deathNote": "清史稿·卷269·索额图传：康熙四十二年五月，上命执索额图交宗人府拘禁，\"寻索额图死于幽所\"（死于禁所）。索尼第三子，保和殿大学士，曾充尼布楚议界大臣。",
+  "categories": [
+    "chancellor",
+    "regent"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "nibuchu-heyue",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷269·索额图传",
+      "kind": "classic"
+    }
+  ]
+}

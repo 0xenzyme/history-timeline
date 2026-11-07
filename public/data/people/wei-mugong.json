@@ -1,0 +1,37 @@
+{
+  "id": "wei-mugong",
+  "name": "卫穆公",
+  "display": "卫穆公",
+  "birthAccuracy": "unknown",
+  "death": -588,
+  "deathAccuracy": "approx",
+  "deathNote": "左传·成公二年（前589）「九月，衞穆公卒」；史记·卫康叔世家于成公卒后记穆公卒、子定公臧立，年数衔接顺推作前588。两说差一年，试跑名单取前588，作约年。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左传",
+      "part": "成公二年",
+      "kind": "classic"
+    }
+  ]
+}

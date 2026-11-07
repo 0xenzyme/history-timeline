@@ -1,0 +1,95 @@
+{
+  "id": "guoren-baodong",
+  "name": "国人暴动",
+  "display": "国人暴动",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": -841,
+  "yearAccuracy": "exact",
+  "yearNote": "厉王奔彘与共和元年同为前841，《史记·周本纪》与《竹书纪年》一致，为中国确切纪年之始。",
+  "place": "镐京（宗周）",
+  "placeNow": "今陕西西安西南（沣镐遗址一带）",
+  "polity": [
+    "zhou"
+  ],
+  "people": [
+    "ji-hu",
+    "shao-hu"
+  ],
+  "result": "国人逐厉王奔彘，王权中断十四年；此后周天子权威大减。",
+  "aliases": [
+    "厉王奔彘",
+    "彘之乱"
+  ],
+  "dynasties": [
+    "western-zhou"
+  ],
+  "desc": "厉王弭谤，国人相与畔袭王宫，厉王出奔于彘，时为前841年。此后王权中断十四年，周天子权威大减。共和行政的主体有周召二相行政（《史记》）与共伯和摄行（《竹书纪年》）两说，本条只取暴动与奔彘的事实层。",
+  "sources": [
+    {
+      "work": "史記",
+      "part": "卷004 周本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹書紀年疏證",
+      "part": "卷下 厲王八年、十三年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-hu",
+      "name": "姬胡",
+      "display": "周厉王",
+      "birthAccuracy": "unknown",
+      "death": -828,
+      "deathAccuracy": "exact",
+      "title": "西周夷王之子，共和行政前的周王",
+      "bio": "好专利，用荣夷公。国人谤王，召穆公谏而不听，前 841 年出奔于彘。共和十四年死于彘，太子静赖召公得免。",
+      "tags": [
+        "国人暴动",
+        "专利"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shao-hu",
+      "name": "召虎",
+      "display": "召穆公",
+      "birthAccuracy": "unknown",
+      "death": -823,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。国人暴动时藏太子；宣王前期金文与《诗经》仍见召伯，取宣王五年前后为活动下限，非确凿卒年。",
+      "title": "召公奭之后，共和行政的关键卿士",
+      "bio": "厉王时谏谤，以子代太子静。共和期内与周定公行政。宣王初年仍见其名，是把厉王、宣王两条接上的人。",
+      "tags": [
+        "共和"
+      ],
+      "categories": [
+        "qingshi"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

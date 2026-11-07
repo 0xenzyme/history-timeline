@@ -1,0 +1,110 @@
+{
+  "id": "yanyun-shiliuzhou-gerang",
+  "name": "割让幽云十六州",
+  "display": "割让幽云十六州",
+  "kind": "span",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 936,
+  "yearAccuracy": "exact",
+  "yearNote": "两步口径：936 年七月石敬瑭求援时许割卢龙一道及雁门关以北诸州（通鉴卷280），同年十一月建国册约即列幽、蓟、瀛、莫、涿、檀、顺、新、妫、儒、武、云、应、寰、朔、蔚十六州并岁输帛三十万匹（通鉴卷280；新五代史卷8书十六州\"入于契丹\"）；938 年（辽会同元年）十一月晋遣赵莹奉表以十六州并图籍来献，辽升幽州为南京，正式交割（辽史卷4）。主锚点取承诺之年 936，endYear=938 记交割完成；若控制者愿以交割为锚可改 year=938，两步均已在案。",
+  "endYear": 938,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "wudai",
+    "liao"
+  ],
+  "people": [
+    "shi-jingtang",
+    "yelv-deguang"
+  ],
+  "result": "中原王朝永久失去燕山—雁门防线与战马产地，华北门户洞开四百余年，直至明初北伐。",
+  "aliases": [
+    "割让燕云十六州",
+    "燕云十六州割让"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "936 年七月石敬瑭求援时许割卢龙一道及雁门关以北诸州，同年十一月册约列幽、蓟、瀛、莫、涿、檀、顺、新、妫、儒、武、云、应、寰、朔、蔚十六州，并岁输帛三十万匹。938 年（辽会同元年）十一月，晋遣赵莹奉表以十六州并图籍来献，辽升幽州为南京，交割完成。中原王朝自此失去燕山—雁门防线与战马产地，华北门户洞开四百余年，直至明初北伐。契丹据此约晋主不称臣，更表为书称\"儿皇帝\"，如家人礼。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷280",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷8",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷72",
+      "kind": "classic"
+    },
+    {
+      "work": "辽史",
+      "part": "卷4",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shi-jingtang",
+      "name": "石敬瑭",
+      "display": "后晋高祖",
+      "birth": 892,
+      "birthAccuracy": "exact",
+      "death": 942,
+      "deathAccuracy": "exact",
+      "title": "后晋高祖，割燕云称儿皇帝",
+      "bio": "沙陀人，事明宗为子婿，谨愿善骑射，佐唐伐梁，位至河东节度使、中书令。废帝疑之，举兵太原，表称臣于契丹，请割卢龙雁门以北，德光自将来援，天显十一年立晋，迁都汴。六年之中仰事契丹，疽发背而殂。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

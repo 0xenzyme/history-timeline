@@ -1,0 +1,81 @@
+{
+  "id": "houliang-jianli",
+  "name": "吕光建后凉",
+  "display": "吕光建后凉",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 386,
+  "yearAccuracy": "exact",
+  "yearNote": "太元十一年（386）吕光闻苻坚败亡（385 年姚苌缢坚于新平），引军东归据姑臧，自称凉州牧，改元太安，为后凉立国之始；389 年（太元十四）称三河王，396 年即天王位、国号大凉。通说以 386—403 为后凉。",
+  "place": "姑臧",
+  "placeNow": "今甘肃武威",
+  "polity": [
+    "hou-liang-shi"
+  ],
+  "people": [
+    "lv-guang"
+  ],
+  "result": "吕光西征归据姑臧建后凉，河西安定，与前后秦分立",
+  "aliases": [
+    "吕光据姑臧",
+    "后凉建国"
+  ],
+  "tags": [
+    "state-founding",
+    "十六国"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "吕光，略阳氐人，为苻坚将。淝水战前奉坚命率步骑七万西讨西域，降焉耆、平龟兹，西域三十余国皆附，并迎鸠摩罗什（未入人物库）东还。淝水败后关中瓦解，光不得西归，引军东下，太元十一年（386）据姑臧，自称凉州牧，改元太安，后凉立国。太元十四年（389）称三河王，太元二十一年（396）即天王位，国号大凉，史称后凉。光刑政严峻，河西粗安，鸠摩罗什滞留凉州十七年，遂开中国译经盛业。光没而诸子相残，403 年后秦姚兴乘机伐凉，吕隆面缚出降，后凉亡。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "吕光载记",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "lv-guang",
+      "name": "吕光",
+      "display": "吕光",
+      "birth": 337,
+      "birthAccuracy": "approx",
+      "death": 399,
+      "deathAccuracy": "exact",
+      "birthNote": "隆安三年（399）死，年六十三，虚岁上推生年。",
+      "title": "后凉之主，西征而归据姑臧",
+      "bio": "略阳氐人，吕婆楼之子，字世明。为苻坚将，率七万众西征西域，降者三十余国，归途闻坚败，遂据凉州，都姑臧。僭称三河王，既而即天王位，改元龙飞，国号大凉，史称后凉。以安帝隆安三年死，时年六十三，在位十年，诸子相残，后凉速亡。",
+      "tags": [
+        "十六国",
+        "后凉",
+        "氐"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

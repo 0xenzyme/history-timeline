@@ -1,0 +1,74 @@
+{
+  "id": "he-shen",
+  "name": "和珅",
+  "display": "和珅",
+  "birth": 1750,
+  "birthAccuracy": "exact",
+  "death": 1799,
+  "deathAccuracy": "exact",
+  "title": "巨贪权相",
+  "bio": "乾隆晚年宠臣，揽权纳贿，富可敌国；嘉庆即位即赐死抄家，家产巨万。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "regent",
+    "official"
+  ],
+  "primary": "regent",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qian-long",
+      "target": "he-shen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晚年宠信和珅，权倾朝野"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "a-gui",
+      "target": "he-shen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同在军机，阿桂每与和珅龃龉而不能去之"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "siku-quanshu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "和珅传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "wang-hui",
+  "name": "王恢",
+  "display": "王恢",
+  "birthAccuracy": "unknown",
+  "death": -133,
+  "deathAccuracy": "exact",
+  "title": "大行令，马邑之谋首倡者",
+  "bio": "燕人，数为边吏，习匈奴事。元光二年因马邑豪聂壹之策首倡击匈奴，汉伏兵三十余万于马邑谷中诱单于；单于入塞觉之退走，恢不击其辎重，下狱自杀。马邑之谋自此开启武帝对匈奴的大规模用兵。",
+  "tags": [
+    "马邑之谋",
+    "匈奴"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "wang-hui",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -133,
+      "notes": [
+        "首倡马邑之谋，单于觉遁，下狱自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mayi-zhimou",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "窦田灌韩传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

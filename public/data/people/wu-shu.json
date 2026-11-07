@@ -1,0 +1,31 @@
+{
+  "id": "wu-shu",
+  "name": "吴淑",
+  "display": "吴淑",
+  "birthAccuracy": "unknown",
+  "death": 1002,
+  "deathAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "literati"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "文苑三",
+      "kind": "classic"
+    }
+  ]
+}

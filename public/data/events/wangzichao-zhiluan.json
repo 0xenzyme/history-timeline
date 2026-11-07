@@ -1,0 +1,113 @@
+{
+  "id": "wangzichao-zhiluan",
+  "name": "王子朝之乱",
+  "display": "王子朝之乱",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -520,
+  "yearAccuracy": "exact",
+  "yearNote": "起点：左传昭公二十二年（前520）夏四月景王崩、葬王后王子朝因旧官百工以作乱，与史记周本纪景王崩后子朝攻杀猛（悼王）相合；终点：昭公二十六年（前516）晋率诸侯入敬王、子朝奉周之典籍奔楚（史记系敬王四年）。经传一致。",
+  "endYear": -516,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "zhou",
+    "jin-guo"
+  ],
+  "people": [
+    "wang-zi-chao",
+    "ji-meng",
+    "ji-gai"
+  ],
+  "aliases": [
+    "二王并立",
+    "王子朝奔楚",
+    "周典籍散失"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "景王崩，王子朝与悼王、敬王争立，二王并立数年，晋顷公两次率诸侯纳敬王。前516年王子朝奉周之典籍奔楚，敬王入王城。周室名存实亡，晋定公遂主中原之政。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷50（昭公二十二年）",
+      "part": "昭公二十二年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·周本紀",
+      "part": "景王二十年、敬王元年/四年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-zi-chao",
+      "name": "姬朝",
+      "display": "王子朝",
+      "birthAccuracy": "unknown",
+      "death": -505,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·定公五年（前505）「王人殺子朝于楚」。逐周敬王据王城数年者。",
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-meng",
+      "name": "姬猛",
+      "display": "周悼王",
+      "birthAccuracy": "unknown",
+      "death": -520,
+      "deathAccuracy": "approx",
+      "deathNote": "竹书纪年、史记均未记其在位年数（竹书景王二十五年下直接接敬王元年）。年份依左传·昭公二十二年传「十一月乙酉，王子猛卒……虽未即位，周人谥曰悼王……己丑，敬王即位」，与景王崩、敬王即位同在一年；此年与逐王「崩年 + 1 为次王元年」的算法在景王、悼王、敬王之间不合，故作约年。",
+      "title": "未及正式即位即为子朝所杀",
+      "bio": "景王长子。景王崩，子朝与丐争立，国人立猛为王；子朝攻杀之。虽未即位，周人仍谥曰悼王；同母弟匄得晋国之力即位为敬王后，才追谥之。在位不足数月，是周室名号最薄的一页。",
+      "tags": [
+        "王子朝之乱",
+        "未即位"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-gai",
+      "name": "姬匄",
+      "display": "周敬王",
+      "birthAccuracy": "unknown",
+      "death": -476,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「敬王四十四年 王陟」。",
+      "title": "在位四十四年，十六年方由晋定公送归王城",
+      "bio": "猛之母弟。前 520 为晋人所立，子朝自立，敬王不得入而居泽；四年晋率诸侯入敬王于周，子朝奔楚，诸侯城周。十六年子朝之徒复作乱，敬王又奔于晋，十七年晋定公遂入敬王于周。此后天子虽仍受制，而周室赖晋国之力撑过了两代。在位四十四年，是东周在位最长的天子，崩时列国已到孔子卒后。",
+      "tags": [
+        "王子朝之乱",
+        "诸侯城周",
+        "东周最长"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

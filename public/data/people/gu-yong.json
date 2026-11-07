@@ -1,0 +1,68 @@
+{
+  "id": "gu-yong",
+  "name": "顾雍",
+  "display": "顾雍",
+  "birth": 168,
+  "birthAccuracy": "approx",
+  "death": 243,
+  "deathAccuracy": "exact",
+  "birthNote": "传云「为相十九年，年七十六」，据赤乌六年卒上推。",
+  "title": "吴丞相，为相十九年",
+  "bio": "吴郡吴人，字元叹。少从蔡邕学琴书；黄武四年代孙邵为丞相，平尚书事，为相十九年，权尝叹「顾君不言，言必有中」。赤乌六年卒，年七十六，谥肃侯。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "gu-yong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为丞相，沉默寡言"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sunquan-chengdi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "顾雍",
+    "顾元叹"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·张顾诸葛步传",
+      "kind": "classic"
+    }
+  ]
+}

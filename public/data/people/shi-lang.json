@@ -1,0 +1,74 @@
+{
+  "id": "shi-lang",
+  "name": "施琅",
+  "display": "施琅",
+  "birth": 1621,
+  "birthAccuracy": "exact",
+  "death": 1696,
+  "deathAccuracy": "exact",
+  "title": "水师提督",
+  "bio": "原郑氏部将，降清后任水师提督，1683 年攻取台湾，郑克塽降，台入版图。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming",
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kang-xi",
+      "target": "shi-lang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命施琅统水师收台湾"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "shi-lang",
+      "target": "zheng-chenggong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "本郑氏旧将，降清后率水师取台湾"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "taiwan-pingding",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "施琅传",
+      "kind": "classic"
+    }
+  ]
+}

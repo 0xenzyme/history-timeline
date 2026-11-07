@@ -1,0 +1,96 @@
+{
+  "id": "niu-li-dangzheng",
+  "name": "牛李党争",
+  "display": "牛李党争",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 808,
+  "yearAccuracy": "exact",
+  "endYear": 846,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "niu-seng-ru",
+    "li-de-yu"
+  ],
+  "result": "牛李两派长期倾轧，晚唐官僚内耗与政局动荡加重",
+  "aliases": [
+    "tang-dang"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "808 年制科对策触发牛僧孺、李宗闵一派与李德裕一派的相互弹劾，此后历宪宗至宣宗五朝，官员进退多以派系为准，朝议因之牵制。846 年宣宗即位、李德裕贬死崖州，党争告终。朋党之争与藩镇、宦官问题交织，加重晚唐内耗；两派政见主张的学术评价不在本实体中裁断。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李德裕传、牛僧孺传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百三十七至二百四十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "niu-seng-ru",
+      "name": "牛僧孺",
+      "display": "牛僧孺",
+      "birth": 779,
+      "birthAccuracy": "exact",
+      "death": 848,
+      "deathAccuracy": "exact",
+      "title": "太子少师，牛党之首，对策切直得罪权贵",
+      "bio": "安定鹑觚人，隋仆射牛弘之后。元和三年应贤良方正科，指陈时政之失，不避权幸，考官皆不敢取，遂为李吉甫所忌，久之不调。长庆、大和中数度为相，与李德裕相攻，凡四十年。开成中为东都留守，筑第归仁园，与白居易吟咏其间。大中二年卒，年六十九。",
+      "tags": [
+        "唐",
+        "牛李党争"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-de-yu",
+      "name": "李德裕",
+      "display": "李德裕",
+      "birth": 787,
+      "birthAccuracy": "exact",
+      "death": 850,
+      "deathAccuracy": "exact",
+      "title": "太尉，李党之首，会昌之政，贬死崖州",
+      "bio": "赵郡人，李吉甫之子。以荫补官，不喜科试，好学善属文。武宗时为相，平泽潞刘稹，破回鹘乌介，减冗官、抑藩镇，会昌之政号为中兴。与牛僧孺、李宗闵各树朋党，四十年中互相倾轧。宣宗即位，恶其专，贬潮州司马，再贬崖州司户，大中三年卒于贬所，年六十三。牛李党争至此而尽。",
+      "tags": [
+        "唐",
+        "牛李党争"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

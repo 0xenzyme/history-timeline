@@ -1,0 +1,55 @@
+{
+  "id": "ma-qi",
+  "name": "马齐",
+  "display": "马齐",
+  "birth": 1652,
+  "birthAccuracy": "approx",
+  "death": 1739,
+  "deathAccuracy": "exact",
+  "birthNote": "传载年八十八（虚岁），自卒年1739上推。",
+  "deathNote": "清史稿·卷287·马齐传：乾隆四年病笃，高宗谕\"马齐历相三朝\"，寻卒，年八十八，赠太傅，谥文穆；卷10·高宗本纪：乾隆四年五月辛未 致仕大学士马齐卒。武英殿大学士。",
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kang-xi",
+      "target": "ma-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "康熙朝入相，历康雍乾三朝元老"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷287·马齐传",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷10·高宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

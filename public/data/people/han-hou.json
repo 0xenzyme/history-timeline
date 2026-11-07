@@ -1,0 +1,99 @@
+{
+  "id": "han-hou",
+  "name": "韩侯",
+  "display": "韩侯",
+  "birthAccuracy": "unknown",
+  "death": -824,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。竹书宣王四年韩侯来朝，《韩奕》记受命入觐，取此年为活动下限。",
+  "title": "宣王时韩侯",
+  "bio": "《韩奕》韩侯受命入觐，取妻为汾王之甥、蹶父之子。竹书宣王四年韩侯来朝。",
+  "tags": [
+    "韩",
+    "锡命"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "han-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "han-hou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王四年韩侯来朝，受命入觐"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "han-hou",
+      "target": "jue-fu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "韩侯娶蹶父之女"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "han-hou",
+      "target": "han-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "han-hou",
+      "target": "xian-fu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "饯韩侯于宣王所命之朝"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "韩侯"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "大雅·韩奕",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "note": "宣王四年来朝。同卷成王十二年「王锡韩侯命」是另一世，不引。",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "zhang-wenguan",
+  "name": "张文瓘",
+  "display": "张文瓘",
+  "birth": 605,
+  "birthAccuracy": "exact",
+  "death": 678,
+  "deathAccuracy": "disputed",
+  "birthNote": "由卒年与「年七十三」上推，因两《唐书》卒年互异而生年随之浮动。",
+  "deathNote": "《新唐书·宰相表上》作仪凤三年九月薨；《旧唐书》本传记仪凤二年卒、年七十三。此处采《新唐书》。",
+  "title": "高宗宰相",
+  "bio": "乾封二年以东台舍人参知政事，后为侍中，宰相表载其 667—669 年在任。薨年两《唐书》互异：《新唐书》作仪凤三年九月，《旧唐书》作仪凤二年，年七十三。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "zhang-wenguan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾封二年参知政事，宰相表载 667—669 年在任；薨年旧唐书作仪凤二年、新唐书作仪凤三年九月。"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "张文瓘"
+  ],
+  "sources": [
+    {
+      "work": "新唐书",
+      "part": "宰相表上",
+      "kind": "classic"
+    },
+    {
+      "work": "旧唐书",
+      "part": "张文瓘传",
+      "kind": "classic"
+    }
+  ]
+}

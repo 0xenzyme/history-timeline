@@ -1,0 +1,64 @@
+{
+  "id": "qi-gonggong",
+  "name": "杞共公",
+  "display": "杞共公",
+  "birthAccuracy": "unknown",
+  "death": -798,
+  "deathAccuracy": "exact",
+  "deathNote": "靖公卒当 -806，史记共公八年卒，下推当 -798。",
+  "title": "杞共公",
+  "bio": "靖公之子。八年卒。",
+  "tags": [
+    "杞"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qi-gonggong",
+      "target": "qi-jinggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qi-degong",
+      "target": "qi-gonggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杞共公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家"
+    }
+  ]
+}

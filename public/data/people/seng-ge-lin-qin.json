@@ -1,0 +1,86 @@
+{
+  "id": "seng-ge-lin-qin",
+  "name": "僧格林沁",
+  "display": "僧格林沁",
+  "birth": 1811,
+  "birthAccuracy": "exact",
+  "death": 1865,
+  "deathAccuracy": "exact",
+  "title": "科尔沁亲王，剿捻战殁",
+  "bio": "博尔济吉特氏，科尔沁左翼后旗人，尚庄敬和硕公主之嗣子。咸丰朝统满蒙马队，破太平军北伐之师于天津、连镇；后又督剿捻军，1865 年于曹州高楼寨战殁，清廷所倚之长城自此无人。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xian-feng",
+      "target": "seng-ge-lin-qin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "统满蒙马队，破太平军北伐之师于连镇"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "tong-zhi",
+      "target": "seng-ge-lin-qin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "督剿捻军，1865 年战殁于曹州高楼寨"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-xiuquan",
+      "target": "seng-ge-lin-qin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "林凤祥、李开芳北伐之师为其所破"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yapian-zhanzheng-xianfeng",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "僧格林沁传",
+      "kind": "classic"
+    }
+  ]
+}

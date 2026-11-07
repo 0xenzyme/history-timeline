@@ -1,0 +1,105 @@
+{
+  "id": "yu-wen-shu",
+  "name": "宇文述",
+  "display": "宇文述",
+  "birthAccuracy": "unknown",
+  "death": 616,
+  "deathAccuracy": "exact",
+  "deathNote": "列传只书江都遇疾而薨。炀帝纪系于大业十二年十月。",
+  "title": "夺嫡主谋，辽东扶余道军将",
+  "bio": "代郡武川人。晋王有夺宗之志，述请先结杨素，废立之谋由此而成。征高丽为扶余道军将，萨水大溃。杨玄感西走，述破之于阌乡。大业十二年十月薨。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "夺宗之计出于述。辽东之役，述为扶余道军将"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-xuan-gan",
+      "target": "yu-wen-shu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "玄感西走，述破之于阌乡，斩之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yu-wen-shu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。述临终请炀帝哀怜化及"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sandian-zheng-gaoliuli",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "sui-zheng-gaogouli",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yang-xuangan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "宇文述",
+    "许公"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "宇文述传",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "炀帝纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "id": "ji-gongsheng",
+  "name": "姬宫湦",
+  "display": "周幽王",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "exact",
+  "title": "西周末代天子",
+  "bio": "宣王子。嬖褒姒、用虢石父，废申后与太子宜臼。前 771 年申侯联合犬戎破镐京，死于骊山，西周亡。",
+  "tags": [
+    "镐京陷落"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "king"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-jing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yijiu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。后废嫡立伯服"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "bao-si",
+      "target": "ji-gongsheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宠妃，伯服之母"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "guo-shifu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "用为卿士，国人皆怨"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bo-yangfu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -780,
+      "notes": [
+        "太史论三川震"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shen-hou",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废申后，申侯后来引犬戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yijiu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "废太子，改立褒姒之子伯服"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-bofu",
+      "target": "ji-gongsheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。褒姒所生，后立为太子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shen-hou-nv",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻。后废申后"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-yuchen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。竹书：虢公翰立余臣于携"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bao-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "褒人有狱，入女于王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "huang-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》皇父卿士，作都于向"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "fan-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《瞻卬》《召旻》序：凡伯刺幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "jia-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《节南山》家父刺幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shi-yin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《节南山》赫赫师尹；竹书锡太师尹氏命"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "fan-situ",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》番维司徒"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "jia-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》家伯维宰"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "zhong-yun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》仲允膳夫"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "zou-zi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》棸子内史"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "jue-quma",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》蹶维趣马"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ju-shishi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》楀维师氏"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "si-ren-mengzi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《巷伯》寺人孟子，毛序刺幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "su-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诗在节南山之什，与刺幽王诸篇同组"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bao-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "毛序称暴公为卿士"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bo-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书幽王六年命伯士伐六济之戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "shu-dai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "幽王无道，叔带去周如晋"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "yan-qinghou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顷侯二十年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "song-daigong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "戴公二十九年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "cai-xihou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "釐侯三十九年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "cao-huibo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "惠伯二十五年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "xiong-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "若敖二十年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "quanrong-gong-youwang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "周幽王",
+    "姬宫涅"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "十二诸侯年表",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "shi-kefa",
+  "name": "史可法",
+  "display": "史可法",
+  "birth": 1601,
+  "birthAccuracy": "exact",
+  "death": 1645,
+  "deathAccuracy": "exact",
+  "title": "督师扬州",
+  "bio": "字宪之，一字道邻，河南祥符人。弘光既立，以兵部尚书督师江北; 1645 年清兵破扬州，城陷不屈而死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "minister",
+    "general",
+    "falling"
+  ],
+  "primary": "minister",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shi-kefa",
+      "target": "zhu-yousong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘光立于南京，可法督师江北"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "shi-kefa",
+      "type": "rival",
+      "directed": false,
+      "since": 1645,
+      "notes": [
+        "扬州城破，可法被执不屈而死"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ma-shiying",
+      "target": "shi-kefa",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "阁部相倾，出可法督师江北，江防由是无统一之帅"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "shi-kefa",
+      "target": "xia-wanchun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "一同殉于江南，完淳年止十七，传其《狱中上母书》"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "史可法传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "beijing-qiandu",
+  "name": "迁都北京",
+  "display": "迁都北京",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1420,
+  "yearAccuracy": "exact",
+  "yearNote": "永乐十八年九月下诏，自明年改北京为京师。十一月诏天下。改称落在永乐十九年。",
+  "endYear": 1421,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zhu-di"
+  ],
+  "result": "北京改为京师",
+  "aliases": [
+    "北京为京师"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "永乐十八年九月丁亥，诏自明年改京师为南京、北京为京师。十一月戊辰以迁都北京诏天下。京师改称落在永乐十九年。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷七",
+      "note": "永乐十八年九月丁亥诏自明年改京师为南京、北京为京师。十一月戊辰以迁都北京诏天下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-di",
+      "name": "朱棣",
+      "display": "明成祖朱棣",
+      "birth": 1360,
+      "birthAccuracy": "exact",
+      "death": 1424,
+      "deathAccuracy": "exact",
+      "title": "永乐大帝，迁都北京",
+      "bio": "太祖第四子，封燕王。靖难之役入南京，即位后迁都北京、营紫禁城，遣郑和下西洋，修《永乐大典》，国势鼎盛。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

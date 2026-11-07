@@ -1,0 +1,80 @@
+{
+  "id": "xiao-tong",
+  "name": "萧统",
+  "display": "昭明太子萧统",
+  "birth": 501,
+  "birthAccuracy": "exact",
+  "death": 531,
+  "deathAccuracy": "exact",
+  "title": "昭明太子，编《文选》三十卷",
+  "bio": "萧衍长子，生而聪睿，三岁受《孝经》《论语》，五岁遍读五经。性宽和，好文学，引纳刘孝绰、刘勰等，集古来诗文为《文选》三十卷，为现存最早的诗文总集。中大通三年以蜡鹅厌祷事父子有嫌，寻薨于东宫，年三十一，谥昭明。",
+  "tags": [
+    "南朝",
+    "萧梁"
+  ],
+  "categories": [
+    "royal-kin",
+    "literature"
+  ],
+  "primary": "literature",
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiao-tong",
+      "target": "xiao-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，昭明太子编《文选》"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "xiao-gang",
+      "target": "xiao-tong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟。简文为昭明太子母弟"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wenxuan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "萧统",
+    "萧德施",
+    "昭明太子"
+  ],
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "昭明太子传",
+      "kind": "classic"
+    }
+  ]
+}

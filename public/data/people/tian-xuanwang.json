@@ -1,0 +1,123 @@
+{
+  "id": "tian-xuanwang",
+  "name": "齐宣王",
+  "display": "齐宣王",
+  "birthAccuracy": "unknown",
+  "death": -301,
+  "deathAccuracy": "exact",
+  "deathNote": "田敬仲完世家、六国年表：宣王卒年系定为前301年。",
+  "title": "齐王，稷下之王",
+  "bio": "孟子见宣王问王政，伐燕取半渡之功而不能守；稷下先生之盛在此世。前301年卒，其子湣王立——由宣到湣，齐是一条上坡接着一脚踩空。",
+  "tags": [
+    "齐国",
+    "稷下"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tian-xuanwang",
+      "target": "tian-yinqi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "威王卒，宣王嗣，稷下之盛在其世"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-di",
+      "target": "tian-xuanwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣王卒，湣王嗣"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "yan-kuaiwang",
+      "type": "rival",
+      "directed": false,
+      "since": -314,
+      "notes": [
+        "乘燕让国之乱伐燕，士卒不战、城门不闭；二年后燕人畔，齐戍尽出"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "meng-zi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "问王政于孟子，亦问伐燕——不合则去"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "zi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "齐伐燕，王哙与子之俱死"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "tian-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "齐宣王以田忌为将，与魏战于桂陵、马陵，齐由此霸诸侯"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "宣王（齐）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "田敬仲完世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "孟子荀卿列传",
+      "kind": "classic"
+    }
+  ]
+}

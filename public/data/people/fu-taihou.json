@@ -1,0 +1,57 @@
+{
+  "id": "fu-taihou",
+  "name": "傅昭仪",
+  "display": "傅太后",
+  "birthAccuracy": "unknown",
+  "death": -2,
+  "deathAccuracy": "exact",
+  "title": "哀帝祖母",
+  "bio": "元帝昭仪，哀帝的祖母。哀帝时权势很重。元寿元年崩，合葬渭陵，追称孝元傅皇后。",
+  "tags": [
+    "西汉"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-taihou",
+      "target": "liu-xin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "哀帝祖母。元寿元年崩，追称孝元傅皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "傅昭仪",
+    "傅太后"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "外戚传·孝元傅昭仪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "liu-xie-xiandi",
+  "name": "刘协",
+  "display": "汉献帝",
+  "birth": 181,
+  "birthAccuracy": "exact",
+  "death": 234,
+  "deathAccuracy": "exact",
+  "title": "东汉献帝，禅于曹丕，青龙二年卒",
+  "bio": "董卓所立。延康元年禅于曹丕，帝位先断在公元 220 年。魏青龙二年卒，条收到公元 234 年。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dong-zhuo",
+      "target": "liu-xie-xiandi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "废辩而立陈留王协"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "cao-jie",
+      "target": "liu-xie-xiandi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "献帝皇后，曹操中女。景初元年薨"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-xie-xiandi",
+      "target": "dong-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "董贵人之父，受衣带密诏图操"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caocao-feng-tianzi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "caopi-shou-chan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "dong-zhuo-luan-zheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qian-du-xu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘协",
+    "汉献帝"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "孝献帝纪",
+      "kind": "classic"
+    }
+  ]
+}

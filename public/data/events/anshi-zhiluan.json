@@ -1,0 +1,438 @@
+{
+  "id": "anshi-zhiluan",
+  "name": "安史之乱",
+  "display": "安史之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 755,
+  "yearAccuracy": "exact",
+  "endYear": 763,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "an-lu-shan",
+    "shi-si-ming",
+    "li-long-ji",
+    "yang-yu-huan",
+    "ge-shu-han",
+    "guo-zi-yi",
+    "li-guang-bi",
+    "zhang-xun"
+  ],
+  "result": "唐廷平定叛乱但中央财政、兵制与藩镇关系长期改组",
+  "aliases": [
+    "安禄山史思明之乱",
+    "tang-tianbao"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "755 年十一月，安禄山以讨杨国忠为名起兵范阳，率十五万众南下。次年六月哥舒翰败于灵宝，潼关失守，玄宗奔蜀，马嵬驿兵变后太子即位灵武，是为肃宗。757 年唐军借回纥援兵反攻，先后收复西京长安与东都洛阳，其间张巡死守睢阳。安禄山死后安庆绪、史思明相继统领叛军，与唐廷相持至 763 年史朝义败死，叛乱平定。战后朝廷以安史降将分帅河北，藩镇割据格局由此形成，唐朝由盛转衰。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "肃宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "旧唐书",
+      "part": "郭子仪传",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "郭子仪传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百一十七至二百二十三",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [
+    {
+      "id": "anshi-zhiluan",
+      "note": "睢阳保卫战是安史之乱中阻遏叛军南下江淮的组成战事。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "张巡传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一十九至二百二十",
+          "kind": "classic"
+        }
+      ],
+      "event": {
+        "id": "suiyang-baowei-zhan",
+        "name": "睢阳保卫战",
+        "display": "睢阳保卫战",
+        "kind": "point",
+        "type": "military",
+        "catalogs": [
+          "military",
+          "history"
+        ],
+        "scale": "battle",
+        "importance": 2,
+        "year": 757,
+        "yearAccuracy": "exact",
+        "place": "睢阳",
+        "placeNow": "今河南商丘",
+        "belligerents": [
+          "tang",
+          "anshi"
+        ],
+        "commanders": [
+          {
+            "id": "zhang-xun",
+            "side": "tang"
+          },
+          {
+            "id": "xu-yuan",
+            "side": "tang"
+          },
+          {
+            "id": "yin-ziqi",
+            "side": "anshi"
+          }
+        ],
+        "people": [
+          "zhang-xun",
+          "xu-yuan"
+        ],
+        "result": "张巡死守睢阳近十月，叛军无力南下江淮",
+        "partOf": [
+          {
+            "id": "anshi-zhiluan",
+            "note": "睢阳保卫战是安史之乱中阻遏叛军南下江淮的组成战事。",
+            "sources": [
+              {
+                "work": "旧唐书",
+                "part": "张巡传",
+                "kind": "classic"
+              },
+              {
+                "work": "资治通鉴",
+                "part": "卷二百一十九至二百二十",
+                "kind": "classic"
+              }
+            ]
+          }
+        ],
+        "dynasties": [
+          "tang"
+        ],
+        "desc": "757 年，张巡与许远合力守睢阳，以数千之众抗尹子奇所率叛军围攻近十月，粮尽后城陷殉国。睢阳之守阻遏叛军南下江淮，保障唐廷财赋所出，是安史之乱中的关键节点。城内食人惨状等极端记载众说纷纭，不在本实体中采信单一数字。",
+        "sources": [
+          {
+            "work": "旧唐书",
+            "part": "张巡传",
+            "kind": "classic"
+          },
+          {
+            "work": "资治通鉴",
+            "part": "卷二百一十九至二百二十",
+            "kind": "classic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "anshi-zhiluan",
+      "note": "香积寺之战是安史之乱中唐军反攻并收复长安的组成会战。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百二十",
+          "kind": "classic"
+        }
+      ],
+      "event": {
+        "id": "xiangjisi-zhizhan",
+        "name": "香积寺之战",
+        "display": "香积寺",
+        "kind": "point",
+        "type": "military",
+        "catalogs": [
+          "military",
+          "history"
+        ],
+        "scale": "battle",
+        "importance": 2,
+        "year": 757,
+        "yearAccuracy": "exact",
+        "place": "香积寺",
+        "placeNow": "今陕西西安南",
+        "belligerents": [
+          "tang",
+          "anshi"
+        ],
+        "commanders": [
+          {
+            "id": "guo-zi-yi",
+            "side": "tang"
+          }
+        ],
+        "people": [
+          "guo-zi-yi",
+          "an-qing-xu"
+        ],
+        "result": "唐军大破叛军，次日收复长安",
+        "partOf": [
+          {
+            "id": "anshi-zhiluan",
+            "note": "香积寺之战是安史之乱中唐军反攻并收复长安的组成会战。",
+            "sources": [
+              {
+                "work": "旧唐书",
+                "part": "郭子仪传",
+                "kind": "classic"
+              },
+              {
+                "work": "资治通鉴",
+                "part": "卷二百二十",
+                "kind": "classic"
+              }
+            ]
+          }
+        ],
+        "dynasties": [
+          "tang"
+        ],
+        "desc": "至德二载（757）九月，唐军十五万（号二十万，回纥叶护太子率四千骑助战）由元帅广平王俶统领东进，阵于香积寺北，与安庆绪叛军十万决战；郭子仪为中军，李嗣业前军奋击，回纥奇兵出贼阵后夹攻，自午至酉大破叛军，斩首六万级。叛将张通儒弃长安夜走陕郡，次日唐军收复长安。此役是安史之乱中唐军转守为攻的决定性会战，两京收复由此开端。",
+        "sources": [
+          {
+            "work": "旧唐书",
+            "part": "郭子仪传",
+            "kind": "classic"
+          },
+          {
+            "work": "资治通鉴",
+            "part": "卷二百二十",
+            "kind": "classic"
+          },
+          {
+            "work": "新唐书",
+            "part": "郭子仪传",
+            "kind": "classic"
+          }
+        ]
+      }
+    }
+  ],
+  "personRecords": [
+    {
+      "id": "an-lu-shan",
+      "name": "安禄山",
+      "display": "安禄山",
+      "birth": 703,
+      "birthAccuracy": "exact",
+      "death": 757,
+      "deathAccuracy": "exact",
+      "title": "范阳节度使，起兵反唐，为子所杀",
+      "bio": "营州柳城胡人，本姓康，母嫁安延偃，因冒其姓。通六蕃语，为互市牙郎，以狡黠得张守珪、玄宗宠，兼领平卢、范阳、河东三镇。天宝十四载以讨杨国忠为名起兵，明年陷洛阳、长安，自称大燕皇帝。至德二年为其子庆绪与严庄所杀于洛阳，年五十五。",
+      "tags": [
+        "唐",
+        "安史之乱",
+        "藩镇"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-si-ming",
+      "name": "史思明",
+      "display": "史思明",
+      "birthAccuracy": "unknown",
+      "death": 761,
+      "deathAccuracy": "exact",
+      "title": "安禄山之将，继称大燕，为子所杀",
+      "bio": "营州宁夷州突厥杂胡，与安禄山同乡里，同为互市牙郎。禄山反，思明为前锋，下河北诸郡。禄山死，降唐而复叛，乾元二年称大燕皇帝于范阳，改元顺天，陷洛阳。上元二年为其子朝义与部将所执，缢杀于柳泉驿。安史之乱首尾八年，至朝义而尽。",
+      "tags": [
+        "唐",
+        "安史之乱",
+        "藩镇"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-long-ji",
+      "name": "李隆基",
+      "display": "唐玄宗李隆基",
+      "birth": 685,
+      "birthAccuracy": "exact",
+      "death": 762,
+      "deathAccuracy": "exact",
+      "title": "唐玄宗，开元盛世与天宝之乱",
+      "bio": "李旦第三子，神龙后为临淄王，与太平公主合谋诛韦后，先天二年又诛太平公主，始专朝政。开元之世用姚崇、宋璟、张说、张九龄，海内富实，号为开元盛世。天宝以后宠杨贵妃，任李林甫、杨国忠，安禄山反，京师陷，奔蜀而禅位肃宗。宝应元年崩于西内神龙殿，年七十八。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-yu-huan",
+      "name": "杨玉环",
+      "display": "杨贵妃",
+      "birth": 719,
+      "birthAccuracy": "exact",
+      "death": 756,
+      "deathAccuracy": "exact",
+      "title": "玄宗贵妃，姊妹承恩，缢死于马嵬",
+      "bio": "蒲州永乐人，初为玄宗子寿王妃，后令出家为女道士，号太真，天宝四载册为贵妃。姿质丰艳，善歌舞，通音律，姊妹韩国、虢国、秦国三夫人并承恩泽，从兄国忠为相。天宝十四载安禄山反，明年帝奔蜀，至马嵬坡，六军不发，赐死于佛堂，年三十八。",
+      "tags": [
+        "唐",
+        "天宝"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "ge-shu-han",
+      "name": "哥舒翰",
+      "display": "哥舒翰",
+      "birthAccuracy": "unknown",
+      "death": 757,
+      "deathAccuracy": "exact",
+      "title": "河西节度使，潼关失守而降，死于洛阳",
+      "bio": "突骑施哥舒部人，世居安西。仗剑之河西，从王倕、王忠嗣，天宝八载拔石堡城，兼河西、陇右节度，封西平郡王。好读《左氏春秋》《汉书》，恤士卒而不恤士君子。天宝十五载以风疾守潼关，杨国忠促之战，军溃被执，降于禄山，明年为安庆绪所害。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guo-zi-yi",
+      "name": "郭子仪",
+      "display": "郭子仪",
+      "birth": 697,
+      "birthAccuracy": "exact",
+      "death": 781,
+      "deathAccuracy": "exact",
+      "title": "汾阳郡王，再造唐室，功高而主不疑",
+      "bio": "华州郑县人，以武举高等起。天宝十四载为朔方节度使，与李光弼同讨安史，收复两京，功居第一。广德元年吐蕃入寇，京师再陷，子仪以二十骑复长安。单骑说回纥而下之，破吐蕃于灵台。以身系天下安危者三十年，位极人臣而朝不忌，建中二年薨，年八十五。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-guang-bi",
+      "name": "李光弼",
+      "display": "李光弼",
+      "birth": 708,
+      "birthAccuracy": "exact",
+      "death": 764,
+      "deathAccuracy": "exact",
+      "title": "临淮郡王，守太原、河阳，与郭子仪齐名",
+      "bio": "营州柳城契丹人，父楷洛为朔方将。天宝十四载守太原，以万人破史思明十万，斩七万级。乾元二年河阳之战，制敌如神，贼不敢逼。治军严整，与郭子仪并为中兴第一。后以宦官鱼朝恩、程元振用事，惧祸不敢入朝，广德二年卒于徐州，年五十七。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-xun",
+      "name": "张巡",
+      "display": "张巡",
+      "birth": 708,
+      "birthAccuracy": "exact",
+      "death": 757,
+      "deathAccuracy": "exact",
+      "title": "御史中丞，守睢阳十月，城陷而死",
+      "bio": "邓州南阳人，博通群书，晓战阵法。至德二年与许远守睢阳，以六千八百人当尹子琦十余万，大小四百战，粮尽食马，马尽罗雀掘鼠，继以人、以妇孺。凡十月，江、淮赖以保全，而城遂陷。与姚誾、南霁云等三十六人同日遇害，年四十九。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

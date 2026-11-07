@@ -1,0 +1,237 @@
+{
+  "id": "chai-rong",
+  "name": "柴荣",
+  "display": "周世宗",
+  "birth": 921,
+  "birthAccuracy": "exact",
+  "death": 959,
+  "deathAccuracy": "exact",
+  "title": "周世宗，以十年开拓天下",
+  "bio": "邢州龙冈人，姑婿郭威无子，以为后，初名郭荣。显德元年即位，高平亲犯矢石破北汉。自期\"以十年开拓天下，十年养百姓，十年致太平\"：疏汴渠、均田赋、简练禁军；三征南唐取淮南十四州，北征四十日下燕南三关三州。六年病殂，年三十九，宋太祖受其成。",
+  "tags": [
+    "五代",
+    "后周"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chai-rong",
+      "target": "yelv-jing-931",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "北伐下三关，睡王不设备，曰此本汉地今以还主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "guo-wei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姑婿为后，周祚所传"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "chai-zongxun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，恭帝冲龄而禅"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "wang-pu-915",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "枢密首席，平边之策所自出"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "fan-aineng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "高平弃阵而奔，并按军法"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "he-hui",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "高平弃阵而奔，并按军法"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "liu-chong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "高平、太原之役，北汉赖辽而存"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "li-jing-916",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "三征淮南，尽取江北之地"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "feng-yansi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "江南词臣，奉表称国主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "wei-renpu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "周世宗即位，以魏仁浦为宰相，与王溥同预政事"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "fu-yanqing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "世宗之后，彦卿长女也，故以后父处之"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "yang-ningshi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "显德初以太子太保致仕，岁时存问，不烦以事"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gaoping-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "houzhou-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shizong-beifa",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "shizong-zheng-nantang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shouzhou-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xiande-gaige",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zijinshan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "郭荣"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "世宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

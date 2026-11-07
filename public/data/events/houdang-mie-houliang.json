@@ -1,0 +1,143 @@
+{
+  "id": "houdang-mie-houliang",
+  "name": "后唐灭后梁",
+  "display": "后唐灭后梁",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 923,
+  "yearAccuracy": "exact",
+  "yearNote": "袭取郓州：资治通鉴卷272、旧五代史卷29同系同光元年闰四月壬寅—癸卯（923）。灭梁：旧五代史卷30系十月辛未朔、壬申大军自杨刘济河、癸酉至郓州、甲戌破中都擒王彦章；通鉴卷272载戊寅（初八）梁末帝朱友贞自尽、己卯（初九）旦李嗣源入大梁、庄宗入梁门。全役在同光元年（923）之内，campaign 不设 endYear。",
+  "place": "郓州—汴州",
+  "placeNow": "山东东平—河南开封",
+  "belligerents": [
+    "hou-liang",
+    "hou-tang"
+  ],
+  "commanders": [
+    {
+      "id": "li-cunxu",
+      "side": "hou-tang"
+    },
+    {
+      "id": "li-siyuan",
+      "side": "hou-tang"
+    }
+  ],
+  "people": [
+    "zhu-zhen"
+  ],
+  "result": "闰四月李嗣源袭取郓州楔入梁腹地；十月唐军自郓州兼程直趋大梁，中都破王彦章，戊寅夜梁末帝朱友贞自尽，己卯李嗣源先入汴，后梁亡；李存勖旋定都洛阳。",
+  "aliases": [
+    "汴州之战",
+    "同光灭梁",
+    "郓州-汴州之役"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "同光元年（923）四月己巳，晋王李存勖在魏州即皇帝位，国号大唐，改元同光。闰四月壬寅，李嗣源率精兵袭取郓州，楔入梁腹地；十月唐军自杨刘济河，甲戌破中都擒王彦章，兼程直趋大梁，戊寅夜梁末帝朱友贞自尽，己卯旦李嗣源先入汴州，后梁灭亡。庄宗旋定都洛阳。这是五代第一次政权更替，黄河流域主导权自此归于后唐。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷二七二 后唐纪一 同光元年",
+      "note": "四月己巳帝即皇帝位于魏州，国号大唐；十月壬申帝以大军自杨刘济河，己卯旦李嗣源军至大梁攻封丘门，王瓒开门出降",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷二九 唐书·庄宗纪三 同光元年",
+      "note": "闰月壬寅命嗣源率步骑五千箝枚自河趋郓，是夜阴雨至城下，郓人不觉，乘城而入，郓州平",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷三十 唐书·庄宗纪四 同光元年",
+      "note": "十月辛未朔壬申帝御大军自杨刘济河，癸酉至郓州，甲戌攻中都（时王彦章守中都）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-zhen",
+      "name": "朱瑱",
+      "display": "后梁末帝",
+      "birthAccuracy": "unknown",
+      "death": 923,
+      "deathAccuracy": "exact",
+      "title": "后梁末帝，汴城死社稷",
+      "bio": "朱温第四子，初名友贞，后单名瑱。乾化二年合禁军诛友珪自立，宠信赵岩、张汉杰，疏远宗室，大将疑贰。龙德三年唐师压境，汴州援绝，谓皇甫麟曰\"吾不为唐俘\"，令其杀己，梁亡。",
+      "tags": [
+        "五代",
+        "后梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "birth": 885,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-siyuan",
+      "name": "李嗣源",
+      "display": "后唐明宗",
+      "birth": 867,
+      "birthAccuracy": "approx",
+      "death": 933,
+      "deathAccuracy": "exact",
+      "birthNote": "长兴四年十一月崩于洛阳，年六十七，上推生年。",
+      "title": "后唐明宗，起于乱军，粗致小康",
+      "bio": "沙陀人，事李克用为骑将，斗绝一隅，战功居最，庄宗以为蕃汉内外马步副总管。同光四年从思乱之兵入洛监国，旋即位。性俭素不识字，每登殿祝曰\"某蕃人，中原不可理，愿天生圣人，为百姓主子\"；诛聚敛之臣，省事息兵，年谷粗登，中土小安。末年秦王争立，忧愤而崩。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

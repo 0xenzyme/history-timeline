@@ -1,0 +1,80 @@
+{
+  "id": "ji-guizhu",
+  "name": "姬诡诸",
+  "display": "晋献公",
+  "birthAccuracy": "unknown",
+  "death": -651,
+  "deathAccuracy": "exact",
+  "title": "晋国国君，骊姬之祸的当事者",
+  "bio": "灭虢、虞，扩地河东。宠骊姬，杀太子申生，逼重耳、夷吾出亡。他一死，晋国陷入几十年的公子争立，才把文公逼成霸主。",
+  "tags": [
+    "晋国",
+    "骊姬之乱"
+  ],
+  "categories": [
+    "hegemon"
+  ],
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "hegemon"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-guizhu",
+      "target": "li-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宠妃，奚齐之母"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "ji-guizhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。骊姬之祸逼重耳出亡"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jin-mie-guoyu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "晋献公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "僖公四年",
+      "kind": "classic"
+    }
+  ]
+}

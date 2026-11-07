@@ -1,0 +1,71 @@
+{
+  "id": "buyuerhai-zhizhan",
+  "name": "捕鱼儿海之战",
+  "display": "捕鱼儿海之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1388,
+  "yearAccuracy": "exact",
+  "yearNote": "洪武二十一年四月丙辰。",
+  "place": "捕鱼儿海",
+  "belligerents": [
+    "ming",
+    "yuan"
+  ],
+  "commanders": [
+    {
+      "id": "lan-yu",
+      "side": "ming"
+    }
+  ],
+  "result": "明军袭破元嗣君，获数万人",
+  "aliases": [
+    "捕鱼儿海"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "洪武二十一年四月丙辰，蓝玉袭破元嗣君于捕鱼儿海，获其次子地保奴及妃主王公以下数万人。交战方按明史所写的明朝与元嗣君。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷三",
+      "note": "洪武二十一年四月丙辰蓝玉袭破元嗣君于捕鱼儿海，获地保奴及妃主王公以下数万人",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "lan-yu",
+      "name": "蓝玉",
+      "display": "蓝玉",
+      "birthAccuracy": "unknown",
+      "death": 1393,
+      "deathAccuracy": "exact",
+      "title": "捕鱼儿海之功臣",
+      "bio": "定远人，常遇春妻弟。数将大军出塞，捕鱼儿海之捷名震北荒; 恃功骄纵，1393 年以谋反诛，列侯以下死者万五千余人。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

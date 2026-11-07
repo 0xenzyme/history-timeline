@@ -1,0 +1,120 @@
+{
+  "id": "renshou-gongbian",
+  "name": "仁寿宫变",
+  "display": "仁寿宫变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 604,
+  "yearAccuracy": "exact",
+  "yearNote": "仁寿四年（604）七月丁未隋文帝崩于仁寿宫大宝殿，本纪纪年确凿。",
+  "place": "仁寿宫",
+  "placeNow": "今陕西麟游",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-guang",
+    "yang-jian",
+    "yang-su"
+  ],
+  "result": "文帝崩于仁寿宫，杨广继位，弑逆之说留疑",
+  "aliases": [
+    "仁寿宫之变",
+    "隋文帝之死"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "仁寿四年（604）七月，文帝卧疾仁寿宫，甲辰与百僚辞诀，丁未崩于大宝殿。《隋書》后妃传记文帝寝疾时太子杨广逼幸宣华夫人，又遣隋臣张衡入寝殿，俄而帝崩而未发丧；《隋書》未明言弑逆，《资治通鉴》卷一八〇采《大业略记》等另有弑逆之说，异说并存。杨广继位，是为炀帝。",
+  "sources": [
+    {
+      "work": "隋書",
+      "part": "卷二 高祖紀下",
+      "kind": "classic"
+    },
+    {
+      "work": "隋書",
+      "part": "卷三六 后妃傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "birth": 569,
+      "birthAccuracy": "exact",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-su",
+      "name": "杨素",
+      "display": "杨素",
+      "birth": 544,
+      "birthAccuracy": "exact",
+      "death": 606,
+      "deathAccuracy": "exact",
+      "title": "尚书令，平陈水战，为炀帝所忌",
+      "bio": "弘农华阴人，性疏辩，善属文，与杨坚同族。开皇八年为行军元帅，出三峡，以五牙大舰破陈，江南遂定。数与突厥战，皆大克获。后附晋王广，助之夺宗，既而威权日盛，炀帝外示殊礼而内甚忌之。大业二年疾笃，帝日遣医问，然密问其死期，卒年六十三。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

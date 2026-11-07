@@ -1,0 +1,83 @@
+{
+  "id": "xiao-gang",
+  "name": "萧纲",
+  "display": "梁简文帝萧纲",
+  "birth": 503,
+  "birthAccuracy": "exact",
+  "death": 551,
+  "deathAccuracy": "exact",
+  "title": "梁简文帝，侯景以土囊弑之",
+  "bio": "梁武帝第三子，昭明太子同母弟。天监二年十月生。太清三年即位。大宝二年侯景党人进土囊，崩于永福省，年四十九。",
+  "tags": [
+    "南北朝",
+    "梁"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiao-gang",
+      "target": "xiao-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。简文为高祖第三子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "xiao-gang",
+      "target": "xiao-tong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟。简文为昭明太子母弟"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "xiao-gang",
+      "target": "xiao-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。元帝追崇纲为简文皇帝"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "萧纲",
+    "简文帝"
+  ],
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "简文帝纪",
+      "kind": "classic"
+    }
+  ]
+}

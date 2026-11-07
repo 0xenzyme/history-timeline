@@ -1,0 +1,59 @@
+{
+  "id": "tang-xiu-jing",
+  "name": "唐休璟",
+  "display": "唐休璟",
+  "birth": 627,
+  "birthAccuracy": "exact",
+  "death": 712,
+  "deathAccuracy": "exact",
+  "title": "延和元年薨，年八十六",
+  "bio": "久在边任，后同凤阁鸾台平章事。延和元年七月薨，年八十六。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor",
+    "general"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-dan",
+      "target": "tang-xiu-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载703至706年在任，延和元年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "唐休璟"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "唐休璟传",
+      "kind": "classic"
+    }
+  ]
+}

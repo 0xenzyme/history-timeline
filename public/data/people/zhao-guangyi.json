@@ -1,0 +1,127 @@
+{
+  "id": "zhao-guangyi",
+  "name": "赵光义",
+  "display": "赵光义",
+  "birth": 939,
+  "birthAccuracy": "exact",
+  "death": 997,
+  "deathAccuracy": "exact",
+  "title": "宋太宗，完成一统",
+  "bio": "太祖之弟，即位后灭北汉，结束五代十国分裂；两度北伐契丹失利，自此守内虚外。留心文治，扩大科举。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "end"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-chengjun",
+      "target": "zhao-guangyi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "开宝之围，北汉最后的屏障"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "zhao-kuangyin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，烛影斧声，太宗继统"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "zhao-hen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，太宗传真宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beisong-tongyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "chenqiao-bingbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "gaolianghe-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jinkui-zhimeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mie-beihan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wuyue-natu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongxi-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "太宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

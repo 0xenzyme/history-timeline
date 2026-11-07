@@ -1,0 +1,104 @@
+{
+  "id": "tianlijiao-qiyi",
+  "name": "天理教起事",
+  "display": "天理教起事",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 1813,
+  "yearAccuracy": "exact",
+  "yearNote": "嘉庆十八年李文成谋逆，林清就擒。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "jia-qing",
+    "lin-qing"
+  ],
+  "result": "林清就擒",
+  "aliases": [
+    "八卦教",
+    "紫禁城之变"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "嘉庆十八年，八卦教匪李文成在滑县起事，奸人陈爽数十人突入紫禁城，首逆林清就擒。杨遇春传称天理教匪李文成。起事打进宫城，滑县一股随后被镇压。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷十六",
+      "note": "八卦教匪李文成",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷十六",
+      "note": "奸人陳爽數十人突入紫禁城",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷十六",
+      "note": "首逆林清就擒",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷三百四十七",
+      "note": "天理教匪李文成踞滑縣",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jia-qing",
+      "name": "颙琰",
+      "display": "嘉庆",
+      "birth": 1760,
+      "birthAccuracy": "exact",
+      "death": 1820,
+      "deathAccuracy": "exact",
+      "title": "亲政诛和珅",
+      "bio": "乾隆第十五子，受禅即位，改元嘉庆。亲政即赐和珅死、籍其家，欲挽颓风；白莲、天理教相继起，禁鸦片之初议自此始。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lin-qing",
+      "name": "林清",
+      "display": "林清",
+      "birthAccuracy": "unknown",
+      "death": 1813,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷16·仁宗本纪：嘉庆十八年九月，有奸人陈爽等数十人突入紫禁城；同月辛巳，首逆林清就擒，丙戌，首逆林清与通逆内监刘进亨等伏诛。卷367·那彦成传系此事于嘉庆十八年，称河南天理会教匪李文成等倡乱、林清纠党犯禁门、清既诛；卷17·宣宗本纪一亦作教匪林清党犯阙之变。",
+      "categories": [
+        "rebel"
+      ],
+      "polity": [
+        "qing",
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

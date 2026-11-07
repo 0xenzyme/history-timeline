@@ -1,0 +1,137 @@
+{
+  "id": "wangdu-zhizhan",
+  "name": "望都之战",
+  "display": "望都之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 922,
+  "yearAccuracy": "exact",
+  "yearNote": "资治通鉴卷271系于龙德二年正月（922）：甲午晋王破契丹前锋于新城、戊戌战于望都，契丹大败、逐北至易州；新五代史卷5本纪系天祐十九年正月败契丹于新城、望都。其前契丹入寇定州在龙德元年十二月（921年末—922年初），battle 取决战之年 922。",
+  "place": "望都",
+  "placeNow": "河北省望都县",
+  "belligerents": [
+    "hou-tang",
+    "liao"
+  ],
+  "commanders": [
+    {
+      "id": "li-cunxu",
+      "side": "hou-tang"
+    },
+    {
+      "id": "yelv-abaoji",
+      "side": "liao"
+    }
+  ],
+  "people": [
+    "wang-du"
+  ],
+  "result": "晋王先破契丹前锋于新城，继战望都：亲军千骑被奚酋围，李嗣昭三百骑横击解围，纵兵奋击，契丹大败，逐北至易州；会大雪弥旬，契丹人马冻馁死者相属，阿保机北归。",
+  "aliases": [
+    "新城望都之战",
+    "晋破契丹于望都"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "龙德二年（922）正月，契丹主耶律阿保机倾国南下围定州，晋王李存勖率军迎击：甲午先破契丹前锋于新城，戊戌战于望都，亲军千骑被奚酋围，李嗣昭以三百骑横击解围，晋军纵兵奋击，契丹大败，逐北至易州。会大雪弥旬，契丹人马冻馁无食，死者相属于道，阿保机北归。此后终庄宗之世，契丹不敢大举南牧。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷二七一 后梁纪六 贞明五年—龙德二年",
+      "note": "龙德二年正月甲午晋王至新城南，先破契丹前锋；戊戌引兵趣望都，契丹逆战，晋王纵兵奋击，契丹大败，逐北至易州；会大雪弥旬，平地数尺，契丹人马无食，死者相属于道",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷五 唐本纪·庄宗下 天祐十五—十九年",
+      "note": "十九年正月，败契丹于新城、望都，追奔至于幽州",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-du",
+      "name": "王都",
+      "display": "王都",
+      "birthAccuracy": "unknown",
+      "death": 924,
+      "deathAccuracy": "exact",
+      "title": "据常山再叛，举族自焚",
+      "bio": "王处存养子，本姓刘。处存死，掩有常山，再为节度使。庄宗平梁，欲移镇易定，辞疾不受命，举叛，重赂契丹入寇为援。王师攻围经年，城破，举族聚宝库自焚。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "birth": 885,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-abaoji",
+      "name": "耶律阿保机",
+      "display": "辽太祖",
+      "birth": 872,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "契丹之君，并八部而建辽基",
+      "bio": "契丹迭剌部酋裔。唐末八部争立，阿保机并兼之，筑城置邑，用韩延徽、康默记辈正君臣、定耦耕，制契丹大字。东灭渤海，西服奚霫；与晋王李克用云州会盟约为兄弟，已而背盟取山北，与梁联好。天显元年建国号契丹，旋殂于扶余城。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

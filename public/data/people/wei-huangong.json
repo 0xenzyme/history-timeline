@@ -1,0 +1,50 @@
+{
+  "id": "wei-huangong",
+  "name": "姬完",
+  "display": "卫桓公",
+  "birthAccuracy": "unknown",
+  "death": -719,
+  "deathAccuracy": "exact",
+  "deathNote": "春秋经·隐公四年「州吁弑其君完」；史记·卫康叔世家「州吁……弒桓公」。庄公卒前735，桓公立前734，十六年得前719。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-huangong",
+      "target": "shi-que",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "州吁弑桓公而自立，石碏承陈侯图之，杀州吁于濮，又使其宰獳羊肩杀其子石厚于陈"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "隐公四年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

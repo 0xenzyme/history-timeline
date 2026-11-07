@@ -1,0 +1,160 @@
+{
+  "id": "shun-di",
+  "name": "妥懽帖睦尔",
+  "display": "元顺帝妥懽帖睦尔",
+  "birth": 1320,
+  "birthAccuracy": "exact",
+  "death": 1370,
+  "deathAccuracy": "exact",
+  "title": "元朝末帝",
+  "bio": "明宗子，即位初用脱脱更张弊政；后期怠荒，红巾遍起。1368 年明军克大都，北奔上都，元亡而北元继。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shun-di",
+      "target": "tuo-tuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚为丞相，更张弊政、修三史"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-futong",
+      "target": "shun-di",
+      "type": "rival",
+      "directed": false,
+      "since": 1351,
+      "notes": [
+        "红巾遍起，南北骚然"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "shun-di",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1368,
+      "notes": [
+        "北伐克大都，元室北遁"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "shun-di",
+      "target": "yi-linzhiban",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，宁宗崩，顺帝（明宗长子）立"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "qi-huanghou",
+      "target": "shun-di",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，顺帝皇后奇氏"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bo-yan-quanchen",
+      "target": "shun-di",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顺帝初独秉国政，请停科举、收南人兵器"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "shun-di",
+      "target": "jia-lu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命总治黄河，工成而役繁，次年红巾遂起"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "shun-di",
+      "target": "cha-han-tiemuer",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚为北方长城，被刺后剿抚之局遂崩"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chaofa-baihuai",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "dadu-xianluo",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yuanshundi-jiwei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "顺帝本纪",
+      "kind": "classic"
+    }
+  ]
+}

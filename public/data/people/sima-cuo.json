@@ -1,0 +1,32 @@
+{
+  "id": "sima-cuo",
+  "name": "司马错",
+  "display": "司马错",
+  "birthAccuracy": "unknown",
+  "death": -291,
+  "deathAccuracy": "approx",
+  "deathNote": "生卒不详，取前291年为活动年（非寿数）。引文「九年，司馬錯伐蜀，滅之」（raw/先秦-西汉/史記/卷005-秦本紀.md:180）是惠文王更元九年，本库惠文王元年前337，更元九年当前316，不是前291。同纪昭襄王十六年「左更錯取軹及鄧」（同卷:190）；昭襄王元年前306，十六年即前291。台账取这次为下限，不把伐蜀改记成前291。",
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

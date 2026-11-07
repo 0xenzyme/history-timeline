@@ -1,0 +1,180 @@
+{
+  "id": "nu-er-ha-chi",
+  "name": "努尔哈赤",
+  "display": "努尔哈赤",
+  "birth": 1559,
+  "birthAccuracy": "exact",
+  "death": 1626,
+  "deathAccuracy": "exact",
+  "title": "后金大汗",
+  "bio": "建州女真酋长，统一诸部，1616 年建后金称汗，创八旗、定满文，奠定清之基。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    },
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-chengliang",
+      "target": "nu-er-ha-chi",
+      "type": "rival",
+      "directed": false,
+      "since": 1583,
+      "notes": [
+        "其祖父死于古勒之役，衅由此起"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hong-taiji",
+      "target": "nu-er-ha-chi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，第八子嗣位而改国号为清",
+        "父子，后金大汗传位次子"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "liu-ting",
+      "target": "nu-er-ha-chi",
+      "type": "rival",
+      "directed": false,
+      "since": 1619,
+      "notes": [
+        "萨尔浒三路败没，綖以孤军战死"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "yuan-chonghuan",
+      "type": "rival",
+      "directed": false,
+      "since": 1626,
+      "notes": [
+        "宁远守战，其役之后汗遂崩"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "xiao-ci",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，1588 年叶赫之女来归，为建州与叶赫之盟"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "fei-ying-dong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "五大臣之一，建州起兵时的创业武将"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "e-yi-du",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "五大臣之一，世袭佐领，清初元勋"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "nu-er-ha-chi",
+      "target": "yang-gu-li",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "五大臣之首，松山阵亡，清初功臣第一条"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "chu-ying",
+      "target": "nu-er-ha-chi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长子受国政旋废，开清初储位之争先例"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houjin-jianguo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mingqing-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "saerhu-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "太祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

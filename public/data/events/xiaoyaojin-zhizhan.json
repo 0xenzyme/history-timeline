@@ -1,0 +1,140 @@
+{
+  "id": "xiaoyaojin-zhizhan",
+  "name": "逍遥津之战",
+  "display": "逍遥津之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 215,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷67系建安二十年八月：孙权率众十万围合肥，张辽李典乐进七千守军拒之，夜募八百人冲垒；三国志·吴书·吴主传「權與淩統、甘寧等在津北爲魏將張遼所襲」。同年内之事，battle 取 point。",
+  "place": "逍遥津（合肥城东）",
+  "placeNow": "今安徽合肥旧城东北（逍遥津公园一带）",
+  "belligerents": [
+    "wei",
+    "wu"
+  ],
+  "commanders": [
+    {
+      "id": "zhang-liao",
+      "side": "wei"
+    },
+    {
+      "id": "sun-quan",
+      "side": "wu"
+    },
+    {
+      "id": "yue-jin",
+      "side": "wei"
+    }
+  ],
+  "people": [
+    "zhang-liao",
+    "sun-quan",
+    "yue-jin"
+  ],
+  "result": "张辽以八百人晨袭破孙权十万之众锐气，坚守合肥；孙权撤军时于逍遥津北遇袭，赖凌统死战得免，吴军解围退走",
+  "aliases": [
+    "合肥之战（215）",
+    "张辽威震逍遥津"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "215 年八月孙权率十万之众围合肥，张辽与乐进、李典以七千守军拒之。张辽夜募敢从之士八百人，晨袭冲垒直入孙权麾下，破敌锐气；孙权撤军时于逍遥津北遇袭，赖凌统率亲近死战，谷利著鞭助势、孙权乘骏马超津得免，吴军解围退走。此为以少胜多的经典守城反击战，张辽威震江东、「张辽止啼」典故由此而来。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷六十七",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "吴书·吴主传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-liao",
+      "name": "张辽",
+      "display": "张辽",
+      "birth": 169,
+      "birthAccuracy": "exact",
+      "death": 222,
+      "deathAccuracy": "exact",
+      "title": "魏征东将军，逍遥津八百破十万",
+      "bio": "雁门马邑人，本聂壹之后，避怨改姓。历事丁原、董卓、吕布，后归曹操。建安二十年守合肥，率八百死士直冲孙权大军，几获权，江东小儿闻其名不敢夜啼。黄初三年卒于江都，年五十四。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sun-quan",
+      "name": "孙权",
+      "display": "吴大帝孙权",
+      "birth": 182,
+      "birthAccuracy": "exact",
+      "death": 252,
+      "deathAccuracy": "exact",
+      "title": "吴大帝，赤壁抗曹，晚年昏悖",
+      "bio": "孙坚次子，孙策之弟。年十五为阳羡长，兄死受事，举贤任能，赤壁用周瑜破曹操，遂据江东。建安二十四年袭荆州取关羽，黄武元年称吴王，黄龙元年称帝。晚年二子争宠、吕壹用事，赤乌十三年崩，年七十一。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yue-jin",
+      "name": "乐进",
+      "display": "乐进",
+      "birthAccuracy": "unknown",
+      "death": 218,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，每战先登",
+      "bio": "阳平卫国人，字文谦。以胆烈从曹操，每战常先登陷阵；官渡力战破绍，后与张辽、李典以七千人屯合肥，破孙权十万之众。建安二十三年薨，谥威侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

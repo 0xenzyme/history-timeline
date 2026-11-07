@@ -1,0 +1,83 @@
+{
+  "id": "yubi-zhizhan",
+  "name": "玉壁之战",
+  "display": "玉壁之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 546,
+  "yearAccuracy": "exact",
+  "place": "玉壁",
+  "placeNow": "今山西稷山西南",
+  "belligerents": [
+    "dongwei",
+    "xiwei"
+  ],
+  "commanders": [
+    {
+      "id": "gao-huan",
+      "side": "dongwei"
+    }
+  ],
+  "people": [
+    "gao-huan"
+  ],
+  "result": "东魏顿兵五十日不克，士卒死者七万，高欢旋发病而卒",
+  "aliases": [
+    "韦孝宽守玉壁"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "武定四年高欢倾山东之众西攻玉壁，昼夜攻城，起土山、凿地道、造冲车火攻无所不用，西魏韦孝宽随机拒守五十余日，东魏士卒战及病死者七万，高欢智困力殚，发病退兵，次年正月卒于晋阳。东西魏的战略相持由此定型，高欢身后再无西向之力。",
+  "sources": [
+    {
+      "work": "周书",
+      "part": "文帝纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "北齐书",
+      "part": "神武纪下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "gao-huan",
+      "name": "高欢",
+      "display": "高欢",
+      "birth": 496,
+      "birthAccuracy": "exact",
+      "death": 547,
+      "deathAccuracy": "exact",
+      "title": "东魏权臣，北齐之基，玉壁折戟",
+      "bio": "渤海蓨人，本出怀朔镇兵户。从尔朱荣，后得六镇余众，讨灭尔朱氏，立孝静帝，迁都邺，自居晋阳，东魏政皆出之。天平四年围玉壁，攻城五十余日，士卒死者七万，疾作而退。武定五年卒于晋阳，年五十二，子澄、洋相继，遂建北齐。",
+      "tags": [
+        "北朝",
+        "东魏",
+        "北齐之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

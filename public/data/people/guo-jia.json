@@ -1,0 +1,67 @@
+{
+  "id": "guo-jia",
+  "name": "郭嘉",
+  "display": "郭嘉",
+  "birth": 170,
+  "birthAccuracy": "exact",
+  "death": 207,
+  "deathAccuracy": "exact",
+  "title": "曹操谋士，十胜十败，死而赤壁败",
+  "bio": "颍川阳翟人，初见袁绍而去，经荀彧荐归曹操。论绍有十败、公有十胜，又料孙策必死于匹夫之手。随征乌桓，还而疾笃，建安十二年卒于柳城，年三十八。赤壁之败，操叹曰「郭奉孝在，不使孤至此」。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "official",
+    "strategist"
+  ],
+  "primary": "strategist",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "guo-jia",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "奇谋屡中"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bailangshan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "郭嘉",
+    "郭奉孝"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·程郭董刘蒋刘传",
+      "kind": "classic"
+    }
+  ]
+}

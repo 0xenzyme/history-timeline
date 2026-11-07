@@ -1,0 +1,108 @@
+{
+  "id": "yu-qian",
+  "name": "于谦",
+  "display": "于谦",
+  "birth": 1398,
+  "birthAccuracy": "exact",
+  "death": 1457,
+  "deathAccuracy": "exact",
+  "title": "北京保卫战",
+  "bio": "钱塘人，土木堡变后力排南迁、拥郕王监国，亲自督师破瓦剌于北京。英宗复辟，以「意欲」之罪冤死。",
+  "tags": [
+    "明",
+    "社稷臣"
+  ],
+  "categories": [
+    "official",
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-qizhen",
+      "target": "yu-qian",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1449,
+      "notes": [
+        "土木堡后于谦督师守北京"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "yu-qian",
+      "target": "zhu-qizhen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "南宫复辟，以冤罪杀于谦"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ye-xian",
+      "target": "yu-qian",
+      "type": "rival",
+      "directed": false,
+      "since": 1449,
+      "notes": [
+        "挟上皇叩京师，谦督九门之兵拒之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-you-zhen",
+      "target": "yu-qian",
+      "type": "rival",
+      "directed": false,
+      "since": 1457,
+      "notes": [
+        "以意欲二字定其死，天下冤之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beijing-baowei",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "duomen-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "于谦传",
+      "kind": "classic"
+    }
+  ]
+}

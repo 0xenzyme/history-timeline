@@ -1,0 +1,61 @@
+{
+  "id": "lv-dai",
+  "name": "吕岱",
+  "display": "吕岱",
+  "birth": 161,
+  "birthAccuracy": "approx",
+  "death": 256,
+  "deathAccuracy": "exact",
+  "birthNote": "传云卒时年九十六，据卒年上推。",
+  "title": "吴大司马，年九十六而卒",
+  "bio": "广陵海陵人，字定公。讨定交州，诱斩士徽兄弟；陆逊卒后督右部，迁上大将军；孙亮即位拜大司马。清身奉公，在交州历年不饷其家。太平元年卒，年九十六。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "general",
+    "official"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "lv-dai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为交州刺史，平定岭南"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "吕岱",
+    "吕定公"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·贺全吕周钟离传",
+      "kind": "classic"
+    }
+  ]
+}

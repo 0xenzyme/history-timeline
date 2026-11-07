@@ -1,0 +1,77 @@
+{
+  "id": "li-zong",
+  "name": "赵昀",
+  "display": "宋理宗赵昀",
+  "birth": 1205,
+  "birthAccuracy": "exact",
+  "death": 1264,
+  "deathAccuracy": "exact",
+  "title": "端平入洛，晚宋之主",
+  "bio": "太祖十世孙，宁宗养子。宝庆即位，端平入洛失利；后期权移贾似道，国势日蹙。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zong",
+      "target": "zhao-kuo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养父子，宁宗传理宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-zong",
+      "target": "zhao-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，理宗传度宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "duanping-rulu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "赵昀",
+    "宋理宗"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "理宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

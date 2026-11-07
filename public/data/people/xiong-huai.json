@@ -1,0 +1,99 @@
+{
+  "id": "xiong-huai",
+  "name": "熊槐",
+  "display": "楚怀王",
+  "birthAccuracy": "unknown",
+  "death": -296,
+  "deathAccuracy": "exact",
+  "title": "楚王，绝齐入秦，客死于秦",
+  "bio": "威王之子。张仪许商於六百里，怀王绝齐，丹阳、蓝田两败，失汉中。后入秦被留，卒于秦。屈原的疏与放逐画在他这条的后半，楚的转折也在这一条上。",
+  "tags": [
+    "楚国",
+    "连横"
+  ],
+  "categories": [
+    "monarch",
+    "diplomat"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-huai",
+      "target": "zhang-yi",
+      "type": "rival",
+      "directed": false,
+      "since": -313,
+      "notes": [
+        "许商於六百里，怀王绝齐；丹阳、蓝田两败"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "qu-yuan",
+      "target": "xiong-huai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "怀王左徒，主联齐被疏，放逐江南而投汨罗"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-weiwang",
+      "target": "xiong-huai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "威王卒，怀王槐嗣——商於六百里之欺起于其身"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-qingxiangwang",
+      "target": "xiong-huai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "太子横质于齐，怀王入秦不反，齐送立之"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "楚怀王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "屈原贾生列传",
+      "kind": "classic"
+    }
+  ]
+}

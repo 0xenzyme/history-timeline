@@ -1,0 +1,236 @@
+{
+  "id": "shang",
+  "name": "商",
+  "from": -1600,
+  "to": -1046,
+  "contractVersion": 1,
+  "group": "pre-qin",
+  "personCount": 0,
+  "eventCount": 5,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "ming-tiao-zhizhan",
+      "name": "鸣条之战",
+      "display": "鸣条之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -1600,
+      "yearAccuracy": "approx",
+      "yearNote": "夏商周断代工程通常置商灭夏约前1600；《竹书纪年》仅记夏桀三十一年，绝对年仍有争议。",
+      "place": "鸣条",
+      "placeNow": "今山西运城夏县一带，地望有异说",
+      "belligerents": [
+        "shang",
+        "xia"
+      ],
+      "aliases": [
+        "商汤伐夏",
+        "汤灭夏"
+      ],
+      "dynasties": [
+        "xia",
+        "shang"
+      ],
+      "desc": "商汤在鸣条击败夏桀，随后追击并放逐桀，夏政权由此终结、商建立。鸣条具体位置和绝对年代仍有争议，兵力数字不据传说填写。",
+      "sources": [
+        {
+          "work": "今本竹書紀年疏證",
+          "part": "卷上",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·殷本紀",
+          "part": "商汤伐夏段",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "pangeng-qiandu",
+      "name": "盘庚迁殷",
+      "display": "盘庚迁殷",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -1300,
+      "yearAccuracy": "approx",
+      "yearNote": "夏商周断代工程年表推定盘庚迁殷约前1300；《今本竹书纪年》系于盘庚十四年「自奄迁于北蒙曰殷」，两者互证，绝对年仍为约值。",
+      "place": "殷（北蒙）",
+      "placeNow": "今河南安阳小屯村一带（殷墟）",
+      "polity": [
+        "shang"
+      ],
+      "result": "商都此后长期稳定于殷，不复徙都；殷墟成为商代后期考古与年代框架的基点。",
+      "aliases": [
+        "盘庚迁都",
+        "自奄迁殷"
+      ],
+      "dynasties": [
+        "shang"
+      ],
+      "desc": "盘庚自奄迁都于北蒙，改称殷，商都此后长期稳定于此。商由此进入后期，殷墟成为商代考古与年代框架的基点。迁都路线文献不一：《竹书纪年》记自奄迁北蒙，《史记·殷本纪》记涉河南治亳；迁殷的绝对年取断代工程约值前1300。",
+      "sources": [
+        {
+          "work": "今本竹書紀年疏證",
+          "part": "卷上 盤庚十四年",
+          "kind": "classic"
+        },
+        {
+          "work": "尚書",
+          "part": "盤庚上",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷003 殷本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "夏商周断代工程",
+          "part": "夏商周年表",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "wuding-fa-guifang",
+      "name": "武丁伐鬼方",
+      "display": "武丁伐鬼方",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": -1220,
+      "yearAccuracy": "disputed",
+      "yearNote": "《周易·既济》「高宗伐鬼方，三年克之」记事不记年；武丁在位约前1250—前1192（夏商周断代工程）。前1220是系年占位值，约当武丁中期，无文献明文。",
+      "place": "鬼方",
+      "placeNow": "地望异说，多谓今晋陕高原北部至河套一带",
+      "belligerents": [
+        "shang",
+        "guifang"
+      ],
+      "result": "商军经三年苦战克鬼方；武丁期商势力达于极盛，为商代规模最大的对外用兵之一。",
+      "aliases": [
+        "高宗伐鬼方"
+      ],
+      "dynasties": [
+        "shang"
+      ],
+      "desc": "《周易·既济》记高宗武丁伐鬼方，三年克之，未记年份。战事约当武丁中期，前1220为占位系年，不是已考定的绝对年。鬼方地望与族属有异说，殷墟卜辞所见武丁用兵对象与《易》所记鬼方的对应也有争议。",
+      "sources": [
+        {
+          "work": "周易",
+          "part": "既濟 九三",
+          "kind": "classic"
+        },
+        {
+          "work": "夏商周断代工程",
+          "part": "夏商周年表",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "muye-zhizhan",
+      "name": "牧野之战",
+      "display": "牧野之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -1046,
+      "yearAccuracy": "disputed",
+      "yearNote": "主流断代工程取前1046，另有前1045、前1044及前1027等方案。",
+      "place": "牧野",
+      "placeNow": "今河南新乡、淇县一带",
+      "belligerents": [
+        "zhou",
+        "shang"
+      ],
+      "aliases": [
+        "武王伐纣",
+        "武王克商"
+      ],
+      "dynasties": [
+        "shang",
+        "western-zhou"
+      ],
+      "desc": "周武王联军在牧野击败商纣军，商王朝终结，周取得天下。牧野年代依历法换算存在争议，古书中的兵力数字带有夸张成分。",
+      "sources": [
+        {
+          "work": "尚書",
+          "part": "牧誓",
+          "kind": "classic"
+        },
+        {
+          "work": "逸周書",
+          "part": "卷四·世俘",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhou-fenfeng",
+      "name": "周初分封",
+      "display": "周初分封",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -1046,
+      "yearAccuracy": "disputed",
+      "yearNote": "《史记·周本纪》载武王克商后封诸侯。克商年主流断代工程取前1046，另有前1045、前1044及前1027等方案（与牧野之战条同口径）。武王初封与周公东征后再封是两个阶段，各国始封具体年史无明文，故系于克商之年。",
+      "polity": [
+        "zhou"
+      ],
+      "result": "封尚父于齐、周公旦于鲁、召公奭于燕等；封邦建国制度确立，「封建亲戚，以蕃屏周」的权力结构成型。",
+      "aliases": [
+        "封邦建国",
+        "大分封",
+        "武王封诸侯"
+      ],
+      "dynasties": [
+        "shang",
+        "western-zhou"
+      ],
+      "desc": "武王克商后封诸侯、班赐宗彝，尚父封于营丘为齐，周公旦封于曲阜为鲁，召公奭封于燕，叔鲜、叔度分别封于管、蔡。封邦建国由此确立，以亲戚功臣藩屏周室。武王初封与周公东征后再封是两个阶段，各国始封的具体年史无明文；克商年取断代工程前1046，旧说并存。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷004 周本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "夏商周断代工程",
+          "part": "夏商周年表",
+          "kind": "modern"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

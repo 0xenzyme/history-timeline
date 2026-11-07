@@ -1,0 +1,44 @@
+{
+  "id": "liu-zhang",
+  "name": "刘璋",
+  "display": "刘璋",
+  "birthAccuracy": "unknown",
+  "death": 219,
+  "deathAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yan-yizhou",
+      "target": "liu-zhang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；刘焉之子，继为益州牧，后降刘备"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷68 汉纪六十",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "shang-lu",
+  "name": "商辂",
+  "display": "商辂",
+  "birth": 1414,
+  "birthAccuracy": "exact",
+  "death": 1486,
+  "deathAccuracy": "exact",
+  "title": "三元及第的阁臣",
+  "bio": "字弘载，淳安人。乡试、会试、殿试皆第一，景泰初入阁; 汪直用事时屡请罢西厂，遂谢政家居。1486 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-jianshen",
+      "target": "shang-lu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "三元及第入阁，请罢西厂而去"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "商辂传",
+      "kind": "classic"
+    }
+  ]
+}

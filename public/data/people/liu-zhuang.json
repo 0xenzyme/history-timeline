@@ -1,0 +1,69 @@
+{
+  "id": "liu-zhuang",
+  "name": "刘庄",
+  "display": "汉明帝",
+  "birth": 28,
+  "birthAccuracy": "exact",
+  "death": 75,
+  "deathAccuracy": "exact",
+  "title": "东汉明帝，严切守法，明章之治",
+  "bio": "光武第四子，阴丽华所出。遵奉建武制度，法令分明，日晏坐朝，幽枉必达。遣使西域求佛法，白马寺由此起。与其子章帝并称明章之治。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-zhuang",
+      "target": "ma-hou-mingde",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "明帝皇后。建初四年为太后时崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yongping-qiu-fa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongping-xiyu-kaifu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "汉明帝"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "明帝纪",
+      "kind": "classic"
+    }
+  ]
+}

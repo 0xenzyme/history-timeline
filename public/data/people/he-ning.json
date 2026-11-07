@@ -1,0 +1,60 @@
+{
+  "id": "he-ning",
+  "name": "和凝",
+  "display": "和凝",
+  "birth": 898,
+  "birthAccuracy": "exact",
+  "death": 955,
+  "deathAccuracy": "exact",
+  "title": "曲子相公",
+  "bio": "郓州须昌人。年十三登第，历唐晋汉周，掌诰命，后汉拜右仆射同平章事，周初封鲁国公。好为短歌艳曲，汴京传唱，号\"曲子相公\"；在朝多所平恕，以疑狱活人。显德二年卒。",
+  "tags": [
+    "五代"
+  ],
+  "categories": [
+    "chancellor",
+    "literature",
+    "poetry"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "he-ning",
+      "target": "liu-xu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "后晋同朝宰相，旧唐书纂修之事并预"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "和凝传",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "和凝传",
+      "kind": "classic"
+    }
+  ]
+}

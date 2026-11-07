@@ -1,0 +1,84 @@
+{
+  "id": "zhu-huan",
+  "name": "朱桓",
+  "display": "朱桓",
+  "birthAccuracy": "unknown",
+  "death": 238,
+  "deathAccuracy": "exact",
+  "title": "吴前将军，大破曹仁",
+  "bio": "吴郡吴人，字休穆。轻财贵义，兼有胆智；为余姚长平定山越，濡须之役拒魏大司马曹仁，破其军，得士卒心。赤乌元年卒。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "zhu-huan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为奋武将军，守濡须"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "zhu-huan",
+      "target": "zhu-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；朱异为朱桓之子，吴末为大都督"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caopi-fawu",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "shiting-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "朱桓",
+    "朱休穆"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·朱治朱然吕范朱桓传",
+      "kind": "classic"
+    }
+  ]
+}

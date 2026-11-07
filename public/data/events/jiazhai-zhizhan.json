@@ -1,0 +1,135 @@
+{
+  "id": "jiazhai-zhizhan",
+  "name": "夹寨之战",
+  "display": "夹寨之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 908,
+  "yearAccuracy": "exact",
+  "yearNote": "资治通鉴卷266系于开平二年五月辛未朔（908），晋王伏兵三垂冈下、诘旦大雾进兵直抵夹寨；旧五代史卷27庄宗纪同（五月辛未朔，直抵夹城）。两书系年一致。",
+  "place": "潞州（上党）夹寨",
+  "placeNow": "山西省长治市",
+  "belligerents": [
+    "hou-liang",
+    "hou-tang"
+  ],
+  "commanders": [
+    {
+      "id": "li-cunxu",
+      "side": "hou-tang"
+    },
+    {
+      "id": "zhou-dewei",
+      "side": "hou-tang"
+    },
+    {
+      "id": "li-siyuan",
+      "side": "hou-tang"
+    }
+  ],
+  "result": "晋军乘雾攻破梁军夹寨，梁军大溃，符道昭被杀，潞州之围解；朱温叹「生子当如李亚子」。",
+  "aliases": [
+    "三垂冈之战",
+    "潞州之战"
+  ],
+  "dynasties": [
+    "wudai"
+  ],
+  "desc": "开平二年（908）五月辛未朔，新嗣晋王位的李存勖率军伏兵三垂冈下，乘晨雾直抵潞州城外梁军所筑夹寨；李嗣源破夹城东北隅率先掩击，梁军大溃南走，副招讨使符道昭被杀，将校士卒失亡以万计，潞州之围解除。朱温闻败，叹「生子当如李亚子」。此战是李存勖嗣位后的首次大战，解围潞州、稳住河东，是梁晋攻守转换的起点。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷二六六 后梁纪一 开平二年",
+      "note": "五月辛未朔，晋王伏兵三垂冈下，诘旦大雾，进兵直抵夹寨；梁兵大溃南走，招讨使符道昭马倒被杀，失亡将校士卒以万计",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷二七 唐书·庄宗纪一 天祐五年",
+      "note": "五月辛未朔，帝率亲军伏三垂冈下，诘旦进军直抵夹城；李嗣源坏夹城东北隅率先掩击，梁军南奔，斩万余级，获符道昭及大将三百人",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "birth": 885,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhou-dewei",
+      "name": "周德威",
+      "display": "周德威",
+      "birthAccuracy": "unknown",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "柏乡却梁，多计持重",
+      "bio": "朔州马邑人，事晋王为骑将，沉勇多计。柏乡之战以逸待劳破梁将王景仁，数谏庄宗缓河北之师。将二十年燕地之谋，胡柳之败几危晋阳。同光四年镇州兵变中为乱军所害。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-siyuan",
+      "name": "李嗣源",
+      "display": "后唐明宗",
+      "birth": 867,
+      "birthAccuracy": "approx",
+      "death": 933,
+      "deathAccuracy": "exact",
+      "birthNote": "长兴四年十一月崩于洛阳，年六十七，上推生年。",
+      "title": "后唐明宗，起于乱军，粗致小康",
+      "bio": "沙陀人，事李克用为骑将，斗绝一隅，战功居最，庄宗以为蕃汉内外马步副总管。同光四年从思乱之兵入洛监国，旋即位。性俭素不识字，每登殿祝曰\"某蕃人，中原不可理，愿天生圣人，为百姓主子\"；诛聚敛之臣，省事息兵，年谷粗登，中土小安。末年秦王争立，忧愤而崩。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

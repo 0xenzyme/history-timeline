@@ -1,0 +1,183 @@
+{
+  "id": "caocao-feng-tianzi",
+  "name": "曹操奉天子迁都许",
+  "display": "奉天子都许",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 196,
+  "yearAccuracy": "exact",
+  "yearNote": "后汉书·献帝纪系建安元年八月庚申迁都许，三国志·武帝纪与通鉴卷62系九月车驾出轘辕而东遂迁都许，两说仅月序异，年份无疑。",
+  "place": "许县",
+  "placeNow": "今河南许昌",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "cao-cao",
+    "liu-xie-xiandi",
+    "xun-yu",
+    "cheng-yu",
+    "dong-zhao"
+  ],
+  "result": "曹操控制汉献帝并迁都许，取得奉天子以令不臣的政治主动权",
+  "aliases": [
+    "挟天子以令诸侯",
+    "迎天子都许",
+    "迁都许"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "196 年汉献帝东还，洛阳残破，董昭首倡移驾幸许之策，曹操迎天子自洛阳迁都许。操自领司隶校尉、录尚书事，后拜大将军，荀彧、程昱赞助其谋；自天子西迁以来朝廷日乱，至是宗庙社稷制度始立。曹操自此奉天子以令不臣，逐袁术、破袁绍皆以朝廷名义行事，为官渡前最大的政治资本。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "后汉书",
+      "part": "献帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-xie-xiandi",
+      "name": "刘协",
+      "display": "汉献帝",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "东汉献帝，禅于曹丕，青龙二年卒",
+      "bio": "董卓所立。延康元年禅于曹丕，帝位先断在公元 220 年。魏青龙二年卒，条收到公元 234 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xun-yu",
+      "name": "荀彧",
+      "display": "荀彧",
+      "birth": 163,
+      "birthAccuracy": "exact",
+      "death": 212,
+      "deathAccuracy": "exact",
+      "title": "曹操谋主，居中持重，以忧死",
+      "bio": "颍川颍阴人，荀淑之孙。初从袁绍，后归曹操，为尚书令，居中持重二十年，举荀攸、钟繇、郭嘉、陈群，画策无遗。建安十七年以不附曹操称魏公，饮药而卒，年五十。颍川士族之首，条断在汉魏转换之处。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "strategist"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cheng-yu",
+      "name": "程昱",
+      "display": "程昱",
+      "birth": 141,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "曹操谋臣，守鄄城，性刚戾",
+      "bio": "东郡东阿人，本名立，梦登泰山捧日而改名昱。吕布袭兖州时与荀彧守鄄城、范、东阿三县，操赖以还。屡画奇策，然性刚戾，人多惮之。文帝即位为卫尉，黄初元年卒，年八十。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "dong-zhao",
+      "name": "董昭",
+      "display": "董昭",
+      "birthAccuracy": "unknown",
+      "death": 236,
+      "deathAccuracy": "exact",
+      "title": "魏司徒，定奉天子之策",
+      "bio": "济阴定陶人，字公仁。汉末说杨奉迎天子，为曹操迁都许昌定策；后首倡进魏公、加九锡之议，累画军国重事；明帝时为司徒。青龙四年薨，谥定侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

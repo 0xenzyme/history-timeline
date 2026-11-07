@@ -1,0 +1,117 @@
+{
+  "id": "huangchi-zhihui",
+  "name": "黄池之会",
+  "display": "黄池之会",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -482,
+  "yearAccuracy": "exact",
+  "yearNote": "左传哀公十三年（前482）「秋，七月，辛丑，盟，吳晉爭先」；史记两世家皆系定公三十年/夫差十四年，年份一致。惟争先结果三说：左传「乃先晉人」、吴太伯世家「乃長晉定公」、晋世家「卒長吳」（国语吴语作吴公先歃）。年份为唯一主锚，争先细节不立锚。",
+  "polity": [
+    "wu-guo",
+    "jin-guo"
+  ],
+  "people": [
+    "ji-fucha",
+    "jin-dinggong",
+    "tai-zai-pi"
+  ],
+  "aliases": [
+    "吴晋争长",
+    "吴王夫差会晋定公",
+    "夫差北上争霸"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "夫差率吴师北上会晋定公、鲁哀公、单平公于黄池，七月辛丑盟，吴晋争先：「於周室我為長」对「於姬姓我為伯」。会未毕而越伐吴、虏太子之报至，夫差归国后吴势遂衰。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷59（哀公十三年）",
+      "part": "哀公十三年經傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·吳太伯世家",
+      "part": "夫差十四年",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·晉世家",
+      "part": "定公三十年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-fucha",
+      "name": "姬夫差",
+      "display": "吴王夫差",
+      "birthAccuracy": "unknown",
+      "death": -473,
+      "deathAccuracy": "exact",
+      "title": "吴末代之王",
+      "bio": "报檇李，败越于夫椒，许勾践成。北上争霸，不听子胥。黄池之后，越入吴，他自杀。短于勾践的那一截，是灭国。",
+      "tags": [
+        "吴国",
+        "黄池"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jin-dinggong",
+      "name": "晋定公",
+      "display": "晋定公",
+      "birthAccuracy": "unknown",
+      "death": -475,
+      "deathAccuracy": "approx",
+      "deathNote": "今本竹书纪年·晋纪止于贞定王，未记定公卒。现以顷公卒（前512，敬王八年）为起点，按史记·晋世家「三十七年，定公卒，子出公凿立」在位三十七年顺推，得前475。作约年。",
+      "title": "四十年而卒，晋室至是益微",
+      "bio": "顷公之子。前497年范氏、中行氏反，赵鞅保晋阳，晋君击之；后赵鞅复位，晋分其地。前489年与吴王夫差会于黄池，争长而赵鞅卒长吴。前475年卒，在位三十七年。晋之政尽归六卿。",
+      "tags": [
+        "黄池会吴",
+        "范中行之乱",
+        "赵鞅保晋阳"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tai-zai-pi",
+      "name": "伯嚭",
+      "display": "太宰嚭",
+      "birthAccuracy": "unknown",
+      "death": -473,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·吴太伯世家「越王滅吳，誅太宰嚭，以爲不忠」（前473）。谮杀伍子胥的吴太宰。",
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

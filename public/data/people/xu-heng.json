@@ -1,0 +1,112 @@
+{
+  "id": "xu-heng",
+  "name": "许衡",
+  "display": "许衡",
+  "birth": 1209,
+  "birthAccuracy": "exact",
+  "death": 1281,
+  "deathAccuracy": "exact",
+  "title": "鲁斋先生，兴国学",
+  "bio": "河内人，从姚枢得程朱书，主「力行」之学。世祖时主国子监，定朝仪、修历，元初儒风赖以振。",
+  "tags": [
+    "元",
+    "汉法"
+  ],
+  "categories": [
+    "minister",
+    "scholar",
+    "neo-confucian"
+  ],
+  "primary": "neo-confucian",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yao-shu",
+      "target": "xu-heng",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "姚枢传程朱之学，许衡承之兴国学"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "xu-heng",
+      "target": "guo-shoujing",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "衡荐守敬习历算，遂有大业"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "dou-mo",
+      "target": "xu-heng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为忽必烈所召的北方儒臣"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "li-ye-yuan",
+      "target": "xu-heng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为北方程朱之学的传人，先后被召至阙下"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-yin",
+      "target": "xu-heng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "世祖屡召遗逸，衡出而因返，并为北方理学之宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xingsheng-zhidu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "许衡传",
+      "kind": "classic"
+    }
+  ]
+}

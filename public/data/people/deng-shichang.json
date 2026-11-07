@@ -1,0 +1,66 @@
+{
+  "id": "deng-shichang",
+  "name": "邓世昌",
+  "display": "邓世昌",
+  "birth": 1849,
+  "birthAccuracy": "exact",
+  "death": 1894,
+  "deathAccuracy": "exact",
+  "title": "黄海英烈",
+  "bio": "北洋水师致远舰管带，甲午黄海海战陷阵，舰伤弹尽，蹈海殉国。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "deng-shichang",
+      "target": "ding-ru-chang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "一为提督，一为致远管带，同殉于威海之役"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "deng-shichang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "黄海之役蹈海殉国，光绪朝海军之殇"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "邓世昌传",
+      "kind": "classic"
+    }
+  ]
+}

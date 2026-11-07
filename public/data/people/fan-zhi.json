@@ -1,0 +1,66 @@
+{
+  "id": "fan-zhi",
+  "name": "范质",
+  "display": "范质",
+  "birth": 911,
+  "birthAccuracy": "exact",
+  "death": 964,
+  "deathAccuracy": "exact",
+  "title": "后周旧相，宋初首位首相",
+  "bio": "后周时任相，陈桥禅代后留任，与赵普共定国初制度。为人廉介，临终戒子孙勿请谥立碑。乾德二年卒，年五十四。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "wudai",
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fan-zhi",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "受顾命相恭帝，随世宗之子入宋"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chenqiao-bingbian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "范质传",
+      "kind": "classic"
+    }
+  ]
+}

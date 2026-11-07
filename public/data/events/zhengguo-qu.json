@@ -1,0 +1,67 @@
+{
+  "id": "zhengguo-qu",
+  "name": "郑国渠",
+  "display": "郑国渠",
+  "kind": "span",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -246,
+  "yearAccuracy": "approx",
+  "yearNote": "《史记·河渠书》未系年：韩水工郑国间说秦凿泾水为渠，「中作而觉」，渠成「关中为沃野，无凶年，秦以富强」。起凿通取秦王政元年（前246）前后，历时约十年而成（约前236）。",
+  "endYear": -236,
+  "endYearAccuracy": "approx",
+  "endYearNote": "终年据：《史记·河渠书》未系年：韩水工郑国间说秦凿泾水为渠，「中作而觉」，渠成「关中为沃野，无凶年，秦以富强」。起凿通取秦王政元",
+  "polity": [
+    "qin"
+  ],
+  "people": [
+    "ying-zheng"
+  ],
+  "aliases": [
+    "郑国渠工程",
+    "疲秦计"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "韩闻秦好兴事，使水工郑国行「疲秦」之计，间说秦凿泾水为渠，中作而觉。郑国以「渠成亦秦之利」得免，渠成溉泽卤之地四万余顷、亩收一钟，关中为沃野，秦以愈强，因命曰郑国渠。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷二十九·河渠书",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

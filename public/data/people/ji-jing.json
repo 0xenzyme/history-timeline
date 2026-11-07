@@ -1,0 +1,392 @@
+{
+  "id": "ji-jing",
+  "name": "姬静",
+  "display": "周宣王",
+  "birthAccuracy": "unknown",
+  "death": -782,
+  "deathAccuracy": "exact",
+  "title": "西周中兴之王，在位四十六年",
+  "bio": "厉王太子。国人暴动时匿于召公家。共和罢，即位。用仲山甫、尹吉甫，史称宣王中兴。即位不行籍田之礼；晚年千亩之战，王师败绩。",
+  "tags": [
+    "宣王中兴"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "king"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-hu",
+      "target": "ji-jing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。太子静即后来的宣王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "ji-jing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣王母弟，封于郑"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "zhong-shanfu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "樊侯辅政，尹吉甫作《烝民》美之"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "yin-jifu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太师，帅师伐猃狁"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-you",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -806,
+      "notes": [
+        "封郑，幽王时为周司徒"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "guo-wengong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王不籍千亩，虢文公谏不可"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "fang-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王五年方叔伐荆蛮"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "nan-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王命南仲城朔方、伐玁狁"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "huang-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《常武》大师皇父从王伐徐"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "cheng-bo-xiufu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "司马，从王伐徐戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "shen-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王七年锡申伯命，《崧高》美之"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "han-hou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王四年韩侯来朝，受命入觐"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "jue-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命蹶父如韩"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "xian-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《韩奕》显父饯韩侯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "du-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书宣王四十三年杀大夫杜伯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "reng-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《云汉》序：仍叔美宣王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "yan-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王伐戎，奄父为御；千亩之战脱王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "qin-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王以秦仲为大夫，诛西戎"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-ao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武公朝周，宣王立戏为鲁太子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "bo-yu",
+      "target": "ji-jing",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "宣王伐鲁，杀伯御"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "杀伯御，立孝公于夷宫"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "qi-ligong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书宣王十二年齐人弑厉公"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "guo-jizibai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣王十二年命虢季子白伐猃狁，至于洛水之北，斩首五百、执讯五十，王飨于周庙宣榭，锡以弓矢大钺"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "qin-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "周孝王召非子主马于汧渭之间，马大蕃息，乃邑之秦，号曰秦嬴，使续嬴氏祀"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "lu-ligong",
+      "target": "ji-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "鲁为周公之后，厉公之世周室中兴，鲁以望国从王事"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "wei-zhenbo",
+      "target": "ji-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "卫以康叔之后为周东藩，贞伯之世值宣王中兴"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "song-ligong",
+      "target": "ji-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宋以殷后为周之宾，得郊祀先王，厉公之世从王东迁"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xuanwang-fa-xianyun",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "周宣王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "十二诸侯年表",
+      "kind": "classic"
+    }
+  ]
+}

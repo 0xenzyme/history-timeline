@@ -1,0 +1,92 @@
+{
+  "id": "shen-zhizhan",
+  "name": "莘之战（楚败蔡师）",
+  "display": "莘之战（楚败蔡师）",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -684,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·莊公十年》「秋，九月，荊敗蔡師於莘……以蔡侯獻舞歸」；《左傳》明言统帅为楚文王；莊公十年＝前684（与《楚世家》文王六年伐蔡相合）。",
+  "place": "莘（蔡地）",
+  "placeNow": "今河南汝南境（据杜注「莘，蔡地」推定；一说固始、潢川一带，无权威定点）",
+  "belligerents": [
+    "chu",
+    "cai"
+  ],
+  "commanders": [
+    {
+      "id": "xiong-zi",
+      "side": "chu"
+    },
+    {
+      "id": "cai-aihou",
+      "side": "cai"
+    }
+  ],
+  "aliases": [
+    "楚败蔡于莘",
+    "蔡侯献舞被虏"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "蔡哀侯对过蔡的息妫「止而见之，弗宾」，息侯怒而设借刀之计，请楚文王「伐我，吾求救於蔡而伐之」；楚子从之，九月败蔡师于莘，以蔡侯献舞归（已而释之）。经文贬书「荊」不称将帅（杜注：楚僭号、告命未合典礼）。楚由此介入中原婚姻—恩怨网络，直接引出灭息、县申息与对蔡的再攻。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷07",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xiong-zi",
+      "name": "熊赀",
+      "display": "楚文王",
+      "birthAccuracy": "unknown",
+      "death": -677,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·楚世家「文王十三年，卒，子熊艰立」。由楚庄王前591上推得前677，与试跑文档一致。",
+      "title": "始都郢，在位十三年",
+      "bio": "武王子熊赀。始都郢。六年伐蔡虏蔡哀侯，陵江汉间小国，小国皆畏之。十一年齐桓公始霸，楚亦始大。十二年灭邓。十三年卒。",
+      "tags": [
+        "始都郢",
+        "陵江汉"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cai-aihou",
+      "name": "姬獻舞",
+      "display": "蔡哀侯",
+      "birthAccuracy": "unknown",
+      "death": -675,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·管蔡世家：哀侯献舞「凡立二十年卒」。哀侯获于莘（前684）后释归，自元年前694在位二十年得前675。",
+      "polity": [
+        "cai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

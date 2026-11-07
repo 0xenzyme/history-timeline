@@ -1,0 +1,271 @@
+{
+  "id": "caopi-fawu",
+  "name": "曹丕三路伐吴",
+  "display": "曹丕三路伐吴",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 222,
+  "yearAccuracy": "exact",
+  "yearNote": "三国志·吴主传系黄初三年「秋九月，魏乃命曹休、張遼、臧霸出洞口，曹仁出濡須，曹眞、夏侯尚、張郃、徐晃圍南郡」；通鉴卷69同年九月命将、十一月帝自许昌南征；通鉴卷70黄初四年三月丙申车驾还洛阳、悉召诸军还。campaign 跨年给 endYear 223。",
+  "endYear": 223,
+  "endYearAccuracy": "exact",
+  "place": "洞口、濡须、江陵（三路）",
+  "placeNow": "今安徽和县南（洞口）、无为境（濡须口）、湖北江陵",
+  "belligerents": [
+    "wei",
+    "wu"
+  ],
+  "commanders": [
+    {
+      "id": "cao-xiu",
+      "side": "wei"
+    },
+    {
+      "id": "cao-ren",
+      "side": "wei"
+    },
+    {
+      "id": "cao-zhen",
+      "side": "wei"
+    },
+    {
+      "id": "zhu-huan",
+      "side": "wu"
+    },
+    {
+      "id": "zhu-ran",
+      "side": "wu"
+    }
+  ],
+  "people": [
+    "cao-pi",
+    "cao-xiu",
+    "cao-ren",
+    "xiahou-shang",
+    "cao-zhen",
+    "zhang-he",
+    "zhu-ran",
+    "zhu-huan"
+  ],
+  "result": "魏军三路南下：朱桓以五千破曹仁于濡须，朱然守江陵六月不拔，会大疫悉召诸军还，无功而返",
+  "aliases": [
+    "曹丕伐吴",
+    "黄初三年伐吴",
+    "洞口濡须江陵之役"
+  ],
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "222 年九月曹丕命曹休、张辽、臧霸出洞口，曹仁出濡须，曹真、夏侯尚、张郃、徐晃围南郡，十一月帝自许昌南征。黄初四年曹仁败于朱桓，斩常雕、生虏王双；朱然守江陵，魏兵围之六月不拔。会天大疫，帝悉召诸军还，三月车驾还洛阳。曹丕以皇帝之力发动的大规模南征三路皆无功，三分均势由此固化，魏吴江淮荆襄战线基本定型。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·吴主传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十九、卷七十",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cao-pi",
+      "name": "曹丕",
+      "display": "魏文帝曹丕",
+      "birth": 187,
+      "birthAccuracy": "exact",
+      "death": 226,
+      "deathAccuracy": "exact",
+      "title": "魏文帝，受汉禅，立九品",
+      "bio": "曹操次子，与曹植争嗣而胜。延康元年受献帝禅，改元黄初，都洛阳。行九品官人之法，收宗室而抑宦官，在位七年而崩，年四十。好文学，著《典论》，建安文士多出其幕。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "poetry",
+        "literature"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-xiu",
+      "name": "曹休",
+      "display": "曹休",
+      "birthAccuracy": "unknown",
+      "death": 228,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，石亭之败",
+      "bio": "沛国谯人，字文烈，曹操族子，操谓「此吾家千里驹」。久都督扬州，石亭之役中吴将周鲂诈降诱击，陆逊断其归路，大败而还，痈发背薨。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "display": "曹仁",
+      "birthAccuracy": "unknown",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，守樊拒关羽",
+      "bio": "沛国谯人，字子孝，曹操从弟。从曹操起兵，以守御见长；樊城被关羽围困，激励将士坚守待援，徐晃至而围解；文帝时为大司马。黄初四年卒，谥忠侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiahou-shang",
+      "name": "夏侯尚",
+      "display": "夏侯尚",
+      "birthAccuracy": "unknown",
+      "death": 225,
+      "deathAccuracy": "exact",
+      "title": "魏征南将军，都督南方",
+      "bio": "沛国谯人，字伯仁，夏侯渊之侄，与文帝为布衣之交。黄初中假节都督南方诸军事，拔上庸，定三郡九县，与诸葛瑾隔江相拒；所幸爱妾为文帝赐死，发病恍惚，黄初六年薨，谥悼侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-zhen",
+      "name": "曹真",
+      "display": "曹真",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，久镇关中",
+      "bio": "字子丹，曹操族子，少孤，操收养与诸子同。久镇西线，街亭之役督张郃破马谡，却诸葛亮首出祁山；明帝时为大司马。太和五年卒，谥元侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "display": "张郃",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，街亭破马谡",
+      "bio": "河间鄚人，字儁乂。本袁绍部将，官渡之役来归；识变量，善处营阵，料地势战阵无不精；街亭之役破马谡，平陇右；太和五年追击诸葛亮于木门，中飞矢卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-ran",
+      "name": "朱然",
+      "display": "朱然",
+      "birthAccuracy": "unknown",
+      "death": 249,
+      "deathAccuracy": "exact",
+      "title": "吴左大司马，守江陵名震敌国",
+      "bio": "丹杨故鄣人，字义封，本姓施，为舅朱治所养；少与孙权同学书。江陵之役魏大军围城，然内固外安，名震敌国；官至左大司马、右军师。赤乌十二年卒，权素服举哀。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-huan",
+      "name": "朱桓",
+      "display": "朱桓",
+      "birthAccuracy": "unknown",
+      "death": 238,
+      "deathAccuracy": "exact",
+      "title": "吴前将军，大破曹仁",
+      "bio": "吴郡吴人，字休穆。轻财贵义，兼有胆智；为余姚长平定山越，濡须之役拒魏大司马曹仁，破其军，得士卒心。赤乌元年卒。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "su-shun",
+  "name": "肃顺",
+  "display": "肃顺",
+  "birth": 1816,
+  "birthAccuracy": "exact",
+  "death": 1861,
+  "deathAccuracy": "exact",
+  "deathNote": "辛酉政变后与载垣、端华同被诛，斩于菜市口。",
+  "title": "咸丰顾命，辛酉被诛",
+  "bio": "爱新觉罗氏，郑献亲王济尔哈朗之后裔。咸丰朝官至协办大学士、户部尚书，主重用曾国藩、左宗棠诸汉臣而严于理财；文宗崩，与载垣等同受顾命，为两宫与奕䜣所捕，1861 年斩于菜市口。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "official",
+    "falling"
+  ],
+  "primary": "official",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xian-feng",
+      "target": "su-shun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顾命八大臣之首，赞襄政务而严于理财"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "su-shun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "辛酉政变，两宫与奕䜣捕肃顺，斩于菜市口"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "su-shun",
+      "target": "yi-xin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "咸丰末同在热河，政变后一诛一用"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xinyou-zhengbian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "肃顺传",
+      "kind": "classic"
+    }
+  ]
+}

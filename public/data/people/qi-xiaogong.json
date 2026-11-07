@@ -1,0 +1,53 @@
+{
+  "id": "qi-xiaogong",
+  "name": "姜昭",
+  "display": "齐孝公",
+  "birthAccuracy": "unknown",
+  "death": -633,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·齐太公世家「十年，孝公卒，孝公弟潘因卫公子开方杀孝公子而立潘，是为昭公」记在位十年。",
+  "title": "五公子争立之一，在位十年",
+  "bio": "桓公之子，母郑姬。桓公死后无诡立三月被杀，继立者争之，孝公与昭公、懿公、惠公皆桓公之子。宋败齐四公子师而立太子昭，是为孝公。十年卒。",
+  "tags": [
+    "桓公之子",
+    "五公子争立"
+  ],
+  "categories": [
+    "monarch",
+    "vassal"
+  ],
+  "primary": "vassal",
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "qihuangong-wuzi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "齐孝公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "齐太公世家",
+      "kind": "classic"
+    }
+  ]
+}

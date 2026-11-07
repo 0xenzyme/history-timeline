@@ -1,0 +1,59 @@
+{
+  "id": "xiao-wang-zhi",
+  "name": "萧望之",
+  "display": "萧望之",
+  "birthAccuracy": "unknown",
+  "death": -47,
+  "deathAccuracy": "exact",
+  "title": "帝师，遭石显谮死",
+  "bio": "东海兰陵人，字长倩，治《齐诗》。宣帝时以经术进至太子太傅。元帝即位以师傅见任，遭中书令弘恭、石显谮构下狱，初元二年饮鸩自杀；帝拊手曰「果然杀吾贤傅」。",
+  "tags": [
+    "帝师",
+    "石显"
+  ],
+  "categories": [
+    "official",
+    "classics"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-shi",
+      "target": "xiao-wang-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太子太傅，即位以师傅见任"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "萧望之传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "元帝纪",
+      "kind": "classic"
+    }
+  ]
+}

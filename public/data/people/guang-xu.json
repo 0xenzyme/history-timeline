@@ -1,0 +1,216 @@
+{
+  "id": "guang-xu",
+  "name": "载湉",
+  "display": "光绪",
+  "birth": 1871,
+  "birthAccuracy": "exact",
+  "death": 1908,
+  "deathAccuracy": "exact",
+  "title": "戊戌变法",
+  "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ci-xi",
+      "target": "guang-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姨侄，慈禧垂帘训政"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "guang-xu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "甲午后母子猜忌，戊戌囚帝"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "kang-youwei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召见维新，推行变法"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "tong-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "堂兄弟叔侄，同治无嗣，慈禧立醇亲王之子载湉为光绪"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "xuan-tong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，光绪无嗣，摄政王载沣子溥仪继位为宣统"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "long-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。宣统三年十二月以太后命逊位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "deng-shichang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "黄海之役蹈海殉国，光绪朝海军之殇"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "feng-zicai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "老将提督，1885 年镇南关大捷"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "zai-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同父异母弟；光绪崩后载沣摄政，兄弟相继为清代皇权过渡一环"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beiyang-shuishi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "feikeju",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jiawu-zhanzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "maguan-heyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qingmo-xinzheng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wuxu-bianfa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xinchou-heyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yihetuan-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yili-heyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yubei-lixian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "载湉",
+    "清德宗",
+    "光绪"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "德宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

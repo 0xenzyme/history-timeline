@@ -1,0 +1,84 @@
+{
+  "id": "kongzi-zu",
+  "name": "孔子卒",
+  "display": "孔子卒",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -479,
+  "yearAccuracy": "exact",
+  "yearNote": "左传弟子续经哀公十六年（前479）「夏，四月，己丑，孔丘卒」；史记孔子世家「孔子年七十三，以魯哀公十六年四月己丑卒」。杜预注已指出四月十八日为乙丑、己丑实五月十二日，「日月必有误」——年份无争议，仅日干支传抄有差。",
+  "polity": [
+    "lu"
+  ],
+  "people": [
+    "kong-zi",
+    "lu-aigong"
+  ],
+  "aliases": [
+    "孔丘卒",
+    "孔子之卒（哀公十六年）",
+    "鲁哀公诔孔子"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "孔子告老去位后于鲁哀公十六年（前479）夏四月卒，年七十三。弟子续经书「孔丘卒」——鲁之君臣宗其圣德而异其书法。孔子既卒，门弟子相与辑而论纂，六经之传自此始。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷60（哀公十六年）",
+      "part": "哀公十六年續經",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·孔子世家",
+      "part": "孔子卒",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "kong-zi",
+      "name": "孔丘",
+      "display": "孔子",
+      "birth": -551,
+      "birthAccuracy": "disputed",
+      "death": -479,
+      "deathAccuracy": "exact",
+      "birthNote": "生年取《史记》前 551 年说",
+      "title": "儒家创始人",
+      "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+      "tags": [
+        "儒家",
+        "六经",
+        "论语"
+      ],
+      "categories": [
+        "scholar-official",
+        "confucian"
+      ],
+      "lane": ""
+    },
+    {
+      "id": "lu-aigong",
+      "name": "姬将",
+      "display": "鲁哀公",
+      "birthAccuracy": "unknown",
+      "death": -468,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·鲁周公世家：哀公二十七年奔越，「國人迎哀公復歸，卒于有山氏」。哀公元年前494，二十七年得前468。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

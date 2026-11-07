@@ -1,0 +1,58 @@
+{
+  "id": "cui-yuan",
+  "name": "崔圆",
+  "display": "崔圆",
+  "birth": 705,
+  "birthAccuracy": "exact",
+  "death": 768,
+  "deathAccuracy": "exact",
+  "title": "大历三年薨，年六十四",
+  "bio": "肃宗朝为相，后节度淮南。大历三年六月薨，年六十四。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu",
+      "target": "cui-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃宗朝为相，大历三年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "崔圆"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "崔圆传",
+      "kind": "classic"
+    }
+  ]
+}

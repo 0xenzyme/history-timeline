@@ -1,0 +1,92 @@
+{
+  "id": "xinchou-heyue",
+  "name": "十二款和约",
+  "display": "十二款和约",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1901,
+  "yearAccuracy": "exact",
+  "yearNote": "光绪二十七年，与十一国公使议订和约十二款成。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "li-hongzhang",
+    "guang-xu"
+  ],
+  "result": "和约十二款成",
+  "aliases": [
+    "辛丑条约"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "光绪二十七年，全权大臣奕劻、李鸿章与十一国公使议订和约十二款成。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "全權大臣奕劻、李鴻章與十一國公使議訂和約十二款成",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-hongzhang",
+      "name": "李鸿章",
+      "display": "李鸿章",
+      "birth": 1823,
+      "birthAccuracy": "exact",
+      "death": 1901,
+      "deathAccuracy": "exact",
+      "title": "洋务领袖",
+      "bio": "曾国藩门生，编淮军、办洋务、建北洋水师，周旋列强，签诸条约负重谤。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "minister",
+        "official",
+        "diplomat",
+        "general"
+      ],
+      "primary": "minister",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guang-xu",
+      "name": "载湉",
+      "display": "光绪",
+      "birth": 1871,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

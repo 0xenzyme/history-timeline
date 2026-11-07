@@ -1,0 +1,218 @@
+{
+  "id": "zhu-di",
+  "name": "朱棣",
+  "display": "明成祖朱棣",
+  "birth": 1360,
+  "birthAccuracy": "exact",
+  "death": 1424,
+  "deathAccuracy": "exact",
+  "title": "永乐大帝，迁都北京",
+  "bio": "太祖第四子，封燕王。靖难之役入南京，即位后迁都北京、营紫禁城，遣郑和下西洋，修《永乐大典》，国势鼎盛。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-di",
+      "target": "zheng-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "遣郑和七下西洋"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "yang-shiqi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "靖难后入阁，开仁宣之治"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-yunwen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，靖难之役成祖夺位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-gaochi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，成祖传仁宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "yao-guangxiao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "靖难之计多出其画，住僧寺而赞军机"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-quan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "宁王之甲兵为其所并，事后改封南昌"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-huanghou",
+      "target": "zhu-di",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，仁孝徐皇后"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "tie-xuan",
+      "target": "zhu-di",
+      "type": "rival",
+      "directed": false,
+      "since": 1402,
+      "notes": [
+        "济南之守挫其锋，壬午城破遂遇害"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "xie-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总纂《永乐大典》，才高而不终"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "zhu-gaoxu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，永乐间数有夺嫡之谋"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "xia-yuanji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永乐北征与迁都之费尽出户部调度，历事五朝而无咎"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "yang-rong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "长于应变，扈从北征而决大议于马上"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beijing-qiandu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jingnan-zhiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongle-beizheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yongle-dadian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhenghe-xiayang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "成祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

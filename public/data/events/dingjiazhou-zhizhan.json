@@ -1,0 +1,127 @@
+{
+  "id": "dingjiazhou-zhizhan",
+  "name": "丁家洲之战",
+  "display": "丁家洲之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1275,
+  "yearAccuracy": "exact",
+  "yearNote": "德祐元年二月庚申。battle 不写 endYear。已在1271年改国号之后。",
+  "place": "丁家洲",
+  "belligerents": [
+    "song",
+    "yuan"
+  ],
+  "people": [
+    "jia-sidao",
+    "bo-yan",
+    "zhang-hongfan"
+  ],
+  "result": "宋军溃于丁家洲，贾似道奔扬州，沿江诸城相继不守。",
+  "parent": "mengsong-zhanzheng",
+  "aliases": [
+    "鲁港之溃"
+  ],
+  "dynasties": [
+    "song",
+    "yuan"
+  ],
+  "desc": "德祐元年二月庚申，宋军与元兵战于丁家洲，败绩奔鲁港，夏贵不战而去，贾似道、孙虎臣奔扬州，诸军尽溃。宋最后一支沿江大军在此崩溃，沿江诸城相继不守，临安失去野战掩护。这是宋元战争末段的决定性会战，政权终结仍在临安出降与崖山。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷四十七",
+      "kind": "classic"
+    },
+    {
+      "work": "元史",
+      "part": "卷一百五十六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jia-sidao",
+      "name": "贾似道",
+      "display": "贾似道",
+      "birth": 1213,
+      "birthAccuracy": "exact",
+      "death": 1275,
+      "deathAccuracy": "exact",
+      "title": "南宋末权相，误国",
+      "bio": "台州人，姊为理宗贵妃。鄂州围城诈和，冒功专权; 怠于御元，丁家洲大败，为郑虎臣所杀于贬所。宋之亡，似道实速之。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "chancellor",
+        "regent",
+        "falling"
+      ],
+      "primary": "regent",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bo-yan",
+      "name": "伯颜",
+      "display": "伯颜",
+      "birth": 1236,
+      "birthAccuracy": "exact",
+      "death": 1295,
+      "deathAccuracy": "exact",
+      "deathNote": "身世见《元史》本传，这里只取「伐宋统帅」事实。",
+      "title": "下临安的元军统帅",
+      "bio": "蒙古八邻部人，深沉有智略。至元十一年总二十万大军伐宋，下襄阳、渡长江，会师临安，掳谢太后、恭帝北去；旋平内乱，位望倾朝。元贞元年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-hongfan",
+      "name": "张弘范",
+      "display": "张弘范",
+      "birth": 1238,
+      "birthAccuracy": "exact",
+      "death": 1280,
+      "deathAccuracy": "exact",
+      "title": "崖山海战的元军都元帅",
+      "bio": "金降将张柔之子。至元十五年都元帅，破文天祥于五坡岭，崖山一战灭宋，勒石「镇国大将军张弘范灭宋于此」。至元十七年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

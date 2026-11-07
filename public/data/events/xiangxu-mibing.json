@@ -1,0 +1,78 @@
+{
+  "id": "xiangxu-mibing",
+  "name": "弭兵之会",
+  "display": "弭兵之会",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -546,
+  "yearAccuracy": "exact",
+  "yearNote": "左传襄公二十七年（前546）：宋向戌合晋楚齐秦于宋，「請晉、楚之從，交相見也」，盟于宋西门之外；国语晋语八记宋之盟楚人固请先歃。经传与国语一致。",
+  "polity": [
+    "jin-guo",
+    "chu",
+    "song-guo"
+  ],
+  "people": [
+    "zhao-wu",
+    "song-pinggong"
+  ],
+  "aliases": [
+    "宋之盟",
+    "向戌弭兵",
+    "晋楚之从交相见"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "向戌奔走晋楚齐秦，会十四国于宋，约定除齐秦外晋楚之属国互相朝见——晋楚偕主、中小国家两属。中原大战自此偃息约四十年，各国内政（尤其晋楚公室与卿族）的重心随之外移。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷38（襄公二十七年）",
+      "part": "襄公二十七年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "國語·晉語八",
+      "part": "晉語八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-wu",
+      "name": "赵武",
+      "display": "赵武",
+      "birthAccuracy": "unknown",
+      "death": -541,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·昭公元年（前541）「趙孟庚戌卒」。赵氏孤儿之正主，晋平公时代执政。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "song-pinggong",
+      "name": "子成",
+      "display": "宋平公",
+      "birthAccuracy": "unknown",
+      "death": -532,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·宋微子世家「四十四年，平公卒，子元公佐立」。平公元年前575，四十四年得前532。",
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

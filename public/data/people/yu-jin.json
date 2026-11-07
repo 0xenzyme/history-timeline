@@ -1,0 +1,72 @@
+{
+  "id": "yu-jin",
+  "name": "于禁",
+  "display": "于禁",
+  "birthAccuracy": "unknown",
+  "death": 221,
+  "deathAccuracy": "exact",
+  "title": "魏左将军，晚节一跌",
+  "bio": "泰山钜平人，字文则。以法御军，最号毅重；樊城之役督七军援曹仁，汉水暴溢，全军覆没降羽；孙权袭荆州后送还魏，文帝拜安远将军，使谒高陵，豫画陵屋其困降之状，惭恚发病薨。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "yu-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "五子良将，樊城降关羽，晚节不终"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fancheng-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "shuiyan-qijun",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "于禁",
+    "于文则"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·张乐于张徐传",
+      "kind": "classic"
+    }
+  ]
+}

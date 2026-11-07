@@ -1,0 +1,75 @@
+{
+  "id": "li-te",
+  "name": "李特",
+  "display": "李特",
+  "birthAccuracy": "unknown",
+  "death": 303,
+  "deathAccuracy": "exact",
+  "birthNote": "载记无岁数，不编生年。",
+  "title": "流民之帅，据蜀而死于成都",
+  "bio": "巴西宕渠賨人，字玄休，随六郡流民就食入蜀。性雄武，与弟流、庠以流民结坞自保，为刺史罗尚所忌。太安元年自称益州牧、大都督、大将军，改元建初，进攻成都。二年罗尚遣军掩袭，转战三十余里军败被斩，焚尸传首洛阳。子雄终建大成之业。",
+  "tags": [
+    "十六国",
+    "成汉",
+    "流民"
+  ],
+  "categories": [
+    "rebel",
+    "warlord",
+    "founding"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-te",
+      "target": "li-xiong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。特败死，雄卒成帝业"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chenghan-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "li-te-liumin-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李特",
+    "李玄休"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "李特载记",
+      "kind": "classic"
+    }
+  ]
+}

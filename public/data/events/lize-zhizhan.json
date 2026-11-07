@@ -1,0 +1,126 @@
+{
+  "id": "lize-zhizhan",
+  "name": "笠泽之战",
+  "display": "笠泽之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -478,
+  "yearAccuracy": "exact",
+  "yearNote": "《左傳·哀公十七年》「三月，越子伐吳。吳子禦之笠澤，夾水而陳…越子以三軍潛涉，當吳中軍而鼓之，吳師大亂，遂敗之」。哀公十七年＝前478。",
+  "place": "笠澤",
+  "placeNow": "今江苏省苏州市南（吴江区一带，古水名，太湖东通吴淞江水域）",
+  "belligerents": [
+    "yue",
+    "wu-guo"
+  ],
+  "commanders": [
+    {
+      "id": "si-goujian",
+      "side": "yue"
+    },
+    {
+      "id": "ji-fucha",
+      "side": "wu-guo"
+    }
+  ],
+  "people": [
+    "wen-zhong"
+  ],
+  "parent": "wuyue-zhanzheng",
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "吴大荒荐饥、民移东海之滨（国语·越语），文种唱谋大戒师。三月越伐吴，夫差御于笠泽，夹水而阵。勾践为左右句卒，夜使或左或右鼓噪佯渡分吴兵力，自以三军精卒潜涉直击吴中军，吴师大乱遂败；越乘胜再败之于没、郊，进围吴都。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷60（哀公十七、二十二年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "维基百科：笠泽之战",
+      "part": "https://zh.wikipedia.org/wiki/笠澤之戰",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wen-zhong",
+      "name": "文种",
+      "display": "文种",
+      "birthAccuracy": "unknown",
+      "death": -472,
+      "deathAccuracy": "approx",
+      "deathNote": "灭吴后不久，勾践赐死。取前 472 年前后。",
+      "title": "越大夫，守国之臣",
+      "bio": "字少禽。勾践入吴为质时，他守国。吴亡，不听范蠡之劝，赐死。与范蠡同谋不同终，两条在灭吴后分叉。",
+      "tags": [
+        "越国",
+        "赐死"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "si-goujian",
+      "name": "姒勾践",
+      "display": "越王勾践",
+      "birthAccuracy": "unknown",
+      "death": -465,
+      "deathAccuracy": "approx",
+      "deathNote": "《史记》未著绝对卒年，旧谱多系于句践三十三年、前 465 年。",
+      "title": "越王，灭吴",
+      "bio": "会稽之耻后，卧薪尝胆，用范蠡、文种。二十四年灭吴。他的条从夫差的阴影里穿出来，春秋的南线在此收束。",
+      "tags": [
+        "越国",
+        "灭吴"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-fucha",
+      "name": "姬夫差",
+      "display": "吴王夫差",
+      "birthAccuracy": "unknown",
+      "death": -473,
+      "deathAccuracy": "exact",
+      "title": "吴末代之王",
+      "bio": "报檇李，败越于夫椒，许勾践成。北上争霸，不听子胥。黄池之后，越入吴，他自杀。短于勾践的那一截，是灭国。",
+      "tags": [
+        "吴国",
+        "黄池"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

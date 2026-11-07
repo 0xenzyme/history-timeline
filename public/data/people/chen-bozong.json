@@ -1,0 +1,83 @@
+{
+  "id": "chen-bozong",
+  "name": "陈伯宗",
+  "display": "陈废帝陈伯宗",
+  "birthAccuracy": "unknown",
+  "death": 570,
+  "deathAccuracy": "exact",
+  "birthNote": "传书承圣三年五月生，又书太建二年薨时年十九，两数不合，不编生年。",
+  "title": "陈废帝，太建二年薨",
+  "bio": "文帝嫡长子。天康元年即位。太建二年四月薨，时年十九。本纪又书承圣三年五月生，与卒岁不合，故不写生年。",
+  "tags": [
+    "南北朝",
+    "陈"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-bozong",
+      "target": "chen-qian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。伯宗为世祖嫡长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-bozong",
+      "target": "zhang-yaoer",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "光大二年下令黜伯宗为临海王"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-bozong",
+      "target": "chen-qian-wendi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。伯宗为世祖嫡长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈伯宗",
+    "临海王"
+  ],
+  "sources": [
+    {
+      "work": "陈书",
+      "part": "废帝纪",
+      "kind": "classic"
+    }
+  ]
+}

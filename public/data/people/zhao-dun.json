@@ -1,0 +1,70 @@
+{
+  "id": "zhao-dun",
+  "name": "赵惇",
+  "display": "宋光宗赵惇",
+  "birth": 1147,
+  "birthAccuracy": "exact",
+  "death": 1200,
+  "deathAccuracy": "exact",
+  "title": "绍熙内禅",
+  "bio": "孝宗第三子，淳熙即位。不事孝宗、后宫干政，绍熙末群臣迫其内禅于子扩，尊为太上皇。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-dun",
+      "target": "zhao-shen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，孝宗传光宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-dun",
+      "target": "zhao-kuo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，光宗传宁宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "赵惇",
+    "宋光宗"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "光宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "nanjun-zhizhan",
+  "name": "南郡之战",
+  "display": "南郡之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 208,
+  "yearAccuracy": "approx",
+  "yearNote": "起于赤壁战后建安十三年冬（208年末）周瑜程普进南郡（三国志·吴书·周瑜传）；吴主传系曹仁委城走于「十四年」（209），瑜仁相守岁余。",
+  "endYear": 209,
+  "endYearAccuracy": "approx",
+  "endYearNote": "结束时间有209年末与210年初两说，取吴主传建安十四年（209）。",
+  "place": "江陵（南郡治所）",
+  "placeNow": "今湖北荆州",
+  "belligerents": [
+    "wu",
+    "shu",
+    "wei"
+  ],
+  "commanders": [
+    {
+      "id": "zhou-yu",
+      "side": "wu"
+    },
+    {
+      "id": "cao-ren",
+      "side": "wei"
+    },
+    {
+      "id": "lv-meng",
+      "side": "wu"
+    }
+  ],
+  "people": [
+    "zhou-yu",
+    "cao-ren",
+    "lv-meng",
+    "zhang-fei"
+  ],
+  "result": "周瑜程普围江陵岁余，曹仁伤亡甚众委城北撤，孙吴得南郡，瑜领南郡太守；刘备领荆州牧屯公安",
+  "aliases": [
+    "周瑜攻江陵"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "赤壁战后周瑜、程普渡江进围江陵，与曹仁相守岁余；瑜亲跨马擽陈、中右胁（张飞随军助战，出自周瑜传注引《吴录》）。曹仁伤亡甚众，委城北撤，孙权以周瑜领南郡太守；刘备领荆州牧屯公安。荆州归属重排，为借荆州与三分格局形成之前奏。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·周瑜传、吴主传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十六",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhou-yu",
+      "name": "周瑜",
+      "display": "周瑜",
+      "birth": 175,
+      "birthAccuracy": "exact",
+      "death": 210,
+      "deathAccuracy": "exact",
+      "title": "偏将军，赤壁纵火，三十六而卒",
+      "bio": "庐江舒人，长壮有姿貌，与孙策同年，独相友善。策死，与张昭共掌众事。建安十三年曹操下荆州，瑜力主拒战，与刘备合兵，赤壁纵火，操军大溃。后进图益州，道卒巴丘，年三十六。江东之条以他为最亮的一段。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "display": "曹仁",
+      "birthAccuracy": "unknown",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，守樊拒关羽",
+      "bio": "沛国谯人，字子孝，曹操从弟。从曹操起兵，以守御见长；樊城被关羽围困，激励将士坚守待援，徐晃至而围解；文帝时为大司马。黄初四年卒，谥忠侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-meng",
+      "name": "吕蒙",
+      "display": "吕蒙",
+      "birth": 178,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "南郡太守，白衣渡江取荆州",
+      "bio": "汝南富陂人，少依姐夫邓当，果敢有胆。孙权劝学，笃志不倦，鲁肃过其屯，叹曰「非复吴下阿蒙」。建安二十四年称病还建业，使白衣摇橹作商贾，袭取荆州，遂擒关羽。既克而疾作，卒于公安，年四十二。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-fei",
+      "name": "张飞",
+      "display": "张飞",
+      "birthAccuracy": "unknown",
+      "death": 221,
+      "deathAccuracy": "exact",
+      "title": "车骑将军，当阳据水断桥",
+      "bio": "涿郡人，与关羽俱事先主，年齿相若而兄事之。当阳长坂将二十骑拒后，据水断桥，敌不敢近。入蜀破江州，义释严颜。善待君子而不恤小人，章武元年将兵伐吴，为帐下将张达、范彊所杀。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,69 @@
+{
+  "id": "wang-pu-915",
+  "name": "王朴",
+  "display": "王朴（后周）",
+  "birth": 915,
+  "birthAccuracy": "approx",
+  "death": 959,
+  "deathAccuracy": "exact",
+  "birthNote": "显德六年三月卒，时年四十五，上推生年。",
+  "title": "《平边策》定一统之序",
+  "bio": "东平人，字文伯。举汉乾祐进士，仕汉不偶，世宗镇澶渊辟掌书记。及即位擢枢密使，上《平边策》：先取江南，次并南汉南蜀，而燕云传檄可定，一天下之序具焉。东京罗郭、雅乐乐律多出其手。显德六年访李谷第中疾作，舁归一夕而卒，世宗痛惜之。",
+  "tags": [
+    "五代",
+    "后周"
+  ],
+  "categories": [
+    "chancellor",
+    "strategist"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chai-rong",
+      "target": "wang-pu-915",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "枢密首席，平边之策所自出"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xiande-gaige",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "王朴传",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "周臣传",
+      "kind": "classic"
+    }
+  ]
+}

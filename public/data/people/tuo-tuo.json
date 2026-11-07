@@ -1,0 +1,106 @@
+{
+  "id": "tuo-tuo",
+  "name": "脱脱",
+  "display": "脱脱",
+  "birth": 1314,
+  "birthAccuracy": "exact",
+  "death": 1355,
+  "deathAccuracy": "exact",
+  "title": "顺帝朝丞相，修三史",
+  "bio": "马札儿台子，力请废伯颜专权，复开科举、主修辽金宋三史。后统兵镇压红巾，谪死云南。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "chancellor",
+    "falling",
+    "historian"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shun-di",
+      "target": "tuo-tuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚为丞相，更张弊政、修三史"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "qi-huanghou",
+      "target": "tuo-tuo",
+      "type": "rival",
+      "directed": false,
+      "since": 1354,
+      "notes": [
+        "皇后与太子嫌其专兵，遂夺其军符"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bo-yan-quanchen",
+      "target": "tuo-tuo",
+      "type": "rival",
+      "directed": false,
+      "since": 1340,
+      "notes": [
+        "与帝定计逐伯颜，遂代总中书"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tuo-tuo",
+      "target": "ou-yangxuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "都总裁之下以为三史总裁，论赞多出其手"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tuo-tuo",
+      "target": "jie-xisi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命为三史总裁，卒于史馆"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "脱脱传",
+      "kind": "classic"
+    }
+  ]
+}

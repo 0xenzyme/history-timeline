@@ -1,0 +1,57 @@
+{
+  "id": "ji-jutuo",
+  "name": "姬掘突",
+  "display": "郑武公",
+  "birthAccuracy": "unknown",
+  "death": -744,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：桓公死于犬戎之难，郑人立其子掘突；武公二十七年卒。",
+  "title": "郑武公，桓公之子",
+  "bio": "犬戎杀幽王并杀桓公，郑人立掘突。西周只收到始立；娶武姜、生寤生已入春秋。",
+  "tags": [
+    "郑"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "zheng"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jutuo",
+      "target": "ji-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。桓公死，郑人立掘突"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郑武公",
+    "掘突"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "郑世家",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "tanglong-zhibian",
+  "name": "唐隆政变",
+  "display": "唐隆政变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 710,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-long-ji",
+    "li-dan",
+    "wei-huang-hou"
+  ],
+  "result": "李旦复辟，李隆基被立为太子，韦氏集团覆灭",
+  "aliases": [
+    "唐隆之变"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "710 年，临淄王李隆基与相王李旦集团发动唐隆政变，诛韦后及其党羽，少帝李重茂退位，李旦复辟。政变重组了神龙政变后的皇位继承，并使李隆基进入最高权力核心。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "中宗本纪、睿宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "中宗本纪、睿宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-long-ji",
+      "name": "李隆基",
+      "display": "唐玄宗李隆基",
+      "birth": 685,
+      "birthAccuracy": "exact",
+      "death": 762,
+      "deathAccuracy": "exact",
+      "title": "唐玄宗，开元盛世与天宝之乱",
+      "bio": "李旦第三子，神龙后为临淄王，与太平公主合谋诛韦后，先天二年又诛太平公主，始专朝政。开元之世用姚崇、宋璟、张说、张九龄，海内富实，号为开元盛世。天宝以后宠杨贵妃，任李林甫、杨国忠，安禄山反，京师陷，奔蜀而禅位肃宗。宝应元年崩于西内神龙殿，年七十八。",
+      "tags": [
+        "唐",
+        "开元"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-dan",
+      "name": "李旦",
+      "display": "唐睿宗李旦",
+      "birth": 662,
+      "birthAccuracy": "exact",
+      "death": 716,
+      "deathAccuracy": "exact",
+      "title": "两度即位，开元前奏",
+      "bio": "高宗第八子，武后之子。嗣圣元年继中宗后为帝，旋降为皇嗣；景云元年以平韦氏之功复辟，先天元年传位太子隆基。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-huang-hou",
+      "name": "韦皇后",
+      "display": "韦皇后",
+      "birthAccuracy": "unknown",
+      "death": 710,
+      "deathAccuracy": "exact",
+      "title": "唐隆元年为乱兵所杀",
+      "bio": "中宗皇后，临朝摄政。景龙四年临淄王起兵，为乱兵所杀。",
+      "tags": [
+        "唐",
+        "后妃"
+      ],
+      "categories": [
+        "consort"
+      ],
+      "primary": "consort",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

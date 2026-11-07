@@ -1,0 +1,109 @@
+{
+  "id": "qin-mie-zhao",
+  "name": "秦灭赵",
+  "display": "秦灭赵",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -229,
+  "yearAccuracy": "exact",
+  "yearNote": "《史記·秦始皇本紀》十八年（前229）：「大興兵攻趙，王翦將上地，下井陘，端和將河內，羌瘣伐趙，端和圍邯鄲城」；《資治通鑑》卷6始皇十八年（前229）条同。主錨取大举攻赵之年。",
+  "endYear": -228,
+  "endYearAccuracy": "exact",
+  "place": "邯鄲",
+  "placeNow": "河北省邯郸市",
+  "belligerents": [
+    "qin",
+    "zhao"
+  ],
+  "commanders": [
+    {
+      "id": "wang-jian",
+      "side": "qin"
+    }
+  ],
+  "people": [
+    "wang-jian",
+    "ying-zheng"
+  ],
+  "result": "王翦破赵，李牧遭谗被杀，虏赵王迁，公子嘉走代自立",
+  "parent": "qin-mie-liuguo",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "秦大举攻赵，用郭开谗言杀李牧；王翦破赵军尽定赵地，虏赵王迁于邯郸；公子嘉走代自立。秦王亲至邯郸坑旧怨。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷六·卷006）",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷七",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷四十三·卷043）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-jian",
+      "name": "王翦",
+      "display": "王翦",
+      "birthAccuracy": "unknown",
+      "death": -220,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。始皇二十四年灭楚，其后少记载，取统一前后为活动下限。",
+      "title": "秦将，灭赵、灭楚",
+      "bio": "频阳人。与秦王政议兵，六十万灭楚。灭六国的武将条里，白起开了头，他收了尾。",
+      "tags": [
+        "秦国",
+        "灭六国"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

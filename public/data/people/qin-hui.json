@@ -1,0 +1,88 @@
+{
+  "id": "qin-hui",
+  "name": "秦桧",
+  "display": "秦桧",
+  "birth": 1090,
+  "birthAccuracy": "exact",
+  "death": 1155,
+  "deathAccuracy": "exact",
+  "title": "高宗朝权相，主和误国",
+  "bio": "江宁人，靖康被掳北去，南归后两居相位。主和议、构陷岳飞，专权十余年，天下冤之。",
+  "tags": [
+    "宋",
+    "南宋",
+    "主和"
+  ],
+  "categories": [
+    "chancellor",
+    "regent"
+  ],
+  "primary": "regent",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-gou",
+      "target": "qin-hui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "委以和议，专权十余年"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "qin-hui",
+      "target": "yue-fei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "秦桧以莫须有构陷风波亭"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "shaoxing-heyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shaoxing-shoubing",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuefei-yunsi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "秦桧传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "hanling-zhizhan",
+  "name": "韩陵之战",
+  "display": "韩陵之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 532,
+  "yearAccuracy": "exact",
+  "place": "韩陵",
+  "placeNow": "今河南安阳东北",
+  "belligerents": [
+    "bei",
+    "erzhu-shi"
+  ],
+  "commanders": [
+    {
+      "id": "gao-huan",
+      "side": "bei"
+    },
+    {
+      "id": "erzhu-zhao",
+      "side": "erzhu-shi"
+    }
+  ],
+  "result": "尔朱氏联军大溃，高欢入洛掌魏朝，尔朱军阀覆亡",
+  "aliases": [
+    "韩陵山之战"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "尔朱荣死后，尔朱兆、尔朱天光、尔朱仲远、尔朱度律诸部复合，拥众二十万攻高欢于邺南。532 年高欢屯韩陵逆战，以寡击众，大破尔朱联军，兆走晋阳，仲远南奔，天光、度律就擒。契胡尔朱氏数载之局一朝瓦解，高欢入洛辅政，拥立孝武帝，东魏之基定于此役；北魏末权柄归高，与西走关中之宇文泰成东西对峙之形。",
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "神武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "魏书",
+      "part": "尔朱兆传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "gao-huan",
+      "name": "高欢",
+      "display": "高欢",
+      "birth": 496,
+      "birthAccuracy": "exact",
+      "death": 547,
+      "deathAccuracy": "exact",
+      "title": "东魏权臣，北齐之基，玉壁折戟",
+      "bio": "渤海蓨人，本出怀朔镇兵户。从尔朱荣，后得六镇余众，讨灭尔朱氏，立孝静帝，迁都邺，自居晋阳，东魏政皆出之。天平四年围玉壁，攻城五十余日，士卒死者七万，疾作而退。武定五年卒于晋阳，年五十二，子澄、洋相继，遂建北齐。",
+      "tags": [
+        "北朝",
+        "东魏",
+        "北齐之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "erzhu-zhao",
+      "name": "尔朱兆",
+      "display": "尔朱兆",
+      "birthAccuracy": "unknown",
+      "death": 533,
+      "deathAccuracy": "exact",
+      "deathNote": "「兆竄於窮山，殺所乘馬，自縊於樹」（魏书·尔朱兆传）；传无年号，通鉴卷一百五十六系中大通五年正月（533）高欢讨兆之役。",
+      "title": "尔朱荣从子，入洛擒帝，韩陵败后自缢于赤谼岭",
+      "tags": [
+        "南北朝",
+        "北魏"
+      ],
+      "categories": [
+        "warlord",
+        "general"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

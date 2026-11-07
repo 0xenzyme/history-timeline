@@ -1,0 +1,72 @@
+{
+  "id": "xiao-he-rui",
+  "name": "孝和睿皇后",
+  "display": "孝和睿皇后",
+  "birth": 1776,
+  "birthAccuracy": "approx",
+  "death": 1849,
+  "deathAccuracy": "exact",
+  "birthNote": "道光二十九年崩，年七十四，上推生年。",
+  "deathNote": "《清史稿》作道光二十九年十二月崩；折公历已入 1850 年 1 月，此处仍依纪年系于 1849。",
+  "title": "仁宗皇后，传位宣宗",
+  "bio": "钮祜禄氏。孝淑皇后崩后，高宗敕她继位中宫。嘉庆二十五年仁宗崩于热河，她传旨令宣宗嗣位。道光二十九年十二月崩。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-qing",
+      "target": "xiao-he-rui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。仁宗崩于热河，她传旨令宣宗嗣位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "dao-guang",
+      "target": "xiao-he-rui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "继母，仁宗暴崩热河，她传旨定宣宗嗣位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "钮祜禄氏",
+    "孝和睿皇后"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·孝和睿皇后",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "liu-zhun",
+  "name": "刘准",
+  "display": "宋顺帝刘准",
+  "birth": 467,
+  "birthAccuracy": "approx",
+  "death": 479,
+  "deathAccuracy": "exact",
+  "birthNote": "建元元年殂，年十三，上推生年。",
+  "title": "刘宋末帝，禅齐后被杀",
+  "bio": "昇明三年禅位于齐，迁居丹阳宫，封汝阴王。建元元年五月殂，年十三。",
+  "tags": [
+    "南北朝",
+    "刘宋"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-zhun",
+      "target": "xiao-daocheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "昇明三年顺帝禅于齐，建元元年殂于丹阳宫"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-zhun",
+      "target": "wang-zhenfeng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "顺帝禅位，太后与帝同逊东邸。建元元年薨"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘准",
+    "宋顺帝"
+  ],
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "顺帝纪",
+      "kind": "classic"
+    }
+  ]
+}

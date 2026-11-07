@@ -1,0 +1,58 @@
+{
+  "id": "ma-zhou",
+  "name": "马周",
+  "display": "马周",
+  "birth": 601,
+  "birthAccuracy": "exact",
+  "death": 648,
+  "deathAccuracy": "exact",
+  "title": "贞观二十二年卒，年四十八",
+  "bio": "太宗朝中书令。贞观二十二年卒，年四十八。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "ma-zhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗朝为中书令，贞观二十二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "马周"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "马周传",
+      "kind": "classic"
+    }
+  ]
+}

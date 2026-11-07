@@ -1,0 +1,111 @@
+{
+  "id": "li-guang",
+  "name": "李广",
+  "display": "飞将军",
+  "birthAccuracy": "unknown",
+  "death": -119,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "西汉名将，人称「飞将军」",
+  "bio": "历文、景、武三朝，与匈奴七十余战未尝不大捷者言过其实，却始终未能封侯。漠北之战受卫青调度走东路失道，不愿受刀笔吏之辱，引刀自刎。",
+  "tags": [
+    "飞将军",
+    "难封",
+    "漠北之战"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-guang",
+      "target": "li-ling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "li-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为上郡太守"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "li-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "历右北平太守等"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-guang",
+      "target": "wei-qing",
+      "type": "rival",
+      "directed": false,
+      "since": -119,
+      "notes": [
+        "漠北之战调度失道之嫌隙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-cai",
+      "target": "li-guang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从弟为相，而广终身不得封侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mayi-zhimou",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "李将军列传",
+      "kind": "classic"
+    }
+  ]
+}

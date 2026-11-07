@@ -1,0 +1,71 @@
+{
+  "id": "yubei-lixian",
+  "name": "预备立宪",
+  "display": "预备立宪",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1906,
+  "yearAccuracy": "exact",
+  "yearNote": "光绪三十二年宣布预备立宪基础。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "guang-xu"
+  ],
+  "result": "宣布预备立宪基础",
+  "aliases": [
+    "仿行宪政"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "光绪三十二年，载泽等陈奏之后，谕预备立宪基础。国体改革进入筹备。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "載澤等陳奏",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "預備立憲基礎",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guang-xu",
+      "name": "载湉",
+      "display": "光绪",
+      "birth": 1871,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

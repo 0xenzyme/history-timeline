@@ -1,0 +1,69 @@
+{
+  "id": "gu-dingchen",
+  "name": "顾鼎臣",
+  "display": "顾鼎臣",
+  "birth": 1473,
+  "birthAccuracy": "approx",
+  "death": 1540,
+  "deathAccuracy": "exact",
+  "birthNote": "卒年六十八，上推生年。",
+  "deathNote": "嘉靖十九年十月卒于官。",
+  "title": "嘉靖大学士",
+  "bio": "嘉靖十七年八月入阁。十九年十月卒于官，年六十八。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houcong",
+      "target": "gu-dingchen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "嘉靖十七年入阁，十九年十月卒"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "gu-dingchen",
+      "target": "yan-song",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "鼎臣卒后严嵩始专国，嘉靖之局由此一变"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "顾鼎臣传",
+      "kind": "classic"
+    }
+  ]
+}

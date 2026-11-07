@@ -1,0 +1,72 @@
+{
+  "id": "zhu-ran",
+  "name": "朱然",
+  "display": "朱然",
+  "birthAccuracy": "unknown",
+  "death": 249,
+  "deathAccuracy": "exact",
+  "title": "吴左大司马，守江陵名震敌国",
+  "bio": "丹杨故鄣人，字义封，本姓施，为舅朱治所养；少与孙权同学书。江陵之役魏大军围城，然内固外安，名震敌国；官至左大司马、右军师。赤乌十二年卒，权素服举哀。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "zhu-ran",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "朱治之甥，孙权同学，守江陵"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caopi-fawu",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yiling-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "朱然",
+    "朱义封"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·朱治朱然吕范朱桓传",
+      "kind": "classic"
+    }
+  ]
+}

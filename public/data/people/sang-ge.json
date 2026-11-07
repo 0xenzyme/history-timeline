@@ -1,0 +1,78 @@
+{
+  "id": "sang-ge",
+  "name": "桑哥",
+  "display": "桑哥",
+  "birthAccuracy": "unknown",
+  "death": 1291,
+  "deathAccuracy": "exact",
+  "title": "尚书右丞相桑哥",
+  "bio": "河西人，累官总制院使、尚书右丞相，钩考钱谷、更易钞法，急于征敛而上下交怨；1291 年坐罪伏诛。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister",
+    "regent"
+  ],
+  "primary": "minister",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "sang-ge",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总理财赋，钩考钱谷而上下交怨"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "lu-shirong",
+      "target": "sang-ge",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为言利之臣，先后败亡"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bu-humu",
+      "target": "sang-ge",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "独能廷争桑哥之法"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "奸臣传",
+      "kind": "classic"
+    }
+  ]
+}

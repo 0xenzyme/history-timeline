@@ -1,0 +1,110 @@
+{
+  "id": "zhao-he",
+  "name": "赵何",
+  "display": "赵惠文王",
+  "birthAccuracy": "unknown",
+  "death": -266,
+  "deathAccuracy": "exact",
+  "title": "赵王，完璧归赵与阏与之战",
+  "bio": "武灵王少子，沙丘之变前已受国。用廉颇、蔺相如、赵奢，阏与挫秦。这是长平之前赵最后一次能与秦正面打。蔺相如的条就贴在他这一段上。",
+  "tags": [
+    "赵国",
+    "长平前"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-he",
+      "target": "zhao-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武灵王二十七年传国于少子何，自号主父"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lin-xiangru",
+      "target": "zhao-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -283,
+      "notes": [
+        "完璧归赵、渑池之会，拜上大夫"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lian-po",
+      "target": "zhao-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "惠文王之将，负荆请罪时仍与蔺如同列"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-he",
+      "target": "zhao-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平原君相赵惠文王、孝成王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-he",
+      "target": "zhao-xiaochengwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠文王卒，子丹嗣，是为孝成王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "赵惠文王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "赵世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "廉颇蔺相如列传",
+      "kind": "classic"
+    }
+  ]
+}

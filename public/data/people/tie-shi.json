@@ -1,0 +1,104 @@
+{
+  "id": "tie-shi",
+  "name": "铁失",
+  "display": "铁失",
+  "birthAccuracy": "unknown",
+  "death": 1323,
+  "deathAccuracy": "exact",
+  "title": "南坡弑逆之首",
+  "bio": "铁木迭儿余党，掌忠翊卫亲军。惧英宗追治旧罪，1323 年八月于上都南坡店弑帝及丞相拜住；泰定帝即位旋诛之。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "regent",
+    "rebel"
+  ],
+  "primary": "regent",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tie-mu-dieer",
+      "target": "tie-shi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "其余党，惧坐罪而先发"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-shi",
+      "target": "ying-zong",
+      "type": "rival",
+      "directed": false,
+      "since": 1323,
+      "notes": [
+        "南坡之变，弑帝于上都南归之途"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bai-zhu",
+      "target": "tie-shi",
+      "type": "rival",
+      "directed": false,
+      "since": 1323,
+      "notes": [
+        "同日被害于南坡"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-shi",
+      "target": "yesun-temur",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "泰定帝即位，旋诛铁失及其党"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "nanpo-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "英宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "元史",
+      "part": "泰定帝本纪",
+      "kind": "classic"
+    }
+  ]
+}

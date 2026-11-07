@@ -1,0 +1,89 @@
+{
+  "id": "zhang-shicheng",
+  "name": "张士诚",
+  "display": "张士诚",
+  "birth": 1321,
+  "birthAccuracy": "exact",
+  "death": 1367,
+  "deathAccuracy": "exact",
+  "title": "江浙割据",
+  "bio": "泰州盐徒，起兵据高邮，称诚王，后徙平江。据富庶之吴，与朱元璋相持数年，城破被执死。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "yuan",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    },
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhang-shicheng",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1365,
+      "notes": [
+        "平江围城，士诚被执死",
+        "平江围久乃下，士诚被执而死"
+      ],
+      "topicIds": [
+        "yuan",
+        "ming"
+      ]
+    },
+    {
+      "source": "chen-youliang",
+      "target": "zhang-shicheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "江汉与江浙两处割据，皆先太祖而灭"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "panyanghu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanmo-qunxiong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "张士诚传",
+      "kind": "classic"
+    }
+  ]
+}

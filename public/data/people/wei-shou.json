@@ -1,0 +1,87 @@
+{
+  "id": "wei-shou",
+  "name": "魏收",
+  "display": "魏收",
+  "birth": 507,
+  "birthAccuracy": "approx",
+  "death": 572,
+  "deathAccuracy": "exact",
+  "birthNote": "《北史·魏收传》未书生年，通行系于 507 年，记约。",
+  "deathNote": "《北史·魏收传》载「武平三年薨，贈司空、尚書左僕射，諡文貞」，即 572 年。",
+  "title": "北齐奉敕撰《魏书》百三十卷，天保五年奏上",
+  "bio": "钜鹿下曲阳人，字伯起，小字佛助。天保二年诏撰魏史，收兼著作郎专其任，考正群书，辨明得失，天保五年奏上，凡一百三十卷，纪北魏一代。后主时掌诏诰，除尚书右仆射，寻除开府、中书监。诸家修史多与收为讥，或讥其初受敕专任而未极史才，或讥其党附权门、褒贬失当；然诸书记载互有详略，多赖其考订。齐亡之岁，收冢被发，弃骨于外。武平三年薨，谥文贞。",
+  "tags": [
+    "南北朝",
+    "北齐"
+  ],
+  "categories": [
+    "official",
+    "historian"
+  ],
+  "primary": "historian",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-yang",
+      "target": "wei-shou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天保二年诏撰魏史，收兼著作郎专其任，天保五年奏上《魏书》百三十卷"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "cui-hao",
+      "target": "wei-shou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "皆奉敕撰国史：崔浩修国书获罪，魏收撰魏书专一家之言"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "weishu-chengshu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "魏收",
+    "魏伯起",
+    "魏佛助"
+  ],
+  "sources": [
+    {
+      "work": "北史",
+      "part": "魏收传",
+      "kind": "classic"
+    },
+    {
+      "work": "北齐书",
+      "part": "魏收传",
+      "kind": "classic"
+    }
+  ]
+}

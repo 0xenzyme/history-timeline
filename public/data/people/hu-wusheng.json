@@ -1,0 +1,37 @@
+{
+  "id": "hu-wusheng",
+  "name": "胡毋生",
+  "display": "胡毋生",
+  "birthAccuracy": "unknown",
+  "death": -141,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。史记·儒林列传「孝景時為博士，以老歸教授」（raw/先秦-西汉/史記/卷121-儒林列傳.md:64）。原文只有景帝之世。景帝卒年本库刘启系前141，取此年为可见活动下限，非寿数。不取无出处的前150。",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    },
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "儒林列传",
+      "kind": "classic"
+    }
+  ]
+}

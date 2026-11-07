@@ -1,0 +1,375 @@
+{
+  "id": "sun-quan",
+  "name": "孙权",
+  "display": "吴大帝孙权",
+  "birth": 182,
+  "birthAccuracy": "exact",
+  "death": 252,
+  "deathAccuracy": "exact",
+  "title": "吴大帝，赤壁抗曹，晚年昏悖",
+  "bio": "孙坚次子，孙策之弟。年十五为阳羡长，兄死受事，举贤任能，赤壁用周瑜破曹操，遂据江东。建安二十四年袭荆州取关羽，黄武元年称吴王，黄龙元年称帝。晚年二子争宠、吕壹用事，赤乌十三年崩，年七十一。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-ce",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，策临终授权于弟"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "zhou-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "外事不决问周瑜"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "sun-quan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "赤壁联军抗曹"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "zhang-zhao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙策托孤，孙权尊为仲父"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "gu-yong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为丞相，沉默寡言"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "pan-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为太常，讨平武陵蛮"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "kan-ze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为太子太傅，善历数"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "bu-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为骠骑将军，都督西陵"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "lv-dai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为交州刺史，平定岭南"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "xue-zong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为太子少傅，善文辞"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "lv-fan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权掌事，吕范典财计"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "zhu-huan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为奋武将军，守濡须"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "pan-zhang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为右将军，擒关羽"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "zhu-ran",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "朱治之甥，孙权同学，守江陵"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "quan-cong",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "女婿；孙权女婿，官至大司马"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "ding-feng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为偏将军，东兴之战雪中奋短兵"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-jun",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙权从子，与诸葛恪同受遗诏"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-jiao",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙静之子，孙权从弟"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "sun-shao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙策族子，孙权时为镇北将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-huan",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙静之子，孙权从弟"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-ba",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；孙权子，封鲁王，与孙和争储"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-he",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；孙权子，立为太子，后废"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "sun-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙权族子（孙奂之子），后降魏"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-quan",
+      "target": "shi-xie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "交州牧，附孙权，为卫将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "lvmeng-xi-jingzhou",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sunce-ping-jiangdong",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sunquan-chengdi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiangshui-huajie",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiaoyaojin-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhongfen-tianxia-zhimeng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "孙权",
+    "孙仲谋",
+    "吴大帝"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·吴主传",
+      "kind": "classic"
+    }
+  ]
+}

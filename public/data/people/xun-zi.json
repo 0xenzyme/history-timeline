@@ -1,0 +1,94 @@
+{
+  "id": "xun-zi",
+  "name": "荀况",
+  "display": "荀子",
+  "birth": -313,
+  "birthAccuracy": "approx",
+  "death": -238,
+  "deathAccuracy": "approx",
+  "title": "战国儒家，倡性恶、礼法",
+  "bio": "赵人，三为齐稷下学宫祭酒。主性恶、重礼义师法。韩非、李斯出其门，思想亦为汉儒所取。",
+  "tags": [
+    "性恶",
+    "礼法",
+    "稷下"
+  ],
+  "categories": [
+    "scholar",
+    "confucian"
+  ],
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "scholar"
+    },
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [
+    {
+      "source": "meng-zi",
+      "target": "xun-zi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "性善与性恶"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "rujia"
+      ]
+    },
+    {
+      "source": "xun-zi",
+      "target": "han-fei",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "韩非学于荀子"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "rujia"
+      ]
+    },
+    {
+      "source": "xun-zi",
+      "target": "zou-yan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并游学于齐稷下，皆以学名动诸侯；衍谈天，卿论礼，为齐学之两端"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "xun-zi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "礼法与天人，皆为汉儒所资"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孟子荀卿列传"
+    }
+  ]
+}

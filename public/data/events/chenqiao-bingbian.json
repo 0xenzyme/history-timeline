@@ -1,0 +1,188 @@
+{
+  "id": "chenqiao-bingbian",
+  "name": "陈桥兵变",
+  "display": "陈桥兵变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 960,
+  "yearAccuracy": "exact",
+  "yearNote": "旧五代史系于显德七年正月癸卯夜、未曙军变。新五代史与续资治通鉴系甲辰禅位。建隆元年正月乙巳改元、定国号。正月全月在960年。",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "zhao-kuangyin",
+    "chai-zongxun",
+    "zhao-guangyi",
+    "zhao-pu",
+    "fan-zhi"
+  ],
+  "result": "后周恭帝禅位，赵匡胤称帝，国号宋。",
+  "aliases": [
+    "陈桥驿兵变",
+    "建宋",
+    "陈桥受禅",
+    "song-chenqiao",
+    "wudai-960"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao",
+    "song"
+  ],
+  "desc": "显德七年正月癸卯夜，赵匡胤宿于陈桥驿，未曙军变，将士推戴。甲辰恭帝禅位，赵匡胤称帝；建隆元年正月乙巳改元，定国号宋。后周由此而亡，宋朝建立。",
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "卷120",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "卷12",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷1",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷1",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chai-zongxun",
+      "name": "柴宗训",
+      "display": "周恭帝",
+      "birth": 953,
+      "birthAccuracy": "exact",
+      "death": 973,
+      "deathAccuracy": "exact",
+      "title": "恭帝冲龄禅位，封郑王",
+      "bio": "世宗之子，显德六年即位，年七岁。殿前都点检赵匡胤北征次陈桥驿，军变返旆，禅位。宋待以客礼，封郑王。开宝六年殂，年二十，葬嵩陵。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-guangyi",
+      "name": "赵光义",
+      "display": "赵光义",
+      "birth": 939,
+      "birthAccuracy": "exact",
+      "death": 997,
+      "deathAccuracy": "exact",
+      "title": "宋太宗，完成一统",
+      "bio": "太祖之弟，即位后灭北汉，结束五代十国分裂；两度北伐契丹失利，自此守内虚外。留心文治，扩大科举。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-pu",
+      "name": "赵普",
+      "display": "赵普",
+      "birth": 922,
+      "birthAccuracy": "exact",
+      "death": 992,
+      "deathAccuracy": "exact",
+      "title": "开国首相，半部论语治天下",
+      "bio": "幽州蓟人，佐太祖定天下，谋陈桥、定杯酒释兵权。三入中书，言「以半部《论语》佐太祖定天下」，为宋初典制奠基。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor",
+        "founding"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "wudai",
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fan-zhi",
+      "name": "范质",
+      "display": "范质",
+      "birth": 911,
+      "birthAccuracy": "exact",
+      "death": 964,
+      "deathAccuracy": "exact",
+      "title": "后周旧相，宋初首位首相",
+      "bio": "后周时任相，陈桥禅代后留任，与赵普共定国初制度。为人廉介，临终戒子孙勿请谥立碑。乾德二年卒，年五十四。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "wudai",
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "wang-zhen",
+  "name": "王祯",
+  "display": "王祯",
+  "birth": 1271,
+  "birthAccuracy": "exact",
+  "death": 1333,
+  "deathAccuracy": "exact",
+  "title": "农学家，活字印刷",
+  "bio": "旌德县尹，撰《农书》三十七卷，图绘农器; 又创木活字轮转排印法，著《造活字印书法》传于世。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "official",
+    "agronomy",
+    "craft"
+  ],
+  "primary": "agronomy",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huang-daopo",
+      "target": "wang-zhen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为技艺之属：一易织具，一撰农书"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "王祯农书",
+      "part": "自序",
+      "kind": "classic"
+    }
+  ]
+}

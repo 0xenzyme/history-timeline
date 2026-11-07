@@ -1,0 +1,101 @@
+{
+  "id": "liangshui-fa",
+  "name": "两税法",
+  "display": "两税法",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 780,
+  "yearAccuracy": "exact",
+  "yearNote": "建中元年（780）。《旧唐书·德宗纪上》建中元年二月「遣黜陟使一十一人分行天下」，正月诏曰「自艰难以来，征赋名目颇多。今后除两税外，辄率一钱，以枉法论」；《旧唐书·食货志上》载其诏略曰「户无主客，以见居为簿；人无丁中，以贫富为差……居人之税，秋夏两征之」，并记「德宗善而行之，诏谕中外」（见卷一一八《杨炎传》）。",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-kuo",
+    "yang-yan"
+  ],
+  "result": "租庸杂徭悉省，以贫富为差、秋夏两征，田亩之税以大历十四年垦数为准",
+  "aliases": [
+    "两税之法",
+    "杨炎两税法"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "安史乱后，版籍不造而丁身转徙，租庸之法弊久，天下科敛之名凡数百，废者不削、重者不去，吏因其苛而蚕食细民。杨炎为相，建中元年劝德宗作两税法以一其名：凡百役之费、一钱之敛，先度其数而赋于人，量出以制入；户无主客，以见居为簿；人无丁中，以贫富为差；不居处而行商者，在所郡县税三十之一；居人之税，秋夏两征之，夏税无过六月，秋税无过十一月；其租庸杂徭悉省，而丁额不废；田亩之税，率以大历十四年垦田之数为准而均征之，尚书度支总统焉。\n\n是岁二月，遣黜陟使十一人分行天下，随土所宜、人户多少定其赋。法行而人不土断而地著，赋不加敛而增入，轻重之权始归于朝廷。中国赋税自此由以人丁为本转向以资产为差，为后世税制之大变。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "卷118·杨炎传",
+      "kind": "classic"
+    },
+    {
+      "work": "旧唐书",
+      "part": "卷048·食货志上",
+      "kind": "classic"
+    },
+    {
+      "work": "旧唐书",
+      "part": "卷012·德宗纪上",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-kuo",
+      "name": "李适",
+      "display": "唐德宗李适",
+      "birth": 742,
+      "birthAccuracy": "exact",
+      "death": 805,
+      "deathAccuracy": "exact",
+      "title": "唐德宗，两税法，奉天之难",
+      "bio": "唐代宗长子，大历十四年即位，明年改元建中。用杨炎行两税法，废租庸调，赋役之制自此一变。性猜忌，信谗而黜陆贽，用裴延龄。建中四年朱泚乱，出奔奉天，兴元元年李怀光又叛，再奔梁州。晚年姑息藩镇，宦官益亲。贞元二十一年崩于会宁殿，年六十四。",
+      "tags": [
+        "唐",
+        "两税法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-yan",
+      "name": "杨炎",
+      "display": "杨炎",
+      "birth": 727,
+      "birthAccuracy": "exact",
+      "death": 781,
+      "deathAccuracy": "exact",
+      "title": "建中二年赐死，年五十五",
+      "bio": "德宗朝同平章事，行两税法。建中二年贬崖州，途中赐死，年五十五。",
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

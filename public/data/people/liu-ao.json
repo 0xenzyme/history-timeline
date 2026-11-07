@@ -1,0 +1,129 @@
+{
+  "id": "liu-ao",
+  "name": "刘骜",
+  "display": "汉成帝",
+  "birth": -51,
+  "birthAccuracy": "exact",
+  "death": -7,
+  "deathAccuracy": "exact",
+  "title": "西汉成帝，赵飞燕姊妹与王氏外戚",
+  "bio": "元帝太子。耽于酒色，宠赵飞燕、赵合德，无子。母舅王凤等五人同日封侯，王氏权倾朝野，王莽由此起。死后哀、平短促，西汉只剩二十年。",
+  "tags": [
+    "西汉"
+  ],
+  "categories": [
+    "monarch",
+    "consort-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-ao",
+      "target": "liu-shi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "liu-xin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "成帝无嗣，立侄刘欣为太子（哀帝）"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhai-fang-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "荧惑守心，赐册责让，即日自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhang-yu-bc5",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为太子时从禹受《论语》，即位尊为师相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhao-fei-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "成帝皇后；哀帝崩后废为庶人，是日自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "duan-hui-zong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "成帝时为西域都护，安抚乌孙，三任都护"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "kong-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "成帝时由尚书令迁御史大夫，历成哀平三朝，官至太师"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "汉成帝"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "成帝纪",
+      "kind": "classic"
+    }
+  ]
+}

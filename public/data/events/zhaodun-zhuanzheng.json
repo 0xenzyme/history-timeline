@@ -1,0 +1,95 @@
+{
+  "id": "zhaodun-zhuanzheng",
+  "name": "赵盾专政与晋灵公被弑",
+  "display": "赵盾专政与晋灵公被弑",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -621,
+  "yearAccuracy": "exact",
+  "yearNote": "赵盾执政：左传文公六年（前621）蒐于夷、改蒐于董，「宣子於是乎始為國政」；灵公被弑：宣公二年（前607）乙丑赵穿攻灵公于桃园，大史书曰赵盾弑其君。经传与史记晋世家一致。",
+  "endYear": -607,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "jin-guo"
+  ],
+  "people": [
+    "jin-linggong",
+    "yang-chufu"
+  ],
+  "aliases": [
+    "赵盾始为国政",
+    "晋灵公不君",
+    "董狐直笔"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "赵盾自文公六年始为国政，制事典、正法罪；晋灵公厚敛雕墙、弹人观避、杀谏者，谋刺赵盾不成。前607年赵穿攻灵公于桃园，太史董狐书「赵盾弑其君」，孔子称董狐为古之良史。晋政自此归赵氏。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷18（文公六年）",
+      "part": "文公六年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義 卷21（宣公二年）",
+      "part": "宣公二年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·晉世家",
+      "part": "靈公十四年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jin-linggong",
+      "name": "晋灵公",
+      "display": "晋灵公",
+      "birthAccuracy": "unknown",
+      "death": -607,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「匡王六年，晋灵公为赵穿所杀，赵盾使穿迎公子黑臀于周，立之」。",
+      "title": "为赵穿所弑，赵盾另立黑臀",
+      "bio": "襄公之子。居君位而不及成年，朝政归赵盾。与赵氏不协，赵穿攻入而弑之；赵盾复迎襄公子黑臀于周而立，是为成公。自此赵氏权重于晋。",
+      "tags": [
+        "赵穿弑君",
+        "赵盾",
+        "公室卑弱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-chufu",
+      "name": "阳处父",
+      "display": "阳处父",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经·文公六年「晉殺其大夫陽處父」（前621），狐射姑使人杀之，宜为国讨。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

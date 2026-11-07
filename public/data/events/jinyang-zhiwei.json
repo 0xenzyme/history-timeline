@@ -1,0 +1,137 @@
+{
+  "id": "jinyang-zhiwei",
+  "name": "晋阳之围",
+  "display": "晋阳之围",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 936,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷280系于天福元年（936）：五月丙午以张敬达为太原四面兵马都部署围晋阳，九月辛丑契丹主将五万骑至晋阳、大破唐兵，敬达退保晋安寨；辽史·太宗纪称「在围八十余日」。闰十一月甲子杨光远杀张敬达以寨降。通鉴纪年皆为936，故系年936；甲子按历推算约当公历937年1月上旬，故军事面尾端跨入937。",
+  "endYear": 937,
+  "endYearAccuracy": "approx",
+  "endYearNote": "晋安寨降（闰十一月甲子）按历推算约当公历937年1月上旬，故 endYear 取937；农历仍在天福元年之内。",
+  "place": "晋阳",
+  "placeNow": "山西太原",
+  "belligerents": [
+    "hou-tang",
+    "liao"
+  ],
+  "commanders": [
+    {
+      "id": "yelv-deguang",
+      "side": "liao"
+    }
+  ],
+  "people": [
+    "shi-jingtang",
+    "liu-zhiyuan"
+  ],
+  "result": "契丹援军大破后唐围城军，晋安寨五万步骑被围八十余日后举寨降，后唐军事主力瓦解。",
+  "aliases": [
+    "晋阳之役"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "936年五月，后唐以张敬达为太原四面兵马都部署，围石敬瑭于晋阳（守方石敬瑭即后晋奠基者，见 people）。九月契丹主耶律德光率五万骑南下赴援，大破后唐围城军，张敬达退保晋安寨，被围八十余日。闰十一月杨光远杀张敬达，晋安寨五万步骑举寨降契丹，后唐军事主力瓦解。此役是后唐-后晋易代的军事决定环节，政治面见后晋建立条。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷280",
+      "kind": "classic"
+    },
+    {
+      "work": "辽史",
+      "part": "卷3",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "卷75",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shi-jingtang",
+      "name": "石敬瑭",
+      "display": "后晋高祖",
+      "birth": 892,
+      "birthAccuracy": "exact",
+      "death": 942,
+      "deathAccuracy": "exact",
+      "title": "后晋高祖，割燕云称儿皇帝",
+      "bio": "沙陀人，事明宗为子婿，谨愿善骑射，佐唐伐梁，位至河东节度使、中书令。废帝疑之，举兵太原，表称臣于契丹，请割卢龙雁门以北，德光自将来援，天显十一年立晋，迁都汴。六年之中仰事契丹，疽发背而殂。",
+      "tags": [
+        "五代",
+        "后晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zhiyuan",
+      "name": "刘知远",
+      "display": "后汉高祖",
+      "birthAccuracy": "unknown",
+      "death": 948,
+      "deathAccuracy": "exact",
+      "title": "后汉高祖，乘契丹北归取中原",
+      "bio": "本名暠，沙陀部人，与石敬瑭同为明宗腹心，位至河东节度使、北京留守。契丹迁德光北去，中原无主，知远据太原称汉，乘隙入汴，悉收故地。在位一年而崩。",
+      "tags": [
+        "五代",
+        "后汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

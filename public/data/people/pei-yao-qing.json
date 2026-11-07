@@ -1,0 +1,60 @@
+{
+  "id": "pei-yao-qing",
+  "name": "裴耀卿",
+  "display": "裴耀卿",
+  "birth": 681,
+  "birthAccuracy": "approx",
+  "death": 743,
+  "deathAccuracy": "approx",
+  "birthNote": "卒时年六十三。卒年取天宝元年转官的次年，生年随卒年约计。",
+  "deathNote": "旧唐书作天宝元年转左仆射，一岁薨。卒年取转官的次年。",
+  "title": "天宝初卒，年六十三",
+  "bio": "开元中同中书门下平章事，充转运使，二十四年罢知政事。天宝元年转左仆射，一岁薨，年六十三。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "pei-yao-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载733至736年在任，天宝初卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "裴耀卿"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "裴耀卿传",
+      "kind": "classic"
+    }
+  ]
+}

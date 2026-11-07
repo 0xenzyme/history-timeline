@@ -1,0 +1,85 @@
+{
+  "id": "sima-yi-haixi",
+  "name": "司马奕",
+  "display": "海西公司马奕",
+  "birth": 342,
+  "birthAccuracy": "approx",
+  "death": 386,
+  "deathAccuracy": "exact",
+  "birthNote": "太元十一年薨，年四十五，上推生年。",
+  "title": "东晋废帝，太元十一年薨于吴",
+  "bio": "哀帝母弟。兴宁三年哀帝崩，无嗣，入继帝位。桓温废他为海西县公。太元十一年十月薨于吴，年四十五。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-pi",
+      "target": "sima-yi-haixi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。海西公为哀帝母弟，兴宁三年入继"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-wen",
+      "target": "sima-yi-haixi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "桓温诬帝痿疾，太和六年废之，降封海西县公"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yi-haixi",
+      "target": "yu-daolian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "废帝皇后。帝废后追贬曰海西公夫人"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "司马奕",
+    "海西公",
+    "晋废帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "海西公纪",
+      "kind": "classic"
+    }
+  ]
+}

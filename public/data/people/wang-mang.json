@@ -1,0 +1,122 @@
+{
+  "id": "wang-mang",
+  "name": "王莽",
+  "display": "王莽",
+  "birth": -45,
+  "birthAccuracy": "exact",
+  "death": 23,
+  "deathAccuracy": "exact",
+  "title": "新朝皇帝，篡汉而改制，败于绿林赤眉",
+  "bio": "元后之侄，以恭俭得名，终移汉祚。建国后行王田、五均六筦、改币制、易官名，令烦而民困。绿林、赤眉并起，地皇四年被商人杜吴杀于渐台，新朝十五年而亡。",
+  "tags": [
+    "新莽",
+    "改制",
+    "篡汉"
+  ],
+  "categories": [
+    "monarch",
+    "regent",
+    "consort-kin"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "xin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "xinmang"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-mang",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姑侄，王莽以外戚执政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-kan",
+      "target": "wang-mang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "平帝暴崩，莽立孺子婴而摄政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-ying-ruzi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平帝崩，莽立婴为孺子，居摄称制"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-xin-zijun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以为国师；歆后与王涉谋劫莽降汉，事泄自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "he-wu",
+      "target": "wang-mang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元始三年吕宽案构陷，槛车征，武自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wang-mang",
+      "target": "zhai-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "东郡太守勒兵讨莽，众至十余万"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王莽",
+    "新莽"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "王莽传",
+      "kind": "classic"
+    }
+  ]
+}

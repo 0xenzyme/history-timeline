@@ -1,0 +1,57 @@
+{
+  "id": "chen-shu-da",
+  "name": "陈叔达",
+  "display": "陈叔达",
+  "birthAccuracy": "unknown",
+  "death": 635,
+  "deathAccuracy": "exact",
+  "title": "贞观九年卒",
+  "bio": "高祖朝为纳言。武德中坐事免，贞观九年卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "chen-shu-da",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高祖朝为纳言，贞观九年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈叔达"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "陈叔达传",
+      "kind": "classic"
+    }
+  ]
+}

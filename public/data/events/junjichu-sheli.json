@@ -1,0 +1,65 @@
+{
+  "id": "junjichu-sheli",
+  "name": "军机处设立",
+  "display": "军机处设立",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1732,
+  "yearAccuracy": "exact",
+  "yearNote": "雍正十年六月，军机大臣之设始于此。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "yong-zheng"
+  ],
+  "result": "军机大臣之设始于此",
+  "aliases": [
+    "设立军机大臣"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "世宗本纪雍正十年六月写明，军机大臣之设始于此。中枢由此多出一个承旨出令的机构。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷九",
+      "note": "軍機大臣之設始於此",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yong-zheng",
+      "name": "胤禛",
+      "display": "雍正",
+      "birth": 1678,
+      "birthAccuracy": "exact",
+      "death": 1735,
+      "deathAccuracy": "exact",
+      "title": "肃政集权",
+      "bio": "康熙第四子，即位后行摊丁入亩、设军机处、清查亏空，承前启后。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

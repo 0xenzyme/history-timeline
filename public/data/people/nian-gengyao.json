@@ -1,0 +1,67 @@
+{
+  "id": "nian-gengyao",
+  "name": "年羹尧",
+  "display": "年羹尧",
+  "birth": 1679,
+  "birthAccuracy": "exact",
+  "death": 1726,
+  "deathAccuracy": "exact",
+  "title": "抚远大将军",
+  "bio": "雍正藩邸旧人，平青海、镇西北，功高震主，旋以骄纵赐令自尽。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "official",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yong-zheng",
+      "target": "nian-gengyao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚为抚远大将军平青海"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "nian-gengyao",
+      "target": "yong-zheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "功高见忌，赐令自尽"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "年羹尧传",
+      "kind": "classic"
+    }
+  ]
+}

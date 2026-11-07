@@ -1,0 +1,80 @@
+{
+  "id": "shan-tao",
+  "name": "山涛",
+  "display": "山涛",
+  "birth": 205,
+  "birthAccuracy": "approx",
+  "death": 283,
+  "deathAccuracy": "exact",
+  "birthNote": "太康四年（283）薨，年七十九，虚岁上推生年。",
+  "title": "竹林之贤，典选十年而论兵得天下名言",
+  "bio": "字巨源，河内怀人。好《老》《庄》，与嵇康、阮籍为竹林之游。历尚书吏部郎、侍中，典选十余年，每一官缺，辄启数人，人号山公启事。论去州郡武备，帝称天下名言，及永宁之后变难蜂起，果如其言。太康四年薨，年七十九。",
+  "tags": [
+    "晋",
+    "西晋",
+    "竹林七贤"
+  ],
+  "categories": [
+    "chancellor",
+    "official",
+    "metaphysics"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "wen"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shan-tao",
+      "target": "sima-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "司徒。论去州郡武备，帝称名言"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "shan-tao",
+      "target": "wang-rong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "竹林之游，七贤为友"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "山涛",
+    "山巨源"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "山涛传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

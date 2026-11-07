@@ -1,0 +1,173 @@
+{
+  "id": "sima-yi",
+  "name": "司马懿",
+  "display": "司马懿",
+  "birth": 179,
+  "birthAccuracy": "exact",
+  "death": 251,
+  "deathAccuracy": "exact",
+  "title": "魏太傅，拒诸葛亮，高平陵夺权",
+  "bio": "河内温人，字仲达。曹操辟为文学掾，历事三世。拒诸葛亮于渭南，坚壁不出，卒使亮星落五丈原。正始十年乘曹爽出谒高平陵，闭城奏诛之，魏之大权归司马氏。嘉平三年薨，年七十三。",
+  "tags": [
+    "三国",
+    "曹魏",
+    "司马氏"
+  ],
+  "categories": [
+    "regent",
+    "official",
+    "general"
+  ],
+  "primary": "regent",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yi",
+      "target": "cao-cao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "被辟为文学掾，终受托孤"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-shi",
+      "target": "sima-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-shuang",
+      "target": "sima-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "嘉平元年高平陵之变，司马懿奏免曹爽，爽寻伏诛"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-yi",
+      "target": "guo-huai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏雍州刺史，拒蜀汉，后从司马懿"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "gongsun-yuan",
+      "target": "sima-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "辽东公孙氏，景初二年为司马懿所灭"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-yi",
+      "target": "wang-ling",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "魏太尉，谋立楚王彪，事泄自杀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gaopingling-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huainan-sanpan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "simayi-ping-liaodong",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "wei-mie-yan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "xingshi-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhuge-liang-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhugeliang-beifa",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马懿",
+    "司马仲达",
+    "晋宣帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "宣帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·明帝纪",
+      "kind": "classic"
+    }
+  ]
+}

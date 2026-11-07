@@ -1,0 +1,68 @@
+{
+  "id": "chu-aiwang",
+  "name": "楚哀王",
+  "display": "楚哀王",
+  "birthAccuracy": "unknown",
+  "death": -228,
+  "deathAccuracy": "approx",
+  "deathNote": "楚世家：哀王即位二月余，李园使人伏袭杀之；年份与幽王卒岁重叠，系前228年，记approx。",
+  "title": "楚王，两月而殒",
+  "bio": "考烈王死、太子哀即位，两月余即遇弑——楚室最后一幕的急促就在这两个月里。其弟幽王代立，再后负刍虏于秦，无卒年，例不入。",
+  "tags": [
+    "楚国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chu-aiwang",
+      "target": "chu-kaoliewang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "太子悍即位两月余，李园伏斧施杀之——春申君同岁死于棘门"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-aiwang",
+      "target": "chu-youwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "哀王遇弑，弟幽王代立；再后负刍虏于秦，例不入"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "哀王（楚）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "wei-wenhou",
+  "name": "魏文侯",
+  "display": "魏文侯",
+  "birthAccuracy": "unknown",
+  "death": -396,
+  "deathAccuracy": "disputed",
+  "deathNote": "文侯卒年内证矛盾：魏世家在位年与六国年表有出入。年份从通行说前396年，标disputed。",
+  "title": "魏侯，三家受命之首",
+  "bio": "三家之首：礼贤下士，用李悝、翟璜，乐羊伐中山，吴起守西河，前403与韩赵同受周威烈王命为诸侯——轴上的三家分晋系在他受命。魏最先强，变法、合纵两章都能回溯到他的朝廷。",
+  "tags": [
+    "魏国",
+    "礼贤",
+    "变法"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "wei-zhanguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-weiliewang",
+      "target": "wei-wenhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -403,
+      "notes": [
+        "威烈王二十三年命三晋为诸侯，文侯为其首"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "wu-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文侯礼贤，用吴起守西河，秦人不敢东向"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "ying-shixi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "师隰自魏而还——秦的变法前奏接在魏国朝廷的门口"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "ying-jian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "吴起守西河，连夺秦西河之地，简惠之世秦人不敢东出"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "wei-wuhou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "文侯卒，武侯嗣——西河之业在这一代漏掉"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "li-kui-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文侯任悝为相，作尽地力之教，著《法经》六篇，魏以是先富强"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "likui-bianfa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sanjia-fenjin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "文侯（魏）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "魏世家",
+      "kind": "classic"
+    }
+  ]
+}

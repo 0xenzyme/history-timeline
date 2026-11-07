@@ -1,0 +1,65 @@
+{
+  "id": "li-ji",
+  "name": "骊姬",
+  "display": "骊姬",
+  "birthAccuracy": "unknown",
+  "death": -651,
+  "deathAccuracy": "approx",
+  "deathNote": "献公死后里克杀奚齐、卓子，传统记载骊姬同时被杀，取前 651 年。",
+  "title": "晋献公妃，奚齐之母",
+  "bio": "骊戎之女。谮杀申生，逐群公子。献公卒，里克发难，她的条与献公同年截断。晋文公的出亡从这里起算。",
+  "tags": [
+    "骊姬之乱"
+  ],
+  "categories": [
+    "official"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-guizhu",
+      "target": "li-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宠妃，奚齐之母"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "li-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谮群公子，重耳奔狄"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家"
+    },
+    {
+      "work": "国语",
+      "part": "晋语"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "hu-zongxian",
+  "name": "胡宗宪",
+  "display": "胡宗宪",
+  "birth": 1512,
+  "birthAccuracy": "exact",
+  "death": 1565,
+  "deathAccuracy": "exact",
+  "title": "总督东南倭事",
+  "bio": "字汝贞，绩溪人。总督浙直福建军务，用俞大猷、戚继光、徐渭之属，诱斩汪直、徐海; 倚严嵩之势行事，后下狱而死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general",
+    "minister"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houcong",
+      "target": "hu-zongxian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总督浙直福建军务，用俞戚以平倭"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hu-zongxian",
+      "target": "yu-dayou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "幕府用之，俞家军屡立水战之功"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hu-zongxian",
+      "target": "qi-jiguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "调义乌之兵，成节制之师"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-wei",
+      "target": "hu-zongxian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入其幕府，代草章奏而亲见倭事"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "胡宗宪传",
+      "kind": "classic"
+    }
+  ]
+}

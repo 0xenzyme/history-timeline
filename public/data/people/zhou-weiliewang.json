@@ -1,0 +1,116 @@
+{
+  "id": "zhou-weiliewang",
+  "name": "周威烈王",
+  "display": "周威烈王",
+  "birthAccuracy": "unknown",
+  "death": -402,
+  "deathAccuracy": "exact",
+  "deathNote": "周本纪、六国年表：威烈王午，在位二十六年，卒于前402年。",
+  "title": "周王，命三家为诸侯者",
+  "bio": "战国开始的界线画在他的命令上：前403命魏赵韩俱为诸侯。死在那道命令之后九年——周王的条从此起，渐渐比不过七国的县令。",
+  "tags": [
+    "周室",
+    "三家分晋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-weiliewang",
+      "target": "wei-wenhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -403,
+      "notes": [
+        "威烈王二十三年命三晋为诸侯，文侯为其首"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhou-weiliewang",
+      "target": "han-jinghou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -403,
+      "notes": [
+        "韩景侯与魏赵之君同年受命"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhou-weiliewang",
+      "target": "zhao-liehou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -403,
+      "notes": [
+        "赵烈侯同年受命，轴上三家自此成栏"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhou-anwang",
+      "target": "zhou-weiliewang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "安王骄嗣威烈王之位——田和请命、晋祀断绝都在他这一世"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "jin-liegong",
+      "target": "zhou-weiliewang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同世的两家名分之主：晋寓于三家，周行命于王城"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sanjia-fenjin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "威烈王",
+    "王午"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    }
+  ]
+}

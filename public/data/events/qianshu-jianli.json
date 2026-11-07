@@ -1,0 +1,69 @@
+{
+  "id": "qianshu-jianli",
+  "name": "前蜀建立",
+  "display": "前蜀建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 907,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系后梁开平元年九月王建称帝于成都。开平元年公历907。",
+  "place": "成都",
+  "polity": [
+    "qianshu"
+  ],
+  "people": [
+    "wang-jian-918"
+  ],
+  "result": "王建称帝于成都，国号蜀；三川之别为一国，史称前蜀。",
+  "dynasties": [
+    "tang",
+    "wudai"
+  ],
+  "desc": "后梁开平元年，王建既并两川，阻剑门之险，不受梁命，九月即皇帝位于成都，国号蜀，史称前蜀。建起于行伍，逐鹿秦、蜀之间，至是据三川而自立。蜀恃三峡之险，不预中原代兴；内崇佛老，士大夫以词章相尚，《花间》一集多出其时之人。传子王衍，耽于游宴，同光中为后唐郭崇韬所灭，二主而止。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后梁纪·开平元年",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "前蜀",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-jian-918",
+      "name": "王建",
+      "display": "前蜀高祖",
+      "birthAccuracy": "unknown",
+      "death": 918,
+      "deathAccuracy": "exact",
+      "title": "前蜀高祖，起于无赖而有两川",
+      "bio": "许州舞阳人。唐末无赖，以屠牛盗驴为业，黥面配忠武军；随军入蜀，累功为将。光启中乘乱进据阆州，攻顾彦朗兄弟并东川，乾宁中拜西川节度使，两川有全。唐亡不受梁命，天祐四年称帝，国号蜀，都成都。天汉元年殂，子衍立，同光三年后唐灭前蜀。",
+      "tags": [
+        "十国",
+        "前蜀"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

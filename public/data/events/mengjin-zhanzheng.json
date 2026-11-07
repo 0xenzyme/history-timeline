@@ -1,0 +1,84 @@
+{
+  "id": "mengjin-zhanzheng",
+  "name": "蒙金战争",
+  "display": "蒙金战争",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": 1211,
+  "yearAccuracy": "exact",
+  "endYear": 1234,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "jin-chao",
+    "mongol"
+  ],
+  "commanders": [
+    {
+      "id": "tie-mu-zhen",
+      "side": "mongol"
+    }
+  ],
+  "result": "蒙古联宋灭金，金亡，蒙古据有中原",
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "1211 年成吉思汗伐金，野狐岭一战后金军主力尽丧；中都既下，金迁都汴京，河北、山东次第失守。1232 年三峰山之战金军最后一支精锐覆没，1234 年蔡州城破，金亡。此战之后蒙古与南宋正面相接，南北对峙的格局转为蒙宋之争。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "哀宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "yehuling-zhizhan",
+    "zhongdu-zhiyi",
+    "sanfengshan-zhizhan",
+    "caizhou-zhizhan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tie-mu-zhen",
+      "name": "铁木真",
+      "display": "铁木真",
+      "birth": 1162,
+      "birthAccuracy": "exact",
+      "death": 1227,
+      "deathAccuracy": "exact",
+      "title": "成吉思汗，蒙古帝国的缔造者",
+      "bio": "孛儿只斤氏，统一漠北诸部，1206 年称成吉思汗，建大蒙古国；西征花剌子模，破西夏，覆金半壁。丁亥年七月卒于六盘山，后追尊为元太祖。",
+      "tags": [
+        "元",
+        "蒙古"
+      ],
+      "categories": [
+        "outsider",
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

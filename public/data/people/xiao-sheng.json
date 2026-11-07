@@ -1,0 +1,61 @@
+{
+  "id": "xiao-sheng",
+  "name": "熹妃钮祜禄氏",
+  "display": "熹妃钮祜禄氏",
+  "birth": 1692,
+  "birthAccuracy": "approx",
+  "death": 1777,
+  "deathAccuracy": "exact",
+  "birthNote": "乾隆四十二年崩，年八十六，上推生年。",
+  "title": "高宗生母，四十年皇太后",
+  "bio": "钮祜禄氏。康熙五十年生高宗。高宗即位尊为皇太后，以天下养。乾隆四十二年正月崩。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qian-long",
+      "target": "xiao-sheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。康熙五十年生高宗，后以皇太后养于慈宁宫"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "钮祜禄氏",
+    "熹妃",
+    "崇庆皇太后",
+    "孝圣宪皇后"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·孝圣宪皇后",
+      "kind": "classic"
+    }
+  ]
+}

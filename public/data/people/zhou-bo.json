@@ -1,0 +1,94 @@
+{
+  "id": "zhou-bo",
+  "name": "周勃",
+  "display": "周勃",
+  "birthAccuracy": "unknown",
+  "death": -169,
+  "deathAccuracy": "exact",
+  "title": "汉太尉，诛诸吕，安刘氏",
+  "bio": "沛人，织薄曲为生，材官引强。从高祖定天下，封绛侯。吕后崩，与陈平谋，夺北军诛诸吕，迎立代王为文帝。厚重少文，然安刘氏者必勃。卒于前 169 年。",
+  "tags": [
+    "汉初",
+    "功臣",
+    "诛吕"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-bo",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厚重的周勃，后平定诸吕"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "zhou-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与周勃合谋诛诸吕，迎立代王"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "zhou-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诸吕既平，迎立代王，拜右丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhulv-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "周勃",
+    "绛侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "绛侯周勃世家",
+      "kind": "classic"
+    }
+  ]
+}

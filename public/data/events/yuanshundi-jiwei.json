@@ -1,0 +1,91 @@
+{
+  "id": "yuanshundi-jiwei",
+  "name": "元顺帝即位",
+  "display": "元顺帝即位",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1333,
+  "yearAccuracy": "exact",
+  "yearNote": "至顺四年六月，明宗子妥懽帖睦尔即位于上都，改元元统。《元史·顺帝本纪》系之明确。",
+  "place": "上都",
+  "placeNow": "今内蒙古锡林郭勒盟境内",
+  "polity": [
+    "yuan"
+  ],
+  "people": [
+    "shun-di",
+    "yan-tiemuer"
+  ],
+  "result": "妥懽帖睦尔立，权归伯颜；数年而后帝躬亲政",
+  "aliases": [
+    "妥懽帖睦尔即位"
+  ],
+  "dynasties": [
+    "yuan"
+  ],
+  "desc": "明宗暴崩于和宁之北，文宗之位渐至，宁宗殇，太后乃议立长，命太师燕铁木儿迎明宗之长子妥懽帖睦尔于静江。道远未至，廷臣或谓其不宜立，且疑忌之，故迁延不决。后至元六年，徙居高丽大青岛，再迁广西静江。十一年，文宗后召之还，至是即位于上都，改元元统。时相伯颜专政，擅爵赏、戮异己，帝恭默以听。数年而后，帝尽诛其党而亲政，改元至元、至正，用脱脱为相，更化改弦。然强藩起于江淮，群盗遍于河济，元之亡形已成；顺帝虽屡命将出师，而钞法已坏、河决不治，终无以善其后。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "顺帝本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shun-di",
+      "name": "妥懽帖睦尔",
+      "display": "元顺帝妥懽帖睦尔",
+      "birth": 1320,
+      "birthAccuracy": "exact",
+      "death": 1370,
+      "deathAccuracy": "exact",
+      "title": "元朝末帝",
+      "bio": "明宗子，即位初用脱脱更张弊政；后期怠荒，红巾遍起。1368 年明军克大都，北奔上都，元亡而北元继。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yan-tiemuer",
+      "name": "燕铁木儿",
+      "display": "燕铁木儿",
+      "birthAccuracy": "unknown",
+      "death": 1333,
+      "deathAccuracy": "exact",
+      "title": "两都之战的造立者",
+      "bio": "钦察氏。1328 年泰定帝崩，于大都拥图帖睦尔即位，破上都天顺帝之众，爵封答剌罕、权侔人主；1333 年卒，旋败。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

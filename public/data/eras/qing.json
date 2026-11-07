@@ -1,0 +1,483 @@
+{
+  "id": "qing",
+  "name": "清",
+  "from": 1644,
+  "to": 1912,
+  "contractVersion": 1,
+  "group": "ming-qing",
+  "personCount": 282,
+  "eventCount": 56,
+  "founderRecords": [],
+  "topics": [
+    "qing"
+  ],
+  "people": [
+    {
+      "id": "nu-er-ha-chi",
+      "name": "努尔哈赤",
+      "display": "努尔哈赤",
+      "birth": 1559,
+      "birthAccuracy": "exact",
+      "death": 1626,
+      "deathAccuracy": "exact",
+      "title": "后金大汗",
+      "bio": "建州女真酋长，统一诸部，1616 年建后金称汗，创八旗、定满文，奠定清之基。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hong-taiji",
+      "name": "皇太极",
+      "display": "皇太极",
+      "birth": 1592,
+      "birthAccuracy": "exact",
+      "death": 1643,
+      "deathAccuracy": "exact",
+      "title": "改国号为清",
+      "bio": "努尔哈赤第八子，继位后改族名满洲、国号大清，称帝南略，收服漠南蒙古。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fu-lin",
+      "name": "福临",
+      "display": "顺治",
+      "birth": 1638,
+      "birthAccuracy": "exact",
+      "death": 1661,
+      "deathAccuracy": "exact",
+      "title": "入关第一帝",
+      "bio": "皇太极第九子，幼龄即位，多尔衮摄政；清军入关后定鼎北京，为入关首帝。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "kang-xi",
+      "name": "玄烨",
+      "display": "康熙",
+      "birth": 1654,
+      "birthAccuracy": "exact",
+      "death": 1722,
+      "deathAccuracy": "exact",
+      "title": "康乾盛世之始",
+      "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yong-zheng",
+      "name": "胤禛",
+      "display": "雍正",
+      "birth": 1678,
+      "birthAccuracy": "exact",
+      "death": 1735,
+      "deathAccuracy": "exact",
+      "title": "肃政集权",
+      "bio": "康熙第四子，即位后行摊丁入亩、设军机处、清查亏空，承前启后。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "qian-long",
+      "name": "弘历",
+      "display": "乾隆",
+      "birth": 1711,
+      "birthAccuracy": "exact",
+      "death": 1799,
+      "deathAccuracy": "exact",
+      "title": "十全武功",
+      "bio": "雍正第四子，在位六十年，自称十全老人；武功极盛而晚年宠和珅，盛世转衰。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "mingqing-zhanzheng",
+      "name": "明清战争",
+      "display": "明清战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1618,
+      "yearAccuracy": "exact",
+      "yearNote": "天命三年二月下抚顺起，到康熙元年永历帝死止。",
+      "endYear": 1662,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "ming",
+        "qing"
+      ],
+      "commanders": [
+        {
+          "id": "nu-er-ha-chi",
+          "side": "qing"
+        }
+      ],
+      "result": "永历帝被杀，清史稿写明亡",
+      "aliases": [
+        "辽东战争"
+      ],
+      "dynasties": [
+        "ming",
+        "qing"
+      ],
+      "desc": "天命三年二月，努尔哈赤以七大恨告天伐明，下抚顺。战争收到康熙元年四月永历帝被绞，清史稿写明亡。终点不是郑成功取台湾。一六一六年至一六三六年国号仍是金，交战方沿用 qing。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷一",
+          "note": "天命三年二月以七大恨告天伐明，下抚顺",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷四百七十四",
+          "note": "康熙元年四月吴三桂绞杀朱由榔，明亡",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "mingmo-minbian",
+      "name": "明末民变",
+      "display": "明末民变",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1628,
+      "yearAccuracy": "exact",
+      "yearNote": "崇祯元年陕西流贼大起，顺治二年闰六月李自成自缢。",
+      "endYear": 1645,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "ming",
+        "minbian"
+      ],
+      "commanders": [
+        {
+          "id": "li-zicheng",
+          "side": "minbian"
+        },
+        {
+          "id": "zhang-xianzhong",
+          "side": "minbian"
+        }
+      ],
+      "result": "李自成自缢，清史稿写贼党悉平",
+      "aliases": [
+        "流贼",
+        "李自成起兵"
+      ],
+      "dynasties": [
+        "ming",
+        "qing"
+      ],
+      "desc": "崇祯元年，陕西流贼大起，分掠鄜州、延安。顺治二年闰六月甲申，李自成窜九宫山自缢，清史稿写贼党悉平。本条收到李自成之死，清军入关不并入这场战争。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "卷二十三",
+          "note": "崇祯元年陕西流贼大起，分掠鄜州、延安",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷四",
+          "note": "顺治二年闰六月甲申李自成窜九宫山自缢，贼党悉平",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jiashen-zhibian",
+      "name": "甲申之变",
+      "display": "甲申之变",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1644,
+      "yearAccuracy": "exact",
+      "yearNote": "崇祯十七年三月丁未。",
+      "place": "北京",
+      "belligerents": [
+        "ming",
+        "minbian"
+      ],
+      "commanders": [
+        {
+          "id": "li-zicheng",
+          "side": "minbian"
+        },
+        {
+          "id": "zhu-youjian",
+          "side": "ming"
+        }
+      ],
+      "result": "崇祯死于万岁山，北京的明朝朝廷结束",
+      "parent": "mingmo-minbian",
+      "aliases": [
+        "甲申",
+        "崇祯殉国"
+      ],
+      "dynasties": [
+        "ming",
+        "qing"
+      ],
+      "desc": "崇祯十七年三月丁未，李自成陷北京内城，崇祯帝崩于万岁山，明史写明亡。清史稿记顺治元年三月流贼陷燕京，明帝自经。清军入关另条，不并入。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "卷二十四",
+          "note": "崇祯十七年三月丁未帝崩于万岁山，明亡",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷四",
+          "note": "顺治元年三月李自成陷燕京，明帝自经",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "shanhaiguan-zhizhan",
+      "name": "山海关之战",
+      "display": "山海关之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1644,
+      "yearAccuracy": "exact",
+      "yearNote": "顺治元年四月己卯。",
+      "place": "山海关",
+      "belligerents": [
+        "qing",
+        "minbian"
+      ],
+      "commanders": [
+        {
+          "id": "li-zicheng",
+          "side": "minbian"
+        }
+      ],
+      "result": "大顺军溃，李自成弃北京西走",
+      "parent": "mingqing-zhanzheng",
+      "aliases": [
+        "清军入关",
+        "一片石"
+      ],
+      "dynasties": [
+        "ming",
+        "qing"
+      ],
+      "desc": "顺治元年四月己卯，清军至山海关，大顺军二十余万溃，乙酉李自成弃燕京西走。明史记是年夏四月大清兵破贼于山海关。交战双方是清与大顺，不把明朝加成第三方。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷四",
+          "note": "顺治元年四月己卯师至山海关，大顺军大溃，乙酉李自成弃燕京西走",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "卷二十四",
+          "note": "崇祯十七年夏四月大清兵破贼于山海关",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yongli-zhongjie",
+      "name": "永历政权终结",
+      "display": "永历政权终结",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 1662,
+      "yearAccuracy": "exact",
+      "yearNote": "顺治十八年十二月执献，康熙元年四月被杀。卷6把十二月记在康熙元年标题之前。两事的公历都在 1662。不用 1661。",
+      "place": "缅甸",
+      "belligerents": [
+        "ming",
+        "qing"
+      ],
+      "commanders": [
+        {
+          "id": "wu-sangui",
+          "side": "qing"
+        }
+      ],
+      "result": "永历帝被绞杀，清史稿写明亡",
+      "parent": "mingqing-zhanzheng",
+      "aliases": [
+        "永历之死"
+      ],
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "顺治十八年十二月，吴三桂军入缅，缅人执永历帝朱由榔以献。康熙元年四月，吴三桂以弓弦绞杀由榔及其子，清史稿写明亡。绞杀句没有地点，摘录也不写昆明或云南，本条不作会战，地点只记执献所在的缅甸。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷六",
+          "note": "顺治十八年十二月吴三桂军入缅，缅人执朱由榔以献",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷四百七十四",
+          "note": "十二月缅甸执送军前。康熙元年四月弓弦绞杀，明亡。绞杀句没有地点",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "sanfan-zhiluan",
+      "name": "三藩之乱",
+      "display": "三藩之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 1673,
+      "yearAccuracy": "exact",
+      "yearNote": "康熙十二年十二月吴三桂反。",
+      "endYear": 1681,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "qing"
+      ],
+      "people": [
+        "wu-sangui",
+        "kang-xi",
+        "geng-jing-zhong",
+        "shang-kexi",
+        "shang-zhi-xin",
+        "wu-shifan"
+      ],
+      "result": "吴三桂反，康熙二十年云南平",
+      "aliases": [
+        "撤藩"
+      ],
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "康熙十二年耿精忠疏请撤藩，十二月吴三桂反，杀云南巡抚朱国治。尚可喜、尚之信和耿精忠都卷进这场藩镇叛乱。康熙二十年吴世璠自杀，余党降，云南平，南方藩镇至此结束。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷六",
+          "note": "吳三桂反，殺雲南巡撫朱國治",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷六",
+          "note": "耿精忠疏請撤籓",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷六",
+          "note": "吳世璠自殺，傳首，吳三桂析骸，示中外，誅偽相方光琛，餘黨降，雲南平",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

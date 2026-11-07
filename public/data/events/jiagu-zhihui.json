@@ -1,0 +1,113 @@
+{
+  "id": "jiagu-zhihui",
+  "name": "夹谷之会",
+  "display": "夹谷之会",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -500,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·定公十年》「公会齐侯于夹谷」；定公十年即公元前500年，孔子为相礼。",
+  "place": "夹谷",
+  "placeNow": "今山东莱芜境，一说河南",
+  "polity": [
+    "lu",
+    "qi"
+  ],
+  "people": [
+    "kong-zi",
+    "lu-dinggong",
+    "qi-chunqiu-jinggong"
+  ],
+  "result": "孔子赞礼却莱兵，齐归鲁汶阳之田，鲁之分乃正",
+  "aliases": [
+    "夹谷之会"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "齐景公与鲁定公会于夹谷，孔子为大行，为相礼。齐人奏四方之乐，鼓噪而前，欲以兵劫鲁侯；孔子历阶而进，责以两君合好而夷乐何为，齐侯乃止。又奏宫中之乐，优人侏儒戏于公前，孔子曰匹夫荧惑诸侯者罪当诛，遂斩之。齐侯惧，既盟而归鲁之郓、讙、龟阴之田。《春秋》书「公会齐侯于夹谷」，鲁以弱而得伸，孔子之力为多。",
+  "sources": [
+    {
+      "work": "左传",
+      "part": "定公十年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "孔子世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "kong-zi",
+      "name": "孔丘",
+      "display": "孔子",
+      "birth": -551,
+      "birthAccuracy": "disputed",
+      "death": -479,
+      "deathAccuracy": "exact",
+      "birthNote": "生年取《史记》前 551 年说",
+      "title": "儒家创始人",
+      "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+      "tags": [
+        "儒家",
+        "六经",
+        "论语"
+      ],
+      "categories": [
+        "scholar-official",
+        "confucian"
+      ],
+      "lane": ""
+    },
+    {
+      "id": "lu-dinggong",
+      "name": "姬宋",
+      "display": "鲁定公",
+      "birthAccuracy": "unknown",
+      "death": -495,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·鲁周公世家「十五年，定公卒，子將立，是爲哀公」。定公元年前509，十五年得前495。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "qi-chunqiu-jinggong",
+      "name": "姜杵臼",
+      "display": "齐景公",
+      "birthAccuracy": "unknown",
+      "death": -490,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·齐太公世家「五十八年夏，景公夫人燕姬适子死」记在位五十八年。据其即位于庄公（前548）卒后一年，得前547，五十八年推得前490。",
+      "title": "在位五十八年，史墨断其必亡",
+      "bio": "庄公异母弟。崔杼立之，以崔杼为右相、庆封为左相。庆封以酒醋鱼黍罚为，崔杼与庆封相恶，庆封奔卫。景公问于史墨，曰「其亡乎」，对曰「亡。公室益卑，公及大夫皆富」。田乞亦始大。",
+      "tags": [
+        "崔杼庆封之祸",
+        "史墨论亡",
+        "田乞秉政"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

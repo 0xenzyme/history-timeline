@@ -1,0 +1,69 @@
+{
+  "id": "zhudi-zhi-luan",
+  "name": "诸弟之乱",
+  "display": "诸弟之乱",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 911,
+  "yearAccuracy": "exact",
+  "yearNote": "辽史太祖本纪系太祖五年（911）剌葛等首谋，七年（913）次第伏诛；通鉴系贞明元年至二年。",
+  "endYear": 913,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "liao"
+  ],
+  "people": [
+    "yelv-abaoji"
+  ],
+  "result": "剌葛、迭剌等次第被诛，汗位定于阿保机一系，契丹部落世选之制自此废",
+  "tags": [
+    "civil-war",
+    "succession"
+  ],
+  "dynasties": [
+    "wudai"
+  ],
+  "desc": "太祖五年（911），剌葛、迭剌、寅底石、安瑞等诸弟连谋为变，期以兵攻行在；事泄，阿保机杖而赦之。明年，诸弟各具甲马为行帐，党与数千人北出，迭剌、安瑞先后降，剌葛西走。太祖七年（913）春，剌葛就擒，阿保机数其罪而诛之。契丹自遥辇氏以来，联盟之长由世选推立；经此数年之乱，汗位转入阿保机一系世继，部落旧制解体，为神册建国奠其基。",
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yelv-abaoji",
+      "name": "耶律阿保机",
+      "display": "辽太祖",
+      "birth": 872,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "契丹之君，并八部而建辽基",
+      "bio": "契丹迭剌部酋裔。唐末八部争立，阿保机并兼之，筑城置邑，用韩延徽、康默记辈正君臣、定耦耕，制契丹大字。东灭渤海，西服奚霫；与晋王李克用云州会盟约为兄弟，已而背盟取山北，与梁联好。天显元年建国号契丹，旋殂于扶余城。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "xuzhou-xiangwang",
+  "name": "徐州相王",
+  "display": "徐州相王",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -334,
+  "yearAccuracy": "exact",
+  "yearNote": "魏襄王元年（前334）与诸侯会徐州、相王（《史记·魏世家》「襄王元年，與諸侯會徐州，相王也。追尊父惠王爲王」）。齐方面《史记·田敬仲完世家》系于齐威王时互王。",
+  "polity": [
+    "wei-zhanguo",
+    "qi"
+  ],
+  "people": [
+    "wei-huiwang",
+    "tian-yinqi"
+  ],
+  "aliases": [
+    "魏齐徐州相王",
+    "互相承认为王"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "魏惠王与齐威王会于徐州，互相承认为王，《史记·魏世家》系于魏襄王元年（前334）「與諸侯會徐州，相王也」。中原大国称王自此始，周天子的「共主」名义被正式抛开。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷四十四·魏世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wei-huiwang",
+      "name": "梁惠王",
+      "display": "魏惠王",
+      "birthAccuracy": "unknown",
+      "death": -319,
+      "deathAccuracy": "disputed",
+      "deathNote": "卒年从竹书纪年作前319；史记魏世家在位三十六年与之不合。站点纪年（马陵前341、孟子见梁惠王前320）已从竹书，此条与之对齐，标disputed。",
+      "title": "魏王，迁大梁、问利于孟子",
+      "bio": "徙大梁、会诸侯，桂陵马陵两败于齐，徐州相王始称王。前320年孟子至大梁，\"王何必曰利\"是轴上唯一一场君臣对谈。他的条比商鞅长得多，变法席位上他是被教的一方。",
+      "tags": [
+        "魏国",
+        "大梁",
+        "仁义"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tian-yinqi",
+      "name": "田因齐",
+      "display": "齐威王",
+      "birthAccuracy": "unknown",
+      "death": -320,
+      "deathAccuracy": "exact",
+      "title": "田齐国君，稷下与桂陵、马陵",
+      "bio": "用邹忌、孙膑。桂陵、马陵败魏，齐最强。稷下学宫在他的条里铺开，孟子稍后才走进同一条齐国线。",
+      "tags": [
+        "齐国",
+        "稷下"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

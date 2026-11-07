@@ -1,0 +1,80 @@
+{
+  "id": "guo-pu",
+  "name": "郭璞",
+  "display": "郭璞",
+  "birth": 276,
+  "birthAccuracy": "approx",
+  "death": 324,
+  "deathAccuracy": "exact",
+  "birthNote": "太宁二年（324）被杀，时年四十九，虚岁上推生年。",
+  "title": "江东赋宗，筮王敦必败而被杀",
+  "bio": "字景纯，河东闻喜人。好经术，博学有高才，洞五行天文卜筮之术。避乱过江，注《尔雅》《方言》《山海经》，作《江赋》《游仙诗》。温峤、庾亮使筮王敦，曰大吉。敦将举兵使璞筮，曰无成，又问己寿，曰命尽今日日中，敦怒收璞，诣南冈斩之，时年四十九。",
+  "tags": [
+    "晋",
+    "东晋",
+    "文学",
+    "方术"
+  ],
+  "categories": [
+    "literature",
+    "fangshu"
+  ],
+  "primary": "literature",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "wen"
+    }
+  ],
+  "relations": [
+    {
+      "source": "guo-pu",
+      "target": "wang-dun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "筮敦必败，被收斩于南冈"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "guo-pu",
+      "target": "wen-qiao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "峤亮谋讨王敦，使璞筮之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郭璞",
+    "郭景纯"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "郭璞传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "明帝纪",
+      "kind": "classic"
+    }
+  ]
+}

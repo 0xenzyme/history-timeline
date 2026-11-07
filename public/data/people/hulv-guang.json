@@ -1,0 +1,61 @@
+{
+  "id": "hulv-guang",
+  "name": "斛律光",
+  "display": "斛律光",
+  "birth": 515,
+  "birthAccuracy": "exact",
+  "death": 572,
+  "deathAccuracy": "exact",
+  "title": "北齐左丞相，落雕都督，被谮族诛",
+  "bio": "朔州敕勒部人，斛律金之子。少工骑射，射一雕而落，号为落雕都督。为将三十年，与北周战未尝败，邙山、宜阳皆大破之。律令严而士卒争为致死。武平三年为祖珽所谮，召入凉风堂，刘桃枝自后扑杀之，年五十八，一门皆死。后主既杀光，齐遂亡。",
+  "tags": [
+    "北朝",
+    "北齐"
+  ],
+  "categories": [
+    "official",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hulv-guang",
+      "target": "yuwen-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "用反间杀斛律光，周始无惧"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "斛律光",
+    "斛律明月",
+    "落雕都督"
+  ],
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "斛律金传",
+      "kind": "classic"
+    }
+  ]
+}

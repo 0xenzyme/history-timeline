@@ -1,0 +1,56 @@
+{
+  "id": "zhong-yun",
+  "name": "仲允",
+  "display": "仲允",
+  "birthAccuracy": "unknown",
+  "death": -773,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《十月之交》「仲允膳夫」，取幽王五年为可见下限。",
+  "title": "《十月之交》仲允膳夫",
+  "bio": "诗「仲允膳夫」。仅见官名。",
+  "tags": [
+    "十月之交"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "zhong-yun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》仲允膳夫"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "仲允"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "小雅·十月之交",
+      "kind": "classic"
+    }
+  ]
+}

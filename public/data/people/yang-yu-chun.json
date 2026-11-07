@@ -1,0 +1,62 @@
+{
+  "id": "yang-yu-chun",
+  "name": "杨遇春",
+  "display": "杨遇春",
+  "birth": 1760,
+  "birthAccuracy": "approx",
+  "death": 1837,
+  "deathAccuracy": "exact",
+  "birthNote": "清史稿·卷347·杨遇春传：仁宗手诏「朕与卿同岁」；卷16·仁宗本纪仁宗乾隆二十五年（1760）生，据同岁推其约生于1760年。",
+  "deathNote": "清史稿·卷347·杨遇春传：道光十七年（1837）卒于家，赠太子太傅、兵部尚书，谥忠武。",
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-qing",
+      "target": "yang-yu-chun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平川楚白莲教、定回疆，提督起家至陕甘总督"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhanggeer-zhiluan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "时斋",
+    "忠武"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷347·杨遇春传",
+      "kind": "classic"
+    }
+  ]
+}

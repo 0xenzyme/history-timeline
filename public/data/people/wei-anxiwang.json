@@ -1,0 +1,95 @@
+{
+  "id": "wei-anxiwang",
+  "name": "魏安釐王",
+  "display": "魏安釐王",
+  "birthAccuracy": "unknown",
+  "death": -243,
+  "deathAccuracy": "exact",
+  "deathNote": "魏世家：安釐王三十四年信陵君卒，王亦卒；由景湣王元年（前242，秦初置东郡）逆系为前243。与落库记录中信陵君条同推。",
+  "title": "魏王，窃符之后的猜忌",
+  "bio": "信陵君窃符救赵后忌之，不能复用；三十四年公子与王相继而卒。次年秦置东郡，魏只剩大梁以东。他的条与信陵君同年截断，是读魏国衰亡的对照。",
+  "tags": [
+    "魏国",
+    "信陵君"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "wei-zhanguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-anxiwang",
+      "target": "wei-zhaowang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭王卒，安釐王嗣——不能专信信陵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-anxiwang",
+      "target": "wei-jinminwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "安釐三十四年公子与王相继而卒，景湣王嗣之"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-anxiwang",
+      "target": "wei-wuji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "信陵君，安釐王庶弟也；窃符解邯郸之围，王忌之不能用"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xinlingjun-hezong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "安釐王",
+    "安僖王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "魏世家",
+      "kind": "classic"
+    }
+  ]
+}

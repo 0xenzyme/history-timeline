@@ -1,0 +1,89 @@
+{
+  "id": "han-jinghou",
+  "name": "韩景侯",
+  "display": "韩景侯",
+  "birthAccuracy": "unknown",
+  "death": -400,
+  "deathAccuracy": "approx",
+  "deathNote": "韩世家传年与六国年表出入，由景侯纪元逆推，约前400年卒，记approx。",
+  "title": "韩侯，三家受命之一",
+  "bio": "前403与魏文侯、赵烈侯同受周威烈王命为诸侯。韩地狭，介在秦魏楚之间，七国最弱的一条——韩的君主列自此补全，才看得见它一年年缩到最后。",
+  "tags": [
+    "韩国",
+    "三家分晋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-weiliewang",
+      "target": "han-jinghou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -403,
+      "notes": [
+        "韩景侯与魏赵之君同年受命"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "jin-liegong",
+      "target": "han-jinghou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋烈公之世，晋祀仅存名号，韩赵魏分有其地"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "han-jinghou",
+      "target": "han-liehou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "景侯卒，列侯嗣；侠累堂上遇聂政即在其世"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sanjia-fenjin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "景侯（韩）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "韩世家",
+      "kind": "classic"
+    }
+  ]
+}

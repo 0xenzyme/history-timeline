@@ -1,0 +1,75 @@
+{
+  "id": "xiaowen-qiandu",
+  "name": "孝文帝迁都洛阳",
+  "display": "孝文帝迁都洛阳",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 493,
+  "yearAccuracy": "exact",
+  "yearNote": "太和十七年（493）以南伐为名定迁都之计，十八年（494）正式定都；禁胡服、断北语、改姓元等汉化诏令延续至 496 年。",
+  "place": "洛阳",
+  "placeNow": "今河南洛阳",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "yuan-hong"
+  ],
+  "result": "北魏都城由平城迁洛阳，汉化改革全面推行",
+  "aliases": [
+    "孝文汉化",
+    "孝文帝迁都洛阳",
+    "nb-hanhu"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "493 年（太和十七年）孝文帝借“南伐”率军三十万至洛阳，周巡故宫基址、咏黍离之诗，遂定迁都之计，群臣不敢复谏，次年正式定都。此后下诏禁胡服、断北语、改拓跋为元、定族姓，全面推行汉化。胡汉融合的制度性转折，深刻影响北朝乃至隋唐的制度地理。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "高祖纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "北史",
+      "part": "任城王澄传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuan-hong",
+      "name": "元宏",
+      "display": "孝文帝元宏",
+      "birth": 467,
+      "birthAccuracy": "exact",
+      "death": 499,
+      "deathAccuracy": "exact",
+      "title": "北魏孝文帝，改汉姓、迁洛阳",
+      "bio": "鲜卑拓跋部人，本姓拓跋，献文帝长子。太和十四年亲政，十七年以南伐为名迁都洛阳，禁胡语胡服，改拓跋为元，定姓族、通婚姻、改制度，鲜卑尽化于汉。又数亲征南齐，不得志而还。太和二十三年崩于谷塘原，年三十三，太子恪立。",
+      "tags": [
+        "北朝",
+        "北魏",
+        "汉化"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

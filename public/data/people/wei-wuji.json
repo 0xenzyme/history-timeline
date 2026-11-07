@@ -1,0 +1,90 @@
+{
+  "id": "wei-wuji",
+  "name": "魏无忌",
+  "display": "信陵君",
+  "birthAccuracy": "unknown",
+  "death": -243,
+  "deathAccuracy": "exact",
+  "deathNote": "魏世家：安釐王三十一年秦王政初立，三十四年安釐王卒，信陵君无忌卒。三十一年为前246年，三十四年即前243年。列传只说病酒而卒，年份取世家。",
+  "title": "窃符救赵",
+  "bio": "魏安釐王的异母弟，封信陵君。窃兵符、杀晋鄙，带魏军解开邯郸之围。安釐王三十四年病酒卒。",
+  "tags": [
+    "魏国",
+    "信陵君"
+  ],
+  "categories": [
+    "royal-kin",
+    "general"
+  ],
+  "polity": [
+    "wei-zhanguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-wuji",
+      "target": "zhao-sheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "信陵君窃符救赵，解开邯郸之围"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-anxiwang",
+      "target": "wei-wuji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "信陵君，安釐王庶弟也；窃符解邯郸之围，王忌之不能用"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xinlingjun-hezong",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "信陵君",
+    "魏无忌"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "魏世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "魏公子列传",
+      "kind": "classic"
+    }
+  ]
+}

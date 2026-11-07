@@ -1,0 +1,57 @@
+{
+  "id": "pei-zun-qing",
+  "name": "裴遵庆",
+  "display": "裴遵庆",
+  "birthAccuracy": "unknown",
+  "death": 775,
+  "deathAccuracy": "exact",
+  "title": "大历十年薨，年九十余",
+  "bio": "代宗朝同平章事。大历十年十月薨于位，年九十余。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu",
+      "target": "pei-zun-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，大历十年薨于位"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "裴遵庆"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "裴遵庆传",
+      "kind": "classic"
+    }
+  ]
+}

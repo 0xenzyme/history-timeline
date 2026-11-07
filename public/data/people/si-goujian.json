@@ -1,0 +1,145 @@
+{
+  "id": "si-goujian",
+  "name": "姒勾践",
+  "display": "越王勾践",
+  "birthAccuracy": "unknown",
+  "death": -465,
+  "deathAccuracy": "approx",
+  "deathNote": "《史记》未著绝对卒年，旧谱多系于句践三十三年、前 465 年。",
+  "title": "越王，灭吴",
+  "bio": "会稽之耻后，卧薪尝胆，用范蠡、文种。二十四年灭吴。他的条从夫差的阴影里穿出来，春秋的南线在此收束。",
+  "tags": [
+    "越国",
+    "灭吴"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "yue"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "south"
+    }
+  ],
+  "relations": [
+    {
+      "source": "si-goujian",
+      "target": "fan-li",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "会稽之计，灭吴后范蠡去越"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "si-goujian",
+      "target": "wen-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "守国之臣，灭吴后赐死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-guang",
+      "target": "si-goujian",
+      "type": "rival",
+      "directed": false,
+      "since": -496,
+      "notes": [
+        "檇李之战，阖闾伤卒"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-fucha",
+      "target": "si-goujian",
+      "type": "rival",
+      "directed": false,
+      "since": -494,
+      "notes": [
+        "夫椒、会稽到灭吴"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "si-goujian",
+      "target": "xi-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "越困于会稽，用范蠡之谋，得西施以献吴；吴王夫差嬖之，由是疏忠黩武，越以灭吴"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fujiao-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "lize-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "wuyue-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yue-mie-wu",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yue-xi-wu-482",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "zuili-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "越王勾践",
+    "句践"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "越王勾践世家",
+      "kind": "classic"
+    }
+  ]
+}

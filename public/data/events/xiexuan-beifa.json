@@ -1,0 +1,174 @@
+{
+  "id": "xiexuan-beifa",
+  "name": "谢玄北伐",
+  "display": "谢玄北伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 384,
+  "yearAccuracy": "exact",
+  "yearNote": "东晋太元九年（384）九月辛卯前锋都督谢玄攻苻坚兖州刺史张崇于鄄城克之（《晋书·孝武帝纪》），为淝水之后乘衅北伐之始。对手为崩解中的前秦（属十六国），belligerents 用 shiliuguo，desc 注明。中国纪年口径。",
+  "endYear": 386,
+  "endYearAccuracy": "exact",
+  "endYearNote": "太元十一年（386）春正月翟辽袭黎阳执太守滕恬之（《晋书·孝武帝纪》），谢玄传云'会翟辽据黎阳反……玄上疏送节，尽解所职'，诏令还镇淮阴，北伐中止。",
+  "place": "鄄城",
+  "placeNow": "今山东鄄城北一带",
+  "belligerents": [
+    "jin",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "xie-xuan",
+      "side": "jin"
+    },
+    {
+      "id": "murong-chui",
+      "side": "shiliuguo"
+    }
+  ],
+  "people": [
+    "xie-xuan",
+    "xie-an",
+    "liu-laozhi",
+    "murong-chui"
+  ],
+  "result": "兖、青、司、豫一度复入晋图；翟辽叛后北伐成果渐失",
+  "tags": [
+    "campaign",
+    "北伐"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "淝水之后谢安奏遣谢玄乘衅北伐：太元九年（384）取鄄城平兖州，十年降苻朗取青州、进据碻磝滑台，兖、青、司、豫复入晋图；期间刘牢之两败于慕容垂。太元十一年（386）翟辽叛据黎阳，谢玄解职还镇淮阴，北伐成果渐失。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷九",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷七十九",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xie-xuan",
+      "name": "谢玄",
+      "display": "谢玄",
+      "birth": 343,
+      "birthAccuracy": "exact",
+      "death": 388,
+      "deathAccuracy": "exact",
+      "title": "前将军，北府兵之帅，淝水前锋",
+      "bio": "陈郡阳夏人，谢安之侄。为兖州刺史，募京口劲勇，号北府兵，刘牢之、何谦皆其部。太元八年淝水之战为前锋，以八千破前秦十数万，风声鹤唳、草木皆兵。后乘胜北伐至邺，以叔父安卒、朝廷掣肘而还。太元十三年卒，年四十六。",
+      "tags": [
+        "东晋",
+        "淝水",
+        "北府兵"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xie-an",
+      "name": "谢安",
+      "display": "谢安",
+      "birth": 320,
+      "birthAccuracy": "exact",
+      "death": 385,
+      "deathAccuracy": "exact",
+      "title": "太保，围棋赌墅，淝水之主",
+      "bio": "陈郡阳夏人，少有重名，累辟不起，隐居东山，与王羲之、支遁游，年四十余始出。为宰相，以静镇之，桓温死而晋室安。太元八年苻坚南下，安以谢石、谢玄八万拒之，围棋赌墅以示不惊，既捷而过户限，不觉屐齿之折。太元十年卒，年六十六。",
+      "tags": [
+        "东晋",
+        "淝水",
+        "陈郡谢氏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-laozhi",
+      "name": "刘牢之",
+      "display": "刘牢之",
+      "birthAccuracy": "unknown",
+      "death": 402,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "deathNote": "传卒句无年号，通鉴卷一百一十二系元兴元年（402）北走新洲，「缢而死」。",
+      "title": "北府之将，一人三反而自缢",
+      "bio": "字道坚，彭城人，世以将显。沉毅多计划。北府兵之勇将，洛涧之役以五千人斩梁成，破苻坚先锋。讨孙恩、倒王恭、应桓玄，一人三反，参军刘袭曰事不可者莫大于反。元兴元年玄夺其兵，欲北据广陵，部曲散走，以为事泄，至新洲自缢而死，玄犹斫棺斩首暴尸于市。",
+      "tags": [
+        "晋",
+        "东晋",
+        "北府兵"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "murong-chui",
+      "name": "慕容垂",
+      "display": "慕容垂",
+      "birth": 326,
+      "birthAccuracy": "exact",
+      "death": 396,
+      "deathAccuracy": "exact",
+      "title": "后燕之主，枋头却桓温，复国而卒于军",
+      "bio": "昌黎棘城鲜卑人，前燕慕容皝第五子。枋头之战大败桓温，威名振于南北。为慕容评所忌，奔秦依苻坚；淝水败后复国，称燕王于中山。建兴十年伐魏，过参合陂见积骸如山，惭愤呕血，卒于上谷，年七十一。后燕随之一蹶不振。",
+      "tags": [
+        "十六国",
+        "后燕",
+        "慕容"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

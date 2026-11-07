@@ -1,0 +1,98 @@
+{
+  "id": "bai-zhu",
+  "name": "拜住",
+  "display": "拜住",
+  "birth": 1298,
+  "birthAccuracy": "exact",
+  "death": 1323,
+  "deathAccuracy": "exact",
+  "title": "南坡同死之相",
+  "bio": "安童之孙，木华黎之后。英宗朝为中书右丞相，佐帝减赋役、起用老臣，新政方张；1323 年随帝南还，南坡之变与帝同被害，年二十五。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "an-tong",
+      "target": "bai-zhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，同出木华黎之家"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "ying-zong",
+      "target": "bai-zhu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为右丞相，佐行新政、起用老臣"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bai-zhu",
+      "target": "tie-mu-dieer",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "南坡之前，两人已同列相倾"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bai-zhu",
+      "target": "tie-shi",
+      "type": "rival",
+      "directed": false,
+      "since": 1323,
+      "notes": [
+        "同日被害于南坡"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "nanpo-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "拜住传",
+      "kind": "classic"
+    }
+  ]
+}

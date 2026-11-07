@@ -1,0 +1,464 @@
+{
+  "id": "three-kingdoms",
+  "name": "三国",
+  "from": 220,
+  "to": 280,
+  "contractVersion": 1,
+  "group": "weijin-nanbei",
+  "personCount": 188,
+  "eventCount": 27,
+  "founderRecords": [],
+  "topics": [
+    "sanguo"
+  ],
+  "people": [
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-pi",
+      "name": "曹丕",
+      "display": "魏文帝曹丕",
+      "birth": 187,
+      "birthAccuracy": "exact",
+      "death": 226,
+      "deathAccuracy": "exact",
+      "title": "魏文帝，受汉禅，立九品",
+      "bio": "曹操次子，与曹植争嗣而胜。延康元年受献帝禅，改元黄初，都洛阳。行九品官人之法，收宗室而抑宦官，在位七年而崩，年四十。好文学，著《典论》，建安文士多出其幕。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "poetry",
+        "literature"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-rui",
+      "name": "曹叡",
+      "display": "魏明帝曹叡",
+      "birth": 204,
+      "birthAccuracy": "exact",
+      "death": 239,
+      "deathAccuracy": "exact",
+      "title": "魏明帝，御蜀吴而大兴宫室",
+      "bio": "曹丕长子，母甄氏。在位十三年，诸葛亮五出祁山，使司马懿、曹真拒之；孙权数攻合肥、新城，皆不能入。后期大兴洛阳宫室，广采众女。景初三年崩，年三十六，托孤于司马懿，曹魏从此入司马氏之手。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-fang",
+      "name": "曹芳",
+      "display": "魏少帝曹芳",
+      "birth": 232,
+      "birthAccuracy": "exact",
+      "death": 274,
+      "deathAccuracy": "exact",
+      "title": "魏少帝，司马师废为齐王",
+      "bio": "明帝无子，养以为嗣，景初三年即帝位，年八岁，曹爽与司马懿辅政。嘉平六年司马师废帝为齐王，别立高贵乡公髦。晋受禅，封邵陵县公，泰始十年薨。",
+      "tags": [
+        "魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-mao",
+      "name": "曹髦",
+      "display": "高贵乡公曹髦",
+      "birth": 241,
+      "birthAccuracy": "exact",
+      "death": 260,
+      "deathAccuracy": "exact",
+      "title": "魏帝，不甘为傀儡而死于车下",
+      "bio": "曹丕孙，东海定王霖之子。司马师废曹芳后立之，年十四。在位而政在司马氏，甘露五年率殿中宿卫出攻司马昭，为贾充所使成济刺死于南阙。死后被废为庶人，高贵乡公之号仍存于史。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-huan",
+      "name": "曹奂",
+      "display": "魏元帝曹奂",
+      "birth": 246,
+      "birthAccuracy": "exact",
+      "death": 302,
+      "deathAccuracy": "exact",
+      "title": "魏元帝，禅晋后为陈留王",
+      "bio": "武帝之孙，燕王宇之子。甘露五年曹髦死，司马昭立常道乡公为帝。咸熙二年禅位于晋，封陈留王，太安元年薨。",
+      "tags": [
+        "魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "caowei-tuntian",
+      "name": "曹魏屯田制",
+      "display": "曹魏屯田制",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 196,
+      "yearAccuracy": "exact",
+      "yearNote": "始年：建安元年（196）曹操用枣祗、韩浩议始兴屯田，募民屯田许下（三国志·武帝纪、通鉴卷62）。",
+      "endYear": 264,
+      "endYearAccuracy": "approx",
+      "endYearNote": "终点以通鉴卷78魏咸熙元年（264）罢屯田官为制度终点；民屯裁撤为标志，军屯余绪另有演变，故 approx。",
+      "place": "许下",
+      "placeNow": "今河南许昌一带",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "cao-cao"
+      ],
+      "result": "许下当年得谷百万斛，州郡例置田官所在积谷，成为曹魏征伐四方的军粮基础",
+      "aliases": [
+        "屯田制",
+        "许下屯田",
+        "民屯"
+      ],
+      "dynasties": [
+        "eastern-han",
+        "three-kingdoms"
+      ],
+      "desc": "196 年曹操用羽林监枣祗、护军韩浩之议始兴屯田，以祗为屯田都尉、任峻为典农中郎将，募民屯田许下，当年得谷百万斛。州郡例置田官、所在积谷，军国之饶起于枣祗而成于任峻。264 年魏罢屯田官，民屯首尾近七十年，为曹魏征伐四方的军粮基础。",
+      "sources": [
+        {
+          "work": "三国志",
+          "part": "魏书·武帝纪",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷六十二、卷七十八",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "caopi-shou-chan",
+      "name": "曹丕受禅代汉",
+      "display": "曹丕受禅代汉",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 220,
+      "yearAccuracy": "exact",
+      "polity": [
+        "wei"
+      ],
+      "people": [
+        "cao-pi",
+        "liu-xie-xiandi",
+        "cao-cao"
+      ],
+      "result": "曹丕接受汉献帝禅让，魏代汉，东汉政权终结",
+      "dynasties": [
+        "eastern-han",
+        "three-kingdoms"
+      ],
+      "desc": "220年，汉献帝逊位，曹丕受禅称帝，改国号魏。自刘秀称帝以来延续近两百年的东汉政权至此结束。",
+      "sources": [
+        {
+          "work": "三国志",
+          "part": "魏书·文帝纪",
+          "kind": "classic"
+        },
+        {
+          "work": "后汉书",
+          "part": "献帝纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jiupin-zhongzheng",
+      "name": "九品中正制确立",
+      "display": "九品中正制确立",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 220,
+      "yearAccuracy": "exact",
+      "yearNote": "延康元年（220），曹丕即魏王位。《三国志·魏书·陈群传》「及即王位，封群昌武亭侯，徙为尚书。制九品官人之法，群所建也」；《资治通鉴》卷69延康元年「尚书陈群，以天朝选用不尽人才，乃立九品官人之法；州郡皆置中正以定其选」。《宋书·恩幸传序》则称曹操时已「权立九品」，通典以后即以延康元年为定制之始，轴年从之。",
+      "polity": [
+        "wei"
+      ],
+      "people": [
+        "cao-pi",
+        "chen-qun"
+      ],
+      "result": "州郡皆置中正，区别人物第其高下为九品，吏部凭之以补授百官",
+      "aliases": [
+        "九品官人法",
+        "九品中正"
+      ],
+      "dynasties": [
+        "eastern-han",
+        "three-kingdoms"
+      ],
+      "desc": "汉末丧乱，乡里清议久而失真，吏部铨选又不能遍详天下之士。延康元年曹丕即王位，尚书陈群请立九品官人之法：州置大中正，郡置中正，皆取本士之人任朝廷官、德充才盛者为之，使之区别人物、第其高下为九品，有言行修著则升之，道义亏缺则降之，吏部凭其品第以补授百官。其初意在以乡里评议补察举与铨选之穷，非以门第取人。\n\n然行之既久，中正多非其人，品状但凭阀阅；刘毅所谓「上品无寒门，下品无势族」，遂成世族垄断仕途之制。自魏至晋莫之能改，南朝用人亦多沿其法；隋文帝以科目考试收选官之权于中央，此制始废，前后行三百余年。",
+      "sources": [
+        {
+          "work": "三国志",
+          "part": "卷022·陈群传",
+          "kind": "classic"
+        },
+        {
+          "work": "宋书",
+          "part": "卷094·恩幸传序",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷069",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "liubei-chengdi",
+      "name": "刘备称帝于成都",
+      "display": "刘备称帝于成都",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 221,
+      "yearAccuracy": "exact",
+      "place": "成都",
+      "placeNow": "今四川成都",
+      "polity": [
+        "shu"
+      ],
+      "people": [
+        "liu-bei",
+        "zhuge-liang",
+        "liu-shan"
+      ],
+      "result": "刘备即皇帝位，国号汉，改元章武，蜀汉政权正式建立",
+      "dynasties": [
+        "three-kingdoms"
+      ],
+      "desc": "221 年，曹丕代汉次年，刘备在成都即皇帝位，仍称国号汉（后世称蜀汉），改元章武，以诸葛亮为丞相、许靖为司徒，立刘禅为皇太子。刘备以汉室宗亲自居，使曹魏受禅所得的法统独占被打破，形成魏、汉并立的格局。此年与 220 年曹丕称帝、229 年孙权称帝相连，三国鼎立的法统序列至此完整。",
+      "sources": [
+        {
+          "work": "三国志",
+          "part": "蜀书·先主传",
+          "kind": "classic"
+        },
+        {
+          "work": "华阳国志",
+          "part": "刘先主志",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yiling-zhizhan",
+      "name": "夷陵之战",
+      "display": "夷陵之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 222,
+      "yearAccuracy": "exact",
+      "place": "夷陵",
+      "placeNow": "今湖北宜昌东，猇亭一带",
+      "belligerents": [
+        "shu",
+        "wu"
+      ],
+      "commanders": [
+        {
+          "id": "liu-bei",
+          "side": "shu"
+        },
+        {
+          "id": "lu-xun",
+          "side": "wu"
+        }
+      ],
+      "people": [
+        "zhu-ran",
+        "pan-zhang"
+      ],
+      "result": "陆逊火烧蜀军连营，刘备败退白帝城，蜀汉元气大损，转攻为守",
+      "dynasties": [
+        "three-kingdoms"
+      ],
+      "desc": "222 年刘备以复荆州、报关羽之仇为名东征，深入吴境五六百里，与吴军相持于夷陵、猇亭。陆逊坚壁不战，至夏暑蜀军舍船就步、连营依山，吴军顺风纵火，诸军俱进，蜀军土崩，将领死者甚众。刘备退保白帝城，次年病卒。此战终结蜀汉东出的可能，吴蜀旋即复盟，三方疆界此后长期稳定，蜀汉由此转入守势。",
+      "sources": [
+        {
+          "work": "三国志",
+          "part": "吴书·陆逊传",
+          "kind": "classic"
+        },
+        {
+          "work": "三国志",
+          "part": "蜀书·先主传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhuge-liang-beifa",
+      "name": "诸葛亮北伐",
+      "display": "诸葛亮北伐",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 228,
+      "yearAccuracy": "exact",
+      "yearNote": "227年《出师表》北驻汉中为备战预备，228年春首次出兵攻祁山为开战锚（三国志卷35「六年春，揚聲由斜谷道取郿」），终于234年八月亮卒五丈原（「其年八月，亮疾病，卒于軍」）。五次北伐：228春祁山（街亭）、228冬围陈仓、229取武都阴平、231再出祁山（卤城、木门）、234屯五丈原，desc 覆盖五次。演义「六出祁山」不可用。",
+      "endYear": 234,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "shu",
+        "wei"
+      ],
+      "commanders": [
+        {
+          "id": "zhuge-liang",
+          "side": "shu"
+        },
+        {
+          "id": "sima-yi",
+          "side": "wei"
+        },
+        {
+          "id": "cao-zhen",
+          "side": "wei"
+        },
+        {
+          "id": "zhang-he",
+          "side": "wei"
+        }
+      ],
+      "people": [
+        "zhuge-liang",
+        "cao-rui",
+        "sima-yi",
+        "zhang-he",
+        "zhao-yun",
+        "cao-zhen"
+      ],
+      "result": "五次北伐未定陇右关中，张郃追击死于木门；234年八月亮卒五丈原军中，蜀汉此后转攻为守",
+      "aliases": [
+        "诸葛亮五次北伐",
+        "武侯北伐"
+      ],
+      "dynasties": [
+        "three-kingdoms"
+      ],
+      "desc": "227 年诸葛亮上《出师表》、率诸军北驻汉中；228 年春扬声由斜谷取郿而身攻祁山，冬围陈仓，229 年取武都、阴平，231 年再出祁山与司马懿相持，张郃追击死于木门，234 年悉大众由斜谷出、屯五丈原。与魏相持百余日，是年八月亮疾病、卒于军。五次北伐（正史口径，演义「六出祁山」不可用）未定陇右关中，蜀汉自此转攻为守，魏蜀攻守格局定型。",
+      "sources": [
+        {
+          "work": "三国志",
+          "part": "蜀书·诸葛亮传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷七十一、卷七十二",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

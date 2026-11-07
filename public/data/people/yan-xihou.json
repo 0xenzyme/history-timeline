@@ -1,0 +1,68 @@
+{
+  "id": "yan-xihou",
+  "name": "燕釐侯",
+  "display": "燕釐侯",
+  "birthAccuracy": "unknown",
+  "death": -792,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：釐侯立当宣王初即位，三十六年卒。宣王元年取前 827 年，三十六年当 -792。",
+  "title": "燕釐侯",
+  "bio": "惠侯之子。立当宣王初即位，三十六年卒。",
+  "tags": [
+    "燕"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yan-huihou",
+      "target": "yan-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "yan-qinghou",
+      "target": "yan-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "燕釐侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

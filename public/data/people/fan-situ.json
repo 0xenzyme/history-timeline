@@ -1,0 +1,69 @@
+{
+  "id": "fan-situ",
+  "name": "番",
+  "display": "番司徒",
+  "birthAccuracy": "unknown",
+  "death": -773,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《十月之交》与皇父同列，竹书幽王五年皇父作都于向，取此年为可见下限。",
+  "title": "《十月之交》番司徒",
+  "bio": "诗「皇父卿士，番维司徒」。仅见官名，无行事。",
+  "tags": [
+    "十月之交"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "fan-situ",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》番维司徒"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "fan-situ",
+      "target": "huang-fu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "《十月之交》同列卿士"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "番",
+    "番司徒"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "小雅·十月之交",
+      "kind": "classic"
+    }
+  ]
+}

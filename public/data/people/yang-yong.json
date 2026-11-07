@@ -1,0 +1,81 @@
+{
+  "id": "yang-yong",
+  "name": "杨勇",
+  "display": "房陵王杨勇",
+  "birthAccuracy": "unknown",
+  "death": 604,
+  "deathAccuracy": "exact",
+  "title": "杨坚长子，太子而废，为杨广所杀",
+  "bio": "杨坚长子，开皇元年立为皇太子。性宽厚率意，颇好学，然多内宠，冬至百官朝之而不知节，独孤后与杨素因构之。开皇二十年废为庶人，囚于内史省。仁寿四年文帝崩，广秘不发丧，矫诏赐勇死，追封房陵王。隋之易储，此为其始。",
+  "tags": [
+    "隋",
+    "夺嫡"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，勇本为太子后废"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "夺嫡，广谮废勇"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。后意太子妃暴薨，讽文帝废勇"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "杨勇",
+    "杨睍地伐"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "文四子传",
+      "kind": "classic"
+    }
+  ]
+}

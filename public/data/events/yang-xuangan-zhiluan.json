@@ -1,0 +1,118 @@
+{
+  "id": "yang-xuangan-zhiluan",
+  "name": "杨玄感之乱",
+  "display": "杨玄感之乱",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 613,
+  "yearAccuracy": "exact",
+  "place": "黎阳",
+  "placeNow": "今河南浚县东北",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-xuan-gan",
+    "yang-guang",
+    "yu-wen-shu"
+  ],
+  "result": "杨玄感兵败被杀，统治集团公开发难自此人始",
+  "aliases": [
+    "杨玄感起兵",
+    "黎阳之变"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "大业九年（613）炀帝再征高句丽，礼部尚书杨玄感以督运粮草为名据黎阳举兵，从者日众，进围东都洛阳不下。炀帝回师，宇文述、屈突通等合击，玄感西走，败死于葭芦戍。起兵仅两月而败，却是关陇贵族集团公开发难之始，中原自此进入群雄竞起之局。屈突通暂无 canonical 人物条目。",
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "杨玄感传",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "炀帝纪下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-xuan-gan",
+      "name": "杨玄感",
+      "display": "杨玄感",
+      "birthAccuracy": "unknown",
+      "death": 613,
+      "deathAccuracy": "exact",
+      "title": "杨素之子，起兵黎阳，隋末首义",
+      "bio": "弘农华阴人，杨素长子，好读书，善骑射。大业九年炀帝再征高句丽，玄感督运于黎阳，遂举兵反，众至十余万，围东都。李密献上中下三策而不用其长，久攻不下，为宇文述、来护儿所败。奔葭芦戍，自知不免，令弟积善杀之。隋室自此瓦解。",
+      "tags": [
+        "隋末",
+        "首义"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "birth": 569,
+      "birthAccuracy": "exact",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-wen-shu",
+      "name": "宇文述",
+      "display": "宇文述",
+      "birthAccuracy": "unknown",
+      "death": 616,
+      "deathAccuracy": "exact",
+      "deathNote": "列传只书江都遇疾而薨。炀帝纪系于大业十二年十月。",
+      "title": "夺嫡主谋，辽东扶余道军将",
+      "bio": "代郡武川人。晋王有夺宗之志，述请先结杨素，废立之谋由此而成。征高丽为扶余道军将，萨水大溃。杨玄感西走，述破之于阌乡。大业十二年十月薨。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "gao-yang",
+  "name": "高洋",
+  "display": "文宣帝高洋",
+  "birth": 529,
+  "birthAccuracy": "approx",
+  "death": 559,
+  "deathAccuracy": "exact",
+  "birthNote": "天保十年崩，年三十一，上推生年。",
+  "title": "北齐文宣帝，受魏禅",
+  "bio": "高欢第二子，高澄同母弟。天保元年受东魏禅。在位后期酗酒肆杀。天保十年十月暴崩于晋阳宫，年三十一。",
+  "tags": [
+    "南北朝",
+    "北齐"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-huan",
+      "target": "gao-yang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。文宣为高祖第二子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yang",
+      "target": "yuan-shanjian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "天保元年孝静逊位，高洋受禅"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yang",
+      "target": "gao-yin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。废帝为文宣长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yan",
+      "target": "gao-yang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟。孝昭为文宣母弟"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yang",
+      "target": "wei-shou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天保二年诏撰魏史，收兼著作郎专其任，天保五年奏上《魏书》百三十卷"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beiqi-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "高洋",
+    "文宣帝"
+  ],
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "文宣纪",
+      "kind": "classic"
+    }
+  ]
+}

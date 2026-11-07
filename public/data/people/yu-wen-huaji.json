@@ -1,0 +1,88 @@
+{
+  "id": "yu-wen-huaji",
+  "name": "宇文化及",
+  "display": "宇文化及",
+  "birthAccuracy": "unknown",
+  "death": 619,
+  "deathAccuracy": "exact",
+  "title": "弑炀帝于江都，自立为许帝",
+  "bio": "代武川人，宇文述之子，性凶险，不循法度。大业十四年从驾江都，见天下已叛，遂与司马德戡等率骁果入宫，缢杀炀帝，并杀宗室、外戚。引众西归，与李密战于童山，粮尽北走，至魏县僭号许帝，明年为窦建德所擒，斩于河间，并其二子。",
+  "tags": [
+    "隋末",
+    "弑君"
+  ],
+  "categories": [
+    "warlord"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "mowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-huaji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宇文述之子化及领禁军，从幸江都"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "since": 618,
+      "notes": [
+        "江都兵变，缢杀炀帝"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yu-wen-shu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。述临终请炀帝哀怜化及"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiangdu-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "宇文化及"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "宇文化及传",
+      "kind": "classic"
+    }
+  ]
+}

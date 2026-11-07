@@ -1,0 +1,274 @@
+{
+  "id": "sima-yan",
+  "name": "司马炎",
+  "display": "晋武帝司马炎",
+  "birth": 236,
+  "birthAccuracy": "exact",
+  "death": 290,
+  "deathAccuracy": "exact",
+  "title": "晋武帝，受魏禅，灭吴一天下",
+  "bio": "司马昭长子。咸熙二年受魏禅，改元泰始，都洛阳。太康元年灭吴，三国归晋，天下户二百四十五万。罢州郡兵，大封宗室，晚年骄怠，贾后与外戚之祸伏于此。太熙元年崩，年五十五。",
+  "tags": [
+    "三国",
+    "西晋"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wei",
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "sima-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；司马炎为司马昭之子，咸熙二年代魏建晋"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "sima-zhong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，惠帝愚钝"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "yang-hu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "羊祜镇襄阳，画灭吴之策"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "wang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 280,
+      "notes": [
+        "命王濬楼船下益州"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "du-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 280,
+      "notes": [
+        "杜预统荆州兵，既醉且痴而平吴"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "yang-yan-jin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武帝皇后。泰始十年崩于明光殿，年三十七"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "jia-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "禅代谋主，定律令"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "pei-xiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "司空，定制图六体"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "yang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武帝遗诏太傅辅政，骏矫藏诏书独任威权"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "shi-bao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大司马都督扬州，镇抚淮南"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "wang-hun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "都督扬州，击破吴丞相张悌"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "shan-tao",
+      "target": "sima-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "司徒。论去州郡武备，帝称名言"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "sima-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同产弟。望重见忌，逼遣就国而薨"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "he-zeng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋初拜太尉、司徒，性奢豪，日食万钱"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "chen-qian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋初为大司马，与贾充等同佐命"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "xun-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋初领中书监，掌机密，修定律令、乐律"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "wei-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋初为司空，监军平蜀，后为贾后所杀"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jin-jian-guo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "taikang-zhizhi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马炎",
+    "司马安世",
+    "晋武帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

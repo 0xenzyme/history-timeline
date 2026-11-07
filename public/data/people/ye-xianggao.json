@@ -1,0 +1,92 @@
+{
+  "id": "ye-xianggao",
+  "name": "叶向高",
+  "display": "叶向高",
+  "birth": 1559,
+  "birthAccuracy": "exact",
+  "death": 1627,
+  "deathAccuracy": "exact",
+  "title": "万历末独相者",
+  "bio": "字进卿，福清人。万历末独相，请补阁臣、罢矿税而不得行; 天启初再起，与魏忠贤相持而罢。1627 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "falling"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "ye-xianggao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历末独相，请补阁臣而不得"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wei-zhongxian",
+      "target": "ye-xianggao",
+      "type": "rival",
+      "directed": false,
+      "since": 1624,
+      "notes": [
+        "拂忠贤之意而去位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ye-xianggao",
+      "target": "zhu-guozuo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为光宗即位后所起之旧臣，向高去而国祚继为首辅"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "he-zongyan",
+      "target": "ye-xianggao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "光宗即位同被召还，天启初共支撑门户"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "叶向高传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "su-jun",
+  "name": "苏峻",
+  "display": "苏峻",
+  "birthAccuracy": "unknown",
+  "death": 328,
+  "deathAccuracy": "exact",
+  "birthNote": "传无岁数，不编生年。",
+  "title": "流民帅之乱，陷京都而焚骨",
+  "bio": "字子高，长广掖人。永嘉之乱纠合数千家结垒自保，率众南渡，仕为兰陵相，转临淮内史。庾亮欲夺其兵，徵为大司农，峻不应命，遂与祖约举兵反。咸和三年二月攻陷京都，矫诏自为骠骑将军录尚书事，迁天子于石头。九月攻白石垒，轻骑出战坠马，彭世、李千投矛斩之，焚其骨，三军称万岁。",
+  "tags": [
+    "晋",
+    "东晋",
+    "叛乱"
+  ],
+  "categories": [
+    "rebel",
+    "warlord",
+    "general"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "su-jun",
+      "target": "yu-wenjun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "陷京都逼辱后宫，太后忧崩"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "su-jun",
+      "target": "yu-liang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "亮奔寻阳，召义军同讨峻"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "su-jun",
+      "target": "wen-qiao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "攻白石垒，轻骑出阵坠马被斩"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "su-jun",
+      "target": "tao-kan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "侃为盟主，率舟军四万屯蔡洲讨峻"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sujun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "苏峻",
+    "苏子高"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "苏峻传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "成帝纪",
+      "kind": "classic"
+    }
+  ]
+}

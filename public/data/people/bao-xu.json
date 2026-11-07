@@ -1,0 +1,64 @@
+{
+  "id": "bao-xu",
+  "name": "褒姁",
+  "display": "褒姁",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。国语记褒姁有狱、入女于王而生伯服，取镐京之年为可见下限。",
+  "title": "褒国之君，入女于王",
+  "bio": "国语：褒姁有狱，入女于王，王嬖是女至于为后而生伯服。史记只称褒人有罪。",
+  "tags": [
+    "褒"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bao-si",
+      "target": "bao-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "国语：褒姁有狱，入女于王，即褒姒"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "bao-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "褒人有狱，入女于王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "褒姁"
+  ],
+  "sources": [
+    {
+      "work": "国语",
+      "part": "郑语"
+    }
+  ]
+}

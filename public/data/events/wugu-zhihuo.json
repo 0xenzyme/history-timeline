@@ -1,0 +1,119 @@
+{
+  "id": "wugu-zhihuo",
+  "name": "巫蛊之祸",
+  "display": "巫蛊之祸",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -91,
+  "yearAccuracy": "exact",
+  "yearNote": "征和二年（前 91 年）秋七月掘蛊太子宫、太子与皇后谋起兵，本纪纪年直接可查。",
+  "place": "长安",
+  "placeNow": "今陕西西安",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "liu-che",
+    "liu-ju",
+    "wei-zifu"
+  ],
+  "result": "太子刘据兵败自杀，皇后卫子夫自杀，长安死者数万",
+  "aliases": [
+    "征和巫蛊"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "征和二年（前 91 年）秋七月，江充等掘蛊太子宫，太子刘据与皇后谋斩江充，与丞相刘屈氂大战长安，死者数万。八月辛亥，太子自杀于湖，皇后卫子夫自杀。此祸动摇武帝晚年政局，牵动其后托孤与政策转向的格局。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷六 武帝紀",
+      "kind": "classic"
+    },
+    {
+      "work": "漢書",
+      "part": "卷六三 武五子傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-ju",
+      "name": "刘据",
+      "display": "戾太子刘据",
+      "birthAccuracy": "unknown",
+      "death": -91,
+      "deathAccuracy": "exact",
+      "title": "戾太子，巫蛊之祸自经",
+      "bio": "武帝长子，母卫皇后子夫。征和二年巫蛊之祸起，江充穷治太子宫掘得桐木人，太子惧不能自明，矫节收捕江充，与丞相刘屈氂战长安中，兵败亡匿湖县，自经死。其孙病已后即位，是为宣帝。",
+      "tags": [
+        "巫蛊之祸",
+        "太子"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-zifu",
+      "name": "卫子夫",
+      "display": "孝武卫皇后",
+      "birthAccuracy": "unknown",
+      "death": -91,
+      "deathAccuracy": "exact",
+      "birthNote": "生年不详",
+      "title": "汉武帝第二任皇后",
+      "bio": "出身平阳侯府歌女，弟卫青、甥霍去病皆以军功显。巫蛊之祸中太子刘据起兵失败，她以皇后玺绶助子，事败自杀。",
+      "tags": [
+        "巫蛊之祸"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "female",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

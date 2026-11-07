@@ -1,0 +1,80 @@
+{
+  "id": "zhang-yichao-guifu-hexi",
+  "name": "张议潮归复河西",
+  "display": "归复河西",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 848,
+  "yearAccuracy": "exact",
+  "endYear": 851,
+  "endYearAccuracy": "exact",
+  "place": "沙州",
+  "placeNow": "今甘肃敦煌",
+  "belligerents": [
+    "tang",
+    "tubo"
+  ],
+  "commanders": [
+    {
+      "id": "zhang-yichao",
+      "side": "tang"
+    }
+  ],
+  "people": [
+    "zhang-yichao"
+  ],
+  "result": "河西十一州归唐，唐置归义军",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "大中二年至五年（848—851），沙州张议潮乘吐蕃内乱起兵，河西十一州渐次归唐；851 年唐置归义军，以张议潮为节度使。河西走廊自安史之乱陷入吐蕃百余年后再归唐廷，是晚唐罕见的疆域恢复。各州收复的具体年份以《通鉴》与两《唐书》互证为准，不在本实体中逐州列举。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "吐蕃传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百四十九",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-yichao",
+      "name": "张议潮",
+      "display": "张议潮",
+      "birth": 799,
+      "birthAccuracy": "approx",
+      "death": 872,
+      "deathAccuracy": "exact",
+      "birthNote": "生年旧说系于贞元十五年（799）",
+      "title": "归义军首任节度使，收复河西十一州",
+      "bio": "沙州敦煌人，世为沙州州将，敦煌右族。安史之乱后河西陷于吐蕃，议潮阴养士马，图复其土。大中二年，乘吐蕃内乱起兵，沙、瓜、伊、西、甘、肃、兰、鄯、河、岷、廓十一州次第归唐；五年，遣使奉十一州图籍入朝，宣宗置归义军，以议潮为节度使。晚岁入朝留长安，咸通十三年卒。",
+      "tags": [
+        "唐",
+        "归义军"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

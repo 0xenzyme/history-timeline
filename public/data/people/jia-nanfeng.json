@@ -1,0 +1,139 @@
+{
+  "id": "jia-nanfeng",
+  "name": "贾南风",
+  "display": "贾皇后贾南风",
+  "birth": 257,
+  "birthAccuracy": "exact",
+  "death": 300,
+  "deathAccuracy": "exact",
+  "title": "惠帝皇后，乱政十年，赐死于金墉",
+  "bio": "贾充之女，妒忌多权诈。元康元年诛杨骏、废太后，专朝政十年，用张华、裴頠而粗安。既而害太子遹，赵王伦遂以为名举兵，永康元年伦遣使赐金屑酒，死于金墉城。八王之乱由她这十年起。",
+  "tags": [
+    "西晋",
+    "八王之乱"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "primary": "consort",
+  "polity": [
+    "jin"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-zhong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，贾后专政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "zhang-hua",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚张华居中调护数年"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-chong",
+      "target": "jia-nanfeng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女，专权之根"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "yang-jun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元康元年矫诏夜讨骏，夷三族而夺政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "矫诏使玮杀亮瓘，事毕弃之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-yu-minhuai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "矫诏害庶人遹于许昌"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "jia-nanfeng",
+      "target": "sima-lun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "用孙秀谋废后杀之，寻篡位"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baxia-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "贾南风",
+    "贾后"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "后妃传·惠贾皇后",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "wang-dun",
+  "name": "王敦",
+  "display": "王敦",
+  "birth": 266,
+  "birthAccuracy": "exact",
+  "death": 324,
+  "deathAccuracy": "exact",
+  "title": "大将军，两举兵内向，死于军中",
+  "bio": "琅邪临沂人，王导从兄，尚武帝女襄城公主。永昌元年以诛刘隗为名举兵武昌，入石头城，杀戴渊、周顗，还屯武昌。太宁二年再反，明帝亲征，敦以兄含为元帅，兵败愤惋而死，年五十九，戮尸悬首。王氏自此退，庾、桓相继。",
+  "tags": [
+    "东晋",
+    "琅邪王氏"
+  ],
+  "categories": [
+    "regent",
+    "rebel",
+    "general"
+  ],
+  "primary": "regent",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-dao",
+      "target": "wang-dun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从兄弟，敦乱导稳"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "guo-pu",
+      "target": "wang-dun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "筮敦必败，被收斩于南冈"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wangdun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "王敦",
+    "王处仲"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "王敦传",
+      "kind": "classic"
+    }
+  ]
+}

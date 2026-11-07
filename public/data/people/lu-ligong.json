@@ -1,0 +1,58 @@
+{
+  "id": "lu-ligong",
+  "name": "鲁厉公",
+  "display": "鲁厉公",
+  "birthAccuracy": "unknown",
+  "death": -828,
+  "deathAccuracy": "exact",
+  "deathNote": "史记鲁周公世家系年下推，年表系公元前828年；生年无载。",
+  "title": "周之鲁君，周公之后",
+  "bio": "《史记·鲁周公世家》所记鲁君，伯禽之后。鲁自周公封于少皋之墟、伯禽实主其祀，代为望国，得用天子礼乐于曲阜。厉公之世，正当周室东迁、王室衰微，诸侯始渐自恣；其后三桓世执鲁政，而公室微。",
+  "tags": [
+    "西周",
+    "鲁",
+    "姬姓"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lu-ligong",
+      "target": "ji-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "鲁为周公之后，厉公之世周室中兴，鲁以望国从王事"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "鲁厉公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "鲁周公世家",
+      "kind": "classic"
+    }
+  ]
+}

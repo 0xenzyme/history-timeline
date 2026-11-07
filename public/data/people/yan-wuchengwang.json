@@ -1,0 +1,56 @@
+{
+  "id": "yan-wuchengwang",
+  "name": "燕武成王",
+  "display": "燕武成王",
+  "birthAccuracy": "unknown",
+  "death": -258,
+  "deathAccuracy": "exact",
+  "deathNote": "燕世家在位年与年表系定，前258年卒。",
+  "title": "燕王，复国之后",
+  "bio": "昭王之后长于安静，与齐赵未甚构兵——乐毅伐齐的仇，齐人后来报在燕孝之世。前258年卒；秦东并日急，燕对秦的最后一点主动，轮到太子丹。",
+  "tags": [
+    "燕国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yan-wuchengwang",
+      "target": "yan-xiaowang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武成王卒，王喜嗣——燕国最后一位有卒年可纪之君"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "武成王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

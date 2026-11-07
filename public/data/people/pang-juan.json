@@ -1,0 +1,73 @@
+{
+  "id": "pang-juan",
+  "name": "庞涓",
+  "display": "庞涓",
+  "birthAccuracy": "unknown",
+  "death": -341,
+  "deathAccuracy": "exact",
+  "title": "魏将，马陵之战死",
+  "bio": "与孙膑同学。相魏，忌孙膑而刖之。马陵中伏，自刭。敌对关系在轴上收成同一年的截断。",
+  "tags": [
+    "魏国",
+    "马陵"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "wei-zhanguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "pang-juan",
+      "target": "sun-bin",
+      "type": "rival",
+      "directed": false,
+      "since": -353,
+      "notes": [
+        "同学相忌，马陵庞涓死"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "guiling-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "maling-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "wei-ba-handan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孙子吴起列传",
+      "kind": "classic"
+    }
+  ]
+}

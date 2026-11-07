@@ -1,0 +1,157 @@
+{
+  "id": "sima-zhao",
+  "name": "司马昭",
+  "display": "司马昭",
+  "birth": 211,
+  "birthAccuracy": "exact",
+  "death": 265,
+  "deathAccuracy": "exact",
+  "title": "晋王，弑高贵乡公，灭蜀",
+  "bio": "司马懿次子。继兄专魏政，甘露五年曹髦率兵攻之，贾充使成济抽戈犯跸，髦崩于车下。景元四年遣钟会、邓艾伐蜀，刘禅出降，遂封晋王。咸熙二年薨，年五十五；子炎遂代魏。",
+  "tags": [
+    "三国",
+    "曹魏",
+    "司马氏"
+  ],
+  "categories": [
+    "regent",
+    "monarch",
+    "official",
+    "general"
+  ],
+  "primary": "regent",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "qunxiong"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-shi",
+      "target": "sima-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，相继执政"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-zhao",
+      "target": "cao-huan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "司马昭立常道乡公奂，炎受禅后奂为陈留王"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-zhao",
+      "target": "deng-ai",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 263,
+      "notes": [
+        "命艾伐蜀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-zhao",
+      "target": "zhong-hui",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 263,
+      "notes": [
+        "会统关中兵伐蜀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-zhao",
+      "target": "zhuge-dan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "魏征东将军，淮南举兵讨司马昭，败死"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-yan",
+      "target": "sima-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；司马炎为司马昭之子，咸熙二年代魏建晋"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huainan-sanpan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jin-jian-guo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "simazhao-shijun",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wei-mie-shu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhonghui-dengai-mieshu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马昭",
+    "司马子上",
+    "晋文帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "文帝纪",
+      "kind": "classic"
+    }
+  ]
+}

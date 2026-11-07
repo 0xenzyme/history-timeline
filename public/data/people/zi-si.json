@@ -1,0 +1,73 @@
+{
+  "id": "zi-si",
+  "name": "孔伋",
+  "display": "子思",
+  "birth": -483,
+  "birthAccuracy": "approx",
+  "death": -402,
+  "deathAccuracy": "approx",
+  "title": "孔子之孙，《中庸》传人",
+  "bio": "字子思。孟子一派尊他为曾子之后、孟子之前的枢纽；《中庸》旧题出其门。",
+  "tags": [
+    "中庸",
+    "述圣"
+  ],
+  "categories": [
+    "confucian"
+  ],
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "zi-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    },
+    {
+      "source": "zeng-zi",
+      "target": "zi-si",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "传统道统所记"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    },
+    {
+      "source": "zi-si",
+      "target": "meng-zi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孟子之学出子思之门"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孔子世家"
+    }
+  ]
+}

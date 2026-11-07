@@ -1,0 +1,148 @@
+{
+  "id": "baidi-tuogu",
+  "name": "白帝托孤",
+  "display": "白帝托孤",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 223,
+  "yearAccuracy": "exact",
+  "place": "白帝城",
+  "placeNow": "今重庆奉节东",
+  "polity": [
+    "shu"
+  ],
+  "people": [
+    "liu-bei",
+    "zhuge-liang",
+    "liu-shan",
+    "li-yan-shu"
+  ],
+  "result": "刘备病笃托后事于诸葛亮，刘禅即位，诸葛亮开府治事，蜀汉进入辅政时期",
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "章武三年（223）四月，刘备于白帝城永安宫病笃，召诸葛亮受托，属以后事，命刘禅事之如父，又以李严为中都护统内外军事。刘备旋卒，刘禅即位，改元建兴，诸葛亮封武乡侯、领益州牧，开府治事。此次托付确立了诸葛亮此后十二年主政蜀汉的合法地位，也是吴蜀复盟、南征与北伐连串国策的起点。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·先主传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "蜀书·诸葛亮传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "display": "汉昭烈帝刘备",
+      "birth": 161,
+      "birthAccuracy": "exact",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "蜀汉先主，织席贩履而起",
+      "bio": "涿郡涿人，中山靖王之后，少孤，与母贩履织席。起兵讨黄巾，历依公孙瓒、陶谦、曹操、袁绍、刘表，赤壁后据荆州，西取益州，遂有汉中。章武元年称帝，三年败于猇亭，崩于白帝城永安宫，年六十三。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "display": "诸葛亮",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "蜀汉丞相，隆中对，五出祁山",
+      "bio": "琅邪阳都人，早孤，随叔父玄避乱荆州，躬耕隆中。建安十二年三顾而出，遂定三分之策。受托辅政，南征四郡，五次北伐，制木牛流马，作八阵图。建兴十二年卒于五丈原军中，年五十四，谥忠武侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "chancellor",
+        "general",
+        "strategist"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-shan",
+      "name": "刘禅",
+      "display": "后主刘禅",
+      "birth": 207,
+      "birthAccuracy": "exact",
+      "death": 271,
+      "deathAccuracy": "exact",
+      "title": "蜀汉后主，出降而乐不思蜀",
+      "bio": "刘备长子，甘夫人之出。十七岁即位，事无大小皆决于亮；亮卒后蒋琬、费祎相继，晚年任黄皓。景耀六年邓艾至成都，出降，蜀汉亡，迁洛阳封安乐公。泰始七年卒，年六十五。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-yan-shu",
+      "name": "李严",
+      "display": "李严",
+      "birthAccuracy": "unknown",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "deathNote": "本传「闻诸葛亮卒，发病死」，承建兴十二年系年。",
+      "title": "蜀中都护，与诸葛亮并受托孤",
+      "bio": "南阳人，字正方。以才干见称，归刘备后守犍为；章武三年与诸葛亮并受遗诏辅后主，为中都护、统内外军事，留镇永安；建兴九年督运军粮误期，矫诏召亮还，坐废为民，徙梓潼郡；建兴十二年闻亮卒，发病死。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

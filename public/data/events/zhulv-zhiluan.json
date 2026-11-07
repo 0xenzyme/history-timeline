@@ -1,0 +1,140 @@
+{
+  "id": "zhulv-zhiluan",
+  "name": "诸吕之乱",
+  "display": "诸吕之乱",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -180,
+  "yearAccuracy": "exact",
+  "yearNote": "高后八年（前 180 年），周勃、陈平诛诸吕、废少帝，本纪纪年直接可查。",
+  "place": "长安",
+  "placeNow": "今陕西西安",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "zhou-bo",
+    "chen-ping",
+    "lv-chan",
+    "lv-lu"
+  ],
+  "result": "诸吕尽诛，少帝废，刘氏皇权复归",
+  "aliases": [
+    "诛诸吕"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "高后八年（前 180 年），吕后崩后，周勃、陈平与朱虚侯刘章等合谋诛灭诸吕，尽斩吕产、吕禄，废少帝，迎立代王刘恒即位，是为汉文帝。诛诸吕、废少帝、迎立文帝为连续一事，刘氏皇权由此复归。",
+  "sources": [
+    {
+      "work": "史記",
+      "part": "卷九 呂太后本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "漢書",
+      "part": "卷三 高后紀",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhou-bo",
+      "name": "周勃",
+      "display": "周勃",
+      "birthAccuracy": "unknown",
+      "death": -169,
+      "deathAccuracy": "exact",
+      "title": "汉太尉，诛诸吕，安刘氏",
+      "bio": "沛人，织薄曲为生，材官引强。从高祖定天下，封绛侯。吕后崩，与陈平谋，夺北军诛诸吕，迎立代王为文帝。厚重少文，然安刘氏者必勃。卒于前 169 年。",
+      "tags": [
+        "汉初",
+        "功臣",
+        "诛吕"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chen-ping",
+      "name": "陈平",
+      "display": "陈平",
+      "birthAccuracy": "unknown",
+      "death": -178,
+      "deathAccuracy": "exact",
+      "title": "汉丞相，六出奇计，安刘氏",
+      "bio": "阳武人，家贫好读书。归汉后六出奇计：反问范增、夜出女子解荥阳围、蹑足封韩信、伪游云梦。吕后时为右丞相，与周勃诛诸吕立文帝。卒于前 178 年。",
+      "tags": [
+        "汉初",
+        "丞相"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-chan",
+      "name": "吕产",
+      "display": "吕产",
+      "birthAccuracy": "unknown",
+      "death": -180,
+      "deathAccuracy": "exact",
+      "title": "吕后之侄，相国梁王，诸吕之乱首恶",
+      "bio": "吕后长兄吕泽之子，封梁王，高后末年为相国。吕后崩，与吕禄颛兵谋作乱，太尉周勃、丞相陈平定计，朱虚侯刘章率卒入未央宫击产，追杀之于郎中府吏舍厕中，诸吕由此族灭。",
+      "tags": [
+        "诸吕之乱",
+        "外戚专权"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lv-lu",
+      "name": "吕禄",
+      "display": "吕禄",
+      "birthAccuracy": "unknown",
+      "death": -180,
+      "deathAccuracy": "exact",
+      "title": "吕后之侄，赵王上将军，掌北军被诛",
+      "bio": "吕后次兄吕释之之子，封赵王，任上将军领北军。吕后崩，与吕产谋作乱，周勃使郦寄游说，禄信之，解将印以兵属太尉，北军皆左袒；既失兵柄，高后八年八月辛酉被杀，诸吕男女无少长皆斩。",
+      "tags": [
+        "诸吕之乱",
+        "外戚专权"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

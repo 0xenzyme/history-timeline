@@ -1,0 +1,104 @@
+{
+  "id": "qidan-mie-bohai",
+  "name": "契丹灭渤海",
+  "display": "契丹灭渤海",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 926,
+  "yearAccuracy": "exact",
+  "yearNote": "辽史太祖本纪系天显元年正月围忽汗城，二月渤海降，七月阿保机道卒；公历并在926。",
+  "place": "忽汗城",
+  "placeNow": "今黑龙江宁安",
+  "belligerents": [
+    "liao",
+    "bohai"
+  ],
+  "commanders": [
+    {
+      "id": "yelv-abaoji",
+      "side": "liao"
+    }
+  ],
+  "people": [
+    "yelv-deguang"
+  ],
+  "result": "渤海降，阿保机置东丹国；还次夫余，道卒，契丹转入德光之世。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "天显元年正月，耶律阿保机亲征渤海，围忽汗城，渤海王大諲譔降。阿保机以渤海地为东丹国，以太子倍王东丹。还军，七月卒于夫余。德光继立；同岁后唐庄宗死于兴教门之变，北疆与中原同时易主。",
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "后唐纪·天成元年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yelv-deguang",
+      "name": "耶律德光",
+      "display": "辽太宗",
+      "birth": 902,
+      "birthAccuracy": "exact",
+      "death": 947,
+      "deathAccuracy": "exact",
+      "title": "得燕云之君，卒于杀胡林",
+      "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-abaoji",
+      "name": "耶律阿保机",
+      "display": "辽太祖",
+      "birth": 872,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "契丹之君，并八部而建辽基",
+      "bio": "契丹迭剌部酋裔。唐末八部争立，阿保机并兼之，筑城置邑，用韩延徽、康默记辈正君臣、定耦耕，制契丹大字。东灭渤海，西服奚霫；与晋王李克用云州会盟约为兄弟，已而背盟取山北，与梁联好。天显元年建国号契丹，旋殂于扶余城。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

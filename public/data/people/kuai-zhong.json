@@ -1,0 +1,64 @@
+{
+  "id": "kuai-zhong",
+  "name": "郐仲",
+  "display": "郐仲",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见国语史伯论郐仲恃险，取镐京之年为可见下限。",
+  "title": "幽王时郐君",
+  "bio": "国语史伯：郐仲恃险。桓公后来取寄孥之地，即虢、郐。",
+  "tags": [
+    "郐"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-you",
+      "target": "kuai-zhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯劝寄孥于郐，郐仲恃险"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "kuai-zhong",
+      "target": "shi-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯论郐仲恃险"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郐仲"
+  ],
+  "sources": [
+    {
+      "work": "国语",
+      "part": "郑语"
+    }
+  ]
+}

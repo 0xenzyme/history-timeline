@@ -1,0 +1,71 @@
+{
+  "id": "houshu-jianli",
+  "name": "后蜀建立",
+  "display": "后蜀建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 934,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系后唐应顺元年孟知祥称帝，国号蜀。应顺元年公历934。",
+  "place": "成都",
+  "polity": [
+    "houshu"
+  ],
+  "people": [
+    "meng-zhixiang"
+  ],
+  "result": "孟知祥称帝于成都，国号蜀；两川复别为一国，史称后蜀。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "后唐应顺元年，孟知祥以有东西两川，即皇帝位于成都，国号蜀，史称后蜀。知祥为李克用侄女婿，郭崇韬平前蜀，留知祥为西川节度使以镇蜀。庄宗既没，知祥与东川董璋连兵拒命，已而并东川，两川复合为一。蜀承前蜀之俗，士大夫以文章相尚，《花间集》成于其时。传子孟昶，宋乾德中王全斌一军灭之。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后唐纪·应顺元年",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "后蜀",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "meng-zhixiang",
+      "name": "孟知祥",
+      "display": "后蜀高祖",
+      "birth": 874,
+      "birthAccuracy": "approx",
+      "death": 934,
+      "deathAccuracy": "exact",
+      "birthNote": "明德元年七月崩于成都，年六十一，上推生年。",
+      "title": "后蜀高祖，以留后而帝西川",
+      "bio": "邢州龙冈人，李克用之婿。庄宗灭蜀，以为西川行营招抚使，既入蜀，收用故将，恩威并行，渐成割据。同光之乱不复问中原，明宗不能制，累封蜀王。长兴末即皇帝位，未几而崩。",
+      "tags": [
+        "十国",
+        "后蜀"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

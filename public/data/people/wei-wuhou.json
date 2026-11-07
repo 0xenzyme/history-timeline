@@ -1,0 +1,80 @@
+{
+  "id": "wei-wuhou",
+  "name": "魏武侯",
+  "display": "魏武侯",
+  "birthAccuracy": "unknown",
+  "death": -370,
+  "deathAccuracy": "approx",
+  "deathNote": "武侯无卒句，据世家在位年与惠王纪元逆推，约前370年，记approx。",
+  "title": "魏侯，失吴起之世",
+  "bio": "文侯之子。武侯世吴起被疑去魏入楚，公叔为相而西河渐非魏有——文侯的气象在这一代开始漏。约前370年卒，其后惠王迁大梁。",
+  "tags": [
+    "魏国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "wei-zhanguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-wuhou",
+      "target": "wu-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武侯世公叔用事、以谗疑起——起去魏入楚，西河渐非魏有"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-wenhou",
+      "target": "wei-wuhou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "文侯卒，武侯嗣——西河之业在这一代漏掉"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-huiwang",
+      "target": "wei-wuhou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武侯卒，惠王嗣，迁大梁、徐州相王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "武侯（魏）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "魏世家",
+      "kind": "classic"
+    }
+  ]
+}

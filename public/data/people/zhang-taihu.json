@@ -1,0 +1,77 @@
+{
+  "id": "zhang-taihu",
+  "name": "张太后",
+  "display": "太皇太后张氏",
+  "birthAccuracy": "unknown",
+  "death": 1442,
+  "deathAccuracy": "exact",
+  "title": "仁宣之际的太皇太后",
+  "bio": "仁宗之妃、宣宗之母。英宗即位時以太皇太后同三杨听政，戒中官不得预政; 1442 年卒，此后王振始肆。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "ming"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhang-taihu",
+      "target": "zhu-gaochi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，宣宗之母"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhang-taihu",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，太后委政于三杨"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhang-taihu",
+      "target": "yang-pu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太后委政三杨，溥入阁最晚而居位最久"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "后妃传",
+      "kind": "classic"
+    }
+  ]
+}

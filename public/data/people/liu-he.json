@@ -1,0 +1,66 @@
+{
+  "id": "liu-he",
+  "name": "刘贺",
+  "display": "昌邑王刘贺",
+  "birth": -92,
+  "birthAccuracy": "exact",
+  "death": -59,
+  "deathAccuracy": "exact",
+  "title": "在位二十七日而废，后为海昏侯",
+  "bio": "昭帝崩，霍光立他，二十七日而废。帝位只是条上的一个点，人活到前 59 年。后为海昏侯。",
+  "tags": [
+    "汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huo-guang",
+      "target": "liu-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "霍光立昌邑王贺，二十七日而废"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huoguang-fei-changyiwang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘贺",
+    "昌邑王",
+    "海昏侯"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "武五子传",
+      "kind": "classic"
+    }
+  ]
+}

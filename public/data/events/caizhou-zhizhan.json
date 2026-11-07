@@ -1,0 +1,108 @@
+{
+  "id": "caizhou-zhizhan",
+  "name": "蔡州之战",
+  "display": "蔡州之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1234,
+  "yearAccuracy": "exact",
+  "yearNote": "孟珙以兵粮来助在金天兴二年十一月。城破在天兴三年正月。本条取城破年。",
+  "place": "蔡州",
+  "belligerents": [
+    "mongol",
+    "jin-chao"
+  ],
+  "commanders": [
+    {
+      "id": "wo-kuo-tai",
+      "side": "mongol"
+    }
+  ],
+  "people": [
+    "meng-gong"
+  ],
+  "result": "金亡",
+  "parent": "mengjin-zhanzheng",
+  "aliases": [
+    "金亡",
+    "蔡州破"
+  ],
+  "dynasties": [
+    "song",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "1233年冬，宋将孟珙以兵粮助蒙古军攻蔡。1234年正月，金哀宗传位于完颜承麟后自缢，城破，金朝灭亡。金亡之后，蒙古与南宋正面相接。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷二·太宗本纪",
+      "note": "六年正月金主传位于承麟后自经，城拔，金亡",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷十八·哀宗下",
+      "note": "宋将孟珙献粮助攻，哀宗传位后自缢于幽兰轩",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "meng-gong",
+      "name": "孟珙",
+      "display": "孟珙",
+      "birth": 1195,
+      "birthAccuracy": "exact",
+      "death": 1246,
+      "deathAccuracy": "exact",
+      "title": "联蒙灭金、独任京湖之防",
+      "bio": "孟宗政之孙。绍定六年会蒙灭金，蔡州城下受金主遗骨。金亡独任京湖、夔路之防，筑城屯田，号「藩篱三层」。淳祐六年九月卒，年五十二。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wo-kuo-tai",
+      "name": "窝阔台",
+      "display": "窝阔台",
+      "birth": 1186,
+      "birthAccuracy": "exact",
+      "death": 1241,
+      "deathAccuracy": "exact",
+      "title": "元太宗，1229—1241 年在位",
+      "bio": "成吉思汗第三子。太宗时联宋灭金、置站赤与燕京行省，定中原赋调，遣拔都等长子西征；1241 年冬卒于鈋铁钴胡兰山。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

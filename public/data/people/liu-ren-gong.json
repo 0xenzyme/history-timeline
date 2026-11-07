@@ -1,0 +1,78 @@
+{
+  "id": "liu-ren-gong",
+  "name": "刘仁恭",
+  "display": "刘仁恭",
+  "birthAccuracy": "unknown",
+  "death": 913,
+  "deathAccuracy": "approx",
+  "deathNote": "乾化三年晋兵克幽州被执，寻斩于代州雁门，卒年约在三年冬、四年正月初之间；生年无载。",
+  "title": "卢龙刘仁恭，借晋兵而有幽州",
+  "bio": "深州人，事范阳为牙将。唐末幽州兵乱，奔太原，借晋王兵取卢龙，遂背晋附梁。僭据一方，筑楼玉帐穷极奢丽，岁点民丁，自言\"居此地，食物足给\"；为子守光所囚，晋兵克幽州，执送太原斩之。",
+  "tags": [
+    "十国",
+    "燕"
+  ],
+  "categories": [
+    "warlord"
+  ],
+  "polity": [
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "shiguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-ren-gong",
+      "target": "liu-shou-guang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，守光囚父而僭燕"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "liu-ren-gong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "借晋兵而有卢龙，已而背之"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "houdang-mie-yan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "刘仁恭传",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "伪列传",
+      "kind": "classic"
+    }
+  ]
+}

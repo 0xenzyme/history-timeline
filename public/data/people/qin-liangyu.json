@@ -1,0 +1,68 @@
+{
+  "id": "qin-liangyu",
+  "name": "秦良玉",
+  "display": "秦良玉",
+  "birth": 1574,
+  "birthAccuracy": "exact",
+  "death": 1648,
+  "deathAccuracy": "exact",
+  "title": "白杆兵，一代女中丈夫",
+  "bio": "忠州人，石砫宣抚使马千乘之妻。夫死代领其众，率白杆兵平播、拒张献忠入蜀，封一品夫人; 1648 年卒，明代唯一的女总兵。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general",
+    "falling"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "qin-liangyu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "率白杆兵勤王，加封一品夫人"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "qin-liangyu",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "directed": false,
+      "since": 1640,
+      "notes": [
+        "守石砫而拒其一军不得入蜀"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "秦良玉传",
+      "kind": "classic"
+    }
+  ]
+}

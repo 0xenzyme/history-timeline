@@ -1,0 +1,68 @@
+{
+  "id": "chu-xuanwang",
+  "name": "楚宣王",
+  "display": "楚宣王",
+  "birthAccuracy": "unknown",
+  "death": -340,
+  "deathAccuracy": "exact",
+  "deathNote": "楚世家在位年与年表系定，前340年卒。",
+  "title": "楚王，威怀之父",
+  "bio": "宣王世楚仍为山东地最大之国，与齐威、魏惠并立。前340年卒——张仪欺楚、丹阳蓝田、怀王客死于秦，一连串灾祸都在他身后二三十年里。",
+  "tags": [
+    "楚国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chu-suwang",
+      "target": "chu-xuanwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "肃王卒，宣王嗣"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-weiwang",
+      "target": "chu-xuanwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣王卒，威王嗣，并越、徐州相王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "宣王（楚）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    }
+  ]
+}

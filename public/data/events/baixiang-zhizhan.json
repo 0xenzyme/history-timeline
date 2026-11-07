@@ -1,0 +1,102 @@
+{
+  "id": "baixiang-zhizhan",
+  "name": "柏乡之战",
+  "display": "柏乡之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 910,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系开平四年十一月，公历910年末。是岁李存勖尚为晋王，河东未国号唐，交兵之一方史称后唐前身。",
+  "place": "柏乡",
+  "placeNow": "今河北柏乡",
+  "belligerents": [
+    "hou-tang",
+    "hou-liang"
+  ],
+  "commanders": [
+    {
+      "id": "li-cunxu",
+      "side": "hou-tang"
+    },
+    {
+      "id": "zhou-dewei",
+      "side": "hou-tang"
+    }
+  ],
+  "result": "李存勖大破梁军王景仁于柏乡，辎重略尽；梁晋争衡之势自此而转。",
+  "parent": "liangjin-zhanzheng",
+  "dynasties": [
+    "wudai"
+  ],
+  "desc": "开平四年十一月，梁以王景仁、韩勍将兵渡河击晋，军于柏乡。李存勖陈于野河之北，周德威劝俟其饥疲，先以游兵绝梁军樵采。梁军嚣躁，存勖纵骑决战，梁师大溃，王景仁以数十骑遁，弃铠仗委积。存勖因其胜略地邢、洺。柏乡之胜为梁晋十余年交兵之转枢，存勖之业基于此。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后梁纪·开平四年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "庄宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "birth": 885,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhou-dewei",
+      "name": "周德威",
+      "display": "周德威",
+      "birthAccuracy": "unknown",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "柏乡却梁，多计持重",
+      "bio": "朔州马邑人，事晋王为骑将，沉勇多计。柏乡之战以逸待劳破梁将王景仁，数谏庄宗缓河北之师。将二十年燕地之谋，胡柳之败几危晋阳。同光四年镇州兵变中为乱军所害。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

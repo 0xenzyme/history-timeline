@@ -1,0 +1,37 @@
+{
+  "id": "wei-linggong",
+  "name": "姬元",
+  "display": "卫灵公",
+  "birthAccuracy": "unknown",
+  "death": -493,
+  "deathAccuracy": "exact",
+  "deathNote": "左传·哀公二年（前493）卫灵公卒；史记·卫康叔世家「夏，靈公卒」，此后立出公辄。襄公卒前535，灵公立前534，在位四十二年得前493。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "哀公二年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

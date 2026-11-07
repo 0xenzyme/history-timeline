@@ -1,0 +1,74 @@
+{
+  "id": "jimo-zhizhan",
+  "name": "即墨之战（田单复国）",
+  "display": "即墨之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -279,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷4赧王三十六年（前279）：田单纵反间使骑劫代乐毅，即墨火牛破燕、杀骑劫，复七十余城，迎襄王于莒入临淄；史记·田单列传系于燕惠王元年（前279）互证。",
+  "place": "即墨",
+  "placeNow": "即墨故城今山东省青岛市平度市东南（大泽山西侧故即墨城址）",
+  "belligerents": [
+    "qi",
+    "yan"
+  ],
+  "commanders": [
+    {
+      "id": "tian-dan",
+      "side": "qi"
+    }
+  ],
+  "result": "田单以火牛阵大破燕军，尽复齐七十余城，迎齐襄王入临淄",
+  "parent": "leyifa-qi",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "燕昭王卒、惠王立，田单纵反间言乐毅欲王齐，燕惠王使骑劫代将，乐毅奔赵。田单以即墨为据：扬神师、激士怒（燕人劓降卒、掘齐人塚墓）、诈降懈敌，夜凿城数十穴纵火牛千余（角缚兵刃、尾束灌脂苇草），壮士五千随其后，城中鼓噪击铜器，燕军大骇败走，齐人杀骑劫。乘胜追亡逐北，齐七十余城皆复，迎齐襄王入临淄，封田单安平君。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷八十二·田单列传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tian-dan",
+      "name": "田单",
+      "display": "田单",
+      "birthAccuracy": "unknown",
+      "death": -260,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。即墨复齐后为齐相，后又相赵，取长平前为活动下限。",
+      "title": "齐将，即墨复国",
+      "bio": "临淄人。乐毅破齐，他守即墨，火牛阵复七十城。燕昭王条一断，他的条才抬起来——同一场战争的两端。",
+      "tags": [
+        "齐国",
+        "即墨"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

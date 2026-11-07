@@ -1,0 +1,137 @@
+{
+  "id": "tie-mu-zhen-xi-zheng",
+  "name": "成吉思汗西征",
+  "display": "西征",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 1219,
+  "yearAccuracy": "exact",
+  "yearNote": "元史太祖本纪系十四年（1219）秋大会于也儿的石河，亲征花剌子模；二十一年（1225）东还。",
+  "endYear": 1225,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "mongol",
+    "huacimo"
+  ],
+  "commanders": [
+    {
+      "id": "tie-mu-zhen",
+      "side": "mongol"
+    },
+    {
+      "id": "tuo-lei",
+      "side": "mongol"
+    },
+    {
+      "id": "su-butai",
+      "side": "mongol"
+    }
+  ],
+  "result": "花剌子模亡，蒙古兵锋抵于里海、黑海之北，中亚易主",
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao",
+    "mongol"
+  ],
+  "desc": "十四年（1219）秋，成吉思汗大会诸将于也儿的石河，以花剌子模边将擅杀蒙古商使为词，亲征西讨。铁木真自讹答剌进兵，不花剌、撒马尔罕次第陷落，摩诃末西走，死于里海洲岛；拖雷蹂躏呼罗珊，哲别、速不台追札兰丁至印度河畔。二将于归途又败罗斯诸部于迦勒迦河（见本条之战）。二十一年（1225）春，铁木真东还。花剌子模亡，中亚城郭丘墟，蒙古于是与波斯、俄罗斯诸地相接，世界之局由此改观。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "世界征服者史",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "jialejiahe-zhizhan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tie-mu-zhen",
+      "name": "铁木真",
+      "display": "铁木真",
+      "birth": 1162,
+      "birthAccuracy": "exact",
+      "death": 1227,
+      "deathAccuracy": "exact",
+      "title": "成吉思汗，蒙古帝国的缔造者",
+      "bio": "孛儿只斤氏，统一漠北诸部，1206 年称成吉思汗，建大蒙古国；西征花剌子模，破西夏，覆金半壁。丁亥年七月卒于六盘山，后追尊为元太祖。",
+      "tags": [
+        "元",
+        "蒙古"
+      ],
+      "categories": [
+        "outsider",
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tuo-lei",
+      "name": "拖雷",
+      "display": "拖雷",
+      "birth": 1192,
+      "birthAccuracy": "exact",
+      "death": 1232,
+      "deathAccuracy": "exact",
+      "birthNote": "本传不载生年，依壬辰年薨时年四十上下推得。",
+      "title": "睿宗拖雷，成吉思汗幼子",
+      "bio": "成吉思汗幼子、守灶子，监国二年，握漠北精锐。四子蒙哥、忽必烈、旭烈兀、阿里不哥皆出一门，后世追尊睿宗。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "su-butai",
+      "name": "速不台",
+      "display": "速不台",
+      "birth": 1176,
+      "birthAccuracy": "exact",
+      "death": 1248,
+      "deathAccuracy": "exact",
+      "title": "四狗之一，追敌万里",
+      "bio": "兀良哈氏。从征西域诸部，逾太和岭破钦察、斡罗思；灭金之役为前锋，汴京之克由其断后。1248 年卒，年七十三。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

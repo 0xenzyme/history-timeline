@@ -1,0 +1,86 @@
+{
+  "id": "qin-qi-hudi",
+  "name": "秦齐互帝",
+  "display": "秦齐互帝",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": -288,
+  "yearAccuracy": "exact",
+  "yearNote": "周赧王二十七年（前288）冬十月秦昭王称西帝、遣魏冉立齐湣王为东帝；苏代劝齐去帝，齐称帝二日而复归，十二月秦亦去帝（《资治通鉴》卷四）。",
+  "polity": [
+    "qin"
+  ],
+  "people": [
+    "ying-ji",
+    "tian-di"
+  ],
+  "aliases": [
+    "秦昭王称西帝",
+    "齐湣王称东帝"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "前288年十月，秦昭王自称西帝，遣魏冉立齐湣王为东帝，约共伐赵。苏代劝齐「釋帝以收天下之望」，齐称帝二日而复归，十二月秦亦去帝。两帝并立迅速破产，旋即铺垫出五国伐齐的格局。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷四",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-ji",
+      "name": "嬴稷",
+      "display": "秦昭襄王",
+      "birthAccuracy": "unknown",
+      "death": -251,
+      "deathAccuracy": "exact",
+      "title": "秦王，在位五十六年，长平之主",
+      "bio": "用魏冉、范雎、白起。远交近攻，破长平、围邯郸、灭东周。战国后半他的条最长，六国的败象都画在这条下面。",
+      "tags": [
+        "秦国",
+        "长平"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tian-di",
+      "name": "田地",
+      "display": "齐湣王",
+      "birthAccuracy": "unknown",
+      "death": -284,
+      "deathAccuracy": "exact",
+      "title": "齐王，灭宋后五国伐齐",
+      "bio": "宣王之子。与秦争为东帝，灭宋而诸侯恐惧。燕、秦、韩、魏、赵五国伐齐，乐毅下七十余城，他死于莒。破齐与田单复国两条，都咬在齐国这条的终点上。",
+      "tags": [
+        "齐国",
+        "破齐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

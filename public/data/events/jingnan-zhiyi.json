@@ -1,0 +1,92 @@
+{
+  "id": "jingnan-zhiyi",
+  "name": "靖难之役",
+  "display": "靖难之役",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1399,
+  "yearAccuracy": "exact",
+  "yearNote": "建文元年七月举兵，建文四年六月金川门、即位。",
+  "endYear": 1402,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zhu-di",
+    "zhu-yunwen"
+  ],
+  "result": "燕王即皇帝位",
+  "aliases": [
+    "靖难"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "建文元年七月癸酉，燕王举兵，称其师曰靖难。建文四年六月乙丑金川门开，都城陷，己巳即皇帝位。双方都是明朝，皇统转到燕王一系。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷五",
+      "note": "建文元年七月举兵，称其师曰靖难。建文四年六月金川门开，己巳即皇帝位",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-di",
+      "name": "朱棣",
+      "display": "明成祖朱棣",
+      "birth": 1360,
+      "birthAccuracy": "exact",
+      "death": 1424,
+      "deathAccuracy": "exact",
+      "title": "永乐大帝，迁都北京",
+      "bio": "太祖第四子，封燕王。靖难之役入南京，即位后迁都北京、营紫禁城，遣郑和下西洋，修《永乐大典》，国势鼎盛。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-yunwen",
+      "name": "朱允炆",
+      "display": "明建文帝朱允炆",
+      "birth": 1377,
+      "birthAccuracy": "exact",
+      "death": 1402,
+      "deathAccuracy": "disputed",
+      "deathNote": "靖难四年宫中火起，不知所终。1402 是传统纪年的终点，不是确凿卒年。",
+      "title": "削藩引发靖难",
+      "bio": "太祖孙，懿文太子标之子。洪武三十一年嗣位，力行削藩；燕王棣起兵，靖难四年破南京，宫中火起，建文不知所终。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

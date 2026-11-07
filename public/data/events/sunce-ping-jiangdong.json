@@ -1,0 +1,181 @@
+{
+  "id": "sunce-ping-jiangdong",
+  "name": "孙策平定江东",
+  "display": "孙策平定江东",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 195,
+  "yearAccuracy": "exact",
+  "yearNote": "兴平二年（195）孙策渡江击刘繇，建安元年（196）克会稽，江东底定。",
+  "endYear": 196,
+  "endYearAccuracy": "exact",
+  "place": "江东",
+  "placeNow": "今长江下游南岸，苏南、皖南与浙北一带",
+  "belligerents": [
+    "wu",
+    "han"
+  ],
+  "commanders": [
+    {
+      "id": "sun-ce",
+      "side": "wu"
+    }
+  ],
+  "people": [
+    "zhou-yu",
+    "zhang-zhao",
+    "taishi-ci",
+    "sun-quan"
+  ],
+  "result": "孙策逐刘繇、降王朗、破严白虎，据有江东六郡，为孙吴立国奠基",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "195 年孙策以袁术所遣兵渡江，击走扬州刺史刘繇，收其部曲；次年东进会稽，太守王朗出降，又平严白虎等豪强，据有会稽、吴郡、丹阳、豫章诸郡。孙策以张昭、周瑜分掌文武，江东政权由此成型。此役是孙氏由袁术部曲转为独立势力的转折点，其弟孙权继之而开吴国。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·孙破虏讨逆传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "吴书·吴主传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhou-yu",
+      "name": "周瑜",
+      "display": "周瑜",
+      "birth": 175,
+      "birthAccuracy": "exact",
+      "death": 210,
+      "deathAccuracy": "exact",
+      "title": "偏将军，赤壁纵火，三十六而卒",
+      "bio": "庐江舒人，长壮有姿貌，与孙策同年，独相友善。策死，与张昭共掌众事。建安十三年曹操下荆州，瑜力主拒战，与刘备合兵，赤壁纵火，操军大溃。后进图益州，道卒巴丘，年三十六。江东之条以他为最亮的一段。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-zhao",
+      "name": "张昭",
+      "display": "张昭",
+      "birth": 156,
+      "birthAccuracy": "exact",
+      "death": 236,
+      "deathAccuracy": "exact",
+      "title": "辅吴将军，江东文臣之首",
+      "bio": "彭城人，少好学，博览众书。汉末避难江东，孙策以为长史、抚军中郎将，文武之事一以委之。策死，与周瑜共辅孙权。赤壁前主降，遂不得为相。性刚直，权尝以土塞其门，昭亦以土封其内。嘉禾五年卒，年八十一。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "official"
+      ],
+      "primary": "official",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "taishi-ci",
+      "name": "太史慈",
+      "display": "太史慈",
+      "birth": 166,
+      "birthAccuracy": "exact",
+      "death": 206,
+      "deathAccuracy": "exact",
+      "title": "建昌都尉，猿臂善射，北海突围",
+      "bio": "东莱黄人，少好学，为郡奏曹史。孔融被围都昌，慈突围求救于刘备，得精兵三千而围解。后归孙策，策曰「子义舍我，当复与谁」。建安十一年卒，年四十一，临死叹曰「丈夫生世，当带七尺之剑，以升天子之阶」。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sun-quan",
+      "name": "孙权",
+      "display": "吴大帝孙权",
+      "birth": 182,
+      "birthAccuracy": "exact",
+      "death": 252,
+      "deathAccuracy": "exact",
+      "title": "吴大帝，赤壁抗曹，晚年昏悖",
+      "bio": "孙坚次子，孙策之弟。年十五为阳羡长，兄死受事，举贤任能，赤壁用周瑜破曹操，遂据江东。建安二十四年袭荆州取关羽，黄武元年称吴王，黄龙元年称帝。晚年二子争宠、吕壹用事，赤乌十三年崩，年七十一。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sun-ce",
+      "name": "孙策",
+      "display": "孙策",
+      "birth": 175,
+      "birthAccuracy": "exact",
+      "death": 200,
+      "deathAccuracy": "exact",
+      "title": "讨逆将军，定江东，遇刺而亡",
+      "bio": "孙坚长子，年十余已结知名士。以袁术所余千余兵渡江，五年间平定吴、会稽、丹阳、豫章、庐陵，江东遂定。美姿颜，能笑语，人称孙郎。建安五年猎于丹徒，为许贡客所射，创甚而卒，年二十六，弟权代之。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

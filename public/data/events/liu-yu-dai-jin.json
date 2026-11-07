@@ -1,0 +1,101 @@
+{
+  "id": "liu-yu-dai-jin",
+  "name": "刘裕代晋",
+  "display": "刘裕代晋",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 420,
+  "yearAccuracy": "exact",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "liu-yu",
+    "sima-dewen"
+  ],
+  "result": "刘裕受禅称帝，国号宋，南朝开始",
+  "aliases": [
+    "刘裕建宋",
+    "刘宋代晋",
+    "nb-song",
+    "lj-liuyu"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo",
+    "northern-southern"
+  ],
+  "desc": "420 年（永初元年）六月，刘裕设坛南郊受晋恭帝司马德文禅让，即皇帝位，国号宋，东晋亡。晋室自渡江以来门阀与皇权共治的格局就此终结，历史进入南朝时代。",
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "南史",
+      "part": "宋本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-yu",
+      "name": "刘裕",
+      "display": "宋武帝刘裕",
+      "birth": 363,
+      "birthAccuracy": "exact",
+      "death": 422,
+      "deathAccuracy": "exact",
+      "title": "北府将出身，灭南燕后秦，代晋建宋",
+      "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+      "tags": [
+        "东晋",
+        "南朝"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin",
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-dewen",
+      "name": "司马德文",
+      "display": "晋恭帝",
+      "birth": 386,
+      "birthAccuracy": "exact",
+      "death": 421,
+      "deathAccuracy": "exact",
+      "title": "东晋恭帝，禅宋之明年被杀",
+      "bio": "安帝同母弟。安帝崩，刘裕立之；元熙二年裕废帝受禅，封零陵王。明年被杀。",
+      "tags": [
+        "东晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

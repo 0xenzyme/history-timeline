@@ -1,0 +1,69 @@
+{
+  "id": "qi-chenggong",
+  "name": "姜脱",
+  "display": "齐成公",
+  "birthAccuracy": "unknown",
+  "death": -795,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：成公九年卒。文公元年当宣王十三年前后，九年当 -795。",
+  "title": "齐成公",
+  "bio": "文公之子。九年卒，子庄公购立。",
+  "tags": [
+    "齐"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qi-chenggong",
+      "target": "qi-wengong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "qi-chenggong",
+      "target": "qi-zhuanggong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "齐成公",
+    "成公脱"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "齐太公世家",
+      "kind": "classic"
+    }
+  ]
+}

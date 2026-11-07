@@ -1,0 +1,91 @@
+{
+  "id": "xiping-shijing",
+  "name": "熹平石经刊刻",
+  "display": "熹平石经刊刻",
+  "kind": "span",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 175,
+  "yearAccuracy": "exact",
+  "endYear": 183,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "cai-yong",
+    "liu-hong"
+  ],
+  "result": "朝廷正定七经文字刻石立于太学门外，官定经书本与石经之制自此始",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "熹平四年（175）灵帝命诸儒正定经书文字，议郎蔡邕等以隶书书丹，使工镌石立于洛阳太学门外；刊刻历九年，至光和六年（183）而毕，所刻凡《易》《书》《诗》《仪礼》《春秋》《公羊传》《论语》七经，世称熹平石经，又称一体石经。石经立于太学以供士人取正传抄，是官定经书本的开始，也开此后历代刊刻石经之先。汉末洛阳屡遭兵火，太学荒废，石经渐就损散，残石自宋代以来屡有出土，今分藏多家博物馆。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "蔡邕列传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "汉纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cai-yong",
+      "name": "蔡邕",
+      "display": "蔡邕",
+      "birth": 132,
+      "birthAccuracy": "exact",
+      "death": 192,
+      "deathAccuracy": "exact",
+      "title": "辞赋碑诔与熹平石经，死于王允之狱",
+      "bio": "陈留圉人，师事胡广，好辞章、数术、天文，妙操音律。熹平四年与堂谿典等正定六经文字，书丹立石于太学门外，谓之熹平石经。董卓强辟之，卓诛后为王允所收，死于狱。女琰归南匈奴。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "literature",
+        "classics"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-hong",
+      "name": "刘宏",
+      "display": "汉灵帝",
+      "birth": 156,
+      "birthAccuracy": "exact",
+      "death": 189,
+      "deathAccuracy": "exact",
+      "title": "东汉灵帝，西园卖官，黄巾之岁",
+      "bio": "章帝玄孙，解渎亭侯之子。在位用十常侍，开西园明码卖官，聚钱为私藏。中平元年张角起，遂弛党锢、改刺史为州牧，地方自此拥兵。崩后少帝立，何进召董卓，天下遂分。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

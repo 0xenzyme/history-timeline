@@ -1,0 +1,58 @@
+{
+  "id": "jia-dan",
+  "name": "贾耽",
+  "display": "贾耽",
+  "birth": 730,
+  "birthAccuracy": "exact",
+  "death": 805,
+  "deathAccuracy": "exact",
+  "title": "永贞元年卒，年七十六",
+  "bio": "德宗朝同平章事。永贞元年十月卒，年七十六。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-song",
+      "target": "jia-dan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，永贞元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "贾耽"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "贾耽传",
+      "kind": "classic"
+    }
+  ]
+}

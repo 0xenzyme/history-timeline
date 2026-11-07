@@ -1,0 +1,124 @@
+{
+  "id": "beisong-tongyi",
+  "name": "北宋统一战争",
+  "display": "宋统一",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 963,
+  "yearAccuracy": "exact",
+  "yearNote": "起乾德元年平荆湖，止太平兴国四年五月北汉降。吴越纳土在这个跨度里，但是纳土，不挂成战役。南唐纳降日跨入976年，不改变战争的979终点。",
+  "endYear": 979,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "song",
+    "jingnan",
+    "hunan",
+    "houshu",
+    "nanhan",
+    "nantang",
+    "beihan"
+  ],
+  "people": [
+    "zhao-kuangyin",
+    "zhao-guangyi"
+  ],
+  "result": "荆湖、后蜀、南汉、南唐和北汉先后并入宋，十国的割据局面结束。",
+  "aliases": [
+    "宋灭诸国",
+    "宋平列国"
+  ],
+  "dynasties": [
+    "liao",
+    "song"
+  ],
+  "desc": "乾德元年至太平兴国四年五月，宋先后平荆湖、后蜀、南汉、南唐，并灭北汉。荆湖、后蜀、南汉、南唐和北汉先后并入宋，十国的割据局面结束。这场十余年的征服把南方和河东并进宋的疆域；吴越纳土不挂成战役。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷1",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷2",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷3",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷4",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "ping-jinghu",
+    "mie-houshu",
+    "mie-nanhan",
+    "mie-nantang",
+    "mie-beihan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-guangyi",
+      "name": "赵光义",
+      "display": "赵光义",
+      "birth": 939,
+      "birthAccuracy": "exact",
+      "death": 997,
+      "deathAccuracy": "exact",
+      "title": "宋太宗，完成一统",
+      "bio": "太祖之弟，即位后灭北汉，结束五代十国分裂；两度北伐契丹失利，自此守内虚外。留心文治，扩大科举。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

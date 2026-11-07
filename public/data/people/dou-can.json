@@ -1,0 +1,58 @@
+{
+  "id": "dou-can",
+  "name": "窦参",
+  "display": "窦参",
+  "birth": 733,
+  "birthAccuracy": "exact",
+  "death": 792,
+  "deathAccuracy": "exact",
+  "title": "贞元八年赐死，年六十",
+  "bio": "德宗朝同平章事。贞元八年贬途赐死，年六十。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "dou-can",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，贞元八年赐死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "窦参"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "窦参传",
+      "kind": "classic"
+    }
+  ]
+}

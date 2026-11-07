@@ -1,0 +1,93 @@
+{
+  "id": "shihuang-cheng-huangdi",
+  "name": "秦始皇称皇帝，创皇帝制度",
+  "display": "秦始皇称帝",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -221,
+  "yearAccuracy": "exact",
+  "place": "咸阳",
+  "placeNow": "今陕西咸阳",
+  "polity": [
+    "qin"
+  ],
+  "people": [
+    "ying-zheng",
+    "li-si"
+  ],
+  "result": "王号改称皇帝，确立制、诏、朕等帝制名物，此后帝制沿用两千年。",
+  "aliases": [
+    "议帝号",
+    "自称朕",
+    "命为制令为诏",
+    "除谥法",
+    "始皇帝"
+  ],
+  "dynasties": [
+    "warring-states",
+    "qin"
+  ],
+  "desc": "始皇二十六年，秦议帝号，去「泰」著「皇」，采上古「帝」位号，号曰皇帝；命为制、令为诏，天子自称朕，又除谥法，自称始皇帝。皇帝名号与制、诏、朕等帝制名物由此确立，此后沿用两千年。",
+  "sources": [
+    {
+      "work": "史記",
+      "part": "卷006 秦始皇本紀",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-zheng",
+      "name": "嬴政",
+      "display": "秦王政",
+      "birth": -259,
+      "birthAccuracy": "exact",
+      "death": -210,
+      "deathAccuracy": "exact",
+      "title": "秦王，灭六国，后称始皇帝",
+      "bio": "昭襄王四十八年生于邯郸。十三岁即位，吕不韦、嫪毐后亲政。十年间灭六国。本专题叙事停在前 221 年统一，条仍画到前 210 年卒；帝业留给秦专题。",
+      "tags": [
+        "秦国",
+        "统一"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-si",
+      "name": "李斯",
+      "display": "李斯",
+      "birthAccuracy": "unknown",
+      "death": -208,
+      "deathAccuracy": "exact",
+      "title": "秦丞相，郡县与同文，腰斩咸阳",
+      "bio": "楚上蔡人，荀子之徒。佐始皇并天下、定郡县、同文书，持法家治国。沙丘之谋与赵高合，旋被赵高所构，具五刑腰斩于咸阳。他与赵高的两条在二世那段对咬。",
+      "tags": [
+        "秦朝",
+        "丞相"
+      ],
+      "categories": [
+        "legalism"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,71 @@
+{
+  "id": "zhangsun-sheng",
+  "name": "长孙晟",
+  "display": "长孙晟",
+  "birth": 552,
+  "birthAccuracy": "approx",
+  "death": 609,
+  "deathAccuracy": "exact",
+  "birthNote": "大业五年卒，年五十八，上推生年。",
+  "deathNote": "传文先书大业三年，后书五年卒，依同年号计为大业五年。",
+  "title": "离间突厥，大业五年卒",
+  "bio": "开皇初行反间，使摄图与玷厥相猜，又说染干、诱阿波，突厥因此自相攻击。大业三年为炀帝喻染干，发民开御道三千里。五年卒，年五十八。",
+  "tags": [
+    "隋"
+  ],
+  "categories": [
+    "general",
+    "diplomat"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "zhangsun-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇初晟离间摄图与玷厥，又说染干、诱阿波"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "zhangsun-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大业三年喻染干，开御道。五年卒"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "长孙晟"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "长孙晟传",
+      "kind": "classic"
+    }
+  ]
+}

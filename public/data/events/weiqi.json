@@ -1,0 +1,105 @@
+{
+  "id": "weiqi",
+  "name": "伪齐",
+  "display": "伪齐",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1130,
+  "yearAccuracy": "exact",
+  "yearNote": "宋纪建炎四年七月丁卯金立刘豫为帝，九月戊申僭位于北京。金史刘豫传作九月朔授策。废于绍兴七年十一月丁未。取立国之年1130。",
+  "endYear": 1138,
+  "endYearAccuracy": "disputed",
+  "endYearNote": "绍兴七年十一月丁未废刘豫，这一天在公历 1138-01-02。该月朔在 1137-12-15。绍兴七年常被标成 1137。",
+  "polity": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "liu-yu-1073",
+    "wanyan-zongbi"
+  ],
+  "result": "金在中原立刘豫为齐帝，作为对宋缓冲；1138年废为蜀王，齐的封疆取消。",
+  "aliases": [
+    "刘齐",
+    "大齐"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "建炎四年七月丁卯，金立刘豫为帝，国号齐，九月僭位于北京；金史刘豫传作九月朔授策。绍兴七年十一月，挞懒、兀术入汴，废刘豫为蜀王，齐的封疆取消。七年里宋金之间多出这个金所立的政权，河南、陕西的归属通过它转移。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷26",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷28",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷77",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-yu-1073",
+      "name": "刘豫",
+      "display": "刘豫",
+      "birth": 1073,
+      "birthAccuracy": "exact",
+      "death": 1143,
+      "deathAccuracy": "exact",
+      "deathNote": "绍兴十三年（1143）六月卒，是年金皇统三年。",
+      "title": "金人册立的伪齐皇帝",
+      "bio": "元符进士，济南知府，杀关胜降金。金人册立为大齐皇帝，都汴京，凡八年，数以兵犯宋。绍兴七年废为蜀王，后卒于临潢。",
+      "tags": [
+        "伪齐"
+      ],
+      "categories": [
+        "warlord",
+        "monarch"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zongbi",
+      "name": "完颜宗弼",
+      "display": "完颜宗弼",
+      "birthAccuracy": "unknown",
+      "death": 1148,
+      "deathAccuracy": "exact",
+      "title": "金兀术，搜山检海捉赵构",
+      "bio": "阿骨打第四子。追高宗入海，富平、和尚原诸役与宋血战，黄天荡几不得脱。后主国政，都元帅，绍兴和议金方主持人。皇统八年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

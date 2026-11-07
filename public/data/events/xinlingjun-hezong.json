@@ -1,0 +1,131 @@
+{
+  "id": "xinlingjun-hezong",
+  "name": "信陵君合纵却秦",
+  "display": "信陵君合纵却秦",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -247,
+  "yearAccuracy": "exact",
+  "yearNote": "《資治通鑑》卷6莊襄王三年（前247）：「信陵君率五國之師敗蒙驁於河外，蒙驁遁走。信陵君追至函谷關，抑之而還」；《史記·魏公子列傳》魏安釐王三十年（前247）「公子率五國之兵破秦軍於河外，走蒙驁……遂乘勝逐秦軍至函谷關」。两系年一致。",
+  "place": "河外—函谷關",
+  "placeNow": "河南省三门峡市灵宝市北（函谷关）",
+  "belligerents": [
+    "qin",
+    "wei-zhanguo",
+    "zhao"
+  ],
+  "commanders": [
+    {
+      "id": "wei-wuji",
+      "side": "wei-zhanguo"
+    },
+    {
+      "id": "meng-ao",
+      "side": "qin"
+    }
+  ],
+  "people": [
+    "wei-wuji",
+    "wei-anxiwang",
+    "meng-ao"
+  ],
+  "result": "信陵君率五国联军河外破秦、追至函谷关，秦兵不敢出",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "秦蒙骜伐魏，魏请回信陵君为上将军，诸侯遣兵救魏；信陵君率五国之师破秦军于河外，追至函谷关而还，公子威振天下。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷六",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷七十七·卷077）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wei-wuji",
+      "name": "魏无忌",
+      "display": "信陵君",
+      "birthAccuracy": "unknown",
+      "death": -243,
+      "deathAccuracy": "exact",
+      "deathNote": "魏世家：安釐王三十一年秦王政初立，三十四年安釐王卒，信陵君无忌卒。三十一年为前246年，三十四年即前243年。列传只说病酒而卒，年份取世家。",
+      "title": "窃符救赵",
+      "bio": "魏安釐王的异母弟，封信陵君。窃兵符、杀晋鄙，带魏军解开邯郸之围。安釐王三十四年病酒卒。",
+      "tags": [
+        "魏国",
+        "信陵君"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-anxiwang",
+      "name": "魏安釐王",
+      "display": "魏安釐王",
+      "birthAccuracy": "unknown",
+      "death": -243,
+      "deathAccuracy": "exact",
+      "deathNote": "魏世家：安釐王三十四年信陵君卒，王亦卒；由景湣王元年（前242，秦初置东郡）逆系为前243。与落库记录中信陵君条同推。",
+      "title": "魏王，窃符之后的猜忌",
+      "bio": "信陵君窃符救赵后忌之，不能复用；三十四年公子与王相继而卒。次年秦置东郡，魏只剩大梁以东。他的条与信陵君同年截断，是读魏国衰亡的对照。",
+      "tags": [
+        "魏国",
+        "信陵君"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "meng-ao",
+      "name": "蒙骜",
+      "display": "蒙骜",
+      "birthAccuracy": "unknown",
+      "death": -240,
+      "deathAccuracy": "exact",
+      "deathNote": "白起王翦列传、秦始皇本纪：蒙骜将兵取成皋、荥阳置三川郡，攻魏取二十余城；始皇七年卒（前240）。",
+      "title": "秦将，蒙氏三世之祖",
+      "bio": "自齐入秦，历昭王至始皇世将兵：定成皋荥阳为三川郡，又上党之后定太原——轴上灭六国之前半段取地多出其手，郡县的版图先由他画。蒙武继之，蒙恬其孙，秦将门三世之条自他起。前240年卒。",
+      "tags": [
+        "秦国",
+        "蒙氏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

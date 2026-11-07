@@ -1,0 +1,57 @@
+{
+  "id": "pei-xing-jian",
+  "name": "裴行俭",
+  "display": "裴行俭",
+  "birth": 619,
+  "birthAccuracy": "exact",
+  "death": 682,
+  "deathAccuracy": "exact",
+  "title": "金牙道大总管，未行而卒",
+  "bio": "绛州闻喜人。高宗朝掌典选。永淳元年十姓车薄反，诏复为金牙道大总管，率十将军讨之。师未行，其年四月病卒，年六十四。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "pei-xing-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永淳元年再起为金牙道大总管，未行而卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "裴行俭"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "裴行俭传",
+      "kind": "classic"
+    }
+  ]
+}

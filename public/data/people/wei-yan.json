@@ -1,0 +1,65 @@
+{
+  "id": "wei-yan",
+  "name": "魏延",
+  "display": "魏延",
+  "birthAccuracy": "unknown",
+  "death": 234,
+  "deathAccuracy": "exact",
+  "title": "征西大将军，子午谷之计不为所用",
+  "bio": "义阳人，以部曲随先主入蜀，数有战功，守汉中十余年无失。每随亮出，辄请兵万人别由子午谷袭长安，亮制而不许，延常谓亮怯。建兴十二年亮卒于五丈原，延与杨仪相攻，走汉中，为马岱所斩，夷三族。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bei",
+      "target": "wei-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以部曲随刘备入蜀，镇汉中"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhugeliang-beifa",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "魏延",
+    "魏文长"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·刘彭廖李刘魏杨传",
+      "kind": "classic"
+    }
+  ]
+}

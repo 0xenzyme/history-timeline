@@ -1,0 +1,57 @@
+{
+  "id": "wang-hou-xuan",
+  "name": "王皇后",
+  "display": "邛成太后",
+  "birthAccuracy": "unknown",
+  "death": -16,
+  "deathAccuracy": "exact",
+  "deathNote": "年七十余，不编生年。",
+  "title": "宣帝皇后",
+  "bio": "父王奉光。宣帝在民间时与奉光相识，后召她入宫，进为婕妤，再立皇后。永始元年崩，年七十余。",
+  "tags": [
+    "西汉"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xun",
+      "target": "wang-hou-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣帝皇后，称邛成太后。永始元年崩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "邛成太后",
+    "孝宣王皇后"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "外戚传·孝宣王皇后",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "wu-chengen",
+  "name": "吴承恩",
+  "display": "吴承恩",
+  "birth": 1500,
+  "birthAccuracy": "approx",
+  "death": 1582,
+  "deathAccuracy": "approx",
+  "title": "《西游记》",
+  "bio": "山阳人，性诙谐好奇。取玄奘取经旧事，演为《西游记》，神魔谐谑，寓讽于世情。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "literature",
+    "novel"
+  ],
+  "primary": "novel",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tang-xianzu",
+      "target": "wu-chengen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为明代戏曲小说之林的两家"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "西游记",
+      "part": "署"
+    }
+  ]
+}

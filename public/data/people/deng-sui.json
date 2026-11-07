@@ -1,0 +1,71 @@
+{
+  "id": "deng-sui",
+  "name": "邓绥",
+  "display": "和熹皇后邓绥",
+  "birth": 81,
+  "birthAccuracy": "exact",
+  "death": 121,
+  "deathAccuracy": "exact",
+  "title": "和帝皇后，临朝十六年，称制终身",
+  "bio": "邓禹之孙女，和帝皇后。和帝崩后立百日之殇帝，旋立安帝，临朝称制十六年。用节俭，平羌乱，诏戒外戚，兄骘以恭谨自守。建光元年崩，安帝始亲政，邓氏随败。",
+  "tags": [
+    "东汉",
+    "临朝"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "deng-sui",
+      "target": "liu-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，邓后临朝"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "deng-sui",
+      "target": "liu-hu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "和帝崩，邓太后立章帝孙祜"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "邓绥",
+    "和熹皇后",
+    "邓太后"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪",
+      "kind": "classic"
+    }
+  ]
+}

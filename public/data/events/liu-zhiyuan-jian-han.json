@@ -1,0 +1,95 @@
+{
+  "id": "liu-zhiyuan-jian-han",
+  "name": "刘知远建汉",
+  "display": "刘知远建汉",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 947,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系天福十二年二月知远即皇帝位于太原，六月入汴，改元乾祐；公历并在947。",
+  "place": "太原",
+  "polity": [
+    "hou-han"
+  ],
+  "people": [
+    "liu-zhiyuan",
+    "liu-chengyou"
+  ],
+  "result": "刘知远即位于太原，寻入汴，国号汉；五代第四朝立。",
+  "aliases": [
+    "后汉建立"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "契丹入汴，河东节度使刘知远奉表称臣，阳为恭顺，阴养威重。德光北还，知远二月即皇帝位于太原，不复称契丹之号，用晋天福之朔。六月入汴，诛许王李从益，改元乾祐，国号汉。汉承晋之后，据有中原；知远不期年而殂，隐帝冲幼，大臣坐戮，汉祚四年而移于周。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后汉纪·天福十二年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "汉高祖本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-zhiyuan",
+      "name": "刘知远",
+      "display": "后汉高祖",
+      "birthAccuracy": "unknown",
+      "death": 948,
+      "deathAccuracy": "exact",
+      "title": "后汉高祖，乘契丹北归取中原",
+      "bio": "本名暠，沙陀部人，与石敬瑭同为明宗腹心，位至河东节度使、北京留守。契丹迁德光北去，中原无主，知远据太原称汉，乘隙入汴，悉收故地。在位一年而崩。",
+      "tags": [
+        "五代",
+        "后汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-chengyou",
+      "name": "刘承祐",
+      "display": "后汉隐帝",
+      "birthAccuracy": "unknown",
+      "death": 951,
+      "deathAccuracy": "exact",
+      "title": "隐帝诛顾命之臣，变起汴北",
+      "bio": "知远之子，乾祐元年即位，年十八。不能制杨邠、史弘肇、王章诸辅政大臣，一夕族诛之，并及其家郭威。威举兵邺都，师次汴北，出战封禅寺，为麾下亲军所杀，后汉亡。",
+      "tags": [
+        "五代",
+        "后汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

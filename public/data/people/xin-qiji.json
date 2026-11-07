@@ -1,0 +1,57 @@
+{
+  "id": "xin-qiji",
+  "name": "辛弃疾",
+  "display": "辛弃疾",
+  "birth": 1140,
+  "birthAccuracy": "exact",
+  "death": 1207,
+  "deathAccuracy": "exact",
+  "title": "稼轩，词中之龙",
+  "bio": "历城人，耿京义军掌书记，率众南归。一生主战，累遭闲置；以词名世，慷慨悲凉，与苏轼并称苏辛。",
+  "tags": [
+    "宋",
+    "南宋",
+    "抗金"
+  ],
+  "categories": [
+    "poetry",
+    "general"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lu-you",
+      "target": "xin-qiji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "爱国诗人词客，恢复之志相期"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "辛弃疾传",
+      "kind": "classic"
+    }
+  ]
+}

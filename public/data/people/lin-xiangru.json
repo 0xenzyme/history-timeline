@@ -1,0 +1,80 @@
+{
+  "id": "lin-xiangru",
+  "name": "蔺相如",
+  "display": "蔺相如",
+  "birthAccuracy": "unknown",
+  "death": -260,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。完璧、渑池之后少见于《赵世家》，取长平前为活动下限。",
+  "title": "赵上卿，完璧归赵",
+  "bio": "缪贤舍人。奉璧入秦、渑池奉缶，位在廉颇右。将相和把两条敌对的线改成同僚。长平之前，赵的文臣条几乎只剩他。",
+  "tags": [
+    "赵国",
+    "完璧归赵"
+  ],
+  "categories": [
+    "diplomat"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "diplomat"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "争位，后负荆请罪为同僚"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "peer",
+      "directed": false,
+      "since": -279,
+      "notes": [
+        "将相和"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lin-xiangru",
+      "target": "zhao-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -283,
+      "notes": [
+        "完璧归赵、渑池之会，拜上大夫"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "廉颇蔺相如列传",
+      "kind": "classic"
+    }
+  ]
+}

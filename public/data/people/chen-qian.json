@@ -1,0 +1,100 @@
+{
+  "id": "chen-qian",
+  "name": "陈骞",
+  "display": "陈骞",
+  "birth": 212,
+  "birthAccuracy": "approx",
+  "death": 292,
+  "deathAccuracy": "exact",
+  "birthNote": "元康二年（292）薨，年八十一，虚岁上推生年。",
+  "title": "西晋大司马，佐命功臣",
+  "bio": "安丰人。魏晋之际以智略闻，预禅代之议。都督扬州，屡御吴师。晚年称疾请退。元康二年薨，年八十一，赠太傅，谥曰武。",
+  "tags": [
+    "晋",
+    "西晋"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    },
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "chen-qian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋初为大司马，与贾充等同佐命"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-qian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "永定三年霸先崩，遗诏征蒨入纂"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-bozong",
+      "target": "chen-qian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。伯宗为世祖嫡长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-qian",
+      "target": "chen-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。二人同为始兴昭烈王之子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈骞"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "陈骞传",
+      "kind": "classic"
+    }
+  ]
+}

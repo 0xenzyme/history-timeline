@@ -1,0 +1,69 @@
+{
+  "id": "wei-gongbo",
+  "name": "姬余",
+  "display": "卫共伯",
+  "birthAccuracy": "unknown",
+  "death": -812,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：釐侯卒，共伯余立，即被弟和攻于墓上，入釐侯羡自杀。",
+  "title": "卫共伯余，墓上自杀",
+  "bio": "釐侯太子。弟和袭攻于墓上，入釐侯羡自杀。与竹书摄政的共伯和不是同一人。",
+  "tags": [
+    "卫"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-gongbo",
+      "target": "wei-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。太子共伯余"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "wei-gongbo",
+      "target": "wei-he",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "和袭攻共伯于墓上，共伯自杀"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "卫共伯",
+    "共伯余"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

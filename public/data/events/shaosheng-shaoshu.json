@@ -1,0 +1,120 @@
+{
+  "id": "shaosheng-shaoshu",
+  "name": "绍圣绍述",
+  "display": "绍圣绍述",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1094,
+  "yearAccuracy": "exact",
+  "yearNote": "绍圣元年四月癸丑改元，壬戌章惇为左仆射，范纯仁罢。元符三年正月己卯哲宗崩，为 1100-02-23。",
+  "endYear": 1100,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "zhang-dun",
+    "zhao-xu-zhe",
+    "zeng-bu"
+  ],
+  "result": "元祐大臣罢免，青苗、免役恢复，元祐章疏被编类。",
+  "aliases": [
+    "绍述",
+    "哲宗亲政"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "绍圣元年四月改元，章惇为相，范纯仁罢，绍述之论大兴，青苗、免役恢复。元祐大臣被罢，元祐章疏被编类，至元符三年正月哲宗崩。哲宗亲政后以绍述为国是，政府与法度翻回熙丰。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十八",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷三百二十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-dun",
+      "name": "章惇",
+      "display": "章惇",
+      "birth": 1035,
+      "birthAccuracy": "exact",
+      "death": 1105,
+      "deathAccuracy": "exact",
+      "title": "绍圣绍述的悍相",
+      "bio": "熙宁初助行新法，经略荆湖。绍圣初独相，「绍述」熙宁之政，贬逐元祐党人无所遗。哲宗崩议立储，力言端王轻佻。崇宁四年卒。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xu-zhe",
+      "name": "赵煦",
+      "display": "宋哲宗赵煦",
+      "birth": 1077,
+      "birthAccuracy": "exact",
+      "death": 1100,
+      "deathAccuracy": "exact",
+      "title": "元祐更化与绍圣绍述",
+      "bio": "神宗第六子，十岁即位，太皇太后高氏听政，行元祐旧法；亲政后改元绍圣，复新法、逐旧臣。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zeng-bu",
+      "name": "曾布",
+      "display": "曾布",
+      "birth": 1036,
+      "birthAccuracy": "exact",
+      "death": 1107,
+      "deathAccuracy": "exact",
+      "title": "曾巩之弟，新党中流",
+      "bio": "曾巩异母弟，熙宁行新法之干臣。徽宗初独相，与韩忠彦对换而主「绍述」。坐榜朝堂之事罢，大观元年卒。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

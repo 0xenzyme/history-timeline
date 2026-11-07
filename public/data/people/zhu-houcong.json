@@ -1,0 +1,202 @@
+{
+  "id": "zhu-houcong",
+  "name": "朱厚熜",
+  "display": "明世宗朱厚熜",
+  "birth": 1507,
+  "birthAccuracy": "exact",
+  "death": 1567,
+  "deathAccuracy": "exact",
+  "title": "嘉靖皇帝",
+  "bio": "以兴献王世子入继大统，初革正德弊政，后崇道斋醮、委政严嵩，南倭北虏之患并起。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houcong",
+      "target": "yan-song",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宠严嵩，权倾二十年"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "wang-shouren",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平宁王宸濠，封新建伯"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "qi-jiguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1555,
+      "notes": [
+        "调继光镇东南，平倭患"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "zhu-houzhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "堂兄弟，武宗无嗣，世宗入继"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "zhu-zaiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，世宗传穆宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "yang-tinghe",
+      "target": "zhu-houcong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "定策迎立，登极诏尽罢前朝弊政"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "yang-tinghe",
+      "target": "zhu-houcong",
+      "type": "rival",
+      "directed": false,
+      "since": 1524,
+      "notes": [
+        "大礼议起，力争不得而去位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "xu-jie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "承严嵩之后为首辅，务为安静"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "hu-zongxian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总督浙直福建军务，用俞戚以平倭"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "tang-shunzhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以兵部郎中视师海上，卒于舟中"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "anda-han",
+      "target": "zhu-houcong",
+      "type": "rival",
+      "directed": false,
+      "since": 1550,
+      "notes": [
+        "庚戌之变，其众薄都城而焚掠近畿"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "gu-dingchen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "嘉靖十七年入阁，十九年十月卒"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dali-yi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "gengxu-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "世宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

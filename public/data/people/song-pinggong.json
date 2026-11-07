@@ -1,0 +1,39 @@
+{
+  "id": "song-pinggong",
+  "name": "子成",
+  "display": "宋平公",
+  "birthAccuracy": "unknown",
+  "death": -532,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·宋微子世家「四十四年，平公卒，子元公佐立」。平公元年前575，四十四年得前532。",
+  "polity": [
+    "song-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "xiangxu-mibing",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "宋微子世家",
+      "kind": "classic"
+    }
+  ]
+}

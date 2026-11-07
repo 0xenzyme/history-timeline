@@ -1,0 +1,36 @@
+{
+  "id": "li-shen",
+  "name": "李绅",
+  "display": "李绅",
+  "birthAccuracy": "unknown",
+  "death": 846,
+  "deathAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "新唐书",
+      "part": "卷63·表第三 宰相下",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷248·唐纪六十四",
+      "kind": "classic"
+    }
+  ]
+}

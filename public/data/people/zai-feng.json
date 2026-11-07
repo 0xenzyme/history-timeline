@@ -1,0 +1,102 @@
+{
+  "id": "zai-feng",
+  "name": "载沣",
+  "display": "载沣",
+  "birth": 1883,
+  "birthAccuracy": "approx",
+  "death": 1951,
+  "deathAccuracy": "exact",
+  "birthNote": "自日记与行谱系为光绪九年十月，合公历约 1883（通行生日常折为 2 月 12 日，未复核干支折日，故记 approx）。",
+  "deathNote": "卒于北京，modern 年谱口径系为民国四十年十二月十八日，折公历 1951 年 2 月 3 日；清史稿无传不载。",
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yi-huan",
+      "target": "zai-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "奕譞第五子，1890 袭第二代醇亲王"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xuan-tong",
+      "target": "zai-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "溥仪生父；1908 年幼子入承大统，载沣以监国摄政王掌实际君权"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "zai-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同父异母弟；光绪崩后载沣摄政，兄弟相继为清代皇权过渡一环"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "zai-feng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "慈禧命其为军机大臣兼摄政，旋于宣统三年被迫辞职"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baolu-yundong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "监国摄政王",
+    "醇亲王（第二代）"
+  ],
+  "sources": [
+    {
+      "work": "醇亲王载沣日记",
+      "part": "中华书局 2018 排印本",
+      "kind": "modern"
+    },
+    {
+      "work": "爱新觉罗·溥仪家族",
+      "part": "载沣年谱部分",
+      "kind": "modern"
+    }
+  ]
+}

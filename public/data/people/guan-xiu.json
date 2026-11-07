@@ -1,0 +1,75 @@
+{
+  "id": "guan-xiu",
+  "name": "贯休",
+  "display": "贯休",
+  "birth": 832,
+  "birthAccuracy": "approx",
+  "death": 912,
+  "deathAccuracy": "approx",
+  "birthNote": "乾化二年终于成都，年八十一，上推生年。",
+  "deathNote": "乾化二年（912）入寂于成都龙华禅院，年八十一；生年亦据此上推。",
+  "title": "禅月大师，十六罗汉图",
+  "bio": "婺州兰溪人，俗姓姜，字德隐。七岁出家，苦节峻行，诗格入神。谒钱镠\"满堂花醉三千客，一剑霜寒十四州\"，镠令改\"十四州\"为\"一州\"，不肯。昭宗赐号禅月大师。晚入蜀依王建，已而归于吴越，画金碧山水、罗汉十六帧。《禅月集》行世。",
+  "tags": [
+    "诗僧"
+  ],
+  "categories": [
+    "poetry",
+    "painting",
+    "buddhism"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "tang",
+    "shiguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-jian-918",
+      "target": "guan-xiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晚节依蜀，禅月之号所由显"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "guan-xiu",
+      "target": "qian-liu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "十四州之句，不肯改从一州"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋高僧传",
+      "part": "贯休传",
+      "kind": "classic"
+    },
+    {
+      "work": "禅月集",
+      "kind": "classic"
+    }
+  ]
+}

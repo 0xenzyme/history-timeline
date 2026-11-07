@@ -1,0 +1,166 @@
+{
+  "id": "liu-qi",
+  "name": "刘启",
+  "display": "汉景帝",
+  "birth": -188,
+  "birthAccuracy": "exact",
+  "death": -141,
+  "deathAccuracy": "exact",
+  "title": "西汉第六位皇帝",
+  "bio": "用晁错之策削藩，引发七国之乱；乱平之后中央集权大定，为武帝的扩张留下完整的国力。",
+  "tags": [
+    "削藩",
+    "文景之治"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-heng",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "chao-cuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -155,
+      "notes": [
+        "采其削藩策，乱起后斩之于东市"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "dou-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -154,
+      "notes": [
+        "七国之乱拜大将军；栗太子立，又以为太子太傅"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "li-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为上郡太守"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "wang-hou-jing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "景帝皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-wu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母弟，梁孝王拒吴楚有功"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-pi",
+      "target": "liu-qi",
+      "type": "rival",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "七国之乱，吴为首谋；三月而平"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "zhou-yafu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -154,
+      "notes": [
+        "吴楚七国反，拜太尉，绝其粮道三月而破之；后为丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-de",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；景帝子，封河间王，修学好古，得先秦古文旧书"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孝景本纪",
+      "kind": "classic"
+    }
+  ]
+}

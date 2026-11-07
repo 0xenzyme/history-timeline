@@ -1,0 +1,125 @@
+{
+  "id": "liuyu-mie-nanyan",
+  "name": "刘裕灭南燕之战",
+  "display": "刘裕灭南燕之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": 409,
+  "yearAccuracy": "exact",
+  "yearNote": "东晋义熙五年（409）三月车骑将军刘裕帅师伐慕容超（《晋书·安帝纪》）；《十六国春秋·南燕录》系太上五年二月刘裕率众来伐。对手为南燕（慕容德所建，属十六国），belligerents 用 shiliuguo，desc 注明。中国纪年口径。",
+  "endYear": 410,
+  "endYearAccuracy": "exact",
+  "endYearNote": "义熙六年（410）克广固：《晋书·安帝纪》系春正月丁亥'刘裕攻慕容超，克之，齐地悉平'；《十六国春秋·南燕录》系二月悦寿开门纳晋师、超被执送建康斩之。月分小异，年份410无异。",
+  "belligerents": [
+    "jin",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "liu-yu",
+      "side": "jin"
+    },
+    {
+      "id": "murong-chao",
+      "side": "shiliuguo"
+    }
+  ],
+  "people": [
+    "liu-yu",
+    "murong-chao"
+  ],
+  "result": "南燕灭亡，青齐入晋",
+  "aliases": [
+    "刘裕伐南燕",
+    "灭南燕之战"
+  ],
+  "tags": [
+    "war",
+    "北伐",
+    "灭国"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "义熙五年（409）三月刘裕自建康北伐南燕，越大岘天险，六月大破慕容超于临朐，进围都城广固；次年克广固，执慕容超送建康斩之，南燕亡，青齐入晋。此役为刘裕取代桓氏后的第一次灭国北伐。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷十",
+      "kind": "classic"
+    },
+    {
+      "work": "十六国春秋",
+      "part": "卷十三",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-yu",
+      "name": "刘裕",
+      "display": "宋武帝刘裕",
+      "birth": 363,
+      "birthAccuracy": "exact",
+      "death": 422,
+      "deathAccuracy": "exact",
+      "title": "北府将出身，灭南燕后秦，代晋建宋",
+      "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+      "tags": [
+        "东晋",
+        "南朝"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin",
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "murong-chao",
+      "name": "慕容超",
+      "display": "慕容超",
+      "birth": 385,
+      "birthAccuracy": "approx",
+      "death": 410,
+      "deathAccuracy": "exact",
+      "birthNote": "义熙六年（410）送建康市斩之，时年二十六，虚岁上推生年。",
+      "title": "南燕末主，广固城破而族灭",
+      "bio": "慕容德兄北海王慕容纳之子。德无子，梦父戒而立超为太子。即位后信用公孙五楼，诛戮勋臣，游猎无度。义熙六年刘裕北伐，围广固，超宁奋剑决死不肯衔璧求生，城破突围被执，神色自若，惟以母托刘敬宣，送建康市斩之，时年二十六，南燕亡。",
+      "tags": [
+        "十六国",
+        "南燕",
+        "慕容"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "huang-xie",
+  "name": "黄歇",
+  "display": "春申君",
+  "birthAccuracy": "unknown",
+  "death": -238,
+  "deathAccuracy": "exact",
+  "deathNote": "春申君列传：考烈王卒后十七日，李园伏死士斩春申君。是岁秦始皇帝立九年。始皇九年是前238年。",
+  "title": "楚相，始皇九年被杀",
+  "bio": "楚顷襄王派他入秦，劝昭王不要让白起伐楚。考烈王时为相二十余年。始皇九年，考烈王卒后被李园所杀。",
+  "tags": [
+    "楚国",
+    "春申君"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huang-xie",
+      "target": "ying-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "黄歇入秦上书，劝止白起伐楚"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "huang-xie",
+      "target": "chu-kaoliewang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "考烈元年以歇为相，委国二十余年，东徙寿春"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wuguo-fuqin",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "春申君",
+    "黄歇"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "春申君列传",
+      "kind": "classic"
+    }
+  ]
+}

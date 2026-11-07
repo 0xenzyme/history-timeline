@@ -1,0 +1,80 @@
+{
+  "id": "luoshui-zhizhan",
+  "name": "洛水之战",
+  "display": "洛水之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -816,
+  "yearAccuracy": "exact",
+  "yearNote": "虢季子白盘铭文「唯十有二年，正月初吉丁亥」，周宣王十二年即公元前816年。此役以金文系年，与《史记·周本纪》宣王十二年合。",
+  "place": "洛之阳",
+  "belligerents": [
+    "zhou",
+    "xirong"
+  ],
+  "commanders": [
+    {
+      "id": "guo-jizibai",
+      "side": "zhou"
+    }
+  ],
+  "people": [
+    "guo-jizibai"
+  ],
+  "result": "王师大破猃狁，献俘于周庙；宣王之世，周室再显",
+  "aliases": [
+    "虢季子白伐猃狁"
+  ],
+  "dynasties": [
+    "western-zhou"
+  ],
+  "desc": "周宣王之世，猃狁内侵，王命虢季子白伐之。子白身执前驱，深入至于洛之阳，斩首五百、执讯五十，献俘于王；王亲至于周庙宣榭，爰飨之，称曰「白父，孔显又光」，赐以乘马、弓矢、大钺，用征蛮方。子白因作宝盘，以纪王赐。宣王之世，自猃狁、淮夷、徐方之役以后，周之威令复行于四国；然中兴之业，至宣王之末而复衰。",
+  "sources": [
+    {
+      "work": "虢季子白盘铭文",
+      "part": "器铭",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷004·周本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guo-jizibai",
+      "name": "虢季子白",
+      "display": "虢季子白",
+      "birthAccuracy": "unknown",
+      "death": -816,
+      "deathAccuracy": "exact",
+      "deathNote": "虢季子白盘铭文系于周宣王十二年，即公元前816年；此为其征猃狁、献俘、作盘之年，生卒无其他明文。",
+      "title": "宣王世虢君，伐猃狁而作盘",
+      "bio": "周宣王之世虢君。十二年，王命伐猃狁，子白身执前驱，至于洛水之北，斩首五百、执讯五十，献俘于王；王亲格于周庙宣榭，爰飨之，曰「白父，孔显又光」，因锡以乘马、弓矢、大钺，用征蛮方。子白乃作宝盘，以纪王赐。其盘铭百十一字，为西周金文之冠，今藏中国国家博物馆。宣王之世，周室中兴，而伐猃狁、平淮夷，皆虢、尹之徒任之。",
+      "tags": [
+        "西周",
+        "虢",
+        "金文"
+      ],
+      "categories": [
+        "vassal"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

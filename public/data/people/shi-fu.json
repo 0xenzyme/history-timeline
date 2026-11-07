@@ -1,0 +1,64 @@
+{
+  "id": "shi-fu",
+  "name": "师服",
+  "display": "师服",
+  "birthAccuracy": "unknown",
+  "death": -802,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见穆侯十年名少子成师。穆侯二十七年卒当 -785，十年约 -802。",
+  "title": "晋大夫，预警成师之名",
+  "bio": "穆侯名太子仇、少子成师。师服谓适庶名反逆，此后晋其能毋乱乎。西周镜头只收到这一谏。",
+  "tags": [
+    "晋",
+    "谏诤"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jin-muhou",
+      "target": "shi-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "师服谏穆侯名子反逆"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "quwo-daiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "师服"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    }
+  ]
+}

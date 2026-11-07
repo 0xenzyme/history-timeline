@@ -1,0 +1,69 @@
+{
+  "id": "dou-miao",
+  "name": "窦妙",
+  "display": "桓思窦皇后",
+  "birthAccuracy": "unknown",
+  "death": 172,
+  "deathAccuracy": "exact",
+  "title": "桓帝皇后，窦武之女",
+  "bio": "窦武之女。延熹八年立为皇后。灵帝时为太后。熹平元年感疾而崩。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dou-miao",
+      "target": "liu-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "延熹八年立为桓帝皇后"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "dou-miao",
+      "target": "liu-hong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "灵帝时为太后。熹平元年崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "窦妙",
+    "窦太后"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪·桓思窦皇后",
+      "kind": "classic"
+    }
+  ]
+}

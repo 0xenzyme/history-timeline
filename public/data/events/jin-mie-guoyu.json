@@ -1,0 +1,119 @@
+{
+  "id": "jin-mie-guoyu",
+  "name": "晋灭虢、虞（假道伐虢）",
+  "display": "晋灭虢、虞（假道伐虢）",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -655,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·僖公五年》冬「晉人執虞公」；《左傳》「冬，十二月，丙子朔，晉滅虢……師還，館於虞，遂襲虞，滅之」；《史記·晉世家》獻公二十二年、《秦本紀》繆公五年（前655）互證。前一年（僖公二年，前658）晉已假道滅虢下陽。",
+  "place": "虢都上陽、虞",
+  "placeNow": "上阳在今河南三门峡市陕州区（杜注「弘農陝縣東南」）；虞在今山西平陆北",
+  "belligerents": [
+    "jin-guo",
+    "guo-guo",
+    "yu-guo"
+  ],
+  "commanders": [
+    {
+      "id": "xun-xi",
+      "side": "jin-guo"
+    }
+  ],
+  "people": [
+    "ji-guizhu",
+    "bai-lixi"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "荀息以屈产之乘假道于虞，两度伐虢：前658会虞师灭下阳，前655冬灭虢都上阳，还师袭灭虞，虏虞公与百里奚（后为秦穆公重用）。宫之奇「辅车相依，唇亡齿寒」之谏不听。晋拓地至黄河北岸、控崤函通道。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷11",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷005·秦本紀",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-guizhu",
+      "name": "姬诡诸",
+      "display": "晋献公",
+      "birthAccuracy": "unknown",
+      "death": -651,
+      "deathAccuracy": "exact",
+      "title": "晋国国君，骊姬之祸的当事者",
+      "bio": "灭虢、虞，扩地河东。宠骊姬，杀太子申生，逼重耳、夷吾出亡。他一死，晋国陷入几十年的公子争立，才把文公逼成霸主。",
+      "tags": [
+        "晋国",
+        "骊姬之乱"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bai-lixi",
+      "name": "百里奚",
+      "display": "百里奚",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。相秦穆公，与穆公相始终的记载居多，取穆公卒年为活动下限。",
+      "title": "秦穆公大夫，五羖大夫",
+      "bio": "虞人。晋灭虞，辗转入秦。穆公闻其贤，以五张羊皮赎之。他的条几乎是穆公条的影子，东进与西霸都经他手。",
+      "tags": [
+        "秦国",
+        "五羖大夫"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xun-xi",
+      "name": "荀息",
+      "display": "荀息",
+      "birthAccuracy": "unknown",
+      "death": -651,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·僖公九年（前651）献公卒，荀息立奚齐、卓子，皆见杀，荀息死之；史记·晋世家同载。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

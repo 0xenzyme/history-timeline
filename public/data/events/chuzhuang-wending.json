@@ -1,0 +1,112 @@
+{
+  "id": "chuzhuang-wending",
+  "name": "楚庄王问鼎",
+  "display": "楚庄王问鼎",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -606,
+  "yearAccuracy": "exact",
+  "yearNote": "左传宣公三年（前606）楚子伐陆浑之戎遂至于雒观兵于周疆，问鼎之大小轻重；史记楚世家系庄王八年（前606），史记周本纪系定王元年，三处一致。",
+  "polity": [
+    "chu",
+    "zhou"
+  ],
+  "people": [
+    "mi-lv",
+    "ji-yu"
+  ],
+  "aliases": [
+    "问鼎之大小轻重",
+    "观兵周疆",
+    "在德不在鼎",
+    "楚庄王伐陆浑之戎",
+    "楚庄王观兵问鼎"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "楚庄王伐陆浑之戎，陈兵周疆，遣使问九鼎大小轻重。王孙满对以「在德不在鼎」「周德虽衰，天命未改」，庄王乃归。此事标志楚霸极盛、周鼎名分虽受挑战而未坠。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷21",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷040·楚世家",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左傳正義 卷21（宣公三年）",
+      "part": "宣公三年傳",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·楚世家",
+      "part": "莊王八年",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·周本紀",
+      "part": "定王元年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "mi-lv",
+      "name": "芈侣",
+      "display": "楚庄王",
+      "birthAccuracy": "unknown",
+      "death": -591,
+      "deathAccuracy": "exact",
+      "title": "楚国霸主，问鼎中原",
+      "bio": "即位三年不出，后一鸣惊人。邲之战败晋，观兵周疆、问鼎之轻。春秋霸业从齐晋转到南楚，他的条是转折点。",
+      "tags": [
+        "楚国",
+        "邲之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-yu",
+      "name": "姬瑜",
+      "display": "周定王",
+      "birthAccuracy": "unknown",
+      "death": -586,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「定王二十一年 王陟」。名瑜出史记·周本纪「匡王六年，崩，弟瑜立，是为定王」；世本作介者为战国贞定王，勿混。",
+      "title": "问九鼎之役，楚庄王北上的极点",
+      "bio": "匡王之弟。即位元年楚庄王伐陆浑之戎，进军洛邑问九鼎之轻重，王孙满以「在德不在鼎」对之；十年楚围郑，郑伯降而复之。楚的锋芒第一次直抵王城，十六年楚庄王亦崩。二十一年崩。",
+      "tags": [
+        "问九鼎",
+        "王孙满",
+        "楚庄王"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "taizi-dan",
+  "name": "燕太子丹",
+  "display": "燕太子丹",
+  "birthAccuracy": "unknown",
+  "death": -226,
+  "deathAccuracy": "approx",
+  "deathNote": "刺客列传、燕世家：秦破燕，王喜徙保辽东，使人斩太子丹欲以献秦——系始皇二十一年（前226）破蓟之岁，记approx。",
+  "title": "燕太子，督亢之图",
+  "bio": "少时与嬴政俱质于赵，政立而丹质于秦，不得意亡归：恐秦尽并天下而祸至燕，卑身厚币养士，终遣荆轲奉督亢图、图穷匕见于咸阳殿上。事不成，秦兵东下，丹被斩犹不能缓燕亡（约前226）——轴上对秦最后一次主动出击，出自他。",
+  "tags": [
+    "燕国",
+    "荆轲",
+    "刺秦"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "taizi-dan",
+      "target": "yan-xiaowang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "太子丹，喜之子也；少与秦王政俱质于赵，政立而丹质于秦，亡归"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "taizi-dan",
+      "target": "ying-zheng",
+      "type": "rival",
+      "directed": false,
+      "since": -227,
+      "notes": [
+        "恐秦并天下而祸至燕，遣荆轲奉督亢图——图穷匕见，事不成"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ju-xin",
+      "target": "taizi-dan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "老臣辛言人主一遇败不复仇，谏太子毋轻以秦为仇；丹不用，辛西丧于赵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jingke-ciqin",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-po-yan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "太子丹"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "刺客列传",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

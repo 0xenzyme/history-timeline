@@ -1,0 +1,102 @@
+{
+  "id": "diaoyucheng-zhizhan",
+  "name": "钓鱼城之战",
+  "display": "钓鱼城之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1259,
+  "yearAccuracy": "exact",
+  "yearNote": "宪宗八年（1258）已入蜀，九年七月癸亥崩于钓鱼山。scale 为 battle，不写 endYear。",
+  "place": "钓鱼山",
+  "belligerents": [
+    "song",
+    "mongol"
+  ],
+  "people": [
+    "meng-ge",
+    "wang-jian-1264"
+  ],
+  "result": "蒙哥死于钓鱼山，东路围鄂州的蒙古军北还，宋蒙战争中断。",
+  "parent": "mengsong-zhanzheng",
+  "aliases": [
+    "钓鱼山蒙哥之死",
+    "合州之战"
+  ],
+  "dynasties": [
+    "song",
+    "mongol"
+  ],
+  "desc": "宪宗八年蒙哥已入蜀，九年七月癸亥崩于钓鱼山，合州守将王坚使人走报。蒙古大汗死于城下，东路围鄂州的蒙古军北还，攻宋中止。此事牵动汗位继承，宋蒙战争因而中断，不只是一次守城。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷三",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷四百七十四",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "meng-ge",
+      "name": "蒙哥",
+      "display": "蒙哥",
+      "birth": 1209,
+      "birthAccuracy": "exact",
+      "death": 1259,
+      "deathAccuracy": "exact",
+      "birthNote": "本纪记宪宗己未年崩、年五十二，折生年在一二〇八年前后，此处采常见的一二〇九年系年。",
+      "title": "元宪宗，1251—1259 年在位",
+      "bio": "拖雷长子。1251 年即汗位，诛锄诸王异己，命忽必烈总漠南汉地、旭烈兀西征。1259 年亲征南宋，久顿合州钓鱼城下，七月卒于军中，蒙古西征自此敛兵。",
+      "tags": [
+        "元",
+        "蒙古"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-jian-1264",
+      "name": "王坚",
+      "display": "王坚",
+      "birthAccuracy": "unknown",
+      "death": 1264,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年据《宋史》本纪系年，诸书或系咸淳间。",
+      "title": "钓鱼城下殒蒙哥的守将",
+      "bio": "孟珙旧部。知合州，凭钓鱼天险拒蒙哥亲征大军九阅月，蒙哥殒于城下，欧亚震动。后内调知和州，景定五年卒。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

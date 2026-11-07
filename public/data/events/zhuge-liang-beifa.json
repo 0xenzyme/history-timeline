@@ -1,0 +1,223 @@
+{
+  "id": "zhuge-liang-beifa",
+  "name": "诸葛亮北伐",
+  "display": "诸葛亮北伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 228,
+  "yearAccuracy": "exact",
+  "yearNote": "227年《出师表》北驻汉中为备战预备，228年春首次出兵攻祁山为开战锚（三国志卷35「六年春，揚聲由斜谷道取郿」），终于234年八月亮卒五丈原（「其年八月，亮疾病，卒于軍」）。五次北伐：228春祁山（街亭）、228冬围陈仓、229取武都阴平、231再出祁山（卤城、木门）、234屯五丈原，desc 覆盖五次。演义「六出祁山」不可用。",
+  "endYear": 234,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "shu",
+    "wei"
+  ],
+  "commanders": [
+    {
+      "id": "zhuge-liang",
+      "side": "shu"
+    },
+    {
+      "id": "sima-yi",
+      "side": "wei"
+    },
+    {
+      "id": "cao-zhen",
+      "side": "wei"
+    },
+    {
+      "id": "zhang-he",
+      "side": "wei"
+    }
+  ],
+  "people": [
+    "zhuge-liang",
+    "cao-rui",
+    "sima-yi",
+    "zhang-he",
+    "zhao-yun",
+    "cao-zhen"
+  ],
+  "result": "五次北伐未定陇右关中，张郃追击死于木门；234年八月亮卒五丈原军中，蜀汉此后转攻为守",
+  "aliases": [
+    "诸葛亮五次北伐",
+    "武侯北伐"
+  ],
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "227 年诸葛亮上《出师表》、率诸军北驻汉中；228 年春扬声由斜谷取郿而身攻祁山，冬围陈仓，229 年取武都、阴平，231 年再出祁山与司马懿相持，张郃追击死于木门，234 年悉大众由斜谷出、屯五丈原。与魏相持百余日，是年八月亮疾病、卒于军。五次北伐（正史口径，演义「六出祁山」不可用）未定陇右关中，蜀汉自此转攻为守，魏蜀攻守格局定型。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·诸葛亮传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷七十一、卷七十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "jieting-zhizhan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "display": "诸葛亮",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "蜀汉丞相，隆中对，五出祁山",
+      "bio": "琅邪阳都人，早孤，随叔父玄避乱荆州，躬耕隆中。建安十二年三顾而出，遂定三分之策。受托辅政，南征四郡，五次北伐，制木牛流马，作八阵图。建兴十二年卒于五丈原军中，年五十四，谥忠武侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "chancellor",
+        "general",
+        "strategist"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-rui",
+      "name": "曹叡",
+      "display": "魏明帝曹叡",
+      "birth": 204,
+      "birthAccuracy": "exact",
+      "death": 239,
+      "deathAccuracy": "exact",
+      "title": "魏明帝，御蜀吴而大兴宫室",
+      "bio": "曹丕长子，母甄氏。在位十三年，诸葛亮五出祁山，使司马懿、曹真拒之；孙权数攻合肥、新城，皆不能入。后期大兴洛阳宫室，广采众女。景初三年崩，年三十六，托孤于司马懿，曹魏从此入司马氏之手。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-yi",
+      "name": "司马懿",
+      "display": "司马懿",
+      "birth": 179,
+      "birthAccuracy": "exact",
+      "death": 251,
+      "deathAccuracy": "exact",
+      "title": "魏太傅，拒诸葛亮，高平陵夺权",
+      "bio": "河内温人，字仲达。曹操辟为文学掾，历事三世。拒诸葛亮于渭南，坚壁不出，卒使亮星落五丈原。正始十年乘曹爽出谒高平陵，闭城奏诛之，魏之大权归司马氏。嘉平三年薨，年七十三。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "display": "张郃",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，街亭破马谡",
+      "bio": "河间鄚人，字儁乂。本袁绍部将，官渡之役来归；识变量，善处营阵，料地势战阵无不精；街亭之役破马谡，平陇右；太和五年追击诸葛亮于木门，中飞矢卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-yun",
+      "name": "赵云",
+      "display": "赵云",
+      "birthAccuracy": "unknown",
+      "death": 229,
+      "deathAccuracy": "exact",
+      "title": "五虎上将，长坂坡单骑救主",
+      "bio": "常山真定人，字子龙。初从公孙瓒，后归刘备，患难相随。长坂坡于乱军中怀抱幼主刘禅，出入重围，血染征袍；赤壁后随刘备取荆益，定益州。汉水之战设空营计，大破曹军，刘备叹「子龙一身都是胆也」。建兴七年卒，谥顺平侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-zhen",
+      "name": "曹真",
+      "display": "曹真",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，久镇关中",
+      "bio": "字子丹，曹操族子，少孤，操收养与诸子同。久镇西线，街亭之役督张郃破马谡，却诸葛亮首出祁山；明帝时为大司马。太和五年卒，谥元侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

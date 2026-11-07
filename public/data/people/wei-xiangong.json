@@ -1,0 +1,37 @@
+{
+  "id": "wei-xiangong",
+  "name": "姬衎",
+  "display": "卫献公",
+  "birthAccuracy": "unknown",
+  "death": -544,
+  "deathAccuracy": "exact",
+  "deathNote": "左传·襄公二十九年（前544）卫献公卒、时尚在殡；史记·卫康叔世家「是年，獻公卒，子襄公惡立」。献公前576—前559在位，前546复归，前544卒。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "襄公二十九年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

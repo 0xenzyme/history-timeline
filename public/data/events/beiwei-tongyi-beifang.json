@@ -1,0 +1,107 @@
+{
+  "id": "beiwei-tongyi-beifang",
+  "name": "北魏统一北方",
+  "display": "统一北方",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 427,
+  "yearAccuracy": "exact",
+  "yearNote": "以北魏攻夏克统万（427）为进程起点，太延五年（439）灭北凉完成统一；426 年已对夏用兵，旧专题条目以 439 年（灭北凉）为锚。",
+  "endYear": 439,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "bei",
+    "shiliuguo"
+  ],
+  "people": [
+    "tuoba-tao",
+    "juqu-muqian"
+  ],
+  "result": "439 年灭北凉，北方归于统一，与刘宋形成南北对峙",
+  "aliases": [
+    "太武统一北方",
+    "北魏统一北方战争",
+    "nb-tongyi"
+  ],
+  "dynasties": [
+    "shiliuguo",
+    "northern-southern"
+  ],
+  "desc": "北魏太武帝拓跋焘自始光年间连年攻夏，427 年（始光四年）破夏都统万，继取关中；神麚年间大破柔然以除北顾之忧，436 年灭北燕，439 年（太延五年）亲征围姑臧，北凉沮渠牧犍出降。十六国分裂局面至此结束，黄河流域归于统一，中国北方与南朝宋形成南北对峙。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "世祖纪",
+      "kind": "classic"
+    },
+    {
+      "work": "宋书",
+      "part": "索虏传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "tongwan-zhizhan",
+    "beiwei-po-rouran",
+    "beiwei-mie-beiliang"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tuoba-tao",
+      "name": "拓跋焘",
+      "display": "太武帝拓跋焘",
+      "birth": 408,
+      "birthAccuracy": "exact",
+      "death": 452,
+      "deathAccuracy": "exact",
+      "title": "北魏太武帝，统一北方，灭佛",
+      "bio": "鲜卑拓跋部人，明元帝长子。在位连灭夏、北燕、北凉，击柔然、通西域，北方一统。太延中征江南，至瓜步而还，江左震动。太平真君七年诏尽诛沙门、毁诸佛像塔寺，为中国佛教三武之祸之始。正平二年为中常侍宗爱所弑，年四十五。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "juqu-muqian",
+      "name": "沮渠牧犍",
+      "display": "河西王沮渠牧犍",
+      "birthAccuracy": "unknown",
+      "death": 447,
+      "deathAccuracy": "exact",
+      "deathNote": "传文先书真君八年搜其家，至此赐昭仪死，是年赐牧犍死。",
+      "title": "北凉末主，真君八年赐死",
+      "bio": "蒙逊死后继为河西王。太武平凉后仍待以妹婿。真君八年有人告他与故臣民交通，崔浩奉诏在公主第赐死。",
+      "tags": [
+        "南北朝",
+        "北凉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

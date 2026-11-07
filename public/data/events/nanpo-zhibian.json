@@ -1,0 +1,120 @@
+{
+  "id": "nanpo-zhibian",
+  "name": "南坡之变",
+  "display": "南坡之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1323,
+  "yearAccuracy": "exact",
+  "yearNote": "至治三年八月癸亥。续资译作特克实、拜珠。",
+  "place": "南坡",
+  "polity": [
+    "yuan"
+  ],
+  "people": [
+    "tie-shi",
+    "bai-zhu",
+    "ying-zong"
+  ],
+  "result": "铁失弑英宗",
+  "aliases": [
+    "英宗遇弑"
+  ],
+  "dynasties": [
+    "yuan"
+  ],
+  "desc": "至治三年八月癸亥，英宗驻跸南坡。当夜铁失杀死丞相拜住，并弑英宗。元中期的皇权被这次宫廷政变打断。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷二十八·英宗本纪",
+      "note": "八月癸亥驻跸南坡，铁失杀拜住并弑帝",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷二百一",
+      "note": "驻跸南坡，特克实杀拜珠并手弑帝",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tie-shi",
+      "name": "铁失",
+      "display": "铁失",
+      "birthAccuracy": "unknown",
+      "death": 1323,
+      "deathAccuracy": "exact",
+      "title": "南坡弑逆之首",
+      "bio": "铁木迭儿余党，掌忠翊卫亲军。惧英宗追治旧罪，1323 年八月于上都南坡店弑帝及丞相拜住；泰定帝即位旋诛之。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "regent",
+        "rebel"
+      ],
+      "primary": "regent",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bai-zhu",
+      "name": "拜住",
+      "display": "拜住",
+      "birth": 1298,
+      "birthAccuracy": "exact",
+      "death": 1323,
+      "deathAccuracy": "exact",
+      "title": "南坡同死之相",
+      "bio": "安童之孙，木华黎之后。英宗朝为中书右丞相，佐帝减赋役、起用老臣，新政方张；1323 年随帝南还，南坡之变与帝同被害，年二十五。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ying-zong",
+      "name": "硕德八剌",
+      "display": "元英宗硕德八剌",
+      "birth": 1303,
+      "birthAccuracy": "exact",
+      "death": 1323,
+      "deathAccuracy": "exact",
+      "title": "南坡遇弑",
+      "bio": "仁宗子，锐意图治，任拜住推行新政，刊律令为《大元通制》；旋于南坡之变被铁失等弑杀。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

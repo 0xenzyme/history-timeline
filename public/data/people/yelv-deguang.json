@@ -1,0 +1,188 @@
+{
+  "id": "yelv-deguang",
+  "name": "耶律德光",
+  "display": "辽太宗",
+  "birth": 902,
+  "birthAccuracy": "exact",
+  "death": 947,
+  "deathAccuracy": "exact",
+  "title": "得燕云之君，卒于杀胡林",
+  "bio": "阿保机次子，以于越受遗即位。天显十一年应石敬瑭之请，自雁门援晋，得燕云十六州，契丹自此有幽燕之固。会同九年杜重威举军降，入汴，建国号大辽，改元大同；北归，暴卒于栾城杀胡林，\"得国而不得中原之民\"。",
+  "tags": [
+    "契丹",
+    "辽"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "polity": [
+    "liao-jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "khitan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yelv-abaoji",
+      "target": "yelv-deguang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，以德光为天下兵马大元帅，灭晋之役自将"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "yelv-deguang",
+      "target": "yelv-ruan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，北归暴卒，永康王为军中所立"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "称儿皇帝，父事契丹"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-chonggui",
+      "target": "yelv-deguang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "称孙不称臣，三度受伐"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "du-chongwei",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以大军降，导契丹入汴"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baituanwei-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "ge-yanyun-shi-liu-zhou",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "houhan-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "houjin-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "hutuo-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "jinyang-zhiwei",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qidan-fa-houjin",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qidan-gaihao-liao",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qidan-mie-bohai",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qidan-mie-houjin",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "shi-jingtang-jie-bing",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yangcheng-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yanyun-shiliuzhou-gerang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "太宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "四夷附录",
+      "kind": "classic"
+    }
+  ]
+}

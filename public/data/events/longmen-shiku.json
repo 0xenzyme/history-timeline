@@ -1,0 +1,72 @@
+{
+  "id": "longmen-shiku",
+  "name": "龙门石窟开凿",
+  "display": "龙门石窟开凿",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 493,
+  "yearAccuracy": "approx",
+  "yearNote": "通以孝文迁洛（493）为龙门始凿之始，古阳洞约太和末年至宣武帝景明间动工，历东西魏、北齐以讫隋唐。",
+  "place": "龙门",
+  "placeNow": "今河南洛阳南",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "yuan-hong"
+  ],
+  "result": "皇家石窟重心自云冈移于伊阙，与云冈并为北朝石窟双璧",
+  "aliases": [
+    "龙门石窟"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "孝文迁洛之后，伊阙双峰对峙、伊水中流，去都不过数驿，皇家石窟工程遂自云冈移此。古阳洞约太和末年至景明间开凿，造像衣冠一变云冈浑厚之法，开「秀骨清像」之制；宣武帝为孝文追福，诏凿宾阳三洞。龙门与云冈并为北朝皇家石窟双璧，其造像题记书法后世尊为「龙门二十品」，为魏碑之冠。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "释老志",
+      "kind": "classic"
+    },
+    {
+      "work": "百度百科：龙门石窟",
+      "kind": "database"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuan-hong",
+      "name": "元宏",
+      "display": "孝文帝元宏",
+      "birth": 467,
+      "birthAccuracy": "exact",
+      "death": 499,
+      "deathAccuracy": "exact",
+      "title": "北魏孝文帝，改汉姓、迁洛阳",
+      "bio": "鲜卑拓跋部人，本姓拓跋，献文帝长子。太和十四年亲政，十七年以南伐为名迁都洛阳，禁胡语胡服，改拓跋为元，定姓族、通婚姻、改制度，鲜卑尽化于汉。又数亲征南齐，不得志而还。太和二十三年崩于谷塘原，年三十三，太子恪立。",
+      "tags": [
+        "北朝",
+        "北魏",
+        "汉化"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

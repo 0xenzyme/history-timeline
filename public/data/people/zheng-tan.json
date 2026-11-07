@@ -1,0 +1,57 @@
+{
+  "id": "zheng-tan",
+  "name": "郑覃",
+  "display": "郑覃",
+  "birthAccuracy": "unknown",
+  "death": 842,
+  "deathAccuracy": "exact",
+  "title": "会昌二年卒",
+  "bio": "文宗朝同平章事。会昌二年守司徒致仕，卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yan",
+      "target": "zheng-tan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文宗朝为相，会昌二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郑覃"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "郑覃传",
+      "kind": "classic"
+    }
+  ]
+}

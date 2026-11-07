@@ -1,0 +1,58 @@
+{
+  "id": "wang-zhong-si",
+  "name": "王忠嗣",
+  "display": "王忠嗣",
+  "birth": 705,
+  "birthAccuracy": "exact",
+  "death": 749,
+  "deathAccuracy": "exact",
+  "title": "陇右节度，天宝八载暴卒",
+  "bio": "父海宾战死。天宝中为陇右节度，被诬，贬汉阳太守。七载量移汉东郡太守，明年暴卒，年四十五。",
+  "tags": [
+    "唐",
+    "天宝"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "wang-zhong-si",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天宝中贬汉阳，明年暴卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王忠嗣"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "王忠嗣传",
+      "kind": "classic"
+    }
+  ]
+}

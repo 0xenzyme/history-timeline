@@ -1,0 +1,80 @@
+{
+  "id": "cui-hao",
+  "name": "崔浩",
+  "display": "崔浩",
+  "birth": 381,
+  "birthAccuracy": "exact",
+  "death": 450,
+  "deathAccuracy": "exact",
+  "title": "北魏司徒，谋谟冠一时，国史之狱被诛",
+  "bio": "清河东武城人，崔宏之子，博览经史，历仕三帝，凡军国大计皆先咨而后行。破柔然、灭夏、取北凉，皆与谋。太延五年总史任，直书拓跋旧事，刊石立于衢路，鲜卑诸公见而忿之。太平真君十一年被收，诛于城南，清河崔氏及姻亲尽夷其族，年七十。",
+  "tags": [
+    "北朝",
+    "北魏"
+  ],
+  "categories": [
+    "official",
+    "strategist",
+    "gentry"
+  ],
+  "primary": "official",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yuan-hong",
+      "target": "cui-hao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崔浩修国史，后以「国史之狱」被诛"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "cui-hao",
+      "target": "wei-shou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "皆奉敕撰国史：崔浩修国书获罪，魏收撰魏书专一家之言"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "guoshi-zhiyu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "崔浩",
+    "崔伯渊"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "崔浩传",
+      "kind": "classic"
+    }
+  ]
+}

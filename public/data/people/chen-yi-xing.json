@@ -1,0 +1,57 @@
+{
+  "id": "chen-yi-xing",
+  "name": "陈夷行",
+  "display": "陈夷行",
+  "birthAccuracy": "unknown",
+  "death": 843,
+  "deathAccuracy": "exact",
+  "title": "会昌三年卒",
+  "bio": "文宗、武宗朝同平章事。会昌三年卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yan",
+      "target": "chen-yi-xing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文宗武宗朝为相，会昌三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈夷行"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "陈夷行传",
+      "kind": "classic"
+    }
+  ]
+}

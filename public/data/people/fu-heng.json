@@ -1,0 +1,86 @@
+{
+  "id": "fu-heng",
+  "name": "傅恒",
+  "display": "傅恒",
+  "birthAccuracy": "unknown",
+  "death": 1769,
+  "deathAccuracy": "exact",
+  "deathNote": "乾隆三十四年七月卒。",
+  "title": "孝贤之弟，经略征缅",
+  "bio": "富察氏，孝贤纯皇后弟。乾隆十年起在军机处行走。三十三年自请经略征缅，三十四年七月卒。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "chancellor",
+    "general"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-heng",
+      "target": "xiao-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姐弟。傅恒为孝贤纯皇后弟"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "qian-long",
+      "target": "fu-heng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "军机大臣。乾隆三十三年自请经略征缅"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "a-gui",
+      "target": "fu-heng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为高宗朝军机，征缅之役傅恒自请经略而病还"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "daxiaojinchuan-zhizhi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "傅恒传",
+      "kind": "classic"
+    }
+  ]
+}

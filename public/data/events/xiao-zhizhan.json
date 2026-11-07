@@ -1,0 +1,133 @@
+{
+  "id": "xiao-zhizhan",
+  "name": "崤之战",
+  "display": "崤之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -627,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·僖公三十三年》「夏，四月，辛巳，晉人及姜戎敗秦師於殽」；《史記·秦本紀》繆公三十三年（前627）春秦兵遂東、《晉世家》襄公元年四月敗秦師于殽。僖公三十三年＝前627。",
+  "place": "殽（崤山）",
+  "placeNow": "今河南三门峡市陕州区至洛宁西北的崤函古道（崤有二陵）",
+  "belligerents": [
+    "jin-guo",
+    "qin"
+  ],
+  "commanders": [
+    {
+      "id": "xian-zhen",
+      "side": "jin-guo"
+    },
+    {
+      "id": "jin-xianggong",
+      "side": "jin-guo"
+    }
+  ],
+  "people": [
+    "bai-lixi"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "秦袭郑，郑商人弦高犒师，秦灭滑而还；晋文公丧未葬，先轸力主「秦侮吾孤」，襄公墨衰绖发兵与姜戎遮秦师于崤，尽获秦三帅（文公夫人请归）。同年晋亦败狄于箕而先轸死之。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷16",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷005·秦本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "bai-lixi",
+      "name": "百里奚",
+      "display": "百里奚",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。相秦穆公，与穆公相始终的记载居多，取穆公卒年为活动下限。",
+      "title": "秦穆公大夫，五羖大夫",
+      "bio": "虞人。晋灭虞，辗转入秦。穆公闻其贤，以五张羊皮赎之。他的条几乎是穆公条的影子，东进与西霸都经他手。",
+      "tags": [
+        "秦国",
+        "五羖大夫"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xian-zhen",
+      "name": "先轸",
+      "display": "先轸",
+      "birthAccuracy": "unknown",
+      "death": -627,
+      "deathAccuracy": "exact",
+      "title": "晋中军将，城濮主谋",
+      "bio": "城濮原轸之谋。文公卒，他力主击秦于殽，胜而不礼；狄伐晋，免胄入狄师而死。霸主死后一年，这条武将条就截住了。",
+      "tags": [
+        "晋国",
+        "城濮",
+        "殽之战"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jin-xianggong",
+      "name": "晋襄公",
+      "display": "晋襄公",
+      "birthAccuracy": "unknown",
+      "death": -621,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王三十一年，晋襄公卒」。史记·晋世家未记其卒年。",
+      "title": "文公之子，守成七年",
+      "bio": "文公之子。文公殽之战后归国即位，七年。前621年卒。此后晋国进入栾书、郤缺、孙伯懋主政的时期。",
+      "tags": [
+        "文公之后",
+        "守成之君"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

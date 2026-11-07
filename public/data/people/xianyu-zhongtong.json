@@ -1,0 +1,84 @@
+{
+  "id": "xianyu-zhongtong",
+  "name": "鲜于仲通",
+  "display": "鲜于仲通",
+  "birth": 693,
+  "birthAccuracy": "disputed",
+  "death": 755,
+  "deathAccuracy": "approx",
+  "birthNote": "生年两说，或系693，或系694",
+  "deathNote": "卒年旧说系于天宝十四载（755），两唐书无系年卒句",
+  "title": "剑南节度使，征南诏大败",
+  "bio": "名向，字仲通，蓟州渔阳人，寄籍于蜀之新政。开元二十年进士，为剑南节度使章仇兼琼所知，因荐杨国忠于朝。天宝十载，将兵八万讨南诏，阁逻凤遣使谢罪，仲通不许，卷甲深入，至洱海，为南诏所败，士卒丧亡数万。杨国忠为掩其败，反荐为京兆尹。天宝十三载李宓再败，西南遂不可问。天宝十四载卒。",
+  "tags": [
+    "唐",
+    "南诏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xianyu-zhongtong",
+      "target": "yang-guo-zhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "仲通引荐国忠，丧师南诏为所掩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-mi-tang",
+      "target": "xianyu-zhongtong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "先后将兵征南诏，俱大败"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "tang-nanzhao-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "鲜于向"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "杨国忠传、南诏蛮传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百一十六",
+      "kind": "classic"
+    }
+  ]
+}

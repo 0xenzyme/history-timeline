@@ -1,0 +1,87 @@
+{
+  "id": "li-congke",
+  "name": "李从珂",
+  "display": "唐废帝",
+  "birthAccuracy": "unknown",
+  "death": 937,
+  "deathAccuracy": "exact",
+  "title": "后唐废帝，玄武楼自焚",
+  "bio": "镇州所掠孺子，本姓王，明宗爱之以为子，从征伐有勇名。闵帝立，惧不见容，起兵入洛自立。以石敬瑭肘腋之患致兵河东，契丹主德光来援，晋阳兵入洛，从珂携传国宝登玄武楼自焚，后唐亡。",
+  "tags": [
+    "五代",
+    "后唐"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-congke",
+      "target": "li-siyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养子，反戈相向而覆其家"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-congke",
+      "target": "shi-jingtang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太原举兵，引契丹灭唐"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fengxiang-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shi-jingtang-jie-bing",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "王珂"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "废帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "唐本纪下",
+      "kind": "classic"
+    }
+  ]
+}

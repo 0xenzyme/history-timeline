@@ -1,0 +1,106 @@
+{
+  "id": "ying-zhu",
+  "name": "嬴柱",
+  "display": "秦孝文王",
+  "birth": -302,
+  "birthAccuracy": "approx",
+  "death": -250,
+  "deathAccuracy": "exact",
+  "birthNote": "《秦本纪》索隐：五十三而立。前 250 年即位，据此推算生于前 302 年前后。",
+  "title": "秦王，除丧即位，三日而卒",
+  "bio": "昭襄王之子，为太子二十年。十月己亥即位，三日辛丑卒。条几乎只剩一个点，却把昭襄王与庄襄王接上——秦在这三年里没有换手。",
+  "tags": [
+    "秦国",
+    "短命"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-ji",
+      "target": "ying-zhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭襄王五十六年卒，子柱立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zhu",
+      "target": "ying-zichu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝文王即位三日而卒，子子楚立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "huayang-taihou",
+      "target": "ying-zhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝文王太子夫人，楚族也；子楚立，号华阳夫人——所生之子不得名位"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zhu",
+      "target": "li-bing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "秦昭王以李冰为蜀守，冰凿离碓、壅江作堋，穿二江成都之中，蜀为陆海"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-zhu",
+      "target": "fan-ju",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "范雎说昭王远交近攻，罢穰侯、废太后、杜私门，拜为相封应侯，秦之帝业自此成"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "秦孝文王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

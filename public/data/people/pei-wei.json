@@ -1,0 +1,66 @@
+{
+  "id": "pei-wei",
+  "name": "裴頠",
+  "display": "裴頠",
+  "birth": 267,
+  "birthAccuracy": "approx",
+  "death": 300,
+  "deathAccuracy": "exact",
+  "birthNote": "永康元年（300）遇害，年三十四，虚岁上推生年。",
+  "title": "西晋仆射，著崇有论",
+  "bio": "河东闻喜人，裴秀之子。弘雅有远识，博学稽古。忧时俗放荡、清谈误国，著《崇有论》以矫其弊。永康元年赵王伦废贾后，与张华同遇害，时年三十四。",
+  "tags": [
+    "晋",
+    "西晋",
+    "河东裴氏"
+  ],
+  "categories": [
+    "chancellor",
+    "official",
+    "thinker"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "pei-wei",
+      "target": "pei-xiu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，崇有矫虚"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "裴頠"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "裴頠传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "惠帝纪",
+      "kind": "classic"
+    }
+  ]
+}

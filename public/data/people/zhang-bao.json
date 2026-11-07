@@ -1,0 +1,71 @@
+{
+  "id": "zhang-bao",
+  "name": "张宝",
+  "display": "张宝",
+  "birthAccuracy": "unknown",
+  "death": 184,
+  "deathAccuracy": "exact",
+  "title": "地公将军，下曲阳被斩",
+  "bio": "钜鹿人，张角之弟。中平元年（184）随兄起事，众号地公将军。是年十月皇甫嵩破角弟张梁于广宗，十一月左中郎将皇甫嵩复攻宝于下曲阳，宝战败见斩，获首十余万，嵩筑京观于城南。黄巾之主力自此悉平，而州郡拥兵之局已成。",
+  "tags": [
+    "东汉",
+    "黄巾"
+  ],
+  "categories": [
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhang-bao",
+      "target": "zhang-jiao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟并起为黄巾三帅，宝号地公将军"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-bao",
+      "type": "rival",
+      "directed": false,
+      "since": 184,
+      "notes": [
+        "十一月破下曲阳，斩宝，筑京观于城南"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "张宝",
+    "地公将军"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇甫嵩朱儁列传",
+      "kind": "classic"
+    }
+  ]
+}

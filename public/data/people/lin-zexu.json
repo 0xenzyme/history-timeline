@@ -1,0 +1,87 @@
+{
+  "id": "lin-zexu",
+  "name": "林则徐",
+  "display": "林则徐",
+  "birth": 1785,
+  "birthAccuracy": "exact",
+  "death": 1850,
+  "deathAccuracy": "exact",
+  "title": "禁烟大臣",
+  "bio": "湖广总督，1839 年虎门销烟，主持禁烟；后遣戍伊犁，近代开眼看世界之先。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "minister",
+    "official"
+  ],
+  "primary": "official",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dao-guang",
+      "target": "lin-zexu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "任为钦差，赴粤禁烟"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "lin-zexu",
+      "target": "mu-zhang-a",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "主抚议而构之，与则徐禁烟之策相抗"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guan-tianpei",
+      "target": "lin-zexu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同在粤东筹防，则徐既去而天培独守虎门"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yapian-zhanzheng",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "林则徐传",
+      "kind": "classic"
+    }
+  ]
+}

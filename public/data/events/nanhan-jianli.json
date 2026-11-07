@@ -1,0 +1,72 @@
+{
+  "id": "nanhan-jianli",
+  "name": "南汉建立",
+  "display": "南汉建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 917,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系后梁贞明三年刘岩称帝，初国号大越，逾年改汉。贞明三年公历917。",
+  "place": "番禺",
+  "placeNow": "今广东广州",
+  "polity": [
+    "nanhan"
+  ],
+  "people": [
+    "liu-yan"
+  ],
+  "result": "刘岩称帝于番禺，初国号大越，逾年改汉；岭南之别为一国，史称南汉。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "后梁贞明三年，刘岩以有岭南之地，即皇帝位于番禺，国号大越，改元乾亨，以广州为兴王府。岩为刘隐之弟，隐卒而岩代立；逾年改国号汉，史称南汉。南汉恃五岭之险，隔岭自帝，不与中国通。传四主，至孙刘鋹，侈靡苛敛，宋开宝中潘美一军灭之。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后梁纪·贞明三年",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "汉",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-yan",
+      "name": "刘龑",
+      "display": "南汉高祖",
+      "birth": 889,
+      "birthAccuracy": "approx",
+      "death": 942,
+      "deathAccuracy": "exact",
+      "birthNote": "大有十五年（942）卒于番禺，年五十四，上推生年。",
+      "title": "南汉高祖，僭号岭南",
+      "bio": "封州人。兄隐仕唐为清海留后，隐卒代之，袭封南海王。据有岭南，乾亨元年即皇帝位，初号大越，旋改汉。造\"龑\"字名己，取\"飞龙在天\"之义；每接待邻使，张宫室、具珍宝以夸之。用法深刻，设汤镬铁床之刑。在位二十四年卒。",
+      "tags": [
+        "十国",
+        "南汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

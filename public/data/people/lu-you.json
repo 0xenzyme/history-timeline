@@ -1,0 +1,69 @@
+{
+  "id": "lu-you",
+  "name": "陆游",
+  "display": "陆游",
+  "birth": 1125,
+  "birthAccuracy": "exact",
+  "death": 1210,
+  "deathAccuracy": "exact",
+  "title": "放翁，爱国诗人",
+  "bio": "越州山阴人，少逢靖康之难，终身以恢复为念。诗近万首，沉郁悲慨；临殁犹示儿「王师北定中原日」。",
+  "tags": [
+    "宋",
+    "南宋",
+    "抗金"
+  ],
+  "categories": [
+    "poetry",
+    "literature"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lu-you",
+      "target": "xin-qiji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "爱国诗人词客，恢复之志相期"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "lu-you",
+      "target": "zhu-xi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同世大儒诗人，鹅湖之会后各有褒贬"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "陆游传",
+      "kind": "classic"
+    }
+  ]
+}

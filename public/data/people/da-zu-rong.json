@@ -1,0 +1,66 @@
+{
+  "id": "da-zu-rong",
+  "name": "大祚荣",
+  "display": "大祚荣",
+  "birthAccuracy": "unknown",
+  "death": 719,
+  "deathAccuracy": "exact",
+  "title": "渤海建国者，受唐册封渤海郡王",
+  "bio": "粟末靺鞨首领乞乞仲象之子，本名祚荣，无姓。武周万岁通天中，契丹李尽忠反，营州残破，靺鞨部东渡辽水。圣历元年，据东牟山建国，自称震国王，别称振国。后受唐招抚册封，为渤海郡王，遂以渤海为国号，制度仿唐，通使朝贡，有海东盛国之称。开元七年卒，子大武艺立。",
+  "tags": [
+    "渤海"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "bohai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "da-zu-rong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "受唐册封，为渤海郡王"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bohai-jianguo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "渤海靺鞨传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百六",
+      "kind": "classic"
+    }
+  ]
+}

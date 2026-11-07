@@ -1,0 +1,58 @@
+{
+  "id": "ding-feng",
+  "name": "丁奉",
+  "display": "丁奉",
+  "birthAccuracy": "unknown",
+  "death": 271,
+  "deathAccuracy": "exact",
+  "title": "吴右大司马，雪中奋短兵",
+  "bio": "庐江安丰人，字承渊。少以骁勇为小将；东兴之役雪中奋短兵破魏军；孙休欲诛孙綝，奉曰可因腊会以兵诛之，谋成；迎立孙皓，迁右大司马、左军师。建衡三年卒。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-quan",
+      "target": "ding-feng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孙权时为偏将军，东兴之战雪中奋短兵"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "丁奉",
+    "丁承渊"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·程黄韩蒋周陈董甘凌徐潘丁传",
+      "kind": "classic"
+    }
+  ]
+}

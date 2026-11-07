@@ -1,0 +1,55 @@
+{
+  "id": "xiong-tingbi",
+  "name": "熊廷弼",
+  "display": "熊廷弼",
+  "birth": 1569,
+  "birthAccuracy": "exact",
+  "death": 1625,
+  "deathAccuracy": "exact",
+  "title": "三方布置之策",
+  "bio": "字飞百，江夏人。经略辽东，主广宁与天津登莱三方布置之策而未得行; 广宁之败后与王化贞并论死，1625 年传首九边。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general",
+    "falling"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "xiong-tingbi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "经略辽东，三方布置之策未得行"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "熊廷弼传",
+      "kind": "classic"
+    }
+  ]
+}

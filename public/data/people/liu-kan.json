@@ -1,0 +1,68 @@
+{
+  "id": "liu-kan",
+  "name": "刘衎",
+  "display": "汉平帝",
+  "birth": -9,
+  "birthAccuracy": "exact",
+  "death": 6,
+  "deathAccuracy": "exact",
+  "title": "西汉平帝，王莽所立，十四岁而崩",
+  "bio": "元帝孙，中山王之子。九岁即位，政皆出莽。在位五年崩，或云莽鸩之。西汉的条断在他这里，之后是居摄与新朝。",
+  "tags": [
+    "西汉"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-kan",
+      "target": "liu-xin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从兄弟，同为元帝之孙。哀帝崩，九岁的刘衎（平帝）即位"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-kan",
+      "target": "wang-mang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "平帝暴崩，莽立孺子婴而摄政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "汉平帝"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "平帝纪",
+      "kind": "classic"
+    }
+  ]
+}

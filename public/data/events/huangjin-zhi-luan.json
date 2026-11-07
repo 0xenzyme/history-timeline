@@ -1,0 +1,137 @@
+{
+  "id": "huangjin-zhi-luan",
+  "name": "黄巾之乱",
+  "display": "黄巾之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 184,
+  "yearAccuracy": "exact",
+  "endYear": 185,
+  "endYearAccuracy": "approx",
+  "endYearNote": "主力在184—185年被镇压，余部活动延续更久",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "zhang-jiao",
+    "huangfu-song",
+    "zhu-jun",
+    "liu-hong"
+  ],
+  "result": "大规模民变被镇压，但州郡兵权扩张并加速东汉解体",
+  "aliases": [
+    "dh-huangjin"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "184年张角以太平道组织各地起事，黄巾军席卷多州。皇甫嵩、朱儁等平定主力，朝廷却因此扩大地方军政权力，为群雄割据留下条件。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "灵帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-jiao",
+      "name": "张角",
+      "display": "张角",
+      "birthAccuracy": "unknown",
+      "death": 184,
+      "deathAccuracy": "exact",
+      "title": "太平道首领，黄巾起事",
+      "bio": "钜鹿人，奉事黄老，畜养弟子，十余年间徒众数十万，置三十六方。中平元年（甲子）同日俱发，天下响应，京师震动。同年病卒，弟宝、梁相继败亡，然州郡自此握兵。",
+      "tags": [
+        "东汉",
+        "黄巾"
+      ],
+      "categories": [
+        "falling"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huangfu-song",
+      "name": "皇甫嵩",
+      "display": "皇甫嵩",
+      "birthAccuracy": "unknown",
+      "death": 195,
+      "deathAccuracy": "exact",
+      "title": "平黄巾之首，长社火攻",
+      "bio": "安定朝那人，皇甫规兄子。为左中郎将，长社以火攻破黄巾，斩获数万，与朱儁同平三郡。及董卓入京，卓与之有旧，不敢加害。官至太尉、光禄大夫，兴平二年卒。",
+      "tags": [
+        "东汉",
+        "黄巾"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-jun",
+      "name": "朱儁",
+      "display": "朱儁",
+      "birthAccuracy": "unknown",
+      "death": 195,
+      "deathAccuracy": "approx",
+      "deathNote": "本传但云「会李傕杀樊稠，而郭汜又自疑，与傕相攻……汜不肯，遂留质儁等。儁素刚，即日发病卒」；傕杀稠在献帝纪兴平二年二月，故卒年系约195年。",
+      "title": "与皇甫嵩同平黄巾，见质发病卒",
+      "bio": "会稽上虞人。中平元年黄巾起，儁讨颍川有功，与荆州刺史徐璆、南阳太守秦颉合围宛城，连斩赵弘、韩忠、孙夏，南阳平，与皇甫嵩同为平黄巾主将。董卓既诛，李傕、郭汜作乱，傕征儁入朝，拜太尉；郭汜留以为质，儁素刚，即日发病卒。",
+      "tags": [
+        "东汉",
+        "末世"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-hong",
+      "name": "刘宏",
+      "display": "汉灵帝",
+      "birth": 156,
+      "birthAccuracy": "exact",
+      "death": 189,
+      "deathAccuracy": "exact",
+      "title": "东汉灵帝，西园卖官，黄巾之岁",
+      "bio": "章帝玄孙，解渎亭侯之子。在位用十常侍，开西园明码卖官，聚钱为私藏。中平元年张角起，遂弛党锢、改刺史为州牧，地方自此拥兵。崩后少帝立，何进召董卓，天下遂分。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

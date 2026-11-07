@@ -1,0 +1,59 @@
+{
+  "id": "he-chong",
+  "name": "何充",
+  "display": "何充",
+  "birth": 292,
+  "birthAccuracy": "approx",
+  "death": 346,
+  "deathAccuracy": "exact",
+  "birthNote": "永和二年（346）卒，年五十五，虚岁上推生年。",
+  "title": "东晋辅政，推桓温镇荆州",
+  "bio": "庐江灊人。风韵淹雅。与庾冰同受康帝顾命，冰卒后辅政幼主，推桓温镇荆州。永和二年卒，年五十五，赠司空，谥文穆。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yue",
+      "target": "he-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "同受顾命"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "何充"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "何充传",
+      "kind": "classic"
+    }
+  ]
+}

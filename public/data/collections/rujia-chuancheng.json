@@ -1,0 +1,231 @@
+{
+  "id": "rujia-chuancheng",
+  "status": "published",
+  "name": "儒家传承",
+  "category": "thought",
+  "summary": "从孔门授受到宋代儒学，按编辑选取的代表人物观察经典解释与学术脉络；成员顺序不是连续师承谱系。",
+  "tags": [
+    "儒学",
+    "经典"
+  ],
+  "featuredOrder": 1,
+  "members": [
+    {
+      "id": "kong-zi",
+      "order": 1,
+      "featured": true,
+      "role": "孔门讲学与经典传授的起点"
+    },
+    {
+      "id": "yan-hui",
+      "order": 2,
+      "role": "孔门弟子"
+    },
+    {
+      "id": "zeng-zi",
+      "order": 3,
+      "role": "孔门弟子"
+    },
+    {
+      "id": "meng-zi",
+      "order": 4,
+      "featured": true,
+      "role": "战国儒学代表"
+    },
+    {
+      "id": "zhu-xi",
+      "order": 5,
+      "featured": true,
+      "role": "宋代儒学代表"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "yan-hui",
+      "type": "mentor"
+    },
+    {
+      "source": "kong-zi",
+      "target": "zeng-zi",
+      "type": "mentor"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn",
+    "warring-states",
+    "song"
+  ],
+  "views": [
+    "overview",
+    "members",
+    "timeline",
+    "relations"
+  ],
+  "defaultView": "overview",
+  "path": [
+    {
+      "label": "孔门授受",
+      "person": "kong-zi",
+      "view": "relations"
+    },
+    {
+      "label": "战国儒学",
+      "person": "meng-zi",
+      "view": "members"
+    },
+    {
+      "label": "宋代儒学",
+      "person": "zhu-xi",
+      "view": "timeline"
+    }
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孔子世家、仲尼弟子列传、孟子荀卿列传",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "朱熹传",
+      "kind": "classic"
+    }
+  ],
+  "body": "本系列以孔门授受、战国儒学和宋代儒学为三个阅读节点。孔子与颜回、曾参的关系沿用既有专题记录；孟子与朱熹仅作为跨时代代表成员，不由此推出连续或直接师承。",
+  "contractVersion": 1,
+  "people": [
+    {
+      "id": "kong-zi",
+      "name": "孔丘",
+      "display": "孔子",
+      "birth": -551,
+      "birthAccuracy": "disputed",
+      "death": -479,
+      "deathAccuracy": "exact",
+      "birthNote": "生年取《史记》前 551 年说",
+      "title": "儒家创始人",
+      "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+      "tags": [
+        "儒家",
+        "六经",
+        "论语"
+      ],
+      "categories": [
+        "scholar-official",
+        "confucian"
+      ],
+      "lane": ""
+    },
+    {
+      "id": "yan-hui",
+      "name": "颜回",
+      "display": "颜回",
+      "birth": -521,
+      "birthAccuracy": "approx",
+      "death": -481,
+      "deathAccuracy": "approx",
+      "title": "孔门德行第一",
+      "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
+      "tags": [
+        "复圣"
+      ],
+      "categories": [
+        "confucian"
+      ],
+      "lane": ""
+    },
+    {
+      "id": "zeng-zi",
+      "name": "曾参",
+      "display": "曾子",
+      "birth": -505,
+      "birthAccuracy": "approx",
+      "death": -435,
+      "deathAccuracy": "approx",
+      "title": "孔门弟子，以孝著称",
+      "bio": "字子舆。相传《孝经》出其门，并下传子思。宋以后列四配，称宗圣。",
+      "tags": [
+        "孝经",
+        "宗圣"
+      ],
+      "categories": [
+        "confucian"
+      ],
+      "lane": ""
+    },
+    {
+      "id": "meng-zi",
+      "name": "孟轲",
+      "display": "孟子",
+      "birth": -372,
+      "birthAccuracy": "approx",
+      "death": -289,
+      "deathAccuracy": "approx",
+      "title": "战国儒家，倡性善、仁政",
+      "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
+      "tags": [
+        "性善",
+        "仁政",
+        "亚圣"
+      ],
+      "categories": [
+        "scholar",
+        "confucian"
+      ],
+      "lane": ""
+    },
+    {
+      "id": "zhu-xi",
+      "name": "朱熹",
+      "display": "朱熹",
+      "birth": 1130,
+      "birthAccuracy": "exact",
+      "death": 1200,
+      "deathAccuracy": "exact",
+      "title": "晦庵，集理学之大成",
+      "bio": "婺源人，承二程而集理学大成，主「存天理、灭人欲」，编《四书章句集注》立为科举准的。讲学武夷、白鹿洞，泽被后世。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "neo-confucian",
+        "classics"
+      ],
+      "primary": "neo-confucian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "resolvedRelations": [
+    {
+      "source": "kong-zi",
+      "target": "yan-hui",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孔门德行科"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "zeng-zi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孔门弟子"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "eventRecords": []
+}

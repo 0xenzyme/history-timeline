@@ -1,0 +1,147 @@
+{
+  "id": "yongzhen-gaige",
+  "name": "永贞革新",
+  "display": "永贞革新",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 805,
+  "yearAccuracy": "exact",
+  "place": "长安",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "li-song",
+    "li-chun",
+    "liu-yu-xi",
+    "liu-zong-yuan"
+  ],
+  "result": "顺宗朝改革因宦官和权力斗争失败，顺宗内禅，改革党羽被贬",
+  "aliases": [
+    "永贞改革",
+    "二王八司马"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "805 年，唐顺宗即位后，王叔文、王伾等试图整顿宫市、财政和宦官掌握的禁军权力，并以韦执谊等在外朝配合。俱文珍等宦官集团反制，顺宗病重并内禅于李纯，改革迅速失败，王叔文党羽被贬为州司马。这次短暂改革成为唐中后期政治改革与宦官专权冲突的代表事件。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "卷十四·顺宗本纪、卷一三五·王叔文传",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "卷一六八·王叔文传、卷一七〇·杜黄裳传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-song",
+      "name": "李诵",
+      "display": "唐顺宗李诵",
+      "birth": 761,
+      "birthAccuracy": "exact",
+      "death": 806,
+      "deathAccuracy": "exact",
+      "title": "永贞革新",
+      "bio": "德宗长子，即位即病风喑，任用王叔文等行永贞革新，旋为俱文珍等所迫内禅，贬逐革新诸人。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-chun",
+      "name": "李纯",
+      "display": "唐宪宗李纯",
+      "birth": 778,
+      "birthAccuracy": "exact",
+      "death": 820,
+      "deathAccuracy": "exact",
+      "title": "唐宪宗，元和中兴，藩镇暂服",
+      "bio": "李诵长子，永贞元年即位。用杜黄裳、裴度、李绛、武元衡，平西川刘辟、镇海李锜，元和十二年雪夜入蔡州擒吴元济，淄青、成德相继听命，河南北三十余州复为朝廷所有，史称元和中兴。晚年服饵求长生，性躁而多内宠，元和十五年为宦官陈弘志等所弑于中和殿，年四十三。",
+      "tags": [
+        "唐",
+        "元和中兴"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yu-xi",
+      "name": "刘禹锡",
+      "display": "刘禹锡",
+      "birth": 772,
+      "birthAccuracy": "exact",
+      "death": 842,
+      "deathAccuracy": "exact",
+      "title": "太子宾客，玄都观诗，二十三年弃置身",
+      "bio": "彭城人，贞元进士，登博学宏辞科。永贞元年参与王叔文革新，事败贬朗州司马，凡十年；元和十年召还，作《玄都观桃花》「玄都观里桃千树，尽是刘郎去后栽」，执政不悦，再贬连州。历夔、和二州，晚年归洛，与白居易唱和。会昌二年卒，年七十一。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "poetry",
+        "official"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zong-yuan",
+      "name": "柳宗元",
+      "display": "柳宗元",
+      "birth": 773,
+      "birthAccuracy": "exact",
+      "death": 819,
+      "deathAccuracy": "exact",
+      "title": "柳州刺史，永州八记，死于贬所",
+      "bio": "河东解人，后徙于吴，少精敏绝伦，为文卓伟精致。贞元进士，与韩愈同为古文之倡。永贞元年坐王叔文党，贬永州司马，居十年，作《永州八记》。元和十年徙柳州刺史，州人信巫鬼而杀牛，为设教禁，又赎男女奴婢。元和十四年卒于柳州，年四十七。",
+      "tags": [
+        "唐",
+        "古文运动"
+      ],
+      "categories": [
+        "literature",
+        "confucian",
+        "official"
+      ],
+      "primary": "literature",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

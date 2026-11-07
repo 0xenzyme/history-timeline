@@ -1,0 +1,93 @@
+{
+  "id": "ying-quliang",
+  "name": "嬴渠梁",
+  "display": "秦孝公",
+  "birthAccuracy": "unknown",
+  "death": -338,
+  "deathAccuracy": "exact",
+  "title": "秦国国君，用商鞅变法",
+  "bio": "发愤令国中求贤。卫鞅入秦，变法十年，秦富强。他一卒，商鞅车裂——国君条与变法者条在前 338 年一起截断。",
+  "tags": [
+    "秦国",
+    "变法"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-quliang",
+      "target": "shang-yang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -356,
+      "notes": [
+        "卫鞅入秦变法"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-quliang",
+      "target": "ying-shixi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "灵公之子的献公，传位太子渠梁，即孝公"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-quliang",
+      "target": "ying-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝公卒，太子驷立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "shangyang-bianfa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "秦孝公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "商君列传",
+      "kind": "classic"
+    }
+  ]
+}

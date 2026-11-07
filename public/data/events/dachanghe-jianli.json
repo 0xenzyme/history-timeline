@@ -1,0 +1,72 @@
+{
+  "id": "dachanghe-jianli",
+  "name": "大长和建立",
+  "display": "大长和建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 902,
+  "yearAccuracy": "exact",
+  "yearNote": "南诏舜化贞卒，郑买嗣篡蒙氏，改国号大长和，改元安国，事在唐天复二年。",
+  "polity": [
+    "dachanghe"
+  ],
+  "people": [
+    "zheng-maisi"
+  ],
+  "result": "郑买嗣篡南诏，改国号大长和，蒙氏之族尽灭",
+  "aliases": [
+    "郑买嗣篡南诏"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "南诏自立国至唐末，蒙氏相承十数主，隆舜以后内乱数作，国政渐归清平官郑氏。舜化贞卒，嗣君尚幼，清平官郑买嗣遂篡蒙氏，改国号大长和，改元安国，蒙氏之族尽焉。买嗣为郑回七世孙，世执国政，至此以臣代君。大长和凡三主二十五年，后为东川节度使杨干贞所灭，云南别入天兴、义宁，再入大理。",
+  "sources": [
+    {
+      "work": "南诏野史",
+      "part": "大长和",
+      "kind": "classic"
+    },
+    {
+      "work": "滇载记",
+      "part": "大长和",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zheng-maisi",
+      "name": "郑买嗣",
+      "display": "郑买嗣",
+      "birthAccuracy": "unknown",
+      "death": 909,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年诸书并作公元 909 年；生年无载。",
+      "title": "大长和之立，杀主篡南诏",
+      "bio": "南诏清平官郑回之七世孙，世执国政。南诏末数内乱，舜化贞死，嗣君尚幼，买嗣遂篡蒙氏，改国号大长和，改元安国，蒙氏之族尽焉。在位八年而卒。",
+      "tags": [
+        "云南",
+        "大长和"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "dachanghe"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

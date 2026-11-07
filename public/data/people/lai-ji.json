@@ -1,0 +1,57 @@
+{
+  "id": "lai-ji",
+  "name": "来济",
+  "display": "来济",
+  "birth": 610,
+  "birthAccuracy": "approx",
+  "death": 662,
+  "deathAccuracy": "exact",
+  "birthNote": "龙朔二年没于阵，年五十三，上推生年。",
+  "deathNote": "龙朔二年拒突厥，不介胄而驰，没于阵。",
+  "title": "谏立武后，贬后阵没",
+  "bio": "永徽二年同中书门下三品，迁中书令。谏立武后，显庆中贬出。龙朔二年拒突厥，没于阵，年五十三。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "lai-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永徽中同三品，谏立武后，龙朔二年阵没"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "新唐书",
+      "part": "来济传",
+      "kind": "classic"
+    }
+  ]
+}

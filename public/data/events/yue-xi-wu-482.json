@@ -1,0 +1,109 @@
+{
+  "id": "yue-xi-wu-482",
+  "name": "越袭吴都（黄池会盟期间）",
+  "display": "越袭吴都（黄池会盟期间）",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -482,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·哀公十三年》经「於越入吳」；《左傳》六月丙子越子伐吴…丁亥入吳；《國語·吳語》韋昭注「黃池會在魯哀十三年」；《史記·吳太伯世家》夫差十四年（前482）六月丙子/乙酉/丙戌/丁亥同载。哀公十三年＝前482。",
+  "place": "吳都郊（姑熊夷、泓上一线）",
+  "placeNow": "今江苏省苏州市西南郊一带（吴郊地名，细部无考）",
+  "belligerents": [
+    "yue",
+    "wu-guo"
+  ],
+  "commanders": [
+    {
+      "id": "si-goujian",
+      "side": "yue"
+    },
+    {
+      "id": "fan-li",
+      "side": "yue"
+    }
+  ],
+  "parent": "wuyue-zhanzheng",
+  "aliases": [
+    "越入吴（哀公十三年）"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "夫差空国北上会晋定公于黄池，勾践命范蠡、舌庸率师沿海泝淮绝吴归路，自率中军袭吴：六月丙子伐吴，吴太子友、王子地、王孙弥庸御于泓上，弥庸违令出战先胜（获畴无余），丙戌复战大败吴师，获太子友、弥庸、寿于姚，丁亥越入吴国（国语：入其郛、焚其姑蘇、徙其大舟）。吴人告败于黄池，夫差恶诸侯闻之，自刭七人于幕下灭口，仓卒与晋争先歃血而返；归国后使厚币与越平。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷59（哀公十三年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "國語",
+      "part": "卷19·吳語",
+      "kind": "classic"
+    },
+    {
+      "work": "吳越春秋",
+      "part": "夫差內傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "si-goujian",
+      "name": "姒勾践",
+      "display": "越王勾践",
+      "birthAccuracy": "unknown",
+      "death": -465,
+      "deathAccuracy": "approx",
+      "deathNote": "《史记》未著绝对卒年，旧谱多系于句践三十三年、前 465 年。",
+      "title": "越王，灭吴",
+      "bio": "会稽之耻后，卧薪尝胆，用范蠡、文种。二十四年灭吴。他的条从夫差的阴影里穿出来，春秋的南线在此收束。",
+      "tags": [
+        "越国",
+        "灭吴"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fan-li",
+      "name": "范蠡",
+      "display": "范蠡",
+      "birthAccuracy": "unknown",
+      "death": -460,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。灭吴后浮海去越，取前 460 年左右为活动下限。",
+      "title": "越大夫，灭吴后去越",
+      "bio": "字少伯。与文种谋会稽之计。吴亡，他致书文种「飞鸟尽，良弓藏」，自去为陶朱公。谋臣条在胜利之后主动断开。",
+      "tags": [
+        "越国",
+        "去越"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dou-ying",
+  "name": "窦婴",
+  "display": "魏其侯",
+  "birthAccuracy": "unknown",
+  "death": -131,
+  "deathAccuracy": "exact",
+  "birthNote": "生年不详",
+  "title": "窦太后堂侄，前太子太傅",
+  "bio": "七国之乱时拜大将军守荥阳。因反对晁错削藩而与晁错相争，晚年与田蚡争权，下狱弃市。",
+  "tags": [
+    "七国之乱"
+  ],
+  "categories": [
+    "consort-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "dou-yifang",
+      "target": "dou-ying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "堂姑侄"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "dou-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -154,
+      "notes": [
+        "七国之乱拜大将军；栗太子立，又以为太子太傅"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "dou-ying",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "削藩之争，窦婴持反对"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "魏其武安侯列传",
+      "kind": "classic"
+    }
+  ]
+}

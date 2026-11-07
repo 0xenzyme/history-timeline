@@ -1,0 +1,75 @@
+{
+  "id": "tan-sitong",
+  "name": "谭嗣同",
+  "display": "谭嗣同",
+  "birth": 1865,
+  "birthAccuracy": "exact",
+  "death": 1898,
+  "deathAccuracy": "exact",
+  "title": "戊戌六君子",
+  "bio": "维新志士，著《仁学》；戊戌政变不肯逃，慷慨就义，为六君子之一。",
+  "tags": [
+    "清",
+    "维新"
+  ],
+  "categories": [
+    "official",
+    "thinker"
+  ],
+  "primary": "thinker",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kang-youwei",
+      "target": "tan-sitong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "维新同志，同列新政"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-xi",
+      "target": "tan-sitong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "戊戌政变，杀六君子"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wuxu-bianfa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "谭嗣同传",
+      "kind": "classic"
+    }
+  ]
+}

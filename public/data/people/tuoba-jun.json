@@ -1,0 +1,70 @@
+{
+  "id": "tuoba-jun",
+  "name": "拓跋濬",
+  "display": "文成帝拓跋濬",
+  "birth": 440,
+  "birthAccuracy": "exact",
+  "death": 465,
+  "deathAccuracy": "exact",
+  "title": "北魏文成帝，太武之孙",
+  "bio": "景穆太子长子，真君元年六月生于东宫。太武常置左右，称为世嫡皇孙。正平二年即位。和平六年五月崩于太华殿，年二十六。",
+  "tags": [
+    "南北朝",
+    "北魏"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tuoba-jun",
+      "target": "tuoba-tao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙。高宗为景穆长子，太武称为世嫡皇孙"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "tuoba-hong",
+      "target": "tuoba-jun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。显祖为高宗文成皇帝长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "拓跋濬",
+    "文成帝"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "高宗纪",
+      "kind": "classic"
+    }
+  ]
+}

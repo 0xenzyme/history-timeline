@@ -1,0 +1,102 @@
+{
+  "id": "chai-zongxun",
+  "name": "柴宗训",
+  "display": "周恭帝",
+  "birth": 953,
+  "birthAccuracy": "exact",
+  "death": 973,
+  "deathAccuracy": "exact",
+  "title": "恭帝冲龄禅位，封郑王",
+  "bio": "世宗之子，显德六年即位，年七岁。殿前都点检赵匡胤北征次陈桥驿，军变返旆，禅位。宋待以客礼，封郑王。开宝六年殂，年二十，葬嵩陵。",
+  "tags": [
+    "五代",
+    "后周"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chai-rong",
+      "target": "chai-zongxun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，恭帝冲龄而禅"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "fan-zhi",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "受顾命相恭帝，随世宗之子入宋"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "wang-pu",
+      "target": "chai-zongxun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "周之宰相，入宋撰《五代会要》"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-zongxun",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "陈桥返旆，恭帝让位"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chenqiao-bingbian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "恭帝纪",
+      "kind": "classic"
+    }
+  ]
+}

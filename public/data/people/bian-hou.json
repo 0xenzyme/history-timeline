@@ -1,0 +1,70 @@
+{
+  "id": "bian-hou",
+  "name": "卞皇后",
+  "display": "武宣卞皇后",
+  "birthAccuracy": "unknown",
+  "death": 230,
+  "deathAccuracy": "exact",
+  "deathNote": "传文太和四年春追谥其祖父，其年五月后崩。",
+  "title": "曹操之妻，曹丕之母",
+  "bio": "琅邪开阳人，文帝之母。曹操在谯纳她为妾。太和四年五月崩，七月合葬高陵。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "wei"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bian-hou",
+      "target": "cao-cao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操之妻，曹丕之母。太和四年崩"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "bian-hou",
+      "target": "cao-pi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。卞皇后是文帝之母"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "卞皇后",
+    "武宣卞皇后"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·后妃传·武宣卞皇后",
+      "kind": "classic"
+    }
+  ]
+}

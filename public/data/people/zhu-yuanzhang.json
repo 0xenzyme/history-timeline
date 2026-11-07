@@ -1,0 +1,340 @@
+{
+  "id": "zhu-yuanzhang",
+  "name": "朱元璋",
+  "display": "明太祖朱元璋",
+  "birth": 1328,
+  "birthAccuracy": "exact",
+  "death": 1398,
+  "deathAccuracy": "exact",
+  "title": "驱元建明",
+  "bio": "濠州孤穷，入郭子兴红巾军，收淮西渡江取集庆。削平陈友谅、张士诚，1368 年称帝建明，北伐克大都，元亡。",
+  "tags": [
+    "元",
+    "明"
+  ],
+  "categories": [
+    "monarch",
+    "warlord",
+    "rebel",
+    "founding",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan",
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    },
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-futong",
+      "target": "zhu-yuanzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为红巾系统，朱并其众而独大"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "chen-youliang",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1360,
+      "notes": [
+        "鄱阳湖决战，友谅中流矢死",
+        "鄱阳湖一战，友谅中流矢死"
+      ],
+      "topicIds": [
+        "yuan",
+        "ming"
+      ]
+    },
+    {
+      "source": "zhang-shicheng",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1365,
+      "notes": [
+        "平江围城，士诚被执死",
+        "平江围久乃下，士诚被执而死"
+      ],
+      "topicIds": [
+        "yuan",
+        "ming"
+      ]
+    },
+    {
+      "source": "shun-di",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1368,
+      "notes": [
+        "北伐克大都，元室北遁"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "wang-mian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "下婺州物色得之，置幕府授咨议参军"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "han-liner",
+      "target": "zhu-yuanzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "朱元璋受其官爵、用其龙凤年号十余年"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "ming-yuzhen",
+      "target": "zhu-yuanzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同起于南方群雄之间，各据一方而通使往来"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "liu-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "谋主，定开国方略"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "xu-da",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开国第一将，北伐克大都"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "chang-yuchun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "常遇春充先锋，所向披靡"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "zhu-yunwen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，太祖立皇太孙建文继统"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ma-huanghou",
+      "target": "zhu-yuanzhang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，好读书、屡劝宽刑"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-biao",
+      "target": "zhu-yuanzhang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，太子先卒，遂以太孙承统"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-wenzhong",
+      "target": "zhu-yuanzhang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "甥舅，文忠为太祖姊之子"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "mu-ying",
+      "target": "zhu-yuanzhang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "养子，赐姓而世镇云南"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "li-shan-chang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "掌书记、给军食，开国第一文臣"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hu-wei-yong",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1380,
+      "notes": [
+        "既诛惟庸，遂罢中书省，丞相之官自此不设"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "lan-yu",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1393,
+      "notes": [
+        "坐谋反诛，列侯以下死者万五千余人"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "tang-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "同里旧侣，请解兵归第得以令终"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yuanzhang",
+      "target": "song-lian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总修元史、教太子诸王，为文臣之首"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dadu-xianluo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "hongwu-chengdi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "lanyu-an",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "panyanghu-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "weisuo-huangce",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhongshu-feisheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

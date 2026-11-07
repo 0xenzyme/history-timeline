@@ -1,0 +1,198 @@
+{
+  "id": "liu-yilong",
+  "name": "刘义隆",
+  "display": "宋文帝刘义隆",
+  "birth": 407,
+  "birthAccuracy": "exact",
+  "death": 453,
+  "deathAccuracy": "exact",
+  "title": "宋文帝，元嘉之治，北伐三败",
+  "bio": "刘裕第三子，义熙十四年封彭城公，元嘉元年即位。在位三十年，劝农桑、轻徭薄赋，江左风俗于斯为美，号元嘉之治。然性好猜忌，檀道济、裴方明皆以疑见杀；三次北伐皆败，元嘉二十七年魏军至瓜步，江左震动。三十年欲废太子，为太子劭所弑，年四十七。",
+  "tags": [
+    "南朝",
+    "刘宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yilong",
+      "target": "liu-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，宋武开基、文皇元嘉"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yilong",
+      "target": "tan-daoji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "道济为宋名将，枉死而宋边备弱"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "zu-chongzhi",
+      "target": "liu-yilong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宋时测算圆周率、制大明历"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-jun",
+      "target": "liu-yilong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。孝武为文帝第三子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yilong",
+      "target": "xu-xianzhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元嘉三年正月下诏，尔日羡之自刭"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "fu-liang",
+      "target": "liu-yilong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元嘉三年傅亮伏诛，年五十三"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yilong",
+      "target": "tuoba-tao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元嘉二十七年太武至瓜步，宋人称为虏伪主"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yilong",
+      "target": "fan-ye",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元嘉中为尚书吏部郎、左卫将军、太子詹事；元嘉二十二年以与谢综、孔熙先谋逆被诛，年四十八"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yilong",
+      "target": "pei-songzhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宋初诏注陈寿《三国志》，元嘉六年奏上注六十五卷"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yilong",
+      "target": "xie-lingyun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元嘉中为永嘉太守，纵游山水，后以谋逆弃市"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "guabu-zhiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tandaoji-zhisi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanjia-beifa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanjia-zhizhi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanxiong-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘义隆",
+    "宋文帝"
+  ],
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "文帝纪",
+      "kind": "classic"
+    }
+  ]
+}

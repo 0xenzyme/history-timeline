@@ -1,0 +1,98 @@
+{
+  "id": "xiong-shuang",
+  "name": "熊霜",
+  "display": "楚熊霜",
+  "birthAccuracy": "unknown",
+  "death": -822,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：熊霜元年周宣王初立，六年卒。宣王元年取前 827 年，六年当 -822。",
+  "title": "楚熊霜",
+  "bio": "熊严长子。六年卒，三弟争立。",
+  "tags": [
+    "楚"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiong-shuang",
+      "target": "xiong-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。长子伯霜"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-shuang",
+      "target": "zhong-xue",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。熊霜卒，三弟争立，仲雪死"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "shu-kan",
+      "target": "xiong-shuang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。叔堪逃难于濮"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "xiong-shuang",
+      "target": "xiong-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。少弟季徇立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "熊霜",
+    "伯霜"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    }
+  ]
+}

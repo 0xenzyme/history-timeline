@@ -1,0 +1,45 @@
+{
+  "id": "kong-fu",
+  "name": "孔鲋",
+  "display": "孔鲋",
+  "birthAccuracy": "unknown",
+  "death": -208,
+  "deathAccuracy": "approx",
+  "deathNote": "史记·孔子世家「子慎生鮒，年五十七，為陳王涉博士，死於陳下」（raw/先秦-西汉/史記/卷047-孔子世家.md:186）；儒林列传「孔甲為陳涉博士，卒與涉俱死」（raw/先秦-西汉/史記/卷121-儒林列傳.md:20）。陈胜卒年本库系前208。取与陈涉俱死之年，作 approx；「年五十七」无生年锚点，不推生年。",
+  "polity": [
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "rebel"
+    },
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孔甲"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孔子世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "儒林列传",
+      "kind": "classic"
+    }
+  ]
+}

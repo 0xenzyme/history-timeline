@@ -1,0 +1,99 @@
+{
+  "id": "shi-tianze",
+  "name": "史天泽",
+  "display": "史天泽",
+  "birth": 1202,
+  "birthAccuracy": "exact",
+  "death": 1275,
+  "deathAccuracy": "exact",
+  "title": "汉人世侯之首",
+  "bio": "永清人，归蒙古后累世将相，镇真定、平李璮，从伯颜伐宋。沉毅知大体，为世祖所重。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "shi-tianze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "河北世侯之首，中统间位至丞相"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "li-tan",
+      "target": "shi-tianze",
+      "type": "rival",
+      "directed": false,
+      "since": 1262,
+      "notes": [
+        "璮叛之后，首请以子弟兵权还朝廷"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "shi-tianze",
+      "target": "zhang-rou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为河北汉军世侯，并从忽必烈"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "litan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiangyang-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xingsheng-zhidu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "史天泽传",
+      "kind": "classic"
+    }
+  ]
+}

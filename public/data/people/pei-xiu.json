@@ -1,0 +1,78 @@
+{
+  "id": "pei-xiu",
+  "name": "裴秀",
+  "display": "裴秀",
+  "birth": 224,
+  "birthAccuracy": "approx",
+  "death": 271,
+  "deathAccuracy": "exact",
+  "birthNote": "泰始七年（271）薨，年四十八，虚岁上推生年。",
+  "title": "西晋司空，定制图六体",
+  "bio": "河东闻喜人。少有令名，预禅代之谋。官至司空，作《禹贡地域图》十八篇，立制图六体，为中国地图学之则。泰始七年三月丙戌薨，年四十八。",
+  "tags": [
+    "晋",
+    "西晋",
+    "河东裴氏"
+  ],
+  "categories": [
+    "chancellor",
+    "official",
+    "science"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yan",
+      "target": "pei-xiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "司空，定制图六体"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "pei-wei",
+      "target": "pei-xiu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，崇有矫虚"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "裴秀"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "裴秀传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

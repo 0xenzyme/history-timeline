@@ -1,0 +1,95 @@
+{
+  "id": "su-shi",
+  "name": "苏轼",
+  "display": "苏轼",
+  "birth": 1037,
+  "birthAccuracy": "exact",
+  "death": 1101,
+  "deathAccuracy": "exact",
+  "title": "东坡居士，北宋文豪",
+  "bio": "眉山人，嘉祐进士，欧阳修叹其所为「他日文章必独步天下」。诗词书画俱绝，因乌台诗案贬黄州；仕途蹭蹬而性情旷达。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "official",
+    "literature",
+    "poetry",
+    "calligraphy",
+    "painting"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-guang",
+      "target": "su-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同属旧党，轼亦不满新法之激"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "su-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "欧阳公拔识东坡于礼部试"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-qingzhao",
+      "target": "su-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "两宋词坛先后并峙，易安「语尽而意不尽」自出机杼"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-shi",
+      "target": "chao-buzhi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "补之以《七述》见苏轼，遂为苏门四学士之一"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "苏轼传",
+      "kind": "classic"
+    }
+  ]
+}

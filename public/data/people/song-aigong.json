@@ -1,0 +1,64 @@
+{
+  "id": "song-aigong",
+  "name": "宋哀公",
+  "display": "宋哀公",
+  "birthAccuracy": "unknown",
+  "death": -800,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：哀公元年卒。惠公三十年当 -801，哀公元年当 -800。",
+  "title": "宋哀公",
+  "bio": "惠公之子。元年卒，子戴公立。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "song-aigong",
+      "target": "song-huigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "song-aigong",
+      "target": "song-daigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "宋哀公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "宋微子世家"
+    }
+  ]
+}

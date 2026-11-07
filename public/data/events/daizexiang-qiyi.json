@@ -1,0 +1,90 @@
+{
+  "id": "daizexiang-qiyi",
+  "name": "大泽乡起义",
+  "display": "大泽乡起义",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": -209,
+  "yearAccuracy": "exact",
+  "place": "大泽乡",
+  "placeNow": "今安徽宿州东南",
+  "polity": [
+    "qin"
+  ],
+  "people": [
+    "chen-sheng",
+    "wu-guang"
+  ],
+  "result": "秦末民变开端，六国故地并起亡秦",
+  "dynasties": [
+    "qin"
+  ],
+  "desc": "前 209 年七月，陈胜、吴广率戍卒九百人于蕲县大泽乡举事，诈称公子扶苏、项燕，号张楚。攻蕲下陈，据陈称王，四方响应，六国故地并起。起义虽半年而败，然秦亡之局自此始——中国史上第一次大规模农民战争，由此揭幕。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈涉世家",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "陈胜项籍传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "chen-sheng",
+      "name": "陈胜",
+      "display": "陈胜",
+      "birthAccuracy": "unknown",
+      "death": -208,
+      "deathAccuracy": "exact",
+      "title": "大泽乡首事，张楚王",
+      "bio": "与人佣耕，前 209 年大雨失期，遂与吴广起于蕲县大泽乡，号张楚。六月而败，为御者庄贾所杀，葬砀。亡秦的第一条，短而陡。",
+      "tags": [
+        "秦末",
+        "首事"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-guang",
+      "name": "吴广",
+      "display": "吴广",
+      "birthAccuracy": "unknown",
+      "death": -208,
+      "deathAccuracy": "exact",
+      "title": "大泽乡同起，假王，为田臧所杀",
+      "bio": "与陈胜同举事，为假王，监诸将西击荥阳。围城不下，部将田臧矫陈胜令杀之。起事两个月就断，张楚内部分裂从这条开始。",
+      "tags": [
+        "秦末",
+        "首事"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "polity": [
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

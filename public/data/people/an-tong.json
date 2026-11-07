@@ -1,0 +1,79 @@
+{
+  "id": "an-tong",
+  "name": "安童",
+  "display": "安童",
+  "birth": 1245,
+  "birthAccuracy": "approx",
+  "death": 1293,
+  "deathAccuracy": "exact",
+  "birthNote": "本传不载生年，依拜相时年十八之文推得，约一二四五年。",
+  "title": "木华黎之裔，少年拜相",
+  "bio": "木华黎四世孙。至元二年以十八岁为中书右丞相，推重汉法、荐引姚枢许衡，独阻阿合马；1293 年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "an-tong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "十八岁拜右丞相，推重汉法、独阻阿合马"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "an-tong",
+      "target": "mu-huali",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "四世孙，木华黎之裔世掌宿卫"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "an-tong",
+      "target": "bai-zhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，同出木华黎之家"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "安童传",
+      "kind": "classic"
+    }
+  ]
+}

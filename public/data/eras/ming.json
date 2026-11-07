@@ -1,0 +1,437 @@
+{
+  "id": "ming",
+  "name": "明",
+  "from": 1368,
+  "to": 1644,
+  "contractVersion": 1,
+  "group": "ming-qing",
+  "personCount": 258,
+  "eventCount": 39,
+  "founderRecords": [],
+  "topics": [
+    "ming"
+  ],
+  "people": [
+    {
+      "id": "zhu-yuanzhang",
+      "name": "朱元璋",
+      "display": "明太祖朱元璋",
+      "birth": 1328,
+      "birthAccuracy": "exact",
+      "death": 1398,
+      "deathAccuracy": "exact",
+      "title": "驱元建明",
+      "bio": "濠州孤穷，入郭子兴红巾军，收淮西渡江取集庆。削平陈友谅、张士诚，1368 年称帝建明，北伐克大都，元亡。",
+      "tags": [
+        "元",
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "warlord",
+        "rebel",
+        "founding",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan",
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-yunwen",
+      "name": "朱允炆",
+      "display": "明建文帝朱允炆",
+      "birth": 1377,
+      "birthAccuracy": "exact",
+      "death": 1402,
+      "deathAccuracy": "disputed",
+      "deathNote": "靖难四年宫中火起，不知所终。1402 是传统纪年的终点，不是确凿卒年。",
+      "title": "削藩引发靖难",
+      "bio": "太祖孙，懿文太子标之子。洪武三十一年嗣位，力行削藩；燕王棣起兵，靖难四年破南京，宫中火起，建文不知所终。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-di",
+      "name": "朱棣",
+      "display": "明成祖朱棣",
+      "birth": 1360,
+      "birthAccuracy": "exact",
+      "death": 1424,
+      "deathAccuracy": "exact",
+      "title": "永乐大帝，迁都北京",
+      "bio": "太祖第四子，封燕王。靖难之役入南京，即位后迁都北京、营紫禁城，遣郑和下西洋，修《永乐大典》，国势鼎盛。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-gaochi",
+      "name": "朱高炽",
+      "display": "明仁宗朱高炽",
+      "birth": 1378,
+      "birthAccuracy": "exact",
+      "death": 1425,
+      "deathAccuracy": "exact",
+      "title": "洪熙守成",
+      "bio": "成祖长子，体肥多病而仁厚。永乐二十二年即位，平反冤狱、轻徭薄赋，在位仅十月，开辟仁宣之治。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-zhanji",
+      "name": "朱瞻基",
+      "display": "明宣宗朱瞻基",
+      "birth": 1399,
+      "birthAccuracy": "exact",
+      "death": 1435,
+      "deathAccuracy": "exact",
+      "title": "仁宣之治",
+      "bio": "成祖孙，即位守成，重用三杨，与父仁宗并称仁宣之治；亦擅绘事，好促织之戏。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "painting"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-qizhen",
+      "name": "朱祁镇",
+      "display": "明英宗朱祁镇",
+      "birth": 1427,
+      "birthAccuracy": "exact",
+      "death": 1464,
+      "deathAccuracy": "exact",
+      "title": "土木堡被俘的皇帝",
+      "bio": "九岁即位，宠王振酿土木堡之变，为瓦剌所俘；归后幽禁南宫，复辟杀于谦。两度在位，命运独奇。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "dadu-xianluo",
+      "name": "大都陷落",
+      "display": "大都陷落",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1368,
+      "yearAccuracy": "exact",
+      "yearNote": "闰七月丙寅夜半北奔，八月庚午明军入城。元史八月原作庚申，校记改午，与明史庚午一致。应昌之死不并入。",
+      "place": "大都",
+      "belligerents": [
+        "yuan",
+        "ming"
+      ],
+      "commanders": [
+        {
+          "id": "xu-da",
+          "side": "ming"
+        },
+        {
+          "id": "shun-di",
+          "side": "yuan"
+        }
+      ],
+      "people": [
+        "zhu-yuanzhang"
+      ],
+      "result": "元廷退出大都，中原朝廷结束",
+      "aliases": [
+        "元顺帝北走",
+        "明军入大都"
+      ],
+      "dynasties": [
+        "yuan",
+        "ming"
+      ],
+      "desc": "至正二十八年闰七月丙寅夜半，元顺帝开健德门北奔。八月庚午，徐达率明军进入大都，元史称国亡。元朝在中原的朝廷由此结束。应昌之死在此后，不并入本条。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "卷四十七·顺帝本纪",
+          "note": "闰七月丙寅开健德门北奔，八月庚午大明兵入京城",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "卷二·太祖本纪",
+          "note": "八月庚午徐达入元都",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "hongwu-chengdi",
+      "name": "洪武称帝",
+      "display": "洪武称帝",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1368,
+      "yearAccuracy": "exact",
+      "yearNote": "至正二十八年、洪武元年正月乙亥。续资标题写一三六八年。八月徐达入大都已发布为 dadu-xianluo，不并入本条。",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-yuanzhang"
+      ],
+      "result": "定国号曰明，建元洪武",
+      "aliases": [
+        "朱元璋称帝",
+        "建国号明"
+      ],
+      "dynasties": [
+        "yuan",
+        "ming"
+      ],
+      "desc": "至正二十八年正月乙亥，朱元璋即皇帝位，定国号曰明，建元洪武。明朝从这一天开始。大都陷落另有已发布条目，不并入本条。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "卷二",
+          "note": "洪武元年正月乙亥即皇帝位，定号曰明，建元洪武",
+          "kind": "classic"
+        },
+        {
+          "work": "续资治通鉴",
+          "part": "卷二百二十",
+          "note": "至正二十八年正月乙亥即皇帝位，定国号曰明，建元洪武",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "weisuo-huangce",
+      "name": "卫所与黄册",
+      "display": "卫所与黄册",
+      "kind": "span",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1370,
+      "yearAccuracy": "approx",
+      "yearNote": "洪武间置卫所、籍军户，又造黄册以定赋役。通以十四世纪七八十年代为其制大定，无单一年；黄册以洪武十四年（1381）为始造，卫所则自渡江以来次第置立。",
+      "endYear": 1381,
+      "endYearAccuracy": "exact",
+      "place": "南京",
+      "placeNow": "今江苏南京",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-yuanzhang"
+      ],
+      "result": "兵籍定于卫所军户，赋役定于黄册里甲，明之国家骨立于此",
+      "aliases": [
+        "卫所制度",
+        "赋役黄册"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "明之制度，其大者成于洪武。京师要害之地置卫，环海襟要之地亦置卫，一卫五千六百人，统于都指挥使司，而进退之权在兵部。军皆世籍，为一军户，父子相继；官给屯田、月粮，无事则屯种自食，有事征发，事旋归伍。其粮饷则取诸里甲。太祖乃命有司核实户口，以户为主，详具旧管、新收、开除、实在之数，为四柱式，岁以其籍献于户部，藏之内府，题本库之黄纸面者，故曰黄册。又以一百一十户为里，推丁粮多者十人为里长，余百户为十甲，岁轮一甲应役。兵农分籍，军民异数，赋出于田而役出于丁。其后军户寖失其实，屯田为势豪所蚀，卫所之兵窳，则募兵起，加派之征亦与黄册之额不合。祖制之坏，皆始于名实之睽。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "兵志",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "食货志",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhongshu-feisheng",
+      "name": "废除中书省",
+      "display": "废除中书省",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1380,
+      "yearAccuracy": "exact",
+      "yearNote": "洪武十三年正月戊戌。胡惟庸伏诛与废相是同一月的一件事，不拆成两条。",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-yuanzhang",
+        "hu-wei-yong"
+      ],
+      "result": "罢中书省，废丞相，改五军都督府",
+      "aliases": [
+        "胡惟庸案",
+        "废丞相"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "洪武十三年正月戊戌，左丞相胡惟庸伏诛。同月罢中书省，废丞相，更定六部官秩，改大都督府为五军都督府。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "卷二",
+          "note": "洪武十三年正月戊戌胡惟庸伏诛，罢中书省，废丞相，改五军都督府",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jingnan-zhiyi",
+      "name": "靖难之役",
+      "display": "靖难之役",
+      "kind": "span",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1399,
+      "yearAccuracy": "exact",
+      "yearNote": "建文元年七月举兵，建文四年六月金川门、即位。",
+      "endYear": 1402,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-di",
+        "zhu-yunwen"
+      ],
+      "result": "燕王即皇帝位",
+      "aliases": [
+        "靖难"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "建文元年七月癸酉，燕王举兵，称其师曰靖难。建文四年六月乙丑金川门开，都城陷，己巳即皇帝位。双方都是明朝，皇统转到燕王一系。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "卷五",
+          "note": "建文元年七月举兵，称其师曰靖难。建文四年六月金川门开，己巳即皇帝位",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yongle-dadian",
+      "name": "《永乐大典》纂修",
+      "display": "《永乐大典》纂修",
+      "kind": "span",
+      "type": "cultural",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1403,
+      "yearAccuracy": "exact",
+      "yearNote": "永乐元年七月，成祖命解缙等纂修，类为一书；至六年告成，凡二万二千八百七十七卷、目录六十卷，更名《永乐大典》。见《明史·成祖本纪》《解缙传》。",
+      "endYear": 1408,
+      "endYearAccuracy": "exact",
+      "place": "南京",
+      "placeNow": "今江苏南京",
+      "polity": [
+        "ming"
+      ],
+      "people": [
+        "zhu-di",
+        "xie-jin"
+      ],
+      "result": "古今图书汇为一编，为类书之最；存于文渊阁，正本毁于明亡之际",
+      "aliases": [
+        "永乐大典",
+        "文献大成"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "成祖入践大位，欲以文治饰太平。洪武中既命修《永乐志》，未就；至是更诏重修，谓「天下古今事物，散载诸书，篇帙浩穰，不易检阅」，欲合而为一。以解缙、姚广孝、刘季篪、李庆等为总裁，都总裁则太子少师姚广孝与礼部尚书郑赐，发东宫所储书，及南京文渊阁所藏，旁及郡邑之所购、四方之所献，凡书七八千种，命文学之士悉力编录。其体例：以《洪武正韵》为纲，以韵统字，以字系事，凡天文、地理、人伦、国统、道德、政治制度、名物、奇闻、杂艺之属，皆以类从。用韵以统字，用字以系事，便于检寻，与他类书分门别类者异。六年冬成，名曰《永乐大典》，凡二万二千八百七十七卷，为一万一千九十五册，藏之文渊阁。嘉靖、隆庆间别摹一部，所谓副本也。明社既屋，正本之存亡，聚讼数百年；副本则散亡于兵火，今存者仅百分之三四，而历代佚书多赖之以存。神州文献，一线之延，实赖此书。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "艺文志",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "解缙传",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

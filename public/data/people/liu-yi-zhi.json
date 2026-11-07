@@ -1,0 +1,58 @@
+{
+  "id": "liu-yi-zhi",
+  "name": "刘祎之",
+  "display": "刘祎之",
+  "birth": 631,
+  "birthAccuracy": "exact",
+  "death": 687,
+  "deathAccuracy": "exact",
+  "title": "垂拱三年赐死，年五十七",
+  "bio": "武后朝同中书门下三品。垂拱三年赐死于家，年五十七。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wu-zetian",
+      "target": "liu-yi-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武后朝为相，垂拱三年赐死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘祎之"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "刘祎之传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "yu-qing",
+  "name": "虞卿",
+  "display": "虞卿",
+  "birthAccuracy": "unknown",
+  "death": -255,
+  "deathAccuracy": "approx",
+  "deathNote": "生卒不详，取前255年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:38）「虞卿者，遊説之士也。躡蹻檐簦説趙孝成王」。此句无绝对年，年份从台账。",
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "minister"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "平原君虞卿列传",
+      "kind": "classic"
+    }
+  ]
+}

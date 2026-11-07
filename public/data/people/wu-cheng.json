@@ -1,0 +1,67 @@
+{
+  "id": "wu-cheng",
+  "name": "吴澄",
+  "display": "吴澄",
+  "birth": 1249,
+  "birthAccuracy": "exact",
+  "death": 1333,
+  "deathAccuracy": "exact",
+  "title": "草庐先生",
+  "bio": "字幼清，号草庐，抚州崇仁人。调和朱陆，谓学当以尊德性为本；历国子监诸职而讲学不辍，1333 年卒，年八十五。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "scholar",
+    "neo-confucian"
+  ],
+  "primary": "scholar",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yin",
+      "target": "wu-cheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元代北南两大儒，讲学不倦"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "wu-cheng",
+      "target": "xu-qian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并为朱学传人，一居江右一居浙东"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "吴澄传",
+      "kind": "classic"
+    }
+  ]
+}

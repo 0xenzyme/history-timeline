@@ -1,0 +1,59 @@
+{
+  "id": "wang-lang",
+  "name": "王朗",
+  "display": "王朗",
+  "birthAccuracy": "unknown",
+  "death": 228,
+  "deathAccuracy": "exact",
+  "title": "魏司徒，经学名臣",
+  "bio": "东海郯人，字景兴。以通经拜郎中，汉末为会稽太守，孙策定江东后辗转入许；曹丕即王位迁御史大夫，及践阼改司空，明帝时为司徒。著《易》《春秋》《孝经》《周官》传。太和二年薨，谥成侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "wang-lang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操征为谏议大夫，魏初为司空"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王朗",
+    "王景兴"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·钟繇华歆王朗传",
+      "kind": "classic"
+    }
+  ]
+}

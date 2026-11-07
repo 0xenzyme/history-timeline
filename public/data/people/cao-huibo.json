@@ -1,0 +1,69 @@
+{
+  "id": "cao-huibo",
+  "name": "姬兕",
+  "display": "曹惠伯",
+  "birthAccuracy": "unknown",
+  "death": -760,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：惠伯二十五年犬戎杀幽王，三十六卒。二十五年当 -771，三十六当 -760。",
+  "title": "曹惠伯",
+  "bio": "戴伯之子。二十五年犬戎杀幽王，三十六年卒。",
+  "tags": [
+    "曹"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "cao-guo"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-daibo",
+      "target": "cao-huibo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-gongsheng",
+      "target": "cao-huibo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "惠伯二十五年犬戎杀幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "曹惠伯",
+    "惠伯兕"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管蔡世家",
+      "kind": "classic"
+    }
+  ]
+}

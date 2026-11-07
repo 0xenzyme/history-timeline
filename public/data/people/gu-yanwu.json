@@ -1,0 +1,56 @@
+{
+  "id": "gu-yanwu",
+  "name": "顾炎武",
+  "display": "顾炎武",
+  "birth": 1613,
+  "birthAccuracy": "exact",
+  "death": 1682,
+  "deathAccuracy": "exact",
+  "title": "经世致用",
+  "bio": "明清之际大儒，倡“天下兴亡匹夫有责”，重考证、主经世，开清代朴学。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "scholar",
+    "classics"
+  ],
+  "primary": "scholar",
+  "polity": [
+    "ming",
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gu-yanwu",
+      "target": "huang-zongxi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "清初三大儒，并称于世"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "儒林传·顾炎武",
+      "kind": "classic"
+    }
+  ]
+}

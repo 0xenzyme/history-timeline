@@ -1,0 +1,403 @@
+{
+  "id": "eastern-han",
+  "name": "东汉",
+  "from": 25,
+  "to": 220,
+  "contractVersion": 1,
+  "group": "qin-han",
+  "personCount": 178,
+  "eventCount": 36,
+  "founderRecords": [],
+  "topics": [
+    "donghan"
+  ],
+  "people": [
+    {
+      "id": "liu-xiu",
+      "name": "刘秀",
+      "display": "汉光武帝",
+      "birth": -5,
+      "birthAccuracy": "exact",
+      "death": 57,
+      "deathAccuracy": "exact",
+      "title": "东汉光武帝，布衣起兵，重建汉室",
+      "bio": "南阳蔡阳人，高祖九世孙，起于舂陵。昆阳以数千破莽军数十万，河北收铜马，遂定洛阳。罢兵偃武，退功臣而进文吏，释奴婢、度田。东汉全部镜头从他这条开始。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zhuang",
+      "name": "刘庄",
+      "display": "汉明帝",
+      "birth": 28,
+      "birthAccuracy": "exact",
+      "death": 75,
+      "deathAccuracy": "exact",
+      "title": "东汉明帝，严切守法，明章之治",
+      "bio": "光武第四子，阴丽华所出。遵奉建武制度，法令分明，日晏坐朝，幽枉必达。遣使西域求佛法，白马寺由此起。与其子章帝并称明章之治。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-da",
+      "name": "刘炟",
+      "display": "汉章帝",
+      "birth": 57,
+      "birthAccuracy": "exact",
+      "death": 88,
+      "deathAccuracy": "exact",
+      "title": "东汉章帝，宽厚长者，白虎观会议",
+      "bio": "明帝第五子。性宽容，禁苛切之政，罢盐铁之禁。建初四年会诸儒于白虎观，论定五经同异，命班固撰《白虎通义》。明章之治止于此，之后外戚与宦官交替。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "classics"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zhao",
+      "name": "刘肇",
+      "display": "汉和帝",
+      "birth": 79,
+      "birthAccuracy": "exact",
+      "death": 105,
+      "deathAccuracy": "exact",
+      "title": "东汉和帝，十四岁诛窦宪",
+      "bio": "章帝第四子，梁贵人所生，为窦后所养。十岁即位，窦太后临朝，窦宪专权。永元四年与宦官郑众谋，收宪印绶，迫之自杀，汉始用宦官。元兴元年崩，年二十七。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch",
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-hu",
+      "name": "刘祜",
+      "display": "汉安帝",
+      "birth": 94,
+      "birthAccuracy": "exact",
+      "death": 125,
+      "deathAccuracy": "exact",
+      "title": "东汉安帝，邓太后所立",
+      "bio": "章帝之孙，邓太后所立。太后临朝的那些年，权不在皇帝这一条上。建光以后才亲政，条收到公元 125 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-bao",
+      "name": "刘保",
+      "display": "汉顺帝",
+      "birth": 115,
+      "birthAccuracy": "exact",
+      "death": 144,
+      "deathAccuracy": "exact",
+      "title": "东汉顺帝，阎后废而复立",
+      "bio": "安帝子。曾被阎后废为济阴王，安帝崩后复立。条接在安帝之后，收到公元 144 年。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "guangwu-dengji",
+      "name": "光武称帝，东汉建立",
+      "display": "建东汉",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 25,
+      "yearAccuracy": "exact",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "liu-xiu",
+        "deng-yu"
+      ],
+      "result": "刘秀在鄗南即皇帝位，东汉政权建立",
+      "aliases": [
+        "dh-chengdi"
+      ],
+      "dynasties": [
+        "eastern-han"
+      ],
+      "desc": "25年六月，刘秀在鄗南即皇帝位，改元建武。此举使汉室复立，随后以洛阳为都并逐步平定各地割据。",
+      "sources": [
+        {
+          "work": "后汉书",
+          "part": "光武帝纪上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yongping-qiu-fa",
+      "name": "永平求法，佛教传入中土",
+      "display": "永平求法",
+      "kind": "point",
+      "type": "cultural",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 67,
+      "yearAccuracy": "disputed",
+      "yearNote": "永平十年（67）为《洛阳伽蓝记》《高僧传》等后世记载所系之年；明帝感梦遣使之事始见于《牟子理惑论》，学界对其史实性有异议。",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "liu-zhuang"
+      ],
+      "result": "汉明帝遣使西行求法，使者与沙门同还洛阳，敕建白马寺，佛教入华叙事自此始",
+      "dynasties": [
+        "eastern-han"
+      ],
+      "desc": "世传汉明帝夜梦金人，问于群臣，或言西方有神名佛，乃遣使西行求法；使者偕沙门摄摩腾、竺法兰以白马驮经还洛阳，明帝为之立白马寺于洛阳城外，译出《四十二章经》。此说把佛教传入中土系于永平年间，后世佛寺、译经与传教均以此为起点叙事。摄摩腾、竺法兰暂无 canonical 人物条目。佛教在汉地初起依附于黄老方术，至汉末桓、灵之世译经渐盛，才成为独立的社会力量。",
+      "sources": [
+        {
+          "work": "后汉书",
+          "part": "西域传",
+          "kind": "classic"
+        },
+        {
+          "work": "洛阳伽蓝记",
+          "part": "白马寺",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yongping-xiyu-kaifu",
+      "name": "永平通西域",
+      "display": "永平通西域",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 73,
+      "yearAccuracy": "exact",
+      "endYear": 74,
+      "endYearAccuracy": "exact",
+      "place": "伊吾卢",
+      "belligerents": [
+        "han",
+        "xiongnu"
+      ],
+      "commanders": [
+        {
+          "id": "dou-gu",
+          "side": "han"
+        },
+        {
+          "id": "ban-chao",
+          "side": "han"
+        }
+      ],
+      "people": [
+        "liu-zhuang"
+      ],
+      "result": "汉军取伊吾卢并置屯田，西域交通恢复",
+      "dynasties": [
+        "eastern-han"
+      ],
+      "desc": "73年，明帝命窦固等北征匈奴，取伊吾卢、置宜禾都尉屯田；次年复置西域都护与戊己校尉，东汉由此重建西域经营体系。",
+      "sources": [
+        {
+          "work": "后汉书",
+          "part": "西域传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yanran-zhizhan",
+      "name": "燕然之战",
+      "display": "燕然之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 89,
+      "yearAccuracy": "exact",
+      "place": "稽落山",
+      "placeNow": "今蒙古高原一带",
+      "belligerents": [
+        "han",
+        "xiongnu"
+      ],
+      "commanders": [
+        {
+          "id": "dou-xian",
+          "side": "han"
+        },
+        {
+          "id": "ban-gu",
+          "side": "han"
+        }
+      ],
+      "people": [
+        "liu-zhao"
+      ],
+      "result": "汉军大破北匈奴，窦宪登燕然山刻石纪功",
+      "aliases": [
+        "dh-yanran"
+      ],
+      "dynasties": [
+        "eastern-han"
+      ],
+      "desc": "89年，窦宪等在稽落山大破北匈奴，追击至和渠北鞮海，并登燕然山刻石勒功。北匈奴势力由此退却，北疆格局发生转折。",
+      "sources": [
+        {
+          "work": "后汉书",
+          "part": "和帝纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "cailun-zhizao",
+      "name": "蔡伦改进造纸术",
+      "display": "蔡伦改进造纸术",
+      "kind": "point",
+      "type": "cultural",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 105,
+      "yearAccuracy": "exact",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "cai-lun",
+        "liu-zhao"
+      ],
+      "result": "蔡伦以树皮、麻头、敝布、鱼网造纸奏上，纸取代简帛成为通用书写材料，世称蔡侯纸",
+      "dynasties": [
+        "eastern-han"
+      ],
+      "desc": "元兴元年（105）尚方令蔡伦用树皮、麻头、敝布、鱼网为原料改进造纸工艺，制成后奏上和帝，天下称蔡侯纸。此前书写或用竹简或用缣帛，简重而帛贵，纸在成本与重量两端兼有优势，使官府文书与书籍传抄得以大幅扩展。蔡伦是把造纸术定型并推广至官府制造的关键人物，而非纸的最初发明者——西汉已有麻质纤维纸的考古实物。纸张由此成为后世印刷术与知识传播的物资前提。",
+      "sources": [
+        {
+          "work": "后汉书",
+          "part": "宦者列传·蔡伦",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "汉纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "danggu-zhi-huo",
+      "name": "党锢之祸",
+      "display": "党锢之祸",
+      "kind": "span",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 166,
+      "yearAccuracy": "approx",
+      "yearNote": "两次党禁及其后续禁锢，起止按166—184年概括",
+      "endYear": 184,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "li-ying",
+        "chen-fan",
+        "guo-tai",
+        "liu-zhi"
+      ],
+      "result": "清流士人遭禁锢，宦官与外戚主导的权力结构进一步固化",
+      "aliases": [
+        "dh-danggu"
+      ],
+      "dynasties": [
+        "eastern-han"
+      ],
+      "desc": "桓帝、灵帝时期，宦官以党人罪名逮捕李膺、陈蕃等士人，禁锢牵连门生故吏。184年黄巾起事前后虽一度赦党，党锢造成的政治撕裂已难以恢复。",
+      "sources": [
+        {
+          "work": "后汉书",
+          "part": "党锢列传",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

@@ -1,0 +1,150 @@
+{
+  "id": "ji-chonger",
+  "name": "姬重耳",
+  "display": "晋文公",
+  "birth": -697,
+  "birthAccuracy": "disputed",
+  "death": -628,
+  "deathAccuracy": "exact",
+  "birthNote": "《晋世家》记奔狄时年四十三，则生年约前 697；或疑年岁偏长。",
+  "title": "春秋第二位公认霸主",
+  "bio": "献公子。在外十九年，秦纳之。城濮败楚、践土会盟。出亡的长条几乎空着，即位后的九年才把霸业画完。",
+  "tags": [
+    "晋国",
+    "城濮"
+  ],
+  "categories": [
+    "hegemon"
+  ],
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "hegemon"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-chonger",
+      "target": "ji-guizhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。骊姬之祸逼重耳出亡"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "li-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谮群公子，重耳奔狄"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "hu-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "舅犯从亡十九年，城濮之谋"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "xian-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -632,
+      "notes": [
+        "中军将，城濮主谋"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "ying-renhao",
+      "type": "peer",
+      "directed": false,
+      "since": -636,
+      "notes": [
+        "秦纳文公，三置晋君之一"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "zi-zifu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "襄公争盟失败后，文公城濮定霸"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chengpu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jiantu-zhimeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jin-wengong-qinwang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liji-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "晋文公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "僖公二十四年",
+      "kind": "classic"
+    }
+  ]
+}

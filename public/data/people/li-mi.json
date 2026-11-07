@@ -1,0 +1,105 @@
+{
+  "id": "li-mi",
+  "name": "李密",
+  "display": "李密",
+  "birth": 582,
+  "birthAccuracy": "exact",
+  "death": 619,
+  "deathAccuracy": "exact",
+  "title": "瓦岗之主，据洛口仓，降唐而复叛",
+  "bio": "辽东襄平人，李弼曾孙，少袭蒲山公。大业九年从杨玄感起兵，玄感败，亡命雍丘，后入瓦岗，说翟让取洛口仓，开仓恣民所取，众至数十万，自为魏公。既杀让而部曲离心，为王世充所败，奔唐，复叛，武德二年为盛彦师斩于熊耳山，年三十七。",
+  "tags": [
+    "隋末",
+    "瓦岗"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "sui",
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "mowei"
+    },
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-mi",
+      "target": "zhai-rang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "让推密为主，旋为密所杀"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "li-mi",
+      "target": "zhang-xu-tuo",
+      "type": "rival",
+      "directed": false,
+      "since": 616,
+      "notes": [
+        "大业十二年密与翟让邀击须陀于荥阳大海寺，须陀溃围复入力战而死"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "li-mi",
+      "target": "li-yuan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "瓦岗败后降唐复叛，武德二年斩于熊耳山"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "suimo-nongmin-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wagang-xingluocang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李密",
+    "李玄邃",
+    "魏公"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "李密传",
+      "kind": "classic"
+    }
+  ]
+}

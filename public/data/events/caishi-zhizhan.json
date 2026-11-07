@@ -1,0 +1,130 @@
+{
+  "id": "caishi-zhizhan",
+  "name": "采石之战",
+  "display": "采石之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 1161,
+  "yearAccuracy": "exact",
+  "yearNote": "绍兴三十一年十一月丙子。battle 不写 endYear。完颜亮同月乙未被弑，不把会战改成跨月战争。",
+  "place": "东采石",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "yu-yunwen",
+    "wanyan-liang",
+    "zhao-gou"
+  ],
+  "result": "宋舟师挡住完颜亮渡江，亮焚舟转向淮东；同月被弑于扬州龟山寺。金军没有进入江南。",
+  "aliases": [
+    "东采石之战"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "绍兴三十一年十一月丙子，虞允文以舟师在东采石击败完颜亮的渡江军，次日再败之于杨林河口，亮焚舟趋淮东。同月乙未，金人弑亮于扬州龟山寺；世宗已于十月即位。金军没有进入江南，南宋因此没有再遭一次建炎式的追击。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷32",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷6",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷135",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yu-yunwen",
+      "name": "虞允文",
+      "display": "虞允文",
+      "birth": 1110,
+      "birthAccuracy": "exact",
+      "death": 1174,
+      "deathAccuracy": "exact",
+      "title": "采石书生却敌",
+      "bio": "完颜亮南侵，以中书舍人犒师采石，收散卒一万八千却金军十五万，儒臣之捷冠绝南渡。乾道间拜相，宣抚四川。淳熙元年薨，年六十五。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-liang",
+      "name": "完颜亮",
+      "display": "完颜亮",
+      "birth": 1122,
+      "birthAccuracy": "exact",
+      "death": 1161,
+      "deathAccuracy": "exact",
+      "title": "海陵王，南侵采石而殒",
+      "bio": "弑熙宗自立，迁都燕京、再迁汴。正隆六年大举南侵，誓「立马吴山第一峰」，采石为虞允文所败，瓜洲军中为部下所杀。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-gou",
+      "name": "赵构",
+      "display": "赵构",
+      "birth": 1107,
+      "birthAccuracy": "exact",
+      "death": 1187,
+      "deathAccuracy": "exact",
+      "title": "宋高宗，南宋开国",
+      "bio": "徽宗第九子，靖康后于南京应天府即位，南渡定都临安。任秦桧主和，杀岳飞，与金定绍兴和议，偏安江南。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

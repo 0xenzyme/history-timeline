@@ -1,0 +1,297 @@
+{
+  "id": "zhugeliang-beifa",
+  "name": "诸葛亮北伐",
+  "display": "诸葛亮北伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 228,
+  "yearAccuracy": "exact",
+  "yearNote": "自建兴六年（228）首次出祁山，至建兴十二年（234）病卒五丈原，其间五次大举出兵陇右、关中。",
+  "endYear": 234,
+  "endYearAccuracy": "exact",
+  "place": "陇右、关中",
+  "placeNow": "今甘肃东部与陕西中部",
+  "belligerents": [
+    "shu",
+    "wei"
+  ],
+  "commanders": [
+    {
+      "id": "zhuge-liang",
+      "side": "shu"
+    },
+    {
+      "id": "wei-yan",
+      "side": "shu"
+    },
+    {
+      "id": "jiang-wei",
+      "side": "shu"
+    },
+    {
+      "id": "sima-yi",
+      "side": "wei"
+    },
+    {
+      "id": "cao-zhen",
+      "side": "wei"
+    },
+    {
+      "id": "zhang-he",
+      "side": "wei"
+    }
+  ],
+  "people": [
+    "guo-huai",
+    "cao-rui",
+    "li-yan-shu"
+  ],
+  "result": "蜀汉屡出祁山而未能据有关陇，诸葛亮病卒军中，蜀汉转入守御",
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "建兴六年（228）诸葛亮率军出祁山，南安、天水、安定三郡响应，以马谡失街亭而退还；此后连年出兵，围陈仓、取武都阴平、破郭淮于阳溪。魏西线先后由曹真、司马懿主持，司马懿自 231 年起坚壁拒战，两军相持百余日；234 年诸葛亮屯五丈原，与司马懿对垒而病卒军中。五次北伐使弱小的蜀汉长期掌握战略主动，却未能改变关陇归属，蜀汉自此转入守御。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·诸葛亮传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "宣帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guo-huai",
+      "name": "郭淮",
+      "display": "郭淮",
+      "birthAccuracy": "unknown",
+      "death": 255,
+      "deathAccuracy": "exact",
+      "title": "魏征西将军，屡拒姜维",
+      "bio": "太原阳曲人，字伯济。历雍州刺史、征西将军，都督雍凉诸军事，屡拒姜维北伐，抚御羌胡得法。正元二年卒，追赠大将军，谥贞侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-rui",
+      "name": "曹叡",
+      "display": "魏明帝曹叡",
+      "birth": 204,
+      "birthAccuracy": "exact",
+      "death": 239,
+      "deathAccuracy": "exact",
+      "title": "魏明帝，御蜀吴而大兴宫室",
+      "bio": "曹丕长子，母甄氏。在位十三年，诸葛亮五出祁山，使司马懿、曹真拒之；孙权数攻合肥、新城，皆不能入。后期大兴洛阳宫室，广采众女。景初三年崩，年三十六，托孤于司马懿，曹魏从此入司马氏之手。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-yan-shu",
+      "name": "李严",
+      "display": "李严",
+      "birthAccuracy": "unknown",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "deathNote": "本传「闻诸葛亮卒，发病死」，承建兴十二年系年。",
+      "title": "蜀中都护，与诸葛亮并受托孤",
+      "bio": "南阳人，字正方。以才干见称，归刘备后守犍为；章武三年与诸葛亮并受遗诏辅后主，为中都护、统内外军事，留镇永安；建兴九年督运军粮误期，矫诏召亮还，坐废为民，徙梓潼郡；建兴十二年闻亮卒，发病死。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "regent",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "display": "诸葛亮",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "蜀汉丞相，隆中对，五出祁山",
+      "bio": "琅邪阳都人，早孤，随叔父玄避乱荆州，躬耕隆中。建安十二年三顾而出，遂定三分之策。受托辅政，南征四郡，五次北伐，制木牛流马，作八阵图。建兴十二年卒于五丈原军中，年五十四，谥忠武侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "chancellor",
+        "general",
+        "strategist"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-yan",
+      "name": "魏延",
+      "display": "魏延",
+      "birthAccuracy": "unknown",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "征西大将军，子午谷之计不为所用",
+      "bio": "义阳人，以部曲随先主入蜀，数有战功，守汉中十余年无失。每随亮出，辄请兵万人别由子午谷袭长安，亮制而不许，延常谓亮怯。建兴十二年亮卒于五丈原，延与杨仪相攻，走汉中，为马岱所斩，夷三族。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jiang-wei",
+      "name": "姜维",
+      "display": "姜维",
+      "birth": 202,
+      "birthAccuracy": "exact",
+      "death": 264,
+      "deathAccuracy": "exact",
+      "title": "大将军，九伐中原，死于乱兵",
+      "bio": "天水冀人，本魏中郎，诸葛亮出祁山时归蜀，遂为凉州上士。亮卒后继其军事，屡出陇右，十一年中九次北伐，民疲而国敝。景耀六年魏军入蜀，维守剑阁，及后主降，谋复国而事泄，为乱兵所杀，年六十三。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei",
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-yi",
+      "name": "司马懿",
+      "display": "司马懿",
+      "birth": 179,
+      "birthAccuracy": "exact",
+      "death": 251,
+      "deathAccuracy": "exact",
+      "title": "魏太傅，拒诸葛亮，高平陵夺权",
+      "bio": "河内温人，字仲达。曹操辟为文学掾，历事三世。拒诸葛亮于渭南，坚壁不出，卒使亮星落五丈原。正始十年乘曹爽出谒高平陵，闭城奏诛之，魏之大权归司马氏。嘉平三年薨，年七十三。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-zhen",
+      "name": "曹真",
+      "display": "曹真",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏大司马，久镇关中",
+      "bio": "字子丹，曹操族子，少孤，操收养与诸子同。久镇西线，街亭之役督张郃破马谡，却诸葛亮首出祁山；明帝时为大司马。太和五年卒，谥元侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-he",
+      "name": "张郃",
+      "display": "张郃",
+      "birthAccuracy": "unknown",
+      "death": 231,
+      "deathAccuracy": "exact",
+      "title": "魏右将军，街亭破马谡",
+      "bio": "河间鄚人，字儁乂。本袁绍部将，官渡之役来归；识变量，善处营阵，料地势战阵无不精；街亭之役破马谡，平陇右；太和五年追击诸葛亮于木门，中飞矢卒，谥壮侯。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

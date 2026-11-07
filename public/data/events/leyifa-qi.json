@@ -1,0 +1,142 @@
+{
+  "id": "leyifa-qi",
+  "name": "乐毅伐齐（济西之战）",
+  "display": "乐毅伐齐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": -284,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴卷4赧王三十一年（前284）『燕王悉起兵，以樂毅為上將軍……戰於濟西，齊師大敗』；史记·田敬仲完世家湣王四十年、乐毅列传互证。战役本身同年完成（济西决战→入临淄），其后攻略齐城延续至前279。",
+  "endYear": -279,
+  "endYearAccuracy": "approx",
+  "endYearNote": "战争下限取田单复齐（前279）之年，据本 Run 中期军事 packet；济西破齐在前284",
+  "belligerents": [
+    "yan",
+    "qin",
+    "zhao",
+    "han-guo",
+    "wei-zhanguo",
+    "qi"
+  ],
+  "commanders": [
+    {
+      "id": "yue-yi",
+      "side": "yan"
+    },
+    {
+      "id": "ju-xin",
+      "side": "yan"
+    },
+    {
+      "id": "tian-di",
+      "side": "qi"
+    }
+  ],
+  "result": "乐毅率五国联军济西大破齐，下七十余城，齐湣王出奔被杀",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "燕昭王报齐破燕之仇，以乐毅为上将军（赵惠文王以相国印授之），率燕军并合秦（尉斯离）、赵、韩、魏之师（乐毅列传并称护赵楚韩魏燕之兵）伐齐。济西（济水以西，今山东济南西北一带）决战大破齐军；乐毅还秦韩之师、分魏师略宋地、部赵师收河间，身率燕师长驱逐北，入临淄，尽取齐宝祭器。此后留徇齐五岁，下七十余城，唯莒、即墨不下；齐湣王出走，为楚将淖齿所杀。剧辛曾谏止深入。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷八十·乐毅列传",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷四十六·田敬仲完世家",
+      "kind": "classic"
+    },
+    {
+      "work": "济西之战 - 维基百科",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "jimo-zhizhan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yue-yi",
+      "name": "乐毅",
+      "display": "乐毅",
+      "birthAccuracy": "unknown",
+      "death": -270,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。昭王死后奔赵，惠文王时仍在，取破齐之后数年为活动下限。",
+      "title": "燕将，破齐七十余城",
+      "bio": "魏人。为燕上将军，连赵楚韩魏伐齐，下七十余城。骑劫代将，他留赵。破齐的时段带画在昭王条的末尾。",
+      "tags": [
+        "燕国",
+        "破齐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "yan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ju-xin",
+      "name": "剧辛",
+      "display": "剧辛",
+      "birthAccuracy": "unknown",
+      "death": -242,
+      "deathAccuracy": "approx",
+      "deathNote": "赵世家：赵使庞煖拒燕，擒剧辛杀之；由悼襄纪年与王迁七年（前229）逆推，约前242年，记approx。",
+      "title": "燕之老将，丧于轻赵",
+      "bio": "赵人，燕昭王卑身厚币招贤，剧辛自赵往——邹衍、剧辛之徒聚燕，黄金台的实名。历事两朝，晚年断言赵将庞煖易与，自请将兵击赵，果为煖所擒杀（约前242）。燕自昭王之盛到太子丹之亡，他一人盖住中段。",
+      "tags": [
+        "燕国",
+        "招贤"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "yan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tian-di",
+      "name": "田地",
+      "display": "齐湣王",
+      "birthAccuracy": "unknown",
+      "death": -284,
+      "deathAccuracy": "exact",
+      "title": "齐王，灭宋后五国伐齐",
+      "bio": "宣王之子。与秦争为东帝，灭宋而诸侯恐惧。燕、秦、韩、魏、赵五国伐齐，乐毅下七十余城，他死于莒。破齐与田单复国两条，都咬在齐国这条的终点上。",
+      "tags": [
+        "齐国",
+        "破齐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

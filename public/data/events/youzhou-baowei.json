@@ -1,0 +1,137 @@
+{
+  "id": "youzhou-baowei",
+  "name": "幽州保卫战",
+  "display": "幽州保卫战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 917,
+  "yearAccuracy": "exact",
+  "yearNote": "资治通鉴卷269系契丹进围幽州于贞明三年三月新州之败后（917）；卷270载围幽州且二百日、甲午自易州北行、辛丑嗣源等入幽州（叙事置于九月前），解围在同年八月至九月。全役在 917 年之内，不设 endYear。",
+  "place": "幽州",
+  "placeNow": "北京市",
+  "belligerents": [
+    "hou-tang",
+    "liao"
+  ],
+  "commanders": [
+    {
+      "id": "zhou-dewei",
+      "side": "hou-tang"
+    },
+    {
+      "id": "li-siyuan",
+      "side": "hou-tang"
+    },
+    {
+      "id": "yelv-abaoji",
+      "side": "liao"
+    }
+  ],
+  "result": "契丹号称百万围幽州约二百日，李嗣源、李存审、阎宝步骑七万自易州潜行赴援，大破契丹，俘斩万计，围解。",
+  "aliases": [
+    "契丹围幽州",
+    "李嗣源救幽州"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "贞明三年（917）三月，卢文进叛晋引契丹兵急攻新州，契丹主耶律阿保机率众三十万继援，乘胜进围幽州，声言有众百万，围城约二百日，城中危困。李嗣源、李存审、阎宝率步骑七万会于易州，甲午自易州北行潜进，大破契丹，俘斩万计，辛丑入幽州，围解。这是契丹建国前后首次倾国南下受挫，也是晋与契丹两个政权的首次大规模正面交战。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷二六九 后梁纪四 乾化三年—贞明三年",
+      "note": "贞明三年三月卢文进引契丹兵急攻新州，契丹主帅众三十万救之，乘胜进围幽州，声言有众百万",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二七〇 后梁纪五 贞明三年七月—五年九月",
+      "note": "契丹围幽州且二百日，城中危困；李嗣源、阎宝、李存审步骑七万会于易州，甲午自易州北行，辛丑嗣源等入幽州",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhou-dewei",
+      "name": "周德威",
+      "display": "周德威",
+      "birthAccuracy": "unknown",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "柏乡却梁，多计持重",
+      "bio": "朔州马邑人，事晋王为骑将，沉勇多计。柏乡之战以逸待劳破梁将王景仁，数谏庄宗缓河北之师。将二十年燕地之谋，胡柳之败几危晋阳。同光四年镇州兵变中为乱军所害。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-siyuan",
+      "name": "李嗣源",
+      "display": "后唐明宗",
+      "birth": 867,
+      "birthAccuracy": "approx",
+      "death": 933,
+      "deathAccuracy": "exact",
+      "birthNote": "长兴四年十一月崩于洛阳，年六十七，上推生年。",
+      "title": "后唐明宗，起于乱军，粗致小康",
+      "bio": "沙陀人，事李克用为骑将，斗绝一隅，战功居最，庄宗以为蕃汉内外马步副总管。同光四年从思乱之兵入洛监国，旋即位。性俭素不识字，每登殿祝曰\"某蕃人，中原不可理，愿天生圣人，为百姓主子\"；诛聚敛之臣，省事息兵，年谷粗登，中土小安。末年秦王争立，忧愤而崩。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-abaoji",
+      "name": "耶律阿保机",
+      "display": "辽太祖",
+      "birth": 872,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "契丹之君，并八部而建辽基",
+      "bio": "契丹迭剌部酋裔。唐末八部争立，阿保机并兼之，筑城置邑，用韩延徽、康默记辈正君臣、定耦耕，制契丹大字。东灭渤海，西服奚霫；与晋王李克用云州会盟约为兄弟，已而背盟取山北，与梁联好。天显元年建国号契丹，旋殂于扶余城。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xu-nan",
+  "name": "许男",
+  "display": "许男",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见竹书镐京之年与申侯等立宜臼于申，取前 771 年为可见活动。",
+  "title": "许男，与立平王",
+  "bio": "竹书镐京之年，申侯、鲁侯、许男、郑子立宜臼于申。左传疏引古本或作许文公。",
+  "tags": [
+    "许",
+    "东迁"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xu-nan",
+      "target": "ji-yijiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "竹书：许男与申侯等立宜臼于申"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "许男",
+    "许文公"
+  ],
+  "sources": [
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪"
+    }
+  ]
+}

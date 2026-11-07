@@ -1,0 +1,63 @@
+{
+  "id": "kou-zhun",
+  "name": "寇准",
+  "display": "寇准",
+  "birth": 961,
+  "birthAccuracy": "exact",
+  "death": 1023,
+  "deathAccuracy": "exact",
+  "title": "澶渊之盟主盟者",
+  "bio": "华州下邽人，少年登第，刚直敢言。真宗朝拜相，契丹南下时力主亲征，促成澶渊之盟，宋辽息兵百余年。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-hen",
+      "target": "kou-zhun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1004,
+      "notes": [
+        "澶渊亲征，准力主之"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chanyuan-zhimeng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "寇准传",
+      "kind": "classic"
+    }
+  ]
+}

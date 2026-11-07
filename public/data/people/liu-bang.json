@@ -1,0 +1,291 @@
+{
+  "id": "liu-bang",
+  "name": "刘邦",
+  "display": "汉高祖",
+  "birth": -256,
+  "birthAccuracy": "disputed",
+  "death": -195,
+  "deathAccuracy": "exact",
+  "birthNote": "生年有前 256、前 247 两说",
+  "title": "西汉开国皇帝",
+  "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
+  "tags": [
+    "布衣天子"
+  ],
+  "categories": [
+    "founding"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "zhang-liang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "首席谋臣，画策入关",
+        "运筹帷幄之中，决胜千里之外"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "han-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -206,
+      "notes": [
+        "拜大将，统兵定诸侯",
+        "登坛拜将，破魏赵燕齐；后贬淮阴侯"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiang-yu",
+      "type": "rival",
+      "directed": false,
+      "since": -206,
+      "notes": [
+        "楚汉相争四年",
+        "楚汉相争五年，垓下一战定天下"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "萧何主关中、镇后方，汉之丞相第一",
+        "沛县起兵即相从，镇国家抚百姓，功第一"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "chen-ping",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "六出奇计，定汉业",
+        "六出奇计；吕后时为丞相，与周勃诛诸吕"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "fan-kuai",
+      "target": "liu-bang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "沛县故人，鸿门卫士"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "guan-ying",
+      "target": "liu-bang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "从起沛，骑兵名将"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "zhou-bo",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厚重的周勃，后平定诸吕"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "peng-yue",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "楚汉之际将兵归汉，封梁王；高帝十一年以谋反被诛，夷三族"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "li-yi-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高阳酒徒，为汉说齐下七十余城，为齐王田广所烹",
+        "请使说齐，下七十余城；韩信袭齐后被烹"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-ying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "高祖崩，太子盈即位"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-heng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "mo-dun",
+      "type": "rival",
+      "directed": false,
+      "since": -200,
+      "notes": [
+        "白登之围七日，此后汉匈以和亲相处"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "fan-kuai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "沛县从起兵，鸿门瞋目解危"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "guan-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从击项籍，领车骑；后与周勃共诛诸吕"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "ying-bu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "淮南王举兵反，帝亲击破之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhang-cang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "主计领郡国上计，定汉历律令"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hongmen-yan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-miewang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "高祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

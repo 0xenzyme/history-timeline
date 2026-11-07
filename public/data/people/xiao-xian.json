@@ -1,0 +1,71 @@
+{
+  "id": "xiao-xian",
+  "name": "富察皇后",
+  "display": "富察皇后",
+  "birth": 1712,
+  "birthAccuracy": "approx",
+  "death": 1748,
+  "deathAccuracy": "exact",
+  "birthNote": "乾隆十三年崩，年三十七，上推生年。",
+  "title": "高宗皇后",
+  "bio": "富察氏。乾隆二年册为皇后。十三年从驾东巡，三月还至德州，崩于舟次。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qian-long",
+      "target": "xiao-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。乾隆十三年东巡还，崩于德州舟次"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "fu-heng",
+      "target": "xiao-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姐弟。傅恒为孝贤纯皇后弟"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "富察氏",
+    "孝贤纯皇后"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·孝贤纯皇后",
+      "kind": "classic"
+    }
+  ]
+}

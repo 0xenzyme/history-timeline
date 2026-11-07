@@ -1,0 +1,59 @@
+{
+  "id": "wang-zhenfeng",
+  "name": "王贞风",
+  "display": "明恭王皇后",
+  "birth": 436,
+  "birthAccuracy": "approx",
+  "death": 479,
+  "deathAccuracy": "exact",
+  "birthNote": "建元元年薨，年四十四，上推生年。",
+  "title": "宋明帝皇后，建元元年薨",
+  "bio": "琅邪临沂人。后废帝时尊为皇太后。顺帝禅位，她与帝同逊东邸。建元元年薨于第，年四十四。",
+  "tags": [
+    "南北朝",
+    "刘宋"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-zhun",
+      "target": "wang-zhenfeng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "顺帝禅位，太后与帝同逊东邸。建元元年薨"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王贞风",
+    "明恭王皇后"
+  ],
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "后妃传·明恭王皇后",
+      "kind": "classic"
+    }
+  ]
+}

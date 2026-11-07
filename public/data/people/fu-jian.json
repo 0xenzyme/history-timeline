@@ -1,0 +1,192 @@
+{
+  "id": "fu-jian",
+  "name": "苻坚",
+  "display": "前秦苻坚",
+  "birth": 338,
+  "birthAccuracy": "exact",
+  "death": 385,
+  "deathAccuracy": "exact",
+  "title": "前秦天王，一统北方而败于淝水",
+  "bio": "略阳临渭氐人，苻雄之子。用王猛治国，劝农桑、修学校，并灭前燕、前凉、代，统一北方。建元十九年发九十万众伐晋，淝水一败而风声鹤唳，鲜卑、羌乘之而起。太安元年为姚苌所缢于新平佛寺，年四十八。北方一统只此一次，也只此十五年。",
+  "tags": [
+    "十六国",
+    "前秦",
+    "淝水"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "xie-an",
+      "type": "rival",
+      "directed": false,
+      "since": 383,
+      "notes": [
+        "淝水之战，以少破前秦"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "wang-meng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王猛辅坚，治前秦近乎小康"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "murong-chui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "用慕容垂，淝水后垂叛建后燕"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "fu-jian-jianye",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "伯侄。健入长安建前秦，坚终成一统之业"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "fu-sheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "从兄弟。坚废其主而自立"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "fu-rong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "季弟。淝水督前锋，马倒被杀"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "yao-chang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "龙骧将军叛秦，缢坚于新平佛寺"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "dao-an",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "坚以十万之师取襄阳，唯得一人半；安为其谋主，谏勿南征"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "lv-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "苻坚遣光征西域，还师据凉州，建后凉"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "fu-jian",
+      "target": "qifu-guoren",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "苻坚以为南单于；淝水后自立，建西秦"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "feishui-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "huanwen-beifa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qianqin-tongyi-beifang",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "苻坚",
+    "苻永固",
+    "前秦天王"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "苻坚载记",
+      "kind": "classic"
+    }
+  ]
+}

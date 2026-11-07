@@ -1,0 +1,58 @@
+{
+  "id": "li-jing-xuan",
+  "name": "李敬玄",
+  "display": "李敬玄",
+  "birth": 615,
+  "birthAccuracy": "exact",
+  "death": 682,
+  "deathAccuracy": "exact",
+  "title": "永淳元年卒，年六十八",
+  "bio": "高宗朝为相，后贬衡州刺史，迁扬州大都督府长史。永淳元年卒，年六十八。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "li-jing-xuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载675至680年在任，永淳元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李敬玄"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李敬玄传",
+      "kind": "classic"
+    }
+  ]
+}

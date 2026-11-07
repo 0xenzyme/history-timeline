@@ -1,0 +1,107 @@
+{
+  "id": "xitu-jue-zhanzheng",
+  "name": "唐灭西突厥之战",
+  "display": "灭西突厥",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 655,
+  "yearAccuracy": "approx",
+  "yearNote": "战争始于 655 年前后，决定性击败阿史那贺鲁在 657 年；此处以战争起点建档，单场决战可另行拆录。",
+  "endYear": 657,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "tang",
+    "tujue"
+  ],
+  "commanders": [
+    {
+      "id": "su-ding-fang",
+      "side": "tang"
+    },
+    {
+      "id": "a-shi-na-he-lu",
+      "side": "tujue"
+    }
+  ],
+  "people": [
+    "su-ding-fang",
+    "a-shi-na-he-lu"
+  ],
+  "result": "苏定方击败并俘获阿史那贺鲁，唐在中亚设置濛池、昆陵等都护府",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "655 至 657 年前后，唐持续对西突厥用兵，最终由苏定方击败并俘获阿史那贺鲁，西域局势被重新组织。战争起点按约略年份记录，决定性胜利取 657 年；不把单次追击另列为重复实体。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "西域传与高宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "su-ding-fang",
+      "name": "苏定方",
+      "display": "苏定方",
+      "birth": 592,
+      "birthAccuracy": "exact",
+      "death": 667,
+      "deathAccuracy": "exact",
+      "title": "擒贺鲁，乾封二年卒",
+      "bio": "冀州武邑人。贞观四年从李靖袭颉利，率二百骑为前锋。显庆中于碎叶水破西突厥沙钵罗可汗贺鲁，俘至京师。乾封二年卒，年七十六。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "a-shi-na-he-lu",
+      "name": "阿史那贺鲁",
+      "display": "阿史那贺鲁",
+      "birthAccuracy": "unknown",
+      "death": 659,
+      "deathAccuracy": "exact",
+      "title": "沙钵罗可汗，显庆四年卒",
+      "bio": "西突厥叶护。贞观二十二年内属，授瑶池都督。永徽二年西遁，自号沙钵罗可汗。显庆二年苏定方破之于碎叶，俘至京师。四年卒，葬于颉利墓侧。",
+      "tags": [
+        "唐",
+        "突厥"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tujue"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

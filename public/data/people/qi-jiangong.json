@@ -1,0 +1,67 @@
+{
+  "id": "qi-jiangong",
+  "name": "姜壬",
+  "display": "齐简公",
+  "birthAccuracy": "unknown",
+  "death": -481,
+  "deathAccuracy": "approx",
+  "deathNote": "史记·齐太公世家「简公四年」记在位四年。卒年前481，据其父悼公（前485）与弟平公（前456）之间推定，作约年。田常弑君而立其弟，田氏之篡自此明目。",
+  "title": "田常弑之，在位四年",
+  "bio": "悼公之子。齐人共立悼公子壬，是为简公。简公与父阳生俱在鲁，监止有宠，及即位使之为政。田成子惮之，骤夺其权。甲午，田常弑简公于俆州，立简公弟驩，是为平公。",
+  "tags": [
+    "田常弑君",
+    "监止之宠",
+    "田氏代齐"
+  ],
+  "categories": [
+    "monarch",
+    "vassal"
+  ],
+  "primary": "vassal",
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qi-jiangong",
+      "target": "xi-ke",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "郤克使齐见笑，请伐而晋景公不答；明年齐侵鲁，郤克战于鞌，齐师大败，顷公乃请盟"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "tianchang-shijun",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "齐简公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "齐太公世家",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "bu-humu",
+  "name": "不忽木",
+  "display": "不忽木",
+  "birth": 1255,
+  "birthAccuracy": "exact",
+  "death": 1300,
+  "deathAccuracy": "exact",
+  "title": "康里之儒臣",
+  "bio": "康里人，受业于许衡。为翰林诸职时独能廷争桑哥之法，成宗即位授中书平章，持大体而不好更张；1300 年卒，年四十六。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister",
+    "scholar"
+  ],
+  "primary": "minister",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bu-humu",
+      "target": "sang-ge",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "独能廷争桑哥之法"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cheng-zong",
+      "target": "bu-humu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "成宗即位授中书平章，持大体"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "不忽木传",
+      "kind": "classic"
+    }
+  ]
+}

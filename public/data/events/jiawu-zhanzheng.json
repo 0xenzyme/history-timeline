@@ -1,0 +1,73 @@
+{
+  "id": "jiawu-zhanzheng",
+  "name": "甲午战争",
+  "display": "甲午战争",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 1894,
+  "yearAccuracy": "exact",
+  "yearNote": "光绪二十年七月日本侵朝鲜，下诏宣战。马关和约在光绪二十一年。",
+  "endYear": 1895,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "qing",
+    "riben"
+  ],
+  "people": [
+    "guang-xu"
+  ],
+  "result": "下诏宣战，马关和约成",
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "光绪二十年七月，日本侵朝鲜，下诏宣战。光绪二十一年李鸿章与日本全权在马关会议，和约成。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十三",
+      "note": "日本侵朝鮮，下詔宣戰",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "李鴻章與日本全權伊籐博文、陸奧宗光馬關會議。和約成",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guang-xu",
+      "name": "载湉",
+      "display": "光绪",
+      "birth": 1871,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "liu-xu-guangling",
+  "name": "刘胥",
+  "display": "广陵王刘胥",
+  "birthAccuracy": "unknown",
+  "death": -54,
+  "deathAccuracy": "exact",
+  "title": "广陵厉王，祝诅事发自绞",
+  "bio": "武帝第四子，元狩六年与燕王旦同日立为广陵王。屡觊觎帝位，迎楚巫李女须使下神祝诅昭帝、宣帝；五凤四年祝诅事发，置酒会群臣妃妾自歌，即以绶自绞死，谥曰厉王。",
+  "tags": [
+    "祝诅",
+    "广陵"
+  ],
+  "categories": [
+    "royal-kin",
+    "vassal"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xu-guangling",
+      "target": "liu-xun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "祝诅事发，五凤四年自绞死"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "广陵王",
+    "广陵厉王"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "武五子传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "宣帝纪",
+      "kind": "classic"
+    }
+  ]
+}

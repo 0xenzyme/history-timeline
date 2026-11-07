@@ -1,0 +1,58 @@
+{
+  "id": "lv-yi",
+  "name": "吕乂",
+  "display": "吕乂",
+  "birthAccuracy": "unknown",
+  "death": 251,
+  "deathAccuracy": "exact",
+  "title": "蜀尚书令，众事无留",
+  "bio": "南阳人，字季阳。历尚书、蜀郡太守；董允卒，代为尚书令，众事无留。延熙十四年卒。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "official"
+  ],
+  "primary": "official",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-shan",
+      "target": "lv-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "后主时为尚书令"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "吕乂",
+    "吕季阳"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·董刘马陈董吕传",
+      "kind": "classic"
+    }
+  ]
+}

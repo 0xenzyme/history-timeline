@@ -1,0 +1,67 @@
+{
+  "id": "he-fengsheng",
+  "name": "贺逢圣",
+  "display": "贺逢圣",
+  "birthAccuracy": "unknown",
+  "death": 1643,
+  "deathAccuracy": "exact",
+  "deathNote": "崇祯十六年五月，武昌陷，投墩子湖死。",
+  "title": "武昌投湖",
+  "bio": "江夏人。崇祯九年入阁，十四年再入，明年致政。十六年五月张献忠陷武昌，投墩子湖死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "he-fengsheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "崇祯十四年再入阁，十六年五月武昌陷后投湖"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "he-fengsheng",
+      "target": "zhang-xianzhong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "张献忠陷武昌，逢圣投墩子湖死"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "贺逢圣传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "zhao-kuangyin",
+  "name": "赵匡胤",
+  "display": "赵匡胤",
+  "birth": 927,
+  "birthAccuracy": "exact",
+  "death": 976,
+  "deathAccuracy": "exact",
+  "title": "宋太祖，陈桥兵变开国",
+  "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "end"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chai-zongxun",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "陈桥返旆，恭帝让位"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "han-tong",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "禁军旧恩，变起而死于扈从"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-pu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "掌机要，佐命归宋",
+        "谋主，定杯酒释兵权之策"
+      ],
+      "topicIds": [
+        "wudai",
+        "song"
+      ]
+    },
+    {
+      "source": "li-yun",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "宿将不平，据潞州叛宋"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-chongjin",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "周亲扬州举兵，覆亡"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-yu-937",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "称臣之邦，围城三载而陷"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "meng-chang",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "后蜀不战而降，至汴而卒"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "liu-chang",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "南汉火舰不效，衔榇出降"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "qian-hongchu",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "纳土归宋，封爵就第"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "gao-jichong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾德元年宋师假道江陵，继冲奉版籍内附，荆南亡"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "zhao-kuangyin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，烛影斧声，太宗继统"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "cao-bin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "统师平江南，开国第一将"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beijiu-shibingquan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "beisong-tongyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "chenqiao-bingbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jinkui-zhimeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mie-houshu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mie-nanhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mie-nantang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "ping-jinghu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shizong-beifa",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shizong-zheng-nantang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zijinshan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "太祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

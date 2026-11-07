@@ -1,0 +1,102 @@
+{
+  "id": "songjin-zhizhan",
+  "name": "松锦之战",
+  "display": "松锦之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 1641,
+  "yearAccuracy": "exact",
+  "yearNote": "崇祯十四年七月驻松山，八月夜溃。崇德七年二月松山城陷。",
+  "endYear": 1642,
+  "endYearAccuracy": "exact",
+  "place": "松山",
+  "belligerents": [
+    "ming",
+    "qing"
+  ],
+  "commanders": [
+    {
+      "id": "hong-taiji",
+      "side": "qing"
+    }
+  ],
+  "people": [
+    "hong-chengchou"
+  ],
+  "result": "松山陷，洪承畴被擒",
+  "parent": "mingqing-zhanzheng",
+  "aliases": [
+    "松山之战"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "崇祯十四年七月，洪承畴援锦州，驻师松山。八月吴三桂等自松山遁，诸军夜溃。崇德七年二月拔松山，擒洪承畴。明朝在关外的野战主力结束。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二十四",
+      "note": "崇祯十四年七月洪承畴驻松山，八月吴三桂等遁，诸军夜溃",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷三",
+      "note": "崇德六年八月围松山，崇德七年二月拔松山，擒洪承畴",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hong-chengchou",
+      "name": "洪承畴",
+      "display": "洪承畴",
+      "birthAccuracy": "unknown",
+      "death": 1665,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷237·洪承畴传（贰臣传）：圣祖即位后乞致仕，\"康熙四年二月，卒，谥文襄\"。松山被俘降清，招抚江南、经略湖广云南，武英殿大学士。明降臣，叙事脉络在清初宰辅。",
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hong-taiji",
+      "name": "皇太极",
+      "display": "皇太极",
+      "birth": 1592,
+      "birthAccuracy": "exact",
+      "death": 1643,
+      "deathAccuracy": "exact",
+      "title": "改国号为清",
+      "bio": "努尔哈赤第八子，继位后改族名满洲、国号大清，称帝南略，收服漠南蒙古。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

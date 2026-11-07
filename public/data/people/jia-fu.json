@@ -1,0 +1,68 @@
+{
+  "id": "jia-fu",
+  "name": "家父",
+  "display": "家父",
+  "birthAccuracy": "unknown",
+  "death": -781,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。《节南山》毛序家父刺幽王；竹书幽王元年锡太师尹氏命，取此年为可见下限。",
+  "title": "《节南山》作者",
+  "bio": "毛序：家父刺幽王。诗有「家父作诵」。与《十月之交》家伯是否同氏，未定。",
+  "tags": [
+    "诗序"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "jia-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《节南山》家父刺幽王"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "jia-fu",
+      "target": "shi-yin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "家父作诵刺师尹"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "家父"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "小雅·节南山",
+      "kind": "classic"
+    }
+  ]
+}

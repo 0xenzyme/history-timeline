@@ -1,0 +1,743 @@
+{
+  "id": "cao-cao",
+  "name": "曹操",
+  "display": "魏武帝曹操",
+  "birth": 155,
+  "birthAccuracy": "exact",
+  "death": 220,
+  "deathAccuracy": "exact",
+  "title": "魏王、丞相，挟天子以令诸侯",
+  "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "monarch",
+    "general",
+    "founding",
+    "poetry"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "qunxiong"
+    },
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "mi-heng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "衡数轻操，裸身击鼓而骂；操送之刘表，卒为黄祖所杀"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "dong-cheng",
+      "type": "rival",
+      "directed": false,
+      "since": 200,
+      "notes": [
+        "建安五年事泄，操杀承等，夷三族"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "chen-gong",
+      "type": "rival",
+      "directed": false,
+      "since": 194,
+      "notes": [
+        "兴平元年叛操迎布据兖；建安三年下邳城破，俱被杀"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-lu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 215,
+      "notes": [
+        "建安二十年征汉中，鲁出降，拜镇南将军",
+        "五斗米道，汉中降曹"
+      ],
+      "topicIds": [
+        "donghan",
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "cao-pi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，丕代汉称帝"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "xun-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "首席谋主，规划挟天子"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "guo-jia",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "奇谋屡中"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-liao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "降将而倚为腹心，合肥破孙权"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "yuan-shao",
+      "type": "rival",
+      "directed": false,
+      "since": 200,
+      "notes": [
+        "官渡之战"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "lv-bu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "下邳擒杀布"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "liu-bei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "煮酒论英雄，终成鼎足"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sima-yi",
+      "target": "cao-cao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "被辟为文学掾，终受托孤"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "sun-quan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "赤壁联军抗曹"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhuge-liang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "隆中对以曹为敌"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "bian-hou",
+      "target": "cao-cao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操之妻，曹丕之母。太和四年崩"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "cui-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "操领冀州辟琰为别驾从事，魏国既建拜尚书迁中尉；建安二十一年以答书被诬赐死"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "cao-ren",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操从弟，官至大司马，守樊城拒关羽"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "cao-zhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操族子，魏明帝时为大司马"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "cao-xiu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操族子，魏明帝时为大司马，石亭败于陆逊"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "cao-hong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操从弟，荥阳让马救主"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "xiahou-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操起兵即从，镇汉中，定军山为黄忠所斩"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "jia-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "劝张绣归曹，后为魏文帝太尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "cheng-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操谋士，守鄄城、范、东阿三城"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "mao-hou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "典选举，倡奉天子以令不臣"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhong-yao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "镇关中，为魏相国，善书法"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "wang-lang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操征为谏议大夫，魏初为司空"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "hua-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操表为议郎，魏初为司徒"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "dong-zhao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "劝曹操进魏公、加九锡"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "jiang-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操主簿，后为魏太尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "gao-rou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操以为刺奸令史，魏初为廷尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "xu-miao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操时为凉州刺史，魏初为司隶校尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "man-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操时为汝南太守，魏初为太尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "官渡降曹，为五子良将"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "hu-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操时为东莞太守，魏初为征东将军"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "yue-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操五子良将之一，每战先登"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "dian-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操帐前都尉，宛城死战护主"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "pang-de",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "马超旧部，后归曹操，樊城不屈死"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "yu-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "五子良将，樊城降关羽，晚节不终"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "xu-huang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "五子良将，解樊城之围"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-xiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "张济之侄，宛城降曹"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "ta-dun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "乌桓单于，白狼山为曹操所破"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "ruan-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，曹操司空军谋祭酒"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "wang-can",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子之冠，魏侍中"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "xu-gan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，著《中论》"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "chen-lin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，原袁绍记室，后归曹"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "ying-yang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，曹操丞相掾"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "liu-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，曹操丞相掾"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "yang-xiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操主簿，以才见忌被杀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "xun-you",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操军师，定计斩颜良、文丑"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "cao-cao",
+      "target": "zhang-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操时为雍州刺史，平定关中"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bailangshan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "caocao-feng-tianzi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "caocao-jianweiguo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "caopi-shou-chan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "caowei-tuntian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "chibi-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "guandu-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "hanzhong-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qian-du-xu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tongguan-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "wancheng-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xiapi-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yuanshu-chengdi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "曹操",
+    "曹孟德",
+    "魏武帝"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

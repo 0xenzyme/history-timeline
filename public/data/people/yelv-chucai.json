@@ -1,0 +1,57 @@
+{
+  "id": "yelv-chucai",
+  "name": "耶律楚材",
+  "display": "耶律楚材",
+  "birth": 1190,
+  "birthAccuracy": "exact",
+  "death": 1244,
+  "deathAccuracy": "exact",
+  "title": "契丹贤相，定中原制度",
+  "bio": "辽皇族裔，仕太祖、太宗，谏止屠城、行课税、立行省，以儒术赞治，为蒙古入主中原奠定文治根基。",
+  "tags": [
+    "元",
+    "汉法"
+  ],
+  "categories": [
+    "chancellor",
+    "outsider",
+    "confucian"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "yelv-chucai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "楚材定中原制度，虽早卒而规制垂后"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "耶律楚材传",
+      "kind": "classic"
+    }
+  ]
+}

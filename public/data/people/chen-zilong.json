@@ -1,0 +1,80 @@
+{
+  "id": "chen-zilong",
+  "name": "陈子龙",
+  "display": "陈子龙",
+  "birth": 1608,
+  "birthAccuracy": "exact",
+  "death": 1647,
+  "deathAccuracy": "exact",
+  "title": "云间诗派之冠，抗清赴水",
+  "bio": "字卧子，号大樽，松江华亭人。崇祯十年进士，与夏允彝结几社，主经世之学，诗为明季之殿。兵败被执，1647 年解送途中乘间投水而死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "poetry",
+    "official",
+    "falling"
+  ],
+  "primary": "poetry",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yousong",
+      "target": "chen-zilong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "起为兵科给事中，屡疏不合其意而辞归"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "chen-zilong",
+      "target": "ruan-dacheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "复社群起发《留都防乱公揭》，逆案余孽之名由此胶固"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "chen-zilong",
+      "target": "xia-wanchun",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "完淳十二从之为师，文章气节皆出其门"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "陈子龙传",
+      "kind": "classic"
+    }
+  ]
+}

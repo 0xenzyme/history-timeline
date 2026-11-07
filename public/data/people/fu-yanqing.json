@@ -1,0 +1,66 @@
+{
+  "id": "fu-yanqing",
+  "name": "符彦卿",
+  "display": "符彦卿",
+  "birth": 898,
+  "birthAccuracy": "approx",
+  "death": 975,
+  "deathAccuracy": "exact",
+  "birthNote": "生年史无明文，《宋史》本传记卒年七十八，为开宝八年（975），倒推约在898年。",
+  "deathNote": "《宋史·符彦卿传》记开宝八年卒，年七十八。",
+  "title": "历事五朝之宿将，周世宗后父",
+  "bio": "陈州宛丘人。父存审，事晋王李克用、庄宗，为后唐名将，封秦王。彦卿起家以勇略，历仕后唐、后晋、后汉、后周、宋五朝，屡典大藩。女为周世宗后，故世宗以后父待之，位至太傅。宋兴，以宿将留于京师，太祖优礼之。开宝八年卒，年七十八。",
+  "tags": [
+    "五代",
+    "宿将",
+    "宋初"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chai-rong",
+      "target": "fu-yanqing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "世宗之后，彦卿长女也，故以后父处之"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "符彦卿"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "符彦卿传",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "周书·符彦卿传",
+      "kind": "classic"
+    }
+  ]
+}

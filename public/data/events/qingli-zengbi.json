@@ -1,0 +1,98 @@
+{
+  "id": "qingli-zengbi",
+  "name": "庆历增币",
+  "display": "庆历增币",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1042,
+  "yearAccuracy": "exact",
+  "yearNote": "本纪庆历二年九月乙丑契丹持誓书来，十月再致誓书、报彻兵。两月都在 1042。",
+  "polity": [
+    "song",
+    "liao"
+  ],
+  "people": [
+    "fu-bi",
+    "zhao-zhen"
+  ],
+  "result": "宋不割关南地，增岁币，国书用「纳」字。",
+  "aliases": [
+    "富弼使辽",
+    "重订宋辽岁币"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "庆历二年，辽求关南地，富弼报聘。宋不割地，改增岁币，国书用「纳」字。辽宋以此维持澶渊边界，岁币制度被重定。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十一",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷三百十三",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "fu-bi",
+      "name": "富弼",
+      "display": "富弼",
+      "birth": 1004,
+      "birthAccuracy": "exact",
+      "death": 1083,
+      "deathAccuracy": "exact",
+      "title": "使辽定盟、与韩琦并称贤相",
+      "bio": "庆历使辽折冲，增币而息兵；与范仲淹同领庆历新政。至和间与文彦博并相，天下称「富公」。元丰六年卒，年八十。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "diplomat"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-zhen",
+      "name": "赵祯",
+      "display": "赵祯",
+      "birth": 1010,
+      "birthAccuracy": "exact",
+      "death": 1063,
+      "deathAccuracy": "exact",
+      "title": "宋仁宗，庆历之治",
+      "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

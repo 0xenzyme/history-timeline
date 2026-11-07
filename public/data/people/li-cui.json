@@ -1,0 +1,70 @@
+{
+  "id": "li-cui",
+  "name": "李漼",
+  "display": "唐懿宗李漼",
+  "birth": 833,
+  "birthAccuracy": "exact",
+  "death": 873,
+  "deathAccuracy": "exact",
+  "title": "晚唐奢靡之君",
+  "bio": "宣宗长子，咸通即位。好音乐宴游，佞佛劳费，南诏、裘甫、庞勋相继起事，唐室益危。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-chen",
+      "target": "li-cui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，宣宗传懿宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-cui",
+      "target": "li-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，懿宗传僖宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李漼",
+    "唐懿宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "懿宗纪",
+      "kind": "classic"
+    }
+  ]
+}

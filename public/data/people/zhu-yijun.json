@@ -1,0 +1,255 @@
+{
+  "id": "zhu-yijun",
+  "name": "朱翊钧",
+  "display": "明神宗朱翊钧",
+  "birth": 1563,
+  "birthAccuracy": "exact",
+  "death": 1620,
+  "deathAccuracy": "exact",
+  "title": "万历皇帝",
+  "bio": "十岁即位，初倚张居正厉行新政；亲政后怠荒，二十余年不朝，党争与矿税之弊浸深，明衰自此始。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "zhang-juzheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1572,
+      "notes": [
+        "冲龄即位，居正摄政行新政"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhu-zaiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，穆宗传神宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-changluo",
+      "target": "zhu-yijun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，神宗传光宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "shen-shixing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "继居正之后为首辅，务为宽静"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zheng-guifei",
+      "target": "zhu-yijun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宠冠后宫，争国本者十余年"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "li-chengliang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "镇辽东三十年，边事一以委之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "liu-ting",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "朝鲜、播州之役皆当其锋"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "ye-xianggao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历末独相，请补阁臣而不得"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "xiong-tingbi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "经略辽东，三方布置之策未得行"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "sun-chengzong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以大学士督师蓟辽，练车营、复四城"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "wang-xijue",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历中入阁，力请建储。三十五年召，辞不赴"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "zhao-zhigao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历十九年入阁，二十九年卒于邸舍"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "fang-congzhe",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历末叶向高去后独相，崇祯元年二月卒"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "li-tingji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "万历三十五年入阁，四十年出都，居四年卒"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-yijun",
+      "target": "chen-yubi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "与赵志皋等同在内阁，万历二十四年冬卒于位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "bozhou-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "kuangshui-liaoxiang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "saerhu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wanli-chaoxian",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yitiaobian-fa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "神宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

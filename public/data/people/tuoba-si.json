@@ -1,0 +1,70 @@
+{
+  "id": "tuoba-si",
+  "name": "拓跋嗣",
+  "display": "明元帝拓跋嗣",
+  "birth": 392,
+  "birthAccuracy": "exact",
+  "death": 423,
+  "deathAccuracy": "exact",
+  "title": "北魏明元帝，泰常八年崩",
+  "bio": "道武帝长子，登国七年生于云中宫。天兴六年封齐王。泰常八年十一月崩于西宫，年三十二。",
+  "tags": [
+    "南北朝",
+    "北魏"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tuoba-gui",
+      "target": "tuoba-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。太宗纪：嗣为太祖长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "tuoba-si",
+      "target": "tuoba-tao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。世祖纪称焘为太宗明元皇帝长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "拓跋嗣",
+    "明元帝"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "太宗纪",
+      "kind": "classic"
+    }
+  ]
+}

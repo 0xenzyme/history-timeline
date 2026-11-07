@@ -1,0 +1,126 @@
+{
+  "id": "li-te-liumin-qiyi",
+  "name": "李特流民起义",
+  "display": "李特流民起义",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 301,
+  "yearAccuracy": "exact",
+  "yearNote": "《华阳国志·李特雄期寿势志》：「自惠帝永寧元年特起事，歲在辛酉」（辛酉＝301）；《晋书·惠帝纪》永宁元年冬十月「流人李特反於蜀」。",
+  "endYear": 303,
+  "endYearAccuracy": "exact",
+  "endYearNote": "太安二年（303）李特攻入成都少城后为罗尚袭杀（《惠帝纪》系于三月），李流、李雄继领其众；304 年李雄取成都称成都王、建立成汉。",
+  "place": "绵竹",
+  "placeNow": "今四川德阳",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "li-te",
+    "li-xiong"
+  ],
+  "result": "流民武装起兵据广汉、进围成都，约法三章收蜀人心；李特败死后李流、李雄继起，304 年据成都建大成国（成汉），益州脱离西晋",
+  "aliases": [
+    "六郡流民起义",
+    "李特起兵",
+    "巴氐流民起义"
+  ],
+  "tags": [
+    "uprising",
+    "refugees",
+    "shu"
+  ],
+  "dynasties": [
+    "western-jin"
+  ],
+  "desc": "关西连年饥乱，略阳、天水六郡流民十余万口就食入蜀。晋益州刺史罗尚迫令遣返，辛冉等设关劫杀，流民推略阳李特为主，301 年冬于绵竹结营起兵，破广汉、进围成都，与蜀人约法三章、施舍振贷，军政肃然。303 年李特攻入成都少城后败死，弟流、子雄继领其众，终于 304 年建立成汉（十六国之始之一），蜀地自此脱离西晋近半个世纪。",
+  "sources": [
+    {
+      "work": "华阳国志",
+      "part": "卷八",
+      "kind": "classic"
+    },
+    {
+      "work": "华阳国志",
+      "part": "卷九",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷四·帝纪第四",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷一百二十·载记第二十",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-te",
+      "name": "李特",
+      "display": "李特",
+      "birthAccuracy": "unknown",
+      "death": 303,
+      "deathAccuracy": "exact",
+      "birthNote": "载记无岁数，不编生年。",
+      "title": "流民之帅，据蜀而死于成都",
+      "bio": "巴西宕渠賨人，字玄休，随六郡流民就食入蜀。性雄武，与弟流、庠以流民结坞自保，为刺史罗尚所忌。太安元年自称益州牧、大都督、大将军，改元建初，进攻成都。二年罗尚遣军掩袭，转战三十余里军败被斩，焚尸传首洛阳。子雄终建大成之业。",
+      "tags": [
+        "十六国",
+        "成汉",
+        "流民"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "founding"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-xiong",
+      "name": "李雄",
+      "display": "李雄",
+      "birth": 274,
+      "birthAccuracy": "approx",
+      "death": 334,
+      "deathAccuracy": "disputed",
+      "birthNote": "咸和九年（334）卒，年六十一，虚岁上推生年。",
+      "deathNote": "载记系咸和八年（333）；华阳国志、通鉴并系九年六月，胡三省注已辨载记之误，从九年。",
+      "title": "成汉之帝，十六国中的守成之主",
+      "bio": "李特第三子，字仲儁。特败死后与叔父流转战，攻克成都，据蜀僭称成都王，既而即皇帝位，国号大成，史称成汉。性宽厚，简刑法，减赋役，虚己爱人，蜀中大安。咸和九年六月生疡于头而卒，年六十一，子班立而乱作。",
+      "tags": [
+        "十六国",
+        "成汉",
+        "蜀"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

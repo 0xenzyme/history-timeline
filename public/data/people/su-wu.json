@@ -1,0 +1,65 @@
+{
+  "id": "su-wu",
+  "name": "苏武",
+  "display": "苏武",
+  "birthAccuracy": "unknown",
+  "death": -60,
+  "deathAccuracy": "exact",
+  "title": "持节不屈，留匈奴十九年",
+  "bio": "天汉元年以中郎将使匈奴，被扣留十九年，持汉节牧羊北海而不屈；始元六年归国，拜典属国。宣帝神爵二年病卒，年八十余，后列名麒麟阁十一功臣。",
+  "tags": [
+    "北海牧羊",
+    "持节"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chang-hui",
+      "target": "su-wu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同使匈奴俱被留，惠代苏武为典属国"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "li-ling",
+      "target": "su-wu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "降匈奴后置酒诀别，泣下数行"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "李广苏建传",
+      "kind": "classic"
+    }
+  ]
+}

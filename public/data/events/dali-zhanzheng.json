@@ -1,0 +1,74 @@
+{
+  "id": "dali-zhanzheng",
+  "name": "蒙古征大理",
+  "display": "征大理",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 1252,
+  "yearAccuracy": "exact",
+  "endYear": 1253,
+  "endYearAccuracy": "exact",
+  "place": "大理",
+  "belligerents": [
+    "mongol",
+    "dali"
+  ],
+  "commanders": [
+    {
+      "id": "hu-bi-lie",
+      "side": "mongol"
+    }
+  ],
+  "result": "大理平，蒙古取得西南通道",
+  "aliases": [
+    "忽必烈征大理"
+  ],
+  "dynasties": [
+    "song",
+    "mongol"
+  ],
+  "desc": "1252年秋七月，宪宗命忽必烈征大理。1253年十二月大理平。蒙古由此从西南绕过南宋的江淮防线。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷三·宪宗本纪",
+      "note": "二年秋七月命忽必烈征大理，三年十二月大理平",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hu-bi-lie",
+      "name": "忽必烈",
+      "display": "元世祖忽必烈",
+      "birth": 1215,
+      "birthAccuracy": "exact",
+      "death": 1294,
+      "deathAccuracy": "exact",
+      "title": "元世祖，灭宋建元的大汗",
+      "bio": "拖雷次子，1260年即汗位，建元中统，定都燕京。襄阳围六年而克，伯颜下临安，崖山灭宋，混一天下。至元三十一年卒。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

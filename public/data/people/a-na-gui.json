@@ -1,0 +1,59 @@
+{
+  "id": "a-na-gui",
+  "name": "阿那瓌",
+  "display": "阿那瓌",
+  "birthAccuracy": "unknown",
+  "death": 552,
+  "deathAccuracy": "exact",
+  "deathNote": "「廢帝元年正月，土門發兵擊蠕蠕，大破之於懷荒北。阿那瓌自殺」（北史·突厥传），系西魏废帝元年。",
+  "title": "柔然可汗，助魏平六镇而复兴柔然，终为突厥所破自杀",
+  "tags": [
+    "南北朝",
+    "柔然"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "liuzhen-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tujue-po-rouran",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "阿那瓌",
+    "郁久闾阿那瓌"
+  ],
+  "sources": [
+    {
+      "work": "北史",
+      "part": "突厥传",
+      "kind": "classic"
+    }
+  ]
+}

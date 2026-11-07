@@ -1,0 +1,213 @@
+{
+  "id": "yizhou-zhizhan",
+  "name": "益州之战",
+  "display": "益州之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 212,
+  "yearAccuracy": "exact",
+  "yearNote": "三国志·先主传：建安十六年（211）刘璋遣法正迎备入蜀（前置），「明年」（212）决裂开战；十九年（214）夏雒城破、围成都数十日、璋出降。campaign 跨年给 endYear 214；决裂点或系211年末与212年初之交，不影响 year 取值。",
+  "endYear": 214,
+  "endYearAccuracy": "exact",
+  "place": "涪城、雒城、成都（主线）",
+  "placeNow": "今四川绵阳、广汉、成都",
+  "belligerents": [
+    "shu",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "liu-bei",
+      "side": "shu"
+    }
+  ],
+  "people": [
+    "liu-bei",
+    "pang-tong",
+    "fa-zheng",
+    "zhang-fei",
+    "zhao-yun",
+    "zhuge-liang"
+  ],
+  "result": "刘备破雒城（庞统中流矢死）、进围成都，刘璋出降；备兼并益州自领益州牧，跨有荆益",
+  "aliases": [
+    "刘备入蜀",
+    "刘备取益州",
+    "刘璋之役"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "211 年刘璋遣法正迎刘备入蜀助防张鲁；212 年备借曹操东征孙权之名与璋决裂，斩白水军督杨怀、进据涪城，诸葛亮、张飞、赵云溯江分定郡县。214 年夏破雒城（庞统中流矢死），进围成都数十日，刘璋出降。刘备兼并益州、自领益州牧，跨有荆益，三分格局的第二块基石由此落定。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·先主传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十六、卷六十七",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "display": "汉昭烈帝刘备",
+      "birth": 161,
+      "birthAccuracy": "exact",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "蜀汉先主，织席贩履而起",
+      "bio": "涿郡涿人，中山靖王之后，少孤，与母贩履织席。起兵讨黄巾，历依公孙瓒、陶谦、曹操、袁绍、刘表，赤壁后据荆州，西取益州，遂有汉中。章武元年称帝，三年败于猇亭，崩于白帝城永安宫，年六十三。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "pang-tong",
+      "name": "庞统",
+      "display": "庞统",
+      "birth": 179,
+      "birthAccuracy": "exact",
+      "death": 214,
+      "deathAccuracy": "exact",
+      "title": "军师中郎将，凤雏，落凤坡中流矢",
+      "bio": "襄阳人，少朴钝，未有识者，司马徽称之为南州士之冠冕。与诸葛亮并为军师中郎将，随先主入蜀，画策取涪、围雒城。建安十九年攻雒，为流矢所中，卒，年三十六，追谥靖侯。入蜀之谋多出其手，条短而关键。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "strategist",
+        "official"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fa-zheng",
+      "name": "法正",
+      "display": "法正",
+      "birth": 176,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "蜀郡太守，汉中之谋出于其手",
+      "bio": "右扶风郿人，建安初入蜀依刘璋，久不得志。与张松谋迎先主，遂为谋主，画策取益州。建安二十二年说先主取汉中，定军山之役从旁决策。明年先主为汉中王，以正为尚书令、护军将军，同年卒，年四十五。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "strategist",
+        "official"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-fei",
+      "name": "张飞",
+      "display": "张飞",
+      "birthAccuracy": "unknown",
+      "death": 221,
+      "deathAccuracy": "exact",
+      "title": "车骑将军，当阳据水断桥",
+      "bio": "涿郡人，与关羽俱事先主，年齿相若而兄事之。当阳长坂将二十骑拒后，据水断桥，敌不敢近。入蜀破江州，义释严颜。善待君子而不恤小人，章武元年将兵伐吴，为帐下将张达、范彊所杀。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-yun",
+      "name": "赵云",
+      "display": "赵云",
+      "birthAccuracy": "unknown",
+      "death": 229,
+      "deathAccuracy": "exact",
+      "title": "五虎上将，长坂坡单骑救主",
+      "bio": "常山真定人，字子龙。初从公孙瓒，后归刘备，患难相随。长坂坡于乱军中怀抱幼主刘禅，出入重围，血染征袍；赤壁后随刘备取荆益，定益州。汉水之战设空营计，大破曹军，刘备叹「子龙一身都是胆也」。建兴七年卒，谥顺平侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "display": "诸葛亮",
+      "birth": 181,
+      "birthAccuracy": "exact",
+      "death": 234,
+      "deathAccuracy": "exact",
+      "title": "蜀汉丞相，隆中对，五出祁山",
+      "bio": "琅邪阳都人，早孤，随叔父玄避乱荆州，躬耕隆中。建安十二年三顾而出，遂定三分之策。受托辅政，南征四郡，五次北伐，制木牛流马，作八阵图。建兴十二年卒于五丈原军中，年五十四，谥忠武侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "chancellor",
+        "general",
+        "strategist"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

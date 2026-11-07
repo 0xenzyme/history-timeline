@@ -1,0 +1,68 @@
+{
+  "id": "wei-zhaowang",
+  "name": "魏昭王",
+  "display": "魏昭王",
+  "birthAccuracy": "unknown",
+  "death": -277,
+  "deathAccuracy": "approx",
+  "deathNote": "魏世家在位年系年，约前277年卒，记approx。",
+  "title": "魏王，河东日削",
+  "bio": "白起东攻正急的魏王，河东地随岁割让，魏已不能支。他的条与韩釐王、周赧王并齐，轴上六国君主自此集体变短。",
+  "tags": [
+    "魏国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "wei-zhanguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-xiangwang",
+      "target": "wei-zhaowang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "襄王卒，昭王嗣，河东岁割于秦"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "wei-anxiwang",
+      "target": "wei-zhaowang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭王卒，安釐王嗣——不能专信信陵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "昭王（魏）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "魏世家",
+      "kind": "classic"
+    }
+  ]
+}

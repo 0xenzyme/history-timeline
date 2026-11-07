@@ -1,0 +1,82 @@
+{
+  "id": "zhu-youtang",
+  "name": "朱祐樘",
+  "display": "明孝宗朱祐樘",
+  "birth": 1470,
+  "birthAccuracy": "exact",
+  "death": 1505,
+  "deathAccuracy": "exact",
+  "title": "弘治中兴",
+  "bio": "宪宗第三子，母纪氏。弘治即位，驱奸佞、勤政事，一夫一妻，史称中兴令主。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-jianshen",
+      "target": "zhu-youtang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，宪宗传孝宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houzhao",
+      "target": "zhu-youtang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，孝宗传武宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-youtang",
+      "target": "liu-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "弘治辅政之臣，时称刘公断"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "朱祐樘",
+    "明孝宗"
+  ],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "孝宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

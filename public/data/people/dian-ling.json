@@ -1,0 +1,31 @@
+{
+  "id": "dian-ling",
+  "name": "滇零",
+  "display": "滇零",
+  "birthAccuracy": "unknown",
+  "death": 112,
+  "deathAccuracy": "exact",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "end"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷49 汉纪四十一",
+      "kind": "classic"
+    }
+  ]
+}

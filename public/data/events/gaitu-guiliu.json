@@ -1,0 +1,96 @@
+{
+  "id": "gaitu-guiliu",
+  "name": "改土归流",
+  "display": "改土归流",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1726,
+  "yearAccuracy": "exact",
+  "yearNote": "雍正四年以鄂尔泰巡抚云南，推行改土归流。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "e-er-tai",
+    "yong-zheng"
+  ],
+  "result": "改土归流",
+  "aliases": [
+    "西南改流"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "土司传记雍正初有改土归流之议，四年春以鄂尔泰巡抚云南兼总督事。鄂尔泰传写欲制夷必改土归流。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷五百一十二",
+      "note": "至雍正初，而有改土歸流之議。四年春，以鄂爾泰",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二百八十八",
+      "note": "欲制夷必改土歸流",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "e-er-tai",
+      "name": "鄂尔泰",
+      "display": "鄂尔泰",
+      "birthAccuracy": "unknown",
+      "death": 1745,
+      "deathAccuracy": "exact",
+      "deathNote": "乾隆十年，以疾乞解任，加太傅，旋卒。",
+      "title": "世宗顾命，高宗军机",
+      "bio": "西林觉罗氏。世宗末与张廷玉同受顾命。高宗初总理事务，后为军机大臣。乾隆十年卒，遗诏曾令配享太庙。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yong-zheng",
+      "name": "胤禛",
+      "display": "雍正",
+      "birth": 1678,
+      "birthAccuracy": "exact",
+      "death": 1735,
+      "deathAccuracy": "exact",
+      "title": "肃政集权",
+      "bio": "康熙第四子，即位后行摊丁入亩、设军机处、清查亏空，承前启后。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

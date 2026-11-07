@@ -1,0 +1,56 @@
+{
+  "id": "jia-bo",
+  "name": "家伯",
+  "display": "家伯",
+  "birthAccuracy": "unknown",
+  "death": -773,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见《十月之交》「家伯维宰」，取幽王五年为可见下限。",
+  "title": "《十月之交》家伯维宰",
+  "bio": "诗「家伯维宰」。与作《节南山》的家父是否同氏，未定。",
+  "tags": [
+    "十月之交"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-gongsheng",
+      "target": "jia-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "《十月之交》家伯维宰"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "家伯"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "小雅·十月之交",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "zhang-han",
+  "name": "章邯",
+  "display": "章邯",
+  "birthAccuracy": "unknown",
+  "death": -205,
+  "deathAccuracy": "exact",
+  "title": "秦将，破陈胜，降项羽，封雍王",
+  "bio": "将骊山徒与人奴产子击陈胜、项梁，一度压住关东。巨鹿兵败降楚，坑卒二十万。封雍王，前 205 年汉军定三秦，废丘城破自杀。秦最后一支能打的兵，断在他这条上。",
+  "tags": [
+    "秦朝",
+    "亡秦"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-official"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiang-yu",
+      "target": "zhang-han",
+      "type": "rival",
+      "directed": false,
+      "since": -207,
+      "notes": [
+        "巨鹿之战破秦军"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "chen-sheng",
+      "target": "zhang-han",
+      "type": "rival",
+      "directed": false,
+      "since": -208,
+      "notes": [
+        "章邯破陈县，胜败死"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "julu-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "章邯",
+    "雍王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "项羽本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "高祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

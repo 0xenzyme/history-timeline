@@ -1,0 +1,148 @@
+{
+  "id": "li-hongzhang",
+  "name": "李鸿章",
+  "display": "李鸿章",
+  "birth": 1823,
+  "birthAccuracy": "exact",
+  "death": 1901,
+  "deathAccuracy": "exact",
+  "title": "洋务领袖",
+  "bio": "曾国藩门生，编淮军、办洋务、建北洋水师，周旋列强，签诸条约负重谤。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "minister",
+    "official",
+    "diplomat",
+    "general"
+  ],
+  "primary": "minister",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zeng-guofan",
+      "target": "li-hongzhang",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "李鸿章出自曾门，编练淮军"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "zuo-zongtang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "塞防海防之争，洋务同途异见"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "zhang-zhidong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同办洋务，南北呼应"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "li-hongzhang",
+      "target": "yi-xin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "总理衙门主洋务，倚李主持"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ding-ru-chang",
+      "target": "li-hongzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "统北洋水师而隶鸿章麾下"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "feng-zicai",
+      "target": "li-hongzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "一主战于镇南关，一主和于天津，同在中法之局"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beiyang-shuishi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jiangnan-zhizaoju",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "maguan-heyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "nianjun-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xinchou-heyue",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "李鸿章传",
+      "kind": "classic"
+    }
+  ]
+}

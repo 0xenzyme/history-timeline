@@ -1,0 +1,199 @@
+{
+  "id": "sanfan-zhiluan",
+  "name": "三藩之乱",
+  "display": "三藩之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 1673,
+  "yearAccuracy": "exact",
+  "yearNote": "康熙十二年十二月吴三桂反。",
+  "endYear": 1681,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "wu-sangui",
+    "kang-xi",
+    "geng-jing-zhong",
+    "shang-kexi",
+    "shang-zhi-xin",
+    "wu-shifan"
+  ],
+  "result": "吴三桂反，康熙二十年云南平",
+  "aliases": [
+    "撤藩"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "康熙十二年耿精忠疏请撤藩，十二月吴三桂反，杀云南巡抚朱国治。尚可喜、尚之信和耿精忠都卷进这场藩镇叛乱。康熙二十年吴世璠自杀，余党降，云南平，南方藩镇至此结束。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷六",
+      "note": "吳三桂反，殺雲南巡撫朱國治",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷六",
+      "note": "耿精忠疏請撤籓",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷六",
+      "note": "吳世璠自殺，傳首，吳三桂析骸，示中外，誅偽相方光琛，餘黨降，雲南平",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wu-sangui",
+      "name": "吴三桂",
+      "display": "吴三桂",
+      "birth": 1612,
+      "birthAccuracy": "exact",
+      "death": 1678,
+      "deathAccuracy": "exact",
+      "title": "引清兵入关 · 平西王",
+      "bio": "辽东将家子，镇山海关。崇祯自缢后降清，乞师入关破李自成；后为平西王镇云南，三藩之乱举兵败亡。",
+      "tags": [
+        "明",
+        "清"
+      ],
+      "categories": [
+        "vassal",
+        "warlord",
+        "rebel",
+        "general",
+        "falling"
+      ],
+      "primary": "general",
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "kang-xi",
+      "name": "玄烨",
+      "display": "康熙",
+      "birth": 1654,
+      "birthAccuracy": "exact",
+      "death": 1722,
+      "deathAccuracy": "exact",
+      "title": "康乾盛世之始",
+      "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "geng-jing-zhong",
+      "name": "耿精忠",
+      "display": "耿精忠",
+      "birthAccuracy": "unknown",
+      "death": 1682,
+      "deathAccuracy": "exact",
+      "deathNote": "三藩既平，康熙二十一年磔诛于市。",
+      "title": "靖南王，三藩之叛",
+      "bio": "耿仲明之孙，袭靖南王而镇福建。康熙十二年与吴三桂并举兵，据闽而犯浙赣；十五年势穷复降，二十一年三藩既平，磔诛于市。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "vassal",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shang-kexi",
+      "name": "尚可喜",
+      "display": "尚可喜",
+      "birthAccuracy": "unknown",
+      "death": 1676,
+      "deathAccuracy": "exact",
+      "deathNote": "康熙十五年十月卒。子之信已叛。",
+      "title": "平南亲王",
+      "bio": "辽东人。康熙十四年进封平南亲王。十五年二月子之信叛，可喜卧疾不能制，十月卒。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "general",
+        "vassal"
+      ],
+      "primary": "general",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shang-zhi-xin",
+      "name": "尚之信",
+      "display": "尚之信",
+      "birthAccuracy": "unknown",
+      "death": 1680,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷474·尚之信传：康熙十九年春自将攻武宣，巡抚金俊与藩下总兵王国栋等告其凶残暴虐、犹存异志，被逮后狱上，上命赐之信死；卷6·圣祖本纪一康熙十九年八月甲申同书诏赐之信死。此前他杀父客金光以降吴三桂，复归正后又擅杀、阻兵不进。",
+      "categories": [
+        "vassal",
+        "rebel"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-shifan",
+      "name": "吴世璠",
+      "display": "吴世璠",
+      "birthAccuracy": "unknown",
+      "death": 1681,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷474·吴三桂传附：三桂死后其孙世璠（吴应熊庶子，留云南）被部下拥称帝，改号洪化；康熙二十年十月昆明城陷前夕，线緎等谋执世璠以降，世璠与郭壮图皆自杀，城降后戮其尸、传首京师。",
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "polity": [
+        "ming",
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

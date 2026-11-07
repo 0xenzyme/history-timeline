@@ -1,0 +1,78 @@
+{
+  "id": "xiao-yi",
+  "name": "萧绎",
+  "display": "梁元帝萧绎",
+  "birth": 508,
+  "birthAccuracy": "exact",
+  "death": 554,
+  "deathAccuracy": "exact",
+  "title": "梁元帝，江陵陷后被杀",
+  "bio": "梁武帝第七子，天监七年八月生。承圣三年西魏陷江陵，十二月被害，年四十七。",
+  "tags": [
+    "南北朝",
+    "梁"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xiao-yan",
+      "target": "xiao-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。元帝为高祖第七子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "xiao-gang",
+      "target": "xiao-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。元帝追崇纲为简文皇帝"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiangling-zhixian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "萧绎",
+    "梁元帝"
+  ],
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "元帝纪",
+      "kind": "classic"
+    }
+  ]
+}

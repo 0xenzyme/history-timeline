@@ -1,0 +1,68 @@
+{
+  "id": "zheng-maisi",
+  "name": "郑买嗣",
+  "display": "郑买嗣",
+  "birthAccuracy": "unknown",
+  "death": 909,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年诸书并作公元 909 年；生年无载。",
+  "title": "大长和之立，杀主篡南诏",
+  "bio": "南诏清平官郑回之七世孙，世执国政。南诏末数内乱，舜化贞死，嗣君尚幼，买嗣遂篡蒙氏，改国号大长和，改元安国，蒙氏之族尽焉。在位八年而卒。",
+  "tags": [
+    "云南",
+    "大长和"
+  ],
+  "categories": [
+    "monarch",
+    "founding",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "dachanghe"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "yunnan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zheng-maisi",
+      "target": "zheng-renmin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，大长和二世"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dachanghe-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "南诏野史",
+      "part": "大长和",
+      "kind": "classic"
+    },
+    {
+      "work": "滇载记",
+      "kind": "classic"
+    }
+  ]
+}

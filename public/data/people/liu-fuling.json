@@ -1,0 +1,110 @@
+{
+  "id": "liu-fuling",
+  "name": "刘弗陵",
+  "display": "汉昭帝",
+  "birth": -94,
+  "birthAccuracy": "exact",
+  "death": -74,
+  "deathAccuracy": "exact",
+  "title": "西汉第八位皇帝",
+  "bio": "八岁即位，霍光辅政。轻徭薄赋、与匈奴和亲，扭转武帝末年凋敝，二十一岁早崩。",
+  "tags": [
+    "霍光辅政",
+    "早崩"
+  ],
+  "categories": [
+    "monarch",
+    "regent"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "liu-fuling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "liu-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔祖与侄孙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "huo-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "八岁即位，霍光秉政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "shangguan-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭帝皇后。宣帝时为太皇太后，建昭二年崩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "wang-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昭帝元凤四年代田千秋为丞相，封宜春侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wudi-tuogu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "昭帝纪",
+      "kind": "classic"
+    }
+  ]
+}

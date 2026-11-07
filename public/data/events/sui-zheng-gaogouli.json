@@ -1,0 +1,135 @@
+{
+  "id": "sui-zheng-gaogouli",
+  "name": "隋征高句丽",
+  "display": "隋征高句丽",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 612,
+  "yearAccuracy": "exact",
+  "yearNote": "大业八年（612）正月大军集于涿郡，十年（614）七月高丽遣使请降告终；开皇十八年（598）首征高丽水陆三十万，师遇疾疫而还，另记不并入本条。",
+  "endYear": 614,
+  "endYearAccuracy": "exact",
+  "endYearNote": "大业十年（614）七月高丽请降告终。",
+  "belligerents": [
+    "sui",
+    "goguryeo"
+  ],
+  "commanders": [
+    {
+      "id": "yang-guang",
+      "side": "sui"
+    },
+    {
+      "id": "yu-wen-shu",
+      "side": "sui"
+    },
+    {
+      "id": "lai-hu-er",
+      "side": "sui"
+    }
+  ],
+  "result": "三征皆无功，萨水败后丧师，民变四起，隋由此入亡途",
+  "aliases": [
+    "三征高句丽",
+    "辽东之役",
+    "隋高句丽战争"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "大业八年（612）正月，隋军集于涿郡，总一百一十三万三千八百人，号二百万；七月宇文述等败绩于萨水，九军并陷，渡辽九军三十万五千人还者仅二千七百人。九年（613）六月杨玄感反于黎阳，炀帝自辽东班师，二征中止；十年（614）七月高丽遣使请降、囚送斛斯政，三征告终。三征皆无功，民变四起，隋由此入亡途。",
+  "sources": [
+    {
+      "work": "隋書",
+      "part": "卷四 煬帝紀下",
+      "kind": "classic"
+    },
+    {
+      "work": "隋書",
+      "part": "卷二 高祖紀下",
+      "kind": "classic"
+    },
+    {
+      "work": "隋書",
+      "part": "卷六一 宇文述傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "birth": 569,
+      "birthAccuracy": "exact",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-wen-shu",
+      "name": "宇文述",
+      "display": "宇文述",
+      "birthAccuracy": "unknown",
+      "death": 616,
+      "deathAccuracy": "exact",
+      "deathNote": "列传只书江都遇疾而薨。炀帝纪系于大业十二年十月。",
+      "title": "夺嫡主谋，辽东扶余道军将",
+      "bio": "代郡武川人。晋王有夺宗之志，述请先结杨素，废立之谋由此而成。征高丽为扶余道军将，萨水大溃。杨玄感西走，述破之于阌乡。大业十二年十月薨。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lai-hu-er",
+      "name": "来护儿",
+      "display": "来护儿",
+      "birthAccuracy": "unknown",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "deathNote": "三征高句丽水军主将。传文：「江都之难，宇文化及忌而害之」，诸子皆遇害（隋书·来护儿传）；隋书本纪未于义宁二年三月点名，卒年据资治通鉴·唐纪一：「又杀内史侍郎虞世基、御史大夫裴蕴、左翊卫大将军来护儿……」系于 618 年三月。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

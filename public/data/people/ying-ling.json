@@ -1,0 +1,68 @@
+{
+  "id": "ying-ling",
+  "name": "秦灵公",
+  "display": "秦灵公",
+  "birthAccuracy": "unknown",
+  "death": -415,
+  "deathAccuracy": "exact",
+  "deathNote": "秦本纪在位年系年，前415年卒。",
+  "title": "秦公，简公惠公之前",
+  "bio": "灵公卒后君位连转，简公、惠公、出子相继而立。魏文侯用吴起守西河，秦人在这一代不敢东出。",
+  "tags": [
+    "秦国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-huai",
+      "target": "ying-ling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "怀公至灵公，君统在本纪里自相错出"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-jian",
+      "target": "ying-ling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "灵公卒后君位连转，简公、惠公、出子相继而立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "灵公（秦）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

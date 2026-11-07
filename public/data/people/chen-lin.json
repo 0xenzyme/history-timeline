@@ -1,0 +1,59 @@
+{
+  "id": "chen-lin",
+  "name": "陈琳",
+  "display": "陈琳",
+  "birthAccuracy": "unknown",
+  "death": 217,
+  "deathAccuracy": "exact",
+  "title": "建安七子之一，为曹操作书檄愈头风",
+  "bio": "广陵射阳人，字孔璋。初为何进主簿，进欲诛宦官召四方将入朝，琳切谏不听，后果败。董卓乱起，依袁绍，为绍作檄文骂曹操并及其父祖；绍败，归曹，太祖爱其才而弗咎，与阮瑀并管记室，军国书檄多出其手。建安二十二年卒。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "literature",
+    "official"
+  ],
+  "primary": "literature",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "chen-lin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，原袁绍记室，后归曹"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈琳",
+    "陈孔璋"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·王卫二刘傅传",
+      "kind": "classic"
+    }
+  ]
+}

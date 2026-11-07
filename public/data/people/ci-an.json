@@ -1,0 +1,80 @@
+{
+  "id": "ci-an",
+  "name": "慈安",
+  "display": "慈安太后",
+  "birth": 1837,
+  "birthAccuracy": "approx",
+  "death": 1881,
+  "deathAccuracy": "exact",
+  "birthNote": "光绪七年崩，年四十五，上推生年。",
+  "title": "母后皇太后，与慈禧并垂帘",
+  "bio": "钮祜禄氏，咸丰皇后。文宗崩后与孝钦并尊，诏旨称母后皇太后。同治、光绪两度垂帘。光绪七年三月崩。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ci-an",
+      "target": "xian-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇后。文宗崩后称母后皇太后，与慈禧并垂帘"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "ci-an",
+      "target": "ci-xi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "两宫并尊。同治、光绪两度垂帘"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xinyou-zhengbian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "慈安",
+    "钮祜禄氏",
+    "孝贞显皇后"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·孝贞显皇后",
+      "kind": "classic"
+    }
+  ]
+}

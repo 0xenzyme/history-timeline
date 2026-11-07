@@ -1,0 +1,90 @@
+{
+  "id": "yang-guo-zhong",
+  "name": "杨国忠",
+  "display": "杨国忠",
+  "birthAccuracy": "unknown",
+  "death": 756,
+  "deathAccuracy": "exact",
+  "title": "右相，贵妃从兄，激成安史之乱",
+  "bio": "蒲州永乐人，本名钊，贵妃从祖兄。以椒房之亲领度支，骤迁至右相，兼领四十余使，务为聚敛。数与安禄山相倾，屡言禄山必反，又激之使速反。天宝十五载哥舒翰败，帝奔蜀，至马嵬，禁军大呼「国忠与胡虏谋反」，遂斩之，并杀其子及韩国夫人。",
+  "tags": [
+    "唐",
+    "天宝"
+  ],
+  "categories": [
+    "consort-kin",
+    "regent"
+  ],
+  "primary": "regent",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-guo-zhong",
+      "target": "yang-yu-huan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从兄妹，国忠倚妃得宠"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "yang-guo-zhong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "互相倾轧，禄山以诛国忠为名"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "xianyu-zhongtong",
+      "target": "yang-guo-zhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "仲通引荐国忠，丧师南诏为所掩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mawei-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "杨国忠",
+    "杨钊"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "杨国忠传",
+      "kind": "classic"
+    }
+  ]
+}

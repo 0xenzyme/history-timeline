@@ -1,0 +1,58 @@
+{
+  "id": "liu-zhen",
+  "name": "刘桢",
+  "display": "刘桢",
+  "birthAccuracy": "unknown",
+  "death": 217,
+  "deathAccuracy": "exact",
+  "title": "建安七子之一，五言诗妙绝时人",
+  "bio": "东平宁阳人，字公干。为丞相掾属，与曹丕兄弟友善，以文辞知名。后以失敬被刑，刑竟署吏。五言诗与王粲并重，曹丕称其五言诗之善者妙绝时人。建安二十二年卒。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "literature"
+  ],
+  "primary": "literature",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "liu-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "建安七子，曹操丞相掾"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘桢",
+    "刘公干"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·王卫二刘傅传",
+      "kind": "classic"
+    }
+  ]
+}

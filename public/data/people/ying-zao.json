@@ -1,0 +1,57 @@
+{
+  "id": "ying-zao",
+  "name": "秦躁公",
+  "display": "秦躁公",
+  "birthAccuracy": "unknown",
+  "death": -429,
+  "deathAccuracy": "exact",
+  "deathNote": "卒年据秦本纪在位年系年；自怀公至出子一段君统记载多出入，从通行系年。",
+  "title": "秦公，君统旁入远支",
+  "bio": "献公以前的秦君之一。这一代秦的君位屡经更张、一度转入公族远支，庶长专政，国事轻于三晋。轴上的秦君列现在从躁公起头，接到献公止从死。",
+  "tags": [
+    "秦国",
+    "庶长"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-huai",
+      "target": "ying-zao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "躁、怀、灵迭而立，君统在本纪里自相错出——献公以前的短乱从此数起"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "躁公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

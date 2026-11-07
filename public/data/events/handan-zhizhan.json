@@ -1,0 +1,283 @@
+{
+  "id": "handan-zhizhan",
+  "name": "邯郸之战（信陵君窃符救赵）",
+  "display": "邯郸之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": -259,
+  "yearAccuracy": "exact",
+  "yearNote": "《史記·白起王翦列傳》「其九月，秦復發兵，使五大夫王陵攻趙邯鄲」（昭王四十八年，前259）；《資治通鑑》卷5赧王五十八年（前257）「魏公子無忌大破秦師於邯鄲下，王齕解邯鄲圍走」。主錨取围城之始前259，解围在257。",
+  "endYear": -257,
+  "endYearAccuracy": "exact",
+  "place": "邯鄲",
+  "placeNow": "河北省邯郸市",
+  "belligerents": [
+    "qin",
+    "zhao",
+    "wei-zhanguo",
+    "chu"
+  ],
+  "commanders": [
+    {
+      "id": "lian-po",
+      "side": "zhao"
+    },
+    {
+      "id": "zhao-sheng",
+      "side": "zhao"
+    },
+    {
+      "id": "wei-wuji",
+      "side": "wei-zhanguo"
+    }
+  ],
+  "people": [
+    "ying-ji",
+    "zhao-xiaochengwang",
+    "wei-anxiwang",
+    "chu-kaoliewang",
+    "bai-qi",
+    "huang-xie"
+  ],
+  "result": "秦围邯郸三年不下，信陵君窃符、楚春申君来援，秦军大败而退",
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "长平之后秦围邯郸，赵内应外合死守三年；魏信陵君窃符、楚春申君发兵救赵，大破秦军解围，秦将郑安平降赵。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷五",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷七十三·卷073）",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷七十七·卷077）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ying-ji",
+      "name": "嬴稷",
+      "display": "秦昭襄王",
+      "birthAccuracy": "unknown",
+      "death": -251,
+      "deathAccuracy": "exact",
+      "title": "秦王，在位五十六年，长平之主",
+      "bio": "用魏冉、范雎、白起。远交近攻，破长平、围邯郸、灭东周。战国后半他的条最长，六国的败象都画在这条下面。",
+      "tags": [
+        "秦国",
+        "长平"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xiaochengwang",
+      "name": "赵孝成王",
+      "display": "赵孝成王",
+      "birthAccuracy": "unknown",
+      "death": -245,
+      "deathAccuracy": "exact",
+      "deathNote": "赵世家：孝成王二十一年卒；由世家\"二十年秦王政初立\"与秦王政元年（前246）逆推，卒于前245。与落库记录中李牧、平原君条同推。",
+      "title": "赵王，长平邯郸之主",
+      "bio": "长平的赵王：以赵括代廉颇，四十余万坑；随即坚壁邯郸，赖平原君告急、信陵君窃符解围。轴上changping、handan两点的焦点人物。前245年卒，其后三世而赵亡。",
+      "tags": [
+        "赵国",
+        "长平",
+        "邯郸"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-anxiwang",
+      "name": "魏安釐王",
+      "display": "魏安釐王",
+      "birthAccuracy": "unknown",
+      "death": -243,
+      "deathAccuracy": "exact",
+      "deathNote": "魏世家：安釐王三十四年信陵君卒，王亦卒；由景湣王元年（前242，秦初置东郡）逆系为前243。与落库记录中信陵君条同推。",
+      "title": "魏王，窃符之后的猜忌",
+      "bio": "信陵君窃符救赵后忌之，不能复用；三十四年公子与王相继而卒。次年秦置东郡，魏只剩大梁以东。他的条与信陵君同年截断，是读魏国衰亡的对照。",
+      "tags": [
+        "魏国",
+        "信陵君"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chu-kaoliewang",
+      "name": "楚考烈王",
+      "display": "楚考烈王",
+      "birthAccuracy": "unknown",
+      "death": -238,
+      "deathAccuracy": "exact",
+      "deathNote": "楚世家、春申君列传：考完以春申君力归立，元年以歇为相；卒于始皇九年（前238），春申君亦是岁死。与落库记录同推。",
+      "title": "楚王，春申所立",
+      "bio": "太子完尝质于秦，黄歇设谋得归而立——相国于歇二十余年，东徙寿春，与诸侯合从攻秦不克。前238年卒；同年李园杀春申君，楚的把柄换了人家。",
+      "tags": [
+        "楚国",
+        "春申君"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bai-qi",
+      "name": "白起",
+      "display": "白起",
+      "birthAccuracy": "unknown",
+      "death": -257,
+      "deathAccuracy": "exact",
+      "title": "秦将，武安君，坑杀长平",
+      "bio": "郿人。拔郢、烧夷陵，长平坑赵卒。不肯再将围邯郸，昭王赐死。战国最陡的一条武将条，停在邯郸未下之年。",
+      "tags": [
+        "秦国",
+        "长平"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huang-xie",
+      "name": "黄歇",
+      "display": "春申君",
+      "birthAccuracy": "unknown",
+      "death": -238,
+      "deathAccuracy": "exact",
+      "deathNote": "春申君列传：考烈王卒后十七日，李园伏死士斩春申君。是岁秦始皇帝立九年。始皇九年是前238年。",
+      "title": "楚相，始皇九年被杀",
+      "bio": "楚顷襄王派他入秦，劝昭王不要让白起伐楚。考烈王时为相二十余年。始皇九年，考烈王卒后被李园所杀。",
+      "tags": [
+        "楚国",
+        "春申君"
+      ],
+      "categories": [
+        "minister"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lian-po",
+      "name": "廉颇",
+      "display": "廉颇",
+      "birthAccuracy": "unknown",
+      "death": -243,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。奔魏后入楚，终老寿春，约楚迁都寿春前后。",
+      "title": "赵将，与蔺相如将相和",
+      "bio": "长平前主赵军，后为赵括所代。负荆于蔺相如。晚岁奔魏、楚，赵终不能用。他的条拖过长平，拖不过秦的东进。",
+      "tags": [
+        "赵国",
+        "长平"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-sheng",
+      "name": "赵胜",
+      "display": "平原君",
+      "birthAccuracy": "unknown",
+      "death": -251,
+      "deathAccuracy": "exact",
+      "deathNote": "平原君虞卿列传：以赵孝成王十五年卒。赵世家把秦王政初立记在孝成王二十年。秦王政元年为前246年，十五年即前251年。",
+      "title": "赵相，散财守邯郸",
+      "bio": "赵公子，封平原君。相惠文王、孝成王，三次罢相又复任。邯郸被围时散家财飨士。孝成王十五年卒。",
+      "tags": [
+        "赵国",
+        "平原君"
+      ],
+      "categories": [
+        "minister"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-wuji",
+      "name": "魏无忌",
+      "display": "信陵君",
+      "birthAccuracy": "unknown",
+      "death": -243,
+      "deathAccuracy": "exact",
+      "deathNote": "魏世家：安釐王三十一年秦王政初立，三十四年安釐王卒，信陵君无忌卒。三十一年为前246年，三十四年即前243年。列传只说病酒而卒，年份取世家。",
+      "title": "窃符救赵",
+      "bio": "魏安釐王的异母弟，封信陵君。窃兵符、杀晋鄙，带魏军解开邯郸之围。安釐王三十四年病酒卒。",
+      "tags": [
+        "魏国",
+        "信陵君"
+      ],
+      "categories": [
+        "royal-kin",
+        "general"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

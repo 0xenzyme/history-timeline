@@ -1,0 +1,89 @@
+{
+  "id": "zhang-juzheng",
+  "name": "张居正",
+  "display": "张居正",
+  "birth": 1525,
+  "birthAccuracy": "exact",
+  "death": 1582,
+  "deathAccuracy": "exact",
+  "title": "万历首辅，一条鞭法",
+  "bio": "江陵人，神宗冲龄即位，任首辅摄政十年。行考成法、清丈田亩、推一条鞭，太仓粟可支十年；身后抄家，法度渐弛。",
+  "tags": [
+    "明",
+    "改革"
+  ],
+  "categories": [
+    "official",
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yijun",
+      "target": "zhang-juzheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1572,
+      "notes": [
+        "冲龄即位，居正摄政行新政"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "gao-gong",
+      "target": "zhang-juzheng",
+      "type": "rival",
+      "directed": false,
+      "since": 1572,
+      "notes": [
+        "冯保交结，拱去而居正遂专政"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "shen-shixing",
+      "target": "zhang-juzheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为万历初政的内阁重臣"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yitiaobian-fa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "张居正传",
+      "kind": "classic"
+    }
+  ]
+}

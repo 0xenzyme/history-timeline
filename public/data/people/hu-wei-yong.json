@@ -1,0 +1,73 @@
+{
+  "id": "hu-wei-yong",
+  "name": "胡惟庸",
+  "display": "胡惟庸",
+  "birthAccuracy": "unknown",
+  "death": 1380,
+  "deathAccuracy": "exact",
+  "title": "最后一位丞相",
+  "bio": "定远人，李善长所荐而独相数年，威权震主; 1380 年以谋逆诛，牵连三万余人。太祖遂罢中书省，不复置丞相。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "regent"
+  ],
+  "primary": "regent",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-wei-yong",
+      "target": "li-shan-chang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "善长荐之入相，后皆坐其党"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hu-wei-yong",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1380,
+      "notes": [
+        "既诛惟庸，遂罢中书省，丞相之官自此不设"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "zhongshu-feisheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "奸臣传",
+      "kind": "classic"
+    }
+  ]
+}

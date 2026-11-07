@@ -1,0 +1,92 @@
+{
+  "id": "zhaomoduo-zhizhan",
+  "name": "昭莫多之战",
+  "display": "昭莫多之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1696,
+  "yearAccuracy": "exact",
+  "yearNote": "康熙三十五大败噶尔丹于昭莫多。",
+  "place": "昭莫多",
+  "belligerents": [
+    "qing",
+    "mongol"
+  ],
+  "commanders": [
+    {
+      "id": "ga-er-dan",
+      "side": "mongol"
+    }
+  ],
+  "people": [
+    "ga-er-dan",
+    "kang-xi"
+  ],
+  "result": "大败噶尔丹于昭莫多",
+  "parent": "gaerdan-zhanzheng",
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "康熙三十五年，抚远大将军伯费扬古大败噶尔丹于昭莫多。这一仗之后噶尔丹不能再回漠北，次年仰药死。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷七",
+      "note": "撫遠大將軍伯費揚古大敗噶爾丹於昭莫多",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ga-er-dan",
+      "name": "噶尔丹",
+      "display": "噶尔丹",
+      "birthAccuracy": "unknown",
+      "death": 1697,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷7·圣祖本纪二：康熙三十六年夏四月，费扬古疏报闰三月十三日噶尔丹仰药死，其女钟齐海率三百户来降。乌兰布通、昭莫多两役败后西走，援绝粮尽而仰药死；卷525·藩部八记其入藏为喇嘛，归而篡其汗位，自称受达赖封为准噶尔博硕克图汗。",
+      "categories": [
+        "outsider",
+        "warlord"
+      ],
+      "polity": [
+        "mongol"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "kang-xi",
+      "name": "玄烨",
+      "display": "康熙",
+      "birth": 1654,
+      "birthAccuracy": "exact",
+      "death": 1722,
+      "deathAccuracy": "exact",
+      "title": "康乾盛世之始",
+      "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

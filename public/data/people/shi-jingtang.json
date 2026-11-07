@@ -1,0 +1,181 @@
+{
+  "id": "shi-jingtang",
+  "name": "石敬瑭",
+  "display": "后晋高祖",
+  "birth": 892,
+  "birthAccuracy": "exact",
+  "death": 942,
+  "deathAccuracy": "exact",
+  "title": "后晋高祖，割燕云称儿皇帝",
+  "bio": "沙陀人，事明宗为子婿，谨愿善骑射，佐唐伐梁，位至河东节度使、中书令。废帝疑之，举兵太原，表称臣于契丹，请割卢龙雁门以北，德光自将来援，天显十一年立晋，迁都汴。六年之中仰事契丹，疽发背而殂。",
+  "tags": [
+    "五代",
+    "后晋"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-siyuan",
+      "target": "shi-jingtang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "子婿与腹心，晋阳之变由此起"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-congke",
+      "target": "shi-jingtang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太原举兵，引契丹灭唐"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "称儿皇帝，父事契丹"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-chonggui",
+      "target": "shi-jingtang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄子为养子，出帝继晋"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "du-chongwei",
+      "target": "shi-jingtang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "甥婿相维，将相之位由亲而得"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "sang-weihan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "敬瑭之谋主，割幽蓟、输岁帛以易契丹之援，晋由是立"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "an-chongrong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "重荣为成德军节度使，恃功浸骄，卒举兵叛"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "li-song-houjin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "敬瑭称帝，崧预其谋，后与桑维翰同相"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fengxiang-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "ge-yanyun-shi-liu-zhou",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "houjin-jianli",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jinyang-zhiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shi-jingtang-jie-bing",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yanyun-shiliuzhou-gerang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "高祖本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "晋本纪",
+      "kind": "classic"
+    }
+  ]
+}

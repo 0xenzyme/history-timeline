@@ -1,0 +1,117 @@
+{
+  "id": "ji-zhi",
+  "name": "姬职",
+  "display": "燕昭王",
+  "birthAccuracy": "unknown",
+  "death": -279,
+  "deathAccuracy": "exact",
+  "title": "燕王，筑黄金台",
+  "bio": "子之之乱后即位。郭隗、乐毅入燕，二十八年破齐七十余城。他一卒，骑劫代将，田单复齐——昭王条的终点就是齐国条的转折。",
+  "tags": [
+    "燕国",
+    "破齐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-zhi",
+      "target": "yue-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "上将军，连五国伐齐"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-zhi",
+      "target": "su-qin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "合纵活动系于昭王之世"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-huiwang",
+      "target": "ji-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭王三十三年卒，子惠王立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-zhi",
+      "target": "tian-di",
+      "type": "rival",
+      "directed": false,
+      "since": -284,
+      "notes": [
+        "五国伐齐，乐毅下七十余城，湣王死于莒"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-zhi",
+      "target": "yan-kuaiwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "燕世家：昭王平为王哙之子——让国奇祸的残局上筑黄金台。异说并存，从世家"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-zhi",
+      "target": "ju-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "卑身厚币以招贤者，剧辛自赵往、乐毅自魏往——黄金台的实名"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "燕昭王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

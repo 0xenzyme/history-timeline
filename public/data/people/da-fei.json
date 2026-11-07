@@ -1,0 +1,85 @@
+{
+  "id": "da-fei",
+  "name": "阿巴亥",
+  "display": "阿巴亥",
+  "birth": 1590,
+  "birthAccuracy": "approx",
+  "death": 1626,
+  "deathAccuracy": "exact",
+  "birthNote": "岁辛丑来归，年十二，上推生年。",
+  "deathNote": "天命十一年八月，太祖崩之次日殉。",
+  "title": "太祖大妃，多尔衮、多铎之母",
+  "bio": "乌喇纳喇氏。孝慈皇后崩后立为大妃。太祖崩，次日殉，年三十七。子阿济格、多尔衮、多铎。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "primary": "consort",
+  "polity": [
+    "qing"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "da-fei",
+      "target": "duo-er-gun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。大妃纳喇氏生阿济格、多尔衮、多铎"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "da-fei",
+      "target": "duo-duo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。多铎为太祖第十五子，多尔衮同母弟"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "da-fei",
+      "target": "hong-taiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "太祖崩，次日殉，年三十七"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "大妃",
+    "乌喇纳喇氏",
+    "孝烈武皇后"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "后妃传·大妃",
+      "kind": "classic"
+    }
+  ]
+}

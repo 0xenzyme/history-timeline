@@ -1,0 +1,69 @@
+{
+  "id": "shangguan-hou",
+  "name": "上官皇后",
+  "display": "孝昭上官皇后",
+  "birth": -88,
+  "birthAccuracy": "approx",
+  "death": -37,
+  "deathAccuracy": "exact",
+  "birthNote": "建昭二年崩，年五十二，上推生年。",
+  "title": "昭帝皇后，宣帝时为太皇太后",
+  "bio": "祖父上官桀。昭帝皇后。宣帝即位后为太皇太后。建昭二年崩，年五十二，合葬平陵。",
+  "tags": [
+    "西汉"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-fuling",
+      "target": "shangguan-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭帝皇后。宣帝时为太皇太后，建昭二年崩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "shangguan-hou",
+      "target": "shangguan-jie",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙；上官氏六岁为昭帝皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "上官皇后"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "外戚传·孝昭上官皇后",
+      "kind": "classic"
+    }
+  ]
+}

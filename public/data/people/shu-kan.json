@@ -1,0 +1,74 @@
+{
+  "id": "shu-kan",
+  "name": "叔堪",
+  "display": "楚叔堪",
+  "birthAccuracy": "unknown",
+  "death": -822,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。熊霜六年卒后亡于濮，取熊霜卒年为可见下限。",
+  "title": "楚叔堪，逃难于濮",
+  "bio": "熊严次子。熊霜卒后亡，避难于濮。国语作叔熊逃难于濮而蛮。",
+  "tags": [
+    "楚"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "shu-kan",
+      "target": "xiong-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。次子叔堪"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "shu-kan",
+      "target": "xiong-shuang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。叔堪逃难于濮"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "叔堪",
+    "叔熊"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    }
+  ]
+}

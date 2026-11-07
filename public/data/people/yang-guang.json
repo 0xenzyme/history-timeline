@@ -1,0 +1,272 @@
+{
+  "id": "yang-guang",
+  "name": "杨广",
+  "display": "隋炀帝杨广",
+  "birth": 569,
+  "birthAccuracy": "exact",
+  "death": 618,
+  "deathAccuracy": "exact",
+  "title": "隋炀帝，开运河、征高句丽，死于江都",
+  "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+  "tags": [
+    "隋",
+    "亡国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-guang",
+      "target": "yang-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，广诡得立，弑父即位"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yang-guang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "炀帝忌而诛高颎"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-su",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "素有功而见疏忌"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "夺嫡，广谮废勇"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "炀帝之孙，代王。江都被立于长安，次年禅唐"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-huaji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宇文述之子化及领禁军，从幸江都"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "since": 618,
+      "notes": [
+        "江都兵变，缢杀炀帝"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-guang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。竟废太子而立广，皆后之谋"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "niu-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大业中礼遇亲重，六年十一月卒于江都"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "夺宗之计出于述。辽东之役，述为扶余道军将"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "zhangsun-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大业三年喻染干，开御道。五年卒"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。大业元年立昭为皇太子，二年薨"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "zhang-xu-tuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大业中须陀累破王薄、左孝友、卢明月之众，迁齐郡通守，领河南道十二郡讨捕大使"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "wang-bo",
+      "target": "yang-guang",
+      "type": "rival",
+      "directed": false,
+      "since": 611,
+      "notes": [
+        "大业七年薄据长白山首义，作《无向辽东浪死歌》，避征辽之役者争归之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dayunhe-kaozhuo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jiangdu-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "renshou-gongbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sandian-zheng-gaoliuli",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "sui-zheng-gaogouli",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yang-xuangan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yangdi-jiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yanmen-zhiwei",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yingjian-dongdu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "杨广",
+    "杨英",
+    "隋炀帝"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "炀帝纪",
+      "kind": "classic"
+    }
+  ]
+}

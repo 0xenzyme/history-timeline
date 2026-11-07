@@ -1,0 +1,96 @@
+{
+  "id": "wang-anshi",
+  "name": "王安石",
+  "display": "王安石",
+  "birth": 1021,
+  "birthAccuracy": "exact",
+  "death": 1086,
+  "deathAccuracy": "exact",
+  "title": "熙宁变法，荆公新学",
+  "bio": "临川人，翰林学士。神宗朝拜相，行青苗、募役、市易诸法，欲富国强兵，史称熙宁变法。新旧党争由此起，身后争议千年。",
+  "tags": [
+    "宋",
+    "北宋",
+    "改革"
+  ],
+  "categories": [
+    "chancellor",
+    "literature",
+    "classics"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-xu",
+      "target": "wang-anshi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1069,
+      "notes": [
+        "熙宁变法，任为宰相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "sima-guang",
+      "target": "wang-anshi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "新旧党争，洛蜀朔三党相攻"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "shen-kuo",
+      "target": "wang-anshi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "熙宁中提举司天监、参预新法，后贬筠州"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "xihe-kaibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xining-bianfa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "王安石传",
+      "kind": "classic"
+    }
+  ]
+}

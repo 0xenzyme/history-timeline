@@ -1,0 +1,62 @@
+{
+  "id": "tao-hongjing",
+  "name": "陶弘景",
+  "display": "陶弘景",
+  "birth": 456,
+  "birthAccuracy": "exact",
+  "death": 536,
+  "deathAccuracy": "exact",
+  "title": "山中宰相，本草与炼丹，道教上清派",
+  "bio": "丹阳秣陵人，十岁得葛洪《神仙传》而昼夜研寻，遂有养生之志。齐高帝引为诸王侍读，永明十年脱朝服挂神武门，隐于句容茅山，立馆自号华阳隐居。梁武帝每有大事辄咨询之，时人谓山中宰相。注《本草经集注》，通医药、炼丹、书法。大同二年卒，年八十一。",
+  "tags": [
+    "南朝",
+    "萧梁"
+  ],
+  "categories": [
+    "hermit",
+    "daoism",
+    "medicine"
+  ],
+  "primary": "daoism",
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "wen"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tao-hongjing",
+      "target": "xiao-yan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "山中宰相，朝廷大事辄就谘"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陶弘景",
+    "陶通明",
+    "华阳隐居"
+  ],
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "陶弘景传",
+      "kind": "classic"
+    }
+  ]
+}

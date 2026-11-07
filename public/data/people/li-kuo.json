@@ -1,0 +1,258 @@
+{
+  "id": "li-kuo",
+  "name": "李适",
+  "display": "唐德宗李适",
+  "birth": 742,
+  "birthAccuracy": "exact",
+  "death": 805,
+  "deathAccuracy": "exact",
+  "title": "唐德宗，两税法，奉天之难",
+  "bio": "唐代宗长子，大历十四年即位，明年改元建中。用杨炎行两税法，废租庸调，赋役之制自此一变。性猜忌，信谗而黜陆贽，用裴延龄。建中四年朱泚乱，出奔奉天，兴元元年李怀光又叛，再奔梁州。晚年姑息藩镇，宦官益亲。贞元二十一年崩于会宁殿，年六十四。",
+  "tags": [
+    "唐",
+    "两税法"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-kuo",
+      "target": "lu-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "陆贽草诏论事，后贬忠州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "奉天之难收长安，贞元九年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "ma-sui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "与李晟同图凌烟阁，贞元十一年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "hun-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平凉劫盟单骑得免，贞元十五年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-bao-chen",
+      "target": "li-kuo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "建中初成德同反，二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-zheng-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "建中二年卒，子纳秘不发丧"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhang-yan-shang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载785至787年在任，贞元三年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "li-kui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃宗朝为相，兴元元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "chang-gun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "代宗朝为相，建中四年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "yang-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝行两税法，建中二年赐死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "guan-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，贞元十三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "dou-can",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，贞元八年赐死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "cui-sun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，贞元十九年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "qi-kang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "德宗朝为相，贞元二十年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhao-de-huang-hou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "德宗皇后，贞元二年册后之日崩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-kuo",
+      "target": "zhu-ci",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "泾原兵变，泚僭号据长安，德宗出奔奉天"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jingyuan-bingbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jingyuan-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liangshui-fa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李适",
+    "唐德宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "德宗纪",
+      "kind": "classic"
+    }
+  ]
+}

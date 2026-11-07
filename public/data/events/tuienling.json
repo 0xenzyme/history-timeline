@@ -1,0 +1,95 @@
+{
+  "id": "tuienling",
+  "name": "推恩令",
+  "display": "推恩令",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -127,
+  "yearAccuracy": "exact",
+  "yearNote": "元朔二年春正月。《汉书·武帝纪》「梁王、城阳王亲慈同生，愿以邑分弟，其许之。诸侯王请与子弟邑者，朕将亲览，使有列位焉」；《史记·平津侯主父列传》系主父偃之建议于此年。",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "zhu-fu-yan",
+    "liu-che"
+  ],
+  "result": "王国逐代析为侯国，不削而自弱",
+  "aliases": [
+    "推恩之令",
+    "令诸侯得推恩分子弟"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "元朔二年，中大夫主父偃建言：诸侯子弟或十数而嫡嗣代立，余虽骨肉无尺寸之封，宜令诸侯得推恩分子弟、以地侯之，上以德施而实分其国。武帝用其策，王国不再由嫡子一人承袭，而被逐代析为别属汉郡的小侯国，朝廷不事诛削而诸侯自弱。七国之乱以后最棘手的王国问题由此以制度方式化解，中央集权推进到郡国之下。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "平津侯主父列传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-fu-yan",
+      "name": "主父偃",
+      "display": "主父偃",
+      "birthAccuracy": "unknown",
+      "death": -127,
+      "deathAccuracy": "exact",
+      "title": "倡推恩令，一岁四迁",
+      "bio": "齐国临菑人，学长短纵横之术，晚得武帝召见，一岁四迁至中大夫。倡推恩令，令诸侯得推恩分子弟，不削而自弱；又奏徙郡国豪杰于茂陵。为齐相，坐齐王自杀，公孙弘争「非诛偃无以谢天下」，遂族。",
+      "tags": [
+        "推恩令",
+        "武帝"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

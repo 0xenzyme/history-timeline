@@ -1,0 +1,124 @@
+{
+  "id": "yanling-zhizhan",
+  "name": "鄢陵之战",
+  "display": "鄢陵之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -575,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·成公十六年》「甲午晦，晉侯及楚子、鄭伯戰於鄢陵。楚子、鄭師敗績」；《左傳》呂錡射共王中目；《史記·晉世家》厲公六年「射中楚共王目，楚兵敗於鄢陵」。成公十六年＝前575。",
+  "place": "鄢陵（鄭地）",
+  "placeNow": "今河南省许昌市鄢陵县（杜注：鄢陵，鄭地，今屬潁川郡）",
+  "belligerents": [
+    "jin-guo",
+    "chu",
+    "zheng"
+  ],
+  "commanders": [
+    {
+      "id": "jin-ligong",
+      "side": "jin-guo"
+    },
+    {
+      "id": "xi-zhi",
+      "side": "jin-guo"
+    },
+    {
+      "id": "xiong-shen",
+      "side": "chu"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "郑叛晋与楚盟，晋厉公亲将中军（栾书佐之、士燮将下军）渡河击郑，楚共王救郑，六月甲午晦会战于鄢陵。吕锜（魏锜）射楚共王中目，共王使养由基射杀吕锜；郤至三遇楚子必下免胄趋风。楚师夜遁，楚因谷阳竖进酒、司马子反醉不能见王而自杀。晋胜而厉公骄侈，次年杀三郤，旋为栾书中行偃所弑。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷28（成公十六年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jin-ligong",
+      "name": "晋厉公",
+      "display": "晋厉公",
+      "birthAccuracy": "unknown",
+      "death": -573,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「简王十三年，晋厉公卒」。",
+      "title": "七年，为栾盈所弑",
+      "bio": "景公之子。三年纳栾盈而容其居郤氏故邑。前573年栾盈、范鞅起兵，厉公杀之，栾盈又反；栾书、中行偃攻厉公，获之于鄢陵，栾书请杀之而止，迎周王而囚之。明年使囚于卫，终身不赦。",
+      "tags": [
+        "栾盈之乱",
+        "下鄢陵",
+        "囚于卫"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xi-zhi",
+      "name": "郤至",
+      "display": "郤至",
+      "birthAccuracy": "unknown",
+      "death": -574,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经·成公十七年「晉殺其大夫郤錡、郤犨、郤至」（前574），晋厉公杀三郤。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiong-shen",
+      "name": "熊审",
+      "display": "楚共王",
+      "birthAccuracy": "unknown",
+      "death": -560,
+      "deathAccuracy": "approx",
+      "deathNote": "史记·楚世家「三十一年，共王卒，子康王招立」记在位三十一年，但与楚庄王前591（在册 exact）至试跑文档之前560仅隔约八年相冲突。鄢陵之战为前575，共王十六年即前575，反推共王元年前590左右，与庄王前591相衔接。故「三十一年」不取，卒年暂从试跑文档之前560，作约年。",
+      "title": "鄢陵之战中楚，为晋厉公所射",
+      "bio": "庄王之子。十六年晋伐郑，共王救郑，战于鄢陵，晋败楚，射中共王目。共王召将军子反，子反醉而不能见，申舟视师而退。共王在位约八年。",
+      "tags": [
+        "鄢陵之战",
+        "申舟自杀"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

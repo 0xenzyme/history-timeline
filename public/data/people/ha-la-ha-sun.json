@@ -1,0 +1,66 @@
+{
+  "id": "ha-la-ha-sun",
+  "name": "哈剌哈孙",
+  "display": "哈剌哈孙",
+  "birth": 1257,
+  "birthAccuracy": "exact",
+  "death": 1308,
+  "deathAccuracy": "exact",
+  "title": "定策迎武宗",
+  "bio": "斡罗纳儿氏，答剌罕。成宗末为中书右丞相，成宗崩后闭府不发、遣使北迎海山，挫卜鲁罕皇后之谋；1308 年卒，年五十二。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cheng-zong",
+      "target": "ha-la-ha-sun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为右丞相，成宗崩后闭府定议"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "ha-la-ha-sun",
+      "target": "hai-shan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "遣使北迎海山即位，挫皇后之谋"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "哈剌哈孙传",
+      "kind": "classic"
+    }
+  ]
+}

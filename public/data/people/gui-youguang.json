@@ -1,0 +1,54 @@
+{
+  "id": "gui-youguang",
+  "name": "归有光",
+  "display": "归有光",
+  "birth": 1507,
+  "birthAccuracy": "exact",
+  "death": 1571,
+  "deathAccuracy": "exact",
+  "title": "明文第一之称",
+  "bio": "字熙甫，昆山人。八上春官不第而讲学安亭，文宗欧曾，取径于史记而写家人琐事; 晚岁成进士，1571 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "literature"
+  ],
+  "primary": "literature",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gui-youguang",
+      "target": "wang-shizhen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以文辞名世，一主唐宋一主秦汉"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "文苑传",
+      "kind": "classic"
+    }
+  ]
+}

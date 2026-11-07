@@ -1,0 +1,76 @@
+{
+  "id": "sun-wu",
+  "name": "孙武",
+  "display": "孙武",
+  "birthAccuracy": "unknown",
+  "death": -506,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。见于阖闾、柏举之战，其后无年表，取柏举年为可考活动。",
+  "title": "吴将，《孙子兵法》作者",
+  "bio": "齐人。以十三篇见吴王阖闾，与伍子胥破楚入郢。生卒皆缺，轴上只在柏举附近留一个约略的点。",
+  "tags": [
+    "吴国"
+  ],
+  "categories": [
+    "military-theory"
+  ],
+  "polity": [
+    "wu-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "shi"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-guang",
+      "target": "sun-wu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以兵法见吴王，柏举之战"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "sun-wu",
+      "target": "wu-yuan",
+      "type": "peer",
+      "directed": false,
+      "since": -506,
+      "notes": [
+        "同事于吴，破楚入郢"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "boju-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "孙子"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孙子吴起列传",
+      "kind": "classic"
+    }
+  ]
+}

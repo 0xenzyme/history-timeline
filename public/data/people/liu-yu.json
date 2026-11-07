@@ -1,0 +1,239 @@
+{
+  "id": "liu-yu",
+  "name": "刘裕",
+  "display": "宋武帝刘裕",
+  "birth": 363,
+  "birthAccuracy": "exact",
+  "death": 422,
+  "deathAccuracy": "exact",
+  "title": "北府将出身，灭南燕后秦，代晋建宋",
+  "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+  "tags": [
+    "东晋",
+    "南朝"
+  ],
+  "categories": [
+    "monarch",
+    "general",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "jin",
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    },
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huan-xuan",
+      "target": "liu-yu",
+      "type": "rival",
+      "directed": false,
+      "since": 404,
+      "notes": [
+        "起兵诛玄，复晋室"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "sima-dewen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "裕废恭帝受禅，明年弑之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "murong-chao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "义熙六年北伐，斩超于建康市",
+        "刘裕北伐南燕，破广固，俘慕容超送建康斩之"
+      ],
+      "topicIds": [
+        "liangjin",
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "yao-hong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "义熙十三年克长安，执泓斩于建康"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "lu-xun-yuxian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "循直逼建康，裕回师破之",
+        "义熙六年乘刘裕北伐北出，兵逼建康；刘裕回师破之，走交州被杀"
+      ],
+      "topicIds": [
+        "liangjin",
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yi",
+      "target": "liu-yu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "义熙八年先发讨毅，毅自缢于江陵"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "sun-en",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "裕起于讨恩，南山郁洲屡破其众"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-laozhi",
+      "target": "liu-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "参军刘裕出其麾下"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "liu-yilong",
+      "target": "liu-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，宋武开基、文皇元嘉"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "fu-liang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "亮悟刘裕受禅之意，夜请还都，征其入辅"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "fan-ye",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高祖初为相国掾、彭城王义康冠军参军"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "liu-yu",
+      "target": "liu-yiqing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "幼为高祖所知，永初元年袭封临川王"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huanxuan-cuanwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liu-yu-dai-jin",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "liuyu-mie-houqin",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "liuyu-mie-nanyan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "sunen-luxun-qiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "刘裕",
+    "刘德舆",
+    "宋武帝",
+    "寄奴"
+  ],
+  "sources": [
+    {
+      "work": "宋书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

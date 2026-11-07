@@ -1,0 +1,97 @@
+{
+  "id": "tie-mu-dieer",
+  "name": "铁木迭儿",
+  "display": "铁木迭儿",
+  "birthAccuracy": "unknown",
+  "death": 1322,
+  "deathAccuracy": "exact",
+  "title": "太后所庇之权相",
+  "bio": "仁宗、英宗朝两相重叠，倚答己太后而贪虐用事，赃巨万；英宗即位欲按其罪，遂构隙而忧惧以死，1322 年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "regent"
+  ],
+  "primary": "regent",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "da-ji",
+      "target": "tie-mu-dieer",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "得太后庇，贪虐而无敢问"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-mu-dieer",
+      "target": "ying-zong",
+      "type": "rival",
+      "directed": false,
+      "since": 1320,
+      "notes": [
+        "英宗欲按其罪，遂构隙而忧惧以死"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "bai-zhu",
+      "target": "tie-mu-dieer",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "南坡之前，两人已同列相倾"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "tie-mu-dieer",
+      "target": "tie-shi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "其余党，惧坐罪而先发"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sidai-hanguo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "奸臣传",
+      "kind": "classic"
+    }
+  ]
+}

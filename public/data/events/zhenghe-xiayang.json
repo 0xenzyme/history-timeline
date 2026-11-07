@@ -1,0 +1,98 @@
+{
+  "id": "zhenghe-xiayang",
+  "name": "郑和下西洋",
+  "display": "郑和下西洋",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1405,
+  "yearAccuracy": "exact",
+  "yearNote": "永乐三年六月初使。宣德五年六月再出。明史不写返回之年，本条不补结束年。",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zheng-he",
+    "zhu-di"
+  ],
+  "result": "舟师出使西洋，返回年没有写入",
+  "aliases": [
+    "三保太监下西洋"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "永乐三年六月，郑和帅舟师出使西洋诸国。本条锚定永乐三年第一次出使。宣德五年六月再奉命历诸国而还，传文不写返抵之年，返回年没有写入。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷六",
+      "note": "永乐三年六月郑和帅舟师使西洋诸国",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "卷三百四",
+      "note": "宣德五年六月再奉命历忽鲁谟斯等十七国而还，传文不写返抵之年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zheng-he",
+      "name": "郑和",
+      "display": "郑和",
+      "birth": 1371,
+      "birthAccuracy": "exact",
+      "death": 1433,
+      "deathAccuracy": "exact",
+      "title": "三宝太监，七下西洋",
+      "bio": "云南回族，世_job宦官。成祖命通使西洋，凡七下，历三十余国，最远抵非洲东岸，舟师之盛前古未有。",
+      "tags": [
+        "明",
+        "航海"
+      ],
+      "categories": [
+        "eunuch",
+        "general",
+        "explorer"
+      ],
+      "primary": "explorer",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-di",
+      "name": "朱棣",
+      "display": "明成祖朱棣",
+      "birth": 1360,
+      "birthAccuracy": "exact",
+      "death": 1424,
+      "deathAccuracy": "exact",
+      "title": "永乐大帝，迁都北京",
+      "bio": "太祖第四子，封燕王。靖难之役入南京，即位后迁都北京、营紫禁城，遣郑和下西洋，修《永乐大典》，国势鼎盛。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "han-yu",
+  "name": "韩愈",
+  "display": "韩愈",
+  "birth": 768,
+  "birthAccuracy": "exact",
+  "death": 824,
+  "deathAccuracy": "exact",
+  "title": "吏部侍郎，文起八代之衰，谏迎佛骨",
+  "bio": "河南河阳人，三岁而孤，嫂郑鞠之，自知读书，日记数千言。贞元进士，累官吏部侍郎。为文务反近体，以复古为倡，学者仰之如泰山北斗。元和十四年上《论佛骨表》，谏迎凤翔法门寺佛骨，贬潮州刺史，至潮问民疾苦，驱鳄鱼。长庆四年卒，年五十七，谥曰文。",
+  "tags": [
+    "唐",
+    "古文运动"
+  ],
+  "categories": [
+    "literature",
+    "confucian",
+    "official"
+  ],
+  "primary": "literature",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-yu",
+      "target": "liu-zong-yuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "古文运动，韩柳并举"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "韩愈",
+    "韩退之",
+    "韩昌黎",
+    "韩文公"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "韩愈传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "nibuchu-heyue",
+  "name": "尼布楚定界",
+  "display": "尼布楚定界",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1689,
+  "yearAccuracy": "exact",
+  "yearNote": "康熙二十八年与鄂罗斯立约，定尼布楚为界。",
+  "polity": [
+    "qing",
+    "eluosi"
+  ],
+  "people": [
+    "kang-xi",
+    "suo-e-tu"
+  ],
+  "result": "定尼布楚为界",
+  "aliases": [
+    "尼布楚条约"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "康熙二十八年，索额图与鄂罗斯立约，定尼布楚为界，立碑界上。东北边界从此写成条约。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷七",
+      "note": "內大臣索額圖疏報與鄂羅斯立約，定尼布楚為界，立碑界上，以五體文書碑",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "kang-xi",
+      "name": "玄烨",
+      "display": "康熙",
+      "birth": 1654,
+      "birthAccuracy": "exact",
+      "death": 1722,
+      "deathAccuracy": "exact",
+      "title": "康乾盛世之始",
+      "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "suo-e-tu",
+      "name": "索额图",
+      "display": "索额图",
+      "birthAccuracy": "unknown",
+      "death": 1703,
+      "deathAccuracy": "exact",
+      "deathNote": "清史稿·卷269·索额图传：康熙四十二年五月，上命执索额图交宗人府拘禁，\"寻索额图死于幽所\"（死于禁所）。索尼第三子，保和殿大学士，曾充尼布楚议界大臣。",
+      "categories": [
+        "chancellor",
+        "regent"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

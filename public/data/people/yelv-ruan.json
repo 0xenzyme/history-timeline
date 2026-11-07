@@ -1,0 +1,74 @@
+{
+  "id": "yelv-ruan",
+  "name": "耶律阮",
+  "display": "辽世宗",
+  "birth": 918,
+  "birthAccuracy": "approx",
+  "death": 951,
+  "deathAccuracy": "exact",
+  "birthNote": "生年史无明文，据卒年（天禄五年，951）与行历约略推定，今从公元 918 年。",
+  "title": "辽世宗，火神淀之变",
+  "bio": "小字兀欲，东丹王突欲（耶律倍）长子，仪观丰伟，内宽外严。太宗灭晋北归，暴卒于栾城，永康王为南院诸将拥立，即位于镇阳；祖母述律后遣李胡拒之，兵不欲战，横渡立约而和。既立，追父为让国皇帝。天禄五年幸归化州，泰宁王察割作乱，弑帝于行宫，是为火神淀之变，在位四年余。",
+  "tags": [
+    "契丹",
+    "辽"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "liao-jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "khitan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yelv-deguang",
+      "target": "yelv-ruan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，北归暴卒，永康王为军中所立"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "yelv-jing-931",
+      "target": "yelv-ruan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从兄弟，察割之变，寿安王讨平乱党而即位"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "世宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "四夷附录",
+      "kind": "classic"
+    }
+  ]
+}

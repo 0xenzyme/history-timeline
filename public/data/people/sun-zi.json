@@ -1,0 +1,58 @@
+{
+  "id": "sun-zi",
+  "name": "孙资",
+  "display": "孙资",
+  "birthAccuracy": "unknown",
+  "death": 251,
+  "deathAccuracy": "exact",
+  "title": "魏中书令，与刘放共掌机密",
+  "bio": "太原人，字彦龙。与刘放同为文、明二朝枢要，任中书令；明帝临终，与放共定策召曹爽、司马懿辅政。齐王时加特进。嘉平三年卒。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "official"
+  ],
+  "primary": "official",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-pi",
+      "target": "sun-zi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "魏文帝中书令，与刘放并掌机密"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孙资",
+    "孙彦龙"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·程郭董刘蒋刘传",
+      "kind": "classic"
+    }
+  ]
+}

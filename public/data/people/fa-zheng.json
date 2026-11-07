@@ -1,0 +1,73 @@
+{
+  "id": "fa-zheng",
+  "name": "法正",
+  "display": "法正",
+  "birth": 176,
+  "birthAccuracy": "exact",
+  "death": 220,
+  "deathAccuracy": "exact",
+  "title": "蜀郡太守，汉中之谋出于其手",
+  "bio": "右扶风郿人，建安初入蜀依刘璋，久不得志。与张松谋迎先主，遂为谋主，画策取益州。建安二十二年说先主取汉中，定军山之役从旁决策。明年先主为汉中王，以正为尚书令、护军将军，同年卒，年四十五。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "strategist",
+    "official"
+  ],
+  "primary": "strategist",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bei",
+      "target": "fa-zheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备取蜀之谋主，为蜀郡太守"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hanzhong-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yizhou-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "法正",
+    "法孝直"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·庞统法正传",
+      "kind": "classic"
+    }
+  ]
+}

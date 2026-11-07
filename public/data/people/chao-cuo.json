@@ -1,0 +1,90 @@
+{
+  "id": "chao-cuo",
+  "name": "晁错",
+  "display": "晁御史",
+  "birth": -200,
+  "birthAccuracy": "approx",
+  "death": -154,
+  "deathAccuracy": "approx",
+  "title": "汉景帝时任御史大夫",
+  "bio": "力主削藩，景帝采其策而吴楚七国反，以「诛晁错、清君侧」为名。朝议之下，晁错朝服被斩于东市。",
+  "tags": [
+    "削藩",
+    "七国之乱"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-heng",
+      "target": "chao-cuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为太子家令，辅导景帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "chao-cuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -155,
+      "notes": [
+        "采其削藩策，乱起后斩之于东市"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "dou-ying",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "削藩之争，窦婴持反对"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "shen-tu-jia",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "奏请诛晁错不得，呕血死"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "袁盎晁错列传"
+    }
+  ]
+}

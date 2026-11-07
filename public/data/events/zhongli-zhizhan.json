@@ -1,0 +1,137 @@
+{
+  "id": "zhongli-zhizhan",
+  "name": "钟离之战",
+  "display": "钟离之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 507,
+  "yearAccuracy": "exact",
+  "place": "钟离",
+  "placeNow": "今安徽凤阳东北",
+  "belligerents": [
+    "nan",
+    "bei"
+  ],
+  "commanders": [
+    {
+      "id": "wei-rui",
+      "side": "nan"
+    },
+    {
+      "id": "chang-yizhi",
+      "side": "nan"
+    },
+    {
+      "id": "yuan-ying",
+      "side": "bei"
+    }
+  ],
+  "people": [
+    "wei-rui",
+    "chang-yizhi",
+    "yuan-ying"
+  ],
+  "result": "魏军大溃，俘斩数十万，梁魏战争自此转折",
+  "aliases": [
+    "邵阳洲之战"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "天监五年魏中山王元英率军数十万围梁昌义之于钟离，连城四十余。六年春梁将韦叡、曹景宗驰援，夜掘长堑树鹿角据邵阳洲，淮水暴涨时纵舰乘流、以火焚魏洲上营垒，魏军大溃，赴淮死者十余万，元英、杨大眼仅以身免。南朝对北朝罕见的大歼灭战，钟离此后稳固为梁之淮南门户。",
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "韦叡传",
+      "kind": "classic"
+    },
+    {
+      "work": "南史",
+      "part": "韦叡传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wei-rui",
+      "name": "韦叡",
+      "display": "韦叡",
+      "birth": 442,
+      "birthAccuracy": "approx",
+      "death": 520,
+      "deathAccuracy": "exact",
+      "birthNote": "普通元年卒，年七十九，上推生年。",
+      "deathNote": "「普通元年夏……八月，卒于家，時年七十九」（梁书·韦叡传）。",
+      "title": "钟离之战的儒将统帅，执白角如意乘小舸督战",
+      "tags": [
+        "南北朝",
+        "梁"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chang-yizhi",
+      "name": "昌义之",
+      "display": "昌义之",
+      "birthAccuracy": "unknown",
+      "death": 523,
+      "deathAccuracy": "exact",
+      "deathNote": "「普通三年，徵爲護軍將軍……四年十月，卒」（梁书·昌义之传）。",
+      "title": "钟离之战守城主将，以三千人抗魏数十万",
+      "tags": [
+        "南北朝",
+        "梁"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-ying",
+      "name": "元英",
+      "display": "元英",
+      "birthAccuracy": "unknown",
+      "death": 510,
+      "deathAccuracy": "exact",
+      "deathNote": "「永平三年，英薨」（魏书·元英传）。",
+      "title": "北魏宗室名将，统军南征，淮南汉水之间无所不至",
+      "tags": [
+        "南北朝",
+        "北魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

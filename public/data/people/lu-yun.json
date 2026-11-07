@@ -1,0 +1,93 @@
+{
+  "id": "lu-yun",
+  "name": "陆云",
+  "display": "陆云",
+  "birth": 262,
+  "birthAccuracy": "approx",
+  "death": 303,
+  "deathAccuracy": "exact",
+  "birthNote": "太安二年（303）与兄同诛，时年四十二，虚岁上推生年。",
+  "title": "云间二陆，与兄同诛于成都王",
+  "bio": "字士龙，吴郡华亭人，陆机之弟。与机俱入洛，张华曰利获二俊。为浚仪令，一县称神明。机为成都王颖所杀，孟玖又谮云于颖，僚属数十人流涕固请，颖恻然有宥色，玖扶颖入，催令杀云，时年四十二。所著文章三百四十九篇并行于世。",
+  "tags": [
+    "晋",
+    "西晋",
+    "文学",
+    "吴郡陆氏"
+  ],
+  "categories": [
+    "literature",
+    "poetry",
+    "official"
+  ],
+  "primary": "literature",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "wen"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lu-ji",
+      "target": "lu-yun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。云间二陆，与兄同诛"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "lu-yun",
+      "target": "zhang-hua",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "入洛诣华，称为二俊"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "lu-yun",
+      "target": "zhou-chu",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "周处少为乡里所患，陆云劝其力学，遂改过成名"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陆云",
+    "陆士龙"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "陆云传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "惠帝纪",
+      "kind": "classic"
+    }
+  ]
+}

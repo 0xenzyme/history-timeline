@@ -1,0 +1,83 @@
+{
+  "id": "wang-ben",
+  "name": "王贲",
+  "display": "王贲",
+  "birthAccuracy": "unknown",
+  "death": -221,
+  "deathAccuracy": "approx",
+  "deathNote": "生卒无明文。《史记·秦始皇本纪》记王翦子贲从平燕、荆、江南地，又虏齐王建；取灭齐之年（公元前221年）为活动下限，非寿数。lane用已存在的qin-official。",
+  "title": "翦之子，灭齐而秦以并六国",
+  "bio": "王翦之子。秦之取六国也，其子贲与有力焉。从李信攻燕，追燕丹于辽东；又从王翦定荆，降荆君；后别将定江南地，降百越之君。始皇既灭五国，独齐未下，齐王建守即墨以距秦。贲以大兵自燕南袭，绝齐之后，齐不战而降，虏王建于共，天下始一。王氏父子俱以武功为秦重。",
+  "tags": [
+    "秦",
+    "统一",
+    "名将"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    },
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-official"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-ben",
+      "target": "wang-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，俱为秦将；王翦灭楚，王贲灭齐虏王建",
+        "父子，俱为秦将；翦灭楚、定楚地，贲灭齐、虏王建，王氏之功为秦最"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-zheng",
+      "target": "wang-ben",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王翦之子贲从定荆、江南地，又从灭燕；始皇乃别使贲攻齐，虏王建于共，天下始一"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王贲"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "王翦列传",
+      "kind": "classic"
+    }
+  ]
+}

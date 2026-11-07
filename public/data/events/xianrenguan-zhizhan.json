@@ -1,0 +1,120 @@
+{
+  "id": "xianrenguan-zhizhan",
+  "name": "仙人关之战",
+  "display": "仙人关之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1134,
+  "yearAccuracy": "exact",
+  "yearNote": "绍兴四年三月辛亥朔取胜。二月辛丑金军已犯关。battle 不写 endYear。四月复凤、秦、陇是胜后的收复，不另立。",
+  "place": "仙人关",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "wu-jie",
+    "wu-lin",
+    "wanyan-zongbi"
+  ],
+  "result": "吴玠、吴璘等大败兀术，金军自仙人关退走，宋保住入蜀关门。",
+  "aliases": [
+    "杀金坪之战"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "绍兴四年二月，金军犯仙人关；三月辛亥朔，吴玠、吴璘等与兀术战于仙人关，大败之，兀术遁去。宋保住入蜀关门。和尚原放弃、饶风关失守之后，西线稳定在蜀口，金军没有再打破这个关门。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷27",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷113",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wu-jie",
+      "name": "吴玠",
+      "display": "吴玠",
+      "birth": 1093,
+      "birthAccuracy": "exact",
+      "death": 1139,
+      "deathAccuracy": "exact",
+      "title": "和尚原、仙人关保蜀口",
+      "bio": "与弟璘守秦凤，富平败后收散卒，和尚原大破金军，兀术中流矢仅免；仙人关再却之，蜀口得全。绍兴九年卒，年四十七。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-lin",
+      "name": "吴璘",
+      "display": "吴璘",
+      "birth": 1102,
+      "birthAccuracy": "exact",
+      "death": 1167,
+      "deathAccuracy": "exact",
+      "title": "继兄守蜀三十年的大将",
+      "bio": "吴玠之弟，共守和尚原、仙人关。玠卒继领其军，剡家湾之捷收复秦凤。乾道三年卒，年六十六，追封信王。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-zongbi",
+      "name": "完颜宗弼",
+      "display": "完颜宗弼",
+      "birthAccuracy": "unknown",
+      "death": 1148,
+      "deathAccuracy": "exact",
+      "title": "金兀术，搜山检海捉赵构",
+      "bio": "阿骨打第四子。追高宗入海，富平、和尚原诸役与宋血战，黄天荡几不得脱。后主国政，都元帅，绍兴和议金方主持人。皇统八年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

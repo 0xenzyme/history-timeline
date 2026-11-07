@@ -1,0 +1,135 @@
+{
+  "id": "beijing-baowei",
+  "name": "北京保卫战",
+  "display": "北京保卫战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1449,
+  "yearAccuracy": "exact",
+  "yearNote": "正统十四年十月戊午至壬戌。与土木同年，不写 endYear。",
+  "place": "北京",
+  "belligerents": [
+    "ming",
+    "mongol"
+  ],
+  "commanders": [
+    {
+      "id": "yu-qian",
+      "side": "ming"
+    },
+    {
+      "id": "ye-xian",
+      "side": "mongol"
+    }
+  ],
+  "people": [
+    "zhu-qiyu"
+  ],
+  "result": "也先退走，北京未破",
+  "aliases": [
+    "北京保卫"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "正统十四年十月戊午，也先薄北京。于谦、石亨等连败之于城下，壬戌寇退，也先夜走。明朝没有随土木之变放弃北京。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷十一",
+      "note": "正统十四年十月戊午也先薄都城，于谦、石亨连败之于城下，壬戌寇退",
+      "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "卷三百二十八",
+      "note": "于谦督石亨等御也先，也先夜走",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-qiyu",
+      "name": "朱祁钰",
+      "display": "明代宗朱祁钰",
+      "birth": 1428,
+      "birthAccuracy": "exact",
+      "death": 1457,
+      "deathAccuracy": "exact",
+      "title": "景泰代立，迎回英宗",
+      "bio": "宣宗次子，英宗之弟。土木之变后于谦拥立，年号景泰；英宗南宫复辟，废为郕王，寻崩。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-qian",
+      "name": "于谦",
+      "display": "于谦",
+      "birth": 1398,
+      "birthAccuracy": "exact",
+      "death": 1457,
+      "deathAccuracy": "exact",
+      "title": "北京保卫战",
+      "bio": "钱塘人，土木堡变后力排南迁、拥郕王监国，亲自督师破瓦剌于北京。英宗复辟，以「意欲」之罪冤死。",
+      "tags": [
+        "明",
+        "社稷臣"
+      ],
+      "categories": [
+        "official",
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ye-xian",
+      "name": "也先",
+      "display": "也先",
+      "birthAccuracy": "unknown",
+      "death": 1454,
+      "deathAccuracy": "disputed",
+      "deathNote": "《明史》瓦剌传记其为阿剌知院所攻而死，事在景泰五年（一四五四）前后。",
+      "title": "土木之役的另一方",
+      "bio": "瓦剌脱懽之子。1449 年入寇，土木堡俘明英宗而进围北京；后杀蒙古可汗自立，不数为其部下所杀。",
+      "tags": [
+        "明",
+        "漠北"
+      ],
+      "categories": [
+        "outsider",
+        "warlord"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "mongol"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

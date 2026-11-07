@@ -1,0 +1,118 @@
+{
+  "id": "mingmo-minbian",
+  "name": "明末民变",
+  "display": "明末民变",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 1628,
+  "yearAccuracy": "exact",
+  "yearNote": "崇祯元年陕西流贼大起，顺治二年闰六月李自成自缢。",
+  "endYear": 1645,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "ming",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "li-zicheng",
+      "side": "minbian"
+    },
+    {
+      "id": "zhang-xianzhong",
+      "side": "minbian"
+    }
+  ],
+  "result": "李自成自缢，清史稿写贼党悉平",
+  "aliases": [
+    "流贼",
+    "李自成起兵"
+  ],
+  "dynasties": [
+    "ming",
+    "qing"
+  ],
+  "desc": "崇祯元年，陕西流贼大起，分掠鄜州、延安。顺治二年闰六月甲申，李自成窜九宫山自缢，清史稿写贼党悉平。本条收到李自成之死，清军入关不并入这场战争。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二十三",
+      "note": "崇祯元年陕西流贼大起，分掠鄜州、延安",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷四",
+      "note": "顺治二年闰六月甲申李自成窜九宫山自缢，贼党悉平",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "jiashen-zhibian"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-zicheng",
+      "name": "李自成",
+      "display": "李自成",
+      "birth": 1606,
+      "birthAccuracy": "exact",
+      "death": 1645,
+      "deathAccuracy": "exact",
+      "title": "闯王，灭明",
+      "bio": "米脂驿卒，从闯王高迎祥起事，迎祥死后代领其众。均田免赋，众至百万；1644 破北京，旋为吴三桂引清兵败于山海关。",
+      "tags": [
+        "明",
+        "民变"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "ming",
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-xianzhong",
+      "name": "张献忠",
+      "display": "张献忠",
+      "birth": 1606,
+      "birthAccuracy": "exact",
+      "death": 1647,
+      "deathAccuracy": "exact",
+      "title": "八大王",
+      "bio": "延安人，与李自成并起陕北，转战豫楚川陕。1644 入蜀称帝，国号大西；性残暴，清军入川被杀。",
+      "tags": [
+        "明",
+        "民变"
+      ],
+      "categories": [
+        "rebel",
+        "warlord",
+        "falling"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "ming",
+        "minbian"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

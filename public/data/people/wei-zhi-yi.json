@@ -1,0 +1,70 @@
+{
+  "id": "wei-zhi-yi",
+  "name": "韦执谊",
+  "display": "韦执谊",
+  "birth": 764,
+  "birthAccuracy": "exact",
+  "death": 812,
+  "deathAccuracy": "exact",
+  "title": "永贞朝宰相，二王八司马之一，贬死崖州",
+  "bio": "字宗仁，京兆杜陵人，京兆韦氏龙门公房。聪俊有文，登进士第，历右拾遗、翰林学士。顺宗倚重，擢同平章事，为王叔文革新主文诰。顺宗内禅，宪宗即位，贬崖州司马，八司马之一。元和七年卒于贬所。",
+  "tags": [
+    "唐",
+    "永贞革新"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-shu-wen",
+      "target": "wei-zhi-yi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "叔文引为相，革新派掌文诰"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yongzhen-gexin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "韦执宜"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "韦执谊传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百三十六",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "gao-gong",
+  "name": "高拱",
+  "display": "高拱",
+  "birth": 1513,
+  "birthAccuracy": "exact",
+  "death": 1578,
+  "deathAccuracy": "exact",
+  "title": "俺答封贡的主持者",
+  "bio": "字肃卿，新郑人。穆宗藩邸旧臣，主俺答封贡、行考绩之法; 与冯保、张居正相倾而去位。1578 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "anda-han",
+      "target": "gao-gong",
+      "type": "peer",
+      "directed": false,
+      "since": 1571,
+      "notes": [
+        "主封贡之议，北边开互市"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-zaiji",
+      "target": "gao-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "藩邸旧臣，主俺答封贡与考绩之法"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "gao-gong",
+      "target": "zhang-juzheng",
+      "type": "rival",
+      "directed": false,
+      "since": 1572,
+      "notes": [
+        "冯保交结，拱去而居正遂专政"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "高拱传",
+      "kind": "classic"
+    }
+  ]
+}

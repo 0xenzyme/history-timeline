@@ -1,0 +1,81 @@
+{
+  "id": "zou-yan",
+  "name": "邹衍",
+  "display": "邹衍",
+  "birth": -305,
+  "birthAccuracy": "approx",
+  "death": -240,
+  "deathAccuracy": "approx",
+  "birthNote": "生卒史无明文，通作约-305至-240；生年系由游齐、游梁诸行事年倒推，记约。",
+  "deathNote": "生卒史无明文，通作约-305至-240。《史记·孟子荀卿列传》记其游于齐、赵、燕，终不了其身世。",
+  "title": "谈天衍，五德终始之说",
+  "bio": "齐之稷下先生。其言闳大不经，先序今以上至黄帝，推而远之，至天地未生，窈冥不可考而原也；先列中国名山大川，通谷禽兽、水土所殖、物类所珍，因而推之及海外。称「必先验小物，推而大之，至于无垠」，作《主运》。其术以五德终始为归，曰「五德转移，各如其运」，帝王之兴，各因所胜。秦皇、汉武封禅改制，皆承其说。后失官而困于梁，君子悯之。",
+  "tags": [
+    "战国",
+    "齐",
+    "阴阳"
+  ],
+  "categories": [
+    "scholar",
+    "metaphysics"
+  ],
+  "primary": "metaphysics",
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-huiwang",
+      "target": "zou-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "邹衍游于齐稷下，为列大夫；其五德终始之说，秦皇汉武封禅改制皆承之"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "xun-zi",
+      "target": "zou-yan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并游学于齐稷下，皆以学名动诸侯；衍谈天，卿论礼，为齐学之两端"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "邹衍",
+    "邹子",
+    "谈天衍"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孟子荀卿列传",
+      "kind": "classic"
+    },
+    {
+      "work": "吕氏春秋",
+      "part": "有始览",
+      "kind": "classic"
+    }
+  ]
+}

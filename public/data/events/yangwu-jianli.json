@@ -1,0 +1,94 @@
+{
+  "id": "yangwu-jianli",
+  "name": "杨吴建立",
+  "display": "杨吴建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 902,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系唐天复二年三月杨行密进封吴王。天复二年公历902。",
+  "place": "扬州",
+  "polity": [
+    "yangwu"
+  ],
+  "people": [
+    "yang-xingmi",
+    "xu-wen"
+  ],
+  "result": "杨行密进封吴王，都扬州；江淮之别为一国，史称杨吴。",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "唐天复二年，杨行密以定淮南、破孙儒之功，进封吴王，都扬州。行密起于庐州，与孙儒相拒数年，尽有江、淮之地；南与吴越争宣、润，卒不能东下。吴历四主，大政尽归徐温；温殁，养子徐知诰废杨溥而自立，是为南唐。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "唐纪·天复二年",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "吴",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-xingmi",
+      "name": "杨行密",
+      "display": "吴王杨行密",
+      "birth": 852,
+      "birthAccuracy": "approx",
+      "death": 905,
+      "deathAccuracy": "exact",
+      "birthNote": "天祐二年十一月卒于广陵，年五十四，上推生年。",
+      "title": "吴太祖杨行密，起于淮右据淮南",
+      "bio": "庐州合肥人。唐末起兵为本州小将，与徐温同事孙儒；儒败，据广陵，招合散亡。景福中拒朱温庞师古于清口，尽得淮南，累官中书门下平章事，封吴王，天祐二年卒。宽租赋、息民政，吴国之基焉。",
+      "tags": [
+        "十国",
+        "吴"
+      ],
+      "categories": [
+        "warlord",
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xu-wen",
+      "name": "徐温",
+      "display": "徐温",
+      "birthAccuracy": "unknown",
+      "death": 927,
+      "deathAccuracy": "exact",
+      "title": "吴国之真主，知诰因之以有国",
+      "bio": "海州人，与杨行密同里起兵。行密晚年猜诛旧将，温与张颢矫命诛朱瑾，已而斩颢，独秉吴政，自号都知兵马使，出镇金陵而养子知诰居内用事。立行密诸子为傀儡，年号顺义皆其所建，天成二年卒于升州。",
+      "tags": [
+        "十国",
+        "吴"
+      ],
+      "categories": [
+        "regent",
+        "warlord"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

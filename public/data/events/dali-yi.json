@@ -1,0 +1,72 @@
+{
+  "id": "dali-yi",
+  "name": "大礼议",
+  "display": "大礼议",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1524,
+  "yearAccuracy": "exact",
+  "yearNote": "嘉靖三年七月。本纪写伏阙，左顺门见纪事本末卷五十。",
+  "place": "左顺门",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zhu-houcong"
+  ],
+  "result": "去本生之称，廷臣被杖",
+  "aliases": [
+    "左顺门"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "嘉靖三年七月乙亥，更定章圣皇太后尊号，去本生之称。戊寅廷臣赴左顺门跪伏，下马理等一百三十四人狱。癸未杖死十六人。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷十七",
+      "note": "嘉靖三年七月乙亥去本生之称，戊寅下马理等一百三十四人狱，癸未杖死十六人",
+      "kind": "classic"
+    },
+    {
+      "work": "明史纪事本末",
+      "part": "卷五十",
+      "note": "召百官至左顺门跪伏，逮马理等一百三十四人",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-houcong",
+      "name": "朱厚熜",
+      "display": "明世宗朱厚熜",
+      "birth": 1507,
+      "birthAccuracy": "exact",
+      "death": 1567,
+      "deathAccuracy": "exact",
+      "title": "嘉靖皇帝",
+      "bio": "以兴献王世子入继大统，初革正德弊政，后崇道斋醮、委政严嵩，南倭北虏之患并起。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

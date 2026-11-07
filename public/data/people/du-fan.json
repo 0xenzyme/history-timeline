@@ -1,0 +1,36 @@
+{
+  "id": "du-fan",
+  "name": "杜范",
+  "display": "杜范",
+  "birthAccuracy": "unknown",
+  "death": 1245,
+  "deathAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "宰辅五",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "理宗本纪三",
+      "kind": "classic"
+    }
+  ]
+}

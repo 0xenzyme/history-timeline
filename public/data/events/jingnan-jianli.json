@@ -1,0 +1,69 @@
+{
+  "id": "jingnan-jianli",
+  "name": "荆南建立",
+  "display": "荆南建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 924,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系后唐同光二年高季兴进封南平王。同光二年公历924。",
+  "place": "江陵",
+  "polity": [
+    "jingnan"
+  ],
+  "people": [
+    "gao-ji-xing"
+  ],
+  "result": "高季兴进封南平王，都江陵；据三州之地，史称荆南。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "后唐同光二年，高季兴以有江陵之地，进封南平王，都江陵，据荆、归、峡三州。季兴本朱温部将，汴军南伐，因取江陵据之。其地当四战之冲，诸道入贡皆经其国，季兴利其货财，数邀留之，诸道贻书诮责，不免，时号「高赖子」。荆南地狭兵弱，于南北诸国皆称臣。宋乾德元年，太祖假道以伐湖南，高继冲奉表归朝，国除。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后唐纪·同光二年",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "南平世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "gao-ji-xing",
+      "name": "高季兴",
+      "display": "南平武信王",
+      "birthAccuracy": "unknown",
+      "death": 928,
+      "deathAccuracy": "exact",
+      "title": "高季兴\"高赖子\"，扼十国往来",
+      "bio": "硖石人，本名季昌，避庄宗祖讳改兴。少从朱温，温使主荆南。梁、唐与南方诸国之间，往来称臣、乘间掠其贡使，诸国侧目，号\"高赖子\"。庄宗平蜀因请自效，仍领三州，同光末受南平王封，阖门自守而终。",
+      "tags": [
+        "十国",
+        "南平"
+      ],
+      "categories": [
+        "warlord",
+        "monarch",
+        "vassal"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

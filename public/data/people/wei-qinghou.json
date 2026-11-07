@@ -1,0 +1,57 @@
+{
+  "id": "wei-qinghou",
+  "name": "卫顷侯",
+  "display": "卫顷侯",
+  "birthAccuracy": "unknown",
+  "death": -854,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：顷侯立十二年卒，子釐侯立。釐侯十三年厉王奔彘当 -841，釐侯元年当 -853，顷侯卒取前一年。",
+  "title": "卫顷侯，赂夷王为侯",
+  "bio": "贞伯之子。厚赂周夷王，夷王命卫为侯。十二年卒。",
+  "tags": [
+    "卫"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wei-qinghou",
+      "target": "wei-xihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "卫顷侯",
+    "衞顷侯"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

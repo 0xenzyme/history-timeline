@@ -1,0 +1,79 @@
+{
+  "id": "liang-nuying",
+  "name": "梁女莹",
+  "display": "桓帝懿献梁皇后",
+  "birthAccuracy": "unknown",
+  "death": 160,
+  "deathAccuracy": "exact",
+  "title": "桓帝皇后，延熹三年崩",
+  "bio": "顺烈梁皇后的妹妹。桓帝为蠡吾侯时由梁太后定婚。延熹三年忧恚崩。同年梁冀被诛。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liang-na",
+      "target": "liang-nuying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姐妹。女莹为桓帝皇后，延熹三年崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liang-nuying",
+      "target": "liu-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "桓帝皇后。延熹三年忧恚崩，同年诛梁冀"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liang-ji",
+      "target": "liang-nuying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "延熹三年后崩，其岁诛冀"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "梁女莹"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪·懿献梁皇后",
+      "kind": "classic"
+    }
+  ]
+}

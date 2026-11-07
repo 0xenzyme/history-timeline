@@ -1,0 +1,68 @@
+{
+  "id": "sun-chuanting",
+  "name": "孙传庭",
+  "display": "孙传庭",
+  "birth": 1593,
+  "birthAccuracy": "exact",
+  "death": 1643,
+  "deathAccuracy": "exact",
+  "title": "秦兵之帅，死潼关",
+  "bio": "字伯雅，代州振武卫人。崇祯间练秦兵，擒高迎祥、屡挫自成; 1643 年督师出潼关，军溃而死，关中遂不可守。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general",
+    "falling"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youjian",
+      "target": "sun-chuanting",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总督陕西，练秦兵而剿寇最有声"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "li-zicheng",
+      "target": "sun-chuanting",
+      "type": "rival",
+      "directed": false,
+      "since": 1643,
+      "notes": [
+        "潼关军溃而死，自成遂长驱入关"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "孙传庭传",
+      "kind": "classic"
+    }
+  ]
+}

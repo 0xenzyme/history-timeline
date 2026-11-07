@@ -1,0 +1,170 @@
+{
+  "id": "gaopingling-zhibian",
+  "name": "高平陵之变",
+  "display": "高平陵之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 249,
+  "yearAccuracy": "exact",
+  "place": "洛阳",
+  "placeNow": "今河南洛阳东南，高平陵在汝阳一带",
+  "polity": [
+    "wei"
+  ],
+  "people": [
+    "sima-yi",
+    "cao-shuang",
+    "cao-fang",
+    "he-yan",
+    "guo-hou-mingyuan"
+  ],
+  "result": "司马懿乘曹爽陪帝谒陵发动政变，曹爽一族及何晏等被诛，魏政归司马氏",
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "正始十年（249）正月，大将军曹爽奉齐王芳出洛阳谒高平陵，司马懿称奉郭太后令，闭城门、据武库，屯兵洛水浮桥，上疏数爽罪。爽犹豫不用桓范之谋，尽弃兵权请免，旋被劾以谋逆，与何晏、邓飏等并夷三族。自此魏室大权尽归司马氏，此后经王凌之叛、废立齐王与高贵乡公之死，魏晋更替之势已不可逆。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "宣帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·曹真传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-yi",
+      "name": "司马懿",
+      "display": "司马懿",
+      "birth": 179,
+      "birthAccuracy": "exact",
+      "death": 251,
+      "deathAccuracy": "exact",
+      "title": "魏太傅，拒诸葛亮，高平陵夺权",
+      "bio": "河内温人，字仲达。曹操辟为文学掾，历事三世。拒诸葛亮于渭南，坚壁不出，卒使亮星落五丈原。正始十年乘曹爽出谒高平陵，闭城奏诛之，魏之大权归司马氏。嘉平三年薨，年七十三。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-shuang",
+      "name": "曹爽",
+      "display": "曹爽",
+      "birthAccuracy": "unknown",
+      "death": 249,
+      "deathAccuracy": "exact",
+      "deathNote": "齐王纪嘉平元年正月奏免曹爽，随即称其与谋不轨，语在爽传。爽传书收爽等皆伏诛。",
+      "title": "大将军，高平陵之变被诛",
+      "bio": "曹真之子，字昭伯。明帝病重时拜大将军。齐王芳嘉平元年正月，司马懿趁曹芳谒高平陵，奏免曹爽。爽传写他和诸弟都被诛，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "regent"
+      ],
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-fang",
+      "name": "曹芳",
+      "display": "魏少帝曹芳",
+      "birth": 232,
+      "birthAccuracy": "exact",
+      "death": 274,
+      "deathAccuracy": "exact",
+      "title": "魏少帝，司马师废为齐王",
+      "bio": "明帝无子，养以为嗣，景初三年即帝位，年八岁，曹爽与司马懿辅政。嘉平六年司马师废帝为齐王，别立高贵乡公髦。晋受禅，封邵陵县公，泰始十年薨。",
+      "tags": [
+        "魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "he-yan",
+      "name": "何晏",
+      "display": "何晏",
+      "birthAccuracy": "unknown",
+      "death": 249,
+      "deathAccuracy": "exact",
+      "title": "正始名士，言《老子》，高平陵后族诛",
+      "bio": "南阳宛人，何进之孙，母尹氏，曹操纳之，遂为操所养。尚金乡公主，好老庄，与王弼并倡「以无为本」，作《论语集解》《道德论》。曹爽执政时为吏部尚书，正始十年爽败，与邓飏等同诛，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "metaphysics"
+      ],
+      "primary": "metaphysics",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guo-hou-mingyuan",
+      "name": "郭太后",
+      "display": "明元郭皇后",
+      "birthAccuracy": "unknown",
+      "death": 263,
+      "deathAccuracy": "exact",
+      "deathNote": "传文写景元四年十二日崩。年份取景元四年，不把十二日改成十二月。",
+      "title": "齐王太后，景元四年崩",
+      "bio": "西平人。明帝立为皇后。齐王即位尊为皇太后。三主幼弱时，大事先问太后。景元四年崩。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "polity": [
+        "wei"
+      ],
+      "gender": "female",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

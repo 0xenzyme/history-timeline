@@ -1,0 +1,69 @@
+{
+  "id": "chen-xigong",
+  "name": "妫孝",
+  "display": "陈釐公",
+  "birthAccuracy": "unknown",
+  "death": -797,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：釐公六年周宣王即位，三十六年卒。六年当 -827，三十六年当 -797。",
+  "title": "陈釐公",
+  "bio": "幽公之子。三十六年卒，子武公灵立。",
+  "tags": [
+    "陈"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chen"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-xigong",
+      "target": "chen-yougong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "chen-wugong",
+      "target": "chen-xigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈釐公",
+    "釐公孝"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家",
+      "kind": "classic"
+    }
+  ]
+}

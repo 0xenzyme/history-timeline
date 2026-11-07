@@ -1,0 +1,61 @@
+{
+  "id": "sun-huan",
+  "name": "孙奂",
+  "display": "孙奂",
+  "birth": 195,
+  "birthAccuracy": "approx",
+  "death": 234,
+  "deathAccuracy": "exact",
+  "birthNote": "传云卒时年四十，据卒年上推。",
+  "title": "吴扬威将军，镇江夏",
+  "bio": "孙静之子，字季明。兄皎卒，代统其众，以扬武中郎将领江夏太守，遵皎旧迹，礼纳刘靖、李允等，军民称之。黄武五年权攻石阳，奂以地主使鲜于丹断淮道，自率前锋降高城，得三将，拜扬威将军，封沙羡侯。爱乐儒生，命部曲子弟就业，后仕进朝廷者数十人。嘉禾三年卒，年四十。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "royal-kin",
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-huan",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙静之子，孙权从弟"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孙奂",
+    "孙季明"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·宗室传",
+      "kind": "classic"
+    }
+  ]
+}

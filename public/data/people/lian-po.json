@@ -1,0 +1,129 @@
+{
+  "id": "lian-po",
+  "name": "廉颇",
+  "display": "廉颇",
+  "birthAccuracy": "unknown",
+  "death": -243,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。奔魏后入楚，终老寿春，约楚迁都寿春前后。",
+  "title": "赵将，与蔺相如将相和",
+  "bio": "长平前主赵军，后为赵括所代。负荆于蔺相如。晚岁奔魏、楚，赵终不能用。他的条拖过长平，拖不过秦的东进。",
+  "tags": [
+    "赵国",
+    "长平"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "争位，后负荆请罪为同僚"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lian-po",
+      "target": "lin-xiangru",
+      "type": "peer",
+      "directed": false,
+      "since": -279,
+      "notes": [
+        "将相和"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "bai-qi",
+      "target": "lian-po",
+      "type": "rival",
+      "directed": false,
+      "since": -260,
+      "notes": [
+        "长平前主赵军，后为赵括所代"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lian-po",
+      "target": "zhao-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "惠文王之将，负荆请罪时仍与蔺如同列"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lian-po",
+      "target": "zhao-kuo-changping",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "赵王以赵括代廉颇"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-daoxiangwang",
+      "target": "lian-po",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "廉颇见谗去赵，将军买马于邯郸而不用；终身不复入赵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "changping-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "廉颇蔺相如列传",
+      "kind": "classic"
+    }
+  ]
+}

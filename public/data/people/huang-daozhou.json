@@ -1,0 +1,68 @@
+{
+  "id": "huang-daozhou",
+  "name": "黄道周",
+  "display": "黄道周",
+  "birth": 1585,
+  "birthAccuracy": "exact",
+  "death": 1646,
+  "deathAccuracy": "exact",
+  "title": "石斋先生，婺源就义",
+  "bio": "字幼玄，号石斋，福建漳浦人。天启二年进士，崇祯朝疏论杨嗣昌夺情，廷杖削籍。隆武立，以武英殿大学士自请督师，1646 年婺源兵败被俘，南京不屈而死。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "official",
+    "scholar",
+    "falling"
+  ],
+  "primary": "scholar",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huang-daozhou",
+      "target": "liu-zongzhou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以直谏名于世，晚皆殉国，学者并称其节义"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "huang-daozhou",
+      "target": "yang-sichang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "疏论嗣昌夺情，廷杖削籍，直声震于一时"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "黄道周传",
+      "kind": "classic"
+    }
+  ]
+}

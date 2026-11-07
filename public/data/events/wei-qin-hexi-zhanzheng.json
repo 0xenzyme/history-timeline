@@ -1,0 +1,88 @@
+{
+  "id": "wei-qin-hexi-zhanzheng",
+  "name": "魏攻秦河西之战",
+  "display": "魏攻秦河西之战",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": -413,
+  "yearAccuracy": "approx",
+  "yearNote": "连年用兵取整段。六国年表秦简公二年(前413)『与晋战,败郑下』(本地六国年表仅存年份行,此句据 web 维基/百科引述,未在本地核到原文);史记·魏世家文侯十六年『伐秦,筑临晋元里』、十七年『西攻秦,至郑而还,筑雒阴、合阳』;秦本纪简公六年(前409)『塹洛,城重泉』为秦防御反应。魏文侯纪年与秦纪年换算有系统差(文侯元年前445说下十六年=前430),故标 approx,取现代通史(杨宽战国史等)通行的前413–408 连年之役口径。",
+  "endYear": -408,
+  "endYearAccuracy": "approx",
+  "endYearNote": "终年据：连年用兵取整段。六国年表秦简公二年(前413)『与晋战,败郑下』(本地六国年表仅存年份行,此句据 web 维基/百科引述",
+  "belligerents": [
+    "wei-zhanguo",
+    "qin"
+  ],
+  "commanders": [
+    {
+      "id": "wu-qi",
+      "side": "wei-zhanguo"
+    }
+  ],
+  "result": "魏尽取秦河西之地，设西河郡，吴起守之，秦东出门户被锁数十年",
+  "aliases": [
+    "魏伐秦河西",
+    "魏取河西之地"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "魏文侯以吴起为将连年攻秦,取河西之地,筑临晋、元里、雒阴、合阳,秦被迫塹洛、城重泉退守洛水一线;魏置西河郡,吴起任西河守,『秦兵不敢东乡』。魏国自此压制秦国数十年,为魏国首霸奠基。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷044·魏世家",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷001·周纪一",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷005·秦本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wu-qi",
+      "name": "吴起",
+      "display": "吴起",
+      "birthAccuracy": "unknown",
+      "death": -381,
+      "deathAccuracy": "exact",
+      "deathNote": "孙子吴起列传：楚之贵族恶吴起；悼王卒，宗室大臣设伏射吴起并中王尸。新王坐射王尸之罪，夷宗死者七十余家。悼王卒岁即前381年。",
+      "title": "魏守西河，楚行变法",
+      "bio": "以兵法并用名世：魏文侯使守西河，秦人不敢东向；去魏入楚，为悼王令尹，损禄秩、实兵权，南收杨越、北却三晋。悼王死，伏弩射起并中王尸，新王坐罪夷宗室七十余家——楚的变法随他一起结账。一条横贯魏楚两个朝廷，是变法席位上代价最重的人。",
+      "tags": [
+        "魏国",
+        "楚国",
+        "西河",
+        "变法"
+      ],
+      "categories": [
+        "minister",
+        "general"
+      ],
+      "polity": [
+        "wei-zhanguo",
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

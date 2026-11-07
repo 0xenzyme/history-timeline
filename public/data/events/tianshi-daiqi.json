@@ -1,0 +1,64 @@
+{
+  "id": "tianshi-daiqi",
+  "name": "田氏代齐",
+  "display": "田氏代齐",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -386,
+  "yearAccuracy": "exact",
+  "yearNote": "周安王十六年（前386）初命齐大夫田和为诸侯（《资治通鉴》卷一）。此前前391田和迁齐康公于海上、前388会魏文侯于浊泽求为诸侯为前奏。",
+  "polity": [
+    "qi"
+  ],
+  "people": [
+    "tian-he"
+  ],
+  "aliases": [
+    "田和列为诸侯",
+    "田齐代姜齐"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "田氏专齐政历十世经营，前391年迁齐康公于海上，前386年周安王命田和为诸侯，姜齐公室至此法理终结。政权更替与三家分晋同被视为战国礼崩乐坏的标志。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷一",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tian-he",
+      "name": "田和",
+      "display": "齐太公",
+      "birthAccuracy": "unknown",
+      "death": -384,
+      "deathAccuracy": "exact",
+      "deathNote": "田敬仲完世家、六国年表：田和列为诸侯，立数年而卒，前384年。",
+      "title": "田齐首君，代姜者",
+      "bio": "太公田和：迁康公而请命于周，正式列于诸侯——年表齐国纪年从他起数。前384年卒。轴上的齐君列自此姓田；威宣之强、桂陵马陵之战，都打在田氏旗号下。",
+      "tags": [
+        "齐国",
+        "田氏代齐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

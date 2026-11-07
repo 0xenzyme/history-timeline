@@ -1,0 +1,97 @@
+{
+  "id": "ren-zong",
+  "name": "爱育黎拔力八达",
+  "display": "元仁宗爱育黎拔力八达",
+  "birth": 1285,
+  "birthAccuracy": "exact",
+  "death": 1320,
+  "deathAccuracy": "exact",
+  "title": "复兴科举",
+  "bio": "武宗弟，好儒术，即位后力行汉法，皇庆二年开科举，以程朱书取士，儒生柄用。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hai-shan",
+      "target": "ren-zong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，武宗传弟仁宗（武仁授受）"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "ren-zong",
+      "target": "ying-zong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，仁宗传子英宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "da-ji",
+      "target": "ren-zong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，两子相继为帝"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "ren-zong",
+      "target": "li-meng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "潜邸之师，力主复科举"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yanyou-fuke",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "仁宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

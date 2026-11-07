@@ -1,0 +1,55 @@
+{
+  "id": "wen-yanbo-tang",
+  "name": "温彦博",
+  "display": "温彦博",
+  "birthAccuracy": "unknown",
+  "death": 637,
+  "deathAccuracy": "exact",
+  "deathNote": "贞观十一年六月薨。",
+  "title": "贞观中书令",
+  "bio": "贞观四年为中书令。十一年六月薨。表中没有罢免。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-shimin",
+      "target": "wen-yanbo-tang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞观四年为中书令，十一年六月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "新唐书",
+      "part": "宰相表上",
+      "kind": "classic"
+    }
+  ]
+}

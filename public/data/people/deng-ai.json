@@ -1,0 +1,94 @@
+{
+  "id": "deng-ai",
+  "name": "邓艾",
+  "display": "邓艾",
+  "birth": 197,
+  "birthAccuracy": "exact",
+  "death": 264,
+  "deathAccuracy": "exact",
+  "title": "魏征西将军，偷渡阴平灭蜀",
+  "bio": "义阳棘阳人，少为农夫，口吃而善言兵事。与姜维数战于陇西，屯田淮南。景元四年自阴平凿山通道，行无人之地七百里，直取江油、绵竹，刘禅遂降。旋为钟会所构，槛车征还，与子忠俱死于绵竹西。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-zhao",
+      "target": "deng-ai",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 263,
+      "notes": [
+        "命艾伐蜀"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "deng-ai",
+      "target": "zhuge-zhan",
+      "type": "rival",
+      "directed": false,
+      "since": 263,
+      "notes": [
+        "艾自阴平袭入，瞻督诸军拒于绵竹，辞其诱降而战殁"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiang-wei-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "wei-mie-shu-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhonghui-dengai-mieshu",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "邓艾",
+    "邓士载"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·王毌丘诸葛邓钟传",
+      "kind": "classic"
+    }
+  ]
+}

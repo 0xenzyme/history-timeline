@@ -1,0 +1,82 @@
+{
+  "id": "wang-zhengjun",
+  "name": "王政君",
+  "display": "元后王政君",
+  "birth": -71,
+  "birthAccuracy": "exact",
+  "death": 13,
+  "deathAccuracy": "exact",
+  "title": "元帝皇后，王莽姑母，历四世为天下母",
+  "bio": "元帝皇后，成帝母。王氏一门十侯五大司马皆出其族。莽既篡，索传国玺，她掷地而与之。卒于新莽地皇四年，八十四岁，与西汉同寿。",
+  "tags": [
+    "西汉"
+  ],
+  "categories": [
+    "consort",
+    "consort-kin"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-shi",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，元帝皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wang-mang",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姑侄，王莽以外戚执政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wang-feng",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长兄为大司马辅政，王氏专权自此始"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王政君",
+    "元后"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "元后传",
+      "kind": "classic"
+    }
+  ]
+}

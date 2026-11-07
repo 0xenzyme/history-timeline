@@ -1,0 +1,215 @@
+{
+  "id": "huainan-sanpan",
+  "name": "淮南三叛",
+  "display": "淮南三叛",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 251,
+  "yearAccuracy": "exact",
+  "yearNote": "王凌谋立楚王彪事发（251）、毌丘俭与文钦起兵寿春（255）、诸葛诞据寿春反（257—258）三次举兵并称。",
+  "endYear": 258,
+  "endYearAccuracy": "exact",
+  "place": "寿春",
+  "placeNow": "今安徽寿县",
+  "polity": [
+    "wei"
+  ],
+  "people": [
+    "wang-ling",
+    "guanqiu-jian",
+    "zhuge-dan",
+    "sima-yi",
+    "sima-shi",
+    "sima-zhao"
+  ],
+  "result": "三次举兵先后被司马氏平定，淮南反对力量尽除，司马氏代魏的最后障碍被清除",
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "嘉平元年（249）太尉王凌与外甥令狐愚密谋迎立楚王彪于许昌以抗司马懿，愚旋病卒；嘉平三年（251）谋泄，王凌被征，至项饮药自杀；正元二年（255）毌丘俭、文钦以讨司马师为名起兵寿春，兵败被杀；甘露二年至三年（257—258）诸葛诞据寿春举兵，联吴为援，司马昭督军围城，次年城破，诞被夷三族。三叛皆起于淮南，皆由司马氏亲征平定。此后魏廷内外再无能与司马氏抗衡的武装，魏晋禅代的军事阻力被彻底清除。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·诸葛诞传",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "景帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "文帝纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-ling",
+      "name": "王凌",
+      "display": "王凌",
+      "birthAccuracy": "unknown",
+      "death": 251,
+      "deathAccuracy": "exact",
+      "deathNote": "淮南兵败，凌至项，饮药死，承嘉平三年叙事系年。",
+      "title": "魏太尉，淮南一叛主谋",
+      "bio": "太原祁人，字彦云，司徒王允之侄。允诛董卓遇害，凌与兄晨逾城得脱，亡命山野数年。举孝廉，为兖州刺史，从张辽等讨孙权；石亭之败，凌力战决围，曹休得免难，徙扬、豫二州刺史，所在咸得军民欢心。全琮寇芍陂，凌率诸军逆讨，力战连日贼退走。都督扬州，入为司空、太尉。与外甥令狐愚私谋以年幼天子不堪辅政，欲立楚王彪都许昌；嘉平三年事泄，司马懿潜军袭之，凌穷蹙自归，至项饮药死，相连者皆夷三族，楚王彪亦赐死。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "rebel"
+      ],
+      "primary": "official",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guanqiu-jian",
+      "name": "毌丘俭",
+      "display": "毌丘俭",
+      "birthAccuracy": "unknown",
+      "death": 255,
+      "deathAccuracy": "exact",
+      "deathNote": "寿春兵败西走，安风津都尉部民张属射杀之，传首京都，承正元二年叙事系年。",
+      "title": "魏镇东将军，远征高句丽，淮南二叛",
+      "bio": "河东闻喜人，字仲恭，父兴武威太守，俭袭父乡侯爵。明帝时论辽东事，后两度出塞征高句丽，破丸都城，刻石纪功而还，为魏对东北用兵第一人。迁镇东将军都督扬州。司马师废芳立髦，俭与文钦矫太后诏起兵讨师，为淮南二叛；师力疾亲讨，钦败降吴，俭众溃西走，正元二年于安风津被射杀，传首，夷三族。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuge-dan",
+      "name": "诸葛诞",
+      "display": "诸葛诞",
+      "birthAccuracy": "unknown",
+      "death": 258,
+      "deathAccuracy": "exact",
+      "deathNote": "寿春城破，斩诞，传首，夷三族，承甘露三年叙事系年。",
+      "title": "魏征东大将军，淮南三叛",
+      "bio": "琅邪阳都人，诸葛丰之后，与诸葛亮同族。与夏侯玄友善，累迁御史中丞、尚书，出为扬州刺史、昭武将军，诸葛恪围合肥新城，诞遣兵拒守。迁征东大将军都督扬州。俭、钦既败，诞见司马氏次第诛夷名族，惧不自安，倾帑振施以结众心。甘露二年诏征为司空，诞惧而反，杀扬州刺史乐綝，敛淮南众保寿春；三年司马昭围城，城中粮尽，城破斩诞，夷三族，麾下数百人拱手不降，每斩一人辄降之，终不转。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "rebel"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-yi",
+      "name": "司马懿",
+      "display": "司马懿",
+      "birth": 179,
+      "birthAccuracy": "exact",
+      "death": 251,
+      "deathAccuracy": "exact",
+      "title": "魏太傅，拒诸葛亮，高平陵夺权",
+      "bio": "河内温人，字仲达。曹操辟为文学掾，历事三世。拒诸葛亮于渭南，坚壁不出，卒使亮星落五丈原。正始十年乘曹爽出谒高平陵，闭城奏诛之，魏之大权归司马氏。嘉平三年薨，年七十三。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-shi",
+      "name": "司马师",
+      "display": "司马师",
+      "birth": 208,
+      "birthAccuracy": "exact",
+      "death": 255,
+      "deathAccuracy": "exact",
+      "title": "魏大将军，废曹芳、平毌丘俭",
+      "bio": "司马懿长子。父死继事，为中护军，阴养死士三千。嘉平六年废齐王芳，立高贵乡公髦。正元二年毌丘俭、文钦起兵淮南，师带病亲征，平之而目疾暴作，卒于许昌，年四十八。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-zhao",
+      "name": "司马昭",
+      "display": "司马昭",
+      "birth": 211,
+      "birthAccuracy": "exact",
+      "death": 265,
+      "deathAccuracy": "exact",
+      "title": "晋王，弑高贵乡公，灭蜀",
+      "bio": "司马懿次子。继兄专魏政，甘露五年曹髦率兵攻之，贾充使成济抽戈犯跸，髦崩于车下。景元四年遣钟会、邓艾伐蜀，刘禅出降，遂封晋王。咸熙二年薨，年五十五；子炎遂代魏。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "monarch",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

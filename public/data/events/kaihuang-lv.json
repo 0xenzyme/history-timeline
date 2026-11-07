@@ -1,0 +1,142 @@
+{
+  "id": "kaihuang-lv",
+  "name": "开皇律",
+  "display": "开皇律",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 581,
+  "yearAccuracy": "exact",
+  "yearNote": "开皇元年（581）诏高颎、杨素等更定新律；三年（583）再定，成十二卷五百条定本，两端均有《隋書》卷二五 刑法志系年。",
+  "endYear": 583,
+  "endYearAccuracy": "exact",
+  "endYearNote": "开皇三年定本十二卷五百条，据《隋書》卷二五 刑法志系年。",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-jian",
+    "gao-jiong",
+    "yang-su",
+    "niu-hong"
+  ],
+  "result": "定留五百条十二卷，刑网简要，唐律直承此制",
+  "aliases": [
+    "开皇新律"
+  ],
+  "dynasties": [
+    "northern-southern",
+    "sui"
+  ],
+  "desc": "开皇元年（581），隋诏高颎、杨素等更定新律，蠲除前代枭首轘裂之法，置十恶之条；三年（583）又敕苏威、牛弘等再定，定留五百条、十二卷，刑网简要。开皇律为唐律的直接蓝本，隋唐刑制自此定型。",
+  "sources": [
+    {
+      "work": "隋書",
+      "part": "卷二五 刑法志",
+      "note": "开皇元年更定新律、三年再定留五百条十二卷",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "gao-jiong",
+      "name": "高颎",
+      "display": "高颎",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 607,
+      "deathAccuracy": "exact",
+      "title": "尚书左仆射，开皇之政出于其手",
+      "bio": "渤海蓨人，自云渤海高氏之后。隋文受禅，即拜尚书左仆射，明习吏事，荐苏威、杨素、贺若弼、韩擒虎，平陈之策、输籍之法、府兵之改，皆其谋。独孤后与杨素言其不可信，遂坐免。大业三年以谤讪朝政被诛，年六十七，天下冤之。",
+      "tags": [
+        "隋",
+        "制度"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-su",
+      "name": "杨素",
+      "display": "杨素",
+      "birth": 544,
+      "birthAccuracy": "exact",
+      "death": 606,
+      "deathAccuracy": "exact",
+      "title": "尚书令，平陈水战，为炀帝所忌",
+      "bio": "弘农华阴人，性疏辩，善属文，与杨坚同族。开皇八年为行军元帅，出三峡，以五牙大舰破陈，江南遂定。数与突厥战，皆大克获。后附晋王广，助之夺宗，既而威权日盛，炀帝外示殊礼而内甚忌之。大业二年疾笃，帝日遣医问，然密问其死期，卒年六十三。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "regent",
+        "general"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "niu-hong",
+      "name": "牛弘",
+      "display": "牛弘",
+      "birth": 545,
+      "birthAccuracy": "approx",
+      "death": 610,
+      "deathAccuracy": "exact",
+      "birthNote": "大业六年卒，年六十六，上推生年。",
+      "title": "修五礼，定献后丧仪",
+      "bio": "安定鹑觚人。开皇三年拜礼部尚书，奉敕修五礼，勒成百卷。献皇后崩，公卿不能定仪注，杨素说决在于弘。炀帝时任职吏部，大业六年十一月卒于江都，年六十六。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "minister",
+        "classics"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

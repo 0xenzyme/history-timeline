@@ -1,0 +1,69 @@
+{
+  "id": "ga-er-dan",
+  "name": "噶尔丹",
+  "display": "噶尔丹",
+  "birthAccuracy": "unknown",
+  "death": 1697,
+  "deathAccuracy": "exact",
+  "deathNote": "清史稿·卷7·圣祖本纪二：康熙三十六年夏四月，费扬古疏报闰三月十三日噶尔丹仰药死，其女钟齐海率三百户来降。乌兰布通、昭莫多两役败后西走，援绝粮尽而仰药死；卷525·藩部八记其入藏为喇嘛，归而篡其汗位，自称受达赖封为准噶尔博硕克图汗。",
+  "categories": [
+    "outsider",
+    "warlord"
+  ],
+  "polity": [
+    "mongol"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ga-er-dan",
+      "target": "qian-long",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "准噶尔东犯，三驾亲征与乌兰布通之役"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gaerdan-zhanzheng",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhaomoduo-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷7·圣祖本纪二",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷525·藩部八·西藏",
+      "kind": "classic"
+    }
+  ]
+}

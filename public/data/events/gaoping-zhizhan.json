@@ -1,0 +1,182 @@
+{
+  "id": "gaoping-zhizhan",
+  "name": "高平之战",
+  "display": "高平之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 954,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系显德元年三月，周世宗亲征，战于高平；公历954。",
+  "place": "高平",
+  "placeNow": "今山西高平",
+  "belligerents": [
+    "hou-zhou",
+    "beihan",
+    "liao"
+  ],
+  "commanders": [
+    {
+      "id": "chai-rong",
+      "side": "hou-zhou"
+    },
+    {
+      "id": "fan-aineng",
+      "side": "hou-zhou"
+    },
+    {
+      "id": "liu-chong",
+      "side": "beihan"
+    }
+  ],
+  "people": [
+    "he-hui",
+    "liu-chengjun"
+  ],
+  "result": "世宗亲犯矢石，北汉大败；临阵斩逃将，禁军自此整肃。",
+  "aliases": [
+    "wudai-954"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "显德元年，周太祖崩，世宗立；北汉主刘崇乘丧南下，乞师于辽，杨衮以骑来会。世宗自将亲征，陈于高平之南。刘崇先攻周军右翼，樊爱能、何徽引骑先遁，步卒千余人解甲呼降，东厢之师溃。世宗自将亲兵，犯矢石而进，赵匡胤率所部力战，诸军乃奋击，北汉大败。日暮，刘崇收余众遁归太原。还军，世宗斩樊爱能、何徽及其所部军使以上七十余人，由是骄将惰兵知有军法。高平之役为世宗整军、经略天下之始。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后周纪·显德元年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "世宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "he-hui",
+      "name": "何徽",
+      "display": "何徽",
+      "birthAccuracy": "unknown",
+      "death": 954,
+      "deathAccuracy": "exact",
+      "title": "高平先遁之诛",
+      "bio": "并州人。事后汉至控鹤左厢都指挥使，周初历房州、延州。从高平之役，与樊爱能弃阵先奔，并其部曲之遁者，世宗并按军法斩之。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "general",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-chengjun",
+      "name": "刘承钧",
+      "display": "北汉睿宗",
+      "birthAccuracy": "unknown",
+      "death": 968,
+      "deathAccuracy": "exact",
+      "title": "北汉主承钧，慎守父业",
+      "bio": "刘崇之子。嗣位后去\"承\"字单名钧，事契丹愈恭，拒周宋之师；太原城小而兵不可轻，国困而能守。开宝元年卒，养子继文嗣立，北汉之亡兆见焉。",
+      "tags": [
+        "十国",
+        "北汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chai-rong",
+      "name": "柴荣",
+      "display": "周世宗",
+      "birth": 921,
+      "birthAccuracy": "exact",
+      "death": 959,
+      "deathAccuracy": "exact",
+      "title": "周世宗，以十年开拓天下",
+      "bio": "邢州龙冈人，姑婿郭威无子，以为后，初名郭荣。显德元年即位，高平亲犯矢石破北汉。自期\"以十年开拓天下，十年养百姓，十年致太平\"：疏汴渠、均田赋、简练禁军；三征南唐取淮南十四州，北征四十日下燕南三关三州。六年病殂，年三十九，宋太祖受其成。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fan-aineng",
+      "name": "樊爱能",
+      "display": "樊爱能",
+      "birthAccuracy": "unknown",
+      "death": 954,
+      "deathAccuracy": "exact",
+      "title": "高平先遁之诛",
+      "bio": "从周太祖有佐命功，历步军、骑军都指挥使。显德元年北汉刘崇犯潞州，战于高平，爱能、何徽二将先遁，右军遂却。世宗亲犯矢石力战而克，还营按诛，由是军威大振。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "general",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-chong",
+      "name": "刘崇",
+      "display": "北汉世祖",
+      "birthAccuracy": "unknown",
+      "death": 954,
+      "deathAccuracy": "exact",
+      "title": "北汉世祖，据晋阳立汉祀",
+      "bio": "太原人，汉高祖知远之弟。郭威代汉，崇据河东即位于晋阳，避隐帝讳改名旻，国仍号汉，史称北汉。北称臣于契丹，约为父子之国；高平之战大败，太原之众尽丧，忧愤而殂。",
+      "tags": [
+        "十国",
+        "北汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

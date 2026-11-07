@@ -1,0 +1,126 @@
+{
+  "id": "xihe-kaibian",
+  "name": "熙河开边",
+  "display": "熙河开边",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 1072,
+  "yearAccuracy": "exact",
+  "yearNote": "熙宁五年八月复武胜，十月置熙河路；六年十月以复熙河洮岷叠宕受贺。",
+  "endYear": 1073,
+  "endYearAccuracy": "exact",
+  "place": "熙河",
+  "belligerents": [
+    "song",
+    "tubo"
+  ],
+  "people": [
+    "wang-shao",
+    "wang-anshi",
+    "zhao-xu"
+  ],
+  "result": "宋设熙河路，取得熙、河、洮、岷、叠、宕等州。",
+  "aliases": [
+    "王韶开熙河",
+    "取熙河"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "熙宁五年八月，王韶复武胜军，十月宋置熙河路，六年复熙、河、洮、岷、叠、宕等州。宋由此设熙河路，取得这些州。这是变法军事面里唯一稳定扩大宋疆的战役，疆域变化不能被熙宁变法的制度条覆盖。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-shao",
+      "name": "王韶",
+      "display": "王韶",
+      "birth": 1030,
+      "birthAccuracy": "exact",
+      "death": 1081,
+      "deathAccuracy": "exact",
+      "title": "《平戎策》开熙河二千里",
+      "bio": "以布衣上《平戎策》，主持熙河开边，拓地二千余里，为宋代最大一次开边。元丰四年病疽卒，年五十二。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general",
+        "strategist"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-anshi",
+      "name": "王安石",
+      "display": "王安石",
+      "birth": 1021,
+      "birthAccuracy": "exact",
+      "death": 1086,
+      "deathAccuracy": "exact",
+      "title": "熙宁变法，荆公新学",
+      "bio": "临川人，翰林学士。神宗朝拜相，行青苗、募役、市易诸法，欲富国强兵，史称熙宁变法。新旧党争由此起，身后争议千年。",
+      "tags": [
+        "宋",
+        "北宋",
+        "改革"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "classics"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xu",
+      "name": "赵顼",
+      "display": "赵顼",
+      "birth": 1048,
+      "birthAccuracy": "exact",
+      "death": 1085,
+      "deathAccuracy": "exact",
+      "title": "宋神宗，熙宁变法",
+      "bio": "英宗子，即位旋用王安石变法，图强御夏。新法行之利弊相半，元丰改制官制；晚年新党内部亦生龃龉。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

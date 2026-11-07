@@ -1,0 +1,46 @@
+{
+  "id": "shimen-zhizhan",
+  "name": "石门之战",
+  "display": "石门之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": -364,
+  "yearAccuracy": "exact",
+  "yearNote": "史记·秦本纪献公二十一年『與晉戰於石門,斬首六萬,天子賀以黼黻』(本地已核);献公元年前384,二十一年即前364;六国年表同系年(本地表格无正文行,以秦本纪为准)。无系年争议。",
+  "place": "石门",
+  "placeNow": "陕西白水、澄城一带(洛水以东河西地,考证有异说,存疑)",
+  "belligerents": [
+    "qin",
+    "wei-zhanguo"
+  ],
+  "result": "秦败三晋之师于石门，斩首六万，周天子遣使称贺",
+  "aliases": [
+    "秦败三晋于石门"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "秦献公二十一年大败三晋之师(『与晋战』,晋实以魏为主)于石门,斩首六万,周显王致贺以黼黻。这是魏压秦百年后秦国首次空前的对外大捷,天子致贺象征周王室对秦军事地位的承认,是秦东进收复河西的先声。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷005·秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷002·周纪二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [],
+  "collections": []
+}

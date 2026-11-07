@@ -1,0 +1,126 @@
+{
+  "id": "sima-yan-cheng",
+  "name": "司马衍",
+  "display": "晋成帝司马衍",
+  "birth": 321,
+  "birthAccuracy": "approx",
+  "death": 342,
+  "deathAccuracy": "exact",
+  "birthNote": "咸康八年崩，年二十二，上推生年。",
+  "title": "东晋成帝，咸康八年崩",
+  "bio": "明帝长子。太宁三年明帝崩，太子即位，庾太后临朝。咸康八年崩于西堂，年二十二。",
+  "tags": [
+    "晋",
+    "东晋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-shao",
+      "target": "sima-yan-cheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。成帝为明帝长子，太宁三年明帝崩后即位"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan-cheng",
+      "target": "sima-yue",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。康帝为成帝母弟，咸康八年入嗣"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-pi",
+      "target": "sima-yan-cheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。哀帝为成帝长子，升平五年穆帝无嗣后入继"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan-cheng",
+      "target": "yu-wenjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。成帝即位尊为皇太后"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "du-lingyang",
+      "target": "sima-yan-cheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "成帝皇后。咸康二年立，七年崩，在位六年"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yan-cheng",
+      "target": "cai-mo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "成帝时为司徒，谏止北伐，后免官"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sujun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马衍",
+    "晋成帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "成帝纪",
+      "kind": "classic"
+    }
+  ]
+}

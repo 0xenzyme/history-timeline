@@ -1,0 +1,77 @@
+{
+  "id": "ou-yangxiu",
+  "name": "欧阳修",
+  "display": "欧阳修",
+  "birth": 1007,
+  "birthAccuracy": "exact",
+  "death": 1072,
+  "deathAccuracy": "exact",
+  "title": "古文运动领袖，六一居士",
+  "bio": "庐陵人，举进士，奖掖后进，与尹洙、梅尧臣倡古文，排斥险怪时文。主修《新唐书》《新五代史》，为北宋文宗。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "chancellor",
+    "literature",
+    "poetry",
+    "historian"
+  ],
+  "primary": "literature",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fan-zhongyan",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同倡革新，奖掖士风"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "su-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "欧阳公拔识东坡于礼部试"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qingli-xinzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "欧阳修传",
+      "kind": "classic"
+    }
+  ]
+}

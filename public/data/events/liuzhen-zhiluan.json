@@ -1,0 +1,74 @@
+{
+  "id": "liuzhen-zhiluan",
+  "name": "六镇之乱",
+  "display": "六镇之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 524,
+  "yearAccuracy": "exact",
+  "yearNote": "《魏书·肃宗纪》系破六韩拔陵起事于正光五年（524）三月；此前正光四年（523）怀荒镇已有杀镇将之事，故通史或作 523。",
+  "endYear": 525,
+  "endYearAccuracy": "exact",
+  "place": "沃野镇",
+  "placeNow": "今内蒙古五原北",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "a-na-gui"
+  ],
+  "result": "乱事虽平，北边军事集团崛起，北魏走向分裂",
+  "aliases": [
+    "六镇起义"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "北魏迁洛后六镇边卒地位骤降，正光五年（524）三月沃野镇人破六韩拔陵聚众反，杀镇将、号真王元年，诸镇相继响应，关中、河北蜂起。魏军久讨无功，借柔然阿那瓌部夹击，525 年拔陵兵败，二十余万降户被徙河北。北镇军事集团自此崛起，尔朱氏、高欢、宇文泰皆由其中走出，北魏分裂的伏线尽在于此。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "肃宗纪",
+      "kind": "classic"
+    },
+    {
+      "work": "维基百科：六镇之乱",
+      "kind": "database"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "a-na-gui",
+      "name": "阿那瓌",
+      "display": "阿那瓌",
+      "birthAccuracy": "unknown",
+      "death": 552,
+      "deathAccuracy": "exact",
+      "deathNote": "「廢帝元年正月，土門發兵擊蠕蠕，大破之於懷荒北。阿那瓌自殺」（北史·突厥传），系西魏废帝元年。",
+      "title": "柔然可汗，助魏平六镇而复兴柔然，终为突厥所破自杀",
+      "tags": [
+        "南北朝",
+        "柔然"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

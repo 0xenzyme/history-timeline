@@ -1,0 +1,57 @@
+{
+  "id": "yin-lihua",
+  "name": "阴丽华",
+  "display": "光烈皇后阴丽华",
+  "birth": 5,
+  "birthAccuracy": "exact",
+  "death": 64,
+  "deathAccuracy": "exact",
+  "title": "光武皇后，郭后废而后立",
+  "bio": "南阳新野人，光武微时闻其美，叹曰「仕宦当作执金吾，娶妻当得阴丽华」。初为贵人，郭圣通既废，乃立为后。恭俭少嗜，明帝即位尊为太后。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "consort"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xiu",
+      "target": "yin-lihua",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，阴后贤德"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "阴丽华",
+    "光烈皇后"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇后纪",
+      "kind": "classic"
+    }
+  ]
+}

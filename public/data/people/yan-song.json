@@ -1,0 +1,105 @@
+{
+  "id": "yan-song",
+  "name": "严嵩",
+  "display": "严嵩",
+  "birth": 1480,
+  "birthAccuracy": "exact",
+  "death": 1567,
+  "deathAccuracy": "exact",
+  "title": "嘉靖权相",
+  "bio": "分宜人，以青词得世宗宠，父子济恶、窃柄二十年，贪贿军务废弛，边防日坏。后被劾罢，籍其家。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "official",
+    "chancellor",
+    "regent"
+  ],
+  "primary": "regent",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-houcong",
+      "target": "yan-song",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宠严嵩，权倾二十年"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "hai-rui",
+      "target": "yan-song",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "海瑞上疏骂嘉靖，严党侧目"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-jie",
+      "target": "yan-song",
+      "type": "rival",
+      "directed": false,
+      "since": 1562,
+      "notes": [
+        "以方术事世宗，终为徐阶所攻去"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "gu-dingchen",
+      "target": "yan-song",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "鼎臣卒后严嵩始专国，嘉靖之局由此一变"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wang-shizhen",
+      "target": "yan-song",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "父忬死于严嵩之手，世贞伏阙讼冤而不能白"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "严嵩传",
+      "kind": "classic"
+    }
+  ]
+}

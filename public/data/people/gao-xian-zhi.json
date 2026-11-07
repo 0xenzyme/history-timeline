@@ -1,0 +1,64 @@
+{
+  "id": "gao-xian-zhi",
+  "name": "高仙芝",
+  "display": "高仙芝",
+  "birthAccuracy": "unknown",
+  "death": 755,
+  "deathAccuracy": "exact",
+  "title": "安西节度使，越帕米尔征小勃律，死于谗",
+  "bio": "高丽人，随父入安西，以骑射补游击将军。天宝六载将万余骑自安西行百余日，越帕米尔，破小勃律，虏其王及吐蕃公主，由是诸胡七十二国皆震慑降附。天宝十四载安禄山反，仙芝与封常清守陕，退保潼关，为监军边令诚诬以盗减军粮，与常清同日被斩于潼关。",
+  "tags": [
+    "唐",
+    "西域"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "feng-changqing",
+      "target": "gao-xian-zhi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为安西、河西名将；安史乱起同守陕郡，退保潼关，同为玄宗所杀"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "talas-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "高仙芝"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "高仙芝传",
+      "kind": "classic"
+    }
+  ]
+}

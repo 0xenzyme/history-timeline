@@ -1,0 +1,123 @@
+{
+  "id": "litan-zhiluan",
+  "name": "李璮之乱",
+  "display": "李璮之乱",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 1262,
+  "yearAccuracy": "exact",
+  "yearNote": "中统三年二月起兵，七月伏诛。大明湖只见于元史。续资从宋朝视角写作来归。",
+  "place": "济南",
+  "polity": [
+    "mongol"
+  ],
+  "people": [
+    "li-tan",
+    "wang-wentong",
+    "shi-tianze"
+  ],
+  "result": "李璮败死，世侯军政被收紧",
+  "aliases": [
+    "益都之变"
+  ],
+  "dynasties": [
+    "song",
+    "mongol"
+  ],
+  "desc": "中统三年二月己丑，李璮把涟、海三城献给宋，引兵趋益都，据济南。同月王文统以同谋伏诛。七月甲戌，李璮入大明湖，被获处死，忽必烈随后收紧中原军政。",
+  "sources": [
+    {
+      "work": "元史",
+      "part": "卷五·世祖本纪",
+      "note": "二月李璮以三城献于宋，王文统同月伏诛，七月入大明湖被获",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷一百七十六",
+      "note": "以涟海三城来归，宋封齐郡王",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-tan",
+      "name": "李璮",
+      "display": "李璮",
+      "birthAccuracy": "unknown",
+      "death": 1262,
+      "deathAccuracy": "exact",
+      "title": "益都行省，济南之叛",
+      "bio": "潍州人，据益都为山东世侯。1262 年乘忽必烈与阿里不哥争位，以涟海诸城来归南宋而据济南；城破被擒，斩于军前，汉人世侯之兵权自此裁削。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-wentong",
+      "name": "王文统",
+      "display": "王文统",
+      "birthAccuracy": "unknown",
+      "death": 1262,
+      "deathAccuracy": "exact",
+      "title": "中书平章王文统",
+      "bio": "益都人，忽必烈初年以中书平章定条约、理财赋，制度多出其手。1262 年李璮举事，坐尝以姻书相通，与李璮同诛。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "chancellor",
+        "rebel"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-tianze",
+      "name": "史天泽",
+      "display": "史天泽",
+      "birth": 1202,
+      "birthAccuracy": "exact",
+      "death": 1275,
+      "deathAccuracy": "exact",
+      "title": "汉人世侯之首",
+      "bio": "永清人，归蒙古后累世将相，镇真定、平李璮，从伯颜伐宋。沉毅知大体，为世祖所重。",
+      "tags": [
+        "元"
+      ],
+      "categories": [
+        "minister",
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "yuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

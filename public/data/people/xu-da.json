@@ -1,0 +1,74 @@
+{
+  "id": "xu-da",
+  "name": "徐达",
+  "display": "徐达",
+  "birth": 1332,
+  "birthAccuracy": "exact",
+  "death": 1385,
+  "deathAccuracy": "exact",
+  "title": "开国第一将",
+  "bio": "凤阳人，朱元璋同乡。统师平陈友谅、张士诚，北伐克大都，功为诸将冠，持重廉谨。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general",
+    "founding"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-yuanzhang",
+      "target": "xu-da",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开国第一将，北伐克大都"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-da",
+      "target": "xu-huanghou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女，长女为燕王妃"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dadu-xianluo",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "徐达传",
+      "kind": "classic"
+    }
+  ]
+}

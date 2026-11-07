@@ -1,0 +1,86 @@
+{
+  "id": "a-gui",
+  "name": "阿桂",
+  "display": "阿桂",
+  "birth": 1717,
+  "birthAccuracy": "exact",
+  "death": 1797,
+  "deathAccuracy": "exact",
+  "title": "定伊犁征缅甸之相",
+  "bio": "章佳氏，初隶满洲正蓝旗，以平回部驻伊犁治事有劳改隶正白旗，大学士阿克敦之子。乾隆朝屡统大军，定金川、定伊犁、征缅甸，官至武英殿大学士、军机大臣。嘉庆二年卒。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "chancellor",
+    "general"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qian-long",
+      "target": "a-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武英殿大学士，定金川、定伊犁、征缅甸皆总其师"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "a-gui",
+      "target": "he-shen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同在军机，阿桂每与和珅龃龉而不能去之"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "a-gui",
+      "target": "fu-heng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为高宗朝军机，征缅之役傅恒自请经略而病还"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "daxiaojinchuan-zhizhi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "阿桂传",
+      "kind": "classic"
+    }
+  ]
+}

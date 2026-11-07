@@ -1,0 +1,59 @@
+{
+  "id": "wei-renpu",
+  "name": "魏仁浦",
+  "display": "魏仁浦",
+  "birth": 911,
+  "birthAccuracy": "exact",
+  "death": 969,
+  "deathAccuracy": "exact",
+  "title": "由小吏至宰相的周旧臣",
+  "bio": "少为刀笔吏，以材干显于后周，参预枢密。入宋仍相，从征太原，道病卒于梁侯驿，年五十九。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "wudai",
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "chancellor"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chai-rong",
+      "target": "wei-renpu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "周世宗即位，以魏仁浦为宰相，与王溥同预政事"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "魏仁浦传",
+      "kind": "classic"
+    }
+  ]
+}

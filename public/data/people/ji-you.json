@@ -1,0 +1,129 @@
+{
+  "id": "ji-you",
+  "name": "姬友",
+  "display": "郑桓公",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "exact",
+  "title": "郑国始封之君，周司徒",
+  "bio": "宣王母弟，宣王二十二年封郑。幽王时为司徒，见王室将乱，寄孥与贿于虢、郐。犬戎之难与幽王同死，郑武公另开春秋。",
+  "tags": [
+    "郑国",
+    "始封"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "zheng"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "ji-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣王母弟，封于郑"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jing",
+      "target": "ji-you",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -806,
+      "notes": [
+        "封郑，幽王时为周司徒"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-you",
+      "target": "shi-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "桓公问逃死，太史伯劝寄孥虢郐"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-jutuo",
+      "target": "ji-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。桓公死，郑人立掘突"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "guo-shu",
+      "target": "ji-you",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯劝寄孥于虢，虢叔恃势"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-you",
+      "target": "kuai-zhong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯劝寄孥于郐，郐仲恃险"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "quanrong-gong-youwang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "郑桓公"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "郑世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "十二诸侯年表",
+      "kind": "classic"
+    }
+  ]
+}

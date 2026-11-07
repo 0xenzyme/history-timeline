@@ -1,0 +1,157 @@
+{
+  "id": "sima-rui",
+  "name": "司马睿",
+  "display": "晋元帝司马睿",
+  "birth": 276,
+  "birthAccuracy": "exact",
+  "death": 323,
+  "deathAccuracy": "exact",
+  "title": "东晋元帝，王与马共天下",
+  "bio": "司马懿曾孙，琅邪王觐之子。永嘉之乱后以安东将军镇建康，用王导之谋，收江东士族之心。建武元年即晋王位，明年称帝，都建康。政出王氏，导内而敦外，时人语曰「王与马，共天下」。永昌元年忧愤成疾而崩，年四十七。",
+  "tags": [
+    "东晋",
+    "衣冠南渡"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-rui",
+      "target": "wang-dao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王与马，共天下"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-rui",
+      "target": "zu-ti",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "中流击楫，请兵北伐"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-rui",
+      "target": "sima-shao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。明帝为元帝长子，永昌元年元帝崩后即位"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-rui",
+      "target": "sima-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。简文帝为元帝少子"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-rui",
+      "target": "xi-jian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "流民帅受任兖州"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-daozi",
+      "target": "sima-rui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。简文临崩封道子为琅邪王"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-rui",
+      "target": "ge-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元帝时以功赐爵关内侯；后隐居罗浮山，著《抱朴子》"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "simarui-dengji",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wangdun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yiguan-nandu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zuti-beifa",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "司马睿",
+    "晋元帝"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "元帝纪",
+      "kind": "classic"
+    }
+  ]
+}

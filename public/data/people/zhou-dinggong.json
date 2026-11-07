@@ -1,0 +1,83 @@
+{
+  "id": "zhou-dinggong",
+  "name": "周定公",
+  "display": "周定公",
+  "birthAccuracy": "unknown",
+  "death": -828,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见共和行政，《史记》与召穆公共相王室；共和十四年后事迹不见，取厉王死年为活动下限。",
+  "title": "周公旦之后，共和二相之一",
+  "bio": "《史记》记周、召二相行政，号曰共和。《竹书纪年》别作共伯和摄政。本图从《史记》，把他和召穆公画成并列的两条。",
+  "tags": [
+    "共和"
+  ],
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-hu",
+      "target": "zhou-dinggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "周公之后，共和二相之一"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "shao-hu",
+      "target": "zhou-dinggong",
+      "type": "peer",
+      "directed": false,
+      "since": -841,
+      "notes": [
+        "《史记》周召二相共和行政"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "gong-bo-he",
+      "target": "zhou-dinggong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "竹书归政；史记二相行政是另一说"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "竹书纪年",
+      "note": "共伯和说，与周召共和并列备考",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "wang-sengbian-zhibian",
+  "name": "王僧辩之变",
+  "display": "王僧辩之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 1,
+  "year": 555,
+  "yearAccuracy": "exact",
+  "place": "京口",
+  "placeNow": "今江苏镇江",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "chen-ba-xian",
+    "wang-sengbian"
+  ],
+  "result": "陈霸先袭杀王僧辩，尽掌梁政，通向禅代建陈",
+  "aliases": [
+    "陈霸先袭杀王僧辩",
+    "京口之变"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "承圣三年江陵陷后，王僧辩、陈霸先共立晋安王萧方智于建康。北齐送渊明入为主，王僧辩迫于齐势迎立萧渊明，陈霸先遂自京口举兵袭杀王僧辩，废渊明复立方智。梁末权柄自此尽归陈霸先，两年后禅代建陈。",
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "王僧辩传",
+      "kind": "classic"
+    },
+    {
+      "work": "陈书",
+      "part": "高祖纪上",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "chen-ba-xian",
+      "name": "陈霸先",
+      "display": "陈武帝陈霸先",
+      "birth": 503,
+      "birthAccuracy": "exact",
+      "death": 559,
+      "deathAccuracy": "exact",
+      "title": "代梁建陈，平侯景而定江左",
+      "bio": "吴兴长城下若里人，初为里司、油库吏，以军功起家。侯景之乱，自始兴起兵赴援，与王僧辩共平建康。承圣四年袭杀僧辩，立敬帝，太平二年受禅，国号陈。在位三年崩，年五十七，南朝最后一个开国之君，江左之地日蹙。",
+      "tags": [
+        "南朝",
+        "南陈"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-sengbian",
+      "name": "王僧辩",
+      "display": "王僧辩",
+      "birthAccuracy": "unknown",
+      "death": 555,
+      "deathAccuracy": "exact",
+      "deathNote": "陈霸先夜袭石头城，「爾夜斬之」（梁书·王僧辩传），事在承圣四年。",
+      "title": "平侯景之乱的主帅，为陈霸先夜袭所杀",
+      "tags": [
+        "南北朝",
+        "梁"
+      ],
+      "categories": [
+        "general",
+        "chancellor"
+      ],
+      "primary": "general",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

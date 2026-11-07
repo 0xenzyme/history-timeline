@@ -1,0 +1,166 @@
+{
+  "id": "chengpu-zhizhan",
+  "name": "城濮之战",
+  "display": "城濮之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": -632,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·僖公二十八年》「夏，四月己巳，晉侯、齊師、宋師、秦師及楚人戰於城濮，楚師敗績」；《史記·晉世家》文公五年（前632）四月戊辰次城濮、己巳合戰。僖公二十八年＝前632。",
+  "place": "城濮",
+  "placeNow": "今山东鄄城县西南（杜注「城濮，衛地」）",
+  "belligerents": [
+    "jin-guo",
+    "chu"
+  ],
+  "commanders": [
+    {
+      "id": "xian-zhen",
+      "side": "jin-guo"
+    },
+    {
+      "id": "zi-yu",
+      "side": "chu"
+    }
+  ],
+  "people": [
+    "ji-chonger",
+    "hu-yan",
+    "xiong-yun"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "楚围宋，晋救宋攻曹卫、执曹伯分曹卫之田以怒楚；子玉请战，晋师退避三舍以报成王之惠，子玉不肯；胥臣蒙马虎皮破陈蔡（右师），狐毛栾枝伪遁诱击（左师），先轸中军横击，楚师大败；子玉收残兵，楚成王责之，自杀于连谷。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷15",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷039·晉世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "ji-chonger",
+      "name": "姬重耳",
+      "display": "晋文公",
+      "birth": -697,
+      "birthAccuracy": "disputed",
+      "death": -628,
+      "deathAccuracy": "exact",
+      "birthNote": "《晋世家》记奔狄时年四十三，则生年约前 697；或疑年岁偏长。",
+      "title": "春秋第二位公认霸主",
+      "bio": "献公子。在外十九年，秦纳之。城濮败楚、践土会盟。出亡的长条几乎空着，即位后的九年才把霸业画完。",
+      "tags": [
+        "晋国",
+        "城濮"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hu-yan",
+      "name": "狐偃",
+      "display": "狐偃",
+      "birthAccuracy": "unknown",
+      "death": -628,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。从亡十九年，文公即位后为谋主；取文公卒年为活动下限。",
+      "title": "晋文公舅，从亡谋主",
+      "bio": "字子犯。劝重耳勿怀安于齐，城濮之谋多出其口。他的条贴着文公出亡那一段——没有这条，十九年只是流浪。",
+      "tags": [
+        "晋国",
+        "从亡"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiong-yun",
+      "name": "熊恽",
+      "display": "楚成王",
+      "birthAccuracy": "unknown",
+      "death": -626,
+      "deathAccuracy": "exact",
+      "deathNote": "楚世家：四十六年冬十月丁未，成王自绞杀。同篇把泓之战写在三十四年。专题此战为前638年，四十六年即前626年。",
+      "title": "泓之战败宋，四十六年自缢",
+      "bio": "楚成王。三十四年在泓击败宋襄公。城濮战败后诛子玉。四十六年冬十月被太子商臣围困，自缢。",
+      "tags": [
+        "楚国",
+        "泓之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xian-zhen",
+      "name": "先轸",
+      "display": "先轸",
+      "birthAccuracy": "unknown",
+      "death": -627,
+      "deathAccuracy": "exact",
+      "title": "晋中军将，城濮主谋",
+      "bio": "城濮原轸之谋。文公卒，他力主击秦于殽，胜而不礼；狄伐晋，免胄入狄师而死。霸主死后一年，这条武将条就截住了。",
+      "tags": [
+        "晋国",
+        "城濮",
+        "殽之战"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zi-yu",
+      "name": "成得臣",
+      "display": "子玉",
+      "birthAccuracy": "unknown",
+      "death": -632,
+      "deathAccuracy": "exact",
+      "deathNote": "城濮之败（前632），楚成王使人责之，子玉自杀；春秋经·僖公二十八年书「楚殺其大夫得臣」。史记·楚世家不系其卒年。",
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "lan-yu",
+  "name": "蓝玉",
+  "display": "蓝玉",
+  "birthAccuracy": "unknown",
+  "death": 1393,
+  "deathAccuracy": "exact",
+  "title": "捕鱼儿海之功臣",
+  "bio": "定远人，常遇春妻弟。数将大军出塞，捕鱼儿海之捷名震北荒; 恃功骄纵，1393 年以谋反诛，列侯以下死者万五千余人。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lan-yu",
+      "target": "zhu-yuanzhang",
+      "type": "rival",
+      "directed": false,
+      "since": 1393,
+      "notes": [
+        "坐谋反诛，列侯以下死者万五千余人"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "fu-youde",
+      "target": "lan-yu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为洪武末被诛的开国功臣"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "buyuerhai-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "lanyu-an",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "蓝玉传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "li-yun",
+  "name": "李筠",
+  "display": "李筠",
+  "birthAccuracy": "unknown",
+  "death": 964,
+  "deathAccuracy": "exact",
+  "deathNote": "建隆四年即乾德元年（964）。",
+  "title": "首举反旗的昭义节度使",
+  "bio": "后周潞州节度使，太祖受禅，筠泣周主画像起兵，连北汉攻泽州。建隆四年六月自焚死。",
+  "tags": [
+    "后周",
+    "宋"
+  ],
+  "categories": [
+    "rebel",
+    "general"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "end"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yun",
+      "target": "zhao-kuangyin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "宿将不平，据潞州叛宋"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "周三臣传",
+      "kind": "classic"
+    }
+  ]
+}

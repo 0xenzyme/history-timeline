@@ -1,0 +1,586 @@
+{
+  "id": "spring-autumn",
+  "name": "春秋",
+  "from": -770,
+  "to": -476,
+  "contractVersion": 1,
+  "group": "pre-qin",
+  "personCount": 490,
+  "eventCount": 65,
+  "founderRecords": [],
+  "topics": [
+    "chunqiu",
+    "rujia"
+  ],
+  "people": [
+    {
+      "id": "ji-yijiu",
+      "name": "姬宜臼",
+      "display": "周平王",
+      "birthAccuracy": "unknown",
+      "death": -720,
+      "deathAccuracy": "exact",
+      "title": "东周第一位天子",
+      "bio": "幽王太子，申后所生。被废后奔申。犬戎破镐，诸侯迎立，东迁洛邑。王室从此徒拥共主空名，诸侯力政。",
+      "tags": [
+        "平王东迁"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-lin",
+      "name": "姬林",
+      "display": "周桓王",
+      "birthAccuracy": "unknown",
+      "death": -697,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「桓王二十三年 三月乙未，王陟」。按平王元年前 770 逐王推得。",
+      "title": "在位二十三年，郑师射伤于繻葛",
+      "bio": "平王之孙。平王五十一年前 720 崩，立其子泄之父蚤死，遂立桓王。即位三年郑庄公来朝，不与礼；遂与郑交恶。前 707 繻葛之战为郑将祝聃射中肩，王师大败。这是周天子第一次在战场上受伤，王室的兵权与威信一同下落。",
+      "tags": [
+        "繻葛之战",
+        "郑庄公"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-tuo",
+      "name": "姬佗",
+      "display": "周庄王",
+      "birthAccuracy": "unknown",
+      "death": -682,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年缺庄王卒年，年数取史记·周本纪「十五年，庄王崩」，仍按同一锚点推算。",
+      "title": "杀周公黑肩，弟王子克奔燕",
+      "bio": "桓王崩而立。即位四年，弟王子克有宠，周公黑肩欲杀庄王立克；辛伯告变，庄王杀周公，王子克遂奔燕。此后王室只剩名号，燕与晋的曲沃争政开始分走周室的实权。",
+      "tags": [
+        "王子克奔燕",
+        "周公黑肩"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-hu-qi",
+      "name": "姬胡齐",
+      "display": "周釐王",
+      "birthAccuracy": "unknown",
+      "death": -677,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「厘王五年……王陟」。",
+      "title": "在位五年，齐桓霸业起于其初年",
+      "bio": "庄王崩而立，在位五年。三年齐桓公始霸——春秋第一段霸业的起点，正落在这位短命天子在位的第三年。五年崩。",
+      "tags": [
+        "齐桓公始霸"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-liang",
+      "name": "姬閬",
+      "display": "周惠王",
+      "birthAccuracy": "unknown",
+      "death": -652,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「惠王二十五年 春正月，狄人伐晋。王陟」。",
+      "title": "为王子頽所逐，赖郑虢复国",
+      "bio": "釐王崩而立。即位二年，宠弟王子頽联合五大夫作乱，惠王奔郑、居櫟，王位被王頽夺去四年；郑厉公与虢公伐杀王頽，惠王得以复位。十年赐齐桓公为伯，「尊王攘夷」的名号由天子亲口授受。二十五年崩。",
+      "tags": [
+        "王子颓之乱",
+        "赐齐桓公为伯"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-zheng",
+      "name": "姬郑",
+      "display": "周襄王",
+      "birthAccuracy": "unknown",
+      "death": -619,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王三十三年 王陟」；史记·周本纪作「三十二年，襄王崩」，早一年，此处取竹书。",
+      "title": "借晋文公之力复位，践土受诸侯朝",
+      "bio": "惠王崩而立。惠后与叔带之乱逼得襄王出奔郑、居氾，子带自立为王。前 636 晋文公纳襄王而诛叔带，天子赐珪鬯弓矢为伯。二十年河阳、践土之会，诸侯毕朝而书「天王狩于河阳」——书法的避讳本身就是权威的证明。",
+      "tags": [
+        "晋文公纳王",
+        "践土之会",
+        "叔带之乱"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "pingwang-dongqian",
+      "name": "平王东迁",
+      "display": "平王东迁",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -770,
+      "yearAccuracy": "exact",
+      "yearNote": "主锚前770：史记周本纪「平王立，東遷于雒邑，辟戎寇」承幽王之亡（前771犬戎杀幽王于骊山）；维基百科亦系前770（其1月11日日期系天文换算，不取精度）。平王东迁与秦襄公始列诸侯同叙（史记秦本纪），二王并立（携惠王）至前750晋文侯杀之而终。",
+      "polity": [
+        "zhou",
+        "qin"
+      ],
+      "people": [
+        "ji-yijiu",
+        "qin-xianggong",
+        "ji-chou"
+      ],
+      "aliases": [
+        "周室东迁洛邑",
+        "平王东迁（秦襄公始封诸侯）",
+        "东周之始"
+      ],
+      "dynasties": [
+        "spring-autumn"
+      ],
+      "desc": "犬戎之祸后，周平王东迁洛邑，王室衰微，诸侯齐楚秦晋始大、政由方伯。平王以兵护送之功封秦襄公为诸侯、赐岐以西之地，秦始列于诸侯；晋文侯后来杀携惠王终结二王并立。春秋政治格局由此展开。",
+      "sources": [
+        {
+          "work": "史記·周本紀",
+          "part": "平王",
+          "kind": "classic"
+        },
+        {
+          "work": "維基百科：平王東遷",
+          "part": "正文",
+          "kind": "modern"
+        },
+        {
+          "work": "史記·秦本紀",
+          "part": "襄公七年",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xuge-zhizhan",
+      "name": "繻葛之战",
+      "display": "繻葛之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -707,
+      "yearAccuracy": "exact",
+      "yearNote": "《春秋·桓公五年》「秋，蔡人、衛人、陳人從王伐鄭」（杜注：王師敗不書，不以告）；《左傳》战于繻葛、祝聃射王中肩；《史記·周本紀》桓王十三年、《鄭世家》莊公三十七年互证。桓公五年＝前707。",
+      "place": "繻葛",
+      "placeNow": "今河南省长葛市北（一说东北；杜注仅言「繻葛，鄭地」）",
+      "belligerents": [
+        "zheng",
+        "zhou"
+      ],
+      "commanders": [
+        {
+          "id": "ji-wusheng",
+          "side": "zheng"
+        },
+        {
+          "id": "ji-lin",
+          "side": "zhou"
+        }
+      ],
+      "aliases": [
+        "繻葛之役",
+        "郑败王师"
+      ],
+      "dynasties": [
+        "spring-autumn"
+      ],
+      "desc": "周桓王夺郑伯政，郑伯不朝；桓王亲率中军，虢公林父将右军（蔡、卫属焉），周公黑肩将左军（陈人属焉）伐郑。郑子元请先攻两翼（陈乱无斗志），曼伯为右拒、祭仲足为左拒、原繁高渠弥以中军奉公，为「鱼丽之陈」；战于繻葛，蔡卫陈皆奔，王卒乱，郑师合攻，王师大败，祝聃射王中肩。祝聃请追，庄公以「君子不欲多上人，况敢陵天子乎」止之，夜使祭足劳王。王师败于诸侯、天子中箭，周王室威信扫地。",
+      "sources": [
+        {
+          "work": "春秋左傳正義",
+          "part": "卷05",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷004·周本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷042·鄭世家",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qihuangong-jiwei",
+      "name": "齐桓公即位与管仲相齐",
+      "display": "齐桓公即位与管仲相齐",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -685,
+      "yearAccuracy": "exact",
+      "yearNote": "春秋经庄公九年「齊小白入於齊」（前685）；史记齐世家：无知弑襄公（前686）后小白自莒先入，高傒立之为桓公，鲁纳公子纠失败（乾时之战、杀子纠），鲍叔牙荐管仲为相。经传与史记一致。",
+      "polity": [
+        "qi"
+      ],
+      "people": [
+        "jiang-xiaobai",
+        "guan-zhong",
+        "bao-shuya",
+        "gongzi-jiu",
+        "gongsun-wuzhi"
+      ],
+      "aliases": [
+        "小白入齐",
+        "鲍叔牙荐管仲",
+        "齐桓公任管仲"
+      ],
+      "dynasties": [
+        "spring-autumn"
+      ],
+      "desc": "公孙无知弑齐襄公后，流亡莒国的小白抢先入国即位为齐桓公，击败鲁国送公子纠之师，并以射钩之仇不记而用管仲为相。齐桓公—管仲组合开启春秋霸政时代。",
+      "sources": [
+        {
+          "work": "春秋經·莊公（維基文庫）",
+          "part": "莊公九年經",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·齊太公世家",
+          "part": "襄公之乱至桓公立",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "quwo-daiyi",
+      "name": "曲沃代翼",
+      "display": "曲沃代翼",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -678,
+      "yearAccuracy": "exact",
+      "yearNote": "主锚取册命年（按 brief 指示）：左传庄公十六年（前678）「王使虢公命曲沃伯以一軍爲晉侯」，杜注「僖王（周釐王）因就命爲晉侯」；史记晋世家「釐王命曲沃武公爲晉君，列爲諸侯……凡六十七歳，而卒代晉爲諸侯」，自前745封桓叔通算六十七年即前745→前678。灭晋之年两说并陈：据晋世家晋侯缗纪年推算灭晋在前679（维基百科从之），而左传系册命于庄公十六年（前678），灭晋与册命或跨年。晋世家自昭侯至晋侯缗分年有系统性错乱（「曲沃武公已卽位三十七年矣」一句正義卷08疏引作「二十七年」），故本条不采世家分年，跨度与两端皆以「左传系年＋世家总括语凡六十七岁」为准；起点前745锚左传桓公二年传「惠之二十四年晉始亂，故封桓叔于曲沃」（杜注明言晋昭侯元年）。",
+      "polity": [
+        "jin-guo",
+        "zhou"
+      ],
+      "people": [
+        "jin-zhaohou",
+        "ji-chengshi",
+        "quwo-wugong",
+        "jin-hou-min",
+        "ji-hu-qi",
+        "shi-fu"
+      ],
+      "aliases": [
+        "曲沃代晋",
+        "曲沃武公并晋",
+        "周釐王命曲沃武公为晋侯",
+        "小宗代大宗"
+      ],
+      "dynasties": [
+        "spring-autumn"
+      ],
+      "desc": "晋昭侯元年（前745）封叔父成师于曲沃，邑大于都翼，桓叔好德而晋众皆附，师服讥「本大而末小」。前739潘父弑昭侯迎桓叔不克；此后庄伯弑孝侯、武公虏杀哀侯、诱杀小子侯，周室两度命虢人伐曲沃、立晋侯缗而不能止。前679曲沃武公灭晋侯缗，以宝器赂周釐王；前678王使虢公命曲沃伯以一军为晋侯——小宗终代大宗，凡六十七岁。晋由此「无公族」，为日后称霸与三家分晋张本。",
+      "sources": [
+        {
+          "work": "春秋左傳正義 卷04（桓公二年）",
+          "part": "桓公二年傳",
+          "kind": "classic"
+        },
+        {
+          "work": "春秋左氏傳·桓公（維基文庫）",
+          "part": "桓公二年傳",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·晉世家",
+          "part": "昭侯元年",
+          "kind": "classic"
+        },
+        {
+          "work": "春秋左傳正義 卷08（莊公十六年）",
+          "part": "莊公十六年傳",
+          "kind": "classic"
+        },
+        {
+          "work": "春秋左氏傳·莊公（維基文庫）",
+          "part": "莊公十六年、十八年傳",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·晉世家",
+          "part": "晉侯緡／晉武公",
+          "kind": "classic"
+        },
+        {
+          "work": "維基百科：曲沃代翼",
+          "part": "正文",
+          "kind": "modern"
+        }
+      ]
+    },
+    {
+      "id": "zhaoling-zhimeng",
+      "name": "召陵之盟",
+      "display": "召陵之盟",
+      "kind": "point",
+      "type": "diplomatic",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -656,
+      "yearAccuracy": "exact",
+      "yearNote": "《春秋·僖公四年》諸侯侵蔡蔡潰、遂伐楚次於陘，「楚屈完來盟於師，盟於召陵」；《史記·秦本紀》繆公四年「其歲，齊桓公伐楚，至邵陵」。僖公四年＝前656。",
+      "place": "召陵",
+      "placeNow": "今河南省漯河市召陵区（郾城东）",
+      "polity": [
+        "qi",
+        "chu"
+      ],
+      "people": [
+        "jiang-xiaobai",
+        "guan-zhong",
+        "xiong-yun"
+      ],
+      "aliases": [
+        "齐桓公伐楚盟于召陵",
+        "屈完及诸侯盟",
+        "包茅之贡"
+      ],
+      "dynasties": [
+        "spring-autumn"
+      ],
+      "desc": "齐率鲁宋陈卫郑许曹八国之师侵蔡伐楚，次于陉；楚使问「君处北海，寡人处南海」，管仲以「包茅不入，王祭不共」对；齐侯陈诸侯之师，屈完对「楚国方城以为城，汉水以为池」，齐退舍礼楚，与楚盟于召陵。",
+      "sources": [
+        {
+          "work": "春秋左傳正義",
+          "part": "卷11",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷005·秦本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷032·齊太公世家",
+          "kind": "classic"
+        },
+        {
+          "work": "春秋左傳正義 卷11（僖公四年）",
+          "part": "僖公四年經傳",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·齊太公世家",
+          "part": "桓公三十年",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "kuiqiu-zhihui",
+      "name": "葵丘之会",
+      "display": "葵丘之会",
+      "kind": "point",
+      "type": "diplomatic",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -651,
+      "yearAccuracy": "exact",
+      "yearNote": "《春秋·僖公九年》「夏，公會宰周公、齊侯……於葵丘」「九月，戊辰，諸侯盟於葵丘」；《史記·齊太公世家》桓公三十五年（前651）。僖公九年＝前651。",
+      "place": "葵丘",
+      "placeNow": "今河南民权县东北（杜注「陳留外黃縣東」，一说河东汾阴）",
+      "polity": [
+        "qi",
+        "zhou"
+      ],
+      "people": [
+        "jiang-xiaobai",
+        "guan-zhong",
+        "ji-zheng"
+      ],
+      "aliases": [
+        "葵丘之盟",
+        "会诸侯于葵丘",
+        "宰孔赐齐侯胙",
+        "齐桓公霸业顶点"
+      ],
+      "dynasties": [
+        "spring-autumn"
+      ],
+      "desc": "周襄王使宰孔赐齐桓公文武胙、彤弓矢、大路，命无拜，桓公下拜受赐；秋复会，盟辞「凡我同盟之人，既盟之后，言归于好」。齐桓霸业顶点。",
+      "sources": [
+        {
+          "work": "春秋左傳正義",
+          "part": "卷12",
+          "kind": "classic"
+        },
+        {
+          "work": "史記",
+          "part": "卷032·齊太公世家",
+          "kind": "classic"
+        },
+        {
+          "work": "春秋左傳正義 卷12（僖公九年）",
+          "part": "僖公九年傳",
+          "kind": "classic"
+        },
+        {
+          "work": "史記·齊太公世家",
+          "part": "桓公三十五年",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    "rujia-chuancheng"
+  ],
+  "collectionRecords": [
+    {
+      "contractVersion": 1,
+      "id": "rujia-chuancheng",
+      "name": "儒家传承",
+      "category": "thought",
+      "summary": "从孔门授受到宋代儒学，按编辑选取的代表人物观察经典解释与学术脉络；成员顺序不是连续师承谱系。",
+      "tags": [
+        "儒学",
+        "经典"
+      ],
+      "featuredOrder": 1,
+      "memberCount": 5,
+      "featuredMembers": [
+        {
+          "id": "kong-zi",
+          "name": "孔丘",
+          "display": "孔子",
+          "birth": -551,
+          "birthAccuracy": "disputed",
+          "death": -479,
+          "deathAccuracy": "exact",
+          "birthNote": "生年取《史记》前 551 年说",
+          "title": "儒家创始人",
+          "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+          "tags": [
+            "儒家",
+            "六经",
+            "论语"
+          ],
+          "categories": [
+            "scholar-official",
+            "confucian"
+          ],
+          "lane": ""
+        },
+        {
+          "id": "meng-zi",
+          "name": "孟轲",
+          "display": "孟子",
+          "birth": -372,
+          "birthAccuracy": "approx",
+          "death": -289,
+          "deathAccuracy": "approx",
+          "title": "战国儒家，倡性善、仁政",
+          "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
+          "tags": [
+            "性善",
+            "仁政",
+            "亚圣"
+          ],
+          "categories": [
+            "scholar",
+            "confucian"
+          ],
+          "lane": ""
+        },
+        {
+          "id": "zhu-xi",
+          "name": "朱熹",
+          "display": "朱熹",
+          "birth": 1130,
+          "birthAccuracy": "exact",
+          "death": 1200,
+          "deathAccuracy": "exact",
+          "title": "晦庵，集理学之大成",
+          "bio": "婺源人，承二程而集理学大成，主「存天理、灭人欲」，编《四书章句集注》立为科举准的。讲学武夷、白鹿洞，泽被后世。",
+          "tags": [
+            "宋",
+            "南宋"
+          ],
+          "categories": [
+            "neo-confucian",
+            "classics"
+          ],
+          "primary": "neo-confucian",
+          "polity": [
+            "song"
+          ],
+          "gender": "male",
+          "lane": ""
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,216 @@
+{
+  "id": "shenlong-zhibian",
+  "name": "神龙政变",
+  "display": "神龙政变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 705,
+  "yearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "zhang-jian-zhi",
+    "cui-xuanwei",
+    "jing-hui",
+    "huan-yanfan",
+    "yuan-shuji",
+    "wu-zetian",
+    "li-xian"
+  ],
+  "result": "张柬之等逼武则天传位中宗，复国号唐，武周终止",
+  "aliases": [
+    "神龙革命"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "705 年（神龙元年）正月，张柬之、崔玄暐、敬晖、桓彦范、袁恕己等大臣率羽林军入宫，逼武则天传位于太子李显，复国号为唐，武周政权终止；武则天同年崩于上阳宫。政变以逼宫方式完成政权更迭，未经大规模交战。政变后朝政转入中宗、韦后与相王集团的再分配，其后续由唐隆政变接续。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "则天皇后本纪、中宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百七",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-jian-zhi",
+      "name": "张柬之",
+      "display": "张柬之",
+      "birth": 625,
+      "birthAccuracy": "exact",
+      "death": 706,
+      "deathAccuracy": "exact",
+      "title": "宰相，神龙政变主谋，封汉阳郡王",
+      "bio": "襄州襄阳人，字孟将。登进士第，补清源丞。永昌元年以贤良对策擢监察御史，忤武后旨，出为合、蜀二州刺史。狄仁杰荐其有宰相才，长安中召为司刑少卿，拜同平章事。神龙元年与桓彦范、敬晖等诛张昌宗、张易之，复中宗位，擢天官尚书，迁中书令，封汉阳郡王。为武三思所沮，神龙二年卒，年八十二。",
+      "tags": [
+        "唐",
+        "武周"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cui-xuanwei",
+      "name": "崔玄暐",
+      "display": "崔玄暐",
+      "birth": 639,
+      "birthAccuracy": "exact",
+      "death": 706,
+      "deathAccuracy": "exact",
+      "title": "宰相，神龙政变五王之一，封博陵郡王",
+      "bio": "博陵安平人，本名晔，字玄暐，博陵崔氏。举明经，历库部员外郎、天官郎中、凤阁舍人，武周长安中为天官侍郎，拜同平章事。神龙元年与张柬之等诛张昌宗、张易之，复中宗位，封博陵郡王。为武三思所构，神龙二年流放岭外，病卒于道。睿宗即位，追复官爵，谥曰文献。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jing-hui",
+      "name": "敬晖",
+      "display": "敬晖",
+      "birthAccuracy": "unknown",
+      "death": 706,
+      "deathAccuracy": "exact",
+      "title": "宰相，神龙政变五王之一，封平阳郡王",
+      "bio": "字仲晔，绛州太平县（《新唐书》作绛州平阳）人。以明经入仕，累迁卫州刺史、夏官侍郎、洛州长史、御史右丞。圣历元年，突厥入寇，诸州籍民筑城，晖以秋收为重，罢其役。神龙元年与张柬之等诛二张，复中宗位，封平阳郡王，知政事。为武三思所构，神龙二年流放崖州，为使者所杀。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huan-yanfan",
+      "name": "桓彦范",
+      "display": "桓彦范",
+      "birth": 653,
+      "birthAccuracy": "exact",
+      "death": 706,
+      "deathAccuracy": "exact",
+      "title": "宰相，神龙政变五王之一，封扶阳郡王",
+      "bio": "润州曲阿人。以门荫入仕，历御史，官至御史中丞，有断狱之称。神龙元年与张柬之等定谋入宫，诛张昌宗、张易之，复中宗位，封扶阳郡王，知政事。为武三思所构，神龙二年流放岭外，为使者所杀。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-shuji",
+      "name": "袁恕己",
+      "display": "袁恕己",
+      "birthAccuracy": "unknown",
+      "death": 706,
+      "deathAccuracy": "exact",
+      "title": "宰相，神龙政变五王之一，封南阳郡王",
+      "bio": "沧州东光人，汝南袁氏。历司刑少卿，相王府司马。神龙元年与张柬之等诛二张，复中宗位，以功拜中书令，封南阳郡王。为武三思所构，神龙二年流放岭外，为使者所杀。",
+      "tags": [
+        "唐",
+        "神龙政变"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wu-zetian",
+      "name": "武曌",
+      "display": "武则天",
+      "birth": 624,
+      "birthAccuracy": "exact",
+      "death": 705,
+      "deathAccuracy": "exact",
+      "title": "则天大圣皇帝，中国唯一女皇帝",
+      "bio": "并州文水人，武士彟之女，太宗才人，高宗皇后。与上同称二圣，高宗崩后临朝，废中宗、睿宗，天授元年改国号周，自称圣神皇帝。用酷吏而能擢拔人才，狄仁杰、姚崇、宋璟皆出其朝。神龙元年张柬之等反正，是岁崩于上阳宫，年八十二，遗制去帝号，称则天大圣皇后。",
+      "tags": [
+        "唐",
+        "武周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "li-xian",
+      "name": "李显",
+      "display": "唐中宗李显",
+      "birth": 656,
+      "birthAccuracy": "exact",
+      "death": 710,
+      "deathAccuracy": "exact",
+      "title": "高宗嫡子，两度为帝",
+      "bio": "高宗第七子，武后所生。弘道元年嗣位，次年为武后所废；神龙元年张柬之反正，复辟复位，景龙四年被韦后毒弑。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

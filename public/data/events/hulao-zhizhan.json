@@ -1,0 +1,130 @@
+{
+  "id": "hulao-zhizhan",
+  "name": "虎牢之战",
+  "display": "虎牢之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 621,
+  "yearAccuracy": "exact",
+  "place": "虎牢",
+  "placeNow": "今河南荥阳汜水一带",
+  "belligerents": [
+    "tang",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "li-shimin",
+      "side": "tang"
+    },
+    {
+      "id": "dou-jian-de",
+      "side": "minbian"
+    },
+    {
+      "id": "wang-shichong",
+      "side": "minbian"
+    }
+  ],
+  "people": [
+    "li-shimin",
+    "dou-jian-de",
+    "wang-shichong"
+  ],
+  "result": "窦建德被擒，王世充随后降唐，唐取得中原统一的决定性优势",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "621 年，唐军在洛阳与虎牢方向连续作战，李世民于虎牢击败并擒获窦建德，王世充随后向唐投降。此战移除了隋末中原最强的竞争者，打开唐继续统一北方的道路；兵力和伤亡数字因史料差异不写入实体。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "太宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "Cambridge History of China",
+      "part": "隋唐统一战争相关章节",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-shimin",
+      "name": "李世民",
+      "display": "唐太宗李世民",
+      "birth": 598,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "唐太宗，天可汗，贞观之治",
+      "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "dou-jian-de",
+      "name": "窦建德",
+      "display": "窦建德",
+      "birth": 573,
+      "birthAccuracy": "exact",
+      "death": 621,
+      "deathAccuracy": "exact",
+      "title": "夏王，河北义军之主，斩于长安",
+      "bio": "贝州漳南人，世为农，为里长，以侠气闻。大业七年聚众入高鸡泊，渐据河北，自称夏王，都乐寿。不杀士人，所得资财悉分将士，境内劝课农桑，商旅野宿。武德四年虎牢一战，为李世民所擒，斩于长安市，年四十九，河北之人久而不忘。",
+      "tags": [
+        "隋末"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-shichong",
+      "name": "王世充",
+      "display": "王世充",
+      "birthAccuracy": "unknown",
+      "death": 621,
+      "deathAccuracy": "exact",
+      "title": "郑王，据洛阳，降唐而被杀",
+      "bio": "西域胡人，本姓支，父收随母改嫁王氏，因冒其姓。善傅会，通兵法，尤好诡诈。大业末守洛阳，既败李密，遂废越王侗自立，国号郑。武德四年李世民围洛阳，世充降，流于蜀，为仇人所杀于途中。隋末据中原者为三：密、建德、世充。",
+      "tags": [
+        "隋末"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

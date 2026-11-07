@@ -1,0 +1,138 @@
+{
+  "id": "changban-zhizhan",
+  "name": "长坂之战",
+  "display": "长坂之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "engagement",
+  "importance": 1,
+  "year": 208,
+  "yearAccuracy": "exact",
+  "yearNote": "三国志·蜀书·先主传系建安十三年「及于当阳之长坂」，在九月曹操入荆州、刘备南撤之后；公历约208年9至10月。",
+  "place": "长坂（当阳）",
+  "placeNow": "今湖北当阳",
+  "belligerents": [
+    "wei",
+    "shu"
+  ],
+  "commanders": [
+    {
+      "id": "liu-bei",
+      "side": "shu"
+    },
+    {
+      "id": "zhang-fei",
+      "side": "shu"
+    },
+    {
+      "id": "zhao-yun",
+      "side": "shu"
+    }
+  ],
+  "people": [
+    "liu-bei",
+    "zhao-yun",
+    "zhang-fei"
+  ],
+  "result": "曹操五千精骑一日一夜三百里追及刘备，备弃妻子与数十骑走；张飞二十骑据水断桥拒后，赵云保甘夫人刘禅得免",
+  "aliases": [
+    "长坂坡",
+    "当阳之败"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "208 年九月曹操以五千精骑一日一夜三百余里，追及南撤的刘备于当阳长坂。刘备弃妻子，与诸葛亮、张飞、赵云等数十骑走；张飞二十骑据水断桥拒后，赵云身护甘夫人、刘禅得免，备趋汉津会关羽船，走夏口。此为曹操南征中的一次精骑追击遭遇战，规模小而刘备用存亡系之，是赤壁之战的前哨。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·先主传",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "蜀书·关张马黄赵传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-bei",
+      "name": "刘备",
+      "display": "汉昭烈帝刘备",
+      "birth": 161,
+      "birthAccuracy": "exact",
+      "death": 223,
+      "deathAccuracy": "exact",
+      "title": "蜀汉先主，织席贩履而起",
+      "bio": "涿郡涿人，中山靖王之后，少孤，与母贩履织席。起兵讨黄巾，历依公孙瓒、陶谦、曹操、袁绍、刘表，赤壁后据荆州，西取益州，遂有汉中。章武元年称帝，三年败于猇亭，崩于白帝城永安宫，年六十三。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-yun",
+      "name": "赵云",
+      "display": "赵云",
+      "birthAccuracy": "unknown",
+      "death": 229,
+      "deathAccuracy": "exact",
+      "title": "五虎上将，长坂坡单骑救主",
+      "bio": "常山真定人，字子龙。初从公孙瓒，后归刘备，患难相随。长坂坡于乱军中怀抱幼主刘禅，出入重围，血染征袍；赤壁后随刘备取荆益，定益州。汉水之战设空营计，大破曹军，刘备叹「子龙一身都是胆也」。建兴七年卒，谥顺平侯。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-fei",
+      "name": "张飞",
+      "display": "张飞",
+      "birthAccuracy": "unknown",
+      "death": 221,
+      "deathAccuracy": "exact",
+      "title": "车骑将军，当阳据水断桥",
+      "bio": "涿郡人，与关羽俱事先主，年齿相若而兄事之。当阳长坂将二十骑拒后，据水断桥，敌不敢近。入蜀破江州，义释严颜。善待君子而不恤小人，章武元年将兵伐吴，为帐下将张达、范彊所杀。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

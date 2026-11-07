@@ -1,0 +1,87 @@
+{
+  "id": "xiao-he",
+  "name": "萧何",
+  "display": "萧何",
+  "birthAccuracy": "unknown",
+  "death": -193,
+  "deathAccuracy": "exact",
+  "title": "汉相国，守关中，定律令",
+  "bio": "沛人，为高祖主吏。入咸阳独收律令图书，楚汉间镇关中给粮补兵。追韩信、定《九章律》。位最高而自污以免疑，卒于前 193 年。汉的制度线从他这条起。",
+  "tags": [
+    "汉初",
+    "丞相",
+    "制度"
+  ],
+  "categories": [
+    "general",
+    "chancellor"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "萧何主关中、镇后方，汉之丞相第一",
+        "沛县起兵即相从，镇国家抚百姓，功第一"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "cao-can",
+      "target": "xiao-he",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "萧规曹随，相继为相",
+        "萧规曹随，继为相国，举事无所变更"
+      ],
+      "topicIds": [
+        "qin",
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "lvhou-sha-hanxin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "萧何",
+    "萧相国"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "萧相国世家",
+      "kind": "classic"
+    }
+  ]
+}

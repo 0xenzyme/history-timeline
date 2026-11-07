@@ -1,0 +1,136 @@
+{
+  "id": "shizong-zheng-nantang",
+  "name": "周世宗三征南唐",
+  "display": "世宗征南唐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 955,
+  "yearAccuracy": "exact",
+  "yearNote": "起显德二年（955）十一月始伐淮南，止显德五年（958）春李璟献江北之地、去帝号。淮上之役首尾三年，历四次用师。",
+  "endYear": 958,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "hou-zhou",
+    "nantang"
+  ],
+  "people": [
+    "chai-rong",
+    "li-jing-916",
+    "zhao-kuangyin"
+  ],
+  "result": "周师三驾淮上，寿州降、紫金山丧师，南唐去帝号称国主，尽献江北十四州。",
+  "aliases": [
+    "wudai-958",
+    "周世宗征淮南",
+    "淮南之役"
+  ],
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "显德二年十一月，周世宗行先南后北之略，以李谷督军攻寿州，始伐淮南。三年，世宗亲征再驾，赵匡胤以奇兵取滁州、清流关。刘仁赡守寿州，周岁不能下。四年，世宗三驾，破紫金山，刘仁赡以州降。五年春，南唐奉表，去帝号，称国主，奉周正朔，尽献寿、庐、濠、楚、和、滁、扬、泰、泗、海、光、黄、舒、蕲十四州。周得淮南之饶，国用以富；南唐江淮尽失，不敢复言问北。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后周纪·显德二年、五年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "世宗本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "南唐",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "shouzhou-zhizhan",
+    "zijinshan-zhizhan"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "chai-rong",
+      "name": "柴荣",
+      "display": "周世宗",
+      "birth": 921,
+      "birthAccuracy": "exact",
+      "death": 959,
+      "deathAccuracy": "exact",
+      "title": "周世宗，以十年开拓天下",
+      "bio": "邢州龙冈人，姑婿郭威无子，以为后，初名郭荣。显德元年即位，高平亲犯矢石破北汉。自期\"以十年开拓天下，十年养百姓，十年致太平\"：疏汴渠、均田赋、简练禁军；三征南唐取淮南十四州，北征四十日下燕南三关三州。六年病殂，年三十九，宋太祖受其成。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-jing-916",
+      "name": "李璟",
+      "display": "南唐元宗",
+      "birth": 916,
+      "birthAccuracy": "exact",
+      "death": 961,
+      "deathAccuracy": "exact",
+      "title": "南唐中主，失淮南，徙洪京",
+      "bio": "初名景通，烈祖长子。升元七年即位，改璟。乘闽楚之乱拓地数千里，旋复尽失；显德中周世宗三征淮南，紫金山一战丧师，尽献江北十四州，去帝号称国主，岁奉金帛巨万。内不能用韩熙载、林仁肇之谋，郁郁徙都洪州，交泰元年殂。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "monarch",
+        "literature"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

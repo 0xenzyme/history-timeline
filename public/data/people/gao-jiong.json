@@ -1,0 +1,89 @@
+{
+  "id": "gao-jiong",
+  "name": "高颎",
+  "display": "高颎",
+  "birth": 541,
+  "birthAccuracy": "exact",
+  "death": 607,
+  "deathAccuracy": "exact",
+  "title": "尚书左仆射，开皇之政出于其手",
+  "bio": "渤海蓨人，自云渤海高氏之后。隋文受禅，即拜尚书左仆射，明习吏事，荐苏威、杨素、贺若弼、韩擒虎，平陈之策、输籍之法、府兵之改，皆其谋。独孤后与杨素言其不可信，遂坐免。大业三年以谤讪朝政被诛，年六十七，天下冤之。",
+  "tags": [
+    "隋",
+    "制度"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "gao-jiong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高颎为隋首席谋臣，定制度、平陈方略"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yang-guang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "炀帝忌而诛高颎"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "gao-jiong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "后讽文帝黜高颎"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "kaihuang-lv",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "高颎",
+    "高昭玄"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "高颎传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "liu-bingzhong",
+  "name": "刘秉忠",
+  "display": "刘秉忠",
+  "birth": 1216,
+  "birthAccuracy": "exact",
+  "death": 1274,
+  "deathAccuracy": "exact",
+  "title": "忽必烈谋主，设计大都",
+  "bio": "邢州人，出家为僧而学兼儒释，忽必烈召置幕府。建国号、定官制、筑大都、制朝仪，一代典章多出其手。",
+  "tags": [
+    "元",
+    "汉法"
+  ],
+  "categories": [
+    "chancellor",
+    "strategist",
+    "buddhism"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "liu-bingzhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "潜邸谋主，建国号、筑大都皆出其画"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-bingzhong",
+      "target": "yao-shu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同出忽必烈幕府，共倡汉法"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-bingzhong",
+      "target": "zhang-wenqian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同乡同业，并起于邢州幕府"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dayuan-jianguo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "刘秉忠传",
+      "kind": "classic"
+    }
+  ]
+}

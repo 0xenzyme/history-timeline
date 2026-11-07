@@ -1,0 +1,47 @@
+{
+  "id": "wen-xiang",
+  "name": "文祥",
+  "display": "文祥",
+  "birthAccuracy": "unknown",
+  "death": 1876,
+  "deathAccuracy": "exact",
+  "deathNote": "清史稿·卷386·文祥传：光绪二年上自强密疏，\"疏上，未几卒\"，年号承上文系光绪二年；卷177·军机大臣年表：光绪二年丙子条 文祥（五月甲午卒），谥文忠。体仁阁大学士、军机大臣，总理衙门创设者之一。",
+  "categories": [
+    "chancellor"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "zongliyamen-sheli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷386·文祥传",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷177·军机大臣年表",
+      "kind": "classic"
+    }
+  ]
+}

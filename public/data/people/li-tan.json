@@ -1,0 +1,87 @@
+{
+  "id": "li-tan",
+  "name": "李璮",
+  "display": "李璮",
+  "birthAccuracy": "unknown",
+  "death": 1262,
+  "deathAccuracy": "exact",
+  "title": "益都行省，济南之叛",
+  "bio": "潍州人，据益都为山东世侯。1262 年乘忽必烈与阿里不哥争位，以涟海诸城来归南宋而据济南；城破被擒，斩于军前，汉人世侯之兵权自此裁削。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "primary": "warlord",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-tan",
+      "target": "wang-wentong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "坐尝以姻书相通，1262 年与李璮同诛"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "hu-bi-lie",
+      "target": "li-tan",
+      "type": "rival",
+      "directed": false,
+      "since": 1262,
+      "notes": [
+        "据济南而反，城破被擒"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "li-tan",
+      "target": "shi-tianze",
+      "type": "rival",
+      "directed": false,
+      "since": 1262,
+      "notes": [
+        "璮叛之后，首请以子弟兵权还朝廷"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "litan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "叛臣传",
+      "kind": "classic"
+    }
+  ]
+}

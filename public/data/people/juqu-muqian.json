@@ -1,0 +1,72 @@
+{
+  "id": "juqu-muqian",
+  "name": "沮渠牧犍",
+  "display": "河西王沮渠牧犍",
+  "birthAccuracy": "unknown",
+  "death": 447,
+  "deathAccuracy": "exact",
+  "deathNote": "传文先书真君八年搜其家，至此赐昭仪死，是年赐牧犍死。",
+  "title": "北凉末主，真君八年赐死",
+  "bio": "蒙逊死后继为河西王。太武平凉后仍待以妹婿。真君八年有人告他与故臣民交通，崔浩奉诏在公主第赐死。",
+  "tags": [
+    "南北朝",
+    "北凉"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "juqu-muqian",
+      "target": "tuoba-tao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太武平凉后，真君八年诏崔浩于公主第赐牧犍死"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beiwei-mie-beiliang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "beiwei-tongyi-beifang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "沮渠牧犍",
+    "河西王"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "沮渠蒙逊传",
+      "kind": "classic"
+    }
+  ]
+}

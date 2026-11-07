@@ -1,0 +1,109 @@
+{
+  "id": "xuan-tong",
+  "name": "溥仪",
+  "display": "宣统",
+  "birth": 1906,
+  "birthAccuracy": "exact",
+  "death": 1967,
+  "deathAccuracy": "exact",
+  "title": "末代皇帝",
+  "bio": "醇亲王载沣之子，三岁即位，为清亡国之君；1912 年退位，两千年帝制终。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xuan-tong",
+      "target": "yuan-shikai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "逼清帝退位，终结帝制"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "guang-xu",
+      "target": "xuan-tong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，光绪无嗣，摄政王载沣子溥仪继位为宣统"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "long-yu",
+      "target": "xuan-tong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣统即位，隆裕以太后听政而颁逊位之诏"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "xuan-tong",
+      "target": "zai-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "溥仪生父；1908 年幼子入承大统，载沣以监国摄政王掌实际君权"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qingdi-tuiwei",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhang-xun-fubi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "溥仪",
+    "宣统",
+    "清逊帝"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "宣统皇帝本纪",
+      "kind": "classic"
+    }
+  ]
+}

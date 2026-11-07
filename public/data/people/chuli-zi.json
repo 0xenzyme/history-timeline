@@ -1,0 +1,77 @@
+{
+  "id": "chuli-zi",
+  "name": "樗里子",
+  "display": "樗里子",
+  "birthAccuracy": "unknown",
+  "death": -300,
+  "deathAccuracy": "exact",
+  "deathNote": "樗里子甘茂列传：樗里子至昭王世为政；卒年由纪年系于前300年（昭王七年）。",
+  "title": "秦公子，惠王庶弟",
+  "bio": "秦惠王庶弟，里中语曰\"力则任鄙，智则樗里\"。历惠文、武、昭三世，以滑稽多智自全于严疾、甘茂之间。前300年卒——秦宫廷智囊一格的公子，与宣太后、穰侯的外戚故事接壤。",
+  "tags": [
+    "秦国"
+  ],
+  "categories": [
+    "minister",
+    "strategist"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chuli-zi",
+      "target": "ying-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠王庶弟，里中语曰力则任鄙、智则樗里"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chuli-zi",
+      "target": "ying-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "历惠文、武、昭三世以智自全；昭王七年卒，自为兆域"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hanguguan-zhizhan-318",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "樗里疾",
+    "里疾"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "樗里子甘茂列传",
+      "kind": "classic"
+    }
+  ]
+}

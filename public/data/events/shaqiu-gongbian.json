@@ -1,0 +1,63 @@
+{
+  "id": "shaqiu-gongbian",
+  "name": "沙丘宫变",
+  "display": "沙丘宫变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -295,
+  "yearAccuracy": "exact",
+  "yearNote": "赵惠文王四年（前295）公子章与田不礼作乱，公子成、李兑围主父宫三月余，赵武灵王饿死沙丘宫（《史记·赵世家》）。",
+  "polity": [
+    "zhao"
+  ],
+  "people": [
+    "zhao-yong"
+  ],
+  "aliases": [
+    "赵武灵王饿死沙丘",
+    "公子章之乱"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "赵武灵王传位于少子惠文王后自称主父，前295年公子章与田不礼作乱于沙丘，公子成、李兑围主父宫三月余，一代雄主饿死宫中。赵国上升势头就此顿挫。",
+  "sources": [
+    {
+      "work": "史记",
+      "part": "卷四十三·赵世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-yong",
+      "name": "赵雍",
+      "display": "赵武灵王",
+      "birthAccuracy": "unknown",
+      "death": -295,
+      "deathAccuracy": "exact",
+      "title": "赵王，胡服骑射",
+      "bio": "胡服骑射，北破林胡、楼烦。传位惠文王，沙丘宫被围饿死。改革发生在条的中段，死亡在自己让出的王位之后。",
+      "tags": [
+        "赵国",
+        "胡服骑射"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

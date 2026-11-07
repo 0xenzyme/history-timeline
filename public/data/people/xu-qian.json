@@ -1,0 +1,55 @@
+{
+  "id": "xu-qian",
+  "name": "许谦",
+  "display": "许谦",
+  "birth": 1270,
+  "birthAccuracy": "exact",
+  "death": 1337,
+  "deathAccuracy": "exact",
+  "title": "白云先生",
+  "bio": "字益之，号白云，婺州金华人。受学于金履祥，讲学乡里四十余年不出仕，朱学在浙东赖其传；1337 年卒，年六十八。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "scholar",
+    "neo-confucian"
+  ],
+  "primary": "scholar",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wu-cheng",
+      "target": "xu-qian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并为朱学传人，一居江右一居浙东"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "许谦传",
+      "kind": "classic"
+    }
+  ]
+}

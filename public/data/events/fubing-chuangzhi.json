@@ -1,0 +1,73 @@
+{
+  "id": "fubing-chuangzhi",
+  "name": "府兵制创立",
+  "display": "府兵制创立",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 550,
+  "yearAccuracy": "approx",
+  "yearNote": "府兵制成型于西魏大统年间；《周书》本纪未系“初置府兵”确切年月，学界通行以大统十六年（550）前后八柱国十二大将军体系定型为标志。",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "yuwen-tai"
+  ],
+  "result": "兵农合一的军制定型，直通隋唐三百年兵制",
+  "aliases": [
+    "府兵制",
+    "八柱国十二大将军"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "西魏大统年间宇文泰整顿军制，仿周官六军之意置八柱国、十二大将军、二十四开府，鲜卑部落兵与关陇豪右乡兵渐次合一，遂成府兵之制。府兵“寓兵于农”、将不专兵，北周承之，隋唐因袭，影响此后三百年兵制格局。",
+  "sources": [
+    {
+      "work": "周书",
+      "part": "文帝纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "维基百科：府兵制",
+      "kind": "database"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yuwen-tai",
+      "name": "宇文泰",
+      "display": "宇文泰",
+      "birth": 507,
+      "birthAccuracy": "exact",
+      "death": 556,
+      "deathAccuracy": "exact",
+      "title": "西魏权臣，府兵之制，北周之基",
+      "bio": "代武川鲜卑人，随父肱徙武川。从贺拔岳入关，岳死，遂统其众，奉孝武帝西迁长安，是为西魏。用苏绰定官制、行均田，创府兵之制，置八柱国十二大将军，关陇集团由此成形。大统十七年北巡至牵屯山而疾，卒于云阳，年五十，子觉篡魏建周。",
+      "tags": [
+        "北朝",
+        "西魏",
+        "北周之基"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,103 @@
+{
+  "id": "shizong-beifa",
+  "name": "周世宗北伐",
+  "display": "世宗北伐",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 959,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系显德六年四月至五月，取三关，莫、瀛、易三州降；谋取幽州，世宗不豫而还。公历959。",
+  "place": "瓦桥关",
+  "placeNow": "今河北雄县",
+  "belligerents": [
+    "hou-zhou",
+    "liao"
+  ],
+  "commanders": [
+    {
+      "id": "chai-rong",
+      "side": "hou-zhou"
+    }
+  ],
+  "people": [
+    "zhao-kuangyin"
+  ],
+  "result": "三关入周，莫、瀛、易三州降；世宗病，谋取幽州不果。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "显德六年四月，周世宗大举北伐，趋沧州。辽益津关守将终廷晖以城降，瓦桥关、淤口关相继而下，莫、瀛、易三州闻风请命，关南之地尽入于周。世宗议乘胜取幽州，猝遇疾，班师。六月，帝崩于汴，年三十九。关南之役为世宗一生之极，幽燕未复，赍志而殁；是岁冬，陈桥兵变，周祚移于宋。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后周纪·显德六年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "世宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chai-rong",
+      "name": "柴荣",
+      "display": "周世宗",
+      "birth": 921,
+      "birthAccuracy": "exact",
+      "death": 959,
+      "deathAccuracy": "exact",
+      "title": "周世宗，以十年开拓天下",
+      "bio": "邢州龙冈人，姑婿郭威无子，以为后，初名郭荣。显德元年即位，高平亲犯矢石破北汉。自期\"以十年开拓天下，十年养百姓，十年致太平\"：疏汴渠、均田赋、简练禁军；三征南唐取淮南十四州，北征四十日下燕南三关三州。六年病殂，年三十九，宋太祖受其成。",
+      "tags": [
+        "五代",
+        "后周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

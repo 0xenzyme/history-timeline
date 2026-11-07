@@ -1,0 +1,68 @@
+{
+  "id": "murong-hui",
+  "name": "慕容廆",
+  "display": "慕容廆",
+  "birth": 269,
+  "birthAccuracy": "approx",
+  "death": 333,
+  "deathAccuracy": "exact",
+  "birthNote": "咸和八年（333）卒，年六十五，虚岁上推生年。",
+  "title": "前燕之基，辽东公崛起于永嘉丧乱",
+  "bio": "昌黎棘城鲜卑人，慕容涉归之子。永嘉之乱中抚纳流亡，劝课农桑，立郡学，东北诸部及汉士人多归之。受晋平州牧、车骑将军、辽东公之封，用汉士裴嶷、阳骛等，削平宇文、段部之患。咸和八年卒，年六十五，孙俊僭号后追谥武宣皇帝。慕容氏三燕之业自此起。",
+  "tags": [
+    "十六国",
+    "前燕",
+    "慕容"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "murong-huang",
+      "target": "murong-hui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。廆奠辽东之基，皝称燕王"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "慕容廆",
+    "慕容弈洛瓌"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "慕容廆载记",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "成帝纪",
+      "kind": "classic"
+    }
+  ]
+}

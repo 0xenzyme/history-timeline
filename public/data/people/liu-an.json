@@ -1,0 +1,74 @@
+{
+  "id": "liu-an",
+  "name": "刘安",
+  "display": "淮南王刘安",
+  "birthAccuracy": "unknown",
+  "death": -122,
+  "deathAccuracy": "exact",
+  "title": "淮南王，招宾客撰淮南子",
+  "bio": "淮南厉王长之子，袭封淮南王，招致宾客方术之士数千人，撰《淮南子》。元狩元年谋反事泄，公卿请诛，朝廷未及治罪，安自刑杀，国除为九江郡。",
+  "tags": [
+    "淮南子",
+    "谋反"
+  ],
+  "categories": [
+    "royal-kin",
+    "vassal"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-an",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "淮南谋反事泄，自刑杀，国除"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-an",
+      "target": "liu-ci",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟；淮南王安之弟，徙衡山王，与安通谋反，事泄自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "淮南王"
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "淮南衡山济北王传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

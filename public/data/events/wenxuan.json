@@ -1,0 +1,71 @@
+{
+  "id": "wenxuan",
+  "name": "文选编成",
+  "display": "文选",
+  "kind": "point",
+  "type": "cultural",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 526,
+  "yearAccuracy": "approx",
+  "yearNote": "编成无确切纪年，通说在普通年间至中大通三年（531 萧统卒）之间，取约 526。",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "xiao-tong"
+  ],
+  "result": "成为此后千年文章教育与科举文学的选本标准",
+  "aliases": [
+    "昭明文选"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "昭明太子萧统集东宫文士编《文选》三十卷，上起周秦、下讫当代，选录诗文辞赋之精者分体列目。隋唐以降科举取士，士人必读《文选》，“文选学”由此而生，千余年间为文章教育的最高范本。",
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "昭明太子传",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "经籍志",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xiao-tong",
+      "name": "萧统",
+      "display": "昭明太子萧统",
+      "birth": 501,
+      "birthAccuracy": "exact",
+      "death": 531,
+      "deathAccuracy": "exact",
+      "title": "昭明太子，编《文选》三十卷",
+      "bio": "萧衍长子，生而聪睿，三岁受《孝经》《论语》，五岁遍读五经。性宽和，好文学，引纳刘孝绰、刘勰等，集古来诗文为《文选》三十卷，为现存最早的诗文总集。中大通三年以蜡鹅厌祷事父子有嫌，寻薨于东宫，年三十一，谥昭明。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "royal-kin",
+        "literature"
+      ],
+      "primary": "literature",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

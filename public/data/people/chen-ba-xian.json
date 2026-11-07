@@ -1,0 +1,116 @@
+{
+  "id": "chen-ba-xian",
+  "name": "陈霸先",
+  "display": "陈武帝陈霸先",
+  "birth": 503,
+  "birthAccuracy": "exact",
+  "death": 559,
+  "deathAccuracy": "exact",
+  "title": "代梁建陈，平侯景而定江左",
+  "bio": "吴兴长城下若里人，初为里司、油库吏，以军功起家。侯景之乱，自始兴起兵赴援，与王僧辩共平建康。承圣四年袭杀僧辩，立敬帝，太平二年受禅，国号陈。在位三年崩，年五十七，南朝最后一个开国之君，江左之地日蹙。",
+  "tags": [
+    "南朝",
+    "南陈"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "nan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "nan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-shubao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙，霸先开陈、后主亡国"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-qian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "永定三年霸先崩，遗诏征蒨入纂"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "zhang-yaoer",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "霸先聘为皇后。光大二年她黜废帝、立高宗"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "chen-ba-xian",
+      "target": "chen-qian-wendi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "永定三年霸先崩，遗诏征蒨入纂"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chen-ba-xian-dai-liang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "houjing-zhi-luan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wang-sengbian-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "陈霸先",
+    "陈兴国",
+    "陈武帝"
+  ],
+  "sources": [
+    {
+      "work": "陈书",
+      "part": "高祖纪",
+      "kind": "classic"
+    }
+  ]
+}

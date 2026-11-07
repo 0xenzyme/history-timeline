@@ -1,0 +1,79 @@
+{
+  "id": "han-shantong",
+  "name": "韩山童",
+  "display": "韩山童",
+  "birthAccuracy": "unknown",
+  "death": 1351,
+  "deathAccuracy": "exact",
+  "title": "白莲教首，红巾所自出",
+  "bio": "栾城人，倡白莲会，言天下当大乱、弥勒下生。1351 年集众于颍上将举事，事泄被杀；部属刘福通遂奉其子林儿举红巾。",
+  "tags": [
+    "元",
+    "红巾"
+  ],
+  "categories": [
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-futong",
+      "target": "han-shantong",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "奉山童为主，山童事泄被杀后独举红巾"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "han-liner",
+      "target": "han-shantong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，山童死后林儿被奉为宋主"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hongjin-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanmo-qunxiong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "韩林儿传",
+      "kind": "classic"
+    }
+  ]
+}

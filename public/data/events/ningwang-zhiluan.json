@@ -1,0 +1,118 @@
+{
+  "id": "ningwang-zhiluan",
+  "name": "宁王之乱",
+  "display": "宁王之乱",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 1519,
+  "yearAccuracy": "exact",
+  "yearNote": "正德十四年六月丙子起兵，七月丁巳樵舍被擒。",
+  "place": "樵舍",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "zhu-chenhao",
+    "wang-shouren",
+    "zhu-houzhao"
+  ],
+  "result": "宸濠被擒，十二月伏诛",
+  "aliases": [
+    "宸濠之乱"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "正德十四年六月丙子，宁王宸濠反。七月丁巳，王守仁败宸濠于樵舍，擒之。十二月宸濠伏诛。宗藩起兵夺位没有成功。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷十六",
+      "note": "正德十四年六月丙子宁王宸濠反，七月丁巳王守仁败之于樵舍，擒之，十二月伏诛",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-chenhao",
+      "name": "朱宸濠",
+      "display": "宁王朱宸濠",
+      "birthAccuracy": "unknown",
+      "death": 1521,
+      "deathAccuracy": "exact",
+      "title": "袭宁王而举兵",
+      "bio": "宁王一系，正德间袭封南昌。畜死士、结宸贵，1519 年举兵略九江、攻安庆，四十三日为王守仁所擒，次年被诛。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "royal-kin",
+        "rebel"
+      ],
+      "primary": "royal-kin",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-shouren",
+      "name": "王守仁",
+      "display": "王阳明",
+      "birth": 1472,
+      "birthAccuracy": "exact",
+      "death": 1529,
+      "deathAccuracy": "exact",
+      "title": "心学集大成者",
+      "bio": "余姚人，龙场悟道，倡「致良知」「知行合一」。平宁王宸濠之乱，事功与学术并峙，世称阳明先生。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "official",
+        "minister",
+        "neo-confucian",
+        "general"
+      ],
+      "primary": "neo-confucian",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-houzhao",
+      "name": "朱厚照",
+      "display": "明武宗朱厚照",
+      "birth": 1491,
+      "birthAccuracy": "exact",
+      "death": 1521,
+      "deathAccuracy": "exact",
+      "title": "豹房荒嬉，应州御虏",
+      "bio": "孝宗独子，正德即位。建豹房、好微行，宠钱宁、江彬；亲征应州败蒙古，南巡落水病崩，无嗣。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,235 @@
+{
+  "id": "kang-xi",
+  "name": "玄烨",
+  "display": "康熙",
+  "birth": 1654,
+  "birthAccuracy": "exact",
+  "death": 1722,
+  "deathAccuracy": "exact",
+  "title": "康乾盛世之始",
+  "bio": "顺治第三子，少年擒鳌拜、平三藩、收台湾、征噶尔丹，在位最久，开盛世之局。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ao-bai",
+      "target": "kang-xi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "少年即位，智擒鳌拜亲政"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "shi-lang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命施琅统水师收台湾"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "wu-sangui",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "三藩之乱，康熙平之"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "xiao-zhuang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "圣祖即位，尊为太皇太后"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "zheng-chenggong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "据台湾。圣祖即位之年病卒，后由其孙克塽降"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "shang-kexi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平南亲王。三藩乱中病卒，子之信已先叛"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "geng-jing-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "袭靖南王而镇闽，康熙十二年反，十五年降"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "zheng-chenggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "据台湾而奉明朔，清廷屡招不应"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "yun-reng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "密建储位立为皇太子，两立两废"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "li-guangdi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "翰林出身久任直省，入值南书房参密谋"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "ma-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "康熙朝入相，历康雍乾三朝元老"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "duolun-huimeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "gaerdan-zhanzheng",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "nibuchu-heyue",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "sanfan-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "taiwan-pingding",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wenziyu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yaksa-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yongbu-jiafu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhaomoduo-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "玄烨",
+    "清圣祖",
+    "康熙"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "圣祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

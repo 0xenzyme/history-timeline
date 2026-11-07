@@ -1,0 +1,81 @@
+{
+  "id": "dingchuanzhai-zhizhan",
+  "name": "定川寨之战",
+  "display": "定川寨之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 1042,
+  "yearAccuracy": "exact",
+  "yearNote": "本纪放在庆历二年九月之后、十月之前的闰月，即闰九月。闰九月初一为 1042-10-17，全月在 1042。",
+  "place": "定川寨",
+  "belligerents": [
+    "song",
+    "xixia"
+  ],
+  "people": [
+    "li-yuanhao"
+  ],
+  "result": "葛怀敏战死，元昊大掠渭州。",
+  "parent": "qingli-songxia-zhanzheng",
+  "aliases": [
+    "定川砦之战"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "庆历二年闰九月，元昊寇定川寨，葛怀敏战死，元昊大掠渭州。宋军再度大败，战后转向求和。这是庆历宋夏战争的最后一场决定性失败。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十一",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷四十四",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷四百八十五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-yuanhao",
+      "name": "李元昊",
+      "display": "李元昊",
+      "birth": 1003,
+      "birthAccuracy": "exact",
+      "death": 1048,
+      "deathAccuracy": "exact",
+      "title": "称帝建夏、三川口好水川之祸源",
+      "bio": "德明之子，继立后去唐宋赐姓，创蕃书，定官制。宝元元年称帝，国号夏；三川口、好水川、定川寨三败宋军，庆历和议成，宋岁赐银绢。后被太子宁令哥所弑。",
+      "tags": [
+        "西夏"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "xixia"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

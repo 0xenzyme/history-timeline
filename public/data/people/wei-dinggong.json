@@ -1,0 +1,37 @@
+{
+  "id": "wei-dinggong",
+  "name": "姬臧",
+  "display": "卫定公",
+  "birthAccuracy": "unknown",
+  "death": -577,
+  "deathAccuracy": "exact",
+  "deathNote": "春秋经·成公十四年「冬，十月，衞定公卒」（前577）；史记·卫康叔世家「定公十二年卒，子獻公衎立」。",
+  "polity": [
+    "wei-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "成公十四年",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卫康叔世家",
+      "kind": "classic"
+    }
+  ]
+}

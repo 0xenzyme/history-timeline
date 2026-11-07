@@ -1,0 +1,84 @@
+{
+  "id": "murong-chui",
+  "name": "慕容垂",
+  "display": "慕容垂",
+  "birth": 326,
+  "birthAccuracy": "exact",
+  "death": 396,
+  "deathAccuracy": "exact",
+  "title": "后燕之主，枋头却桓温，复国而卒于军",
+  "bio": "昌黎棘城鲜卑人，前燕慕容皝第五子。枋头之战大败桓温，威名振于南北。为慕容评所忌，奔秦依苻坚；淝水败后复国，称燕王于中山。建兴十年伐魏，过参合陂见积骸如山，惭愤呕血，卒于上谷，年七十一。后燕随之一蹶不振。",
+  "tags": [
+    "十六国",
+    "后燕",
+    "慕容"
+  ],
+  "categories": [
+    "monarch",
+    "outsider",
+    "general",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "shiliuguo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "shiliuguo"
+    }
+  ],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "murong-chui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "用慕容垂，淝水后垂叛建后燕"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huanwen-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "murongchui-jian-houyan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiexuan-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "慕容垂",
+    "慕容道明"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "慕容垂载记",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "tian-fa",
+  "name": "田法",
+  "display": "齐襄王",
+  "birthAccuracy": "unknown",
+  "death": -265,
+  "deathAccuracy": "exact",
+  "deathNote": "田敬仲完世家、年表：襄王法即位后前265年卒。襄、湣之际传系年数后世异说甚多，此从史记本系。",
+  "title": "破齐之后的存国君",
+  "bio": "乐毅破齐、湣王死，莒、即墨独存——立的是这位襄王。齐守四十余年不复战，君王后制于内。前265年卒，其后王建不战降秦。",
+  "tags": [
+    "齐国",
+    "复国"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tian-di",
+      "target": "tian-fa",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "湣王死于莒，襄王法立于难际"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "junwanghou",
+      "target": "tian-fa",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "君王后者，襄王之后也；内制齐政四十余年，谨事秦、与诸侯信"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "襄王（齐）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "田敬仲完世家",
+      "kind": "classic"
+    }
+  ]
+}

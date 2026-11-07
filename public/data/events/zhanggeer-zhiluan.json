@@ -1,0 +1,119 @@
+{
+  "id": "zhanggeer-zhiluan",
+  "name": "张格尔之乱",
+  "display": "张格尔之乱",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": 1820,
+  "yearAccuracy": "exact",
+  "yearNote": "嘉庆二十五年张格尔犯卡，道光六年喀什噶尔等四城陷，七年获之于喀铁盖山，八年槛送入京。《清宣宗实录》系之。",
+  "endYear": 1828,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "qing",
+    "huibu"
+  ],
+  "commanders": [
+    {
+      "id": "chang-ling",
+      "side": "qing"
+    },
+    {
+      "id": "yang-yu-chun",
+      "side": "qing"
+    }
+  ],
+  "people": [
+    "chang-ling",
+    "yang-yu-chun",
+    "dao-guang"
+  ],
+  "result": "张格尔就擒，回疆四城复，清重定西陲兵备",
+  "aliases": [
+    "张格尔叛乱"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "张格尔，大和卓木布拉敦之孙也。乾隆中平定回部，大、小二和卓授首，其子孙流入浩罕，阴图报复。嘉庆二十五年四月，张格尔犯卡，参赞大臣斌静在喀什噶尔以酒色废事，回民苦之，多起而应之。道光六年，喀什噶尔、英吉沙尔、叶尔羌、和阗四城相继陷。宣宗以长龄为扬威将军，杨遇春、武隆阿为参赞，集数万众讨之。七年春，清军复喀什噶尔；张格尔遁入布鲁特，其众离心。十二月，杨芳设伏于喀铁盖山，擒之。八年五月，槛送入京，上御午门受俘，磔于市。回疆之扰，自乾隆平定以来未之或烈；清自是汰戍兵、严边防，而浩罕以边禁转严，其后亦为清所钤制。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "宣宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "chang-ling",
+      "name": "长龄",
+      "display": "长龄",
+      "birth": 1758,
+      "birthAccuracy": "approx",
+      "death": 1838,
+      "deathAccuracy": "exact",
+      "birthNote": "清史稿·卷367·长龄传：道光十七年（1837）「以八十寿」晋一等公，据虚岁八十上推约生于1758年。",
+      "deathNote": "清史稿·卷367·长龄传：道光十七年（1837）以病乞休、以八十寿晋一等公爵，「次年，卒」，即道光十八年（1838），谥文襄。卒年系由传文「道光十七年」下文「次年」回溯得出，待复核。",
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-yu-chun",
+      "name": "杨遇春",
+      "display": "杨遇春",
+      "birth": 1760,
+      "birthAccuracy": "approx",
+      "death": 1837,
+      "deathAccuracy": "exact",
+      "birthNote": "清史稿·卷347·杨遇春传：仁宗手诏「朕与卿同岁」；卷16·仁宗本纪仁宗乾隆二十五年（1760）生，据同岁推其约生于1760年。",
+      "deathNote": "清史稿·卷347·杨遇春传：道光十七年（1837）卒于家，赠太子太傅、兵部尚书，谥忠武。",
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "dao-guang",
+      "name": "旻宁",
+      "display": "道光",
+      "birth": 1782,
+      "birthAccuracy": "exact",
+      "death": 1850,
+      "deathAccuracy": "exact",
+      "title": "鸦片战火开国门",
+      "bio": "嘉庆次子，在位节俭而遇三千年未有之变局，鸦片战争战败，签南京条约。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,224 @@
+{
+  "id": "wei-mie-shu-zhizhan",
+  "name": "魏灭蜀之战",
+  "display": "魏灭蜀之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 263,
+  "yearAccuracy": "exact",
+  "yearNote": "景元四年（263）秋出兵、同年十一月刘禅出降（三国志卷28钟会传「四年秋，詔諸軍征蜀」、邓艾传「劉禪遣使奉皇帝璽綬，為箋詣艾請降」；通鉴卷78编年）。263单年多役（阳安关/汉中、剑阁对峙、偷渡阴平、绵竹、成都受降），point 不设 endYear；264年钟会姜维之变与邓艾之死为余波，不入本条。",
+  "place": "成都（战役范围跨汉中、剑阁、阴平、绵竹）",
+  "placeNow": "今四川成都",
+  "belligerents": [
+    "wei",
+    "shu"
+  ],
+  "commanders": [
+    {
+      "id": "zhong-hui",
+      "side": "wei"
+    },
+    {
+      "id": "deng-ai",
+      "side": "wei"
+    },
+    {
+      "id": "jiang-wei",
+      "side": "shu"
+    }
+  ],
+  "people": [
+    "sima-zhao",
+    "zhong-hui",
+    "deng-ai",
+    "jiang-wei",
+    "liu-shan",
+    "qiao-zhou"
+  ],
+  "result": "钟会与姜维相持剑阁不克，邓艾偷渡阴平破诸葛瞻于绵竹、兵临成都，刘禅听谯周议出降，蜀汉亡",
+  "aliases": [
+    "钟会邓艾伐蜀",
+    "魏灭汉之战"
+  ],
+  "dynasties": [
+    "three-kingdoms"
+  ],
+  "desc": "263 年秋司马昭遣军三路伐蜀：钟会统十余万分从斜谷、骆谷、子午谷入汉中，邓艾、诸葛绪系姜维于沓中。姜维退保剑阁，钟会攻之不克；邓艾自阴平行无人之地七百余里，先登至江油，破诸葛瞻于绵竹，进至成都。刘禅听谯周之议奉玺绶出降，立国四十三年的蜀汉亡，三分格局自此开始收束。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·王毌丘诸葛邓钟传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷七十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-zhao",
+      "name": "司马昭",
+      "display": "司马昭",
+      "birth": 211,
+      "birthAccuracy": "exact",
+      "death": 265,
+      "deathAccuracy": "exact",
+      "title": "晋王，弑高贵乡公，灭蜀",
+      "bio": "司马懿次子。继兄专魏政，甘露五年曹髦率兵攻之，贾充使成济抽戈犯跸，髦崩于车下。景元四年遣钟会、邓艾伐蜀，刘禅出降，遂封晋王。咸熙二年薨，年五十五；子炎遂代魏。",
+      "tags": [
+        "三国",
+        "曹魏",
+        "司马氏"
+      ],
+      "categories": [
+        "regent",
+        "monarch",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhong-hui",
+      "name": "钟会",
+      "display": "钟会",
+      "birth": 225,
+      "birthAccuracy": "exact",
+      "death": 264,
+      "deathAccuracy": "exact",
+      "title": "魏司徒，与邓艾灭蜀而反",
+      "bio": "颍川长社人，钟繇少子，少有才艺，精练名理。景元四年统十余万众伐蜀，与邓艾并进；既平蜀，忌艾而诬之，遂有异志，与姜维谋据蜀自立。明年正月兵变，为乱兵所杀，年四十。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general",
+        "official",
+        "strategist"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "deng-ai",
+      "name": "邓艾",
+      "display": "邓艾",
+      "birth": 197,
+      "birthAccuracy": "exact",
+      "death": 264,
+      "deathAccuracy": "exact",
+      "title": "魏征西将军，偷渡阴平灭蜀",
+      "bio": "义阳棘阳人，少为农夫，口吃而善言兵事。与姜维数战于陇西，屯田淮南。景元四年自阴平凿山通道，行无人之地七百里，直取江油、绵竹，刘禅遂降。旋为钟会所构，槛车征还，与子忠俱死于绵竹西。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jiang-wei",
+      "name": "姜维",
+      "display": "姜维",
+      "birth": 202,
+      "birthAccuracy": "exact",
+      "death": 264,
+      "deathAccuracy": "exact",
+      "title": "大将军，九伐中原，死于乱兵",
+      "bio": "天水冀人，本魏中郎，诸葛亮出祁山时归蜀，遂为凉州上士。亮卒后继其军事，屡出陇右，十一年中九次北伐，民疲而国敝。景耀六年魏军入蜀，维守剑阁，及后主降，谋复国而事泄，为乱兵所杀，年六十三。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei",
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-shan",
+      "name": "刘禅",
+      "display": "后主刘禅",
+      "birth": 207,
+      "birthAccuracy": "exact",
+      "death": 271,
+      "deathAccuracy": "exact",
+      "title": "蜀汉后主，出降而乐不思蜀",
+      "bio": "刘备长子，甘夫人之出。十七岁即位，事无大小皆决于亮；亮卒后蒋琬、费祎相继，晚年任黄皓。景耀六年邓艾至成都，出降，蜀汉亡，迁洛阳封安乐公。泰始七年卒，年六十五。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "qiao-zhou",
+      "name": "谯周",
+      "display": "谯周",
+      "birthAccuracy": "unknown",
+      "death": 270,
+      "deathAccuracy": "exact",
+      "deathNote": "卒于晋泰始六年，生平主体在蜀，归三国专题。",
+      "title": "蜀大儒，力主降魏",
+      "bio": "巴西西充国人，字允南。潜心典籍，精研六经，晓天文；陈寿、李密皆出其门。炎兴元年魏军入蜀，力主后主舆榇自缚出降；入晋拜骑都尉。泰始六年卒。",
+      "tags": [
+        "三国",
+        "蜀汉"
+      ],
+      "categories": [
+        "scholar",
+        "official"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "shu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

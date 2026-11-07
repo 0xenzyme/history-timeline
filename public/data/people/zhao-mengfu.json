@@ -1,0 +1,81 @@
+{
+  "id": "zhao-mengfu",
+  "name": "赵孟頫",
+  "display": "赵孟頫",
+  "birth": 1254,
+  "birthAccuracy": "exact",
+  "death": 1322,
+  "deathAccuracy": "exact",
+  "title": "书画巨匠，松雪道人",
+  "bio": "宋秦王德芳后，仕元为翰林学士承旨。书画冠绝，倡「复古」而开元代新风；其妻管道昇亦善翰墨。",
+  "tags": [
+    "元",
+    "艺术"
+  ],
+  "categories": [
+    "official",
+    "calligraphy",
+    "painting"
+  ],
+  "primary": "calligraphy",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cheng-jufu",
+      "target": "zhao-mengfu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "奉诏访求江南遗逸，孟頫由此入朝"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "guan-daosheng",
+      "target": "zhao-mengfu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妇，同以书画名世"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "xian-yu-shu",
+      "target": "zhao-mengfu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "书名与之相埒，时称元代书坛二雄"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "赵孟頫传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "zhu-qiyu",
+  "name": "朱祁钰",
+  "display": "明代宗朱祁钰",
+  "birth": 1428,
+  "birthAccuracy": "exact",
+  "death": 1457,
+  "deathAccuracy": "exact",
+  "title": "景泰代立，迎回英宗",
+  "bio": "宣宗次子，英宗之弟。土木之变后于谦拥立，年号景泰；英宗南宫复辟，废为郕王，寻崩。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-qiyu",
+      "target": "zhu-qizhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，英宗北狩，景帝代位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beijing-baowei",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "朱祁钰",
+    "明代宗",
+    "景泰帝"
+  ],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "代宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

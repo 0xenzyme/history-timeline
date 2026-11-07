@@ -1,0 +1,70 @@
+{
+  "id": "zhu-xi",
+  "name": "朱熹",
+  "display": "朱熹",
+  "birth": 1130,
+  "birthAccuracy": "exact",
+  "death": 1200,
+  "deathAccuracy": "exact",
+  "title": "晦庵，集理学之大成",
+  "bio": "婺源人，承二程而集理学大成，主「存天理、灭人欲」，编《四书章句集注》立为科举准的。讲学武夷、白鹿洞，泽被后世。",
+  "tags": [
+    "宋",
+    "南宋"
+  ],
+  "categories": [
+    "neo-confucian",
+    "classics"
+  ],
+  "primary": "neo-confucian",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cheng-yi",
+      "target": "zhu-xi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "二程之学，朱子集其大成"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "lu-you",
+      "target": "zhu-xi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同世大儒诗人，鹅湖之会后各有褒贬"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [
+    "rujia-chuancheng"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "朱熹传",
+      "kind": "classic"
+    }
+  ]
+}

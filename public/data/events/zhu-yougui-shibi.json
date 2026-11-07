@@ -1,0 +1,97 @@
+{
+  "id": "zhu-yougui-shibi",
+  "name": "朱友珪弑逆",
+  "display": "朱友珪弑逆",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 912,
+  "yearAccuracy": "exact",
+  "yearNote": "资治通鉴卷268系于乾化二年六月（912）：丁丑朔出友珪为莱州刺史，戊寅友珪与韩勍牙兵中夜斩关入寝殿、冯廷谔弑帝，己卯矫诏，辛巳发丧即皇帝位。",
+  "place": "洛阳宫城寝殿",
+  "placeNow": "河南省洛阳市",
+  "polity": [
+    "wudai"
+  ],
+  "people": [
+    "zhu-wen",
+    "zhu-yougui"
+  ],
+  "result": "朱友珪与韩勍牙兵中夜斩关入寝殿弑朱温，矫诏即位；次年朱友贞倚杨师厚、袁象先诛友珪自立（梁末帝），后梁内乱自此始。",
+  "aliases": [
+    "郢王之乱",
+    "朱温之死",
+    "乾化宫变"
+  ],
+  "dynasties": [
+    "wudai"
+  ],
+  "desc": "乾化二年（912）六月丁丑朔，后梁太祖朱温下诏出郢王朱友珪为莱州刺史；戊寅夜，朱友珪与左龙虎统军韩勍率牙兵中夜斩关入寝殿，仆夫冯廷谔行弑，朱温死。己卯矫诏，辛巳发丧，朱友珪即皇帝位。次年朱友贞倚杨师厚、袁象先诛友珪自立，是为梁末帝；后梁内乱自此始，杨师厚坐大与末帝政局皆源于此变。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷二六八 后梁纪三 乾化元年—三年",
+      "note": "六月丁丑朔出友珪为莱州刺史，戊寅友珪与韩勍牙兵中夜斩关入至寝殿，友珪仆夫冯廷谔刺帝腹，刃出于背；己卯矫诏，辛巳发丧即皇帝位",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhu-wen",
+      "name": "朱温",
+      "display": "朱温",
+      "birth": 852,
+      "birthAccuracy": "exact",
+      "death": 912,
+      "deathAccuracy": "exact",
+      "title": "后梁太祖，本黄巢将，代唐而建梁",
+      "bio": "宋州砀山午沟里人，父诚为经学教授。少孤贫，佣食萧县，后从黄巢，巢势衰遂降唐，赐名全忠，为宣武节度使，据汴州。天祐元年挟昭宗迁洛，弑之而立哀帝，四年受禅，国号梁，改名晃。既而猜忌日甚，乾化二年为其子友珪所弑于寝殿，年六十一。唐祚二百八十九年，亡于其手。",
+      "tags": [
+        "唐",
+        "五代",
+        "亡唐"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang",
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-yougui",
+      "name": "朱友珪",
+      "display": "朱友珪",
+      "birthAccuracy": "unknown",
+      "death": 912,
+      "deathAccuracy": "exact",
+      "title": "弑父自立，凤历改元而败",
+      "bio": "朱温次子，贱生而温所怜。温谋传位养子博王友文，友珪惧，乾化元年与韩勍等夜直禁中，行弑于寝殿，矫诏杀友文而自立，改元凤历。在位数月，猜防将士。凤历元年，友贞合宣武之兵入汴，友珪自杀。",
+      "tags": [
+        "五代",
+        "后梁"
+      ],
+      "categories": [
+        "monarch",
+        "rebel"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

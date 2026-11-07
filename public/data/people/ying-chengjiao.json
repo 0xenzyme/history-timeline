@@ -1,0 +1,78 @@
+{
+  "id": "ying-chengjiao",
+  "name": "成蟜",
+  "display": "成蟜",
+  "birthAccuracy": "unknown",
+  "death": -239,
+  "deathAccuracy": "exact",
+  "deathNote": "秦始皇本纪：八年，王弟长安君成蟜将军击赵，反，死屯留。",
+  "title": "长安君，反死屯留",
+  "bio": "始皇之弟，封长安君。八年将兵击赵，中途反秦，死在屯留。军吏都被斩。",
+  "tags": [
+    "秦国",
+    "长安君"
+  ],
+  "categories": [
+    "royal-kin"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "minister"
+    },
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "qin-kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-chengjiao",
+      "target": "ying-zheng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长安君成蟜，秦王弟也",
+        "兄弟。八年成蟜击赵反，死于屯留"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "qin"
+      ]
+    },
+    {
+      "source": "ying-chengjiao",
+      "target": "ying-zheng",
+      "type": "rival",
+      "directed": false,
+      "since": -239,
+      "notes": [
+        "成蟜将卒而畔屯留，秦兵诛之——亲弟之反是轴上秦国内乱的最后一笔"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "长安君",
+    "成蟜"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦始皇本纪",
+      "kind": "classic"
+    }
+  ]
+}

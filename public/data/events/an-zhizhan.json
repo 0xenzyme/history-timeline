@@ -1,0 +1,96 @@
+{
+  "id": "an-zhizhan",
+  "name": "鞌之战（鞍之战）",
+  "display": "鞌之战（鞍之战）",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -589,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·成公二年》「六月，癸酉…戰於鞍，齊師敗績」；《左傳》欒書將下軍、韓厥為司馬以救魯衛，癸酉師陳於鞍。成公二年＝前589。本包本地正义卷 dump 正字作「鞍」，通行本作「鞌」。",
+  "place": "鞍（齊地，靡笄山下）",
+  "placeNow": "今山东省济南市（历城区一带，通行又作济南西北）",
+  "belligerents": [
+    "jin-guo",
+    "qi",
+    "lu",
+    "wei-guo",
+    "cao-guo"
+  ],
+  "commanders": [
+    {
+      "id": "qi-qinggong",
+      "side": "qi"
+    },
+    {
+      "id": "ji-wen-zi",
+      "side": "lu"
+    }
+  ],
+  "aliases": [
+    "鞍之战",
+    "齐晋鞌之战"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "齐顷公伐鲁卫，鲁卫乞师于晋，郤克将中军率晋师会鲁卫曹之师伐齐，战于鞍。郤克伤于矢流血及屨而未绝鼓音；齐侯「余姑翦灭此而朝食」轻敌败绩，逢丑父与顷公易位使免于被获。齐献宝器、归汶阳之田而和（爰娄之盟）。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷25（成公元年至二年經傳）",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "qi-qinggong",
+      "name": "姜无野",
+      "display": "齐顷公",
+      "birthAccuracy": "unknown",
+      "death": -582,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·齐太公世家「十七年，顷公卒，子灵公环立」记在位十七年。",
+      "title": "在位十七年，晏子整齐齐政",
+      "bio": "惠公之子。崔杼有宠于惠公，惠公卒，高、国畏其偪，逐之，崔杼奔卫。顷公立，晏婴为相，厚礼诸侯，晋闻齐政。竟顷公卒，百姓附，诸侯不犯。",
+      "tags": [
+        "晏婴为相",
+        "崔杼奔卫",
+        "政归田氏之先声"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-wen-zi",
+      "name": "季孙行父",
+      "display": "季文子",
+      "birthAccuracy": "unknown",
+      "death": -568,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·鲁周公世家「五年，季文子卒……以相三君」（襄公五年，前568）。",
+      "polity": [
+        "lu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,98 @@
+{
+  "id": "guoshi-zhiyu",
+  "name": "国史之狱",
+  "display": "国史之狱",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 450,
+  "yearAccuracy": "exact",
+  "place": "平城",
+  "placeNow": "今山西大同",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "cui-hao",
+    "tuoba-tao"
+  ],
+  "result": "崔浩及姻亲诸大族被族诛，汉人士族与魏廷合作受重挫",
+  "aliases": [
+    "崔浩国史之狱"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "太武帝以崔浩总修国史，书成刻石立于衢路，以垂不朽。浩秉笔直书，备述鲜卑先世受命之迹，无所隐避，北人读之无不切齿，构怨于崔浩者竞相指其暴扬国恶。450 年（太平真君十一年）六月太武帝诛崔浩，并及清河崔氏同宗与范阳卢氏、太原郭氏、河东柳氏诸姻亲大族，士人死者甚众。汉人士族与魏廷的合作经此重挫，北朝汉化进程横生一波，为北魏政治文化一大转折。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "崔浩传",
+      "kind": "classic"
+    },
+    {
+      "work": "魏书",
+      "part": "世祖纪下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "cui-hao",
+      "name": "崔浩",
+      "display": "崔浩",
+      "birth": 381,
+      "birthAccuracy": "exact",
+      "death": 450,
+      "deathAccuracy": "exact",
+      "title": "北魏司徒，谋谟冠一时，国史之狱被诛",
+      "bio": "清河东武城人，崔宏之子，博览经史，历仕三帝，凡军国大计皆先咨而后行。破柔然、灭夏、取北凉，皆与谋。太延五年总史任，直书拓跋旧事，刊石立于衢路，鲜卑诸公见而忿之。太平真君十一年被收，诛于城南，清河崔氏及姻亲尽夷其族，年七十。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "official",
+        "strategist",
+        "gentry"
+      ],
+      "primary": "official",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tuoba-tao",
+      "name": "拓跋焘",
+      "display": "太武帝拓跋焘",
+      "birth": 408,
+      "birthAccuracy": "exact",
+      "death": 452,
+      "deathAccuracy": "exact",
+      "title": "北魏太武帝，统一北方，灭佛",
+      "bio": "鲜卑拓跋部人，明元帝长子。在位连灭夏、北燕、北凉，击柔然、通西域，北方一统。太延中征江南，至瓜步而还，江左震动。太平真君七年诏尽诛沙门、毁诸佛像塔寺，为中国佛教三武之祸之始。正平二年为中常侍宗爱所弑，年四十五。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "hu-han-xie",
+  "name": "呼韩邪单于",
+  "display": "呼韩邪单于",
+  "birthAccuracy": "unknown",
+  "death": -31,
+  "deathAccuracy": "exact",
+  "title": "匈奴单于，甘露三年朝汉称臣",
+  "bio": "匈奴五单于争立后势穷，从左伊秩訾王之计称臣事汉，款五原塞请朝，甘露三年正月朝天子于甘泉宫，位在诸侯王上，汉发兵卫护其国。郅支既诛，竟宁元年复入朝，求婿于汉，得昭君为阏氏，边垂自此长无兵革之事。立二十八年，建始二年死。",
+  "tags": [
+    "匈奴",
+    "昭君出塞"
+  ],
+  "categories": [
+    "outsider"
+  ],
+  "polity": [
+    "xiongnu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "xiongnu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-han-xie",
+      "target": "zhi-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟争国，郅支西走康居"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "hu-han-xie",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "甘露三年入朝称臣，汉匈自此和好"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huhanxie-laichao",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "zhaojun-chusai",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "匈奴传",
+      "kind": "classic"
+    }
+  ]
+}

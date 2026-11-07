@@ -1,0 +1,194 @@
+{
+  "id": "sunen-luxun-qiyi",
+  "name": "孙恩卢循起义",
+  "display": "孙恩卢循起义",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 2,
+  "year": 399,
+  "yearAccuracy": "exact",
+  "yearNote": "《晋书·安帝纪》：隆安三年（399）十一月甲寅，妖贼孙恩陷会稽，内史王凝之死之。year 取中国纪年 399（隆安三年）。起因见《孙恩传》「及元显纵暴吴会，百姓不安，恩因其骚动，自海攻上虞」。",
+  "endYear": 411,
+  "endYearAccuracy": "exact",
+  "endYearNote": "两阶段：孙恩 399–402（元兴元年临海太守辛景击破之，《孙恩传》作恩赴海自沈、《安帝纪》作「斩之」，两说并存）；余众推妹夫卢循为主（《卢循传》系元兴二年（403）正月寇东阳、八月攻永嘉，旋泛海据番禺；《安帝纪》系元兴三年（404）十月卢循寇广州，两说并存）；义熙六年（410）正月卢循反、寇江州，五月败刘毅于桑落洲、进逼建康，七月遁走，十二月刘裕破之于豫章；义熙七年（411）四月卢循走交州，刺史杜慧度斩之。",
+  "place": "会稽、丹徒、建康、广州、交州",
+  "placeNow": "今浙江绍兴、江苏镇江与南京、广东广州、越南北部",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "sun-en",
+    "lu-xun-yuxian",
+    "liu-yu",
+    "liu-laozhi",
+    "xie-yan"
+  ],
+  "result": "历时十二年之乱终被镇压，三吴残破；刘裕以北府兵屡破孙恩卢循，威权骤升，为日后代晋奠基",
+  "aliases": [
+    "孙恩之乱",
+    "卢循之乱",
+    "孙恩卢循之乱",
+    "五斗米道起义"
+  ],
+  "tags": [
+    "revolt",
+    "peasant-uprising",
+    "religious-movement"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "隆安三年（399）十一月，五斗米道首领孙恩自海岛攻上虞、袭会稽，三吴八郡一时俱起，旬日众至数十万，败杀谢琰、袁山松等，四进四出于东海；元兴元年（402）被辛景击破，孙恩投海死，余众推其妹夫卢循为主。卢循转战南海，据广州自摄州事；义熙六年（410）乘刘裕北伐南燕之机北上，败刘毅于桑落洲、进逼建康，受挫后南撤，义熙七年（411）四月败死交州。乱事历时十二年、波及三吴至交广；刘裕借镇压之功崛起，为日后桓楚覆灭与晋宋易代之始。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷十",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷一百",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sun-en",
+      "name": "孙恩",
+      "display": "孙恩",
+      "birthAccuracy": "unknown",
+      "death": 402,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "title": "五斗米道之乱，海上的妖贼",
+      "bio": "琅邪人，世奉五斗米道。司马元显发东土诸郡免奴为客者充兵役，东土骚动，恩遂率众攻陷会稽，杀内史王凝之，众数十万，三吴骚动。谢琰、袁山松先后败死。刘牢之、刘裕屡破之，恩退入海岛。元兴元年复寇临海，败于太守辛景，穷戚赴海自沉，妖党谓之水仙，余众推其妹夫卢循为主。",
+      "tags": [
+        "晋",
+        "东晋",
+        "叛乱",
+        "五斗米道"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "lu-xun-yuxian",
+      "name": "卢循",
+      "display": "卢循",
+      "birthAccuracy": "unknown",
+      "death": 411,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "title": "孙恩之继，兵逼建康的海寇之主",
+      "bio": "字於先，小名元龙，卢谌曾孙，双眸冏彻，瞳子四转，善草隶弈棋。娶孙恩妹，恩死后为余众所推。泛海取番禺，受晋征虏将军、广州刺史之命。义熙六年乘刘裕北伐南燕，与徐道覆北出，败何无忌、刘毅，直逼建康。裕回师相拒，循屡败，走交州，义熙七年为刺史杜慧度所斩，传首京都。",
+      "tags": [
+        "晋",
+        "东晋",
+        "叛乱"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yu",
+      "name": "刘裕",
+      "display": "宋武帝刘裕",
+      "birth": 363,
+      "birthAccuracy": "exact",
+      "death": 422,
+      "deathAccuracy": "exact",
+      "title": "北府将出身，灭南燕后秦，代晋建宋",
+      "bio": "彭城彭城县绥舆里人，家贫，尝贩履、种地、捕鱼，后为北府兵。讨孙恩、平桓玄，遂执晋政。义熙五年灭南燕，十三年克长安灭后秦，北府兵锋最盛之时。元熙二年受晋恭帝禅，改元永初，南朝自此始。即位三年而崩，年六十。",
+      "tags": [
+        "东晋",
+        "南朝"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin",
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-laozhi",
+      "name": "刘牢之",
+      "display": "刘牢之",
+      "birthAccuracy": "unknown",
+      "death": 402,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "deathNote": "传卒句无年号，通鉴卷一百一十二系元兴元年（402）北走新洲，「缢而死」。",
+      "title": "北府之将，一人三反而自缢",
+      "bio": "字道坚，彭城人，世以将显。沉毅多计划。北府兵之勇将，洛涧之役以五千人斩梁成，破苻坚先锋。讨孙恩、倒王恭、应桓玄，一人三反，参军刘袭曰事不可者莫大于反。元兴元年玄夺其兵，欲北据广陵，部曲散走，以为事泄，至新洲自缢而死，玄犹斫棺斩首暴尸于市。",
+      "tags": [
+        "晋",
+        "东晋",
+        "北府兵"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xie-yan",
+      "name": "谢琰",
+      "display": "谢琰",
+      "birthAccuracy": "unknown",
+      "death": 400,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "title": "谢安之子，淝水之将而死于孙恩",
+      "bio": "字瑗度，谢安次子。淝水之役与谢玄共破苻坚，以功封望蔡公。性刚而疏，为会稽内史不为武备。隆安四年孙恩复寇，琰战败死之，三子并没。谢氏既败，北府之权自此移于刘裕辈。",
+      "tags": [
+        "晋",
+        "东晋",
+        "陈郡谢氏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

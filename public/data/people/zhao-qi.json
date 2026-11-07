@@ -1,0 +1,94 @@
+{
+  "id": "zhao-qi",
+  "name": "赵禥",
+  "display": "宋度宗赵禥",
+  "birth": 1240,
+  "birthAccuracy": "exact",
+  "death": 1274,
+  "deathAccuracy": "exact",
+  "title": "怠政，贾似道专权",
+  "bio": "理宗侄，嗣位。嗜欲怠政，军国事一决贾似道，襄阳被困三年而不知，元兵南下势不可遏。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zong",
+      "target": "zhao-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，理宗传度宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-qi",
+      "target": "zhao-xian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，度宗传恭帝"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-qi",
+      "target": "zhao-shi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，度宗传端宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-bing",
+      "target": "zhao-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，度宗传卫王"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "赵禥",
+    "宋度宗"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "度宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

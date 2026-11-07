@@ -1,0 +1,109 @@
+{
+  "id": "tang-taizong-zheng-gaogouli",
+  "name": "唐太宗征高句丽",
+  "display": "唐太宗征高句丽",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 645,
+  "yearAccuracy": "exact",
+  "endYear": 647,
+  "endYearAccuracy": "exact",
+  "place": "辽东",
+  "placeNow": "今辽宁辽阳一带",
+  "belligerents": [
+    "tang",
+    "gaogouli"
+  ],
+  "commanders": [
+    {
+      "id": "li-shimin",
+      "side": "tang"
+    },
+    {
+      "id": "xu-shi-ji",
+      "side": "tang"
+    }
+  ],
+  "people": [
+    "li-shimin",
+    "xu-shi-ji"
+  ],
+  "result": "太宗亲征不克安市城而还，高句丽存续而国势大损",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "贞观十九年（645）太宗亲征高句丽，李勣等拔辽东等城，进围安市城，久攻不克，次年班师；二十一年（647）复遣偏师入其境并诏造舟备战，大举未果。此役重创高句丽而未竟全功，为高宗时期继续用兵、最终灭之国留下战略基础。沿途城邑攻守不在本实体中拆录。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "太宗本纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷一百九十七至一百九十八",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-shimin",
+      "name": "李世民",
+      "display": "唐太宗李世民",
+      "birth": 598,
+      "birthAccuracy": "exact",
+      "death": 649,
+      "deathAccuracy": "exact",
+      "title": "唐太宗，天可汗，贞观之治",
+      "bio": "李渊第二子，太原起兵之谋多出其手。武德九年玄武门之变，杀建成、元吉，遂立为太子，寻即位。在位二十三年，任房玄龄、杜如晦、魏征，轻徭薄赋、任贤纳谏，四夷君长诣阙请号为天可汗。末年征高句丽无功，贞观二十三年崩于翠微宫含风殿，年五十二。",
+      "tags": [
+        "唐",
+        "贞观"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xu-shi-ji",
+      "name": "徐世勣",
+      "display": "李勣",
+      "birth": 594,
+      "birthAccuracy": "exact",
+      "death": 669,
+      "deathAccuracy": "exact",
+      "title": "英国公，本姓徐，赐姓李，灭高句丽",
+      "bio": "曹州离狐人，本姓徐，名世勣，字懋功。初从翟让、李密，归唐后赐姓李，避太宗讳单名勣。从平王世充、窦建德、刘黑闼，破薛延陀、高句丽，总章元年拔平壤，高句丽遂亡。为将善抚御，得金帛尽散之士卒。总章二年薨，年七十六，陪葬昭陵。",
+      "tags": [
+        "唐",
+        "高句丽"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

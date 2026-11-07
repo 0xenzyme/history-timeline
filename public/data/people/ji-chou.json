@@ -1,0 +1,147 @@
+{
+  "id": "ji-chou",
+  "name": "姬仇",
+  "display": "晋文侯",
+  "birthAccuracy": "unknown",
+  "death": -746,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：文侯三十五年卒。文侯十年当幽王无道、周东徙。",
+  "title": "晋文侯，送平王东迁",
+  "bio": "穆侯太子仇。袭杀殇叔而立。周东徙，文侯迎送平王。竹书：晋文侯杀王子余臣于携。",
+  "tags": [
+    "晋",
+    "东迁"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-chou",
+      "target": "ji-yuchen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "竹书：晋文侯杀王子余臣于携"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chou",
+      "target": "shu-dai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "叔带事晋文侯"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chou",
+      "target": "jin-muhou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。太子仇"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chou",
+      "target": "jin-jiangshi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chengshi",
+      "target": "ji-chou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。后封曲沃，晋乱始此"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-chou",
+      "target": "jin-shangshu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太子仇袭杀殇叔而立"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "ji-yijiu",
+      "target": "ji-chou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文侯迎送平王东迁"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "pingwang-dongqian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "晋文侯",
+    "姬仇"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "晋世家",
+      "kind": "classic"
+    },
+    {
+      "work": "国语",
+      "part": "郑语",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ]
+}

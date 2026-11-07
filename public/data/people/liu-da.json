@@ -1,0 +1,64 @@
+{
+  "id": "liu-da",
+  "name": "刘炟",
+  "display": "汉章帝",
+  "birth": 57,
+  "birthAccuracy": "exact",
+  "death": 88,
+  "deathAccuracy": "exact",
+  "title": "东汉章帝，宽厚长者，白虎观会议",
+  "bio": "明帝第五子。性宽容，禁苛切之政，罢盐铁之禁。建初四年会诸儒于白虎观，论定五经同异，命班固撰《白虎通义》。明章之治止于此，之后外戚与宦官交替。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "monarch",
+    "classics"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-da",
+      "target": "ma-hou-mingde",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "章帝时她为太后，建初四年六月崩"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baihu-xian-huiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "汉章帝"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "章帝纪",
+      "kind": "classic"
+    }
+  ]
+}

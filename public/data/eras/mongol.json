@@ -1,0 +1,338 @@
+{
+  "id": "mongol",
+  "name": "大蒙古国",
+  "from": 1206,
+  "to": 1271,
+  "contractVersion": 1,
+  "group": "song-liao-jin-yuan",
+  "personCount": 0,
+  "eventCount": 30,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "damengguguo-jianguo",
+      "name": "成吉思汗即位",
+      "display": "称汗",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1206,
+      "yearAccuracy": "exact",
+      "yearNote": "金泰和六年。元史作九游白旗、斡难河、成吉思皇帝。续资作九进、鄂诺河、青吉斯皇帝。年份没有异说。",
+      "place": "斡难河",
+      "polity": [
+        "mongol"
+      ],
+      "people": [
+        "tie-mu-zhen"
+      ],
+      "result": "铁木真称成吉思皇帝，蒙古汗权建立",
+      "aliases": [
+        "太祖元年",
+        "青吉斯称帝"
+      ],
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "1206年，铁木真在斡难河源即皇帝位，诸部上尊号成吉思皇帝。即位句本身没有大蒙古国四字，这个国号见于后来的传记和国书。蒙古由此从部落盟誓转成可以号令诸部的汗权。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "卷一·太祖本纪",
+          "note": "元年丙寅即皇帝位于斡难河之源，上尊号成吉思皇帝",
+          "kind": "classic"
+        },
+        {
+          "work": "续资治通鉴",
+          "part": "卷一百五十七",
+          "note": "金泰和六年即位于鄂诺河，尊号青吉斯皇帝",
+          "kind": "classic"
+        },
+        {
+          "work": "元史",
+          "part": "卷一百二十四",
+          "note": "大蒙古国见于传记，不见于元年即位句",
+          "kind": "classic"
+        },
+        {
+          "work": "元史",
+          "part": "卷二百八·日本传",
+          "note": "国书作大蒙古国皇帝奉书日本国王",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhongdu-zhiyi",
+      "name": "蒙金中都之役",
+      "display": "中都",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 3,
+      "year": 1214,
+      "yearAccuracy": "exact",
+      "yearNote": "迁汴在太祖九年甲戌五月，城陷在十年乙亥五月。",
+      "endYear": 1215,
+      "endYearAccuracy": "exact",
+      "place": "中都",
+      "belligerents": [
+        "mongol",
+        "jin-chao"
+      ],
+      "commanders": [
+        {
+          "id": "tie-mu-zhen",
+          "side": "mongol"
+        }
+      ],
+      "result": "中都陷落，金廷已迁汴",
+      "parent": "mengjin-zhanzheng",
+      "aliases": [
+        "中都陷落"
+      ],
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "1214年五月，金宣宗迁汴，完颜福兴留守中都，蒙古军随后围城。1215年五月庚申，完颜福兴仰药死，蒙古军入城。中都失守后，蒙金战争从边境攻防转入黄河以南。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "卷一·太祖本纪",
+          "note": "九年五月金主迁汴，十年五月完颜福兴仰药死",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "tie-mu-zhen-xi-zheng",
+      "name": "成吉思汗西征",
+      "display": "西征",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1219,
+      "yearAccuracy": "exact",
+      "yearNote": "元史太祖本纪系十四年（1219）秋大会于也儿的石河，亲征花剌子模；二十一年（1225）东还。",
+      "endYear": 1225,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "mongol",
+        "huacimo"
+      ],
+      "commanders": [
+        {
+          "id": "tie-mu-zhen",
+          "side": "mongol"
+        },
+        {
+          "id": "tuo-lei",
+          "side": "mongol"
+        },
+        {
+          "id": "su-butai",
+          "side": "mongol"
+        }
+      ],
+      "result": "花剌子模亡，蒙古兵锋抵于里海、黑海之北，中亚易主",
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "十四年（1219）秋，成吉思汗大会诸将于也儿的石河，以花剌子模边将擅杀蒙古商使为词，亲征西讨。铁木真自讹答剌进兵，不花剌、撒马尔罕次第陷落，摩诃末西走，死于里海洲岛；拖雷蹂躏呼罗珊，哲别、速不台追札兰丁至印度河畔。二将于归途又败罗斯诸部于迦勒迦河（见本条之战）。二十一年（1225）春，铁木真东还。花剌子模亡，中亚城郭丘墟，蒙古于是与波斯、俄罗斯诸地相接，世界之局由此改观。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "太祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "世界征服者史",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "mengxia-zhanzheng",
+      "name": "蒙古灭夏",
+      "display": "灭夏",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1226,
+      "yearAccuracy": "exact",
+      "endYear": 1227,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "mongol",
+        "xixia"
+      ],
+      "commanders": [
+        {
+          "id": "tie-mu-zhen",
+          "side": "mongol"
+        }
+      ],
+      "result": "西夏灭亡，成吉思汗崩于萨里川",
+      "aliases": [
+        "蒙古攻西夏"
+      ],
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "1226年，成吉思汗因西夏纳仇人、不遣质子，自将伐夏。1227年六月夏主李晛降，七月己丑成吉思汗崩于萨里川哈老徒之行宫。西夏灭亡，蒙古清除了西侧政权。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "卷一·太祖本纪",
+          "note": "二十一年自将伐夏，二十二年六月李晛降，七月己丑崩于萨里川",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "sanfengshan-zhizhan",
+      "name": "三峰山之战",
+      "display": "三峰山",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1232,
+      "yearAccuracy": "exact",
+      "place": "钧州三峰山",
+      "belligerents": [
+        "mongol",
+        "jin-chao"
+      ],
+      "commanders": [
+        {
+          "id": "tuo-lei",
+          "side": "mongol"
+        },
+        {
+          "id": "wo-kuo-tai",
+          "side": "mongol"
+        }
+      ],
+      "result": "金军野战主力崩溃",
+      "parent": "mengjin-zhanzheng",
+      "aliases": [
+        "钧州三峰山之战"
+      ],
+      "dynasties": [
+        "song",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "1232年正月，拖雷在钧州三峰山击败金军，获蒲阿。窝阔台随即攻破钧州。元史记获合达，金史记合达、陈和尚城破而死。金朝野战主力由此崩溃，灭金转入围城。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "卷二·太宗本纪",
+          "note": "四年正月拖雷败金师于钧州三峰，获蒲阿，克钧州获合达",
+          "kind": "classic"
+        },
+        {
+          "work": "金史",
+          "part": "卷十七·哀宗本纪",
+          "note": "三峰山金军大溃，合达、陈和尚城破而死，蒲阿被执",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "caizhou-zhizhan",
+      "name": "蔡州之战",
+      "display": "蔡州之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1234,
+      "yearAccuracy": "exact",
+      "yearNote": "孟珙以兵粮来助在金天兴二年十一月。城破在天兴三年正月。本条取城破年。",
+      "place": "蔡州",
+      "belligerents": [
+        "mongol",
+        "jin-chao"
+      ],
+      "commanders": [
+        {
+          "id": "wo-kuo-tai",
+          "side": "mongol"
+        }
+      ],
+      "people": [
+        "meng-gong"
+      ],
+      "result": "金亡",
+      "parent": "mengjin-zhanzheng",
+      "aliases": [
+        "金亡",
+        "蔡州破"
+      ],
+      "dynasties": [
+        "song",
+        "jin-chao",
+        "mongol"
+      ],
+      "desc": "1233年冬，宋将孟珙以兵粮助蒙古军攻蔡。1234年正月，金哀宗传位于完颜承麟后自缢，城破，金朝灭亡。金亡之后，蒙古与南宋正面相接。",
+      "sources": [
+        {
+          "work": "元史",
+          "part": "卷二·太宗本纪",
+          "note": "六年正月金主传位于承麟后自经，城拔，金亡",
+          "kind": "classic"
+        },
+        {
+          "work": "金史",
+          "part": "卷十八·哀宗下",
+          "note": "宋将孟珙献粮助攻，哀宗传位后自缢于幽兰轩",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

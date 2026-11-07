@@ -1,0 +1,174 @@
+{
+  "id": "hong-taiji",
+  "name": "皇太极",
+  "display": "皇太极",
+  "birth": 1592,
+  "birthAccuracy": "exact",
+  "death": 1643,
+  "deathAccuracy": "exact",
+  "title": "改国号为清",
+  "bio": "努尔哈赤第八子，继位后改族名满洲、国号大清，称帝南略，收服漠南蒙古。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    },
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hong-taiji",
+      "target": "nu-er-ha-chi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，第八子嗣位而改国号为清",
+        "父子，后金大汗传位次子"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-taiji",
+      "target": "yuan-chonghuan",
+      "type": "rival",
+      "directed": false,
+      "since": 1629,
+      "notes": [
+        "反间既行，崇焕遂逮而见戮"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "duo-er-gun",
+      "target": "hong-taiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，弟为摄政而定鼎北京",
+        "兄弟，多尔衮为太宗之弟"
+      ],
+      "topicIds": [
+        "ming",
+        "qing"
+      ]
+    },
+    {
+      "source": "fu-lin",
+      "target": "hong-taiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，皇太极第九子嗣位"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-taiji",
+      "target": "xiao-duan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "崇德元年正位中宫，世祖尊为皇太后"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-taiji",
+      "target": "xiao-ci",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，1592 年生太宗，后追尊为孝慈高皇后"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hong-taiji",
+      "target": "fan-wencheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开国谋臣，定官制典章而历事四朝"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "da-fei",
+      "target": "hong-taiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "太祖崩，次日殉，年三十七"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "hao-ge",
+      "target": "hong-taiji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "皇太极长子，争位失败，与多尔衮对立"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "daqing-jianguo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "songjin-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "太宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

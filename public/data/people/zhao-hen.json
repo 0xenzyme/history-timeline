@@ -1,0 +1,93 @@
+{
+  "id": "zhao-hen",
+  "name": "赵恒",
+  "display": "赵恒",
+  "birth": 968,
+  "birthAccuracy": "exact",
+  "death": 1022,
+  "deathAccuracy": "exact",
+  "title": "宋真宗，澶渊之盟",
+  "bio": "太宗第三子，即位后与契丹定澶渊之盟，纳币称兄。晚年崇道教、封禅泰山，造天书，国库为耗。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-hen",
+      "target": "kou-zhun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1004,
+      "notes": [
+        "澶渊亲征，准力主之"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "zhao-hen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，太宗传真宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "zhao-zhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，真宗传仁宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chanyuan-zhimeng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "fengshan-taishan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "真宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

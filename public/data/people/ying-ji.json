@@ -1,0 +1,197 @@
+{
+  "id": "ying-ji",
+  "name": "嬴稷",
+  "display": "秦昭襄王",
+  "birthAccuracy": "unknown",
+  "death": -251,
+  "deathAccuracy": "exact",
+  "title": "秦王，在位五十六年，长平之主",
+  "bio": "用魏冉、范雎、白起。远交近攻，破长平、围邯郸、灭东周。战国后半他的条最长，六国的败象都画在这条下面。",
+  "tags": [
+    "秦国",
+    "长平"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-ji",
+      "target": "zhao-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "胡服之后的秦赵对峙，下启长平"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-ji",
+      "target": "bai-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武安君，长平、拔郢"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "bai-qi",
+      "target": "ying-ji",
+      "type": "rival",
+      "directed": false,
+      "since": -257,
+      "notes": [
+        "不肯再将围邯郸，赐死"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-ji",
+      "target": "ying-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武王无子，异母弟稷自燕归，是为昭襄王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-ji",
+      "target": "ying-zhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭襄王五十六年卒，子柱立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "xuan-taihou",
+      "target": "ying-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。昭襄王四十二年十月宣太后薨"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "huang-xie",
+      "target": "ying-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "黄歇入秦上书，劝止白起伐楚"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chuli-zi",
+      "target": "ying-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "历惠文、武、昭三世以智自全；昭王七年卒，自为兆域"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-ji",
+      "target": "meng-ao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "蒙骜自齐入秦，昭王世将兵取成皋荥阳——秦将门三世之条自此起"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-ji",
+      "target": "zhou-nanwang",
+      "type": "rival",
+      "directed": false,
+      "since": -256,
+      "notes": [
+        "求九鼎、取河南；赧王尽献其邑而卒，共主之条断于斯年"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "changping-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "handan-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-mie-xizhou",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "qin-qi-hudi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "秦昭襄王",
+    "秦昭王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "白起王翦列传",
+      "kind": "classic"
+    }
+  ]
+}

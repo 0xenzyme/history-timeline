@@ -1,0 +1,106 @@
+{
+  "id": "li-ang",
+  "name": "李昂",
+  "display": "唐文宗李昂",
+  "birth": 809,
+  "birthAccuracy": "exact",
+  "death": 840,
+  "deathAccuracy": "exact",
+  "title": "甘露之变",
+  "bio": "穆宗次子，敬宗之弟。大和即位，慨然求治，用李训、郑注谋诛宦官，事泄为仇士良所败，甘露之变后受制阉寺。",
+  "tags": [
+    "唐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ang",
+      "target": "li-heng-mu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，穆宗传文宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-ang",
+      "target": "zhao-zong-ru",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载796至798年在任，大和六年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-ang",
+      "target": "li-feng-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载822至826年在任，大和九年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-ang",
+      "target": "wei-chu-hou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载826至828年在任，大和二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-ang",
+      "target": "cui-qun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宪宗朝为相，大和六年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李昂",
+    "唐文宗"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "文宗纪",
+      "kind": "classic"
+    }
+  ]
+}

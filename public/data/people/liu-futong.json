@@ -1,0 +1,131 @@
+{
+  "id": "liu-futong",
+  "name": "刘福通",
+  "display": "刘福通",
+  "birth": 1310,
+  "birthAccuracy": "approx",
+  "death": 1363,
+  "deathAccuracy": "exact",
+  "title": "红巾军首领",
+  "bio": "颍州人，奉韩山童倡白莲教起事，韩死后代领其众，以红巾为号，纵横河南淮泗。迎韩林儿称帝，势及半壁。",
+  "tags": [
+    "元",
+    "民变"
+  ],
+  "categories": [
+    "rebel"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "yuan",
+    "minbian"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-futong",
+      "target": "shun-di",
+      "type": "rival",
+      "directed": false,
+      "since": 1351,
+      "notes": [
+        "红巾遍起，南北骚然"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-futong",
+      "target": "zhu-yuanzhang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为红巾系统，朱并其众而独大"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "jia-lu",
+      "target": "liu-futong",
+      "type": "rival",
+      "directed": false,
+      "since": 1351,
+      "notes": [
+        "河役方兴，白莲教徒凿石人埋于黄陵冈，颍上遂举红巾"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "cha-han-tiemuer",
+      "target": "liu-futong",
+      "type": "rival",
+      "directed": false,
+      "since": 1358,
+      "notes": [
+        "破汴梁、定山东，逐刘福通北走"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-futong",
+      "target": "han-shantong",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "奉山童为主，山童事泄被杀后独举红巾"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-futong",
+      "target": "han-liner",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "1355 年立林儿为小明王，建号龙凤"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "hongjin-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "yuanmo-qunxiong",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "顺帝本纪"
+    }
+  ]
+}

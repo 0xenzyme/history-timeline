@@ -1,0 +1,221 @@
+{
+  "id": "wuxu-bianfa",
+  "name": "戊戌变法",
+  "display": "戊戌变法",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1898,
+  "yearAccuracy": "exact",
+  "yearNote": "光绪二十四年诏定国是，八月皇太后复垂帘于便殿训政。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "guang-xu",
+    "ci-xi",
+    "kang-youwei",
+    "liang-qichao",
+    "tan-sitong",
+    "yuan-shikai"
+  ],
+  "result": "诏定国是，复垂帘训政",
+  "aliases": [
+    "百日维新"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "光绪二十四年诏定国是，谭嗣同加四品卿衔参预新政。同年诏捕康有为与梁启超，命袁世凯以侍郎候补，皇太后复垂帘于便殿训政。变法与训政是同一年的一件事，不拆开。本纪写皇太后，不在这句里写慈禧二字。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "詔定國是",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "譚嗣同並加四品卿銜，參預新政",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "詔捕康有為與梁啟超",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "命袁世凱以侍郎候補",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷二十四",
+      "note": "皇太后復垂簾於便殿訓政",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guang-xu",
+      "name": "载湉",
+      "display": "光绪",
+      "birth": 1871,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "戊戌变法",
+      "bio": "醇亲王之子，慈禧外甥兼侄，冲龄即位；亲政后行戊戌变法，旋遭囚禁。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ci-xi",
+      "name": "慈禧",
+      "display": "慈禧太后",
+      "birth": 1835,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "垂帘听政",
+      "bio": "咸丰懿贵妃，同治生母；同治、光绪两朝垂帘训政，实为晚清最高掌权者。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "kang-youwei",
+      "name": "康有为",
+      "display": "康有为",
+      "birth": 1858,
+      "birthAccuracy": "exact",
+      "death": 1927,
+      "deathAccuracy": "exact",
+      "title": "维新领袖",
+      "bio": "今文经学家，公车上书、倡变法，戊戌年辅光绪行新政，失败后流亡。",
+      "tags": [
+        "清",
+        "维新"
+      ],
+      "categories": [
+        "scholar",
+        "classics"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liang-qichao",
+      "name": "梁启超",
+      "display": "梁启超",
+      "birth": 1873,
+      "birthAccuracy": "exact",
+      "death": 1929,
+      "deathAccuracy": "exact",
+      "title": "变法喉舌",
+      "bio": "康有为弟子，主笔《时务报》，鼓吹维新；后倡新民说，为近代思想巨子。",
+      "tags": [
+        "清",
+        "维新"
+      ],
+      "categories": [
+        "official",
+        "scholar",
+        "thinker"
+      ],
+      "primary": "scholar",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tan-sitong",
+      "name": "谭嗣同",
+      "display": "谭嗣同",
+      "birth": 1865,
+      "birthAccuracy": "exact",
+      "death": 1898,
+      "deathAccuracy": "exact",
+      "title": "戊戌六君子",
+      "bio": "维新志士，著《仁学》；戊戌政变不肯逃，慷慨就义，为六君子之一。",
+      "tags": [
+        "清",
+        "维新"
+      ],
+      "categories": [
+        "official",
+        "thinker"
+      ],
+      "primary": "thinker",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-shikai",
+      "name": "袁世凯",
+      "display": "袁世凯",
+      "birth": 1859,
+      "birthAccuracy": "exact",
+      "death": 1916,
+      "deathAccuracy": "exact",
+      "title": "北洋领袖",
+      "bio": "小站练兵起家，任直隶总督、北洋大臣；辛亥逼清帝退位，后称帝旋败。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "warlord",
+        "regent",
+        "official",
+        "general",
+        "falling"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

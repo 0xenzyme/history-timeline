@@ -1,0 +1,121 @@
+{
+  "id": "yongping-xiyu-kaifu",
+  "name": "永平通西域",
+  "display": "永平通西域",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 73,
+  "yearAccuracy": "exact",
+  "endYear": 74,
+  "endYearAccuracy": "exact",
+  "place": "伊吾卢",
+  "belligerents": [
+    "han",
+    "xiongnu"
+  ],
+  "commanders": [
+    {
+      "id": "dou-gu",
+      "side": "han"
+    },
+    {
+      "id": "ban-chao",
+      "side": "han"
+    }
+  ],
+  "people": [
+    "liu-zhuang"
+  ],
+  "result": "汉军取伊吾卢并置屯田，西域交通恢复",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "73年，明帝命窦固等北征匈奴，取伊吾卢、置宜禾都尉屯田；次年复置西域都护与戊己校尉，东汉由此重建西域经营体系。",
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "西域传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-zhuang",
+      "name": "刘庄",
+      "display": "汉明帝",
+      "birth": 28,
+      "birthAccuracy": "exact",
+      "death": 75,
+      "deathAccuracy": "exact",
+      "title": "东汉明帝，严切守法，明章之治",
+      "bio": "光武第四子，阴丽华所出。遵奉建武制度，法令分明，日晏坐朝，幽枉必达。遣使西域求佛法，白马寺由此起。与其子章帝并称明章之治。",
+      "tags": [
+        "东汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "dou-gu",
+      "name": "窦固",
+      "display": "窦固",
+      "birthAccuracy": "unknown",
+      "death": 88,
+      "deathAccuracy": "exact",
+      "deathNote": "章和二年（88年）卒，谥曰文侯。",
+      "title": "奉车都尉，天山破虏屯伊吾",
+      "bio": "窦融从子，尚公主，袭父友封显亲侯。以明习边事拜奉车都尉，永平十六年与耿秉、祭肜等分道伐北匈奴，独破呼衍王于天山，追至蒲类海，留屯伊吾卢城；又破白山、定车师，汉通西域实自固始，班超初定鄯善即还报于固。肃宗世历大鸿胪、卫尉，章和二年卒，为窦宪执政时诸将前辈。",
+      "tags": [
+        "东汉",
+        "西域"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ban-chao",
+      "name": "班超",
+      "display": "班超",
+      "birth": 32,
+      "birthAccuracy": "exact",
+      "death": 102,
+      "deathAccuracy": "exact",
+      "title": "定远侯，以三十六人通西域",
+      "bio": "班固之弟。投笔叹曰「大丈夫当立功异域」，出使鄯善，夜斩匈奴使者，遂定南道。在西域三十一年，五十余国纳质内属。老病归洛阳，一月而卒。",
+      "tags": [
+        "东汉",
+        "西域"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

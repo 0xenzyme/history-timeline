@@ -1,0 +1,69 @@
+{
+  "id": "chen-yigong",
+  "name": "妫说",
+  "display": "陈夷公",
+  "birthAccuracy": "unknown",
+  "death": -779,
+  "deathAccuracy": "exact",
+  "deathNote": "史记：夷公立之岁周幽王即位，三年卒。幽王元年取前 781 年，三年当 -779。",
+  "title": "陈夷公",
+  "bio": "武公之子。三年卒，弟平公燮立。",
+  "tags": [
+    "陈"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "polity": [
+    "chen"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chen-wugong",
+      "target": "chen-yigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "chen-pinggong",
+      "target": "chen-yigong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "陈夷公",
+    "夷公说"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "陈杞世家",
+      "kind": "classic"
+    }
+  ]
+}

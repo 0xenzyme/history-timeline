@@ -1,0 +1,93 @@
+{
+  "id": "ji-huiwang",
+  "name": "燕惠王",
+  "display": "燕惠王",
+  "birthAccuracy": "unknown",
+  "death": -272,
+  "deathAccuracy": "exact",
+  "title": "燕王，疑乐毅，骑劫代将",
+  "bio": "昭王之子，名不载于《史记》。为太子时与乐毅有隙，即位使骑劫代将，即墨一败，田单复七十城。昭王那条刚断在这里，齐国那条就从这里重新长起来。",
+  "tags": [
+    "燕国",
+    "即墨"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "yan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-huiwang",
+      "target": "ji-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "昭王三十三年卒，子惠王立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-huiwang",
+      "target": "yue-yi",
+      "type": "rival",
+      "directed": false,
+      "since": -279,
+      "notes": [
+        "为太子时已有隙，即位使骑劫代将，乐毅亡走赵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-huiwang",
+      "target": "zou-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "邹衍游于齐稷下，为列大夫；其五德终始之说，秦皇汉武封禅改制皆承之"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ji-huiwang",
+      "target": "mengchang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孟尝君相齐，好客食客数千，亦尝相于魏，出入虎狼之口以其客自免"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "燕惠王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "燕召公世家",
+      "kind": "classic"
+    }
+  ]
+}

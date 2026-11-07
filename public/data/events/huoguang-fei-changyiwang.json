@@ -1,0 +1,122 @@
+{
+  "id": "huoguang-fei-changyiwang",
+  "name": "霍光废昌邑王",
+  "display": "霍光废昌邑王",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -74,
+  "yearAccuracy": "exact",
+  "yearNote": "元平元年（前 74 年）六月丙寅刘贺受玺即位、癸巳霍光奏废，本纪纪年直接可查。",
+  "place": "长安",
+  "placeNow": "今陕西西安",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "huo-guang",
+    "liu-he",
+    "liu-xun"
+  ],
+  "result": "刘贺在位二十七日被废，霍光等迎立宣帝，霍氏专权确立",
+  "aliases": [
+    "废昌邑王贺",
+    "迎立宣帝"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "元平元年（前 74 年）四月昭帝崩，无嗣，大将军霍光请皇后征昌邑王；六月丙寅王受皇帝玺绶，癸巳霍光率群臣会议未央宫奏太后废之，在位二十七日。七月迎立武帝曾孙病已，是为宣帝。臣僚废立皇帝的做法自此成为西汉权力结构中的极端先例。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷八 宣帝紀",
+      "kind": "classic"
+    },
+    {
+      "work": "漢書",
+      "part": "卷六八 霍光金日磾傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "huo-guang",
+      "name": "霍光",
+      "display": "霍大将军",
+      "birthAccuracy": "unknown",
+      "death": -68,
+      "deathAccuracy": "exact",
+      "birthNote": "生年不详",
+      "title": "汉武帝托孤重臣，大司马大将军",
+      "bio": "霍去病异母弟。受武帝遗诏辅佐昭帝，前后秉政二十年，行轮台诏后的休养生息之政；废昌邑王、迎立宣帝，权倾一时。死后霍氏以谋反灭族。",
+      "tags": [
+        "辅政",
+        "托孤",
+        "权势"
+      ],
+      "categories": [
+        "official",
+        "regent"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-he",
+      "name": "刘贺",
+      "display": "昌邑王刘贺",
+      "birth": -92,
+      "birthAccuracy": "exact",
+      "death": -59,
+      "deathAccuracy": "exact",
+      "title": "在位二十七日而废，后为海昏侯",
+      "bio": "昭帝崩，霍光立他，二十七日而废。帝位只是条上的一个点，人活到前 59 年。后为海昏侯。",
+      "tags": [
+        "汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-xun",
+      "name": "刘询",
+      "display": "汉宣帝",
+      "birth": -91,
+      "birthAccuracy": "exact",
+      "death": -48,
+      "deathAccuracy": "exact",
+      "title": "西汉第十位皇帝",
+      "bio": "巫蛊之祸中在襁褓入狱的皇曾孙，由霍光迎立。亲政后整顿吏治、设西域都护，史称「昭宣中兴」。",
+      "tags": [
+        "昭宣中兴",
+        "西域都护"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

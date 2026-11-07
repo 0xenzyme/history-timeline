@@ -1,0 +1,130 @@
+{
+  "id": "mie-nanhan",
+  "name": "灭南汉",
+  "display": "灭南汉",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 970,
+  "yearAccuracy": "exact",
+  "yearNote": "开宝三年九月己亥朔出师，在970。开宝四年二月己丑克广州，在971。总页把开宝四年括为辛未（971）。",
+  "endYear": 971,
+  "endYearAccuracy": "exact",
+  "place": "广州",
+  "belligerents": [
+    "song",
+    "nanhan"
+  ],
+  "people": [
+    "zhao-kuangyin",
+    "pan-mei",
+    "liu-chang"
+  ],
+  "result": "潘美克广州，俘刘鋹，南汉亡。宋得六十州。",
+  "parent": "beisong-tongyi",
+  "aliases": [
+    "宋平南汉",
+    "伐广南",
+    "wudai-971"
+  ],
+  "dynasties": [
+    "liao",
+    "song"
+  ],
+  "desc": "开宝三年九月潘美出师，开宝四年二月克广州，俘刘鋹，南汉亡。宋得六十州，岭南并入宋。",
+  "sources": [
+    {
+      "work": "续资治通鉴",
+      "part": "卷6",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷2",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "pan-mei",
+      "name": "潘美",
+      "display": "潘美",
+      "birth": 925,
+      "birthAccuracy": "exact",
+      "death": 991,
+      "deathAccuracy": "exact",
+      "title": "从平岭南江南的开国元戎",
+      "bio": "从太祖平岭南、下江南，太宗朝为北路都部署攻太原。雍熙北伐独拔寰朔云应四州，陈家谷失利，坐削秩。淳化二年卒，年六十七，谥武惠。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-chang",
+      "name": "刘鋹",
+      "display": "南汉后主",
+      "birthAccuracy": "unknown",
+      "death": 980,
+      "deathAccuracy": "approx",
+      "deathNote": "《宋史》本传载太平兴国五年（980）卒于汴，今从之；生年无载。",
+      "title": "南汉亡国之君，火舰不效而降",
+      "bio": "中主刘晟之子，宝十三年嗣位。任阉臣龚澄枢、女官梁鸾儿辈，自谓群臣皆顾家不可信，故其臣多宦者。宋潘美克贺州、广州，火舰之策不效，衔榇出降，迁汴，封恩赦侯。太平兴国五年卒。",
+      "tags": [
+        "十国",
+        "南汉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

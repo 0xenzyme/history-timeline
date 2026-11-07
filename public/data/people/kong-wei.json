@@ -1,0 +1,57 @@
+{
+  "id": "kong-wei",
+  "name": "孔纬",
+  "display": "孔纬",
+  "birthAccuracy": "unknown",
+  "death": 895,
+  "deathAccuracy": "exact",
+  "title": "乾宁二年卒",
+  "bio": "昭宗朝同平章事。乾宁二年九月卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-ye",
+      "target": "kong-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昭宗朝为相，乾宁二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孔纬"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "孔纬传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "wuwei",
+  "name": "乌维单于",
+  "display": "乌维单于",
+  "birthAccuracy": "unknown",
+  "death": -105,
+  "deathAccuracy": "exact",
+  "polity": [
+    "xiongnu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "xiongnu"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "匈奴传上·卷094上",
+      "kind": "classic"
+    }
+  ]
+}

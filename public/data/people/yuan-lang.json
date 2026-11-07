@@ -1,0 +1,33 @@
+{
+  "id": "yuan-lang",
+  "name": "元朗",
+  "display": "北魏后废帝元朗",
+  "birth": 512,
+  "birthAccuracy": "approx",
+  "death": 532,
+  "deathAccuracy": "exact",
+  "birthNote": "生年无史料直书，由卒年与享年虚岁上推。据「後以罪殂於門下外省，時年二十」raw/北朝/魏書/卷11.md:72",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "卷011·废出三帝纪·后废帝",
+      "kind": "classic"
+    }
+  ]
+}

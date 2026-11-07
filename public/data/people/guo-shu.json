@@ -1,0 +1,76 @@
+{
+  "id": "guo-shu",
+  "name": "虢叔",
+  "display": "东虢虢叔",
+  "birthAccuracy": "unknown",
+  "death": -771,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见国语史伯论虢叔恃势，时当桓公为司徒，取镐京之年为可见下限。",
+  "title": "幽王时东虢之君",
+  "bio": "国语史伯：虢叔恃势。与惠王时虢公林父不是同一人。",
+  "tags": [
+    "虢"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "guo-shu",
+      "target": "ji-you",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯劝寄孥于虢，虢叔恃势"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "guo-shu",
+      "target": "shi-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "史伯论虢叔恃势"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "guo-jizibai",
+      "target": "guo-shu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同出虢氏，季子白为王季之后，虢叔为王季之弟支庶，皆为周室卿士"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "虢叔"
+  ],
+  "sources": [
+    {
+      "work": "国语",
+      "part": "郑语"
+    }
+  ]
+}

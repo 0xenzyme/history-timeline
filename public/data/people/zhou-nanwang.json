@@ -1,0 +1,83 @@
+{
+  "id": "zhou-nanwang",
+  "name": "周赧王",
+  "display": "周赧王",
+  "birthAccuracy": "unknown",
+  "death": -256,
+  "deathAccuracy": "exact",
+  "deathNote": "周本纪、年表：赧王延五十九年，与轴上秦灭东周（前256，mie-zhou）同岁而卒。",
+  "title": "东周末王",
+  "bio": "周王在位最长的一条、也是最后一条：合从攻秦、债台高筑之说出于后世，事败尽献其邑而卒。轴上mie-zhou一点正是他的结局，九鼎由此入秦。",
+  "tags": [
+    "周室",
+    "九鼎"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhou-nanwang",
+      "target": "zhou-xianwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "赧王延，显王之后；五十九年之位是周王最后、也是最长的一条"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-ji",
+      "target": "zhou-nanwang",
+      "type": "rival",
+      "directed": false,
+      "since": -256,
+      "notes": [
+        "求九鼎、取河南；赧王尽献其邑而卒，共主之条断于斯年"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "qin-mie-xizhou",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "赧王",
+    "王延"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    }
+  ]
+}

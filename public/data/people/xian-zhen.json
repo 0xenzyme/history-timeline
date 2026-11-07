@@ -1,0 +1,94 @@
+{
+  "id": "xian-zhen",
+  "name": "先轸",
+  "display": "先轸",
+  "birthAccuracy": "unknown",
+  "death": -627,
+  "deathAccuracy": "exact",
+  "title": "晋中军将，城濮主谋",
+  "bio": "城濮原轸之谋。文公卒，他力主击秦于殽，胜而不礼；狄伐晋，免胄入狄师而死。霸主死后一年，这条武将条就截住了。",
+  "tags": [
+    "晋国",
+    "城濮",
+    "殽之战"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-chonger",
+      "target": "xian-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -632,
+      "notes": [
+        "中军将，城濮主谋"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "hu-yan",
+      "target": "xian-zhen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "文公朝的谋主与中军"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "chengpu-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "ji-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "xiao-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "原轸"
+  ],
+  "sources": [
+    {
+      "work": "左传",
+      "part": "僖公二十八年",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "僖公三十三年",
+      "kind": "classic"
+    }
+  ]
+}

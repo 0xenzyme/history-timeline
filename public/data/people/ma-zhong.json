@@ -1,0 +1,72 @@
+{
+  "id": "ma-zhong",
+  "name": "马忠",
+  "display": "马忠",
+  "birthAccuracy": "unknown",
+  "death": 249,
+  "deathAccuracy": "exact",
+  "title": "蜀镇南大将军，坐镇南中",
+  "bio": "巴西阆中人，字德信。历汶山太守、庲降都督，处南中恩威并立，蛮夷畏而爱之；后入为镇南大将军，平尚书事。延熙十二年卒。",
+  "tags": [
+    "三国",
+    "蜀汉"
+  ],
+  "categories": [
+    "general",
+    "official"
+  ],
+  "primary": "general",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bei",
+      "target": "ma-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "刘备称为贤才，后为庲降都督"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "nanzheng-menghuo",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "zhuge-liang-nanzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "马忠",
+    "马德信"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书·黄李吕马王张传",
+      "kind": "classic"
+    }
+  ]
+}

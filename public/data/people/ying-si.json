@@ -1,0 +1,114 @@
+{
+  "id": "ying-si",
+  "name": "嬴驷",
+  "display": "秦惠文王",
+  "birth": -356,
+  "birthAccuracy": "approx",
+  "death": -311,
+  "deathAccuracy": "exact",
+  "birthNote": "《秦本纪》：惠文君三年王冠，正义引《礼记》二十行冠礼。元年为前 337 年，据此推算生于前 356 年前后，史无明载。",
+  "title": "秦王，车裂商鞅，用张仪取河西",
+  "bio": "孝公之子。即位当年车裂商鞅，法存而人亡。用张仪行连横，用司马错灭蜀，丹阳败楚取汉中。条从商鞅之死开始，铺到张仪连横之前。",
+  "tags": [
+    "秦国",
+    "连横"
+  ],
+  "categories": [
+    "monarch",
+    "diplomat"
+  ],
+  "polity": [
+    "qin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ying-quliang",
+      "target": "ying-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孝公卒，太子驷立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-dang",
+      "target": "ying-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠王卒，子荡立"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "ying-ji",
+      "target": "ying-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武王无子，异母弟稷自燕归，是为昭襄王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "shang-yang",
+      "target": "ying-si",
+      "type": "rival",
+      "directed": false,
+      "since": -338,
+      "notes": [
+        "孝公卒，太子立，宗室多怨鞅，车裂以徇"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chuli-zi",
+      "target": "ying-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠王庶弟，里中语曰力则任鄙、智则樗里"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "秦惠文王",
+    "秦惠王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "秦本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "张仪列传",
+      "kind": "classic"
+    }
+  ]
+}

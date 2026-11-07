@@ -1,0 +1,31 @@
+{
+  "id": "zhang-nan",
+  "name": "张南",
+  "display": "张南",
+  "birthAccuracy": "unknown",
+  "death": 222,
+  "deathAccuracy": "exact",
+  "polity": [
+    "shu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "shuhan"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "蜀书二 先主传",
+      "kind": "classic"
+    }
+  ]
+}

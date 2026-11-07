@@ -1,0 +1,125 @@
+{
+  "id": "shou-yanyun",
+  "name": "收复燕云",
+  "display": "收复燕云",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 2,
+  "year": 1122,
+  "yearAccuracy": "exact",
+  "yearNote": "宣和四年金人约夹攻，童贯出兵；郭药师袭燕失败，刘延庆溃于卢沟。宣和五年四月癸巳金以誓书及燕京等州来归。四月初一为 1123-04-28，癸巳仍在 1123。",
+  "endYear": 1123,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "song",
+    "liao"
+  ],
+  "people": [
+    "zhao-ji",
+    "tong-guan",
+    "wanyan-aguda"
+  ],
+  "result": "宋军攻燕失败。金取燕京后，把燕京与涿、易、檀、顺、景、蓟州交给宋，城中人口财物先被迁走。",
+  "aliases": [
+    "宣和伐辽",
+    "燕山之役"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "宣和四年，金约宋夹攻燕京，童贯出兵，郭药师袭燕失败，刘延庆溃于卢沟，宋军攻燕无功。宣和五年四月，金取燕京后把燕京与涿、易、檀、顺、景、蓟州交给宋，城中人口财物先被迁走。宋短时间取得燕山一路，北部边界发生实移。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷二十二",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-ji",
+      "name": "赵佶",
+      "display": "赵佶",
+      "birth": 1082,
+      "birthAccuracy": "exact",
+      "death": 1135,
+      "deathAccuracy": "exact",
+      "title": "宋徽宗，书画皇帝",
+      "bio": "神宗子，工书画、创瘦金体，宠蔡京等倡花石纲，朝政日非。宣和末金兵南下，传位钦宗；靖康被掳，卒于五国城。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "calligraphy",
+        "painting",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "tong-guan",
+      "name": "童贯",
+      "display": "童贯",
+      "birth": 1054,
+      "birthAccuracy": "exact",
+      "death": 1126,
+      "deathAccuracy": "exact",
+      "title": "握兵二十年的宦官封王",
+      "bio": "以供奉官投西北，握兵权二十年，收青唐、主燕云之役，以宦官封广阳郡王。金兵南下弃军而归，钦宗即位伏诛。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "eunuch",
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wanyan-aguda",
+      "name": "完颜阿骨打",
+      "display": "完颜阿骨打",
+      "birth": 1068,
+      "birthAccuracy": "exact",
+      "death": 1123,
+      "deathAccuracy": "exact",
+      "title": "金太祖，起兵反辽建大金",
+      "bio": "女真完颜部首领，以二千五百人起兵，出河店、护步答冈以少胜多，称帝建国大金。与宋约海上之盟夹攻辽，未及灭辽而卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

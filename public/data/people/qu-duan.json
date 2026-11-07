@@ -1,0 +1,79 @@
+{
+  "id": "qu-duan",
+  "name": "曲端",
+  "display": "曲端",
+  "birth": 1090,
+  "birthAccuracy": "approx",
+  "death": 1131,
+  "deathAccuracy": "exact",
+  "birthNote": "生年史无明文，通作约1090年。",
+  "deathNote": "绍兴元年（1131）就诛于恭州，为张浚所害。非绍兴十一年。",
+  "title": "川陕都统制，富平之战议不合",
+  "bio": "字平甫，镇戎人。警敏知书，善属文，长于兵略，为张浚所知。建炎末，浚开府川陕，以端为都统制，委以一面。富平之役，端先期以为未可战，议不合；既败，端言愈不用。其为人负才使气，不能下人，浚终以疑忌收之。绍兴元年，坐他狱，就诛于恭州。蜀中自是乏人，吴玠、吴璘始以战功显。",
+  "tags": [
+    "南宋",
+    "川陕",
+    "将帅"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhang-jun",
+      "target": "qu-duan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "张浚开府川陕，以端为都统制；富平之役议不合，终以疑忌就诛"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "han-shizhong",
+      "target": "qu-duan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "川陕与江淮两路名将，其才略互为南北倚重"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "曲端",
+    "曲平甫"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "曲端传",
+      "kind": "classic"
+    },
+    {
+      "work": "建炎以来系年要录",
+      "part": "绍兴元年",
+      "kind": "classic"
+    }
+  ]
+}

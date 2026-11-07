@@ -1,0 +1,100 @@
+{
+  "id": "guanzhong-gaige",
+  "name": "管仲改革",
+  "display": "管仲改革",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -685,
+  "yearAccuracy": "approx",
+  "yearNote": "改革起讫史无明文：以桓公即位用管仲（前685）为起点、管仲卒（桓公四十一年＝前645，史记齐世家「是歲，管仲、隰朋皆卒」）为终点作approx区间；制度细目见国语齐语（制国二十一乡、五家为轨以为军令、相地而衰征、官山海散见诸篇）。",
+  "endYear": -645,
+  "endYearAccuracy": "approx",
+  "endYearNote": "以管仲卒年（齐桓公四十一年，前645）作为改革阶段的收束锚点；改革制度的影响持续到齐桓公晚年以后。",
+  "polity": [
+    "qi"
+  ],
+  "people": [
+    "guan-zhong",
+    "jiang-xiaobai"
+  ],
+  "aliases": [
+    "作内政而寄军令",
+    "相地而衰征",
+    "参国伍鄙",
+    "轻重鱼盐之利"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "管仲相齐，参国伍鄙：制国以为二十一乡（工商之乡六、士乡十五），作内政而寄军令；伍鄙则相地而衰征；又设轻重鱼盐之利以赡贫穷、禄贤能。齐国由此富强，霸政有了制度底座。",
+  "sources": [
+    {
+      "work": "國語·齊語",
+      "part": "齊語",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·齊太公世家",
+      "part": "襄公之乱至桓公立",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·齊太公世家",
+      "part": "桓公四十一年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guan-zhong",
+      "name": "管夷吾",
+      "display": "管仲",
+      "birthAccuracy": "unknown",
+      "death": -645,
+      "deathAccuracy": "exact",
+      "title": "齐桓公相",
+      "bio": "颍上人。鲍叔牙囚中荐之。相齐四十年，富国强兵，尊王攘夷。桓公的条有多长，他的条几乎就有多长。",
+      "tags": [
+        "齐国",
+        "改革"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jiang-xiaobai",
+      "name": "姜小白",
+      "display": "齐桓公",
+      "birthAccuracy": "unknown",
+      "death": -643,
+      "deathAccuracy": "exact",
+      "title": "春秋首霸",
+      "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
+      "tags": [
+        "齐国"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

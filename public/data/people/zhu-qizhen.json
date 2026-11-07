@@ -1,0 +1,166 @@
+{
+  "id": "zhu-qizhen",
+  "name": "朱祁镇",
+  "display": "明英宗朱祁镇",
+  "birth": 1427,
+  "birthAccuracy": "exact",
+  "death": 1464,
+  "deathAccuracy": "exact",
+  "title": "土木堡被俘的皇帝",
+  "bio": "九岁即位，宠王振酿土木堡之变，为瓦剌所俘；归后幽禁南宫，复辟杀于谦。两度在位，命运独奇。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-qizhen",
+      "target": "yu-qian",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1449,
+      "notes": [
+        "土木堡后于谦督师守北京"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "yu-qian",
+      "target": "zhu-qizhen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "南宫复辟，以冤罪杀于谦"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "zhu-zhanji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，宣宗传英宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-qiyu",
+      "target": "zhu-qizhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟，英宗北狩，景帝代位"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-jianshen",
+      "target": "zhu-qizhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，英宗传宪宗"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "wang-zhen-ming",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1442,
+      "notes": [
+        "司礼监窃持威福，劝帝亲征"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "ye-xian",
+      "target": "zhu-qizhen",
+      "type": "rival",
+      "directed": false,
+      "since": 1449,
+      "notes": [
+        "土木堡之败，帝为其所俘"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "xu-you-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "夺门之谋主，以功入阁而旋败"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-qizhen",
+      "target": "li-xian-ming",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "复位后入阁掌吏部，抑曹石之党"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "duomen-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tumu-zhibian",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "英宗本纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "li-long-ji",
+  "name": "李隆基",
+  "display": "唐玄宗李隆基",
+  "birth": 685,
+  "birthAccuracy": "exact",
+  "death": 762,
+  "deathAccuracy": "exact",
+  "title": "唐玄宗，开元盛世与天宝之乱",
+  "bio": "李旦第三子，神龙后为临淄王，与太平公主合谋诛韦后，先天二年又诛太平公主，始专朝政。开元之世用姚崇、宋璟、张说、张九龄，海内富实，号为开元盛世。天宝以后宠杨贵妃，任李林甫、杨国忠，安禄山反，京师陷，奔蜀而禅位肃宗。宝应元年崩于西内神龙殿，年七十八。",
+  "tags": [
+    "唐",
+    "开元"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "yao-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "姚崇十事要说，开元之首"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "song-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "姚宋相继，刑政清明"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "yang-yu-huan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宠杨贵妃，姊妹兄弟皆列侯"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "an-lu-shan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宠任安禄山，授范阳节度"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "jian-zhen",
+      "target": "li-long-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "六次东渡赴日，玄宗时成行"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "yi-xing",
+      "target": "li-long-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "僧一行修《大衍历》，玄宗时测子午线"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "li-lin-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "口蜜腹剑，专相位十九年，壅蔽言路"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-dan",
+      "target": "li-long-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，睿宗传玄宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-heng",
+      "target": "li-long-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，玄宗传肃宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wu-hui-fei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "开元宠妃，二十五年十二月薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wang-zhong-si",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天宝中贬汉阳，明年暴卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wei-an-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载700至706年在任，开元二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "liu-you-qiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载710至713年在任，开元三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wei-zhi-gu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载711至714年在任，开元三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "pei-yao-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载733至736年在任，天宝初卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "niu-xian-ke",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载736至742年在任，天宝元年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "xiao-zhi-zhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "先天二年与太平公主谋逆，伏诛"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "zhang-shuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "玄宗朝为中书令，开元十八年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "yuan-qian-yao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "玄宗朝为侍中，开元十九年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "li-yuan-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "玄宗朝为相，开元二十一年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "tai-ping-gong-zhu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "先天二年谋废玄宗，赐死于家"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "da-zu-rong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "受唐册封，为渤海郡王"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "anshi-zhiluan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "kaiyuan-shengshi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mawei-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tanglong-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xiantian-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "李隆基",
+    "唐玄宗",
+    "唐明皇"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "玄宗纪",
+      "kind": "classic"
+    }
+  ]
+}

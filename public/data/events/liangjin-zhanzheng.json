@@ -1,0 +1,128 @@
+{
+  "id": "liangjin-zhanzheng",
+  "name": "梁晋战争",
+  "display": "梁晋",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "war",
+  "importance": 3,
+  "year": 908,
+  "yearAccuracy": "exact",
+  "yearNote": "起开平二年（908）李克用卒、李存勖嗣晋王，梁晋交兵；止同光元年（923）汴州陷落。907年朱温代唐后河东已与梁绝，通鉴以908年为战端。",
+  "endYear": 923,
+  "endYearAccuracy": "exact",
+  "belligerents": [
+    "hou-tang",
+    "hou-liang"
+  ],
+  "people": [
+    "li-cunxu",
+    "zhu-wen",
+    "zhu-zhen"
+  ],
+  "result": "梁晋夹河十余年，柏乡决胜负；923年汴州陷，后梁亡，河东入定中原。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "开平二年，李克用卒，李存勖嗣晋王，梁晋兵连不解。朱温据汴洛，挟中原之众；存勖保太原，以沙陀骑逐燕。柏乡一战，梁军歼于河北，攻守势易。夹河之守十余年，存勖称帝魏州，袭汴州，朱友贞死，梁亡。河东政权自晋而唐，得河北、并、汴、洛之地，五代第一大战由此定。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后梁纪·开平二年、后唐纪·同光元年",
+      "kind": "classic"
+    },
+    {
+      "work": "旧五代史",
+      "part": "庄宗本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [
+    "baixiang-zhizhan",
+    "houtang-mie-liang"
+  ],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-cunxu",
+      "name": "李存勖",
+      "display": "后唐庄宗",
+      "birth": 885,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "后唐庄宗，三矢雪耻而亡于伶人",
+      "bio": "李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。",
+      "tags": [
+        "五代",
+        "后唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-wen",
+      "name": "朱温",
+      "display": "朱温",
+      "birth": 852,
+      "birthAccuracy": "exact",
+      "death": 912,
+      "deathAccuracy": "exact",
+      "title": "后梁太祖，本黄巢将，代唐而建梁",
+      "bio": "宋州砀山午沟里人，父诚为经学教授。少孤贫，佣食萧县，后从黄巢，巢势衰遂降唐，赐名全忠，为宣武节度使，据汴州。天祐元年挟昭宗迁洛，弑之而立哀帝，四年受禅，国号梁，改名晃。既而猜忌日甚，乾化二年为其子友珪所弑于寝殿，年六十一。唐祚二百八十九年，亡于其手。",
+      "tags": [
+        "唐",
+        "五代",
+        "亡唐"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang",
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-zhen",
+      "name": "朱瑱",
+      "display": "后梁末帝",
+      "birthAccuracy": "unknown",
+      "death": 923,
+      "deathAccuracy": "exact",
+      "title": "后梁末帝，汴城死社稷",
+      "bio": "朱温第四子，初名友贞，后单名瑱。乾化二年合禁军诛友珪自立，宠信赵岩、张汉杰，疏远宗室，大将疑贰。龙德三年唐师压境，汴州援绝，谓皇甫麟曰\"吾不为唐俘\"，令其杀己，梁亡。",
+      "tags": [
+        "五代",
+        "后梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,114 @@
+{
+  "id": "tao-kan",
+  "name": "陶侃",
+  "display": "陶侃",
+  "birth": 259,
+  "birthAccuracy": "exact",
+  "death": 334,
+  "deathAccuracy": "exact",
+  "title": "太尉，平苏峻，运甓习劳",
+  "bio": "鄱阳人，后徙庐江寻阳。少孤贫，为县吏。以军功至荆州刺史、太尉，都督八州诸军事。平张昌、杜弢、苏峻之乱，为东晋第一支柱。在州无事，辄朝运百甓于斋外，暮运于斋内，人问其故，曰「吾方致力中原，过尔优逸，恐不堪事」。咸和九年卒，年七十六。",
+  "tags": [
+    "东晋",
+    "寒门"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tao-kan",
+      "target": "tao-yuanming",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曾祖孙，渊明不为五斗米折腰"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "tao-kan",
+      "target": "wen-qiao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "推侃为盟主"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "tao-kan",
+      "target": "xi-jian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同讨苏峻，鉴守京口"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "su-jun",
+      "target": "tao-kan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "侃为盟主，率舟军四万屯蔡洲讨峻"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "tao-kan",
+      "target": "zhou-fang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "相者言二君位至方岳，功名略同"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sujun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "陶侃",
+    "陶士行"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "陶侃传",
+      "kind": "classic"
+    }
+  ]
+}

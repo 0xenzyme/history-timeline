@@ -1,0 +1,66 @@
+{
+  "id": "yang-rong",
+  "name": "杨荣",
+  "display": "杨荣",
+  "birth": 1371,
+  "birthAccuracy": "exact",
+  "death": 1440,
+  "deathAccuracy": "exact",
+  "title": "三杨之一，长于应变",
+  "bio": "字勉仁，建安人。历事四朝，北征之役、宣宗之平汉王皆预其谋; 1440 年卒于还朝道中。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-rong",
+      "target": "yang-shiqi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为三杨，历事四朝"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-di",
+      "target": "yang-rong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "长于应变，扈从北征而决大议于马上"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "杨荣传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "duan-siping",
+  "name": "段思平",
+  "display": "大理太祖",
+  "birth": 893,
+  "birthAccuracy": "approx",
+  "death": 944,
+  "deathAccuracy": "approx",
+  "birthNote": "生年出野史所记，世系年月多有出入，故系约略。",
+  "deathNote": "卒年诸书并作公元 944 年，在位八年。",
+  "title": "大理太祖，三十七部所推",
+  "bio": "南诏大将段俭魏之后，家世为滇中著姓。杨氏虐政，思平以通海节度使联结滇东三十七部，誓约轻徭薄赋，起兵西上，灭大义宁，937 年建国号大理，改元文德，都羊苴咩城。尽除杨氏苛令，通商农、修水利，崇佛，岁岁建寺。大理之祚三百年，自思平始。",
+  "tags": [
+    "云南",
+    "大理"
+  ],
+  "categories": [
+    "monarch",
+    "founding",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "dali"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "yunnan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "duan-siping",
+      "target": "yang-zhao-yining",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "联三十七部起兵，灭大义宁"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "duan-siping",
+      "target": "duan-siying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，思英逾年而为僧"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dali-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "南诏野史",
+      "part": "大理国",
+      "kind": "classic"
+    },
+    {
+      "work": "滇载记",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ji-fucha",
+  "name": "姬夫差",
+  "display": "吴王夫差",
+  "birthAccuracy": "unknown",
+  "death": -473,
+  "deathAccuracy": "exact",
+  "title": "吴末代之王",
+  "bio": "报檇李，败越于夫椒，许勾践成。北上争霸，不听子胥。黄池之后，越入吴，他自杀。短于勾践的那一截，是灭国。",
+  "tags": [
+    "吴国",
+    "黄池"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "wu-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "south"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-fucha",
+      "target": "wu-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "子胥屡谏赦越，后赐属镂"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-fucha",
+      "target": "wu-yuan",
+      "type": "rival",
+      "directed": false,
+      "since": -484,
+      "notes": [
+        "不听谏而赐死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-fucha",
+      "target": "si-goujian",
+      "type": "rival",
+      "directed": false,
+      "since": -494,
+      "notes": [
+        "夫椒、会稽到灭吴"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ailing-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "fujiao-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "huangchi-zhihui",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "lize-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "wuyue-zhanzheng",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yue-mie-wu",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "吴王夫差"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "吴太伯世家",
+      "kind": "classic"
+    },
+    {
+      "work": "左传",
+      "part": "哀公二十二年",
+      "kind": "classic"
+    }
+  ]
+}

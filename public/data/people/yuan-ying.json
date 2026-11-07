@@ -1,0 +1,54 @@
+{
+  "id": "yuan-ying",
+  "name": "元英",
+  "display": "元英",
+  "birthAccuracy": "unknown",
+  "death": 510,
+  "deathAccuracy": "exact",
+  "deathNote": "「永平三年，英薨」（魏书·元英传）。",
+  "title": "北魏宗室名将，统军南征，淮南汉水之间无所不至",
+  "tags": [
+    "南北朝",
+    "北魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "zhongli-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "元英",
+    "字虎儿",
+    "献武王"
+  ],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "元英传",
+      "kind": "classic"
+    }
+  ]
+}

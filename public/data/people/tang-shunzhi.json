@@ -1,0 +1,67 @@
+{
+  "id": "tang-shunzhi",
+  "name": "唐顺之",
+  "display": "唐顺之",
+  "birth": 1507,
+  "birthAccuracy": "exact",
+  "death": 1560,
+  "deathAccuracy": "exact",
+  "title": "古文家而通兵法",
+  "bio": "字应德，武进人。倡唐宋古文之统，又究天文乐律兵法; 嘉靖末起为兵部郎中视师海上御倭，卒于广陵舟中。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "literature",
+    "general"
+  ],
+  "primary": "literature",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "qi-jiguang",
+      "target": "tang-shunzhi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同在东南海防，一文一武"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "zhu-houcong",
+      "target": "tang-shunzhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以兵部郎中视师海上，卒于舟中"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "唐顺之传",
+      "kind": "classic"
+    }
+  ]
+}

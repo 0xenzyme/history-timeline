@@ -1,0 +1,102 @@
+{
+  "id": "beiwei-mie-beiliang",
+  "name": "北魏灭北凉",
+  "display": "北魏灭北凉",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 439,
+  "yearAccuracy": "exact",
+  "place": "姑臧",
+  "placeNow": "今甘肃武威",
+  "belligerents": [
+    "bei",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "tuoba-tao",
+      "side": "bei"
+    }
+  ],
+  "people": [
+    "tuoba-tao",
+    "juqu-muqian"
+  ],
+  "result": "沮渠牧犍出降，北凉亡，北魏完成北方统一",
+  "parent": "beiwei-tongyi-beifang",
+  "aliases": [
+    "魏灭北凉"
+  ],
+  "dynasties": [
+    "shiliuguo",
+    "northern-southern"
+  ],
+  "desc": "439 年（太延五年）太武帝以沮渠牧犍“外从正朔、内实乖异”为名亲征北凉，渡弱水围姑臧。牧犍兄子举城开门内应，牧犍面缚出降，凉地郡县皆下。黄河流域最后一块割据政权覆灭，南北朝对峙格局就此定型。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "世祖纪下",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "tuoba-tao",
+      "name": "拓跋焘",
+      "display": "太武帝拓跋焘",
+      "birth": 408,
+      "birthAccuracy": "exact",
+      "death": 452,
+      "deathAccuracy": "exact",
+      "title": "北魏太武帝，统一北方，灭佛",
+      "bio": "鲜卑拓跋部人，明元帝长子。在位连灭夏、北燕、北凉，击柔然、通西域，北方一统。太延中征江南，至瓜步而还，江左震动。太平真君七年诏尽诛沙门、毁诸佛像塔寺，为中国佛教三武之祸之始。正平二年为中常侍宗爱所弑，年四十五。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "juqu-muqian",
+      "name": "沮渠牧犍",
+      "display": "河西王沮渠牧犍",
+      "birthAccuracy": "unknown",
+      "death": 447,
+      "deathAccuracy": "exact",
+      "deathNote": "传文先书真君八年搜其家，至此赐昭仪死，是年赐牧犍死。",
+      "title": "北凉末主，真君八年赐死",
+      "bio": "蒙逊死后继为河西王。太武平凉后仍待以妹婿。真君八年有人告他与故臣民交通，崔浩奉诏在公主第赐死。",
+      "tags": [
+        "南北朝",
+        "北凉"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

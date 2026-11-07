@@ -1,0 +1,66 @@
+{
+  "id": "houjin-jianguo",
+  "name": "后金建国",
+  "display": "后金建国",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1616,
+  "yearAccuracy": "exact",
+  "yearNote": "天命元年正月。公历 1616。国号是金，一六三六年才称大清。词表没有后金，政权用 qing。",
+  "polity": [
+    "qing"
+  ],
+  "people": [
+    "nu-er-ha-chi"
+  ],
+  "result": "建元天命，定国号曰金",
+  "aliases": [
+    "天命建元"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "天命元年正月壬申朔，努尔哈赤即位，建元天命，定国号曰金。此年国号是金，一六三六年才称大清。词表没有后金，本条政权用 qing。不把称大清再立一条。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷一",
+      "note": "天命元年正月壬申朔即位，建元天命，定国号曰金",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "nu-er-ha-chi",
+      "name": "努尔哈赤",
+      "display": "努尔哈赤",
+      "birth": 1559,
+      "birthAccuracy": "exact",
+      "death": 1626,
+      "deathAccuracy": "exact",
+      "title": "后金大汗",
+      "bio": "建州女真酋长，统一诸部，1616 年建后金称汗，创八旗、定满文，奠定清之基。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

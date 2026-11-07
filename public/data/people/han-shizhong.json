@@ -1,0 +1,88 @@
+{
+  "id": "han-shizhong",
+  "name": "韩世忠",
+  "display": "韩世忠",
+  "birth": 1089,
+  "birthAccuracy": "exact",
+  "death": 1151,
+  "deathAccuracy": "exact",
+  "title": "蕲王，黄天荡阻金",
+  "bio": "延安人，行伍起家，扈从高宗南渡。黄天荡以八千邀击兀术十万，几擒之；后与岳飞同遭抑，纵酒终老。",
+  "tags": [
+    "宋",
+    "南宋",
+    "抗金"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-shizhong",
+      "target": "yue-fei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "抗金双璧，同遭抑勒"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "han-shizhong",
+      "target": "qu-duan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "川陕与江淮两路名将，其才略互为南北倚重"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huangtiandang-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "jinjun-dujiang",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shaoxing-shoubing",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "韩世忠传",
+      "kind": "classic"
+    }
+  ]
+}

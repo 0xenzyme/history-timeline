@@ -1,0 +1,67 @@
+{
+  "id": "he-zongyan",
+  "name": "何宗彦",
+  "display": "何宗彦",
+  "birthAccuracy": "unknown",
+  "death": 1624,
+  "deathAccuracy": "exact",
+  "deathNote": "天启四年正月卒于官。",
+  "title": "天启大学士",
+  "bio": "光宗立，即家拜礼部尚书兼东阁大学士。天启元年还朝，四年正月卒于官。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-youxiao",
+      "target": "he-zongyan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天启元年还朝，四年正月卒于官"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "he-zongyan",
+      "target": "ye-xianggao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "光宗即位同被召还，天启初共支撑门户"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "何宗彦传",
+      "kind": "classic"
+    }
+  ]
+}

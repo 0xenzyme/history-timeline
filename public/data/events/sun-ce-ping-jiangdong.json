@@ -1,0 +1,141 @@
+{
+  "id": "sun-ce-ping-jiangdong",
+  "name": "孙策平定江东",
+  "display": "孙策平定江东",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 3,
+  "year": 195,
+  "yearAccuracy": "approx",
+  "yearNote": "三国志·吴书·孙破虏讨逆传注引江表传「是岁兴平二年也」、资治通鉴卷61均系渡江击刘繇于兴平二年（195），起点另有兴平元年（194）说；终点以建安四年（199）袭皖、破沙羡、入豫章为江东平定（通鉴卷63），孙策200年卒，亦有系至200者。",
+  "endYear": 199,
+  "endYearAccuracy": "approx",
+  "endYearNote": "平定终点有建安四年（199）入豫章与建安五年（200）孙策卒两说，取199。",
+  "place": "曲阿（渡江首战主战场，战役范围跨牛渚、会稽、皖、沙羡、豫章）",
+  "placeNow": "今江苏丹阳",
+  "belligerents": [
+    "wu",
+    "minbian"
+  ],
+  "commanders": [
+    {
+      "id": "sun-ce",
+      "side": "wu"
+    },
+    {
+      "id": "zhou-yu",
+      "side": "wu"
+    }
+  ],
+  "people": [
+    "sun-ce",
+    "zhou-yu",
+    "taishi-ci"
+  ],
+  "result": "孙策以数千之众渡江（袁术所给千余，比至历阳已众五六千），连破刘繇、严白虎、王朗、刘勋、黄祖，至199年取豫章，据有江东，奠定孙吴立国之基",
+  "aliases": [
+    "孙策平江东",
+    "孙策渡江",
+    "曲阿之战"
+  ],
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "195 年孙策得袁术所给千余兵，行收兵至五六千而渡江击刘繇，破牛渚、入曲阿，太史慈与之神亭交手，后归其麾下；继取会稽王朗、严白虎诸部。199 年袭皖破刘勋、击黄祖于沙羡，兵临豫章，华歆出降，江东大定。孙策据此奠定孙吴立国之基，无此战则无赤壁之吴。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·孙破虏讨逆传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷六十一、卷六十三",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sun-ce",
+      "name": "孙策",
+      "display": "孙策",
+      "birth": 175,
+      "birthAccuracy": "exact",
+      "death": 200,
+      "deathAccuracy": "exact",
+      "title": "讨逆将军，定江东，遇刺而亡",
+      "bio": "孙坚长子，年十余已结知名士。以袁术所余千余兵渡江，五年间平定吴、会稽、丹阳、豫章、庐陵，江东遂定。美姿颜，能笑语，人称孙郎。建安五年猎于丹徒，为许贡客所射，创甚而卒，年二十六，弟权代之。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhou-yu",
+      "name": "周瑜",
+      "display": "周瑜",
+      "birth": 175,
+      "birthAccuracy": "exact",
+      "death": 210,
+      "deathAccuracy": "exact",
+      "title": "偏将军，赤壁纵火，三十六而卒",
+      "bio": "庐江舒人，长壮有姿貌，与孙策同年，独相友善。策死，与张昭共掌众事。建安十三年曹操下荆州，瑜力主拒战，与刘备合兵，赤壁纵火，操军大溃。后进图益州，道卒巴丘，年三十六。江东之条以他为最亮的一段。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "taishi-ci",
+      "name": "太史慈",
+      "display": "太史慈",
+      "birth": 166,
+      "birthAccuracy": "exact",
+      "death": 206,
+      "deathAccuracy": "exact",
+      "title": "建昌都尉，猿臂善射，北海突围",
+      "bio": "东莱黄人，少好学，为郡奏曹史。孔融被围都昌，慈突围求救于刘备，得精兵三千而围解。后归孙策，策曰「子义舍我，当复与谁」。建安十一年卒，年四十一，临死叹曰「丈夫生世，当带七尺之剑，以升天子之阶」。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,408 @@
+{
+  "id": "western-han",
+  "name": "西汉",
+  "from": -202,
+  "to": 8,
+  "contractVersion": 1,
+  "group": "qin-han",
+  "personCount": 211,
+  "eventCount": 28,
+  "founderRecords": [],
+  "topics": [
+    "han",
+    "rujia"
+  ],
+  "people": [
+    {
+      "id": "liu-bang",
+      "name": "刘邦",
+      "display": "汉高祖",
+      "birth": -256,
+      "birthAccuracy": "disputed",
+      "death": -195,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 256、前 247 两说",
+      "title": "西汉开国皇帝",
+      "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
+      "tags": [
+        "布衣天子"
+      ],
+      "categories": [
+        "founding"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-ying",
+      "name": "刘盈",
+      "display": "汉惠帝",
+      "birth": -210,
+      "birthAccuracy": "exact",
+      "death": -188,
+      "deathAccuracy": "exact",
+      "title": "西汉第二位皇帝",
+      "bio": "高祖太子，前 195 年即位。吕后实际掌权，在位七年。惠帝的条很短，权在吕后那一条上。",
+      "tags": [
+        "汉"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-heng",
+      "name": "刘恒",
+      "display": "汉文帝",
+      "birth": -203,
+      "birthAccuracy": "approx",
+      "death": -157,
+      "deathAccuracy": "exact",
+      "title": "西汉第五位皇帝",
+      "bio": "代王入继大统。轻徭薄赋、废除肉刑，与景帝两朝合称「文景之治」，是汉初休养生息的顶点。",
+      "tags": [
+        "文景之治",
+        "无为而治"
+      ],
+      "categories": [
+        "monarch",
+        "huanglao"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-qi",
+      "name": "刘启",
+      "display": "汉景帝",
+      "birth": -188,
+      "birthAccuracy": "exact",
+      "death": -141,
+      "deathAccuracy": "exact",
+      "title": "西汉第六位皇帝",
+      "bio": "用晁错之策削藩，引发七国之乱；乱平之后中央集权大定，为武帝的扩张留下完整的国力。",
+      "tags": [
+        "削藩",
+        "文景之治"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-fuling",
+      "name": "刘弗陵",
+      "display": "汉昭帝",
+      "birth": -94,
+      "birthAccuracy": "exact",
+      "death": -74,
+      "deathAccuracy": "exact",
+      "title": "西汉第八位皇帝",
+      "bio": "八岁即位，霍光辅政。轻徭薄赋、与匈奴和亲，扭转武帝末年凋敝，二十一岁早崩。",
+      "tags": [
+        "霍光辅政",
+        "早崩"
+      ],
+      "categories": [
+        "monarch",
+        "regent"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "gaixia-zhizhan",
+      "name": "垓下之战",
+      "display": "垓下之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -202,
+      "yearAccuracy": "exact",
+      "place": "垓下",
+      "placeNow": "今安徽灵璧一带",
+      "belligerents": [
+        "han",
+        "chu-han"
+      ],
+      "result": "楚军覆败，项羽自杀，楚汉战争结束",
+      "dynasties": [
+        "western-han"
+      ],
+      "desc": "汉军会同诸侯军围困项羽于垓下，楚军突围失败，项羽退至乌江自杀。西楚政权覆亡，刘邦取得楚汉战争的决定性胜利。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "项羽本纪、高祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "汉书",
+          "part": "高帝纪上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "han-jian-guo",
+      "name": "刘邦称帝，西汉建立",
+      "display": "刘邦称帝，西汉建立",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -202,
+      "yearAccuracy": "exact",
+      "polity": [
+        "han"
+      ],
+      "result": "刘邦即皇帝位，西汉政权建立",
+      "dynasties": [
+        "western-han"
+      ],
+      "desc": "垓下之战后，诸侯王共同尊刘邦为皇帝。刘邦在定陶氾水之阳即位，汉朝由诸侯王国转为统治天下的中央政权，随后定都长安。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "高祖本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "汉书",
+          "part": "高帝纪下",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "baideng-zhiwei",
+      "name": "白登之围",
+      "display": "白登之围",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -200,
+      "yearAccuracy": "exact",
+      "place": "白登山",
+      "placeNow": "今山西大同东北",
+      "belligerents": [
+        "han",
+        "xiongnu"
+      ],
+      "result": "汉军突围南还，汉匈关系转入以和亲和边境防御为主的阶段",
+      "dynasties": [
+        "western-han"
+      ],
+      "desc": "刘邦北击韩王信余部并追击匈奴，主力在白登山被冒顿单于骑兵围困。汉军脱围后不再贸然深入草原，汉匈关系此后长期以和亲、守边与局部冲突并行。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "高祖本纪、匈奴列传",
+          "kind": "classic"
+        },
+        {
+          "work": "汉书",
+          "part": "高帝纪下、匈奴传上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhulv-zhiluan",
+      "name": "诸吕之乱",
+      "display": "诸吕之乱",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -180,
+      "yearAccuracy": "exact",
+      "yearNote": "高后八年（前 180 年），周勃、陈平诛诸吕、废少帝，本纪纪年直接可查。",
+      "place": "长安",
+      "placeNow": "今陕西西安",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "zhou-bo",
+        "chen-ping",
+        "lv-chan",
+        "lv-lu"
+      ],
+      "result": "诸吕尽诛，少帝废，刘氏皇权复归",
+      "aliases": [
+        "诛诸吕"
+      ],
+      "dynasties": [
+        "western-han"
+      ],
+      "desc": "高后八年（前 180 年），吕后崩后，周勃、陈平与朱虚侯刘章等合谋诛灭诸吕，尽斩吕产、吕禄，废少帝，迎立代王刘恒即位，是为汉文帝。诛诸吕、废少帝、迎立文帝为连续一事，刘氏皇权由此复归。",
+      "sources": [
+        {
+          "work": "史記",
+          "part": "卷九 呂太后本紀",
+          "kind": "classic"
+        },
+        {
+          "work": "漢書",
+          "part": "卷三 高后紀",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qiguo-zhi-luan",
+      "name": "七国之乱",
+      "display": "七国之乱",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": -154,
+      "yearAccuracy": "exact",
+      "polity": [
+        "han"
+      ],
+      "result": "吴楚等七国兵败，中央进一步削弱同姓诸侯王的政治与军事权力",
+      "aliases": [
+        "吴楚七国之乱"
+      ],
+      "dynasties": [
+        "western-han"
+      ],
+      "desc": "景帝推行削藩后，吴王刘濞联合楚、赵、胶西等国，以“诛晁错、清君侧”为名起兵。汉廷虽诛晁错，叛军仍继续进攻；周亚夫控制粮道，诸王军迅速瓦解。此后诸侯国的行政、财政和军事自主权继续收缩。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "吴王濞列传",
+          "kind": "classic"
+        },
+        {
+          "work": "汉书",
+          "part": "景帝纪、荆燕吴传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhangqian-tong-xiyu",
+      "name": "张骞通西域",
+      "display": "张骞通西域",
+      "kind": "point",
+      "type": "diplomatic",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -138,
+      "yearAccuracy": "approx",
+      "yearNote": "通史与教科书以建元三年（前138）为使年。《汉书·张骞传》只记「建元中为郎」「留骞十余岁」与「初，骞行时百余人，去十三岁，唯二人得还」，未书出使之年；《资治通鉴》卷18叙其还于元朔三年（前126），上推十三年得前138。两说相合而本纪无明文，故标 approx。元朔三年还长安，元狩四年（前119）再使乌孙。",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "liu-che",
+        "zhang-qian"
+      ],
+      "result": "张骞两使西域，凿空通道，汉遣副使分抵大宛、康居、大月氏，西北国始通于汉",
+      "aliases": [
+        "凿空西域",
+        "张骞使西域",
+        "qian138-zhangqian"
+      ],
+      "dynasties": [
+        "western-han"
+      ],
+      "desc": "匈奴降者言月氏遁逃而怨匈奴，无与共击之，武帝欲通使以断其右臂。建元中，汉中人张骞以郎应募，使月氏，与堂邑父俱出陇西，径匈奴中，单于留骞十余岁，予妻有子，而骞持汉节不失。骞间亡，西走至大宛，宛为发导译抵康居，传致大月氏；月氏既臣大夏而君之，地肥饶少寇，殊无报胡之心。骞留岁余，还，并南山欲从羌中归，复为匈奴所得，留岁余，会单于死国内乱，乃与胡妻及堂邑父俱亡归汉。初行时百余人，去十三岁，唯二人得还，拜骞太中大夫。元狩四年，骞复以中郎将率三百人使乌孙，多持节副使，道可便遣之他旁国；骞卒后，所遣副使通大夏之属者皆颇与其人俱来，西北国始通于汉。\n\n骞身所至大宛、大月氏、大夏、康居，传闻其旁大国五六，具为天子言其地形所有。张骞由是凿空西域，汉与西亚的官道自此开，此后使者相望于道，一辈大者数百、少者百余人，西南夷与身毒之道亦由此知。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷061·张骞李广利传",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷123·大宛列传",
+          "kind": "classic"
+        },
+        {
+          "work": "汉书",
+          "part": "卷096上·西域传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷018",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

@@ -1,0 +1,163 @@
+{
+  "id": "gao-huan",
+  "name": "高欢",
+  "display": "高欢",
+  "birth": 496,
+  "birthAccuracy": "exact",
+  "death": 547,
+  "deathAccuracy": "exact",
+  "title": "东魏权臣，北齐之基，玉壁折戟",
+  "bio": "渤海蓨人，本出怀朔镇兵户。从尔朱荣，后得六镇余众，讨灭尔朱氏，立孝静帝，迁都邺，自居晋阳，东魏政皆出之。天平四年围玉壁，攻城五十余日，士卒死者七万，疾作而退。武定五年卒于晋阳，年五十二，子澄、洋相继，遂建北齐。",
+  "tags": [
+    "北朝",
+    "东魏",
+    "北齐之基"
+  ],
+  "categories": [
+    "regent",
+    "official",
+    "general"
+  ],
+  "primary": "regent",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-huan",
+      "target": "yuwen-tai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "高欢东魏、宇文泰西魏，东西对峙"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-huan",
+      "target": "yuan-shanjian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "出帝入关，齐献武王与百僚推善见为帝"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-huan",
+      "target": "gao-yang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。文宣为高祖第二子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-huan",
+      "target": "gao-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。孝昭为神武第六子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-huan",
+      "target": "gao-zhan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。武成为神武第九子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-huan",
+      "target": "lou-zhaojun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "神武明皇后。密谋常参预，大宁二年崩"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beiwei-fenlie",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "hanling-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "heqiao-zhizhan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "mangshan-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "shayuan-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "yubi-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "高欢",
+    "高贺六浑",
+    "齐神武帝"
+  ],
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "神武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

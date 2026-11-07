@@ -1,0 +1,81 @@
+{
+  "id": "zhai-rang",
+  "name": "翟让",
+  "display": "翟让",
+  "birthAccuracy": "unknown",
+  "death": 617,
+  "deathAccuracy": "exact",
+  "title": "瓦岗之首，让位于李密而见杀",
+  "bio": "东郡韦城人，为东都法曹，坐事当斩，亡命入瓦岗，聚众至万余，号瓦岗军。大业十二年李密来投，说以取洛口仓，让推密为主，号魏公。次年密忌让，置酒宴而伏兵杀之，徐世勣亦几不免。瓦岗既内溃，遂不复振。",
+  "tags": [
+    "隋末",
+    "瓦岗"
+  ],
+  "categories": [
+    "warlord"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "mowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-shichong",
+      "target": "zhai-rang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "瓦岗兴于翟让，终为王世充所并"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "li-mi",
+      "target": "zhai-rang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "让推密为主，旋为密所杀"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "suimo-nongmin-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wagang-xingluocang",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "翟让"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "李密传",
+      "kind": "classic"
+    }
+  ]
+}

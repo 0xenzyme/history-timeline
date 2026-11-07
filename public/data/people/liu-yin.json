@@ -1,0 +1,67 @@
+{
+  "id": "liu-yin",
+  "name": "刘因",
+  "display": "刘因",
+  "birth": 1249,
+  "birthAccuracy": "exact",
+  "death": 1293,
+  "deathAccuracy": "exact",
+  "title": "静修先生",
+  "bio": "字梦吉，号静修，保定容城人。深于性理之书，屡召至都即辞归，与吴澄并为元代北南两大儒；1293 年卒，年四十五。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "scholar",
+    "neo-confucian"
+  ],
+  "primary": "scholar",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-yin",
+      "target": "xu-heng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "世祖屡召遗逸，衡出而因返，并为北方理学之宗"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "liu-yin",
+      "target": "wu-cheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元代北南两大儒，讲学不倦"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "刘因传",
+      "kind": "classic"
+    }
+  ]
+}

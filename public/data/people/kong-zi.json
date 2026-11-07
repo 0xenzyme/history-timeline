@@ -1,0 +1,114 @@
+{
+  "id": "kong-zi",
+  "name": "孔丘",
+  "display": "孔子",
+  "birth": -551,
+  "birthAccuracy": "disputed",
+  "death": -479,
+  "deathAccuracy": "exact",
+  "birthNote": "生年取《史记》前 551 年说",
+  "title": "儒家创始人",
+  "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+  "tags": [
+    "儒家",
+    "六经",
+    "论语"
+  ],
+  "categories": [
+    "scholar-official",
+    "confucian"
+  ],
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "shi"
+    },
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "yan-hui",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孔门德行科"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "zeng-zi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孔门弟子"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-si",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jiagu-zhihui",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jin-zhuxingding",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "kongzi-zu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "tianchang-shijun",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "xishou-huolin",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [
+    "rujia-chuancheng"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孔子世家"
+    }
+  ]
+}

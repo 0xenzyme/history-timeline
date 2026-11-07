@@ -1,0 +1,83 @@
+{
+  "id": "meng-zi",
+  "name": "孟轲",
+  "display": "孟子",
+  "birth": -372,
+  "birthAccuracy": "approx",
+  "death": -289,
+  "deathAccuracy": "approx",
+  "title": "战国儒家，倡性善、仁政",
+  "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
+  "tags": [
+    "性善",
+    "仁政",
+    "亚圣"
+  ],
+  "categories": [
+    "scholar",
+    "confucian"
+  ],
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "scholar"
+    },
+    {
+      "id": "rujia",
+      "title": "儒学传承",
+      "lane": "ru"
+    }
+  ],
+  "relations": [
+    {
+      "source": "meng-zi",
+      "target": "xun-zi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "性善与性恶"
+      ],
+      "topicIds": [
+        "zhanguo",
+        "rujia"
+      ]
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "meng-zi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "问王政于孟子，亦问伐燕——不合则去"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zi-si",
+      "target": "meng-zi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孟子之学出子思之门"
+      ],
+      "topicIds": [
+        "rujia"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [
+    "rujia-chuancheng"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孟子荀卿列传"
+    }
+  ]
+}

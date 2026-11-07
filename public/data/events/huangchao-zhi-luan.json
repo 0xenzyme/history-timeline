@@ -1,0 +1,129 @@
+{
+  "id": "huangchao-zhi-luan",
+  "name": "黄巢之乱",
+  "display": "黄巢之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 875,
+  "yearAccuracy": "exact",
+  "endYear": 884,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "tang"
+  ],
+  "people": [
+    "huang-chao",
+    "zhu-wen",
+    "li-ke-yong"
+  ],
+  "result": "黄巢军攻入长安后败亡，唐朝财政、军政与藩镇结构进一步崩解",
+  "aliases": [
+    "黄巢起义",
+    "tang-huangchao"
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "875 至 884 年，黄巢起兵并转战全国，攻入长安建立大齐；唐廷借助朱温、李克用等藩镇力量最终平乱。战乱加速中央财政与军政体系崩解，并为朱温代唐铺路。伤亡与破坏规模缺乏统一可靠数字，不在实体中量化。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "僖宗本纪、黄巢传",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "僖宗本纪、黄巢传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "huang-chao",
+      "name": "黄巢",
+      "display": "黄巢",
+      "birthAccuracy": "unknown",
+      "death": 884,
+      "deathAccuracy": "exact",
+      "title": "大齐皇帝，流动作战，入长安而败",
+      "bio": "曹州冤句人，世鬻盐，善骑射，喜养亡命。乾符二年应王仙芝起于长垣，仙芝死，巢领其众，号冲天大将军，转战南北，自采石渡江，逾五岭，广明元年入长安，即皇帝位，国号大齐。中和三年为李克用所逐，东走泰山，四年为尚让所追，自杀于狼虎谷。唐之名存实亡，自此始。",
+      "tags": [
+        "唐",
+        "民变",
+        "亡唐"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-wen",
+      "name": "朱温",
+      "display": "朱温",
+      "birth": 852,
+      "birthAccuracy": "exact",
+      "death": 912,
+      "deathAccuracy": "exact",
+      "title": "后梁太祖，本黄巢将，代唐而建梁",
+      "bio": "宋州砀山午沟里人，父诚为经学教授。少孤贫，佣食萧县，后从黄巢，巢势衰遂降唐，赐名全忠，为宣武节度使，据汴州。天祐元年挟昭宗迁洛，弑之而立哀帝，四年受禅，国号梁，改名晃。既而猜忌日甚，乾化二年为其子友珪所弑于寝殿，年六十一。唐祚二百八十九年，亡于其手。",
+      "tags": [
+        "唐",
+        "五代",
+        "亡唐"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "warlord",
+      "polity": [
+        "tang",
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-ke-yong",
+      "name": "李克用",
+      "display": "李克用",
+      "birth": 856,
+      "birthAccuracy": "exact",
+      "death": 908,
+      "deathAccuracy": "exact",
+      "title": "河东节度使，沙陀鸦儿军，晋王",
+      "bio": "本姓朱耶，沙陀人，父朱邪赤心赐姓李。一目微眇，时号独眼龙，所将鸦儿军皆衣黑。中和三年率沙陀兵入关中，破黄巢于梁田陂，为收复京师第一功，授河东节度使。与朱温为仇，终身不解。天祐五年卒于太原，年五十三，子存勖后灭梁建唐。",
+      "tags": [
+        "唐",
+        "五代",
+        "沙陀"
+      ],
+      "categories": [
+        "general",
+        "warlord"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang",
+        "wudai"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

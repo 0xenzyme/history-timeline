@@ -1,0 +1,57 @@
+{
+  "id": "li-yuan-hong",
+  "name": "李元纮",
+  "display": "李元纮",
+  "birthAccuracy": "unknown",
+  "death": 733,
+  "deathAccuracy": "exact",
+  "title": "开元二十一年卒",
+  "bio": "玄宗朝同平章事。开元二十一年起为太子詹事，旬日而卒。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "li-yuan-hong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "玄宗朝为相，开元二十一年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "李元纮"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "李元纮传",
+      "kind": "classic"
+    }
+  ]
+}

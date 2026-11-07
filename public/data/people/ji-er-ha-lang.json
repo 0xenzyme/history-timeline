@@ -1,0 +1,61 @@
+{
+  "id": "ji-er-ha-lang",
+  "name": "济尔哈朗",
+  "display": "济尔哈朗",
+  "birth": 1599,
+  "birthAccuracy": "approx",
+  "death": 1655,
+  "deathAccuracy": "exact",
+  "birthNote": "传载顺治十二年薨、年五十七（虚岁），自卒年 1655 上推。",
+  "deathNote": "清史稿·卷215·郑献亲王济尔哈朗传：顺治十二年五月疾革，翌日薨，年五十七。卷5·世祖本纪：十二年五月辛卯，和硕郑亲王济尔哈朗薨。庄亲王舒尔哈齐第六子，太祖抚育，封和硕郑亲王，为定远大将军下湖广。",
+  "categories": [
+    "general",
+    "royal-kin",
+    "founding"
+  ],
+  "polity": [
+    "qing"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "duo-er-gun",
+      "target": "ji-er-ha-lang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同辅政郑亲王，多尔衮生前受制，1651 反噬议罪"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "郑亲王",
+    "信义辅政叔王"
+  ],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷215·济尔哈朗传",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷5·世祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

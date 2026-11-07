@@ -1,0 +1,91 @@
+{
+  "id": "sun-bin",
+  "name": "孙膑",
+  "display": "孙膑",
+  "birthAccuracy": "unknown",
+  "death": -330,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。桂陵、马陵之后事迹不载，取马陵稍后为活动下限。",
+  "title": "齐军师，桂陵、马陵破魏",
+  "bio": "孙武后世。庞涓刖之，田忌荐于威王。围魏救赵、减灶诱敌。他的条短，全压在威王中期两场战役上。",
+  "tags": [
+    "齐国"
+  ],
+  "categories": [
+    "military-theory"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tian-yinqi",
+      "target": "sun-bin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "田忌荐为军师，桂陵、马陵"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "pang-juan",
+      "target": "sun-bin",
+      "type": "rival",
+      "directed": false,
+      "since": -353,
+      "notes": [
+        "同学相忌，马陵庞涓死"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "sun-bin",
+      "target": "tian-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "忌荐孙膑于威王，以膑为军师；桂陵之役、马陵之战，齐以破魏，忌为大将而膑主其谋"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "guiling-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "maling-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "孙子吴起列传",
+      "kind": "classic"
+    }
+  ]
+}

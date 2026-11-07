@@ -1,0 +1,75 @@
+{
+  "id": "yang-zhao-yining",
+  "name": "杨诏",
+  "display": "杨诏",
+  "birthAccuracy": "unknown",
+  "death": 937,
+  "deathAccuracy": "approx",
+  "deathNote": "兵败死之，卒年约系大义宁亡之年；生年无载。",
+  "title": "废兄而立，亡于段氏",
+  "bio": "干贞之弟，废兄而自立，恣行苛虐，滇人不附。通海节度使段思平联三十七部东下，诏兵败死之，大义宁亡，云南之统归段氏。",
+  "tags": [
+    "云南",
+    "大义宁"
+  ],
+  "categories": [
+    "monarch",
+    "outsider"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "dayining"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "yunnan"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yang-ganzhen",
+      "target": "yang-zhao-yining",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟相废，杨氏二主"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "duan-siping",
+      "target": "yang-zhao-yining",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "联三十七部起兵，灭大义宁"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "dali-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "南诏野史",
+      "part": "大义宁",
+      "kind": "classic"
+    }
+  ]
+}

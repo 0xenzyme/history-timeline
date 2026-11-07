@@ -1,0 +1,200 @@
+{
+  "id": "yongjia-zhiluan",
+  "name": "永嘉之乱",
+  "display": "永嘉之乱",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 3,
+  "year": 311,
+  "yearAccuracy": "exact",
+  "yearNote": "永嘉五年六月丁酉（311 年 7 月中旬）刘曜、王弥入京师洛阳，怀帝出逃被追及、蒙尘平阳。",
+  "place": "洛阳",
+  "placeNow": "今河南洛阳",
+  "belligerents": [
+    "jin",
+    "shiliuguo"
+  ],
+  "commanders": [
+    {
+      "id": "liu-yao",
+      "side": "shiliuguo"
+    },
+    {
+      "id": "wang-mi",
+      "side": "shiliuguo"
+    },
+    {
+      "id": "shi-le",
+      "side": "shiliuguo"
+    }
+  ],
+  "people": [
+    "sima-chi",
+    "liu-yao",
+    "wang-mi",
+    "shi-le",
+    "sima-yue-donghai"
+  ],
+  "result": "洛阳陷落焚掠，晋怀帝被俘送平阳，中原腹地崩溃，西晋朝廷名存实亡，衣冠南渡由此而起",
+  "aliases": [
+    "永嘉之祸",
+    "洛阳沦陷",
+    "永嘉五年洛阳陷落"
+  ],
+  "tags": [
+    "war",
+    "siege",
+    "capture-of-emperor"
+  ],
+  "dynasties": [
+    "western-jin",
+    "shiliuguo"
+  ],
+  "desc": "永嘉五年（311）夏，汉赵军合围洛阳。此前四月石勒于苦县宁平城歼灭护送司马越灵柩的晋军主力十余万，太尉王衍等王公皆没；六月丁酉刘曜、王弥攻入洛阳，焚宫庙、戮王公士民三万余，俘怀帝北送平阳。史称永嘉之乱，为西晋崩溃、中原士族南渡的直接转折点。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷五·帝纪第五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "sima-chi",
+      "name": "司马炽",
+      "display": "晋怀帝司马炽",
+      "birth": 284,
+      "birthAccuracy": "exact",
+      "death": 313,
+      "deathAccuracy": "exact",
+      "title": "西晋怀帝，永嘉之乱，被虏于平阳",
+      "bio": "司马炎第二十五子，初为豫章王，惠帝末年立。在位而八王之余未靖，刘渊、石勒日逼洛阳。永嘉五年刘曜入京师，帝被执送平阳，汉主聪以为会稽公，使著青衣行酒。七年为聪所鸩，年三十，西晋的京师终于此。",
+      "tags": [
+        "西晋",
+        "永嘉之乱"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yao",
+      "name": "刘曜",
+      "display": "刘曜",
+      "birthAccuracy": "unknown",
+      "death": 328,
+      "deathAccuracy": "disputed",
+      "birthNote": "载记无生年，不编。",
+      "deathNote": "见杀句无年号：洛阳兵败被执系咸和三年十二月，通鉴卷九四于三年段内书杀之，载记称前赵以咸和四年灭，公历已跨三二九年初，今或作329，两说并注。",
+      "title": "前赵末主，洛阳坠马而被执",
+      "bio": "匈奴人，刘渊族子，字永明。灭靳准迎惠帝旧后羊氏为后，徙都长安，改汉号曰赵，史称前赵。与石生、石勒相攻不息。咸和三年洛阳决战，饮酒数斗出战，马陷石渠坠于冰上被执，戒其子与诸大臣守社稷勿以己易意，为石勒所杀，前赵随之而灭。",
+      "tags": [
+        "十六国",
+        "汉赵",
+        "匈奴"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-mi",
+      "name": "王弥",
+      "display": "王弥",
+      "birthAccuracy": "unknown",
+      "death": 311,
+      "deathAccuracy": "exact",
+      "birthNote": "传无岁数，不编生年。",
+      "deathNote": "传卒句无年号；破洛阳系永嘉五年，勒旋以伏兵袭杀之，通鉴卷八十七、八十八皆系永嘉五年。",
+      "title": "飞豹之乱，助汉破洛而死于石勒",
+      "bio": "东莱人，家世二千石。有才干博涉书记，弓马迅捷膂力过人，青土号为飞豹。惠帝末从刘柏根起兵，亡入长广山为群贼，进兵寇青徐兖豫，众数万。归刘渊为征东大将军，与刘曜、石勒共破洛阳，劝曜徙都平阳不听。勒忌其骁勇，伏兵袭杀之，并其众。",
+      "tags": [
+        "十六国",
+        "汉赵",
+        "叛乱"
+      ],
+      "categories": [
+        "rebel",
+        "warlord"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shi-le",
+      "name": "石勒",
+      "display": "石勒",
+      "birth": 274,
+      "birthAccuracy": "exact",
+      "death": 333,
+      "deathAccuracy": "exact",
+      "title": "后赵之主，起自奴隶而兼河北",
+      "bio": "上党武乡羯人，少行贩洛阳，为人力耕，后为汲桑之党，遂附刘渊。转战河北，并王浚、刘曜，据襄国称赵王，后称帝。不识字而听人读史，闻郦食其劝立六国后而惊，闻留侯谏乃曰「赖此耳」。咸和八年卒，年六十。",
+      "tags": [
+        "十六国",
+        "后赵",
+        "羯"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-yue-donghai",
+      "name": "司马越",
+      "display": "东海王司马越",
+      "birthAccuracy": "unknown",
+      "death": 311,
+      "deathAccuracy": "exact",
+      "title": "八王的收场，永嘉五年薨于项",
+      "bio": "高密王泰次子。永嘉末执朝政，上下崩离，忧惧成疾。永嘉五年薨于项。石勒追上他的灵柩，说此人乱天下，下令焚棺。",
+      "tags": [
+        "晋",
+        "西晋"
+      ],
+      "categories": [
+        "royal-kin"
+      ],
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

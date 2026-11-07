@@ -1,0 +1,90 @@
+{
+  "id": "wuzhou-jianli",
+  "name": "武周建立",
+  "display": "武周建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 690,
+  "yearAccuracy": "exact",
+  "polity": [
+    "zhou"
+  ],
+  "people": [
+    "wu-zetian",
+    "li-dan"
+  ],
+  "result": "武则天称帝并改国号为周，唐李氏王朝的连续性暂时中断",
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "690 年，武则天受禅称帝，改国号为周，史称武周。事件事实是称帝与国号变更；武则天此前长期临朝及其统治评价不在本实体中扩写。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "则天皇后本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "则天皇后本纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wu-zetian",
+      "name": "武曌",
+      "display": "武则天",
+      "birth": 624,
+      "birthAccuracy": "exact",
+      "death": 705,
+      "deathAccuracy": "exact",
+      "title": "则天大圣皇帝，中国唯一女皇帝",
+      "bio": "并州文水人，武士彟之女，太宗才人，高宗皇后。与上同称二圣，高宗崩后临朝，废中宗、睿宗，天授元年改国号周，自称圣神皇帝。用酷吏而能擢拔人才，狄仁杰、姚崇、宋璟皆出其朝。神龙元年张柬之等反正，是岁崩于上阳宫，年八十二，遗制去帝号，称则天大圣皇后。",
+      "tags": [
+        "唐",
+        "武周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "li-dan",
+      "name": "李旦",
+      "display": "唐睿宗李旦",
+      "birth": 662,
+      "birthAccuracy": "exact",
+      "death": 716,
+      "deathAccuracy": "exact",
+      "title": "两度即位，开元前奏",
+      "bio": "高宗第八子，武后之子。嗣圣元年继中宗后为帝，旋降为皇嗣；景云元年以平韦氏之功复辟，先天元年传位太子隆基。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

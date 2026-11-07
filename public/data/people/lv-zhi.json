@@ -1,0 +1,138 @@
+{
+  "id": "lv-zhi",
+  "name": "吕雉",
+  "display": "吕后",
+  "birth": -241,
+  "birthAccuracy": "approx",
+  "death": -180,
+  "deathAccuracy": "exact",
+  "title": "汉高祖皇后，中国第一位临朝称制的女性",
+  "bio": "刘邦崩后临朝八年，封诸吕为王，残害刘氏诸子。司马迁为之立《吕太后本纪》，承认其实际统治地位。",
+  "tags": [
+    "临朝称制",
+    "诸吕"
+  ],
+  "categories": [
+    "consort",
+    "regent"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "consort"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ying",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "惠帝在位七年，吕后实际掌权"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "lv-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "吕后残害刘氏诸子，文帝因在代地得免"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "mo-dun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "冒顿嫚书之辱，汉以宗室女和亲答之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "zhang-hou-hui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "鲁元公主之女。吕后配给惠帝，惠帝崩后废处北宫"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "lv-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与萧何诱杀韩信于长乐宫钟室"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "peng-yue",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "梁王被告变，夷三族"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-chan",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "吕后之侄，封梁王相国；吕后崩后与禄同诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "吕太后本纪"
+    }
+  ]
+}

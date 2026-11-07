@@ -1,0 +1,94 @@
+{
+  "id": "zhao-kuo-changping",
+  "name": "赵括",
+  "display": "赵括",
+  "birthAccuracy": "unknown",
+  "death": -260,
+  "deathAccuracy": "exact",
+  "deathNote": "白起王翦列传在昭王四十七年段写秦军射杀赵括。昭襄王五十六年是前251年，四十七年即前260年。",
+  "title": "长平代将，被射杀",
+  "bio": "赵奢之子。长平之战代廉颇为将，被秦军射杀。赵军四十万降后被坑。",
+  "tags": [
+    "赵国",
+    "长平"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "zhao"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "bai-qi",
+      "target": "zhao-kuo-changping",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "长平之战射杀赵括"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "lian-po",
+      "target": "zhao-kuo-changping",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "赵王以赵括代廉颇"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "zhao-xiaochengwang",
+      "target": "zhao-kuo-changping",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "长平之主：中秦反间，以括代颇，一军尽坑"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "changping-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "赵括",
+    "马服子"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "白起王翦列传",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "廉颇蔺相如列传",
+      "kind": "classic"
+    }
+  ]
+}

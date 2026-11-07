@@ -1,0 +1,200 @@
+{
+  "id": "wu-zetian",
+  "name": "武曌",
+  "display": "武则天",
+  "birth": 624,
+  "birthAccuracy": "exact",
+  "death": 705,
+  "deathAccuracy": "exact",
+  "title": "则天大圣皇帝，中国唯一女皇帝",
+  "bio": "并州文水人，武士彟之女，太宗才人，高宗皇后。与上同称二圣，高宗崩后临朝，废中宗、睿宗，天授元年改国号周，自称圣神皇帝。用酷吏而能擢拔人才，狄仁杰、姚崇、宋璟皆出其朝。神龙元年张柬之等反正，是岁崩于上阳宫，年八十二，遗制去帝号，称则天大圣皇后。",
+  "tags": [
+    "唐",
+    "武周"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "tang"
+  ],
+  "gender": "female",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "wu-zetian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，武后柄政"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "di-ren-jie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "重用狄仁杰，荐张柬之"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "wu-zetian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，武后废中宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-dan",
+      "target": "wu-zetian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子，武后立睿宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "lou-shi-de",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载693至699年在任，圣历二年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "pei-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗顾命宰相，光宅元年被斩"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "liu-yi-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武后朝为相，垂拱三年赐死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "du-jing-quan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武后朝为相，圣历中道病卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "gu-dulu",
+      "target": "wu-zetian",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "骨咄禄复国后屡寇北边，武周不能制"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "shangguan-wan-er",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武后时掌诏命，中宗朝拜昭容，称量天下士"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "hui-neng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武后遣使迎请，辞不赴；中宗朝再征亦辞，居曹溪弘法"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "fei-wang-li-wu",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shenlong-zhibian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "wuzhou-jianli",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "武则天",
+    "武曌",
+    "武媚娘",
+    "则天皇后"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "则天皇后纪",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "lian-xixian",
+  "name": "廉希宪",
+  "display": "廉希宪",
+  "birth": 1231,
+  "birthAccuracy": "exact",
+  "death": 1280,
+  "deathAccuracy": "exact",
+  "title": "廉孟子，关陇柱石",
+  "bio": "畏吾儿人，忽必烈藩邸旧臣，人称廉孟子。镇关中、平蜀地，请立御史台；阿合马用事时屡与之争，1280 年卒，年五十。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hu-bi-lie",
+      "target": "lian-xixian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "藩邸旧臣，镇关中、请立御史台"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "廉希宪传",
+      "kind": "classic"
+    }
+  ]
+}

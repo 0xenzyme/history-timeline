@@ -1,0 +1,75 @@
+{
+  "id": "nantang-jianli",
+  "name": "南唐建立",
+  "display": "南唐建立",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 937,
+  "yearAccuracy": "exact",
+  "yearNote": "通鉴系后晋天福二年徐知诰受吴禅，国号齐；天福四年复姓李、改名昪，改国号唐。建国在937。",
+  "place": "金陵",
+  "placeNow": "今江苏南京",
+  "polity": [
+    "nantang"
+  ],
+  "people": [
+    "li-bian"
+  ],
+  "result": "徐知诰受吴禅，国号齐；后复姓李、改国号唐，史称南唐。",
+  "dynasties": [
+    "wudai",
+    "liao"
+  ],
+  "desc": "后晋天福二年，徐知诰受吴禅，即皇帝位于金陵，国号齐。知诰为徐温养子，温自杨行密时典军政，知诰秉吴政三十年，结人心、饬吏事、兴学校，吴人安之。天福四年，知诰复姓李，改名昪，改国号唐，以唐之后裔自命。南唐跨有江、淮、江西诸州，为十国之最盛者。传子璟，拓地数千里而复失于周世宗；再传子煜，以词名，宋开宝八年曹彬克金陵，南唐亡。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "后晋纪·天福二年",
+      "kind": "classic"
+    },
+    {
+      "work": "十国春秋",
+      "part": "南唐",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "南唐世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-bian",
+      "name": "李昪",
+      "display": "南唐烈祖",
+      "birth": 888,
+      "birthAccuracy": "exact",
+      "death": 943,
+      "deathAccuracy": "exact",
+      "title": "南唐烈祖，复姓承唐，保境安民",
+      "bio": "徐州人，字正伦。唐末丧乱为行密所掠，行密不养，赐温为子，名徐知诰。温卒代秉吴政，封齐王。升元元年受吴禅，复姓李，托言唐室之后，国号唐，都金陵。性俭惠，辇毂之下军政粗修；晚饵金石，躁疾而殂。",
+      "tags": [
+        "十国",
+        "南唐"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "shiguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

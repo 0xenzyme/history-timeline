@@ -1,0 +1,111 @@
+{
+  "id": "tianchang-shijun",
+  "name": "田常弑齐简公",
+  "display": "田常弑齐简公",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -481,
+  "yearAccuracy": "exact",
+  "yearNote": "左传哀公十四年（前481）夏四月齐陈恒执其君寘于舒州、齐人弑其君壬于舒州；史记齐世家「甲午，田常弒簡公于俆州」；论语宪问记孔子请讨。经传、史记、论语一致。",
+  "polity": [
+    "qi"
+  ],
+  "people": [
+    "qi-jiangong",
+    "kong-zi"
+  ],
+  "aliases": [
+    "陈恒弑君",
+    "田氏专齐之始",
+    "孔子请讨田常"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "齐简公任监止与田常为左右相，御鞅谏「田监不可并」不听。田氏先发，执简公于舒州，弑之（前481）；立平公，田常为相专齐政，割安平以东为封邑。孔子沐浴而朝，请鲁伐齐讨陈恒，不可。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷59（哀公十四年）",
+      "part": "哀公十四年經傳",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋經·哀公（維基文庫）",
+      "part": "哀公十二、十三、十四年經",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·齊太公世家",
+      "part": "简公",
+      "kind": "classic"
+    },
+    {
+      "work": "論語·憲問",
+      "part": "憲問",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·田敬仲完世家",
+      "part": "簡公",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "qi-jiangong",
+      "name": "姜壬",
+      "display": "齐简公",
+      "birthAccuracy": "unknown",
+      "death": -481,
+      "deathAccuracy": "approx",
+      "deathNote": "史记·齐太公世家「简公四年」记在位四年。卒年前481，据其父悼公（前485）与弟平公（前456）之间推定，作约年。田常弑君而立其弟，田氏之篡自此明目。",
+      "title": "田常弑之，在位四年",
+      "bio": "悼公之子。齐人共立悼公子壬，是为简公。简公与父阳生俱在鲁，监止有宠，及即位使之为政。田成子惮之，骤夺其权。甲午，田常弑简公于俆州，立简公弟驩，是为平公。",
+      "tags": [
+        "田常弑君",
+        "监止之宠",
+        "田氏代齐"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "kong-zi",
+      "name": "孔丘",
+      "display": "孔子",
+      "birth": -551,
+      "birthAccuracy": "disputed",
+      "death": -479,
+      "deathAccuracy": "exact",
+      "birthNote": "生年取《史记》前 551 年说",
+      "title": "儒家创始人",
+      "bio": "鲁人。晚岁删《诗》《书》、定《礼》《乐》、作《春秋》。弟子相传其言行，后集为《论语》。",
+      "tags": [
+        "儒家",
+        "六经",
+        "论语"
+      ],
+      "categories": [
+        "scholar-official",
+        "confucian"
+      ],
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

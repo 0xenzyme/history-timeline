@@ -1,0 +1,155 @@
+{
+  "id": "chanyuan-zhimeng",
+  "name": "澶渊之盟",
+  "display": "澶渊之盟",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1005,
+  "yearAccuracy": "disputed",
+  "yearNote": "辽史、宋史、续资治通鉴都把讲和写在统和二十二年、景德元年十二月。十二月庚辰朔是 1005-01-13。下一朔是正月庚戌，在 1005-02-12。丙戌遣使、戊子许岁币、乙未誓书至、辛丑录誓书都在这个月，即 1005 年 1 月下旬至 2 月上旬。景德元年常被标成 1004，所以 yearAccuracy 取 disputed。景德二年正月庚戌朔的大赦是和后的赦，不是盟日。推算用今人历表，不是原典里的公历。",
+  "place": "澶州",
+  "polity": [
+    "song",
+    "liao"
+  ],
+  "people": [
+    "zhao-hen",
+    "kou-zhun",
+    "xiao-chuo",
+    "yelv-longxu"
+  ],
+  "result": "宋岁输银十万两、绢二十万匹，宋帝称辽太后为叔母。辽许和并解严，澶州城下的战事停止。",
+  "aliases": [
+    "澶渊之盟约",
+    "景德和议",
+    "song-chanzhou"
+  ],
+  "dynasties": [
+    "liao",
+    "song"
+  ],
+  "desc": "统和二十二年十二月，宋请和，岁输银十万两、绢二十万匹，宋帝称辽太后为叔母。辽许和并解严，澶州城下的战事停止。宋辽由攻战改成岁币与名分都写明的和约。",
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "卷14",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷7",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷25",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-hen",
+      "name": "赵恒",
+      "display": "赵恒",
+      "birth": 968,
+      "birthAccuracy": "exact",
+      "death": 1022,
+      "deathAccuracy": "exact",
+      "title": "宋真宗，澶渊之盟",
+      "bio": "太宗第三子，即位后与契丹定澶渊之盟，纳币称兄。晚年崇道教、封禅泰山，造天书，国库为耗。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "kou-zhun",
+      "name": "寇准",
+      "display": "寇准",
+      "birth": 961,
+      "birthAccuracy": "exact",
+      "death": 1023,
+      "deathAccuracy": "exact",
+      "title": "澶渊之盟主盟者",
+      "bio": "华州下邽人，少年登第，刚直敢言。真宗朝拜相，契丹南下时力主亲征，促成澶渊之盟，宋辽息兵百余年。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "chancellor"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiao-chuo",
+      "name": "萧绰",
+      "display": "萧绰",
+      "birth": 953,
+      "birthAccuracy": "exact",
+      "death": 1009,
+      "deathAccuracy": "exact",
+      "title": "承天太后，澶渊之役的辽方主帅",
+      "bio": "辽景宗皇后，景宗崩总摄国政，子圣宗年幼，称制二十七年，辽之极盛。统和二十二年与圣宗亲征至澶州，定澶渊之盟。次年卒。",
+      "tags": [
+        "辽"
+      ],
+      "categories": [
+        "outsider",
+        "consort",
+        "regent"
+      ],
+      "primary": "regent",
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yelv-longxu",
+      "name": "耶律隆绪",
+      "display": "耶律隆绪",
+      "birth": 971,
+      "birthAccuracy": "exact",
+      "death": 1031,
+      "deathAccuracy": "exact",
+      "title": "辽圣宗，澶渊定盟的辽帝",
+      "bio": "景宗长子，母萧太后称制时亲征澶州。亲政后开科取士、修律令，辽称「小尧舜」。太平十一年卒。",
+      "tags": [
+        "辽"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

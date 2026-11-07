@@ -1,0 +1,141 @@
+{
+  "id": "xining-bianfa",
+  "name": "熙宁变法",
+  "display": "熙宁变法",
+  "kind": "span",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1069,
+  "yearAccuracy": "exact",
+  "yearNote": "熙宁二年二月庚子王安石参知政事，同月创置三司条例司。终点取元丰八年三月戊戌神宗崩，为 1085-04-01。新法成批废除在元祐，不放进本条终点。",
+  "endYear": 1085,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "song"
+  ],
+  "people": [
+    "wang-anshi",
+    "zhao-xu",
+    "sima-guang"
+  ],
+  "result": "青苗、免役、保甲、保马、方田、市易等作为一套新法施行，至神宗死仍在；元丰五年改行新官制，仍属同一改革期。",
+  "aliases": [
+    "王安石变法",
+    "熙丰新法",
+    "song-xining"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "熙宁二年二月，王安石参知政事，设制置三司条例司，议行新法。青苗、免役、保甲、保马、方田、市易等作为一套施行，元丰五年改行新官制，至神宗死仍在。赋役、兵农和中央财政的抽取方式由此改变，元丰官制仍属同一改革期。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷十四",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷三百二十七",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷十六",
+      "kind": "classic"
+    },
+    {
+      "work": "宋史",
+      "part": "卷十七",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-anshi",
+      "name": "王安石",
+      "display": "王安石",
+      "birth": 1021,
+      "birthAccuracy": "exact",
+      "death": 1086,
+      "deathAccuracy": "exact",
+      "title": "熙宁变法，荆公新学",
+      "bio": "临川人，翰林学士。神宗朝拜相，行青苗、募役、市易诸法，欲富国强兵，史称熙宁变法。新旧党争由此起，身后争议千年。",
+      "tags": [
+        "宋",
+        "北宋",
+        "改革"
+      ],
+      "categories": [
+        "chancellor",
+        "literature",
+        "classics"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-xu",
+      "name": "赵顼",
+      "display": "赵顼",
+      "birth": 1048,
+      "birthAccuracy": "exact",
+      "death": 1085,
+      "deathAccuracy": "exact",
+      "title": "宋神宗，熙宁变法",
+      "bio": "英宗子，即位旋用王安石变法，图强御夏。新法行之利弊相半，元丰改制官制；晚年新党内部亦生龃龉。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-guang",
+      "name": "司马光",
+      "display": "司马光",
+      "birth": 1019,
+      "birthAccuracy": "exact",
+      "death": 1086,
+      "deathAccuracy": "exact",
+      "title": "旧党领袖，《资治通鉴》",
+      "bio": "陕州夏县人，宝元进士。反对新法，退居洛阳十五年，主编《资治通鉴》二百九十四卷。哲宗初拜相，尽废新法。",
+      "tags": [
+        "宋",
+        "北宋",
+        "旧党"
+      ],
+      "categories": [
+        "chancellor",
+        "historian"
+      ],
+      "primary": "historian",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

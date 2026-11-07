@@ -1,0 +1,87 @@
+{
+  "id": "a-li-bu-ge",
+  "name": "阿里不哥",
+  "display": "阿里不哥",
+  "birthAccuracy": "unknown",
+  "death": 1266,
+  "deathAccuracy": "disputed",
+  "deathNote": "本纪系其卒于至元三年（一二六六），一作至元元年。",
+  "title": "阿里不哥，争位之弟",
+  "bio": "拖雷幼子。蒙哥死后于和林被拥为大汗，与忽必烈两汗并立四年；1264 年力屈来降，不久卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "royal-kin",
+    "rebel"
+  ],
+  "primary": "royal-kin",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "kin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "a-li-bu-ge",
+      "target": "tuo-lei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-li-bu-ge",
+      "target": "suo-lu-he-tie-ni",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    },
+    {
+      "source": "a-li-bu-ge",
+      "target": "hu-bi-lie",
+      "type": "rival",
+      "directed": false,
+      "since": 1260,
+      "notes": [
+        "兄弟争位，两汗并立四年而后定"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "menggu-hanwei-zhi-zheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "世祖本纪",
+      "kind": "classic"
+    }
+  ]
+}

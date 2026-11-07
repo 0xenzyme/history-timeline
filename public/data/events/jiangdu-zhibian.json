@@ -1,0 +1,115 @@
+{
+  "id": "jiangdu-zhibian",
+  "name": "江都之变",
+  "display": "江都之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 618,
+  "yearAccuracy": "exact",
+  "yearNote": "大业十四年（618）三月，宇文化及等率骁果于江都宫弑炀帝；隋亡以此变为断限，同年五月李渊受禅建唐。",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "yang-guang",
+    "yu-wen-huaji",
+    "yang-hao"
+  ],
+  "result": "炀帝被弑、秦王浩被立为傀儡，隋朝实际终结",
+  "aliases": [
+    "江都宫变",
+    "炀帝被弑"
+  ],
+  "dynasties": [
+    "sui",
+    "tang"
+  ],
+  "desc": "大业十四年（618）三月，宇文化及、宇文智及与司马德戡等率骁果入江都宫，缢杀隋炀帝，并杀蜀王秀等宗室，立秦王杨浩为傀儡，率众北归。炀帝既死，东都立越王侗、长安立代王侑，隋室分而为二，名实俱亡。此变结束炀帝一朝，也标志隋的终结；同年五月李渊受禅，唐立。司马德戡暂无 canonical 人物条目。",
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "炀帝纪下",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "宇文化及传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-guang",
+      "name": "杨广",
+      "display": "隋炀帝杨广",
+      "birth": 569,
+      "birthAccuracy": "exact",
+      "death": 618,
+      "deathAccuracy": "exact",
+      "title": "隋炀帝，开运河、征高句丽，死于江都",
+      "bio": "杨坚第二子，初封晋王，以平陈、并州之任得声。仁寿四年即位，改元大业。营东都、开永济渠与通济渠，创进士科，巡西域而置四郡。然三征高句丽、役民无度，大业七年以后天下遂叛。十四年宇文化及弑之于江都宫，年五十，隋亡。",
+      "tags": [
+        "隋",
+        "亡国"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yu-wen-huaji",
+      "name": "宇文化及",
+      "display": "宇文化及",
+      "birthAccuracy": "unknown",
+      "death": 619,
+      "deathAccuracy": "exact",
+      "title": "弑炀帝于江都，自立为许帝",
+      "bio": "代武川人，宇文述之子，性凶险，不循法度。大业十四年从驾江都，见天下已叛，遂与司马德戡等率骁果入宫，缢杀炀帝，并杀宗室、外戚。引众西归，与李密战于童山，粮尽北走，至魏县僭号许帝，明年为窦建德所擒，斩于河间，并其二子。",
+      "tags": [
+        "隋末",
+        "弑君"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-hao",
+      "name": "杨浩",
+      "display": "秦王杨浩",
+      "birthAccuracy": "unknown",
+      "death": 618,
+      "deathAccuracy": "approx",
+      "deathNote": "宇文化及江都弑逆后立浩为帝；化及败于黎阳，北走魏县，自僭伪号，因而鸩杀之（隋书·文四子传·秦孝王俊附杨浩）。事在义宁二年而卒月无考，系年作约略。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

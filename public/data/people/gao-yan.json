@@ -1,0 +1,99 @@
+{
+  "id": "gao-yan",
+  "name": "高演",
+  "display": "孝昭帝高演",
+  "birthAccuracy": "unknown",
+  "death": 561,
+  "deathAccuracy": "exact",
+  "deathNote": "武成纪在皇建初之后书「二年，孝昭崩」。废帝纪亦云济南王皇建二年九月殂，薨三旬而孝昭崩。",
+  "title": "北齐孝昭帝，皇建二年崩",
+  "bio": "高欢第六子，文宣帝同母弟。乾明元年入纂，废高殷为济南王。皇建二年崩，遗诏征长广王湛。",
+  "tags": [
+    "南北朝",
+    "北齐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "gao-huan",
+      "target": "gao-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。孝昭为神武第六子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yan",
+      "target": "gao-yang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟。孝昭为文宣母弟"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yan",
+      "target": "gao-yin",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "孝昭废殷为济南王，皇建二年九月使人杀之"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-yan",
+      "target": "gao-zhan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟。皇建二年孝昭崩，遗诏征湛"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高演",
+    "孝昭帝"
+  ],
+  "sources": [
+    {
+      "work": "北齐书",
+      "part": "孝昭纪",
+      "kind": "classic"
+    },
+    {
+      "work": "北齐书",
+      "part": "武成纪",
+      "kind": "classic"
+    }
+  ]
+}

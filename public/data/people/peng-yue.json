@@ -1,0 +1,74 @@
+{
+  "id": "peng-yue",
+  "name": "彭越",
+  "display": "彭越",
+  "birthAccuracy": "unknown",
+  "death": -196,
+  "deathAccuracy": "exact",
+  "title": "梁王，游击于楚后，被醢",
+  "bio": "昌邑人，钜野泽中为盗。楚汉相持，常往来梁地绝楚粮道，所谓彭越挠楚。封梁王，后以谋反被捕，贬蜀，吕后令舍人告之，诛而醢其肉赐诸侯。与韩信、英布同年收场。",
+  "tags": [
+    "楚汉",
+    "汉初"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qin",
+      "title": "秦 · 帝国与楚汉",
+      "lane": "han"
+    },
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "peng-yue",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "楚汉之际将兵归汉，封梁王；高帝十一年以谋反被诛，夷三族"
+      ],
+      "topicIds": [
+        "qin"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "peng-yue",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "梁王被告变，夷三族"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "彭越",
+    "梁王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "魏豹彭越列传",
+      "kind": "classic"
+    }
+  ]
+}

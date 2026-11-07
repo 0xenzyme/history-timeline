@@ -1,0 +1,36 @@
+{
+  "id": "yuan-ye",
+  "name": "元晔",
+  "display": "北魏前废帝元晔",
+  "birthAccuracy": "unknown",
+  "death": 532,
+  "deathAccuracy": "exact",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "卷011·废出三帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "魏书",
+      "part": "卷010·孝庄纪",
+      "kind": "classic"
+    }
+  ]
+}

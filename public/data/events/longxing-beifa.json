@@ -1,0 +1,153 @@
+{
+  "id": "longxing-beifa",
+  "name": "隆兴北伐",
+  "display": "隆兴北伐",
+  "kind": "span",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "campaign",
+  "importance": 2,
+  "year": 1163,
+  "yearAccuracy": "exact",
+  "yearNote": "隆兴元年五月复灵璧、虹县、宿州，甲寅溃于符离。金大定三年志宁复取宿州。同一年结束。符离不另立 battle，以免 campaign 再套一层。",
+  "endYear": 1163,
+  "endYearAccuracy": "exact",
+  "place": "符离",
+  "belligerents": [
+    "song",
+    "jin-chao"
+  ],
+  "people": [
+    "zhao-shen",
+    "zhang-jun",
+    "li-xianzhong",
+    "heshilie-zhining"
+  ],
+  "result": "宋军一度复宿州，随即在符离大溃，北伐停止。",
+  "aliases": [
+    "符离之溃"
+  ],
+  "dynasties": [
+    "song",
+    "xixia",
+    "jin-chao"
+  ],
+  "desc": "隆兴元年五月，宋军复灵璧、虹县、宿州，甲寅李显忠、邵宏渊军大溃于符离。金纥石烈志宁取宿州并追至符离，北伐停止。孝宗改变绍兴名分的军事尝试在此失败，没有打出新的稳定疆界。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷33",
+      "kind": "classic"
+    },
+    {
+      "work": "金史",
+      "part": "卷6",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴",
+      "part": "卷138",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhao-shen",
+      "name": "赵昚",
+      "display": "赵昚",
+      "birth": 1127,
+      "birthAccuracy": "exact",
+      "death": 1194,
+      "deathAccuracy": "exact",
+      "title": "宋孝宗，隆兴恢复",
+      "bio": "太祖七世孙，高宗养子。即位锐意恢复，起用张浚北伐，败于符离；旋定隆兴和议。为岳飞平反，号称小元祐。",
+      "tags": [
+        "宋",
+        "南宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-jun",
+      "name": "张浚",
+      "display": "张浚",
+      "birth": 1097,
+      "birthAccuracy": "exact",
+      "death": 1164,
+      "deathAccuracy": "exact",
+      "title": "力主恢复的抗战宰相",
+      "bio": "苗刘之变勤王定策，川陕宣抚经略富平、和尚原。孝宗即位锐意恢复，隆兴北伐以浚都督，符离失利再罢。隆兴二年忧愤卒，谥忠献。子张栻。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "chancellor",
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-xianzhong",
+      "name": "李显忠",
+      "display": "李显忠",
+      "birth": 1110,
+      "birthAccuracy": "exact",
+      "death": 1177,
+      "deathAccuracy": "exact",
+      "title": "自金归宋的灵州世将",
+      "bio": "世家西陲，父子陷金，间道归宋，高宗赐名显忠。隆兴北伐为都统制，克灵壁虹县，符离之溃与邵宏渊不协所致。淳熙四年卒，年六十九。",
+      "tags": [
+        "宋"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "heshilie-zhining",
+      "name": "纥石烈志宁",
+      "display": "纥石烈志宁",
+      "birthAccuracy": "unknown",
+      "death": 1172,
+      "deathAccuracy": "exact",
+      "title": "隆兴议和前的金军统帅",
+      "bio": "宿将，大定间主对宋军事，符离之败后以十万众压淮，促成隆兴和议。大定十二年卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "general"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "hongshui-zhizhan",
+  "name": "泓水之战",
+  "display": "泓水之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -638,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·僖公二十二年》「冬，十有一月，己巳朔，宋公及楚人戰於泓，宋師敗績」；《史記·宋微子世家》襄公十三年（前638）冬十一月戰于泓。僖公二十二年＝前638。",
+  "place": "泓（泓水）",
+  "placeNow": "今河南柘城县西北（泓水故道）",
+  "belligerents": [
+    "song-guo",
+    "chu"
+  ],
+  "commanders": [
+    {
+      "id": "zi-zifu",
+      "side": "song-guo"
+    },
+    {
+      "id": "xiong-yun",
+      "side": "chu"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "宋襄公伐郑，楚成王伐宋救郑；宋既成列，襄公不击楚半渡、不鼓不成列，待楚既陈而击，宋师大败，襄公伤股。「君子不重伤，不禽二毛」成迂仁之讥，宋霸梦碎。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷14",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷038·宋微子世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zi-zifu",
+      "name": "子兹甫",
+      "display": "宋襄公",
+      "birthAccuracy": "unknown",
+      "death": -637,
+      "deathAccuracy": "exact",
+      "title": "宋国国君，泓之战的败者",
+      "bio": "欲继齐桓为盟主。泓水之战不击半渡，伤股而卒。轴上他与齐桓、晋文同时，短条提醒：霸主不是自称的。",
+      "tags": [
+        "宋国",
+        "泓之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "song-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiong-yun",
+      "name": "熊恽",
+      "display": "楚成王",
+      "birthAccuracy": "unknown",
+      "death": -626,
+      "deathAccuracy": "exact",
+      "deathNote": "楚世家：四十六年冬十月丁未，成王自绞杀。同篇把泓之战写在三十四年。专题此战为前638年，四十六年即前626年。",
+      "title": "泓之战败宋，四十六年自缢",
+      "bio": "楚成王。三十四年在泓击败宋襄公。城濮战败后诛子玉。四十六年冬十月被太子商臣围困，自缢。",
+      "tags": [
+        "楚国",
+        "泓之战"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

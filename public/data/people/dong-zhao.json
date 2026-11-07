@@ -1,0 +1,72 @@
+{
+  "id": "dong-zhao",
+  "name": "董昭",
+  "display": "董昭",
+  "birthAccuracy": "unknown",
+  "death": 236,
+  "deathAccuracy": "exact",
+  "title": "魏司徒，定奉天子之策",
+  "bio": "济阴定陶人，字公仁。汉末说杨奉迎天子，为曹操迁都许昌定策；后首倡进魏公、加九锡之议，累画军国重事；明帝时为司徒。青龙四年薨，谥定侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "dong-zhao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "劝曹操进魏公、加九锡"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caocao-feng-tianzi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "caocao-jianweiguo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "董昭",
+    "董公仁"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·程郭董刘蒋刘传",
+      "kind": "classic"
+    }
+  ]
+}

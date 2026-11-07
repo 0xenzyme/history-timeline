@@ -1,0 +1,145 @@
+{
+  "id": "qihuangong-jiwei",
+  "name": "齐桓公即位与管仲相齐",
+  "display": "齐桓公即位与管仲相齐",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -685,
+  "yearAccuracy": "exact",
+  "yearNote": "春秋经庄公九年「齊小白入於齊」（前685）；史记齐世家：无知弑襄公（前686）后小白自莒先入，高傒立之为桓公，鲁纳公子纠失败（乾时之战、杀子纠），鲍叔牙荐管仲为相。经传与史记一致。",
+  "polity": [
+    "qi"
+  ],
+  "people": [
+    "jiang-xiaobai",
+    "guan-zhong",
+    "bao-shuya",
+    "gongzi-jiu",
+    "gongsun-wuzhi"
+  ],
+  "aliases": [
+    "小白入齐",
+    "鲍叔牙荐管仲",
+    "齐桓公任管仲"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "公孙无知弑齐襄公后，流亡莒国的小白抢先入国即位为齐桓公，击败鲁国送公子纠之师，并以射钩之仇不记而用管仲为相。齐桓公—管仲组合开启春秋霸政时代。",
+  "sources": [
+    {
+      "work": "春秋經·莊公（維基文庫）",
+      "part": "莊公九年經",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·齊太公世家",
+      "part": "襄公之乱至桓公立",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "jiang-xiaobai",
+      "name": "姜小白",
+      "display": "齐桓公",
+      "birthAccuracy": "unknown",
+      "death": -643,
+      "deathAccuracy": "exact",
+      "title": "春秋首霸",
+      "bio": "襄公之弟。乱中入齐，用管仲，九合诸侯、一匡天下。他的长条横贯春秋中段，召陵、葵丘都落在这条里。",
+      "tags": [
+        "齐国"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "guan-zhong",
+      "name": "管夷吾",
+      "display": "管仲",
+      "birthAccuracy": "unknown",
+      "death": -645,
+      "deathAccuracy": "exact",
+      "title": "齐桓公相",
+      "bio": "颍上人。鲍叔牙囚中荐之。相齐四十年，富国强兵，尊王攘夷。桓公的条有多长，他的条几乎就有多长。",
+      "tags": [
+        "齐国",
+        "改革"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "bao-shuya",
+      "name": "鲍叔牙",
+      "display": "鲍叔牙",
+      "birthAccuracy": "unknown",
+      "death": -644,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。荐管仲后仍为齐大夫，管仲死前仍在；取桓公晚年作活动下限。",
+      "title": "齐大夫，荐管仲",
+      "bio": "与管仲分财、知管仲。桓公欲杀管仲，他力请释以为相。轴上这条短于管仲，关系却是「管鲍」之所以能画出来的那一笔。",
+      "tags": [
+        "齐国",
+        "荐贤"
+      ],
+      "categories": [
+        "official"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "gongzi-jiu",
+      "name": "姜纠",
+      "display": "公子纠",
+      "birthAccuracy": "unknown",
+      "death": -685,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·庄公九年（前685）「乃殺子糾於生竇」，召忽死之，管仲请囚。小白先入而纠后至。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "gongsun-wuzhi",
+      "name": "公孙无知",
+      "display": "公孙无知",
+      "birthAccuracy": "unknown",
+      "death": -685,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·庄公九年（前685）雍廪杀无知；史记·齐太公世家「雍林人殺無知」。弑齐襄公自立者。",
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

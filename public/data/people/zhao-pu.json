@@ -1,0 +1,83 @@
+{
+  "id": "zhao-pu",
+  "name": "赵普",
+  "display": "赵普",
+  "birth": 922,
+  "birthAccuracy": "exact",
+  "death": 992,
+  "deathAccuracy": "exact",
+  "title": "开国首相，半部论语治天下",
+  "bio": "幽州蓟人，佐太祖定天下，谋陈桥、定杯酒释兵权。三入中书，言「以半部《论语》佐太祖定天下」，为宋初典制奠基。",
+  "tags": [
+    "宋",
+    "北宋"
+  ],
+  "categories": [
+    "chancellor",
+    "founding"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wudai",
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "end"
+    },
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-pu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "掌机要，佐命归宋",
+        "谋主，定杯酒释兵权之策"
+      ],
+      "topicIds": [
+        "wudai",
+        "song"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beijiu-shibingquan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "chenqiao-bingbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "jinkui-zhimeng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "赵普传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "jifu-zhizhan",
+  "name": "鸡父之战",
+  "display": "鸡父之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military"
+  ],
+  "scale": "battle",
+  "importance": 1,
+  "year": -519,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·昭公二十三年》「戊辰，吳敗頓、胡、沈、蔡、陳、許之師于雞父」（戊辰晦，七月二十九日）。昭公二十三年＝前519。",
+  "place": "雞父（楚地）",
+  "placeNow": "今河南省固始县东南（杜注：安豐縣南有雞備亭）",
+  "belligerents": [
+    "wu-guo",
+    "chu",
+    "chen",
+    "cai"
+  ],
+  "commanders": [
+    {
+      "id": "wu-liao",
+      "side": "wu-guo"
+    },
+    {
+      "id": "ji-guang",
+      "side": "wu-guo"
+    }
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "楚为州来之役合顿胡沈蔡陈许七国联军救州来，吴王僚与公子光率军迎击。公子光言「七国同役而不同心」，请以罪人三千先犯胡沈陈诱敌，三先败而诸侯之师摇心，吴三军乘噪继进，楚师大奔；胡沈之君被获。吴自此掌握吴楚战争的主动权。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷50（昭公二十三年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "维基百科：鸡父之战",
+      "part": "https://zh.wikipedia.org/wiki/雞父之戰",
+      "kind": "modern"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wu-liao",
+      "name": "吴僚",
+      "display": "吴王僚",
+      "birthAccuracy": "unknown",
+      "death": -515,
+      "deathAccuracy": "exact",
+      "deathNote": "史记·吴太伯世家：公子光使专诸「遂弒王僚」；左传·昭公二十七年（前515）鱄设诸刺王僚。余眛卒前527，僚立后十三年得前515。",
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-guang",
+      "name": "姬光",
+      "display": "吴王阖闾",
+      "birthAccuracy": "unknown",
+      "death": -496,
+      "deathAccuracy": "exact",
+      "title": "吴王，破楚入郢",
+      "bio": "公子光弑王僚自立。用伍子胥、孙武，柏举之战入郢。檇李之役伤于越，还卒。吴的条从此交给夫差。",
+      "tags": [
+        "吴国",
+        "柏举"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

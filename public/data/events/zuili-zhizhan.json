@@ -1,0 +1,103 @@
+{
+  "id": "zuili-zhizhan",
+  "name": "槜李之战",
+  "display": "槜李之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": -496,
+  "yearAccuracy": "exact",
+  "yearNote": "《春秋·定公十四年》「五月，於越敗吳于槜李。吳子光卒」；《左傳》靈姑浮以戈擊闔廬，闔廬傷將指，還卒於陘；《史記·吳太伯世家》闔廬十九年（前496）「迎撃之槜李…吳王病傷而死」。定公十四年＝前496。",
+  "place": "槜李",
+  "placeNow": "今浙江省嘉兴市西南（杜注：吳郡嘉興縣南醉李城）",
+  "belligerents": [
+    "yue",
+    "wu-guo"
+  ],
+  "commanders": [
+    {
+      "id": "si-goujian",
+      "side": "yue"
+    },
+    {
+      "id": "ji-guang",
+      "side": "wu-guo"
+    }
+  ],
+  "parent": "wuyue-zhanzheng",
+  "aliases": [
+    "檇李之战"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "阖闾乘越王允常之丧伐越，勾践御之，陈于槜李。患吴师严整，使死士再挑战不动，乃使罪人三行属剑于颈、阵前自剄，吴师属目而骇，越因伐之，大败吴师；越大夫灵姑浮以戈击阖闾，伤其将指（足大指）取其一屦，吴师还而阖闾卒于陘（去槜李七里）。夫差使人立于庭，日警「而忘越王之杀而父乎」，三年乃报越。",
+  "sources": [
+    {
+      "work": "春秋左傳正義",
+      "part": "卷56（定公十三、十四年經傳）",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷031·吳太伯世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "si-goujian",
+      "name": "姒勾践",
+      "display": "越王勾践",
+      "birthAccuracy": "unknown",
+      "death": -465,
+      "deathAccuracy": "approx",
+      "deathNote": "《史记》未著绝对卒年，旧谱多系于句践三十三年、前 465 年。",
+      "title": "越王，灭吴",
+      "bio": "会稽之耻后，卧薪尝胆，用范蠡、文种。二十四年灭吴。他的条从夫差的阴影里穿出来，春秋的南线在此收束。",
+      "tags": [
+        "越国",
+        "灭吴"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "yue"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-guang",
+      "name": "姬光",
+      "display": "吴王阖闾",
+      "birthAccuracy": "unknown",
+      "death": -496,
+      "deathAccuracy": "exact",
+      "title": "吴王，破楚入郢",
+      "bio": "公子光弑王僚自立。用伍子胥、孙武，柏举之战入郢。檇李之役伤于越，还卒。吴的条从此交给夫差。",
+      "tags": [
+        "吴国",
+        "柏举"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wu-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

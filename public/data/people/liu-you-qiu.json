@@ -1,0 +1,58 @@
+{
+  "id": "liu-you-qiu",
+  "name": "刘幽求",
+  "display": "刘幽求",
+  "birth": 655,
+  "birthAccuracy": "exact",
+  "death": 715,
+  "deathAccuracy": "exact",
+  "title": "开元三年卒于道，年六十一",
+  "bio": "先天政变后为相，寻罢，贬杭州、桂阳。开元三年赴桂阳，在道愤恚而卒，年六十一。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "liu-you-qiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宰相表载710至713年在任，开元三年卒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "刘幽求"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "刘幽求传",
+      "kind": "classic"
+    }
+  ]
+}

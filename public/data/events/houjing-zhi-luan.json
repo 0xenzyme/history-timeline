@@ -1,0 +1,149 @@
+{
+  "id": "houjing-zhi-luan",
+  "name": "侯景之乱",
+  "display": "侯景之乱",
+  "kind": "span",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 548,
+  "yearAccuracy": "exact",
+  "endYear": 552,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "nan"
+  ],
+  "people": [
+    "hou-jing",
+    "xiao-yan",
+    "chen-ba-xian",
+    "wang-sengbian"
+  ],
+  "result": "侯景败死，三吴残破、梁室崩溃，南朝由盛转衰",
+  "aliases": [
+    "侯景叛梁"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "548 年（太清二年）东魏叛将侯景据寿春举兵反梁，渡江围台城百三十日，城陷，梁武帝忧愤而崩；景旋废立，551 年僭位。552 年王僧辩、陈霸先自江州东下，破侯景于建康，景败死。三吴经此残破，梁宗室萧绎、萧詧各倚外援，南朝在江南的统治重心自此瓦解，陈与西梁皆由此而生。",
+  "sources": [
+    {
+      "work": "梁书",
+      "part": "侯景传",
+      "kind": "classic"
+    },
+    {
+      "work": "南史",
+      "part": "贼臣传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hou-jing",
+      "name": "侯景",
+      "display": "侯景",
+      "birthAccuracy": "unknown",
+      "death": 552,
+      "deathAccuracy": "exact",
+      "deathNote": "「鯤殺之，送屍于王僧辯，傳首西臺，曝屍于建康市」（梁书·侯景传），承承圣元年王僧辩等东下平景系年。",
+      "title": "羯胡之将，渡江乱梁，覆建康而僭号，终为羊鲲所杀",
+      "tags": [
+        "南北朝",
+        "梁"
+      ],
+      "categories": [
+        "rebel",
+        "warlord"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiao-yan",
+      "name": "萧衍",
+      "display": "梁武帝萧衍",
+      "birth": 464,
+      "birthAccuracy": "exact",
+      "death": 549,
+      "deathAccuracy": "exact",
+      "title": "梁武帝，在位四十八年，饿死台城",
+      "bio": "南兰陵中都里人，萧顺之之子，与萧道成同族。起兵襄阳，中兴二年受齐和帝禅，改国号梁。在位四十八年，礼佛断酒肉，立国学、修五礼，江左文物之盛，南朝第一。晚年佞佛，侯景之乱起，太清三年台城陷，幽于净居殿，所求不供，忧愤寝疾而崩，年八十六。",
+      "tags": [
+        "南朝",
+        "萧梁"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "chen-ba-xian",
+      "name": "陈霸先",
+      "display": "陈武帝陈霸先",
+      "birth": 503,
+      "birthAccuracy": "exact",
+      "death": 559,
+      "deathAccuracy": "exact",
+      "title": "代梁建陈，平侯景而定江左",
+      "bio": "吴兴长城下若里人，初为里司、油库吏，以军功起家。侯景之乱，自始兴起兵赴援，与王僧辩共平建康。承圣四年袭杀僧辩，立敬帝，太平二年受禅，国号陈。在位三年崩，年五十七，南朝最后一个开国之君，江左之地日蹙。",
+      "tags": [
+        "南朝",
+        "南陈"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-sengbian",
+      "name": "王僧辩",
+      "display": "王僧辩",
+      "birthAccuracy": "unknown",
+      "death": 555,
+      "deathAccuracy": "exact",
+      "deathNote": "陈霸先夜袭石头城，「爾夜斬之」（梁书·王僧辩传），事在承圣四年。",
+      "title": "平侯景之乱的主帅，为陈霸先夜袭所杀",
+      "tags": [
+        "南北朝",
+        "梁"
+      ],
+      "categories": [
+        "general",
+        "chancellor"
+      ],
+      "primary": "general",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

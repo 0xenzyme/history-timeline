@@ -1,0 +1,95 @@
+{
+  "id": "tian-di",
+  "name": "田地",
+  "display": "齐湣王",
+  "birthAccuracy": "unknown",
+  "death": -284,
+  "deathAccuracy": "exact",
+  "title": "齐王，灭宋后五国伐齐",
+  "bio": "宣王之子。与秦争为东帝，灭宋而诸侯恐惧。燕、秦、韩、魏、赵五国伐齐，乐毅下七十余城，他死于莒。破齐与田单复国两条，都咬在齐国这条的终点上。",
+  "tags": [
+    "齐国",
+    "破齐"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-zhi",
+      "target": "tian-di",
+      "type": "rival",
+      "directed": false,
+      "since": -284,
+      "notes": [
+        "五国伐齐，乐毅下七十余城，湣王死于莒"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-di",
+      "target": "tian-xuanwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣王卒，湣王嗣"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-di",
+      "target": "tian-fa",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "湣王死于莒，襄王法立于难际"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "leyifa-qi",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qin-qi-hudi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "齐湣王",
+    "齐闵王"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "田敬仲完世家",
+      "kind": "classic"
+    }
+  ]
+}

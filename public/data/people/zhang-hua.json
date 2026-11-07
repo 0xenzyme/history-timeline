@@ -1,0 +1,103 @@
+{
+  "id": "zhang-hua",
+  "name": "张华",
+  "display": "张华",
+  "birth": 232,
+  "birthAccuracy": "exact",
+  "death": 300,
+  "deathAccuracy": "exact",
+  "title": "司空，博物洽闻，死于赵王伦之难",
+  "bio": "范阳方城人，少孤贫，牧羊而好学，学业优博，图纬方伎莫不详览，作《博物志》。力主伐吴，为之度支。贾后时用事，海内晏然。永康元年赵王伦废贾后，华以不屈被害，夷三族，年六十九。西晋最后一位能持局的人。",
+  "tags": [
+    "西晋",
+    "八王之乱"
+  ],
+  "categories": [
+    "official",
+    "literature"
+  ],
+  "primary": "official",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "xijin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "jia-nanfeng",
+      "target": "zhang-hua",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "倚张华居中调护数年"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "zhang-hua",
+      "target": "lu-ji",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "陆机入洛，张华荐之于诸公，称为二俊"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "lu-yun",
+      "target": "zhang-hua",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "入洛诣华，称为二俊"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "chen-shou",
+      "target": "zhang-hua",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "张华爱其才，荐为孝廉；后撰《三国志》，时人称善叙事"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "jin-mie-wu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "张华",
+    "张茂先"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "张华传",
+      "kind": "classic"
+    }
+  ]
+}

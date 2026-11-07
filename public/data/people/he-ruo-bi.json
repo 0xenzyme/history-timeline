@@ -1,0 +1,66 @@
+{
+  "id": "he-ruo-bi",
+  "name": "贺若弼",
+  "display": "贺若弼",
+  "birth": 544,
+  "birthAccuracy": "exact",
+  "death": 607,
+  "deathAccuracy": "exact",
+  "title": "上柱国，广陵渡江破陈，以口祸见杀",
+  "bio": "河南洛阳人，父敦以口舌被杀，临刑刺弼舌出血，诫以慎口。开皇八年为行军总管，自广陵济江，破京口，与韩擒虎并进，陈人悉降。自谓功名出群臣之右，每以宰相自许。大业三年与高颎同坐诽谤朝政被诛，年六十四，一如父诫。",
+  "tags": [
+    "隋",
+    "平陈"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "sui"
+  ],
+  "gender": "unknown",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sui",
+      "title": "隋",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "han-qinhu",
+      "target": "he-ruo-bi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "平陈双璧，韩擒虎先入建康"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sui-mie-chen",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "贺若弼",
+    "贺辅伯"
+  ],
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "贺若弼传",
+      "kind": "classic"
+    }
+  ]
+}

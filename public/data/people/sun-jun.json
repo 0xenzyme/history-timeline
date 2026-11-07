@@ -1,0 +1,71 @@
+{
+  "id": "sun-jun",
+  "name": "孙峻",
+  "display": "孙峻",
+  "birthAccuracy": "unknown",
+  "death": 256,
+  "deathAccuracy": "exact",
+  "title": "吴丞相，诛诸葛恪后辅政",
+  "bio": "吴郡富春人，字子远，孙静曾孙。孙亮时定谋诛太傅诸葛恪，自为丞相，不复置御史大夫，士人失望；宗室吴侯孙英谋杀之，事泄死。太平元年卒，从弟綝代辅政。",
+  "tags": [
+    "三国",
+    "孙吴"
+  ],
+  "categories": [
+    "regent",
+    "general"
+  ],
+  "primary": "regent",
+  "polity": [
+    "wu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "sunwu"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-jun",
+      "target": "sun-quan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "孙权从子，与诸葛恪同受遗诏"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    },
+    {
+      "source": "sun-jun",
+      "target": "sun-lin",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟；孙綝为孙峻从弟，继掌吴政，废孙亮"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孙峻",
+    "孙子远"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "吴书·诸葛滕二孙濮阳传",
+      "kind": "classic"
+    }
+  ]
+}

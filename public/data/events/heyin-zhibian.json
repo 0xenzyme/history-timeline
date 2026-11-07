@@ -1,0 +1,149 @@
+{
+  "id": "heyin-zhibian",
+  "name": "河阴之变",
+  "display": "河阴之变",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 528,
+  "yearAccuracy": "exact",
+  "place": "河阴",
+  "placeNow": "今河南孟津北",
+  "polity": [
+    "bei"
+  ],
+  "people": [
+    "erzhu-rong",
+    "hu-taihou",
+    "yuan-ziyou",
+    "yuan-xu"
+  ],
+  "result": "王公朝士二千余人被屠，北魏皇权为尔朱氏所制",
+  "aliases": [
+    "nb-heyin"
+  ],
+  "dynasties": [
+    "northern-southern"
+  ],
+  "desc": "528 年（建义元年）孝明帝暴崩，胡太后立幼主元钊，契胡尔朱荣自晋阳举兵南下，立元子攸为帝（孝庄帝），沉胡太后与幼主于河阴，以“匡扶社稷”为名围杀王公百官二千余人。北魏中央统治集团一朝丧尽，皇权自此为尔朱氏及其后的军阀所制。",
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "尔朱荣传",
+      "kind": "classic"
+    },
+    {
+      "work": "魏书",
+      "part": "孝庄纪",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "erzhu-rong",
+      "name": "尔朱荣",
+      "display": "尔朱荣",
+      "birth": 493,
+      "birthAccuracy": "exact",
+      "death": 530,
+      "deathAccuracy": "exact",
+      "title": "契胡酋帅，河阴之变，为孝庄所杀",
+      "bio": "北秀容契胡人，世为部落酋帅，以讨六镇、破葛荣功至大将军。建义元年胡太后鸩孝明帝，荣举兵入洛，沉太后及幼主于河，杀王公卿士二千余人于河阴，史称河阴之变，北魏之朝士为之一空。永安三年孝庄帝不堪其逼，伏兵明光殿，亲斩荣于御坐前，年三十八。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "regent",
+        "official",
+        "general"
+      ],
+      "primary": "regent",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "hu-taihou",
+      "name": "胡太后",
+      "display": "灵太后胡氏",
+      "birthAccuracy": "unknown",
+      "death": 528,
+      "deathAccuracy": "exact",
+      "title": "孝明之母，武泰元年沉于河",
+      "bio": "宣武帝的充华，生下孝明帝，后来临朝。武泰元年尔朱荣渡河，把太后和幼主沉于河阴。",
+      "tags": [
+        "南北朝",
+        "北魏"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "polity": [
+        "bei"
+      ],
+      "gender": "female",
+      "lane": ""
+    },
+    {
+      "id": "yuan-ziyou",
+      "name": "元子攸",
+      "display": "孝庄帝元子攸",
+      "birth": 507,
+      "birthAccuracy": "approx",
+      "death": 530,
+      "deathAccuracy": "exact",
+      "birthNote": "永安三年崩，年二十四，上推生年。",
+      "title": "北魏孝庄帝，尔朱兆迁杀于晋阳",
+      "bio": "彭城王勰第三子。幼侍孝明帝，长直禁中。永安三年十二月，尔朱兆迁帝于晋阳，崩于三级佛寺，年二十四。",
+      "tags": [
+        "南北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuan-xu",
+      "name": "元诩",
+      "display": "孝明帝元诩",
+      "birth": 510,
+      "birthAccuracy": "exact",
+      "death": 528,
+      "deathAccuracy": "exact",
+      "title": "北魏孝明帝，母后临朝，被鸩而死",
+      "bio": "元恪第二子，母胡充华。五岁即位，太后临朝称制，政事一委之。正光以后六镇、关陇、河北并起，朝纲日坏。武泰元年帝年十九，与太后嫌隙日深，密诏尔朱荣举兵，谋泄，为太后所鸩。荣遂入洛，河阴之变随之，北魏名存实亡。",
+      "tags": [
+        "北朝",
+        "北魏"
+      ],
+      "categories": [
+        "monarch",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "bei"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

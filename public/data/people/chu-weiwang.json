@@ -1,0 +1,74 @@
+{
+  "id": "chu-weiwang",
+  "name": "楚威王",
+  "display": "楚威王",
+  "birthAccuracy": "unknown",
+  "death": -329,
+  "deathAccuracy": "exact",
+  "deathNote": "楚世家在位年系年，前329年卒。",
+  "title": "楚王，徐州相王之世",
+  "bio": "并越地、与齐魏徐州相王，苏秦说六国时楚为纵长之资。屈原为其世左徒，主联齐距秦。前329年卒，轴上张仪欺楚之祸起于其子怀王熊槐。",
+  "tags": [
+    "楚国",
+    "合纵"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "polity": [
+    "chu"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "ruler"
+    }
+  ],
+  "relations": [
+    {
+      "source": "chu-weiwang",
+      "target": "chu-xuanwang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "宣王卒，威王嗣，并越、徐州相王"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "chu-weiwang",
+      "target": "xiong-huai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "威王卒，怀王槐嗣——商於六百里之欺起于其身"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "威王（楚）"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "楚世家",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "屈原贾生列传",
+      "kind": "classic"
+    }
+  ]
+}

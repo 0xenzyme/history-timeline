@@ -1,0 +1,57 @@
+{
+  "id": "miao-jin-qing",
+  "name": "苗晋卿",
+  "display": "苗晋卿",
+  "birthAccuracy": "unknown",
+  "death": 765,
+  "deathAccuracy": "exact",
+  "title": "永泰元年薨",
+  "bio": "肃宗、代宗朝为相。永泰元年四月薨。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-yu",
+      "target": "miao-jin-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "肃代朝为相，永泰元年薨"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "苗晋卿"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "苗晋卿传",
+      "kind": "classic"
+    }
+  ]
+}

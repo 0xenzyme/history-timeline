@@ -1,0 +1,67 @@
+{
+  "id": "wen-zhengming",
+  "name": "文徵明",
+  "display": "文徵明",
+  "birth": 1470,
+  "birthAccuracy": "exact",
+  "death": 1559,
+  "deathAccuracy": "exact",
+  "title": "吴门书画之宗",
+  "bio": "初名璧，以字行，长洲人。十试不利而后以岁贡荐授翰林待诏; 书画精整，年九十犹作细笔，门人遍吴中。1559 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "painting",
+    "calligraphy"
+  ],
+  "primary": "painting",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tang-yin",
+      "target": "wen-zhengming",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为吴中才士，一放诞一谨重"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "dong-qichang",
+      "target": "wen-zhengming",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "吴门之宗与华亭南北宗之说，前后相望"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "文苑传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "du-chongwei",
+  "name": "杜重威",
+  "display": "杜重威",
+  "birthAccuracy": "unknown",
+  "death": 950,
+  "deathAccuracy": "exact",
+  "title": "中渡之降，倾晋二十万之众",
+  "bio": "石氏之甥婿，故位将相。开运末总大军御契丹，顿军都林，粮尽先遣请和，至中渡，举军而降，引德光入汴，晋亡由成。汉初归命，寻以邠州叛，伏诛。",
+  "tags": [
+    "五代",
+    "后晋"
+  ],
+  "categories": [
+    "general",
+    "rebel"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "du-chongwei",
+      "target": "shi-jingtang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "甥婿相维，将相之位由亲而得"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "shi-chonggui",
+      "target": "du-chongwei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "总大军御边，中渡先降"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "du-chongwei",
+      "target": "yelv-deguang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以大军降，导契丹入汴"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "baituanwei-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "hutuo-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qidan-fa-houjin",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "qidan-mie-houjin",
+      "roles": [
+        "commander"
+      ]
+    },
+    {
+      "id": "yangcheng-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "杜威"
+  ],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "杜重威传",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "晋本纪下",
+      "kind": "classic"
+    }
+  ]
+}

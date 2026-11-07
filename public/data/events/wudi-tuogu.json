@@ -1,0 +1,172 @@
+{
+  "id": "wudi-tuogu",
+  "name": "武帝托孤，霍光辅政",
+  "display": "武帝托孤",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -87,
+  "yearAccuracy": "exact",
+  "yearNote": "后元二年（前 87 年）二月丁卯武帝崩于五柞宫，纪传互证。",
+  "place": "五柞宫",
+  "placeNow": "今陕西周至",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "liu-che",
+    "huo-guang",
+    "liu-fuling",
+    "jin-mi-di",
+    "shangguan-jie"
+  ],
+  "result": "霍光受遗诏辅少主，昭帝八岁即位，大司马大将军辅政体制确立",
+  "aliases": [
+    "霍光辅政",
+    "昭帝即位"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "后元二年（前 87 年）二月，武帝立幼子弗陵为皇太子，旋崩于五柞宫；霍光以大司马大将军受遗诏辅少主，昭帝八岁即位，政事壹决于光。辅政体制自此定型，西汉中后期外戚辅政的权力结构由之而来。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷六 武帝紀",
+      "kind": "classic"
+    },
+    {
+      "work": "漢書",
+      "part": "卷六八 霍光金日磾傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huo-guang",
+      "name": "霍光",
+      "display": "霍大将军",
+      "birthAccuracy": "unknown",
+      "death": -68,
+      "deathAccuracy": "exact",
+      "birthNote": "生年不详",
+      "title": "汉武帝托孤重臣，大司马大将军",
+      "bio": "霍去病异母弟。受武帝遗诏辅佐昭帝，前后秉政二十年，行轮台诏后的休养生息之政；废昌邑王、迎立宣帝，权倾一时。死后霍氏以谋反灭族。",
+      "tags": [
+        "辅政",
+        "托孤",
+        "权势"
+      ],
+      "categories": [
+        "official",
+        "regent"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-fuling",
+      "name": "刘弗陵",
+      "display": "汉昭帝",
+      "birth": -94,
+      "birthAccuracy": "exact",
+      "death": -74,
+      "deathAccuracy": "exact",
+      "title": "西汉第八位皇帝",
+      "bio": "八岁即位，霍光辅政。轻徭薄赋、与匈奴和亲，扭转武帝末年凋敝，二十一岁早崩。",
+      "tags": [
+        "霍光辅政",
+        "早崩"
+      ],
+      "categories": [
+        "monarch",
+        "regent"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jin-mi-di",
+      "name": "金日磾",
+      "display": "金日磾",
+      "birthAccuracy": "unknown",
+      "death": -86,
+      "deathAccuracy": "exact",
+      "title": "车骑将军，与霍光同受遗诏",
+      "bio": "本匈奴休屠王太子，父被昆邪王所杀后与母弟没入官养马，为武帝亲信近侍。武帝遗诏封秺侯，与霍光同受顾命辅佐昭帝，日磾为副；辅政岁余病薨，谥敬侯。",
+      "tags": [
+        "休屠王子",
+        "托孤辅政"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shangguan-jie",
+      "name": "上官桀",
+      "display": "上官桀",
+      "birthAccuracy": "unknown",
+      "death": -80,
+      "deathAccuracy": "exact",
+      "title": "左将军，元凤元年谋反伏诛",
+      "bio": "武帝时以材力得幸，官太仆，与霍光、金日磾同受遗诏辅昭帝，封安阳侯，孙女为昭帝上官皇后。后与燕王旦、桑弘羊及盖长公主通谋，欲杀霍光废昭帝，元凤元年事泄伏诛。",
+      "tags": [
+        "托孤辅政",
+        "元凤政变"
+      ],
+      "categories": [
+        "general",
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

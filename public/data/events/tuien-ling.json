@@ -1,0 +1,96 @@
+{
+  "id": "tuien-ling",
+  "name": "推恩令",
+  "display": "推恩令",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -127,
+  "yearAccuracy": "exact",
+  "yearNote": "元朔二年（前 127 年）春正月诏，本纪纪年直接可查。",
+  "place": "长安",
+  "placeNow": "今陕西西安",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "liu-che",
+    "zhu-fu-yan"
+  ],
+  "result": "诸侯王分邑子弟，藩国始分，王国势力自析",
+  "aliases": [
+    "推恩诏"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "元朔二年春正月，武帝纳主父偃之议下推恩诏，令诸侯王分邑子弟，「藩国始分，而子弟毕侯」。推恩以德施为名，实分其国，不削而诸侯自弱，王国尾大之势自此渐解。此诏把削藩转为制度化的分邑，中央集权由此加强。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷六 武帝紀",
+      "kind": "classic"
+    },
+    {
+      "work": "史記",
+      "part": "卷百十二 平津侯主父列傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "liu-che",
+      "name": "刘彻",
+      "display": "汉武帝",
+      "birth": -156,
+      "birthAccuracy": "disputed",
+      "death": -87,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 156、前 157 两说",
+      "title": "西汉第七位皇帝，在位 54 年",
+      "bio": "罢黜百家、独尊儒术，北击匈奴、西通西域，盐铁官营、颁太初历。一生开疆拓土，晚年亦有巫蛊之祸与轮台罪己。",
+      "tags": [
+        "开疆",
+        "独尊儒术",
+        "在位54年"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhu-fu-yan",
+      "name": "主父偃",
+      "display": "主父偃",
+      "birthAccuracy": "unknown",
+      "death": -127,
+      "deathAccuracy": "exact",
+      "title": "倡推恩令，一岁四迁",
+      "bio": "齐国临菑人，学长短纵横之术，晚得武帝召见，一岁四迁至中大夫。倡推恩令，令诸侯得推恩分子弟，不削而自弱；又奏徙郡国豪杰于茂陵。为齐相，坐齐王自杀，公孙弘争「非诛偃无以谢天下」，遂族。",
+      "tags": [
+        "推恩令",
+        "武帝"
+      ],
+      "categories": [
+        "strategist"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

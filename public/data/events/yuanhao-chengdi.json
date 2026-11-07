@@ -1,0 +1,91 @@
+{
+  "id": "yuanhao-chengdi",
+  "name": "元昊称帝",
+  "display": "元昊称帝",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1038,
+  "yearAccuracy": "exact",
+  "yearNote": "夏国传系于宋宝元元年，表文写十月十一日郊坛即皇帝位、国称大夏。该日为 1038-11-10，不跨年。宋廷至宝元元年十二月才记「赵元昊反」，二年正月才收到称帝表。",
+  "polity": [
+    "xixia"
+  ],
+  "people": [
+    "li-yuanhao",
+    "zhao-zhen"
+  ],
+  "aliases": [
+    "西夏建国",
+    "天授礼法延祚"
+  ],
+  "dynasties": [
+    "liao",
+    "song",
+    "xixia"
+  ],
+  "desc": "宋宝元元年十月十一日，李元昊郊坛即皇帝位，国号大夏，年号天授礼法延祚。宋廷到当年十二月才记「赵元昊反」，次年正月才收到称帝表。党项政权由此从封授变为敌国。西夏立国，其后的宋夏战争与和议由此而起。",
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "卷四百八十五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-yuanhao",
+      "name": "李元昊",
+      "display": "李元昊",
+      "birth": 1003,
+      "birthAccuracy": "exact",
+      "death": 1048,
+      "deathAccuracy": "exact",
+      "title": "称帝建夏、三川口好水川之祸源",
+      "bio": "德明之子，继立后去唐宋赐姓，创蕃书，定官制。宝元元年称帝，国号夏；三川口、好水川、定川寨三败宋军，庆历和议成，宋岁赐银绢。后被太子宁令哥所弑。",
+      "tags": [
+        "西夏"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "xixia"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-zhen",
+      "name": "赵祯",
+      "display": "赵祯",
+      "birth": 1010,
+      "birthAccuracy": "exact",
+      "death": 1063,
+      "deathAccuracy": "exact",
+      "title": "宋仁宗，庆历之治",
+      "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

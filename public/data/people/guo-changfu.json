@@ -1,0 +1,53 @@
+{
+  "id": "guo-changfu",
+  "name": "虢公长父",
+  "display": "虢公长父",
+  "birthAccuracy": "unknown",
+  "death": -839,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。仅见竹书厉王三年命伐淮夷不克。",
+  "title": "厉王时虢君，伐淮夷不克",
+  "bio": "竹书厉王三年淮夷侵洛，王命虢公长父伐之，不克。史记周本纪不见其名。",
+  "tags": [
+    "虢",
+    "淮夷"
+  ],
+  "categories": [
+    "vassal"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-hu",
+      "target": "guo-changfu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "厉王三年命虢公长父伐淮夷不克"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "虢公长父"
+  ],
+  "sources": [
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪"
+    }
+  ]
+}

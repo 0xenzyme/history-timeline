@@ -1,0 +1,116 @@
+{
+  "id": "yu-liang",
+  "name": "庾亮",
+  "display": "庾亮",
+  "birth": 289,
+  "birthAccuracy": "exact",
+  "death": 340,
+  "deathAccuracy": "exact",
+  "title": "征西将军，苏峻之乱由之而发",
+  "bio": "颍川鄢陵人，庾亮妹为明帝皇后。明帝崩，与王导同受遗诏辅政，任法裁物，颇失人心。咸和二年征苏峻为大司农以释其兵，峻遂与祖约举兵，入建康，迁帝于石头。乱平后出镇武昌，谋北伐不果，咸康六年卒于武昌，年五十二。",
+  "tags": [
+    "东晋",
+    "颍川庾氏"
+  ],
+  "categories": [
+    "consort-kin",
+    "official",
+    "general"
+  ],
+  "primary": "official",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wen-qiao",
+      "target": "yu-liang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同讨苏峻"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "yu-liang",
+      "target": "yu-wenjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄妹。亮以帝舅当权，乱起后携诸弟奔寻阳"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "su-jun",
+      "target": "yu-liang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "亮奔寻阳，召义军同讨峻"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "yu-liang",
+      "target": "yu-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。翼代亮镇武昌，谋北伐"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "yu-liang",
+      "target": "mao-bao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以万人守邾城，救缓城陷溺死"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "sujun-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "庾亮",
+    "庾元规"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "庾亮传",
+      "kind": "classic"
+    }
+  ]
+}

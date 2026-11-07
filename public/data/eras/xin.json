@@ -1,0 +1,168 @@
+{
+  "id": "xin",
+  "name": "新",
+  "from": 8,
+  "to": 23,
+  "contractVersion": 1,
+  "group": "qin-han",
+  "personCount": 0,
+  "eventCount": 4,
+  "founderRecords": [],
+  "topics": [],
+  "people": [],
+  "events": [
+    {
+      "id": "wangmang-daihan",
+      "name": "王莽代汉，建立新朝",
+      "display": "王莽代汉，建立新朝",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 9,
+      "yearAccuracy": "exact",
+      "polity": [
+        "han",
+        "xin"
+      ],
+      "result": "王莽废孺子婴自立，新朝取代西汉",
+      "aliases": [
+        "王莽篡汉"
+      ],
+      "dynasties": [
+        "xin"
+      ],
+      "desc": "王莽以外戚身份逐步掌握朝政，在摄皇帝阶段控制全部皇权，最终废孺子婴并即皇帝位，改国号为新。西汉政权由此终结，国家进入新莽改制时期。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "王莽传中",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "汉纪二十九",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "lulin-chimei-qiyi",
+      "name": "绿林、赤眉军兴起",
+      "display": "绿林、赤眉军兴起",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 17,
+      "yearAccuracy": "disputed",
+      "yearNote": "绿林军于17年起兵，赤眉军约于18年形成；此处以绿林起兵年作为轴上锚点",
+      "polity": [
+        "xin"
+      ],
+      "result": "各地反新武装迅速扩大，新朝的地方统治与军事体系走向崩溃",
+      "aliases": [
+        "绿林赤眉起义"
+      ],
+      "dynasties": [
+        "xin"
+      ],
+      "desc": "新莽末年灾荒、赋役和改制失序交织，荆州绿林与青徐赤眉等武装先后兴起。两支力量并非一个统一组织，但共同动摇了新朝的地方控制，并为更始政权、新朝覆亡和此后的群雄竞争创造了条件。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "王莽传下",
+          "kind": "classic"
+        },
+        {
+          "work": "后汉书",
+          "part": "刘玄刘盆子列传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "kunyang-zhizhan",
+      "name": "昆阳之战",
+      "display": "昆阳之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 23,
+      "yearAccuracy": "exact",
+      "place": "昆阳",
+      "placeNow": "今河南叶县",
+      "belligerents": [
+        "xin",
+        "minbian"
+      ],
+      "result": "新军主力溃败，更始政权取得战略主动，新朝覆亡已不可逆转",
+      "dynasties": [
+        "xin"
+      ],
+      "desc": "新朝大军围攻昆阳，城内汉军坚守，刘秀出城调集援军后内外夹击。王寻战死，新军在风雨与溃逃中瓦解。此战摧毁了王莽用于镇压反新力量的主力，使更始军得以迅速向关中推进。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "王莽传下",
+          "kind": "classic"
+        },
+        {
+          "work": "后汉书",
+          "part": "光武帝纪上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xin-mie",
+      "name": "新朝灭亡",
+      "display": "新朝灭亡",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 23,
+      "yearAccuracy": "exact",
+      "polity": [
+        "xin",
+        "han"
+      ],
+      "result": "更始军攻入长安，王莽被杀，新朝覆亡",
+      "aliases": [
+        "长安之战"
+      ],
+      "dynasties": [
+        "xin"
+      ],
+      "desc": "昆阳战败后，新朝失去主要军事支柱。更始军攻入长安，王莽在未央宫渐台被杀，新朝覆亡。此后更始、赤眉与各地割据势力并立，汉室重建仍须经过新的政治与军事竞争。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "王莽传下",
+          "kind": "classic"
+        },
+        {
+          "work": "后汉书",
+          "part": "刘玄刘盆子列传",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "collectionRecords": [],
+  "sources": []
+}

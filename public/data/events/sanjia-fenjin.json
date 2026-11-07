@@ -1,0 +1,143 @@
+{
+  "id": "sanjia-fenjin",
+  "name": "三家分晋",
+  "display": "三家分晋",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -403,
+  "yearAccuracy": "exact",
+  "yearNote": "主锚取周威烈王二十三年（前403）初命晋大夫魏斯、赵籍、韩虔为诸侯（《资治通鉴》开篇）；另一常用开端为前453三家灭智氏、三分其地（通鉴卷一追叙），前376晋静公被废、晋绝不祀（《史记·晋世家》）为叙事终点，均入 aliases/备注。",
+  "polity": [
+    "jin-guo"
+  ],
+  "people": [
+    "zhou-weiliewang",
+    "wei-wenhou",
+    "zhao-liehou",
+    "han-jinghou"
+  ],
+  "aliases": [
+    "三家分晋（前453灭智氏）",
+    "初命晋大夫魏斯赵籍韩虔为诸侯",
+    "魏赵韩建国"
+  ],
+  "dynasties": [
+    "warring-states"
+  ],
+  "desc": "晋国政归六卿后，赵、韩、魏三家于前453年灭智氏而三分其地。前403年周威烈王初命魏斯、赵籍、韩虔为诸侯，三家建国获王室追认；前376年废晋静公，晋绝不祀。战国七雄格局由此展开，《资治通鉴》即以此事开篇。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "卷一",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷三十九·晋世家",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhou-weiliewang",
+      "name": "周威烈王",
+      "display": "周威烈王",
+      "birthAccuracy": "unknown",
+      "death": -402,
+      "deathAccuracy": "exact",
+      "deathNote": "周本纪、六国年表：威烈王午，在位二十六年，卒于前402年。",
+      "title": "周王，命三家为诸侯者",
+      "bio": "战国开始的界线画在他的命令上：前403命魏赵韩俱为诸侯。死在那道命令之后九年——周王的条从此起，渐渐比不过七国的县令。",
+      "tags": [
+        "周室",
+        "三家分晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-wenhou",
+      "name": "魏文侯",
+      "display": "魏文侯",
+      "birthAccuracy": "unknown",
+      "death": -396,
+      "deathAccuracy": "disputed",
+      "deathNote": "文侯卒年内证矛盾：魏世家在位年与六国年表有出入。年份从通行说前396年，标disputed。",
+      "title": "魏侯，三家受命之首",
+      "bio": "三家之首：礼贤下士，用李悝、翟璜，乐羊伐中山，吴起守西河，前403与韩赵同受周威烈王命为诸侯——轴上的三家分晋系在他受命。魏最先强，变法、合纵两章都能回溯到他的朝廷。",
+      "tags": [
+        "魏国",
+        "礼贤",
+        "变法"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-liehou",
+      "name": "赵烈侯",
+      "display": "赵烈侯",
+      "birthAccuracy": "unknown",
+      "death": -400,
+      "deathAccuracy": "exact",
+      "deathNote": "赵世家在位年与六国年表系定，前400年卒。",
+      "title": "赵侯，三家受命之一",
+      "bio": "与魏文侯、韩景侯同受命于周威烈王。墨者公仲、牛畜一进退见于世家，赵的初政在守成之间。前400年卒。",
+      "tags": [
+        "赵国",
+        "三家分晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "han-jinghou",
+      "name": "韩景侯",
+      "display": "韩景侯",
+      "birthAccuracy": "unknown",
+      "death": -400,
+      "deathAccuracy": "approx",
+      "deathNote": "韩世家传年与六国年表出入，由景侯纪元逆推，约前400年卒，记approx。",
+      "title": "韩侯，三家受命之一",
+      "bio": "前403与魏文侯、赵烈侯同受周威烈王命为诸侯。韩地狭，介在秦魏楚之间，七国最弱的一条——韩的君主列自此补全，才看得见它一年年缩到最后。",
+      "tags": [
+        "韩国",
+        "三家分晋"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

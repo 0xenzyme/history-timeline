@@ -1,0 +1,65 @@
+{
+  "id": "gao-jichong",
+  "name": "高继冲",
+  "display": "高继冲",
+  "birthAccuracy": "unknown",
+  "death": 973,
+  "deathAccuracy": "disputed",
+  "deathNote": "《宋史·荆南世家》列传亡于开宝六年（973）前后；一说开宝九年，存疑。生年无载。",
+  "title": "荆南末主，纳土归宋",
+  "bio": "高氏自季兴据江陵，历四世，保有荆、归、峡三州之地。继冲承其业。乾德元年（963），宋师假道江陵以图湖南，继冲惧，奉版籍内附，荆南亡。入宋，太祖礼遇之，久之以疾卒于京师。荆南地小而介湖南、淮南之间，高氏所以濡迹五代数十年者，以中原多故、不暇外略；至是归于混一。",
+  "tags": [
+    "五代",
+    "荆南",
+    "亡国之君"
+  ],
+  "categories": [
+    "monarch",
+    "falling"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhao-kuangyin",
+      "target": "gao-jichong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾德元年宋师假道江陵，继冲奉版籍内附，荆南亡"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高继冲"
+  ],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "荆南世家",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "南平世家",
+      "kind": "classic"
+    }
+  ]
+}

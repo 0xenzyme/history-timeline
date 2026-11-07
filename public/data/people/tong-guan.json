@@ -1,0 +1,60 @@
+{
+  "id": "tong-guan",
+  "name": "童贯",
+  "display": "童贯",
+  "birth": 1054,
+  "birthAccuracy": "exact",
+  "death": 1126,
+  "deathAccuracy": "exact",
+  "title": "握兵二十年的宦官封王",
+  "bio": "以供奉官投西北，握兵权二十年，收青唐、主燕云之役，以宦官封广阳郡王。金兵南下弃军而归，钦宗即位伏诛。",
+  "tags": [
+    "宋"
+  ],
+  "categories": [
+    "eunuch",
+    "general"
+  ],
+  "polity": [
+    "song"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "general"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "fang-la-qiyi",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "haishang-zhi-meng",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "shou-yanyun",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "童贯传",
+      "kind": "classic"
+    }
+  ]
+}

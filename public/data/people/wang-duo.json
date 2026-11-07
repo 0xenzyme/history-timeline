@@ -1,0 +1,57 @@
+{
+  "id": "wang-duo",
+  "name": "王铎",
+  "display": "王铎",
+  "birthAccuracy": "unknown",
+  "death": 884,
+  "deathAccuracy": "exact",
+  "title": "中和四年遇害",
+  "bio": "僖宗朝同平章事，督师讨黄巢。中和四年遇害。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-xuan",
+      "target": "wang-duo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "僖宗朝督师讨黄巢，中和四年遇害"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "王铎"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "王铎传",
+      "kind": "classic"
+    }
+  ]
+}

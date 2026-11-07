@@ -1,0 +1,66 @@
+{
+  "id": "donglin-dangjin",
+  "name": "东林党禁",
+  "display": "东林党禁",
+  "kind": "point",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": 1625,
+  "yearAccuracy": "exact",
+  "yearNote": "天启五年三月。",
+  "polity": [
+    "ming"
+  ],
+  "people": [
+    "yang-lian"
+  ],
+  "result": "杨涟等死于狱中",
+  "aliases": [
+    "六君子"
+  ],
+  "dynasties": [
+    "ming"
+  ],
+  "desc": "天启五年三月，逮杨涟、左光斗、袁化中、魏大中、周朝瑞、顾大章，下镇抚司狱，相继死狱中。高攀龙本纪未点名，不写入。",
+  "sources": [
+    {
+      "work": "明史",
+      "part": "卷二十二",
+      "note": "天启五年三月逮杨涟、左光斗等，下镇抚司狱，相继死",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "yang-lian",
+      "name": "杨涟",
+      "display": "杨涟",
+      "birth": 1572,
+      "birthAccuracy": "exact",
+      "death": 1625,
+      "deathAccuracy": "exact",
+      "title": "二十四大罪疏",
+      "bio": "字文孺，应山人。1624 年上疏劾魏忠贤二十四大罪，诏狱拷掠而死，为东林六君子之首; 时人传其血书之惨。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "minister",
+        "falling"
+      ],
+      "primary": "minister",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

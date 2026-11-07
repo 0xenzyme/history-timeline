@@ -1,0 +1,130 @@
+{
+  "id": "huan-wen",
+  "name": "桓温",
+  "display": "桓温",
+  "birth": 312,
+  "birthAccuracy": "exact",
+  "death": 373,
+  "deathAccuracy": "exact",
+  "title": "大司马，灭成汉、三伐北方，欲加九锡",
+  "bio": "谯国龙亢人，宣城太守彝之子，尚南康长公主。永和三年灭成汉，由是威名日盛，前后北伐三度，一度至灞上、枋头，终以粮尽而还。尝抚枕叹曰「既不能流芳后世，不足复遗臭万载邪」。太和六年废帝奕，立简文，谋加九锡未成。宁康元年卒，年六十二。",
+  "tags": [
+    "东晋",
+    "北伐"
+  ],
+  "categories": [
+    "regent",
+    "general",
+    "official"
+  ],
+  "primary": "regent",
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huan-wen",
+      "target": "huan-xuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，玄篡晋建楚"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-wen",
+      "target": "sima-yi-haixi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "桓温诬帝痿疾，太和六年废之，降封海西县公"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "sima-yu",
+      "target": "huan-wen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "咸安二年简文遗诏，以桓温辅政，依王导故事"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-chong",
+      "target": "huan-wen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。温卒，冲代都督，尽忠王室"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-wen",
+      "target": "gu-kaizhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "为大司马桓温参军，甚见亲昵；善画，人称传神阿堵"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "gengxu-tuduan",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "huanwen-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "huanwen-mie-chenghan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "桓温",
+    "桓元子"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "桓温传",
+      "kind": "classic"
+    }
+  ]
+}

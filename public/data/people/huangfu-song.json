@@ -1,0 +1,91 @@
+{
+  "id": "huangfu-song",
+  "name": "皇甫嵩",
+  "display": "皇甫嵩",
+  "birthAccuracy": "unknown",
+  "death": 195,
+  "deathAccuracy": "exact",
+  "title": "平黄巾之首，长社火攻",
+  "bio": "安定朝那人，皇甫规兄子。为左中郎将，长社以火攻破黄巾，斩获数万，与朱儁同平三郡。及董卓入京，卓与之有旧，不敢加害。官至太尉、光禄大夫，兴平二年卒。",
+  "tags": [
+    "东汉",
+    "黄巾"
+  ],
+  "categories": [
+    "general"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "huangfu-song",
+      "target": "zhang-jiao",
+      "type": "rival",
+      "directed": false,
+      "since": 184,
+      "notes": [
+        "为左中郎将，破黄巾于长社"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-liang-donghan",
+      "type": "rival",
+      "directed": false,
+      "since": 184,
+      "notes": [
+        "十月破广宗，斩梁，获三万级"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "huangfu-song",
+      "target": "zhang-bao",
+      "type": "rival",
+      "directed": false,
+      "since": 184,
+      "notes": [
+        "十一月破下曲阳，斩宝，筑京观于城南"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "huangjin-zhi-luan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "皇甫嵩",
+    "皇甫义真"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "皇甫嵩朱儁列传",
+      "kind": "classic"
+    }
+  ]
+}

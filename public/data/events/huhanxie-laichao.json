@@ -1,0 +1,118 @@
+{
+  "id": "huhanxie-laichao",
+  "name": "呼韩邪单于来朝",
+  "display": "呼韩邪单于来朝",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": -51,
+  "yearAccuracy": "exact",
+  "yearNote": "甘露三年（前 51 年）春正月，本纪纪年直接可查。",
+  "place": "甘泉宫",
+  "placeNow": "今陕西淳化",
+  "polity": [
+    "han"
+  ],
+  "people": [
+    "hu-han-xie",
+    "liu-xun",
+    "zhi-zhi"
+  ],
+  "result": "呼韩邪单于来朝甘泉宫，赞谒称藩臣而不名，匈奴首次正式称臣于汉",
+  "aliases": [
+    "匈奴称臣",
+    "呼韩邪归汉"
+  ],
+  "dynasties": [
+    "western-han"
+  ],
+  "desc": "甘露三年（前 51 年）春正月，匈奴呼韩邪单于来朝于甘泉宫，赞谒称藩臣而不名，汉宠以殊礼，位在诸侯王上。匈奴五单于争立后呼韩邪首次正式称臣入朝，北边自此少事，汉匈格局根本改变。",
+  "sources": [
+    {
+      "work": "漢書",
+      "part": "卷八 宣帝紀",
+      "kind": "classic"
+    },
+    {
+      "work": "漢書",
+      "part": "卷九四下 匈奴傳",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "hu-han-xie",
+      "name": "呼韩邪单于",
+      "display": "呼韩邪单于",
+      "birthAccuracy": "unknown",
+      "death": -31,
+      "deathAccuracy": "exact",
+      "title": "匈奴单于，甘露三年朝汉称臣",
+      "bio": "匈奴五单于争立后势穷，从左伊秩訾王之计称臣事汉，款五原塞请朝，甘露三年正月朝天子于甘泉宫，位在诸侯王上，汉发兵卫护其国。郅支既诛，竟宁元年复入朝，求婿于汉，得昭君为阏氏，边垂自此长无兵革之事。立二十八年，建始二年死。",
+      "tags": [
+        "匈奴",
+        "昭君出塞"
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "polity": [
+        "xiongnu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-xun",
+      "name": "刘询",
+      "display": "汉宣帝",
+      "birth": -91,
+      "birthAccuracy": "exact",
+      "death": -48,
+      "deathAccuracy": "exact",
+      "title": "西汉第十位皇帝",
+      "bio": "巫蛊之祸中在襁褓入狱的皇曾孙，由霍光迎立。亲政后整顿吏治、设西域都护，史称「昭宣中兴」。",
+      "tags": [
+        "昭宣中兴",
+        "西域都护"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhi-zhi",
+      "name": "郅支单于",
+      "display": "郅支单于",
+      "birthAccuracy": "unknown",
+      "death": -36,
+      "deathAccuracy": "exact",
+      "title": "匈奴单于，远遁康居，被陈汤袭斩",
+      "bio": "呼韩邪单于之兄，五单于争立后据东边自立，攻杀闰振单于并其众。怨汉拥护呼韩邪，杀使者谷吉，西走康居，都坚昆，数击乌孙，威凌西域。建昭三年，西域都护甘延寿与副校尉陈汤矫制发兵，攻其城于都赖水上，郅支被创死，斩首传诣京师，县蛮夷邸门。",
+      "tags": [
+        "匈奴",
+        "陈汤"
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "polity": [
+        "xiongnu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

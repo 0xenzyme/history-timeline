@@ -1,0 +1,78 @@
+{
+  "id": "sang-hongyang",
+  "name": "桑弘羊",
+  "display": "桑大农",
+  "birth": -152,
+  "birthAccuracy": "approx",
+  "death": -80,
+  "deathAccuracy": "exact",
+  "title": "汉武帝时任大农令、大司农",
+  "bio": "洛阳商人子，推行盐铁官营、均输平准、算缗告缗，为武帝的战争机器提供财政。昭帝时在盐铁会议上与儒生辩论，后卷入政争被诛。",
+  "tags": [
+    "盐铁官营",
+    "均输平准"
+  ],
+  "categories": [
+    "official"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-che",
+      "target": "sang-hongyang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -119,
+      "notes": [
+        "盐铁官营、均输平准"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "sang-hongyang",
+      "type": "rival",
+      "directed": false,
+      "since": -81,
+      "notes": [
+        "盐铁会议上的政见之争，前 80 年被诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "yantie-huiyi",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "平准书"
+    },
+    {
+      "work": "汉书",
+      "part": "食货志"
+    }
+  ]
+}

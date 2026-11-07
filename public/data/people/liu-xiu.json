@@ -1,0 +1,126 @@
+{
+  "id": "liu-xiu",
+  "name": "刘秀",
+  "display": "汉光武帝",
+  "birth": -5,
+  "birthAccuracy": "exact",
+  "death": 57,
+  "deathAccuracy": "exact",
+  "title": "东汉光武帝，布衣起兵，重建汉室",
+  "bio": "南阳蔡阳人，高祖九世孙，起于舂陵。昆阳以数千破莽军数十万，河北收铜马，遂定洛阳。罢兵偃武，退功臣而进文吏，释奴婢、度田。东汉全部镜头从他这条开始。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "monarch",
+    "founding"
+  ],
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "donghan",
+      "title": "东汉",
+      "lane": "emperor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "liu-xiu",
+      "target": "yin-lihua",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻，阴后贤德"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-xiu",
+      "target": "deng-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "云台首功，帷幄谋臣"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-xiu",
+      "target": "wu-han",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "云台将，战功居首"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-xiu",
+      "target": "feng-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "云台将，征赤眉"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-xiu",
+      "target": "geng-yan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "云台将，定齐地"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    },
+    {
+      "source": "liu-xiu",
+      "target": "ma-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 35,
+      "notes": [
+        "马革裹尸，平交趾"
+      ],
+      "topicIds": [
+        "donghan"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "guangwu-dengji",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "汉光武帝",
+    "刘秀"
+  ],
+  "sources": [
+    {
+      "work": "后汉书",
+      "part": "光武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

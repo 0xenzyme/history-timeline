@@ -1,0 +1,72 @@
+{
+  "id": "tianjin-heyue",
+  "name": "五十六款和约",
+  "display": "五十六款和约",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1858,
+  "yearAccuracy": "exact",
+  "yearNote": "咸丰八年，英使提出五十六条，其后定和约五十六款。",
+  "polity": [
+    "qing",
+    "yingjili"
+  ],
+  "people": [
+    "xian-feng"
+  ],
+  "result": "定和约五十六款",
+  "aliases": [
+    "天津条约"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "咸丰八年，英公使额尔金的行营参赞持新议五十六条，要桂良允许。其后始命桂良等定和约五十六款。这纸条款的对方是英吉利。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷一百五十四",
+      "note": "隨英公使額爾金為行營參贊。聞桂良至，即持所定新議五十六條，要桂良允許",
+      "kind": "classic"
+    },
+    {
+      "work": "清史稿",
+      "part": "卷一百五十四",
+      "note": "始命桂良等與定和約五十六款",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "xian-feng",
+      "name": "奕詝",
+      "display": "咸丰",
+      "birth": 1831,
+      "birthAccuracy": "exact",
+      "death": 1861,
+      "deathAccuracy": "exact",
+      "title": "内忧外患",
+      "bio": "道光第四子，在位遭太平天国、第二次鸦片战争，英法联军火烧圆明园。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

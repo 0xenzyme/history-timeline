@@ -1,0 +1,151 @@
+{
+  "id": "suiyang-baowei-zhan",
+  "name": "睢阳保卫战",
+  "display": "睢阳保卫战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 757,
+  "yearAccuracy": "exact",
+  "place": "睢阳",
+  "placeNow": "今河南商丘",
+  "belligerents": [
+    "tang",
+    "anshi"
+  ],
+  "commanders": [
+    {
+      "id": "zhang-xun",
+      "side": "tang"
+    },
+    {
+      "id": "xu-yuan",
+      "side": "tang"
+    },
+    {
+      "id": "yin-ziqi",
+      "side": "anshi"
+    }
+  ],
+  "people": [
+    "zhang-xun",
+    "xu-yuan"
+  ],
+  "result": "张巡死守睢阳近十月，叛军无力南下江淮",
+  "partOf": [
+    {
+      "id": "anshi-zhiluan",
+      "note": "睢阳保卫战是安史之乱中阻遏叛军南下江淮的组成战事。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "张巡传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一十九至二百二十",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "dynasties": [
+    "tang"
+  ],
+  "desc": "757 年，张巡与许远合力守睢阳，以数千之众抗尹子奇所率叛军围攻近十月，粮尽后城陷殉国。睢阳之守阻遏叛军南下江淮，保障唐廷财赋所出，是安史之乱中的关键节点。城内食人惨状等极端记载众说纷纭，不在本实体中采信单一数字。",
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "张巡传",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷二百一十九至二百二十",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "zhang-xun",
+      "name": "张巡",
+      "display": "张巡",
+      "birth": 708,
+      "birthAccuracy": "exact",
+      "death": 757,
+      "deathAccuracy": "exact",
+      "title": "御史中丞，守睢阳十月，城陷而死",
+      "bio": "邓州南阳人，博通群书，晓战阵法。至德二年与许远守睢阳，以六千八百人当尹子琦十余万，大小四百战，粮尽食马，马尽罗雀掘鼠，继以人、以妇孺。凡十月，江、淮赖以保全，而城遂陷。与姚誾、南霁云等三十六人同日遇害，年四十九。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xu-yuan",
+      "name": "许远",
+      "display": "许远",
+      "birthAccuracy": "unknown",
+      "death": 757,
+      "deathAccuracy": "exact",
+      "title": "睢阳太守，与张巡分城拒守，城陷而死",
+      "bio": "字令威，杭州新城人，右仆射许敬宗玄孙。开元末进士及第，历高要县尉，后为睢阳太守。至德二载，张巡入睢阳，远开门纳之，分城而守；自谓才不及巡，让巡主战事，而己专治粮廪兵仗。阅十月，粮尽城陷，死之。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yin-ziqi",
+      "name": "尹子奇",
+      "display": "尹子奇",
+      "birthAccuracy": "unknown",
+      "death": 757,
+      "deathAccuracy": "exact",
+      "title": "安史叛军河南节度使，睢阳之围主将，为陈留人所杀",
+      "bio": "安史叛军将领。至德二载（757）安庆绪弑父自立后，以为河南节度使、汴州刺史，率同罗、突厥、奚等部众并杨朝宗部十余万攻睢阳。张巡、许远婴城死守，南霁云射中其左目。十月城破，巡等死之。同月二十一日，陈留人怨其屠掠，夜袭杀之，举郡降唐。",
+      "tags": [
+        "唐",
+        "安史之乱"
+      ],
+      "categories": [
+        "rebel",
+        "general"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

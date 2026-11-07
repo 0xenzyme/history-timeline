@@ -1,0 +1,67 @@
+{
+  "id": "baimen-heyue",
+  "name": "白门条约",
+  "display": "白门条约",
+  "kind": "point",
+  "type": "diplomatic",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 1842,
+  "yearAccuracy": "exact",
+  "yearNote": "道光二十二年画诺于静海寺，是为白门条约。",
+  "polity": [
+    "qing",
+    "yingjili"
+  ],
+  "people": [
+    "dao-guang"
+  ],
+  "result": "白门条约成",
+  "aliases": [
+    "南京条约",
+    "江宁条约"
+  ],
+  "dynasties": [
+    "qing"
+  ],
+  "desc": "道光二十二年，耆英等诣英舟，与璞鼎查画诺于静海寺，是为白门条约。鸦片战事的和约在这一纸落下。",
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "卷一百五十四",
+      "note": "耆英等遂詣英舟，與璞鼎查等用舉手加額禮訂約，復親具牛酒犒師，畫諾於靜海寺，是為白門條約",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "dao-guang",
+      "name": "旻宁",
+      "display": "道光",
+      "birth": 1782,
+      "birthAccuracy": "exact",
+      "death": 1850,
+      "deathAccuracy": "exact",
+      "title": "鸦片战火开国门",
+      "bio": "嘉庆次子，在位节俭而遇三千年未有之变局，鸦片战争战败，签南京条约。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "qing"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

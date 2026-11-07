@@ -1,0 +1,39 @@
+{
+  "id": "yang-chufu",
+  "name": "阳处父",
+  "display": "阳处父",
+  "birthAccuracy": "unknown",
+  "death": -621,
+  "deathAccuracy": "exact",
+  "deathNote": "春秋经·文公六年「晉殺其大夫陽處父」（前621），狐射姑使人杀之，宜为国讨。",
+  "polity": [
+    "jin-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "minister"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "zhaodun-zhuanzheng",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "春秋左传",
+      "part": "文公六年",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "zheng-chenggong",
+  "name": "郑成功",
+  "display": "郑成功",
+  "birth": 1624,
+  "birthAccuracy": "approx",
+  "death": 1662,
+  "deathAccuracy": "exact",
+  "birthNote": "康熙元年卒，年三十九，上推生年。",
+  "deathNote": "康熙元年五月朔受谒，数日卒。",
+  "title": "据台湾",
+  "bio": "南安人，芝龙子。驱荷兰人，号台湾为东都。康熙元年五月病卒，年三十九。",
+  "tags": [
+    "清"
+  ],
+  "categories": [
+    "general",
+    "warlord"
+  ],
+  "primary": "general",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "qing",
+      "title": "清",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "kang-xi",
+      "target": "zheng-chenggong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "据台湾。圣祖即位之年病卒，后由其孙克塽降"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "kang-xi",
+      "target": "zheng-chenggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "据台湾而奉明朔，清廷屡招不应"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    },
+    {
+      "source": "shi-lang",
+      "target": "zheng-chenggong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "本郑氏旧将，降清后率水师取台湾"
+      ],
+      "topicIds": [
+        "qing"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "郑成功传",
+      "kind": "classic"
+    }
+  ]
+}

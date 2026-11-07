@@ -1,0 +1,160 @@
+{
+  "id": "bailangshan-zhizhan",
+  "name": "白狼山之战",
+  "display": "白狼山之战",
+  "kind": "point",
+  "type": "military",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "scale": "battle",
+  "importance": 2,
+  "year": 207,
+  "yearAccuracy": "exact",
+  "place": "白狼山",
+  "placeNow": "今辽宁喀喇沁左翼蒙古族自治县西南，一说河北平泉一带",
+  "belligerents": [
+    "wei",
+    "wuhuan"
+  ],
+  "commanders": [
+    {
+      "id": "cao-cao",
+      "side": "wei"
+    },
+    {
+      "id": "zhang-liao",
+      "side": "wei"
+    },
+    {
+      "id": "ta-dun",
+      "side": "wuhuan"
+    }
+  ],
+  "people": [
+    "guo-jia"
+  ],
+  "result": "曹操轻骑突袭击溃乌桓，蹋顿被斩，北方边患解除，曹操完成北征",
+  "dynasties": [
+    "eastern-han"
+  ],
+  "desc": "建安十二年（207）曹操采纳郭嘉之议，远征乌桓，堑山堙谷五百余里，出其不意进至白狼山。两军猝然相遇，曹操登高见敌阵不整，命张辽为先锋纵击，乌桓军溃，蹋顿被斩。曹操此后收编乌桓部众为骑兵，河北后方与北方边患一时平定，遂得以全力南向。",
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "三国志",
+      "part": "魏书·乌丸鲜卑东夷传",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "guo-jia",
+      "name": "郭嘉",
+      "display": "郭嘉",
+      "birth": 170,
+      "birthAccuracy": "exact",
+      "death": 207,
+      "deathAccuracy": "exact",
+      "title": "曹操谋士，十胜十败，死而赤壁败",
+      "bio": "颍川阳翟人，初见袁绍而去，经荀彧荐归曹操。论绍有十败、公有十胜，又料孙策必死于匹夫之手。随征乌桓，还而疾笃，建安十二年卒于柳城，年三十八。赤壁之败，操叹曰「郭奉孝在，不使孤至此」。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "official",
+        "strategist"
+      ],
+      "primary": "strategist",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "display": "魏武帝曹操",
+      "birth": 155,
+      "birthAccuracy": "exact",
+      "death": 220,
+      "deathAccuracy": "exact",
+      "title": "魏王、丞相，挟天子以令诸侯",
+      "bio": "沛国谯人，一名吉利，小字阿瞒。举孝廉起，破黄巾、讨董卓，迎献帝都许，遂以天子令诸侯。官渡以少胜多破袁绍，北征乌桓，赤壁败于孙刘，汉中弃于刘备。建安二十五年薨于洛阳，年六十六。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "monarch",
+        "general",
+        "founding",
+        "poetry"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhang-liao",
+      "name": "张辽",
+      "display": "张辽",
+      "birth": 169,
+      "birthAccuracy": "exact",
+      "death": 222,
+      "deathAccuracy": "exact",
+      "title": "魏征东将军，逍遥津八百破十万",
+      "bio": "雁门马邑人，本聂壹之后，避怨改姓。历事丁原、董卓、吕布，后归曹操。建安二十年守合肥，率八百死士直冲孙权大军，几获权，江东小儿闻其名不敢夜啼。黄初三年卒于江都，年五十四。",
+      "tags": [
+        "三国",
+        "曹魏"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "wei"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ta-dun",
+      "name": "蹋顿",
+      "display": "蹋顿",
+      "birthAccuracy": "unknown",
+      "death": 207,
+      "deathAccuracy": "exact",
+      "deathNote": "白狼山之战为张辽所斩，承建安十二年北征乌桓叙事系年。",
+      "title": "乌桓大人，白狼山为张辽所斩",
+      "bio": "辽西乌桓大人。汉末边乱，辽东属国乌桓诸部皆从其号令，边长老皆比之冒顿。袁绍矫制赐单于印绶与之和亲，绍败，袁尚、袁熙来奔，恃其阻远收纳亡命，数入塞为害。建安十二年曹操北征，轻兵出卢龙塞，张辽为先锋于白狼山斩蹋顿，胡汉降者二十余万。",
+      "tags": [
+        "三国"
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "primary": "outsider",
+      "polity": [
+        "wuhuan"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

@@ -1,0 +1,95 @@
+{
+  "id": "wagang-xingluocang",
+  "name": "瓦岗军陷兴洛仓",
+  "display": "瓦岗军陷兴洛仓",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 617,
+  "yearAccuracy": "exact",
+  "yearNote": "《隋書》纪事自大业十三年（617）陷兴洛仓始；瓦岗初起于大业七年（611）为《资治通鉴》所记，故锚点取 617。",
+  "place": "兴洛仓",
+  "placeNow": "今河南巩义",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "li-mi",
+    "zhai-rang"
+  ],
+  "result": "开仓振饥，众至数十万，河南郡县相继陷，关东崩解",
+  "aliases": [
+    "李密称魏公",
+    "洛口仓之变"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "大业十三年（617）二月，李密、翟让等陷兴洛仓，李密自号魏公，称元年，开仓以振群盗，众至数十万，河南诸郡相继皆陷。瓦岗军由此成气候，关东崩解。",
+  "sources": [
+    {
+      "work": "隋書",
+      "part": "卷四 煬帝紀下",
+      "note": "大业十三年二月陷兴洛仓、李密自号魏公",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "li-mi",
+      "name": "李密",
+      "display": "李密",
+      "birth": 582,
+      "birthAccuracy": "exact",
+      "death": 619,
+      "deathAccuracy": "exact",
+      "title": "瓦岗之主，据洛口仓，降唐而复叛",
+      "bio": "辽东襄平人，李弼曾孙，少袭蒲山公。大业九年从杨玄感起兵，玄感败，亡命雍丘，后入瓦岗，说翟让取洛口仓，开仓恣民所取，众至数十万，自为魏公。既杀让而部曲离心，为王世充所败，奔唐，复叛，武德二年为盛彦师斩于熊耳山，年三十七。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "sui",
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhai-rang",
+      "name": "翟让",
+      "display": "翟让",
+      "birthAccuracy": "unknown",
+      "death": 617,
+      "deathAccuracy": "exact",
+      "title": "瓦岗之首，让位于李密而见杀",
+      "bio": "东郡韦城人，为东都法曹，坐事当斩，亡命入瓦岗，聚众至万余，号瓦岗军。大业十二年李密来投，说以取洛口仓，让推密为主，号魏公。次年密忌让，置酒宴而伏兵杀之，徐世勣亦几不免。瓦岗既内溃，遂不复振。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

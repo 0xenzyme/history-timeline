@@ -1,0 +1,82 @@
+{
+  "id": "jue-fu",
+  "name": "蹶父",
+  "display": "蹶父",
+  "birthAccuracy": "unknown",
+  "death": -824,
+  "deathAccuracy": "approx",
+  "deathNote": "卒年不详。竹书宣王四年命蹶父如韩，取此年为活动下限。",
+  "title": "宣王卿士，韩侯妻父",
+  "bio": "《韩奕》蹶父孔武，靡国不到。竹书宣王四年命蹶父如韩。与《十月之交》蹶趣马未定为一人。",
+  "categories": [
+    "qingshi"
+  ],
+  "polity": [
+    "zhou"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "lane": "minister"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-jing",
+      "target": "jue-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命蹶父如韩"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "han-hou",
+      "target": "jue-fu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "韩侯娶蹶父之女"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    },
+    {
+      "source": "han-ji",
+      "target": "jue-fu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父女"
+      ],
+      "topicIds": [
+        "xizhou"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "蹶父"
+  ],
+  "sources": [
+    {
+      "work": "诗经",
+      "part": "大雅·韩奕",
+      "kind": "classic"
+    },
+    {
+      "work": "今本竹书纪年",
+      "part": "周纪",
+      "kind": "classic"
+    }
+  ]
+}

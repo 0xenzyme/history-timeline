@@ -1,0 +1,66 @@
+{
+  "id": "wang-du",
+  "name": "王都",
+  "display": "王都",
+  "birthAccuracy": "unknown",
+  "death": 924,
+  "deathAccuracy": "exact",
+  "title": "据常山再叛，举族自焚",
+  "bio": "王处存养子，本姓刘。处存死，掩有常山，再为节度使。庄宗平梁，欲移镇易定，辞疾不受命，举叛，重赂契丹入寇为援。王师攻围经年，城破，举族聚宝库自焚。",
+  "tags": [
+    "五代",
+    "后唐"
+  ],
+  "categories": [
+    "warlord",
+    "rebel"
+  ],
+  "polity": [
+    "wudai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "wudai",
+      "title": "五代十国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-cunxu",
+      "target": "wang-du",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "王都据定州反，晋王李存勖遣兵围之，契丹援败而城破"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "wangdu-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "旧五代史",
+      "part": "王都传",
+      "kind": "classic"
+    },
+    {
+      "work": "新五代史",
+      "part": "唐本纪",
+      "kind": "classic"
+    }
+  ]
+}

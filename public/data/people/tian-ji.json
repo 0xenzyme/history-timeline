@@ -1,0 +1,78 @@
+{
+  "id": "tian-ji",
+  "name": "田忌",
+  "display": "田忌",
+  "birthAccuracy": "unknown",
+  "death": -386,
+  "deathAccuracy": "approx",
+  "deathNote": "生卒无明文。齐之世卿，田氏代齐时（公元前386年）犹在，其后不显。取-386为活动下限，非寿数。",
+  "title": "齐之将，与孙膑俱有功",
+  "bio": "齐之宗族将。数与公子驰射，孙膑以刑徒见忌，忌善遇之，言于威王，以为军师。桂陵之役，忌为将、孙膑为军师，直走大梁，庞涓解邯郸之围而归，孙子设伏于桂陵，大破魏军。后马陵之战，忌复为将，庞涓死于此。齐之霸诸侯，忌之力为多。忌亦与邹忌、成侯有郄，后不得志。",
+  "tags": [
+    "战国",
+    "齐",
+    "将"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "qi"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "zhanguo",
+      "title": "战国",
+      "lane": "general"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sun-bin",
+      "target": "tian-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "忌荐孙膑于威王，以膑为军师；桂陵之役、马陵之战，齐以破魏，忌为大将而膑主其谋"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    },
+    {
+      "source": "tian-xuanwang",
+      "target": "tian-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "齐宣王以田忌为将，与魏战于桂陵、马陵，齐由此霸诸侯"
+      ],
+      "topicIds": [
+        "zhanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "田忌",
+    "田期",
+    "陈忌"
+  ],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "田敬仲完世家",
+      "kind": "classic"
+    },
+    {
+      "work": "孙膑兵法",
+      "part": "擒庞涓",
+      "kind": "classic"
+    }
+  ]
+}

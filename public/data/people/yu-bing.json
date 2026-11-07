@@ -1,0 +1,84 @@
+{
+  "id": "yu-bing",
+  "name": "庾冰",
+  "display": "庾冰",
+  "birth": 296,
+  "birthAccuracy": "approx",
+  "death": 344,
+  "deathAccuracy": "exact",
+  "birthNote": "建元二年（344）卒，年四十九，虚岁上推生年。",
+  "title": "东晋中书监，立长君之议",
+  "bio": "颍川鄢陵人，庾亮之弟。成帝世为中书监，参预朝政。成帝疾笃，以国未有主，议立长君，遂立康帝。康帝崩后寻卒，年四十九。",
+  "tags": [
+    "晋",
+    "东晋",
+    "颍川庾氏"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "polity": [
+    "jin"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "liangjin",
+      "title": "两晋 · 十六国",
+      "lane": "dongjin"
+    }
+  ],
+  "relations": [
+    {
+      "source": "sima-yue",
+      "target": "yu-bing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "立长君之议"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "yu-bing",
+      "target": "yu-wenjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄妹。乱中冰奔会稽，后以忧崩"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "yu-bing",
+      "target": "yu-yi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。冰主中枢而翼镇荆州"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "庾冰"
+  ],
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "庾冰传",
+      "kind": "classic"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "liji-zhiluan",
+  "name": "骊姬之乱",
+  "display": "骊姬之乱",
+  "kind": "span",
+  "type": "political",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 2,
+  "year": -655,
+  "yearAccuracy": "disputed",
+  "yearNote": "系年两说：左传传文系僖公四年十二月戊申申生缢于新城（通算前656岁末），而春秋经书「五年，春，晉侯殺其世子申生」（前655）；史记晋世家系献公二十一年（前656）毒胙、二十二年（前655）伐蒲重耳奔翟。主锚取经文前655，标disputed两说并陈。乱局终于前651（里克连弑奚齐、卓子，晋惠公夷吾入立）。",
+  "endYear": -651,
+  "endYearAccuracy": "exact",
+  "polity": [
+    "jin-guo"
+  ],
+  "people": [
+    "shen-sheng",
+    "xi-qi",
+    "zhuo-zi",
+    "li-ke",
+    "xun-xi",
+    "jin-huigong",
+    "ji-chonger"
+  ],
+  "aliases": [
+    "骊姬谮申生",
+    "申生缢于新城",
+    "重耳奔蒲、夷吾奔屈"
+  ],
+  "dynasties": [
+    "spring-autumn"
+  ],
+  "desc": "献公宠骊姬，谮杀太子申生，重耳奔蒲、夷吾奔屈，晋无公族之局自此定型；献公卒后里克连弑奚齐、卓子，惠公夷吾以秦力入立。重耳流亡诸国十九年后终成晋文公。",
+  "sources": [
+    {
+      "work": "春秋左傳正義 卷11（僖公四年傳、五年經）",
+      "part": "僖公四年十二月／五年春",
+      "kind": "classic"
+    },
+    {
+      "work": "史記·晉世家",
+      "part": "獻公二十一至二十二年",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "shen-sheng",
+      "name": "申生",
+      "display": "申生",
+      "birthAccuracy": "unknown",
+      "death": -656,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·僖公四年（前656）十二月戊申「縊於新城」，春秋经书于僖公五年。骊姬之乱的中心。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xi-qi",
+      "name": "奚齐",
+      "display": "奚齐",
+      "birthAccuracy": "unknown",
+      "death": -651,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经·僖公九年「晉里克殺其君之子奚齊」（前651）。献公卒，荀息所立。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhuo-zi",
+      "name": "卓子",
+      "display": "卓子",
+      "birthAccuracy": "unknown",
+      "death": -651,
+      "deathAccuracy": "exact",
+      "deathNote": "春秋经·僖公九年「晉里克殺其君卓及其大夫荀息」（前651，十一月）。奚齐之后荀息再立者。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-ke",
+      "name": "里克",
+      "display": "里克",
+      "birthAccuracy": "unknown",
+      "death": -650,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·僖公十年（前650）晋惠公杀里克，里克伏剑；史记·晋世家载惠公「乃殺里克」。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xun-xi",
+      "name": "荀息",
+      "display": "荀息",
+      "birthAccuracy": "unknown",
+      "death": -651,
+      "deathAccuracy": "exact",
+      "deathNote": "左传·僖公九年（前651）献公卒，荀息立奚齐、卓子，皆见杀，荀息死之；史记·晋世家同载。",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jin-huigong",
+      "name": "姬夷吾",
+      "display": "晋惠公",
+      "birthAccuracy": "unknown",
+      "death": -637,
+      "deathAccuracy": "exact",
+      "deathNote": "今本竹书纪年·晋纪「襄王十五年，晋惠公卒，子怀公圉立」。",
+      "title": "骊姬之乱后即位十四年，为秦所立",
+      "bio": "献公之子，骊姬所生。献公卒，骊姬使里克杀奚齐、卓子而立夷吾，惠公既立而诛里克等三郤，晋国内乱。前637年卒，十四年在位。子怀公圉立。",
+      "tags": [
+        "骊姬之乱",
+        "三郤之乱"
+      ],
+      "categories": [
+        "monarch",
+        "vassal"
+      ],
+      "primary": "vassal",
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "ji-chonger",
+      "name": "姬重耳",
+      "display": "晋文公",
+      "birth": -697,
+      "birthAccuracy": "disputed",
+      "death": -628,
+      "deathAccuracy": "exact",
+      "birthNote": "《晋世家》记奔狄时年四十三，则生年约前 697；或疑年岁偏长。",
+      "title": "春秋第二位公认霸主",
+      "bio": "献公子。在外十九年，秦纳之。城濮败楚、践土会盟。出亡的长条几乎空着，即位后的九年才把霸业画完。",
+      "tags": [
+        "晋国",
+        "城濮"
+      ],
+      "categories": [
+        "hegemon"
+      ],
+      "polity": [
+        "jin-guo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

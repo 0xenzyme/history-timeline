@@ -1,0 +1,67 @@
+{
+  "id": "wang-gen",
+  "name": "王艮",
+  "display": "王艮",
+  "birth": 1483,
+  "birthAccuracy": "exact",
+  "death": 1541,
+  "deathAccuracy": "exact",
+  "title": "泰州学派之祖",
+  "bio": "字汝止，泰州安丰场人，灶户出身。受业于王守仁，倡百姓日用即道，门下多樵夫陶匠; 传为泰州学派。1541 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "thinker",
+    "scholar"
+  ],
+  "primary": "thinker",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "wang-shouren",
+      "target": "wang-gen",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "受业门下，遂传百姓日用之学"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wang-gen",
+      "target": "li-zhi-ming",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "本其日用即道之说而益纵之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "儒林传",
+      "kind": "classic"
+    }
+  ]
+}

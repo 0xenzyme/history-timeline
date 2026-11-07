@@ -1,0 +1,135 @@
+{
+  "id": "yuwen-yong",
+  "name": "宇文邕",
+  "display": "周武帝宇文邕",
+  "birth": 543,
+  "birthAccuracy": "exact",
+  "death": 578,
+  "deathAccuracy": "exact",
+  "title": "北周武帝，诛宇文护，灭齐灭佛",
+  "bio": "代武川鲜卑人，宇文泰第四子。即位十二年而政在宇文护，建德元年含元殿诛之，始亲政。建德三年诏断佛道二教，悉毁经像，僧道并令还俗，号为三武之祸之一。六年灭北齐，北方再一统。宣政元年亲伐突厥，至云阳宫不豫而崩，年三十六。",
+  "tags": [
+    "北朝",
+    "北周"
+  ],
+  "categories": [
+    "monarch"
+  ],
+  "primary": "monarch",
+  "polity": [
+    "bei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "nanbei",
+      "title": "南北朝",
+      "lane": "bei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "yuwen-tai",
+      "target": "yuwen-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，泰奠北周之基，庸灭齐"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "hulv-guang",
+      "target": "yuwen-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "用反间杀斛律光，周始无惧"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "gao-changgong",
+      "target": "yuwen-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "赐死兰陵王"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "yuwen-yun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。宣帝为高祖长子"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "ashina-hou",
+      "target": "yuwen-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "突厥木杆可汗之女，武帝皇后。开皇二年殂"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "beizhou-mie-beiqi",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "jiande-miefo",
+      "roles": [
+        "person"
+      ]
+    },
+    {
+      "id": "pingyang-zhizhan",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhouwudi-zhu-yuwenhu",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "宇文邕",
+    "宇文祢罗突",
+    "周武帝"
+  ],
+  "sources": [
+    {
+      "work": "周书",
+      "part": "武帝纪",
+      "kind": "classic"
+    }
+  ]
+}

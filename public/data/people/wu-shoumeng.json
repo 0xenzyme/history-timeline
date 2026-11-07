@@ -1,0 +1,50 @@
+{
+  "id": "wu-shoumeng",
+  "name": "姬乘",
+  "display": "吴王寿梦",
+  "birthAccuracy": "unknown",
+  "death": -561,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·吴太伯世家「二十五年，王壽夢卒」；春秋经·襄公十二年「秋九月，吳子乘卒」（前561）。吴自寿梦始大、称王。",
+  "polity": [
+    "wu-guo"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [
+    {
+      "source": "ji-zha",
+      "target": "wu-shoumeng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。寿梦欲立季札，札以次及辞，诸兄弟以次相承"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "吴太伯世家",
+      "kind": "classic"
+    },
+    {
+      "work": "春秋左传",
+      "part": "襄公十二年",
+      "kind": "classic"
+    }
+  ]
+}

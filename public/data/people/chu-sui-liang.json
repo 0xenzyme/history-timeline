@@ -1,0 +1,58 @@
+{
+  "id": "chu-sui-liang",
+  "name": "褚遂良",
+  "display": "褚遂良",
+  "birth": 596,
+  "birthAccuracy": "exact",
+  "death": 658,
+  "deathAccuracy": "exact",
+  "title": "显庆三年卒官，年六十三",
+  "bio": "太宗朝谏立武后，高宗朝为中书令。显庆二年贬爱州，明年卒官，年六十三。",
+  "tags": [
+    "唐",
+    "宰相"
+  ],
+  "categories": [
+    "chancellor"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-zhi",
+      "target": "chu-sui-liang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高宗朝为中书令，显庆三年卒于爱州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "褚遂良"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "褚遂良传",
+      "kind": "classic"
+    }
+  ]
+}

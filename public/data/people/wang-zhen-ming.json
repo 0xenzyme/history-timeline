@@ -1,0 +1,67 @@
+{
+  "id": "wang-zhen-ming",
+  "name": "王振",
+  "display": "王振",
+  "birthAccuracy": "unknown",
+  "death": 1449,
+  "deathAccuracy": "exact",
+  "title": "土木之役的祸首",
+  "bio": "蔚州人，司礼监太监。正统初窃持0065威福，毁太祖禁宦官干政之碑; 劝英宗亲征瓦剌，土木堡败没时被乱兵所杀。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "eunuch"
+  ],
+  "primary": "eunuch",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-qizhen",
+      "target": "wang-zhen-ming",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1442,
+      "notes": [
+        "司礼监窃持威福，劝帝亲征"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "wang-zhen-ming",
+      "target": "ye-xian",
+      "type": "rival",
+      "directed": false,
+      "since": 1449,
+      "notes": [
+        "一军俱没于土木，王振死于乱兵"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "宦官传",
+      "kind": "classic"
+    }
+  ]
+}

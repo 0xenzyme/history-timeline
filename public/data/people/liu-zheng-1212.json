@@ -1,0 +1,49 @@
+{
+  "id": "liu-zheng-1212",
+  "name": "刘整",
+  "display": "刘整",
+  "birth": 1212,
+  "birthAccuracy": "exact",
+  "death": 1275,
+  "deathAccuracy": "exact",
+  "title": "以泸州十五郡降元的宋将",
+  "bio": "本宋京湖名将，为同僚所忌，中统二年以泸州十五郡降蒙古，献先取襄阳之策，练水军造战舰，实亡宋之肇。至元十二年卒。",
+  "tags": [
+    "宋",
+    "元"
+  ],
+  "categories": [
+    "general",
+    "rebel"
+  ],
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "song",
+      "title": "宋",
+      "lane": "rival"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "xiangyang-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "元史",
+      "part": "刘整传",
+      "kind": "classic"
+    }
+  ]
+}

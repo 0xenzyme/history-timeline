@@ -1,0 +1,142 @@
+{
+  "id": "an-lu-shan",
+  "name": "安禄山",
+  "display": "安禄山",
+  "birth": 703,
+  "birthAccuracy": "exact",
+  "death": 757,
+  "deathAccuracy": "exact",
+  "title": "范阳节度使，起兵反唐，为子所杀",
+  "bio": "营州柳城胡人，本姓康，母嫁安延偃，因冒其姓。通六蕃语，为互市牙郎，以狡黠得张守珪、玄宗宠，兼领平卢、范阳、河东三镇。天宝十四载以讨杨国忠为名起兵，明年陷洛阳、长安，自称大燕皇帝。至德二年为其子庆绪与严庄所杀于洛阳，年五十五。",
+  "tags": [
+    "唐",
+    "安史之乱",
+    "藩镇"
+  ],
+  "categories": [
+    "rebel",
+    "general"
+  ],
+  "primary": "rebel",
+  "polity": [
+    "tang"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "tang",
+      "title": "唐",
+      "lane": "end"
+    }
+  ],
+  "relations": [
+    {
+      "source": "li-long-ji",
+      "target": "an-lu-shan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宠任安禄山，授范阳节度"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "yang-guo-zhong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "互相倾轧，禄山以诛国忠为名"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "ge-shu-han",
+      "type": "rival",
+      "directed": false,
+      "since": 756,
+      "notes": [
+        "灵宝之战，哥舒翰败降"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "zhang-xun",
+      "type": "rival",
+      "directed": false,
+      "since": 757,
+      "notes": [
+        "睢阳死守，屏障江淮"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "shi-si-ming",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同乡里，同起范阳，继为乱"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "li-lin-fu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "林甫为安禄山掩饰，养痈成患"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "an-qing-xu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；庆绪弑父自立，燕统内移"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "anshi-zhiluan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "安禄山",
+    "安轧荦山"
+  ],
+  "sources": [
+    {
+      "work": "旧唐书",
+      "part": "安禄山传",
+      "kind": "classic"
+    }
+  ]
+}

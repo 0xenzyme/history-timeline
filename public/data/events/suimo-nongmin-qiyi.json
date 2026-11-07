@@ -1,0 +1,148 @@
+{
+  "id": "suimo-nongmin-qiyi",
+  "name": "隋末农民起义",
+  "display": "隋末起义",
+  "kind": "point",
+  "type": "rebellion",
+  "catalogs": [
+    "military",
+    "history"
+  ],
+  "importance": 3,
+  "year": 611,
+  "yearAccuracy": "exact",
+  "yearNote": "大业七年（611）邹平民王薄据长白山举兵，作《无向辽东浪死歌》相号召；此后瓦岗、河北、江淮诸路并起，至 618 年炀帝被弑而隋亡。轴年取首义之年，后续群雄割据不并入本实体。",
+  "place": "长白山",
+  "placeNow": "今山东邹平南",
+  "polity": [
+    "sui"
+  ],
+  "people": [
+    "wang-bo",
+    "zhai-rang",
+    "dou-jian-de",
+    "li-mi"
+  ],
+  "result": "长白山首义后群雄并起，隋的州县统治自下而上瓦解",
+  "aliases": [
+    "隋末民变",
+    "王薄首义"
+  ],
+  "dynasties": [
+    "sui"
+  ],
+  "desc": "大业七年（611），齐郡邹平民王薄据长白山举兵，自称知世郎，作《无向辽东浪死歌》以避征辽之役相号召，山东、河北之民赴者甚众。此后瓦岗翟让、李密，河北窦建德，江淮杜伏威等相继起兵，隋的州县统治自下而上瓦解。首义与三征高句丽同年，徭役兵役是民变的直接成因；至 618 年炀帝被弑于江都，隋亡而唐兴。江淮杜伏威一支暂无 canonical 人物条目。",
+  "sources": [
+    {
+      "work": "资治通鉴",
+      "part": "隋纪五",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "食货志",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "wang-bo",
+      "name": "王薄",
+      "display": "王薄",
+      "birthAccuracy": "unknown",
+      "death": 622,
+      "deathAccuracy": "exact",
+      "deathNote": "资治通鉴·唐纪武德五年三月戊戌（十七日）：时以齐州总管从宋州总管盛彦师攻须昌，还过潭州，为刺史李义满兄子武意所杀。隋末首义，卒于唐武德五年（622）。",
+      "title": "长白山首义，作《无向辽东浪死歌》",
+      "bio": "邹平人。大业七年（611）据长白山聚众，自称知世郎，作《无向辽东浪死歌》相号召，避征辽之役者争归之，为隋末举义旗之最先者。转战山东，数为张须陀所败，散而复聚。武德中降唐，授齐州总管；五年（622）从宋州总管盛彦师攻须昌，还过潭州，为刺史李义满兄子武意所杀。",
+      "tags": [
+        "隋末",
+        "首义",
+        "长白山"
+      ],
+      "categories": [
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhai-rang",
+      "name": "翟让",
+      "display": "翟让",
+      "birthAccuracy": "unknown",
+      "death": 617,
+      "deathAccuracy": "exact",
+      "title": "瓦岗之首，让位于李密而见杀",
+      "bio": "东郡韦城人，为东都法曹，坐事当斩，亡命入瓦岗，聚众至万余，号瓦岗军。大业十二年李密来投，说以取洛口仓，让推密为主，号魏公。次年密忌让，置酒宴而伏兵杀之，徐世勣亦几不免。瓦岗既内溃，遂不复振。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "unknown",
+      "lane": ""
+    },
+    {
+      "id": "dou-jian-de",
+      "name": "窦建德",
+      "display": "窦建德",
+      "birth": 573,
+      "birthAccuracy": "exact",
+      "death": 621,
+      "deathAccuracy": "exact",
+      "title": "夏王，河北义军之主，斩于长安",
+      "bio": "贝州漳南人，世为农，为里长，以侠气闻。大业七年聚众入高鸡泊，渐据河北，自称夏王，都乐寿。不杀士人，所得资财悉分将士，境内劝课农桑，商旅野宿。武德四年虎牢一战，为李世民所擒，斩于长安市，年四十九，河北之人久而不忘。",
+      "tags": [
+        "隋末"
+      ],
+      "categories": [
+        "warlord"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-mi",
+      "name": "李密",
+      "display": "李密",
+      "birth": 582,
+      "birthAccuracy": "exact",
+      "death": 619,
+      "deathAccuracy": "exact",
+      "title": "瓦岗之主，据洛口仓，降唐而复叛",
+      "bio": "辽东襄平人，李弼曾孙，少袭蒲山公。大业九年从杨玄感起兵，玄感败，亡命雍丘，后入瓦岗，说翟让取洛口仓，开仓恣民所取，众至数十万，自为魏公。既杀让而部曲离心，为王世充所败，奔唐，复叛，武德二年为盛彦师斩于熊耳山，年三十七。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "sui",
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

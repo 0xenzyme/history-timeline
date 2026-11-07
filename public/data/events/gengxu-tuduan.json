@@ -1,0 +1,81 @@
+{
+  "id": "gengxu-tuduan",
+  "name": "庚戌土断",
+  "display": "庚戌土断",
+  "kind": "point",
+  "type": "institutional",
+  "catalogs": [
+    "history"
+  ],
+  "importance": 3,
+  "year": 364,
+  "yearAccuracy": "exact",
+  "yearNote": "《晋书·哀帝纪》：兴宁二年（364）三月庚戌朔，大阅户人，严法禁，称为庚戌制。year 取中国纪年 364（兴宁二年）。",
+  "place": "东晋全境（侨州郡县所在）",
+  "placeNow": "东晋辖境（长江中下游为主）",
+  "polity": [
+    "jin"
+  ],
+  "people": [
+    "huan-wen"
+  ],
+  "result": "侨户就地编入所在郡县实籍（废挟注本郡），国家户籍与赋役体系重整，扩大财赋兵源",
+  "aliases": [
+    "庚戌制",
+    "兴宁土断"
+  ],
+  "tags": [
+    "institutional",
+    "land-system",
+    "household-registration"
+  ],
+  "dynasties": [
+    "eastern-jin",
+    "shiliuguo"
+  ],
+  "desc": "兴宁二年（364）三月庚戌朔，东晋大阅户人、严明法禁，推行土断，史称庚戌制。永嘉南渡以来朝廷许侨人「挟注本郡」以系还乡之望，侨置郡县与白籍使户籍赋役紊乱；庚戌土断清检流寓户口、就地编入实籍，取消侨姓免调特权，扩大国家财赋与兵源，通说由大司马桓温主持，为东晋历次土断中最著名者（其后义熙土断踵行之）。",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "卷八",
+      "kind": "classic"
+    },
+    {
+      "work": "晋书",
+      "part": "卷七十五",
+      "kind": "classic"
+    }
+  ],
+  "contractVersion": 1,
+  "children": [],
+  "components": [],
+  "personRecords": [
+    {
+      "id": "huan-wen",
+      "name": "桓温",
+      "display": "桓温",
+      "birth": 312,
+      "birthAccuracy": "exact",
+      "death": 373,
+      "deathAccuracy": "exact",
+      "title": "大司马，灭成汉、三伐北方，欲加九锡",
+      "bio": "谯国龙亢人，宣城太守彝之子，尚南康长公主。永和三年灭成汉，由是威名日盛，前后北伐三度，一度至灞上、枋头，终以粮尽而还。尝抚枕叹曰「既不能流芳后世，不足复遗臭万载邪」。太和六年废帝奕，立简文，谋加九锡未成。宁康元年卒，年六十二。",
+      "tags": [
+        "东晋",
+        "北伐"
+      ],
+      "categories": [
+        "regent",
+        "general",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "collections": []
+}

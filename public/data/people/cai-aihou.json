@@ -1,0 +1,39 @@
+{
+  "id": "cai-aihou",
+  "name": "姬獻舞",
+  "display": "蔡哀侯",
+  "birthAccuracy": "unknown",
+  "death": -675,
+  "deathAccuracy": "exact",
+  "deathNote": "史记·管蔡世家：哀侯献舞「凡立二十年卒」。哀侯获于莘（前684）后释归，自元年前694在位二十年得前675。",
+  "polity": [
+    "cai"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "brief",
+  "topics": [
+    {
+      "id": "chunqiu",
+      "title": "春秋",
+      "lane": "lord"
+    }
+  ],
+  "relations": [],
+  "events": [
+    {
+      "id": "shen-zhizhan",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "史记",
+      "part": "管蔡世家",
+      "kind": "classic"
+    }
+  ]
+}

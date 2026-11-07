@@ -1,0 +1,61 @@
+{
+  "id": "gao-rou",
+  "name": "高柔",
+  "display": "高柔",
+  "birth": 174,
+  "birthAccuracy": "approx",
+  "death": 263,
+  "deathAccuracy": "exact",
+  "birthNote": "传云卒时年九十，据卒年上推。",
+  "title": "魏廷尉二十余年，官至太尉",
+  "bio": "陈留圉人，字文惠。为廷尉二十三年，执法平允；齐王时为司空，高贵乡公时转司徒、太尉。高平陵之变，奉太后诏假节行大将军事，据曹爽营，司马懿谓「君为周勃矣」。景元四年薨，年九十，谥元侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "chancellor",
+    "official"
+  ],
+  "primary": "chancellor",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "gao-rou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "曹操以为刺奸令史，魏初为廷尉"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "高柔",
+    "高文惠"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·韩崔高孙王传",
+      "kind": "classic"
+    }
+  ]
+}

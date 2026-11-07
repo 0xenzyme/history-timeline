@@ -1,0 +1,79 @@
+{
+  "id": "cao-zhen",
+  "name": "曹真",
+  "display": "曹真",
+  "birthAccuracy": "unknown",
+  "death": 231,
+  "deathAccuracy": "exact",
+  "title": "魏大司马，久镇关中",
+  "bio": "字子丹，曹操族子，少孤，操收养与诸子同。久镇西线，街亭之役督张郃破马谡，却诸葛亮首出祁山；明帝时为大司马。太和五年卒，谥元侯。",
+  "tags": [
+    "三国",
+    "曹魏"
+  ],
+  "categories": [
+    "general"
+  ],
+  "primary": "general",
+  "polity": [
+    "wei"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "sanguo",
+      "title": "三国",
+      "lane": "caowei"
+    }
+  ],
+  "relations": [
+    {
+      "source": "cao-cao",
+      "target": "cao-zhen",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "曹操族子，魏明帝时为大司马"
+      ],
+      "topicIds": [
+        "sanguo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caopi-fawu",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhuge-liang-beifa",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    },
+    {
+      "id": "zhugeliang-beifa",
+      "roles": [
+        "commander"
+      ]
+    }
+  ],
+  "collections": [],
+  "aliases": [
+    "曹真",
+    "曹子丹"
+  ],
+  "sources": [
+    {
+      "work": "三国志",
+      "part": "魏书·诸夏侯曹传",
+      "kind": "classic"
+    }
+  ]
+}

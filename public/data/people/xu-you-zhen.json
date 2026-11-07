@@ -1,0 +1,74 @@
+{
+  "id": "xu-you-zhen",
+  "name": "徐有贞",
+  "display": "徐有贞",
+  "birth": 1407,
+  "birthAccuracy": "exact",
+  "death": 1472,
+  "deathAccuracy": "exact",
+  "title": "夺门之变的谋主",
+  "bio": "字元玉，吴县人。土木之后倡南迁之议，为时所讥; 1457 年主谋夺门之变，以功入阁，旋与石亨相倾而下狱流金齿。1472 年卒。",
+  "tags": [
+    "明"
+  ],
+  "categories": [
+    "minister"
+  ],
+  "primary": "minister",
+  "polity": [
+    "ming"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "ming",
+      "title": "明",
+      "lane": "chancellor"
+    }
+  ],
+  "relations": [
+    {
+      "source": "zhu-qizhen",
+      "target": "xu-you-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "夺门之谋主，以功入阁而旋败"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    },
+    {
+      "source": "xu-you-zhen",
+      "target": "yu-qian",
+      "type": "rival",
+      "directed": false,
+      "since": 1457,
+      "notes": [
+        "以意欲二字定其死，天下冤之"
+      ],
+      "topicIds": [
+        "ming"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "duomen-zhibian",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
+  "collections": [],
+  "sources": [
+    {
+      "work": "明史",
+      "part": "徐有贞传",
+      "kind": "classic"
+    }
+  ]
+}

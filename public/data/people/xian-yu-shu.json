@@ -1,0 +1,59 @@
+{
+  "id": "xian-yu-shu",
+  "name": "鲜于枢",
+  "display": "鲜于枢",
+  "birth": 1246,
+  "birthAccuracy": "approx",
+  "death": 1302,
+  "deathAccuracy": "approx",
+  "birthNote": "元人书史不载生年，近人多系于一二四六年前后。",
+  "deathNote": "常见著录系卒于大德六年（一三〇二）。",
+  "title": "困学草书，与赵齐名",
+  "bio": "字伯机，号困学山民，渔阳人，居杭州。草书纵肆，悬腕作字，与赵孟頫并为元代书坛二雄；1302 年卒。",
+  "tags": [
+    "元"
+  ],
+  "categories": [
+    "calligraphy"
+  ],
+  "primary": "calligraphy",
+  "polity": [
+    "yuan"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "yuan",
+      "title": "元",
+      "lane": "literati"
+    }
+  ],
+  "relations": [
+    {
+      "source": "xian-yu-shu",
+      "target": "zhao-mengfu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "书名与之相埒，时称元代书坛二雄"
+      ],
+      "topicIds": [
+        "yuan"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "sources": [
+    {
+      "work": "书史会要",
+      "kind": "classic"
+    },
+    {
+      "work": "困学斋集",
+      "kind": "classic"
+    }
+  ]
+}
