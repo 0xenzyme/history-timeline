@@ -78,6 +78,15 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 | `topics.json`                 | 专题发布顺序                                                                                                     |
 | `schema/`                     | v1 合同、人物登记、候选台账、事件、专题与目录的 JSON Schema                                                      |
 
+## 人物作品与个人经历
+
+`aliases`、`sources` 继续只维护在人物 canonical 文件。可选 `works` 和 `experiences` 也写在这里，不写入专题 overlay。字段未维护时省略，不写空数组或「待填」。
+
+- 每项作品有局部 kebab-case `id`、题名和至少一条出处；创作年未知时不填 `year`，不从 bio 推断。
+- 每项经历有局部 `id`、标签、note 和出处。约略或异说年份必须有对应 note；结束年不得早于开始年。
+- 个人经历不等于公共历史事件。任官、游历、创作和迁居不自动进入事件库。若已有公共事件，可用 `event` 引用其 canonical id；不要复制该事件的时间、地点或参与事实。
+- 作品全文不是本字段的内容。出处采用与人物 `sources` 相同的 `work`、`part`、`note`、`kind`。
+
 ## 谁进专题
 
 一个人进入专题，要占一个结构席位，并且有可引用的年份锚点（`exact`、`approx` 或 `disputed`）。标准帝王序列里的实际称帝者占帝王席。章节需要他讲清结构时，他也应该在底册里；章节名单不是另一道准入闸门。
@@ -158,7 +167,7 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 
 ## 出处
 
-出处只存在管线源文件，不进入 v1 运行时 JSON。
+出处只维护在管线源文件。M1.5 起，人物 sources 进入独立人物详情；事件、作品、个人经历与 Collection 的 sources 进入对应运行时详情。原专题年表的瘦人物卡仍不重复携带出处。
 
 一人至少一条。出处分三类，用 `kind` 标明：
 
@@ -229,4 +238,4 @@ polity 记的是「这个人站在哪条叙事脉络里」，不是血统、族�
 
 人物 PLAYBOOK 不定义事件字段或事件收录口径。事件的 canonical source 是 `content/events/<id>.md`；现有 `topic.json` 的 `events[]` 是冻结的旧 inline 输入，只能用于迁移盘点，不得继续扩写。军事与历史是同一事件库的两个 catalog，不是两套实体。
 
-事件迁移必须先登记 `pipeline/events-migration-manifest.json`，并通过 `npm run events:migration:check` 的逐条冻结比对；经过证据、去重、taxonomy、引用和编译 gates 后，状态改为 `migration-approved` 才可落 canonical 文件。缺年份锚点、主出处或无法判断重复关系的条目保持 `evidence-needed`，不得以猜测补齐 `type`、`catalogs`、`polity`、`belligerents` 或 `sources`。新建事件先保持 `status: draft`，通过 publish gate 后才改为 `published`。不要把 `public/data/` 当源文件，也不要手改专题索引。
+事件迁移必须先登记 `pipeline/events-migration-manifest.json`，并通过 `npm run events:migration:check` 的逐条冻结比对；经过证据、去重、taxonomy、引用和编译 gates 后，状态改为 `migration-approved` 才可落 canonical 文件。缺年份锚点、主出处或无法判断重复关系的条目保持 `evidence-needed`，不得以猜测补齐 `type`、`catalogs`、`polity`、`belligerents` 或 `sources`。新建 canonical 骨架先保持 `status: draft`；新增与存量修订候选按 `docs/内容工作流.md` 自动准入，通过后才写入正式 published 内容。不要把 `public/data/` 当源文件，也不要手改专题索引。

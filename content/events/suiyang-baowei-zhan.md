@@ -26,6 +26,16 @@ people:
   - zhang-xun
   - xu-yuan
 result: 张巡死守睢阳近十月，叛军无力南下江淮
+partOf:
+  - id: anshi-zhiluan
+    note: 睢阳保卫战是安史之乱中阻遏叛军南下江淮的组成战事。
+    sources:
+      - work: 旧唐书
+        part: 张巡传
+        kind: classic
+      - work: 资治通鉴
+        part: 卷二百一十九至二百二十
+        kind: classic
 sources:
   - work: 旧唐书
     part: 张巡传
