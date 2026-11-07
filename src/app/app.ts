@@ -60,6 +60,8 @@ import {
   setContentH,
   setHooks,
   setInitial,
+  setInitialTimeline,
+  initialTimeline,
   setLayouts,
   setLoadingTopic,
   setState,
@@ -69,8 +71,12 @@ import {
   type LineId,
   type Selection,
 } from './runtime';
+import { parseTimelineState, writeTimelineState, type TimelineState } from '../timeline-state';
+import { openTimelineEntity } from './navigation';
 
 const RIBBON_H = 76;
+let restoringTimeline = false;
+let lastFrameTime = 0;
 
 // ---------- 启动 ----------
 
@@ -93,12 +99,41 @@ export async function boot(): Promise<void> {
       hiddenLanes: readHiddenLanes(),
       stripOpen: localStorage.getItem(STORAGE.strip) === '1',
     });
+    document.body.classList.add('timeline-app');
     buildTopicSelect();
     wireEvents();
     syncChipAvailability();
     applySkin(state.skin, false);
     setInitial(location.hash.replace('#', '').trim().length > 0 ? parseHash(location.hash, library.catalog) : null);
-    await applyRoute(initial);
+    setInitialTimeline(location.pathname === '/timeline' ? parseTimelineState(location.search) : null);
+    const returnUrl = sessionStorage.getItem('lantai-return-url');
+    if (
+      (location.pathname === '/timeline' || location.pathname === '/') &&
+      returnUrl &&
+      new URL(returnUrl).pathname === location.pathname
+    ) {
+      history.replaceState(history.state, '', returnUrl);
+      setInitialTimeline(parseTimelineState(location.search));
+      sessionStorage.removeItem('lantai-return-url');
+    }
+    if (location.hash) document.body.classList.add('timeline-legacy');
+    if (initialTimeline) {
+      if (initialTimeline.line) state.line = initialTimeline.line;
+      if (initialTimeline.topic && library.topics.some((topic) => topic.id === initialTimeline?.topic))
+        state.topicId = initialTimeline.topic;
+      if (initialTimeline.chip && ['all', 'military', 'political', 'cultural', 'female'].includes(initialTimeline.chip))
+        state.chip = initialTimeline.chip as ChipId;
+      if (initialTimeline.hidden) state.hiddenLanes = new Set(initialTimeline.hidden);
+      if (initialTimeline.strip) state.stripOpen = true;
+    }
+    if (location.pathname !== '/timeline' || initial) await applyRoute(initial);
+    else {
+      state.topic = await loadTopicData(state.library, state.topicId);
+      state.viewId = state.topic?.views[0]?.id ?? null;
+      buildTopicSelect();
+      ensureDomain();
+    }
+    await applyTimelineState(initialTimeline);
     resize();
     requestAnimationFrame(loop);
   } catch (error) {
@@ -111,6 +146,68 @@ export async function boot(): Promise<void> {
     }
     console.error(error);
   }
+}
+
+async function applyTimelineState(timeline: TimelineState | null): Promise<void> {
+  if (!timeline) return;
+  restoringTimeline = true;
+  motion.inertia = 0;
+  motion.dragging = false;
+  document.body.dataset.timelineRestoring = 'true';
+  try {
+    if (timeline.line && timeline.line !== state.line) setLine(timeline.line, false);
+    if (timeline.topic && timeline.topic !== state.topicId) await setTopic(timeline.topic, false);
+    if (timeline.view && state.topic?.views.some((view) => view.id === timeline.view)) {
+      state.viewId = timeline.view;
+      const view = state.topic.views.find((item) => item.id === timeline.view)!;
+      if (timeline.from === undefined || timeline.to === undefined) state.domain = [view.from, view.to];
+    }
+    if (timeline.from !== undefined && timeline.to !== undefined && timeline.to > timeline.from)
+      state.domain = [timeline.from, timeline.to];
+    if (timeline.chip === 'female' && timeline.person) {
+      const selected = state.library.personById.get(timeline.person);
+      if (selected && selected.gender !== 'female') state.chip = 'all';
+    }
+    state.scrollY = timeline.scroll ?? 0;
+    buildLanePanel();
+    rebuildLayout();
+    syncChipAvailability();
+    syncStripToggle();
+    document
+      .querySelectorAll<HTMLElement>('.chip')
+      .forEach((chip) => chip.classList.toggle('on', chip.dataset.filter === state.chip));
+    if (timeline.person) await selectAndReveal({ kind: 'person', id: timeline.person }, false, true);
+    if (timeline.event) await selectAndReveal({ kind: 'event', id: timeline.event }, false, true);
+    if (timeline.scroll !== undefined) state.scrollY = timeline.scroll;
+    if (timeline.from !== undefined && timeline.to !== undefined) state.domain = [timeline.from, timeline.to];
+    state.scrollY = timeline.scroll ?? state.scrollY;
+    rebuildLayout();
+    draw();
+  } finally {
+    restoringTimeline = false;
+    syncTimelineUrl();
+    delete document.body.dataset.timelineRestoring;
+  }
+}
+
+export function syncTimelineUrl(mode: 'push' | 'replace' = 'replace'): void {
+  if (restoringTimeline || location.pathname !== '/timeline') return;
+  writeTimelineState(
+    {
+      topic: state.line === 'people' ? state.topicId : undefined,
+      view: state.line === 'people' ? (state.viewId ?? undefined) : undefined,
+      line: state.line,
+      person: state.selected?.kind === 'person' ? state.selected.id : undefined,
+      event: state.selected?.kind === 'event' ? state.selected.id : undefined,
+      from: state.domain[0],
+      to: state.domain[1],
+      chip: state.chip,
+      hidden: [...state.hiddenLanes],
+      strip: state.stripOpen,
+      scroll: state.scrollY,
+    },
+    mode,
+  );
 }
 
 function initialLine(): LineId {
@@ -200,6 +297,7 @@ function setLine(line: LineId, sync = true): void {
   hideCardSilent();
   dom.searchResults.hidden = true;
   if (sync) syncHash('replace');
+  syncTimelineUrl();
   draw();
 }
 
@@ -247,6 +345,7 @@ async function setTopic(topicId: string, sync = true): Promise<void> {
   rebuildLayout();
   syncStripToggle();
   if (sync) writeTopicHash('push');
+  syncTimelineUrl();
   draw();
 }
 
@@ -274,18 +373,18 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
     if (state.line !== 'people') setLine('people', false);
     const person = state.topic?.people.find((item) => item.id === selection.id);
     if (person) {
-      if (!keepDomain) {
+      if (!keepDomain && !restoringTimeline) {
         centerDomain((personFrom(person.birth, person.death) + personTo(person.birth, person.death)) / 2, 180);
       }
-      scrollTo('person', person.id);
+      if (!restoringTimeline) scrollTo('person', person.id);
     }
     announce(`人物：${record?.display ?? selection.id}`);
     if (sync) writeTopicHash('replace');
   } else {
     const event = state.library.eventById.get(selection.id);
     if (event) {
-      if (!keepDomain) centerDomain(event.year, 180);
-      if (state.line !== 'people') scrollTo('event', event.id);
+      if (!keepDomain && !restoringTimeline) centerDomain(event.year, 180);
+      if (state.line !== 'people' && !restoringTimeline) scrollTo('event', event.id);
       announce(`事件：${event.display || event.name}`);
       if (sync && state.line !== 'people') {
         writeLineHash(state.line, 'event', event.id, 'push');
@@ -293,6 +392,7 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
     }
   }
   showCard(selection);
+  syncTimelineUrl();
   draw();
 }
 
@@ -380,6 +480,11 @@ async function applyRoute(route: Route | null): Promise<void> {
 // ---------- 交互绑定 ----------
 
 function wireEvents(): void {
+  document.querySelector('#timeline-entity-list')?.addEventListener('click', (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>('button[data-kind][data-id]');
+    if (!button) return;
+    void selectAndReveal({ kind: button.dataset.kind as 'person' | 'event', id: button.dataset.id! });
+  });
   document.querySelectorAll<HTMLElement>('.line-btn').forEach((button) => {
     button.addEventListener('click', () => void setLine(button.dataset.line as LineId));
   });
@@ -420,10 +525,18 @@ function wireEvents(): void {
       rebuildLayout();
       draw();
     }
+    syncTimelineUrl();
     announce(`章节：${view.name}`);
   });
   document.getElementById('card-close')?.addEventListener('click', hideCard);
   dom.cardBody.addEventListener('click', (event) => {
+    const detail = (event.target as HTMLElement).closest<HTMLAnchorElement>('[data-open-detail]');
+    if (detail?.dataset.entityKind && detail.dataset.entityId) {
+      event.preventDefault();
+      event.stopPropagation();
+      openTimelineEntity(detail.dataset.entityKind as 'person' | 'event', detail.dataset.entityId);
+      return;
+    }
     const action = (event.target as HTMLElement).closest<HTMLElement>('[data-action="locate"]');
     if (action?.dataset.kind && action.dataset.id) {
       void selectAndReveal({ kind: action.dataset.kind as 'person' | 'event', id: action.dataset.id });
@@ -439,6 +552,7 @@ function wireEvents(): void {
     syncStripToggle();
     // 事件条高度算在 hdrH() 里，rebuildLayout 按它分配行距；不重建就沿用旧行距。
     rebuildLayout();
+    syncTimelineUrl();
     draw();
   });
   dom.topicSelect.addEventListener('change', () => void setTopic(dom.topicSelect.value));
@@ -448,7 +562,9 @@ function wireEvents(): void {
     const chipId = chip.dataset.filter as ChipId;
     state.chip = chipId;
     document.querySelectorAll<HTMLElement>('.chip').forEach((item) => item.classList.toggle('on', item === chip));
+    rebuildLayout();
     draw();
+    syncTimelineUrl();
     if (chipId !== 'all') reportChipResult(chip.textContent?.trim() ?? chipId);
   });
   dom.search.addEventListener('input', () => renderSearchResults(dom.search.value));
@@ -491,7 +607,42 @@ function wireEvents(): void {
   window.addEventListener('resize', () => resize());
   // 应用自己写地址用 history API，不会触发 hashchange；这里只处理外部改动。
   window.addEventListener('hashchange', () => {
+    if (location.pathname !== '/' && !location.pathname.endsWith('/index.html') && location.pathname !== '/legacy.html')
+      return;
     void applyRoute(parseHash(location.hash, state.library.catalog));
+  });
+  window.addEventListener('popstate', () => {
+    if (location.pathname.startsWith('/people/') || location.pathname.startsWith('/events/')) return;
+    if (
+      location.pathname !== '/timeline' &&
+      location.pathname !== '/' &&
+      !location.pathname.endsWith('/index.html') &&
+      location.pathname !== '/legacy.html'
+    )
+      return;
+    if (document.querySelector('#app')?.hasChildNodes()) location.reload();
+    else void applyTimelineState(location.pathname === '/timeline' ? parseTimelineState(location.search) : null);
+  });
+  document.addEventListener('lantai:timeline', () => {
+    const storedUrl = sessionStorage.getItem('lantai-return-url');
+    const savedScroll = storedUrl ? new URL(storedUrl).searchParams.get('scroll') : null;
+    if (storedUrl && new URL(storedUrl).pathname === location.pathname) {
+      history.replaceState(history.state, '', storedUrl);
+      sessionStorage.removeItem('lantai-return-url');
+    }
+    const restore = location.pathname === '/timeline' ? parseTimelineState(location.search) : null;
+    if (restore && savedScroll !== null) restore.scroll = Number(savedScroll);
+    void applyTimelineState(restore).then(() => {
+      if (restore?.from !== undefined && restore.to !== undefined) {
+        state.domain = [restore.from, restore.to];
+        state.scrollY = restore.scroll ?? state.scrollY;
+        rebuildLayout();
+        draw();
+        syncTimelineUrl();
+      }
+      const source = history.state?.lantaiSource as { scrollY?: number } | undefined;
+      if (source?.scrollY !== undefined) window.scrollTo({ top: source.scrollY, behavior: 'instant' });
+    });
   });
   if (typeof ResizeObserver !== 'undefined') {
     new ResizeObserver(() => {
@@ -516,6 +667,7 @@ async function resetView(): Promise<void> {
   buildLanePanel();
   rebuildLayout();
   syncHash('replace');
+  syncTimelineUrl();
   draw();
   flashHint('已复位到本专题全览');
 }
@@ -529,27 +681,42 @@ async function runExport(format: 'png' | 'svg'): Promise<void> {
     renderScene(c, w, h - RIBBON_H);
     renderRibbon(c, 0, h - RIBBON_H, w, RIBBON_H);
   };
-  await exportView({
-    render,
-    width,
-    height,
-    paper: skinPalette().paper,
-    basename: exportBasename([
-      '历史时间轴',
-      lineLabel(),
-      `${fmtYear(Math.round(state.domain[0]))}—${fmtYear(Math.round(state.domain[1]))}`,
-    ]),
-    format,
-  });
-  flashHint(`${format.toUpperCase()} 已导出`);
+  try {
+    await exportView({
+      render,
+      width,
+      height,
+      paper: skinPalette().paper,
+      basename: exportBasename([
+        '历史时间轴',
+        lineLabel(),
+        `${fmtYear(Math.round(state.domain[0]))}—${fmtYear(Math.round(state.domain[1]))}`,
+      ]),
+      format,
+    });
+    flashHint(`${format.toUpperCase()} 已导出`);
+  } catch (error) {
+    flashHint('导出失败，浏览状态未改变');
+    console.error(error);
+  }
 }
 
 // ---------- 循环与尺寸 ----------
 
 function loop(time: number): void {
-  if (SKINS[state.skin].inertia && !motion.dragging && Math.abs(motion.inertia) > 0.01 && W > 0) {
+  const previousTime = lastFrameTime;
+  lastFrameTime = time;
+  const elapsed = previousTime === 0 ? 16.7 : Math.min(50, time - previousTime);
+  const wasInertial = Math.abs(motion.inertia) > 0.01;
+  if (
+    SKINS[state.skin].inertia &&
+    !window.matchMedia('(prefers-reduced-motion: reduce)').matches &&
+    !motion.dragging &&
+    Math.abs(motion.inertia) > 0.01 &&
+    W > 0
+  ) {
     const yearsPerPx = (state.domain[1] - state.domain[0]) / (W - PAD_X * 2);
-    const shift = motion.inertia * 16.7 * yearsPerPx;
+    const shift = motion.inertia * elapsed * yearsPerPx;
     const span = state.domain[1] - state.domain[0];
     const full = fullSpan();
     let d0 = state.domain[0] - shift;
@@ -565,8 +732,11 @@ function loop(time: number): void {
       motion.inertia = 0;
     }
     state.domain = [d0, d1];
+    motion.inertia *= Math.exp(-elapsed / 180);
+    if (Math.abs(motion.inertia) <= 0.01) motion.inertia = 0;
     draw();
   }
+  if (wasInertial && Math.abs(motion.inertia) <= 0.01) syncTimelineUrl();
   drawStars(time);
   requestAnimationFrame(loop);
 }
@@ -604,4 +774,5 @@ setHooks({
   selectAndReveal,
   rebuildLayout,
   resizeChart,
+  syncTimelineUrl,
 });

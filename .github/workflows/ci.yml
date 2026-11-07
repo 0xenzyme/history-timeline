@@ -27,6 +27,8 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      - name: Install browser for compatibility tests
+        run: npx playwright install --with-deps chromium
       - name: Check production dependencies
         run: npm audit --omit=dev --audit-level=moderate
       - name: Check formatting

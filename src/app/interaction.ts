@@ -5,7 +5,6 @@
 
 import type { EventRecord } from '../types';
 import { AXIS_H, BAR_H, PAD_X, barTop } from './layout';
-import { SKINS } from './skins';
 import { FONT_SANS, clamp } from './util';
 import {
   chipMatchEvent,
@@ -19,7 +18,7 @@ import {
   xOf,
   yearAt,
 } from './render';
-import { eventTooltip, hideCard, personTooltip } from './view';
+import { canUseInertia, eventTooltip, hideCard, personTooltip } from './view';
 import { ctx, dom, getHooks, layouts, motion, state, W, type Selection } from './runtime';
 import { topicForDynasty } from './model';
 
@@ -89,7 +88,34 @@ export function hover(event: PointerEvent): void {
 // ---------- 画布指针 ----------
 
 export function canvasPointer(): void {
+  const pointers = new Map<number, { x: number; y: number }>();
+  let pinch: { distance: number; domain: [number, number]; anchor: number } | null = null;
+  let wheelTimer = 0;
+  const scheduleWheelSync = (): void => {
+    window.clearTimeout(wheelTimer);
+    getHooks().syncTimelineUrl();
+  };
+  document.addEventListener('lantai:flush-view', () => {
+    window.clearTimeout(wheelTimer);
+    motion.inertia = 0;
+    motion.dragging = false;
+  });
   dom.canvas.addEventListener('pointerdown', (event) => {
+    window.clearTimeout(wheelTimer);
+    wheelTimer = 0;
+    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    if (pointers.size === 2) {
+      const [first, second] = [...pointers.values()];
+      const rect = dom.canvas.getBoundingClientRect();
+      pinch = {
+        distance: Math.max(1, Math.abs(first.x - second.x)),
+        domain: [state.domain[0], state.domain[1]],
+        anchor: yearAt((first.x + second.x) / 2 - rect.left),
+      };
+      motion.drag = null;
+      motion.dragging = false;
+      return;
+    }
     motion.dragging = true;
     motion.inertia = 0;
     motion.drag = {
@@ -104,12 +130,23 @@ export function canvasPointer(): void {
     dom.canvas.setPointerCapture(event.pointerId);
   });
   dom.canvas.addEventListener('pointermove', (event) => {
+    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    if (pinch && pointers.size >= 2) {
+      const [first, second] = [...pointers.values()];
+      const factor = pinch.distance / Math.max(1, Math.abs(first.x - second.x));
+      const full = fullSpan();
+      const span = clamp((pinch.domain[1] - pinch.domain[0]) * factor, 4, full[1] - full[0]);
+      const ratio = (pinch.anchor - pinch.domain[0]) / (pinch.domain[1] - pinch.domain[0]);
+      state.domain = [Math.round(pinch.anchor - span * ratio), Math.round(pinch.anchor + span * (1 - ratio))];
+      draw();
+      return;
+    }
     const drag = motion.drag;
     if (!drag) {
       hover(event);
       return;
     }
-    if (SKINS[state.skin].inertia) {
+    if (canUseInertia()) {
       const now = performance.now();
       const dt = Math.max(1, now - drag.lastT);
       motion.inertia = motion.inertia * 0.7 + ((event.clientX - drag.lastX) / dt) * 0.3;
@@ -117,7 +154,8 @@ export function canvasPointer(): void {
       drag.lastX = event.clientX;
     }
     const dx = event.clientX - drag.x;
-    const dy = event.clientY - drag.y;
+    const rawDy = event.clientY - drag.y;
+    const dy = event.pointerType === 'touch' && Math.abs(dx) > Math.abs(rawDy) ? 0 : rawDy;
     if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
     const yearsPerPx = (drag.domain[1] - drag.domain[0]) / (W - PAD_X * 2);
     const shift = dx * yearsPerPx;
@@ -138,10 +176,18 @@ export function canvasPointer(): void {
     draw();
   });
   dom.canvas.addEventListener('pointerup', (event) => {
+    pointers.delete(event.pointerId);
+    if (pinch) {
+      if (pointers.size < 2) pinch = null;
+      getHooks().syncTimelineUrl();
+      return;
+    }
     motion.dragging = false;
     const moved = motion.drag?.moved ?? false;
     motion.drag = null;
     if (moved) {
+      window.clearTimeout(wheelTimer);
+      getHooks().syncTimelineUrl();
       return;
     }
     motion.inertia = 0;
@@ -149,6 +195,12 @@ export function canvasPointer(): void {
     const hit = hitTest(event.clientX - rect.left, event.clientY - rect.top);
     if (hit) void getHooks().selectAndReveal(hit);
     else hideCard();
+  });
+  dom.canvas.addEventListener('pointercancel', (event) => {
+    pointers.delete(event.pointerId);
+    pinch = null;
+    motion.drag = null;
+    motion.dragging = false;
   });
   dom.canvas.addEventListener('pointerleave', () => {
     document.getElementById('tooltip')?.setAttribute('hidden', '');
@@ -160,10 +212,12 @@ export function canvasPointer(): void {
       if (event.shiftKey) {
         state.scrollY = clamp(state.scrollY + event.deltaY, 0, maxScroll());
         draw();
+        scheduleWheelSync();
         return;
       }
       const rect = dom.canvas.getBoundingClientRect();
       zoomAt(event.clientX - rect.left, Math.exp(event.deltaY * 0.0012));
+      scheduleWheelSync();
     },
     { passive: false },
   );
@@ -220,6 +274,7 @@ export function ribbonPointer(): void {
     const wasMode = mode;
     mode = null;
     if (wasMode) {
+      getHooks().syncTimelineUrl();
       return;
     }
     const year = ribbonXAt(event.clientX);
@@ -228,6 +283,7 @@ export function ribbonPointer(): void {
     const target = dynasty ? topicForDynasty(state.library, dynasty.id) : null;
     if (target && target.id !== state.topicId) void getHooks().setTopic(target.id);
     draw();
+    getHooks().syncTimelineUrl();
   });
   dom.ribbon.addEventListener('pointerleave', () => {
     if (!mode) dom.ribbon.style.cursor = 'pointer';
@@ -299,11 +355,17 @@ export function panByFraction(fraction: number): void {
 
 export function isTyping(): boolean {
   const active = document.activeElement;
-  return active instanceof HTMLInputElement || active instanceof HTMLTextAreaElement;
+  return (
+    active instanceof HTMLInputElement ||
+    active instanceof HTMLTextAreaElement ||
+    active instanceof HTMLSelectElement ||
+    Boolean(active?.closest('[role="dialog"]'))
+  );
 }
 
 export function keyboardEvents(): void {
   window.addEventListener('keydown', (event) => {
+    if (!document.body.classList.contains('timeline-app') || document.querySelector('#app')?.hasChildNodes()) return;
     if (event.key === 'Escape') {
       dom.lanePanel.classList.remove('open');
       dom.exportMenu.hidden = true;
@@ -313,5 +375,7 @@ export function keyboardEvents(): void {
     if (event.key === '-' && !isTyping()) zoomBy(1.333);
     if (event.key === 'ArrowLeft' && !isTyping()) panByFraction(-0.1);
     if (event.key === 'ArrowRight' && !isTyping()) panByFraction(0.1);
+    if (event.key === '0' && !isTyping()) document.getElementById('btn-reset')?.click();
+    getHooks().syncTimelineUrl();
   });
 }

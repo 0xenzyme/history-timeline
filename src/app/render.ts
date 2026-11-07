@@ -8,6 +8,7 @@ import { AXIS_H, BAR_H, LANE_TITLE_H, PAD_X, STRIP_H, barTop, type LaneLayout, t
 import { EVENT_COLORS, SKINS, paletteFor, skinColor, type Palette } from './skins';
 import { FONT_SANS, clamp, fmtYear, personFrom, personTo, pickStep, roundRect } from './util';
 import { contentH, ctx, dom, H, layouts, loadingTopic, rctx, sctx, state, W } from './runtime';
+import { syncAccessibleEntities } from './accessibility';
 
 // ---------- 坐标 ----------
 
@@ -89,6 +90,7 @@ export function skinPalette(): Palette {
 }
 
 export function draw(): void {
+  syncAccessibleEntities();
   renderScene(ctx, W, H);
   renderRibbon(rctx, 0, 0, dom.ribbon.clientWidth, dom.ribbon.clientHeight);
   updateNebula();
@@ -638,7 +640,7 @@ function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
       }
       c.shadowBlur = 0;
       if ((event.importance || 1) >= 3) {
-        c.fillStyle = C.ink2;
+        c.fillStyle = C.labelInBar;
         c.font = `10px ${FONT_SANS}`;
         c.textAlign = 'left';
         c.fillText(event.display || event.name, x + 5, stripTop + 11 + (labelRow % 2) * 10);

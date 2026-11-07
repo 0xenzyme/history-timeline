@@ -2,15 +2,17 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>页面不存在 · 历史时间轴</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>年表 · 兰台</title>
     <meta name="robots" content="noindex" />
     <script>
-      // GitHub Pages 用本文件兜底所有未知路径；深链都是 hash 路由，回到首页即可。
-      location.replace('/');
+      const path = location.pathname.replace(/\/+$/, '') || '/';
+      const query = new URLSearchParams(location.search);
+      query.set('path', path);
+      location.replace(`/?${query.toString()}${location.hash}`);
     </script>
   </head>
   <body>
-    <p>页面不存在。<a href="/">返回历史时间轴首页</a>。</p>
+    <p>正在打开兰台页面。<a href="/timeline">进入年表</a>。</p>
   </body>
 </html>

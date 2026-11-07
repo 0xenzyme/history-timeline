@@ -8,6 +8,7 @@ import type { LaneLayout } from './layout';
 import type { Library } from './model';
 import type { Route } from '../routing';
 import type { SkinId } from './skins';
+import type { TimelineState } from '../timeline-state';
 
 export type LineId = 'people' | 'military' | 'history';
 export type ChipId = 'all' | 'military' | 'political' | 'cultural' | 'female';
@@ -71,9 +72,14 @@ export function setLoadingTopic(next: boolean): void {
 }
 
 export let initial: Route | null = null;
+export let initialTimeline: TimelineState | null = null;
 
 export function setInitial(next: Route | null): void {
   initial = next;
+}
+
+export function setInitialTimeline(next: TimelineState | null): void {
+  initialTimeline = next;
 }
 
 export interface DragState {
@@ -127,6 +133,7 @@ export interface AppHooks {
   selectAndReveal(selection: Selection, sync?: boolean, keepDomain?: boolean): Promise<void>;
   rebuildLayout(): void;
   resizeChart(): void;
+  syncTimelineUrl(mode?: 'push' | 'replace'): void;
 }
 
 let hooks: AppHooks | null = null;

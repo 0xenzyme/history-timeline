@@ -2,9 +2,9 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>历史时间轴</title>
-    <meta name="description" content="四千年中国历史人物与事件，同一条可缩放、可检索的时间轴。" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>年表 · 兰台</title>
+    <meta name="description" content="兰台以时间为骨架，浏览中国历史人物与事件。" />
     <meta name="theme-color" content="#101c2c" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
@@ -12,13 +12,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:title" content="历史时间轴" />
-    <meta property="og:description" content="四千年中国历史人物与事件，同一条可缩放、可检索的时间轴。" />
+    <meta property="og:description" content="兰台以时间为骨架，浏览中国历史人物与事件。" />
     <meta property="og:url" content="https://history.0xenzyme.dev/" />
     <meta property="og:image" content="https://history.0xenzyme.dev/images/history-timeline.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://history.0xenzyme.dev/images/history-timeline.png" />
   </head>
   <body class="skin-voyage">
+    <div id="app"></div>
     <div id="nebula" aria-hidden="true"></div>
     <canvas id="stars" aria-hidden="true"></canvas>
 
@@ -28,21 +29,34 @@
     <noscript>
       <div class="boot">
         <h1>历史时间轴</h1>
-        <p>
-          收录约 3600 位中国历史人物与 1000+ 条历史事件、战事，画在同一条可缩放的时间轴上，覆盖商周到 1949 年。
-          代表条目：孔子、秦始皇、汉武帝、李白、苏轼；长平之战、安史之乱、靖康之变。
-        </p>
+        <p>兰台以时间为骨架，把中国历史人物与事件放在同一套年代坐标中。年表支持专题切换、缩放、检索和实体预览。</p>
         <p>本站的缩放、搜索与详情卡需要启用 JavaScript。当前浏览器已禁用 JavaScript，只能看到这段说明。</p>
       </div>
     </noscript>
 
-    <div id="stage">
-      <canvas id="chart" role="img" aria-label="历史时间轴"></canvas>
-    </div>
+    <a class="lt-skip-link" href="#timeline-tools">跳到年表工具</a>
+    <main id="main-content">
+      <div id="stage">
+        <canvas
+          id="chart"
+          tabindex="0"
+          role="img"
+          aria-label="历史时间轴。使用左右方向键平移，加减键缩放；也可打开当前时间窗实体列表选择对象。"
+          aria-describedby="timeline-description"
+        ></canvas>
+      </div>
+    </main>
+    <p class="sr-only" id="timeline-description">
+      人物与事件共用时间坐标。当前时间窗实体列表提供不依赖指针的选择入口。
+    </p>
+    <details class="timeline-accessible-entities" id="timeline-accessible-entities">
+      <summary>当前时间窗实体</summary>
+      <ul id="timeline-entity-list"></ul>
+    </details>
 
     <header class="topbar" id="topbar">
       <div class="island">
-        <span class="brand">历史时间轴</span>
+        <a class="brand" href="/timeline" aria-label="兰台年表">兰台</a>
         <nav class="line-tabs" aria-label="内容线">
           <button type="button" class="line-btn active" data-line="people">人物</button>
           <button type="button" class="line-btn" data-line="military">军事</button>
@@ -51,8 +65,7 @@
         <span class="divider"></span>
         <label class="sr-only" for="topic-select">朝代 / 主题</label>
         <select class="topic-select" id="topic-select" title="选择要浏览的朝代或主题"></select>
-        <span class="divider"></span>
-        <div class="search">
+        <div class="search" id="timeline-tools">
           <label class="sr-only" for="search">搜索人物或事件</label>
           <input
             class="search-input"
@@ -73,9 +86,9 @@
           id="btn-lanes"
           aria-haspopup="true"
           aria-expanded="false"
-          title="泳道：选择当前视图要显示的人物或事件分类"
+          title="选择当前视图要显示的人物或事件分类"
         >
-          泳道
+          分类
         </button>
         <button type="button" class="tool" id="btn-reset" title="回到当前视图的全览位置">复位</button>
         <div class="export-wrap">
@@ -116,7 +129,7 @@
 
     <div class="lane-panel" id="lane-panel">
       <div class="lane-panel-head">
-        <span>显示泳道</span>
+        <span>显示分类</span>
         <button type="button" id="lanes-all">全选</button>
         <button type="button" id="lanes-none">清空</button>
       </div>

@@ -129,7 +129,7 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
     ${relationRows.length > 0 ? `<div class="card-label">关系</div><div>${relationRows.join('<br>')}</div>` : ''}
     ${eventRows.length > 0 ? `<div class="card-label">生平事件</div><div>${eventRows.join('<br>')}${moreEvents > 0 ? `<div class="card-meta">另有 ${moreEvents} 条</div>` : ''}</div>` : ''}
     <div class="card-actions">
-      <button type="button" class="tool" data-action="locate" data-kind="person" data-id="${esc(id)}">在时间轴定位</button>
+      <a class="tool" data-open-detail href="/people/${encodeURIComponent(id)}">查看详情</a>
     </div>
     ${person.bio === undefined && !ctx.topic?.people.some((item) => item.id === id) ? `<div class="card-meta" style="color:${esc(c.muted)}">完整条目在它所属的专题里，切换专题后可看简介。</div>` : ''}
   `;
@@ -143,7 +143,7 @@ export function renderEventCard(ctx: CardContext, event: EventRecord): string {
       : fmtYear(event.year);
   const notes = [event.yearNote, event.endYearNote].filter(Boolean) as string[];
   const badges = [
-    `<span class="badge" style="background:${esc(skinColor(ctx.skin, EVENT_COLORS[event.type]))}">${esc(TYPE_NAMES[event.type])}</span>`,
+    `<span class="badge" data-event-type="${esc(event.type)}" style="background:${esc(skinColor(ctx.skin, EVENT_COLORS[event.type]))}">${esc(TYPE_NAMES[event.type])}</span>`,
     event.scale ? `<span class="badge" style="background:${esc(c.muted)}">${esc(SCALE_NAMES[event.scale])}</span>` : '',
     `<span class="badge" style="background:${esc(c.accent)}">${'★'.repeat(event.importance)}</span>`,
   ]
@@ -198,7 +198,7 @@ export function renderEventCard(ctx: CardContext, event: EventRecord): string {
     ${people.length > 0 ? `<div class="card-label">相关人物</div><div>${people.join('、')}</div>` : ''}
     ${sourceHtml ? `<div class="card-label">出处</div>${sourceHtml}` : ''}
     <div class="card-actions">
-      <button type="button" class="tool" data-action="locate" data-kind="event" data-id="${esc(event.id)}">在时间轴定位</button>
+      <a class="tool" data-open-detail href="/events/${encodeURIComponent(event.id)}">查看详情</a>
     </div>
   `;
 }

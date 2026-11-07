@@ -1,5 +1,29 @@
-import { validateCatalog, validateEventLine, validateTopic } from './contract';
-import type { Catalog, CatalogEntry, CenturySegment, EventLineView, EventRecord, SearchRecord, Topic } from './types';
+import {
+  validateCatalog,
+  validateCollectionDetail,
+  validateCollectionIndex,
+  validateEventDetail,
+  validateEventLine,
+  validateEraDetail,
+  validateEraIndex,
+  validatePersonDetail,
+  validateTopic,
+} from './contract';
+import type {
+  Catalog,
+  CatalogEntry,
+  CenturySegment,
+  CollectionDetail,
+  CollectionSummary,
+  EventDetail,
+  EraDetail,
+  EraSummary,
+  EventLineView,
+  EventRecord,
+  PersonDetail,
+  SearchRecord,
+  Topic,
+} from './types';
 
 export { validateEventLine } from './contract';
 
@@ -126,4 +150,41 @@ export async function loadSearchIndex(url: string): Promise<SearchRecord[]> {
     throw new Error(`加载人物索引失败：${res.status} ${res.statusText} — ${url}`);
   }
   return (await res.json()) as SearchRecord[];
+}
+
+async function loadDetail<T>(url: string, label: string, validate: (value: T) => string[]): Promise<T> {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`加载${label}失败：${res.status} ${res.statusText} — ${url}`);
+  const contentType = res.headers.get('content-type');
+  if (contentType?.includes('text/html')) {
+    throw new Error(`加载${label}失败：404 Not Found — ${url}`);
+  }
+  const value = (await res.json()) as T;
+  const problems = validate(value);
+  if (problems.length > 0) throw new Error(`${label}校验未通过（${problems.length} 项）：\n${problems.join('\n')}`);
+  return value;
+}
+
+export async function loadPersonDetail(url: string, expectedId: string): Promise<PersonDetail> {
+  return loadDetail(url, '人物详情', (value) => validatePersonDetail(value, expectedId));
+}
+
+export async function loadEventDetail(url: string, expectedId: string): Promise<EventDetail> {
+  return loadDetail(url, '事件详情', (value) => validateEventDetail(value, expectedId));
+}
+
+export async function loadCollectionIndex(url: string): Promise<CollectionSummary[]> {
+  return loadDetail(url, '群像索引', validateCollectionIndex);
+}
+
+export async function loadCollectionDetail(url: string, expectedId: string): Promise<CollectionDetail> {
+  return loadDetail(url, '群像详情', (value) => validateCollectionDetail(value, expectedId));
+}
+
+export async function loadEraIndex(url: string): Promise<EraSummary[]> {
+  return loadDetail(url, '断代索引', validateEraIndex);
+}
+
+export async function loadEraDetail(url: string, expectedId: string): Promise<EraDetail> {
+  return loadDetail(url, '断代详情', (value) => validateEraDetail(value, expectedId));
 }

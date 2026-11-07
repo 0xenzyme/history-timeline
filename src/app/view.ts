@@ -5,7 +5,7 @@
 
 import { renderEventCard, renderPersonCard, type CardContext } from './cards';
 import { BAR_H, ROW_GAP, buildEventLayout } from './layout';
-import { TYPE_NAMES, invalidatePalette, paletteFor, skinColor, type SkinId } from './skins';
+import { SKINS, TYPE_NAMES, invalidatePalette, paletteFor, skinColor, type SkinId } from './skins';
 import { esc, fmtYear } from './util';
 import { draw, resetNebula, skinPalette, visibleEvents } from './render';
 import { dom, getHooks, state, STORAGE, type Selection } from './runtime';
@@ -22,6 +22,9 @@ function cardContext(): CardContext {
 }
 
 export function showCard(selection: Selection): void {
+  const trigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  dom.card.dataset.triggerId = trigger?.dataset.id ?? '';
+  dom.card.dataset.triggerKind = trigger?.dataset.kind ?? '';
   const context = cardContext();
   if (selection.kind === 'person') {
     dom.cardBody.innerHTML = renderPersonCard(context, selection.id);
@@ -33,14 +36,34 @@ export function showCard(selection: Selection): void {
   // 卡片与选中态必须同时成立：setTopic / setLine 会清掉 selected，这里重新对齐。
   state.selected = selection;
   dom.card.classList.add('show');
+  getHooks().syncTimelineUrl();
+  if (window.innerWidth < 768) {
+    dom.card.setAttribute('role', 'dialog');
+    dom.card.setAttribute('aria-modal', 'true');
+  } else {
+    dom.card.removeAttribute('role');
+    dom.card.removeAttribute('aria-modal');
+  }
+  dom.card.querySelector<HTMLElement>('.card-title')?.setAttribute('tabindex', '-1');
+  dom.card.querySelector<HTMLElement>('.card-title')?.focus({ preventScroll: true });
+  const detailButton = dom.cardBody.querySelector<HTMLAnchorElement>('[data-open-detail]');
+  if (detailButton) {
+    detailButton.dataset.entityKind = selection.kind;
+    detailButton.dataset.entityId = selection.id;
+  }
 }
 
 export function hideCard(): void {
+  const trigger = document.querySelector<HTMLElement>(
+    `#timeline-entity-list button[data-kind="${dom.card.dataset.triggerKind}"][data-id="${dom.card.dataset.triggerId}"]`,
+  );
   dom.card.classList.remove('show');
   dom.cardBody.innerHTML = '';
   state.selected = null;
   announce('已关闭详情');
+  getHooks().syncTimelineUrl();
   draw();
+  trigger?.focus({ preventScroll: true });
 }
 
 export function hideCardSilent(): void {
@@ -116,6 +139,7 @@ export function toggleLane(id: string, show: boolean): void {
   else state.hiddenLanes.add(key);
   localStorage.setItem(STORAGE.lanes, JSON.stringify([...state.hiddenLanes]));
   getHooks().rebuildLayout();
+  getHooks().syncTimelineUrl();
   draw();
 }
 
@@ -130,6 +154,7 @@ export function setAllLanes(show: boolean): void {
   localStorage.setItem(STORAGE.lanes, JSON.stringify([...state.hiddenLanes]));
   buildLanePanel();
   getHooks().rebuildLayout();
+  getHooks().syncTimelineUrl();
   draw();
 }
 
@@ -161,6 +186,10 @@ export function syncStripToggle(): void {
   getHooks().resizeChart();
 }
 
+export function canUseInertia(): boolean {
+  return SKINS[state.skin].inertia && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+
 // ---------- 搜索 ----------
 
 interface SearchHit {
@@ -190,7 +219,7 @@ export function runSearch(query: string): SearchHit[] {
 
   for (const record of state.library.people) {
     if (record.kind === 'event') continue;
-    const fields = [record.name, record.display, ...(record.tags ?? [])];
+    const fields = [record.name, record.display, ...(record.aliases ?? []), ...(record.tags ?? [])];
     if (!fields.some((field) => field && field.toLowerCase().includes(needle))) continue;
     hits.push({
       kind: 'person',

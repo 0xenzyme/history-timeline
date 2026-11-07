@@ -116,6 +116,7 @@ export type HistoryMode = 'push' | 'replace' | 'skip';
 
 function commit(next: string, mode: HistoryMode): void {
   if (mode === 'skip') return;
+  if (location.pathname === '/timeline') return;
   const current = decodeHash(location.hash);
   if (current === next || location.hash === next) return;
   if (mode === 'push') history.pushState(null, '', next);

@@ -35,13 +35,206 @@ export interface Person {
   order?: number;
 }
 
-/** 出处。事件实体把出处带到前端，人物编译产物不带。 */
+/** 出处。人物详情、事件、作品、个人经历与 Collection 共用同一书目结构。 */
 export interface SourceRef {
   work: string;
   part?: string;
   note?: string;
   /** 出处类型：典籍 / 现代考证 / 外部数据库（只作候选）。省略按 classic 处理 */
   kind?: 'classic' | 'modern' | 'database';
+}
+
+export type WorkKind = 'poetry' | 'prose' | 'calligraphy' | 'painting' | 'music' | 'book' | 'other';
+
+export interface PersonWork {
+  id: string;
+  title: string;
+  kind?: WorkKind;
+  year?: number;
+  yearAccuracy?: Accuracy;
+  yearNote?: string;
+  note?: string;
+  sources: SourceRef[];
+}
+
+export interface PersonExperience {
+  id: string;
+  label: string;
+  year?: number;
+  yearAccuracy: Accuracy;
+  yearNote?: string;
+  endYear?: number;
+  endYearAccuracy?: Accuracy;
+  endYearNote?: string;
+  place?: string;
+  note: string;
+  event?: string;
+  sources: SourceRef[];
+}
+
+export interface EventPartRef {
+  id: string;
+  note: string;
+  sources: SourceRef[];
+}
+
+export interface PersonEventRef {
+  id: string;
+  roles: Array<'person' | 'commander'>;
+}
+
+export interface PersonRelation extends Relation {
+  directed: boolean;
+  notes: string[];
+  topicIds: string[];
+}
+
+export interface PersonDetail {
+  contractVersion: number;
+  id: string;
+  name: string;
+  display: string;
+  birth?: number;
+  birthAccuracy: Accuracy;
+  death?: number;
+  deathAccuracy: Accuracy;
+  birthNote?: string;
+  deathNote?: string;
+  title?: string;
+  bio?: string;
+  profile: 'brief' | 'full';
+  tags?: string[];
+  aliases?: string[];
+  categories?: string[];
+  primary?: string;
+  polity?: string[];
+  gender?: Gender;
+  topics: Array<{ id: string; title: string; lane: string }>;
+  relations: PersonRelation[];
+  events: PersonEventRef[];
+  collections: string[];
+  works?: PersonWork[];
+  experiences?: PersonExperience[];
+  sources: SourceRef[];
+}
+
+export type CollectionView = 'overview' | 'members' | 'timeline' | 'relations' | 'events' | 'works';
+
+export interface CollectionMember {
+  id: string;
+  order: number;
+  featured?: boolean;
+  role?: string;
+}
+
+export interface CollectionRelationRef {
+  source: string;
+  target: string;
+  type: string;
+}
+
+export interface CollectionStep {
+  label: string;
+  person?: string;
+  event?: string;
+  view?: CollectionView;
+}
+
+export interface RegistryCollection {
+  id: string;
+  status: 'draft' | 'published';
+  name: string;
+  aliases?: string[];
+  category: string;
+  summary: string;
+  body?: string;
+  tags?: string[];
+  featuredOrder?: number;
+  cover?: MediaRef;
+  members: CollectionMember[];
+  relations?: CollectionRelationRef[];
+  events?: string[];
+  dynasties?: string[];
+  views: CollectionView[];
+  defaultView: CollectionView;
+  path?: CollectionStep[];
+  sources: SourceRef[];
+}
+
+export interface MediaRef {
+  src: string;
+  alt: string;
+  credit?: string;
+  license?: string;
+}
+
+export type DynastyGroup =
+  'pre-qin' | 'qin-han' | 'weijin-nanbei' | 'sui-tang-wudai' | 'song-liao-jin-yuan' | 'ming-qing' | 'minguo';
+
+export interface DynastyProfile {
+  id: string;
+  aliases?: string[];
+  summary?: string;
+  body?: string;
+  note?: string;
+  capitals?: Array<{ name: string; note?: string }>;
+  founders?: Array<{ id: string; note?: string }>;
+  topics?: string[];
+  group: DynastyGroup;
+  featuredPeople?: string[];
+  featuredEvents?: string[];
+  collections?: string[];
+  cover?: MediaRef;
+  sources: SourceRef[];
+}
+
+export interface EraSummary extends DynastyTerm {
+  contractVersion: number;
+  aliases?: string[];
+  summary?: string;
+  group: DynastyGroup;
+  personCount: number;
+  eventCount: number;
+}
+
+export interface EraDetail extends EraSummary {
+  body?: string;
+  note?: string;
+  capitals?: DynastyProfile['capitals'];
+  founderRecords: Person[];
+  topics: string[];
+  people: Person[];
+  events: EventRecord[];
+  collections: string[];
+  collectionRecords: CollectionSummary[];
+  cover?: MediaRef;
+  sources: SourceRef[];
+}
+
+export interface HomeEditorial {
+  dynasties: string[];
+  collections: string[];
+}
+
+export interface CollectionSummary {
+  contractVersion: number;
+  id: string;
+  name: string;
+  aliases?: string[];
+  category: string;
+  summary: string;
+  tags?: string[];
+  featuredOrder?: number;
+  cover?: MediaRef;
+  memberCount: number;
+  featuredMembers: Person[];
+}
+
+export interface CollectionDetail extends RegistryCollection {
+  contractVersion: number;
+  people: Person[];
+  resolvedRelations: PersonRelation[];
+  eventRecords: EventRecord[];
 }
 
 export type EventType = 'military' | 'political' | 'rebellion' | 'institutional' | 'diplomatic' | 'cultural';
@@ -92,12 +285,25 @@ export interface EventRecord {
   people?: string[];
   result?: string;
   parent?: string;
+  partOf?: EventPartRef[];
   aliases?: string[];
   tags?: string[];
   /** 年份落在哪些朝代区间内，仅筛选用 */
   dynasties?: string[];
   desc?: string;
   sources: SourceRef[];
+}
+
+export interface EventComponent extends EventPartRef {
+  event: EventRecord;
+}
+
+export interface EventDetail extends EventRecord {
+  contractVersion: number;
+  children: string[];
+  components: EventComponent[];
+  personRecords: Person[];
+  collections: string[];
 }
 
 /** 世纪分段。稀疏段会与相邻段合并，label 取首尾。 */
@@ -220,6 +426,8 @@ export interface Catalog {
   polities?: VocabTerm[];
   /** 三条内容线。人物按专题组织，军事与历史事件按时间组织。 */
   lines?: CatalogLine[];
+  collectionCategories?: VocabTerm[];
+  editorial?: HomeEditorial;
 }
 
 export interface TopicFilters {
@@ -245,6 +453,8 @@ export interface SearchRecord {
   death?: number;
   birthAccuracy?: Accuracy;
   deathAccuracy?: Accuracy;
+  aliases?: string[];
+  bio?: string;
   /** 人物省略此字段，即视为 person。事件行填 event。 */
   kind?: 'person' | 'event';
   year?: number;
