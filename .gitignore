@@ -31,3 +31,9 @@ harness/
 # 本地前端重设计原型（design/1008、prototype/1008），只在本地校对比稿，不进入版本控制
 design/
 prototype/
+
+# 本地内容候选、必要史料依据与审核结果；不进入公开站点
+workspace/content/
+
+# 本地设计归档（外部对话产物、会话记录与设计稿），不进入版本控制
+temp/
