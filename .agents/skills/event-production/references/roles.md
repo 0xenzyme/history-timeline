@@ -1,58 +1,29 @@
-# Event Production Roles
+# 研究、起草与独立审核
 
-这些角色由 controller 根据当前 Run 动态生成 prompt。角色只接收完成任务所需的 scope、规则摘录和 evidence refs。尚未写入 gate 或 ledger 的结果不是批准。
+用户手动选择执行会话与独立审核会话，工具和模型可不同。执行者完成候选与 preflight 后停在待审并提供交接提示，不自动调用其他模型。审核者必须没有参与该候选起草；不同名字不能证明独立。
 
-controller 是角色。它必须能向用户提问，并且能启动 worker。Grok 的根 agent 担任 controller。Codex 可以由根 agent 担任，也可以交给能提问且能再启动 worker 的子 agent。
+## 研究与起草
 
-## Controller
+交付具体 proposal：范围内的 id、新增或修订操作、before/after、收录理由、必要证据和 claim。完成标准是所有已维护事实能定位到依据，而不是所有可选字段填满。
 
-**拥有**：Run manifest、checkpoint、candidate ledger、gate record、published 状态。
+## 独立历史审核
 
-**必须**：
+输入为当前完整 proposal、领域规则、原典或现代研究的可核查位置。核对以下事项并写 Review，不修改 proposal；之后由审核者调用准入工具写入通过项，不手改 canonical：
 
-- 先读取当前 checkpoint revision，再采取动作；
-- 为每个 worker 固定 `runId`、`inputHash`、`revision`；
-- 只接受满足依赖和证据合同的 worker 结果；
-- 在两次 gate 前展示候选范围和下一步；
-- 使用 `SKILL.md` 里该宿主的提问工具询问 gate，再把结果写成 gate 记录；不要求用户粘贴 JSON；
-- 工具没有返回答案时，checkpoint 停在当前 stage；不向用户发送已批准的结论；
-- 使用 create-only 文件写入；
-- 外部文件或命令结果对不上时，按 `evidence.md` 停止并记录原因，不重试；
-- 记录每次重试和取消原因。
+- 候选符合收录闸门，id 与既有实体无重复，操作与授权范围相符。
+- 逐项事实与引用原文相符；可靠出处达到门槛，非军事双出处具有实质独立性。
+- 年份、端点、精度、异说与 note 一致；没有用生卒推断归属。
+- type、catalogs、importance、scale 分别合理；parent 与 partOf 不混用。
+- people 和 commanders 逐人核对参与事实，不能把顶层 people 字段有 claim 当成每人都已支持；组成关系逐项核对说明与出处。
+- result 和 desc 的复合结论逐项核对。例如财政、兵制、藩镇三项需要各自依据；「通行概括」不能替代可核查来源。
+- 古今地点对应需要可核查地理依据，不能仅以「编辑判断」放行。
+- 兵力和战果区分史书记载与已考证统计，只有原典记数时使用明确归属或收窄表达。不同 work 不自动证明史料独立，多书同载不等于独立验证。
+- 描述未夸大史料，短标签未改变含义；可选内容缺失不成为虚构理由。
 
-**不得**：
+全部能确认才返回 pass。其他结论使用 needs-evidence、needs-revision、needs-decision 或 reject，并写具体原因。reviewedProposal 必须是实际审核输入。核验不了来源、工具失败或上下文不足时不能 pass。
 
-- 把聊天中的模糊表达当作批准；
-- 用旧 inline 输入补齐史料字段；
-- 把数据库当作唯一年份依据；
-- 自动创建人物；
-- 自动 commit、push、deploy 或 release。
+## 执行与复查
 
-## Research worker
+执行者只运行 preflight，审核者运行确定性 check/apply，按实际输出报告应用与验证结果。CLI 检查结构和投影，不能替代上面的历史判断。修订 proposal 后重新审核；无新资料时停止同一问题的重试并保留 pending。
 
-按时期和领域研究。Web-first 发现后必须寻找可回溯的原典或现代研究。每个候选都要提供 claim、source、时间不确定性、duplicate hints 和 unresolved refs。只返回 `ResearchPacket`，不写仓库。
-
-## Synthesis worker
-
-读取全部 ResearchPacket、现有 event id、现有人物 id、polity vocab 和 parent 关系。输出 canonical id 建议、alias/duplicate 分组、taxonomy、catalog、source coverage 和 evidence-needed 原因。不得自行把候选变成 research-approved 或 publish-approved。
-
-## Draft worker
-
-只接收 controller 已批准的 candidate rows。每个 id 先检查目标文件不存在，再创建一个 `status: draft` 文件。不得更新已有文件、事件索引、旧迁移 manifest、人物文件或 published 状态。返回 created、skippedExisting、blockedConflicts、inputHash 和文件 hash。
-
-## Validator worker
-
-只读执行：
-
-```text
-npm run events:check
-npm run content:check
-npm run events:publish:check -- --manifest <draft-manifest>
-npm run build
-```
-
-输出机器可读报告，不修复内容，不批准 gate。
-
-## Historian reviewer
-
-读取 candidate ledger、evidence、draft diff 和 validator report。逐条检查收录闸门、年份、出处、叙事重要性、taxonomy、重复、人物引用和不确定性。只返回 review report；controller 才能接受结果。
+后续复查者可以使用更强模型抽查通过项，也检查 pending 是否合理、已应用是否等于审核内容。发现缺陷时提出具体修订批次，不覆盖旧依据或伪造当时的结论。

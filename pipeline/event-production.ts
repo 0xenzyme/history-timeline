@@ -1,318 +1,484 @@
-import { createHash } from 'node:crypto';
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
-import { dirname, isAbsolute, join, relative, resolve } from 'node:path';
+import {
+  existsSync,
+  readFileSync,
+  mkdirSync,
+  writeFileSync,
+  renameSync,
+  lstatSync,
+  unlinkSync,
+  openSync,
+  closeSync,
+} from 'node:fs';
+import { dirname, join, resolve, relative, isAbsolute } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { isDeepStrictEqual } from 'node:util';
+import { spawnSync } from 'node:child_process';
 
-import { lintRegistryEvent, type EventLintContext } from './lint';
-import { EVENT_ID_PATTERN, readEventMarkdown } from './event-md';
-import type { LintMessage, RegistryEvent } from './types';
+import { compileAll, compileEventDetails, compilePersonDetails, compileCollectionDetails } from './compile';
+import { parseContentBatch, reviewProblems, type ContentBatch, type ContentCandidate } from './content-batch';
+import { eventIndexRows, formatEventIndex, parseEventMarkdown, readEventMarkdown } from './event-md';
+import { lintPipeline, lintRegistryEvent } from './lint';
+import { loadPipeline } from './load';
+import { checkLegacyEventManifest } from './event-migration';
+import type { PipelineData, RegistryEvent, LintMessage } from './types';
 
-const pipelineRoot = dirname(fileURLToPath(import.meta.url));
-const repoRoot = join(pipelineRoot, '..');
-const contentRoot = join(repoRoot, 'content');
-const eventDir = join(contentRoot, 'events');
-const runsRoot = join(repoRoot, '.harness', 'runs');
+const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
-export interface DraftManifestEntry {
+export interface AdmissionItem {
   id: string;
-  path: string;
-  sha256: string;
+  state: 'ready' | 'pending' | 'already-applied';
+  reasons: string[];
 }
-
-export interface DraftManifest {
-  schemaVersion: 1;
-  runId: string;
-  inputHash: string;
-  revision: number;
-  events: DraftManifestEntry[];
-}
-
 export interface PublishCheckResult {
   ok: boolean;
-  manifest: string;
-  runId?: string;
-  revision?: number;
-  selectedIds: string[];
+  batchId: string;
+  items: AdmissionItem[];
+  errors: string[];
   warnings: LintMessage[];
-  errors: LintMessage[];
+}
+export interface ApplyResult extends PublishCheckResult {
+  appliedIds: string[];
+  verification: 'not-run' | 'passed' | 'failed';
 }
 
-function usage(): never {
-  console.error('用法：npm run events:publish:check -- --manifest <draft-manifest.json> [--json]');
-  process.exit(1);
+function readText(path: string): string | null {
+  return existsSync(path) ? readFileSync(path, 'utf8') : null;
 }
 
-function parseArgs(argv: string[]): { manifest: string; json: boolean } {
-  let manifest = '';
-  let json = false;
-  for (let index = 0; index < argv.length; index += 1) {
-    const arg = argv[index];
-    if (arg === '--manifest') {
-      manifest = argv[index + 1] ?? '';
-      index += 1;
-    } else if (arg === '--json') {
-      json = true;
-    } else {
-      usage();
+/** Refuse symlinks in every existing path component, including output directories. */
+function safePath(root: string, path: string): string {
+  const full = resolve(root, path);
+  const rel = relative(root, full);
+  if (!rel || rel.startsWith('..') || isAbsolute(rel)) throw new Error(`路径越界：${path}`);
+  let current = root;
+  for (const part of rel.split('/')) {
+    current = join(current, part);
+    try {
+      if (lstatSync(current).isSymbolicLink()) throw new Error(`拒绝符号链接：${current}`);
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
     }
-  }
-  if (!manifest) usage();
-  return { manifest, json };
-}
-
-function readJson(path: string): unknown {
-  return JSON.parse(readFileSync(path, 'utf8')) as unknown;
-}
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === 'object' && value !== null && !Array.isArray(value);
-}
-
-function isWithin(child: string, parent: string): boolean {
-  const rel = relative(parent, child);
-  return rel === '' || (!rel.startsWith('..') && !isAbsolute(rel));
-}
-
-function sha256(path: string): string {
-  return createHash('sha256').update(readFileSync(path)).digest('hex');
-}
-
-function vocabIds(name: string): Set<string> {
-  const rows = readJson(join(pipelineRoot, 'vocab', name));
-  if (!Array.isArray(rows)) throw new Error(`词表 ${name} 不是列表`);
-  return new Set(
-    rows
-      .filter(isRecord)
-      .map((row) => row.id)
-      .filter((id): id is string => typeof id === 'string'),
-  );
-}
-
-function personIds(): Set<string> {
-  const ids = new Set<string>();
-  const registry = join(pipelineRoot, 'registry', 'people');
-  for (const name of readdirSync(registry)) {
-    if (name.endsWith('.json')) ids.add(name.slice(0, -'.json'.length));
-  }
-  const order = readJson(join(pipelineRoot, 'topics.json'));
-  if (!Array.isArray(order)) throw new Error('pipeline/topics.json 不是专题 id 列表');
-  for (const topic of order) {
-    if (typeof topic !== 'string') continue;
-    const directory = join(contentRoot, topic);
-    if (!existsSync(directory)) continue;
-    for (const name of readdirSync(directory)) {
-      if (name.endsWith('.md') && !name.startsWith('_')) ids.add(name.slice(0, -'.md'.length));
-    }
-  }
-  return ids;
-}
-
-function parseManifest(path: string): DraftManifest {
-  const full = resolve(process.cwd(), path);
-  if (!isWithin(full, runsRoot)) {
-    throw new Error(`manifest 必须位于 .harness/runs/ 内：${path}`);
-  }
-  if (!existsSync(full)) throw new Error(`找不到 manifest：${path}`);
-  const raw = readJson(full);
-  if (
-    !isRecord(raw) ||
-    raw.schemaVersion !== 1 ||
-    typeof raw.runId !== 'string' ||
-    typeof raw.inputHash !== 'string' ||
-    !Number.isInteger(raw.revision) ||
-    !Array.isArray(raw.events) ||
-    raw.events.length === 0
-  ) {
-    throw new Error('draft manifest 必须包含 schemaVersion=1、runId、inputHash、revision 和非空 events');
-  }
-  const events: DraftManifestEntry[] = [];
-  const seen = new Set<string>();
-  for (const item of raw.events) {
-    if (
-      !isRecord(item) ||
-      typeof item.id !== 'string' ||
-      !EVENT_ID_PATTERN.test(item.id) ||
-      typeof item.path !== 'string' ||
-      typeof item.sha256 !== 'string' ||
-      !/^[a-f0-9]{64}$/.test(item.sha256)
-    ) {
-      throw new Error('draft manifest 的每一项必须包含合法 id、path 和 sha256');
-    }
-    if (seen.has(item.id)) throw new Error(`manifest 中事件 id 重复：${item.id}`);
-    seen.add(item.id);
-    events.push({ id: item.id, path: item.path, sha256: item.sha256 });
-  }
-  const revision = raw.revision;
-  if (typeof revision !== 'number' || !Number.isInteger(revision)) {
-    throw new Error('draft manifest revision 必须是整数');
-  }
-  return {
-    schemaVersion: 1,
-    runId: raw.runId,
-    inputHash: raw.inputHash,
-    revision,
-    events,
-  };
-}
-
-function eventPath(entry: DraftManifestEntry): string {
-  const full = resolve(repoRoot, entry.path);
-  if (!isWithin(full, eventDir) || full !== join(eventDir, `${entry.id}.md`)) {
-    throw new Error(`事件 ${entry.id} 的 path 必须指向 content/events/${entry.id}.md`);
   }
   return full;
 }
 
-function manifestErrors(manifest: DraftManifest): LintMessage[] {
-  const messages: LintMessage[] = [];
-  const seenPaths = new Set<string>();
-  for (const entry of manifest.events) {
-    let full: string;
-    try {
-      full = eventPath(entry);
-    } catch (error) {
-      messages.push({
-        level: 'error',
-        path: entry.path,
-        message: error instanceof Error ? error.message : String(error),
-      });
-      continue;
-    }
-    if (seenPaths.has(full)) {
-      messages.push({ level: 'error', path: entry.path, message: 'manifest path 重复' });
-      continue;
-    }
-    seenPaths.add(full);
-    if (!existsSync(full)) {
-      messages.push({ level: 'error', path: entry.path, message: 'manifest 引用的事件文件不存在' });
-      continue;
-    }
-    const actualHash = sha256(full);
-    if (actualHash !== entry.sha256) {
-      messages.push({
-        level: 'error',
-        path: entry.path,
-        message: `文件 hash 已变化：expected=${entry.sha256} actual=${actualHash}`,
-      });
-    }
-  }
-  return messages;
+function canonicalPath(root: string, id: string): string {
+  return safePath(root, `content/events/${id}.md`);
 }
 
-function publishSourceErrors(event: RegistryEvent, path: string): LintMessage[] {
-  if (event.type === 'military') return [];
-  const sources = Array.isArray(event.sources) ? event.sources : [];
-  const distinctWorks = new Set(
-    sources
-      .filter((source) => source && typeof source === 'object')
-      .map((source) => (typeof source.work === 'string' ? source.work.trim() : ''))
-      .filter(Boolean),
-  );
-  const messages: LintMessage[] = [];
-  if (distinctWorks.size < 2) {
-    messages.push({
-      level: 'error',
-      path,
-      message: '[EVENT_PUBLISH_SOURCES] 非军事事件发布前必须有两条不同 work 的独立出处',
-    });
+function sourceProblems(event: RegistryEvent): string[] {
+  const sources = event.sources ?? [];
+  const problems: string[] = [];
+  if (event.type !== 'military') {
+    const works = new Set(sources.filter((s) => s.kind !== 'database').map((s) => s.work.trim()));
+    if (works.size < 2)
+      problems.push('[EVENT_PUBLISH_SOURCES] 非军事事件需要两部不同 work 的非数据库出处，独立性由历史审核确认');
+    if (!sources.some((s) => (s.kind ?? 'classic') === 'classic'))
+      problems.push('[EVENT_PUBLISH_CLASSIC] 非军事事件需要至少一条 classic');
   }
-  const hasClassic = sources.some(
-    (source) => source && typeof source === 'object' && (source.kind ?? 'classic') === 'classic',
-  );
-  if (!hasClassic) {
-    messages.push({
-      level: 'error',
-      path,
-      message: '[EVENT_PUBLISH_CLASSIC] 非军事事件发布前至少需要一条 classic 出处',
-    });
-  }
-  return messages;
+  return problems;
 }
 
-function publishProjection(manifest: DraftManifest): PublishCheckResult {
-  const manifestMessages = manifestErrors(manifest);
-  const files = readEventMarkdown(contentRoot);
-  const selected = new Map(manifest.events.map((entry) => [entry.id, entry]));
-  const selectedIds = [...selected.keys()];
-  const errors: LintMessage[] = [
-    ...manifestMessages,
-    ...files.flatMap((file) => file.messages.filter((message) => message.level === 'error')),
+function evidenceProblems(candidate: ContentCandidate, event: RegistryEvent): string[] {
+  const p = candidate.proposal;
+  const problems: string[] = [];
+  // All maintained factual fields need support, including unchanged fields on a legacy revision.
+  const facts = [
+    'name',
+    'type',
+    'catalogs',
+    'scale',
+    'importance',
+    'year',
+    'yearAccuracy',
+    'yearNote',
+    'endYear',
+    'endYearAccuracy',
+    'endYearNote',
+    'place',
+    'placeNow',
+    'polity',
+    'belligerents',
+    'commanders',
+    'people',
+    'result',
+    'parent',
+    'partOf',
+    'aliases',
+    'tags',
+    'desc',
   ];
-  const warnings: LintMessage[] = files.flatMap((file) =>
-    file.messages.filter((message) => message.level === 'warning'),
-  );
-
-  const projected = new Map<string, RegistryEvent>();
-  for (const file of files) {
-    if (!file.event) continue;
-    const event = selected.has(file.event.id) ? { ...file.event, status: 'published' as const } : file.event;
-    if (event.status !== 'draft' || selected.has(event.id)) projected.set(event.id, event);
-    if (selected.has(file.event.id) && file.event.status !== 'draft') {
-      errors.push({ level: 'error', path: file.path, message: 'publish manifest 只能选择 status: draft 的事件' });
+  for (const field of facts) {
+    if (event[field as keyof RegistryEvent] !== undefined && !p.claims.some((claim) => claim.fields.includes(field))) {
+      problems.push(`[CLAIM] 缺少 ${field} 的依据映射`);
     }
-    if (selected.has(file.event.id)) {
-      errors.push(...publishSourceErrors(file.event, file.path));
+  }
+  const cited = [...(event.sources ?? []), ...(event.partOf ?? []).flatMap((part) => part.sources)];
+  for (const source of cited) {
+    if (!p.evidence.some((e) => e.work === source.work && (!source.part || e.locator.includes(source.part)))) {
+      problems.push(`[EVIDENCE] 缺少 ${source.work} ${source.part ?? ''} 的定位与必要摘录`);
+    }
+  }
+  return problems;
+}
+
+function project(data: PipelineData, events: Map<string, RegistryEvent>): PipelineData {
+  const paths = new Map(data.eventPaths);
+  for (const id of events.keys()) paths.set(id, `content/events/${id}.md`);
+  return { ...data, events, eventPaths: paths };
+}
+
+function validateProjection(data: PipelineData): LintMessage[] {
+  const { catalog, topics, events } = compileAll(data);
+  const messages = lintPipeline(data, topics, catalog);
+  // Detail projections are part of admission, not only the two catalog views.
+  compileEventDetails(data, events);
+  compilePersonDetails(data, events);
+  compileCollectionDetails(data, events);
+  return messages;
+}
+
+function inspectEventBatch(batch: ContentBatch, root: string, requireReview: boolean): PublishCheckResult {
+  // Revalidate callers as well as CLI input.
+  parseContentBatch(batch);
+  const result: PublishCheckResult = { ok: false, batchId: batch.id, items: [], errors: [], warnings: [] };
+  let data: PipelineData;
+  try {
+    const migrationProblems = checkLegacyEventManifest(join(root, 'pipeline'));
+    if (migrationProblems.length) throw new Error(migrationProblems.join('; '));
+    const resuming = batch.items.some(
+      (item) =>
+        reviewProblems(item).length === 0 && readText(canonicalPath(root, item.proposal.id)) === item.proposal.after,
+    );
+    data = loadPipeline(join(root, 'pipeline'), { allowEventIndexDrift: resuming });
+  } catch (error) {
+    result.errors.push(`[BASELINE] ${String(error)}`);
+    result.items = batch.items.map(({ proposal }) => ({
+      id: proposal.id,
+      state: 'pending',
+      reasons: [...result.errors],
+    }));
+    return result;
+  }
+  const proposals = new Map<string, RegistryEvent>();
+  for (const candidate of batch.items) {
+    const p = candidate.proposal;
+    const reasons = reviewProblems(candidate, requireReview);
+    const row: AdmissionItem = { id: p.id, state: 'pending', reasons };
+    result.items.push(row);
+    try {
+      const current = readText(canonicalPath(root, p.id));
+      if (current !== p.before && current !== p.after) reasons.push('[CONFLICT] 正式文件与候选基线不同，保留当前文件');
+      const parsed = parseEventMarkdown(p.after, `content/events/${p.id}.md`);
+      reasons.push(...parsed.messages.filter((m) => m.level === 'error').map((m) => m.message));
+      if (reasons.length && !parsed.event) continue;
+      const event = parsed.event;
+      if (!event) {
+        reasons.push('[PARSE] 不能解析候选');
+        continue;
+      }
+      if (event.status !== 'published')
+        reasons.push('[STATUS] after 必须是目标 published 内容，候选通过前不进入正式源');
+      const before = p.before === null ? undefined : parseEventMarkdown(p.before, `content/events/${p.id}.md`);
+      if (before?.messages.some((m) => m.level === 'error')) reasons.push('[BASE] before 必须是可解析且格式正确的原文');
+      if (p.operation === 'revise' && (!before?.event || before.event.status === 'draft'))
+        reasons.push('[OPERATION] revise 只能修订已发布事件');
+      if (p.operation === 'publish' && p.before !== null && before?.event?.status !== 'draft')
+        reasons.push('[OPERATION] publish 只接受新事件或已有 draft');
+      if (p.before === p.after) reasons.push('[NO_CHANGE] 候选没有修改');
+      // Schema/type errors must stop access to nested data.
+      const preliminary = lintRegistryEvent(event, {
+        polityIds: new Set(data.polities.map((p) => p.id)),
+        people: new Set(data.people.keys()),
+        personRecords: data.people,
+        events: new Map([...data.events, [p.id, event]]),
+      });
+      const schemaErrors = preliminary.filter(
+        (m) => m.level === 'error' && /schema|值类型|取值|必填字段/.test(m.message),
+      );
+      if (schemaErrors.length) {
+        reasons.push(...schemaErrors.map((m) => m.message));
+        continue;
+      }
+      reasons.push(...sourceProblems(event), ...evidenceProblems(candidate, event));
+      if (reasons.length === 0) {
+        row.state = current === p.after ? 'already-applied' : 'ready';
+        proposals.set(p.id, event);
+      }
+    } catch (error) {
+      reasons.push(`[CANDIDATE] ${String(error)}`);
     }
   }
 
-  const ctx: EventLintContext = {
-    polityIds: vocabIds('polities.json'),
-    people: personIds(),
-    events: projected,
-  };
-
-  for (const file of files) {
-    if (!file.event) continue;
-    const event = selected.has(file.event.id) ? { ...file.event, status: 'published' as const } : file.event;
-    const messages = lintRegistryEvent(event, ctx, file.path);
-    for (const message of messages) {
-      if (message.level === 'error') errors.push(message);
-      else warnings.push(message);
+  // Remove invalid candidates and repeat so descendants cannot use a rejected draft dependency.
+  let removed = true;
+  while (removed) {
+    removed = false;
+    const events = new Map([...data.events, ...proposals]);
+    for (const row of result.items) {
+      const event = proposals.get(row.id);
+      if (!event) continue;
+      try {
+        const messages = lintRegistryEvent(event, {
+          polityIds: new Set(data.polities.map((p) => p.id)),
+          people: new Set(data.people.keys()),
+          personRecords: data.people,
+          events,
+          publishedEventIds: new Set(events.keys()),
+        });
+        // New/reworked records must clear their own warnings too; existing unrelated warnings remain baseline.
+        if (messages.length) {
+          row.reasons.push(...messages.map((m) => `${m.level}: ${m.message}`));
+          row.state = 'pending';
+          proposals.delete(row.id);
+          removed = true;
+        }
+      } catch (error) {
+        row.reasons.push(`[VALIDATION] ${String(error)}`);
+        row.state = 'pending';
+        proposals.delete(row.id);
+        removed = true;
+      }
     }
   }
+  try {
+    const baseline = validateProjection(data);
+    const baselineWarnings = new Set(baseline.filter((m) => m.level === 'warning').map((m) => JSON.stringify(m)));
+    const projected = validateProjection(project(data, new Map([...data.events, ...proposals])));
+    result.warnings = projected.filter((m) => m.level === 'warning');
+    const blocking = projected.filter((m) => m.level === 'error' || !baselineWarnings.has(JSON.stringify(m)));
+    if (blocking.length) result.errors.push(...blocking.map((m) => `${m.path}: ${m.message}`));
+  } catch (error) {
+    result.errors.push(`[PROJECTION] ${String(error)}`);
+  }
+  if (result.errors.length) {
+    for (const row of result.items) {
+      if (row.state !== 'pending') {
+        row.state = 'pending';
+        row.reasons.push(...result.errors);
+      }
+    }
+  }
+  result.ok = result.errors.length === 0 && result.items.every((row) => row.state !== 'pending');
+  return result;
+}
 
+/** Admission always requires an independent review. */
+export function checkEventBatch(batch: ContentBatch, root = repoRoot): PublishCheckResult {
+  return inspectEventBatch(batch, root, true);
+}
+
+/** Writer-only structural preflight; never produces an admission or writes files. */
+export function preflightEventBatch(batch: ContentBatch, root = repoRoot) {
+  const result = inspectEventBatch(batch, root, false);
   return {
-    ok: errors.length === 0,
-    manifest: 'draft-manifest.json',
-    runId: manifest.runId,
-    revision: manifest.revision,
-    selectedIds,
-    warnings,
-    errors,
+    kind: 'preflight' as const,
+    batchId: result.batchId,
+    checksPassed: result.ok,
+    admissionGranted: false as const,
+    items: result.items.map((item) => ({
+      ...item,
+      state:
+        item.state === 'pending'
+          ? ('needs-revision' as const)
+          : item.state === 'already-applied'
+            ? ('already-applied' as const)
+            : ('awaiting-review' as const),
+    })),
+    errors: result.errors,
+    warnings: result.warnings,
   };
 }
 
-export function runPublishCheck(manifestPath: string): PublishCheckResult {
-  const manifest = parseManifest(manifestPath);
-  const result = publishProjection(manifest);
-  return { ...result, manifest: manifestPath };
+export function runPublishCheck(batchPath: string, root = repoRoot): PublishCheckResult {
+  return checkEventBatch(parseContentBatch(JSON.parse(readFileSync(batchPath, 'utf8'))), root);
 }
 
-function printResult(result: PublishCheckResult, json: boolean): void {
-  if (json) {
-    console.log(JSON.stringify(result, null, 2));
-    return;
+function atomicJson(root: string, path: string, value: unknown): void {
+  atomicText(root, path, `${JSON.stringify(value, null, 2)}\n`);
+}
+function atomicText(root: string, path: string, text: string): void {
+  const full = safePath(root, path);
+  mkdirSync(dirname(full), { recursive: true });
+  const tmp = `${full}.tmp-${process.pid}`;
+  safePath(root, tmp);
+  writeFileSync(tmp, text, { flag: 'wx' });
+  try {
+    renameSync(tmp, full);
+  } finally {
+    if (existsSync(tmp)) unlinkSync(tmp);
   }
-  for (const warning of result.warnings) console.warn(`warning ${warning.path}: ${warning.message}`);
-  if (result.errors.length > 0) {
-    console.error(result.errors.map((error) => `error ${error.path}: ${error.message}`).join('\n'));
-    console.error(`publish preview failed：${result.selectedIds.length} 个 draft，Run ${result.runId ?? '(unknown)'}`);
-    return;
-  }
-  console.log(
-    `publish preview passed：${result.selectedIds.length} 个 draft，Run ${result.runId ?? '(unknown)'}，revision ${result.revision ?? '(unknown)'}`,
-  );
 }
 
-const command = process.argv[2];
-if (command !== 'publish-check') usage();
+/** Apply only ready candidates. A global projection error blocks all writes to canonical sources. */
+export function applyEventBatch(batch: ContentBatch, root = repoRoot, verify?: () => string[]): ApplyResult {
+  parseContentBatch(batch);
+  const lock = safePath(root, 'workspace/content/.apply.lock');
+  mkdirSync(dirname(lock), { recursive: true });
+  const fd = openSync(lock, 'wx');
+  try {
+    writeFileSync(fd, `${process.pid}\n`);
+    const rawPath = `workspace/content/raw/${batch.id}/batch.json`;
+    const pendingPath = `workspace/content/pending/${batch.id}/batch.json`;
+    const resultPath = `workspace/content/raw/${batch.id}/result.json`;
+    const acceptedPath = `workspace/content/raw/${batch.id}/accepted.json`;
+    const acceptedText = readText(safePath(root, acceptedPath));
+    const accepted = acceptedText === null ? [] : parseContentBatch(JSON.parse(acceptedText)).items;
+    for (const item of batch.items) {
+      const fixed = accepted.find((entry) => entry.proposal.id === item.proposal.id);
+      if (fixed && !isDeepStrictEqual(fixed, item)) {
+        throw new Error(`候选 ${item.proposal.id} 已接受，新的修订请使用新批次 id，保留原审核依据`);
+      }
+    }
+    const previous = readText(safePath(root, rawPath));
+    if (previous !== null) {
+      const old = parseContentBatch(JSON.parse(previous));
+      if (!isDeepStrictEqual(old.scope, batch.scope)) throw new Error('同一批次 id 的 scope 已变化，请使用新批次 id');
+      const items = new Map(old.items.map((item) => [item.proposal.id, item]));
+      for (const item of batch.items) {
+        const previousItem = items.get(item.proposal.id);
+        if (
+          previousItem &&
+          readText(canonicalPath(root, item.proposal.id)) === previousItem.proposal.after &&
+          !isDeepStrictEqual(previousItem.proposal, item.proposal)
+        ) {
+          throw new Error(`候选 ${item.proposal.id} 已应用，新的修订请使用新批次 id，保留原审核依据`);
+        }
+        items.set(item.proposal.id, item);
+      }
+      batch = { ...batch, items: [...items.values()] };
+    }
+    const checked = checkEventBatch(batch, root);
+    const result: ApplyResult = { ...checked, appliedIds: [], verification: 'not-run' };
+    const acceptedById = new Map(accepted.map((item) => [item.proposal.id, item]));
+    for (const item of batch.items) {
+      if (checked.items.some((row) => row.id === item.proposal.id && row.state !== 'pending')) {
+        acceptedById.set(item.proposal.id, item);
+      }
+    }
+    // Preserve accepted content and review before canonical writes; subsequent drift cannot erase it.
+    if (acceptedById.size) atomicJson(root, acceptedPath, { ...batch, items: [...acceptedById.values()] });
+    atomicJson(root, rawPath, batch);
+    const pendingIds = new Set(result.items.filter((row) => row.state === 'pending').map((row) => row.id));
+    const pending = batch.items.filter((item) => pendingIds.has(item.proposal.id));
+    if (pending.length) atomicJson(root, pendingPath, { ...batch, items: pending });
+    else {
+      const path = safePath(root, pendingPath);
+      if (existsSync(path)) unlinkSync(path);
+    }
+    atomicJson(root, resultPath, result);
+    const ready = batch.items.filter((item) =>
+      result.items.some((row) => row.id === item.proposal.id && row.state === 'ready'),
+    );
+    const indexPath = safePath(root, 'content/events.md');
+    // Recheck all targets before the first write. UI changes do not participate in this check.
+    for (const { proposal: p } of ready) {
+      if (readText(canonicalPath(root, p.id)) !== p.before) throw new Error(`候选 ${p.id} 在预检后变化，停止应用`);
+    }
+    for (const { proposal: p } of ready) {
+      // Recheck immediately before each write; interrupted application resumes by comparing exact after content.
+      const path = canonicalPath(root, p.id);
+      if (readText(path) !== p.before) throw new Error(`候选 ${p.id} 在写入前变化，停止应用`);
+      atomicText(root, path, p.after);
+      result.appliedIds.push(p.id);
+      atomicJson(root, resultPath, result);
+    }
+    if (ready.length || result.items.some((row) => row.state === 'already-applied')) {
+      // Only regenerate the index, never format unrelated canonical sources.
+      const rows = eventIndexRows(
+        readEventMarkdown(join(root, 'content')).filter((file) => file.path !== 'content/events.md'),
+      );
+      if (!rows) throw new Error('事件索引无法生成；已应用项保留，修复后重新执行本批次');
+      atomicText(root, indexPath, formatEventIndex(rows));
+    }
+    if (verify && (result.appliedIds.length || result.items.some((row) => row.state === 'already-applied'))) {
+      try {
+        result.errors.push(...verify());
+      } catch (error) {
+        result.errors.push(`[VERIFY] ${String(error)}`);
+      }
+      result.verification = result.errors.length ? 'failed' : 'passed';
+      if (result.verification === 'failed') result.ok = false;
+    }
+    atomicJson(root, resultPath, result);
+    atomicJson(
+      root,
+      `workspace/content/pending/${batch.id}/reasons.json`,
+      result.items.filter((row) => row.state === 'pending'),
+    );
+    return result;
+  } finally {
+    closeSync(fd);
+    unlinkSync(lock);
+  }
+}
 
-try {
-  const args = parseArgs(process.argv.slice(3));
-  const result = runPublishCheck(args.manifest);
-  printResult(result, args.json);
+function main(): void {
+  const [command, ...args] = process.argv.slice(2);
+  if (command === '--help' || args.includes('--help') || !command) {
+    console.log(
+      '用法：tsx pipeline/event-production.ts preflight|publish-check|apply --batch <batch.json> [--json]\n旧 --manifest 参数可指向 v2 批次。publish-check 只读；apply 分流、应用通过项并运行 content 与 build。',
+    );
+    return;
+  }
+  let path = '';
+  let json = false;
+  for (let i = 0; i < args.length; i += 1) {
+    if (args[i] === '--batch' || args[i] === '--manifest') path = args[++i] ?? '';
+    else if (args[i] === '--json') json = true;
+    else throw new Error(`未知参数 ${args[i]}`);
+  }
+  if (!path || !['preflight', 'publish-check', 'apply'].includes(command))
+    throw new Error('需要 preflight|publish-check|apply --batch <batch.json>');
+  const batch = parseContentBatch(JSON.parse(readFileSync(resolve(path), 'utf8')));
+  if (command === 'preflight') {
+    const result = preflightEventBatch(batch);
+    if (json) console.log(JSON.stringify(result, null, 2));
+    else {
+      for (const item of result.items) console.log(`${item.state} ${item.id}: ${item.reasons.join('; ')}`);
+      for (const error of result.errors) console.error(error);
+      console.log('仅完成机器预检，未授予准入。已应用项不重写审核历史；未应用项交给独立审核会话：');
+      console.log(
+        `使用项目 event-review Skill 独立审核批次 ${resolve(path)}；核对史料并记录审核结论，再运行准入工具应用通过项，保留 pending。`,
+      );
+    }
+    if (!result.checksPassed) process.exitCode = 1;
+    return;
+  }
+  let result: PublishCheckResult | ApplyResult;
+  if (command === 'apply') {
+    result = applyEventBatch(batch, repoRoot, () => {
+      for (const script of ['content', 'build']) {
+        const run = spawnSync('npm', ['run', script], { cwd: repoRoot, encoding: 'utf8' });
+        if (!json) {
+          process.stdout.write(run.stdout ?? '');
+          process.stderr.write(run.stderr ?? '');
+        }
+        if (run.status !== 0 || run.error) {
+          if (json) process.stderr.write((run.stderr || run.stdout || '').slice(-6000));
+          return [
+            `[VERIFY:${script}] ${run.error?.message ?? `exit ${run.status}`}，已写入源文件但未验证完成；修复后重跑同一批次`,
+          ];
+        }
+      }
+      return [];
+    });
+  } else result = checkEventBatch(batch);
+  if (json) console.log(JSON.stringify(result, null, 2));
+  else {
+    for (const item of result.items)
+      console.log(`${item.state} ${item.id}${item.reasons.length ? `: ${item.reasons.join('; ')}` : ''}`);
+    for (const error of result.errors) console.error(error);
+    if ('verification' in result) console.log(`verification: ${result.verification}`);
+  }
   if (!result.ok) process.exitCode = 1;
-} catch (error) {
-  console.error(`publish preview failed：${error instanceof Error ? error.message : String(error)}`);
-  process.exitCode = 1;
+}
+
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  try {
+    main();
+  } catch (error) {
+    console.error(String(error));
+    process.exitCode = 1;
+  }
 }

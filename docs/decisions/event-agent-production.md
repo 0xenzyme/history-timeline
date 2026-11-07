@@ -1,9 +1,11 @@
 # Spec: Agent-driven 历史事件生产线
 
 Created: 2026-10-04
-Status: accepted
+Status: superseded (execution contract, 2026-11-07)
 
 This is an implementation record. Execution follows `.agents/skills/event-production/SKILL.md`; content semantics follow `docs/事件线规则.md`. This spec does not define an alternate lifecycle.
+
+> 本文保留旧实现历史。当前采用用户手动选择执行与审核会话、文件交接、CLI 准入的方式，不要求模型路由或自动调度。执行协议见 [内容工作流](../内容工作流.md) 和现有事件 Skill。下文的 Run、checkpoint、hash、固定两次审批与 create-only 限制不再适用于新批次；旧资料不删除，旧 inline 迁移边界仍有效。
 
 ## Decision
 

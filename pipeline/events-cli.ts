@@ -2,7 +2,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { lintRegistryEvent } from './lint';
+import { lintEventCompositionGraph, lintRegistryEvent } from './lint';
 import {
   EVENT_DIR,
   EVENT_ID_PATTERN,
@@ -17,7 +17,8 @@ import {
   readEventMarkdown,
 } from './event-md';
 import type { EventLifecycle } from './event-md';
-import type { LintMessage, RegistryEvent } from './types';
+import type { LintMessage } from './types';
+import type { EventMarkdownFile } from './event-md';
 
 const pipelineRoot = dirname(fileURLToPath(import.meta.url));
 const repoRoot = join(pipelineRoot, '..');
@@ -55,27 +56,38 @@ function personIds(): Set<string> {
   return ids;
 }
 
-function eventMap(): Map<string, RegistryEvent> {
-  const events = new Map<string, RegistryEvent>();
-  // Draft wars stay in this map so a child year can be checked before publish.
-  // The index and the axis still use published events only.
-  for (const file of readEventMarkdown(contentRoot)) {
-    if (file.event) events.set(file.event.id, file.event);
-  }
-  return events;
-}
-
 function commandCheck(): void {
   const files = readEventMarkdown(contentRoot);
+  const messages = lintEventMarkdownFiles(files, vocabIds('polities.json'), personIds());
+  reportMessages(messages);
+  const published = publishedEventMarkdown(files).length;
+  console.log(`events check passed：模板 1，索引 1，事件 ${published} 条`);
+}
+
+export function lintEventMarkdownFiles(
+  files: EventMarkdownFile[],
+  polityIds: Set<string>,
+  people: Set<string>,
+): LintMessage[] {
   const messages: LintMessage[] = files.flatMap((file) => file.messages);
-  const ctx = { polityIds: vocabIds('polities.json'), people: personIds(), events: eventMap() };
+  const events = new Map(files.filter((file) => file.event).map((file) => [file.event!.id, file.event!]));
+  const publishedEventIds = new Set(
+    publishedEventMarkdown(files)
+      .filter((file) => file.event !== undefined)
+      .map((file) => file.event!.id),
+  );
+  const ctx = { polityIds, people, events, publishedEventIds };
 
   // draft 事件也做结构、类型和时间校验；只有发布态才参与跨事件索引和上轴。
   for (const file of files.filter((item) => !item.path.split('/').pop()?.startsWith('_'))) {
     if (!file.event) continue;
     messages.push(...lintRegistryEvent(file.event, ctx, file.path));
   }
+  messages.push(...lintEventCompositionGraph(events));
+  return messages;
+}
 
+function reportMessages(messages: LintMessage[]): void {
   const warnings = messages.filter((item) => item.level === 'warning');
   const errors = messages.filter((item) => item.level === 'error');
   for (const item of warnings) console.warn(`warning ${item.path}: ${item.message}`);
@@ -83,8 +95,6 @@ function commandCheck(): void {
     console.error(errors.map((item) => `error ${item.path}: ${item.message}`).join('\n'));
     process.exit(1);
   }
-  const published = publishedEventMarkdown(files).length;
-  console.log(`events check passed：模板 1，索引 1，事件 ${published} 条`);
 }
 
 function rewriteEventIndex(): boolean {

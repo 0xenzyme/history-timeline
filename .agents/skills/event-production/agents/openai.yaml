@@ -1,4 +1,4 @@
 interface:
-  display_name: "Event Production"
-  short_description: "Research and stage historical events with a durable Run"
-  default_prompt: "Use $event-production to research and stage major historical events through the controller."
+  display_name: "Event Preparation"
+  short_description: "Prepare event candidates and hand off for independent review"
+  default_prompt: "Use $event-production to prepare event candidates, run read-only preflight, and give me a handoff prompt for an independent review session."

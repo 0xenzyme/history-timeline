@@ -1,0 +1,4 @@
+interface:
+  display_name: "Event Review"
+  short_description: "Review event evidence and apply passing candidates"
+  default_prompt: "Use $event-review to independently review the specified batch, apply passing candidates through the admission tool, and report pending items."
