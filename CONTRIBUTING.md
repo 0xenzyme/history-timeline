@@ -12,7 +12,7 @@
 4. 可选：运行 `npm run hooks:install`，把 `.githooks` 设为 `core.hooksPath`，提交前自动检查格式。
 5. 提交前运行：`npm test`、`npm run format:check` 和 `npm run build`。
 
-不要手改 `public/data/`、`content/<topic>.md` 或 `content/events.md`。它们由项目命令生成。
+不要手改 `public/data/`、`content/<topic>.md`、`content/events.md` 或 `content/collections.md`。它们由项目命令生成。
 
 ## 生成数据
 
@@ -63,6 +63,15 @@ git diff --stat public/data
 - 保持改动集中，不顺手重构无关模块。
 - 插入 SVG 或 HTML 前必须转义数据文本。
 - 界面改动需检查深链、内容线切换、专题、搜索、详情卡、泳道、事件条、缩放平移和 PNG/SVG 导出，并在 PR 中附截图或短录屏。
+
+## 修改 Collection
+
+1. 阅读《兰台数据规格》的 Collection 契约。
+2. 使用 `npm run collections:new -- <id>` 创建 draft 骨架。
+3. 明确策展理由、成员顺序和出处。成员与事件必须显式引用，关系必须来自已有 topic。
+4. 运行 `npm run collections:format` 和 `npm run collections:check`。
+5. 确认 draft 不进入目录，且发布数据没有占位文本或错误引用后，才改为 `published`。
+6. 运行 `npm run content` 并审查生成数据。
 
 ## 依赖维护
 

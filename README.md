@@ -24,7 +24,7 @@
 ## 项目结构
 
 ```text
-content/       人物与事件源文件
+content/       人物、事件与 Collection 源文件
 pipeline/      校验、编译与专题配置
 public/data/   编译生成的运行时 JSON（随源文件提交）
 src/           前端应用：加载、布局、画布渲染、交互与导出
@@ -60,7 +60,7 @@ npm run build
 npm run preview
 ```
 
-`npm run build` 会依次执行应用与流水线的 TypeScript 检查、人物校验、事件校验、内容校验和 Vite 构建，输出到 `dist/`。
+`npm run build` 会依次执行应用与流水线的 TypeScript 检查、人物校验、事件校验、Collection 校验、内容校验和 Vite 构建，输出到 `dist/`。
 
 质量门禁：
 
@@ -74,7 +74,7 @@ npm run hooks:install  # 可选：把 .githooks 设为提交前校验
 
 ## 内容维护
 
-人物源文件位于 `content/<topic>/<id>.md`，事件源文件位于 `content/events/<id>.md`。运行时数据由流水线生成，并随源文件一起提交；不要手改 `public/data/`。审查时运行 `npm run content` 后查看 `git diff --stat public/data`，不逐行审 JSON。
+人物源文件位于 `content/<topic>/<id>.md`，事件源文件位于 `content/events/<id>.md`，Collection 源文件位于 `content/collections/<id>.md`。运行时数据由流水线生成，并随源文件一起提交；不要手改 `public/data/`。审查时运行 `npm run content` 后查看 `git diff --stat public/data`，不逐行审 JSON。
 
 常用命令：
 
@@ -85,6 +85,9 @@ npm run people:check               # 校验人物内容
 npm run events:new -- <id>          # 新建事件并更新索引
 npm run events:format              # 格式化事件文件与索引
 npm run events:check               # 校验事件内容
+npm run collections:new -- <id>     # 新建 draft Collection
+npm run collections:format         # 格式化 Collection 与索引
+npm run collections:check          # 校验 Collection 结构与引用
 npm run content                    # 编译到 public/data/
 npm run content:check              # 校验编译结果，不重写文件
 ```
@@ -93,6 +96,7 @@ npm run content:check              # 校验编译结果，不重写文件
 
 - [内容编写手册](pipeline/PLAYBOOK.md)：人物收录、年份精度、出处、关系与政权归属。
 - [事件线规则](docs/事件线规则.md)：事件实体、时间、出处与引用规则。
+- [兰台数据规格](docs/兰台数据规格.md)：人物作品与经历、事件 `partOf`、Collection 和详情产物。
 - [内容目录说明](content/README.md)：人物文件和索引的组织方式。
 
 规则冲突时按 [仓库规则](AGENTS.md) 的 Rule Precedence 执行；事件规则优先于人物手册中的事件入口说明。根目录 `AGENTS.md` 与 `.agents/skills/` 面向自动化内容生产工具，普通贡献者可以忽略，只需阅读本文件、[贡献指南](CONTRIBUTING.md) 与内容规则。
