@@ -4,13 +4,16 @@ import { eraPage, erasDirectory } from './eras';
 import { escapeHtml } from './escape';
 import { eventPage } from './event';
 import { homePage } from './home';
-import { loadSiteLibrary, retrySiteData, type SiteDataKey } from './data';
+import { loadSiteLibrary, retryCollection, retrySiteData, type SiteDataKey } from './data';
+import { COLLECTION_VIEW_NAMES, type CollectionViewState } from './collection-views';
+import type { CollectionView } from '../types';
 import { renderSiteHeader, wireSiteMenu, type SiteSection } from './navigation';
 import { personPage } from './person';
 import { searchPage, type SearchKind } from './search';
 import { navigateToTimeline, openSiteUrl, wireEntityLinks, wireReturnLinks, wireSiteLinks } from './context';
 
 let routeRevision = 0;
+let collectionTabFocusRequest: string | undefined;
 
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
@@ -33,6 +36,61 @@ function routeEntityId(path: string): string {
 }
 
 function wirePageControls(root: ParentNode): void {
+  root.querySelectorAll<HTMLElement>('[data-collection-tabs]').forEach((tabs) => {
+    tabs.addEventListener('keydown', (event) => {
+      if (!(event instanceof KeyboardEvent)) return;
+      const links = [...tabs.querySelectorAll<HTMLAnchorElement>('a[data-collection-tab]')];
+      const current = links.indexOf(document.activeElement as HTMLAnchorElement);
+      if (current < 0 || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+      event.preventDefault();
+      const next =
+        event.key === 'Home'
+          ? 0
+          : event.key === 'End'
+            ? links.length - 1
+            : (current + (event.key === 'ArrowRight' ? 1 : -1) + links.length) % links.length;
+      collectionTabFocusRequest = links[next]?.dataset.collectionTab;
+      links[next]?.focus();
+      links[next]?.click();
+    });
+  });
+  root.querySelectorAll<HTMLButtonElement>('[data-collection-view-mode]').forEach((button) => {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      const graph = root.querySelector<HTMLElement>('.lt-relation-graph-container');
+      if (graph) graph.hidden = button.dataset.collectionViewMode === 'list';
+      root.querySelectorAll<HTMLButtonElement>('[data-collection-view-mode]').forEach((item) => {
+        item.setAttribute('aria-pressed', String(item === button));
+      });
+      root.querySelectorAll<HTMLButtonElement>('[data-collection-member-filter]').forEach((item) => {
+        const url = new URL(item.dataset.collectionUrl!, location.href);
+        url.searchParams.set('relation', button.dataset.collectionViewMode!);
+        item.dataset.collectionUrl = `${url.pathname}${url.search}${url.hash}`;
+      });
+      const url = new URL(location.href);
+      url.searchParams.set('relation', button.dataset.collectionViewMode!);
+      if (history.state?.lantaiCollection) {
+        history.replaceState(
+          {
+            ...history.state,
+            lantaiCollection: {
+              ...history.state.lantaiCollection,
+              relationMode: button.dataset.collectionViewMode,
+            },
+          },
+          '',
+          location.href,
+        );
+      }
+      history.replaceState(history.state, '', `${url.pathname}${url.search}${url.hash}`);
+    });
+  });
+  root.querySelectorAll<HTMLButtonElement>('[data-collection-member-filter]').forEach((button) => {
+    button.addEventListener('click', () => {
+      if (button.dataset.collectionUrl) openSiteUrl(button.dataset.collectionUrl);
+    });
+  });
   root.querySelectorAll<HTMLButtonElement>('[data-filter-open]').forEach((button) => {
     button.addEventListener('click', () => {
       const dialog = root.querySelector<HTMLDialogElement>('[data-filter-dialog]');
@@ -56,6 +114,8 @@ function wirePageControls(root: ParentNode): void {
 
 export async function renderSiteRoute(): Promise<void> {
   const revision = ++routeRevision;
+  const requestedTabFocus = collectionTabFocusRequest;
+  collectionTabFocusRequest = undefined;
   const path = location.pathname.replace(/\/+$/, '') || '/';
   if (path === '/timeline' || path === '/legacy.html' || (path === '/' && location.hash)) {
     if (document.querySelector('#app')?.hasChildNodes()) location.reload();
@@ -116,7 +176,7 @@ export async function renderSiteRoute(): Promise<void> {
       const type: SearchKind = ['person', 'event', 'collection', 'dynasty'].includes(requested ?? '')
         ? (requested as SearchKind)
         : 'all';
-      content = searchPage(query.get('q') ?? '', type, library);
+      content = searchPage(query.get('q') ?? '', type, library, requested !== null && requested !== type);
     } else if (path === '/people') content = peopleDirectory(library);
     else if (path === '/events') content = eventsDirectory(library);
     else if (path === '/collections') content = collectionsDirectory(library);
@@ -137,24 +197,81 @@ export async function renderSiteRoute(): Promise<void> {
       /href="(\/timeline[^"]*)"/g,
       (_match, url: string) => `href="${url}" data-timeline-link`,
     );
+    const focusedCollectionTab = requestedTabFocus;
     const page = document.querySelector<HTMLElement>('#site-page');
     if (page) {
       page.innerHTML = content;
       page.setAttribute('aria-busy', 'false');
     }
     document.title = `${document.querySelector('h1')?.textContent?.trim() ?? '兰台'} · 兰台`;
-    document.querySelector<HTMLElement>('h1[tabindex="-1"]')?.focus({ preventScroll: true });
-    const source = (history.state?.lantaiRestore ?? history.state?.lantaiSource ?? null) as {
+    const collectionTab = document.querySelector<HTMLElement>('[data-collection-tabs]');
+    const viewFocus = Boolean(focusedCollectionTab);
+    if (collectionTab && viewFocus) {
+      collectionTab.querySelector<HTMLElement>('[aria-selected="true"]')?.focus({ preventScroll: true });
+    } else if (location.hash) {
+      let id = '';
+      try {
+        id = decodeURIComponent(location.hash.slice(1));
+      } catch {}
+      const target = id ? document.getElementById(id) : null;
+      if (target instanceof HTMLElement) {
+        if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+        target.focus({ preventScroll: true });
+        target.scrollIntoView();
+      } else {
+        document.querySelector<HTMLElement>('h1[tabindex="-1"]')?.focus({ preventScroll: true });
+      }
+    } else {
+      document.querySelector<HTMLElement>('h1[tabindex="-1"]')?.focus({ preventScroll: true });
+    }
+    const source = (history.state?.lantaiSource ?? history.state?.lantaiRestore ?? null) as {
       url?: string;
       scrollY?: number;
     } | null;
-    if (source?.url && new URL(source.url).pathname === path && source.scrollY !== undefined) {
+    if (
+      source?.url &&
+      new URL(source.url).pathname === path &&
+      new URL(source.url).search === location.search &&
+      source.scrollY !== undefined
+    ) {
       const scrollY = source.scrollY;
       requestAnimationFrame(() => {
         if (revision === routeRevision) window.scrollTo({ top: scrollY, behavior: 'instant' });
       });
     }
     wirePageControls(page ?? root);
+    if (collectionTab) {
+      const tab = collectionTab.querySelector<HTMLElement>('[aria-selected="true"]')?.dataset.collectionTab;
+      collectionTab.querySelector<HTMLElement>('[aria-selected="true"]')?.scrollIntoView({
+        block: 'nearest',
+        inline: 'nearest',
+        behavior: 'instant',
+      });
+      if (tab && Object.keys(COLLECTION_VIEW_NAMES).includes(tab)) {
+        history.replaceState(
+          {
+            ...(history.state ?? {}),
+            lantaiCollection: {
+              tab: tab as CollectionView,
+              member: query.get('member') ?? undefined,
+              relationMode: query.get('relation') === 'list' ? 'list' : 'graph',
+              invalid: [],
+            } satisfies CollectionViewState,
+          },
+          '',
+          location.href,
+        );
+      }
+    }
+    root.querySelectorAll<HTMLButtonElement>('[data-retry-collection]').forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button.dataset.retryCollection) retryCollection(button.dataset.retryCollection);
+        void renderSiteRoute();
+      });
+    });
+    root.querySelectorAll<HTMLButtonElement>('[data-collection-retry]').forEach((button) => {
+      button.addEventListener('click', () => void renderSiteRoute());
+    });
     root.querySelectorAll<HTMLElement>('[data-retry]').forEach((button) => {
       button.addEventListener('click', () => {
         const key = button.dataset.retry;
@@ -173,6 +290,13 @@ export async function renderSiteRoute(): Promise<void> {
       image.addEventListener('error', () => image.remove());
       image.src = `/media/people/${placeholder.dataset.personImage}.webp`;
       placeholder.append(image);
+    });
+    root.querySelectorAll<HTMLImageElement>('[data-collection-cover]').forEach((image) => {
+      image.addEventListener('error', () => {
+        image.remove();
+        const fallback = root.querySelector<HTMLElement>('[data-collection-cover-fallback]');
+        if (fallback) fallback.hidden = false;
+      });
     });
   } catch (error) {
     if (revision !== routeRevision) return;

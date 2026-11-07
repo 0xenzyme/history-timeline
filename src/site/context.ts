@@ -5,6 +5,23 @@ export interface DetailSource {
   scrollY: number;
 }
 
+function isEntityPath(path: string): boolean {
+  return /^\/(people|events)\/[^/]+$/.test(path);
+}
+
+export function collectionDetailPath(path: string): boolean {
+  return /^\/collections\/[^/]+$/.test(path);
+}
+
+interface CollectionEntry extends DetailSource {
+  collectionId: string;
+}
+
+function collectionDepth(): number {
+  const depth = history.state?.lantaiCollectionDepth;
+  return Number.isSafeInteger(depth) && depth >= 0 ? depth : 0;
+}
+
 export function openSiteUrl(url: string, mode: 'push' | 'replace' = 'push'): void {
   const target = new URL(url, location.href);
   if (target.pathname === '/timeline' || target.pathname === '/timeline.html' || target.pathname === '/legacy.html') {
@@ -14,10 +31,26 @@ export function openSiteUrl(url: string, mode: 'push' | 'replace' = 'push'): voi
   const same =
     `${target.pathname}${target.search}${target.hash}` === `${location.pathname}${location.search}${location.hash}`;
   if (same && mode === 'push') return;
+  if (target.pathname === location.pathname && !collectionDetailPath(target.pathname)) mode = 'replace';
   const source = { url: location.href, scrollY: window.scrollY } satisfies DetailSource;
+  const sameCollection = collectionDetailPath(target.pathname) && target.pathname === location.pathname;
+  const collectionEntry = sameCollection
+    ? ((history.state?.lantaiCollectionEntry ?? history.state?.lantaiSource) as CollectionEntry | undefined)
+    : ({ ...source, collectionId: decodeURIComponent(target.pathname.split('/')[2] ?? '') } satisfies CollectionEntry);
+  if (collectionDetailPath(location.pathname) && !history.state?.lantaiCollectionEntry && history.state?.lantaiSource) {
+    history.replaceState({ ...history.state, lantaiCollectionEntry: history.state.lantaiSource }, '', location.href);
+  }
   history.replaceState({ ...(history.state ?? {}), lantaiSource: source }, '', location.href);
   history[mode === 'push' ? 'pushState' : 'replaceState'](
-    { lantaiRestore: source, lantaiSource: source },
+    target.pathname === location.pathname && !collectionDetailPath(target.pathname)
+      ? { ...(history.state ?? {}), lantaiSource: history.state?.lantaiSource ?? source }
+      : {
+          ...(target.pathname === location.pathname ? (history.state ?? {}) : {}),
+          lantaiRestore: target.pathname === location.pathname ? source : source,
+          lantaiSource: source,
+          ...(sameCollection ? { lantaiCollectionEntry: collectionEntry } : {}),
+          lantaiCollectionDepth: sameCollection ? collectionDepth() + 1 : 0,
+        },
     '',
     target.href,
   );
@@ -61,10 +94,10 @@ export function wireSiteLinks(root: ParentNode = document): void {
 
 export function openEntity(kind: 'person' | 'event', id: string): void {
   const currentSource = { url: location.href, scrollY: window.scrollY } satisfies DetailSource;
-  history.replaceState({ lantaiSource: currentSource }, '', location.href);
+  history.replaceState({ ...(history.state ?? {}), lantaiSource: currentSource }, '', location.href);
   const timelineSource =
     location.pathname === '/timeline' || location.pathname === '/' || location.pathname === '/legacy.html';
-  if (!timelineSource && history.state?.lantaiDetail) {
+  if (!timelineSource && isEntityPath(location.pathname)) {
     const source = { url: location.href, scrollY: window.scrollY } satisfies DetailSource;
     history.replaceState({ ...(history.state ?? {}), lantaiSource: source }, '', location.href);
     history.pushState(
@@ -121,19 +154,34 @@ export function returnToSource(fallbackUrl: string): void {
     return;
   }
   const source = (history.state?.lantaiSource ?? null) as DetailSource | null;
+  if (collectionDetailPath(location.pathname)) {
+    const entry = (history.state?.lantaiCollectionEntry ?? null) as CollectionEntry | null;
+    const collectionId = decodeURIComponent(location.pathname.split('/')[2] ?? '');
+    const depth = collectionDepth();
+    if (entry?.url) {
+      if (depth > 0) {
+        window.addEventListener('popstate', () => setTimeout(() => returnToSource(fallbackUrl), 0), { once: true });
+        history.go(-depth);
+        return;
+      }
+      if (entry.collectionId === collectionId || collectionDetailPath(new URL(entry.url).pathname)) {
+        openSiteUrl(fallbackUrl, 'replace');
+      } else {
+        history.back();
+      }
+      return;
+    }
+  }
   const storedUrl = sessionStorage.getItem('lantai-return-url');
-  if (
-    source?.url &&
-    !/\/(people|events)\//.test(new URL(source.url).pathname) &&
-    new URL(source.url).pathname !== '/timeline'
-  ) {
+  const sourcePath = source?.url ? new URL(source.url).pathname : '';
+  if (source?.url && !isEntityPath(sourcePath) && sourcePath !== '/timeline') {
     history.back();
     return;
   }
   if (source?.url || (!source?.url && storedUrl)) {
     const sourceUrl = source?.url ?? storedUrl!;
     const path = new URL(sourceUrl).pathname;
-    if (/\/(people|events)\//.test(path)) history.back();
+    if (isEntityPath(path) || (collectionDetailPath(location.pathname) && collectionDetailPath(path))) history.back();
     else if (path === '/timeline' || (path === '/' && new URL(sourceUrl).hash)) navigateToTimeline(sourceUrl);
     else {
       history.replaceState(
