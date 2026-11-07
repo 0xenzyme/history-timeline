@@ -135,7 +135,7 @@ components:
 
 # 兰台设计系统
 
-版本：M2 ｜ 日期：2026-11-07 ｜ 状态：M3–M5 实施契约
+版本：2026-11-08 ｜ 状态：首版页面实现契约
 
 ## Overview
 
@@ -155,12 +155,12 @@ components:
 
 **规范索引**
 
-| 文档                                                             | 规范责任                                             |
-| ---------------------------------------------------------------- | ---------------------------------------------------- |
-| 本文件                                                           | tokens、视觉语言、页面骨架、十类路由映射和 M3 总验收 |
-| [组件规范](docs/design-system/components.md)                     | 通用组件、数据接口、真实样本、详情与时间轴行为       |
-| [响应式与无障碍](docs/design-system/responsive-accessibility.md) | 断点、移动端交互、键盘、焦点、状态和减少动态效果     |
-| [素材规则](docs/design-system/assets.md)                         | 图像、字体、许可、清单、性能和替代策略               |
+| 文档                                                             | 规范责任                                           |
+| ---------------------------------------------------------------- | -------------------------------------------------- |
+| 本文件                                                           | tokens、视觉语言、页面骨架、十类路由映射和整体验收 |
+| [组件规范](docs/design-system/components.md)                     | 通用组件、数据接口、真实样本、详情与时间轴行为     |
+| [响应式与无障碍](docs/design-system/responsive-accessibility.md) | 断点、移动端交互、键盘、焦点、状态和减少动态效果   |
+| [素材规则](docs/design-system/assets.md)                         | 图像、字体、许可、清单、性能和替代策略             |
 
 领域语义以《兰台页面规格》和《兰台数据规格》为准。本文件只规定其视觉与交互表达，不改变实体、收录、日期或关系口径。
 
@@ -207,7 +207,7 @@ components:
 
 六类事件色沿用 `src/app/skins.ts`：`military #b0442f`、`political #33658a`、`rebellion #8f4a55`、`institutional #3f7d52`、`diplomatic #6b5b95`、`cultural #a8763a`。它们只用于节点、线段、徽记和图例底色。标签文字使用 `ink` 或深底 `wood-text`，并显示类型名称；军事用双线，政治用方形，民变用菱形，制度用圆形，盟约用六边形，文化用三角形。形状不能替代文字标签。
 
-M3 将现有映射扩展为一套语义变量，而不是维护第二份颜色：
+实现将现有映射扩展为一套语义变量，而不是维护第二份颜色：
 
 1. 在 `src/styles.css` 定义上述 `--lt-*` 变量和现有 Canvas 专用变量。
 2. DOM 只引用变量。`src/app/skins.ts` 的 token→变量映射读取同一组计算值。
@@ -216,7 +216,7 @@ M3 将现有映射扩展为一套语义变量，而不是维护第二份颜色�
 5. 缺少变量、非法颜色或 Canvas／DOM 主题错位时立即报错，禁止透明回退。
 6. PNG／SVG 导出使用当前同一 palette 的解析结果。导出文件包含图例、时间窗和精度标识。
 
-新版「编年档案馆」是目标主题。现有 `deepspace` 可在 M3 保持旧功能，但不得让旧主题变量反向污染新页面。
+新版「编年档案馆」是目标主题。现有 `deepspace` 保持旧功能，但不得让旧主题变量反向污染新页面。
 
 ## Typography
 
@@ -302,25 +302,25 @@ M3 将现有映射扩展为一套语义变量，而不是维护第二份颜色�
 
 下表对应《兰台页面规格》的十类页面模板；`/search` 是共享辅助路由，不改变十类计数。
 
-| 路由               | 页面骨架   | 必需组件                                                                                               | 首版里程碑               |
-| ------------------ | ---------- | ------------------------------------------------------------------------------------------------------ | ------------------------ |
-| `/`                | 品牌首页   | `SiteHeader`、`GlobalSearch`、`NavCard`、`EraCard`、`CollectionCard`                                   | M4                       |
-| `/timeline`        | 年表工作区 | `TimelineToolbar`、`FilterPanel`、`TimelineCanvas`、`EntityPreview`、`DynastyBand`、`ExportMenu`       | M3                       |
-| `/people`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`PersonCard`、`Pagination`                          | M4                       |
-| `/people/:id`      | 人物详情   | `PersonIdentity`、`DateRange`、`ExperienceList`、`EventList`、`WorkList`、`RelationList`、`SourceList` | M3                       |
-| `/collections`     | 目录       | `DirectorySearch`、`CategoryTabs`、`CollectionCard`、`Pagination`                                      | M5；M4 可提供导航入口    |
-| `/collections/:id` | 系列详情   | `CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`              | M5                       |
-| `/events`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`EventRow`、`Pagination`                            | M4                       |
-| `/events/:id`      | 事件详情   | `EventHero`、`FactList`、`EventTimeline`、`PeopleRoles`、`EventComposition`、`SourceList`              | M3                       |
-| `/eras`            | 目录       | `EraGroups`、`EraCard`、`OverlapNotice`                                                                | M4；M3 可简版            |
-| `/eras/:id`        | 系列／朝代 | `EraHero`、`ViewTabs`、`EraTimeline`、`FeaturedEntities`                                               | M4                       |
-| `/search`          | 搜索结果   | `GlobalSearch`、`EntityTypeTabs`、`SearchResultGroup`                                                  | M3 基础可用，M4 完整四类 |
+| 路由               | 页面骨架   | 必需组件                                                                                               | 状态   |
+| ------------------ | ---------- | ------------------------------------------------------------------------------------------------------ | ------ |
+| `/`                | 品牌首页   | `SiteHeader`、`GlobalSearch`、`NavCard`、`EraCard`、`CollectionCard`                                   | 已交付 |
+| `/timeline`        | 年表工作区 | `TimelineToolbar`、`FilterPanel`、`TimelineCanvas`、`EntityPreview`、`DynastyBand`、`ExportMenu`       | 已交付 |
+| `/people`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`PersonCard`、`Pagination`                          | 已交付 |
+| `/people/:id`      | 人物详情   | `PersonIdentity`、`DateRange`、`ExperienceList`、`EventList`、`WorkList`、`RelationList`、`SourceList` | 已交付 |
+| `/collections`     | 目录       | `DirectorySearch`、`CategoryTabs`、`CollectionCard`、`Pagination`                                      | 已交付 |
+| `/collections/:id` | 系列详情   | `CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`              | 已交付 |
+| `/events`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`EventRow`、`Pagination`                            | 已交付 |
+| `/events/:id`      | 事件详情   | `EventHero`、`FactList`、`EventTimeline`、`PeopleRoles`、`EventComposition`、`SourceList`              | 已交付 |
+| `/eras`            | 目录       | `EraGroups`、`EraCard`、`OverlapNotice`                                                                | 已交付 |
+| `/eras/:id`        | 系列／朝代 | `EraHero`、`ViewTabs`、`EraTimeline`、`FeaturedEntities`                                               | 已交付 |
+| `/search`          | 搜索结果   | `GlobalSearch`、`EntityTypeTabs`、`SearchResultGroup`                                                  | 已交付 |
 
-M5 群像可达状态：`CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`、相关纪事与作品视图已可用。tab 从 Collection 的 `views` 和 `defaultView` 生成；事件／作品尚无真实系列样本，不显示无数据 tab。成员详情按需并行加载，局部失败不覆盖系列正文。
+群像可达状态：`CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`、相关纪事与作品视图已可用。tab 从 Collection 的 `views` 和 `defaultView` 生成；事件／作品尚无真实系列样本，不显示无数据 tab。成员详情按需并行加载，局部失败不覆盖系列正文。
 
-### M3 交付接口
+### 实现接口
 
-M3 只实施年表、人物详情、事件详情和可支撑往返的简版导航。组件输入来自 `src/loader.ts`，不得直接读取 `public/data`。最小边界为：
+首版实施年表、人物详情、事件详情和可支撑往返的简版导航。组件输入来自 `src/loader.ts`，不得直接读取 `public/data`。最小边界为：
 
 | 组件               | 必需输入                                    | 关键输出／行为                                                |
 | ------------------ | ------------------------------------------- | ------------------------------------------------------------- |
@@ -332,7 +332,7 @@ M3 只实施年表、人物详情、事件详情和可支撑往返的简版导�
 | `SourceList`       | `SourceRef[]`                               | 典籍／现代考证／数据库分组，数据库标「检索线索」              |
 | `ReturnLink`       | 应用内来源、回退 URL                        | 优先浏览器返回；直接打开时回退到可定位年表                    |
 
-**M3 唐代路径设计验收**
+**唐代路径设计验收**
 
 1. 在 1440×900、768×1024、390×844 和 320×568 检查 `/timeline?topic=tang&view=tianbao&person=li-bai&from=710&to=770`。时间轴无页面级横向溢出，李白为选中对象，预览和「查看详情」可用键盘与触屏到达。
 2. 打开李白详情。显示 701–762、「入长安，供奉翰林」为约 742 年并保留 note、《蜀道难》不显示虚构创作年、人物 sources 就近可读。`events` 为空时不得出现安史之乱关联卡。

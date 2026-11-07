@@ -12,7 +12,7 @@ Read the rules in this order. A lower layer cannot weaken a higher layer:
    - Warning triage: `docs/内容质量.md`, under the two domain guides.
    - For events, `docs/事件线规则.md` wins over `pipeline/PLAYBOOK.md`.
 4. **Execution contracts** define how a task runs. `.agents/skills/event-production/SKILL.md` may add process gates, but it cannot redefine event fields, admission rules, polity semantics, or catalog membership.
-5. **Durable design** lives in `docs/` and `docs/decisions/`. Harness execution state lives in local `.harness/` storage and is ignored by Git: status, tasks, goals, packets, intake, mental models, checkpoints, and run evidence. It is not a content rulebook or a release artifact.
+5. **Durable design** lives in `docs/` and `docs/decisions/`. Harness execution state lives in local `.harness/` storage and is ignored by Git: status, tasks, specs, intake and milestones. It records accepted scope and verification summaries, not process history, and is not a content rulebook or a release artifact.
 6. **Machine gates** in `pipeline/schema/` and `pipeline/lint.ts` enforce layers 2-3. If a gate and a domain rule disagree, treat it as a defect and fix the gate or the rule in the same change.
 
 ## Project Structure

@@ -73,6 +73,15 @@ git diff --stat public/data
 5. 确认 draft 不进入目录，且发布数据没有占位文本或错误引用后，才改为 `published`。
 6. 运行 `npm run content` 并审查生成数据。
 
+## 批量内容生产
+
+单条修改按上文各节手动完成。需要成批新增或修订事件时，使用[内容生产与自动准入](docs/内容工作流.md)工作流，把起草与审核分开：
+
+1. 在**执行会话**读取 `.agents/skills/event-production/SKILL.md`，研究并准备 `workspace/content/raw/<batch-id>/batch.json`，运行 `npm run events:production:preflight` 做只读预检，然后停在待审状态。
+2. 在**另一个独立会话**读取 `.agents/skills/event-review/SKILL.md`，核对史料与完整候选后运行 `npm run events:publish:check` 与 `npm run events:production:apply`，通过项自动进入正式源文件，未通过项保留为 pending。
+
+起草候选的会话不能同时担任审核。更换会话内的模型名不构成独立审核。预检通过只表示机器检查通过，不等于准入。该工作流目前只覆盖事件。
+
 ## 依赖维护
 
 - 依赖采用手动升级：发布新版本前运行 `npm outdated` 与 `npm audit --omit=dev`，评估后集中升级，不在功能 PR 里顺带升主版本。
