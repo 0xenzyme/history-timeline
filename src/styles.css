@@ -4022,10 +4022,12 @@ body.timeline-app #app:empty {
 
 /* 三栏工作区：左筛选 / 中央画布 / 右详情。 */
 .lt-workspace {
+  position: relative;
   display: grid;
   flex: 1;
   grid-template-columns: 232px minmax(0, 1fr) 320px;
   min-height: 0;
+  overflow-x: clip;
   background: var(--lt-paper);
 }
 
