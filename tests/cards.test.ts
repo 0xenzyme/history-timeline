@@ -39,6 +39,7 @@ function makePalette(overrides: Partial<Palette> = {}): Palette {
     accent: '#cc0000',
     laneLabel: '#444444',
     headerBg: '#dddddd',
+    axisText: '#ead5b7',
     labelInBar: '#ffffff',
     ribbonBg: 'rgba(0,0,0,0.1)',
     ribbonText: '#ffffff',

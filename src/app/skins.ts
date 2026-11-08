@@ -16,6 +16,7 @@ export interface Palette {
   accent: string;
   laneLabel: string;
   headerBg: string;
+  axisText: string;
   labelInBar: string;
   ribbonBg: string;
   ribbonText: string;
@@ -38,6 +39,7 @@ const PALETTE_VARS: Record<ColorToken, string> = {
   accent: '--accent',
   laneLabel: '--canvas-lane-label',
   headerBg: '--canvas-header-bg',
+  axisText: '--canvas-axis-text',
   labelInBar: '--canvas-label-in-bar',
   ribbonBg: '--ribbon-bg',
   ribbonText: '--canvas-ribbon-text',

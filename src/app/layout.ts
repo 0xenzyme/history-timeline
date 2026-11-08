@@ -163,3 +163,62 @@ export function buildEventLayout(
 export function layoutHeight(layouts: LaneLayout[]): number {
   return layouts.length === 0 ? 0 : layouts[layouts.length - 1].y + layouts[layouts.length - 1].height;
 }
+
+/** 02 同图的三类实体分组：人物（专题泳道）、战事、历史事件。 */
+export interface EntityGroups {
+  people: boolean;
+  war: boolean;
+  history: boolean;
+}
+
+const WAR_TYPES: EventType[] = ['military', 'rebellion'];
+const HISTORY_TYPES: EventType[] = ['political', 'institutional', 'diplomatic', 'cultural'];
+
+/**
+ * 人物线同图布局：人物泳道在上，战事区与历史事件区共用同一时间坐标在下。
+ * 三个分组由左栏分类 checkbox 控制显隐，不再用互斥 tab 替换整张图。
+ */
+export function buildCombinedLayout(
+  topic: Topic,
+  events: EventRecord[],
+  hiddenLanes: Set<string>,
+  groups: EntityGroups,
+  pitch: number,
+): LaneLayout[] {
+  const layouts: LaneLayout[] = groups.people ? buildPeopleLayout(topic, hiddenLanes, pitch) : [];
+  const sections: Array<{ key: 'war' | 'history'; name: string; types: EventType[]; color: string }> = [
+    { key: 'war', name: '战事', types: WAR_TYPES, color: EVENT_COLORS.military },
+    { key: 'history', name: '历史事件', types: HISTORY_TYPES, color: EVENT_COLORS.political },
+  ];
+  for (const section of sections) {
+    if (!groups[section.key]) continue;
+    const inSection = events.filter((event) => section.types.includes(event.type)).sort((a, b) => a.year - b.year);
+    if (inSection.length === 0) continue;
+    const packed = pack(
+      inSection,
+      (event) => event.year,
+      (event) => event.endYear ?? event.year,
+      1,
+      (event, row): LayoutItem => ({
+        kind: 'event',
+        id: event.id,
+        from: event.year,
+        to: event.endYear ?? event.year,
+        row,
+        event,
+      }),
+    );
+    const y = layoutHeight(layouts);
+    layouts.push({
+      id: section.key,
+      name: section.name,
+      color: section.color,
+      y,
+      height: laneHeight(packed.rows, pitch),
+      rows: packed.rows,
+      pitch,
+      items: packed.items,
+    });
+  }
+  return layouts;
+}

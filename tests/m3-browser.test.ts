@@ -283,7 +283,7 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   await client.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
   await touch.waitForTimeout(100);
   assert.notEqual(new URL(touch.url()).searchParams.get('to'), beforeZoom, '双指缩放应改变时间窗');
-  assert.equal(await touch.locator('#card').getAttribute('class'), 'card');
+  assert.equal(await touch.locator('#card').getAttribute('class'), 'card lt-timeline-detail');
   await touch.close();
 
   const legacy = await browser.newPage({ viewport: { width: 1440, height: 900 } });
@@ -296,15 +296,14 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   await legacy.press('#search', 'Enter');
   await ready(legacy, '#card.show');
   await legacy.click('#card-close');
-  await legacy.click('#btn-lanes');
   await legacy.locator('.lane-chapter').first().click();
   await legacy.click('#card-close');
-  await legacy.click('[data-line="military"]');
+  await legacy.goto(`${origin}/#military`);
   await legacy.fill('#search', '香积寺');
   await legacy.press('#search', 'Enter');
   await ready(legacy, '#card.show');
   await legacy.click('#card-close');
-  await legacy.click('[data-line="history"]');
+  await legacy.goto(`${origin}/#history`);
   await legacy.goto(`${origin}/#history/event/anshi-zhiluan`);
   await ready(legacy, '#card.show');
   assert.match(await legacy.locator('#card-body').innerText(), /安史之乱/);
@@ -326,11 +325,11 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   await legacy.mouse.down();
   await legacy.mouse.move(790, 420);
   await legacy.mouse.up();
-  await legacy.click('#strip-toggle');
+  await legacy.click('[data-group="history"]');
+  await legacy.click('[data-group="history"]');
   for (const format of ['svg', 'png'] as const) {
-    await legacy.click('#btn-export');
     const pending = legacy.waitForEvent('download');
-    await legacy.click(`[data-export="${format}"]`);
+    await legacy.click(`.lt-timeline-hero [data-export="${format}"]`);
     const download = await pending;
     const file = await download.path();
     assert.ok(file);

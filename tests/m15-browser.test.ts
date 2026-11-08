@@ -25,9 +25,8 @@ async function waitForCard(page: Page): Promise<void> {
 }
 
 async function exportFile(page: Page, format: 'png' | 'svg'): Promise<{ name: string; bytes: number; header: string }> {
-  await page.click('#btn-export');
   const pending = page.waitForEvent('download');
-  await page.click(`[data-export="${format}"]`);
+  await page.click(`.lt-timeline-hero [data-export="${format}"]`);
   const download = (await pending) as unknown as {
     suggestedFilename(): string;
     path(): Promise<string | null>;
@@ -101,28 +100,23 @@ test('现有 Chrome 应用兼容：深链、切换、章节、搜索、面板、
     assert.match((await page.locator('#card-body').textContent()) ?? '', /李白/);
     await page.click('#card-close');
 
-    await page.click('#btn-lanes');
     const chapter = page.locator('.lane-chapter').first();
     await chapter.click();
     await waitForCard(page);
     await page.click('#card-close');
-    await page.click('#btn-lanes');
     await page.click('#lanes-none');
     assert.equal(await page.locator('#lane-list input:checked').count(), 0);
     await page.click('#lanes-all');
     assert.ok((await page.locator('#lane-list input:checked').count()) > 0);
-    await page.click('#btn-lanes');
 
-    await page.click('[data-line="military"]');
-    await page.waitForFunction(() => document.querySelector('[data-line="military"]')?.classList.contains('active'));
+    await page.goto(`${origin}/#military`);
     await page.fill('#search', '香积寺');
     await page.press('#search', 'Enter');
     await waitForCard(page);
     assert.match((await page.locator('#card-body').textContent()) ?? '', /香积寺/);
     assert.match(page.url(), /#military\/event\/xiangjisi-zhizhan/);
     await page.click('#card-close');
-    await page.click('[data-line="history"]');
-    await page.waitForFunction(() => document.querySelector('[data-line="history"]')?.classList.contains('active'));
+    await page.goto(`${origin}/#history`);
     await page.goto(`${origin}/#history/event/anshi-zhiluan`);
     await waitForCard(page);
     assert.match((await page.locator('#card-body').textContent()) ?? '', /安史之乱/);
@@ -134,7 +128,8 @@ test('现有 Chrome 应用兼容：深链、切换、章节、搜索、面板、
     await page.mouse.down();
     await page.mouse.move(790, 420);
     await page.mouse.up();
-    await page.click('#strip-toggle');
+    await page.click('[data-group="history"]');
+    await page.click('[data-group="history"]');
 
     const svg = await exportFile(page, 'svg');
     assert.ok(svg.bytes > 1000);

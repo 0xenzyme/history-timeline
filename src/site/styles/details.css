@@ -1,0 +1,838 @@
+/* 群像与断代详情：宣纸卡片、金色圆章和左文右图封面。 */
+
+.lt-collection-page > .lt-notice,
+.lt-era-page > .lt-notice {
+  margin-bottom: 16px;
+}
+
+.lt-collection-page > .lt-collection-hero.lt-detail-hero,
+.lt-era-page > .lt-era-hero.lt-detail-hero {
+  display: block;
+  overflow: hidden;
+  margin: 0 0 28px;
+  padding: 0;
+  border: 1px solid var(--lt-border);
+  border-radius: 12px;
+  background: var(--lt-surface);
+  box-shadow: 0 8px 24px rgb(53 37 25 / 5%);
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner,
+.lt-era-page .lt-detail-hero .lt-page-banner {
+  margin: 0;
+  border: 0;
+  background: var(--lt-surface);
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner-art,
+.lt-era-page .lt-detail-hero .lt-page-banner-art {
+  inset: 0 0 0 auto;
+  width: 58%;
+  height: 100%;
+  object-position: 70% 50%;
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner::before,
+.lt-era-page .lt-detail-hero .lt-page-banner::before {
+  background: linear-gradient(
+    90deg,
+    var(--lt-surface) 0%,
+    var(--lt-surface) 40%,
+    rgb(255 247 233 / 94%) 48%,
+    rgb(255 247 233 / 22%) 72%,
+    rgb(255 247 233 / 0%) 100%
+  );
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner-inner,
+.lt-era-page .lt-detail-hero .lt-page-banner-inner {
+  align-items: flex-end;
+  width: 100%;
+  max-width: none;
+  padding: 28px 36px 0;
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner-text,
+.lt-era-page .lt-detail-hero .lt-page-banner-text {
+  max-width: 62%;
+  min-width: 0;
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner-text h1,
+.lt-era-page .lt-detail-hero .lt-page-banner-text h1 {
+  color: var(--lt-ink);
+  font-family: var(--font-serif);
+  letter-spacing: 0.04em;
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner-text h1 {
+  font-size: 46px;
+}
+
+.lt-era-page .lt-detail-hero .lt-page-banner-text h1 {
+  font-size: 58px;
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner-subtitle,
+.lt-era-page .lt-detail-hero .lt-page-banner-subtitle {
+  max-width: 650px;
+  margin-top: 12px;
+  color: var(--lt-ink-secondary);
+  line-height: 1.75;
+}
+
+.lt-collection-page .lt-detail-hero .lt-page-banner-body,
+.lt-era-page .lt-detail-hero .lt-page-banner-body {
+  width: 100%;
+  padding: 0 36px 26px;
+}
+
+.lt-collection-page .lt-detail-hero-meta,
+.lt-era-page .lt-era-hero-copy {
+  max-width: 62%;
+  min-width: 0;
+}
+
+.lt-collection-page .lt-detail-hero-meta > .lt-data {
+  margin: 12px 0 0;
+  color: var(--lt-ink-secondary);
+}
+
+.lt-collection-page .lt-detail-hero .lt-tags,
+.lt-era-page .lt-detail-hero .lt-tags {
+  margin: 12px 0 0;
+}
+
+.lt-collection-page .lt-detail-hero .lt-tag,
+.lt-era-page .lt-detail-hero .lt-tag {
+  border: 1px solid var(--lt-border-subtle);
+  background: rgb(245 235 218 / 82%);
+  color: var(--lt-ink-secondary);
+}
+
+.lt-era-page .lt-detail-era-dates {
+  margin: 14px 0 0;
+  color: var(--lt-ink);
+  font-size: 21px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.lt-era-page .lt-era-hero-copy .lt-page-banner-subtitle {
+  margin: 8px 0 0;
+}
+
+.lt-collection-page .lt-detail-breadcrumb,
+.lt-era-page .lt-detail-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 18px;
+  margin-bottom: 16px;
+  color: var(--lt-ink-secondary);
+  font-size: 14px;
+}
+
+.lt-collection-page .lt-detail-breadcrumb nav,
+.lt-era-page .lt-detail-breadcrumb nav {
+  min-width: 0;
+}
+
+.lt-collection-page .lt-detail-breadcrumb ol,
+.lt-era-page .lt-detail-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lt-collection-page .lt-detail-breadcrumb li + li::before,
+.lt-era-page .lt-detail-breadcrumb li + li::before {
+  margin-right: 8px;
+  color: var(--lt-border);
+  content: '/';
+}
+
+.lt-collection-page .lt-detail-return,
+.lt-era-page .lt-detail-return {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--lt-link);
+  text-decoration: none;
+}
+
+.lt-collection-page .lt-detail-return:hover,
+.lt-era-page .lt-detail-return:hover {
+  text-decoration: underline;
+}
+
+.lt-era-page .lt-detail-hero-timeline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--lt-border);
+  border-radius: 999px;
+  background: rgb(255 247 233 / 86%);
+  color: var(--lt-link);
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.lt-era-page .lt-detail-hero-timeline:hover {
+  border-color: var(--lt-accent);
+  background: var(--lt-surface);
+}
+
+.lt-collection-page .lt-collection-detail-cover,
+.lt-collection-page .lt-collection-cover-fallback {
+  width: 240px;
+  max-height: 150px;
+  border: 1px solid var(--lt-border);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.lt-collection-page .lt-collection-cover-fallback {
+  display: grid;
+  height: 150px;
+  place-items: center;
+  background: var(--lt-paper);
+  color: var(--lt-link);
+  font-family: var(--font-serif);
+  font-size: 56px;
+}
+
+.lt-collection-page .lt-collection-cover-fallback[hidden] {
+  display: none;
+}
+
+.lt-collection-page .lt-detail-hero .lt-era-tabs,
+.lt-era-page .lt-detail-hero .lt-era-tabs {
+  margin: 0;
+  padding: 0 20px;
+  border-top: 1px solid var(--lt-border-subtle);
+  border-bottom: 0;
+  background: rgb(245 235 218 / 62%);
+}
+
+.lt-collection-page .lt-detail-hero .lt-era-tabs a,
+.lt-era-page .lt-detail-hero .lt-era-tabs a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 52px;
+  padding: 12px 18px 9px;
+  border-bottom-width: 3px;
+  font-weight: 600;
+}
+
+.lt-collection-page .lt-detail-hero .lt-era-tabs a[aria-selected='true'],
+.lt-era-page .lt-detail-hero .lt-era-tabs a[aria-current='page'] {
+  border-bottom-color: var(--lt-accent);
+  color: var(--lt-link);
+}
+
+.lt-collection-page .lt-collection-layout.lt-collection-overview,
+.lt-era-page .lt-era-overview {
+  grid-template-columns: minmax(0, 1fr) 336px;
+  gap: 24px;
+  align-items: start;
+}
+
+.lt-collection-page .lt-collection-main,
+.lt-era-page .lt-era-main {
+  display: grid;
+  min-width: 0;
+  gap: 20px;
+  align-content: start;
+}
+
+.lt-collection-page .lt-collection-overview > .lt-collection-aside,
+.lt-era-page .lt-era-overview > .lt-era-aside {
+  display: flex;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  gap: 20px;
+  border: 0;
+}
+
+.lt-collection-page .lt-collection-overview .lt-detail-card,
+.lt-era-page .lt-era-overview .lt-section,
+.lt-collection-page .lt-collection-view > .lt-section,
+.lt-era-page > .lt-era-tab-section {
+  min-width: 0;
+  margin: 0;
+  padding: 24px;
+  border: 1px solid var(--lt-border-subtle);
+  border-radius: 12px;
+  background: var(--lt-surface);
+  box-shadow: 0 5px 18px rgb(53 37 25 / 4%);
+}
+
+.lt-collection-page .lt-collection-overview .lt-detail-card > h2,
+.lt-collection-page .lt-collection-overview .lt-section-heading h2,
+.lt-era-page .lt-era-overview .lt-section > h2,
+.lt-era-page .lt-era-overview .lt-section-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 16px;
+  padding: 0;
+  color: var(--lt-ink);
+  font-size: 24px;
+}
+
+.lt-collection-page .lt-collection-overview .lt-detail-card > h2::before,
+.lt-collection-page .lt-collection-overview .lt-section-heading h2::before,
+.lt-era-page .lt-era-overview .lt-section > h2::before,
+.lt-era-page .lt-era-overview .lt-section-heading h2::before {
+  width: 8px;
+  height: 8px;
+  flex: none;
+  background: var(--lt-accent);
+  content: '';
+  transform: rotate(45deg);
+}
+
+.lt-collection-page .lt-collection-overview .lt-section-heading,
+.lt-era-page .lt-era-overview .lt-section-heading {
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.lt-collection-page .lt-collection-overview .lt-section-heading > a,
+.lt-era-page .lt-era-overview .lt-section-heading > a {
+  flex: none;
+  font-size: 14px;
+}
+
+.lt-collection-page .lt-collection-overview .lt-prose,
+.lt-era-page .lt-era-summary-card .lt-prose {
+  max-width: none;
+}
+
+.lt-collection-page .lt-collection-featured-list.lt-collection-member-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  max-width: 100%;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lt-collection-page .lt-collection-featured-list > li {
+  display: flex;
+  min-width: 0;
+  padding: 8px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  border: 0;
+  text-align: center;
+}
+
+.lt-collection-page .lt-collection-featured-list > li + li {
+  border-left: 1px solid var(--lt-border-subtle);
+}
+
+.lt-collection-page .lt-collection-member-seal {
+  display: grid;
+  width: 72px;
+  height: 72px;
+  flex: none;
+  place-items: center;
+  border: 1px solid var(--lt-accent-hover);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 28%, #f8e5b8, #dfba76 72%, #c9984d);
+  box-shadow:
+    0 0 0 4px var(--lt-surface),
+    0 0 0 5px var(--lt-accent);
+  color: var(--lt-link);
+  font-family: var(--font-serif);
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.lt-collection-page .lt-collection-featured-body {
+  width: 100%;
+  min-width: 0;
+  margin-top: 14px;
+}
+
+.lt-collection-page .lt-collection-featured-list .lt-member-heading {
+  justify-content: center;
+  margin: 0 0 4px;
+}
+
+.lt-collection-page .lt-collection-featured-list .lt-member-heading a {
+  font-size: 21px;
+}
+
+.lt-collection-page .lt-collection-featured-list .lt-data {
+  color: var(--lt-ink-secondary);
+}
+
+.lt-collection-page .lt-collection-featured-list .lt-collection-member-role {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.lt-collection-page .lt-collection-featured-list .lt-section-note {
+  margin: 8px 0 0;
+  font-size: 13px;
+}
+
+.lt-collection-page .lt-collection-featured-list .lt-year-note {
+  text-align: left;
+}
+
+.lt-collection-page .lt-collection-overview-action,
+.lt-era-page .lt-era-overview-timeline {
+  width: 100%;
+}
+
+.lt-collection-page .lt-collection-overview-timeline,
+.lt-era-page .lt-era-overview-timeline {
+  gap: 10px;
+  width: 100%;
+  min-height: 50px;
+  border-color: var(--lt-accent-hover);
+  font-weight: 700;
+}
+
+.lt-collection-page .lt-collection-overview-timeline .lt-icon:last-child,
+.lt-era-page .lt-era-overview-timeline .lt-icon {
+  margin-left: auto;
+}
+
+.lt-collection-page .lt-collection-overview-timeline .lt-icon:first-child {
+  margin-right: 2px;
+}
+
+.lt-collection-page .lt-collection-overview .lt-collection-path {
+  margin-top: 16px;
+}
+
+.lt-collection-page .lt-collection-overview .lt-collection-path > li {
+  padding-bottom: 20px;
+}
+
+.lt-collection-page .lt-collection-overview .lt-collection-path > li:last-child {
+  padding-bottom: 0;
+}
+
+.lt-collection-page .lt-collection-overview .lt-collection-path h3 {
+  font-size: 18px;
+}
+
+.lt-collection-page .lt-collection-related-event-list,
+.lt-era-page .lt-era-event-list {
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lt-collection-page .lt-collection-related-event-list > li,
+.lt-era-page .lt-era-event-list > li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--lt-border-subtle);
+}
+
+.lt-collection-page .lt-collection-related-event-list > li:last-child,
+.lt-era-page .lt-era-event-list > li:last-child {
+  border-bottom: 0;
+}
+
+.lt-collection-page .lt-collection-related-event-list a,
+.lt-era-page .lt-era-event-list a {
+  min-width: 0;
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.lt-collection-page .lt-collection-related-event-list .lt-data,
+.lt-era-page .lt-era-event-list .lt-data {
+  flex: none;
+  color: var(--lt-ink-secondary);
+  text-align: right;
+}
+
+.lt-collection-page .lt-collection-overview .lt-sources,
+.lt-era-page .lt-era-overview .lt-sources {
+  overflow-wrap: anywhere;
+}
+
+.lt-era-page .lt-era-summary-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.lt-era-page .lt-era-summary-card .lt-facts {
+  gap: 12px;
+  margin: 0;
+}
+
+.lt-era-page .lt-era-summary-card .lt-facts > div {
+  min-width: 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+}
+
+.lt-era-page .lt-era-summary-card .lt-facts dd {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.lt-era-page .lt-era-fact-value {
+  display: block;
+}
+
+.lt-era-page .lt-era-fact-value + .lt-era-fact-value {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-era-page .lt-era-fact-value small {
+  color: var(--lt-ink-secondary);
+}
+
+.lt-era-page .lt-era-axis-card .lt-section-note {
+  margin: 0;
+}
+
+.lt-era-page .lt-era-axis {
+  display: flex;
+  max-width: 100%;
+  margin: 18px 0 0;
+  padding: 4px 2px 8px;
+  overflow-x: auto;
+  list-style: none;
+}
+
+.lt-era-page .lt-era-axis > li {
+  position: relative;
+  min-width: 0;
+  flex: 1 0 128px;
+  text-align: center;
+}
+
+.lt-era-page .lt-era-axis > li::before {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background: var(--lt-accent-hover);
+  content: '';
+}
+
+.lt-era-page .lt-era-axis > li:first-child::before {
+  left: 50%;
+}
+
+.lt-era-page .lt-era-axis > li:last-child::before {
+  right: 50%;
+}
+
+.lt-era-page .lt-era-axis-link {
+  position: relative;
+  display: flex;
+  min-height: 126px;
+  padding: 0 8px 8px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  color: var(--lt-ink);
+  text-decoration: none;
+}
+
+.lt-era-page .lt-era-axis-node {
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  flex: none;
+  margin-top: 5px;
+  border: 3px solid var(--lt-accent-hover);
+  border-radius: 50%;
+  background: var(--lt-surface);
+  box-shadow: 0 0 0 3px var(--lt-surface);
+}
+
+.lt-era-page .lt-era-axis-link:hover .lt-era-axis-node,
+.lt-era-page .lt-era-axis-link:focus-visible .lt-era-axis-node {
+  background: var(--lt-accent);
+  box-shadow:
+    0 0 0 3px var(--lt-surface),
+    0 0 0 5px rgb(207 155 83 / 36%);
+}
+
+.lt-era-page .lt-era-axis-year {
+  min-height: 2.8em;
+  margin-top: 10px;
+  color: var(--lt-ink);
+  font-size: 14px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.lt-era-page .lt-era-axis-name {
+  color: var(--lt-ink-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.lt-era-page .lt-era-axis-link:hover .lt-era-axis-name,
+.lt-era-page .lt-era-axis-link:focus-visible .lt-era-axis-name {
+  color: var(--lt-link);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.lt-era-page .lt-era-people-card .lt-era-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  gap: 12px 8px;
+}
+
+.lt-era-page .lt-era-people-card .lt-era-people article {
+  display: flex;
+  min-width: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  text-align: center;
+}
+
+.lt-era-page .lt-era-people-card .lt-era-person-seal {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  flex: none;
+  place-items: center;
+  border: 1px solid var(--lt-accent-hover);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 28%, #f8e5b8, #dfba76 72%, #c9984d);
+  box-shadow:
+    0 0 0 3px var(--lt-surface),
+    0 0 0 4px var(--lt-border);
+  color: var(--lt-link);
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.lt-era-page .lt-era-people-card .lt-era-people a {
+  min-width: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.lt-era-page .lt-era-people-more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 44px;
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 1px solid var(--lt-border-subtle);
+  font-size: 14px;
+}
+
+.lt-era-page > .lt-era-tab-section {
+  margin-bottom: 32px;
+}
+
+.lt-era-page > .lt-era-tab-section > .lt-button {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 1199px) {
+  .lt-collection-page .lt-collection-layout.lt-collection-overview,
+  .lt-era-page .lt-era-overview {
+    grid-template-columns: minmax(0, 1fr) 280px;
+    gap: 20px;
+  }
+
+  .lt-era-page .lt-era-summary-content {
+    grid-template-columns: 1fr;
+  }
+
+  .lt-collection-page .lt-collection-featured-list > li {
+    padding-inline: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lt-collection-page > .lt-collection-hero.lt-detail-hero,
+  .lt-era-page > .lt-era-hero.lt-detail-hero {
+    margin: 0 0 20px;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-page-banner-inner,
+  .lt-era-page .lt-detail-hero .lt-page-banner-inner {
+    padding: 20px 20px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-page-banner-body,
+  .lt-era-page .lt-detail-hero .lt-page-banner-body {
+    padding: 0 20px 20px;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-page-banner-text,
+  .lt-era-page .lt-detail-hero .lt-page-banner-text,
+  .lt-collection-page .lt-detail-hero-meta,
+  .lt-era-page .lt-era-hero-copy {
+    max-width: 100%;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-page-banner-text h1 {
+    font-size: 38px;
+  }
+
+  .lt-era-page .lt-detail-hero .lt-page-banner-text h1 {
+    font-size: 44px;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-page-banner-art,
+  .lt-era-page .lt-detail-hero .lt-page-banner-art {
+    width: 100%;
+    object-position: 68% 50%;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-page-banner::before,
+  .lt-era-page .lt-detail-hero .lt-page-banner::before {
+    background: linear-gradient(90deg, rgb(255 247 233 / 97%), rgb(255 247 233 / 87%) 62%, rgb(255 247 233 / 68%));
+  }
+
+  .lt-collection-page .lt-detail-breadcrumb,
+  .lt-era-page .lt-detail-breadcrumb {
+    gap: 0 12px;
+    margin-bottom: 10px;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-era-tabs,
+  .lt-era-page .lt-detail-hero .lt-era-tabs {
+    margin: 0;
+    padding: 0 8px;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-era-tabs a,
+  .lt-era-page .lt-detail-hero .lt-era-tabs a {
+    min-height: 48px;
+    padding-inline: 12px;
+  }
+
+  .lt-collection-page .lt-collection-layout.lt-collection-overview,
+  .lt-era-page .lt-era-overview {
+    display: block;
+  }
+
+  .lt-collection-page .lt-collection-overview > .lt-collection-aside,
+  .lt-era-page .lt-era-overview > .lt-era-aside {
+    margin-top: 20px;
+    padding: 0;
+    border: 0;
+  }
+
+  .lt-collection-page .lt-collection-overview .lt-detail-card,
+  .lt-era-page .lt-era-overview .lt-section,
+  .lt-collection-page .lt-collection-view > .lt-section,
+  .lt-era-page > .lt-era-tab-section {
+    padding: 18px;
+  }
+
+  .lt-collection-page .lt-collection-main,
+  .lt-era-page .lt-era-main {
+    gap: 16px;
+  }
+
+  .lt-collection-page .lt-collection-overview > .lt-collection-aside,
+  .lt-era-page .lt-era-overview > .lt-era-aside {
+    gap: 16px;
+  }
+
+  .lt-collection-page .lt-collection-featured-list.lt-collection-member-list {
+    display: flex;
+    padding: 4px 0 12px;
+    overflow-x: auto;
+  }
+
+  .lt-collection-page .lt-collection-featured-list > li {
+    flex: 0 0 168px;
+    padding-inline: 16px;
+  }
+
+  .lt-collection-page .lt-collection-featured-list > li:first-child {
+    padding-left: 4px;
+  }
+
+  .lt-collection-page .lt-collection-featured-list > li:last-child {
+    padding-right: 4px;
+  }
+
+  .lt-collection-page .lt-collection-overview .lt-section-heading,
+  .lt-era-page .lt-era-overview .lt-section-heading {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .lt-era-page .lt-era-people-card .lt-era-people {
+    grid-template-columns: repeat(5, minmax(48px, 1fr));
+    overflow-x: auto;
+  }
+
+  .lt-era-page .lt-era-axis > li {
+    flex-basis: 120px;
+  }
+}
+
+@media (max-width: 359px) {
+  .lt-collection-page .lt-detail-hero .lt-page-banner-inner,
+  .lt-era-page .lt-detail-hero .lt-page-banner-inner {
+    padding-inline: 16px;
+  }
+
+  .lt-collection-page .lt-detail-hero .lt-page-banner-body,
+  .lt-era-page .lt-detail-hero .lt-page-banner-body {
+    padding-inline: 16px;
+  }
+
+  .lt-collection-page .lt-collection-related-event-list > li,
+  .lt-era-page .lt-era-event-list > li {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .lt-collection-page .lt-collection-related-event-list .lt-data,
+  .lt-era-page .lt-era-event-list .lt-data {
+    text-align: left;
+  }
+}

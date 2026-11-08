@@ -10,7 +10,7 @@ import type { Library } from './model';
 import type { Route } from '../routing';
 import { parseHash, writeHash, writeLineHash, decodeHash, type HistoryMode } from '../routing';
 import { exportBasename, exportView } from './exporter';
-import { BAR_H, PAD_X, ROW_GAP, buildEventLayout, buildPeopleLayout, layoutHeight, type LaneLayout } from './layout';
+import { BAR_H, PAD_X, ROW_GAP, buildCombinedLayout, buildEventLayout, layoutHeight, type LaneLayout } from './layout';
 import { createLibrary, findTopicEntry, loadTopicData } from './model';
 import { SKINS, isSkinId, type SkinId } from './skins';
 import { clamp, fmtYear, personFrom, personTo } from './util';
@@ -36,6 +36,7 @@ import {
   drawStars,
   fullSpan,
   hdrH,
+  largeRowsActive,
   maxScroll,
   peopleSpan,
   personDim,
@@ -73,6 +74,7 @@ import {
 } from './runtime';
 import { parseTimelineState, writeTimelineState, type TimelineState } from '../timeline-state';
 import { openTimelineEntity } from './navigation';
+import { syncWorkspaceChrome, wireWorkspace } from './workspace';
 
 const RIBBON_H = 76;
 let restoringTimeline = false;
@@ -98,6 +100,7 @@ export async function boot(): Promise<void> {
       selected: null,
       hiddenLanes: readHiddenLanes(),
       stripOpen: localStorage.getItem(STORAGE.strip) === '1',
+      groups: { people: true, war: true, history: true },
     });
     document.body.classList.add('timeline-app');
     buildTopicSelect();
@@ -237,11 +240,13 @@ function readHiddenLanes(): Set<string> {
 function rebuildLayout(): void {
   const build = (pitch: number): LaneLayout[] => {
     if (state.line === 'people') {
-      return state.topic ? buildPeopleLayout(state.topic, hiddenLaneIds(), pitch) : [];
+      return state.topic
+        ? buildCombinedLayout(state.topic, state.library.events, hiddenLaneIds(), state.groups, pitch)
+        : [];
     }
     return buildEventLayout(visibleEvents(), state.line, hiddenLaneIds(), pitch);
   };
-  const basePitch = BAR_H + ROW_GAP;
+  const basePitch = largeRowsActive() ? 56 : BAR_H + ROW_GAP;
   let next = build(basePitch);
   // 内容不足一屏时拉开行距，避免大片留白；行距最多放大到 4 倍。
   const available = H - hdrH();
@@ -355,7 +360,11 @@ function defaultDomain(): [number, number] {
 
 /** 首屏和专题载入后必须有一个有效视窗，否则所有条都会挤在左边。 */
 function ensureDomain(): void {
-  if (!(state.domain[1] > state.domain[0])) state.domain = defaultDomain();
+  if (state.domain[1] > state.domain[0]) return;
+  // ResizeObserver 可能在专题加载完成前触发：人物线没有专题时不定视窗，
+  // 否则会把全历史区间写进地址，之后专题加载完成也纠正不回来。
+  if (state.line === 'people' && !state.topic) return;
+  state.domain = defaultDomain();
 }
 
 // ---------- 选择 ----------
@@ -604,6 +613,7 @@ function wireEvents(): void {
   keyboardEvents();
   canvasPointer();
   ribbonPointer();
+  wireWorkspace(runExport, resetView);
   window.addEventListener('resize', () => resize());
   // 应用自己写地址用 history API，不会触发 hashchange；这里只处理外部改动。
   window.addEventListener('hashchange', () => {
@@ -775,4 +785,5 @@ setHooks({
   rebuildLayout,
   resizeChart,
   syncTimelineUrl,
+  syncChrome: syncWorkspaceChrome,
 });

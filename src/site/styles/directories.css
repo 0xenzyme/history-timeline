@@ -1,0 +1,554 @@
+/* Directory-only refinements for the Lantai paper, wood and gold design language. */
+.lt-directory-page .lt-filter-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--lt-border-subtle);
+}
+
+.lt-directory-page .lt-filter-heading h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 20px;
+}
+
+.lt-directory-page .lt-filter-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lt-directory-page .lt-filter-heading-actions a,
+.lt-directory-page .lt-filter-heading-actions button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--lt-link);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.lt-directory-page .lt-filter-options {
+  display: grid;
+  gap: 3px;
+  max-height: 352px;
+  padding: 2px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.lt-directory-page .lt-filter-choice {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.lt-directory-page .lt-filter-choice input {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-50%);
+}
+
+.lt-directory-page .lt-filter-choice > span {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 40px;
+  padding: 8px 36px 8px 12px;
+  border-left: 2px solid transparent;
+  border-radius: 6px;
+  line-height: 1.5;
+  transition:
+    background-color 120ms ease,
+    border-color 120ms ease;
+}
+
+.lt-directory-page .lt-filter-choice:hover > span {
+  background: var(--lt-surface-sunken);
+}
+
+.lt-directory-page .lt-filter-choice input:checked + span {
+  border-left-color: var(--lt-accent);
+  background: color-mix(in srgb, var(--lt-accent) 18%, var(--lt-surface));
+  color: var(--lt-ink);
+  font-weight: 600;
+}
+
+.lt-directory-page .lt-filter-choice input:checked + span::after {
+  position: absolute;
+  right: 12px;
+  color: var(--lt-link);
+  content: '✓';
+  font-weight: 700;
+}
+
+.lt-directory-page .lt-filter-choice input:focus-visible + span {
+  outline: 2px solid var(--lt-focus);
+  outline-offset: 1px;
+}
+
+.lt-directory-page .lt-filter-actions .lt-button {
+  width: 100%;
+}
+
+.lt-directory-page .lt-person-card-copy,
+.lt-directory-page .lt-collection-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.lt-directory-card-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-directory-card-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 40px;
+  color: var(--lt-link);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lt-directory-card-footer a:hover {
+  text-decoration: underline;
+}
+
+.lt-directory-card-footer .lt-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.lt-collection-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.lt-collection-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--lt-surface-sunken);
+  color: var(--lt-ink-secondary);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.lt-directory-page .lt-collection-directory-layout {
+  display: block;
+}
+
+.lt-directory-page .lt-collection-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.lt-directory-page .lt-collection-chips a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 18px;
+  border: 1px solid var(--lt-border);
+  border-radius: 999px;
+  background: var(--lt-surface);
+  color: var(--lt-ink-secondary);
+  font-size: 14px;
+  text-decoration: none;
+  transition:
+    border-color 120ms ease,
+    background-color 120ms ease;
+}
+
+.lt-directory-page .lt-collection-chips a:hover {
+  border-color: var(--lt-accent-hover);
+  color: var(--lt-link);
+}
+
+.lt-directory-page .lt-collection-chips a[aria-current='page'] {
+  border-color: var(--lt-accent);
+  background: linear-gradient(135deg, var(--lt-gold-bright), var(--lt-accent));
+  box-shadow: inset 0 0 0 1px var(--lt-accent);
+  color: var(--lt-on-accent);
+  font-weight: 600;
+}
+
+.lt-directory-page .lt-event-table-wrap {
+  overflow: hidden;
+  border: 1px solid var(--lt-border-subtle);
+  border-radius: 12px;
+  background: var(--lt-surface);
+}
+
+.lt-directory-page .lt-event-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 14px;
+}
+
+.lt-directory-page .lt-event-table caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.lt-directory-page .lt-event-table th {
+  padding: 12px 14px;
+  background: var(--lt-surface-sunken);
+  color: var(--lt-ink-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.lt-directory-page .lt-event-table th:nth-child(1) {
+  width: 28%;
+}
+
+.lt-directory-page .lt-event-table th:nth-child(2) {
+  width: 13%;
+}
+
+.lt-directory-page .lt-event-table th:nth-child(3) {
+  width: 13%;
+}
+
+.lt-directory-page .lt-event-table th:nth-child(4) {
+  width: 10%;
+}
+
+.lt-directory-page .lt-event-table th:nth-child(5) {
+  width: 25%;
+}
+
+.lt-directory-page .lt-event-table th:nth-child(6) {
+  width: 11%;
+}
+
+.lt-directory-page .lt-event-table .lt-event-directory-card {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.lt-directory-page .lt-event-table td {
+  padding: 12px 14px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid var(--lt-border-subtle);
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.lt-directory-page .lt-event-table td:first-child {
+  border-left: 1px solid transparent;
+}
+
+.lt-directory-page .lt-event-table td:last-child {
+  border-right: 1px solid transparent;
+}
+
+.lt-directory-page .lt-event-table tbody tr:last-child td {
+  border-bottom-color: transparent;
+}
+
+.lt-directory-page .lt-event-table tbody tr:hover td,
+.lt-directory-page .lt-event-table tbody tr:focus-within td {
+  border-top-color: var(--lt-accent);
+  border-bottom-color: var(--lt-accent);
+  background: color-mix(in srgb, var(--lt-accent) 7%, var(--lt-surface));
+}
+
+.lt-directory-page .lt-event-table tbody tr:hover td:first-child,
+.lt-directory-page .lt-event-table tbody tr:focus-within td:first-child {
+  border-left-color: var(--lt-accent);
+}
+
+.lt-directory-page .lt-event-table tbody tr:hover td:last-child,
+.lt-directory-page .lt-event-table tbody tr:focus-within td:last-child {
+  border-right-color: var(--lt-accent);
+}
+
+.lt-event-table-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.lt-event-row-marker {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 9px;
+  margin-top: 7px;
+  background: var(--lt-link);
+  transform: rotate(45deg);
+}
+
+.lt-event-row-marker[data-event-type='military'] {
+  background: #b0442f;
+}
+
+.lt-event-row-marker[data-event-type='political'] {
+  background: #33658a;
+}
+
+.lt-event-row-marker[data-event-type='rebellion'] {
+  background: #8f4a55;
+}
+
+.lt-event-row-marker[data-event-type='institutional'] {
+  background: #3f7d52;
+}
+
+.lt-event-row-marker[data-event-type='diplomatic'] {
+  background: #6b5b95;
+}
+
+.lt-event-row-marker[data-event-type='cultural'] {
+  background: #a8763a;
+}
+
+.lt-directory-page .lt-event-table-name {
+  color: var(--lt-ink);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.lt-directory-page .lt-event-table-name:hover {
+  color: var(--lt-link);
+  text-decoration: underline;
+}
+
+.lt-event-table-summary {
+  margin: 3px 0 0 19px;
+  overflow: hidden;
+  color: var(--lt-ink-secondary);
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lt-directory-page .lt-event-table .lt-event-type {
+  gap: 6px;
+  padding: 3px 8px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.lt-directory-page .lt-event-table .lt-event-shape {
+  width: 10px;
+  height: 10px;
+}
+
+.lt-event-table-people {
+  color: var(--lt-ink-secondary);
+  font-size: 13px;
+}
+
+.lt-event-table-people a {
+  color: var(--lt-link);
+  text-decoration: none;
+}
+
+.lt-event-table-people a:hover {
+  text-decoration: underline;
+}
+
+.lt-event-person-separator,
+.lt-event-people-more {
+  color: var(--lt-ink-secondary);
+}
+
+.lt-event-importance {
+  color: var(--lt-link);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.lt-directory-page .lt-pagination-ellipsis {
+  display: grid;
+  min-width: 20px;
+  min-height: 44px;
+  place-items: center;
+  color: var(--lt-ink-secondary);
+}
+
+.lt-directory-page .lt-pagination a[aria-current='page'] {
+  border-color: var(--lt-accent);
+  background: linear-gradient(135deg, var(--lt-gold-bright), var(--lt-accent));
+  color: var(--lt-on-accent);
+}
+
+@media (min-width: 1200px) {
+  .lt-directory-page .lt-collection-directory:not(.lt-directory-list) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1440px) {
+  .lt-directory-page .lt-person-directory:not(.lt-directory-list) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lt-directory-page .lt-person-directory:not(.lt-directory-list) .lt-person-card {
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .lt-directory-page .lt-person-directory:not(.lt-directory-list) .lt-person-card-monogram {
+    width: 56px;
+    height: 80px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .lt-directory-page .lt-collection-directory:not(.lt-directory-list) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1199px) {
+  .lt-directory-page .lt-event-table-wrap {
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .lt-directory-page .lt-event-table,
+  .lt-directory-page .lt-event-table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .lt-directory-page .lt-event-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .lt-directory-page .lt-event-table tbody {
+    display: grid;
+    gap: 12px;
+  }
+
+  .lt-directory-page .lt-event-table .lt-event-directory-card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: hidden;
+    border: 1px solid var(--lt-border-subtle);
+    border-radius: 12px;
+    background: var(--lt-surface);
+  }
+
+  .lt-directory-page .lt-event-table .lt-event-directory-card:hover,
+  .lt-directory-page .lt-event-table .lt-event-directory-card:focus-within {
+    border-color: var(--lt-accent);
+  }
+
+  .lt-directory-page .lt-event-table td,
+  .lt-directory-page .lt-event-table tbody tr:hover td,
+  .lt-directory-page .lt-event-table tbody tr:focus-within td {
+    padding: 12px 16px;
+    border: 0;
+    background: transparent;
+  }
+
+  .lt-directory-page .lt-event-table td:first-child,
+  .lt-directory-page .lt-event-table td:nth-child(5) {
+    grid-column: 1 / -1;
+  }
+
+  .lt-directory-page .lt-event-table td:first-child {
+    padding-bottom: 4px;
+  }
+
+  .lt-directory-page .lt-event-table td:not(:first-child)::before {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--lt-ink-secondary);
+    content: attr(data-label);
+    font-size: 12px;
+  }
+
+  .lt-event-table-summary {
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+@media (max-width: 540px) {
+  .lt-directory-page .lt-event-table .lt-event-directory-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .lt-directory-page .lt-event-table td {
+    grid-column: 1;
+  }
+
+  .lt-directory-page .lt-filter-heading {
+    align-items: flex-start;
+  }
+
+  .lt-directory-page .lt-filter-heading-actions {
+    gap: 8px;
+  }
+
+  .lt-directory-page .lt-collection-chips {
+    gap: 8px;
+  }
+
+  .lt-directory-page .lt-collection-chips a {
+    padding-inline: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lt-directory-page .lt-filter-choice > span,
+  .lt-directory-page .lt-collection-chips a {
+    transition: none;
+  }
+}

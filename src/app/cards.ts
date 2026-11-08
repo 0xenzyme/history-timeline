@@ -183,6 +183,7 @@ export function renderEventCard(ctx: CardContext, event: EventRecord): string {
     .join('');
 
   return `
+    <div class="card-media"><img src="/media/banners/banner-${event.id === 'anshi-zhiluan' ? 'event-anshi' : 'events'}-768.webp" width="2400" height="800" alt="" aria-hidden="true" loading="lazy" decoding="async" /></div>
     <div class="card-kicker">事件 · ${esc(TYPE_NAMES[event.type])}</div>
     <div class="card-title">${esc(event.display || event.name)}</div>
     <div class="card-sub">${esc(time)}　${badges}</div>

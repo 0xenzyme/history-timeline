@@ -90,6 +90,8 @@ export function hover(event: PointerEvent): void {
 export function canvasPointer(): void {
   const pointers = new Map<number, { x: number; y: number }>();
   let pinch: { distance: number; domain: [number, number]; anchor: number } | null = null;
+  /** 双指接触序列结束后，最后一指抬起不能再当成单击选中。 */
+  let pinchUsed = false;
   let wheelTimer = 0;
   const scheduleWheelSync = (): void => {
     window.clearTimeout(wheelTimer);
@@ -107,6 +109,7 @@ export function canvasPointer(): void {
     if (pointers.size === 2) {
       const [first, second] = [...pointers.values()];
       const rect = dom.canvas.getBoundingClientRect();
+      pinchUsed = true;
       pinch = {
         distance: Math.max(1, Math.abs(first.x - second.x)),
         domain: [state.domain[0], state.domain[1]],
@@ -180,6 +183,11 @@ export function canvasPointer(): void {
     if (pinch) {
       if (pointers.size < 2) pinch = null;
       getHooks().syncTimelineUrl();
+      return;
+    }
+    if (pinchUsed) {
+      // 双指缩放后的最后一指抬起只是收尾，不是一次新的点击。
+      if (pointers.size === 0) pinchUsed = false;
       return;
     }
     motion.dragging = false;

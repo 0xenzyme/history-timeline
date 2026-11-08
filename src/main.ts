@@ -16,8 +16,20 @@ const timelinePage =
   location.pathname === '/legacy.html';
 
 if (timelinePage) {
-  void Promise.all([import('./app/app'), import('./site/router')]).then(([{ boot }, { startSiteRouter }]) => {
+  void Promise.all([
+    import('./app/app'),
+    import('./site/router'),
+    import('./site/navigation'),
+    import('./site/header-tools'),
+  ]).then(([{ boot }, { startSiteRouter }, { renderSiteHeader, wireSiteMenu }, { wireHeaderTools }]) => {
     document.body.classList.toggle('timeline-legacy', location.pathname !== '/timeline' || Boolean(location.hash));
+    // 年表与内容页共用同一套顶栏：品牌、六项导航、全站搜索、帮助与设置。
+    const mount = document.getElementById('site-header-mount');
+    if (mount) {
+      mount.innerHTML = renderSiteHeader({ section: 'timeline' });
+      wireSiteMenu(mount);
+      wireHeaderTools(mount);
+    }
     void boot();
     startSiteRouter(false);
   });

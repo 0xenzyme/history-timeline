@@ -6,8 +6,8 @@
 import type { DynastyTerm, EventRecord, Person, Topic } from '../types';
 import { AXIS_H, BAR_H, LANE_TITLE_H, PAD_X, STRIP_H, barTop, type LaneLayout, type LayoutItem } from './layout';
 import { EVENT_COLORS, SKINS, paletteFor, skinColor, type Palette } from './skins';
-import { FONT_SANS, clamp, fmtYear, personFrom, personTo, pickStep, roundRect } from './util';
-import { contentH, ctx, dom, H, layouts, loadingTopic, rctx, sctx, state, W } from './runtime';
+import { FONT_SANS, FONT_SERIF, clamp, fmtYear, personFrom, personTo, pickStep, roundRect } from './util';
+import { contentH, ctx, dom, getHooks, H, layouts, loadingTopic, rctx, sctx, state, W } from './runtime';
 import { syncAccessibleEntities } from './accessibility';
 
 // ---------- 坐标 ----------
@@ -89,11 +89,32 @@ export function skinPalette(): Palette {
   return paletteFor(state.skin);
 }
 
+/**
+ * 02 双模式：窄时间窗内可见人物较少时，人物行切换为「姓名 + 生卒 + 细生命线」的大行。
+ * 宽时间窗保留 16px 密集色条，避免几千人的浏览密度损失。
+ */
+export function largeRowsActive(): boolean {
+  if (state.line !== 'people' || !state.topic || !state.groups.people) return false;
+  const [d0, d1] = state.domain;
+  let count = 0;
+  for (const person of state.topic.people) {
+    if (state.hiddenLanes.has(`lane:${person.lane}`)) continue;
+    if (personTo(person.birth, person.death) < d0 || personFrom(person.birth, person.death) > d1) continue;
+    count += 1;
+    if (count > 12) return false;
+  }
+  return count > 0;
+}
+
 export function draw(): void {
   syncAccessibleEntities();
   renderScene(ctx, W, H);
-  renderRibbon(rctx, 0, 0, dom.ribbon.clientWidth, dom.ribbon.clientHeight);
+  // mini-map 已收进隐藏的旧控件容器，底部朝代导航条接管导航；尺寸为 0 时不画。
+  if (dom.ribbon.clientWidth > 0 && dom.ribbon.clientHeight > 0) {
+    renderRibbon(rctx, 0, 0, dom.ribbon.clientWidth, dom.ribbon.clientHeight);
+  }
   updateNebula();
+  getHooks().syncChrome?.();
 }
 
 export function renderScene(c: CanvasRenderingContext2D, width: number, height: number): void {
@@ -113,7 +134,25 @@ export function renderScene(c: CanvasRenderingContext2D, width: number, height: 
   }
   drawGridlines(c);
   drawLanes(c, width, height);
+  drawSelectedYearLine(c, height);
   drawHeader(c, width);
+}
+
+/** 02 基准：选中事件的年份用纵向金色虚线对齐人物、战事与历史事件。 */
+function drawSelectedYearLine(c: CanvasRenderingContext2D, height: number): void {
+  if (state.selected?.kind !== 'event') return;
+  const event = state.library.eventById.get(state.selected.id);
+  if (!event) return;
+  const x = Math.round(xOf(event.year)) + 0.5;
+  c.save();
+  c.strokeStyle = '#cf9b53';
+  c.lineWidth = 1.5;
+  c.setLineDash([5, 4]);
+  c.beginPath();
+  c.moveTo(x, hdrH());
+  c.lineTo(x, height);
+  c.stroke();
+  c.restore();
 }
 
 function drawGridlines(c: CanvasRenderingContext2D): void {
@@ -276,16 +315,54 @@ function drawEventBar(
     const x0 = xOf(event.year);
     const x1 = xOf(event.endYear ?? event.year);
     const width = Math.max(4, x1 - x0);
-    c.fillStyle = color;
+    // 02 同图：战事用深红渐变卡，历史事件用浅金卡；其他线保持类型色。
+    const isWar = lane.id === 'war';
+    const isHistory = lane.id === 'history';
+    if (isWar) {
+      const gradient = c.createLinearGradient(x0, 0, x0 + width, 0);
+      gradient.addColorStop(0, '#901b07');
+      gradient.addColorStop(1, '#c14d24');
+      c.fillStyle = gradient;
+    } else if (isHistory) {
+      c.fillStyle = selected ? '#fbdd8f' : '#f3dfb7';
+    } else {
+      c.fillStyle = color;
+    }
     if (SKINS[state.skin].glow && !dim) {
       c.shadowColor = color;
       c.shadowBlur = 7;
+    }
+    if (selected && isHistory) {
+      c.shadowColor = '#f5c85c';
+      c.shadowBlur = 14;
     }
     c.beginPath();
     roundRect(c, x0, yTop, width, BAR_H, 3);
     c.fill();
     c.shadowBlur = 0;
-    drawLabel(c, event.display || event.name, placement, x0, x0 + width, yTop, dim);
+    if (isHistory) {
+      // 历史事件卡的菱形节点。
+      const nx = x0 + 7;
+      const ny = yTop - 3;
+      c.fillStyle = '#b8883f';
+      c.beginPath();
+      c.moveTo(nx, ny - 4);
+      c.lineTo(nx + 4, ny);
+      c.lineTo(nx, ny + 4);
+      c.lineTo(nx - 4, ny);
+      c.closePath();
+      c.fill();
+    }
+    drawLabel(
+      c,
+      event.display || event.name,
+      placement,
+      x0,
+      x0 + width,
+      yTop,
+      dim,
+      isWar ? '#f5e8ce' : isHistory ? '#352519' : undefined,
+    );
     if (selected) {
       c.strokeStyle = C.accent;
       c.lineWidth = 2;
@@ -346,6 +423,10 @@ function drawPersonBar(
   yTop: number,
   placement: Placement,
 ): void {
+  if (largeRowsActive()) {
+    drawPersonLifeRow(c, person, lane, yTop);
+    return;
+  }
   const C = skinPalette();
   const hasBirth = person.birth != null;
   const hasDeath = person.death != null;
@@ -417,6 +498,55 @@ function drawPersonBar(
   c.globalAlpha = 1;
 }
 
+/** 02 大行模式：姓名与生卒在生命线左端上方，细生命线与空心端点。 */
+function drawPersonLifeRow(c: CanvasRenderingContext2D, person: Person, lane: LaneLayout, yTop: number): void {
+  const C = skinPalette();
+  const color = laneColor(lane);
+  const x0 = xOf(personFrom(person.birth, person.death));
+  const x1 = Math.max(x0 + 3, xOf(personTo(person.birth, person.death)));
+  const midY = yTop + BAR_H - 4;
+  const selected = state.selected?.kind === 'person' && state.selected.id === person.id;
+  const dim = personDim(person);
+  c.globalAlpha = dim ? 0.15 : 1;
+
+  c.strokeStyle = color;
+  c.lineWidth = 3;
+  c.beginPath();
+  c.moveTo(x0, midY);
+  c.lineTo(x1, midY);
+  c.stroke();
+
+  c.fillStyle = C.paper;
+  for (const x of [x0, x1]) {
+    c.beginPath();
+    c.arc(x, midY, 4.5, 0, Math.PI * 2);
+    c.fill();
+    c.lineWidth = 1.8;
+    c.stroke();
+  }
+
+  const labelX = Math.max(PAD_X, x0);
+  c.textAlign = 'left';
+  c.fillStyle = C.ink;
+  c.font = `15px ${FONT_SERIF}`;
+  c.fillText(person.display || person.name, labelX, yTop - 10);
+  c.font = `11px ${FONT_SANS}`;
+  c.fillStyle = C.ink2;
+  const birth = person.birth != null ? fmtYear(person.birth) : '生年不详';
+  const death = person.death != null ? fmtYear(person.death) : '卒年不详';
+  c.fillText(`${birth} — ${death}`, labelX, yTop + 4);
+
+  if (selected) {
+    c.strokeStyle = '#cf9b53';
+    c.lineWidth = 2;
+    c.beginPath();
+    c.moveTo(x0, midY - 6);
+    c.lineTo(x0, midY + 6);
+    c.stroke();
+  }
+  c.globalAlpha = 1;
+}
+
 function drawLabel(
   c: CanvasRenderingContext2D,
   label: string,
@@ -425,12 +555,13 @@ function drawLabel(
   x1: number,
   yTop: number,
   dim: boolean,
+  insideColor?: string,
 ): void {
   const C = skinPalette();
   if (placement === 'none') return;
   c.font = `11px ${FONT_SANS}`;
   if (placement === 'inside') {
-    c.fillStyle = C.labelInBar;
+    c.fillStyle = insideColor ?? C.labelInBar;
     c.textAlign = 'left';
     c.fillText(label, x0 + 5, yTop + BAR_H - 4.5);
   } else if (placement === 'right') {
@@ -515,7 +646,10 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
   c.textAlign = 'center';
   c.textBaseline = 'alphabetic';
   const hues = dynastyHues(dynasties);
-  for (const dynasty of paintOrder) {
+  // 02 基准：巡航皮肤的刻度尺是深木底 + 米白刻度，不再铺淡彩朝代色带；
+  // 朝代定位由中央场景头与底部朝代导航条承担。深空皮肤保留原色带。
+  const paintBands = state.skin !== 'voyage';
+  for (const dynasty of paintBands ? paintOrder : []) {
     const x0 = Math.max(0, xOf(dynasty.from));
     const x1 = Math.min(width, xOf(dynasty.to));
     const bandW = x1 - x0;
@@ -537,8 +671,8 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
   c.lineWidth = 1;
 
   const step = pickStep((d1 - d0) / 12);
-  c.fillStyle = C.ink2;
-  c.strokeStyle = C.ink2;
+  c.fillStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
+  c.strokeStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
   c.font = `11px ${FONT_SANS}`;
   c.textAlign = 'center';
   c.beginPath();
@@ -549,6 +683,23 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
     c.fillText(fmtYear(year), x, AXIS_H - 4);
   }
   c.stroke();
+
+  // 02 基准：选中事件的年份用金色年份牌标记，并在画布内贯穿金色虚线。
+  if (state.selected?.kind === 'event') {
+    const selectedEvent = state.library.eventById.get(state.selected.id);
+    if (selectedEvent) {
+      const x = Math.round(xOf(selectedEvent.year));
+      const label = fmtYear(selectedEvent.year);
+      c.font = `bold 11px ${FONT_SANS}`;
+      const badgeW = c.measureText(label).width + 18;
+      c.fillStyle = '#cf9b53';
+      c.beginPath();
+      roundRect(c, x - badgeW / 2, 3, badgeW, 20, 10);
+      c.fill();
+      c.fillStyle = '#261a14';
+      c.fillText(label, x, 17);
+    }
+  }
 
   if (d0 < 0 && d1 > 0) {
     const x = Math.round(xOf(0)) + 0.5;

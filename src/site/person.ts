@@ -1,3 +1,4 @@
+import { pageBanner } from './banner';
 import { escapeHtml } from './escape';
 import {
   accuracyNote,
@@ -11,7 +12,8 @@ import {
 import { categoryName, eventRecords, loadPerson, polityName, type SiteLibrary } from './data';
 import { directoryFallback } from './context';
 import { formatEventRange, formatYear } from './format';
-import type { EventRecord, PersonDetail } from '../types';
+import { icon, type IconId } from './icons';
+import type { EventRecord, PersonDetail, PersonExperience } from '../types';
 
 function timelineUrl(person: PersonDetail): string | null {
   if (person.birth === undefined && person.death === undefined) return null;
@@ -31,56 +33,143 @@ function personEvents(person: PersonDetail, library: SiteLibrary): EventRecord[]
   });
 }
 
+function panel(id: string, title: string, iconId: IconId, body: string): string {
+  return `<section class="lt-section lt-person-panel" aria-labelledby="${id}"><h2 id="${id}">${icon(iconId)}<span>${escapeHtml(title)}</span></h2>${body}</section>`;
+}
+
+function identityFacts(person: PersonDetail, library: SiteLibrary): string {
+  const facts: Array<[string, string]> = [];
+  if (person.display !== person.name) facts.push(['姓名', person.name]);
+  const polities = (person.polity ?? []).map((id) => polityName(library, id));
+  const categories = (person.categories ?? []).map((id) => categoryName(library, id));
+  if (polities.length) facts.push(['朝代', polities.join('、')]);
+  if (categories.length) facts.push(['领域', categories.join('、')]);
+  if (!facts.length) return '';
+  return `<dl class="lt-person-facts">${facts
+    .map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`)
+    .join('')}</dl>`;
+}
+
+function relationList(person: PersonDetail, library: SiteLibrary): string {
+  return person.relations
+    .map((relation) => {
+      const otherId = relation.source === person.id ? relation.target : relation.source;
+      const other = library.people.find((item) => item.id === otherId && item.kind !== 'event');
+      const otherName = other?.display || other?.name || otherId;
+      const direction = relation.directed
+        ? relation.source === person.id
+          ? `→ ${otherName}`
+          : `← ${otherName}`
+        : `与 ${otherName}`;
+      const topics = relation.topicIds.map(
+        (id) => library.catalog?.topics.find((topic) => topic.id === id)?.title ?? id,
+      );
+      return `<li><div class="lt-person-relation-heading"><span class="lt-person-relation-monogram" aria-hidden="true">${escapeHtml(otherName.slice(0, 1))}</span><div class="lt-person-relation-copy">${other ? entityLink('person', other.id, otherName, 'lt-person-relation-name') : `<span class="lt-person-relation-name">${escapeHtml(otherName)}</span>`}<span class="lt-relation-type">${escapeHtml(relation.type)} · ${escapeHtml(direction)}</span></div></div>${relation.since !== undefined ? `<span class="lt-data lt-person-relation-since">${formatYear(relation.since)}</span>` : ''}${relation.notes
+        .filter((note) => note.trim())
+        .map((note) => `<p class="lt-person-relation-note">${escapeHtml(note)}</p>`)
+        .join('')}${topics.length ? `<small>来源专题：${escapeHtml(topics.join('、'))}</small>` : ''}</li>`;
+    })
+    .join('');
+}
+
+function experienceItem(item: PersonExperience): string {
+  const dated = item.year !== undefined && item.yearAccuracy !== 'unknown';
+  return `<li><div class="lt-experience-year">${dated ? formatEventRange(item) : '年份待考'}</div><div class="lt-person-experience-copy"><h3>${escapeHtml(item.label)}</h3>${item.place ? `<p class="lt-data lt-person-experience-place">${escapeHtml(item.place)}</p>` : ''}<p class="lt-person-experience-note">${escapeHtml(item.note)}</p>${accuracyNote(item.yearAccuracy, item.yearNote)}${accuracyNote(item.endYearAccuracy, item.endYearNote, '结束')}${item.event ? entityLink('event', item.event, '相关公共事件', 'lt-person-event-link') : ''}${expandableSources(item.sources)}</div></li>`;
+}
+
 export function renderPersonDetail(person: PersonDetail, library: SiteLibrary): string {
   const timeline = timelineUrl(person);
   const works = person.works ?? [];
   const experiences = person.experiences ?? [];
   const datedExperiences = experiences
-    .filter((item) => item.year !== undefined)
+    .filter((item) => item.year !== undefined && item.yearAccuracy !== 'unknown')
     .sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
-  const undatedExperiences = experiences.filter((item) => item.year === undefined);
-  const relations = person.relations.map((relation) => {
-    const otherId = relation.source === person.id ? relation.target : relation.source;
-    const other = library.people.find((item) => item.id === otherId && item.kind !== 'event');
-    const direction = relation.directed
-      ? relation.source === person.id
-        ? `→ ${other?.display || other?.name || otherId}`
-        : `← ${other?.display || other?.name || otherId}`
-      : `与 ${other?.display || other?.name || otherId}`;
-    return `<li>${other ? entityLink('person', other.id, other.display || other.name) : escapeHtml(otherId)}<span class="lt-relation-type">${escapeHtml(relation.type)} · ${escapeHtml(direction)}</span>${relation.since ? `<span class="lt-data">${formatYear(relation.since)}</span>` : ''}${relation.notes.map((note) => `<p>${escapeHtml(note)}</p>`).join('')}<small>来源专题：${relation.topicIds.map((id) => escapeHtml(library.catalog?.topics.find((topic) => topic.id === id)?.title ?? id)).join('、')}</small></li>`;
-  });
+  const undatedExperiences = experiences.filter((item) => item.year === undefined || item.yearAccuracy === 'unknown');
   const events = personEvents(person, library);
-  return `
-    <main class="lt-page lt-person-page" id="main-content">
-      <div class="lt-return-row"><button class="lt-return" type="button" data-return-fallback="${escapeHtml(timeline ?? directoryFallback('person'))}">← 返回</button><nav aria-label="面包屑"><ol><li><a href="/people" data-site-link>列传</a></li><li aria-current="page">${escapeHtml(person.display)}</li></ol></nav></div>
-      <section class="lt-person-identity" aria-labelledby="person-title">
-        <div class="lt-person-monogram" data-person-image="${escapeHtml(person.id)}" aria-hidden="true">${escapeHtml(person.display.slice(0, 1))}</div>
-        <div class="lt-identity-copy"><h1 id="person-title" tabindex="-1">${escapeHtml(person.display)}</h1>${person.display !== person.name ? `<p class="lt-person-name">${escapeHtml(person.name)}</p>` : ''}<p class="lt-life-dates">${lifeDates(person)}</p>${accuracyNote(person.birthAccuracy, person.birthNote, '生')}${accuracyNote(person.deathAccuracy, person.deathNote, '卒')}${person.title ? `<p class="lt-person-title">${escapeHtml(person.title)}</p>` : ''}<div class="lt-tags">${(person.categories ?? []).map((id) => `<span class="lt-tag">${escapeHtml(categoryName(library, id))}</span>`).join('')}${(person.polity ?? []).map((id) => `<span class="lt-tag">${escapeHtml(polityName(library, id))}</span>`).join('')}</div>${timeline ? `<a class="lt-button" href="${escapeHtml(timeline)}">在年表中查看 →</a>` : '<p class="lt-notice">缺少可定位的年份。</p>'}</div>
-      </section>
-      <div class="lt-detail-grid">
-        <div class="lt-detail-main">
-          <section class="lt-section" aria-labelledby="person-bio"><h2 id="person-bio">生平简介</h2><p class="lt-prose">${escapeHtml(person.bio ?? '详细生平尚未整理。')}</p></section>
-          ${experiences.length ? `<section class="lt-section" aria-labelledby="person-experiences"><h2 id="person-experiences">个人经历</h2><ol class="lt-experience-list">${datedExperiences.map((item) => `<li><div class="lt-experience-year">${formatEventRange(item)}</div><div><h3>${escapeHtml(item.label)}</h3>${item.place ? `<p class="lt-data">${escapeHtml(item.place)}</p>` : ''}<p>${escapeHtml(item.note)}</p>${accuracyNote(item.yearAccuracy, item.yearNote)}${item.event ? entityLink('event', item.event, '相关公共事件') : ''}${expandableSources(item.sources)}</div></li>`).join('')}</ol>${undatedExperiences.length ? `<h3>年份待考</h3><ul>${undatedExperiences.map((item) => `<li><strong>${escapeHtml(item.label)}</strong><p>${escapeHtml(item.note)}</p>${expandableSources(item.sources)}</li>`).join('')}</ul>` : ''}</section>` : ''}
-          <section class="lt-section" aria-labelledby="person-events"><h2 id="person-events">时代事件</h2>${events.length ? `<ul class="lt-linked-list">${events.map((event) => `<li>${entityLink('event', event.id, event.display || event.name)}<span class="lt-data">${eventDates(event)}</span><p>${escapeHtml(event.desc ?? '')}</p></li>`).join('')}</ul>` : '<p class="lt-empty">尚无直接关联事件。</p>'}</section>
-          ${works.length ? `<section class="lt-section" aria-labelledby="person-works"><h2 id="person-works">代表作品</h2><div class="lt-work-list">${works.map((work) => `<article><h3>${escapeHtml(work.title)}</h3>${work.kind ? `<span class="lt-tag">${escapeHtml(work.kind === 'poetry' ? '诗歌' : work.kind)}</span>` : ''}${work.year !== undefined ? `<p class="lt-data">${formatYear(work.year, work.yearAccuracy)}</p>` : ''}${work.note ? `<p>${escapeHtml(work.note)}</p>` : ''}${accuracyNote(work.yearAccuracy, work.yearNote)}${expandableSources(work.sources)}</article>`).join('')}</div></section>` : ''}
-        </div>
-        <aside class="lt-detail-aside">
-          <section class="lt-section"><h2>重要关系</h2>${relations.length ? `<ul class="lt-relation-list">${relations.join('')}</ul>` : '<p class="lt-empty">尚无直接关系。</p>'}</section>
-      ${
-        person.collections.length
-          ? `<section class="lt-section"><h2>所属群像</h2><ul class="lt-linked-list">${person.collections
-              .map((id) => {
-                const collection = library.collections.find((item) => item.id === id);
-                return collection
-                  ? `<li><a href="/collections/${encodeURIComponent(id)}">${escapeHtml(collection.name)}</a><p>${escapeHtml(collection.summary)}</p></li>`
-                  : '';
-              })
-              .join('')}</ul></section>`
-          : ''
-      }<section class="lt-section"><h2>人物出处</h2>${sourceList(person.sources)}</section>
-        </aside>
-      </div>
-    </main>`;
+  const collections = person.collections.flatMap((id) => {
+    const collection = library.collections.find((item) => item.id === id);
+    return collection ? [collection] : [];
+  });
+  const tags = [
+    ...(person.categories ?? []).map((id) => `<span class="lt-tag">${escapeHtml(categoryName(library, id))}</span>`),
+    ...(person.polity ?? []).map(
+      (id) => `<span class="lt-tag lt-person-era-tag">${escapeHtml(polityName(library, id))}</span>`,
+    ),
+  ];
+  const breadcrumb = `<div class="lt-page-banner-breadcrumb lt-return-row lt-person-breadcrumb"><button class="lt-return" type="button" data-return-fallback="${escapeHtml(timeline ?? directoryFallback('person'))}">← 返回</button><span class="lt-person-breadcrumb-separator" aria-hidden="true">/</span><nav aria-label="面包屑"><ol><li><a href="/people" data-site-link>列传</a></li><li aria-current="page">${escapeHtml(person.display)}</li></ol></nav></div>`;
+  const identity = `<aside class="lt-person-identity" aria-label="人物身份"><div class="lt-person-monogram" data-person-image="${escapeHtml(person.id)}" aria-hidden="true">${escapeHtml(person.display.slice(0, 1))}</div><div class="lt-identity-copy"><p class="lt-life-dates">${lifeDates(person)}</p>${accuracyNote(person.birthAccuracy, person.birthNote, '生')}${accuracyNote(person.deathAccuracy, person.deathNote, '卒')}${tags.length ? `<div class="lt-tags">${tags.join('')}</div>` : ''}${timeline ? `<a class="lt-button lt-person-timeline-button" href="${escapeHtml(timeline)}">${icon('timeline')}<span>在年表中查看</span>${icon('arrow-right')}</a>` : '<p class="lt-notice">缺少可定位的年份。</p>'}${identityFacts(person, library)}</div></aside>`;
+  const biography = panel(
+    'person-bio',
+    '生平简介',
+    'book',
+    `<p class="lt-prose">${escapeHtml(person.bio ?? '详细生平尚未整理。')}</p>`,
+  );
+  const experiencePanel = experiences.length
+    ? panel(
+        'person-experiences',
+        '个人经历',
+        'calendar',
+        `${datedExperiences.length ? `<ol class="lt-experience-list lt-person-experience-list">${datedExperiences.map(experienceItem).join('')}</ol>` : ''}${undatedExperiences.length ? `<h3 class="lt-person-undated-title">年份待考</h3><ol class="lt-experience-list lt-person-experience-list">${undatedExperiences.map(experienceItem).join('')}</ol>` : ''}`,
+      )
+    : '';
+  const workPanel = works.length
+    ? panel(
+        'person-works',
+        '代表作品',
+        'book',
+        `<div class="lt-work-list lt-person-work-list">${works
+          .map(
+            (work) =>
+              `<article><div class="lt-person-work-heading"><h3><span class="lt-person-work-chip">《${escapeHtml(work.title)}》</span></h3>${work.kind ? `<span class="lt-tag">${escapeHtml(work.kind === 'poetry' ? '诗歌' : work.kind)}</span>` : ''}${work.year !== undefined ? `<span class="lt-data">${formatYear(work.year, work.yearAccuracy)}</span>` : ''}</div>${work.note ? `<p>${escapeHtml(work.note)}</p>` : ''}${accuracyNote(work.yearAccuracy, work.yearNote)}${expandableSources(work.sources)}</article>`,
+          )
+          .join('')}</div>`,
+      )
+    : '';
+  const relationPanel = person.relations.length
+    ? panel(
+        'person-relations',
+        '重要关系',
+        'people',
+        `<ul class="lt-relation-list lt-person-relation-list">${relationList(person, library)}</ul>`,
+      )
+    : '';
+  const collectionPanel = collections.length
+    ? panel(
+        'person-collections',
+        '所属群像',
+        'collections',
+        `<ul class="lt-linked-list lt-person-collection-list">${collections
+          .map(
+            (collection) =>
+              `<li><a href="/collections/${encodeURIComponent(collection.id)}" data-site-link>${escapeHtml(collection.name)}${icon('arrow-up-right')}</a><p>${escapeHtml(collection.summary)}</p></li>`,
+          )
+          .join('')}</ul>`,
+      )
+    : '';
+  const eventPanel = panel(
+    'person-events',
+    '时代事件',
+    'events',
+    events.length
+      ? `<ul class="lt-linked-list lt-person-event-list">${events
+          .map(
+            (event) =>
+              `<li>${entityLink('event', event.id, event.display || event.name)}<span class="lt-data">${eventDates(event)}</span>${event.desc ? `<p>${escapeHtml(event.desc)}</p>` : ''}</li>`,
+          )
+          .join('')}</ul>`
+      : '<p class="lt-empty">尚无直接关联事件。</p>',
+  );
+  const sourcesPanel = person.sources.length
+    ? panel('person-sources', '人物出处', 'book', sourceList(person.sources))
+    : '';
+
+  return `<main class="lt-page lt-person-page" id="main-content">${pageBanner({
+    image: 'people',
+    title: person.display,
+    subtitle: person.title,
+    breadcrumb,
+    tone: 'paper',
+  })}<div class="lt-detail-grid lt-person-layout">${identity}<div class="lt-detail-main">${biography}${experiencePanel}${workPanel}</div><aside class="lt-detail-aside" aria-label="人物关联">${relationPanel}${collectionPanel}${eventPanel}${sourcesPanel}</aside></div></main>`;
 }
 
 export async function personPage(id: string, library: SiteLibrary): Promise<string> {

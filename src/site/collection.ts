@@ -1,3 +1,4 @@
+import { pageBanner } from './banner';
 import {
   accuracyNote,
   entityLink,
@@ -10,6 +11,7 @@ import {
 import { collectionCategoryName, loadCollection, loadCollectionPeople, type SiteLibrary } from './data';
 import { escapeHtml } from './escape';
 import { formatYear } from './format';
+import { icon } from './icons';
 import type { CollectionDetail, CollectionView, Person, PersonWork } from '../types';
 import {
   availableCollectionViews,
@@ -59,6 +61,48 @@ function memberList(collection: CollectionDetail, members: CollectionMemberRecor
     .join('')}</ol>`;
 }
 
+function featuredMemberList(collection: CollectionDetail, members: CollectionMemberRecord[]): string {
+  return `<ol class="lt-collection-member-list lt-collection-featured-list">${members
+    .map(({ person, role }) => {
+      const monogram = Array.from((person.name || person.display).trim())[0] ?? person.display.slice(0, 1);
+      return `<li id="collection-member-${encodeURIComponent(person.id)}" data-member-id="${escapeHtml(person.id)}"><span class="lt-collection-member-seal" aria-hidden="true">${escapeHtml(monogram)}</span><div class="lt-collection-featured-body"><div class="lt-member-heading">${personLink(collection, person.id)}</div><span class="lt-data">${collectionLifeDates(person)}</span>${role ? `<p class="lt-collection-member-role">${escapeHtml(role)}</p>` : person.bio ? `<p class="lt-collection-member-role">${escapeHtml(person.bio)}</p>` : ''}${person.title ? `<p class="lt-section-note">${escapeHtml(person.title)}</p>` : ''}${accuracyNote(person.birthAccuracy, person.birthNote, '生')}${accuracyNote(person.deathAccuracy, person.deathNote, '卒')}</div></li>`;
+    })
+    .join('')}</ol>`;
+}
+
+function collectionEventSummary(collection: CollectionDetail): string {
+  if (!collection.eventRecords.length) return '';
+  return `<section class="lt-section lt-detail-card" aria-labelledby="collection-related-events"><h2 id="collection-related-events">相关纪事</h2><ol class="lt-collection-related-event-list">${collection.eventRecords
+    .slice()
+    .sort((left, right) => left.year - right.year || left.id.localeCompare(right.id))
+    .map(
+      (event) =>
+        `<li>${entityLink('event', event.id, event.display || event.name)}<span class="lt-data">${eventDates(event)}</span></li>`,
+    )
+    .join('')}</ol></section>`;
+}
+
+function collectionOverviewAction(collection: CollectionDetail): string {
+  const url = collectionTimelineUrl(collection);
+  return url
+    ? `<a class="lt-button lt-detail-primary lt-collection-overview-timeline" href="${url}" data-timeline-link>${icon('timeline')}<span>在年表中查看</span>${icon('arrow-right')}</a>`
+    : '<p class="lt-section-note">成员缺少可定位的年份，暂时无法进入对应年表。</p>';
+}
+
+function collectionHero(collection: CollectionDetail, library: SiteLibrary): string {
+  const category = collectionCategoryName(library, collection.category);
+  return pageBanner({
+    image: 'collections',
+    title: collection.name,
+    subtitle: collection.summary,
+    breadcrumb: `<div class="lt-detail-breadcrumb"><a class="lt-detail-return" href="/collections" data-return-fallback="/collections">← 返回群像</a><nav aria-label="面包屑"><ol><li><a href="/collections" data-site-link>群像</a></li><li><a href="/collections?category=${encodeURIComponent(collection.category)}" data-site-link>${escapeHtml(category)}</a></li><li aria-current="page">${escapeHtml(collection.name)}</li></ol></nav></div>`,
+    body: `<div class="lt-detail-hero-meta"><p class="lt-data">${collection.members.length} 位成员${collection.dynasties?.length ? ` · ${collection.dynasties.length} 个相关时期` : ''}</p><div class="lt-tags"><span class="lt-tag">${escapeHtml(category)}</span>${(collection.tags ?? []).map((tag) => `<span class="lt-tag">${escapeHtml(tag)}</span>`).join('')}</div></div>`,
+    actions: collection.cover
+      ? `<img class="lt-collection-detail-cover" src="${escapeHtml(collection.cover.src)}" alt="${escapeHtml(collection.cover.alt)}" width="320" height="180" data-collection-cover /><span class="lt-collection-mark lt-collection-cover-fallback" data-collection-cover-fallback aria-hidden="true" hidden>${escapeHtml(category.slice(0, 1))}</span>`
+      : undefined,
+  });
+}
+
 function pathSteps(collection: CollectionDetail, state: CollectionViewState): string {
   return `<ol class="lt-collection-path">${(collection.path ?? [])
     .map((step, index) => {
@@ -71,7 +115,7 @@ function pathSteps(collection: CollectionDetail, state: CollectionViewState): st
 }
 
 function overview(collection: CollectionDetail, state: CollectionViewState): string {
-  return `<div class="lt-collection-layout"><div><section class="lt-section" aria-labelledby="collection-introduction"><h2 id="collection-introduction">系列简介</h2><p class="lt-prose">${escapeHtml(collection.body ?? collection.summary)}</p></section><section class="lt-section" aria-labelledby="collection-featured"><div class="lt-section-heading"><h2 id="collection-featured">代表人物</h2><a href="${collectionUrl(collection, { tab: 'members' })}" data-site-link>查看全部 ${collection.members.length} 位人物 →</a></div>${memberList(collection, featuredCollectionMembers(collection))}</section></div><aside>${collection.path?.length ? `<section class="lt-section" aria-labelledby="collection-path"><h2 id="collection-path">探索路径</h2><p class="lt-section-note">按编辑路径阅读；步骤顺序不表示人物之间的直接关系。</p>${pathSteps(collection, state)}</section>` : ''}<section class="lt-section" aria-labelledby="collection-sources"><h2 id="collection-sources">策展出处</h2><p class="lt-section-note">出处支撑本系列的策展说明与成员范围。</p>${sourceList(collection.sources)}</section></aside></div>`;
+  return `<div class="lt-collection-layout lt-collection-overview"><div class="lt-collection-main"><section class="lt-section lt-detail-card" aria-labelledby="collection-introduction"><h2 id="collection-introduction">系列简介</h2><p class="lt-prose">${escapeHtml(collection.body ?? collection.summary)}</p></section><section class="lt-section lt-detail-card" aria-labelledby="collection-featured"><div class="lt-section-heading"><h2 id="collection-featured">代表人物</h2><a href="${collectionUrl(collection, { tab: 'members' })}" data-site-link>查看全部 ${collection.members.length} 位人物 →</a></div>${featuredMemberList(collection, featuredCollectionMembers(collection))}</section></div><aside class="lt-collection-aside">${collection.path?.length ? `<section class="lt-section lt-detail-card" aria-labelledby="collection-path"><h2 id="collection-path">探索路径</h2><p class="lt-section-note">按编辑路径阅读；步骤顺序不表示人物之间的直接关系。</p>${pathSteps(collection, state)}</section>` : ''}${collectionEventSummary(collection)}<div class="lt-collection-overview-action">${collectionOverviewAction(collection)}</div><section class="lt-section lt-detail-card" aria-labelledby="collection-sources"><h2 id="collection-sources">策展出处</h2><p class="lt-section-note">出处支撑本系列的策展说明与成员范围。</p>${sourceList(collection.sources)}</section></aside></div>`;
 }
 
 function timelineTicks(from: number, to: number): number[] {
@@ -259,7 +303,7 @@ export function renderCollectionDetail(
     events: () => events(collection),
     works: () => works(collection, worksResult ?? { people: [], failedIds: [] }),
   };
-  return `<main class="lt-page lt-collection-page" id="main-content"><div class="lt-return-row"><a class="lt-return" href="/collections" data-return-fallback="/collections">← 返回群像</a><nav aria-label="面包屑"><ol><li><a href="/collections" data-site-link>群像</a></li><li><a href="/collections?category=${encodeURIComponent(collection.category)}" data-site-link>${escapeHtml(collectionCategoryName(library, collection.category))}</a></li><li aria-current="page">${escapeHtml(collection.name)}</li></ol></nav></div>${state.invalid.length ? `<aside class="lt-notice" role="status">无法识别页内参数：${state.invalid.map(escapeHtml).join('、')}。已保留系列内容，并使用可用视图。</aside>` : ''}<header class="lt-collection-hero"><div><span class="lt-tag">${escapeHtml(collectionCategoryName(library, collection.category))}</span><h1 tabindex="-1">${escapeHtml(collection.name)}</h1><p>${escapeHtml(collection.summary)}</p><p class="lt-data">${collection.members.length} 位成员${collection.dynasties?.length ? ` · ${collection.dynasties.length} 个相关时期` : ''}</p><div class="lt-tags">${(collection.tags ?? []).map((tag) => `<span class="lt-tag">${escapeHtml(tag)}</span>`).join('')}</div></div><span class="lt-collection-mark" data-collection-cover-fallback aria-hidden="true"${collection.cover ? ' hidden' : ''}>${escapeHtml(collectionCategoryName(library, collection.category).slice(0, 1))}</span>${collection.cover ? `<img src="${escapeHtml(collection.cover.src)}" alt="${escapeHtml(collection.cover.alt)}" width="480" height="270" data-collection-cover />` : ''}</header><div class="lt-era-tabs lt-collection-tabs" role="tablist" aria-label="系列内容" data-collection-tabs>${views.map((view) => `<a id="collection-tab-${view}" role="tab" href="${collectionUrl(collection, { tab: view })}" data-site-link data-collection-tab="${view}" aria-controls="collection-view" aria-selected="${state.tab === view}" tabindex="${state.tab === view ? '0' : '-1'}">${COLLECTION_VIEW_NAMES[view]}</a>`).join('')}</div><div class="lt-collection-view" id="collection-view" role="tabpanel" aria-labelledby="collection-tab-${state.tab}" tabindex="-1">${content[state.tab]()}</div></main>`;
+  return `<main class="lt-page lt-collection-page" id="main-content">${state.invalid.length ? `<aside class="lt-notice" role="status">无法识别页内参数：${state.invalid.map(escapeHtml).join('、')}。已保留系列内容，并使用可用视图。</aside>` : ''}<div class="lt-collection-hero lt-detail-hero">${collectionHero(collection, library)}<div class="lt-era-tabs lt-collection-tabs" role="tablist" aria-label="系列内容" data-collection-tabs>${views.map((view) => `<a id="collection-tab-${view}" role="tab" href="${collectionUrl(collection, { tab: view })}" data-site-link data-collection-tab="${view}" aria-controls="collection-view" aria-selected="${state.tab === view}" tabindex="${state.tab === view ? '0' : '-1'}">${COLLECTION_VIEW_NAMES[view]}</a>`).join('')}</div></div><div class="lt-collection-view" id="collection-view" role="tabpanel" aria-labelledby="collection-tab-${state.tab}" tabindex="-1">${content[state.tab]()}</div></main>`;
 }
 
 export async function collectionPage(id: string, library: SiteLibrary): Promise<string> {

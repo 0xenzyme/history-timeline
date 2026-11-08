@@ -4,7 +4,7 @@
  */
 
 import type { Topic } from '../types';
-import type { LaneLayout } from './layout';
+import type { EntityGroups, LaneLayout } from './layout';
 import type { Library } from './model';
 import type { Route } from '../routing';
 import type { SkinId } from './skins';
@@ -37,6 +37,8 @@ export interface AppState {
   selected: Selection | null;
   hiddenLanes: Set<string>;
   stripOpen: boolean;
+  /** 02 同图：人物 / 战事 / 历史事件三个分组的显隐。 */
+  groups: EntityGroups;
 }
 
 export let state: AppState;
@@ -134,6 +136,8 @@ export interface AppHooks {
   rebuildLayout(): void;
   resizeChart(): void;
   syncTimelineUrl(mode?: 'push' | 'replace'): void;
+  /** 每次绘制后同步工作区 DOM（场景头、朝代高亮、缩放读数）。 */
+  syncChrome?(): void;
 }
 
 let hooks: AppHooks | null = null;

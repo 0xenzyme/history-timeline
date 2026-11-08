@@ -1,0 +1,847 @@
+/* 事件详情：深木导航与页头、宣纸阅读卡、金色当前项。全部规则限定在事件页内。 */
+.lt-event-page {
+  padding-bottom: 64px;
+}
+
+.lt-event-page ::selection {
+  background: var(--lt-accent);
+  color: var(--lt-on-accent);
+}
+
+.lt-event-page .lt-event-banner {
+  min-height: 240px;
+  margin: calc(-1 * var(--lt-page-pad-top, 24px)) calc(-1 * var(--lt-page-pad, 32px)) 24px;
+  border-bottom-color: rgb(207 155 83 / 55%);
+  background: var(--lt-wood);
+}
+
+.lt-event-page .lt-event-banner .lt-page-banner-art {
+  object-position: 50% 42%;
+}
+
+.lt-event-page .lt-event-banner-inner {
+  align-items: flex-end;
+  gap: 24px;
+  min-height: 240px;
+  padding: 20px 32px 24px;
+}
+
+.lt-event-page .lt-event-banner-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.lt-event-page .lt-event-banner-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-bottom: 8px;
+}
+
+.lt-event-page .lt-event-return {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid rgb(207 155 83 / 55%);
+  border-radius: 8px;
+  background: rgb(38 26 20 / 55%);
+  color: var(--lt-wood-text);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.lt-event-page .lt-event-return:hover {
+  border-color: var(--lt-gold-bright);
+  background: var(--lt-wood-raised);
+  color: var(--lt-gold-bright);
+}
+
+.lt-event-page .lt-event-return-icon {
+  width: 18px;
+  height: 18px;
+  transform: rotate(180deg);
+}
+
+.lt-event-page .lt-event-breadcrumb {
+  min-width: 0;
+}
+
+.lt-event-page .lt-event-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.lt-event-page .lt-event-breadcrumb li {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.lt-event-page .lt-event-breadcrumb li + li::before {
+  margin-right: 8px;
+  color: var(--lt-gold);
+  content: '/';
+}
+
+.lt-event-page .lt-event-breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--lt-gold-bright);
+}
+
+.lt-event-page .lt-event-breadcrumb [aria-current='page'] {
+  color: var(--lt-wood-text);
+}
+
+.lt-event-page .lt-event-banner h1 {
+  color: var(--lt-gold-bright);
+  font-size: 48px;
+  letter-spacing: 0.06em;
+  text-wrap: balance;
+}
+
+.lt-event-page .lt-event-banner-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 8px;
+}
+
+.lt-event-page .lt-event-banner-dates {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--lt-wood-text);
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+}
+
+.lt-event-page .lt-event-banner-dates .lt-icon {
+  color: var(--lt-gold);
+}
+
+.lt-event-page .lt-event-banner-tags {
+  gap: 8px;
+  margin: 0;
+}
+
+.lt-event-page .lt-event-banner .lt-event-type,
+.lt-event-page .lt-event-banner .lt-tag {
+  border: 1px solid rgb(207 155 83 / 55%);
+  background: rgb(38 26 20 / 68%);
+  color: var(--lt-gold-bright);
+}
+
+.lt-event-page .lt-event-summary {
+  max-width: 960px;
+  margin: 12px 0 0;
+  color: var(--lt-wood-text);
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.lt-event-page .lt-event-banner-actions {
+  flex: none;
+  padding-bottom: 4px;
+}
+
+.lt-event-page .lt-event-banner-actions .lt-button {
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.lt-event-page .lt-event-banner :focus-visible,
+.lt-event-page .lt-anchor-nav :focus-visible {
+  outline-color: var(--lt-gold-bright);
+}
+
+.lt-event-page .lt-event-layout {
+  display: grid;
+  grid-template-columns: 176px minmax(0, 1fr) 320px;
+  gap: 24px;
+  align-items: start;
+}
+
+.lt-event-page .lt-anchor-nav {
+  position: sticky;
+  top: 92px;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+  gap: 4px;
+  max-height: calc(100dvh - 116px);
+  padding: 16px 12px;
+  border: 1px solid rgb(207 155 83 / 35%);
+  border-radius: 12px;
+  background: var(--lt-wood);
+  color: var(--lt-wood-text);
+  scrollbar-color: var(--lt-gold) var(--lt-wood);
+  scrollbar-width: thin;
+}
+
+.lt-event-page .lt-anchor-nav > strong {
+  padding: 4px 12px 12px;
+  color: var(--lt-gold);
+  font-family: var(--font-serif);
+  font-size: 16px;
+}
+
+.lt-event-page .lt-event-anchor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: var(--lt-wood-text);
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.lt-event-page .lt-event-anchor .lt-icon {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  color: var(--lt-gold);
+}
+
+.lt-event-page .lt-event-anchor:hover {
+  border-color: rgb(207 155 83 / 45%);
+  background: var(--lt-wood-raised);
+  color: var(--lt-gold-bright);
+}
+
+.lt-event-page .lt-event-anchor[aria-current='location'] {
+  border-color: var(--lt-gold);
+  background: var(--lt-wood-raised);
+  color: var(--lt-gold-bright);
+  font-weight: 700;
+}
+
+.lt-event-page .lt-event-mobile-nav {
+  display: none;
+}
+
+.lt-event-page .lt-event-main {
+  max-width: none;
+  min-width: 0;
+}
+
+.lt-event-page .lt-event-aside {
+  min-width: 0;
+}
+
+.lt-event-page .lt-section.lt-event-card {
+  margin: 0 0 20px;
+  padding: 20px;
+  scroll-margin-top: 92px;
+  border: 1px solid var(--lt-border-subtle);
+  border-radius: 12px;
+  background: var(--lt-surface);
+}
+
+.lt-event-page .lt-event-card > h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--lt-border-subtle);
+  color: var(--lt-ink);
+  font-size: 24px;
+}
+
+.lt-event-page .lt-event-card > h2 > .lt-icon {
+  flex: none;
+  color: var(--lt-link);
+}
+
+.lt-event-page .lt-event-count {
+  display: inline-grid;
+  min-width: 28px;
+  min-height: 28px;
+  margin-left: auto;
+  padding: 2px 8px;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--lt-surface-sunken);
+  color: var(--lt-link);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.lt-event-page .lt-event-facts {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  border: 1px solid var(--lt-border-subtle);
+  border-radius: 8px;
+  background: var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-facts > div {
+  min-width: 0;
+  padding: 16px;
+  background: var(--lt-surface-sunken);
+}
+
+.lt-event-page .lt-event-facts dt,
+.lt-event-page .lt-event-time-list dt {
+  color: var(--lt-ink-secondary);
+  font-size: 14px;
+}
+
+.lt-event-page .lt-event-facts dd {
+  margin: 6px 0 0;
+  overflow-wrap: anywhere;
+}
+
+.lt-event-page .lt-event-time-list {
+  margin: 0;
+}
+
+.lt-event-page .lt-event-time-list > div {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-time-list > div:first-child {
+  padding-top: 0;
+}
+
+.lt-event-page .lt-event-time-list > div:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.lt-event-page .lt-event-time-list dd {
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.lt-event-page .lt-event-time-list small {
+  display: block;
+  margin-top: 4px;
+  color: var(--lt-ink-secondary);
+}
+
+.lt-event-page .lt-event-time-list .lt-year-note {
+  margin: 4px 0 0;
+}
+
+.lt-event-page .lt-event-time-list .lt-year-note p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.lt-event-page .lt-prose {
+  max-width: 38em;
+}
+
+.lt-event-page .lt-event-relation-group:first-child > h3 {
+  margin-top: 0;
+}
+
+.lt-event-page .lt-event-relation-group > h3 {
+  margin: 20px 0 4px;
+  color: var(--lt-ink);
+  font-size: 20px;
+}
+
+.lt-event-page .lt-event-relation-group > .lt-section-note {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.lt-event-page .lt-event-chronology {
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lt-event-page .lt-event-chronology > li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 16px 108px minmax(0, 1fr);
+  gap: 16px;
+  padding: 20px 0;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-chronology > li::after {
+  position: absolute;
+  top: 32px;
+  bottom: -20px;
+  left: 6px;
+  width: 1px;
+  background: var(--lt-border);
+  content: '';
+}
+
+.lt-event-page .lt-event-chronology > li:last-child::after {
+  display: none;
+}
+
+.lt-event-page .lt-event-chronology-marker {
+  z-index: 1;
+  width: 13px;
+  height: 13px;
+  margin-top: 9px;
+  border: 2px solid var(--lt-link);
+  border-radius: 50%;
+  background: var(--lt-surface);
+}
+
+.lt-event-page .lt-event-chronology-date {
+  padding-top: 4px;
+  color: var(--lt-link);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.lt-event-page .lt-event-row {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.lt-event-page .lt-event-row-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px 12px;
+}
+
+.lt-event-page .lt-event-row-title {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  min-width: 0;
+}
+
+.lt-event-page .lt-event-row-title .lt-related-name {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  overflow-wrap: anywhere;
+  font-size: 20px;
+}
+
+.lt-event-page .lt-event-row-title .lt-data {
+  color: var(--lt-ink-secondary);
+  white-space: nowrap;
+}
+
+.lt-event-page .lt-event-row-note {
+  margin: 8px 0 0;
+  color: var(--lt-ink-secondary);
+  font-size: 14px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.lt-event-page .lt-source-details {
+  margin: 8px 0 0;
+}
+
+.lt-event-page .lt-source-details > .lt-sources {
+  margin-top: 4px;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--lt-surface-sunken);
+}
+
+.lt-event-page .lt-event-aside .lt-event-relation-group + .lt-event-relation-group {
+  margin-top: 20px;
+  padding-top: 4px;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-aside .lt-event-row {
+  padding-top: 16px;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-aside .lt-event-row-heading {
+  display: block;
+}
+
+.lt-event-page .lt-event-aside .lt-event-row-title {
+  display: block;
+}
+
+.lt-event-page .lt-event-aside .lt-event-row-title .lt-data {
+  display: block;
+  margin-top: 2px;
+}
+
+.lt-event-page .lt-event-aside .lt-event-row .lt-event-type {
+  margin-top: 8px;
+}
+
+.lt-event-page .lt-event-people-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 12px;
+}
+
+.lt-event-page .lt-event-person-card {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+  padding: 12px 0;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-person-card > div {
+  min-width: 0;
+}
+
+.lt-event-page .lt-event-person-monogram {
+  display: grid;
+  width: 44px;
+  height: 52px;
+  place-items: center;
+  border: 1px solid var(--lt-border);
+  border-radius: 8px;
+  background: var(--lt-paper);
+  color: var(--lt-link);
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.lt-event-page .lt-event-person-card .lt-related-name {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  overflow-wrap: anywhere;
+  font-size: 16px;
+}
+
+.lt-event-page .lt-event-person-card p {
+  margin: 0;
+  color: var(--lt-ink-secondary);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.lt-event-page .lt-event-person-card small {
+  display: block;
+  margin-top: 2px;
+  color: var(--lt-ink-secondary);
+  font-size: 14px;
+}
+
+.lt-event-page .lt-event-collection-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lt-event-page .lt-event-collection-list > li {
+  padding: 16px 0;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-collection-list > li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.lt-event-page .lt-event-collection-list > li:last-child {
+  padding-bottom: 0;
+}
+
+.lt-event-page .lt-event-collection-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lt-event-page .lt-event-collection-list a .lt-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.lt-event-page .lt-event-collection-list p {
+  margin: 4px 0 0;
+  color: var(--lt-ink-secondary);
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.lt-event-page .lt-event-aside .lt-sources {
+  font-size: 14px;
+}
+
+.lt-event-page .lt-event-aside .lt-sources section + section {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--lt-border-subtle);
+}
+
+.lt-event-page .lt-event-aside .lt-sources ul {
+  padding-left: 18px;
+}
+
+.lt-event-page .lt-event-aside .lt-sources li {
+  margin: 12px 0;
+  line-height: 1.65;
+}
+
+@media (max-width: 1279px) and (min-width: 1200px) {
+  .lt-event-page .lt-event-layout {
+    grid-template-columns: 160px minmax(0, 1fr) 288px;
+    gap: 20px;
+  }
+
+  .lt-event-page .lt-event-people-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .lt-event-page .lt-event-layout {
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .lt-event-page .lt-event-aside {
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+  }
+
+  .lt-event-page .lt-event-aside .lt-event-card {
+    margin: 0;
+  }
+
+  .lt-event-page .lt-event-people-module,
+  .lt-event-page .lt-event-aside #event-sources {
+    grid-column: 1 / -1;
+  }
+
+  .lt-event-page .lt-event-aside #event-sources .lt-sources ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 20px;
+  }
+
+  .lt-event-page .lt-event-people-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lt-event-page .lt-event-banner h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lt-event-page {
+    padding-bottom: 48px;
+  }
+
+  .lt-event-page .lt-event-banner {
+    min-height: 0;
+    margin: -16px -16px 20px;
+  }
+
+  .lt-event-page .lt-event-banner .lt-page-banner-art {
+    display: none;
+  }
+
+  .lt-event-page .lt-event-banner-inner {
+    display: block;
+    min-height: 0;
+    padding: 20px 16px 24px;
+  }
+
+  .lt-event-page .lt-event-banner h1 {
+    font-size: 36px;
+  }
+
+  .lt-event-page .lt-event-banner-dates {
+    font-size: 20px;
+  }
+
+  .lt-event-page .lt-event-summary {
+    font-size: 14px;
+  }
+
+  .lt-event-page .lt-event-banner-actions {
+    margin-top: 16px;
+    padding: 0;
+  }
+
+  .lt-event-page .lt-event-banner-actions .lt-button {
+    width: 100%;
+  }
+
+  .lt-event-page .lt-event-layout {
+    display: block;
+  }
+
+  .lt-event-page .lt-anchor-nav {
+    display: none;
+  }
+
+  .lt-event-page .lt-event-mobile-nav {
+    display: block;
+    margin-bottom: 20px;
+    scroll-margin-top: 72px;
+    border: 1px solid var(--lt-border);
+    border-radius: 12px;
+    background: var(--lt-surface);
+  }
+
+  .lt-event-page .lt-event-mobile-nav > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 48px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: var(--lt-wood);
+    color: var(--lt-wood-text);
+    cursor: pointer;
+  }
+
+  .lt-event-page .lt-event-mobile-nav > summary strong {
+    color: var(--lt-gold-bright);
+    font-size: 14px;
+  }
+
+  .lt-event-page .lt-event-mobile-nav > nav {
+    display: grid;
+    padding: 8px;
+  }
+
+  .lt-event-page .lt-event-mobile-nav .lt-event-anchor {
+    color: var(--lt-ink);
+  }
+
+  .lt-event-page .lt-event-mobile-nav .lt-event-anchor .lt-icon {
+    color: var(--lt-link);
+  }
+
+  .lt-event-page .lt-event-mobile-nav .lt-event-anchor:hover {
+    border-color: var(--lt-border);
+    background: var(--lt-surface-sunken);
+    color: var(--lt-link);
+  }
+
+  .lt-event-page .lt-event-mobile-nav .lt-event-anchor[aria-current='location'] {
+    border-color: var(--lt-link);
+    background: var(--lt-surface-sunken);
+    color: var(--lt-link);
+  }
+
+  .lt-event-page .lt-section.lt-event-card {
+    margin-bottom: 16px;
+    padding: 16px;
+    scroll-margin-top: 72px;
+  }
+
+  .lt-event-page .lt-event-card > h2 {
+    font-size: 20px;
+  }
+
+  .lt-event-page .lt-event-chronology > li {
+    grid-template-columns: 16px minmax(0, 1fr);
+    gap: 4px 12px;
+  }
+
+  .lt-event-page .lt-event-chronology-marker {
+    grid-row: 1 / span 2;
+  }
+
+  .lt-event-page .lt-event-chronology-date {
+    grid-column: 2;
+    padding-top: 0;
+  }
+
+  .lt-event-page .lt-event-chronology .lt-event-row {
+    grid-column: 2;
+  }
+
+  .lt-event-page .lt-event-aside {
+    display: block;
+  }
+
+  .lt-event-page .lt-event-people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .lt-event-page .lt-event-banner-top {
+    gap: 4px 12px;
+  }
+
+  .lt-event-page .lt-event-breadcrumb ol {
+    font-size: 14px;
+  }
+
+  .lt-event-page .lt-event-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .lt-event-page .lt-event-time-list > div {
+    display: block;
+  }
+
+  .lt-event-page .lt-event-time-list dd {
+    margin-top: 4px;
+  }
+
+  .lt-event-page .lt-event-people-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lt-event-page .lt-event-row-heading {
+    display: block;
+  }
+
+  .lt-event-page .lt-event-row-heading > .lt-event-type {
+    margin-top: 8px;
+  }
+}

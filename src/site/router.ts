@@ -8,6 +8,7 @@ import { loadSiteLibrary, retryCollection, retrySiteData, type SiteDataKey } fro
 import { COLLECTION_VIEW_NAMES, type CollectionViewState } from './collection-views';
 import type { CollectionView } from '../types';
 import { renderSiteHeader, wireSiteMenu, type SiteSection } from './navigation';
+import { wireHeaderTools } from './header-tools';
 import { personPage } from './person';
 import { searchPage, type SearchKind } from './search';
 import { navigateToTimeline, openSiteUrl, wireEntityLinks, wireReturnLinks, wireSiteLinks } from './context';
@@ -132,8 +133,10 @@ export async function renderSiteRoute(): Promise<void> {
     if (
       element.id === 'main-content' ||
       element.id === 'timeline-accessible-entities' ||
-      element.classList.contains('lt-skip-link')
+      element.classList.contains('lt-skip-link') ||
+      element.hasAttribute('data-timeline-only')
     ) {
+      // 年表专属容器（含嵌套的 main、筛选栏与详情栏）整体移除，避免内容页出现第二个 main。
       element.remove();
     } else {
       element.hidden = true;
@@ -162,6 +165,7 @@ export async function renderSiteRoute(): Promise<void> {
                     : ['catalog', 'people', 'history', 'military', 'collections'];
   root.innerHTML = `${renderSiteHeader({ section, query: query.get('q') ?? '' })}<div id="site-page" aria-busy="true"><main class="lt-page lt-state-page" id="main-content"><h1 tabindex="-1">正在加载</h1><p>正在读取页面数据。</p><div class="lt-loading-rows" aria-hidden="true"><span></span><span></span><span></span></div></main></div>`;
   wireSiteMenu(root);
+  wireHeaderTools(root);
   try {
     const library = await loadSiteLibrary(requiredKeys);
     if (revision !== routeRevision || path !== (location.pathname.replace(/\/+$/, '') || '/')) return;

@@ -224,7 +224,7 @@ test('M6 production 移动导航、键盘、缩放和快速导航', { timeout: 9
     await page.locator('[data-filter-dialog]').evaluate((dialog) => (dialog as HTMLDialogElement).open),
     true,
   );
-  await page.locator('[data-filter-dialog] select[name="dynasty"]').selectOption('tang');
+  await page.locator('[data-filter-dialog] input[name="dynasty"][value="tang"]').check();
   await page.locator('[data-filter-dialog] button[type="submit"]').click();
   await ready(page, '.lt-directory-page');
   assert.match(page.url(), /dynasty=tang/);

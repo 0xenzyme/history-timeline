@@ -72,15 +72,21 @@ export function pagination(path: string, state: DirectoryQuery, total: number, p
   const pages = Math.ceil(total / perPage);
   if (pages <= 1) return '';
   const page = state.page;
-  const candidates = [...new Set([1, page - 1, page, page + 1, pages])].filter((value) => value >= 1 && value <= pages);
-  return `<nav class="lt-pagination" aria-label="分页"><a href="${directoryUrl(path, state, { page: page - 1 })}" data-site-link ${page <= 1 ? 'aria-disabled="true" tabindex="-1"' : ''}>上一页</a>${candidates
-    .map(
-      (value) =>
-        `<a href="${directoryUrl(path, state, { page: value })}" data-site-link ${value === page ? 'aria-current="page"' : ''} aria-label="第 ${value} 页">${value}</a>`,
-    )
-    .join(
-      '',
-    )}<a href="${directoryUrl(path, state, { page: page + 1 })}" data-site-link ${page >= pages ? 'aria-disabled="true" tabindex="-1"' : ''}>下一页</a></nav>`;
+  const candidates =
+    pages <= 7
+      ? Array.from({ length: pages }, (_, index) => index + 1)
+      : [...new Set([1, page - 1, page, page + 1, pages])].filter((value) => value >= 1 && value <= pages);
+  let previous = 0;
+  const pageLinks = candidates
+    .sort((left, right) => left - right)
+    .map((value) => {
+      const ellipsis =
+        previous > 0 && value - previous > 1 ? '<span class="lt-pagination-ellipsis" aria-hidden="true">…</span>' : '';
+      previous = value;
+      return `${ellipsis}<a href="${directoryUrl(path, state, { page: value })}" data-site-link ${value === page ? 'aria-current="page"' : ''} aria-label="第 ${value} 页">${value}</a>`;
+    })
+    .join('');
+  return `<nav class="lt-pagination" aria-label="分页"><a href="${directoryUrl(path, state, { page: page - 1 })}" data-site-link ${page <= 1 ? 'aria-disabled="true" tabindex="-1"' : ''}>上一页</a>${pageLinks}<a href="${directoryUrl(path, state, { page: page + 1 })}" data-site-link ${page >= pages ? 'aria-disabled="true" tabindex="-1"' : ''}>下一页</a></nav>`;
 }
 
 export function pageRange(_total: number, state: DirectoryQuery, perPage: number): { start: number; end: number } {
