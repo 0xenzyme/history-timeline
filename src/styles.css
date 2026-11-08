@@ -2926,6 +2926,11 @@ body.timeline-app .ribbon :focus-visible {
 .lt-global-search {
   display: flex;
   align-items: center;
+  min-width: 0;
+}
+
+.lt-global-search input {
+  min-width: 0;
 }
 
 .lt-global-search label {
@@ -3753,6 +3758,7 @@ body.timeline-app #card.show {
 
   .lt-global-search-box {
     width: min(100%, 240px);
+    min-width: 0;
   }
 
   body:not(.timeline-app) .lt-site-header .lt-global-search input {

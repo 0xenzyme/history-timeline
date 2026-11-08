@@ -4,17 +4,13 @@ import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import test from 'node:test';
 import { chromium, type Browser, type Page } from 'playwright';
+import { assertNoHorizontalOverflow as assertNoOverflow } from './browser-overflow';
 
 const origin = process.env.M3_TEST_ORIGIN ?? 'http://127.0.0.1:5190';
 const screenshotDir = join(process.cwd(), '.impeccable', 'review');
 
 async function ready(page: Page, selector: string): Promise<void> {
   await page.waitForSelector(selector, { state: 'visible' });
-}
-
-async function assertNoOverflow(page: Page): Promise<void> {
-  const size = await page.evaluate(() => ({ scroll: document.documentElement.scrollWidth, viewport: innerWidth }));
-  assert.ok(size.scroll <= size.viewport, `页面不应横向溢出：${JSON.stringify(size)}`);
 }
 
 test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归', { timeout: 120_000 }, async (context) => {

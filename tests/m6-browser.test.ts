@@ -4,6 +4,7 @@ import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import test from 'node:test';
 import { chromium, type Browser, type Page } from 'playwright';
+import { assertNoHorizontalOverflow } from './browser-overflow';
 
 const origin = process.env.M6_TEST_ORIGIN ?? 'http://127.0.0.1:5196';
 const screenshotDir = join(process.cwd(), '.impeccable', 'review');
@@ -14,11 +15,7 @@ async function ready(page: Page, selector = '#site-page[aria-busy="false"]'): Pr
 }
 
 async function noOverflow(page: Page): Promise<void> {
-  const dimensions = await page.evaluate(() => ({
-    scroll: document.documentElement.scrollWidth,
-    viewport: innerWidth,
-  }));
-  assert.ok(dimensions.scroll <= dimensions.viewport, JSON.stringify(dimensions));
+  await assertNoHorizontalOverflow(page);
 }
 
 function launchOptions(): { executablePath?: string; headless: boolean; args: string[] } {
