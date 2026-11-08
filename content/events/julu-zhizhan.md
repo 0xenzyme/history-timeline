@@ -24,10 +24,13 @@ commanders:
     side: qin
   - id: wang-li
     side: qin
+people:
+  - xiong-xin
 result: 项羽破釜沉舟九战绝甬道，杀苏角、虏王离，涉间自焚；章邯寻降，秦军主力覆灭。
 aliases:
   - 鉅鹿之战
   - 破釜沉舟
+  - qin-julu
 sources:
   - work: 史記
     part: 卷006 秦始皇本紀

@@ -28,14 +28,20 @@
       "side": "mongol"
     }
   ],
+  "people": [
+    "yu-qian",
+    "wang-zhen-ming"
+  ],
   "result": "明军大溃，英宗被俘",
   "aliases": [
-    "土木堡"
+    "土木堡",
+    "ming-tumu",
+    "土木堡之变"
   ],
   "dynasties": [
     "ming"
   ],
-  "desc": "正统十四年八月辛酉，明军次土木被围，壬戌师溃，死者数十万，英宗北狩。也先是瓦剌首领，词表没有瓦剌，交战方用 mongol，不写作元朝。北京保卫不并入本条。",
+  "desc": "正统十四年七月，瓦剌太师也先大举入寇，太监王振挟英宗亲征，八月辛酉次土木被围，壬戌师溃，死者数十万，英宗被俘北狩。败闻至京，侍讲徐珵请南迁，兵部侍郎于谦不可，皇太后命郕王监国。北京保卫战另列专条，不并入本条。",
   "sources": [
     {
       "work": "明史",
@@ -48,12 +54,64 @@
       "part": "卷三百二十八",
       "note": "也先追及土木，六军大溃，帝蒙尘",
       "kind": "classic"
+    },
+    {
+      "work": "明史",
+      "part": "卷三百四·宦官传",
+      "kind": "classic"
     }
   ],
   "contractVersion": 1,
   "children": [],
   "components": [],
   "personRecords": [
+    {
+      "id": "yu-qian",
+      "name": "于谦",
+      "display": "于谦",
+      "birth": 1398,
+      "birthAccuracy": "exact",
+      "death": 1457,
+      "deathAccuracy": "exact",
+      "title": "北京保卫战",
+      "bio": "钱塘人，土木堡变后力排南迁、拥郕王监国，亲自督师破瓦剌于北京。英宗复辟，以「意欲」之罪冤死。",
+      "tags": [
+        "明",
+        "社稷臣"
+      ],
+      "categories": [
+        "official",
+        "minister"
+      ],
+      "primary": "minister",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-zhen-ming",
+      "name": "王振",
+      "display": "王振",
+      "birthAccuracy": "unknown",
+      "death": 1449,
+      "deathAccuracy": "exact",
+      "title": "土木之役的祸首",
+      "bio": "蔚州人，司礼监太监。正统初窃持0065威福，毁太祖禁宦官干政之碑; 劝英宗亲征瓦剌，土木堡败没时被乱兵所杀。",
+      "tags": [
+        "明"
+      ],
+      "categories": [
+        "eunuch"
+      ],
+      "primary": "eunuch",
+      "polity": [
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
     {
       "id": "zhu-qizhen",
       "name": "朱祁镇",

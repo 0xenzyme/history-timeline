@@ -29,15 +29,21 @@
       "side": "wei-zhanguo"
     }
   ],
-  "result": "齐以孙膑「围魏救赵」于桂陵设伏大破魏军，庞涓被擒（《史记》系其死于马陵）",
+  "people": [
+    "tian-yinqi",
+    "wei-huiwang",
+    "zhao-chenghou"
+  ],
+  "result": "齐以孙膑「围魏救赵」败魏军于桂陵，庞涓被擒（《史记》系其死于马陵）",
   "aliases": [
     "围魏救赵",
-    "齐魏桂陵之战"
+    "齐魏桂陵之战",
+    "guiling"
   ],
   "dynasties": [
     "warring-states"
   ],
-  "desc": "魏围赵都邯郸,齐威王以田忌为将、孙膑为师救赵,孙膑『批亢捣虚』疾走大梁,魏军回师,齐军于桂陵设伏大破魏军。围魏救赵成为中国军事史经典战例;1972年银雀山汉简《孙膑兵法·擒庞涓》证实此役,且载庞涓于桂陵被擒(《史记》则记其死于马陵)。",
+  "desc": "魏围赵都邯郸,齐威王以田忌为将、孙膑为师救赵,孙膑『批亢捣虚』疾走大梁,魏军回师,齐军与魏军战于桂陵,大破魏军。围魏救赵成为中国军事史经典战例;1972年银雀山汉简《孙膑兵法·擒庞涓》证实此役,且载庞涓于桂陵被擒(《史记》则记其死于马陵)。",
   "sources": [
     {
       "work": "资治通鉴",
@@ -53,12 +59,91 @@
       "work": "古本竹书纪年",
       "part": "惠成王十七年",
       "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷043·趙世家",
+      "kind": "classic"
+    },
+    {
+      "work": "孙膑兵法",
+      "part": "擒庞涓",
+      "kind": "classic"
     }
   ],
   "contractVersion": 1,
   "children": [],
   "components": [],
   "personRecords": [
+    {
+      "id": "tian-yinqi",
+      "name": "田因齐",
+      "display": "齐威王",
+      "birthAccuracy": "unknown",
+      "death": -320,
+      "deathAccuracy": "exact",
+      "title": "田齐国君，稷下与桂陵、马陵",
+      "bio": "用邹忌、孙膑。桂陵、马陵败魏，齐最强。稷下学宫在他的条里铺开，孟子稍后才走进同一条齐国线。",
+      "tags": [
+        "齐国",
+        "稷下"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "qi"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-huiwang",
+      "name": "梁惠王",
+      "display": "魏惠王",
+      "birthAccuracy": "unknown",
+      "death": -319,
+      "deathAccuracy": "disputed",
+      "deathNote": "卒年从竹书纪年作前319；史记魏世家在位三十六年与之不合。站点纪年（马陵前341、孟子见梁惠王前320）已从竹书，此条与之对齐，标disputed。",
+      "title": "魏王，迁大梁、问利于孟子",
+      "bio": "徙大梁、会诸侯，桂陵马陵两败于齐，徐州相王始称王。前320年孟子至大梁，\"王何必曰利\"是轴上唯一一场君臣对谈。他的条比商鞅长得多，变法席位上他是被教的一方。",
+      "tags": [
+        "魏国",
+        "大梁",
+        "仁义"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "wei-zhanguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "zhao-chenghou",
+      "name": "赵成侯",
+      "display": "赵成侯",
+      "birthAccuracy": "unknown",
+      "death": -350,
+      "deathAccuracy": "exact",
+      "deathNote": "赵世家在位年与年表系定，前350年卒。",
+      "title": "赵侯，围邯郸之主",
+      "bio": "魏围邯郸，齐救之——桂陵、马陵两役孙膑对庞涓，都在他的求援与失地上发生。前350年卒，胡服骑射接在他孙儿武灵王手上。",
+      "tags": [
+        "赵国",
+        "桂陵"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "polity": [
+        "zhao"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
     {
       "id": "sun-bin",
       "name": "孙膑",

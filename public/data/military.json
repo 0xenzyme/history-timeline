@@ -1017,7 +1017,20 @@
         "han",
         "xiongnu"
       ],
+      "commanders": [
+        {
+          "id": "liu-bang",
+          "side": "han"
+        },
+        {
+          "id": "mo-dun",
+          "side": "xiongnu"
+        }
+      ],
       "result": "汉军突围南还，汉匈关系转入以和亲和边境防御为主的阶段",
+      "aliases": [
+        "qian200-baideng"
+      ],
       "dynasties": [
         "western-han"
       ],
@@ -2352,6 +2365,10 @@
         "hu-yan",
         "xiong-yun"
       ],
+      "result": "晋胜楚败，子玉自杀；周天子命晋侯为伯，晋文公称霸。",
+      "aliases": [
+        "chengpu"
+      ],
       "dynasties": [
         "spring-autumn"
       ],
@@ -2972,6 +2989,9 @@
         "wu-guang"
       ],
       "result": "秦末民变开端，六国故地并起亡秦",
+      "aliases": [
+        "qin-daze"
+      ],
       "dynasties": [
         "qin"
       ],
@@ -4219,7 +4239,23 @@
         "han",
         "chu-han"
       ],
+      "commanders": [
+        {
+          "id": "han-xin",
+          "side": "han"
+        },
+        {
+          "id": "xiang-yu",
+          "side": "chu-han"
+        }
+      ],
+      "people": [
+        "liu-bang"
+      ],
       "result": "楚军覆败，项羽自杀，楚汉战争结束",
+      "aliases": [
+        "qin-gaixia"
+      ],
       "dynasties": [
         "western-han"
       ],
@@ -4232,7 +4268,7 @@
         },
         {
           "work": "汉书",
-          "part": "高帝纪上",
+          "part": "高帝纪下",
           "kind": "classic"
         }
       ]
@@ -4616,15 +4652,21 @@
           "side": "wei-zhanguo"
         }
       ],
-      "result": "齐以孙膑「围魏救赵」于桂陵设伏大破魏军，庞涓被擒（《史记》系其死于马陵）",
+      "people": [
+        "tian-yinqi",
+        "wei-huiwang",
+        "zhao-chenghou"
+      ],
+      "result": "齐以孙膑「围魏救赵」败魏军于桂陵，庞涓被擒（《史记》系其死于马陵）",
       "aliases": [
         "围魏救赵",
-        "齐魏桂陵之战"
+        "齐魏桂陵之战",
+        "guiling"
       ],
       "dynasties": [
         "warring-states"
       ],
-      "desc": "魏围赵都邯郸,齐威王以田忌为将、孙膑为师救赵,孙膑『批亢捣虚』疾走大梁,魏军回师,齐军于桂陵设伏大破魏军。围魏救赵成为中国军事史经典战例;1972年银雀山汉简《孙膑兵法·擒庞涓》证实此役,且载庞涓于桂陵被擒(《史记》则记其死于马陵)。",
+      "desc": "魏围赵都邯郸,齐威王以田忌为将、孙膑为师救赵,孙膑『批亢捣虚』疾走大梁,魏军回师,齐军与魏军战于桂陵,大破魏军。围魏救赵成为中国军事史经典战例;1972年银雀山汉简《孙膑兵法·擒庞涓》证实此役,且载庞涓于桂陵被擒(《史记》则记其死于马陵)。",
       "sources": [
         {
           "work": "资治通鉴",
@@ -4639,6 +4681,16 @@
         {
           "work": "古本竹书纪年",
           "part": "惠成王十七年",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷043·趙世家",
+          "kind": "classic"
+        },
+        {
+          "work": "孙膑兵法",
+          "part": "擒庞涓",
           "kind": "classic"
         }
       ]
@@ -7722,10 +7774,14 @@
           "side": "qin"
         }
       ],
+      "people": [
+        "xiong-xin"
+      ],
       "result": "项羽破釜沉舟九战绝甬道，杀苏角、虏王离，涉间自焚；章邯寻降，秦军主力覆灭。",
       "aliases": [
         "鉅鹿之战",
-        "破釜沉舟"
+        "破釜沉舟",
+        "qin-julu"
       ],
       "dynasties": [
         "qin"
@@ -14166,14 +14222,20 @@
           "side": "mongol"
         }
       ],
+      "people": [
+        "yu-qian",
+        "wang-zhen-ming"
+      ],
       "result": "明军大溃，英宗被俘",
       "aliases": [
-        "土木堡"
+        "土木堡",
+        "ming-tumu",
+        "土木堡之变"
       ],
       "dynasties": [
         "ming"
       ],
-      "desc": "正统十四年八月辛酉，明军次土木被围，壬戌师溃，死者数十万，英宗北狩。也先是瓦剌首领，词表没有瓦剌，交战方用 mongol，不写作元朝。北京保卫不并入本条。",
+      "desc": "正统十四年七月，瓦剌太师也先大举入寇，太监王振挟英宗亲征，八月辛酉次土木被围，壬戌师溃，死者数十万，英宗被俘北狩。败闻至京，侍讲徐珵请南迁，兵部侍郎于谦不可，皇太后命郕王监国。北京保卫战另列专条，不并入本条。",
       "sources": [
         {
           "work": "明史",
@@ -14185,6 +14247,11 @@
           "work": "明史",
           "part": "卷三百二十八",
           "note": "也先追及土木，六军大溃，帝蒙尘",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "卷三百四·宦官传",
           "kind": "classic"
         }
       ]

@@ -17,6 +17,8 @@ people:
   - chen-sheng
   - wu-guang
 result: 秦末民变开端，六国故地并起亡秦
+aliases:
+  - qin-daze
 sources:
   - work: 史记
     part: 陈涉世家

@@ -15,7 +15,14 @@ placeNow: 今山西大同东北
 belligerents:
   - han
   - xiongnu
+commanders:
+  - id: liu-bang
+    side: han
+  - id: mo-dun
+    side: xiongnu
 result: 汉军突围南还，汉匈关系转入以和亲和边境防御为主的阶段
+aliases:
+  - qian200-baideng
 sources:
   - work: 史记
     part: 高祖本纪、匈奴列传

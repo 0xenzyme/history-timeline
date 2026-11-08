@@ -18,7 +18,20 @@
     "han",
     "xiongnu"
   ],
+  "commanders": [
+    {
+      "id": "liu-bang",
+      "side": "han"
+    },
+    {
+      "id": "mo-dun",
+      "side": "xiongnu"
+    }
+  ],
   "result": "汉军突围南还，汉匈关系转入以和亲和边境防御为主的阶段",
+  "aliases": [
+    "qian200-baideng"
+  ],
   "dynasties": [
     "western-han"
   ],
@@ -38,6 +51,53 @@
   "contractVersion": 1,
   "children": [],
   "components": [],
-  "personRecords": [],
+  "personRecords": [
+    {
+      "id": "liu-bang",
+      "name": "刘邦",
+      "display": "汉高祖",
+      "birth": -256,
+      "birthAccuracy": "disputed",
+      "death": -195,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 256、前 247 两说",
+      "title": "西汉开国皇帝",
+      "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
+      "tags": [
+        "布衣天子"
+      ],
+      "categories": [
+        "founding"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "mo-dun",
+      "name": "冒顿单于",
+      "display": "冒顿单于",
+      "birthAccuracy": "unknown",
+      "death": -174,
+      "deathAccuracy": "approx",
+      "birthNote": "生年不详",
+      "title": "匈奴单于，鸣镝弑父自立，统一草原",
+      "bio": "头曼单于太子，以鸣镝射杀其父自立。东灭东胡，西逐月氏，南并楼烦、白羊，控弦三十余万。前 200 年围高帝于白登，汉自此以和亲与匈奴相处。",
+      "tags": [
+        "白登之围",
+        "和亲"
+      ],
+      "categories": [
+        "outsider"
+      ],
+      "polity": [
+        "xiongnu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "collections": []
 }

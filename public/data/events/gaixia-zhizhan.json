@@ -18,7 +18,23 @@
     "han",
     "chu-han"
   ],
+  "commanders": [
+    {
+      "id": "han-xin",
+      "side": "han"
+    },
+    {
+      "id": "xiang-yu",
+      "side": "chu-han"
+    }
+  ],
+  "people": [
+    "liu-bang"
+  ],
   "result": "楚军覆败，项羽自杀，楚汉战争结束",
+  "aliases": [
+    "qin-gaixia"
+  ],
   "dynasties": [
     "western-han"
   ],
@@ -31,13 +47,85 @@
     },
     {
       "work": "汉书",
-      "part": "高帝纪上",
+      "part": "高帝纪下",
       "kind": "classic"
     }
   ],
   "contractVersion": 1,
   "children": [],
   "components": [],
-  "personRecords": [],
+  "personRecords": [
+    {
+      "id": "liu-bang",
+      "name": "刘邦",
+      "display": "汉高祖",
+      "birth": -256,
+      "birthAccuracy": "disputed",
+      "death": -195,
+      "deathAccuracy": "exact",
+      "birthNote": "生年有前 256、前 247 两说",
+      "title": "西汉开国皇帝",
+      "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
+      "tags": [
+        "布衣天子"
+      ],
+      "categories": [
+        "founding"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "han-xin",
+      "name": "韩信",
+      "display": "韩信",
+      "birthAccuracy": "unknown",
+      "death": -196,
+      "deathAccuracy": "exact",
+      "title": "齐王、楚王，淮阴侯，死于长乐宫",
+      "bio": "淮阴人，胯下之辱起家。萧何追之，遂拜大将。破魏、代、赵、齐，垓下十面埋伏。先王齐、徙楚，再贬淮阴侯，终为吕后所杀。条只到汉初，死在最功高处。",
+      "tags": [
+        "楚汉",
+        "汉初"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xiang-yu",
+      "name": "项籍",
+      "display": "项羽",
+      "birth": -232,
+      "birthAccuracy": "approx",
+      "death": -202,
+      "deathAccuracy": "exact",
+      "birthNote": "《项羽本纪》：初起时年二十四。起兵在前 209 年，据此推生于前 232 年前后，史无明载。",
+      "title": "西楚霸王，巨鹿破秦，垓下自刎",
+      "bio": "下相人，字羽。巨鹿之战破釜沉舟，坑秦卒二十万，分封十八王而自称西楚霸王。楚汉四年，垓下兵败，自刎乌江。条只三十一年，压过整个秦汉之间。",
+      "tags": [
+        "秦末",
+        "楚汉",
+        "霸王"
+      ],
+      "categories": [
+        "general",
+        "hegemon"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "collections": []
 }

@@ -177,7 +177,23 @@
         "han",
         "chu-han"
       ],
+      "commanders": [
+        {
+          "id": "han-xin",
+          "side": "han"
+        },
+        {
+          "id": "xiang-yu",
+          "side": "chu-han"
+        }
+      ],
+      "people": [
+        "liu-bang"
+      ],
       "result": "楚军覆败，项羽自杀，楚汉战争结束",
+      "aliases": [
+        "qin-gaixia"
+      ],
       "dynasties": [
         "western-han"
       ],
@@ -190,7 +206,7 @@
         },
         {
           "work": "汉书",
-          "part": "高帝纪上",
+          "part": "高帝纪下",
           "kind": "classic"
         }
       ]
@@ -248,7 +264,20 @@
         "han",
         "xiongnu"
       ],
+      "commanders": [
+        {
+          "id": "liu-bang",
+          "side": "han"
+        },
+        {
+          "id": "mo-dun",
+          "side": "xiongnu"
+        }
+      ],
       "result": "汉军突围南还，汉匈关系转入以和亲和边境防御为主的阶段",
+      "aliases": [
+        "qian200-baideng"
+      ],
       "dynasties": [
         "western-han"
       ],

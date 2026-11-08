@@ -34,10 +34,14 @@
       "side": "qin"
     }
   ],
+  "people": [
+    "xiong-xin"
+  ],
   "result": "项羽破釜沉舟九战绝甬道，杀苏角、虏王离，涉间自焚；章邯寻降，秦军主力覆灭。",
   "aliases": [
     "鉅鹿之战",
-    "破釜沉舟"
+    "破釜沉舟",
+    "qin-julu"
   ],
   "dynasties": [
     "qin"
@@ -59,6 +63,28 @@
   "children": [],
   "components": [],
   "personRecords": [
+    {
+      "id": "xiong-xin",
+      "name": "熊心",
+      "display": "楚怀王",
+      "birthAccuracy": "unknown",
+      "death": -205,
+      "deathAccuracy": "exact",
+      "title": "楚怀王孙，义帝，为项羽所杀",
+      "bio": "楚怀王之孙，牧羊民间，项梁立之以收楚望。曾与诸将约「先入关中者王之」。项羽分封后尊为义帝，迁郴而阴令杀之。他这条被截断，给了刘邦出兵的名义。",
+      "tags": [
+        "秦末",
+        "楚"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
     {
       "id": "xiang-yu",
       "name": "项籍",

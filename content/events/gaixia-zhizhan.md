@@ -15,13 +15,22 @@ placeNow: 今安徽灵璧一带
 belligerents:
   - han
   - chu-han
+commanders:
+  - id: han-xin
+    side: han
+  - id: xiang-yu
+    side: chu-han
+people:
+  - liu-bang
 result: 楚军覆败，项羽自杀，楚汉战争结束
+aliases:
+  - qin-gaixia
 sources:
   - work: 史记
     part: 项羽本纪、高祖本纪
     kind: classic
   - work: 汉书
-    part: 高帝纪上
+    part: 高帝纪下
     kind: classic
 ---
 

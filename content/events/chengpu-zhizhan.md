@@ -25,6 +25,9 @@ people:
   - ji-chonger
   - hu-yan
   - xiong-yun
+result: 晋胜楚败，子玉自杀；周天子命晋侯为伯，晋文公称霸。
+aliases:
+  - chengpu
 sources:
   - work: 春秋左傳正義
     part: 卷15
