@@ -18,6 +18,76 @@ async function noOverflow(page: Page): Promise<void> {
   await assertNoHorizontalOverflow(page);
 }
 
+async function captureHeader(page: Page): Promise<Record<string, unknown>> {
+  return page.evaluate(() => {
+    const definitions: Array<{ name: string; selector: string; properties: string[] }> = [
+      {
+        name: 'header',
+        selector: '.lt-site-header',
+        properties: [
+          'height',
+          'min-height',
+          'padding',
+          'gap',
+          'font-size',
+          'line-height',
+          'background-image',
+          'border-bottom',
+        ],
+      },
+      { name: 'brand', selector: '.lt-brand', properties: ['font-size', 'line-height', 'font-family', 'color'] },
+      { name: 'tagline', selector: '.lt-brand-tagline', properties: ['display', 'font-size', 'line-height'] },
+      { name: 'nav', selector: '.lt-main-nav', properties: ['display', 'gap', 'font-size', 'line-height'] },
+      {
+        name: 'search',
+        selector: '#lt-global-query',
+        properties: [
+          'display',
+          'min-height',
+          'padding',
+          'border',
+          'border-radius',
+          'background-color',
+          'color',
+          'font-size',
+          'line-height',
+        ],
+      },
+      {
+        name: 'searchBox',
+        selector: '.lt-global-search-box',
+        properties: ['min-height', 'background-color', 'border', 'border-radius'],
+      },
+      {
+        name: 'menu',
+        selector: '.lt-menu-toggle',
+        properties: ['display', 'min-width', 'min-height', 'font-size', 'line-height'],
+      },
+      { name: 'tools', selector: '.lt-header-tools', properties: ['display'] },
+    ];
+    const shared: Record<string, unknown> = {};
+    for (const definition of definitions) {
+      const values: Record<string, string> = {};
+      const element = document.querySelector(definition.selector);
+      if (element) {
+        const computed = getComputedStyle(element);
+        for (const property of definition.properties) values[property] = computed.getPropertyValue(property);
+      }
+      shared[definition.name] = values;
+    }
+    for (const [name, selector] of [
+      ['headerBox', '.lt-site-header'],
+      ['brandBox', '.lt-brand'],
+    ]) {
+      const rect = document.querySelector(selector)?.getBoundingClientRect();
+      shared[name] = rect ? { x: rect.x, y: rect.y, width: rect.width, height: rect.height, right: rect.right } : {};
+    }
+    const placeholder = document.querySelector('#lt-global-query');
+    shared.placeholder = placeholder ? { color: getComputedStyle(placeholder, '::placeholder').color } : {};
+    return shared;
+  });
+}
+
 function launchOptions(): { executablePath?: string; headless: boolean; args: string[] } {
   return {
     executablePath:
@@ -181,6 +251,246 @@ test('M6 production 全站四视口、语义与自动化无障碍', { timeout: 1
   assert.deepEqual(errors, []);
 });
 
+test('M6 production 共享页头四视口一致且年表章节生效', { timeout: 120_000 }, async (context) => {
+  const server = previewServer();
+  let browser: Browser | undefined;
+  context.after(async () => {
+    await browser?.close();
+    server?.kill('SIGTERM');
+  });
+  await waitForServer();
+  browser = await chromium.launch(launchOptions());
+  const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+  const timeline = '/timeline?topic=tang&view=tianbao&person=li-bai&from=710&to=770';
+  for (const [width, height] of [
+    [1440, 900],
+    [768, 1024],
+    [390, 844],
+    [320, 568],
+  ] as const) {
+    await page.setViewportSize({ width, height });
+    await page.goto(`${origin}${timeline}`);
+    await ready(page, '.timeline-app #card.show');
+    const timelineHeader = await captureHeader(page);
+    await noOverflow(page);
+    await page.locator('#timeline-entity-list button[data-id="li-bai"]').waitFor({ state: 'attached' });
+    assert.equal(await page.locator('#timeline-entity-list button[data-id="li-bai"]').count(), 1);
+    assert.equal(
+      await page.locator('#timeline-entity-list button[data-id="li-chongmao"]').count(),
+      0,
+      '章节外但在时间窗内的人物不应混入当前章节',
+    );
+    assert.equal(await page.locator('.lt-menu-toggle').isVisible(), width < 1200);
+    assert.equal(await page.locator('.lt-main-nav').isVisible(), width >= 1200);
+    if (width < 1200) {
+      if (width < 768) await page.locator('#card-close').click();
+      await page.locator('.lt-menu-toggle').click();
+      const menuTop = await page.locator('#lt-site-menu').evaluate((element) => element.getBoundingClientRect().top);
+      const headerBottom = await page
+        .locator('.lt-site-header')
+        .evaluate((element) => element.getBoundingClientRect().bottom);
+      assert.equal(menuTop, headerBottom);
+      await page.keyboard.press('Escape');
+    }
+    await page.goto(`${origin}/people`);
+    await ready(page, '.lt-person-directory');
+    const peopleHeader = await captureHeader(page);
+    await noOverflow(page);
+    assert.deepEqual(peopleHeader, timelineHeader, `${width}px 年表与列传页头应共用同一计算样式`);
+    const headerBox = timelineHeader.headerBox as Record<string, number>;
+    assert.equal(headerBox.height, width < 768 ? 56 : 68);
+  }
+
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto(`${origin}${timeline}`);
+  await ready(page, '.timeline-app #card.show');
+  const actionVisible = await page.evaluate(() => {
+    const action = document.querySelector('[data-open-detail]')?.getBoundingClientRect();
+    const panel = document.querySelector('#card')?.getBoundingClientRect();
+    return Boolean(action && panel && action.top >= panel.top && action.bottom <= panel.bottom);
+  });
+  assert.equal(actionVisible, true, '桌面详情主操作必须固定在预览栏内');
+  const beforeDialog = page.url();
+  await page.locator('.lt-header-tools [data-settings-open]').click();
+  await page.keyboard.press('Escape');
+  assert.equal(
+    await page.locator('[data-settings-dialog]').evaluate((dialog) => (dialog as HTMLDialogElement).open),
+    false,
+  );
+  assert.equal(await page.locator('#card').getAttribute('class'), 'card lt-timeline-detail show');
+  assert.equal(page.url(), beforeDialog, '关闭设置不得清除年表选中状态');
+  await page.close();
+});
+
+test('M6 production Canvas 在 149% 缩放保持像素比', { timeout: 90_000 }, async (context) => {
+  const server = previewServer();
+  let browser: Browser | undefined;
+  context.after(async () => {
+    await browser?.close();
+    server?.kill('SIGTERM');
+  });
+  await waitForServer();
+  browser = await chromium.launch(launchOptions());
+  const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 });
+  const pageErrors: string[] = [];
+  page.on('pageerror', (error) => pageErrors.push(error.message));
+  await page.goto(`${origin}/timeline?topic=tang&view=overview&person=li-chun&from=630&to=870`);
+  await ready(page, '.timeline-app #card.show');
+  const client = await page.context().newCDPSession(page);
+  await client.send('Emulation.setPageScaleFactor', { pageScaleFactor: 1.49 });
+  await client.send('Emulation.setDeviceMetricsOverride', {
+    width: 1440,
+    height: 900,
+    deviceScaleFactor: 1.49,
+    mobile: false,
+  });
+  await page.waitForFunction(() => {
+    const canvas = document.querySelector('#chart') as HTMLCanvasElement;
+    const context = canvas.getContext('2d') as CanvasRenderingContext2D;
+    const stars = (document.querySelector('#stars') as HTMLCanvasElement).getContext('2d') as CanvasRenderingContext2D;
+    const ribbonCanvas = document.querySelector('#ribbon-canvas') as HTMLCanvasElement;
+    const ribbon = ribbonCanvas.getContext('2d') as CanvasRenderingContext2D;
+    return (
+      Math.abs(devicePixelRatio - 1.49) < 0.01 &&
+      Math.abs(canvas.width / canvas.clientWidth - devicePixelRatio) < 0.02 &&
+      Math.abs(context.getTransform().a - devicePixelRatio) < 0.01 &&
+      Math.abs(stars.getTransform().a - devicePixelRatio) < 0.01 &&
+      (ribbonCanvas.parentElement!.clientWidth === 0 || Math.abs(ribbon.getTransform().a - devicePixelRatio) < 0.01)
+    );
+  });
+  const metrics = await page.evaluate(() => {
+    const canvas = document.querySelector('#chart') as HTMLCanvasElement;
+    const context = canvas.getContext('2d') as CanvasRenderingContext2D;
+    return {
+      dpr: devicePixelRatio,
+      cssWidth: canvas.clientWidth,
+      cssHeight: canvas.clientHeight,
+      backingWidth: canvas.width,
+      backingHeight: canvas.height,
+      transform: context.getTransform().a,
+      transformD: context.getTransform().d,
+      starsWidth: (document.querySelector('#stars') as HTMLCanvasElement).width,
+      expectedStarsWidth: Math.round(innerWidth * devicePixelRatio),
+      starsTransformD: (document.querySelector('#stars') as HTMLCanvasElement).getContext('2d')?.getTransform().d,
+      ribbonWidth: (document.querySelector('#ribbon-canvas') as HTMLCanvasElement).width,
+      expectedRibbonWidth: Math.round(
+        (document.querySelector('#ribbon-canvas') as HTMLCanvasElement).parentElement!.clientWidth * devicePixelRatio,
+      ),
+      ribbonTransformD: (document.querySelector('#ribbon-canvas') as HTMLCanvasElement).getContext('2d')?.getTransform()
+        .d,
+    };
+  });
+  assert.ok(Math.abs(metrics.dpr - 1.49) < 0.01, JSON.stringify(metrics));
+  assert.ok(Math.abs(metrics.backingWidth / metrics.cssWidth - metrics.dpr) < 0.02, JSON.stringify(metrics));
+  assert.ok(Math.abs(metrics.transform - metrics.dpr) < 0.01, JSON.stringify(metrics));
+  assert.ok(Math.abs(metrics.backingHeight / metrics.cssHeight - metrics.dpr) < 0.02, JSON.stringify(metrics));
+  assert.ok(Math.abs((metrics.transformD as number) - metrics.dpr) < 0.01, JSON.stringify(metrics));
+  assert.equal(metrics.starsWidth, metrics.expectedStarsWidth);
+  assert.equal(metrics.starsTransformD, metrics.dpr);
+  assert.equal(metrics.ribbonWidth, metrics.expectedRibbonWidth);
+  if (metrics.expectedRibbonWidth > 0) assert.equal(metrics.ribbonTransformD, metrics.dpr);
+  await page.screenshot({ path: join(screenshotDir, 'm6-timeline-zoom-149.png') });
+
+  await client.send('Emulation.setPageScaleFactor', { pageScaleFactor: 1 });
+  await client.send('Emulation.setDeviceMetricsOverride', {
+    width: 1440,
+    height: 900,
+    deviceScaleFactor: 1,
+    mobile: false,
+  });
+  await page.waitForFunction(() => {
+    const canvas = document.querySelector('#chart') as HTMLCanvasElement;
+    const context = canvas.getContext('2d') as CanvasRenderingContext2D;
+    return Math.abs(canvas.width / canvas.clientWidth - 1) < 0.01 && context.getTransform().a === 1;
+  });
+  assert.deepEqual(pageErrors, []);
+  await page.close();
+});
+
+test('M6 production 年表移动焦点闭环与筛选抽屉', { timeout: 90_000 }, async (context) => {
+  const server = previewServer();
+  let browser: Browser | undefined;
+  context.after(async () => {
+    await browser?.close();
+    server?.kill('SIGTERM');
+  });
+  await waitForServer();
+  browser = await chromium.launch(launchOptions());
+  const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  await page.goto(`${origin}/timeline?topic=tang&view=tianbao&person=li-bai&from=710&to=770`);
+  await ready(page, '.timeline-app #card.show');
+  assert.equal(await page.locator('#card').getAttribute('aria-modal'), 'true');
+  for (let index = 0; index < 4; index += 1) {
+    await page.keyboard.press('Tab');
+    assert.equal(
+      await page.evaluate(() => document.querySelector('#card')?.contains(document.activeElement)),
+      true,
+      '移动预览的 Tab 不得进入背景',
+    );
+  }
+  await page.keyboard.press('Escape');
+  assert.equal(await page.locator('#card').getAttribute('aria-modal'), null);
+  assert.equal(await page.locator('#lane-panel').evaluate((panel) => (panel as HTMLElement).inert), true);
+  assert.equal(await page.locator('#lane-panel').getAttribute('aria-hidden'), 'true');
+  assert.equal(await page.locator('#btn-filter-toggle').getAttribute('aria-expanded'), 'false');
+  await page.locator('#btn-filter-toggle').click();
+  assert.equal(await page.locator('#lane-panel').evaluate((panel) => (panel as HTMLElement).inert), false);
+  assert.equal(await page.locator('#btn-filter-toggle').getAttribute('aria-expanded'), 'true');
+  assert.equal(await page.evaluate(() => document.activeElement?.id), 'search');
+  await page.keyboard.press('Escape');
+  assert.equal(await page.locator('#lane-panel').getAttribute('aria-hidden'), 'true');
+  assert.equal(await page.evaluate(() => document.activeElement?.id), 'btn-filter-toggle');
+
+  await page.goto(`${origin}/people`);
+  await ready(page, '.lt-person-directory');
+  await page.locator('[data-site-menu]').click();
+  await page.locator('#lt-site-menu [data-settings-open]').click();
+  await page.keyboard.press('Escape');
+  assert.equal(
+    await page.locator('[data-settings-dialog]').evaluate((dialog) => (dialog as HTMLDialogElement).open),
+    false,
+  );
+  assert.equal(await page.locator('#lt-site-menu').isVisible(), true);
+  assert.equal(await page.evaluate(() => document.activeElement?.hasAttribute('data-settings-open')), true);
+  await page.keyboard.press('Escape');
+  assert.equal(await page.locator('#lt-site-menu').isHidden(), true);
+  assert.equal(await page.evaluate(() => document.activeElement?.hasAttribute('data-site-menu')), true);
+  await page.close();
+});
+
+test('M6 production 年表实体焦点与选中行定位', { timeout: 90_000 }, async (context) => {
+  const server = previewServer();
+  let browser: Browser | undefined;
+  context.after(async () => {
+    await browser?.close();
+    server?.kill('SIGTERM');
+  });
+  await waitForServer();
+  browser = await chromium.launch(launchOptions());
+  const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+  await page.goto(`${origin}/timeline?topic=tang&view=overview&from=566&to=907`);
+  await ready(page, '.timeline-app #chart');
+  await page.locator('#timeline-accessible-entities summary').click();
+  const first = page.locator('#timeline-entity-list button[data-id="li-yuan"]');
+  await first.waitFor({ state: 'visible' });
+  await first.focus();
+  await page.keyboard.press('+');
+  await page.waitForTimeout(180);
+  assert.equal(await page.evaluate(() => document.activeElement?.getAttribute('data-id')), 'li-yuan');
+
+  await page.setViewportSize({ width: 1000, height: 650 });
+  await page.goto(`${origin}/timeline?topic=han&view=hanchu`);
+  await ready(page, '.timeline-app #chart');
+  await page.locator('#timeline-accessible-entities summary').click();
+  const target = page.locator('#timeline-entity-list button[data-id="liu-qi"]');
+  await target.waitFor({ state: 'visible' });
+  await target.click();
+  await ready(page, '.timeline-app #card.show');
+  const scroll = Number(new URL(page.url()).searchParams.get('scroll') ?? '0');
+  assert.ok(scroll > 0, '合并人物区中靠后的选中行必须滚动到可见范围');
+  await page.close();
+});
+
 test('M6 production 移动导航、键盘、缩放和快速导航', { timeout: 90_000 }, async (context) => {
   const server = previewServer();
   let browser: Browser | undefined;
@@ -199,6 +509,10 @@ test('M6 production 移动导航、键盘、缩放和快速导航', { timeout: 9
   assert.equal(await page.evaluate(() => document.activeElement?.textContent), '首页');
   for (let index = 0; index < 5; index += 1) await page.keyboard.press('Tab');
   assert.equal(await page.evaluate(() => document.activeElement?.textContent), '断代');
+  await page.keyboard.press('Tab');
+  assert.equal(await page.evaluate(() => document.activeElement?.textContent), '操作说明');
+  await page.keyboard.press('Tab');
+  assert.equal(await page.evaluate(() => document.activeElement?.textContent), '设置');
   await page.keyboard.press('Tab');
   assert.equal(
     await page.evaluate(() => document.activeElement?.hasAttribute('data-site-menu')),

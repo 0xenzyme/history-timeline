@@ -3,12 +3,15 @@ import test from 'node:test';
 
 import {
   BAR_H,
+  LARGE_ROW_PITCH,
   LANE_PAD_B,
   LANE_TITLE_H,
   barTop,
+  buildCombinedLayout,
   buildEventLayout,
   buildPeopleLayout,
   layoutHeight,
+  topicPeopleForView,
 } from '../src/app/layout';
 import { event, person, topic } from './fixtures';
 
@@ -170,4 +173,90 @@ test('layoutHeight 取最后一条泳道的底部', () => {
   assert.equal(layoutHeight([]), 0);
   const lanes = buildPeopleLayout(topic(), new Set(), PITCH);
   assert.equal(layoutHeight(lanes), lanes[0].y + lanes[0].height);
+});
+
+test('章节 people 明确限制人物编排，无名单章节保留全量', () => {
+  const scoped = topic({
+    people: [person({ id: 'a', birth: -100, death: -50 }), person({ id: 'b', birth: -40, death: -10 })],
+    views: [
+      { id: 'all', name: '全览', from: -100, to: 0 },
+      { id: 'focused', name: '精选', from: -100, to: 0, people: ['b'] },
+    ],
+  });
+  assert.deepEqual(
+    topicPeopleForView(scoped, 'focused').map((item) => item.id),
+    ['b'],
+  );
+  assert.deepEqual(
+    topicPeopleForView(scoped, 'all').map((item) => item.id),
+    ['a', 'b'],
+  );
+});
+
+test('合并布局按章节和时间窗过滤，并保留三类顶级分区', () => {
+  const scoped = topic({
+    people: [person({ id: 'outside', birth: -200, death: -150 }), person({ id: 'inside', birth: 50, death: 80 })],
+    views: [{ id: 'focused', name: '精选', from: 0, to: 100, people: ['inside', 'outside'] }],
+  });
+  const lanes = buildCombinedLayout(
+    scoped,
+    [
+      event({ id: 'war', type: 'military', year: 60 }),
+      event({ id: 'history', type: 'political', year: 70 }),
+      event({ id: 'outside-event', type: 'military', year: 200 }),
+    ],
+    new Set(),
+    { people: true, war: true, history: true },
+    BAR_H + 4,
+    { viewId: 'focused', domain: [0, 100] },
+  );
+  assert.deepEqual(
+    lanes.map((lane) => lane.id),
+    ['people', 'war', 'history'],
+  );
+  assert.deepEqual(
+    lanes[0].items.map((item) => item.id),
+    ['inside'],
+  );
+  assert.equal(lanes[0].name, '人物（生卒年）');
+  assert.equal(lanes[0].items[0].kind, 'person');
+  assert.equal(lanes[0].items[0].color, '#111111');
+  assert.deepEqual(
+    lanes[1].items.map((item) => item.id),
+    ['war'],
+  );
+  assert.deepEqual(
+    lanes[2].items.map((item) => item.id),
+    ['history'],
+  );
+});
+
+test('大行模式一人一行，密条继续打包不重叠人物', () => {
+  const scoped = topic({
+    people: [person({ id: 'a', birth: -100, death: -50 }), person({ id: 'b', birth: -40, death: -10 })],
+  });
+  const large = buildCombinedLayout(
+    scoped,
+    [],
+    new Set(),
+    { people: true, war: false, history: false },
+    LARGE_ROW_PITCH,
+    {
+      domain: [-200, 0],
+      largeRows: true,
+    },
+  );
+  assert.equal(large[0].presentation, 'large');
+  assert.equal(large[0].rows, 2);
+  assert.deepEqual(
+    large[0].items.map((item) => item.row),
+    [0, 1],
+  );
+
+  const dense = buildCombinedLayout(scoped, [], new Set(), { people: true, war: false, history: false }, BAR_H + 4, {
+    domain: [-200, 0],
+    largeRows: false,
+  });
+  assert.equal(dense[0].presentation, 'dense');
+  assert.equal(dense[0].rows, 1);
 });

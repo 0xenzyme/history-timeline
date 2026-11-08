@@ -48,7 +48,12 @@ function chips(items: string[]): string {
 }
 
 function link(kind: 'person' | 'event', id: string, text: string): string {
-  return `<span class="card-link" data-kind="${kind}" data-id="${esc(id)}">${esc(text)}</span>`;
+  // 人物链接附水墨意象头像，缺图时保留首字 monogram。
+  const portrait =
+    kind === 'person'
+      ? `<span class="lt-portrait-thumb" data-person-image="${esc(id)}" data-person-image-size="400" aria-hidden="true">${esc(text.slice(0, 1))}</span>`
+      : '';
+  return `<span class="card-link" data-kind="${kind}" data-id="${esc(id)}">${portrait}${esc(text)}</span>`;
 }
 
 export function resolvePerson(ctx: CardContext, id: string): PersonView | null {
@@ -115,6 +120,7 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
   const moreEvents = (library.eventsByPerson.get(id) ?? []).length - events.length;
 
   return `
+    <div class="card-media card-media-person"><span class="card-portrait" data-person-image="${esc(id)}" data-person-image-size="400" aria-hidden="true">${esc((person.display || person.name).slice(0, 1))}</span></div>
     <div class="card-kicker">${esc(kicker)}</div>
     <div class="card-title">${esc(person.display || person.name)}</div>
     ${person.title ? `<div class="card-sub">${esc(person.title)}</div>` : ''}

@@ -104,7 +104,7 @@ function eraOverview(era: EraDetail): string {
     ? `<div class="lt-era-people">${era.people
         .map(
           (person) =>
-            `<article><span class="lt-era-person-seal" aria-hidden="true">${escapeHtml(personMonogram(person))}</span>${entityLink('person', person.id, person.display || person.name)}</article>`,
+            `<article><span class="lt-era-person-seal" data-person-image="${escapeHtml(person.id)}" data-person-image-size="400" aria-hidden="true">${escapeHtml(personMonogram(person))}</span>${entityLink('person', person.id, person.display || person.name)}</article>`,
         )
         .join('')}</div>`
     : '<p>尚无对应专题人物。</p>';

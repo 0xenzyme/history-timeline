@@ -4,7 +4,8 @@
  */
 
 import { renderEventCard, renderPersonCard, type CardContext } from './cards';
-import { BAR_H, ROW_GAP, buildEventLayout } from './layout';
+import { mountPortraits } from '../site/portrait';
+import { BAR_H, ROW_GAP, buildEventLayout, topicPeopleForView } from './layout';
 import { SKINS, TYPE_NAMES, invalidatePalette, paletteFor, skinColor, type SkinId } from './skins';
 import { esc, fmtYear } from './util';
 import { draw, resetNebula, skinPalette, visibleEvents } from './render';
@@ -21,6 +22,55 @@ function cardContext(): CardContext {
   };
 }
 
+const MODAL_BACKGROUND = [
+  '#site-header-mount',
+  '.lt-timeline-hero',
+  '.lt-skip-link[data-timeline-only]',
+  '#lane-panel',
+  '.lt-timeline-center',
+  '.lt-dynasty-band',
+];
+
+/** 移动预览是对话框：背景不可交互，桌面固定栏不改变页面可操作性。 */
+export function syncCardModal(): void {
+  const modal = window.innerWidth < 768 && dom.card.classList.contains('show');
+  if (modal) {
+    document.getElementById('lane-panel')?.classList.remove('open');
+    dom.card.setAttribute('role', 'dialog');
+    dom.card.setAttribute('aria-modal', 'true');
+  } else {
+    dom.card.removeAttribute('role');
+    dom.card.removeAttribute('aria-modal');
+  }
+  document.querySelectorAll<HTMLElement>(MODAL_BACKGROUND.join(',')).forEach((element) => {
+    element.inert = modal;
+  });
+}
+
+export function trapCardFocus(event: KeyboardEvent): void {
+  if (event.key !== 'Tab' || dom.card.getAttribute('aria-modal') !== 'true') return;
+  const focusable = [
+    ...dom.card.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'),
+  ].filter((element) => element.getClientRects().length > 0 && !element.closest('[inert]'));
+  const first = focusable[0];
+  const last = focusable.at(-1);
+  if (!first || !last) {
+    event.preventDefault();
+    dom.card.querySelector<HTMLElement>('.card-title')?.focus();
+    return;
+  }
+  const active = document.activeElement;
+  const activeOutside = !dom.card.contains(active);
+  const activeTitle = active instanceof HTMLElement && active.classList.contains('card-title');
+  if (event.shiftKey && (active === first || activeOutside || activeTitle)) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && (active === last || activeOutside || activeTitle)) {
+    event.preventDefault();
+    first.focus();
+  }
+}
+
 export function showCard(selection: Selection): void {
   const trigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   dom.card.dataset.triggerId = trigger?.dataset.id ?? '';
@@ -33,20 +83,18 @@ export function showCard(selection: Selection): void {
     if (!event) return;
     dom.cardBody.innerHTML = renderEventCard(context, event);
   }
+  dom.cardActions.replaceChildren();
+  const actions = dom.cardBody.querySelector<HTMLElement>('.card-actions');
+  if (actions) dom.cardActions.append(actions);
   // 卡片与选中态必须同时成立：setTopic / setLine 会清掉 selected，这里重新对齐。
   state.selected = selection;
   dom.card.classList.add('show');
+  mountPortraits(dom.cardBody);
   getHooks().syncTimelineUrl();
-  if (window.innerWidth < 768) {
-    dom.card.setAttribute('role', 'dialog');
-    dom.card.setAttribute('aria-modal', 'true');
-  } else {
-    dom.card.removeAttribute('role');
-    dom.card.removeAttribute('aria-modal');
-  }
+  syncCardModal();
   dom.card.querySelector<HTMLElement>('.card-title')?.setAttribute('tabindex', '-1');
   dom.card.querySelector<HTMLElement>('.card-title')?.focus({ preventScroll: true });
-  const detailButton = dom.cardBody.querySelector<HTMLAnchorElement>('[data-open-detail]');
+  const detailButton = dom.cardActions.querySelector<HTMLAnchorElement>('[data-open-detail]');
   if (detailButton) {
     detailButton.dataset.entityKind = selection.kind;
     detailButton.dataset.entityId = selection.id;
@@ -59,16 +107,21 @@ export function hideCard(): void {
   );
   dom.card.classList.remove('show');
   dom.cardBody.innerHTML = '';
+  dom.cardActions.replaceChildren();
+  syncCardModal();
   state.selected = null;
   announce('已关闭详情');
   getHooks().syncTimelineUrl();
   draw();
-  trigger?.focus({ preventScroll: true });
+  if (trigger) trigger.focus({ preventScroll: true });
+  else dom.canvas.focus({ preventScroll: true });
 }
 
 export function hideCardSilent(): void {
   dom.card.classList.remove('show');
   dom.cardBody.innerHTML = '';
+  dom.cardActions.replaceChildren();
+  syncCardModal();
   state.selected = null;
 }
 
@@ -94,7 +147,7 @@ export function buildLanePanel(): void {
         id: lane.id,
         name: lane.name,
         color: lane.color,
-        count: state.topic.people.filter((person) => person.lane === lane.id).length,
+        count: topicPeopleForView(state.topic, state.viewId).filter((person) => person.lane === lane.id).length,
       });
     }
   } else if (state.line !== 'people') {
@@ -125,7 +178,7 @@ export function buildLanePanel(): void {
         views
           .map(
             (view) =>
-              `<button type="button" class="lane-chapter" data-view="${esc(view.id)}">${esc(view.name)}</button>`,
+              `<button type="button" class="lane-chapter" data-view="${esc(view.id)}" ${view.id === state.viewId ? 'aria-current="true"' : ''}>${esc(view.name)}</button>`,
           )
           .join('');
 }

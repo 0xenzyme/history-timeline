@@ -4,15 +4,18 @@
  */
 
 import { zoomBy } from './interaction';
-import { topicForDynasty } from './model';
-import { draw, fullSpan } from './render';
+import { topicPeopleForView } from './layout';
+import { topicForDynasty, topicRange } from './model';
+import { draw, fullSpan, visibleEvents } from './render';
 import { getHooks, state } from './runtime';
-import { esc, fmtYear } from './util';
+import { esc, fmtYear, personFrom, personTo } from './util';
 
 /** 每次 draw 后由 app hooks 调用：场景头、朝代高亮与缩放读数跟随状态。 */
 export function syncWorkspaceChrome(): void {
+  syncFilterDrawer();
   syncTopicHead();
   syncDynastyHighlight();
+  syncGroupCounts();
   const zoom = document.getElementById('zoom-level');
   if (zoom) {
     const full = fullSpan();
@@ -23,17 +26,42 @@ export function syncWorkspaceChrome(): void {
   }
 }
 
+function syncGroupCounts(): void {
+  const [d0, d1] = state.domain;
+  const people = state.topic
+    ? topicPeopleForView(state.topic, state.viewId).filter(
+        (person) =>
+          !state.hiddenLanes.has(`lane:${person.lane}`) &&
+          personTo(person.birth, person.death) >= d0 &&
+          personFrom(person.birth, person.death) <= d1,
+      ).length
+    : 0;
+  const events = visibleEvents().filter((event) => event.year <= d1 && (event.endYear ?? event.year) >= d0);
+  const counts = {
+    people,
+    war: events.filter((event) => event.type === 'military' || event.type === 'rebellion').length,
+    history: events.filter((event) => !['military', 'rebellion'].includes(event.type)).length,
+  };
+  for (const [key, count] of Object.entries(counts)) {
+    const element = document.querySelector<HTMLElement>(`[data-group-count="${key}"]`);
+    if (element) element.textContent = `（${count}）`;
+  }
+}
+
 function syncTopicHead(): void {
   const head = document.getElementById('topic-head');
   if (!head) return;
   const topics = state.library.topics;
   const index = topics.findIndex((topic) => topic.id === state.topicId);
-  const prevName = index > 0 ? topics[index - 1].title : '';
-  const nextName = index >= 0 && index < topics.length - 1 ? topics[index + 1].title : '';
+  const side = (entry: (typeof topics)[number] | undefined): string => {
+    if (!entry) return '';
+    const range = topicRange(state.library, entry);
+    return `<span class="lt-topic-side"><span>${esc(entry.title)}</span>${range ? `<small>${fmtYear(range[0])} — ${fmtYear(range[1])}</small>` : ''}</span>`;
+  };
   if (state.line === 'people') {
     const title = state.topic?.meta.title ?? topics[index]?.title ?? '';
     const range = state.topic?.meta.range;
-    head.innerHTML = `${prevName ? `<span class="lt-topic-side">${esc(prevName)}</span>` : ''}<span class="lt-topic-name">${esc(title)}</span>${nextName ? `<span class="lt-topic-side">${esc(nextName)}</span>` : ''}${range ? `<span class="lt-topic-range">${fmtYear(range[0])} — ${fmtYear(range[1])}</span>` : ''}`;
+    head.innerHTML = `${side(index > 0 ? topics[index - 1] : undefined)}<span class="lt-topic-name">${esc(title)}</span>${side(index >= 0 && index < topics.length - 1 ? topics[index + 1] : undefined)}${range ? `<span class="lt-topic-range">${fmtYear(range[0])} — ${fmtYear(range[1])}</span>` : ''}`;
   } else {
     const line = state.library.lines[state.line];
     head.innerHTML = `<span class="lt-topic-name">${esc(line.title)}</span><span class="lt-topic-range">${fmtYear(line.range[0])} — ${fmtYear(line.range[1])}</span>`;
@@ -86,6 +114,29 @@ function syncDynastyHighlight(): void {
       if (current) button.scrollIntoView({ block: 'nearest', inline: 'nearest' });
     }
   });
+}
+
+function syncFilterDrawer(): void {
+  const panel = document.getElementById('lane-panel');
+  const toggle = document.getElementById('btn-filter-toggle');
+  if (!panel || !toggle) return;
+  const compact = window.innerWidth < 1200;
+  const open = compact && panel.classList.contains('open');
+  if (!compact) panel.classList.remove('open');
+  panel.inert = compact && !open;
+  if (compact) panel.setAttribute('aria-hidden', String(!open));
+  else panel.removeAttribute('aria-hidden');
+  toggle.setAttribute('aria-expanded', String(open));
+}
+
+function setFilterDrawer(open: boolean, restoreFocus = false): void {
+  const panel = document.getElementById('lane-panel');
+  const toggle = document.getElementById('btn-filter-toggle');
+  if (!panel || !toggle) return;
+  panel.classList.toggle('open', open);
+  syncFilterDrawer();
+  if (open) panel.querySelector<HTMLInputElement>('#search')?.focus();
+  else if (restoreFocus) toggle.focus();
 }
 
 async function jumpToTopic(topicId: string): Promise<void> {
@@ -162,11 +213,18 @@ export function wireWorkspace(onExport: (format: 'png' | 'svg') => void, onReset
   const filterPanel = document.getElementById('lane-panel');
   document.getElementById('btn-filter-toggle')?.addEventListener('click', (event) => {
     event.stopPropagation();
-    filterPanel?.classList.toggle('open');
+    setFilterDrawer(!filterPanel?.classList.contains('open'));
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !filterPanel?.classList.contains('open')) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    setFilterDrawer(false, true);
   });
   document.addEventListener('pointerdown', (event) => {
     if (!filterPanel?.classList.contains('open')) return;
     const target = event.target as HTMLElement;
-    if (!target.closest('#lane-panel') && !target.closest('#btn-filter-toggle')) filterPanel.classList.remove('open');
+    if (!target.closest('#lane-panel') && !target.closest('#btn-filter-toggle')) setFilterDrawer(false);
   });
+  syncFilterDrawer();
 }

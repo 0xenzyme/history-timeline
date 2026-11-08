@@ -6,7 +6,11 @@
       "kind": "banner",
       "usage": "年表页顶部主横幅",
       "src": "/media/banners/banner-timeline-2000.webp",
-      "variants": [768, 1440, 2000],
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
       "sourceFile": "temp/assets/banner-timeline.png",
       "alt": "",
       "decorative": true,
@@ -21,7 +25,11 @@
       "kind": "banner",
       "usage": "首页 hero 背景",
       "src": "/media/banners/banner-home-2000.webp",
-      "variants": [768, 1440, 2000],
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
       "sourceFile": "temp/assets/banner-home.png",
       "alt": "",
       "decorative": true,
@@ -36,7 +44,11 @@
       "kind": "banner",
       "usage": "列传目录装饰带",
       "src": "/media/banners/banner-people-2000.webp",
-      "variants": [768, 1440, 2000],
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
       "sourceFile": "temp/assets/banner-people.png",
       "alt": "",
       "decorative": true,
@@ -51,7 +63,11 @@
       "kind": "banner",
       "usage": "纪事目录装饰带",
       "src": "/media/banners/banner-events-2000.webp",
-      "variants": [768, 1440, 2000],
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
       "sourceFile": "temp/assets/banner-events.png",
       "alt": "",
       "decorative": true,
@@ -66,7 +82,11 @@
       "kind": "banner",
       "usage": "群像目录装饰带",
       "src": "/media/banners/banner-collections-2000.webp",
-      "variants": [768, 1440, 2000],
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
       "sourceFile": "temp/assets/banner-collections.png",
       "alt": "",
       "decorative": true,
@@ -81,7 +101,11 @@
       "kind": "banner",
       "usage": "断代目录与朝代详情装饰带",
       "src": "/media/banners/banner-eras-2000.webp",
-      "variants": [768, 1440, 2000],
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
       "sourceFile": "temp/assets/banner-eras.png",
       "alt": "",
       "decorative": true,
@@ -96,7 +120,11 @@
       "kind": "banner",
       "usage": "安史之乱事件详情横幅",
       "src": "/media/banners/banner-event-anshi-2000.webp",
-      "variants": [768, 1440, 2000],
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
       "sourceFile": "temp/assets/banner-event-anshi.png",
       "alt": "",
       "decorative": true,
@@ -104,6 +132,329 @@
       "provenance": "ai-generated",
       "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
       "modifications": "缩放至 768/1440/2000px 宽，WebP q82",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-li-bai",
+      "kind": "person",
+      "entityId": "li-bai",
+      "usage": "李白水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/li-bai-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/li-bai.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-du-fu",
+      "kind": "person",
+      "entityId": "du-fu",
+      "usage": "杜甫水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/du-fu-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/du-fu.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-li-long-ji",
+      "kind": "person",
+      "entityId": "li-long-ji",
+      "usage": "唐玄宗水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/li-long-ji-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/li-long-ji.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-yang-yu-huan",
+      "kind": "person",
+      "entityId": "yang-yu-huan",
+      "usage": "杨贵妃水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/yang-yu-huan-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/yang-yu-huan.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-an-lu-shan",
+      "kind": "person",
+      "entityId": "an-lu-shan",
+      "usage": "安禄山水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/an-lu-shan-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/an-lu-shan.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-shi-si-ming",
+      "kind": "person",
+      "entityId": "shi-si-ming",
+      "usage": "史思明水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/shi-si-ming-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/shi-si-ming.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-guo-zi-yi",
+      "kind": "person",
+      "entityId": "guo-zi-yi",
+      "usage": "郭子仪水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/guo-zi-yi-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/guo-zi-yi.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-li-guang-bi",
+      "kind": "person",
+      "entityId": "li-guang-bi",
+      "usage": "李光弼水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/li-guang-bi-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/li-guang-bi.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-ge-shu-han",
+      "kind": "person",
+      "entityId": "ge-shu-han",
+      "usage": "哥舒翰水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/ge-shu-han-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/ge-shu-han.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-zhang-xun",
+      "kind": "person",
+      "entityId": "zhang-xun",
+      "usage": "张巡水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/zhang-xun-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/zhang-xun.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-li-yuan",
+      "kind": "person",
+      "entityId": "li-yuan",
+      "usage": "李渊水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/li-yuan-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/li-yuan.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-li-shimin",
+      "kind": "person",
+      "entityId": "li-shimin",
+      "usage": "李世民水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/li-shimin-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/li-shimin.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-wu-zetian",
+      "kind": "person",
+      "entityId": "wu-zetian",
+      "usage": "武则天水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/wu-zetian-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/wu-zetian.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-kong-zi",
+      "kind": "person",
+      "entityId": "kong-zi",
+      "usage": "孔子水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/kong-zi-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/kong-zi.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-meng-zi",
+      "kind": "person",
+      "entityId": "meng-zi",
+      "usage": "孟子水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/meng-zi-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/meng-zi.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "person-zhu-xi",
+      "kind": "person",
+      "entityId": "zhu-xi",
+      "usage": "朱熹水墨意象肖像（人物详情身份卡、目录卡、关联头像）",
+      "src": "/media/people/zhu-xi-800.webp",
+      "variants": [
+        400,
+        800
+      ],
+      "sourceFile": "temp/assets/people/zhu-xi.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（水墨意象肖像，非真实画像，不作为史实外貌依据）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 400×500 / 800×1000，WebP q84",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "collection-rujia-chuancheng-cover",
+      "kind": "collection-cover",
+      "entityId": "rujia-chuancheng",
+      "usage": "儒家传承系列封面",
+      "src": "/media/collections/rujia-chuancheng-960.webp",
+      "variants": [
+        480,
+        960
+      ],
+      "sourceFile": "temp/assets/collections/rujia-chuancheng.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（现代插画，非历史图像）",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "modifications": "缩放至 480×270 / 960×540，WebP q84",
       "reviewStatus": "approved"
     }
   ]

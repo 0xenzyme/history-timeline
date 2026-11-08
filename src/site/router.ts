@@ -10,6 +10,7 @@ import type { CollectionView } from '../types';
 import { renderSiteHeader, wireSiteMenu, type SiteSection } from './navigation';
 import { wireHeaderTools } from './header-tools';
 import { personPage } from './person';
+import { mountPortraits } from './portrait';
 import { searchPage, type SearchKind } from './search';
 import { navigateToTimeline, openSiteUrl, wireEntityLinks, wireReturnLinks, wireSiteLinks } from './context';
 
@@ -287,14 +288,7 @@ export async function renderSiteRoute(): Promise<void> {
         void renderSiteRoute();
       });
     });
-    root.querySelectorAll<HTMLElement>('[data-person-image]').forEach((placeholder) => {
-      const image = new Image();
-      image.alt = '';
-      image.className = 'lt-person-portrait';
-      image.addEventListener('error', () => image.remove());
-      image.src = `/media/people/${placeholder.dataset.personImage}.webp`;
-      placeholder.append(image);
-    });
+    mountPortraits(root);
     root.querySelectorAll<HTMLImageElement>('[data-collection-cover]').forEach((image) => {
       image.addEventListener('error', () => {
         image.remove();

@@ -2759,7 +2759,8 @@ body:not(.timeline-app) :focus-visible {
 
 /* 路由完成后程序化聚焦的页标题只是屏幕阅读器定位目标，不是交互控件。
    不绘制焦点外框；链接、按钮等真实控件的 :focus-visible 不受影响。 */
-h1[tabindex='-1']:focus {
+h1[tabindex='-1']:focus,
+.card-title[tabindex='-1']:focus {
   outline: none;
 }
 
@@ -2790,11 +2791,14 @@ body.timeline-app .ribbon :focus-visible {
   display: flex;
   align-items: center;
   gap: 24px;
+  height: 68px;
   min-height: 68px;
   padding: 8px max(16px, calc((100vw - 1376px) / 2));
   border-bottom: 1px solid rgb(207 155 83 / 45%);
   background: linear-gradient(180deg, #2a1e16, var(--lt-wood));
   color: var(--lt-wood-text);
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .lt-brand {
@@ -2852,7 +2856,7 @@ body.timeline-app .ribbon :focus-visible {
     display: none;
   }
 
-  .lt-menu-toggle {
+  .lt-site-header .lt-menu-toggle {
     display: block;
     min-width: 52px;
     min-height: 44px;
@@ -2972,7 +2976,7 @@ body.timeline-app .ribbon :focus-visible {
 }
 
 /* 顶栏搜索框是深木底控件，优先级必须高于通用纸面 input 规则（含两个 :not）。 */
-body:not(.timeline-app) .lt-site-header .lt-global-search input {
+.lt-site-header #lt-global-query {
   width: 100%;
   min-width: 0;
   min-height: 38px;
@@ -2985,11 +2989,11 @@ body:not(.timeline-app) .lt-site-header .lt-global-search input {
   font-size: 14px;
 }
 
-body:not(.timeline-app) .lt-site-header .lt-global-search input::placeholder {
+.lt-site-header #lt-global-query::placeholder {
   color: rgb(234 213 183 / 60%);
 }
 
-body:not(.timeline-app) .lt-site-header .lt-global-search input:focus-visible {
+.lt-site-header #lt-global-query:focus-visible {
   outline-offset: -2px;
 }
 
@@ -3648,6 +3652,21 @@ body.timeline-app .card {
   color: var(--lt-ink);
 }
 
+body.timeline-app:not(.timeline-legacy) .card .card-title {
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+body.timeline-app:not(.timeline-legacy) .card .card-label {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+body.timeline-app:not(.timeline-legacy) .card .card-link {
+  border-bottom-color: var(--lt-link);
+  color: var(--lt-link);
+}
+
 body.timeline-app .card .card-meta,
 body.timeline-app .card .card-label,
 body.timeline-app .card .card-kicker,
@@ -3737,6 +3756,7 @@ body.timeline-app #card.show {
   }
 
   .lt-site-header {
+    height: 56px;
     min-height: 56px;
     gap: 8px;
     padding: 4px max(16px, env(safe-area-inset-left));
@@ -3761,7 +3781,7 @@ body.timeline-app #card.show {
     min-width: 0;
   }
 
-  body:not(.timeline-app) .lt-site-header .lt-global-search input {
+  .lt-site-header #lt-global-query {
     font-size: 16px;
   }
 
@@ -3969,7 +3989,7 @@ body.timeline-app #app:empty {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(90deg, rgb(38 26 20 / 88%), rgb(38 26 20 / 45%) 45%, rgb(38 26 20 / 15%) 82%);
+  background: linear-gradient(90deg, rgb(38 26 20 / 80%), rgb(38 26 20 / 35%) 45%, rgb(38 26 20 / 8%) 82%);
   content: '';
 }
 
@@ -4004,7 +4024,7 @@ body.timeline-app #app:empty {
 }
 
 .lt-hero-button {
-  min-height: 40px;
+  min-height: 44px;
   padding: 8px 16px;
   border: 1px solid rgb(207 155 83 / 65%);
   border-radius: 8px;
@@ -4025,22 +4045,36 @@ body.timeline-app #app:empty {
   position: relative;
   display: grid;
   flex: 1;
-  grid-template-columns: 232px minmax(0, 1fr) 320px;
+  grid-template-columns: 208px minmax(0, 1fr) 320px;
+  gap: 8px;
   min-height: 0;
+  padding: 8px;
   overflow-x: clip;
-  background: var(--lt-paper);
+  background: #4b3421;
 }
 
 .lt-timeline-filters {
   overflow-y: auto;
   padding: 16px;
-  border-right: 1px solid rgb(207 155 83 / 25%);
+  border: 1px solid rgb(207 155 83 / 35%);
+  border-radius: 12px;
   background: #211812;
   color: var(--lt-wood-text);
+  scrollbar-color: #80684f transparent;
+  scrollbar-width: thin;
 }
 
 .lt-filter-group {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(207 155 83 / 18%);
+}
+
+.lt-timeline-filters .chips {
+  position: static;
+  display: block;
+  min-width: 0;
+  overflow: visible;
 }
 
 .lt-filter-group h2,
@@ -4060,6 +4094,13 @@ body.timeline-app #app:empty {
   font-size: 14px;
 }
 
+.lt-filter-count {
+  margin-left: auto;
+  color: #cbb89e;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
 .lt-timeline-filters input[type='checkbox'] {
   accent-color: var(--lt-gold);
 }
@@ -4068,13 +4109,17 @@ body.timeline-app #app:empty {
   display: flex;
   align-items: center;
   gap: 8px;
-  min-height: 30px;
+  min-height: 32px;
+  padding: 4px 2px;
+  color: var(--lt-wood-text);
   font-size: 13px;
 }
 
 .lt-timeline-filters .lane-count {
   margin-left: auto;
-  opacity: 0.6;
+  color: #cbb89e;
+  font-size: 12px;
+  opacity: 1;
 }
 
 .lt-timeline-filters .lane-swatch {
@@ -4119,6 +4164,12 @@ body.timeline-app #app:empty {
   border-color: #80684f;
 }
 
+.lt-timeline-filters .lane-chapter[aria-current='true'] {
+  border-color: rgb(207 155 83 / 55%);
+  background: rgb(207 155 83 / 12%);
+  color: var(--lt-gold-bright);
+}
+
 .lt-timeline-filters .chip {
   padding: 4px 10px;
   border: 1px solid #80684f;
@@ -4155,12 +4206,12 @@ body.timeline-app #app:empty {
 
 .lt-filter-reset {
   width: 100%;
-  min-height: 38px;
-  margin-top: 16px;
+  min-height: 44px;
+  margin-top: 4px;
   border: 1px solid var(--lt-gold);
-  border-radius: 8px;
+  border-radius: 999px;
   background: transparent;
-  color: var(--lt-gold);
+  color: var(--lt-gold-bright);
   font: inherit;
   font-size: 14px;
   cursor: pointer;
@@ -4177,7 +4228,7 @@ body.timeline-app #app:empty {
 
 .lt-timeline-search .search-input {
   width: 100%;
-  min-height: 38px;
+  min-height: 44px;
   padding: 8px 12px;
   border: 1px solid #80684f;
   border-radius: 999px;
@@ -4185,6 +4236,12 @@ body.timeline-app #app:empty {
   color: var(--lt-wood-text);
   font: inherit;
   font-size: 13px;
+  line-height: 20px;
+}
+
+.lt-timeline-search .search-input::placeholder {
+  color: #cbb89e;
+  opacity: 1;
 }
 
 .lt-timeline-search .search-results {
@@ -4203,10 +4260,15 @@ body.timeline-app #app:empty {
 
 /* 中央：场景头 + 画布 + 状态行。 */
 .lt-timeline-center {
+  position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
   min-height: 0;
+  overflow: hidden;
+  border: 1px solid var(--lt-border);
+  border-radius: 12px;
+  background: var(--lt-paper);
 }
 
 .lt-dynasty-head {
@@ -4215,7 +4277,7 @@ body.timeline-app #app:empty {
   flex: none;
   align-items: center;
   justify-content: space-between;
-  min-height: 84px;
+  min-height: 96px;
   padding: 8px 20px;
   border-bottom: 1px solid var(--lt-border-subtle);
   background: url('/media/banners/banner-timeline-1440.webp') center 32% / cover no-repeat;
@@ -4224,7 +4286,7 @@ body.timeline-app #app:empty {
 .lt-dynasty-head::before {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgb(245 235 218 / 94%), rgb(245 235 218 / 68%) 50%, rgb(245 235 218 / 90%));
+  background: linear-gradient(90deg, rgb(245 235 218 / 88%), rgb(245 235 218 / 46%) 50%, rgb(245 235 218 / 80%));
   content: '';
 }
 
@@ -4253,15 +4315,15 @@ body.timeline-app #app:empty {
 .lt-dynasty-arrow {
   position: relative;
   display: grid;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   flex: none;
   place-items: center;
   border: 1px solid var(--lt-border);
   border-radius: 50%;
   background: var(--lt-surface);
   color: var(--lt-ink);
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -4379,16 +4441,27 @@ body.timeline-app .lt-timeline-detail {
   max-height: none;
   overflow-y: auto;
   padding: 20px;
-  border: 0;
-  border-left: 1px solid var(--lt-border-subtle);
-  border-radius: 0;
-  background: var(--lt-surface);
+  border: 1px solid var(--lt-border);
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--lt-surface), #fbf0dd);
   box-shadow: none;
   transform: none;
+  font-size: 14px;
+  scrollbar-color: var(--lt-border) transparent;
+  scrollbar-width: thin;
 }
 
 body.timeline-app .lt-timeline-detail #card-close {
+  top: 12px;
+  right: 12px;
+  z-index: 2;
   display: none;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--lt-border);
+  border-radius: 50%;
+  background: var(--lt-surface);
+  color: var(--lt-ink-secondary);
 }
 
 body.timeline-app .lt-timeline-detail.show #card-close {
@@ -4461,8 +4534,9 @@ body.timeline-app .lt-timeline-detail.show #detail-empty {
 .lt-dynasty-item .lt-dynasty-years {
   display: block;
   margin-top: 2px;
-  font-size: 11px;
-  opacity: 0.75;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
 }
 
 .lt-dynasty-item:hover {
@@ -4477,27 +4551,48 @@ body.timeline-app .lt-timeline-detail.show #detail-empty {
 }
 
 body.timeline-app .timeline-accessible-entities {
-  position: static;
-  z-index: auto;
-  width: auto;
-  max-height: none;
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 35;
   flex: none;
-  padding: 0 16px 8px;
+  max-height: none;
+  padding: 0;
+  overflow: visible;
   border: 0;
   border-radius: 0;
-  background: var(--lt-surface);
+  background: transparent;
+  box-shadow: none;
   color: var(--lt-ink-secondary);
   font-size: 12px;
 }
 
-body.timeline-app .timeline-accessible-entities ul {
-  max-height: 180px;
-  overflow-y: auto;
+body.timeline-app .timeline-accessible-entities summary {
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 1px solid var(--lt-border);
+  border-radius: 6px;
+  background: var(--lt-surface);
+  color: var(--lt-link);
+  white-space: nowrap;
+  cursor: pointer;
 }
 
-/* 年表页内的站点菜单与顶栏层级高于工作区。 */
-body.timeline-app .lt-site-menu {
-  top: 60px;
+body.timeline-app .timeline-accessible-entities ul {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 8px);
+  width: 300px;
+  max-height: 220px;
+  margin: 0;
+  padding: 8px;
+  overflow-y: auto;
+  border: 1px solid var(--lt-border);
+  border-radius: 8px;
+  background: var(--lt-surface);
+  box-shadow: 0 12px 32px rgb(38 26 20 / 18%);
 }
 
 /* 窄屏：左栏抽屉化，右栏回到覆盖式详情。 */
@@ -4505,7 +4600,7 @@ body.timeline-app .lt-site-menu {
   display: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1199px) {
   .lt-workspace {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -4611,7 +4706,7 @@ body.timeline-app .lt-timeline-detail {
   transition: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1199px) {
   body.timeline-app .lt-timeline-detail {
     transition: transform 0.2s ease;
   }
@@ -4681,6 +4776,24 @@ body.timeline-app .lt-timeline-detail {
   object-position: 70% 40%;
 }
 
+.card-media-person {
+  background: var(--lt-surface-sunken);
+}
+
+.card-portrait {
+  display: grid;
+  width: 100%;
+  height: 144px;
+  place-items: center;
+  color: var(--lt-link);
+  font-family: var(--font-serif);
+  font-size: 64px;
+}
+
+.card-portrait .lt-person-portrait {
+  object-position: 50% 18%;
+}
+
 .card-actions .tool[data-open-detail] {
   display: flex;
   align-items: center;
@@ -4708,9 +4821,19 @@ body.timeline-app .lt-timeline-detail {
 }
 
 .lt-dynasty-head-text .lt-topic-side {
+  display: inline-flex;
+  min-width: 108px;
+  flex-direction: column;
+  gap: 2px;
   color: var(--lt-ink-secondary);
   font-family: var(--font-serif);
-  font-size: 17px;
+  font-size: 20px;
+}
+
+.lt-dynasty-head-text .lt-topic-side small {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
 }
 
 .lt-dynasty-head-text .lt-topic-range {
@@ -7516,5 +7639,239 @@ body.timeline-app.skin-deepspace:not(.timeline-legacy) {
   .lt-collection-page .lt-collection-related-event-list .lt-data,
   .lt-era-page .lt-era-event-list .lt-data {
     text-align: left;
+  }
+}
+
+/* 状态栏优先保留图例、实体入口和缩放；辅助手势提示让位于主控件。 */
+.lt-zoom {
+  flex: none;
+}
+
+.lt-zoom .tool {
+  white-space: nowrap;
+}
+
+body.timeline-app .lt-timeline-statusbar .hint {
+  min-width: 0;
+  flex: 1;
+  text-align: center;
+}
+
+@media (min-width: 641px) {
+  .lt-legend {
+    flex: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  body.timeline-app .lt-timeline-statusbar .hint {
+    display: none;
+  }
+}
+
+/* 桌面预览正文独立滚动，唯一主操作固定在栏底。 */
+#card-actions:empty {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body.timeline-app:not(.timeline-legacy) #card.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  body.timeline-app:not(.timeline-legacy) #card-body {
+    flex: 1;
+    min-height: 0;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  body.timeline-app:not(.timeline-legacy) #card-actions {
+    flex: none;
+  }
+
+  body.timeline-app:not(.timeline-legacy) #card-actions .card-actions {
+    margin: 0;
+    padding: 12px 20px;
+    border-top: 1px solid var(--lt-border);
+    background: var(--lt-surface);
+  }
+
+  body.timeline-app:not(.timeline-legacy) #card-actions .tool[data-open-detail] {
+    width: 100%;
+  }
+
+  body.timeline-app:not(.timeline-legacy) #card .lt-detail-empty {
+    margin: 20px;
+  }
+}
+
+/* 年表窄屏：装饰让位于坐标，预览使用底部面板。 */
+@media (max-width: 767px) {
+  .lt-workspace {
+    gap: 0;
+    padding: 0;
+    background: var(--lt-paper);
+  }
+
+  .lt-timeline-center {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .lt-timeline-hero-inner {
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .lt-timeline-hero h1 {
+    font-size: 28px;
+  }
+
+  .lt-timeline-hero p {
+    display: none;
+  }
+
+  .lt-timeline-hero-actions {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .lt-hero-button {
+    padding: 8px 12px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .lt-dynasty-head {
+    min-height: 80px;
+    padding: 8px;
+  }
+
+  .lt-dynasty-head-text {
+    gap: 2px 12px;
+  }
+
+  .lt-dynasty-head-text .lt-topic-side {
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .lt-dynasty-head-text .lt-topic-side small {
+    display: none;
+  }
+
+  .lt-filter-toggle {
+    width: 44px;
+    height: 44px;
+  }
+
+  body.timeline-app .lt-timeline-detail {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: 60dvh;
+    padding: 16px;
+    border: 1px solid var(--lt-border);
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -12px 32px rgb(38 26 20 / 18%);
+    transform: translateY(100%);
+  }
+
+  body.timeline-app .lt-timeline-detail.show {
+    transform: translateY(0);
+  }
+
+  body.timeline-app .lt-timeline-detail .card-media {
+    margin: -16px -16px 12px;
+  }
+
+  body.timeline-app .lt-timeline-detail .card-portrait {
+    height: 112px;
+  }
+
+  body.timeline-app .timeline-accessible-entities ul {
+    width: min(300px, calc(100vw - 32px));
+  }
+
+  .lt-dynasty-band {
+    height: 76px;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@media (pointer: coarse) {
+  .lt-zoom .tool,
+  .lt-icon-button,
+  .lt-timeline-filters .lane-panel-head button,
+  .lt-timeline-filters .chip,
+  .lt-dynasty-arrow {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+/* 水墨意象肖像：monogram 占位上覆盖加载，缺图保留首字。 */
+[data-person-image] {
+  position: relative;
+  overflow: hidden;
+}
+
+[data-person-image] .lt-person-portrait {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  pointer-events: none;
+}
+
+/* 链接内的小圆头像。 */
+.lt-portrait-thumb {
+  display: inline-grid;
+  width: 28px;
+  height: 28px;
+  flex: none;
+  place-items: center;
+  border: 1px solid var(--lt-border);
+  border-radius: 50%;
+  background: var(--lt-surface-sunken);
+  color: var(--lt-link);
+  font-family: var(--font-serif);
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* 06 基准：群像封面在 banner 右半幅通高展示，左缘渐隐融入背景。 */
+.lt-collection-detail-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 46%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 62% 45%;
+  mask-image: linear-gradient(90deg, transparent 0%, black 42%);
+}
+
+@media (max-width: 720px) {
+  .lt-collection-detail-cover {
+    display: none;
   }
 }

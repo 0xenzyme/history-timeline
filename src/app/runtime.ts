@@ -88,6 +88,8 @@ export interface DragState {
   x: number;
   y: number;
   domain: [number, number];
+  /** 手势开始时指针所在的年份，用于跨密度布局时保持锚点。 */
+  anchor: number;
   scrollY: number;
   moved: boolean;
   lastX: number;
@@ -109,6 +111,7 @@ export const dom = {
   ribbon: document.getElementById('ribbon-canvas') as HTMLCanvasElement,
   card: document.getElementById('card') as HTMLElement,
   cardBody: document.getElementById('card-body') as HTMLElement,
+  cardActions: document.getElementById('card-actions') as HTMLElement,
   hint: document.getElementById('hint') as HTMLElement,
   chips: document.getElementById('chips') as HTMLElement,
   lanePanel: document.getElementById('lane-panel') as HTMLElement,
@@ -126,7 +129,10 @@ export const dom = {
 export const ctx = dom.canvas.getContext('2d') as CanvasRenderingContext2D;
 export const sctx = dom.stars.getContext('2d') as CanvasRenderingContext2D;
 export const rctx = dom.ribbon.getContext('2d') as CanvasRenderingContext2D;
-export const DPR = Math.max(1, Math.min(3, window.devicePixelRatio || 1));
+/** 浏览器缩放会改变 devicePixelRatio；每次 resize 都重新读取，避免旧位图被拉伸。 */
+export function currentDpr(): number {
+  return Math.max(1, Math.min(3, window.devicePixelRatio || 1));
+}
 
 /** 由 app.ts 提供的编排回调；render / interaction / view 通过它调用上层流程，避免循环导入。 */
 export interface AppHooks {

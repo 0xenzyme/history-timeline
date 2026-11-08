@@ -4,7 +4,21 @@
  */
 
 import type { DynastyTerm, EventRecord, Person, Topic } from '../types';
-import { AXIS_H, BAR_H, LANE_TITLE_H, PAD_X, STRIP_H, barTop, type LaneLayout, type LayoutItem } from './layout';
+import {
+  AXIS_H,
+  BAR_H,
+  COMPACT_LARGE_ROW_GUTTER,
+  LARGE_ROW_GUTTER,
+  LANE_TITLE_H,
+  PAD_X,
+  STRIP_H,
+  barTop,
+  itemHeight,
+  itemTop,
+  topicPeopleForView,
+  type LaneLayout,
+  type LayoutItem,
+} from './layout';
 import { EVENT_COLORS, SKINS, paletteFor, skinColor, type Palette } from './skins';
 import { FONT_SANS, FONT_SERIF, clamp, fmtYear, personFrom, personTo, pickStep, roundRect } from './util';
 import { contentH, ctx, dom, getHooks, H, layouts, loadingTopic, rctx, sctx, state, W } from './runtime';
@@ -39,15 +53,31 @@ export function fullSpan(): [number, number] {
   return state.library.lines[line].range;
 }
 
+export function largeLayoutActive(): boolean {
+  return layouts.some((lane) => lane.presentation === 'large');
+}
+
+/** 大行的时间轨道从固定人物信息列右侧开始；其他模式沿用紧凑边距。 */
+export function plotPadding(): number {
+  if (!largeLayoutActive()) return PAD_X;
+  return W < 640 ? COMPACT_LARGE_ROW_GUTTER : LARGE_ROW_GUTTER;
+}
+
+export function plotWidth(): number {
+  return Math.max(1, W - plotPadding() - PAD_X);
+}
+
 export function xOf(year: number): number {
   const [d0, d1] = state.domain;
-  if (d1 === d0) return PAD_X;
-  return PAD_X + ((year - d0) / (d1 - d0)) * (W - PAD_X * 2);
+  const padding = plotPadding();
+  if (d1 === d0) return padding;
+  return padding + ((year - d0) / (d1 - d0)) * plotWidth();
 }
 
 export function yearAt(px: number): number {
   const [d0, d1] = state.domain;
-  return d0 + ((px - PAD_X) / (W - PAD_X * 2)) * (d1 - d0);
+  const padding = plotPadding();
+  return d0 + ((px - padding) / plotWidth()) * (d1 - d0);
 }
 
 export function hdrH(): number {
@@ -97,7 +127,7 @@ export function largeRowsActive(): boolean {
   if (state.line !== 'people' || !state.topic || !state.groups.people) return false;
   const [d0, d1] = state.domain;
   let count = 0;
-  for (const person of state.topic.people) {
+  for (const person of topicPeopleForView(state.topic, state.viewId)) {
     if (state.hiddenLanes.has(`lane:${person.lane}`)) continue;
     if (personTo(person.birth, person.death) < d0 || personFrom(person.birth, person.death) > d1) continue;
     count += 1;
@@ -107,6 +137,8 @@ export function largeRowsActive(): boolean {
 }
 
 export function draw(): void {
+  // domain、章节与筛选都影响可见集合；每次绘制前让布局与当前状态重新对齐。
+  getHooks().rebuildLayout();
   syncAccessibleEntities();
   renderScene(ctx, W, H);
   // mini-map 已收进隐藏的旧控件容器，底部朝代导航条接管导航；尺寸为 0 时不画。
@@ -133,9 +165,22 @@ export function renderScene(c: CanvasRenderingContext2D, width: number, height: 
     return;
   }
   drawGridlines(c);
-  drawLanes(c, width, height);
   drawSelectedYearLine(c, height);
+  drawLanes(c, width, height);
+  drawLargeRowDivider(c, height);
   drawHeader(c, width);
+}
+
+function drawLargeRowDivider(c: CanvasRenderingContext2D, height: number): void {
+  if (!largeLayoutActive()) return;
+  c.save();
+  c.strokeStyle = skinPalette().hair;
+  c.lineWidth = 1;
+  c.beginPath();
+  c.moveTo(plotPadding() - 11.5, hdrH());
+  c.lineTo(plotPadding() - 11.5, height);
+  c.stroke();
+  c.restore();
 }
 
 /** 02 基准：选中事件的年份用纵向金色虚线对齐人物、战事与历史事件。 */
@@ -155,10 +200,20 @@ function drawSelectedYearLine(c: CanvasRenderingContext2D, height: number): void
   c.restore();
 }
 
+function axisStep(c: CanvasRenderingContext2D): number {
+  const [d0, d1] = state.domain;
+  c.font = `12px ${FONT_SANS}`;
+  const sample = d0 < 0 ? fmtYear(Math.min(d0, d1)) : fmtYear(Math.max(d0, d1));
+  const labelWidth = c.measureText(sample).width + 32;
+  const plotWidthValue = plotWidth();
+  const labelBudget = Math.max(2, Math.min(12, Math.floor(plotWidthValue / labelWidth)));
+  return pickStep((d1 - d0) / labelBudget);
+}
+
 function drawGridlines(c: CanvasRenderingContext2D): void {
   const C = skinPalette();
   const [d0, d1] = state.domain;
-  const step = pickStep((d1 - d0) / 12);
+  const step = axisStep(c);
   c.strokeStyle = C.hair;
   c.lineWidth = 1;
   c.beginPath();
@@ -179,7 +234,7 @@ function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): 
   c.clip();
   c.translate(0, hdrH() - state.scrollY);
 
-  if (state.line === 'people') {
+  if (state.line === 'people' && state.skin !== 'voyage') {
     for (const event of state.library.events) {
       if (event.kind !== 'span' || event.endYear === undefined) continue;
       const x0 = xOf(event.year);
@@ -199,14 +254,15 @@ function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): 
       c.fillRect(x0, 0, Math.max(2, x1 - x0), contentH);
     }
     c.globalAlpha = 1;
-    if (state.selected && state.selected.kind === 'person') drawRelations(c);
   }
+  if (state.line === 'people' && state.selected?.kind === 'person') drawRelations(c);
 
   for (const lane of layouts) {
-    c.fillStyle = C.laneLabel;
-    c.font = `12px ${FONT_SANS}`;
+    const topLevelGroup = state.line === 'people' && ['people', 'war', 'history'].includes(lane.id);
+    c.fillStyle = topLevelGroup ? C.ink : C.laneLabel;
+    c.font = topLevelGroup ? `600 16px ${FONT_SERIF}` : `12px ${FONT_SANS}`;
     c.textAlign = 'left';
-    c.fillText(lane.name, PAD_X, lane.y + 15);
+    c.fillText(lane.name, PAD_X, lane.y + (topLevelGroup ? 22 : 20));
     c.strokeStyle = C.hair;
     c.beginPath();
     c.moveTo(PAD_X, lane.y + LANE_TITLE_H - 6);
@@ -215,10 +271,10 @@ function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): 
 
     const placements = labelPlacements(c, lane);
     for (const item of lane.items) {
-      const yTop = barTop(lane, item.row);
+      const yTop = itemTop(lane, item);
       const placement = placements.get(item.id) ?? 'none';
       if (item.kind === 'event') drawEventBar(c, item, lane, yTop, placement);
-      else drawPersonBar(c, item.person, lane, yTop, placement);
+      else drawPersonBar(c, item, lane, yTop, placement);
     }
   }
   c.restore();
@@ -279,7 +335,7 @@ export function entryRect(item: LayoutItem): {
 }
 
 export function labelPlacements(c: CanvasRenderingContext2D, lane: LaneLayout): Map<string, Placement> {
-  c.font = `11px ${FONT_SANS}`;
+  c.font = `12px ${FONT_SANS}`;
   const rows = new Map<number, { key: string; x0: number; x1: number; lw: number; canInside: boolean }[]>();
   for (const item of lane.items) {
     const rect = entryRect(item);
@@ -297,6 +353,50 @@ export function labelPlacements(c: CanvasRenderingContext2D, lane: LaneLayout): 
 
 export const markerRadius = (event: EventRecord): number => 4 + (event.importance || 1) * 1.2;
 
+/** 六类事件共用颜色与几何语义，分区底色不再覆盖 point 节点类型。 */
+function drawEventNode(
+  c: CanvasRenderingContext2D,
+  event: EventRecord,
+  x: number,
+  y: number,
+  radius: number,
+  color: string,
+): void {
+  c.strokeStyle = color;
+  c.fillStyle = color;
+  c.lineWidth = 2;
+  c.beginPath();
+  if (event.type === 'military') {
+    c.moveTo(x - radius, y - 3);
+    c.lineTo(x + radius, y - 3);
+    c.moveTo(x - radius, y + 3);
+    c.lineTo(x + radius, y + 3);
+    c.stroke();
+    return;
+  }
+  if (event.type === 'political') {
+    c.rect(x - radius, y - radius, radius * 2, radius * 2);
+  } else if (event.type === 'institutional') {
+    c.arc(x, y, radius, 0, Math.PI * 2);
+  } else if (event.type === 'cultural') {
+    c.moveTo(x, y - radius);
+    c.lineTo(x + radius, y + radius);
+    c.lineTo(x - radius, y + radius);
+    c.closePath();
+  } else {
+    const sides = event.type === 'diplomatic' ? 6 : 4;
+    for (let index = 0; index < sides; index += 1) {
+      const angle = -Math.PI / 2 + (index * Math.PI * 2) / sides;
+      const px = x + Math.cos(angle) * radius;
+      const py = y + Math.sin(angle) * radius;
+      if (index === 0) c.moveTo(px, py);
+      else c.lineTo(px, py);
+    }
+    c.closePath();
+  }
+  c.fill();
+}
+
 function drawEventBar(
   c: CanvasRenderingContext2D,
   item: Extract<LayoutItem, { kind: 'event' }>,
@@ -306,14 +406,18 @@ function drawEventBar(
 ): void {
   const C = skinPalette();
   const event = item.event;
-  const color = laneColor(lane);
+  const color = skinColor(state.skin, EVENT_COLORS[event.type]);
   const selected = state.selected?.kind === 'event' && state.selected.id === event.id;
   const dim = !chipMatchEvent(event);
   c.globalAlpha = dim ? 0.15 : 1;
 
   if (event.kind === 'span') {
-    const x0 = xOf(event.year);
-    const x1 = xOf(event.endYear ?? event.year);
+    const barHeight = itemHeight(lane, item);
+    const expanded = lane.presentation === 'large' && barHeight > BAR_H;
+    const rawX0 = xOf(event.year);
+    const rawX1 = xOf(event.endYear ?? event.year);
+    const x0 = expanded ? Math.max(plotPadding(), rawX0) : rawX0;
+    const x1 = expanded ? Math.min(W - PAD_X, rawX1) : rawX1;
     const width = Math.max(4, x1 - x0);
     // 02 同图：战事用深红渐变卡，历史事件用浅金卡；其他线保持类型色。
     const isWar = lane.id === 'war';
@@ -337,7 +441,7 @@ function drawEventBar(
       c.shadowBlur = 14;
     }
     c.beginPath();
-    roundRect(c, x0, yTop, width, BAR_H, 3);
+    roundRect(c, x0, yTop, width, barHeight, expanded ? 6 : 3);
     c.fill();
     c.shadowBlur = 0;
     if (isHistory) {
@@ -353,16 +457,27 @@ function drawEventBar(
       c.closePath();
       c.fill();
     }
-    drawLabel(
-      c,
-      event.display || event.name,
-      placement,
-      x0,
-      x0 + width,
-      yTop,
-      dim,
-      isWar ? '#f5e8ce' : isHistory ? '#352519' : undefined,
-    );
+    if (expanded && width >= 72) {
+      const textColor = isWar ? '#f5e8ce' : '#352519';
+      const time = `${fmtYear(event.year)} — ${fmtYear(event.endYear ?? event.year)}`;
+      c.textAlign = 'left';
+      c.fillStyle = textColor;
+      c.font = `600 14px ${FONT_SERIF}`;
+      c.fillText(fitCanvasText(c, event.display || event.name, width - 20), x0 + 10, yTop + 16);
+      c.font = `12px ${FONT_SANS}`;
+      c.fillText(fitCanvasText(c, time, width - 20), x0 + 10, yTop + 33);
+    } else {
+      drawLabel(
+        c,
+        event.display || event.name,
+        placement,
+        x0,
+        x0 + width,
+        yTop,
+        dim,
+        isWar ? '#f5e8ce' : isHistory ? '#352519' : undefined,
+      );
+    }
     if (selected) {
       c.strokeStyle = C.accent;
       c.lineWidth = 2;
@@ -371,7 +486,7 @@ function drawEventBar(
         c.shadowBlur = 12;
       }
       c.beginPath();
-      roundRect(c, x0 - 2.5, yTop - 2.5, width + 5, BAR_H + 5, 5);
+      roundRect(c, x0 - 2.5, yTop - 2.5, width + 5, barHeight + 5, expanded ? 8 : 5);
       c.stroke();
       c.shadowBlur = 0;
     }
@@ -383,13 +498,7 @@ function drawEventBar(
       c.shadowColor = color;
       c.shadowBlur = 8;
     }
-    c.beginPath();
-    c.moveTo(x, yTop + BAR_H / 2 - radius);
-    c.lineTo(x + radius, yTop + BAR_H / 2);
-    c.lineTo(x, yTop + BAR_H / 2 + radius);
-    c.lineTo(x - radius, yTop + BAR_H / 2);
-    c.closePath();
-    c.fill();
+    drawEventNode(c, event, x, yTop + BAR_H / 2, radius, color);
     c.shadowBlur = 0;
     drawLabel(
       c,
@@ -418,13 +527,14 @@ function drawEventBar(
 
 function drawPersonBar(
   c: CanvasRenderingContext2D,
-  person: Person,
+  item: Extract<LayoutItem, { kind: 'person' }>,
   lane: LaneLayout,
   yTop: number,
   placement: Placement,
 ): void {
-  if (largeRowsActive()) {
-    drawPersonLifeRow(c, person, lane, yTop);
+  const person = item.person;
+  if (lane.presentation === 'large') {
+    drawPersonLifeRow(c, item, lane, yTop);
     return;
   }
   const C = skinPalette();
@@ -435,7 +545,7 @@ function drawPersonBar(
   const width = Math.max(3, x1 - x0);
   const selected = state.selected?.kind === 'person' && state.selected.id === person.id;
   const dim = personDim(person);
-  const color = laneColor(lane);
+  const color = item.color ? skinColor(state.skin, item.color) : laneColor(lane);
 
   c.globalAlpha = dim ? 0.15 : 1;
   if (!hasBirth || !hasDeath) {
@@ -481,7 +591,7 @@ function drawPersonBar(
     c.setLineDash([]);
   }
 
-  drawLabel(c, person.display || person.name, placement, x0, x0 + width, yTop, dim);
+  drawLabel(c, person.display || person.name, placement, x0, x0 + width, yTop, dim, contrastLabel(color));
 
   if (selected) {
     c.strokeStyle = C.accent;
@@ -498,26 +608,57 @@ function drawPersonBar(
   c.globalAlpha = 1;
 }
 
-/** 02 大行模式：姓名与生卒在生命线左端上方，细生命线与空心端点。 */
-function drawPersonLifeRow(c: CanvasRenderingContext2D, person: Person, lane: LaneLayout, yTop: number): void {
+/** 02 大行模式：固定人物信息列 + 首字圆章 + 细生命线 + 显式关联事件。 */
+function drawPersonLifeRow(
+  c: CanvasRenderingContext2D,
+  item: Extract<LayoutItem, { kind: 'person' }>,
+  lane: LaneLayout,
+  yTop: number,
+): void {
+  const person = item.person;
   const C = skinPalette();
-  const color = laneColor(lane);
-  const x0 = xOf(personFrom(person.birth, person.death));
-  const x1 = Math.max(x0 + 3, xOf(personTo(person.birth, person.death)));
-  const midY = yTop + BAR_H - 4;
+  const color = item.color ? skinColor(state.skin, item.color) : laneColor(lane);
+  const x0 = Math.max(plotPadding(), xOf(personFrom(person.birth, person.death)));
+  const x1 = Math.min(W - PAD_X, Math.max(x0 + 3, xOf(personTo(person.birth, person.death))));
+  const midY = yTop + BAR_H / 2;
   const selected = state.selected?.kind === 'person' && state.selected.id === person.id;
   const dim = personDim(person);
+  const compact = W < 640;
+  const gutter = plotPadding();
+  const avatarX = compact ? 20 : 36;
+  const avatarRadius = compact ? 16 : 21;
+  const labelX = compact ? 42 : 68;
+  const rowTop = lane.y + LANE_TITLE_H + item.row * lane.pitch;
   c.globalAlpha = dim ? 0.15 : 1;
 
+  if (selected) {
+    c.fillStyle = 'rgba(207, 155, 83, 0.12)';
+    c.beginPath();
+    roundRect(c, 8, rowTop + 3, W - 16, lane.pitch - 6, 8);
+    c.fill();
+    c.strokeStyle = '#cf9b53';
+    c.lineWidth = 2;
+    c.stroke();
+  }
+
+  const accuracies = [person.birthAccuracy, person.deathAccuracy];
   c.strokeStyle = color;
   c.lineWidth = 3;
+  if (accuracies.includes('disputed')) c.setLineDash([2, 3]);
+  else if (accuracies.includes('approx')) c.setLineDash([7, 3]);
   c.beginPath();
   c.moveTo(x0, midY);
   c.lineTo(x1, midY);
   c.stroke();
+  c.setLineDash([]);
 
   c.fillStyle = C.paper;
-  for (const x of [x0, x1]) {
+  const endpoints: Array<[number | undefined, number]> = [
+    [person.birth, x0],
+    [person.death, x1],
+  ];
+  for (const [year, x] of endpoints) {
+    if (year == null || year < state.domain[0] || year > state.domain[1]) continue;
     c.beginPath();
     c.arc(x, midY, 4.5, 0, Math.PI * 2);
     c.fill();
@@ -525,26 +666,125 @@ function drawPersonLifeRow(c: CanvasRenderingContext2D, person: Person, lane: La
     c.stroke();
   }
 
-  const labelX = Math.max(PAD_X, x0);
+  // 首字圆章是明确的缺图回退，不把生成图像伪装成真实历史画像。
+  c.beginPath();
+  c.arc(avatarX, midY, avatarRadius, 0, Math.PI * 2);
+  c.fillStyle = C.paper;
+  c.fill();
+  c.strokeStyle = selected ? '#cf9b53' : color;
+  c.lineWidth = selected ? 2.5 : 1.5;
+  c.stroke();
+  c.fillStyle = color;
+  c.font = `600 ${compact ? 16 : 20}px ${FONT_SERIF}`;
+  c.textAlign = 'center';
+  c.fillText((person.display || person.name).slice(0, 1), avatarX, midY + (compact ? 5 : 7));
+
   c.textAlign = 'left';
   c.fillStyle = C.ink;
-  c.font = `15px ${FONT_SERIF}`;
-  c.fillText(person.display || person.name, labelX, yTop - 10);
-  c.font = `11px ${FONT_SANS}`;
+  c.font = `600 ${compact ? 14 : 20}px ${FONT_SERIF}`;
+  c.fillText(fitCanvasText(c, person.display || person.name, gutter - labelX - 8), labelX, midY - (compact ? 1 : 2));
+  c.font = `12px ${FONT_SANS}`;
   c.fillStyle = C.ink2;
-  const birth = person.birth != null ? fmtYear(person.birth) : '生年不详';
-  const death = person.death != null ? fmtYear(person.death) : '卒年不详';
-  c.fillText(`${birth} — ${death}`, labelX, yTop + 4);
+  const birth = lifeEdgeLabel(person.birth, person.birthAccuracy, '生年不详');
+  const death = lifeEdgeLabel(person.death, person.deathAccuracy, '卒年不详');
+  c.fillText(fitCanvasText(c, `${birth} — ${death}`, gutter - labelX - 8), labelX, midY + 17);
 
-  if (selected) {
-    c.strokeStyle = '#cf9b53';
-    c.lineWidth = 2;
-    c.beginPath();
-    c.moveTo(x0, midY - 6);
-    c.lineTo(x0, midY + 6);
-    c.stroke();
-  }
+  drawPersonEventMarkers(c, person, midY, gutter);
   c.globalAlpha = 1;
+  c.textAlign = 'left';
+}
+
+function lifeEdgeLabel(year: number | undefined, accuracy: Person['birthAccuracy'], unknown: string): string {
+  if (year == null) return unknown;
+  if (accuracy === 'approx') return `约 ${fmtYear(year)}`;
+  if (accuracy === 'disputed') return `${fmtYear(year)}（异说）`;
+  return fmtYear(year);
+}
+
+function fitCanvasText(c: CanvasRenderingContext2D, text: string, maxWidth: number): string {
+  if (maxWidth <= 0) return '';
+  if (c.measureText(text).width <= maxWidth) return text;
+  let result = text;
+  while (result.length > 1 && c.measureText(`${result}…`).width > maxWidth) result = result.slice(0, -1);
+  return `${result}…`;
+}
+
+function relativeLuminance(color: string): number | null {
+  const hex = /^#([0-9a-f]{6})$/i.exec(color.trim());
+  let rgb: [number, number, number] | null = null;
+  if (hex) {
+    rgb = [0, 2, 4].map((offset) => parseInt(hex[1].slice(offset, offset + 2), 16) / 255) as [number, number, number];
+  } else {
+    const hsl = /^hsl\(\s*(-?[\d.]+)(?:deg)?[,\s]+([\d.]+)%[,\s]+([\d.]+)%/i.exec(color.trim());
+    if (hsl) {
+      const h = (((Number(hsl[1]) % 360) + 360) % 360) / 360;
+      const s = Number(hsl[2]) / 100;
+      const l = Number(hsl[3]) / 100;
+      if (s === 0) rgb = [l, l, l];
+      else {
+        const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+        const p = 2 * l - q;
+        const hue = (offset: number): number => {
+          let t = h + offset;
+          if (t < 0) t += 1;
+          if (t > 1) t -= 1;
+          if (t < 1 / 6) return p + (q - p) * 6 * t;
+          if (t < 1 / 2) return q;
+          if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
+          return p;
+        };
+        rgb = [hue(1 / 3), hue(0), hue(-1 / 3)];
+      }
+    }
+  }
+  if (!rgb) return null;
+  const [r, g, b] = rgb.map((channel) => (channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4));
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+function contrastRatio(first: string, second: string): number {
+  const a = relativeLuminance(first);
+  const b = relativeLuminance(second);
+  if (a === null || b === null) return 0;
+  const [light, dark] = a > b ? [a, b] : [b, a];
+  return (light + 0.05) / (dark + 0.05);
+}
+
+/** 条内姓名不能统一用白字；按实际 lane 色选择可读的深木或米白。 */
+function contrastLabel(background: string): string {
+  const dark = '#261a14';
+  const light = '#fff7e9';
+  const darkRatio = contrastRatio(background, dark);
+  const lightRatio = contrastRatio(background, light);
+  if (darkRatio >= 4.5 || lightRatio >= 4.5) return darkRatio >= lightRatio ? dark : light;
+  return darkRatio > lightRatio ? dark : light;
+}
+
+/** 只画运行库中显式引用该人物的公共事件，不按生卒重叠推断关系。 */
+function drawPersonEventMarkers(c: CanvasRenderingContext2D, person: Person, midY: number, gutter: number): void {
+  const linked = (state.library.eventsByPerson.get(person.id) ?? [])
+    .filter((event) => event.year >= state.domain[0] && event.year <= state.domain[1])
+    .sort((a, b) => a.year - b.year || b.importance - a.importance);
+  let previousX = -Infinity;
+  let drawn = 0;
+  for (const event of linked) {
+    const x = xOf(event.year);
+    if (x < gutter + 36 || x > W - PAD_X - 24 || x - previousX < 84 || drawn >= 3) continue;
+    const color = skinColor(state.skin, EVENT_COLORS[event.type]);
+    c.fillStyle = skinPalette().paper;
+    c.beginPath();
+    c.arc(x, midY, 4, 0, Math.PI * 2);
+    c.fill();
+    c.strokeStyle = color;
+    c.lineWidth = 1.5;
+    c.stroke();
+    c.fillStyle = skinPalette().ink;
+    c.font = `12px ${FONT_SANS}`;
+    c.textAlign = 'center';
+    c.fillText(fitCanvasText(c, event.display || event.name, 96), x, midY - 12);
+    previousX = x;
+    drawn += 1;
+  }
 }
 
 function drawLabel(
@@ -559,7 +799,7 @@ function drawLabel(
 ): void {
   const C = skinPalette();
   if (placement === 'none') return;
-  c.font = `11px ${FONT_SANS}`;
+  c.font = `12px ${FONT_SANS}`;
   if (placement === 'inside') {
     c.fillStyle = insideColor ?? C.labelInBar;
     c.textAlign = 'left';
@@ -611,7 +851,7 @@ function drawRelations(c: CanvasRenderingContext2D): void {
     c.shadowBlur = 0;
     if (type) {
       c.fillStyle = color;
-      c.font = `10px ${FONT_SANS}`;
+      c.font = `12px ${FONT_SANS}`;
       c.textAlign = 'center';
       c.fillText(type.name, midX, midY - 2);
       c.textAlign = 'left';
@@ -659,10 +899,10 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
     if (coveredAt((dynasty.from + dynasty.to) / 2, dynasty, dynasties)) continue;
     c.fillStyle = C.ribbonText;
     if (bandW > 110) {
-      c.font = `bold 11px ${FONT_SANS}`;
+      c.font = `bold 12px ${FONT_SANS}`;
       c.fillText(`${dynasty.name} ${fmtYear(dynasty.from)}—${fmtYear(dynasty.to)}`, (x0 + x1) / 2, 15);
     } else if (bandW > 40) {
-      c.font = `bold 11px ${FONT_SANS}`;
+      c.font = `bold 12px ${FONT_SANS}`;
       c.fillText(dynasty.name, (x0 + x1) / 2, 15);
     }
   }
@@ -670,17 +910,32 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
   const [d0, d1] = state.domain;
   c.lineWidth = 1;
 
-  const step = pickStep((d1 - d0) / 12);
+  const step = axisStep(c);
   c.fillStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
   c.strokeStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
-  c.font = `11px ${FONT_SANS}`;
+  c.font = `12px ${FONT_SANS}`;
   c.textAlign = 'center';
   c.beginPath();
   for (let year = Math.ceil(d0 / step) * step; year <= d1; year += step) {
     const x = Math.round(xOf(year)) + 0.5;
-    c.moveTo(x, AXIS_H - 22);
-    c.lineTo(x, AXIS_H - 16);
-    c.fillText(fmtYear(year), x, AXIS_H - 4);
+    for (let subdivision = 0; subdivision < 5; subdivision += 1) {
+      const minorYear = year + (subdivision * step) / 5;
+      if (minorYear > d1) continue;
+      const minorX = Math.round(xOf(minorYear)) + 0.5;
+      const major = subdivision === 0;
+      c.moveTo(minorX, AXIS_H - (major ? 25 : 19));
+      c.lineTo(minorX, AXIS_H - 12);
+    }
+    if (state.selected?.kind === 'event' && state.selected.id) {
+      const selectedEvent = state.library.eventById.get(state.selected.id);
+      if (selectedEvent && Math.abs(xOf(selectedEvent.year) - x) < 28) {
+        // 选中年份牌占同一位置时隐藏普通标签，避免两行数字重叠。
+      } else {
+        c.fillText(fmtYear(year), x, AXIS_H - 3);
+      }
+    } else {
+      c.fillText(fmtYear(year), x, AXIS_H - 3);
+    }
   }
   c.stroke();
 
@@ -690,7 +945,7 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
     if (selectedEvent) {
       const x = Math.round(xOf(selectedEvent.year));
       const label = fmtYear(selectedEvent.year);
-      c.font = `bold 11px ${FONT_SANS}`;
+      c.font = `bold 12px ${FONT_SANS}`;
       const badgeW = c.measureText(label).width + 18;
       c.fillStyle = '#cf9b53';
       c.beginPath();
@@ -717,6 +972,19 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
   c.stroke();
 
   if (state.line === 'people' && state.stripOpen) drawEventStrip(c, width);
+
+  if (largeLayoutActive()) {
+    const dividerX = plotPadding() - 12;
+    c.fillStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
+    c.font = `600 14px ${FONT_SERIF}`;
+    c.textAlign = 'left';
+    c.fillText('年份', PAD_X, 30);
+    c.strokeStyle = C.line;
+    c.beginPath();
+    c.moveTo(dividerX + 0.5, 0);
+    c.lineTo(dividerX + 0.5, hdrH());
+    c.stroke();
+  }
 
   c.strokeStyle = C.line;
   c.beginPath();
@@ -792,7 +1060,7 @@ function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
       c.shadowBlur = 0;
       if ((event.importance || 1) >= 3) {
         c.fillStyle = C.labelInBar;
-        c.font = `10px ${FONT_SANS}`;
+        c.font = `12px ${FONT_SANS}`;
         c.textAlign = 'left';
         c.fillText(event.display || event.name, x + 5, stripTop + 11 + (labelRow % 2) * 10);
         labelRow += 1;
@@ -823,7 +1091,7 @@ function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
       c.fill();
       c.shadowBlur = 0;
       c.fillStyle = C.labelInBar;
-      c.font = `10px ${FONT_SANS}`;
+      c.font = `12px ${FONT_SANS}`;
       c.textAlign = 'center';
       c.textBaseline = 'middle';
       c.fillText(String(cluster.length), center, stripTop + STRIP_H - 8);
@@ -884,7 +1152,7 @@ export function renderRibbon(c: CanvasRenderingContext2D, x0: number, y0: number
   const dynasties = state.library.dynasties;
   const hues = dynastyHues(dynasties);
   const paintOrder = [...dynasties].sort((a, b) => b.to - b.from - (a.to - a.from));
-  c.font = `10px ${FONT_SANS}`;
+  c.font = `12px ${FONT_SANS}`;
   c.textAlign = 'center';
   c.textBaseline = 'middle';
   for (const dynasty of paintOrder) {

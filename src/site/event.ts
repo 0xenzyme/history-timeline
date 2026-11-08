@@ -69,7 +69,7 @@ function peopleSection(event: EventDetail, library: SiteLibrary): string {
       const commander = commanders.get(person.id);
       const role = [commander ? '主将' : '', related.has(person.id) ? '相关人物' : ''].filter(Boolean).join('、');
       const name = person.display || person.name;
-      return `<article class="lt-related-card lt-event-person-card"><span class="lt-event-person-monogram" aria-hidden="true">${escapeHtml(name.slice(0, 1))}</span><div>${entityLink('person', person.id, name, 'lt-related-name')}<p>${escapeHtml(role || '相关人物')}</p>${commander?.side ? `<small>${escapeHtml(polityName(library, commander.side))}方</small>` : ''}</div></article>`;
+      return `<article class="lt-related-card lt-event-person-card"><span class="lt-event-person-monogram" data-person-image="${escapeHtml(person.id)}" data-person-image-size="400" aria-hidden="true">${escapeHtml(name.slice(0, 1))}</span><div>${entityLink('person', person.id, name, 'lt-related-name')}<p>${escapeHtml(role || '相关人物')}</p>${commander?.side ? `<small>${escapeHtml(polityName(library, commander.side))}方</small>` : ''}</div></article>`;
     })
     .join('');
   return `<section class="lt-section lt-event-card lt-event-people-module" id="event-people" aria-labelledby="event-people-title">${heading('people', 'event-people-title', '相关人物', event.personRecords.length)}<div class="lt-event-people-grid">${cards}</div></section>`;

@@ -10,7 +10,17 @@ import type { Library } from './model';
 import type { Route } from '../routing';
 import { parseHash, writeHash, writeLineHash, decodeHash, type HistoryMode } from '../routing';
 import { exportBasename, exportView } from './exporter';
-import { BAR_H, PAD_X, ROW_GAP, buildCombinedLayout, buildEventLayout, layoutHeight, type LaneLayout } from './layout';
+import {
+  BAR_H,
+  LARGE_ROW_PITCH,
+  ROW_GAP,
+  buildCombinedLayout,
+  buildEventLayout,
+  itemHeight,
+  itemTop,
+  layoutHeight,
+  type LaneLayout,
+} from './layout';
 import { createLibrary, findTopicEntry, loadTopicData } from './model';
 import { SKINS, isSkinId, type SkinId } from './skins';
 import { clamp, fmtYear, personFrom, personTo } from './util';
@@ -26,10 +36,12 @@ import {
   runSearch,
   setAllLanes,
   showCard,
+  syncCardModal,
   syncStripToggle,
   toggleLane,
+  trapCardFocus,
 } from './view';
-import { canvasPointer, centerDomain, keyboardEvents, ribbonPointer } from './interaction';
+import { canvasPointer, centerDomain, drawPreservingAnchor, keyboardEvents, ribbonPointer } from './interaction';
 import {
   chipMatchEvent,
   draw,
@@ -40,14 +52,16 @@ import {
   maxScroll,
   peopleSpan,
   personDim,
+  plotWidth,
   renderRibbon,
   renderScene,
   skinPalette,
   visibleEvents,
+  yearAt,
 } from './render';
 import {
   DEFAULT_TOPIC,
-  DPR,
+  currentDpr,
   H,
   STORAGE,
   W,
@@ -79,6 +93,7 @@ import { syncWorkspaceChrome, wireWorkspace } from './workspace';
 const RIBBON_H = 76;
 let restoringTimeline = false;
 let lastFrameTime = 0;
+let lastDpr = currentDpr();
 
 // ---------- 启动 ----------
 
@@ -238,19 +253,24 @@ function readHiddenLanes(): Set<string> {
 // ---------- 布局 ----------
 
 function rebuildLayout(): void {
+  const largeRows = largeRowsActive();
   const build = (pitch: number): LaneLayout[] => {
     if (state.line === 'people') {
       return state.topic
-        ? buildCombinedLayout(state.topic, state.library.events, hiddenLaneIds(), state.groups, pitch)
+        ? buildCombinedLayout(state.topic, state.library.events, hiddenLaneIds(), state.groups, pitch, {
+            viewId: state.viewId,
+            domain: state.domain,
+            largeRows,
+          })
         : [];
     }
     return buildEventLayout(visibleEvents(), state.line, hiddenLaneIds(), pitch);
   };
-  const basePitch = largeRowsActive() ? 56 : BAR_H + ROW_GAP;
+  const basePitch = largeRows ? LARGE_ROW_PITCH : BAR_H + ROW_GAP;
   let next = build(basePitch);
-  // 内容不足一屏时拉开行距，避免大片留白；行距最多放大到 4 倍。
+  // 密条内容不足一屏时拉开行距；大行保持稳定的肖像与日期行高。
   const available = H - hdrH();
-  if (available > 0) {
+  if (!largeRows && available > 0) {
     const filled = layoutHeight(next);
     if (filled > 0 && filled < available) {
       const factor = clamp(available / filled, 1, 4);
@@ -382,10 +402,19 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
     if (state.line !== 'people') setLine('people', false);
     const person = state.topic?.people.find((item) => item.id === selection.id);
     if (person) {
+      const chapter = state.topic?.views.find((view) => view.id === state.viewId);
+      if (chapter?.people && !chapter.people.includes(person.id)) {
+        // 搜索或关系链跳到章节外人物时回到全览，不能保留一个看不见选中对象的章节。
+        state.viewId = state.topic?.views.find((view) => !view.people)?.id ?? null;
+        buildLanePanel();
+      }
       if (!keepDomain && !restoringTimeline) {
         centerDomain((personFrom(person.birth, person.death) + personTo(person.birth, person.death)) / 2, 180);
       }
-      if (!restoringTimeline) scrollTo('person', person.id);
+      if (!restoringTimeline) {
+        rebuildLayout();
+        scrollTo('person', person.id);
+      }
     }
     announce(`人物：${record?.display ?? selection.id}`);
     if (sync) writeTopicHash('replace');
@@ -409,7 +438,9 @@ function scrollTo(kind: 'person' | 'event', id: string): void {
   for (const lane of layouts) {
     for (const item of lane.items) {
       if (item.id !== id || item.kind !== kind) continue;
-      state.scrollY = clamp(lane.y - 60, 0, maxScroll());
+      const top = itemTop(lane, item);
+      const centerOffset = (H - hdrH() - itemHeight(lane, item)) / 2;
+      state.scrollY = clamp(top - centerOffset, 0, maxScroll());
       return;
     }
   }
@@ -538,7 +569,8 @@ function wireEvents(): void {
     announce(`章节：${view.name}`);
   });
   document.getElementById('card-close')?.addEventListener('click', hideCard);
-  dom.cardBody.addEventListener('click', (event) => {
+  dom.card.addEventListener('keydown', trapCardFocus);
+  dom.card.addEventListener('click', (event) => {
     const detail = (event.target as HTMLElement).closest<HTMLAnchorElement>('[data-open-detail]');
     if (detail?.dataset.entityKind && detail.dataset.entityId) {
       event.preventDefault();
@@ -714,6 +746,11 @@ async function runExport(format: 'png' | 'svg'): Promise<void> {
 // ---------- 循环与尺寸 ----------
 
 function loop(time: number): void {
+  const dpr = currentDpr();
+  if (dpr !== lastDpr) {
+    lastDpr = dpr;
+    resize();
+  }
   const previousTime = lastFrameTime;
   lastFrameTime = time;
   const elapsed = previousTime === 0 ? 16.7 : Math.min(50, time - previousTime);
@@ -725,7 +762,7 @@ function loop(time: number): void {
     Math.abs(motion.inertia) > 0.01 &&
     W > 0
   ) {
-    const yearsPerPx = (state.domain[1] - state.domain[0]) / (W - PAD_X * 2);
+    const yearsPerPx = (state.domain[1] - state.domain[0]) / plotWidth();
     const shift = motion.inertia * elapsed * yearsPerPx;
     const span = state.domain[1] - state.domain[0];
     const full = fullSpan();
@@ -741,10 +778,11 @@ function loop(time: number): void {
       d0 = d1 - span;
       motion.inertia = 0;
     }
+    const anchor = yearAt(W / 2);
     state.domain = [d0, d1];
     motion.inertia *= Math.exp(-elapsed / 180);
     if (Math.abs(motion.inertia) <= 0.01) motion.inertia = 0;
-    draw();
+    drawPreservingAnchor(anchor, W / 2);
   }
   if (wasInertial && Math.abs(motion.inertia) <= 0.01) syncTimelineUrl();
   drawStars(time);
@@ -754,26 +792,29 @@ function loop(time: number): void {
 function resizeChart(): void {
   const width = dom.stage.clientWidth;
   const height = dom.stage.clientHeight;
+  const dpr = currentDpr();
   setViewportSize(width, height);
-  dom.canvas.width = Math.round(width * DPR);
-  dom.canvas.height = Math.round(height * DPR);
-  ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  dom.canvas.width = Math.round(width * dpr);
+  dom.canvas.height = Math.round(height * dpr);
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 }
 
 function resize(): void {
   // 顶栏高度决定 stage 的高度，必须先写变量再量尺寸。
   document.documentElement.style.setProperty('--topbar-h', `${dom.topbar.offsetHeight}px`);
+  const dpr = currentDpr();
   resizeChart();
-  dom.stars.width = Math.round(window.innerWidth * DPR);
-  dom.stars.height = Math.round(window.innerHeight * DPR);
+  dom.stars.width = Math.round(window.innerWidth * dpr);
+  dom.stars.height = Math.round(window.innerHeight * dpr);
   dom.stars.style.width = `${window.innerWidth}px`;
   dom.stars.style.height = `${window.innerHeight}px`;
-  sctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  sctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   const ribbon = dom.ribbon.parentElement as HTMLElement;
-  dom.ribbon.width = Math.round(ribbon.clientWidth * DPR);
-  dom.ribbon.height = Math.round(ribbon.clientHeight * DPR);
-  rctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  dom.ribbon.width = Math.round(ribbon.clientWidth * dpr);
+  dom.ribbon.height = Math.round(ribbon.clientHeight * dpr);
+  rctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   ensureDomain();
+  syncCardModal();
   rebuildLayout();
   draw();
 }

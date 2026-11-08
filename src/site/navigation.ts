@@ -70,10 +70,12 @@ export function wireSiteMenu(root: ParentNode = document): void {
   root.addEventListener('keydown', (event) => {
     if (menu !== root.querySelector('#lt-site-menu') || menu.hidden) return;
     if (!(event instanceof KeyboardEvent)) return;
+    // 原生共享 dialog 自己处理 Escape，并恢复到菜单内仍可见的触发按钮。
+    if (root.querySelector('.lt-header-dialog[open]')) return;
     if (event.key === 'Tab') {
-      const links = [...menu.querySelectorAll<HTMLAnchorElement>('a[href]')];
+      const controls = [...menu.querySelectorAll<HTMLElement>('a[href], button:not([disabled])')];
       const first = toggles[0];
-      const last = links.at(-1);
+      const last = controls.at(-1);
       if (!first || !last) return;
       if (event.shiftKey && document.activeElement === first) {
         event.preventDefault();

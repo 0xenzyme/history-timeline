@@ -154,7 +154,7 @@ const ERA_ALIASES: Record<string, string[]> = {
   'sixteen-kingdoms': ['shiliuguo'],
 };
 
-function topicRange(library: Library, entry: CatalogEntry): [number, number] | null {
+export function topicRange(library: Library, entry: CatalogEntry): [number, number] | null {
   const cached = rangeCache.get(entry.id);
   if (cached !== undefined) return cached;
   const loaded = library.topicCache.get(entry.id);

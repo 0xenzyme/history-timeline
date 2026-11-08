@@ -91,12 +91,17 @@
           <section class="lt-filter-group" aria-labelledby="filter-groups-title">
             <h2 id="filter-groups-title">分类</h2>
             <label class="lt-filter-check"
-              ><input type="checkbox" data-group="people" checked /> <span>人物</span></label
-            >
-            <label class="lt-filter-check"><input type="checkbox" data-group="war" checked /> <span>战事</span></label>
+              ><input type="checkbox" data-group="people" checked /> <span>人物</span
+              ><span class="lt-filter-count" data-group-count="people"></span
+            ></label>
             <label class="lt-filter-check"
-              ><input type="checkbox" data-group="history" checked /> <span>历史事件</span></label
-            >
+              ><input type="checkbox" data-group="war" checked /> <span>战事</span
+              ><span class="lt-filter-count" data-group-count="war"></span
+            ></label>
+            <label class="lt-filter-check"
+              ><input type="checkbox" data-group="history" checked /> <span>历史事件</span
+              ><span class="lt-filter-count" data-group-count="history"></span
+            ></label>
           </section>
 
           <section class="lt-filter-group" aria-labelledby="filter-lanes-title">
@@ -133,7 +138,14 @@
       <!-- 中央：朝代场景头 + 画布 + 图例与缩放。 -->
       <main id="main-content" class="lt-timeline-center">
         <div class="lt-dynasty-head">
-          <button type="button" class="lt-filter-toggle" id="btn-filter-toggle" aria-label="打开分类与筛选">
+          <button
+            type="button"
+            class="lt-filter-toggle"
+            id="btn-filter-toggle"
+            aria-label="打开分类与筛选"
+            aria-controls="lane-panel"
+            aria-expanded="false"
+          >
             筛选
           </button>
           <button type="button" class="lt-dynasty-arrow" id="topic-prev" aria-label="上一个专题">‹</button>
@@ -156,6 +168,10 @@
             <span class="lt-legend-item"><i class="lt-legend-history"></i>历史事件</span>
           </div>
           <p class="hint" id="hint">滚轮缩放 · 拖动平移 · 点击人物或事件</p>
+          <details class="timeline-accessible-entities" id="timeline-accessible-entities" aria-label="当前时间窗实体">
+            <summary>实体列表</summary>
+            <ul id="timeline-entity-list"></ul>
+          </details>
           <div class="lt-zoom" role="group" aria-label="视图控制">
             <button type="button" class="tool" id="btn-reset" title="回到当前视图的全览位置">复位</button>
             <button type="button" class="tool" id="zoom-out" aria-label="缩小">−</button>
@@ -163,16 +179,13 @@
             <button type="button" class="tool" id="zoom-in" aria-label="放大">+</button>
           </div>
         </div>
-        <details class="timeline-accessible-entities" id="timeline-accessible-entities">
-          <summary>当前时间窗实体</summary>
-          <ul id="timeline-entity-list"></ul>
-        </details>
       </main>
 
       <!-- 右栏：详情预览（02 固定栏，不覆盖画布）。 -->
       <aside class="card lt-timeline-detail" id="card" aria-live="polite" aria-label="详情">
         <button type="button" class="card-close" id="card-close" aria-label="关闭详情">×</button>
         <div id="card-body"></div>
+        <div id="card-actions"></div>
         <p class="lt-detail-empty" id="detail-empty">选择人物或事件，在这里查看预览。</p>
       </aside>
     </div>

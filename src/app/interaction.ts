@@ -4,7 +4,7 @@
  */
 
 import type { EventRecord } from '../types';
-import { AXIS_H, BAR_H, PAD_X, barTop } from './layout';
+import { AXIS_H, LANE_TITLE_H, itemHeight, itemTop } from './layout';
 import { FONT_SANS, clamp } from './util';
 import {
   chipMatchEvent,
@@ -13,7 +13,9 @@ import {
   fullSpan,
   hdrH,
   labelPlacements,
+  largeLayoutActive,
   maxScroll,
+  plotWidth,
   ribbonXAt,
   xOf,
   yearAt,
@@ -50,10 +52,16 @@ export function hitTest(px: number, py: number): Selection | null {
     if (contentY < lane.y || contentY > lane.y + lane.height) continue;
     const placements = labelPlacements(ctx, lane);
     for (const item of lane.items) {
-      const yTop = barTop(lane, item.row);
-      if (contentY < yTop - 1 || contentY > yTop + BAR_H + 1) continue;
+      const yTop = itemTop(lane, item);
+      if (item.kind === 'person' && lane.presentation === 'large') {
+        const rowTop = lane.y + LANE_TITLE_H + item.row * lane.pitch;
+        if (contentY >= rowTop && contentY <= rowTop + lane.pitch) return { kind: item.kind, id: item.id };
+        continue;
+      }
+      const height = itemHeight(lane, item);
+      if (contentY < yTop - 1 || contentY > yTop + height + 1) continue;
       const rect = entryRect(item);
-      ctx.font = `11px ${FONT_SANS}`;
+      ctx.font = `12px ${FONT_SANS}`;
       const labelWidth = ctx.measureText(rect.label).width;
       const placement = placements.get(item.id) ?? 'none';
       let x0 = rect.x0 - 2;
@@ -83,6 +91,30 @@ export function hover(event: PointerEvent): void {
   tooltip.hidden = false;
   tooltip.style.left = `${event.clientX + 12}px`;
   tooltip.style.top = `${event.clientY + 14}px`;
+}
+
+/** 布局密度改变绘图区左边距后，重新对齐指针锚点；返回是否发生了坐标修正。 */
+export function drawPreservingAnchor(anchor: number, px: number): boolean {
+  const previousMode = largeLayoutActive();
+  draw();
+  if (previousMode === largeLayoutActive()) return false;
+  const delta = anchor - yearAt(px);
+  if (Math.abs(delta) < 0.01) return false;
+  const full = fullSpan();
+  const span = state.domain[1] - state.domain[0];
+  let d0 = state.domain[0] + delta;
+  let d1 = state.domain[1] + delta;
+  if (d0 < full[0]) {
+    d0 = full[0];
+    d1 = d0 + span;
+  }
+  if (d1 > full[1]) {
+    d1 = full[1];
+    d0 = d1 - span;
+  }
+  state.domain = [Math.round(d0), Math.round(d1)];
+  draw();
+  return true;
 }
 
 // ---------- 画布指针 ----------
@@ -125,6 +157,7 @@ export function canvasPointer(): void {
       x: event.clientX,
       y: event.clientY,
       domain: [state.domain[0], state.domain[1]],
+      anchor: yearAt(event.clientX - dom.canvas.getBoundingClientRect().left),
       scrollY: state.scrollY,
       moved: false,
       lastX: event.clientX,
@@ -141,7 +174,12 @@ export function canvasPointer(): void {
       const span = clamp((pinch.domain[1] - pinch.domain[0]) * factor, 4, full[1] - full[0]);
       const ratio = (pinch.anchor - pinch.domain[0]) / (pinch.domain[1] - pinch.domain[0]);
       state.domain = [Math.round(pinch.anchor - span * ratio), Math.round(pinch.anchor + span * (1 - ratio))];
-      draw();
+      const rect = dom.canvas.getBoundingClientRect();
+      const centerX = (first.x + second.x) / 2 - rect.left;
+      if (drawPreservingAnchor(pinch.anchor, centerX)) {
+        pinch.domain = [state.domain[0], state.domain[1]];
+        pinch.distance = Math.max(1, Math.abs(first.x - second.x));
+      }
       return;
     }
     const drag = motion.drag;
@@ -160,7 +198,7 @@ export function canvasPointer(): void {
     const rawDy = event.clientY - drag.y;
     const dy = event.pointerType === 'touch' && Math.abs(dx) > Math.abs(rawDy) ? 0 : rawDy;
     if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
-    const yearsPerPx = (drag.domain[1] - drag.domain[0]) / (W - PAD_X * 2);
+    const yearsPerPx = (drag.domain[1] - drag.domain[0]) / plotWidth();
     const shift = dx * yearsPerPx;
     const span = drag.domain[1] - drag.domain[0];
     const full = fullSpan();
@@ -176,7 +214,11 @@ export function canvasPointer(): void {
     }
     state.domain = [d0, d1];
     state.scrollY = clamp(drag.scrollY - dy, 0, maxScroll());
-    draw();
+    const rect = dom.canvas.getBoundingClientRect();
+    if (drawPreservingAnchor(drag.anchor, event.clientX - rect.left)) {
+      drag.domain = [state.domain[0], state.domain[1]];
+      drag.x = event.clientX;
+    }
   });
   dom.canvas.addEventListener('pointerup', (event) => {
     pointers.delete(event.pointerId);
@@ -333,7 +375,7 @@ export function zoomAt(px: number, factor: number): void {
     nd1 = full[1];
   }
   state.domain = [Math.round(nd0), Math.round(nd1)];
-  draw();
+  drawPreservingAnchor(anchor, px);
 }
 
 export function zoomBy(factor: number): void {
@@ -342,6 +384,7 @@ export function zoomBy(factor: number): void {
 }
 
 export function panByFraction(fraction: number): void {
+  const anchor = yearAt(W / 2);
   const span = state.domain[1] - state.domain[0];
   const shift = span * fraction;
   const full = fullSpan();
@@ -356,7 +399,7 @@ export function panByFraction(fraction: number): void {
     d0 = d1 - span;
   }
   state.domain = [Math.round(d0), Math.round(d1)];
-  draw();
+  drawPreservingAnchor(anchor, W / 2);
 }
 
 // ---------- 键盘 ----------
@@ -374,6 +417,8 @@ export function isTyping(): boolean {
 export function keyboardEvents(): void {
   window.addEventListener('keydown', (event) => {
     if (!document.body.classList.contains('timeline-app') || document.querySelector('#app')?.hasChildNodes()) return;
+    // 共享帮助与设置 dialog 自己处理键盘；Escape 不能穿透后关闭年表详情。
+    if (document.querySelector('.lt-header-dialog[open]')) return;
     if (event.key === 'Escape') {
       dom.lanePanel.classList.remove('open');
       dom.exportMenu.hidden = true;
